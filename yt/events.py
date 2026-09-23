@@ -13,6 +13,7 @@ import sqlite3
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+import numpy as np
 import pandas as pd
 
 PT = ZoneInfo("America/Los_Angeles")
@@ -188,6 +189,46 @@ def classify_yt_sentences(text: str) -> dict[str, int]:
     return out
 
 
+# Water temperature stated in report text (D-C01). A value is a 50-79 F number followed by a degree
+# marker, in a sentence that talks about water and not about air.
+_TEMP = re.compile(r"(?<![\d.])([5-7]\d(?:\.\d)?)(?:\s*(?:-|\u2013|to|/)\s*([5-7]\d(?:\.\d)?))?\s*"
+                   r"(?:\u00b0\s*F?|\u00ba|degrees?|degree[\u2019'`]?s|deg\b|F\b(?=\s*(?:water|temp)))", re.I)
+_WATER = re.compile(r"(?i)water|temp|WTMP|SST|green|blue|clean|color|break|surface")
+_NOTWATER = re.compile(r"(?i)\bair\b|ATMP|deg true|high of|\bhighs?\b|outside temp|at the dock|\blows?\b|fever")
+# Markers of offshore / non-local water inside a "local" region passage (bank numbers, GPS,
+# mileage, tuna, station tables); such sentences are not counted as inshore temperatures.
+_OFFSHORE = re.compile(r"(?i)\b\d{2}\.\d{2}(?:\.\d+)?\s*[x\u00d7]|\bx\s*11[78]\b|\b(?:209|302|267|238|1010|425|371|181|"
+                       r"178|182|224|290|312|43|500|mile|miles|bank|tuna|bluefin|yellowfin|YFT|BFT|dorado|"
+                       r"albacore|pens|canyon|Water Temps|Hueneme|Ventura|Anacapa|San Pedro|Santa Monica)\b")
+
+
+def water_temps(text: str, inshore: bool = False) -> list[float]:
+    """Water temperatures (F) stated in `text`; a range 'a-b' counts as its midpoint."""
+    out = []
+    for sent in _SENT_SPLIT.split(text):
+        if _NOTWATER.search(sent) or not _WATER.search(sent) or (inshore and _OFFSHORE.search(sent)):
+            continue
+        for m in _TEMP.finditer(sent):
+            a = float(m.group(1)); b = float(m.group(2)) if m.group(2) else a
+            out.append((a + b) / 2 if a <= b <= a + 5 else a)
+    return out
+
+
+# Bait availability in local passages (incl. SD / Mission Bay bait-barge lines), D-C01.
+_BAIT = {"sardine": re.compile(r"(?i)\bsardines?\b"), "squid": re.compile(r"(?i)\bsquid\b"),
+         "anchovy": re.compile(r"(?i)\banchov(?:y|ies)\b"), "mackerel": re.compile(r"(?i)\bmackerel\b")}
+
+
+def bait_mentions(text: str) -> dict[str, int]:
+    """Sentences mentioning each bait, excluding negated ones ('no squid')."""
+    out = {k: 0 for k in _BAIT}
+    for sent in _SENT_SPLIT.split(text):
+        for k, r in _BAIT.items():
+            if r.search(sent) and not _NEG.search(sent):
+                out[k] += 1
+    return out
+
+
 def region_texts(text: str) -> dict[str, str]:
     marks = [(m.start(), _KEY2REG[m.group(0)]) for m in _REGION_RE.finditer(text)]
     out = {r: [] for r in REGIONS}
@@ -236,8 +277,64 @@ def load_fishdope(db: sqlite3.Connection) -> tuple[pd.DataFrame, pd.DataFrame]:
         for reg in ("local", "coronado", "north"):
             for k, v in classify_yt_sentences(rt[reg]).items():
                 c[f"{reg}_{k}"] = v
-        rows.append({"src_id": rid, "report_date": pd.Timestamp(day), "available_at": pd.Timestamp(t),
+        wt_all, wt_loc = water_temps(text), water_temps(rt["local"], inshore=True)
+        env = {"wt_all": float(np.median(wt_all)) if wt_all else np.nan, "wt_all_n": len(wt_all),
+               "wt_local": float(np.median(wt_loc)) if wt_loc else np.nan,
+               **{f"bait_local_{k}": v for k, v in bait_mentions(rt["local"]).items()}}
+        rows.append({"src_id": rid, "report_date": pd.Timestamp(day), "available_at": pd.Timestamp(t), **env,
                      "stamp_kind": "published" if p else "assumed_19pt", "migrated": bool(u and u.date().isoformat() == BULK_MIGRATION_DAY),
                      **{f"yt_{k}": v for k, v in c.items()}})
     df = pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)
     return df, pd.DataFrame(rejected, columns=["src_id", "report_date", "reason"])
+
+
+# ------------------------------------------------------------------ NWS coastal waters forecast (D-C02)
+MF_ZONE = "PZZ750"  # coastal waters San Mateo Pt to Mexican border, out 30 nm (2005-2019 zone code)
+_DISPLAY = re.compile(r"(\d{1,2})(\d\d) (AM|PM) (P[SD]T) \w{3} (\w{3}) (\d{1,2}) (\d{4})")
+_SOUTH = {"S", "SSW", "SW", "SSE"}
+_OFFSHORE_WIND = {"NE", "ENE", "E", "ESE", "SE", "NNE"}
+
+
+def _display_time(s: str | None) -> datetime | None:
+    """Issue time as printed in the product header, as naive PT."""
+    m = _DISPLAY.search(s or "")
+    if not m:
+        return None
+    try:
+        d = datetime.strptime(f"{m[5]} {m[6]} {m[7]}", "%b %d %Y")
+    except ValueError:
+        return None
+    return d.replace(hour=int(m[1]) % 12 + (12 if m[3] == "PM" else 0), minute=int(m[2]))
+
+
+def load_marine_forecasts(db: sqlite3.Connection, zone: str = MF_ZONE) -> pd.DataFrame:
+    """Daytime periods of the NWS CWF for `zone`, one row per (product, valid_date).
+    available_at = the later of the archived as-issued time (IEM utcvalid) and the
+    issue time printed in the product header (they disagree on 4 of 7,987 2010-14 products)."""
+    q = """SELECT m.id, p.issue_time_utc, p.issue_local_display, m.period_label, m.valid_date, m.wind_dir,
+                  m.wind_max_kt, m.gust_kt, m.seas_max_ft, m.wind_waves_max_ft, m.swell_json
+           FROM marine_forecasts m JOIN marine_forecast_products p USING (product_id)
+           WHERE m.zone_code=? AND m.parse_status != 'failed'"""
+    rows = []
+    for rid, iu, disp, lab, vd, wdir, wmax, gust, seas, ww, sj in db.execute(q, (zone,)):
+        if "NIGHT" in lab.upper():
+            continue  # daytime periods only (.TODAY / .MON ...): the half-day fishing window
+        issued = datetime.fromisoformat(iu)
+        if issued.tzinfo is None:
+            issued = issued.replace(tzinfo=ZoneInfo("UTC"))
+        t = issued.astimezone(PT).replace(tzinfo=None)
+        dt = _display_time(disp)
+        if dt is not None:
+            t = max(t, dt)
+        sw = json.loads(sj or "[]")
+        h = lambda c: max([x.get("height_max_ft") or 0.0 for x in c] or [0.0])
+        rows.append({
+            "src_id": rid, "target_date": pd.Timestamp(vd), "available_at": pd.Timestamp(t),
+            "mf_wind_max": wmax, "mf_gust": gust if gust is not None else 0.0,
+            "mf_seas": seas if seas is not None else (h(sw) if ww is None else max(ww, h(sw))),
+            "mf_wind_offshore": int((wdir or "") in _OFFSHORE_WIND),
+            "mf_wind_south": int((wdir or "") in _SOUTH),
+            "mf_swell_south": h([x for x in sw if x.get("dir") in _SOUTH]),
+            "mf_swell_west": h([x for x in sw if x.get("dir") not in _SOUTH]),
+        })
+    return pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)

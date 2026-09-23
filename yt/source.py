@@ -18,7 +18,8 @@ SOURCE_REPO = Path(os.environ.get("YT_SOURCE_REPO", "/home/user/Daily-Fishing-Pr
 CACHE_DIR = Path(__file__).resolve().parents[1] / "cache"
 
 # The only dump files read. Adding a table here is a logged decision.
-DUMPS = ("landing_counts.sql.gz", "conditions_daily.sql.gz", "fishdope_reports.sql.gz")  # D-020
+DUMPS = ("landing_counts.sql.gz", "conditions_daily.sql.gz", "fishdope_reports.sql.gz",  # D-020
+         "marine_forecast_products.sql.gz", "marine_forecasts.sql.gz")  # D-C02
 
 
 def _sha256(path: Path) -> str:

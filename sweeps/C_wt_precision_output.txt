@@ -1,0 +1,76 @@
+configurations scored: 0
+all-region extractions: 1437   inshore-local extractions: 109
+
+== sample A: all regions (is the value a water temperature?)
+0 2013-08-24 63.0 | Ugly cold water spread through out the Islands and shut down everything except for some tiny Rockfish62 to 64 degrees and streaky was the intel this morning.The SST shows North Island has some good warm water so maybe th
+1 2011-09-11 66.0 | The temp isn't so bad as it is running 65 to 67 degrees but the water color is very ugly.
+2 2011-04-09 60.1 | Water TempsSanta Monica Pier 55.0 °F Los Angeles, CA 57.0 °FDana Point, CA 59 °FOceanside Offshore, 60 °F La Jolla, CA 60.1 °F Imperial Beach 60 °F
+3 2011-04-05 57.9 | Water TempsSanta Monica Pier 61.0 °F Los Angeles, CA 57.9 °F Oceanside Offshore, CA 63 °F La Jolla, CA 61.9 °F Point Loma, CA 62 °F San Diego, CA 64.0 °F
+4 2010-01-16 59.5 | He fished with his dad just north of the 14 Mile Bank in 59.5F water.
+5 2013-09-16 70.0 | One blind jig strike on the hidden (pic) in 70.0 deg water at noon Sat.
+6 2012-08-29 72.0 | 71-73F water.
+7 2010-08-21 58.0 | Decided on a morning kayak bass trip to newport harbor.2hrs and one lonely spottie later we gave up on the 58 degree water and found a wide open bite on bloody marys at the shorehouse.
+8 2010-07-23 66.55 | 66.5-66.6F water.There are other boats in the area with Albacore on board.
+9 2011-03-10 60.1 | Water TempsSanta Monica Bouy 53.1Santa Monica Pier 55.0 °F LA Harbor 60.1 °FSan Pedro 56.0Dana Point 56.0 La Jolla 57.9 °F San Diego 59.0
+10 2011-05-12 64.9 | Water TempsPort Hueneme 57 °F Ventura 57 °F Santa Monica Bay 61 °F San Pedro 64 °F Los Angeles 59.0 °F Dana Point 65 °F Oceanside 64 °F La Jolla 62.1 °F San Diego 64.9 °F Imperial Beach 60 °F
+11 2011-02-01 57.5 | The stuff at Hill Street is all dried up.The fishing at both Kelps is still slow and the water is off color and cold at 57 to 58 degree’s32.47.58 x 117.16.58· Pacific Beach Artificial Reef
+12 2011-03-15 62.1 | Water TempsSanta Monica Pier 55.9 °F Los Angeles, CA 62.1 °F Dana Point, CA 58.0 °F La Jolla, CA 57.9 °F
+13 2011-04-14 60.0 | Water TempsSanta Monica Pier 55.0 °F San Pedro, CA 60 °F Los Angeles, CA 55.0 °F Dana Point, CA 59 °F Oceanside Offshore 61 °F La Jolla, CA 60.1 °F San Diego, CA 61.0 °F Imperial Beach 60 °F
+14 2010-10-08 64.4 | Water was off color, green and 64.4 degree’sWe caught some short Barracuda, but not much else.Did see a 3/4 day sportie catch 4 Yellows right on the numbers for the Rockpile.There is lots of tern bird’s.
+15 2011-05-04 55.0 | Water TempsPort Hueneme 57 °F Santa Monica Pier 62.1 °FSan Pedro, CA 62 °F Los Angeles, CA 55.0 °F Dana Point, CA 61 °F La Jolla, CA 61.0 °FImperial Beach 60 °F
+16 2012-07-25 65.0 | Nobody home but tons of bait crashing all over out there and plenty of blue whales and dolphins… Out of Dana headed ten miles east of the 181 in 67 degree water until about half way when it went down to 65 degree blue gr
+17 2014-11-08 68.0 | water is very clean and warm at 68 degrees.
+18 2010-07-31 61.0 | The water in the morning was 64.5 degrees, and by noon it had rolled to 61 degrees.
+19 2014-03-12 63.5 | Water is said to be purple/blue and 63.5 degree’s.
+20 2013-09-01 70.4 | Water is 70.4 degrees at the harbor mouth this morning.
+21 2012-03-09 61.5 | Watch to see this happen once the water warms up to 61/62 degree’s.The Yellowtail have been willing to chew on the Surface Iron pretty good when there up and are also going for the Yoyo Iron good too.Try a Blue/White or 
+22 2013-09-27 65.0 | Some chilly 65 degree water is over the area right now.
+23 2011-05-01 55.0 | Water TempsPort Hueneme 57 °F Anacapa Passage 55 °F Ventura 57 °F San Pedro 62 °F Dana Point 61 °F Oceanside 61 °F Point Loma 63 °F
+24 2014-09-24 73.0 | Towards the 209, water got green but up to 73 deg, but we couldn’t find any tuna.
+25 2009-07-29 71.0 | Water was green at the 371 and the Knoll, with better looking water further out – 71 degrees, with some swell/breeze.
+26 2011-04-14 55.0 | Water TempsSanta Monica Pier 55.0 °F San Pedro, CA 60 °F Los Angeles, CA 55.0 °F Dana Point, CA 59 °F Oceanside Offshore 61 °F La Jolla, CA 60.1 °F San Diego, CA 61.0 °F Imperial Beach 60 °F
+27 2009-08-10 66.0 | Louie Prieto on his boat “It’s 4 Reels” out of Ensenada reported in with some good paddy fishing south east of the 238.31.25.386 117.01.000-Paddy 4 yellows to 22 lbs, water 66 degrees31.24786 116.59.878-Paddy 1 16 lb dor
+28 2011-10-02 60.0 | The strong wind from yesterday has dropped water temp to 59 – 61 degree's and it is now brown.
+29 2012-10-16 70.0 | They were fishing 11 miles off the point in 70 degree water for a wide open tuna bite.
+
+== sample B: inshore local (water temp? and inshore San Diego?)
+0 2012-04-30 63.0 | So far this morning the area is quiet with clean 63 degree water.
+1 2012-10-09 65.0 | La Jolla in dirty green 65F water with the current going out to sea the white sea bass was caught by one of his clients.
+2 2012-06-13 65.0 | everything was biting the squid strips.next stop Solana Kelp for very good fishing for Calicos, short cudas, sand bass and Macs.did not see any exotics there but water was clean and 65 degrees.With a half dozen Macs in t
+3 2012-06-10 66.0 | Point Loma66 degree dirty water at
+4 2009-07-03 68.0 | 68F water?
+5 2012-05-16 64.0 | No biters then in green 64 degree water.
+6 2010-07-03 70.25 | Carabella IIWeather Conditions: smooth long period minimum swell, light wind to no wind and overcast skies, water temp 69.5 to 71 degreesFishing Report: Slammed the white seabass in la jolla for the second week in a row,
+7 2011-08-01 64.5 | Water was blue but a cool 64.5 degrees.
+8 2010-12-23 55.0 | These fish were not on the kelp but rather out on the bottom in 140ft on some rocks at the SW Corner spot.Water conditions reported as “Horrible” Cold, 55 degree’s and brown.
+9 2014-04-19 63.0 | Water temp is 63 degrees.
+10 2010-08-19 66.0 | Water is 66 degrees but dirty, which makes for tough bass fishing in the North West region of the kelp.
+11 2012-06-23 66.0 | 66degree water dark blue.
+12 2014-04-08 56.5 | Water is still ugly greenish brown and is around 56-57 degrees.
+13 2011-04-17 63.0 | Water was hovering around 63 degrees.
+14 2011-07-05 58.0 | Point LomaCold 58F water has the kelp on lock down.
+15 2012-07-30 68.0 | Below the surface the water is a warm 67 to 69 degree, clean greenIn the afternoon Yellowtail were active at North West Corner.The water is clean and warm at 69.8 degree’s.
+16 2012-08-28 70.0 | Sea lions were a problem today chomping short barracuda as fast as one can hook them.69-70F water.
+17 2012-01-25 59.0 | Chilly 57°F-59°F water.
+18 2013-09-16 71.0 | Water temp was 71degrees.
+19 2010-11-03 63.0 | 63 deg water temp.
+20 2011-02-14 56.0 | Point LomaCold, 56 degree, off colored water is holding back any kind of steady bite from developing here.
+21 2012-07-20 54.0 | Divers in the area reported cold 54F water only 15′ below the surface off of Table Tops.
+22 2014-07-08 73.5 | Water is very clean and warm at 73.5 degrees.
+23 2012-05-16 61.0 | Point LomaCold, green, 61 degree water reported this morning just outside of
+24 2012-06-09 63.0 | Great looking 63 degree water out here.”
+25 2011-12-31 57.8 | Clean 57.8 deg.
+26 2012-04-02 56.0 | Sick passengers, 56F water and hardly a fish biting.
+27 2010-05-03 64.0 | 64F water.
+28 2012-04-29 64.0 | Clean 64 degree water, just no fish here yet…..Stay tuned though.
+29 2011-02-12 56.0 | Point LomaCold dirty 56 degree water is hampering the bite here.
+
+== Hand-check verdicts (agent C, 2026-09-23)
+Sample A (value is a water temperature actually observed): 29/30. Miss: #21 "once the water warms up to 61/62"
+  (hypothetical). Multi-station "Water Temps" tables (#2,3,9,10,12,13,15,23,26) are real station readings but
+  include LA/Ventura stations; they only enter the all-region mean (wt_all), never wt_local.
+Sample B (inshore local): value is a water temperature 30/30 (#21 is 15 ft subsurface, still water).
+  Location clearly inshore San Diego (La Jolla/Point Loma/Mission Bay/kelp/Solana/Table Tops): 16/30;
+  clearly NOT inshore: 1/30 (#15, Coronado North West Corner); location not stated in the sentence
+  (inside a local passage, no offshore marker): 13/30. So inshore attribution is 16-29/30.
+Coverage: 109 inshore-local values in 5.5 years -> wt_local_* is missing on most days.

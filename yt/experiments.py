@@ -7,8 +7,10 @@ from .evaluate import Spec
 from .features import FEATURES
 
 # Frozen copy of the feature list used by iteration-1 specs (D-017).
-_ALL_V1 = [f for f in FEATURES if f not in ("hd_yt_lastday", "hd_lastday_age")]
-_ALL_V2 = list(FEATURES)
+# Features added by agent C (D-C01/D-C02) are excluded so these lists do not change.
+_PRE_C = [f for f in FEATURES if not f.startswith(("wt_", "bait_", "mf_"))]
+_ALL_V1 = [f for f in _PRE_C if f not in ("hd_yt_lastday", "hd_lastday_age")]
+_ALL_V2 = list(_PRE_C)
 
 SPECS: dict[str, Spec] = {}
 

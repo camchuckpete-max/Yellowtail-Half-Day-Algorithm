@@ -1,0 +1,6 @@
+# configurations scored: 5
+R+D1_C0.01_fixed:0.35          nfeat=15 mcc=0.640 auc=0.893 auc|B1=0=0.766 auc|B1=1=0.78 brier=0.1197 folds={'2012': 0.505, '2013': 0.482, '2014': 0.811}
+e007_repro                     nfeat=28 mcc=0.655 auc=0.891 auc|B1=0=0.763 auc|B1=1=0.771 brier=0.1196 folds={'2012': 0.54, '2013': 0.497, '2014': 0.811}
+R+D1+V2_C0.03_fixed:0.4        nfeat=26 mcc=0.642 auc=0.893 auc|B1=0=0.773 auc|B1=1=0.772 brier=0.1198 folds={'2012': 0.51, '2013': 0.507, '2014': 0.797}
+R+D1+V2_hgb_fixed:0.35         nfeat=26 mcc=0.431 auc=0.809 auc|B1=0=0.707 auc|B1=1=0.665 brier=0.1633 folds={'2012': 0.158, '2013': 0.433, '2014': 0.683}
+R+D1+V2_hgb_fixed:0.4          nfeat=26 mcc=0.423 auc=0.809 auc|B1=0=0.707 auc|B1=1=0.665 brier=0.1633 folds={'2012': 0.132, '2013': 0.419, '2014': 0.685}

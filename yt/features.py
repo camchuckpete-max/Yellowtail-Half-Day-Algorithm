@@ -61,6 +61,31 @@ def _fd_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
     f["fd_local_catchdays_3"] = int((r3.groupby("report_date")["yt_local_catch"].max() > 0).sum()) if len(r3) else 0
     f["fd_local_sight_3"] = int(r3["yt_local_sight"].sum()) if len(r3) else 0
     f["fd_coronado_catch_3"] = int(r3["yt_coronado_catch"].sum()) if len(r3) else 0
+    # v2 evidence: heading/spot-attributed, clause-scoped negation, who/qty/recency/trend (D-A01)
+    def v(df, k):
+        return df[f"yt_v2_{k}"] if len(df) else pd.Series(dtype=float)
+    def smax(df, k):
+        return float(v(df, k).max()) if len(df) else 0.0
+    def ssum(df, k):
+        return float(v(df, k).sum()) if len(df) else 0.0
+    for k in ("local_catch", "local_sight", "local_neg", "local_catch_fresh", "local_neg_fresh", "local_present",
+              "local_catch_boat", "local_catch_priv", "local_spec", "coronado_catch", "coronado_neg", "north_catch",
+              "offshore_catch"):
+        f[f"fd2_{k}_d1"] = min(smax(d1, k), 3.0)
+    f["fd2_local_trend_d1"] = max(-3.0, min(3.0, smax(d1, "local_trend"))) if len(d1) else 0.0
+    f["fd2_local_net_d1"] = (min(smax(d1, "local_catch") + smax(d1, "local_sight"), 3.0) - min(smax(d1, "local_neg"), 3.0))
+    f["fd2_local_qty_d1"] = math.log1p(smax(d1, "local_qty"))
+    for k in ("local_catch", "local_sight", "local_neg", "local_catch_boat", "local_catch_priv", "coronado_catch"):
+        f[f"fd2_{k}_3"] = min(ssum(r3, k), 6.0)
+    f["fd2_local_qty_3"] = math.log1p(smax(r3, "local_qty"))
+    f["fd2_local_catchdays_3"] = int((r3.groupby("report_date")["yt_v2_local_catch"].max() > 0).sum()) if len(r3) else 0
+    f["fd2_local_presdays_3"] = int((r3.groupby("report_date")["yt_v2_local_present"].max() > 0).sum()) if len(r3) else 0
+    f["fd2_local_trend_3"] = max(-4.0, min(4.0, ssum(r3, "local_trend")))
+    r7 = rep(7)
+    f["fd2_local_catchdays_7"] = int((r7.groupby("report_date")["yt_v2_local_catch"].max() > 0).sum()) if len(r7) else 0
+    r30 = rep(30)
+    hit = r30.loc[r30["yt_v2_local_catch"] > 0, "report_date"] if len(r30) else pd.Series(dtype="datetime64[ns]")
+    f["fd2_local_days_since_catch"] = int((D - hit.max()).days) if len(hit) else 31
     f["audit_fd_max_available_at"] = fd_rep["available_at"].max() if len(fd_rep) else pd.NaT
     f["audit_fd_d1_src_id"] = int(d1["src_id"].iloc[-1]) if len(d1) else -1
     return f
@@ -216,4 +241,12 @@ FEATURES = [
     "fd_local_catch_d1", "fd_local_sight_d1", "fd_local_neg_d1", "fd_coronado_catch_d1", "fd_coronado_sight_d1",
     "fd_coronado_neg_d1", "fd_north_catch_d1", "fd_north_sight_d1", "fd_north_neg_d1",
     "fd_local_catch_3", "fd_local_catchdays_3", "fd_local_sight_3", "fd_coronado_catch_3",
+    # v2 FishDope evidence (D-A01)
+    "fd2_local_catch_d1", "fd2_local_sight_d1", "fd2_local_neg_d1", "fd2_local_catch_fresh_d1", "fd2_local_neg_fresh_d1",
+    "fd2_local_present_d1", "fd2_local_catch_boat_d1", "fd2_local_catch_priv_d1", "fd2_local_spec_d1",
+    "fd2_coronado_catch_d1", "fd2_coronado_neg_d1", "fd2_north_catch_d1", "fd2_offshore_catch_d1",
+    "fd2_local_trend_d1", "fd2_local_net_d1", "fd2_local_qty_d1",
+    "fd2_local_catch_3", "fd2_local_sight_3", "fd2_local_neg_3", "fd2_local_catch_boat_3", "fd2_local_catch_priv_3",
+    "fd2_coronado_catch_3", "fd2_local_qty_3", "fd2_local_catchdays_3", "fd2_local_presdays_3", "fd2_local_trend_3",
+    "fd2_local_catchdays_7", "fd2_local_days_since_catch",
 ]

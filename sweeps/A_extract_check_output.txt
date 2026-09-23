@@ -1,0 +1,178 @@
+yt sentences: 14660
+region: Counter({'offshore': 4529, 'other': 4388, 'coronado': 2833, 'local': 1508, 'north': 885, 'none': 517})
+local polarity: Counter({'catch': 465, 'sight': 437, 'mention': 253, 'neg': 215, 'spec': 131, 'list': 7})
+[00] 2013-10-12 head=local reg=local pol=catch qty=3 who=unknown rec=none tr=0
+     A select few have been finding a Yellowtail and/or a big Halibut near the squid during grey light.
+[01] 2013-06-23 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     The Seabass and Yellowtail will find you.95% of the fish are biting the Fly line rigs with very few on the dropper loop rigs.
+[02] 2014-09-05 head=local reg=local pol=catch qty=3 who=unknown rec=none tr=0
+     La Jolla / Point Loma Some large Yellowtail are biting at North west Corner and just below the MPA and to the south of Mission Bay at Hill Street, Green Tanks and the Point Loma Kelp.
+[03] 2010-10-13 head=north reg=local pol=catch qty=3 who=unknown rec=old tr=0
+     A few days ago there was some 15lb class Yellowtail seen at the Del Mar kelp boiling along the front edge of the kelp.
+[04] 2012-10-26 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     The bite on the Yellowtail, Seabass and Halibut ended with the wind but could turn back on after it stop’s blowing.
+[05] 2012-07-20 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     Ended the day with 1 yellowtail taken at pukey point late in the afternoon, 5 calico’s, 1 morey eel (WTF?), and 5 seagulls caught and released.
+[06] 2014-06-04 head=none reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     The Caves, Cove point and inside of the cove is where most of the Yellows are coming from.
+[07] 2014-09-14 head=local reg=local pol=catch qty=1 who=private rec=none tr=0
+     We got the Yellows at La Jolla.
+[08] 2014-10-06 head=local reg=local pol=catch qty=10 who=unknown rec=none tr=1
+     The Ib pipe area is kicking good numbers of 3lb and 6-8lb Yellowtail if you can get them past the Sea Lions Bonito are around.
+[09] 2014-11-10 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=-1
+     La Jolla / Point Loma Mainly slow with a mix of Yellowtail and big Bonito being the prize catches.
+[10] 2012-10-23 head=local reg=local pol=catch qty=1 who=unknown rec=recent tr=0
+     Pacific BeachThe yellowtail and white sea bass bite has wound down but there are still a few fish lingering.
+[11] 2012-04-19 head=local reg=local pol=catch qty=1 who=unknown rec=d1 tr=0
+     Imperial BeachCaptain Rod Melchert of the “Sweet Teresa” took a look for halibut and yellowtail from Point Loma to the Border yesterday.
+[12] 2013-07-03 head=local reg=local pol=catch qty=1 who=unknown rec=d0 tr=0
+     There was a lone Yellowtail caught however this morning.
+[13] 2010-05-13 head=local reg=local pol=catch qty=1 who=unknown rec=d0 tr=0
+     A quick Yellowtail snap along the kelpline this morning and that was it.
+[14] 2010-06-27 head=local reg=local pol=catch qty=3 who=unknown rec=d0 tr=0
+     This afternoon it was reported that there was only a few Yellowtail taken on the North West Corner of the kelp as well as Squid being harder to jig all day.
+[15] 2014-10-08 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     These Yellows are mostly in the 15 to 25lb class with a few bigger and smaller than that.
+[16] 2014-02-25 head=local reg=local pol=catch qty=1 who=boat rec=none tr=1
+     The New Seaforth picked up 1 Yellowtail on the PM run at the Northwest Corner and they saw a bunch more.
+[17] 2012-05-19 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     32.51.20 x 117.17.04 Last nights YellowtailWalker sent in a report of wide open Mackerel on bait and 6 short Barracuda caught trolling off La Jolla.
+[18] 2012-04-29 head=local reg=local pol=catch qty=3 who=unknown rec=d0 tr=-1
+     This afternoon some Barracuda popped up under some birds off Point Loma and the first Yellowtail in a long time came from the same area.
+[19] 2013-02-28 head=local reg=local pol=catch qty=1 who=private rec=none tr=0
+     La Jolla Kayaks fishing with Live Squid on a dropper loop rig are the only guys scoring and those who actually score a Yellowtail are small.
+[20] 2013-07-24 head=local reg=local pol=catch qty=1 who=unknown rec=d1 tr=0
+     There was a giant Yellowtail and Seabass caught yesterday but they were a freak catch.
+[21] 2010-05-29 head=local reg=local pol=catch qty=5 who=boat rec=none tr=0
+     Sport boats hooking up 4-5 Yellowtail at a time on small schools losing most.
+[22] 2014-05-22 head=none reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     The fish near china are all 12 to 18lb fish while the deep water Yellows in the cove are in the 22 to 30lb class with a couple pushing the 40lb class.
+[23] 2010-04-04 head=local reg=local pol=catch qty=30 who=boat rec=none tr=0
+     The 3/4 day boat San Diego reported in with 30 Yellowtail for 16 anglers.
+[24] 2014-08-29 head=local reg=local pol=catch qty=3 who=unknown rec=none tr=0
+     La Jolla / Point Loma Some Yellowtail and Bonito along with the regular catches of Calico bass is what is happening in this area.
+[25] 2013-08-21 head=local reg=local pol=catch qty=3 who=unknown rec=d1 tr=0
+     The bite happened yesterday morning very early out by Crystal pier for some yellowtail and a single white seabass.
+[26] 2014-03-15 head=local reg=local pol=catch qty=1 who=private rec=d1 tr=0
+     There was a single Yellowtail caught yesterday by a kayak.
+[27] 2014-11-02 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=-1
+     Point Loma Little sample of small Yellowtail, Sheephead, Bass, Rockfish and Bonito but over all the action is pretty slow.
+[28] 2010-04-04 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     While Rockfishing there was 1 Yellowtail hooked and lost.
+[29] 2011-07-30 head=local reg=local pol=catch qty=1 who=private rec=none tr=0
+     He managed 1 yellowtail for the day and only heard of 1 other taken by private boaters.
+[30] 2010-05-06 head=local reg=local pol=catch qty=2 who=unknown rec=none tr=0
+     Steve ended up catching his first two ever Yellowtail on the surface iron.
+[31] 2013-08-21 head=local reg=local pol=catch qty=1 who=unknown rec=d1 tr=0
+     Mission BayNo more word on the squid or white seabass and yellowtail that bit yesterday morning.
+[32] 2013-08-07 head=local reg=local pol=catch qty=3 who=private rec=d0 tr=0
+     There have been some big Yellowtail biting in the very early morning at the Northwest corner and in the Cove on live Squid, however we didn’t hear of any from last night or this morning.
+[33] 2014-05-15 head=local reg=local pol=catch qty=3 who=unknown rec=none tr=0
+     37-42 up and 33-31 out checked some small kelps landing one small YT (ate a feather).
+[34] 2014-05-25 head=offshore reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     Ended day in IB catching calicos and sandbags out of the kelp waiting for the afternoon yellows.
+[35] 2013-06-21 head=local reg=local pol=catch qty=15 who=unknown rec=d1 tr=1
+     Yesterday the Blue Horizon made a great score boating 12 White Seabass and 15 Yellowtail.
+[36] 2011-08-28 head=local reg=local pol=catch qty=1 who=unknown rec=none tr=0
+     Boats that successfully landed yellowtail were using surface irons and live mackerel.
+[37] 2010-04-10 head=local reg=local pol=catch qty=1 who=private rec=none tr=-1
+     A single White Sea Bass came aboard a kayak inside the kelp, a Yellowtail for a skiff slow trolling a Sardine outside the Kelpline and a baby Thresher Shark for another Kayaker in tight to the kelp.
+[38] 2010-07-25 head=none reg=local pol=catch qty=3 who=unknown rec=d0 tr=0
+     Today White Sea Bass came from West Cove, along with a few fish on the front side Hen Rock, Yellowtail Point.
+[39] 2010-04-26 head=local reg=local pol=catch qty=1 who=private rec=none tr=0
+     He had hooked and lost a single Yellowtail for his day of fishing.
+
+=== NEGATION SAMPLE ===
+[00] 2012-02-22 head=local reg=local pol=neg qty=0 who=unknown rec=d1 tr=0
+     No sign of that Yellowtail or White Seabass that popped up yesterday morning at the Northwest Corner spot.
+[01] 2014-01-17 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=0
+     No reports of any Yellowtail lately.
+[02] 2010-08-27 head=local reg=local pol=neg qty=0 who=private rec=none tr=0
+     Changed directions to not run it over and out squirted Yellowtail as he went by.
+[03] 2013-06-30 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     Didn’t hook any YT on the green macks.
+[04] 2010-04-05 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     One of the easiest ways to tell if a bird school is holding Yellowtail and not porpoise is to watch the birds.
+[05] 2011-05-30 head=local reg=local pol=neg qty=0 who=unknown rec=old tr=0
+     No sign of any Yellowtail or Seabass since late last week.
+[06] 2010-03-14 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=1
+     By no means wide open or good Yellowtail fishing.
+[07] 2011-10-29 head=local reg=local pol=neg qty=0 who=private rec=none tr=1
+     We received no confirmation that any of the yellowtail were landed or what size they were but it is a good news nonetheless!
+[08] 2012-08-23 head=local reg=local pol=neg qty=0 who=private rec=none tr=0
+     Around 2pm Chris noticed some fish up on the surface under tern birds, he wandered over to take a look and found a few nice schools of yellowtail up pushing around bait under the birds with no one around.
+[09] 2014-10-30 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     No Yellowtail for a while now.
+[10] 2013-02-13 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     The yellowtail have not popped back up yet, but could at anytime.
+[11] 2010-05-12 head=local reg=local pol=neg qty=0 who=private rec=none tr=-1
+     No private boaters have seen a Yellowtail and fishing the kelp was very slow.
+[12] 2014-01-19 head=local reg=local pol=neg qty=0 who=private rec=recent tr=0
+     No reports of Yellowtail from the Kayak boys lately either.
+[13] 2010-04-15 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=1
+     The Yellowtail and White Sea Bass bite is not wide open or even decent.
+[14] 2014-07-11 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=0
+     No Yellows and No Seabass lately.
+[15] 2014-04-06 head=local reg=local pol=neg qty=0 who=unknown rec=old tr=0
+     No Yellows seen or caught since before the storms.
+[16] 2014-05-22 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     Nothing new on the Yellowtail but keep an eye open because plenty of Yellows are pushing up the line right now.
+[17] 2013-05-12 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=0
+     No reports of any Yellowtail or White Seabass lately.
+[18] 2013-01-09 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=0
+     No show on the Yellowtail lately.
+[19] 2010-04-05 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     A few fishermen have been going out not finding any Yellowtail.
+[20] 2013-04-28 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     No Yellowtail seen or hooked.
+[21] 2012-08-05 head=local reg=local pol=neg qty=0 who=private rec=none tr=1
+     No signal of the yellowtail as the water isn’t as good as it is up above at NW.There is also some good rockfish action happening out at the whistler if your interested in that stuff.
+[22] 2014-05-24 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     Color doesn’t seem to matter as these 23 to 28lb yellowtail want to bite.
+[23] 2012-06-15 head=local reg=local pol=neg qty=0 who=unknown rec=d1 tr=0
+     No sign of those Barracuda and Yellowtail that were here yesterday in the am, at least so far away.
+[24] 2010-05-27 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     Mission BayThe Yellowtail from the Jetty Kelp to Hill Street have not shown themselves the past two days.
+[25] 2014-11-12 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     La Jolla Big Bonito are the star of the show right now as there hasn’t been any Yellows for a while now.
+[26] 2010-10-30 head=local reg=local pol=neg qty=0 who=unknown rec=d0 tr=0
+     Inside edge of the Pacific Beach reef which is directly out in from of the pier is at 32.47.500 x 117.16.200In other news, No sign of those Yellowtail cruising along the La Jolla kelp in the AM today.
+[27] 2014-02-03 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     No more signal of that Yellowtail running around but they are likely somewhere between Northwest and the Lab.
+[28] 2013-03-28 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     No squid around so the Yellows and seabass that live here are not very willing to come out to play.
+[29] 2013-12-22 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=0
+     No Yellowtail, Seabass or Halibut reported to us in recent days.
+[30] 2014-03-22 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=1
+     No word of any Yellowtail lately although some fish are around and conditions are very good for them right now.
+[31] 2013-04-19 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=-1
+     The kelp is still on the slowside with no Yellowtail seen lately, but if this kind of weather holds for very long some of that Coronado fish could slide up here.
+[32] 2010-05-09 head=local reg=local pol=neg qty=0 who=unknown rec=d0 tr=-1
+     La JollaThe Yellowtail bite died off today.
+[33] 2014-06-25 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=1
+     Water has cleaned up a great deal now at the upper La Jolla areas but no recent sighting of Yellowtail have been made.
+[34] 2014-04-18 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=0
+     Still no Yellowtail caught although the reports of them being seen continue to come in.
+[35] 2012-02-23 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     No sign of those Yellowtail running around.
+[36] 2011-04-17 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     The Yellowtail didn’t show until very late in the day.
+[37] 2013-03-03 head=local reg=local pol=neg qty=0 who=private rec=d0 tr=0
+     No Yellows that we know of Yesterday or today.
+[38] 2014-04-24 head=local reg=local pol=neg qty=0 who=unknown rec=none tr=0
+     Nothing new to report on the Yellows that popped up from Flat Rock to Del Mar.
+[39] 2014-04-20 head=local reg=local pol=neg qty=0 who=unknown rec=recent tr=0
+     Still no Yellowtail caught although the reports of them being seen around La Jolla continue to come in.
+
+=== HAND CHECK (agent A, final extractor code) ===
+Question for each sentence: is the label right for LOCAL half-day waters?
+CATCH sample (seed 4, 40 local 'catch' sentences): wrong = [03] sighting, old, not a catch;
+  [04] bite had ended; [05] Pukey Point is North Island (Coronados); [11] 'took a look for', no catch;
+  [17] GPS label, not a report; [33] offshore kelps; [34] 'waiting for the afternoon yellows';
+  [38] 'Yellowtail Point' is Catalina.  -> 32/40 correct = precision 0.80.
+  (Borderline counted as correct: [01] generic, [23]/[35] boat location not stated but local paragraph.)
+NEG sample (seed 5, 40 local 'neg' sentences): wrong = [02] 'not run it over' (yt present);
+  [04] how-to text; [07] yt reportedly hooked; [08] 'no one around' (yt schools found);
+  [22] 'doesn't seem to matter' (yt biting); [36] yt showed late.  -> 34/40 correct = precision 0.85.
+Earlier development samples (seeds 2, 3, before the last fixes) measured 0.70 and 0.75 catch precision.
+Old D-022 classifier for comparison: 3 of 12 'local mentions' were real local catches.

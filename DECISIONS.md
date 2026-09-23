@@ -171,3 +171,32 @@ Because the best of many configurations is optimistically biased, the dev bar
 (D-009) is necessary but not sufficient: **at most 3 finalists in total** may
 ever be scored on the holdout for Goal 1, and Goal 1 is met only if a finalist
 also clears the D-009 margin there.
+
+## D-A01 FishDope v2 text extraction (agent A, 2026-09-23)
+`events.yt_evidence` / `yt_evidence_summary` replace nearest-keyword attribution with:
+- **Region by paragraph heading** (reports are paragraphs that start with a region heading such as
+  "La Jolla / Point Loma", "Coronado Islands", "Dana Point"; weather/bait-barge/boilerplate headings reset to
+  "none"), overridden per sentence by the nearest named spot (local: La Jolla, NW Corner, Point Loma, PB, IB,
+  Del Mar, Green Tanks, Whistler...; out: Coronados/South Island/Rockpile, north county, offshore banks,
+  paddies, >6 miles, Catalina/SCI/Mexico...). Generic spot names ("the Cove", "kelp line", "MPA") count as local
+  only inside a local/unlabelled paragraph (SCI and Catalina also have "the Cove"). GPS positions are classified
+  by a local box (32.55–33.00 N, 117.10–117.33 W); sentences with ≥2 positions are spot lists, not reports.
+- **Run-together sentences are split** ("today.The", "today.32.25 x ...").
+- **Negation scoped to the yellowtail clause** (clauses split at , ; : but/although/however/while...), and
+  hypothetical text (chance/could/looking for/tournament/"yellowtail bait") is its own class "spec".
+- Per catch sentence: quantity (number or word), who (sportboat/named SD half- or 3/4-day boat vs private),
+  recency (today/yesterday/recent/old), trend words.
+Hand check (`sweeps/A_extract_check_output.txt`): local-catch precision 32/40 = 0.80, local-negation precision
+34/40 = 0.85. Per-report columns are named `yt_v2_*`, so the existing PIT poison test covers them; day
+features `fd2_*` are in `FEATURES` (poison/truncation tested). Rule-based, no learned parameters.
+
+## D-A02 Result: better FishDope text does not add measurable skill (agent A)
+38 configurations in `sweeps/A_sweep1..3` + 1 bootstrap re-score (`sweeps/A_bootstrap*`) = 39 dev scorings.
+Best agent-A config R+D1+V2 (26 features, C=0.03, threshold 0.4): dev MCC 0.642, AUC 0.893, MCC − B1
+bootstrap CI [+0.004, +0.080] — not the +0.05 margin. Catch history alone (R+D1) is 0.640 / AUC 0.893, and
+no FishDope variant (old or v2, 1 to 28 text features, logistic or boosting) moves pooled AUC beyond
+0.891–0.895. Stratified: v2 raises AUC on B1=0 days 0.766 → 0.773 and lowers it on B1=1 days 0.780 → 0.772.
+e007's 0.655 has AUC 0.891 (below R+D1) and is most likely a threshold effect found by selection.
+Water-temperature mentions were checked as an alternative text signal: they appear in only 5–18
+local paragraphs per year (2010–2014), too sparse to use. Registered as spec `eA01` for reproduction only;
+not recommended as a holdout finalist.

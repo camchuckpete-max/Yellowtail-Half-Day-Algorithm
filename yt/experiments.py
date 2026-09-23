@@ -56,3 +56,10 @@ _FSI = ["hd_yt_lastday*fd_local_catch_3", "!hd_yt_lastday*fd_local_catch_3", "hd
         "!hd_yt_lastday*fd_coronado_catch_d1"]
 _add(Spec("e007_recency_d1_fdsent_C003_p35", _R2 + _D1 + _FS + _FSI, "logreg", C=0.03,
           threshold_rule="fixed:0.35", notes="Catch history + sentence-level FishDope catch/sight/negation"))
+
+# --- agent A: v2 FishDope evidence (D-A01/D-A02), best of sweeps/A_sweep1; reproduction only
+_FD2 = ["fd2_local_catch_d1", "fd2_local_neg_d1", "fd2_local_present_d1", "fd2_local_catchdays_3", "fd2_local_presdays_3",
+        "fd2_local_catch_priv_3", "fd2_local_catch_boat_3", "fd2_local_net_d1", "fd2_coronado_catch_d1",
+        "fd2_local_catchdays_7", "fd2_local_days_since_catch"]
+_add(Spec("eA01_recency_d1_fd2_C003_p40", _R2 + _D1 + _FD2, "logreg", C=0.03, threshold_rule="fixed:0.4",
+          notes="Catch history + v2 FishDope evidence (heading/spot regions, scoped negation)"))

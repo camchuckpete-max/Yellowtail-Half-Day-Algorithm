@@ -28,3 +28,5 @@ One line per saved run. Columns: run id | experiment | dev/HOLDOUT | #features |
 | `20260923T211108Z_e005_recency_d1_C001_p35` | e005_recency_d1_C001_p35 (strict) | dev | 15 | 0.574 | 0.871 | 0.536 / 0.436 | [-0.005, 0.104] | 0/1 = 0.000 (lo95 0.000) |
 | `20260923T211117Z_e006_recency_d1_fishdope_C003_p35` | e006_recency_d1_fishdope_C003_p35 | dev | 28 | 0.640 | 0.889 | 0.611 / 0.450 | [0.005, 0.073] | 0/0 = nan (lo95 nan) |
 | `20260923T211127Z_e006_recency_d1_fishdope_C003_p35` | e006_recency_d1_fishdope_C003_p35 (strict) | dev | 28 | 0.554 | 0.863 | 0.536 / 0.436 | [-0.042, 0.094] | 2/7 = 0.286 (lo95 0.082) |
+| `20260923T211536Z_e007_recency_d1_fdsent_C003_p35` | e007_recency_d1_fdsent_C003_p35 | dev | 28 | 0.655 | 0.891 | 0.611 / 0.450 | [0.018, 0.078] | 0/0 = nan (lo95 nan) |
+| `20260923T211626Z_e007_recency_d1_fdsent_C003_p35` | e007_recency_d1_fdsent_C003_p35 (strict) | dev | 28 | 0.532 | 0.867 | 0.536 / 0.436 | [-0.062, 0.071] | 3/10 = 0.300 (lo95 0.108) |

@@ -56,3 +56,11 @@ _FSI = ["hd_yt_lastday*fd_local_catch_3", "!hd_yt_lastday*fd_local_catch_3", "hd
         "!hd_yt_lastday*fd_coronado_catch_d1"]
 _add(Spec("e007_recency_d1_fdsent_C003_p35", _R2 + _D1 + _FS + _FSI, "logreg", C=0.03,
           threshold_rule="fixed:0.35", notes="Catch history + sentence-level FishDope catch/sight/negation"))
+
+# --- agent B (catch-history / fleet), promoted from sweeps/B_sweep2_structure and sweeps/B_sweep3_compact
+_FLEET = ["bt_hot_last", "bt_hot_sailed_d1", "hd_yt_trips_d1", "hd_yt_ewm", "tq_yt_trip_frac_3", "tq_yt_trip_frac_30",
+          "hd_ytrate_60", "d1_surface_frac", "hd_surface_frac_7"]
+_add(Spec("eB01_fleet_C003_mccrange", _R2 + _D1 + _FLEET, "logreg", C=0.03, threshold_rule="mcc_range:0.3:0.5",
+          notes="Catch history + boat/fleet state, 3/4-day success, species mix; inner-OOF threshold in [0.3, 0.5]"))
+_add(Spec("eB02_fleet_fdsent_C003_p35", _R2 + _D1 + _FLEET + _FS + _FSI, "logreg", C=0.03,
+          threshold_rule="fixed:0.35", notes="eB01 features + sentence-level FishDope (e007)"))

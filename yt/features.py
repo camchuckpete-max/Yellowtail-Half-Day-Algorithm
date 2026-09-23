@@ -66,6 +66,87 @@ def _fd_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
     return f
 
 
+MAIN_BOATS = {"New Seaforth": "ns", "Premier": "pr", "Dolphin": "dl", "Daily Double": "dd"}
+SURFACE = ("bonito", "barracuda", "mackerel", "yt", "white_seabass")
+BOTTOM = ("rockfish", "whitefish", "sheephead")
+
+
+def _fleet_features(D: pd.Timestamp, trips: pd.DataFrame, fd: np.ndarray, cls: np.ndarray, yt: np.ndarray,
+                    is_hd: np.ndarray, win) -> dict:
+    """Boat-level state, sailing proxies, species mix and other-fleet trend (D-B02).
+    Reads only the visible prefix passed in by build()."""
+    f: dict = {}
+    boats = trips["boat"].to_numpy()
+    w1, w2, w3 = win(1), win(2, 2), win(3)
+    d1 = w1 & is_hd
+    # Boat state: for each boat with a visible half-day trip in D-3..D-1, did its most
+    # recent visible trip have yellowtail? Did it (any trip) have yt in D-3..D-1? Did it sail D-1?
+    hd3 = w3 & is_hd
+    sub = pd.DataFrame({"boat": boats[hd3], "fd": fd[hd3], "yt": yt[hd3]})
+    hot_last = hot_any = hot_sailed = 0
+    last_state: dict = {}
+    if len(sub):
+        g = sub.groupby(["boat", "fd"])["yt"].sum().reset_index().sort_values("fd")
+        last = g.groupby("boat").tail(1).set_index("boat")
+        anyyt = g.groupby("boat")["yt"].sum() > 0
+        sailed_d1 = set(boats[d1])
+        hot_last = int((last["yt"] > 0).sum())
+        hot_any = int(anyyt.sum())
+        hot_sailed = int(sum(1 for b, v in anyyt.items() if v and b in sailed_d1))
+        last_state = (last["yt"] > 0).to_dict()
+    f["bt_hot_last"] = hot_last          # boats whose latest visible trip (<=3d) had yt
+    f["bt_hot_any3"] = hot_any           # boats with yt on any trip D-3..D-1
+    f["bt_hot_sailed_d1"] = hot_sailed   # ... of those, boats that also reported a trip on D-1
+    for b, k in MAIN_BOATS.items():
+        f[f"bt_{k}_yt_last"] = int(bool(last_state.get(b, False)))
+        f[f"bt_{k}_sailed_d1"] = int(b in set(boats[d1]))
+    f["bt_yt_boats_d1"] = len(set(boats[d1 & (yt > 0)]))
+    f["bt_boats_d1"] = len(set(boats[d1]))
+    f["hd_yt_trips_d1"] = int((d1 & (yt > 0)).sum())
+    f["hd_yt_tw_d2"] = int((w2 & (cls == "hd_twilight") & (yt > 0)).any())
+    # Sailing proxy for D: half-day trips on the same weekday over the previous 4 weeks.
+    n_same = []
+    for k in (7, 14, 21, 28):
+        n_same.append(int((win(k, k) & is_hd).sum()))
+    f["hd_trips_dow_4w"] = float(np.mean(n_same))
+    # D-1 species mix (per trip, D-1 AM/PM only).
+    n1 = int(d1.sum())
+    for sp in ("bonito", "barracuda", "calico", "mackerel", "sand_bass", "halibut", "white_seabass", "rockfish"):
+        v = trips[sp].to_numpy()
+        f[f"d1_{sp}_per_trip"] = float(v[d1].sum()) / n1 if n1 else 0.0
+    surf = sum(trips[sp].to_numpy() if sp != "yt" else yt for sp in SURFACE)
+    bott = sum(trips[sp].to_numpy() for sp in BOTTOM)
+    f["d1_surface_frac"] = float((surf[d1] > 0).mean()) if n1 else 0.0
+    f["d1_bottom_only_frac"] = float(((bott[d1] > 0) & (surf[d1] == 0) & (trips["calico"].to_numpy()[d1] == 0)).mean()) if n1 else 0.0
+    w7 = win(7)
+    n7 = int((w7 & is_hd).sum())
+    f["hd_surface_frac_7"] = float((surf[w7 & is_hd] > 0).mean()) if n7 else 0.0
+    # Other fleet (3/4-day, overnight) yellowtail by fished date, and trend.
+    tq = cls == "three_quarter"
+    ov = np.isin(cls, ("overnight",))
+    f["tq_log_yt_d1"] = math.log1p(float(yt[w1 & tq].sum()))
+    f["tq_yt_trip_frac_3"] = float((yt[w3 & tq] > 0).mean()) if (w3 & tq).any() else 0.0
+    f["ov_log_yt_3"] = math.log1p(float(yt[w3 & ov].sum()))
+    for k in (7, 30):
+        m = win(k) & tq
+        f[f"tq_yt_trip_frac_{k}"] = float((yt[m] > 0).mean()) if m.any() else 0.0
+    w60 = win(60) & is_hd
+    cov60 = len(np.unique(fd[w60]))
+    f["hd_ytrate_60"] = len(np.unique(fd[w60 & (yt > 0)])) / cov60 if cov60 else 0.0
+    f["tq_log_yt_trend"] = math.log1p(float(yt[w3 & tq].sum())) - math.log1p(float(yt[win(7, 4) & tq].sum()))
+    # Exponentially weighted half-day yt-day indicator (half-life 2 days) over D-14..D-1.
+    ytdays = set(pd.DatetimeIndex(fd[is_hd & (yt > 0)]).normalize())
+    covdays = set(pd.DatetimeIndex(fd[is_hd]).normalize())
+    num = den = 0.0
+    for k in range(1, 15):
+        d = D - pd.Timedelta(days=k)
+        if d in covdays:
+            wgt = 0.5 ** ((k - 1) / 2)
+            num += wgt * (d in ytdays); den += wgt
+    f["hd_yt_ewm"] = num / den if den else 0.0
+    return f
+
+
 def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dict:
     cutoff = cutoff_for(D)
     f: dict = {"date": D, "cutoff": cutoff}
@@ -136,6 +217,8 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
         f[f"hd_{sp}_per_trip_7"] = float(v[w7 & is_hd].sum()) / n7 if n7 else 0.0
     last = fd[is_hd & (yt > 0)]
     f["hd_days_since_yt"] = min(365, int((np.datetime64(D) - last.max()) / np.timedelta64(1, "D"))) if len(last) else 365
+
+    f.update(_fleet_features(D, trips, fd, cls, yt, is_hd, win))
 
     no7 = int((w7 & is_oth).sum())
     f["oth_ntrips_7"] = no7
@@ -216,4 +299,14 @@ FEATURES = [
     "fd_local_catch_d1", "fd_local_sight_d1", "fd_local_neg_d1", "fd_coronado_catch_d1", "fd_coronado_sight_d1",
     "fd_coronado_neg_d1", "fd_north_catch_d1", "fd_north_sight_d1", "fd_north_neg_d1",
     "fd_local_catch_3", "fd_local_catchdays_3", "fd_local_sight_3", "fd_coronado_catch_3",
+    # D-B02 fleet / boat-level / species-mix features
+    "bt_hot_last", "bt_hot_any3", "bt_hot_sailed_d1",
+    "bt_ns_yt_last", "bt_ns_sailed_d1", "bt_pr_yt_last", "bt_pr_sailed_d1",
+    "bt_dl_yt_last", "bt_dl_sailed_d1", "bt_dd_yt_last", "bt_dd_sailed_d1",
+    "bt_yt_boats_d1", "bt_boats_d1", "hd_yt_trips_d1", "hd_yt_tw_d2", "hd_trips_dow_4w",
+    "d1_bonito_per_trip", "d1_barracuda_per_trip", "d1_calico_per_trip", "d1_mackerel_per_trip",
+    "d1_sand_bass_per_trip", "d1_halibut_per_trip", "d1_white_seabass_per_trip", "d1_rockfish_per_trip",
+    "d1_surface_frac", "d1_bottom_only_frac", "hd_surface_frac_7",
+    "tq_log_yt_d1", "tq_yt_trip_frac_3", "ov_log_yt_3", "tq_log_yt_trend", "hd_yt_ewm",
+    "tq_yt_trip_frac_7", "tq_yt_trip_frac_30", "hd_ytrate_60",
 ]

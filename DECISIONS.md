@@ -171,3 +171,38 @@ Because the best of many configurations is optimistically biased, the dev bar
 (D-009) is necessary but not sufficient: **at most 3 finalists in total** may
 ever be scored on the holdout for Goal 1, and Goal 1 is met only if a finalist
 also clears the D-009 margin there.
+
+## D-B01 Extra species columns in trips (agent B, 2026-09-23)
+`events.load_trips` also carries mackerel, sand_bass, halibut, white_seabass, sheephead and
+whitefish counts per trip (kept + released), for D-1 species-mix context. All added to the
+poison list in `tests/test_pit.py`.
+
+## D-B02 Boat/fleet catch-history features (agent B)
+`features._fleet_features`, reading only the visible prefix: boat state over D-3..D-1
+(`bt_hot_last` = boats whose latest visible half-day trip had yt; `bt_hot_any3`;
+`bt_hot_sailed_d1` = hot boats that also reported a D-1 trip, a proxy for sailing D),
+flags for the four main boats, D-1 yt trips/boats, D-2 twilight yt, same-weekday trip count
+over 4 weeks (proxy for trips on D), D-1 species mix (per-trip bonito/barracuda/calico/
+mackerel/..., surface-species fraction, bottom-only fraction), 3/4-day yt trip fraction over
+3/7/30 days and trend, overnight yt, half-day yt-day EWM (half-life 2 d), 60-day yt-day rate.
+EDA that motivated the choice was run on 2010–2014 (dev years included), so the feature
+choice itself carries some dev selection.
+
+## D-B03 Model types (agent B)
+`Model` gains `logreg_split` (separate logistic for B1=1 / B1=0 days, pooled fallback if a
+regime has one class), `ens` (mean of logistic and HGB), `avg_subsets` (mean of logistic fits on
+named feature subsets) and optional HGB monotone constraints (`extra["monotone"]`).
+None beat a single L2 logistic: with ≤3 training years the extra flexibility costs more
+variance than it removes bias (sweeps B2, B4, B5).
+
+## D-B04 Threshold rule `mcc_range:lo:hi` (agent B)
+Max inner-OOF MCC restricted to thresholds in [lo, hi] (0.01 grid), so a degenerate inner
+year (2011, 6.7% base rate, D-012) cannot push the threshold to an extreme. Training window only.
+
+## D-B05 Agent B result (Goal 1, catch-history direction)
+50 sweep configurations + 4 finalist runs (dev + strict) = 54 of 60. The new features improve
+probability quality (best Brier 0.1146 vs 0.1197 for e005, AUC 0.897 vs 0.893) but not the hard
+call: best catch-history-only dev MCC 0.645 (eB01), best with FishDope 0.653 (eB02); target 0.661
+not reached. Root cause observed: probabilities are under-calibrated in hot test years (2012) because
+the frozen model is trained on cold years, and B1=0 days rarely get above ~0.4, so the yes/no call
+stays close to B1.

@@ -84,6 +84,13 @@ def load_trips(db: sqlite3.Connection, strict: bool = False) -> pd.DataFrame:
             "barracuda": counts.get("barracuda", 0),
             "calico": counts.get("calico_bass", 0),
             "rockfish": counts.get("rockfish", 0),
+            # D-B01: extra species for D-1 species-mix context (surface vs bottom fishing)
+            "mackerel": counts.get("mackerel", 0),
+            "sand_bass": counts.get("sand_bass", 0),
+            "halibut": counts.get("halibut", 0),
+            "white_seabass": counts.get("white_seabass", 0),
+            "sheephead": counts.get("sheephead", 0),
+            "whitefish": counts.get("whitefish", 0),
             "available_at": _available_at(rd, cls, strict),
         })
     df = pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)

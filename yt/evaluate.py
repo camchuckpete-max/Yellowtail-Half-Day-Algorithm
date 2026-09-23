@@ -1,12 +1,12 @@
 """Walk-forward evaluation, baselines, metrics and auditable run artifacts.
 
 Protocol (DECISIONS.md D-006..D-010):
-  * Dev folds: test years 2012, 2013, 2014. Each fold trains ONLY on target
+  * Dev folds: test years 2012-2016 (D-027). Each fold trains ONLY on target
     days < (first test day - 1 day) so every training label was fully known
     at the first prediction's cutoff. The model is frozen for the whole year.
   * Threshold: chosen on inner walk-forward out-of-fold predictions inside
     the training window (never on the test fold).
-  * Holdout: every target day >= 2015-01-01. Evaluated only with --holdout;
+  * Holdout: every target day >= 2017-01-01 (D-027). Evaluated only with --holdout;
     every access is appended to holdout_access.log.
   * Coverage filter: a target day is scored only if >=5 of the previous 7
     days had half-day reports visible at the cutoff.
@@ -27,8 +27,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import brier_score_loss, matthews_corrcoef, roc_auc_score
 
 ROOT = Path(__file__).resolve().parents[1]
-DEV_YEARS = (2012, 2013, 2014)
-HOLDOUT_START = pd.Timestamp("2015-01-01")
+DEV_YEARS = (2012, 2013, 2014, 2015, 2016)   # D-027 (was 2012-2014 through run e007/sweep 4)
+HOLDOUT_START = pd.Timestamp("2017-01-01")   # D-027 (was 2015-01-01; never accessed)
 MIN_COV7 = 5
 # Breakout-eligible day: no half-day yellowtail visible in D-3..D-1 (D-015, user
 # change 2026-09-23; was D-7..D-1 under D-013).
@@ -45,6 +45,8 @@ class Spec:
     subset: str = "all"            # all | breakout (train/score only BREAKOUT_COL == 0 days)
     threshold_rule: str = "mcc"    # mcc | precision>=P
     clip_z: float = 4.0            # logreg: clip standardized inputs to +-clip_z (D-011)
+    retrain: str = "year"          # year | month: refit cadence inside a test fold (D-026)
+    halflife_days: float = 0.0     # >0: training rows weighted 0.5**(age/halflife) (D-026)
     notes: str = ""
     extra: dict = field(default_factory=dict)
 
@@ -68,7 +70,7 @@ class Model:
     # D-B03: composite model types built from the base learners.
     #   logreg_split: separate logistic fits for regime B1=1 and B1=0 (spec.extra["split_col"])
     #   ens:          mean of logistic and HGB probabilities
-    def fit(self, X: pd.DataFrame, y: np.ndarray) -> "Model":
+    def fit(self, X: pd.DataFrame, y: np.ndarray, w: np.ndarray | None = None) -> "Model":
         if self.spec.model == "logreg_split":
             col = self.spec.extra.get("split_col", "hd_yt_lastday")
             self.parts = {}
@@ -78,14 +80,14 @@ class Model:
                               "C": self.spec.extra.get(f"C{v}", self.spec.C)})
                 if len(set(y[m])) < 2:  # regime has one class in this window: fall back to pooled fit
                     m = np.ones(len(y), dtype=bool)
-                self.parts[v] = Model(sub).fit(X[m].drop(columns=[col]), y[m])
+                self.parts[v] = Model(sub).fit(X[m].drop(columns=[col]), y[m], None if w is None else w[m])
             return self
         if self.spec.model == "avg_subsets":  # D-B03: mean of logistic fits on named feature subsets
-            self.parts = {i: Model(Spec(**{**self.spec.__dict__, "model": "logreg", "features": fs})).fit(X[fs], y)
+            self.parts = {i: Model(Spec(**{**self.spec.__dict__, "model": "logreg", "features": fs})).fit(X[fs], y, w)
                           for i, fs in enumerate(self.spec.extra["subsets"])}
             return self
         if self.spec.model == "ens":
-            self.parts = {k: Model(Spec(**{**self.spec.__dict__, "model": k})).fit(X, y) for k in ("logreg", "hgb")}
+            self.parts = {k: Model(Spec(**{**self.spec.__dict__, "model": k})).fit(X, y, w) for k in ("logreg", "hgb")}
             return self
         X = self._tx(X)
         self.med = X.median(numeric_only=True).fillna(0.0)
@@ -94,14 +96,14 @@ class Model:
             self.mu = Xf.mean()
             self.sd = Xf.std(ddof=0).replace(0, 1.0)
             Z = self._z(Xf)
-            self.clf = LogisticRegression(C=self.spec.C, max_iter=5000).fit(Z.to_numpy(), y)
+            self.clf = LogisticRegression(C=self.spec.C, max_iter=5000).fit(Z.to_numpy(), y, sample_weight=w)
         else:
             p = dict(max_depth=3, learning_rate=0.05, max_iter=200, l2_regularization=1.0, random_state=0)
             p.update(self.spec.extra.get("hgb", {}))
             mono = self.spec.extra.get("monotone")  # D-B03: {feature: +1/-1}, others 0
             if mono:
                 p["monotonic_cst"] = [int(mono.get(c, 0)) for c in X.columns]
-            self.clf = HistGradientBoostingClassifier(**p).fit(Xf.to_numpy(), y)
+            self.clf = HistGradientBoostingClassifier(**p).fit(Xf.to_numpy(), y, sample_weight=w)
         return self
 
     def predict(self, X: pd.DataFrame) -> np.ndarray:
@@ -242,6 +244,14 @@ def _pick_threshold(y, p, rule: str) -> tuple[float, dict]:
     return best_t, info
 
 
+def recency_weights(dates: pd.Series, ref: pd.Timestamp, spec: Spec) -> np.ndarray | None:
+    """Weights relative to the first prediction day `ref`; None when weighting is off (D-026)."""
+    if spec.halflife_days <= 0:
+        return None
+    age = (ref - dates).dt.days.to_numpy()
+    return 0.5 ** (age / spec.halflife_days)
+
+
 def _inner_oof(train: pd.DataFrame, spec: Spec) -> tuple[np.ndarray, np.ndarray]:
     ys, ps = [], []
     years = sorted(train["date"].dt.year.unique())
@@ -251,7 +261,7 @@ def _inner_oof(train: pd.DataFrame, spec: Spec) -> tuple[np.ndarray, np.ndarray]
         te = _subset(train[train["date"].dt.year == y], spec)
         if len(tr) < 50 or tr["y"].nunique() < 2 or len(te) == 0:
             continue
-        m = Model(spec).fit(tr[spec.features], tr["y"].to_numpy())
+        m = Model(spec).fit(tr[spec.features], tr["y"].to_numpy(), recency_weights(tr["date"], first, spec))
         ys.append(te["y"].to_numpy()); ps.append(m.predict(te[spec.features]))
     return (np.concatenate(ys), np.concatenate(ps)) if ys else (np.array([]), np.array([]))
 
@@ -290,20 +300,28 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
         assert train["date"].max() < first - pd.Timedelta(days=1)
         yi, pi = _inner_oof(train, spec)
         thr, tinfo = _pick_threshold(yi, pi, spec.threshold_rule) if len(yi) else (0.5, {"rule": "default 0.5"})
-        trs = _subset(train, spec)
-        m = Model(spec).fit(trs[spec.features], trs["y"].to_numpy())
-        p = m.predict(test[spec.features])
-        out = test[["date", "y", "hd_yt_lastday", "hd_ytdays_7", BREAKOUT_COL]].copy()
-        out["fold"] = name
-        out["prob"] = p
-        out["call"] = (p >= thr).astype(int)
-        if spec.subset == "breakout":
-            out.loc[out[BREAKOUT_COL] > 0, "call"] = 0  # model only speaks on breakout-eligible days
-        preds.append(out)
-        fold_info[name] = {"train_first": str(train["date"].min().date()),
-                           "train_last": str(train["date"].max().date()),
-                           "n_train": int(len(trs)), "threshold": thr, "threshold_info": tinfo,
-                           "weights": m.weights()}
+        # Threshold is fixed per fold (chosen from data before the fold); the model itself is
+        # refit per chunk. Each chunk trains only on days < chunk start - 1 day (D-026).
+        chunks = ([(name, test)] if spec.retrain == "year" else
+                  [(f"{name}-{k:02d}", g) for k, g in test.groupby(test["date"].dt.month)])
+        for cname, chunk in chunks:
+            cfirst = chunk["date"].min()
+            ctrain = df[df["date"] < cfirst - pd.Timedelta(days=1)]
+            assert ctrain["date"].max() < cfirst - pd.Timedelta(days=1)
+            trs = _subset(ctrain, spec)
+            m = Model(spec).fit(trs[spec.features], trs["y"].to_numpy(), recency_weights(trs["date"], cfirst, spec))
+            p = m.predict(chunk[spec.features])
+            out = chunk[["date", "y", "hd_yt_lastday", "hd_ytdays_7", BREAKOUT_COL]].copy()
+            out["fold"] = name
+            out["prob"] = p
+            out["call"] = (p >= thr).astype(int)
+            if spec.subset == "breakout":
+                out.loc[out[BREAKOUT_COL] > 0, "call"] = 0  # model only speaks on breakout-eligible days
+            preds.append(out)
+            fold_info[cname] = {"train_first": str(ctrain["date"].min().date()),
+                                "train_last": str(ctrain["date"].max().date()),
+                                "n_train": int(len(trs)), "threshold": thr, "threshold_info": tinfo,
+                                "halflife_days": spec.halflife_days, "weights": m.weights()}
     return pd.concat(preds, ignore_index=True), fold_info
 
 

@@ -31,7 +31,7 @@ records the source commit and the SHA-256 of each dump file it read
    < (first day of Y) − 1, so all its training labels were known before its first
    prediction. Thresholds are chosen on inner walk-forward folds inside the
    training window.
-5. Holdout (all days ≥ 2015-01-01) is scored only with `--holdout`; every access
+5. Holdout (all days ≥ 2017-01-01; was ≥ 2015-01-01 until D-027) is scored only with `--holdout`; every access
    is appended to `holdout_access.log`.
 6. `--strict` re-runs everything with nothing from D-1 visible, as a robustness check.
 
@@ -58,6 +58,6 @@ Runs cannot be saved from uncommitted code (`evaluate.write_run` refuses).
 pip install pandas numpy scikit-learn
 export YT_SOURCE_REPO=/path/to/Daily-Fishing-Prediction   # checkout the commit in data_manifest.json
 python3 tests/test_pit.py
-python3 -m yt.run <experiment-name>            # dev folds 2012-2014
+python3 -m yt.run <experiment-name>            # dev folds 2012-2016
 python3 -m yt.run <experiment-name> --holdout  # holdout (logged)
 ```

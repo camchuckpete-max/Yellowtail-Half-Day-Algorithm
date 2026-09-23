@@ -272,3 +272,15 @@ on low-rate years (2011: 6.7%), so it under-predicts in hot years (2012 B1=no da
 scored 0.20–0.35 were 56% positive; e007 mean dev residual ≈ +0.05). Signals such as
 water temperature shift probabilities but rarely across the call threshold.
 Next: retraining cadence (monthly walk-forward) and recency-weighted training.
+
+## D-027 Dev years extended to 2012–2016; holdout moves to ≥ 2017-01-01
+Source commit b09f41f added full 2015 and 2016 half-day history (345 + 346 days) and
+102 days of 2017. The holdout (≥ 2015-01-01) had never been accessed
+(`holdout_access.log` empty; no sweep or agent evaluated a date ≥ 2015-01-01).
+Before any run touches 2015–2016, the split is redefined: dev folds 2012–2016,
+holdout = every day ≥ 2017-01-01 (grows as the backfill continues). Rationale: two
+more training years address the "too little, too cold training data" diagnosis
+(D-025), and 2015–2016 are genuinely fresh test years for everything found on
+2012–2014. Earlier logged results were on dev 2012–2014; each run's `config.json`
+records its dev years. The D-009 bar is unchanged (pooled dev MCC ≥ best
+baseline + 0.05, bootstrap CI > 0), now over 2012–2016.

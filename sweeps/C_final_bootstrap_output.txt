@@ -1,0 +1,3 @@
+configurations scored: 0 new (re-scores B+WT2_C0.01_fixed:0.35 and B+WTC_C0.03_fixed:0.4)
+B+WT2_C0.01_fixed:0.35       mcc=0.651 auc=0.891 vs B1_yesterday dMCC mean=0.044 CI95=[0.012, 0.074] p(<=0)=0.004
+B+WTC_C0.03_fixed:0.4        mcc=0.650 auc=0.891 vs B1_yesterday dMCC mean=0.047 CI95=[0.013, 0.080] p(<=0)=0.004

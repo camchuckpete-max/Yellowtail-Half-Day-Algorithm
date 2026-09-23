@@ -16,6 +16,7 @@ import pandas as pd
 CUTOFF_HOUR = 21  # 9pm PT, per requirement 2
 SYNODIC = 29.530588853
 REF_NEW_MOON = pd.Timestamp("2000-01-06 18:14")  # astronomical constant (UTC)
+WT_CENTER = 63.0  # F; centring constant for the dense water-temperature features (D-C03)
 
 HD_FISH_CLASSES = ("hd_am", "hd_pm", "hd_unspecified", "hd_twilight")
 OTHER_CLASSES = ("three_quarter", "full_day", "overnight", "multi_day")
@@ -87,6 +88,12 @@ def _env_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
     else:
         clim = float("nan")
     f["wt_anom_7"] = f["wt_all_7"] - clim
+    # Dense version: mean of the latest (up to 5) reports stating a temperature in D-21..D-1,
+    # centred on 63 F (typical SD surface temp); 0 = unknown/typical. Local variant likewise.
+    r21 = rep(21)
+    for src, name in (("wt_all", "wt_c"), ("wt_local", "wt_c_local")):
+        v = r21[src].dropna().tail(5)
+        f[name] = float(v.mean()) - WT_CENTER if len(v) else 0.0
     for b in ("sardine", "squid", "anchovy", "mackerel"):
         f[f"bait_{b}_7"] = int((r7.groupby("report_date")[f"bait_local_{b}"].max() > 0).sum()) if len(r7) else 0
     return f
@@ -263,7 +270,7 @@ FEATURES = [
     "fd_coronado_neg_d1", "fd_north_catch_d1", "fd_north_sight_d1", "fd_north_neg_d1",
     "fd_local_catch_3", "fd_local_catchdays_3", "fd_local_sight_3", "fd_coronado_catch_3",
     # D-C01 / D-C02: environment
-    "wt_all_3", "wt_all_7", "wt_local_7", "wt_local_14", "wt_trend", "wt_max_7", "wt_n_7", "wt_anom_7",
+    "wt_all_3", "wt_all_7", "wt_local_7", "wt_local_14", "wt_trend", "wt_max_7", "wt_n_7", "wt_anom_7", "wt_c", "wt_c_local",
     "bait_sardine_7", "bait_squid_7", "bait_anchovy_7", "bait_mackerel_7",
     "mf_wind_max", "mf_gust", "mf_seas", "mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_swell_west",
 ]

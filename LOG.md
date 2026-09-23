@@ -16,3 +16,11 @@ One line per saved run. Columns: run id | experiment | dev/HOLDOUT | #features |
 | `20260923T204900Z_e004_breakout_logreg` | e004_breakout_logreg | dev | 41 | 0.000 | 0.756 | 0.591 / 0.450 | [-0.663, -0.498] | 0/0 = nan (lo95 nan) |
 | `20260923T204923Z_e003_logreg_recency_p40` | e003_logreg_recency_p40 (strict) | dev | 14 | 0.521 | 0.852 | 0.000 / 0.436 | [-0.021, 0.196] | 0/1 = 0.000 (lo95 0.000) |
 | — | **Above: B1 = D-1 only, breakout window 7 days. Below: B1 = most recent visible day (D-016), breakout window 3 days (D-015).** | | | | | | | |
+| `20260923T205037Z_e001_logreg_all_mcc` | e001_logreg_all_mcc | dev | 41 | 0.520 | 0.854 | 0.611 / 0.450 | [-0.154, -0.013] | 4/7 = 0.571 (lo95 0.250) |
+| `20260923T205046Z_e001_logreg_all_p50` | e001_logreg_all_p50 | dev | 41 | 0.531 | 0.854 | 0.611 / 0.450 | [-0.154, 0.008] | 1/3 = 0.333 (lo95 0.061) |
+| `20260923T205056Z_e001_logreg_all_p40` | e001_logreg_all_p40 | dev | 41 | 0.509 | 0.854 | 0.611 / 0.450 | [-0.167, -0.023] | 4/6 = 0.667 (lo95 0.300) |
+| `20260923T205107Z_e002_hgb_all_p40` | e002_hgb_all_p40 | dev | 41 | 0.449 | 0.815 | 0.611 / 0.450 | [-0.240, -0.084] | 5/18 = 0.278 (lo95 0.125) |
+| `20260923T205116Z_e003_logreg_recency_p50` | e003_logreg_recency_p50 | dev | 14 | 0.574 | 0.879 | 0.611 / 0.450 | [-0.092, 0.032] | 0/0 = nan (lo95 nan) |
+| `20260923T205125Z_e003_logreg_recency_p40` | e003_logreg_recency_p40 | dev | 14 | 0.587 | 0.879 | 0.611 / 0.450 | [-0.076, 0.043] | 0/0 = nan (lo95 nan) |
+| `20260923T205135Z_e004_breakout_logreg` | e004_breakout_logreg | dev | 41 | -0.048 | 0.797 | 0.611 / 0.450 | [-0.744, -0.543] | 1/11 = 0.091 (lo95 0.016) |
+| `20260923T205159Z_e003_logreg_recency_p40` | e003_logreg_recency_p40 (strict) | dev | 14 | 0.521 | 0.852 | 0.536 / 0.436 | [-0.083, 0.072] | 2/11 = 0.182 (lo95 0.051) |

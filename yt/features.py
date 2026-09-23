@@ -82,6 +82,14 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
     f["hd_yt_trip_frac_d1"] = float((yt[d1] > 0).mean()) if d1.any() else 0.0
     f["hd_log_ytfish_d1"] = math.log1p(float(yt[d1].sum()))
     f["hd_yt_landings_d1"] = len(set(trips["landing"].to_numpy()[d1 & (yt > 0)]))
+    f["hd_yt_am_d1"] = int((w1 & (cls == "hd_am") & (yt > 0)).any())
+    f["hd_yt_pm_d1"] = int((w1 & np.isin(cls, ("hd_pm", "hd_unspecified")) & (yt > 0)).any())
+    boats = trips["boat"].to_numpy()
+    f["hd_yt_boats_3"] = len(set(boats[w3 & is_hd & (yt > 0)]))
+    f["hd_yt_boats_7"] = len(set(boats[w7 & is_hd & (yt > 0)]))
+    lands = trips["landing"].to_numpy()
+    for ln in ("seaforth", "fishermans", "hm", "point_loma"):
+        f[f"hd_yt_{ln}_3"] = int((w3 & is_hd & (yt > 0) & (lands == ln)).any())
     w2 = win(2, 2)
     f["hd_yt_d2"] = int(((w2 & is_hd) & (yt > 0)).any())  # D-2 incl. twilight
     f["tq_yt_d1"] = int(((w1 & (cls == "three_quarter")) & (yt > 0)).any())
@@ -163,6 +171,8 @@ FEATURES = [
     "hd_yt_d1", "hd_yt_lastday", "hd_lastday_age", "hd_cov_d1", "hd_ytdays_3", "hd_ytdays_7", "hd_ytdays_14", "hd_ytdays_30",
     "hd_covdays_7", "hd_covdays_30", "hd_ytrate_7", "hd_ytrate_30", "hd_ytdays_prev7",
     "hd_yt_trip_frac_d1", "hd_log_ytfish_d1", "hd_yt_landings_d1", "hd_yt_d2", "tq_yt_d1", "hd_yt_streak",
+    "hd_yt_am_d1", "hd_yt_pm_d1", "hd_yt_boats_3", "hd_yt_boats_7",
+    "hd_yt_seaforth_3", "hd_yt_fishermans_3", "hd_yt_hm_3", "hd_yt_point_loma_3",
     "hd_ntrips_7", "hd_ytfish_per_trip_7", "hd_log_ytfish_7",
     "hd_bonito_per_trip_7", "hd_barracuda_per_trip_7", "hd_calico_per_trip_7", "hd_rockfish_per_trip_7",
     "hd_days_since_yt", "oth_ntrips_7", "oth_yt_per_trip_7", "oth_log_yt_3", "oth_log_yt_7",

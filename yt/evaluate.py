@@ -214,8 +214,26 @@ def folds(df: pd.DataFrame, holdout: bool):
             yield str(y), df[df["date"].dt.year == y]
 
 
+def add_derived(df: pd.DataFrame, names: list[str]) -> pd.DataFrame:
+    """Derived columns named in a spec: 'a*b' = product, '!a' = 1 - a. Row-wise
+    only, so they inherit the PIT property of their inputs."""
+    df = df.copy()
+    def col(n):
+        return 1 - df[n[1:]] if n.startswith("!") else df[n]
+    for n in names:
+        if n in df.columns:
+            continue
+        if "*" in n:
+            a, b = n.split("*")
+            df[n] = col(a) * col(b)
+        elif n.startswith("!"):
+            df[n] = col(n)
+    return df
+
+
 def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.DataFrame, dict]:
     preds, fold_info = [], {}
+    df = add_derived(df, spec.features)
     for name, test in folds(df, holdout):
         first = test["date"].min()
         train = df[df["date"] < first - pd.Timedelta(days=1)]
@@ -288,6 +306,7 @@ def write_run(spec: Spec, df: pd.DataFrame, manifest: dict, pred: pd.DataFrame, 
     (d / "data_manifest.json").write_text(json.dumps({**manifest, **code}, indent=2, default=str))
     (d / "weights.json").write_text(json.dumps(fold_info, indent=2, default=str))
     (d / "metrics.json").write_text(json.dumps(summary, indent=2, default=str))
+    df = add_derived(df, spec.features)
     inputs = df[df["date"].isin(pred["date"])][["date", "cutoff", "audit_max_trip_available_at",
                                                  "audit_fc_src_id", "audit_fc_available_at", *spec.features, "y"]]
     inputs.to_csv(d / "inputs.csv.gz", index=False)

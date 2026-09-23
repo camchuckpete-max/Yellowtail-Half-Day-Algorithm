@@ -106,3 +106,17 @@ the baseline equal or stronger; it differs from the old B1 on 8 dev days.
 ## D-017 Feature lists are frozen per spec
 Specs reference explicit frozen lists (`_ALL_V1`, `_ALL_V2`, ...) rather than the
 live `FEATURES`, so adding a feature never silently changes a spec that has run.
+
+## D-018 Goals are worked strictly in order (user instruction, 2026-09-23)
+Goal 2 starts only after Goal 1 is met (dev + holdout); Goal 3 only after Goal 2.
+`e004_breakout_logreg` was run before this instruction and stays in the log as a
+measurement only. Breakout statistics continue to be reported automatically in
+every run's metrics, but no spec is tuned for Goal 3 until Goals 1–2 are done.
+
+## D-019 Exploratory sweeps
+Wide parameter sweeps (feature set × C × threshold) are run without saving full
+run folders, to keep the repo small. Their complete stdout is committed under
+`sweeps/` with the script that produced them, so every configuration that was
+looked at is visible, not only the ones promoted to named specs. Promoting a
+configuration to a spec after seeing its dev score is a form of selection on dev;
+the holdout exists to catch that.

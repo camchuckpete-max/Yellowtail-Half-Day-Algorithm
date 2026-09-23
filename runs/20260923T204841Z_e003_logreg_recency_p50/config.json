@@ -1,0 +1,35 @@
+{
+  "name": "e003_logreg_recency_p50",
+  "features": [
+    "hd_yt_d1",
+    "hd_ytdays_3",
+    "hd_ytdays_7",
+    "hd_ytdays_30",
+    "hd_days_since_yt",
+    "clim_rate",
+    "doy_sin",
+    "doy_cos",
+    "hd_yt_trip_frac_d1",
+    "hd_log_ytfish_d1",
+    "hd_yt_landings_d1",
+    "hd_yt_d2",
+    "tq_yt_d1",
+    "hd_yt_streak"
+  ],
+  "model": "logreg",
+  "C": 1.0,
+  "subset": "all",
+  "threshold_rule": "fixed:0.5",
+  "clip_z": 4.0,
+  "notes": "Half-day recency + D-1 intensity + seasonality",
+  "extra": {},
+  "holdout": false,
+  "tag": "",
+  "dev_years": [
+    2012,
+    2013,
+    2014
+  ],
+  "holdout_start": "2015-01-01",
+  "min_cov7": 5
+}

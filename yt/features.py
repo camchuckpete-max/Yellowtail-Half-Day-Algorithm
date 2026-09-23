@@ -61,6 +61,15 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
     w1, w3, w7, w14, w30 = win(1), win(3), win(7), win(14), win(30)
     f["hd_cov_d1"] = int((w1 & is_hd).sum())
     f["hd_yt_d1"] = int(hd_yt_days(w1) > 0)
+    # Most recent day with any visible half-day report (== D-1 normally; D-2 under
+    # --strict or when D-1 had no public AM/PM trips). Baseline B1 input (D-016).
+    hd_dates = fd[is_hd]
+    if len(hd_dates):
+        lastday = hd_dates.max()
+        f["hd_yt_lastday"] = int(((fd == lastday) & is_hd & (yt > 0)).any())
+        f["hd_lastday_age"] = int((np.datetime64(D) - lastday) / np.timedelta64(1, "D"))
+    else:
+        f["hd_yt_lastday"], f["hd_lastday_age"] = 0, 999
     for k, w in ((3, w3), (7, w7), (14, w14), (30, w30)):
         f[f"hd_ytdays_{k}"] = hd_yt_days(w)
     f["hd_covdays_7"] = hd_cov_days(w7)
@@ -151,7 +160,7 @@ def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex) -> pd.D
 
 
 FEATURES = [
-    "hd_yt_d1", "hd_cov_d1", "hd_ytdays_3", "hd_ytdays_7", "hd_ytdays_14", "hd_ytdays_30",
+    "hd_yt_d1", "hd_yt_lastday", "hd_lastday_age", "hd_cov_d1", "hd_ytdays_3", "hd_ytdays_7", "hd_ytdays_14", "hd_ytdays_30",
     "hd_covdays_7", "hd_covdays_30", "hd_ytrate_7", "hd_ytrate_30", "hd_ytdays_prev7",
     "hd_yt_trip_frac_d1", "hd_log_ytfish_d1", "hd_yt_landings_d1", "hd_yt_d2", "tq_yt_d1", "hd_yt_streak",
     "hd_ntrips_7", "hd_ytfish_per_trip_7", "hd_log_ytfish_7",

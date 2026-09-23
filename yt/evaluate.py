@@ -30,6 +30,9 @@ ROOT = Path(__file__).resolve().parents[1]
 DEV_YEARS = (2012, 2013, 2014)
 HOLDOUT_START = pd.Timestamp("2015-01-01")
 MIN_COV7 = 5
+# Breakout-eligible day: no half-day yellowtail visible in D-3..D-1 (D-015, user
+# change 2026-09-23; was D-7..D-1 under D-013).
+BREAKOUT_COL = "hd_ytdays_3"
 
 
 # ---------------------------------------------------------------- models
@@ -39,7 +42,7 @@ class Spec:
     features: list[str]
     model: str = "logreg"          # logreg | hgb
     C: float = 1.0
-    subset: str = "all"            # all | breakout (train/score only hd_ytdays_7 == 0 days)
+    subset: str = "all"            # all | breakout (train/score only BREAKOUT_COL == 0 days)
     threshold_rule: str = "mcc"    # mcc | precision>=P
     clip_z: float = 4.0            # logreg: clip standardized inputs to +-clip_z (D-011)
     notes: str = ""
@@ -153,7 +156,7 @@ def eligible(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def _subset(df: pd.DataFrame, spec: Spec) -> pd.DataFrame:
-    return df[df["hd_ytdays_7"] == 0] if spec.subset == "breakout" else df
+    return df[df[BREAKOUT_COL] == 0] if spec.subset == "breakout" else df
 
 
 def _pick_threshold(y, p, rule: str) -> tuple[float, dict]:
@@ -222,12 +225,12 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
         trs = _subset(train, spec)
         m = Model(spec).fit(trs[spec.features], trs["y"].to_numpy())
         p = m.predict(test[spec.features])
-        out = test[["date", "y", "hd_yt_d1", "hd_ytdays_7"]].copy()
+        out = test[["date", "y", "hd_yt_lastday", "hd_ytdays_7", BREAKOUT_COL]].copy()
         out["fold"] = name
         out["prob"] = p
         out["call"] = (p >= thr).astype(int)
         if spec.subset == "breakout":
-            out.loc[out["hd_ytdays_7"] > 0, "call"] = 0  # model only speaks on breakout-eligible days
+            out.loc[out[BREAKOUT_COL] > 0, "call"] = 0  # model only speaks on breakout-eligible days
         preds.append(out)
         fold_info[name] = {"train_first": str(train["date"].min().date()),
                            "train_last": str(train["date"].max().date()),
@@ -237,7 +240,7 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
 
 
 def baseline_calls(pred: pd.DataFrame) -> dict[str, np.ndarray]:
-    return {"B1_yesterday": pred["hd_yt_d1"].to_numpy().astype(int),
+    return {"B1_yesterday": pred["hd_yt_lastday"].to_numpy().astype(int),
             "B2_last7": (pred["hd_ytdays_7"] > 0).to_numpy().astype(int)}
 
 
@@ -250,10 +253,10 @@ def summarize(pred: pd.DataFrame) -> dict:
     best = max(base, key=lambda k: res["baselines"][k]["mcc"])
     res["best_baseline"] = best
     res["mcc_diff_vs_best_baseline"] = block_bootstrap_diff(y, pred["call"].to_numpy(), base[best])
-    # Breakout: days with no half-day yellowtail visible in the prior 7 days.
-    bo = pred[pred["hd_ytdays_7"] == 0]
+    # Breakout: days with no half-day yellowtail visible in the breakout window.
+    bo = pred[pred[BREAKOUT_COL] == 0]
     k = int(((bo["call"] == 1) & (bo["y"] == 1)).sum()); n = int((bo["call"] == 1).sum())
-    res["breakout"] = {"eligible_days": int(len(bo)), "actual_breakouts": int(bo["y"].sum()),
+    res["breakout"] = {"definition": f"{BREAKOUT_COL} == 0", "eligible_days": int(len(bo)), "actual_breakouts": int(bo["y"].sum()),
                        "calls": n, "hits": k, "precision": k / n if n else float("nan"),
                        "precision_wilson_lo95": wilson_lower(k, n),
                        "recall": k / bo["y"].sum() if bo["y"].sum() else float("nan"),

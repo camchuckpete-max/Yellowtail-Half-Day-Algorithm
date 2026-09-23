@@ -86,3 +86,23 @@ bound is reported alongside. Dev base rate among eligible days: 43/793 = 5.4%.
 `write_run` refuses to save from a dirty `yt/` or `tests/`. The first ten runs
 (made before the first commit) are in `archive/iter0_uncommitted_code/` and are
 re-run from committed code.
+
+## D-015 Goal 3 breakout window changed to 3 days (user decision, 2026-09-23)
+Supersedes the window in D-013. A breakout-eligible day is one with **no
+half-day yellowtail visible in D-3..D-1** at the 21:00 D-1 cutoff (`hd_ytdays_3 == 0`).
+Because D-1 twilight is not public at 21:00, the window in practice covers D-3 and
+D-2 fully and D-1's AM/PM trips. Other D-013 criteria (precision ≥ 0.40, ≥10 calls,
+Wilson lo95 reported) unchanged. Dev: 1041 eligible days, 72 positive (6.9%).
+Runs logged before this change report breakouts under the 7-day window; they are
+marked in LOG.md and all specs are re-run.
+
+## D-016 Baseline B1 = most recent visible day
+B1 is now "yellowtail on the most recent day that has any public half-day report"
+(`hd_yt_lastday`). In main timing that is D-1 on 1605/1652 dev days (D-2 on 45,
+D-3 on 2 when D-1 had no public AM/PM trip). Previously B1 was D-1 only, which
+under `--strict` was always "no" (MCC 0, meaningless). The change can only make
+the baseline equal or stronger; it differs from the old B1 on 8 dev days.
+
+## D-017 Feature lists are frozen per spec
+Specs reference explicit frozen lists (`_ALL_V1`, `_ALL_V2`, ...) rather than the
+live `FEATURES`, so adding a feature never silently changes a spec that has run.

@@ -53,6 +53,14 @@ def _fd_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
     f["fd_yt_local_days_3"] = int((r3.groupby("report_date")["yt_local"].max() > 0).sum()) if len(r3) else 0
     f["fd_yt_local_prev4_7"] = math.log1p(float(rep(7, 4)["yt_local"].sum()))
     f["fd_yt_coronado_3"] = math.log1p(float(r3["yt_coronado"].sum()))
+    # Sentence-level evidence (D-022)
+    for reg in ("local", "coronado", "north"):
+        for k in ("catch", "sight", "neg"):
+            f[f"fd_{reg}_{k}_d1"] = int(d1[f"yt_{reg}_{k}"].max()) if len(d1) else 0
+    f["fd_local_catch_3"] = int(r3["yt_local_catch"].sum()) if len(r3) else 0
+    f["fd_local_catchdays_3"] = int((r3.groupby("report_date")["yt_local_catch"].max() > 0).sum()) if len(r3) else 0
+    f["fd_local_sight_3"] = int(r3["yt_local_sight"].sum()) if len(r3) else 0
+    f["fd_coronado_catch_3"] = int(r3["yt_coronado_catch"].sum()) if len(r3) else 0
     f["audit_fd_max_available_at"] = fd_rep["available_at"].max() if len(fd_rep) else pd.NaT
     f["audit_fd_d1_src_id"] = int(d1["src_id"].iloc[-1]) if len(d1) else -1
     return f
@@ -205,4 +213,7 @@ FEATURES = [
     "moon_illum", "moon_sin", "moon_cos", "fc_wind_kt", "fc_swell_ft", "fc_swell_s",
     "fd_visible_d1", "fd_yt_local_d1", "fd_yt_coronado_d1", "fd_yt_north_d1", "fd_yt_all_d1",
     "fd_yt_local_3", "fd_yt_local_days_3", "fd_yt_local_prev4_7", "fd_yt_coronado_3",
+    "fd_local_catch_d1", "fd_local_sight_d1", "fd_local_neg_d1", "fd_coronado_catch_d1", "fd_coronado_sight_d1",
+    "fd_coronado_neg_d1", "fd_north_catch_d1", "fd_north_sight_d1", "fd_north_neg_d1",
+    "fd_local_catch_3", "fd_local_catchdays_3", "fd_local_sight_3", "fd_coronado_catch_3",
 ]

@@ -143,3 +143,17 @@ Crude; no negation handling.
 Best dev MCC 0.640 both with and without FishDope (B1 0.611; target ≥ 0.661).
 FishDope does not add measurable skill with these text features. Promoted to
 specs e005 (catch history only) and e006 (with FishDope).
+
+## D-022 FishDope: why mention counts failed, sentence-level evidence instead
+User asked why FishDope added nothing. Hand review of 12 random "local yellowtail
+mention" reports on breakout-eligible days (full output: `sweeps/fd_probe_iter4.txt`):
+about half were negations ("No sign of Yellowtail lately", "No Yellowtail … caught
+lately"), several were sightings or region misattribution (offshore GPS paddies,
+Coronados South Island), and only 3 were private-angler catches in local waters.
+Negations and catches were scored identically, so the feature cancelled out
+(next-day hit rate 6.6% with a mention vs 7.1% without).
+Fix: each sentence containing yellowtail is classified as **neg** (negation word
+present), else **catch** (catch verb or "N lb"), else **sight** (seen/puddling/...).
+Rule-based, no learned parameters. Result on breakout-eligible dev days: a local catch
+in D-3..D-1 → 9.3% vs 6.0%; a local negation on D-1 → 4.6% vs 7.5%. Correct direction,
+modest size. Goal 1 sweep best rises 0.640 → 0.655 (target 0.661).

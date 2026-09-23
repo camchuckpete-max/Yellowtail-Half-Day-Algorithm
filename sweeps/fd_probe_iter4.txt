@@ -1,0 +1,49 @@
+breakout-eligible dev days: 1041  base rate 0.069
+                size  sum      mean
+fd_yt_local_d1                     
+False            645   46  0.071318
+True             396   26  0.065657
+               size  sum      mean
+fd_yt_local_3                     
+False           380   23  0.060526
+True            661   49  0.074130
+
+== target 2012-05-14 y=0  (report src 5238)
+   ... La Jolla. A few small schools of Yellowtail and a couple of large White Seabass have been seen cruising in the late afterno
+
+== target 2014-05-16 y=1  (report src 4499)
+   ... La Jolla Quiet this morning for the kelp paddy stuff. Not sure if anybody is even out looking. Yesterday the Eclipse hooked 5 and landed 2 Yellowtail on a kelp just 4 miles due west of Mission Bay. They were out just goofing arou
+   ... Mission Bay. They were out just goofing around with the kids and found one holding. The Whale watch boats were also say they saw kelps holding Yellowtail so there are more than just this one kelp with Yellowtail on it. There was also
+
+== target 2013-05-01 y=0  (report src 4882)
+   ... Point LomaDarrell Wilson spent the night working from Torrey pines to the Cove for Squid. He made a grand total of 12 Squid. No more talk of any Yellowtail since the fish showed a few days ago.Just the same old small Rockfish and Sheep
+
+== target 2013-11-19 y=0  (report src 4677)
+   ... .260. It does not want to float but you can jig up enough to use for bait. Take this and go hit the Rockfish spots like the 32, 270, the Pipe and whistlers. No Yellowtail or Seabass seen or caught recently at the Squid area. 32.47.58 x 117.16.58· Pac
+
+== target 2014-04-15 y=0  (report src 4530)
+   ... Point Loma pipe and the hard bottom outside of the Whistler. No Yellowtail or Whiten Seabass caught lately. No legal sized Barracuda either although there
+
+== target 2014-03-06 y=0  (report src 4570)
+   ... La Jolla No sign of Yellowtail lately. Calico Bass fishing is slow too. Best bite by far is for Rockfish. Guys
+
+== target 2011-09-02 y=0  (report src 5495)
+   ... La Jolla Garrett called in at 6:10pm from the water to let us know that he had just caught a 25 to 30 pound yellowtail on his bass rod. It took him over a half an hour to land the fish due to having
+
+== target 2014-05-27 y=0  (report src 4488)
+   ... acuda continue to show along the kelp line. Last night a little dab of Squid was found at Northwest Corner but sea Lions made it impossible to catch any of it. Yellowtail are around in this same area but we have not heard of any caught yesterday or t
+   ... mpossible to catch any of it. Yellowtail are around in this same area but we have not heard of any caught yesterday or this morning. There was though a spot of Yellowtail seen puddling at 32.48 x 117.20. This is about 5 miles off the beach. Kayak guy
+
+== target 2012-10-13 y=0  (report src 5084)
+   ... s of Squid in the Cove and Crystal pier areas. Not enough to get a float but enoungh to jig up a tank full in about an hour or so.Fishing is on the slowside. A yellowtail at NW Corner is possible on the Live Squid but 99% of the catch is Rockfish. Mi
+   ... t away then no more strike (but lots of fish there) 31.49 x 117.55 – (west of 213) Yellowfin 31.58 x 117.54 – (near the 32/118 cross) Kelp for all you want rat yellowtail and dorado – we moved on. 31.21 x 117.39 – (just east of the 230) Another kelp 
+
+== target 2011-08-07 y=0  (report src 5521)
+   ... th good barracuda fishing in the lee (sheltered side) of South Island. He was slow trolling Shimano Wax Wing's behind the boat trying to entice a bite out of a yellowtail when he got covered up with the big jumbo log barracuda. Non stop action for hi
+
+== target 2014-06-05 y=0  (report src 4479)
+   ... side of the IB pipe on bird schools. This stuff was here about a week ago and it has returned back in small numbers into the same area again. No reports of any Yellowtail with them this time however. On the IB Flats there is some Halibut action happe
+
+== target 2013-02-18 y=0  (report src 4954)
+   ... La Jolla Yellowtail are here but the action is spotty at best. 95% of the fish caught are being hoo
+   ... g for the Yoyo IronDan Upchurch got lucky and scored a 35lb unit later in the morning yesterday but this fish is an exception to the rule right now.Besides the yellowtail there is a few bass but nothing worth talking about.Squid is out due west of La

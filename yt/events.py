@@ -162,6 +162,41 @@ def yt_mentions_by_region(text: str) -> dict[str, int]:
     return out
 
 
+_SENT_SPLIT = re.compile(r"(?<=[.!?])\s+|\n+")
+_NEG = re.compile(r"(?i)\b(no|not|nothing|none|zero|without|haven'?t|hasn'?t|didn'?t|isn'?t|aren'?t|wasn'?t|"
+                  r"weren'?t|never|lack|slow|quiet|dead|absent)\b|n't\b")
+_CATCH = re.compile(r"(?i)\b(caught|catch(?:ing|es)?|landed|land(?:ing)?|scor(?:ed|ing)|boated|hook(?:ed|ing)|"
+                    r"got|limits?|pick(?:ed)?|bit|biting|bite|took|stuck|gaffed|fish(?:ed)? for|counts?|"
+                    r"\d+\s*(?:lb|pound)s?)\b")
+_SIGHT = re.compile(r"(?i)\b(seen|saw|see|showing|showed|puddling|boiling|breezing|spotted|marked|metered|around|here)\b")
+
+
+def classify_yt_sentences(text: str) -> dict[str, int]:
+    """Sentence-level yellowtail evidence in one region's text (D-022):
+    catch = yt + catch verb, no negation; sight = yt + sighting word, no negation,
+    not a catch; neg = yt + negation."""
+    out = {"catch": 0, "sight": 0, "neg": 0}
+    for sent in _SENT_SPLIT.split(text):
+        if not _YT_RE.search(sent):
+            continue
+        if _NEG.search(sent):
+            out["neg"] += 1
+        elif _CATCH.search(sent):
+            out["catch"] += 1
+        elif _SIGHT.search(sent):
+            out["sight"] += 1
+    return out
+
+
+def region_texts(text: str) -> dict[str, str]:
+    marks = [(m.start(), _KEY2REG[m.group(0)]) for m in _REGION_RE.finditer(text)]
+    out = {r: [] for r in REGIONS}
+    for i, (st, reg) in enumerate(marks):
+        end = marks[i + 1][0] if i + 1 < len(marks) else len(text)
+        out[reg].append(text[st:end])
+    return {r: "\n".join(v) for r, v in out.items()}
+
+
 def load_fishdope(db: sqlite3.Connection) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Returns (usable reports, rejected reports with reason)."""
     rows, rejected = [], []
@@ -197,6 +232,10 @@ def load_fishdope(db: sqlite3.Connection) -> tuple[pd.DataFrame, pd.DataFrame]:
         if t is None:
             t = day.replace(hour=19)
         c = yt_mentions_by_region(text)
+        rt = region_texts(text)
+        for reg in ("local", "coronado", "north"):
+            for k, v in classify_yt_sentences(rt[reg]).items():
+                c[f"{reg}_{k}"] = v
         rows.append({"src_id": rid, "report_date": pd.Timestamp(day), "available_at": pd.Timestamp(t),
                      "stamp_kind": "published" if p else "assumed_19pt", "migrated": bool(u and u.date().isoformat() == BULK_MIGRATION_DAY),
                      **{f"yt_{k}": v for k, v in c.items()}})

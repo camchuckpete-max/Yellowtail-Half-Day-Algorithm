@@ -24,3 +24,7 @@ One line per saved run. Columns: run id | experiment | dev/HOLDOUT | #features |
 | `20260923T205125Z_e003_logreg_recency_p40` | e003_logreg_recency_p40 | dev | 14 | 0.587 | 0.879 | 0.611 / 0.450 | [-0.076, 0.043] | 0/0 = nan (lo95 nan) |
 | `20260923T205135Z_e004_breakout_logreg` | e004_breakout_logreg | dev | 41 | -0.048 | 0.797 | 0.611 / 0.450 | [-0.744, -0.543] | 1/11 = 0.091 (lo95 0.016) |
 | `20260923T205159Z_e003_logreg_recency_p40` | e003_logreg_recency_p40 (strict) | dev | 14 | 0.521 | 0.852 | 0.536 / 0.436 | [-0.083, 0.072] | 2/11 = 0.182 (lo95 0.051) |
+| `20260923T211023Z_e005_recency_d1_C001_p35` | e005_recency_d1_C001_p35 | dev | 15 | 0.640 | 0.893 | 0.611 / 0.450 | [0.005, 0.058] | 0/0 = nan (lo95 nan) |
+| `20260923T211108Z_e005_recency_d1_C001_p35` | e005_recency_d1_C001_p35 (strict) | dev | 15 | 0.574 | 0.871 | 0.536 / 0.436 | [-0.005, 0.104] | 0/1 = 0.000 (lo95 0.000) |
+| `20260923T211117Z_e006_recency_d1_fishdope_C003_p35` | e006_recency_d1_fishdope_C003_p35 | dev | 28 | 0.640 | 0.889 | 0.611 / 0.450 | [0.005, 0.073] | 0/0 = nan (lo95 nan) |
+| `20260923T211127Z_e006_recency_d1_fishdope_C003_p35` | e006_recency_d1_fishdope_C003_p35 (strict) | dev | 28 | 0.554 | 0.863 | 0.536 / 0.436 | [-0.042, 0.094] | 2/7 = 0.286 (lo95 0.082) |

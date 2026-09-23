@@ -48,3 +48,11 @@ _add(Spec("e005_recency_d1_C001_p35", _R2 + _D1, "logreg", C=0.01, threshold_rul
           notes="Best catch-history-only config in sweeps 1-2"))
 _add(Spec("e006_recency_d1_fishdope_C003_p35", _R2 + _D1 + _FD + _FDI, "logreg", C=0.03,
           threshold_rule="fixed:0.35", notes="Best config using FishDope in sweep 2"))
+
+# --- iteration 4: sentence-level FishDope evidence (D-022), promoted from sweeps/sweep3_iter4
+_FS = ["fd_local_catch_d1", "fd_local_sight_d1", "fd_local_neg_d1", "fd_coronado_catch_d1", "fd_north_catch_d1",
+       "fd_local_catch_3", "fd_local_catchdays_3", "fd_local_sight_3", "fd_coronado_catch_3"]
+_FSI = ["hd_yt_lastday*fd_local_catch_3", "!hd_yt_lastday*fd_local_catch_3", "hd_yt_lastday*fd_local_neg_d1",
+        "!hd_yt_lastday*fd_coronado_catch_d1"]
+_add(Spec("e007_recency_d1_fdsent_C003_p35", _R2 + _D1 + _FS + _FSI, "logreg", C=0.03,
+          threshold_rule="fixed:0.35", notes="Catch history + sentence-level FishDope catch/sight/negation"))

@@ -25,3 +25,7 @@ same check under `--strict` timing.
 ## Stop conditions
 - All three goals met and documented, or
 - Goal 1 demonstrably not achievable with the data available and no more data arriving (report honestly).
+
+## Update after iteration 5
+- Parallel round (agents A/B/C) + monthly refit sweep: best dev (2012–2014) 0.655, but on fresh 2015–2016 all finalists are within noise of B1 (D-025–D-027).
+- Remaining levers: (1) more years of half-day history as the source backfill loads (re-run finalists each time the source changes; dev grows only by a logged decision made before looking); (2) SST/chlorophyll once 2020+ half-day years load; (3) a different Goal 1 criterion — only if the user decides (e.g. probability quality), never changed unilaterally.

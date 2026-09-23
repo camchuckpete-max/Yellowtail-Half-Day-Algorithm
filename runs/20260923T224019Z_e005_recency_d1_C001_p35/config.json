@@ -1,0 +1,40 @@
+{
+  "name": "e005_recency_d1_C001_p35",
+  "features": [
+    "hd_yt_d1",
+    "hd_yt_lastday",
+    "hd_ytdays_3",
+    "hd_ytdays_7",
+    "hd_ytdays_30",
+    "hd_days_since_yt",
+    "clim_rate",
+    "doy_sin",
+    "doy_cos",
+    "hd_yt_trip_frac_d1",
+    "hd_log_ytfish_d1",
+    "hd_yt_landings_d1",
+    "hd_yt_d2",
+    "tq_yt_d1",
+    "hd_yt_streak"
+  ],
+  "model": "logreg",
+  "C": 0.01,
+  "subset": "all",
+  "threshold_rule": "fixed:0.35",
+  "clip_z": 4.0,
+  "retrain": "year",
+  "halflife_days": 0.0,
+  "notes": "Best catch-history-only config in sweeps 1-2",
+  "extra": {},
+  "holdout": false,
+  "tag": "",
+  "dev_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "holdout_start": "2017-01-01",
+  "min_cov7": 5
+}

@@ -1,0 +1,21 @@
+{
+  "source_repo": "camchuckpete-max/Daily-Fishing-Prediction",
+  "source_commit": "b09f41f6d3cbe9ab932ec3fd1349949f1b117ee5",
+  "source_commit_time": "2026-09-23T22:17:21+00:00",
+  "db_dump_dirty": false,
+  "files": {
+    "landing_counts.sql.gz": "7dd2fd2d2d01d5a6600396d53f4b3c6cefe3ccfb3d86d3ed57414567cfd20541",
+    "conditions_daily.sql.gz": "80e584ba6474bfda0fe4b78cf032be146a0c0c5efa2046325583bacf09a8cf89",
+    "fishdope_reports.sql.gz": "35dda71d410881e738dda338017cfcc5712e5baf77c519c6b6536e039a859a1d",
+    "marine_forecast_products.sql.gz": "6810c7163b52eaf8fda13ce230b17e88c54b1bc22959be5badb78a67755a6b9c",
+    "marine_forecasts.sql.gz": "05e2df6b71dcca85b6c500192a704adc4041ff44ceb416417ac92edb125e4d13"
+  },
+  "strict_timing": false,
+  "dataset_cache_key": "363535f829aaee89",
+  "n_rows": 2470,
+  "first_date": "2010-05-01",
+  "last_date": "2026-09-22",
+  "table_sha256": "939d263bdeac84905941991390daabec327beda5bac8d78e46c74dd43f99f3fe",
+  "algo_repo_head": "6387edac8024eade21ac5dcd1da0fecc4e5ce570",
+  "algo_repo_dirty": false
+}

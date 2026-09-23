@@ -206,3 +206,69 @@ call: best catch-history-only dev MCC 0.645 (eB01), best with FishDope 0.653 (eB
 not reached. Root cause observed: probabilities are under-calibrated in hot test years (2012) because
 the frozen model is trained on cold years, and B1=0 days rarely get above ~0.4, so the yes/no call
 stays close to B1.
+
+## D-C01 Water temperature and local bait from FishDope text (agent C, 2026-09-23)
+No SST/buoy data exists for 2010-2015 in the source, so the only water-temperature signal is what
+FishDope reports state. `events.water_temps`: a 50-79 F number with a degree marker (°, degrees, deg,
+"F water") in a sentence that mentions water/temp/colour and not air/ATMP/"deg true"; a range a-b
+counts as its midpoint. Per report: `wt_all` = median over the whole report, `wt_local` = median over the
+local region text (D-020 attribution) after dropping sentences with offshore markers (GPS, bank numbers,
+miles, tuna, station tables). `bait_local_*` = non-negated sentences mentioning sardine/squid/anchovy/
+mackerel in the local text (includes the SD / Mission Bay bait-barge lines).
+PIT: these are columns of the same report rows as D-020 and inherit its `available_at` and leak guards;
+read only via the visible prefix; poisoned/truncated in tests/test_pit.py.
+Hand check (`sweeps/C_wt_precision_output.txt`, 60 random extractions): value is an observed water
+temperature 29/30 (all regions; miss = a hypothetical "once it warms to 61/62") and 30/30 (inshore);
+inshore attribution clearly right 16/30, clearly wrong 1/30, not determinable from the sentence 13/30.
+Coverage 2010-14 eligible days: wt_all_7 80%, wt_local_7 25%.
+`forage_observations` (source='fishdope') is **not** used: every 2009-2015 row maps 1:1 to a
+fishdope_reports row (`source_ref` report_id; observed_date == report_date on all 16,917 rows), so it is
+PIT-safe via that report's availability, but it was regex-extracted on 2026-09-23 from the same text,
+has zone_id NULL for the dev period, and so adds nothing the text does not.
+
+## D-C02 NWS coastal waters forecast, zone PZZ750 (agent C, 2026-09-23)
+Added dumps `marine_forecast_products` + `marine_forecasts` (IEM-archived CWFSGX as issued). Zone PZZ750
+(San Mateo Pt to Mexican border, 30 nm; the 2005-2019 code). Daytime periods only. `available_at` = the
+later of the archive as-issued time (`issue_time_utc`) and the time printed in the product header;
+they disagree on 4 of 7,987 2010-14 products (one 2010-11-25 product was archived the next day; one
+2011-03-17 archive time is 14 min before its header time). Features for D: the latest product issued
+<= D-1 21:00 PT: max wind, gust, seas, offshore-wind flag (E/NE/SE), southerly-wind flag, max southerly
+and westerly swell height. The 21:30 PT evening product is therefore never used for the next day.
+Small-craft-advisory headlines were not used (validity wording is free text; gust/wind cover it).
+
+## D-C03 Dense centred water temperature (agent C, 2026-09-23)
+`wt_c` = mean `wt_all` of the latest <=5 visible reports stating a temperature in D-21..D-1, minus 63 F;
+0 when none (`wt_c_local` likewise from `wt_local`). Added after a residual diagnostic on the e007 dev
+predictions (`sweeps/C_diag1_output.txt`) showed temperature correlates +0.17 with the residual; that
+is selection on dev and is disclosed as such.
+
+## D-C04 Result: environment adds no hard-call skill (agent C, 2026-09-23)
+50 configurations (sweeps/C_sweep1..3). Best 0.651 / 0.650 vs e007's 0.655 with the same base features;
+every added environmental group lowers AUC or Brier; interactions with `hd_yt_lastday` hurt the 2012
+fold (trained on 2010-11 only). Why: warm water raises P(yellowtail) but the cells where B1 is wrong do
+not cross the call threshold — B1=yes on cold water is still ~50-56% positive, B1=no on warm water ~20%
+(diag1), so flipping calls there does not raise MCC. Nothing promoted to a spec.
+Also found: `_ALL_V1`/`_ALL_V2` were built from the live FEATURES list (D-017 breach): e001/e002/e004 were
+logged with 41 features but now resolve to 71. Agent C's features are excluded from them; restoring the
+original 41 is left to the coordinator.
+
+## D-024 Fix: D-017 was breached (found by agent C)
+`_ALL_V1`/`_ALL_V2` were derived from the live `FEATURES` list, so specs e001/e002/e004
+silently grew from 41 features (as run and logged) to 71 as features were added.
+`_ALL_V1` is now a literal 41-name list (asserted), matching the saved
+`runs/*e001*/config.json`; `_ALL_V2` was unused and is removed. No logged result
+changes (all runs saved their exact feature lists in config.json).
+
+## D-025 Parallel round 1 outcome (agents A, B, C)
+None reached Goal 1 (dev MCC: A 0.642, B 0.653, C 0.651; e007 0.655; target 0.661).
+All three branches are pushed as `agent/*` for audit. B (fleet features, model types,
+`mcc_range` threshold rule) and C (FishDope water temperature and bait, NWS zone
+PZZ750 forecast with issue-time PIT) are merged into main because both showed
+real but sub-threshold signal; A's extractor is not merged (no measurable gain;
+code and sweeps remain on its branch). After the merge, PIT tests pass and e005,
+e007 and eB01 reproduce their prior dev MCC exactly.
+Convergent diagnosis (B and C independently): the per-year frozen model is trained
+on low-rate years (2011: 6.7%), so it under-predicts in hot years (2012 B1=no days
+scored 0.20–0.35 were 56% positive; e007 mean dev residual ≈ +0.05). Signals such as
+water temperature shift probabilities but rarely across the call threshold.
+Next: retraining cadence (monthly walk-forward) and recency-weighted training.

@@ -16,6 +16,7 @@ import pandas as pd
 CUTOFF_HOUR = 21  # 9pm PT, per requirement 2
 SYNODIC = 29.530588853
 REF_NEW_MOON = pd.Timestamp("2000-01-06 18:14")  # astronomical constant (UTC)
+WT_CENTER = 63.0  # F; centring constant for the dense water-temperature features (D-C03)
 
 HD_FISH_CLASSES = ("hd_am", "hd_pm", "hd_unspecified", "hd_twilight")
 OTHER_CLASSES = ("three_quarter", "full_day", "overnight", "multi_day")
@@ -147,6 +148,52 @@ def _fleet_features(D: pd.Timestamp, trips: pd.DataFrame, fd: np.ndarray, cls: n
     return f
 
 
+def _env_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
+    """Water temperature and local bait stated in FishDope reports visible at the cutoff (D-C01)."""
+    f: dict = {}
+    rd = fd_rep["report_date"]
+    def rep(k, start=1):
+        return fd_rep[(rd >= D - pd.Timedelta(days=k)) & (rd <= D - pd.Timedelta(days=start))]
+    mean = lambda s: float(s.mean()) if s.notna().any() else float("nan")
+    r3, r7, r8_21 = rep(3), rep(7), rep(21, 8)
+    f["wt_all_3"], f["wt_all_7"] = mean(r3["wt_all"]), mean(r7["wt_all"])
+    f["wt_local_7"], f["wt_local_14"] = mean(r7["wt_local"]), mean(rep(14)["wt_local"])
+    f["wt_trend"] = f["wt_all_7"] - mean(r8_21["wt_all"])
+    f["wt_max_7"] = float(r7["wt_all"].max()) if r7["wt_all"].notna().any() else float("nan")
+    f["wt_n_7"] = int(r7["wt_all_n"].sum())
+    # Anomaly vs the same +-15 day-of-year window in PRIOR years' visible reports.
+    prior = fd_rep[rd < pd.Timestamp(D.year, 1, 1)]
+    if len(prior):
+        d = np.abs(prior["report_date"].dt.dayofyear.to_numpy() - D.dayofyear)
+        clim = mean(prior["wt_all"][np.minimum(d, 365 - d) <= 15])
+    else:
+        clim = float("nan")
+    f["wt_anom_7"] = f["wt_all_7"] - clim
+    # Dense version: mean of the latest (up to 5) reports stating a temperature in D-21..D-1,
+    # centred on 63 F (typical SD surface temp); 0 = unknown/typical. Local variant likewise.
+    r21 = rep(21)
+    for src, name in (("wt_all", "wt_c"), ("wt_local", "wt_c_local")):
+        v = r21[src].dropna().tail(5)
+        f[name] = float(v.mean()) - WT_CENTER if len(v) else 0.0
+    for b in ("sardine", "squid", "anchovy", "mackerel"):
+        f[f"bait_{b}_7"] = int((r7.groupby("report_date")[f"bait_local_{b}"].max() > 0).sum()) if len(r7) else 0
+    return f
+
+
+def _mf_features(D: pd.Timestamp, mf: pd.DataFrame) -> dict:
+    """Latest NWS coastal-waters daytime forecast for D issued at or before the cutoff (D-C02)."""
+    cand = mf[mf["target_date"] == D]
+    cols = ("mf_wind_max", "mf_gust", "mf_seas", "mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_swell_west")
+    if len(cand):
+        r = cand.iloc[-1]
+        f = {c: float(r[c]) if r[c] is not None else float("nan") for c in cols}
+        f["audit_mf_src_id"], f["audit_mf_available_at"] = int(r["src_id"]), r["available_at"]
+    else:
+        f = {c: float("nan") for c in cols}
+        f["audit_mf_src_id"], f["audit_mf_available_at"] = -1, pd.NaT
+    return f
+
+
 def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dict:
     cutoff = cutoff_for(D)
     f: dict = {"date": D, "cutoff": cutoff}
@@ -263,8 +310,9 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
 
 
 def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
-          fd_rep: pd.DataFrame | None = None) -> pd.DataFrame:
+          fd_rep: pd.DataFrame | None = None, mf: pd.DataFrame | None = None) -> pd.DataFrame:
     t_av = trips["available_at"].to_numpy()
+    m_av = mf["available_at"].to_numpy() if mf is not None else None
     f_av = fc["available_at"].to_numpy()
     d_av = fd_rep["available_at"].to_numpy() if fd_rep is not None else None
     out = []
@@ -274,8 +322,13 @@ def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
         vf = _visible(fc, f_av, c)
         row = _day_features(D, vt, vf)
         if fd_rep is not None:
-            row.update(_fd_features(D, _visible(fd_rep, d_av, c)))
+            vd = _visible(fd_rep, d_av, c)
+            row.update(_fd_features(D, vd))
+            row.update(_env_features(D, vd))
             assert pd.isna(row["audit_fd_max_available_at"]) or row["audit_fd_max_available_at"] <= c
+        if mf is not None:
+            row.update(_mf_features(D, _visible(mf, m_av, c)))
+            assert pd.isna(row["audit_mf_available_at"]) or row["audit_mf_available_at"] <= c
         # Hard guard: nothing used may postdate the cutoff.
         assert pd.isna(row["audit_max_trip_available_at"]) or row["audit_max_trip_available_at"] <= c
         assert pd.isna(row["audit_fc_available_at"]) or row["audit_fc_available_at"] <= c
@@ -309,4 +362,10 @@ FEATURES = [
     "d1_surface_frac", "d1_bottom_only_frac", "hd_surface_frac_7",
     "tq_log_yt_d1", "tq_yt_trip_frac_3", "ov_log_yt_3", "tq_log_yt_trend", "hd_yt_ewm",
     "tq_yt_trip_frac_7", "tq_yt_trip_frac_30", "hd_ytrate_60",
+
+
+    # D-C01 / D-C02: environment
+    "wt_all_3", "wt_all_7", "wt_local_7", "wt_local_14", "wt_trend", "wt_max_7", "wt_n_7", "wt_anom_7", "wt_c", "wt_c_local",
+    "bait_sardine_7", "bait_squid_7", "bait_anchovy_7", "bait_mackerel_7",
+    "mf_wind_max", "mf_gust", "mf_seas", "mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_swell_west",
 ]

@@ -65,7 +65,28 @@ class Model:
     def _z(self, Xf: pd.DataFrame) -> pd.DataFrame:
         return ((Xf - self.mu) / self.sd).clip(-self.spec.clip_z, self.spec.clip_z)
 
+    # D-B03: composite model types built from the base learners.
+    #   logreg_split: separate logistic fits for regime B1=1 and B1=0 (spec.extra["split_col"])
+    #   ens:          mean of logistic and HGB probabilities
     def fit(self, X: pd.DataFrame, y: np.ndarray) -> "Model":
+        if self.spec.model == "logreg_split":
+            col = self.spec.extra.get("split_col", "hd_yt_lastday")
+            self.parts = {}
+            for v in (0, 1):
+                m = (X[col].to_numpy() == v)
+                sub = Spec(**{**self.spec.__dict__, "model": "logreg",
+                              "C": self.spec.extra.get(f"C{v}", self.spec.C)})
+                if len(set(y[m])) < 2:  # regime has one class in this window: fall back to pooled fit
+                    m = np.ones(len(y), dtype=bool)
+                self.parts[v] = Model(sub).fit(X[m].drop(columns=[col]), y[m])
+            return self
+        if self.spec.model == "avg_subsets":  # D-B03: mean of logistic fits on named feature subsets
+            self.parts = {i: Model(Spec(**{**self.spec.__dict__, "model": "logreg", "features": fs})).fit(X[fs], y)
+                          for i, fs in enumerate(self.spec.extra["subsets"])}
+            return self
+        if self.spec.model == "ens":
+            self.parts = {k: Model(Spec(**{**self.spec.__dict__, "model": k})).fit(X, y) for k in ("logreg", "hgb")}
+            return self
         X = self._tx(X)
         self.med = X.median(numeric_only=True).fillna(0.0)
         Xf = X.fillna(self.med)
@@ -77,27 +98,45 @@ class Model:
         else:
             p = dict(max_depth=3, learning_rate=0.05, max_iter=200, l2_regularization=1.0, random_state=0)
             p.update(self.spec.extra.get("hgb", {}))
+            mono = self.spec.extra.get("monotone")  # D-B03: {feature: +1/-1}, others 0
+            if mono:
+                p["monotonic_cst"] = [int(mono.get(c, 0)) for c in X.columns]
             self.clf = HistGradientBoostingClassifier(**p).fit(Xf.to_numpy(), y)
         return self
 
     def predict(self, X: pd.DataFrame) -> np.ndarray:
+        if self.spec.model == "logreg_split":
+            col = self.spec.extra.get("split_col", "hd_yt_lastday")
+            p = np.zeros(len(X))
+            for v, m in self.parts.items():
+                sel = (X[col].to_numpy() == v)
+                if sel.any():
+                    p[sel] = m.predict(X[sel].drop(columns=[col]))
+            return p
+        if self.spec.model == "avg_subsets":
+            return np.mean([m.predict(X[self.spec.extra["subsets"][i]]) for i, m in self.parts.items()], axis=0)
+        if self.spec.model == "ens":
+            w = self.spec.extra.get("w_logreg", 0.5)
+            return w * self.parts["logreg"].predict(X) + (1 - w) * self.parts["hgb"].predict(X)
         Xf = self._tx(X).fillna(self.med)
         if self.spec.model == "logreg":
             Xf = self._z(Xf)
         return self.clf.predict_proba(Xf.to_numpy())[:, 1]
 
     def weights(self) -> dict:
+        if self.spec.model in ("logreg_split", "ens", "avg_subsets"):
+            return {str(k): m.weights() for k, m in self.parts.items()}
         w = {"transform": "log1p on *per_trip* features, then median impute"
                            + (f", standardize, clip z to +-{self.spec.clip_z}" if self.spec.model == "logreg" else ""),
              "impute_median": self.med.to_dict()}
         if self.spec.model == "logreg":
             coef = self.clf.coef_[0]
-            w["standardized_coef"] = dict(zip(self.spec.features, coef.tolist()))
+            w["standardized_coef"] = dict(zip(self.mu.index, coef.tolist()))
             w["intercept_standardized"] = float(self.clf.intercept_[0])
             w["scaler_mean"] = self.mu.to_dict()
             w["scaler_sd"] = self.sd.to_dict()
             raw = coef / self.sd.to_numpy()
-            w["raw_coef_on_transformed_inputs"] = dict(zip(self.spec.features, raw.tolist()))
+            w["raw_coef_on_transformed_inputs"] = dict(zip(self.mu.index, raw.tolist()))
             w["raw_intercept"] = float(self.clf.intercept_[0] - (raw * self.mu.to_numpy()).sum())
         else:
             w["hgb_params"] = self.clf.get_params()
@@ -171,6 +210,17 @@ def _pick_threshold(y, p, rule: str) -> tuple[float, dict]:
             if s > best_s:
                 best_t, best_s = float(t), s
         info = {"rule": "max MCC on inner OOF", "inner_mcc": float(best_s)}
+    elif rule.startswith("mcc_range:"):  # D-B04: inner-OOF MCC max, restricted to [lo, hi]
+        lo, hi = map(float, rule.split(":")[1:])
+        best_t = (lo + hi) / 2
+        for t in np.round(np.arange(lo, hi + 1e-9, 0.01), 2):
+            c = (p >= t).astype(int)
+            if c.sum() == 0 or c.sum() == len(c):
+                continue
+            s = matthews_corrcoef(y, c)
+            if s > best_s:
+                best_t, best_s = float(t), s
+        info = {"rule": f"max MCC on inner OOF within [{lo}, {hi}]", "inner_mcc": float(best_s)}
     elif rule.startswith("fixed:"):
         best_t = float(rule.split(":")[1])
         info = {"rule": f"fixed {best_t}"}

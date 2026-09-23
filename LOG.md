@@ -30,3 +30,7 @@ One line per saved run. Columns: run id | experiment | dev/HOLDOUT | #features |
 | `20260923T211127Z_e006_recency_d1_fishdope_C003_p35` | e006_recency_d1_fishdope_C003_p35 (strict) | dev | 28 | 0.554 | 0.863 | 0.536 / 0.436 | [-0.042, 0.094] | 2/7 = 0.286 (lo95 0.082) |
 | `20260923T211536Z_e007_recency_d1_fdsent_C003_p35` | e007_recency_d1_fdsent_C003_p35 | dev | 28 | 0.655 | 0.891 | 0.611 / 0.450 | [0.018, 0.078] | 0/0 = nan (lo95 nan) |
 | `20260923T211626Z_e007_recency_d1_fdsent_C003_p35` | e007_recency_d1_fdsent_C003_p35 (strict) | dev | 28 | 0.532 | 0.867 | 0.536 / 0.436 | [-0.062, 0.071] | 3/10 = 0.300 (lo95 0.108) |
+| `20260923T215602Z_eB01_fleet_C003_mccrange` | eB01_fleet_C003_mccrange | dev | 24 | 0.645 | 0.895 | 0.611 / 0.450 | [0.006, 0.061] | 2/3 = 0.667 (lo95 0.208) |
+| `20260923T215613Z_eB02_fleet_fdsent_C003_p35` | eB02_fleet_fdsent_C003_p35 | dev | 37 | 0.653 | 0.891 | 0.611 / 0.450 | [0.012, 0.074] | 1/3 = 0.333 (lo95 0.061) |
+| `20260923T215728Z_eB01_fleet_C003_mccrange` | eB01_fleet_C003_mccrange (strict) | dev | 24 | 0.550 | 0.873 | 0.536 / 0.436 | [-0.038, 0.073] | 7/22 = 0.318 (lo95 0.164) |
+| `20260923T215739Z_eB02_fleet_fdsent_C003_p35` | eB02_fleet_fdsent_C003_p35 (strict) | dev | 37 | 0.534 | 0.864 | 0.536 / 0.436 | [-0.061, 0.064] | 3/17 = 0.176 (lo95 0.062) |

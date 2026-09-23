@@ -40,7 +40,8 @@ def test_future_events_do_not_change_features(n_days: int = 60, seed: int = 7):
         c = features.cutoff_for(D)
         base = features.build(trips, fc, pd.DatetimeIndex([D]), fd)[cols]
         # 1) poison every count/forecast value that is public only after the cutoff
-        pt = _poison(trips, c, rng, ["yt", "bonito", "barracuda", "calico", "rockfish", "anglers"])
+        pt = _poison(trips, c, rng, ["yt", "bonito", "barracuda", "calico", "rockfish", "anglers",
+                                          "mackerel", "sand_bass", "halibut", "white_seabass", "sheephead", "whitefish"])
         pf = _poison(fc, c, rng, ["wind_kt", "swell_ft", "swell_s"])
         pd_ = _poison(fd, c, rng, [c for c in fd.columns if c.startswith("yt_")])
         poisoned = features.build(pt, pf, pd.DatetimeIndex([D]), pd_)[cols]

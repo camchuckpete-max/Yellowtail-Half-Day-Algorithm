@@ -157,3 +157,17 @@ present), else **catch** (catch verb or "N lb"), else **sight** (seen/puddling/.
 Rule-based, no learned parameters. Result on breakout-eligible dev days: a local catch
 in D-3..D-1 → 9.3% vs 6.0%; a local negation on D-1 → 4.6% vs 7.5%. Correct direction,
 modest size. Goal 1 sweep best rises 0.640 → 0.655 (target 0.661).
+
+## D-023 Parallel exploration and search accounting (user opted in, 2026-09-23)
+Three subagents explore independent directions for Goal 1 at the same time, each in
+its own git worktree/branch (`agent/A-*`, `agent/B-*`, `agent/C-*`), never pushing and
+never touching the holdout. Each may score at most 60 configurations on the dev
+folds and must commit every sweep script + full output under `sweeps/`. The
+coordinator reviews, merges selected code into `main`, and re-runs finalists from
+`main` so every logged run is reproducible from a main-branch commit.
+Search ledger: `sweeps/SEARCH_COUNT.md` counts every configuration scored on dev.
+Before this round: 225 (201 in sweeps 1–3, 10 archived iter-0 runs, 14 named-spec runs).
+Because the best of many configurations is optimistically biased, the dev bar
+(D-009) is necessary but not sufficient: **at most 3 finalists in total** may
+ever be scored on the holdout for Goal 1, and Goal 1 is met only if a finalist
+also clears the D-009 margin there.

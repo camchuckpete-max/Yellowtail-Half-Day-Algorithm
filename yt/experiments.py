@@ -4,11 +4,20 @@ Never edit a spec after it has been run: add a new name instead."""
 from __future__ import annotations
 
 from .evaluate import Spec
-from .features import FEATURES
 
-# Frozen copy of the feature list used by iteration-1 specs (D-017).
-_ALL_V1 = [f for f in FEATURES if f not in ("hd_yt_lastday", "hd_lastday_age")]
-_ALL_V2 = list(FEATURES)
+# Frozen, literal copy of the 41-feature list used by iteration-1 specs (D-017, fixed in
+# D-024: this was previously derived from the live FEATURES list and silently grew).
+_ALL_V1 = [
+    "hd_yt_d1", "hd_cov_d1", "hd_ytdays_3", "hd_ytdays_7", "hd_ytdays_14", "hd_ytdays_30",
+    "hd_covdays_7", "hd_covdays_30", "hd_ytrate_7", "hd_ytrate_30", "hd_ytdays_prev7",
+    "hd_yt_trip_frac_d1", "hd_log_ytfish_d1", "hd_yt_landings_d1", "hd_yt_d2", "tq_yt_d1", "hd_yt_streak",
+    "hd_ntrips_7", "hd_ytfish_per_trip_7", "hd_log_ytfish_7", "hd_bonito_per_trip_7",
+    "hd_barracuda_per_trip_7", "hd_calico_per_trip_7", "hd_rockfish_per_trip_7", "hd_days_since_yt",
+    "oth_ntrips_7", "oth_yt_per_trip_7", "oth_log_yt_3", "oth_log_yt_7", "tq_log_yt_7", "ov_log_yt_7",
+    "clim_rate", "doy_sin", "doy_cos", "weekend", "moon_illum", "moon_sin", "moon_cos",
+    "fc_wind_kt", "fc_swell_ft", "fc_swell_s",
+]
+assert len(_ALL_V1) == 41
 
 SPECS: dict[str, Spec] = {}
 

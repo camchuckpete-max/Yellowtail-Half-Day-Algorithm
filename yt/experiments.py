@@ -36,3 +36,15 @@ _add(Spec("e004_breakout_logreg", _ALL_V1, "logreg", C=0.1, subset="breakout",
 
 def get(name: str) -> Spec:
     return SPECS[name]
+
+# --- iteration 3: promoted from sweeps/sweep1_iter2 + sweeps/sweep2_iter3 (D-019)
+_R2 = ["hd_yt_d1", "hd_yt_lastday", "hd_ytdays_3", "hd_ytdays_7", "hd_ytdays_30", "hd_days_since_yt",
+       "clim_rate", "doy_sin", "doy_cos"]
+_FD = ["fd_visible_d1", "fd_yt_local_d1", "fd_yt_coronado_d1", "fd_yt_north_d1", "fd_yt_all_d1",
+       "fd_yt_local_3", "fd_yt_local_days_3", "fd_yt_local_prev4_7", "fd_yt_coronado_3"]
+_FDI = ["hd_yt_lastday*fd_yt_local_d1", "!hd_yt_lastday*fd_yt_local_d1", "hd_yt_lastday*fd_yt_local_3",
+        "!hd_yt_lastday*fd_yt_coronado_d1"]
+_add(Spec("e005_recency_d1_C001_p35", _R2 + _D1, "logreg", C=0.01, threshold_rule="fixed:0.35",
+          notes="Best catch-history-only config in sweeps 1-2"))
+_add(Spec("e006_recency_d1_fishdope_C003_p35", _R2 + _D1 + _FD + _FDI, "logreg", C=0.03,
+          threshold_rule="fixed:0.35", notes="Best config using FishDope in sweep 2"))

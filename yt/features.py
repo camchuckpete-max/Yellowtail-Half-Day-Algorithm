@@ -38,6 +38,26 @@ def moon(day: pd.Timestamp) -> tuple[float, float]:
     return (1 - math.cos(2 * math.pi * phase)) / 2, phase
 
 
+def _fd_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
+    """FishDope yellowtail mentions from reports visible at the cutoff (D-020)."""
+    f: dict = {}
+    rd = fd_rep["report_date"]
+    def rep(k, start=1):
+        return fd_rep[(rd >= D - pd.Timedelta(days=k)) & (rd <= D - pd.Timedelta(days=start))]
+    d1 = rep(1)
+    f["fd_visible_d1"] = int(len(d1) > 0)
+    for reg in ("local", "coronado", "north", "all"):
+        f[f"fd_yt_{reg}_d1"] = math.log1p(float(d1[f"yt_{reg}"].max())) if len(d1) else 0.0
+    r3 = rep(3)
+    f["fd_yt_local_3"] = math.log1p(float(r3["yt_local"].sum()))
+    f["fd_yt_local_days_3"] = int((r3.groupby("report_date")["yt_local"].max() > 0).sum()) if len(r3) else 0
+    f["fd_yt_local_prev4_7"] = math.log1p(float(rep(7, 4)["yt_local"].sum()))
+    f["fd_yt_coronado_3"] = math.log1p(float(r3["yt_coronado"].sum()))
+    f["audit_fd_max_available_at"] = fd_rep["available_at"].max() if len(fd_rep) else pd.NaT
+    f["audit_fd_d1_src_id"] = int(d1["src_id"].iloc[-1]) if len(d1) else -1
+    return f
+
+
 def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dict:
     cutoff = cutoff_for(D)
     f: dict = {"date": D, "cutoff": cutoff}
@@ -151,15 +171,20 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
     return f
 
 
-def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex) -> pd.DataFrame:
+def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
+          fd_rep: pd.DataFrame | None = None) -> pd.DataFrame:
     t_av = trips["available_at"].to_numpy()
     f_av = fc["available_at"].to_numpy()
+    d_av = fd_rep["available_at"].to_numpy() if fd_rep is not None else None
     out = []
     for D in days:
         c = cutoff_for(D)
         vt = _visible(trips, t_av, c)
         vf = _visible(fc, f_av, c)
         row = _day_features(D, vt, vf)
+        if fd_rep is not None:
+            row.update(_fd_features(D, _visible(fd_rep, d_av, c)))
+            assert pd.isna(row["audit_fd_max_available_at"]) or row["audit_fd_max_available_at"] <= c
         # Hard guard: nothing used may postdate the cutoff.
         assert pd.isna(row["audit_max_trip_available_at"]) or row["audit_max_trip_available_at"] <= c
         assert pd.isna(row["audit_fc_available_at"]) or row["audit_fc_available_at"] <= c
@@ -178,4 +203,6 @@ FEATURES = [
     "hd_days_since_yt", "oth_ntrips_7", "oth_yt_per_trip_7", "oth_log_yt_3", "oth_log_yt_7",
     "tq_log_yt_7", "ov_log_yt_7", "clim_rate", "doy_sin", "doy_cos", "weekend",
     "moon_illum", "moon_sin", "moon_cos", "fc_wind_kt", "fc_swell_ft", "fc_swell_s",
+    "fd_visible_d1", "fd_yt_local_d1", "fd_yt_coronado_d1", "fd_yt_north_d1", "fd_yt_all_d1",
+    "fd_yt_local_3", "fd_yt_local_days_3", "fd_yt_local_prev4_7", "fd_yt_coronado_3",
 ]

@@ -21,10 +21,12 @@ def build(strict: bool = False) -> tuple[pd.DataFrame, dict]:
         db = source.open_db(manifest)
         trips = events.load_trips(db, strict=strict)
         fc = events.load_forecasts(db)
+        fd_rep, fd_rej = events.load_fishdope(db)
+        fd_rej.to_csv(source.CACHE_DIR / f"fishdope_rejected_{key}.csv", index=False)
         lab = events.labels(trips)
         first = trips["fished_date"].min() + pd.Timedelta(days=WARMUP_DAYS)
         lab = lab[lab["date"] >= first].reset_index(drop=True)
-        feat = features.build(trips, fc, pd.DatetimeIndex(lab["date"]))
+        feat = features.build(trips, fc, pd.DatetimeIndex(lab["date"]), fd_rep)
         df = feat.merge(lab, on="date", how="inner")
         df.to_pickle(path)
     manifest = dict(manifest, strict_timing=strict, dataset_cache_key=key,

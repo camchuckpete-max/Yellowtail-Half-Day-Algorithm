@@ -120,3 +120,26 @@ run folders, to keep the repo small. Their complete stdout is committed under
 looked at is visible, not only the ones promoted to named specs. Promoting a
 configuration to a spec after seeing its dev score is a form of selection on dev;
 the holdout exists to catch that.
+
+## D-020 FishDope reports admitted (user decision, 2026-09-23)
+User: reports go live 6–7 pm PT. The data's `published_at` stamps cluster at 9–10 pm,
+consistent with **US/Eastern** stamps (21:00 ET = 18:00 PT), so stamps are converted
+ET→PT. Reports with no stamp (all of 2010–2012) are assumed public at 19:00 PT on
+the report date (the user's upper bound). A report is visible for D only if that
+time ≤ 21:00 PT on D-1. Leak guards (rejects listed per build in
+`cache/fishdope_rejected_*.csv`; 20 reports at source commit e42bc27):
+- title weekday must match the report date's weekday (caught the "2011-02-24" report that is really 2012-02-24 content, per its embedded NWS text);
+- no embedded NWS forecast stamp more than 1 day after the report date;
+- an edit later than publication delays availability to the edit time, **except** the
+  2013-08-26 update shared by 1,429 pre-2013 reports, judged to be a site migration:
+  the only later-year references in those reports are regulation dates
+  ("closed January 1st 2013") — checked all 20 such passages by hand.
+Features: yellowtail mentions (`yellowtail`, `yellows`, `YT`) attributed to regions by
+the nearest preceding region keyword: local half-day waters (La Jolla, Point Loma,
+Mission Bay, SD Bay, Imperial Beach, Del Mar, PB, OB), Coronados, north county, all.
+Crude; no negation handling.
+
+## D-021 Sweep results, iteration 2–3
+Best dev MCC 0.640 both with and without FishDope (B1 0.611; target ≥ 0.661).
+FishDope does not add measurable skill with these text features. Promoted to
+specs e005 (catch history only) and e006 (with FishDope).

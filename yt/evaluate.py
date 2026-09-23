@@ -262,7 +262,7 @@ def baseline_calls(pred: pd.DataFrame) -> dict[str, np.ndarray]:
             "B2_last7": (pred["hd_ytdays_7"] > 0).to_numpy().astype(int)}
 
 
-def summarize(pred: pd.DataFrame) -> dict:
+def summarize(pred: pd.DataFrame, bootstrap: bool = True) -> dict:
     y = pred["y"].to_numpy()
     res = {"model": {**hard_metrics(y, pred["call"]), **prob_metrics(y, pred["prob"])}}
     res["per_fold"] = {f: hard_metrics(g["y"], g["call"]) for f, g in pred.groupby("fold")}
@@ -270,7 +270,8 @@ def summarize(pred: pd.DataFrame) -> dict:
     res["baselines"] = {k: hard_metrics(y, v) for k, v in base.items()}
     best = max(base, key=lambda k: res["baselines"][k]["mcc"])
     res["best_baseline"] = best
-    res["mcc_diff_vs_best_baseline"] = block_bootstrap_diff(y, pred["call"].to_numpy(), base[best])
+    res["mcc_diff_vs_best_baseline"] = (block_bootstrap_diff(y, pred["call"].to_numpy(), base[best])
+                                        if bootstrap else {"lo95": float("nan"), "hi95": float("nan")})
     # Breakout: days with no half-day yellowtail visible in the breakout window.
     bo = pred[pred[BREAKOUT_COL] == 0]
     k = int(((bo["call"] == 1) & (bo["y"] == 1)).sum()); n = int((bo["call"] == 1).sum())

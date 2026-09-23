@@ -123,3 +123,82 @@ def labels(trips: pd.DataFrame) -> pd.DataFrame:
     g["y"] = (g["yt_total"] > 0).astype(int)
     g.index.name = "date"
     return g.reset_index()
+
+
+# ------------------------------------------------------------------ FishDope (D-020)
+ET = ZoneInfo("America/New_York")
+BULK_MIGRATION_DAY = "2013-08-26"  # 1429 pre-2013 reports share this updated_at; site migration
+REGIONS = {
+    "local": ["La Jolla", "Point Loma", "Mission Bay", "San Diego Bay", "Imperial Beach", "Del Mar",
+              "Pacific Beach", "Ocean Beach"],
+    "coronado": ["Coronado Islands", "Coronados"],
+    "north": ["Oceanside", "Carlsbad", "Dana Point", "San Onofre", "Newport", "Laguna"],
+    "other": ["LA Harbor", "Catalina", "San Clemente Island", "Channel Islands", "Ensenada", "Todos Santos",
+              "Colonet", "OFFSHORE", "Offshore", "9 Mile Bank", "Marina Del Rey", "King Harbor",
+              "Santa Monica", "San Nicolas", "Redondo", "Mexican waters", "Mexican Waters", "MEXICO"],
+}
+_REGION_RE = re.compile("|".join(re.escape(k) for ks in REGIONS.values() for k in sorted(ks, key=len, reverse=True)))
+_KEY2REG = {k: r for r, ks in REGIONS.items() for k in ks}
+_YT_RE = re.compile(r"(?i:yellowtail|\byellows\b)|\bYT\b")
+_TITLE_DATE = re.compile(r"(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)")
+_NWS_STAMP = re.compile(r"\b[AP]M P[SD]T (?:MON|TUE|WED|THU|FRI|SAT|SUN) ([A-Z]{3}) (\d{1,2}) (20\d\d)")
+
+
+def _stamp(s: str | None) -> datetime | None:
+    try:
+        return datetime.strptime(s.strip(), "%B %d, %Y at %I:%M %p")
+    except (AttributeError, ValueError):
+        return None
+
+
+def yt_mentions_by_region(text: str) -> dict[str, int]:
+    """Attribute text to the most recent region keyword; count yellowtail mentions."""
+    out = {r: 0 for r in REGIONS}
+    out["all"] = len(_YT_RE.findall(text))
+    marks = [(m.start(), _KEY2REG[m.group(0)]) for m in _REGION_RE.finditer(text)]
+    for i, (st, reg) in enumerate(marks):
+        end = marks[i + 1][0] if i + 1 < len(marks) else len(text)
+        out[reg] += len(_YT_RE.findall(text, st, end))
+    return out
+
+
+def load_fishdope(db: sqlite3.Connection) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """Returns (usable reports, rejected reports with reason)."""
+    rows, rejected = [], []
+    q = "SELECT report_id, report_date, title, published_at, updated_at, narrative_json FROM fishdope_reports"
+    for rid, rd, title, pub, upd, nj in db.execute(q):
+        try:
+            day = datetime.fromisoformat(rd)
+        except (TypeError, ValueError):
+            rejected.append((rid, rd, "unparseable report_date")); continue
+        m = _TITLE_DATE.search(title or "")
+        if m and m.group(1) != day.strftime("%A"):
+            rejected.append((rid, rd, f"title weekday {m.group(1)} != {day.strftime('%A')}")); continue
+        n = json.loads(nj or "{}")
+        text = "\n".join(f"{k}\n{v}" for part in ("highlights", "bait_report", "sections")
+                         for k, v in (n.get(part) or {}).items())
+        stamps = []
+        for mon, dd, yy in _NWS_STAMP.findall(text):
+            try:
+                stamps.append(datetime.strptime(f"{mon} {dd} {yy}", "%b %d %Y"))
+            except ValueError:
+                pass
+        if stamps and max(stamps) > day + timedelta(days=1):
+            rejected.append((rid, rd, f"embedded NWS stamp {max(stamps).date()} after report date")); continue
+        # Availability: stamps are US/Eastern (user: reports go live 6-7pm PT, stamps cluster 9-10pm).
+        # Missing stamp -> 19:00 PT on report day (user-stated). A non-migration edit later than
+        # publication delays availability to the edit time.
+        p, u = _stamp(pub), _stamp(upd)
+        t = None
+        for cand in (p, None if (u is None or u.date().isoformat() == BULK_MIGRATION_DAY) else u):
+            if cand is not None:
+                c = cand.replace(tzinfo=ET).astimezone(PT).replace(tzinfo=None)
+                t = c if t is None else max(t, c)
+        if t is None:
+            t = day.replace(hour=19)
+        c = yt_mentions_by_region(text)
+        rows.append({"src_id": rid, "report_date": pd.Timestamp(day), "available_at": pd.Timestamp(t),
+                     "stamp_kind": "published" if p else "assumed_19pt", "migrated": bool(u and u.date().isoformat() == BULK_MIGRATION_DAY),
+                     **{f"yt_{k}": v for k, v in c.items()}})
+    df = pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)
+    return df, pd.DataFrame(rejected, columns=["src_id", "report_date", "reason"])

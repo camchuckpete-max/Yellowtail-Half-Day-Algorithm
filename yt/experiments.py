@@ -73,3 +73,11 @@ _add(Spec("eB01_fleet_C003_mccrange", _R2 + _D1 + _FLEET, "logreg", C=0.03, thre
           notes="Catch history + boat/fleet state, 3/4-day success, species mix; inner-OOF threshold in [0.3, 0.5]"))
 _add(Spec("eB02_fleet_fdsent_C003_p35", _R2 + _D1 + _FLEET + _FS + _FSI, "logreg", C=0.03,
           threshold_rule="fixed:0.35", notes="eB01 features + sentence-level FishDope (e007)"))
+
+# --- iteration 5 (D-026/D-027): pre-registered finalists for dev 2012-2016, run once each
+_B01 = get("eB01_fleet_C003_mccrange")
+_E07 = get("e007_recency_d1_fdsent_C003_p35")
+_add(Spec("e008_e007_monthly", _E07.features, "logreg", C=0.03, threshold_rule="fixed:0.35",
+          retrain="month", notes="e007 with monthly refit"))
+_add(Spec("e009_eB01_monthly_p40", _B01.features, _B01.model, C=_B01.C, threshold_rule="fixed:0.4",
+          retrain="month", extra=_B01.extra, notes="eB01 feature set, monthly refit, threshold 0.4 (sweep 4 #2)"))

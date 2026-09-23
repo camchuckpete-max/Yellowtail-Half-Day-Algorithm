@@ -284,3 +284,12 @@ more training years address the "too little, too cold training data" diagnosis
 2012–2014. Earlier logged results were on dev 2012–2014; each run's `config.json`
 records its dev years. The D-009 bar is unchanged (pooled dev MCC ≥ best
 baseline + 0.05, bootstrap CI > 0), now over 2012–2016.
+
+## D-026 Refit cadence and recency weighting (protocol option, not a protocol change)
+`Spec.retrain = "month"` refits the model at the start of each calendar month inside
+a test fold, on days < month start − 1 day; `Spec.halflife_days > 0` weights training
+rows by 0.5^(age/half-life). The decision threshold is still chosen once per fold
+from data before the fold. Default (`year`, no weighting) reproduces all earlier
+runs exactly (e007 verified). Sweep 4 (36 configs, dev 2012–2014): monthly refit
+improves calibration (Brier e007 0.1196 → 0.1153; eB01 0.1125) but not MCC; best
+MCC stays e007 yearly 0.655. Recency weighting did not help.

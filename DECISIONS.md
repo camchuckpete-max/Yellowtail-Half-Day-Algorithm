@@ -625,8 +625,10 @@ expected). `events.trip_class` now returns `day_1_5` for that type or any raw la
 where it was not. Affected features: `ov_log_yt_7`, `oth_ntrips_7`, `oth_yt_per_trip_7`,
 `oth_log_yt_3`, `oth_log_yt_7` — used only by the `_ALL_V1` specs (e001/e002/e004). The four
 most recently logged Goal 1 specs (e005, eB01, e009, e007) use none of them and were re-run to
-confirm identical results; `e001_logreg_all_mcc` was re-run to log the effect (LOG.md, source
-ba64933). `tests/test_pit.py::test_overnight_and_day15_publish_times` pins both publish times, the
+confirm identical results (they are: LOG.md, source ba64933). `e001_logreg_all_mcc`, which uses
+them, was run at the previous commit (185d329) and at this one on the same dev folds 2012–2023:
+MCC 0.534 → 0.535, AUC 0.868 → 0.868, ΔMCC CI [−0.054, 0.012] → [−0.051, 0.011], breakout
+12/38 → 12/32 calls. The 1.5-day visibility change is immaterial for Goal 1. `tests/test_pit.py::test_overnight_and_day15_publish_times` pins both publish times, the
 source date semantics, and that a trip returning on D is never visible at D-1 21:00.
 
 ## D-052 Arena Phases 0–2 built: engine conventions not fixed by the spec (2026-09-24)

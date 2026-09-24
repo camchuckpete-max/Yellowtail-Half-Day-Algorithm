@@ -309,9 +309,26 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
     return f
 
 
+def _tide_features(D: pd.Timestamp, td: pd.DataFrame) -> dict:
+    """Predicted tidal range/heights for D and D-1 (spring vs neap; D-029)."""
+    f: dict = {}
+    for lag, name in ((0, "d"), (1, "d1")):
+        r = td[td["target_date"] == D - pd.Timedelta(days=lag)]
+        hi = float(r["tide_high_ft"].iloc[-1]) if len(r) and pd.notna(r["tide_high_ft"].iloc[-1]) else float("nan")
+        lo = float(r["tide_low_ft"].iloc[-1]) if len(r) and pd.notna(r["tide_low_ft"].iloc[-1]) else float("nan")
+        f[f"tide_range_{name}"] = hi - lo
+        if lag == 0:
+            f["tide_high_d"], f["tide_low_d"] = hi, lo
+            f["audit_tide_available_at"] = r["available_at"].iloc[-1] if len(r) else pd.NaT
+    f["tide_range_chg"] = f["tide_range_d"] - f["tide_range_d1"]
+    return f
+
+
 def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
-          fd_rep: pd.DataFrame | None = None, mf: pd.DataFrame | None = None) -> pd.DataFrame:
+          fd_rep: pd.DataFrame | None = None, mf: pd.DataFrame | None = None,
+          tides: pd.DataFrame | None = None) -> pd.DataFrame:
     t_av = trips["available_at"].to_numpy()
+    td_av = tides["available_at"].to_numpy() if tides is not None else None
     m_av = mf["available_at"].to_numpy() if mf is not None else None
     f_av = fc["available_at"].to_numpy()
     d_av = fd_rep["available_at"].to_numpy() if fd_rep is not None else None
@@ -329,6 +346,9 @@ def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
         if mf is not None:
             row.update(_mf_features(D, _visible(mf, m_av, c)))
             assert pd.isna(row["audit_mf_available_at"]) or row["audit_mf_available_at"] <= c
+        if tides is not None:
+            row.update(_tide_features(D, _visible(tides, td_av, c)))
+            assert pd.isna(row["audit_tide_available_at"]) or row["audit_tide_available_at"] <= c
         # Hard guard: nothing used may postdate the cutoff.
         assert pd.isna(row["audit_max_trip_available_at"]) or row["audit_max_trip_available_at"] <= c
         assert pd.isna(row["audit_fc_available_at"]) or row["audit_fc_available_at"] <= c
@@ -368,4 +388,5 @@ FEATURES = [
     "wt_all_3", "wt_all_7", "wt_local_7", "wt_local_14", "wt_trend", "wt_max_7", "wt_n_7", "wt_anom_7", "wt_c", "wt_c_local",
     "bait_sardine_7", "bait_squid_7", "bait_anchovy_7", "bait_mackerel_7",
     "mf_wind_max", "mf_gust", "mf_seas", "mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_swell_west",
+    "tide_range_d", "tide_high_d", "tide_low_d", "tide_range_d1", "tide_range_chg",  # D-029
 ]

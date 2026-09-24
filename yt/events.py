@@ -122,6 +122,20 @@ def load_forecasts(db: sqlite3.Connection, zone: str = "t_sd_coast") -> pd.DataF
     return pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)
 
 
+TIDE_LEAD_DAYS = 30  # D-029: predicted tides treated as public 30 days ahead (NOAA publishes a year+ ahead)
+
+
+def load_tides(db: sqlite3.Connection, zone: str = "t_sd_coast") -> pd.DataFrame:
+    """NOAA CO-OPS predicted daily high/low tide heights (single station; D-029)."""
+    q = """SELECT id, condition_date, tide_high_ft, tide_low_ft FROM conditions_daily
+           WHERE source='noaa_coops_tides' AND data_kind='forecast' AND zone_id=?"""
+    rows = [{"src_id": rid, "target_date": pd.Timestamp(d), "tide_high_ft": h, "tide_low_ft": lo,
+             "available_at": pd.Timestamp(d) - pd.Timedelta(days=TIDE_LEAD_DAYS)}
+            for rid, d, h, lo in db.execute(q, (zone,))]
+    df = pd.DataFrame(rows, columns=["src_id", "target_date", "tide_high_ft", "tide_low_ft", "available_at"])
+    return df.sort_values("available_at", kind="stable").reset_index(drop=True)
+
+
 def labels(trips: pd.DataFrame) -> pd.DataFrame:
     """Truth for day D: any half-day fishing trip (AM/PM/unspecified/twilight) on D
     caught >=1 yellowtail. Days with no half-day fishing trip reported are not

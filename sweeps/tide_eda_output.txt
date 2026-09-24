@@ -1,0 +1,5 @@
+source 8b480849e8962c2ccf9380ed50499f6bd7ccc3b9 dev rows 1749 tide nonnull 1749
+corr(tide_range_d, moon_illum)=0.024  corr(tide_range_d, |moon_cos|)=0.794
+B1=0: {Interval(1.7870000000000001, 4.262, closed='right'): {'size': 275, 'mean': 0.149}, Interval(4.262, 5.374, closed='right'): {'size': 274, 'mean': 0.157}, Interval(5.374, 6.528, closed='right'): {'size': 274, 'mean': 0.113}, Interval(6.528, 9.32, closed='right'): {'size': 275, 'mean': 0.167}}
+B1=1: {Interval(1.5030000000000001, 4.27, closed='right'): {'size': 163, 'mean': 0.798}, Interval(4.27, 5.317, closed='right'): {'size': 163, 'mean': 0.73}, Interval(5.317, 6.46, closed='right'): {'size': 162, 'mean': 0.753}, Interval(6.46, 8.819, closed='right'): {'size': 163, 'mean': 0.742}}
+source moon sample: {'moon_phase': {Timestamp('2024-01-01 00:00:00'): '0.72 waning_gibbous', Timestamp('2024-01-02 00:00:00'): '0.62 last_quarter', Timestamp('2024-01-03 00:00:00'): '0.51 last_quarter'}}

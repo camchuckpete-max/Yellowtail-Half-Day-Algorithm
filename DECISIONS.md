@@ -305,3 +305,18 @@ reproduces (0.624) on it. Dev = 2012–2016 (D-027). Directions:
   aggregate to the day with a separate model of which trips sail; separates effort from bite.
 - F: latent-state ("fish are local") sequence models, e.g. HMM / Bayesian filtering over
   partial daily evidence, and regime-dependent decision rules chosen on training data only.
+
+## D-029 Predicted tides (user backfilled 2009–2026) and moon check
+Source `conditions_daily` rows `noaa_coops_tides` (data_kind `forecast` = NOAA predictions,
+identical across zones → one station; daily high/low heights, no times). Predictions are
+published a year or more ahead; `available_at` is set conservatively to 30 days before the
+date, so D's own predicted tides are visible at the D-1 cutoff. Features: tidal range on D and
+D-1, high/low heights, range change. Covered by the poison/truncation test.
+Findings (source 8b48084, dev 2012–2016): hit rate is flat across tidal-range quartiles
+(B1=0: 11–17%; B1=1: 73–80%); tidal range correlates 0.79 with |cos(moon phase)|
+(spring/neap), as expected. Sweep 5 (6 configs incl. 3 controls): adding tides changes dev
+MCC by −0.003 to +0.005, AUC unchanged or lower → no effect; not adopted.
+Source `astronomical_moon` (2009–2026) matches our computed illumination (corr 1.000,
+max abs diff 0.009); no new information.
+Note: controls moved slightly vs source 7121831 (B1 0.606 → 0.609; e005 0.624 → 0.623)
+because the source backfill re-filled failed 2012–2016 dates. Dev data is still settling.

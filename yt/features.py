@@ -444,9 +444,15 @@ def _ocean_features(D: pd.Timestamp, oc: pd.DataFrame) -> dict:
         f["sst_offshore_grad"] = float(tiles.drop(labels=["t_sd_coast"], errors="ignore").mean() - tiles.get("t_sd_coast", nan))
         f["sst_warm_frac"] = float((tiles >= 68.0).mean()) if len(tiles) else nan
         f["sst_tiles_max"] = float(tiles.max()) if len(tiles) else nan
+        # D-036: spatial pattern — north county warm relative to Coronados/Baja
+        f["sst_north_last"] = float(tiles.get("t_north_county", nan))
+        south = tiles.reindex(["t_coronados", "t_baja"]).dropna()
+        f["sst_south_minus_north"] = float(south.mean() - f["sst_north_last"]) if len(south) else nan
+        f["sst_tiles_ge68"] = float((tiles >= 68.0).sum()) if len(tiles) else nan
     else:
         for k in ("sst_sd_last", "sst_sd_age", "sst_sd_7", "sst_sd_trend7", "sst_sd_max30", "sst_cor_last",
-                  "sst_nine_last", "sst_offshore_grad", "sst_warm_frac", "sst_tiles_max"):
+                  "sst_nine_last", "sst_offshore_grad", "sst_warm_frac", "sst_tiles_max",
+                  "sst_north_last", "sst_south_minus_north", "sst_tiles_ge68"):
             f[k] = nan
     chl = recent[recent["chl"].notna() & (recent["zone"] == "t_sd_coast")].groupby("target_date")["chl"].last()
     f["chl_sd_last"] = math.log(float(chl.iloc[-1])) if len(chl) and chl.iloc[-1] > 0 else nan
@@ -547,6 +553,7 @@ FEATURES = [
     # D-034 satellite ocean (2020+)
     "sst_sd_last", "sst_sd_age", "sst_sd_7", "sst_sd_trend7", "sst_sd_max30", "sst_cor_last", "sst_nine_last",
     "sst_offshore_grad", "sst_warm_frac", "sst_tiles_max", "chl_sd_last", "cur_sd_speed_3", "cur_sd_north_3",
+    "sst_north_last", "sst_south_minus_north", "sst_tiles_ge68",  # D-036
 ]
 
 

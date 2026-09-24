@@ -415,3 +415,15 @@ Sweeps C4 (15 configs), C6 (14), C7 (8); EDA on dev 2020–2023 in `sweeps/C5_ss
   walk-forward fold, which previously forced the 0.5 default and zero calls.
 Goal 1 re-run on dev 2012–2023 (D-033): B1 0.554; e005 0.581 (CI of gain [+0.009, +0.045]),
 e009 0.580, e007 0.578, eB01 0.577 — above B1 over twelve years, still short of the +0.05 bar.
+
+## D-036 Goal C: per-area SST check and spatial features
+EDA (dev days 2020–2023, `sweeps/C8_tile_sst_eda_output.txt`): SST (lagged 2 days) in each of the
+source's 10 tiles has univariate AUC 0.755–0.778, and 0.655–0.689 within the middle half of the
+season-only probability — the tiles move together, so the signal is the regional warm/cold state,
+not where warm water sits. Tiles are coarse (t_sd_coast = 183 nm², Del Mar–IB); the source defines
+kelp-bed sub-zones (point_loma_kelp, la_jolla, bull_ring) but stores no SST for them; finer SST
+needs a source-side ingest change (not possible from this repo; data comes only from the source).
+One spatial contrast stood out: south (Coronados + Baja) minus North County SST, AUC 0.312
+(i.e. 0.688 flipped: north relatively warm is better). Added features `sst_north_last`,
+`sst_south_minus_north`, `sst_tiles_ge68`; tested in sweep C9 (pre-declared, 6 configurations).
+User's OneDrive weather archive: not reachable (auth required); dropped at user's request.

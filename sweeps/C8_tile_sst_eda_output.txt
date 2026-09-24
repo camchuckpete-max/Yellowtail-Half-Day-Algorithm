@@ -1,0 +1,28 @@
+sub_zones in geometry: [{'id': 'point_loma_kelp', 'name': 'Point Loma Kelp', 'tile_id': 't_sd_coast', 'corners': {'lat_min': 32.6, 'lat_max': 32.712, 'lon_min': -117.33, 'lon_max': -117.195}, 'anchor_type': 'fixed', 'advection': 'N/A (fixed)', 'rationale': 'Kelp bed bound to hard bottom; does not move.'}, {'id': 'la_jolla', 'name': 'La Jolla Kelp', 'tile_id': 't_sd_coast', 'corners': {'lat_min': 32.795, 'lat_max': 32.88, 'lon_min': -117.33, 'lon_max': -117.24}, 'anchor_type': 'fixed', 'advection': 'N/A (fixed)', 'rationale': 'Kelp/canyon edge structure; fixed.'}, {'id': 'bull_ring', 'name': 'Bull Ring', 'tile_id': 't_sd_coast', 'corners': {'lat_min': 32.47, 'lat_max': 32.58, 'lon_min': -117.208, 'lon_max': -117.078}, 'anchor_type': 'fixed', 'advection': 'N/A (fixed)', 'rationale': 'Rocky reef; fixed.'}, {'id': 'north_9', 'name': 'North 9 Mile Bank', 'tile_id': 't_nine_mile', 'corners': {'lat_min': 32.58, 'lat_max': 32.656, 'lon_min': -117.498, 'lon_max': -117.368}, 'anchor_type': 'fixed', 'advection': 'N/A (fixed)', 'rationale': 'Bank distance-named; fixed high spots.'}, {'id': 'south_9', 'name': 'South 9 Mile Bank', 'tile_id': 't_nine_mile', 'corners': {'lat_min': 32.514, 'lat_max': 32.552, 'lon_min': -117.415, 'lon_max': -117.335}, 'anchor_type': 'fixed', 'advection': 'N/A (fixed)', 'rationale': 'Bank; fixed.'}]
+
+per-tile univariate AUC of SST (D-2) for half-day yellowtail on D, dev 2020-2023:
+  t_sd_coast       AUC=0.778  mean=64.2F
+  t_nine_mile      AUC=0.778  mean=64.7F
+  t_north_county   AUC=0.775  mean=64.7F
+  t_coronados      AUC=0.774  mean=63.5F
+  t_dana           AUC=0.773  mean=64.6F
+  t_302_425        AUC=0.770  mean=64.5F
+  t_ridge          AUC=0.763  mean=64.8F
+  t_baja           AUC=0.762  mean=63.5F
+  t_hidden         AUC=0.760  mean=64.3F
+  t_43_butterfly   AUC=0.755  mean=64.3F
+
+within-season signal: AUC among days whose season-only prob is in the middle half
+  t_sd_coast       AUC=0.689 n=624
+  t_coronados      AUC=0.689 n=624
+  t_nine_mile      AUC=0.686 n=624
+  t_north_county   AUC=0.688 n=624
+  t_302_425        AUC=0.680 n=624
+  t_baja           AUC=0.655 n=624
+  t_hidden         AUC=0.667 n=624
+<stdin>:26: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+<stdin>:27: Pandas4Warning: Starting with pandas version 4.0 all arguments of mean will be keyword-only.
+<stdin>:28: Pandas4Warning: Starting with pandas version 4.0 all arguments of sum will be keyword-only.
+  south_minus_north    AUC=0.312
+  coast_minus_offshore AUC=0.552
+  tiles_ge68           AUC=0.697

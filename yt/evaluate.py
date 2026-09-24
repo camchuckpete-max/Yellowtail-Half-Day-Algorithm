@@ -1,12 +1,12 @@
 """Walk-forward evaluation, baselines, metrics and auditable run artifacts.
 
 Protocol (DECISIONS.md D-006..D-010):
-  * Dev folds: test years 2012-2016 (D-027). Each fold trains ONLY on target
+  * Dev folds: test years 2012-2023 (D-033). Each fold trains ONLY on target
     days < (first test day - 1 day) so every training label was fully known
     at the first prediction's cutoff. The model is frozen for the whole year.
   * Threshold: chosen on inner walk-forward out-of-fold predictions inside
     the training window (never on the test fold).
-  * Holdout: every target day >= 2017-01-01 (D-027). Evaluated only with --holdout;
+  * Holdout: every target day >= 2024-01-01 (D-033). Evaluated only with --holdout;
     every access is appended to holdout_access.log.
   * Coverage filter: a target day is scored only if >=5 of the previous 7
     days had half-day reports visible at the cutoff.
@@ -27,8 +27,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import brier_score_loss, matthews_corrcoef, roc_auc_score
 
 ROOT = Path(__file__).resolve().parents[1]
-DEV_YEARS = (2012, 2013, 2014, 2015, 2016)   # D-027 (was 2012-2014 through run e007/sweep 4)
-HOLDOUT_START = pd.Timestamp("2017-01-01")   # D-027 (was 2015-01-01; never accessed)
+DEV_YEARS = tuple(range(2012, 2024))         # D-033 (2012-2016 per D-027; 2012-2014 before that)
+HOLDOUT_START = pd.Timestamp("2024-01-01")   # D-033 (was 2017-01-01 per D-027; never accessed)
 MIN_COV7 = 5
 # Breakout-eligible day: no half-day yellowtail visible in D-3..D-1 (D-015, user
 # change 2026-09-23; was D-7..D-1 under D-013).
@@ -48,6 +48,8 @@ class Spec:
     retrain: str = "year"          # year | month: refit cadence inside a test fold (D-026)
     halflife_days: float = 0.0     # >0: training rows weighted 0.5**(age/halflife) (D-026)
     inputs: str = "any"            # "conditions": Goal C allowlist enforced (D-031)
+    dev_years: tuple = ()          # override DEV_YEARS (subset only), e.g. SST era (D-033)
+    train_start: str = ""          # drop training rows before this date, e.g. "2020-01-01" (D-033)
     notes: str = ""
     extra: dict = field(default_factory=dict)
 
@@ -267,11 +269,12 @@ def _inner_oof(train: pd.DataFrame, spec: Spec) -> tuple[np.ndarray, np.ndarray]
     return (np.concatenate(ys), np.concatenate(ps)) if ys else (np.array([]), np.array([]))
 
 
-def folds(df: pd.DataFrame, holdout: bool):
+def folds(df: pd.DataFrame, holdout: bool, years: tuple = ()):
     if holdout:
         yield "holdout", df[df["date"] >= HOLDOUT_START]
     else:
-        for y in DEV_YEARS:
+        assert set(years) <= set(DEV_YEARS), "dev_years must be a subset of DEV_YEARS"
+        for y in (years or DEV_YEARS):
             yield str(y), df[df["date"].dt.year == y]
 
 
@@ -298,7 +301,9 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
         from .features import assert_conditions_only
         assert_conditions_only(spec.features)
     df = add_derived(df, spec.features)
-    for name, test in folds(df, holdout):
+    if spec.train_start:
+        df = df[df["date"] >= pd.Timestamp(spec.train_start)]
+    for name, test in folds(df, holdout, spec.dev_years):
         first = test["date"].min()
         train = df[df["date"] < first - pd.Timedelta(days=1)]
         assert train["date"].max() < first - pd.Timedelta(days=1)

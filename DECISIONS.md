@@ -357,3 +357,30 @@ same season in prior years' forecasts, and zone-forecast offshore/south wind, so
 seas over 3/14 days; plus a second day-of-year harmonic. Past days' forecasts stand in for
 observed conditions, which do not exist for 2010–2016 in the source.
 Benchmark S0 = season-only logistic on day-of-year harmonics.
+
+## D-032 Goal C, forecast-era results (dev 2012–2016) and the refit-purity rule
+Added 30/60/90-day anomalies (upwelling proxy, wind, south swell, total swell) vs a prior-years
+day-of-year climatology of the same forecast series. Sweeps C1 (30 configs), C2 one-at-a-time
+screen (60), C3 combinations (20). With yearly-frozen models: season-only S0 AUC 0.709,
+Brier 0.234, MCC 0.318; best conditions set (S2 + 90-day south-swell anomaly + 30-day
+upwelling anomaly + 3-day seas) AUC 0.714, Brier 0.222. No single condition improves ranking
+by more than +0.007 AUC; the 90-day south-swell anomaly is the only clear Brier gain (−0.010).
+Swell/wind anomalies are systematically offset in every year (all south-swell anomalies < 0,
+wind > 0 except 2015), pointing to drift in the NWS forecast series (product/wording changes),
+which also explains why several anomaly features hurt out of sample.
+**Purity rule:** Goal C's primary numbers use yearly-frozen models (trained only on earlier
+years). Monthly refit lifts even S0 to AUC 0.750 because it learns the current year's
+yellowtail level from last month's outcomes — catch information entering through training
+labels. Monthly-refit Goal C numbers are reported only as a flagged secondary view.
+
+## D-033 Splits redefined now that the source covers 2010–2026 (before any look at 2017+)
+Source cfae8af has half-day counts for every year 2010–2026 (2019–2025 ≥ 330 days each;
+2026: 264 days so far). `holdout_access.log` is empty and no score has ever been computed on a
+date ≥ 2017 (agent D read a few 2018–2023 bait text strings, no labels — D-D disclosure).
+New split, recorded before any evaluation on 2017+:
+- **Dev folds: 2012–2023** (Goal 1 gains seven fresh test years, 2017–2023).
+- **Holdout: every day ≥ 2024-01-01** (~950 days incl. 2026; grows as 2026 continues).
+- SST-era specs (Goal C track 2) use dev folds 2021–2023 with training starting 2020-01-01,
+  since satellite SST starts 2020-01-01 (`Spec.dev_years`, `Spec.train_start`).
+The D-009 bar is unchanged. Earlier logged results were on dev 2012–2014 or 2012–2016; each
+run's config.json records its dev years.

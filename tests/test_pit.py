@@ -68,13 +68,21 @@ def test_trip_model_features_use_only_public_trips(n_days: int = 5, seed: int = 
     names = trips["boat"].unique()
     for D in days:
         c = features.cutoff_for(D)
-        kw = {"C": 0.1, "boats": True, "refit_days": 7}
+        kw = {"C": 0.1, "boats": True, "refit_days": 7, "ext": True, "halflife": 365.0}
         base = tripmodel.build(trips, pd.DatetimeIndex([D]), **kw)
         pt = _poison(trips, c, rng, ["yt", "bonito", "barracuda", "calico", "rockfish", "anglers"])
         after = pt["available_at"] > c
         pt.loc[after, "boat"] = rng.choice(names, after.sum())
         poisoned = tripmodel.build(pt, pd.DatetimeIndex([D]), **kw)
         truncated = tripmodel.build(trips[trips["available_at"] <= c], pd.DatetimeIndex([D]), **kw)
+        rows_t = tripmodel.candidate_rows(trips[trips["available_at"] <= c],
+                                          tripmodel.all_days(trips[trips["available_at"] <= c], pd.DatetimeIndex([D])))
+        rows_f = tripmodel.candidate_rows(trips, tripmodel.all_days(trips, pd.DatetimeIndex([D])))
+        for kind_kw in ({"kind": "hgb", "boats": True, "ext": True},):  # boosted yt model (D-E03)
+            pd.testing.assert_frame_equal(tripmodel.build(trips, pd.DatetimeIndex([D]), rows=rows_f, **kind_kw),
+                                          tripmodel.build(trips[trips["available_at"] <= c], pd.DatetimeIndex([D]),
+                                                          rows=rows_t, **kind_kw),
+                                          check_dtype=False, obj=f"hgb trip model truncated {D.date()}")
         assert base["tm_p"].notna().all(), D
         pd.testing.assert_frame_equal(base, poisoned, check_dtype=False, obj=f"trip model poisoned {D.date()}")
         pd.testing.assert_frame_equal(base, truncated, check_dtype=False, obj=f"trip model truncated {D.date()}")
@@ -102,7 +110,7 @@ def test_fishdope_same_day_report_never_visible():
 def test_dataset_audit_columns_respect_cutoff():
     df, _ = dataset.build()
     for col in ("audit_max_trip_available_at", "audit_fc_available_at", "audit_fd_max_available_at",
-                "audit_mf_available_at"):
+                "audit_mf_available_at", *[f"audit_{k}_label_at" for k in dataset.TRIP_VARIANTS]):
         ok = df[col].isna() | (df[col] <= df["cutoff"])
         assert ok.all(), col
 

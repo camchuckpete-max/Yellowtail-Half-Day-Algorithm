@@ -26,6 +26,7 @@ from collections import defaultdict
 
 import numpy as np
 import pandas as pd
+from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 
 from . import events
@@ -44,6 +45,7 @@ YT_X = ["c_am", "c_pm", "c_tw", "b_yt_last", "b_frac7", "b_sailed7", "b_prior_lr
         "f_frac_last", "f_ytdays7", "f_ewm", "f_rate60", "tq_frac3", "log_anglers28", "doy_sin", "doy_cos",
         "weekend"]
 BOAT_X = [f"boat_{i}" for i in range(len(MAIN_BOATS))]
+EXT_X = ["b_log_yt_last", "b_log_days_since_yt", "p_frac14", "f_yt_boats3"]  # D-E03
 
 
 def _logit(p: float) -> float:
@@ -69,7 +71,8 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
     # Streaming state (only events with available_at <= current cutoff are ever added)
     present: dict = defaultdict(set)                  # (boat, class) -> fished days
     pair_ang: dict = defaultdict(dict)                 # (boat, class) -> {day: [sum anglers, n]}
-    boat_day: dict = defaultdict(dict)                 # boat -> {day: [n, n_yt]}
+    boat_day: dict = defaultdict(dict)                 # boat -> {day: [n, n_yt, yt fish]}
+    pair_day: dict = defaultdict(dict)                 # (boat, class) -> {day: [n, n_yt]}
     fleet_day: dict = {}                               # day -> [n, n_yt]   (half-day fishing trips)
     tq_day: dict = {}                                  # day -> [n, n_yt]   (3/4-day trips)
     boat_last: dict = {}                               # boat -> latest visible fished day
@@ -88,7 +91,8 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
                 present[k].add(f)
                 if ang[j] == ang[j]:
                     s = pair_ang[k].setdefault(f, [0.0, 0]); s[0] += ang[j]; s[1] += 1
-                s = boat_day[boats[j]].setdefault(f, [0, 0]); s[0] += 1; s[1] += int(ytv[j] > 0)
+                s = boat_day[boats[j]].setdefault(f, [0, 0, 0]); s[0] += 1; s[1] += int(ytv[j] > 0); s[2] += ytv[j]
+                s = pair_day[k].setdefault(f, [0, 0]); s[0] += 1; s[1] += int(ytv[j] > 0)
                 boat_last[boats[j]] = max(f, boat_last.get(boats[j], f))
                 fleet_last = f if fleet_last is None else max(f, fleet_last)
                 s = fleet_day.setdefault(f, [0, 0]); s[0] += 1; s[1] += int(ytv[j] > 0)
@@ -103,6 +107,8 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
             f_["f_frac_last"] = fleet_day[last][1] / fleet_day[last][0]
         else:
             f_["f_yt_lastday"], f_["f_frac_last"] = 0, 0.0
+        f_["f_yt_boats3"] = sum(1 for bd in boat_day.values() if any(bd.get(d - k * one, (0, 0, 0))[1] > 0
+                                                                       for k in range(1, 4)))
         f_["f_ytdays7"] = sum(1 for k in range(1, 8) if fleet_day.get(d - k * one, (0, 0))[1] > 0)
         num = den = 0.0
         for k in range(1, 15):
@@ -138,6 +144,11 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
             r["log_anglers28"] = math.log1p(sum(v[0] for v in pa) / sum(v[1] for v in pa)) if pa else float("nan")
             bd = boat_day[b]
             r["b_yt_last"] = int(bd[boat_last[b]][1] > 0)
+            r["b_log_yt_last"] = math.log1p(bd[boat_last[b]][2])
+            ys = [k for k in range(1, 61) if bd.get(d - k * one, (0, 0, 0))[1] > 0]
+            r["b_log_days_since_yt"] = math.log(ys[0] if ys else 61)
+            p14 = [pair_day[(b, c)][d - k * one] for k in range(1, 15) if (d - k * one) in pair_day[(b, c)]]
+            r["p_frac14"] = sum(v[1] for v in p14) / sum(v[0] for v in p14) if p14 else 0.0
             w7 = [bd[d - k * one] for k in range(1, 8) if (d - k * one) in bd]
             r["b_sailed7"] = int(bool(w7))
             r["b_frac7"] = sum(v[1] for v in w7) / sum(v[0] for v in w7) if w7 else 0.0
@@ -162,19 +173,26 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
 
 
 class _Logit:
-    def __init__(self, C: float, clip: float = 4.0):
-        self.C, self.clip = C, clip
+    def __init__(self, C: float, clip: float = 4.0, kind: str = "logreg"):
+        self.C, self.clip, self.kind = C, clip, kind
 
-    def fit(self, X: pd.DataFrame, y: np.ndarray) -> "_Logit":
+    def fit(self, X: pd.DataFrame, y: np.ndarray, w: np.ndarray | None = None) -> "_Logit":
         self.med = X.median().fillna(0.0)
         Xf = X.fillna(self.med)
+        if self.kind == "hgb":  # D-E03: shallow boosting, same settings as the day-level HGB
+            self.clf = HistGradientBoostingClassifier(max_depth=3, learning_rate=0.05, max_iter=200,
+                                                      l2_regularization=1.0, random_state=0).fit(Xf.to_numpy(), y, sample_weight=w)
+            return self
         self.mu, self.sd = Xf.mean(), Xf.std(ddof=0).replace(0, 1.0)
         Z = ((Xf - self.mu) / self.sd).clip(-self.clip, self.clip)
-        self.clf = LogisticRegression(C=self.C, max_iter=5000).fit(Z.to_numpy(), y)
+        self.clf = LogisticRegression(C=self.C, max_iter=5000).fit(Z.to_numpy(), y, sample_weight=w)
         return self
 
     def predict(self, X: pd.DataFrame) -> np.ndarray:
-        Z = ((X.fillna(self.med) - self.mu) / self.sd).clip(-self.clip, self.clip)
+        Xf = X.fillna(self.med)
+        if self.kind == "hgb":
+            return self.clf.predict_proba(Xf.to_numpy())[:, 1]
+        Z = ((Xf - self.mu) / self.sd).clip(-self.clip, self.clip)
         return self.clf.predict_proba(Z.to_numpy())[:, 1]
 
 
@@ -186,9 +204,12 @@ def all_days(trips: pd.DataFrame, days: pd.DatetimeIndex) -> pd.DatetimeIndex:
 
 def build(trips: pd.DataFrame, days: pd.DatetimeIndex, C: float = 0.1, refit_days: int = 7,
           boats: bool = False, prefix: str = "tm", strict: bool = False, min_pos: int = 30,
-          rows: pd.DataFrame | None = None) -> pd.DataFrame:
+          rows: pd.DataFrame | None = None, kind: str = "logreg", ext: bool = False,
+          halflife: float = 0.0) -> pd.DataFrame:
     """Day-level features from the trip-level models for each target day in `days`.
-    Returns one row per day: date, {prefix}_p, _logit, _exp, _ntrips, _pymax, audit_{prefix}_label_at."""
+    kind: logreg | hgb (yt model; the sail model is always logistic); ext: add EXT_X inputs;
+    halflife > 0: weight training rows by 0.5**(age at the anchor / halflife) (D-E03).
+    Returns one row per day: date, {prefix}_p, _logit, _exp, _ntrips, _pymax, _psmax, audit_{prefix}_label_at."""
     days = pd.DatetimeIndex(sorted(set(days)))
     if rows is None:  # callers building several variants may pass candidate_rows(trips, all_days(...)) once
         rows = candidate_rows(trips, all_days(trips, days), strict=strict)
@@ -196,7 +217,7 @@ def build(trips: pd.DataFrame, days: pd.DatetimeIndex, C: float = 0.1, refit_day
     hd = trips[trips["is_hd_fishing"]]
     first_vis = hd.groupby("fished_date")["available_at"].min()
     rows["day_visible_at"] = rows["date"].map(first_vis)
-    yx = YT_X + (BOAT_X if boats else [])
+    yx = YT_X + (BOAT_X if boats else []) + (EXT_X if ext else [])
     epoch = pd.Timestamp("2000-01-03")  # a Monday; anchors are deterministic in D
     out, models = [], {}
     for D in days:
@@ -206,15 +227,17 @@ def build(trips: pd.DataFrame, days: pd.DatetimeIndex, C: float = 0.1, refit_day
             tr = rows[(rows["label_at"] <= cA) & (rows["day_visible_at"] <= cA)]
             sy = tr[tr["sailed"] == 1]
             ok = len(tr) and tr["sailed"].nunique() == 2 and sy["yt"].sum() >= min_pos and sy["yt"].nunique() == 2
-            models[A] = (_Logit(C).fit(tr[SAIL_X], tr["sailed"].to_numpy()),
-                         _Logit(C).fit(sy[yx], sy["yt"].to_numpy()),
+            wt = (lambda t: 0.5 ** ((A - t["date"]).dt.days.to_numpy() / halflife)) if halflife > 0 else (lambda t: None)
+            models[A] = (_Logit(C).fit(tr[SAIL_X], tr["sailed"].to_numpy(), wt(tr)),
+                         _Logit(C, kind=kind).fit(sy[yx], sy["yt"].to_numpy(), wt(sy)),
                          tr["label_at"].max()) if ok else None
         cand = rows[rows["date"] == D]
         r = {"date": D}
         m = models[A]
         if m is None or not len(cand):
             r.update({f"{prefix}_p": np.nan, f"{prefix}_logit": np.nan, f"{prefix}_exp": np.nan,
-                      f"{prefix}_ntrips": np.nan, f"{prefix}_pymax": np.nan, f"audit_{prefix}_label_at": pd.NaT})
+                      f"{prefix}_ntrips": np.nan, f"{prefix}_pymax": np.nan, f"{prefix}_psmax": np.nan,
+                      f"audit_{prefix}_label_at": pd.NaT})
         else:
             ps, py = m[0].predict(cand[SAIL_X]), m[1].predict(cand[yx])
             p = 1 - float(np.prod(1 - ps * py))
@@ -222,6 +245,7 @@ def build(trips: pd.DataFrame, days: pd.DatetimeIndex, C: float = 0.1, refit_day
             r.update({f"{prefix}_p": p, f"{prefix}_logit": _logit(q), f"{prefix}_exp": float((ps * py).sum()),
                       f"{prefix}_ntrips": float(ps.sum()),
                       f"{prefix}_pymax": float(py[ps >= 0.5].max()) if (ps >= 0.5).any() else 0.0,
+                      f"{prefix}_psmax": float((ps * py).max()),
                       f"audit_{prefix}_label_at": m[2]})
             assert m[2] <= cutoff_for(D)
             assert (cand["audit_cutoff"] == cutoff_for(D)).all()

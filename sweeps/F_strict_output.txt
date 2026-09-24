@@ -1,0 +1,2 @@
+# python3 -m yt.run eF01_B01_recal90_mccrange --strict --no-save (1 configuration counted); final table line:
+| eF01_B01_recal90_mccrange (strict) | dev | 24 | 0.581 | 0.870 | 0.525 / 0.422 | [0.015, 0.097] | 35/82 = 0.427 (lo95 0.325) |

@@ -305,3 +305,53 @@ reproduces (0.624) on it. Dev = 2012–2016 (D-027). Directions:
   aggregate to the day with a separate model of which trips sail; separates effort from bite.
 - F: latent-state ("fish are local") sequence models, e.g. HMM / Bayesian filtering over
   partial daily evidence, and regime-dependent decision rules chosen on training data only.
+
+## D-F01 Latent-state filter (agent F, 2026-09-24)
+Two-state HMM ("yellowtail within half-day range" yes/no) run as a forward-only filter (`yt/latent.py`).
+Evidence: `features._latent_obs` stores, per target day D and lag k = 1..60, counts from the prefix visible
+at D-1 21:00 (`_visible`): half-day trips / trips with yt, 3/4-day trips / trips with yt, FishDope report
+visible / local catch sentence / local negation (D-022) for that date — 421 `lat_*` columns (`LAT_COLS`),
+poisoned and truncated in `tests/test_pit.py`, and lag-1 checked equal to hd_cov_d1 / hd_yt_trips_d1 /
+fd_visible_d1 (so D-1 twilight is never included). The filter starts at the seasonal stationary
+distribution 60 days back, alternates predict/update up to D-1 and predicts one step to D; no backward
+pass. Seasonal (sin/cos day-of-year) persistence and arrival probabilities; a day with no trips / no
+report has log-ratio 0, and few trips give little evidence. Output P(y_D) = mix of P(y | state) with a
+visible effort proxy (hd_trips_dow_4w). Its ~19 parameters are fitted on the training rows only
+(Model.fit inside run_spec, i.e. per fold / per month, walk-forward), by minimising log-loss of y_D given
+each training row's own visible evidence, ridge toward fixed starting values. Model types `latent`
+(filter alone) and `latent_logreg` (logistic on a feature list + logit of the filter's P(y_D) and/or
+P(state), filter fitted in-sample on the same training rows).
+Result (F_sweep1-2): filter alone AUC 0.867-0.882, Brier 0.135-0.146 (logistic eB01: 0.891 / 0.125),
+dev MCC 0.585-0.608; stacked under the logistic 0.600-0.625. No gain over eB01 (0.626).
+
+## D-F02 Regime threshold rule `regime_mcc:lo:hi` (agent F)
+One threshold for B1=0 days and one for B1=1 days (`hd_yt_lastday`), jointly maximising inner walk-forward
+OOF MCC on a 0.01 grid in [lo, hi]; training window only. Default threshold path unchanged.
+Result: eB01 features 0.611 (vs 0.626 with `mcc_range`), filter 0.585, stacked 0.619 — no gain.
+
+## D-F03 Filter variant: day-level emissions and hotness covariate (agent F)
+Binomial per-trip emissions made a day with 1 of 8 trips catching yt nearly neutral evidence (boats are
+heterogeneous), so emission "day" uses day-level log-ratios (any yt: e_any + softplus·log k; none of
+n: −softplus·(1 + log n)); "hot" adds logit(hd_ytrate_60) (visible 60-day yt-day rate) to both transition
+logits so arrival/persistence can be higher in hot years. Raised filter AUC 0.867 → 0.882; MCC no gain.
+
+## D-F04 Online recalibration (latent calibration drift, agent F)
+Diagnosis shared by all models: they under-predict in hot years (dev 2012 mean p 0.22 vs rate 0.31; 2015
+0.59 vs 0.64). `extra["recal"] = {window W, k0}`: for day D, logit(p_D) is shifted by one shrunk Newton
+step δ = Σ(y−p)/(Σp(1−p)+k0) over the same fold's out-of-sample predictions of days D−W..D−2. Labels of
+day t ≤ D−2 are public at the D-1 21:00 cutoff because every half-day trip of day t is public by t+1 00:00
+(new test `test_labels_public_within_a_day`, main and strict timing). Applied identically to the inner
+OOF predictions before the threshold is chosen. δ = 0 at the start of each fold.
+Result (F_sweep3): Brier 0.1253 → 0.1226 and MCC 0.626 → 0.630/0.633 (W 60/90) on eB01 features;
+0.620 with W 30; e005 features 0.610 (vs 0.624 without). Improvements are within noise.
+
+## D-F05 Agent F result: Goal 1 not reached; the decision layer cannot reach it (2026-09-24)
+27 dev configurations (F_sweep1 9 + F_sweep2 8 + F_sweep3 7 + 2 bootstrap re-runs + 1 strict run;
+F_diag1 only re-scores 2 counted configurations). Best: eF01 (eB01 + recal W=90) 0.633, CI of
+MCC − B1 [−0.004, 0.057]; eF02 (W=60, p 0.4) 0.631, CI [−0.001, 0.051]. Target 0.656 not reached.
+Ceiling check (F_diag1, ex-post = chosen on dev, not legitimate): the best single threshold on eB01
+probabilities gives 0.633, the best pair of B1-regime thresholds 0.633–0.635, and even a separate
+dev-chosen threshold per year only 0.652–0.658. So no threshold rule learned from training data can
+clear the bar with probabilities of this resolution; Goal 1 needs better ranking, not a better cut.
+The latent filter did not add ranking information beyond the logistic's recency features (hd_yt_ewm,
+streak, 7/30/60-day rates already summarise the same evidence).

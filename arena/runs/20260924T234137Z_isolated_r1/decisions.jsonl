@@ -1,0 +1,720 @@
+{"date": "2010-05-01", "masked": "S01 d121", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:121", "reason": "pooled half-day yt today = 13", "valid": true, "rejected": null}
+{"date": "2010-05-07", "masked": "S01 d127", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:127", "reason": "pooled half-day yt today = 31", "valid": true, "rejected": null}
+{"date": "2010-05-08", "masked": "S01 d128", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:128", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-05-14", "masked": "S01 d134", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:134", "reason": "pooled half-day yt today = 9", "valid": true, "rejected": null}
+{"date": "2010-05-15", "masked": "S01 d135", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:135", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2010-05-28", "masked": "S01 d148", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:148", "reason": "pooled half-day yt today = 10", "valid": true, "rejected": null}
+{"date": "2010-06-05", "masked": "S01 d156", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:156", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-06-11", "masked": "S01 d162", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:162", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-06-18", "masked": "S01 d169", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:169", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-06-19", "masked": "S01 d170", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:170", "reason": "pooled half-day yt today = 15", "valid": true, "rejected": null}
+{"date": "2010-06-26", "masked": "S01 d177", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:177", "reason": "pooled half-day yt today = 7", "valid": true, "rejected": null}
+{"date": "2010-07-02", "masked": "S01 d183", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:183", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-07-02", "masked": "S01 d183", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:183", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-07-02", "masked": "S01 d183", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:183", "reason": "pier 68.1 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2010-07-03", "masked": "S01 d184", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:184", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2010-07-03", "masked": "S01 d184", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:184", "reason": "pier 68.3 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2010-07-09", "masked": "S01 d190", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:190", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-07-09", "masked": "S01 d190", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:190", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-07-16", "masked": "S01 d197", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:197", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-07-23", "masked": "S01 d204", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:204", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-07-30", "masked": "S01 d211", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:211", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-07-30", "masked": "S01 d211", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:211", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-08-06", "masked": "S01 d218", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:217", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2010-08-06", "masked": "S01 d218", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:218", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-08-13", "masked": "S01 d225", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:224", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2010-08-13", "masked": "S01 d225", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:225", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-08-20", "masked": "S01 d232", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:231", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2010-08-20", "masked": "S01 d232", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:232", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-08-27", "masked": "S01 d239", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:238", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2010-08-27", "masked": "S01 d239", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:239", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-09-03", "masked": "S01 d246", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:246", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-09-10", "masked": "S01 d253", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:253", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-09-17", "masked": "S01 d260", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:260", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-09-24", "masked": "S01 d267", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:267", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-09-25", "masked": "S01 d268", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:268", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2010-10-01", "masked": "S01 d274", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:274", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-10-08", "masked": "S01 d281", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:281", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-10-15", "masked": "S01 d288", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:288", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-10-22", "masked": "S01 d295", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:295", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2010-10-29", "masked": "S01 d302", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:302", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-03-26", "masked": "S02 d085", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:450", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2011-06-17", "masked": "S02 d168", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:533", "reason": "pooled half-day yt today = 10", "valid": true, "rejected": null}
+{"date": "2011-07-01", "masked": "S02 d182", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:547", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-07-08", "masked": "S02 d189", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:554", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-07-15", "masked": "S02 d196", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:561", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-07-15", "masked": "S02 d196", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:561", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2011-07-16", "masked": "S02 d197", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:562", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2011-07-22", "masked": "S02 d203", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:568", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-07-29", "masked": "S02 d210", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:575", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-07-29", "masked": "S02 d210", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:575", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2011-08-05", "masked": "S02 d217", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:581", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2011-08-05", "masked": "S02 d217", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:582", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-08-12", "masked": "S02 d224", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:588", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2011-08-12", "masked": "S02 d224", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:589", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-08-19", "masked": "S02 d231", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:595", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2011-08-19", "masked": "S02 d231", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:596", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-08-26", "masked": "S02 d238", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:603", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-09-02", "masked": "S02 d245", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:610", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-09-03", "masked": "S02 d246", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:611", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2011-09-04", "masked": "S02 d247", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:612", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2011-09-09", "masked": "S02 d252", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:617", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-09-16", "masked": "S02 d259", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:624", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-09-16", "masked": "S02 d259", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:624", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2011-09-23", "masked": "S02 d266", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:631", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-09-30", "masked": "S02 d273", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:638", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-10-07", "masked": "S02 d280", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:645", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-10-14", "masked": "S02 d287", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:652", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-10-15", "masked": "S02 d288", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:653", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2011-10-21", "masked": "S02 d294", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:659", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-10-28", "masked": "S02 d301", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:666", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2011-12-23", "masked": "S02 d357", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:722", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-02-04", "masked": "S03 d035", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:765", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-04-13", "masked": "S03 d104", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:834", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-04-20", "masked": "S03 d111", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:841", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-05-27", "masked": "S03 d148", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:878", "reason": "pooled half-day yt today = 5", "valid": true, "rejected": null}
+{"date": "2012-06-15", "masked": "S03 d167", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:897", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2012-06-16", "masked": "S03 d168", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:898", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-06-29", "masked": "S03 d181", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:911", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-06-30", "masked": "S03 d182", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:912", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-07-03", "masked": "S03 d185", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:915", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-07-06", "masked": "S03 d188", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:918", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-07-06", "masked": "S03 d188", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:918", "reason": "pooled half-day yt today = 5", "valid": true, "rejected": null}
+{"date": "2012-07-13", "masked": "S03 d195", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:925", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-07-20", "masked": "S03 d202", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:932", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-07-20", "masked": "S03 d202", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:932", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2012-07-27", "masked": "S03 d209", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:939", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-07-27", "masked": "S03 d209", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:939", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2012-07-28", "masked": "S03 d210", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:940", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-08-03", "masked": "S03 d216", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:945", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2012-08-03", "masked": "S03 d216", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:946", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-08-03", "masked": "S03 d216", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:946", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2012-08-04", "masked": "S03 d217", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:947", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-08-10", "masked": "S03 d223", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:952", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2012-08-10", "masked": "S03 d223", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:953", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-08-10", "masked": "S03 d223", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:953", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-08-10", "masked": "S03 d223", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:953", "reason": "pier 68.2 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2012-08-11", "masked": "S03 d224", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:954", "reason": "pier 70.4 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2012-08-17", "masked": "S03 d230", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:959", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2012-08-17", "masked": "S03 d230", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:960", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-08-17", "masked": "S03 d230", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:960", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-08-18", "masked": "S03 d231", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:961", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2012-08-24", "masked": "S03 d237", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:967", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-08-24", "masked": "S03 d237", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:967", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2012-08-24", "masked": "S03 d237", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:967", "reason": "pier 71.3 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2012-08-25", "masked": "S03 d238", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:968", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-08-25", "masked": "S03 d238", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:968", "reason": "pier 70.3 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2012-08-31", "masked": "S03 d244", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:974", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-08-31", "masked": "S03 d244", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:974", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-08-31", "masked": "S03 d244", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:974", "reason": "pier 72.3 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2012-09-01", "masked": "S03 d245", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:975", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-09-01", "masked": "S03 d245", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:975", "reason": "pier 69.5 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2012-09-02", "masked": "S03 d246", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:976", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2012-09-07", "masked": "S03 d251", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:981", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-09-08", "masked": "S03 d252", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:982", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-09-14", "masked": "S03 d258", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:988", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-09-14", "masked": "S03 d258", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:988", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2012-09-21", "masked": "S03 d265", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:995", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-09-22", "masked": "S03 d266", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:996", "reason": "pooled half-day yt today = 7", "valid": true, "rejected": null}
+{"date": "2012-09-28", "masked": "S03 d272", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1002", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-09-28", "masked": "S03 d272", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1002", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2012-10-05", "masked": "S03 d279", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1009", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-10-12", "masked": "S03 d286", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1016", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-10-12", "masked": "S03 d286", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1016", "reason": "pier 68.1 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2012-10-19", "masked": "S03 d293", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1023", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2012-10-26", "masked": "S03 d300", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1030", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-04-26", "masked": "S04 d116", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1212", "reason": "pooled half-day yt today = 5", "valid": true, "rejected": null}
+{"date": "2013-05-31", "masked": "S04 d151", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1247", "reason": "pooled half-day yt today = 15", "valid": true, "rejected": null}
+{"date": "2013-06-01", "masked": "S04 d152", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1248", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2013-06-08", "masked": "S04 d159", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1255", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2013-06-21", "masked": "S04 d172", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1268", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2013-07-05", "masked": "S04 d186", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1282", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-07-06", "masked": "S04 d187", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1283", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2013-07-12", "masked": "S04 d193", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1289", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-07-19", "masked": "S04 d200", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1296", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-07-20", "masked": "S04 d201", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1297", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2013-07-26", "masked": "S04 d207", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1303", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-08-02", "masked": "S04 d214", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:1309", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2013-08-02", "masked": "S04 d214", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1310", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-08-09", "masked": "S04 d221", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:1316", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2013-08-09", "masked": "S04 d221", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1317", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-08-16", "masked": "S04 d228", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:1323", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2013-08-16", "masked": "S04 d228", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1324", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-08-23", "masked": "S04 d235", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1331", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-08-24", "masked": "S04 d236", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1332", "reason": "pooled half-day yt today = 6", "valid": true, "rejected": null}
+{"date": "2013-08-30", "masked": "S04 d242", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1338", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-09-06", "masked": "S04 d249", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1345", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-09-13", "masked": "S04 d256", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1352", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-09-13", "masked": "S04 d256", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1352", "reason": "pooled half-day yt today = 74", "valid": true, "rejected": null}
+{"date": "2013-09-14", "masked": "S04 d257", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1353", "reason": "pooled half-day yt today = 24", "valid": true, "rejected": null}
+{"date": "2013-09-20", "masked": "S04 d263", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1359", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-09-20", "masked": "S04 d263", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1359", "reason": "pooled half-day yt today = 15", "valid": true, "rejected": null}
+{"date": "2013-09-21", "masked": "S04 d264", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1360", "reason": "pooled half-day yt today = 37", "valid": true, "rejected": null}
+{"date": "2013-09-27", "masked": "S04 d270", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1366", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-09-27", "masked": "S04 d270", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1366", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2013-10-04", "masked": "S04 d277", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1373", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-10-11", "masked": "S04 d284", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1380", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-10-18", "masked": "S04 d291", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1387", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2013-10-25", "masked": "S04 d298", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1394", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-02-16", "masked": "S05 d047", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1508", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2014-03-07", "masked": "S05 d066", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1527", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2014-05-03", "masked": "S05 d123", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1584", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2014-05-16", "masked": "S05 d136", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1597", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2014-05-17", "masked": "S05 d137", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1598", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2014-07-03", "masked": "S05 d184", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1645", "reason": "pier 70.4 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-07-04", "masked": "S05 d185", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1646", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-07-04", "masked": "S05 d185", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1646", "reason": "pier 71.6 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-07-05", "masked": "S05 d186", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1647", "reason": "pier 71.6 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-07-11", "masked": "S05 d192", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1653", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-07-11", "masked": "S05 d192", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1653", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2014-07-11", "masked": "S05 d192", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1653", "reason": "pier 73.1 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-07-12", "masked": "S05 d193", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1654", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2014-07-12", "masked": "S05 d193", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1654", "reason": "pier 70.5 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-07-18", "masked": "S05 d199", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1660", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-07-18", "masked": "S05 d199", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1660", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2014-07-18", "masked": "S05 d199", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1660", "reason": "pier 69.1 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-07-19", "masked": "S05 d200", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1661", "reason": "pier 68.9 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-07-25", "masked": "S05 d206", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1667", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-07-25", "masked": "S05 d206", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1667", "reason": "pooled half-day yt today = 10", "valid": true, "rejected": null}
+{"date": "2014-07-25", "masked": "S05 d206", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1667", "reason": "pier 69.6 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-07-26", "masked": "S05 d207", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1668", "reason": "pooled half-day yt today = 48", "valid": true, "rejected": null}
+{"date": "2014-07-26", "masked": "S05 d207", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1668", "reason": "pier 70.1 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-08-01", "masked": "S05 d213", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:1673", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2014-08-01", "masked": "S05 d213", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1674", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-08-01", "masked": "S05 d213", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1674", "reason": "pooled half-day yt today = 27", "valid": true, "rejected": null}
+{"date": "2014-08-01", "masked": "S05 d213", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1674", "reason": "pier 72.0 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-08-02", "masked": "S05 d214", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1675", "reason": "pooled half-day yt today = 59", "valid": true, "rejected": null}
+{"date": "2014-08-02", "masked": "S05 d214", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1675", "reason": "pier 72.3 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-08-08", "masked": "S05 d220", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:1680", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2014-08-08", "masked": "S05 d220", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1681", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-08-08", "masked": "S05 d220", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1681", "reason": "pooled half-day yt today = 19", "valid": true, "rejected": null}
+{"date": "2014-08-08", "masked": "S05 d220", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1681", "reason": "pier 72.3 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2014-08-09", "masked": "S05 d221", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1682", "reason": "pooled half-day yt today = 10", "valid": true, "rejected": null}
+{"date": "2014-08-09", "masked": "S05 d221", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1682", "reason": "pier 71.8 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-08-15", "masked": "S05 d227", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:1687", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2014-08-15", "masked": "S05 d227", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1688", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-08-15", "masked": "S05 d227", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1688", "reason": "pooled half-day yt today = 14", "valid": true, "rejected": null}
+{"date": "2014-08-15", "masked": "S05 d227", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1688", "reason": "pier 70.4 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-08-16", "masked": "S05 d228", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1689", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2014-08-16", "masked": "S05 d228", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1689", "reason": "pier 68.9 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-08-22", "masked": "S05 d234", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1695", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-08-22", "masked": "S05 d234", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1695", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2014-08-22", "masked": "S05 d234", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1695", "reason": "pier 69.6 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-08-23", "masked": "S05 d235", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1696", "reason": "pooled half-day yt today = 6", "valid": true, "rejected": null}
+{"date": "2014-08-23", "masked": "S05 d235", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1696", "reason": "pier 71.6 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-08-29", "masked": "S05 d241", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1702", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-08-29", "masked": "S05 d241", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1702", "reason": "pooled half-day yt today = 5", "valid": true, "rejected": null}
+{"date": "2014-08-29", "masked": "S05 d241", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1702", "reason": "pier 72.7 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-08-30", "masked": "S05 d242", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1703", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2014-08-30", "masked": "S05 d242", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1703", "reason": "pier 70.8 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-08-31", "masked": "S05 d243", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1704", "reason": "pooled half-day yt today = 13", "valid": true, "rejected": null}
+{"date": "2014-08-31", "masked": "S05 d243", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1704", "reason": "pier 69.8 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-09-05", "masked": "S05 d248", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1709", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-09-05", "masked": "S05 d248", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1709", "reason": "pooled half-day yt today = 43", "valid": true, "rejected": null}
+{"date": "2014-09-05", "masked": "S05 d248", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1709", "reason": "pier 70.3 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-09-06", "masked": "S05 d249", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1710", "reason": "pooled half-day yt today = 19", "valid": true, "rejected": null}
+{"date": "2014-09-06", "masked": "S05 d249", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1710", "reason": "pier 71.3 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2014-09-12", "masked": "S05 d255", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1716", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-09-12", "masked": "S05 d255", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1716", "reason": "pooled half-day yt today = 46", "valid": true, "rejected": null}
+{"date": "2014-09-12", "masked": "S05 d255", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1716", "reason": "pier 69.7 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2014-09-13", "masked": "S05 d256", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1717", "reason": "pooled half-day yt today = 31", "valid": true, "rejected": null}
+{"date": "2014-09-13", "masked": "S05 d256", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1717", "reason": "pier 68.6 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2014-09-19", "masked": "S05 d262", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1723", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-09-19", "masked": "S05 d262", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:1723", "reason": "pier 70.6 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2014-09-26", "masked": "S05 d269", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1730", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-10-03", "masked": "S05 d276", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1737", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-10-10", "masked": "S05 d283", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1744", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-10-17", "masked": "S05 d290", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1751", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2014-10-24", "masked": "S05 d297", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:1758", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-01-02", "masked": "S06 d002", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1828", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-01-16", "masked": "S06 d016", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1842", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-01-17", "masked": "S06 d017", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1843", "reason": "pooled half-day yt today = 7", "valid": true, "rejected": null}
+{"date": "2015-01-18", "masked": "S06 d018", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1844", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2015-01-23", "masked": "S06 d023", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1849", "reason": "pooled half-day yt today = 18", "valid": true, "rejected": null}
+{"date": "2015-01-24", "masked": "S06 d024", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1850", "reason": "pooled half-day yt today = 8", "valid": true, "rejected": null}
+{"date": "2015-01-30", "masked": "S06 d030", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1856", "reason": "pooled half-day yt today = 47", "valid": true, "rejected": null}
+{"date": "2015-01-31", "masked": "S06 d031", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1857", "reason": "pooled half-day yt today = 52", "valid": true, "rejected": null}
+{"date": "2015-02-06", "masked": "S06 d037", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1863", "reason": "pooled half-day yt today = 16", "valid": true, "rejected": null}
+{"date": "2015-02-07", "masked": "S06 d038", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1864", "reason": "pooled half-day yt today = 54", "valid": true, "rejected": null}
+{"date": "2015-02-13", "masked": "S06 d044", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1870", "reason": "pooled half-day yt today = 22", "valid": true, "rejected": null}
+{"date": "2015-02-14", "masked": "S06 d045", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1871", "reason": "pooled half-day yt today = 28", "valid": true, "rejected": null}
+{"date": "2015-04-03", "masked": "S06 d093", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1919", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2015-04-11", "masked": "S06 d101", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1927", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-05-09", "masked": "S06 d129", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1955", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2015-05-16", "masked": "S06 d136", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1962", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-05-22", "masked": "S06 d142", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1968", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-05-29", "masked": "S06 d149", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1975", "reason": "pooled half-day yt today = 38", "valid": true, "rejected": null}
+{"date": "2015-05-30", "masked": "S06 d150", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1976", "reason": "pooled half-day yt today = 66", "valid": true, "rejected": null}
+{"date": "2015-06-05", "masked": "S06 d156", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1982", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-06-06", "masked": "S06 d157", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1983", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2015-06-12", "masked": "S06 d163", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1989", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2015-06-19", "masked": "S06 d170", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1996", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-06-20", "masked": "S06 d171", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:1997", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2015-06-26", "masked": "S06 d177", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2003", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2015-07-02", "masked": "S06 d183", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2009", "reason": "pier 70.5 \u00b0F, ONI +0.9", "valid": true, "rejected": null}
+{"date": "2015-07-03", "masked": "S06 d184", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2010", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-07-03", "masked": "S06 d184", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2010", "reason": "pier 70.8 \u00b0F, ONI +0.9", "valid": true, "rejected": null}
+{"date": "2015-07-04", "masked": "S06 d185", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2011", "reason": "pier 70.3 \u00b0F, ONI +0.9", "valid": true, "rejected": null}
+{"date": "2015-07-10", "masked": "S06 d191", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2017", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-07-10", "masked": "S06 d191", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2017", "reason": "pier 70.0 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2015-07-11", "masked": "S06 d192", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2018", "reason": "pier 69.4 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2015-07-17", "masked": "S06 d198", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2024", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-07-24", "masked": "S06 d205", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2031", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-07-24", "masked": "S06 d205", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2031", "reason": "pier 70.6 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2015-07-31", "masked": "S06 d212", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2038", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-07-31", "masked": "S06 d212", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2038", "reason": "pier 69.4 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2015-08-01", "masked": "S06 d213", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2039", "reason": "pier 69.2 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2015-08-07", "masked": "S06 d219", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2044", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2015-08-07", "masked": "S06 d219", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2045", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-08-14", "masked": "S06 d226", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2051", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2015-08-14", "masked": "S06 d226", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2052", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-08-14", "masked": "S06 d226", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2052", "reason": "pier 70.7 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-08-15", "masked": "S06 d227", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2053", "reason": "pier 70.3 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-08-21", "masked": "S06 d233", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2058", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2015-08-21", "masked": "S06 d233", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2059", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-08-21", "masked": "S06 d233", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2059", "reason": "pier 73.1 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-08-22", "masked": "S06 d234", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2060", "reason": "pier 73.5 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-08-28", "masked": "S06 d240", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2066", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-08-28", "masked": "S06 d240", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2066", "reason": "pier 73.3 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-08-29", "masked": "S06 d241", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2067", "reason": "pier 74.4 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-09-04", "masked": "S06 d247", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2073", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-09-04", "masked": "S06 d247", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2073", "reason": "pier 73.4 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-09-05", "masked": "S06 d248", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2074", "reason": "pier 73.5 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-09-06", "masked": "S06 d249", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2075", "reason": "pier 73.0 \u00b0F, ONI +1.2", "valid": true, "rejected": null}
+{"date": "2015-09-11", "masked": "S06 d254", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2080", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-09-11", "masked": "S06 d254", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2080", "reason": "pier 74.2 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-09-12", "masked": "S06 d255", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2081", "reason": "pier 73.7 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-09-18", "masked": "S06 d261", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2087", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-09-18", "masked": "S06 d261", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2087", "reason": "pier 75.8 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-09-19", "masked": "S06 d262", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2088", "reason": "pier 75.6 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-09-25", "masked": "S06 d268", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2094", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-09-25", "masked": "S06 d268", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2094", "reason": "pier 72.9 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-09-26", "masked": "S06 d269", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2095", "reason": "pier 73.4 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-10-02", "masked": "S06 d275", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2101", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-10-02", "masked": "S06 d275", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2101", "reason": "pier 71.6 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-10-03", "masked": "S06 d276", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2102", "reason": "pier 70.8 \u00b0F, ONI +1.4", "valid": true, "rejected": null}
+{"date": "2015-10-09", "masked": "S06 d282", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2108", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-10-16", "masked": "S06 d289", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2115", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-10-23", "masked": "S06 d296", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2122", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2015-10-30", "masked": "S06 d303", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2129", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-01-01", "masked": "S07 d001", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2192", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2016-01-02", "masked": "S07 d002", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2193", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-01-09", "masked": "S07 d009", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2200", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-01-17", "masked": "S07 d017", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2208", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-05-14", "masked": "S07 d135", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2326", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-06-04", "masked": "S07 d156", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2347", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2016-06-17", "masked": "S07 d169", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2360", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-06-24", "masked": "S07 d176", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2367", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2016-07-01", "masked": "S07 d183", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2374", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-07-01", "masked": "S07 d183", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2374", "reason": "pier 69.5 \u00b0F, ONI +1.1", "valid": true, "rejected": null}
+{"date": "2016-07-02", "masked": "S07 d184", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2375", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2016-07-02", "masked": "S07 d184", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2375", "reason": "pier 71.0 \u00b0F, ONI +1.1", "valid": true, "rejected": null}
+{"date": "2016-07-03", "masked": "S07 d185", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2376", "reason": "pier 71.0 \u00b0F, ONI +1.1", "valid": true, "rejected": null}
+{"date": "2016-07-08", "masked": "S07 d190", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2381", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-07-08", "masked": "S07 d190", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2381", "reason": "pooled half-day yt today = 16", "valid": true, "rejected": null}
+{"date": "2016-07-08", "masked": "S07 d190", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2381", "reason": "pier 68.4 \u00b0F, ONI +1.1", "valid": true, "rejected": null}
+{"date": "2016-07-09", "masked": "S07 d191", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2382", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-07-15", "masked": "S07 d197", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2388", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-07-15", "masked": "S07 d197", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2388", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-07-15", "masked": "S07 d197", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2388", "reason": "pier 72.5 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-07-16", "masked": "S07 d198", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2389", "reason": "pier 73.8 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-07-22", "masked": "S07 d204", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2395", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-07-22", "masked": "S07 d204", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2395", "reason": "pooled half-day yt today = 49", "valid": true, "rejected": null}
+{"date": "2016-07-22", "masked": "S07 d204", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2395", "reason": "pier 70.9 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-07-23", "masked": "S07 d205", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2396", "reason": "pooled half-day yt today = 95", "valid": true, "rejected": null}
+{"date": "2016-07-23", "masked": "S07 d205", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2396", "reason": "pier 72.6 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-07-29", "masked": "S07 d211", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2402", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-07-29", "masked": "S07 d211", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2402", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2016-07-29", "masked": "S07 d211", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2402", "reason": "pier 71.0 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-07-30", "masked": "S07 d212", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2403", "reason": "pooled half-day yt today = 14", "valid": true, "rejected": null}
+{"date": "2016-07-30", "masked": "S07 d212", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2403", "reason": "pier 70.9 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-08-05", "masked": "S07 d218", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2408", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2016-08-05", "masked": "S07 d218", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2409", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-08-05", "masked": "S07 d218", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2409", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2016-08-05", "masked": "S07 d218", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2409", "reason": "pier 72.3 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-08-06", "masked": "S07 d219", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2410", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-08-06", "masked": "S07 d219", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2410", "reason": "pier 73.5 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2016-08-12", "masked": "S07 d225", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2415", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2016-08-12", "masked": "S07 d225", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2416", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-08-12", "masked": "S07 d225", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2416", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-08-12", "masked": "S07 d225", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2416", "reason": "pier 73.3 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2016-08-13", "masked": "S07 d226", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2417", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2016-08-13", "masked": "S07 d226", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2417", "reason": "pier 71.9 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2016-08-19", "masked": "S07 d232", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2422", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2016-08-19", "masked": "S07 d232", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2423", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-08-19", "masked": "S07 d232", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2423", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-08-26", "masked": "S07 d239", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2430", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-08-27", "masked": "S07 d240", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2431", "reason": "pier 68.6 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2016-09-02", "masked": "S07 d246", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2437", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-09-02", "masked": "S07 d246", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2437", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2016-09-02", "masked": "S07 d246", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2437", "reason": "pier 70.9 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2016-09-03", "masked": "S07 d247", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2438", "reason": "pooled half-day yt today = 7", "valid": true, "rejected": null}
+{"date": "2016-09-03", "masked": "S07 d247", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2438", "reason": "pier 71.2 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2016-09-04", "masked": "S07 d248", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2439", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2016-09-04", "masked": "S07 d248", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2439", "reason": "pier 70.4 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2016-09-09", "masked": "S07 d253", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2444", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-09-09", "masked": "S07 d253", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2444", "reason": "pooled half-day yt today = 52", "valid": true, "rejected": null}
+{"date": "2016-09-10", "masked": "S07 d254", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2445", "reason": "pooled half-day yt today = 13", "valid": true, "rejected": null}
+{"date": "2016-09-16", "masked": "S07 d260", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2451", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-09-23", "masked": "S07 d267", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2458", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-09-30", "masked": "S07 d274", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2465", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-10-07", "masked": "S07 d281", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2472", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-10-14", "masked": "S07 d288", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2479", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-10-21", "masked": "S07 d295", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2486", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2016-10-28", "masked": "S07 d302", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2493", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-01-06", "masked": "S08 d006", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2563", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-01-07", "masked": "S08 d007", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2564", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2017-01-13", "masked": "S08 d013", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2570", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2017-01-14", "masked": "S08 d014", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2571", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-02-03", "masked": "S08 d034", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2591", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-03-03", "masked": "S08 d062", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2619", "reason": "pooled half-day yt today = 5", "valid": true, "rejected": null}
+{"date": "2017-03-17", "masked": "S08 d076", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2633", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-05-05", "masked": "S08 d125", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2682", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2017-05-06", "masked": "S08 d126", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2683", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-05-19", "masked": "S08 d139", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2696", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-05-28", "masked": "S08 d148", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2705", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2017-06-03", "masked": "S08 d154", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2711", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-06-10", "masked": "S08 d161", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2718", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2017-06-16", "masked": "S08 d167", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2724", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2017-06-23", "masked": "S08 d174", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2731", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-06-30", "masked": "S08 d181", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2738", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-06-30", "masked": "S08 d181", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2738", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2017-07-03", "masked": "S08 d184", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2741", "reason": "pooled half-day yt today = 10", "valid": true, "rejected": null}
+{"date": "2017-07-07", "masked": "S08 d188", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2745", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-07-07", "masked": "S08 d188", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2745", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2017-07-08", "masked": "S08 d189", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2746", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2017-07-14", "masked": "S08 d195", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2752", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-07-14", "masked": "S08 d195", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2752", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2017-07-14", "masked": "S08 d195", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2752", "reason": "pier 74.8 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-07-15", "masked": "S08 d196", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2753", "reason": "pier 73.5 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-07-21", "masked": "S08 d202", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2759", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-07-21", "masked": "S08 d202", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2759", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-07-21", "masked": "S08 d202", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2759", "reason": "pier 72.7 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-07-22", "masked": "S08 d203", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2760", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2017-07-22", "masked": "S08 d203", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2760", "reason": "pier 74.7 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-07-28", "masked": "S08 d209", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2766", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-07-28", "masked": "S08 d209", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2766", "reason": "pooled half-day yt today = 23", "valid": true, "rejected": null}
+{"date": "2017-07-28", "masked": "S08 d209", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2766", "reason": "pier 74.1 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-07-29", "masked": "S08 d210", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2767", "reason": "pooled half-day yt today = 8", "valid": true, "rejected": null}
+{"date": "2017-07-29", "masked": "S08 d210", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2767", "reason": "pier 73.5 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-08-04", "masked": "S08 d216", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2772", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2017-08-04", "masked": "S08 d216", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2773", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-08-04", "masked": "S08 d216", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2773", "reason": "pooled half-day yt today = 42", "valid": true, "rejected": null}
+{"date": "2017-08-04", "masked": "S08 d216", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2773", "reason": "pier 71.7 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-08-05", "masked": "S08 d217", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2774", "reason": "pooled half-day yt today = 100", "valid": true, "rejected": null}
+{"date": "2017-08-05", "masked": "S08 d217", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2774", "reason": "pier 69.2 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-08-11", "masked": "S08 d223", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2779", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2017-08-11", "masked": "S08 d223", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2780", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-08-11", "masked": "S08 d223", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2780", "reason": "pooled half-day yt today = 11", "valid": true, "rejected": null}
+{"date": "2017-08-18", "masked": "S08 d230", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:2786", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2017-08-18", "masked": "S08 d230", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2787", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-08-18", "masked": "S08 d230", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2787", "reason": "pier 69.7 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-08-25", "masked": "S08 d237", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2794", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-08-25", "masked": "S08 d237", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2794", "reason": "pier 71.0 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-08-26", "masked": "S08 d238", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2795", "reason": "pier 70.7 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-09-01", "masked": "S08 d244", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2801", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-09-01", "masked": "S08 d244", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2801", "reason": "pier 70.3 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-09-02", "masked": "S08 d245", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2802", "reason": "pier 70.6 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-09-03", "masked": "S08 d246", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2803", "reason": "pier 71.5 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-09-08", "masked": "S08 d251", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2808", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-09-08", "masked": "S08 d251", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2808", "reason": "pier 70.7 \u00b0F, ONI +0.3", "valid": true, "rejected": null}
+{"date": "2017-09-09", "masked": "S08 d252", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2809", "reason": "pier 71.2 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-09-15", "masked": "S08 d258", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2815", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-09-15", "masked": "S08 d258", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2815", "reason": "pier 71.1 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-09-16", "masked": "S08 d259", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2816", "reason": "pier 71.2 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-09-22", "masked": "S08 d265", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2822", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-09-22", "masked": "S08 d265", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2822", "reason": "pier 69.7 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-09-23", "masked": "S08 d266", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2823", "reason": "pier 69.4 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-09-29", "masked": "S08 d272", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2829", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-09-29", "masked": "S08 d272", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2829", "reason": "pier 69.7 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-09-30", "masked": "S08 d273", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2830", "reason": "pier 70.6 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-10-06", "masked": "S08 d279", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2836", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-10-06", "masked": "S08 d279", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2836", "reason": "pier 69.0 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-10-07", "masked": "S08 d280", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:2837", "reason": "pier 68.1 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2017-10-13", "masked": "S08 d286", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2843", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-10-20", "masked": "S08 d293", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2850", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2017-10-27", "masked": "S08 d300", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:2857", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-01-05", "masked": "S09 d005", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2927", "reason": "pooled half-day yt today = 52", "valid": true, "rejected": null}
+{"date": "2018-01-06", "masked": "S09 d006", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2928", "reason": "pooled half-day yt today = 70", "valid": true, "rejected": null}
+{"date": "2018-01-13", "masked": "S09 d013", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2935", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2018-01-14", "masked": "S09 d014", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2936", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2018-01-27", "masked": "S09 d027", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2949", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2018-02-18", "masked": "S09 d049", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:2971", "reason": "pooled half-day yt today = 7", "valid": true, "rejected": null}
+{"date": "2018-04-28", "masked": "S09 d118", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3040", "reason": "pooled half-day yt today = 6", "valid": true, "rejected": null}
+{"date": "2018-05-04", "masked": "S09 d124", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3046", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2018-06-09", "masked": "S09 d160", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3082", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2018-06-15", "masked": "S09 d166", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3088", "reason": "pooled half-day yt today = 6", "valid": true, "rejected": null}
+{"date": "2018-06-16", "masked": "S09 d167", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3089", "reason": "pooled half-day yt today = 6", "valid": true, "rejected": null}
+{"date": "2018-06-23", "masked": "S09 d174", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3096", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2018-06-29", "masked": "S09 d180", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3102", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2018-07-03", "masked": "S09 d184", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3106", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2018-07-06", "masked": "S09 d187", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3109", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-07-06", "masked": "S09 d187", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3109", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2018-07-07", "masked": "S09 d188", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3110", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2018-07-13", "masked": "S09 d194", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3116", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-07-20", "masked": "S09 d201", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3123", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-07-20", "masked": "S09 d201", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3123", "reason": "pooled half-day yt today = 7", "valid": true, "rejected": null}
+{"date": "2018-07-21", "masked": "S09 d202", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3124", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2018-07-27", "masked": "S09 d208", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3130", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-07-28", "masked": "S09 d209", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3131", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2018-08-03", "masked": "S09 d215", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3136", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2018-08-03", "masked": "S09 d215", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3137", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-08-03", "masked": "S09 d215", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3137", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2018-08-10", "masked": "S09 d222", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3143", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2018-08-10", "masked": "S09 d222", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3144", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-08-10", "masked": "S09 d222", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3144", "reason": "pier 75.2 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-08-11", "masked": "S09 d223", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3145", "reason": "pier 74.5 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-08-17", "masked": "S09 d229", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3150", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2018-08-17", "masked": "S09 d229", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3151", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-08-17", "masked": "S09 d229", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3151", "reason": "pooled half-day yt today = 55", "valid": true, "rejected": null}
+{"date": "2018-08-17", "masked": "S09 d229", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3151", "reason": "pier 72.8 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-08-18", "masked": "S09 d230", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3152", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2018-08-18", "masked": "S09 d230", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3152", "reason": "pier 71.6 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-08-24", "masked": "S09 d236", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3158", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-08-24", "masked": "S09 d236", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3158", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2018-08-24", "masked": "S09 d236", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3158", "reason": "pier 72.9 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-08-25", "masked": "S09 d237", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3159", "reason": "pooled half-day yt today = 7", "valid": true, "rejected": null}
+{"date": "2018-08-25", "masked": "S09 d237", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3159", "reason": "pier 73.0 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-08-31", "masked": "S09 d243", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3165", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-08-31", "masked": "S09 d243", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3165", "reason": "pooled half-day yt today = 5", "valid": true, "rejected": null}
+{"date": "2018-08-31", "masked": "S09 d243", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3165", "reason": "pier 70.3 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-09-01", "masked": "S09 d244", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3166", "reason": "pier 72.0 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-09-02", "masked": "S09 d245", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3167", "reason": "pooled half-day yt today = 23", "valid": true, "rejected": null}
+{"date": "2018-09-02", "masked": "S09 d245", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3167", "reason": "pier 73.0 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-09-07", "masked": "S09 d250", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3172", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-09-07", "masked": "S09 d250", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3172", "reason": "pier 71.3 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-09-08", "masked": "S09 d251", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3173", "reason": "pier 70.5 \u00b0F, ONI +0.1", "valid": true, "rejected": null}
+{"date": "2018-09-14", "masked": "S09 d257", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3179", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-09-14", "masked": "S09 d257", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3179", "reason": "pier 71.0 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2018-09-15", "masked": "S09 d258", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3180", "reason": "pier 71.1 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2018-09-21", "masked": "S09 d264", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3186", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-09-21", "masked": "S09 d264", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3186", "reason": "pier 70.2 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2018-09-22", "masked": "S09 d265", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3187", "reason": "pier 69.5 \u00b0F, ONI +0.2", "valid": true, "rejected": null}
+{"date": "2018-09-28", "masked": "S09 d271", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3193", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-10-05", "masked": "S09 d278", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3200", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-10-12", "masked": "S09 d285", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3207", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-10-19", "masked": "S09 d292", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3214", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2018-10-26", "masked": "S09 d299", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3221", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-01-25", "masked": "S10 d025", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3312", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-04-19", "masked": "S10 d109", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3396", "reason": "pooled half-day yt today = 6", "valid": true, "rejected": null}
+{"date": "2019-05-10", "masked": "S10 d130", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3417", "reason": "pooled half-day yt today = 18", "valid": true, "rejected": null}
+{"date": "2019-05-11", "masked": "S10 d131", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3418", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2019-05-24", "masked": "S10 d144", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3431", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-06-07", "masked": "S10 d158", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3445", "reason": "pooled half-day yt today = 8", "valid": true, "rejected": null}
+{"date": "2019-06-14", "masked": "S10 d165", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3452", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-07-05", "masked": "S10 d186", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3473", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-07-12", "masked": "S10 d193", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3480", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-07-13", "masked": "S10 d194", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3481", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-07-13", "masked": "S10 d194", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3481", "reason": "pier 68.1 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2019-07-19", "masked": "S10 d200", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3487", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-07-19", "masked": "S10 d200", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3487", "reason": "pier 69.7 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2019-07-20", "masked": "S10 d201", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3488", "reason": "pier 71.1 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2019-07-26", "masked": "S10 d207", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3494", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-07-26", "masked": "S10 d207", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3494", "reason": "pier 70.2 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2019-07-27", "masked": "S10 d208", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3495", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-07-27", "masked": "S10 d208", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3495", "reason": "pier 70.5 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2019-08-02", "masked": "S10 d214", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3500", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2019-08-02", "masked": "S10 d214", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3501", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-08-02", "masked": "S10 d214", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3501", "reason": "pier 70.4 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2019-08-03", "masked": "S10 d215", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3502", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-08-09", "masked": "S10 d221", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3507", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2019-08-09", "masked": "S10 d221", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3508", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-08-09", "masked": "S10 d221", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3508", "reason": "pier 68.0 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-08-10", "masked": "S10 d222", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3509", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2019-08-10", "masked": "S10 d222", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3509", "reason": "pier 68.2 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-08-16", "masked": "S10 d228", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3514", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2019-08-16", "masked": "S10 d228", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3515", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-08-23", "masked": "S10 d235", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3522", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-08-24", "masked": "S10 d236", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3523", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-08-24", "masked": "S10 d236", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3523", "reason": "pier 68.5 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-08-30", "masked": "S10 d242", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3529", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-08-30", "masked": "S10 d242", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3529", "reason": "pier 70.4 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-08-31", "masked": "S10 d243", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3530", "reason": "pier 71.7 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-09-01", "masked": "S10 d244", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3531", "reason": "pier 73.7 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-09-06", "masked": "S10 d249", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3536", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-09-06", "masked": "S10 d249", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3536", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-09-06", "masked": "S10 d249", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3536", "reason": "pier 74.8 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-09-07", "masked": "S10 d250", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3537", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-09-07", "masked": "S10 d250", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3537", "reason": "pier 73.6 \u00b0F, ONI +0.6", "valid": true, "rejected": null}
+{"date": "2019-09-13", "masked": "S10 d256", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3543", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-09-13", "masked": "S10 d256", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3543", "reason": "pooled half-day yt today = 8", "valid": true, "rejected": null}
+{"date": "2019-09-13", "masked": "S10 d256", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3543", "reason": "pier 74.6 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2019-09-14", "masked": "S10 d257", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3544", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2019-09-14", "masked": "S10 d257", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3544", "reason": "pier 71.6 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2019-09-20", "masked": "S10 d263", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3550", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-09-20", "masked": "S10 d263", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3550", "reason": "pier 68.6 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2019-09-21", "masked": "S10 d264", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3551", "reason": "pier 68.2 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2019-09-27", "masked": "S10 d270", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3557", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-09-27", "masked": "S10 d270", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3557", "reason": "pier 70.2 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2019-09-28", "masked": "S10 d271", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3558", "reason": "pier 70.5 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2019-10-04", "masked": "S10 d277", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3564", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-10-04", "masked": "S10 d277", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3564", "reason": "pier 68.2 \u00b0F, ONI +0.4", "valid": true, "rejected": null}
+{"date": "2019-10-11", "masked": "S10 d284", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3571", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-10-18", "masked": "S10 d291", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3578", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-10-25", "masked": "S10 d298", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3585", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2019-11-08", "masked": "S10 d312", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3599", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-11-09", "masked": "S10 d313", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3600", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2019-12-06", "masked": "S10 d340", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3627", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2019-12-13", "masked": "S10 d347", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3634", "reason": "pooled half-day yt today = 8", "valid": true, "rejected": null}
+{"date": "2019-12-28", "masked": "S10 d362", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3649", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2020-02-15", "masked": "S11 d046", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3698", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-06-13", "masked": "S11 d165", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3817", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-06-19", "masked": "S11 d171", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3823", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-06-26", "masked": "S11 d178", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3830", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-07-03", "masked": "S11 d185", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3837", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-07-03", "masked": "S11 d185", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3837", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-07-04", "masked": "S11 d186", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3838", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-07-10", "masked": "S11 d192", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3844", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-07-10", "masked": "S11 d192", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3844", "reason": "pier 72.5 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2020-07-11", "masked": "S11 d193", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3845", "reason": "pier 72.0 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2020-07-17", "masked": "S11 d199", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3851", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-07-17", "masked": "S11 d199", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3851", "reason": "pier 69.3 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2020-07-24", "masked": "S11 d206", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3858", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-07-31", "masked": "S11 d213", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3864", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2020-07-31", "masked": "S11 d213", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3865", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-08-07", "masked": "S11 d220", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3871", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2020-08-07", "masked": "S11 d220", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3872", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-08-07", "masked": "S11 d220", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3872", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-08-08", "masked": "S11 d221", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:3873", "reason": "pier 68.0 \u00b0F, ONI +0.0", "valid": true, "rejected": null}
+{"date": "2020-08-14", "masked": "S11 d227", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:3878", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2020-08-14", "masked": "S11 d227", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3879", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-08-21", "masked": "S11 d234", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3886", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-08-28", "masked": "S11 d241", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3893", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-09-04", "masked": "S11 d248", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3900", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-09-04", "masked": "S11 d248", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3900", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-09-11", "masked": "S11 d255", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3907", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-09-18", "masked": "S11 d262", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3914", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-09-18", "masked": "S11 d262", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3914", "reason": "pooled half-day yt today = 48", "valid": true, "rejected": null}
+{"date": "2020-09-19", "masked": "S11 d263", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3915", "reason": "pooled half-day yt today = 18", "valid": true, "rejected": null}
+{"date": "2020-09-25", "masked": "S11 d269", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3921", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-09-25", "masked": "S11 d269", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3921", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-10-02", "masked": "S11 d276", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3928", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-10-09", "masked": "S11 d283", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3935", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-10-09", "masked": "S11 d283", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3935", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-10-10", "masked": "S11 d284", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3936", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-10-16", "masked": "S11 d290", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3942", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-10-16", "masked": "S11 d290", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3942", "reason": "pooled half-day yt today = 10", "valid": true, "rejected": null}
+{"date": "2020-10-17", "masked": "S11 d291", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3943", "reason": "pooled half-day yt today = 11", "valid": true, "rejected": null}
+{"date": "2020-10-23", "masked": "S11 d297", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:3949", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2020-10-23", "masked": "S11 d297", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3949", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2020-10-30", "masked": "S11 d304", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3956", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-11-20", "masked": "S11 d325", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3977", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2020-11-21", "masked": "S11 d326", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3978", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2020-11-25", "masked": "S11 d330", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3982", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2020-11-28", "masked": "S11 d333", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:3985", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2020-12-24", "masked": "S11 d359", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4011", "reason": "pooled half-day yt today = 12", "valid": true, "rejected": null}
+{"date": "2021-06-04", "masked": "S12 d155", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4173", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2021-06-17", "masked": "S12 d168", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4186", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2021-06-18", "masked": "S12 d169", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4187", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2021-07-02", "masked": "S12 d183", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4201", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-07-04", "masked": "S12 d185", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4203", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2021-07-09", "masked": "S12 d190", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4208", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-07-16", "masked": "S12 d197", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4215", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-07-16", "masked": "S12 d197", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4215", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2021-07-17", "masked": "S12 d198", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4216", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2021-07-23", "masked": "S12 d204", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4222", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-07-24", "masked": "S12 d205", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4223", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2021-07-30", "masked": "S12 d211", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4229", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-08-06", "masked": "S12 d218", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4235", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2021-08-06", "masked": "S12 d218", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4236", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-08-13", "masked": "S12 d225", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4242", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2021-08-13", "masked": "S12 d225", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4243", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-08-20", "masked": "S12 d232", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4249", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2021-08-20", "masked": "S12 d232", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4250", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-08-20", "masked": "S12 d232", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4250", "reason": "pooled half-day yt today = 5", "valid": true, "rejected": null}
+{"date": "2021-08-21", "masked": "S12 d233", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4251", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2021-08-27", "masked": "S12 d239", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4257", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-08-27", "masked": "S12 d239", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4257", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2021-09-03", "masked": "S12 d246", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4264", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-09-04", "masked": "S12 d247", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4265", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2021-09-10", "masked": "S12 d253", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4271", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-09-17", "masked": "S12 d260", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4278", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-09-24", "masked": "S12 d267", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4285", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-10-01", "masked": "S12 d274", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4292", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-10-08", "masked": "S12 d281", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4299", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-10-15", "masked": "S12 d288", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4306", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-10-22", "masked": "S12 d295", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4313", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2021-10-29", "masked": "S12 d302", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4320", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-05-27", "masked": "S13 d147", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4530", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-05-28", "masked": "S13 d148", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4531", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-05-29", "masked": "S13 d149", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4532", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-06-24", "masked": "S13 d175", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4558", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2022-07-01", "masked": "S13 d182", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4565", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-07-08", "masked": "S13 d189", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4572", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-07-15", "masked": "S13 d196", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4579", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-07-15", "masked": "S13 d196", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4579", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-07-22", "masked": "S13 d203", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4586", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-07-29", "masked": "S13 d210", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4593", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-08-05", "masked": "S13 d217", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4599", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2022-08-05", "masked": "S13 d217", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4600", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-08-05", "masked": "S13 d217", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4600", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-08-12", "masked": "S13 d224", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4606", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2022-08-12", "masked": "S13 d224", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4607", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-08-19", "masked": "S13 d231", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4613", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2022-08-19", "masked": "S13 d231", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4614", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-08-19", "masked": "S13 d231", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4614", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-08-26", "masked": "S13 d238", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4621", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-09-02", "masked": "S13 d245", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4628", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-09-02", "masked": "S13 d245", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4628", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-09-04", "masked": "S13 d247", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4630", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-09-09", "masked": "S13 d252", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4635", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-09-16", "masked": "S13 d259", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4642", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-09-23", "masked": "S13 d266", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4649", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-09-30", "masked": "S13 d273", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4656", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-09-30", "masked": "S13 d273", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4656", "reason": "pooled half-day yt today = 11", "valid": true, "rejected": null}
+{"date": "2022-10-01", "masked": "S13 d274", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4657", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2022-10-07", "masked": "S13 d280", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4663", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-10-14", "masked": "S13 d287", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4670", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-10-21", "masked": "S13 d294", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4677", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2022-10-28", "masked": "S13 d301", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4684", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-05-19", "masked": "S14 d139", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4887", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2023-06-02", "masked": "S14 d153", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4901", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2023-06-30", "masked": "S14 d181", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4929", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-07-07", "masked": "S14 d188", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4936", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-07-14", "masked": "S14 d195", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4943", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-07-15", "masked": "S14 d196", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4944", "reason": "pier 68.8 \u00b0F, ONI +0.5", "valid": true, "rejected": null}
+{"date": "2023-07-21", "masked": "S14 d202", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4950", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-07-28", "masked": "S14 d209", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4957", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-07-28", "masked": "S14 d209", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4957", "reason": "pier 69.6 \u00b0F, ONI +0.5", "valid": true, "rejected": null}
+{"date": "2023-07-29", "masked": "S14 d210", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4958", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2023-07-29", "masked": "S14 d210", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4958", "reason": "pier 71.4 \u00b0F, ONI +0.5", "valid": true, "rejected": null}
+{"date": "2023-08-04", "masked": "S14 d216", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4963", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2023-08-04", "masked": "S14 d216", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4964", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-08-04", "masked": "S14 d216", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4964", "reason": "pooled half-day yt today = 3", "valid": true, "rejected": null}
+{"date": "2023-08-04", "masked": "S14 d216", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4964", "reason": "pier 70.9 \u00b0F, ONI +0.5", "valid": true, "rejected": null}
+{"date": "2023-08-05", "masked": "S14 d217", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4965", "reason": "pooled half-day yt today = 4", "valid": true, "rejected": null}
+{"date": "2023-08-05", "masked": "S14 d217", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4965", "reason": "pier 70.6 \u00b0F, ONI +0.5", "valid": true, "rejected": null}
+{"date": "2023-08-11", "masked": "S14 d223", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4970", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2023-08-11", "masked": "S14 d223", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4971", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-08-11", "masked": "S14 d223", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4971", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2023-08-11", "masked": "S14 d223", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4971", "reason": "pier 72.6 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2023-08-12", "masked": "S14 d224", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4972", "reason": "pier 70.6 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2023-08-18", "masked": "S14 d230", "tick": "16:00", "agent": "B_BIG", "action": "Book DAY_1_5:4977", "reason": "Friday in August\u2013September", "valid": true, "rejected": null}
+{"date": "2023-08-18", "masked": "S14 d230", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4978", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-08-18", "masked": "S14 d230", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4978", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2023-08-19", "masked": "S14 d231", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4979", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2023-08-25", "masked": "S14 d237", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4985", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-09-01", "masked": "S14 d244", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4992", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-09-01", "masked": "S14 d244", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4992", "reason": "pooled half-day yt today = 2", "valid": true, "rejected": null}
+{"date": "2023-09-01", "masked": "S14 d244", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4992", "reason": "pier 68.7 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2023-09-02", "masked": "S14 d245", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4993", "reason": "pier 68.7 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2023-09-03", "masked": "S14 d246", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:4994", "reason": "pier 68.3 \u00b0F, ONI +0.7", "valid": true, "rejected": null}
+{"date": "2023-09-08", "masked": "S14 d251", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:4999", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-09-08", "masked": "S14 d251", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:4999", "reason": "pooled half-day yt today = 20", "valid": true, "rejected": null}
+{"date": "2023-09-15", "masked": "S14 d258", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:5006", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-09-15", "masked": "S14 d258", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:5006", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2023-09-15", "masked": "S14 d258", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:5006", "reason": "pier 68.6 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2023-09-16", "masked": "S14 d259", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:5007", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2023-09-16", "masked": "S14 d259", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:5007", "reason": "pier 70.3 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2023-09-22", "masked": "S14 d265", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:5013", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-09-22", "masked": "S14 d265", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:5013", "reason": "pier 68.3 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2023-09-29", "masked": "S14 d272", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:5020", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-09-30", "masked": "S14 d273", "tick": "21:00", "agent": "B_TEMP", "action": "Book HD_PM:5021", "reason": "pier 68.3 \u00b0F, ONI +1.0", "valid": true, "rejected": null}
+{"date": "2023-10-06", "masked": "S14 d279", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:5027", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-10-13", "masked": "S14 d286", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:5034", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-10-20", "masked": "S14 d293", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:5041", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-10-20", "masked": "S14 d293", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:5041", "reason": "pooled half-day yt today = 6", "valid": true, "rejected": null}
+{"date": "2023-10-21", "masked": "S14 d294", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:5042", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}
+{"date": "2023-10-27", "masked": "S14 d300", "tick": "21:00", "agent": "B_SAT", "action": "Book HD_PM:5048", "reason": "Saturday in July\u2013October", "valid": true, "rejected": null}
+{"date": "2023-10-27", "masked": "S14 d300", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:5048", "reason": "pooled half-day yt today = 24", "valid": true, "rejected": null}
+{"date": "2023-10-28", "masked": "S14 d301", "tick": "21:00", "agent": "B_PERSIST", "action": "Book HD_PM:5049", "reason": "pooled half-day yt today = 1", "valid": true, "rejected": null}

@@ -1,0 +1,88 @@
+{
+ "season": 2013,
+ "counted": true,
+ "agents": [
+  {
+   "fish": 5.0389,
+   "undiluted": 5.078,
+   "excess": 2.0119,
+   "skunk_rate": 0.0,
+   "trips": 3,
+   "trips_by_class": {
+    "DAY_1_5": 3
+   },
+   "cancelled": 0,
+   "usd_per_fish": 327.4,
+   "spent": 1650,
+   "season": 2013,
+   "season_idx": 4,
+   "counted": true,
+   "pto_used": 0.0,
+   "budget_left": 350.0,
+   "agent": "B_BIG",
+   "rank": 1
+  },
+  {
+   "fish": 0.5252,
+   "undiluted": 0.5295,
+   "excess": 0.3649,
+   "skunk_rate": 0.6154,
+   "trips": 13,
+   "trips_by_class": {
+    "HD_PM": 13
+   },
+   "cancelled": 0,
+   "usd_per_fish": 1980.2,
+   "spent": 1040,
+   "season": 2013,
+   "season_idx": 4,
+   "counted": true,
+   "pto_used": 0.0,
+   "budget_left": 960.0,
+   "agent": "B_PERSIST",
+   "rank": 2
+  },
+  {
+   "fish": 0.1787,
+   "undiluted": 0.181,
+   "excess": -0.033,
+   "skunk_rate": 0.8824,
+   "trips": 17,
+   "trips_by_class": {
+    "HD_PM": 17
+   },
+   "cancelled": 0,
+   "usd_per_fish": 7609.6,
+   "spent": 1360,
+   "season": 2013,
+   "season_idx": 4,
+   "counted": true,
+   "pto_used": 0.0,
+   "budget_left": 640.0,
+   "agent": "B_SAT",
+   "rank": 3
+  },
+  {
+   "fish": 0,
+   "undiluted": 0,
+   "excess": 0,
+   "skunk_rate": null,
+   "trips": 0,
+   "trips_by_class": {},
+   "cancelled": 0,
+   "usd_per_fish": null,
+   "spent": 0,
+   "season": 2013,
+   "season_idx": 4,
+   "counted": true,
+   "pto_used": 0.0,
+   "budget_left": 2000.0,
+   "agent": "B_TEMP",
+   "rank": 4
+  }
+ ],
+ "field": {
+  "diversity_jaccard": 0.0185,
+  "herding": 0.5
+ }
+}

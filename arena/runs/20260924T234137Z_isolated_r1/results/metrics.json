@@ -1,0 +1,192 @@
+{
+ "run": "20260924T234137Z_isolated_r1",
+ "arm": "isolated",
+ "replicate": 1,
+ "seasons_counted": 12,
+ "cumulative": {
+  "B_SAT": 6.2433,
+  "B_PERSIST": 11.9478,
+  "B_TEMP": 7.7446,
+  "B_BIG": 46.0015
+ },
+ "leaderboard_cumulative": [
+  "B_BIG",
+  "B_PERSIST",
+  "B_TEMP",
+  "B_SAT"
+ ],
+ "ci_vs_baselines": {
+  "B_SAT-B_PERSIST": {
+   "mean": -0.47537500000000005,
+   "lo95": -1.3102097916666666,
+   "hi95": 0.07565354166666667,
+   "n_seasons": 12
+  },
+  "B_SAT-B_TEMP": {
+   "mean": -0.12510833333333338,
+   "lo95": -0.32067500000000004,
+   "hi95": 0.056351458333333236,
+   "n_seasons": 12
+  },
+  "B_SAT-B_BIG": {
+   "mean": -3.3131833333333334,
+   "lo95": -5.116060624999999,
+   "hi95": -1.6311193750000001,
+   "n_seasons": 12
+  },
+  "B_PERSIST-B_SAT": {
+   "mean": 0.47537500000000005,
+   "lo95": -0.07565354166666662,
+   "hi95": 1.3102097916666666,
+   "n_seasons": 12
+  },
+  "B_PERSIST-B_TEMP": {
+   "mean": 0.35026666666666656,
+   "lo95": -0.17505562500000008,
+   "hi95": 1.1391597916666665,
+   "n_seasons": 12
+  },
+  "B_PERSIST-B_BIG": {
+   "mean": -2.8378083333333333,
+   "lo95": -4.778026041666666,
+   "hi95": -1.011789791666666,
+   "n_seasons": 12
+  },
+  "B_TEMP-B_SAT": {
+   "mean": 0.12510833333333338,
+   "lo95": -0.05635145833333323,
+   "hi95": 0.3206750000000001,
+   "n_seasons": 12
+  },
+  "B_TEMP-B_PERSIST": {
+   "mean": -0.35026666666666656,
+   "lo95": -1.1391597916666665,
+   "hi95": 0.17505562500000021,
+   "n_seasons": 12
+  },
+  "B_TEMP-B_BIG": {
+   "mean": -3.1880749999999995,
+   "lo95": -5.056420416666666,
+   "hi95": -1.4580674999999998,
+   "n_seasons": 12
+  },
+  "B_BIG-B_SAT": {
+   "mean": 3.3131833333333334,
+   "lo95": 1.6311193750000004,
+   "hi95": 5.116060624999999,
+   "n_seasons": 12
+  },
+  "B_BIG-B_PERSIST": {
+   "mean": 2.8378083333333333,
+   "lo95": 1.0117897916666667,
+   "hi95": 4.778026041666667,
+   "n_seasons": 12
+  },
+  "B_BIG-B_TEMP": {
+   "mean": 3.1880749999999995,
+   "lo95": 1.4580675,
+   "hi95": 5.056420416666667,
+   "n_seasons": 12
+  }
+ },
+ "field_by_season": [
+  {
+   "season": 1,
+   "mean_fish": 0.0997,
+   "diversity_jaccard": 0.0457,
+   "herding": 0.75,
+   "counted": false
+  },
+  {
+   "season": 2,
+   "mean_fish": 0.1834,
+   "diversity_jaccard": 0.02,
+   "herding": 0.5,
+   "counted": false
+  },
+  {
+   "season": 3,
+   "mean_fish": 2.4391,
+   "diversity_jaccard": 0.1131,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 4,
+   "mean_fish": 1.4357,
+   "diversity_jaccard": 0.0185,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 5,
+   "mean_fish": 2.4335,
+   "diversity_jaccard": 0.2299,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 6,
+   "mean_fish": 1.3828,
+   "diversity_jaccard": 0.0645,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 7,
+   "mean_fish": 0.8565,
+   "diversity_jaccard": 0.1722,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 8,
+   "mean_fish": 2.6194,
+   "diversity_jaccard": 0.1269,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 9,
+   "mean_fish": 2.1503,
+   "diversity_jaccard": 0.1039,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 10,
+   "mean_fish": 1.8535,
+   "diversity_jaccard": 0.108,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 11,
+   "mean_fish": 0.425,
+   "diversity_jaccard": 0.0635,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 12,
+   "mean_fish": 0.4912,
+   "diversity_jaccard": 0.0192,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 13,
+   "mean_fish": 1.7348,
+   "diversity_jaccard": 0.0347,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 14,
+   "mean_fish": 0.1626,
+   "diversity_jaccard": 0.1448,
+   "herding": 0.75,
+   "counted": true
+  }
+ ]
+}

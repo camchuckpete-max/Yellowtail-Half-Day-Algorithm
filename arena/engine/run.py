@@ -62,9 +62,10 @@ def _jsonl(path: Path, rec: dict) -> None:
 
 class Agent:
     def __init__(self, name: str, kind: str, path: Path, class_name: str, adversary: str | None = None,
-                 persona: str | None = None, model: str | None = None):
+                 persona: str | None = None, model: str | None = None, forum: bool = True):
         self.name, self.kind, self.path, self.class_name = name, kind, Path(path), class_name
         self.adversary, self.persona, self.model = adversary, persona, model
+        self.forum = forum   # False: neither reads nor posts (D-053); scripted baselines never use the forum
         self.budget = 0.0
         self.pto = 0.0
         self.pto_committed: dict[str, float] = {}      # iso date -> amount
@@ -77,13 +78,13 @@ class Agent:
         self.worker: Worker | None = None
 
     def to_json(self) -> dict:
-        return {k: getattr(self, k) for k in ("name", "kind", "class_name", "adversary", "persona", "model", "budget", "pto",
+        return {k: getattr(self, k) for k in ("name", "kind", "class_name", "adversary", "persona", "model", "forum", "budget", "pto",
                                               "pto_committed", "bookings", "history", "last_reasons", "failures", "describe",
                                               "strategy_version")} | {"path": str(self.path)}
 
     @classmethod
     def from_json(cls, d: dict) -> "Agent":
-        a = cls(d["name"], d["kind"], Path(d["path"]), d["class_name"], d.get("adversary"), d.get("persona"), d.get("model"))
+        a = cls(d["name"], d["kind"], Path(d["path"]), d["class_name"], d.get("adversary"), d.get("persona"), d.get("model"), d.get("forum", True))
         for k in ("budget", "pto", "pto_committed", "bookings", "history", "last_reasons", "failures", "describe", "strategy_version"):
             setattr(a, k, d[k])
         return a
@@ -139,18 +140,23 @@ class Engine:
         labels = json.loads((SCRIPTED / "labels.json").read_text())
         f = self.cfg["field"]
         for n in f.get("baselines", []):
-            self.agents.append(Agent(n, "baseline", SCRIPTED / "baselines.py", n))
+            self.agents.append(Agent(n, "baseline", SCRIPTED / "baselines.py", n, forum=False))
         if self.cfg["arms"][self.arm].get("adversaries"):
             adv_path = SCRIPTED / "adversaries.py"
             if not adv_path.exists():
                 raise SystemExit("poisoned arm needs arena/agents/_scripted/adversaries.py (Phase 4)")
             for n in f.get("adversaries", []):
                 self.agents.append(Agent(n, "adversary", adv_path, n, adversary=labels[n]["adversary"]))
+        roster = {r["name"]: r for r in f.get("roster", [])}
+        models = f.get("models", {})
         for n in list(f.get("agents", [])) + ([f["owner"]] if f.get("owner") else []):
             d = ARENA / "agents" / n
             meta = json.loads((d / "meta.json").read_text()) if (d / "meta.json").exists() else {}
+            r = roster.get(n, {})
+            model = meta.get("model") or models.get(r.get("model"), r.get("model"))
             self.agents.append(Agent(n, "owner" if n == f.get("owner") else "llm", d / "strategy.py", "Strategy",
-                                     persona=meta.get("persona"), model=meta.get("model")))
+                                     persona=meta.get("persona") or r.get("persona"), model=model,
+                                     forum=bool(meta.get("forum", r.get("forum", True)))))
         for a in self.agents:
             a.budget, a.pto = float(self.cfg["budget"]), float(self.cfg["pto"])
 
@@ -234,8 +240,8 @@ class Engine:
                             "ran": b["ran"], "yt": b["yt"], "anglers": b["anglers"], "n_agents": b["n_agents"], "share": b["share"]})
         return out
 
-    def _forum_visible(self, t: float) -> list[dict]:
-        if not self.cfg["arms"][self.arm].get("forum"):
+    def _forum_visible(self, t: float, agent: "Agent | None" = None) -> list[dict]:
+        if not self.cfg["arms"][self.arm].get("forum") or (agent is not None and not agent.forum):
             return []
         return [p for p in self.forum if p["t"] <= t]
 
@@ -280,7 +286,7 @@ class Engine:
                 continue
             offers = [self._api_offer(o, a, {"today": today}) for o in raw_offers]
             msg = {"now": nowobj, "offers": offers, "budget_left": a.budget, "pto_left": a.pto,
-                   "calendar": self._calendar_api(a), "forum": self._forum_visible(t), "leaderboard": lb,
+                   "calendar": self._calendar_api(a), "forum": self._forum_visible(t, a), "leaderboard": lb,
                    "my_results": self._masked_results(a), "budget_total": float(self.cfg["budget"]), "pto_total": float(self.cfg["pto"])}
             if is_turn:
                 res, err = a.worker.call("on_turn", msg)
@@ -421,7 +427,7 @@ class Engine:
             for b in settled:
                 by_cls[b["cls"]] = by_cls.get(b["cls"], 0) + 1
             agents.append({
-                "name": a.name, "kind": a.kind, "persona": a.persona, "model": a.model, "adversary": a.adversary,
+                "name": a.name, "kind": a.kind, "persona": a.persona, "model": a.model, "adversary": a.adversary, "forum": a.forum,
                 "describe": a.describe, "strategy_version": a.strategy_version, "last_strategy_change": None, "last_turn": None,
                 "season": {"fish": round(fish, 4), "undiluted": round(sum(b["yt"] / b["anglers"] for b in settled if b["anglers"]), 4),
                            "excess": round(sum(b["share"] - (self.outcomes.climatology(b["cls"], date.fromisoformat(b["fishing_dates"][0])) or 0.0) for b in settled), 4),

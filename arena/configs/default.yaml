@@ -32,6 +32,44 @@ arms:
 field:
   baselines: [B_SAT, B_PERSIST, B_TEMP, B_BIG]        # always in the field (§5.5)
   adversaries: [A_WRONG, A_STALE, A_FAB, A_NOISE]     # poisoned arm only (Phase 4)
-  agents: []                                          # LLM agents under arena/agents/<name>/ (Phase 3)
+  agents: []                                          # LLM agents instantiated from the roster below (Phase 3; names)
   owner: null                                         # "cam" once arena/agents/cam/ exists (Phase 5)
+  # Roster of LLM agents (D-053): 30 personas, models mixed in thirds across Haiku / Sonnet / Opus,
+  # and 10 agents with `forum: false` who neither read nor post (a within-run no-forum control).
+  # `persona` names a file in arena/personas/ (Phase 3; owner reviews, SPEC §12 #6).
+  models:
+    haiku: claude-haiku-4-5-20251001
+    sonnet: claude-sonnet-5
+    opus: claude-opus-5-5
+  roster:
+    - {name: temp_first,   persona: temperature-first,        model: opus,   forum: true}
+    - {name: temp_solo,    persona: temperature-first,        model: haiku,  forum: false}
+    - {name: persist,      persona: persistence-first,        model: sonnet, forum: true}
+    - {name: persist_solo, persona: persistence-first,        model: opus,   forum: false}
+    - {name: contrarian,   persona: contrarian,               model: haiku,  forum: true}
+    - {name: weekender,    persona: weekend-only,             model: sonnet, forum: true}
+    - {name: frontloader,  persona: pto-front-loader,         model: opus,   forum: true}
+    - {name: thrifty,      persona: thrifty,                  model: haiku,  forum: true}
+    - {name: thrifty_solo, persona: thrifty,                  model: sonnet, forum: false}
+    - {name: biggame,      persona: big-game,                 model: opus,   forum: true}
+    - {name: biggame_solo, persona: big-game,                 model: haiku,  forum: false}
+    - {name: tides,        persona: tide-moon-believer,       model: sonnet, forum: true}
+    - {name: weatherman,   persona: weather-forecast-believer, model: haiku, forum: true}
+    - {name: dope_reader,  persona: fishdope-reader,          model: opus,   forum: true}
+    - {name: dope_solo,    persona: fishdope-reader,          model: sonnet, forum: false}
+    - {name: ensembler,    persona: statistician-ensembler,   model: opus,   forum: true}
+    - {name: ens_solo,     persona: statistician-ensembler,   model: haiku,  forum: false}
+    - {name: overreactor,  persona: small-sample-overreactor, model: haiku,  forum: true}
+    - {name: follower,     persona: leaderboard-follower,     model: sonnet, forum: true}
+    - {name: skeptic,      persona: verifier-skeptic,         model: opus,   forum: true}
+    - {name: skeptic_solo, persona: verifier-skeptic,         model: sonnet, forum: false}
+    - {name: greenwater,   persona: chlorophyll-watcher,      model: sonnet, forum: true}
+    - {name: elnino,       persona: enso-macro,               model: haiku,  forum: true}
+    - {name: upweller,     persona: upwelling-believer,       model: sonnet, forum: false}
+    - {name: fleetwatch,   persona: fleet-follower,           model: haiku,  forum: true}
+    - {name: overnighter,  persona: overnight-only,           model: opus,   forum: false}
+    - {name: lateseason,   persona: late-season-specialist,   model: sonnet, forum: true}
+    - {name: streaker,     persona: streak-chaser,            model: haiku,  forum: true}
+    - {name: reverter,     persona: mean-reverter,            model: opus,   forum: false}
+    - {name: calendarist,  persona: calendar-only,            model: opus,   forum: true}
 seed: 49

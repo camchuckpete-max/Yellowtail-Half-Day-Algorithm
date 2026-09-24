@@ -216,8 +216,12 @@ Thirty personas in `arena/personas/` (owner reviews, §12 #6): temperature-first
 first, contrarian, weekend-only, PTO-front-loader, thrifty (many half days), big-game (1.5-days
 only), tide/moon believer, weather-forecast believer, FishDope reader, statistician/ensembler,
 small-sample overreactor, leaderboard follower, verifier/skeptic, … Models are mixed across
-personas (`model` in `meta.json`; several vendors if available) because one prompt on one model
-collapses to about three strategies.
+personas because one prompt on one model collapses to about three strategies. Owner decision
+(D-053): the 30 LLM agents are split in thirds across **Claude Haiku 4.5, Sonnet 5 and Opus 5.5**
+(`field.models` / `field.roster` in `configs/default.yaml`; `model` in `meta.json` overrides), and
+ten of them have **no forum access** (`forum: false`): they neither read nor post, in every arm.
+Where a persona appears twice, the two copies differ in model and in forum access, so the
+forum-on vs forum-off comparison is partly matched on persona.
 
 ### 5.5 Scripted agents (no LLM; `arena/agents/_scripted/`)
 Baselines, always in the field: `B_SAT` (every Saturday Jul–Oct, HD_PM), `B_PERSIST` (book HD_PM
@@ -238,7 +242,9 @@ of the robustness metric (§7).
 Append-only `forum.jsonl` per run: `{post_id, season, doy, hour, agent, text}`; text ≤ 300 words;
 attributed; flat and chronological; readable at any tick (`available_at = post time`); posting
 only in turns, ≤ 2 per agent per month; posting is optional. The leaderboard is visible to all
-agents (season-to-date and cumulative), so reputation can form.
+agents (season-to-date and cumulative), so reputation can form. Agents with `forum: false` (§5.4)
+get an empty `ctx.forum()` and are not given the `forum_read` / `forum_post` tools in their turns;
+their turn prompt does not mention the forum at all. Scripted baselines never use the forum.
 
 ## 7. Experiments
 Arms, same config, personas, seeds and source commit:
@@ -263,7 +269,9 @@ Metrics (`results/metrics.json`, all per agent unless noted):
   (verify-before-adopt proxy);
 - **diversity** (field): mean pairwise Jaccard of (class, departure) sets per season; herding =
   max `n_agents` on one trip / number of agents;
-- **field learning**: mean season fish by season index.
+- **field learning**: mean season fish by season index;
+- **forum effect within a run**: cumulative fish of forum-on minus forum-off agents (all, and the
+  persona-matched pairs), per arm — a second estimate of forum value that needs no isolated arm.
 
 ## 8. Runs, reproducibility, data freeze, holdout
 - `python -m arena.run --config arena/configs/default.yaml --arm forum --replicate 1` →
@@ -355,3 +363,5 @@ Outside `arena/`: `yt/events.py` (§4.3), `tests/test_pit.py` (extended), `DECIS
 9. `half_day_pto`: 1.0 (default) or 0.5 for HD_PM.
 10. File a source data request for point-in-time CPC ENSO monthly outlooks (2010–present) — next
     number in the source's `data_requests/` (0005 at the time of writing).
+11. Roster (`field.roster`): which ten agents are forum-off and the model assignment (D-053) — to
+    review together with the personas (#6).

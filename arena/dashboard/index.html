@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Yellowtail Arena</title>
 <meta name="description" content="Live operator dashboard for the multi-agent yellowtail day-picking competition">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -149,6 +150,24 @@ tbody tr.sel{background:var(--surface-2);box-shadow:inset 3px 0 0 var(--accent)}
 .outc{font-size:12px}
 .outc td,.outc th{padding:3px 6px}
 footer{margin-top:20px;font-size:11px;color:var(--muted)}
+.stripscroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+@media (max-width:640px){
+  body{font-size:13px}
+  .statusbar{position:static;gap:6px 12px}
+  .kv.minor{display:none}
+  .src input{width:min(220px,55vw)}
+  section.card{padding:10px 10px}
+  th,td{padding:4px 6px}
+  .narrow-hide{display:none}
+  .strips{min-width:760px}
+  .strips .nm{position:sticky;left:0;background:var(--surface);z-index:1;padding-right:6px}
+  .reasons li{grid-template-columns:auto 1fr}
+  .reasons li span:nth-child(3){grid-column:1/3}
+  .reasons .rejmsg{grid-column:1/3}
+  .feed{max-height:70vh}
+  .facts{grid-template-columns:1fr 1fr}
+  .gauges{grid-template-columns:1fr 1fr}
+}
 .sr{position:absolute;left:-9999px}
 </style>
 
@@ -158,9 +177,9 @@ footer{margin-top:20px;font-size:11px;color:var(--muted)}
   <span class="kv">sim <b class="mono" id="simdate">—</b></span>
   <span class="kv">tick <b class="mono" id="simtick">—</b></span>
   <span class="kv">season <b class="mono" id="seasonprog">—</b></span>
-  <span class="kv">arm <b id="arm">—</b></span>
-  <span class="kv">rep <b class="mono" id="rep">—</b></span>
-  <span class="kv">source <b class="mono" id="srccommit">—</b></span>
+  <span class="kv minor">arm <b id="arm">—</b></span>
+  <span class="kv minor">rep <b class="mono" id="rep">—</b></span>
+  <span class="kv minor">source <b class="mono" id="srccommit">—</b></span>
   <span class="kv">turns <b id="turns">—</b></span>
   <span class="grow"></span>
   <span class="kv">updated <b class="mono" id="updated">—</b></span>
@@ -178,7 +197,7 @@ footer{margin-top:20px;font-size:11px;color:var(--muted)}
       <label class="kv" style="margin-left:8px"><input type="checkbox" id="opview" checked> operator view</label>
     </div>
     <div class="tablewrap"><table id="lb"><thead><tr>
-      <th class="l">#</th><th class="l">Agent</th><th>Fish</th><th>Undiluted</th><th>Excess</th><th>Skunk</th><th>Trips</th><th>$ left</th><th>PTO left</th><th>$/fish</th><th class="l">Seasons</th>
+      <th class="l">#</th><th class="l">Agent</th><th>Fish</th><th class="narrow-hide">Undiluted</th><th class="narrow-hide">Excess</th><th>Skunk</th><th>Trips</th><th>$ left</th><th>PTO</th><th class="narrow-hide">$/fish</th><th class="l narrow-hide">Seasons</th>
     </tr></thead><tbody></tbody></table></div>
   </section>
   <section class="card">
@@ -202,7 +221,7 @@ footer{margin-top:20px;font-size:11px;color:var(--muted)}
       <span class="sp" style="flex:1"></span>
       <div class="legend" id="legend"></div>
     </div>
-    <div class="strips" id="strips"></div>
+    <div class="stripscroll"><div class="strips" id="strips"></div></div>
   </section>
 </div>
 
@@ -234,7 +253,7 @@ const CLASS_LABEL = {HD_AM:"½ AM",HD_PM:"½ PM",TWILIGHT:"Twilight",THREE_QUART
 const MONTH_DOY = [1,32,60,91,121,152,182,213,244,274,305,335];
 const MONTH = ["J","F","M","A","M","J","J","A","S","O","N","D"];
 const POLL_MS = 30000;
-let state = null, view = "season", selected = null, seenPosts = null, srcMode = "file", lastSrc = "";
+let state = null, view = "season", selected = null, seenPosts = null, srcMode = "file", lastSrc = "", stripScrolled = false;
 let opview = true;
 try { const v = localStorage.getItem("arena.opview"); if (v !== null) opview = v === "1"; } catch (e) {}
 try { const s = localStorage.getItem("arena.selected"); if (s) selected = s; } catch (e) {}
@@ -296,7 +315,8 @@ const masked = (season, doy) => "S" + String(season).padStart(2,"0") + " d" + St
 const agentByName = (n) => state.agents.find((a) => a.name === n);
 function kindTag(a){
   const adv = opview && a.adversary;
-  return `<span class="kind ${a.kind}${adv ? " adversary" : ""}">${adv ? "adv " + esc(a.adversary) : esc(a.kind)}</span>`;
+  const nf = a.forum === false && a.kind !== "baseline" ? `<span class="kind" title="this agent neither reads nor posts on the forum">no forum</span>` : "";
+  return `<span class="kind ${a.kind}${adv ? " adversary" : ""}">${adv ? "adv " + esc(a.adversary) : esc(a.kind)}</span>${nf}`;
 }
 
 // ---------- apply ----------
@@ -356,10 +376,10 @@ function renderLeaderboard(){
     return `<tr tabindex="0" data-agent="${esc(n)}" class="${n === selected ? "sel" : ""}">
       <td class="l"><span class="rank mono">${i + 1}</span>${dtxt}</td>
       <td class="l"><span class="name">${esc(n)} ${kindTag(a)}</span></td>
-      <td class="mono">${fmt(fish)}</td><td class="mono">${fmt(und)}</td><td class="mono">${exc === null || exc === undefined ? "—" : (exc >= 0 ? "+" : "") + fmt(exc)}</td>
+      <td class="mono">${fmt(fish)}</td><td class="mono narrow-hide">${fmt(und)}</td><td class="mono narrow-hide">${exc === null || exc === undefined ? "—" : (exc >= 0 ? "+" : "") + fmt(exc)}</td>
       <td class="mono">${pct(s.skunk_rate)}</td><td class="mono">${s.trips}</td><td class="mono">${s.budget_left}</td><td class="mono">${s.pto_left}</td>
-      <td class="mono">${s.usd_per_fish === null || s.usd_per_fish === undefined ? "—" : Math.round(s.usd_per_fish)}</td>
-      <td class="l">${sparkline(a)}</td></tr>`;
+      <td class="mono narrow-hide">${s.usd_per_fish === null || s.usd_per_fish === undefined ? "—" : Math.round(s.usd_per_fish)}</td>
+      <td class="l narrow-hide">${sparkline(a)}</td></tr>`;
   }).join("");
   tb.querySelectorAll("tr").forEach((tr) => {
     const go = () => { selected = tr.dataset.agent; try { localStorage.setItem("arena.selected", selected); } catch(e){} renderLeaderboard(); renderStrips(); renderAgent(); };
@@ -423,6 +443,12 @@ function renderStrips(){
     html += `<div class="nm mono ${n === selected ? "sel" : ""}">${esc(n)}</div><svg class="strip" viewBox="0 0 ${N} 14" preserveAspectRatio="none" role="img" aria-label="${esc(n)} season strip">${cells}</svg>`;
   });
   $("strips").innerHTML = html;
+  const sc = $("strips").parentElement;
+  if (!stripScrolled && sc.scrollWidth > sc.clientWidth + 8) {
+    stripScrolled = true;
+    const frac = sim.doy / N;
+    sc.scrollLeft = Math.max(0, frac * sc.scrollWidth - sc.clientWidth * 0.6);
+  }
 }
 
 // ---------- agent panel ----------

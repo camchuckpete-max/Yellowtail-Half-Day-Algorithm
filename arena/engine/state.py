@@ -13,6 +13,7 @@ by the turn machinery, never by the dashboard.
           turns_in_progress: [agent, ...], seasons_done: int, seasons_total: int,
           warmup_seasons: int, paused_reason: str|null},
   "agents": [ {name, kind ("llm"|"baseline"|"adversary"|"owner"), persona, model,
+               forum: bool (false = this agent neither reads nor posts, D-053),
                adversary: str|null (operator-only label),
                describe: str, strategy_version: int, last_strategy_change: {season, doy, summary, diff_path}|null,
                last_turn: {season, doy, queries: int, posts: int, adopted_from: [post_id, ...]}|null,

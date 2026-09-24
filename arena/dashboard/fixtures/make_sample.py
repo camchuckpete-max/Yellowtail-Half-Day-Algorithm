@@ -15,21 +15,21 @@ from arena.engine import state as st
 CLASSES = ["HD_AM", "HD_PM", "TWILIGHT", "THREE_QUARTER", "FULL_DAY", "OVERNIGHT", "DAY_1_5"]
 COST = {"HD_AM": 80, "HD_PM": 80, "TWILIGHT": 80, "THREE_QUARTER": 150, "FULL_DAY": 275, "OVERNIGHT": 400, "DAY_1_5": 550}
 RATE = {"HD_AM": 0.02, "HD_PM": 0.03, "TWILIGHT": 0.005, "THREE_QUARTER": 0.5, "FULL_DAY": 0.6, "OVERNIGHT": 0.7, "DAY_1_5": 1.1}
-AGENTS = [
-    ("temp_first", "llm", "temperature-first", "claude-sonnet-5", None),
-    ("persist", "llm", "persistence-first", "claude-opus-5-5", None),
-    ("contrarian", "llm", "contrarian", "claude-sonnet-5", None),
-    ("weekender", "llm", "weekend-only", "claude-haiku-4-5", None),
-    ("thrifty", "llm", "thrifty (many half days)", "claude-sonnet-5", None),
-    ("biggame", "llm", "big-game (1.5-days only)", "claude-opus-5-5", None),
-    ("tides", "llm", "tide/moon believer", "claude-haiku-4-5", None),
-    ("skeptic", "llm", "verifier/skeptic", "claude-opus-5-5", None),
-    ("cam", "owner", "owner's agent", "—", None),
-    ("B_SAT", "baseline", "every Saturday Jul–Oct, HD_PM", None, None),
-    ("B_PERSIST", "baseline", "HD_PM tomorrow if yesterday's half-day yt > 0", None, None),
-    ("B_TEMP", "baseline", "pier ≥ 68 °F, Jul–Oct, ONI > 0 → HD_PM", None, None),
-    ("B_BIG", "baseline", "all budget on DAY_1_5 Fridays Aug–Sep", None, None),
-    ("A_WRONG", "adversary", "confident inverted mechanisms", "claude-haiku-4-5", "A_WRONG"),
+AGENTS = [  # name, kind, persona, model, adversary label, forum access
+    ("temp_first", "llm", "temperature-first", "claude-sonnet-5", None, True),
+    ("persist", "llm", "persistence-first", "claude-opus-5-5", None, True),
+    ("contrarian", "llm", "contrarian", "claude-sonnet-5", None, False),
+    ("weekender", "llm", "weekend-only", "claude-haiku-4-5-20251001", None, True),
+    ("thrifty", "llm", "thrifty (many half days)", "claude-sonnet-5", None, True),
+    ("biggame", "llm", "big-game (1.5-days only)", "claude-opus-5-5", None, False),
+    ("tides", "llm", "tide/moon believer", "claude-haiku-4-5-20251001", None, True),
+    ("skeptic", "llm", "verifier/skeptic", "claude-opus-5-5", None, True),
+    ("cam", "owner", "owner's agent", "—", None, True),
+    ("B_SAT", "baseline", "every Saturday Jul–Oct, HD_PM", None, None, False),
+    ("B_PERSIST", "baseline", "HD_PM tomorrow if yesterday's half-day yt > 0", None, None, False),
+    ("B_TEMP", "baseline", "pier ≥ 68 °F, Jul–Oct, ONI > 0 → HD_PM", None, None, False),
+    ("B_BIG", "baseline", "all budget on DAY_1_5 Fridays Aug–Sep", None, None, False),
+    ("A_WRONG", "adversary", "confident inverted mechanisms", "claude-haiku-4-5-20251001", "A_WRONG", True),
 ]
 DESCRIBE = {
     "temp_first": "Book HD_PM when the Scripps Pier water temperature has been ≥ 67 °F for three days and ONI > 0; "
@@ -94,7 +94,7 @@ def main() -> None:
     rng = random.Random(49)
     cur_season, cur_doy = 4, 214
     agents, hist_fish = [], {}
-    for name, kind, persona, model, adv in AGENTS:
+    for name, kind, persona, model, adv, forum in AGENTS:
         strip = season_strip(rng, kind, name, cur_season, cur_doy)
         booked = [c for c in strip if c["cls"]]
         ran = [c for c in booked if c["outcome"] in ("fish", "skunk")]
@@ -110,7 +110,7 @@ def main() -> None:
             history.append({"season": s, "fish": f, "undiluted": round(f * 1.05, 2), "excess": round(f - 1.0, 2), "rank": None, "counted": counted})
         hist_fish[name] = cum
         agents.append({
-            "name": name, "kind": kind, "persona": persona, "model": model, "adversary": adv,
+            "name": name, "kind": kind, "persona": persona, "model": model, "adversary": adv, "forum": forum,
             "describe": DESCRIBE[name], "strategy_version": 1 if kind != "llm" else rng.randint(2, 7),
             "last_strategy_change": None if kind != "llm" else {"season": cur_season, "doy": 196, "summary": "Raised the pier-temperature gate from 66 to 67 °F; added ONI > 0.", "diff_path": f"agents/{name}/strategy_v5.diff"},
             "last_turn": None if kind == "baseline" else {"season": cur_season, "doy": 213, "queries": rng.randint(0, 14), "posts": rng.randint(0, 2), "adopted_from": ["p0003"] if name == "temp_first" else []},

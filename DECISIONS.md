@@ -668,3 +668,17 @@ Preflight findings for the owner (`arena/preflight.md`): FULL_DAY rows exist onl
 before 2018 and most THREE_QUARTER bookings after 2018 will not run; per-angler yellowtail is
 ~0.01 on half days vs 0.3–2.8 on overnight / 1.5-day trips, so raw fish per angler is dominated
 by the long trips (B_BIG). Numbers from the first isolated-arm run are in the Phase 2 quiz.
+
+## D-053 Arena field: model mix and forum-off agents (owner, 2026-09-24)
+Owner: "between all of the agents I want some to not use the forum, and I want a mix of haiku,
+sonnet, and opus for their models." Implemented as `field.roster` in `arena/configs/default.yaml`:
+30 LLM agents, 10 each on Claude Haiku 4.5 (`claude-haiku-4-5-20251001`), Sonnet 5
+(`claude-sonnet-5`) and Opus 5.5 (`claude-opus-5-5`); 10 agents `forum: false` (neither read nor
+post, in every arm; no forum tools or forum text in their turns), spread 3/4/3 across the three
+models and covering 7 personas that also appear with forum access, so the within-run forum-on vs
+forum-off comparison (SPEC §7) is partly persona-matched. The engine carries `forum` per agent
+(`Agent.forum`, `state.json` agents[].forum; the dashboard tags them "no forum"); scripted
+baselines are forum-off by construction. Roster and personas are reviewed before Phase 3 (SPEC
+§12 #6, #11). The dashboard also got a phone layout (leaderboard columns collapse, season strips
+scroll sideways with the agent column pinned, status bar unpinned) — SPEC §9 said nothing about
+mobile; the owner asked for it.

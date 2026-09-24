@@ -1,10 +1,10 @@
 # Status
 
-_Updated after iteration 5 (source commit b09f41f)._
+_Updated after parallel round 2 + tides (source commit 8b48084)._
 
 | Goal | Status |
 |---|---|
-| 1 — noticeably beat "repeat yesterday" | **Not met.** On dev 2012–2016 the best models beat B1 by +0.008 to +0.021 MCC (bar: +0.05, CI > 0). All CIs include 0. |
+| 1 — noticeably beat "repeat yesterday" | **Not met.** Dev 2012–2016: best 0.633 vs B1 0.606 (target 0.656). 494 configurations tried across 6 agents + coordinator; ceiling check shows no threshold rule can reach the bar with current inputs (D-030). |
 | 2 — fewest variables matching Goal 1 | Not started (goals worked in order, D-018). |
 | 3 — breakout precision ≥ 40% (3-day window) | Not started (D-018). |
 
@@ -18,6 +18,9 @@ _Updated after iteration 5 (source commit b09f41f)._
   (e007: 2015 −0.026, 2016 +0.009 vs B1). It was selection noise from 404 configurations.
 - The target partly measures fleet activity (days with ≤2 half-day trips are 2% positive)
   and leans on one boat (New Seaforth on 76% of positive days).
+
+## Tried and ruled out (dev 2012–2016)
+FishDope text (mention counts, sentence-level, spot-level), water temperature from text, bait barges, NWS forecasts (wind, swell, seas, advisories), tides, moon, fleet/boat state, species mix, trip-level model, latent-state filter, monthly refit, recency weighting, recalibration, regime thresholds, boosting/ensembles.
 
 ## Holdout
 Never accessed (0 of 3 allowed scorings used). Holdout = days ≥ 2017-01-01.

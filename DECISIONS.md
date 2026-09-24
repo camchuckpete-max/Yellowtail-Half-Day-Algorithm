@@ -320,3 +320,23 @@ Source `astronomical_moon` (2009–2026) matches our computed illumination (corr
 max abs diff 0.009); no new information.
 Note: controls moved slightly vs source 7121831 (B1 0.606 → 0.609; e005 0.624 → 0.623)
 because the source backfill re-filled failed 2012–2016 dates. Dev data is still settling.
+
+## D-030 Parallel round 2 outcome (agents D, E, F)
+Dev 2012–2016, B1 0.606, target 0.656. Best per agent: D (bait barges) 0.631, E (trip-level
+model) 0.632, F (latent state + recalibration) 0.633. All bootstrap CIs are at or near 0;
+none survives `--strict` as a meaningful gain; each agent recommends against spending a
+holdout scoring. Branches `agent/D-bait-barge`, `agent/E-trip-level`, `agent/F-latent-state`
+are pushed for audit; no code merged into main (nothing adopted).
+Useful findings kept for later:
+- E: a weekly-refit trip-level model is well calibrated across hot and cold years
+  (mean predicted vs actual rate per year within 0.02) and matches the best day models on
+  probability quality (AUC 0.891, Brier 0.1222). Candidate building block if Goal 1 is ever
+  judged on probability quality, and for SST-era models.
+- F: ceiling check — even thresholds chosen on dev itself reach only 0.633 (single) and
+  0.652–0.658 (one per year). Goal 1 cannot come from the decision layer; it needs
+  information that ranks days better.
+- D: bait-barge log adds no skill; missing-report indicators are spuriously predictive
+  (summer 2014 gap) and are deliberately excluded.
+Conclusion: with inputs available for 2010–2016 (catch history, fleet state, FishDope text,
+water temperature from text, bait, NWS forecasts, tides, moon) the yes/no call cannot
+noticeably beat B1. Next lever: satellite SST/chlorophyll once 2020+ half-day counts load.

@@ -462,3 +462,14 @@ Tracks: (P) predictive at 21:00 PT D-1 and (E) explanatory using conditions duri
 results are labelled explanatory and never reported as forecast skill.
 Data request 0002 (hourly La Jolla predicted tides, CO-OPS 9410230 obs, CDIP 100/201 waves+SST,
 Scripps Pier daily SST, trip times, KSAN wind) committed to the request PR branch.
+
+## D-040 Goal D sweep 1 (prototype, source cfae8af, dev only)
+Trip table: 10,353 New Seaforth + Sea Watch half-day trips (2010-05 → 2026-09), conditions = the
+PIT day-level conditions for the trip date + trip class + boat. Walk-forward by year.
+2012–2023: season + trip type AUC 0.660 / Brier 0.143; + moon/tides 0.658; + day forecast 0.655;
++ conditions history (upwelling, swell anomalies) 0.676 / 0.140. SST era (train 2020+, test
+2021–2023, base rate 8.9 %): season + trip 0.705; + SD-coast SST 0.715 / 0.078, bands calibrated
+(0–5 %: 1.3 % observed of 541 trips; 5–15 %: 10.8 % of 721; 15–35 %: 14.6 % of 494) but no trip
+above ~35 % because 2021–2023 were lean years. The 50/75/95 % bands need warm years (2014–15: 30–43 %
+of trips) in the SST record → waiting on request 0001's 2010–2019 SST backfill and 0002's hourly
+La Jolla data. 16 configurations (Goal D ledger).

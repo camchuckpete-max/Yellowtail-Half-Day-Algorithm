@@ -190,6 +190,33 @@ def _latest_by_target(df: pd.DataFrame, lo: pd.Timestamp, hi: pd.Timestamp) -> p
     return sub.groupby("target_date").tail(1)
 
 
+_CLIM_CACHE: dict = {}
+
+
+def _doy_climatology(prior: pd.DataFrame) -> dict | None:
+    """Smoothed (+-15 day) day-of-year means of daily forecast quantities over `prior` rows
+    (one row per target date, all before the current year). Cached by content key."""
+    if not len(prior):
+        return None
+    key = (len(prior), prior["target_date"].min(), prior["target_date"].max(), float(prior["wind_kt"].astype(float).sum()))
+    if key in _CLIM_CACHE:
+        return _CLIM_CACHE[key]
+    dy = np.minimum(prior["target_date"].dt.dayofyear.to_numpy(), 365) - 1
+    wd = np.deg2rad(prior["wind_dir"].astype(float).to_numpy() - UPWELLING_FROM_DEG)
+    raw = {"upw": prior["wind_kt"].astype(float).to_numpy() * np.cos(wd),
+           "wind": prior["wind_kt"].astype(float).to_numpy(),
+           "sws": np.where(prior["swell_dir"].astype(float).between(150, 250), prior["swell_ft"].astype(float), 0.0),
+           "swell": prior["swell_ft"].astype(float).to_numpy()}
+    out = {}
+    for name, v in raw.items():
+        ok = np.isfinite(v)
+        tot = np.bincount(dy[ok], weights=v[ok], minlength=365); cnt = np.bincount(dy[ok], minlength=365).astype(float)
+        idx = (np.arange(365)[:, None] + np.arange(-15, 16)[None, :]) % 365
+        out[name] = tot[idx].sum(1) / np.maximum(cnt[idx].sum(1), 1)
+    _CLIM_CACHE[key] = out
+    return out
+
+
 def _cond_features(D: pd.Timestamp, fc: pd.DataFrame, mf: pd.DataFrame | None) -> dict:
     """Conditions-only history: forecasts already issued at the cutoff for D-k..D (no catch data)."""
     f: dict = {}
@@ -221,6 +248,27 @@ def _cond_features(D: pd.Timestamp, fc: pd.DataFrame, mf: pd.DataFrame | None) -
         clim_u = clim_w = float("nan")
     f["cd_upw_14_anom"] = f["cd_upw_14"] - clim_u
     f["cd_wind_14_anom"] = f["cd_wind_14"] - clim_w
+    # Long-window anomalies vs a prior-years day-of-year climatology (D-032): capture warm/cold
+    # regimes (e.g. 2014-15) that short windows miss. Climatology uses only years < D.year.
+    clim = _doy_climatology(prior)
+    h60 = _latest_by_target(fc, D - pd.Timedelta(days=90), D - pd.Timedelta(days=1))
+    if len(h60) and clim is not None:
+        dy = np.minimum(h60["target_date"].dt.dayofyear.to_numpy(), 365) - 1
+        wdir = np.deg2rad(h60["wind_dir"].astype(float).to_numpy() - UPWELLING_FROM_DEG)
+        vals = {"upw": h60["wind_kt"].astype(float).to_numpy() * np.cos(wdir),
+                "wind": h60["wind_kt"].astype(float).to_numpy(),
+                "sws": np.where(h60["swell_dir"].astype(float).between(150, 250), h60["swell_ft"].astype(float), 0.0),
+                "swell": h60["swell_ft"].astype(float).to_numpy()}
+        age = (D - h60["target_date"]).dt.days.to_numpy()
+        for name, v in vals.items():
+            an = v - clim[name][dy]
+            for k in (30, 60, 90):
+                m = (age <= k) & np.isfinite(an)
+                f[f"cd_{name}_{k}_anom"] = float(an[m].mean()) if m.any() else float("nan")
+    else:
+        for name in ("upw", "wind", "sws", "swell"):
+            for k in (30, 60, 90):
+                f[f"cd_{name}_{k}_anom"] = float("nan")
     if mf is not None:
         hm = _latest_by_target(mf, D - pd.Timedelta(days=14), D - pd.Timedelta(days=1))
         for c in ("mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_seas"):
@@ -448,6 +496,11 @@ FEATURES = [
     "cd_upw_14_anom", "cd_wind_14_anom",
     "cd_wind_offshore_3", "cd_wind_offshore_14", "cd_wind_south_3", "cd_wind_south_14",
     "cd_swell_south_3", "cd_swell_south_14", "cd_seas_3", "cd_seas_14",
+    # D-032 long-window condition anomalies
+    "cd_upw_30_anom", "cd_upw_60_anom", "cd_upw_90_anom",
+    "cd_wind_30_anom", "cd_wind_60_anom", "cd_wind_90_anom",
+    "cd_sws_30_anom", "cd_sws_60_anom", "cd_sws_90_anom",
+    "cd_swell_30_anom", "cd_swell_60_anom", "cd_swell_90_anom",
 ]
 
 

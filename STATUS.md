@@ -1,6 +1,6 @@
 # Status
 
-_Updated after Goal C iteration 1 and the split change to dev 2012–2023 (source commit cfae8af)._
+_Updated after Goal D sweep D8 (source commit e24c47c)._
 
 | Goal | Status |
 |---|---|
@@ -9,6 +9,7 @@ _Updated after Goal C iteration 1 and the split change to dev 2012–2023 (sourc
 | 3 — breakout precision ≥ 40% (3-day window) | Not started (D-018). |
 
 | C — conditions only (no fish counts, no FishDope) | Iteration 1 done (D-031–D-035). Forecast era (dev 2012–2016): nothing beats season-only (AUC 0.714 vs 0.709). SST era (dev 2021–2023): **SST alone AUC 0.803 vs season 0.762**, better Brier; yes/no MCC ≈ 0.30 for both. |
+| D — per-trip, New Seaforth + Sea Watch, conditions only | In progress (D-036–D-047). Best: Scripps Pier water temp × trip type × season + ONI + 3-day temp change, walk-forward 2012–2023 **AUC 0.763**. Held-out bands (D-044): 0–5 % → 7 % observed, 35–65 % → 43 %, 85–100 % → 87 % (47 trips). No gain from tides, wind (buoys, KSAN, in-trip), pressure, upwelling, glider, sea level, kelp. Waiting on kelp-box SST backfill and request 0004 (HF-radar currents, clarity). |
 
 ## What we know
 - B1 ("most recent visible day had a half-day yellowtail") is a strong rule: dev MCC 0.606.

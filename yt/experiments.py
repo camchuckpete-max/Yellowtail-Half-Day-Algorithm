@@ -81,3 +81,11 @@ _add(Spec("e008_e007_monthly", _E07.features, "logreg", C=0.03, threshold_rule="
           retrain="month", notes="e007 with monthly refit"))
 _add(Spec("e009_eB01_monthly_p40", _B01.features, _B01.model, C=_B01.C, threshold_rule="fixed:0.4",
           retrain="month", extra=_B01.extra, notes="eB01 feature set, monthly refit, threshold 0.4 (sweep 4 #2)"))
+
+# --- agent F (latent state / decision layer), promoted from sweeps/F_sweep3 (D-F05)
+_add(Spec("eF01_B01_recal90_mccrange", _B01.features, "logreg", C=0.03, threshold_rule="mcc_range:0.3:0.5",
+          extra={"recal": {"window": 90, "k0": 10.0}},
+          notes="eB01 features + online recalibration from out-of-sample labels of D-90..D-2 (D-F04); best F sweep dev MCC"))
+_add(Spec("eF02_B01_recal60_p40", _B01.features, "logreg", C=0.03, threshold_rule="fixed:0.4",
+          extra={"recal": {"window": 60, "k0": 10.0}},
+          notes="eB01 features + online recalibration, pre-planned 60-day window, threshold 0.4"))

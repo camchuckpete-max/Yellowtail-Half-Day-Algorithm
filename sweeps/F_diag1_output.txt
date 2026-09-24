@@ -1,0 +1,9 @@
+configurations scored: 0 new (re-scores eB01_fleet_C003_mccrange and F_sweep2 B01+LATd(py,pi)_C0.03_p40)
+eB01_fleet_C003_mccrange: legit mcc=0.626  ex-post single thr 0.34 -> 0.633  ex-post regime thr (B1=0 0.34, B1=1 0.36) -> 0.633  B1=0.606
+   ex-post threshold per fold (year) -> pooled mcc 0.652
+   B1=0: n=1097 y=0.147 meanp=0.133 p-quantiles=[0.04, 0.05, 0.11, 0.18, 0.27] [bins <.2,.2-.3,...,>=.7 -> n:rate] {'bin0': '898:0.10', 'bin1': '125:0.34', 'bin2': '41:0.46', 'bin3': '16:0.50', 'bin4': '13:0.46', 'bin5': '4:0.00'}
+   B1=1: n=645 y=0.753 meanp=0.690 p-quantiles=[0.37, 0.51, 0.73, 0.91, 0.95] [bins <.2,.2-.3,...,>=.7 -> n:rate] {'bin0': '15:0.33', 'bin1': '26:0.27', 'bin2': '41:0.44', 'bin3': '70:0.54', 'bin4': '83:0.64', 'bin5': '67:0.75', 'bin6': '343:0.92'}
+B01+LATd(py,pi)_C0.03_p40: legit mcc=0.625  ex-post single thr 0.41 -> 0.633  ex-post regime thr (B1=0 0.32, B1=1 0.41) -> 0.635  B1=0.606
+   ex-post threshold per fold (year) -> pooled mcc 0.658
+   B1=0: n=1097 y=0.147 meanp=0.130 p-quantiles=[0.03, 0.05, 0.11, 0.17, 0.26] [bins <.2,.2-.3,...,>=.7 -> n:rate] {'bin0': '910:0.10', 'bin1': '118:0.36', 'bin2': '34:0.44', 'bin3': '16:0.44', 'bin4': '11:0.73', 'bin5': '8:0.12'}
+   B1=1: n=645 y=0.753 meanp=0.685 p-quantiles=[0.37, 0.5, 0.73, 0.9, 0.95] [bins <.2,.2-.3,...,>=.7 -> n:rate] {'bin0': '14:0.36', 'bin1': '21:0.14', 'bin2': '47:0.47', 'bin3': '80:0.60', 'bin4': '88:0.59', 'bin5': '57:0.79', 'bin6': '338:0.92'}

@@ -514,3 +514,11 @@ AM / PM / twilight: <60 3.5/2.3/0 %; 60–62 7.8/9.5/0; 62–64 11/12.5/1.4; 64�
 Sep 67 %, Oct 60 %; after a 3-day cooling PM 72 % vs warming 51 %. No combination reaches 95 %.
 Top cells are dominated by 2015 (≥72 °F PM: 48 of 174 trips, 92 %). 3 + 1 configurations (D3, D4
 descriptive) added to the Goal D ledger.
+
+## D-044 Goal D sweep D5: interactions, first honest held-out bands
+Walk-forward 2012–2023 (source bfd3a15), 9 configs. Pier °F (centred at 66) + trip type + season:
+AUC 0.731; + temp×PM, temp×twilight, temp×season interactions 0.741 (Brier 0.1292, best); + ONI and
+temp×ONI 0.762; + 3-day temp change 0.764. Held-out bands of the best-Brier logistic (F+inter,
+C=0.1): 0–5 % → 7.4 % observed (1,782 trips); 5–15 % → 11.3 % (2,859); 15–35 % → 20.1 % (1,741);
+35–65 % → 42.7 % (888); 65–85 % → 59.3 % (241); 85–100 % → 87.2 % (47). Depth-4 tree AUC 0.707; its
+top leaf: pier > 68.4 °F, daytime, late summer–fall, ONI ≥ 0 → 62 % (training). Goal D ledger +9.

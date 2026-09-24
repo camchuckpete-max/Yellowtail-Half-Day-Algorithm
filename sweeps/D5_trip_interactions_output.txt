@@ -1,0 +1,71 @@
+# Goal D configurations scored on dev: 9; source bfd3a15
+F                  C=0.1  AUC=0.728 Brier=0.1315
+F                  C=1.0  AUC=0.731 Brier=0.1315
+F+inter            C=0.1  AUC=0.737 Brier=0.1292
+F+inter            C=1.0  AUC=0.741 Brier=0.1299
+F+inter+oni        C=0.1  AUC=0.761 Brier=0.1304
+F+inter+oni        C=1.0  AUC=0.762 Brier=0.1308
+F+inter+oni+chg    C=0.1  AUC=0.763 Brier=0.1292
+F+inter+oni+chg    C=1.0  AUC=0.764 Brier=0.1296
+tree depth4 leaf>=100 AUC=0.707 Brier=0.1397
+
+Held-out band table for best-Brier logistic ('F+inter', 0.1):
+         band  trips  predicted_mean  observed_rate
+         0-5%   1782        0.024603       0.074074
+        5-15%   2859        0.088217       0.112977
+15-35% (~25%)   1741        0.227399       0.201034
+35-65% (~50%)    888        0.484584       0.426802
+65-85% (~75%)    241        0.733265       0.593361
+      85-100%     47        0.886093       0.872340
+
+Held-out band table for depth-4 tree:
+         band  trips  predicted_mean  observed_rate
+         0-5%   1908        0.024589       0.088050
+        5-15%   1584        0.098579       0.103535
+15-35% (~25%)   2781        0.255108       0.205322
+35-65% (~50%)    599        0.514439       0.439065
+65-85% (~75%)    235        0.756345       0.578723
+      85-100%     67        0.878233       0.447761
+
+Depth-4 tree trained on 2010-2022 (hc_Fc = pier °F - 66):
+|--- hc_Fc <= 2.4
+|   |--- hc_Fc <= -4.3
+|   |   |--- doy_cos <= -0.5
+|   |   |   |--- hc_ci_oni <= -0.4
+|   |   |   |   |--- weights: [100.0, 4.0] class: 0
+|   |   |   |--- hc_ci_oni >  -0.4
+|   |   |   |   |--- weights: [123.0, 22.0] class: 0
+|   |   |--- doy_cos >  -0.5
+|   |   |   |--- hc_Fc <= -7.3
+|   |   |   |   |--- weights: [600.0, 4.0] class: 0
+|   |   |   |--- hc_Fc >  -7.3
+|   |   |   |   |--- weights: [1139.0, 51.0] class: 0
+|   |--- hc_Fc >  -4.3
+|   |   |--- hc_ci_oni <= 0.0
+|   |   |   |--- hc_Fc <= -0.1
+|   |   |   |   |--- weights: [1239.0, 90.0] class: 0
+|   |   |   |--- hc_Fc >  -0.1
+|   |   |   |   |--- weights: [751.0, 114.0] class: 0
+|   |   |--- hc_ci_oni >  0.0
+|   |   |   |--- doy_cos <= 0.7
+|   |   |   |   |--- weights: [1207.0, 240.0] class: 0
+|   |   |   |--- doy_cos >  0.7
+|   |   |   |   |--- weights: [176.0, 100.0] class: 0
+|--- hc_Fc >  2.4
+|   |--- trip_twilight <= 0.5
+|   |   |--- doy_sin <= -0.4
+|   |   |   |--- hc_ci_oni <= -0.0
+|   |   |   |   |--- weights: [195.0, 81.0] class: 0
+|   |   |   |--- hc_ci_oni >  -0.0
+|   |   |   |   |--- weights: [298.0, 492.0] class: 1
+|   |   |--- doy_sin >  -0.4
+|   |   |   |--- hc_ci_oni <= 0.3
+|   |   |   |   |--- weights: [178.0, 31.0] class: 0
+|   |   |   |--- hc_ci_oni >  0.3
+|   |   |   |   |--- weights: [99.0, 61.0] class: 0
+|   |--- trip_twilight >  0.5
+|   |   |--- hc_ci_oni <= 0.3
+|   |   |   |--- weights: [130.0, 8.0] class: 0
+|   |   |--- hc_ci_oni >  0.3
+|   |   |   |--- weights: [117.0, 24.0] class: 0
+

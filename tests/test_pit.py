@@ -68,9 +68,10 @@ def test_trip_model_features_use_only_public_trips(n_days: int = 5, seed: int = 
     names = trips["boat"].unique()
     for D in days:
         c = features.cutoff_for(D)
-        kw = {"C": 0.1, "boats": True, "refit_days": 7, "ext": True, "halflife": 365.0}
+        kw = {"C": 0.1, "boats": True, "refit_days": 7, "ext": True, "halflife": 365.0, "mix": True}
         base = tripmodel.build(trips, pd.DatetimeIndex([D]), **kw)
-        pt = _poison(trips, c, rng, ["yt", "bonito", "barracuda", "calico", "rockfish", "anglers"])
+        pt = _poison(trips, c, rng, ["yt", "bonito", "barracuda", "calico", "rockfish", "anglers", "mackerel",
+                                     "sand_bass", "halibut", "white_seabass", "sheephead", "whitefish"])
         after = pt["available_at"] > c
         pt.loc[after, "boat"] = rng.choice(names, after.sum())
         poisoned = tripmodel.build(pt, pd.DatetimeIndex([D]), **kw)

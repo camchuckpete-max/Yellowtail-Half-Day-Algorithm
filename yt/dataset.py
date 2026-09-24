@@ -13,7 +13,10 @@ TRIP_VARIANTS = {"tm": {"C": 0.1}, "tmb": {"C": 0.1, "boats": True},
                  # D-E03: extended boat/pair inputs; boosted yt model; recency-weighted training
                  "tmx": {"C": 0.1, "boats": True, "ext": True},
                  "tmh": {"boats": True, "ext": True, "kind": "hgb"},
-                 "tmw": {"C": 0.1, "boats": True, "ext": True, "halflife": 365.0}}
+                 "tmw": {"C": 0.1, "boats": True, "ext": True, "halflife": 365.0},
+                 # D-E04: + boat species mix / anglers on its last trip, pair's last trip; daily refit; weaker L2
+                 "tmz": {"C": 0.1, "boats": True, "ext": True, "mix": True},
+                 "tmz1": {"C": 1.0, "boats": True, "ext": True, "mix": True, "refit_days": 1}}
 
 
 def build(strict: bool = False) -> tuple[pd.DataFrame, dict]:

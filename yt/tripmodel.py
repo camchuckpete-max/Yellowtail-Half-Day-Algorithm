@@ -46,6 +46,9 @@ YT_X = ["c_am", "c_pm", "c_tw", "b_yt_last", "b_frac7", "b_sailed7", "b_prior_lr
         "weekend"]
 BOAT_X = [f"boat_{i}" for i in range(len(MAIN_BOATS))]
 EXT_X = ["b_log_yt_last", "b_log_days_since_yt", "p_frac14", "f_yt_boats3"]  # D-E03
+MIX_X = ["p_yt_last", "b_surface_last", "b_bottom_only_last", "b_log_anglers_last"]  # D-E04
+SURFACE = ("yt", "bonito", "barracuda", "mackerel", "white_seabass")
+BOTTOM = ("rockfish", "whitefish", "sheephead")
 
 
 def _logit(p: float) -> float:
@@ -61,6 +64,8 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
     boats = trips["boat"].to_numpy()
     ytv = trips["yt"].to_numpy()
     ang = trips["anglers"].to_numpy()
+    surf = sum(trips[c].to_numpy() for c in SURFACE)   # surface species incl. yt, calico (kelp) excluded
+    bott = sum(trips[c].to_numpy() for c in BOTTOM)
     # Labels: (boat, class, day) -> (any yt, latest available_at among those trips)
     lab: dict = {}
     for b, c, f, y, a in zip(boats, cls, fdv, ytv, av):
@@ -72,6 +77,7 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
     present: dict = defaultdict(set)                  # (boat, class) -> fished days
     pair_ang: dict = defaultdict(dict)                 # (boat, class) -> {day: [sum anglers, n]}
     boat_day: dict = defaultdict(dict)                 # boat -> {day: [n, n_yt, yt fish]}
+    boat_mix: dict = defaultdict(dict)                 # boat -> {day: [n, n surface, n bottom-only, anglers]} (D-E04)
     pair_day: dict = defaultdict(dict)                 # (boat, class) -> {day: [n, n_yt]}
     fleet_day: dict = {}                               # day -> [n, n_yt]   (half-day fishing trips)
     tq_day: dict = {}                                  # day -> [n, n_yt]   (3/4-day trips)
@@ -93,6 +99,9 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
                     s = pair_ang[k].setdefault(f, [0.0, 0]); s[0] += ang[j]; s[1] += 1
                 s = boat_day[boats[j]].setdefault(f, [0, 0, 0]); s[0] += 1; s[1] += int(ytv[j] > 0); s[2] += ytv[j]
                 s = pair_day[k].setdefault(f, [0, 0]); s[0] += 1; s[1] += int(ytv[j] > 0)
+                s = boat_mix[boats[j]].setdefault(f, [0, 0, 0, 0.0]); s[0] += 1
+                s[1] += int(surf[j] > 0); s[2] += int(surf[j] == 0 and bott[j] > 0)
+                s[3] += ang[j] if ang[j] == ang[j] else 0.0
                 boat_last[boats[j]] = max(f, boat_last.get(boats[j], f))
                 fleet_last = f if fleet_last is None else max(f, fleet_last)
                 s = fleet_day.setdefault(f, [0, 0]); s[0] += 1; s[1] += int(ytv[j] > 0)
@@ -149,6 +158,12 @@ def candidate_rows(trips: pd.DataFrame, days: pd.DatetimeIndex, strict: bool = F
             r["b_log_days_since_yt"] = math.log(ys[0] if ys else 61)
             p14 = [pair_day[(b, c)][d - k * one] for k in range(1, 15) if (d - k * one) in pair_day[(b, c)]]
             r["p_frac14"] = sum(v[1] for v in p14) / sum(v[0] for v in p14) if p14 else 0.0
+            pl = [x for x in (d - k * one for k in range(1, 15)) if x in pair_day[(b, c)]]
+            r["p_yt_last"] = int(pair_day[(b, c)][pl[0]][1] > 0) if pl else 0
+            mx = boat_mix[b][boat_last[b]]
+            r["b_surface_last"] = mx[1] / mx[0]
+            r["b_bottom_only_last"] = mx[2] / mx[0]
+            r["b_log_anglers_last"] = math.log1p(mx[3] / mx[0])
             w7 = [bd[d - k * one] for k in range(1, 8) if (d - k * one) in bd]
             r["b_sailed7"] = int(bool(w7))
             r["b_frac7"] = sum(v[1] for v in w7) / sum(v[0] for v in w7) if w7 else 0.0
@@ -205,7 +220,7 @@ def all_days(trips: pd.DataFrame, days: pd.DatetimeIndex) -> pd.DatetimeIndex:
 def build(trips: pd.DataFrame, days: pd.DatetimeIndex, C: float = 0.1, refit_days: int = 7,
           boats: bool = False, prefix: str = "tm", strict: bool = False, min_pos: int = 30,
           rows: pd.DataFrame | None = None, kind: str = "logreg", ext: bool = False,
-          halflife: float = 0.0) -> pd.DataFrame:
+          halflife: float = 0.0, mix: bool = False) -> pd.DataFrame:
     """Day-level features from the trip-level models for each target day in `days`.
     kind: logreg | hgb (yt model; the sail model is always logistic); ext: add EXT_X inputs;
     halflife > 0: weight training rows by 0.5**(age at the anchor / halflife) (D-E03).
@@ -217,7 +232,7 @@ def build(trips: pd.DataFrame, days: pd.DatetimeIndex, C: float = 0.1, refit_day
     hd = trips[trips["is_hd_fishing"]]
     first_vis = hd.groupby("fished_date")["available_at"].min()
     rows["day_visible_at"] = rows["date"].map(first_vis)
-    yx = YT_X + (BOAT_X if boats else []) + (EXT_X if ext else [])
+    yx = YT_X + (BOAT_X if boats else []) + (EXT_X if ext else []) + (MIX_X if mix else [])
     epoch = pd.Timestamp("2000-01-03")  # a Monday; anchors are deterministic in D
     out, models = [], {}
     for D in days:

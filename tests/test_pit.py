@@ -65,6 +65,34 @@ def test_target_day_catch_is_never_visible():
     for D in pd.DatetimeIndex(trips["fished_date"].unique()):
         c = features.cutoff_for(D)
         assert not ((trips["fished_date"] >= D) & (trips["available_at"] <= c)).any(), D
+        # D-050: the day the boat actually fished (overnight = return day) is never visible either
+        assert not ((trips["fish_date"] >= D) & (trips["available_at"] <= c)).any(), D
+
+
+def test_overnight_and_day15_publish_times():
+    """D-050 / D-051: overnight counts public 19:00 on the return day, 1.5-day counts 06:00 on the
+    return day; source fished_date semantics as recorded in those entries."""
+    trips, _, _, _, _, _ = _load()
+    ov = trips[trips["cls"] == "overnight"]
+    d15 = trips[trips["cls"] == "day_1_5"]
+    day = pd.Timedelta(days=1)
+    assert len(ov) > 9000 and len(d15) > 9000
+    assert (ov["available_at"] == ov["return_date"] + pd.Timedelta(hours=19)).all()
+    assert (d15["available_at"] == d15["return_date"] + pd.Timedelta(hours=6)).all()
+    # source stores return_date - 1 for both; the overnight boat fishes its return day
+    assert (ov["fished_date"] == ov["return_date"] - day).all() and (ov["fish_date"] == ov["return_date"]).all()
+    assert (d15["fished_date"] == d15["return_date"] - day).all() and (d15["fish_date"] == d15["fished_date"]).all()
+    assert (trips.loc[~trips["cls"].isin(["overnight"]), "fish_date"] == trips.loc[~trips["cls"].isin(["overnight"]), "fished_date"]).all()
+    # a 1.5-day (or overnight) returning on D-1 is visible at 21:00 D-1; one returning on D is not
+    for D in pd.DatetimeIndex(["2015-08-15", "2019-09-02", "2022-07-10"]):
+        c = features.cutoff_for(D)
+        for df in (ov, d15):
+            vis = df[df["available_at"] <= c]
+            assert vis["return_date"].max() == D - day, (D, vis["return_date"].max())
+            assert not ((df["return_date"] >= D) & (df["available_at"] <= c)).any()
+    # no multi_day row is a 1.5-day any more, and 1.5-day is a separate class from overnight
+    assert not trips.loc[trips["cls"] == "multi_day", "src_id"].isin(d15["src_id"]).any()
+    assert set(trips["cls"]) >= {"overnight", "day_1_5", "multi_day"}
 
 
 def test_fishdope_same_day_report_never_visible():
@@ -189,6 +217,7 @@ if __name__ == "__main__":
     test_marine_forecast_not_before_issue()
     test_env_columns_poisoned_are_real()
     test_target_day_catch_is_never_visible()
+    test_overnight_and_day15_publish_times()
     test_twilight_d1_not_visible()
     test_fishdope_same_day_report_never_visible()
     test_dataset_audit_columns_respect_cutoff()

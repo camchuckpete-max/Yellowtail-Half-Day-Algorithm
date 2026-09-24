@@ -598,3 +598,33 @@ own D-entry with the PIT suite extended and affected Goal 1 specs re-run; (2) th
 owner decision** (SPEC §12 #1): sealed 2024–2026 run counted as one of the three scorings
 (recommended) vs holdout declared spent. Until decided, arena development uses seasons ≤ 2023.
 Tournaments are pinned to one source commit because the source backfill still changes past seasons.
+
+## D-050 Overnight counts public at 19:00 on the return day; source `fished_date` is the departure date (2026-09-24)
+Owner: overnight boats depart ~18:00 on `d`, fish `d+1`, return `d+1` ~19:00 and counts are posted
+on return. `events.PUBLISH_TIME["overnight"]` 12:00 → 19:00. Preflight (`arena/tools/preflight.py`,
+`arena/preflight.md`, source ba64933): the source computes `fished_date = return_date −
+midnights_away` with `midnights_away = 1` for every one of the 11,102 overnight rows (its ingest
+rule A6 assumed a morning return). Under the owner's schedule that is the **departure** date, so
+`events.load_trips` now also carries `fish_date` = the day the boat fished (= `return_date` for
+overnight, = `fished_date` for every other class). `fished_date` is left as stored; Goal 1 features
+still use it. Effect on Goals 1–3 at the 21:00 D-1 cutoff: none — 12:00 and 19:00 on D-1 are both
+before the cutoff, so no feature value changes (confirmed by re-running e005 / eB01 / e009 / e007:
+identical metrics, LOG.md). Arena consequence: an OVERNIGHT departing `d` is matched to source rows
+with `cls = overnight` and `return_date = d+1`. Would change: evidence that the landing pages date
+overnight counts the morning after return.
+
+## D-051 New trip class `day_1_5`, public at 06:00 on the return day (2026-09-24)
+Owner: 1.5-day boats depart ~18:00 on `d`, fish `d+1` (and the morning of `d+2`), return `d+2`
+~06:00. The source already labels these `trip_type = day_1_5` (10,027 rows, raw "1.5 Day" and
+variants; `midnights_away = 1`, so its `fished_date = return_date − 1` = the main fishing day, as
+expected). `events.trip_class` now returns `day_1_5` for that type or any raw label containing
+"1.5" (previously they fell into `multi_day`, visible only at 00:00 the day after return);
+`PUBLISH_TIME["day_1_5"] = "06:00"`; `multi_day` (1.75-day, 2-day and longer) keeps `None`.
+`features.OTHER_CLASSES` and the `ov_log_yt_7` window include `day_1_5` so their meaning
+("overnight and longer") is unchanged; a 1.5-day returning on D-1 is now visible at 21:00 D-1
+where it was not. Affected features: `ov_log_yt_7`, `oth_ntrips_7`, `oth_yt_per_trip_7`,
+`oth_log_yt_3`, `oth_log_yt_7` — used only by the `_ALL_V1` specs (e001/e002/e004). The four
+most recently logged Goal 1 specs (e005, eB01, e009, e007) use none of them and were re-run to
+confirm identical results; `e001_logreg_all_mcc` was re-run to log the effect (LOG.md, source
+ba64933). `tests/test_pit.py::test_overnight_and_day15_publish_times` pins both publish times, the
+source date semantics, and that a trip returning on D is never visible at D-1 21:00.

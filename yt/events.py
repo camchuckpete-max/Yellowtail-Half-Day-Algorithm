@@ -30,9 +30,17 @@ PUBLISH_TIME = {
     "hd_night": None,         # hoop net / lobster, night trips
     "three_quarter": "19:30",  # returns ~17:00-18:30
     "full_day": None,         # returns ~18:00-20:00; too close to cutoff
-    "overnight": "12:00",     # returns in the morning
-    "multi_day": None,        # 1.5-day+ returns vary; assume late
+    "overnight": "19:00",     # D-050: departs 18:00 d, fishes d+1, returns d+1 19:00 (owner)
+    "day_1_5": "06:00",       # D-051: departs 18:00 d, fishes d+1, returns d+2 06:00 (owner)
+    "multi_day": None,        # 2-day and longer: returns vary; assume late
 }
+
+# The source stores fished_date = return_date - midnights_away (its ingest, rule A6), with
+# midnights_away = 1 for both overnight and 1.5-day trips. Under the owner-stated schedules an
+# overnight boat fishes its return day, so the source's fished_date for OVERNIGHT is the departure
+# date; for DAY_1_5 (fishes d+1, returns d+2) it is the main fishing day. `fish_date` below is
+# the calendar day the boat actually fished (D-050/D-051); `fished_date` stays the source value.
+FISH_DATE_OFFSET_DAYS = {"overnight": 1}
 
 
 def trip_class(trip_type: str | None, raw: str | None) -> str:
@@ -49,6 +57,8 @@ def trip_class(trip_type: str | None, raw: str | None) -> str:
         return "hd_unspecified"
     if trip_type in ("three_quarter", "full_day", "overnight"):
         return trip_type
+    if trip_type == "day_1_5" or "1.5" in raw:
+        return "day_1_5"  # D-051
     return "multi_day"
 
 
@@ -79,6 +89,7 @@ def load_trips(db: sqlite3.Connection, strict: bool = False) -> pd.DataFrame:
         rows.append({
             "src_id": rid, "landing": landing, "boat": boat, "cls": cls,
             "fished_date": pd.Timestamp(fd), "return_date": pd.Timestamp(rd),
+            "fish_date": pd.Timestamp(fd) + timedelta(days=FISH_DATE_OFFSET_DAYS.get(cls, 0)),
             "anglers": anglers if anglers is not None else float("nan"),
             "yt": counts.get("yellowtail", 0),
             "bonito": counts.get("bonito", 0),

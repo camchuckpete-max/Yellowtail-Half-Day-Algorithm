@@ -19,7 +19,7 @@ REF_NEW_MOON = pd.Timestamp("2000-01-06 18:14")  # astronomical constant (UTC)
 WT_CENTER = 63.0  # F; centring constant for the dense water-temperature features (D-C03)
 
 HD_FISH_CLASSES = ("hd_am", "hd_pm", "hd_unspecified", "hd_twilight")
-OTHER_CLASSES = ("three_quarter", "full_day", "overnight", "multi_day")
+OTHER_CLASSES = ("three_quarter", "full_day", "overnight", "day_1_5", "multi_day")  # day_1_5 split out of multi_day, D-051
 
 
 def cutoff_for(day: pd.Timestamp) -> pd.Timestamp:
@@ -372,7 +372,7 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
     f["oth_log_yt_7"] = math.log1p(float(yt[w7 & is_oth].sum()))
     tq = w7 & (cls == "three_quarter")
     f["tq_log_yt_7"] = math.log1p(float(yt[tq].sum()))
-    ov = w7 & np.isin(cls, ("overnight", "multi_day"))
+    ov = w7 & np.isin(cls, ("overnight", "day_1_5", "multi_day"))
     f["ov_log_yt_7"] = math.log1p(float(yt[ov].sum()))
 
     # Climatology from PRIOR years only (same +-15 day-of-year window).

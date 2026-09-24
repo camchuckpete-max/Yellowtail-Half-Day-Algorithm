@@ -23,8 +23,8 @@ records the source commit and the SHA-256 of each dump file it read
 ## No-lookahead guarantees
 
 1. Every observation carries `available_at` (PT). Half-day AM counts are public
-   at 14:00, PM 19:00, 3/4-day 19:30, overnight 12:00 on return day; twilight,
-   full-day and multi-day trips are treated as not public until the next day.
+   at 14:00, PM 19:00, 3/4-day 19:30, overnight 19:00 and 1.5-day 06:00 on return day
+   (D-050/D-051); twilight, full-day and 2-day+ trips are treated as not public until the next day.
    NWS forecasts use their actual issue time.
 2. Features for D read only `events[available_at <= D-1 21:00]` (`yt/features.py::_visible`),
    and `build()` asserts that the newest input used is ≤ the cutoff.

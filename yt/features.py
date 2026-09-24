@@ -422,11 +422,51 @@ def _tide_features(D: pd.Timestamp, td: pd.DataFrame) -> dict:
     return f
 
 
+def _ocean_features(D: pd.Timestamp, oc: pd.DataFrame) -> dict:
+    """Satellite SST / chlorophyll / currents visible at the cutoff (D-034). NaN before 2020."""
+    f: dict = {}
+    recent = oc[oc["target_date"] >= D - pd.Timedelta(days=45)]
+    sst = recent[recent["sst_f"].notna()]
+    sd = sst[sst["zone"] == "t_sd_coast"].groupby("target_date")["sst_f"].last()
+    nan = float("nan")
+    if len(sd):
+        last_day = sd.index.max()
+        f["sst_sd_last"] = float(sd.iloc[-1])
+        f["sst_sd_age"] = int((D - last_day).days)
+        w7 = sd[sd.index > last_day - pd.Timedelta(days=7)]
+        w14 = sd[(sd.index <= last_day - pd.Timedelta(days=7)) & (sd.index > last_day - pd.Timedelta(days=14))]
+        f["sst_sd_7"] = float(w7.mean())
+        f["sst_sd_trend7"] = float(w7.mean() - w14.mean()) if len(w14) else nan
+        f["sst_sd_max30"] = float(sd[sd.index > last_day - pd.Timedelta(days=30)].max())
+        tiles = sst[sst["target_date"] == last_day].groupby("zone")["sst_f"].last()
+        f["sst_cor_last"] = float(tiles.get("t_coronados", nan))
+        f["sst_nine_last"] = float(tiles.get("t_nine_mile", nan))
+        f["sst_offshore_grad"] = float(tiles.drop(labels=["t_sd_coast"], errors="ignore").mean() - tiles.get("t_sd_coast", nan))
+        f["sst_warm_frac"] = float((tiles >= 68.0).mean()) if len(tiles) else nan
+        f["sst_tiles_max"] = float(tiles.max()) if len(tiles) else nan
+    else:
+        for k in ("sst_sd_last", "sst_sd_age", "sst_sd_7", "sst_sd_trend7", "sst_sd_max30", "sst_cor_last",
+                  "sst_nine_last", "sst_offshore_grad", "sst_warm_frac", "sst_tiles_max"):
+            f[k] = nan
+    chl = recent[recent["chl"].notna() & (recent["zone"] == "t_sd_coast")].groupby("target_date")["chl"].last()
+    f["chl_sd_last"] = math.log(float(chl.iloc[-1])) if len(chl) and chl.iloc[-1] > 0 else nan
+    cur = recent[recent["cur_kt"].notna() & (recent["zone"] == "t_sd_coast")].groupby("target_date")[["cur_kt", "cur_dir"]].last()
+    if len(cur):
+        c3 = cur[cur.index > cur.index.max() - pd.Timedelta(days=3)]
+        f["cur_sd_speed_3"] = float(c3["cur_kt"].mean())
+        f["cur_sd_north_3"] = float((c3["cur_kt"] * np.cos(np.deg2rad(c3["cur_dir"]))).mean())  # toward north > 0
+    else:
+        f["cur_sd_speed_3"] = f["cur_sd_north_3"] = nan
+    f["audit_ocean_available_at"] = oc["available_at"].max() if len(oc) else pd.NaT
+    return f
+
+
 def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
           fd_rep: pd.DataFrame | None = None, mf: pd.DataFrame | None = None,
-          tides: pd.DataFrame | None = None) -> pd.DataFrame:
+          tides: pd.DataFrame | None = None, ocean: pd.DataFrame | None = None) -> pd.DataFrame:
     t_av = trips["available_at"].to_numpy()
     td_av = tides["available_at"].to_numpy() if tides is not None else None
+    oc_av = ocean["available_at"].to_numpy() if ocean is not None else None
     m_av = mf["available_at"].to_numpy() if mf is not None else None
     f_av = fc["available_at"].to_numpy()
     d_av = fd_rep["available_at"].to_numpy() if fd_rep is not None else None
@@ -446,6 +486,9 @@ def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
         if mf is not None:
             row.update(_mf_features(D, vm))
             assert pd.isna(row["audit_mf_available_at"]) or row["audit_mf_available_at"] <= c
+        if ocean is not None:
+            row.update(_ocean_features(D, _visible(ocean, oc_av, c)))
+            assert pd.isna(row["audit_ocean_available_at"]) or row["audit_ocean_available_at"] <= c
         if tides is not None:
             row.update(_tide_features(D, _visible(tides, td_av, c)))
             assert pd.isna(row["audit_tide_available_at"]) or row["audit_tide_available_at"] <= c
@@ -501,6 +544,9 @@ FEATURES = [
     "cd_wind_30_anom", "cd_wind_60_anom", "cd_wind_90_anom",
     "cd_sws_30_anom", "cd_sws_60_anom", "cd_sws_90_anom",
     "cd_swell_30_anom", "cd_swell_60_anom", "cd_swell_90_anom",
+    # D-034 satellite ocean (2020+)
+    "sst_sd_last", "sst_sd_age", "sst_sd_7", "sst_sd_trend7", "sst_sd_max30", "sst_cor_last", "sst_nine_last",
+    "sst_offshore_grad", "sst_warm_frac", "sst_tiles_max", "chl_sd_last", "cur_sd_speed_3", "cur_sd_north_3",
 ]
 
 

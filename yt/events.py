@@ -123,6 +123,28 @@ def load_forecasts(db: sqlite3.Connection, zone: str = "t_sd_coast") -> pd.DataF
     return pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)
 
 
+# D-034: satellite ocean products (NOAA CoastWatch via the source's conditions_snapshot).
+# Availability = data date + lag, applied conservatively: at the D-1 21:00 cutoff SST and
+# currents dated <= D-2 are usable; chlorophyll (~3-week publication lag) only if >= 21 days old.
+OCEAN_LAG_DAYS = {"noaacwBLENDEDsstDaily": 2, "noaacwBLENDEDNRTcurrentsDaily": 2, "noaacwN20VIIRSchlaDaily": 21}
+
+
+def load_ocean(db: sqlite3.Connection) -> pd.DataFrame:
+    """Long table: one row per (source, tile, data date) with sst_f / chl / current (D-034)."""
+    q = f"""SELECT id, source, zone_id, condition_date, sst_f, chl, current_speed_kt, current_dir_deg
+            FROM conditions_daily WHERE source IN ({",".join("?" * len(OCEAN_LAG_DAYS))})"""
+    rows = []
+    for rid, src, zone, d, sst, chl, cs, cd in db.execute(q, tuple(OCEAN_LAG_DAYS)):
+        t = pd.Timestamp(d)
+        rows.append({"src_id": rid, "source": src, "zone": zone, "target_date": t,
+                     "sst_f": sst, "chl": chl, "cur_kt": cs, "cur_dir": cd,
+                     # data dated t is public at (t + lag - 1 days) 20:00, i.e. usable for target day
+                     # t + lag (cutoff (t + lag - 1) 21:00) and never earlier
+                     "available_at": t + pd.Timedelta(days=OCEAN_LAG_DAYS[src] - 1, hours=20)})
+    cols = ["src_id", "source", "zone", "target_date", "sst_f", "chl", "cur_kt", "cur_dir", "available_at"]
+    return pd.DataFrame(rows, columns=cols).sort_values("available_at", kind="stable").reset_index(drop=True)
+
+
 TIDE_LEAD_DAYS = 30  # D-029: predicted tides treated as public 30 days ahead (NOAA publishes a year+ ahead)
 
 

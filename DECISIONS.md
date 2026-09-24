@@ -384,3 +384,16 @@ New split, recorded before any evaluation on 2017+:
   since satellite SST starts 2020-01-01 (`Spec.dev_years`, `Spec.train_start`).
 The D-009 bar is unchanged. Earlier logged results were on dev 2012–2014 or 2012–2016; each
 run's config.json records its dev years.
+
+## D-034 Satellite ocean inputs (Goal C track 2 and available to Goal 1)
+Source `conditions_daily`: NOAA Geo-polar Blended SST (2020-01-01+), NOAA-20 VIIRS chlorophyll
+(2021-08-26+), altimetry geostrophic currents (2020-01-01+), per model tile. Availability:
+data dated t is public at (t + lag − 1 days) 20:00 PT with lag 2 days for SST/currents and 21
+days for chlorophyll, so at the D-1 21:00 cutoff SST/currents up to D-2 and chlorophyll up to
+D-21 are usable (tested: nothing dated D-1 is ever visible). Caveat: the source's backfilled
+history carries NOAA's current (reprocessed) values, not first-published near-real-time values
+(`ingest/conditions_snapshot.py` docstring) — mildly optimistic for 2020–2026 back-tests.
+GOES-West SST is excluded (patchy 2023-10+). Features `sst_*`, `chl_*`, `cur_*`: SD-coast SST
+last value / 7-day mean / 7-day trend / 30-day max, Coronados and 9-Mile SST, offshore minus
+coast gradient, share of tiles ≥ 68 °F, max tile SST, log chlorophyll, current speed and
+northward component. All are NaN before 2020.

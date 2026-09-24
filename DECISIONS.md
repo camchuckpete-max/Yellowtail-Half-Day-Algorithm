@@ -305,3 +305,58 @@ reproduces (0.624) on it. Dev = 2012–2016 (D-027). Directions:
   aggregate to the day with a separate model of which trips sail; separates effort from bite.
 - F: latent-state ("fish are local") sequence models, e.g. HMM / Bayesian filtering over
   partial daily evidence, and regime-dependent decision rules chosen on training data only.
+
+## D-E01 Trip-level model as a walk-forward PIT day feature (agent E, 2026-09-24)
+`yt/tripmodel.py`. Candidate rows = one per (boat, class AM/PM/twilight, day d) for every pair with a
+visible half-day trip in d-28..d-1 (unspecified half days count as PM). Inputs are built by streaming
+the trips table in `available_at` order, so a row for d sees exactly the events public at cutoff(d):
+sailing history of the pair (same weekday over 4 weeks, d-14..d-2, last visible day), boat state (latest
+visible trip had yt, 7-day yt-trip fraction, 365-day yt rate shrunk toward the fleet with 20 pseudo-trips),
+fleet state (B1, last-day yt-trip fraction, yt days in 7, EWM, 60-day rate, 3/4-day 3-day yt fraction),
+28-day mean anglers of the pair, season, weekend. Labels: `sailed` (a trip of that pair fished d) and
+`yt` (it caught >=1 yellowtail); both become public at the class's publication time on d (`label_at`,
+events.PUBLISH_TIME; twilight = next day 00:00; asserted against every trip used).
+Two logistic models (sail, yt | sailed) are refit at an anchor A <= D every 7 days (deterministic in D)
+on rows with `label_at` <= cutoff(A) whose day had a visible half-day report at cutoff(A); so no trip
+label that was not public at D-1 21:00 is ever used for D, and trips sailing on D are never an input
+(the candidate set is built from history only). Day features: `tm_p` = 1 - prod(1 - P(sail) P(yt|sail)),
+its logit, expected yt trips, expected trips (`_ntrips`), max P(yt) among likely sailings, max joint.
+`audit_<prefix>_label_at` (newest trip label used) is asserted <= the cutoff in `dataset.build` and in
+tests/test_pit.py, which also poisons (all species counts, anglers, boat names) and deletes every
+post-cutoff trip for 5 random 2011-2016 days and requires identical trip-model features and candidate-row
+inputs (also for the boosted variant). Negative control: fitting on rows public up to 2 days late is
+detected by the test.
+
+## D-E02 `column` model type
+`Model(spec.model="column")` uses its single feature as the probability (median-imputed, clipped to
+[0, 1]); nothing is fit. The threshold rule is applied as usual on inner walk-forward OOF values.
+
+## D-E03 Trip-model variants
+`dataset.TRIP_VARIANTS` (prefix -> kwargs): tm (C=0.1), tmb (+ one-hots for the four main boats: a
+boat random effect via L2), tmx (+ boat log-yt on last trip, log days since boat yt, pair 14-day yt
+fraction, boats with yt in 3 days), tmh (tmx inputs, boosted yt model), tmw (tmx, rows weighted by
+half-life 365 d). Day features and each trip variant are cached separately (`dayfeat_*`, `tripfeat_*`).
+Sweep 2 runs with OMP_NUM_THREADS=1 (the shared 4 CPUs were oversubscribed by HGB threads).
+
+## D-E04 Boat species-mix variants
+tmz = tmx + the pair's own last-trip yt, and on the boat's latest visible day: fraction of trips with a
+surface species (yt, bonito, barracuda, mackerel, white seabass), fraction bottom-only, mean anglers.
+tmz1 = tmz with C=1 and daily refit.
+
+## D-E05 Agent E result (Goal 1, trip-level direction)
+28 sweep configurations (E_sweep1 12, E_sweep2 10, E_sweep3 6) + eE01 dev re-run with bootstrap + eE01
+strict = 30 of 60. The trip model on its own is well calibrated year by year (its walk-forward refit
+tracks hot and cold years: mean p vs rate 2012 .30/.31, 2013 .21/.19, 2014 .43/.43, 2015 .62/.64,
+2016 .29/.29) and matches the best day-level models on probability quality with one input
+(tmz column: AUC 0.891, Brier 0.1222 vs e009 0.893 / 0.1231), but its hard calls are no better than B1
+(0.602-0.612); even the best single threshold picked on dev itself gives only 0.631 (diagnostic, not a
+config). Adding trip outputs to eB01/e005 gives 0.611-0.626. Best: eE01 = logistic on
+[tmz_logit, tmz_ntrips, hd_yt_lastday], dev MCC 0.632 (B1 0.606), bootstrap CI of the difference
+[+0.002, +0.048]; it improves on B1 in every fold (+0.034, +0.001, +0.003, +0.066, +0.016) by one
+mechanism only: vetoing 101 B1=yes days that the trip model rates low (37.6% of them were positive) —
+it adds one yes call on a B1=no day. Margin +0.026 < +0.05, so Goal 1 is not met, and after 28
+configurations the CI's lower bound near 0 should be read as consistent with selection noise.
+Strict timing (`--strict --no-save`): eE01 0.516 vs B1 0.525, CI [-0.053, +0.033] — the veto does not
+survive losing D-1's AM/PM reports, so its dev gain depends on the freshest day. Not promoted to finalist.
+Diagnostic tables of dev predictions (tm_p bins by B1, expected trips by B1) were looked at after sweep 1;
+disclosed as dev selection.

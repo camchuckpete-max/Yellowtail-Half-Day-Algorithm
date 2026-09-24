@@ -39,3 +39,4 @@ One line per saved run. Columns: run id | experiment | dev/HOLDOUT | #features |
 | `20260923T224020Z_e007_recency_d1_fdsent_C003_p35` | e007_recency_d1_fdsent_C003_p35 | dev | 28 | 0.625 | 0.887 | 0.606 / 0.435 | [-0.007, 0.045] | 3/6 = 0.500 (lo95 0.188) |
 | `20260923T224024Z_e008_e007_monthly` | e008_e007_monthly | dev | 28 | 0.614 | 0.890 | 0.606 / 0.435 | [-0.020, 0.036] | 3/9 = 0.333 (lo95 0.121) |
 | `20260923T224024Z_e009_eB01_monthly_p40` | e009_eB01_monthly_p40 | dev | 24 | 0.627 | 0.893 | 0.606 / 0.435 | [-0.002, 0.045] | 4/6 = 0.667 (lo95 0.300) |
+| `20260924T045443Z_eE01_tripmodel_calib` | eE01_tripmodel_calib | dev | 3 | 0.632 | 0.882 | 0.606 / 0.435 | [0.002, 0.048] | 0/0 = nan (lo95 nan) |

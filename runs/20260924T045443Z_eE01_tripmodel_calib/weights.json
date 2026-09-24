@@ -1,0 +1,207 @@
+{
+  "2012": {
+    "train_first": "2010-05-01",
+    "train_last": "2011-12-30",
+    "n_train": 591,
+    "threshold": 0.48,
+    "threshold_info": {
+      "rule": "max MCC on inner OOF within [0.3, 0.5]",
+      "inner_mcc": 0.24499810102946254
+    },
+    "halflife_days": 0.0,
+    "weights": {
+      "transform": "log1p on *per_trip* features, then median impute, standardize, clip z to +-4.0",
+      "impute_median": {
+        "tmz_logit": -2.6398144860642705,
+        "tmz_ntrips": 5.260438460928612,
+        "hd_yt_lastday": 0.0
+      },
+      "standardized_coef": {
+        "tmz_logit": 0.35554605195911126,
+        "tmz_ntrips": 0.15587230729662327,
+        "hd_yt_lastday": 0.5629164915321822
+      },
+      "intercept_standardized": -2.316286830888012,
+      "scaler_mean": {
+        "tmz_logit": -2.301381757243807,
+        "tmz_ntrips": 5.942864301477548,
+        "hd_yt_lastday": 0.116751269035533
+      },
+      "scaler_sd": {
+        "tmz_logit": 1.4544614128321096,
+        "tmz_ntrips": 2.365503046996387,
+        "hd_yt_lastday": 0.32112366810019716
+      },
+      "raw_coef_on_transformed_inputs": {
+        "tmz_logit": 0.24445203483727787,
+        "tmz_ntrips": 0.0658939363847124,
+        "hd_yt_lastday": 1.7529585871463722
+      },
+      "raw_intercept": -2.349968239232987
+    }
+  },
+  "2013": {
+    "train_first": "2010-05-01",
+    "train_last": "2012-12-30",
+    "n_train": 950,
+    "threshold": 0.48,
+    "threshold_info": {
+      "rule": "max MCC on inner OOF within [0.3, 0.5]",
+      "inner_mcc": 0.49665414214076803
+    },
+    "halflife_days": 0.0,
+    "weights": {
+      "transform": "log1p on *per_trip* features, then median impute, standardize, clip z to +-4.0",
+      "impute_median": {
+        "tmz_logit": -2.3507421389279655,
+        "tmz_ntrips": 5.913140490481146,
+        "hd_yt_lastday": 0.0
+      },
+      "standardized_coef": {
+        "tmz_logit": 0.7408226124178355,
+        "tmz_ntrips": 0.25974410756891375,
+        "hd_yt_lastday": 0.4722395990865488
+      },
+      "intercept_standardized": -1.8603835916202909,
+      "scaler_mean": {
+        "tmz_logit": -1.8966587552656795,
+        "tmz_ntrips": 6.196301261758733,
+        "hd_yt_lastday": 0.18736842105263157
+      },
+      "scaler_sd": {
+        "tmz_logit": 1.5935949678650716,
+        "tmz_ntrips": 2.2671488869134486,
+        "hd_yt_lastday": 0.3902069910251165
+      },
+      "raw_coef_on_transformed_inputs": {
+        "tmz_logit": 0.4648750952133782,
+        "tmz_ntrips": 0.11456861482200036,
+        "hd_yt_lastday": 1.2102284427193977
+      },
+      "raw_intercept": -1.9153344171837006
+    }
+  },
+  "2014": {
+    "train_first": "2010-05-01",
+    "train_last": "2013-12-30",
+    "n_train": 1306,
+    "threshold": 0.49,
+    "threshold_info": {
+      "rule": "max MCC on inner OOF within [0.3, 0.5]",
+      "inner_mcc": 0.48067122164764214
+    },
+    "halflife_days": 0.0,
+    "weights": {
+      "transform": "log1p on *per_trip* features, then median impute, standardize, clip z to +-4.0",
+      "impute_median": {
+        "tmz_logit": -2.21413916801614,
+        "tmz_ntrips": 5.8561443497046195,
+        "hd_yt_lastday": 0.0
+      },
+      "standardized_coef": {
+        "tmz_logit": 0.8582751762684948,
+        "tmz_ntrips": 0.248649178199816,
+        "hd_yt_lastday": 0.39111000387628575
+      },
+      "intercept_standardized": -1.8908564751193822,
+      "scaler_mean": {
+        "tmz_logit": -1.8714151071293572,
+        "tmz_ntrips": 6.135357530950042,
+        "hd_yt_lastday": 0.18683001531393567
+      },
+      "scaler_sd": {
+        "tmz_logit": 1.5928070311767022,
+        "tmz_ntrips": 2.287005286416781,
+        "hd_yt_lastday": 0.3897750129135143
+      },
+      "raw_coef_on_transformed_inputs": {
+        "tmz_logit": 0.5388444171008182,
+        "tmz_ntrips": 0.10872260754123261,
+        "hd_yt_lastday": 1.0034250296159124
+      },
+      "raw_intercept": -1.736976875176753
+    }
+  },
+  "2015": {
+    "train_first": "2010-05-01",
+    "train_last": "2014-12-30",
+    "n_train": 1652,
+    "threshold": 0.49,
+    "threshold_info": {
+      "rule": "max MCC on inner OOF within [0.3, 0.5]",
+      "inner_mcc": 0.6165825897789973
+    },
+    "halflife_days": 0.0,
+    "weights": {
+      "transform": "log1p on *per_trip* features, then median impute, standardize, clip z to +-4.0",
+      "impute_median": {
+        "tmz_logit": -1.9323509891619102,
+        "tmz_ntrips": 5.9019215658810396,
+        "hd_yt_lastday": 0.0
+      },
+      "standardized_coef": {
+        "tmz_logit": 1.5242100302330581,
+        "tmz_ntrips": 0.08893212252342897,
+        "hd_yt_lastday": 0.43345188711197596
+      },
+      "intercept_standardized": -1.5408675965288614,
+      "scaler_mean": {
+        "tmz_logit": -1.407610210065628,
+        "tmz_ntrips": 6.113307197837704,
+        "hd_yt_lastday": 0.23728813559322035
+      },
+      "scaler_sd": {
+        "tmz_logit": 2.3513012479215827,
+        "tmz_ntrips": 2.2503239459353894,
+        "hd_yt_lastday": 0.4254203524749537
+      },
+      "raw_coef_on_transformed_inputs": {
+        "tmz_logit": 0.6482410671879554,
+        "tmz_ntrips": 0.03951969790130046,
+        "hd_yt_lastday": 1.0188790559508907
+      },
+      "raw_intercept": -1.1117608169892157
+    }
+  },
+  "2016": {
+    "train_first": "2010-05-01",
+    "train_last": "2015-12-30",
+    "n_train": 1996,
+    "threshold": 0.49,
+    "threshold_info": {
+      "rule": "max MCC on inner OOF within [0.3, 0.5]",
+      "inner_mcc": 0.6620428158745699
+    },
+    "halflife_days": 0.0,
+    "weights": {
+      "transform": "log1p on *per_trip* features, then median impute, standardize, clip z to +-4.0",
+      "impute_median": {
+        "tmz_logit": -1.7003597224024571,
+        "tmz_ntrips": 5.905809410072395,
+        "hd_yt_lastday": 0.0
+      },
+      "standardized_coef": {
+        "tmz_logit": 1.9913804443278904,
+        "tmz_ntrips": -0.017527463247666665,
+        "hd_yt_lastday": 0.36446173687533234
+      },
+      "intercept_standardized": -0.9941673090499352,
+      "scaler_mean": {
+        "tmz_logit": -0.8767820436418907,
+        "tmz_ntrips": 6.098431818944948,
+        "hd_yt_lastday": 0.30811623246492986
+      },
+      "scaler_sd": {
+        "tmz_logit": 2.7583597056297577,
+        "tmz_ntrips": 2.2001327398568855,
+        "hd_yt_lastday": 0.46171486845947163
+      },
+      "raw_coef_on_transformed_inputs": {
+        "tmz_logit": 0.7219437117876694,
+        "tmz_ntrips": -0.007966548076915938,
+        "hd_yt_lastday": 0.7893653892744934
+      },
+      "raw_intercept": -0.5558128655363812
+    }
+  }
+}

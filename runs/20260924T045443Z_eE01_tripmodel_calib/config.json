@@ -1,0 +1,28 @@
+{
+  "name": "eE01_tripmodel_calib",
+  "features": [
+    "tmz_logit",
+    "tmz_ntrips",
+    "hd_yt_lastday"
+  ],
+  "model": "logreg",
+  "C": 1.0,
+  "subset": "all",
+  "threshold_rule": "mcc_range:0.3:0.5",
+  "clip_z": 4.0,
+  "retrain": "year",
+  "halflife_days": 0.0,
+  "notes": "Trip-level sail x yellowtail model (walk-forward inside the feature) recalibrated with B1 and expected number of trips",
+  "extra": {},
+  "holdout": false,
+  "tag": "",
+  "dev_years": [
+    2012,
+    2013,
+    2014,
+    2015,
+    2016
+  ],
+  "holdout_start": "2017-01-01",
+  "min_cov7": 5
+}

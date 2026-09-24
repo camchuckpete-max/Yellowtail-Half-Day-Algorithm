@@ -293,3 +293,15 @@ from data before the fold. Default (`year`, no weighting) reproduces all earlier
 runs exactly (e007 verified). Sweep 4 (36 configs, dev 2012–2014): monthly refit
 improves calibration (Brier e007 0.1196 → 0.1153; eB01 0.1125) but not MCC; best
 MCC stays e007 yearly 0.655. Recency weighting did not help.
+
+## D-028 Parallel round 2 (user: "keep trying more ways" with existing data)
+Same rules as D-023 (own worktree/branch, ≤ 60 dev configurations each, every sweep
+committed, no push, never touch holdout ≥ 2017-01-01, PIT tests must pass). All three
+agents read the source through a pinned snapshot, `/home/user/dfp-pinned` = source
+commit 7121831, so results are comparable while the backfill continues; e005
+reproduces (0.624) on it. Dev = 2012–2016 (D-027). Directions:
+- D: FishDope bait-barge change-log (`forage_observations`, category `bait_barge`).
+- E: trip-level modelling — predict P(yellowtail | boat-trip) on ~15× more rows and
+  aggregate to the day with a separate model of which trips sail; separates effort from bite.
+- F: latent-state ("fish are local") sequence models, e.g. HMM / Bayesian filtering over
+  partial daily evidence, and regime-dependent decision rules chosen on training data only.

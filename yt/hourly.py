@@ -21,6 +21,8 @@ PT = ZoneInfo("America/Los_Angeles")
 UTC = ZoneInfo("UTC")
 BUOYS = ("46225", "46232", "46254", "46266", "LJPC1")
 UPWELLING_LAG_DAYS = 14   # Muse: ~13-day publication lag observed; rounded up
+GLIDER_LAG_DAYS = 3       # D-045: daily glider means treated as public 3 days after the described day
+SLA_LAG_DAYS = 2          # D-045: blended SSH daily product, same latency convention as SST
 # Trip windows (PT). New Seaforth times per Muse's 0002 notes; Sea Watch AM/PM UNCONFIRMED (same slots assumed).
 WINDOWS = {"hd_am": ("06:00", "11:30"), "hd_pm": ("12:30", "17:30"), "hd_unspecified": ("12:30", "17:30"),
            "hd_twilight": ("18:00", "22:30")}
@@ -55,6 +57,14 @@ def load(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     month_end = pd.to_datetime(ci["month"] + "-01") + pd.offsets.MonthEnd(0)
     ci["available_at"] = month_end + pd.to_timedelta(ci["release_lag_days"].fillna(45), unit="D")
     out["climate"] = ci.sort_values("available_at").reset_index(drop=True)
+    g = pd.read_sql("SELECT obs_date, depth_m, temp_c FROM subsurface_temp_daily WHERE temp_c IS NOT NULL", db)
+    g["date"] = pd.to_datetime(g["obs_date"])
+    g["available_at"] = g["date"] + pd.Timedelta(days=GLIDER_LAG_DAYS)
+    out["glider"] = g.drop(columns="obs_date").sort_values("available_at").reset_index(drop=True)
+    s = pd.read_sql("SELECT condition_date, sla_m FROM sea_level_anomaly WHERE zone_id='la_jolla'", db)
+    s["date"] = pd.to_datetime(s["condition_date"])
+    s["available_at"] = s["date"] + pd.Timedelta(days=SLA_LAG_DAYS)
+    out["sla"] = s.drop(columns=["condition_date"]).sort_values("available_at").reset_index(drop=True)
     return out
 
 
@@ -119,6 +129,15 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
     for idx in ("oni", "pdo", "npgo", "mei_v2"):
         s = civ[civ["index_id"] == idx]
         f[f"hc_ci_{idx}"] = float(s.sort_values("month")["value"].iloc[-1]) if len(s) else nan
+    # --- glider temperature at depth (2014+) and sea-level anomaly (2015+), D-045
+    gv = data["glider"]
+    gv = gv[(gv["available_at"] <= cutoff) & (gv["date"] > cutoff - pd.Timedelta(days=10 + GLIDER_LAG_DAYS))]
+    t5, t45 = _mean(gv[gv["depth_m"] == 5]["temp_c"]), _mean(gv[gv["depth_m"] == 45]["temp_c"])
+    f["hc_glider_t5_10d"], f["hc_glider_t45_10d"], f["hc_glider_strat_10d"] = t5, t45, t5 - t45
+    sv = data["sla"]
+    sv = sv[(sv["available_at"] <= cutoff) & (sv["date"] > cutoff - pd.Timedelta(days=30))]
+    f["hc_sla_lj_last"] = float(sv["sla_m"].iloc[-1]) if len(sv) and pd.notna(sv["sla_m"].iloc[-1]) else nan
+    f["hc_sla_lj_7d"] = _mean(sv[sv["date"] > cutoff - pd.Timedelta(days=7 + SLA_LAG_DAYS)]["sla_m"])
     # --- EXPLANATORY: observed during the trip window (never a forecast input)
     pw = _slice(data["pier"], w0, w1)
     f["ex_pier_wtmp_trip"] = _mean(pw["wtmp_c"])
@@ -145,5 +164,6 @@ HC_FEATURES = ["hc_tide_start", "hc_tide_change", "hc_tide_range", "hc_tide_maxr
                "hc_pier_wtmp_24h", "hc_pier_wtmp_chg3d", "hc_pier_wtmp_7d", "hc_pier_air_minus_water_24h",
                "hc_btp_wtmp_24h", "hc_btp_wvht_24h", "hc_bpl_wtmp_24h", "hc_bpl_wvht_24h", "hc_bsn_wtmp_24h",
                "hc_bsn_wvht_24h", "hc_btp_dpd_24h", "hc_ljpc1_wspd_24h", "hc_cuti33_7", "hc_cuti33_30",
-               "hc_beuti33_30", "hc_ci_oni", "hc_ci_pdo", "hc_ci_npgo", "hc_ci_mei_v2"]
+               "hc_beuti33_30", "hc_ci_oni", "hc_ci_pdo", "hc_ci_npgo", "hc_ci_mei_v2",
+               "hc_glider_t5_10d", "hc_glider_t45_10d", "hc_glider_strat_10d", "hc_sla_lj_last", "hc_sla_lj_7d"]
 EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip"]

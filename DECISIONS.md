@@ -522,3 +522,14 @@ temp×ONI 0.762; + 3-day temp change 0.764. Held-out bands of the best-Brier log
 C=0.1): 0–5 % → 7.4 % observed (1,782 trips); 5–15 % → 11.3 % (2,859); 15–35 % → 20.1 % (1,741);
 35–65 % → 42.7 % (888); 65–85 % → 59.3 % (241); 85–100 % → 87.2 % (47). Depth-4 tree AUC 0.707; its
 top leaf: pier > 68.4 °F, daytime, late summer–fall, ONI ≥ 0 → 62 % (training). Goal D ledger +9.
+
+## D-045 Glider subsurface temperature and sea-level anomaly (sweep D6)
+`subsurface_temp_daily` (Spray gliders 2014+, daily 10-m bins; public 3 days after the described day)
+and `sea_level_anomaly` (La Jolla box, 2015+; public 2 days after) added as `hc_glider_*` (5 m, 45 m,
+5–45 m stratification, 10-day window) and `hc_sla_lj_*`. PIT poison test extended; full suite passes
+(source 657c5a8). D6, same folds 2016–2023 for all models: D5 base AUC 0.754 / Brier 0.1162;
++glider 0.755 (coverage 31 % of trips — transects are intermittent); +SLA 0.750 (coverage 57 % at
+657c5a8, backfill later completed); both 0.751. No gain. Goal D ledger +4.
+Kelp canopy (`kelp_canopy_quarterly`, kelpwatch API, 1984Q1–2026Q2): no documented publication lag;
+per Muse's research releases are batched ~annually → PIT rule: a quarter is usable only from quarter
+end + 365 days (Muse's recommended safe bound; +120 d is only a central guess).

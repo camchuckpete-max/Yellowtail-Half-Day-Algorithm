@@ -87,6 +87,16 @@ def test_latent_obs_consistent():
     assert (df["lat_fdv_1"] == df["fd_visible_d1"]).all()
 
 
+def test_labels_public_within_a_day():
+    # D-F04 online recalibration reads the label of day t <= D-2 at the D-1 21:00 cutoff: every
+    # half-day fishing trip (what defines the label, D-001) must be public by t+1 00:00, also in strict timing.
+    m = source.source_manifest(); db = source.open_db(m)
+    for strict in (False, True):
+        t = events.load_trips(db, strict=strict)
+        hd = t[t["is_hd_fishing"]]
+        assert (hd["available_at"] <= hd["fished_date"] + pd.Timedelta(days=1)).all(), strict
+
+
 def test_twilight_d1_not_visible():
     trips, _, _, _ = _load()
     tw = trips[trips["cls"] == "hd_twilight"]
@@ -115,6 +125,7 @@ if __name__ == "__main__":
     test_env_columns_poisoned_are_real()
     test_target_day_catch_is_never_visible()
     test_twilight_d1_not_visible()
+    test_labels_public_within_a_day()
     test_fishdope_same_day_report_never_visible()
     test_dataset_audit_columns_respect_cutoff()
     test_latent_obs_consistent()

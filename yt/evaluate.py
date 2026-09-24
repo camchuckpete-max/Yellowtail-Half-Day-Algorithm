@@ -309,6 +309,27 @@ def _pick_regime_threshold(y, p, r, rule: str) -> tuple[dict, dict]:
                   "inner_mcc": float(best_s)}
 
 
+def online_recal(dates: pd.Series, y: np.ndarray, p: np.ndarray, window: int, k0: float,
+                 hist: pd.DataFrame | None = None) -> np.ndarray:
+    """D-F04: latent calibration drift. For day D, shift logit(p_D) by one shrunk Newton step
+    delta_D = sum(y - p) / (sum p(1-p) + k0) over out-of-sample days t with D-window <= t <= D-2
+    (their labels are public by D-1 00:00: every half-day trip of day t is public by t+1 00:00).
+    `hist` (date, y, prob_raw) holds earlier out-of-sample predictions of the same fold."""
+    d = pd.DatetimeIndex(dates).to_numpy()
+    hd, hy, hp = d, np.asarray(y, float), np.asarray(p, float)
+    if hist is not None and len(hist):
+        hd = np.concatenate([hist["date"].to_numpy(), d])
+        hy = np.concatenate([hist["y"].to_numpy(float), hy])
+        hp = np.concatenate([hist["prob_raw"].to_numpy(float), hp])
+    out = np.empty(len(d))
+    lg = np.log(np.clip(p, 1e-6, 1 - 1e-6) / np.clip(1 - np.asarray(p, float), 1e-6, 1))
+    for i, D in enumerate(d):
+        m = (hd <= D - np.timedelta64(2, "D")) & (hd >= D - np.timedelta64(window, "D"))
+        delta = (hy[m] - hp[m]).sum() / ((hp[m] * (1 - hp[m])).sum() + k0)
+        out[i] = 1 / (1 + np.exp(-(lg[i] + delta)))
+    return out
+
+
 def _inner_oof(train: pd.DataFrame, spec: Spec, with_regime: bool = False):
     ys, ps, rs = [], [], []
     years = sorted(train["date"].dt.year.unique())
@@ -319,7 +340,10 @@ def _inner_oof(train: pd.DataFrame, spec: Spec, with_regime: bool = False):
         if len(tr) < 50 or tr["y"].nunique() < 2 or len(te) == 0:
             continue
         m = Model(spec).fit(tr[spec.features], tr["y"].to_numpy(), recency_weights(tr["date"], first, spec))
-        ys.append(te["y"].to_numpy()); ps.append(m.predict(te[spec.features])); rs.append(te[REGIME_COL].to_numpy())
+        pp = m.predict(te[spec.features])
+        if "recal" in spec.extra:  # D-F04: same online recalibration as on the test fold
+            pp = online_recal(te["date"], te["y"].to_numpy(), pp, **spec.extra["recal"])
+        ys.append(te["y"].to_numpy()); ps.append(pp); rs.append(te[REGIME_COL].to_numpy())
     out = (np.concatenate(ys), np.concatenate(ps), np.concatenate(rs)) if ys else (np.array([]),) * 3
     return out if with_regime else out[:2]
 
@@ -375,6 +399,11 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
             p = m.predict(chunk[spec.features])
             out = chunk[["date", "y", "hd_yt_lastday", "hd_ytdays_7", BREAKOUT_COL]].copy()
             out["fold"] = name
+            if "recal" in spec.extra:  # D-F04
+                out["prob_raw"] = p
+                hist = [q for q in preds if q["fold"].iloc[0] == name]
+                p = online_recal(chunk["date"], chunk["y"].to_numpy(), p, **spec.extra["recal"],
+                                 hist=pd.concat(hist) if hist else None)
             out["prob"] = p
             t = np.where(chunk[REGIME_COL].to_numpy() == 1, thr[1], thr[0]) if isinstance(thr, dict) else thr
             out["call"] = (p >= t).astype(int)

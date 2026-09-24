@@ -1,0 +1,53 @@
+change-log linkage: {'rows': 20172, 'no_ref': 0, 'rejected_report': 4, 'unknown_report': 0, 'date_mismatch': 0, 'unparsed_detail': 0, 'asof_implausible': 1122, 'kept': 20168}
+kept rows by report year (<= 2016 only; later years not inspected): {2009: 5, 2013: 260, 2014: 1509, 2015: 2313, 2016: 2572}
+rejected reports that carried bait_barge rows were dropped: 4
+as-of lag (report day - stamp), change-log <= 2016: n=5211 median=1.0 p90=5.0 max=22.0
+text parse: reports with a San Diego line by year: {2013: 55, 2014: 244, 2015: 340, 2016: 365}
+text parse: reports with a Mission Bay line by year: {2013: 56, 2014: 244, 2015: 340, 2016: 365}
+sd state rates: {'sardine': 0.783, 'anchovy': 0.529, 'mackerel': 0.153, 'squid': 0.0, 'out': 0.016, 'neg_sardine': 0.056, 'limited': 0.036} sardine size median 7.0 lag median 1.0
+mb state rates: {'sardine': 0.713, 'anchovy': 0.571, 'mackerel': 0.092, 'squid': 0.001, 'out': 0.016, 'neg_sardine': 0.009, 'limited': 0.033} sardine size median 6.0 lag median 1.0
+change-log rows (sd/mb, sardine/anchovy/mackerel) agreeing with the text parse: 1895/1913
+text-parse 'stocked' (sd/mb) with no change-log row for that report: 1059/2854
+change-log: anchovy size == sardine size on the same barge line: 608/608
+
+--- hand-check sample (40 local barge lines) ---
+0 2014-11-05 sd 'San Diego 5-7″ Sardine (11-2)' {'sardine': 1, 'sardine_in': 7.0, 'lag': 3.0}
+1 2014-11-05 mb 'Mission Bay 4-6″ Sardine (11-2)' {'sardine': 1, 'sardine_in': 6.0, 'lag': 3.0}
+2 2016-10-10 sd 'San Diego – 4-6″ sardine (10-10)' {'sardine': 1, 'sardine_in': 6.0}
+3 2016-10-10 mb 'Mission Bay – 4-6″ sardine (10-10)' {'sardine': 1, 'sardine_in': 6.0}
+4 2015-07-21 sd 'San Diego – 6-8″ Sardine (7-21)' {'sardine': 1, 'sardine_in': 8.0}
+5 2015-07-21 mb 'Mission Bay – 5-7″ Sardine and jumbo 7-12″ Sardine (7-21)' {'sardine': 1, 'sardine_in': 12.0}
+6 2014-02-19 sd 'San Diego Bait Barge 6-7″ Sardine & 4-5″ Anchovy\n' {'sardine': 1, 'anchovy': 1, 'sardine_in': 7.0}
+7 2014-02-19 mb 'Mission Bay Bait Barge 6-8″ Sardine & 3-5″ Anchovy\n' {'sardine': 1, 'anchovy': 1, 'sardine_in': 8.0}
+8 2014-04-12 sd 'San Diego 4-6″ Anchovy\n' {'anchovy': 1}
+9 2014-04-12 mb 'Mission Bay 4-6″ Anchovy\n' {'anchovy': 1}
+10 2015-04-21 sd 'San Diego 5-7″ Sardine (4-20)' {'sardine': 1, 'sardine_in': 7.0, 'lag': 1.0}
+11 2015-04-21 mb 'Mission Bay 5-7″ Mix Sardine (4-20)' {'sardine': 1, 'sardine_in': 7.0, 'lag': 1.0}
+12 2014-05-01 sd 'San Diego Bait Barge 6-8″ Mackerel\n' {'mackerel': 1}
+13 2014-05-01 mb 'Mission Bay Bait Barge 3-5″ Anchovy\n' {'anchovy': 1}
+14 2014-12-30 sd 'San Diego 5-6″ Sardine & 3-4″ Anchovy (12-29)' {'sardine': 1, 'anchovy': 1, 'sardine_in': 6.0, 'lag': 1.0}
+15 2014-12-30 mb 'Mission Bay 3-4″ Anchovy (12-29)' {'anchovy': 1, 'lag': 1.0}
+16 2013-09-25 sd 'San Diego Bait Barge 6-8″ Sardine\n' {'sardine': 1, 'sardine_in': 8.0}
+17 2013-09-25 mb 'Mission Bay Bait Barge 6-8″ Sardine\n' {'sardine': 1, 'sardine_in': 8.0}
+18 2015-10-13 sd 'San Diego – 6-8″ Sardine (limited supply) (10-12)' {'sardine': 1, 'limited': 1, 'sardine_in': 8.0, 'lag': 1.0}
+19 2015-10-13 mb 'Mission Bay – 2-4″ Anchovy (10-12)' {'anchovy': 1, 'lag': 1.0}
+20 2014-03-05 sd 'San Diego Bait Barge 4-5″ Anchovy\n' {'anchovy': 1}
+21 2014-03-05 mb 'Mission Bay Bait Barge 4-5″ Anchovy\n' {'anchovy': 1}
+22 2016-03-22 sd 'San Diego – 3-5″ Anchovy – NO Sardine (3-20)' {'anchovy': 1, 'neg_sardine': 1, 'lag': 2.0}
+23 2016-03-22 mb 'Mission Bay – 4-5″ Anchovy & 5-7″ Sardine (3-20)' {'sardine': 1, 'anchovy': 1, 'sardine_in': 7.0, 'lag': 2.0}
+24 2015-06-04 sd 'San Diego 5-7″ Sardine & 2-4″ Anchovy (6-4)' {'sardine': 1, 'anchovy': 1, 'sardine_in': 7.0}
+25 2015-06-04 mb 'Mission Bay 5-7″ Sardine & 2-4″ Anchovy (6-4)' {'sardine': 1, 'anchovy': 1, 'sardine_in': 7.0}
+26 2016-03-21 sd 'San Diego – 3-5″ Anchovy – NO Sardine (3-20)' {'anchovy': 1, 'neg_sardine': 1, 'lag': 1.0}
+27 2016-03-21 mb 'Mission Bay – 4-5″ Anchovy & 5-7″ Sardine (3-20)' {'sardine': 1, 'anchovy': 1, 'sardine_in': 7.0, 'lag': 1.0}
+28 2016-06-20 sd 'San Diego – 4″ anchovy, 6-8″ sardine, 8-10″ mackerel. (6-19)' {'sardine': 1, 'anchovy': 1, 'mackerel': 1, 'sardine_in': 8.0, 'lag': 1.0}
+29 2016-06-20 mb 'Mission Bay – 6-8″ Sardines, 3-5″ anchovy, no mackerel (6-17)' {'sardine': 1, 'anchovy': 1, 'sardine_in': 8.0, 'lag': 3.0}
+30 2015-08-07 sd 'San Diego – 5-7″ Sardine (8-7)' {'sardine': 1, 'sardine_in': 7.0}
+31 2015-08-07 mb 'Mission Bay – 4-6″ Sardine (8-7)' {'sardine': 1, 'sardine_in': 6.0}
+32 2014-01-07 sd 'San Diego Bait Barge 5-6″ Sardine & 4-5″ Anchovy\n' {'sardine': 1, 'anchovy': 1, 'sardine_in': 6.0}
+33 2014-01-07 mb 'Mission Bay Bait Barge 5-6″ Sardine & 3-5″ Anchovy\n' {'sardine': 1, 'anchovy': 1, 'sardine_in': 6.0}
+34 2016-03-07 sd 'San Diego – 5-7″ Sardine & 3-4″ Anchovy (3-6)' {'sardine': 1, 'anchovy': 1, 'sardine_in': 7.0, 'lag': 1.0}
+35 2016-03-07 mb 'Mission Bay – 3-6″ Anchovy/Sardine mix (3-1)' {'sardine': 1, 'anchovy': 1, 'lag': 6.0}
+36 2015-04-07 sd 'San Diego 5-7″ Sardine (4-6)' {'sardine': 1, 'sardine_in': 7.0, 'lag': 1.0}
+37 2015-04-07 mb 'Mission Bay 5-7″ Sardine (4-6)' {'sardine': 1, 'sardine_in': 7.0, 'lag': 1.0}
+38 2016-06-12 sd 'San Diego – 3-5″ anchovy only. No sardine, no mackerel (6-11)' {'anchovy': 1, 'neg_sardine': 1, 'lag': 1.0}
+39 2016-06-12 mb 'Mission Bay – anchovy and light sardine mix (6-11)' {'sardine': 1, 'anchovy': 1, 'lag': 1.0}

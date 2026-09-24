@@ -180,6 +180,64 @@ def _env_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
     return f
 
 
+def _pm(v) -> float:
+    """+1 known yes / -1 known no / 0 unknown (bait data only exist from late 2013; D-D03)."""
+    return 0.0 if v is None or v != v else (1.0 if v else -1.0)
+
+
+def _bait_features(D: pd.Timestamp, fd_rep: pd.DataFrame, bb: pd.DataFrame | None) -> dict:
+    """Bait at the San Diego / Mission Bay barges and regional barges, from FishDope reports
+    visible at the cutoff (text parse, D-D02) and the forage_observations change-log (D-D01).
+    Unknown is encoded as 0, known states as +-1, so pre-2013 days (no bait reports) are neutral."""
+    f: dict = {}
+    rd = fd_rep["report_date"]
+    def loc(k, start=1):  # visible reports in D-k..D-start with a San Diego or Mission Bay barge line
+        r = fd_rep[(rd >= D - pd.Timedelta(days=k)) & (rd <= D - pd.Timedelta(days=start))]
+        return r[(r["bb_sd_seen"] == 1) | (r["bb_mb_seen"] == 1)]
+    def either(x, c):  # max over the two local barges, ignoring a barge with no line
+        v = [x[f"bb_{b}_{c}"] for b in ("sd", "mb") if x[f"bb_{b}_seen"] and x[f"bb_{b}_{c}"] == x[f"bb_{b}_{c}"]]
+        return max(v) if v else None
+    r7 = loc(7)
+    f["bb_have"] = int(len(r7) > 0)
+    x = r7.iloc[-1] if len(r7) else None
+    if x is not None:
+        f["bb_loc_sardine"], f["bb_loc_anchovy"], f["bb_loc_mackerel"] = (
+            _pm(either(x, c)) for c in ("sardine", "anchovy", "mackerel"))
+        f["bb_loc_short"] = _pm(any(either(x, c) for c in ("out", "neg_sardine", "limited")))
+        f["bb_sd_sardine"] = _pm(x["bb_sd_sardine"] if x["bb_sd_seen"] else None)
+        f["bb_reg_squid"] = _pm(x["bb_n_squid"] > 0)
+        f["bb_reg_sardine"] = 2 * x["bb_n_sardine"] / x["bb_n_barges"] - 1
+        size, lag = either(x, "sardine_in"), [x[f"bb_{b}_lag"] for b in ("sd", "mb") if x[f"bb_{b}_lag"] == x[f"bb_{b}_lag"]]
+        f["bb_sardine_in_c"] = size - 6.0 if size is not None else 0.0
+        f["bb_stale"] = _pm(min(lag) >= 4 if lag else None)
+        sard = [either(r, "sardine") for _, r in r7.iterrows()]
+        sard = [v for v in sard if v is not None]
+        f["bb_sardine_frac_7"] = 2 * float(np.mean(sard)) - 1 if sard else 0.0
+    else:
+        for k in ("bb_loc_sardine", "bb_loc_anchovy", "bb_loc_mackerel", "bb_loc_short", "bb_sd_sardine",
+                  "bb_reg_squid", "bb_reg_sardine", "bb_sardine_in_c", "bb_stale", "bb_sardine_frac_7"):
+            f[k] = 0.0
+    # Sardine appeared (+1) / disappeared (-1): latest local line in D-3..D-1 vs latest in D-14..D-8.
+    now, before = loc(3), loc(14, 8)
+    f["bb_sardine_change"] = ((_pm(either(now.iloc[-1], "sardine")) - _pm(either(before.iloc[-1], "sardine"))) / 2
+                              if len(now) and len(before) else 0.0)
+    # Change-log rows: last known status per (barge, species) within D-14..D-1 (by report date).
+    if bb is not None:
+        w = bb[bb["report_date"] >= D - pd.Timedelta(days=14)]
+        last = w[w["species"] != "none"].groupby(["barge", "species"])["stocked"].last()
+        ls = last.xs("sardine", level="species") if "sardine" in last.index.get_level_values(1) else pd.Series(dtype=float)
+        locs = ls[ls.index.isin(["sd", "mb"])]
+        f["fo_loc_sardine"] = _pm(bool(locs.max())) if len(locs) else 0.0
+        f["fo_reg_sardine"] = 2 * float(ls.mean()) - 1 if len(ls) else 0.0
+        lq = last.xs("squid", level="species") if "squid" in last.index.get_level_values(1) else pd.Series(dtype=float)
+        f["fo_reg_squid"] = _pm(bool(lq.max())) if len(lq) else 0.0
+        w3 = w[(w["report_date"] >= D - pd.Timedelta(days=3)) & w["barge"].isin(["sd", "mb"])]
+        f["fo_loc_out"] = _pm(bool(w3["out"].max())) if len(w3) else 0.0
+        f["fo_loc_nrows_7"] = int(((w["report_date"] >= D - pd.Timedelta(days=7)) & w["barge"].isin(["sd", "mb"])).sum())
+        f["audit_bb_max_available_at"] = bb["available_at"].max() if len(bb) else pd.NaT
+    return f
+
+
 def _mf_features(D: pd.Timestamp, mf: pd.DataFrame) -> dict:
     """Latest NWS coastal-waters daytime forecast for D issued at or before the cutoff (D-C02)."""
     cand = mf[mf["target_date"] == D]
@@ -310,11 +368,13 @@ def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dic
 
 
 def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
-          fd_rep: pd.DataFrame | None = None, mf: pd.DataFrame | None = None) -> pd.DataFrame:
+          fd_rep: pd.DataFrame | None = None, mf: pd.DataFrame | None = None,
+          bb: pd.DataFrame | None = None) -> pd.DataFrame:
     t_av = trips["available_at"].to_numpy()
     m_av = mf["available_at"].to_numpy() if mf is not None else None
     f_av = fc["available_at"].to_numpy()
     d_av = fd_rep["available_at"].to_numpy() if fd_rep is not None else None
+    b_av = bb["available_at"].to_numpy() if bb is not None else None
     out = []
     for D in days:
         c = cutoff_for(D)
@@ -325,6 +385,9 @@ def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
             vd = _visible(fd_rep, d_av, c)
             row.update(_fd_features(D, vd))
             row.update(_env_features(D, vd))
+            vb = _visible(bb, b_av, c) if bb is not None else None
+            row.update(_bait_features(D, vd, vb))
+            assert bb is None or pd.isna(row["audit_bb_max_available_at"]) or row["audit_bb_max_available_at"] <= c
             assert pd.isna(row["audit_fd_max_available_at"]) or row["audit_fd_max_available_at"] <= c
         if mf is not None:
             row.update(_mf_features(D, _visible(mf, m_av, c)))
@@ -368,4 +431,8 @@ FEATURES = [
     "wt_all_3", "wt_all_7", "wt_local_7", "wt_local_14", "wt_trend", "wt_max_7", "wt_n_7", "wt_anom_7", "wt_c", "wt_c_local",
     "bait_sardine_7", "bait_squid_7", "bait_anchovy_7", "bait_mackerel_7",
     "mf_wind_max", "mf_gust", "mf_seas", "mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_swell_west",
+    # D-D01..D-D03: bait barges (FishDope bait report text and forage_observations change-log)
+    "bb_have", "bb_loc_sardine", "bb_loc_anchovy", "bb_loc_mackerel", "bb_loc_short", "bb_sd_sardine", "bb_reg_squid",
+    "bb_sardine_in_c", "bb_stale", "bb_reg_sardine", "bb_sardine_frac_7", "bb_sardine_change",
+    "fo_loc_sardine", "fo_reg_sardine", "fo_reg_squid", "fo_loc_out", "fo_loc_nrows_7",
 ]

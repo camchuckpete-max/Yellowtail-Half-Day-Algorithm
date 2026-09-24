@@ -19,7 +19,8 @@ CACHE_DIR = Path(__file__).resolve().parents[1] / "cache"
 
 # The only dump files read. Adding a table here is a logged decision.
 DUMPS = ("landing_counts.sql.gz", "conditions_daily.sql.gz", "fishdope_reports.sql.gz",  # D-020
-         "marine_forecast_products.sql.gz", "marine_forecasts.sql.gz")  # D-C02
+         "marine_forecast_products.sql.gz", "marine_forecasts.sql.gz",  # D-C02
+         "forage_observations.sql.gz")  # D-D01
 
 
 def _sha256(path: Path) -> str:

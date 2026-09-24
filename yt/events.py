@@ -236,6 +236,85 @@ def bait_mentions(text: str) -> dict[str, int]:
     return out
 
 
+# Bait-barge lines in the report's bait_report section (D-D02). One segment per barge, starting at
+# the barge name and ending at the next barge name; a segment counts only if it names a bait or an
+# outage (skips preamble such as "EB in San Diego and Mission Bay").
+BARGES = {"San Diego": "sd", "Mission Bay": "mb", "Oceanside": "oc", "Dana Point": "dp", "Newport": "nb",
+          "Nacho": "na", "San Pedro": "sp", "Long Beach": "lb", "Redondo": "rd", "CISCOS": "ci",
+          "Marina Del Rey": "md", "King Harbor": "kh", "Ventura": "ve"}
+_BARGE_RE = re.compile("|".join(re.escape(k) for k in BARGES) + r"|Click here|Everingham")
+_BB_SPECIES = {"sardine": re.compile(r"(?i)sardines?|\bdines?\b"), "anchovy": re.compile(r"(?i)anchov|\bchov(?:y|ies)\b"),
+               "mackerel": re.compile(r"(?i)mackerel|\bmac?ks?\b|\bmacs?\b"), "squid": re.compile(r"(?i)squid")}
+_BB_OUT = re.compile(r"(?i)out of bait|no bait|sold out|\bclosed\b")
+_BB_LIMITED = re.compile(r"(?i)limited|low on|box(?:es)? left|scoop|small amounts|while supplies|little to no")
+_BB_NEG = re.compile(r"(?i)\bno\s+((?:(?:sardines?|anchov\w*|mackerel|mac?ks?|macs?|squid|live)\s*(?:,|or|and|&|/)?\s*)+)")
+_BB_ASOF = re.compile(r"\((\d{1,2})[-/](\d{1,2})(?:[-/]\d{2,4})?[^)]*\)")
+_BB_SARD_SIZE = re.compile(r"(?i)(\d{1,2})(?:\s*[\u2033\"]?\s*(?:-|\u2013|to)\s*(\d{1,2}))?\s*(?:\u2033|\"|inch\w*)?\s*"
+                           r"(?:firecracker |thick |mix(?:ed)? )?sardines?"
+                           r"|sardines?\s+(\d{1,2})(?:\s*(?:-|\u2013|to)\s*(\d{1,2}))?\s*(?:\u2033|\"|inch)")
+
+
+def bait_barge_segments(text: str) -> dict[str, str]:
+    """Barge key -> its first segment in the bait report that names a bait or an outage."""
+    ms = list(_BARGE_RE.finditer(text))
+    out: dict[str, str] = {}
+    for i, m in enumerate(ms):
+        k = BARGES.get(m.group(0))
+        if k is None or k in out:
+            continue
+        seg = text[m.start(): ms[i + 1].start() if i + 1 < len(ms) else len(text)]
+        a = _BB_ASOF.search(seg)
+        seg = seg[: a.end()] if a else seg[:250]  # drop commentary after the "(M-D)" stamp
+        if _BB_OUT.search(seg) or any(r.search(seg) for r in _BB_SPECIES.values()):
+            out[k] = seg
+    return out
+
+
+def parse_barge(seg: str, report_day: datetime) -> dict:
+    """Stocked species (1 present / 0 stated absent or not listed), outage, limited supply,
+    largest sardine size (in), and the lag in days of the segment's "(M-D)" stamp. The stamp is
+    only a staleness measure: availability is always the report's (D-020)."""
+    negated = " ".join(m.group(1) for m in _BB_NEG.finditer(seg))
+    rest = _BB_NEG.sub(" ", seg)
+    f = {k: int(bool(r.search(rest))) for k, r in _BB_SPECIES.items()}
+    f["neg_sardine"] = int(bool(_BB_SPECIES["sardine"].search(negated)))
+    f["out"] = int(bool(_BB_OUT.search(seg)) and not any(f[k] for k in _BB_SPECIES))
+    f["limited"] = int(bool(_BB_LIMITED.search(seg)))
+    sizes = [int(b or a or d or c) for a, b, c, d in _BB_SARD_SIZE.findall(rest)]
+    sizes = [x for x in sizes if 1 <= x <= 14]
+    f["sardine_in"] = float(max(sizes)) if sizes and f["sardine"] else float("nan")
+    lag = float("nan")
+    a = _BB_ASOF.search(seg)
+    if a:
+        try:
+            d = datetime(report_day.year, int(a.group(1)), int(a.group(2)))
+            if d > report_day:  # stamp from the previous year (e.g. "(12-31)" in a January report)
+                d = d.replace(year=d.year - 1)
+            lag = float((report_day - d).days)
+            if lag > 60:  # stamp later than the report itself: not trusted
+                lag = float("nan")
+        except ValueError:
+            pass
+    f["lag"] = lag
+    return f
+
+
+def bait_barge_report(bait_text: str, report_day: datetime) -> dict:
+    """Per-report bait-barge columns: San Diego (sd) and Mission Bay (mb) detail, regional counts."""
+    segs = bait_barge_segments(bait_text)
+    out: dict = {}
+    for k in ("sd", "mb"):
+        f = parse_barge(segs[k], report_day) if k in segs else None
+        out[f"bb_{k}_seen"] = int(f is not None)
+        for c in ("sardine", "anchovy", "mackerel", "squid", "neg_sardine", "out", "limited", "sardine_in", "lag"):
+            out[f"bb_{k}_{c}"] = f[c] if f is not None else float("nan")
+    parsed = [parse_barge(s, report_day) for s in segs.values()]
+    out["bb_n_barges"] = len(parsed)
+    for c in ("sardine", "squid", "out"):
+        out[f"bb_n_{c}"] = sum(p[c] for p in parsed)
+    return out
+
+
 def region_texts(text: str) -> dict[str, str]:
     marks = [(m.start(), _KEY2REG[m.group(0)]) for m in _REGION_RE.finditer(text)]
     out = {r: [] for r in REGIONS}
@@ -288,11 +367,83 @@ def load_fishdope(db: sqlite3.Connection) -> tuple[pd.DataFrame, pd.DataFrame]:
         env = {"wt_all": float(np.median(wt_all)) if wt_all else np.nan, "wt_all_n": len(wt_all),
                "wt_local": float(np.median(wt_loc)) if wt_loc else np.nan,
                **{f"bait_local_{k}": v for k, v in bait_mentions(rt["local"]).items()}}
-        rows.append({"src_id": rid, "report_date": pd.Timestamp(day), "available_at": pd.Timestamp(t), **env,
+        bb = bait_barge_report("\n".join((n.get("bait_report") or {}).values()), day)
+        rows.append({"src_id": rid, "report_date": pd.Timestamp(day), "available_at": pd.Timestamp(t), **env, **bb,
                      "stamp_kind": "published" if p else "assumed_19pt", "migrated": bool(u and u.date().isoformat() == BULK_MIGRATION_DAY),
                      **{f"yt_{k}": v for k, v in c.items()}})
     df = pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)
     return df, pd.DataFrame(rejected, columns=["src_id", "report_date", "reason"])
+
+
+# ------------------------------------------------------------------ FishDope bait-barge change-log (D-D01)
+_FO_REF = re.compile(r"^fishdope_reports:(\d+)\|bait_report\|")
+_FO_DETAIL = re.compile(r"^(?P<barge>.+?) barge: (?P<what>.*?)(?: \(as of (?P<m>\d{1,2})-(?P<d>\d{1,2})\))?$")
+_FO_ITEM = re.compile(r"^(?P<sp>sardine|anchovy|mackerel|squid)(?: (?P<size>.+?))? (?P<st>stocked|absent)$")
+_FO_SIZE = re.compile(r"(\d{1,2})(?:-(\d{1,2}))?in")
+_FO_BARGE = {"San Diego": "sd", "SD": "sd", "Mission Bay": "mb", "Nacho": "na", "Nachos": "na", "Dana Point": "dp",
+             "Dana Point Harbor": "dp", "Oceanside": "oc", "Newport": "nb", "San Pedro": "sp", "Long Beach": "lb",
+             "Long beach": "lb", "Redondo": "rd", "Redondo Beach": "rd", "King Harbor": "kh", "CISCOS": "ci",
+             "Marina Del Rey": "md", "Inseine": "md", "Inseine MDR": "md", "Ventura": "ve"}
+
+
+def load_bait_barge(db: sqlite3.Connection, fd_rep: pd.DataFrame, fd_rej: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
+    """FishDope bait-barge rows of `forage_observations` (category bait_barge, source fishdope).
+    Each row is tied to the FishDope report it was extracted from (`source_ref`); it becomes
+    available exactly when that report does (D-020 availability, `fd_rep`). Rows whose report
+    cannot be linked, was rejected by the D-020 guards, or whose observed_date differs from the
+    report date are dropped. The "(as of M-D)" stamp is kept only as a lag (report day - stamp,
+    >= 0), never as an availability time. Returns (rows sorted by available_at, linkage stats)."""
+    rep = fd_rep.set_index("src_id")[["report_date", "available_at"]]
+    rejected = set(fd_rej["src_id"])
+    st = {"rows": 0, "no_ref": 0, "rejected_report": 0, "unknown_report": 0, "date_mismatch": 0,
+          "unparsed_detail": 0, "asof_implausible": 0, "kept": 0}
+    rows = []
+    q = """SELECT id, observed_date, detail, source_ref FROM forage_observations
+           WHERE category='bait_barge' AND source='fishdope'"""
+    for fid, od, detail, ref in db.execute(q):
+        st["rows"] += 1
+        m = _FO_REF.match(ref or "")
+        if not m:
+            st["no_ref"] += 1; continue
+        rid = int(m.group(1))
+        if rid in rejected:
+            st["rejected_report"] += 1; continue
+        if rid not in rep.index:
+            st["unknown_report"] += 1; continue
+        rd, av = rep.loc[rid, "report_date"], rep.loc[rid, "available_at"]
+        if pd.Timestamp(od) != rd:
+            st["date_mismatch"] += 1; continue
+        m = _FO_DETAIL.match(detail or "")
+        barge = _FO_BARGE.get(m.group("barge")) if m else None
+        if barge is None:
+            st["unparsed_detail"] += 1; continue
+        what = m.group("what")
+        it = _FO_ITEM.match(what)
+        if it:
+            sp, stocked, out = it.group("sp"), int(it.group("st") == "stocked"), 0
+            sz = [int(b or a) for a, b in _FO_SIZE.findall(it.group("size") or "")]
+            size = float(max(sz)) if sz else float("nan")
+        elif re.match(r"(?i)closed|no bait", what):
+            sp, stocked, out, size = "none", 0, 1, float("nan")
+        else:  # "unknown (call for info)", "bait available (species unstated)"
+            sp, stocked, out, size = "none", 0, 0, float("nan")
+        lag = float("nan")
+        if m.group("m"):
+            try:
+                d = pd.Timestamp(rd.year, int(m.group("m")), int(m.group("d")))
+                if d > rd:
+                    d = d - pd.DateOffset(years=1)
+                lag = float((rd - d).days)
+                if lag > 60:  # >60 d stale, or later than the report date: lag not trusted (never a time)
+                    st["asof_implausible"] += 1
+                    lag = float("nan")
+            except ValueError:
+                pass
+        rows.append({"src_id": fid, "report_id": rid, "report_date": rd, "available_at": av, "barge": barge,
+                     "species": sp, "stocked": stocked, "out": out, "size_in": size, "asof_lag": lag})
+        st["kept"] += 1
+    df = pd.DataFrame(rows).sort_values(["available_at", "src_id"], kind="stable").reset_index(drop=True)
+    return df, st
 
 
 # ------------------------------------------------------------------ NWS coastal waters forecast (D-C02)

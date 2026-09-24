@@ -576,3 +576,7 @@ monotone chlorophyll pattern within pier-temperature bands (<64 °F 4.1/4.8/3.4 
 21/22/16 %, ≥68 °F 30/26/28 % for low/mid/high chl). Verdict: no detectable effect, but the test is
 weak — it excludes 2014–2020, which holds most warm-water trips. Re-run when the backfill completes.
 Goal D ledger +10.
+D-048 addendum (Muse, 061622e, ERDDAP metadata): the stored chlorophyll products are *not* fast — SNPP
+science quality has a documented 15-day latency (reprocessed), NOAA-20 "near real-time" runs ~15 days
+behind. The owner's 1-day rule therefore rests on faster feeds that exist elsewhere (e.g. NASA NRT
+L3), not on the products stored here; results with chlorophyll are conditional on that assumption.

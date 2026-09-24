@@ -307,8 +307,19 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
         first = test["date"].min()
         train = df[df["date"] < first - pd.Timedelta(days=1)]
         assert train["date"].max() < first - pd.Timedelta(days=1)
-        yi, pi = _inner_oof(train, spec)
-        thr, tinfo = _pick_threshold(yi, pi, spec.threshold_rule) if len(yi) else (0.5, {"rule": "default 0.5"})
+        if spec.threshold_rule.startswith("insample_"):
+            # D-035: threshold from the fitted model's own training-window predictions (training
+            # data only). For short histories (e.g. SST era: one training year) where no inner
+            # walk-forward fold exists.
+            trs0 = _subset(train, spec)
+            m0 = Model(spec).fit(trs0[spec.features], trs0["y"].to_numpy(),
+                                 recency_weights(trs0["date"], first, spec))
+            thr, tinfo = _pick_threshold(trs0["y"].to_numpy(), m0.predict(trs0[spec.features]),
+                                         spec.threshold_rule[len("insample_"):])
+            tinfo = {**tinfo, "source": "in-sample training predictions"}
+        else:
+            yi, pi = _inner_oof(train, spec)
+            thr, tinfo = _pick_threshold(yi, pi, spec.threshold_rule) if len(yi) else (0.5, {"rule": "default 0.5"})
         # Threshold is fixed per fold (chosen from data before the fold); the model itself is
         # refit per chunk. Each chunk trains only on days < chunk start - 1 day (D-026).
         chunks = ([(name, test)] if spec.retrain == "year" else

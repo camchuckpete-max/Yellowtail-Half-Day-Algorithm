@@ -1,0 +1,27 @@
+dev 2020-2023 days with SST: 1267 rate 0.163
+             size   mean
+sst_sd_last             
+(50, 60]      321  0.009
+(60, 62]      169  0.089
+(62, 64]      196  0.087
+(64, 66]       94  0.202
+(66, 68]      154  0.227
+(68, 70]      153  0.268
+(70, 72]      126  0.452
+(72, 80]       54  0.352
+      rate    sst  sst_max
+date                      
+2020  0.24  65.21    74.51
+2021  0.15  63.67    73.12
+2022  0.13  64.46    74.82
+2023  0.14  63.58    71.57
+sst_sd_last        n=1267 univariate AUC=0.779
+sst_sd_7           n=1267 univariate AUC=0.776
+sst_sd_max30       n=1267 univariate AUC=0.754
+sst_tiles_max      n=1267 univariate AUC=0.780
+sst_cor_last       n=1267 univariate AUC=0.775
+sst_warm_frac      n=1267 univariate AUC=0.707
+sst_offshore_grad  n=1267 univariate AUC=0.394
+sst_sd_trend7      n=1261 univariate AUC=0.539
+chl_sd_last        n=753 univariate AUC=0.421
+cur_sd_north_3     n=1267 univariate AUC=0.494

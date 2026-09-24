@@ -397,3 +397,21 @@ GOES-West SST is excluded (patchy 2023-10+). Features `sst_*`, `chl_*`, `cur_*`:
 last value / 7-day mean / 7-day trend / 30-day max, Coronados and 9-Mile SST, offshore minus
 coast gradient, share of tiles ≥ 68 °F, max tile SST, log chlorophyll, current speed and
 northward component. All are NaN before 2020.
+
+## D-035 Goal C SST track results (train 2020+, dev folds 2021–2023, yearly-frozen)
+Sweeps C4 (15 configs), C6 (14), C7 (8); EDA on dev 2020–2023 in `sweeps/C5_sst_eda_output.txt`.
+- SD-coast SST (lagged 2 days) has a strong monotone relation with the label on dev days:
+  <60 °F 1%, 60–64 °F 9%, 64–68 °F 20–23%, 68–70 °F 27%, 70–72 °F 45%, >72 °F 35%.
+  Univariate AUC 0.78; coast warmer than offshore and lower chlorophyll also help (0.61, 0.58
+  when flipped); SST trend, currents add nothing.
+- Best: **SST alone** (1 feature, logistic) AUC 0.803, Brier 0.1068 vs season-only S0 AUC
+  0.762–0.769, Brier 0.1115. Adding season, gradient, chlorophyll, forecasts or boosting does
+  not improve ranking with 1–3 training years.
+- Yes/no: every model incl. S0 lands at MCC 0.28–0.30 once thresholds are chosen properly
+  (S0 0.304 by calling "yes" through summer, recall 0.93). SST's gain is in ranking/probability
+  quality, not in the hard call. B1 (uses catch data) is 0.417 on these folds.
+- New threshold rule `insample_*` (threshold from the fitted model's own training predictions;
+  training data only): needed because the 2021 fold has a single training year and no inner
+  walk-forward fold, which previously forced the 0.5 default and zero calls.
+Goal 1 re-run on dev 2012–2023 (D-033): B1 0.554; e005 0.581 (CI of gain [+0.009, +0.045]),
+e009 0.580, e007 0.578, eB01 0.577 — above B1 over twelve years, still short of the +0.05 bar.

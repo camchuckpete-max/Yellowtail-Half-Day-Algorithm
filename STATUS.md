@@ -1,12 +1,14 @@
 # Status
 
-_Updated after parallel round 2 + tides (source commit 8b48084)._
+_Updated after Goal C iteration 1 and the split change to dev 2012–2023 (source commit cfae8af)._
 
 | Goal | Status |
 |---|---|
-| 1 — noticeably beat "repeat yesterday" | **Not met.** Dev 2012–2016: best 0.633 vs B1 0.606 (target 0.656). 494 configurations tried across 6 agents + coordinator; ceiling check shows no threshold rule can reach the bar with current inputs (D-030). |
+| 1 — noticeably beat "repeat yesterday" | **Not met.** Dev 2012–2023 (D-033): best e005 0.581 vs B1 0.554 (+0.027, CI [+0.009, +0.045]; bar +0.05). Earlier, dev 2012–2016: best 0.633 vs 0.606 after 494 configurations (D-030). |
 | 2 — fewest variables matching Goal 1 | Not started (goals worked in order, D-018). |
 | 3 — breakout precision ≥ 40% (3-day window) | Not started (D-018). |
+
+| C — conditions only (no fish counts, no FishDope) | Iteration 1 done (D-031–D-035). Forecast era (dev 2012–2016): nothing beats season-only (AUC 0.714 vs 0.709). SST era (dev 2021–2023): **SST alone AUC 0.803 vs season 0.762**, better Brier; yes/no MCC ≈ 0.30 for both. |
 
 ## What we know
 - B1 ("most recent visible day had a half-day yellowtail") is a strong rule: dev MCC 0.606.
@@ -23,7 +25,7 @@ _Updated after parallel round 2 + tides (source commit 8b48084)._
 FishDope text (mention counts, sentence-level, spot-level), water temperature from text, bait barges, NWS forecasts (wind, swell, seas, advisories), tides, moon, fleet/boat state, species mix, trip-level model, latent-state filter, monthly refit, recency weighting, recalibration, regime thresholds, boosting/ensembles.
 
 ## Holdout
-Never accessed (0 of 3 allowed scorings used). Holdout = days ≥ 2017-01-01.
+Never accessed (0 of 3 allowed scorings used). Holdout = days ≥ 2024-01-01 (D-033).
 
 ## Waiting on
 Source backfill: 2017 is partial (102 days); 2018–2025 not yet loaded. SST/chlorophyll

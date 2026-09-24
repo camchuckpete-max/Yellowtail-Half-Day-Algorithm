@@ -1,0 +1,16 @@
+# Goal C configurations scored on dev: 15
+C_sst_S0_logreg_C0.1                 mcc=0.181 auc=0.7662 brier=0.1110 acc=0.716 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.313, '2023': 0.213}
+C_sst_S0_logreg_C1.0                 mcc=0.202 auc=0.7623 brier=0.1117 acc=0.745 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.309, '2023': 0.264}
+C_sst_SST1_logreg_C0.1               mcc=0.252 auc=0.8005 brier=0.1074 acc=0.832 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.267, '2023': 0.425}
+C_sst_SST1_logreg_C1.0               mcc=0.235 auc=0.8028 brier=0.1068 acc=0.834 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.241, '2023': 0.411}
+C_sst_S0+SST1_logreg_C0.1            mcc=0.172 auc=0.7817 brier=0.1097 acc=0.792 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.159, '2023': 0.301}
+C_sst_S0+SST1_logreg_C1.0            mcc=0.212 auc=0.7643 brier=0.1129 acc=0.756 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.282, '2023': 0.326}
+C_sst_S0+SST_logreg_C0.1             mcc=0.199 auc=0.7720 brier=0.1111 acc=0.749 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.275, '2023': 0.292}
+C_sst_S0+SST_logreg_C1.0             mcc=0.199 auc=0.7555 brier=0.1165 acc=0.721 B1=0.417 base_rate=0.140 folds={'2021': 0.063, '2022': 0.288, '2023': 0.267}
+C_sst_S0+SSTX_logreg_C0.1            mcc=0.213 auc=0.7657 brier=0.1125 acc=0.747 B1=0.417 base_rate=0.140 folds={'2021': 0.0, '2022': 0.301, '2023': 0.318}
+C_sst_S0+SSTX_logreg_C1.0            mcc=0.198 auc=0.7374 brier=0.1206 acc=0.716 B1=0.417 base_rate=0.140 folds={'2021': -0.066, '2022': 0.301, '2023': 0.319}
+C_sst_S0+OCN_logreg_C0.1             mcc=0.224 auc=0.7644 brier=0.1132 acc=0.759 B1=0.417 base_rate=0.140 folds={'2021': -0.051, '2022': 0.301, '2023': 0.368}
+C_sst_S0+OCN_logreg_C1.0             mcc=0.196 auc=0.7387 brier=0.1227 acc=0.707 B1=0.417 base_rate=0.140 folds={'2021': -0.046, '2022': 0.291, '2023': 0.325}
+C_sst_S0+OCN+FCST_logreg_C0.1        mcc=0.239 auc=0.7313 brier=0.1229 acc=0.764 B1=0.417 base_rate=0.140 folds={'2021': -0.023, '2022': 0.332, '2023': 0.403}
+C_sst_S0+OCN+FCST_logreg_C1.0        mcc=0.212 auc=0.7098 brier=0.1364 acc=0.739 B1=0.417 base_rate=0.140 folds={'2021': -0.033, '2022': 0.332, '2023': 0.373}
+C_sst_S0+OCN+FCST_hgb_C1.0           mcc=0.146 auc=0.6521 brier=0.1340 acc=0.746 B1=0.417 base_rate=0.140 folds={'2021': -0.08, '2022': 0.224, '2023': 0.257}

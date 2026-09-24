@@ -16,5 +16,8 @@
 | agent D | branch `agent/D-bait-barge`: D_sweep1 (12) + D_sweep2 (8) + finalist dev + strict (2) | 22 | 437 |
 | agent E | branch `agent/E-trip-level`: E sweeps (28) + finalist dev + strict (2) | 30 | 467 |
 | agent F | branch `agent/F-latent-state`: F_sweep1..3 (9+8+7) + 2 bootstrap re-runs + 1 strict | 27 | 494 |
+| iter 6 | Goal 1 finalists e005, eB01, e009, e007 on dev 2012–2023 | 4 | 498 |
+
+**Goal C (conditions only) — separate ledger:** C1 30, C2 60, C3 20, C4 15, C6 14, C7 8 = 147.
 
 Holdout scorings for Goal 1: 0 of 3 allowed.

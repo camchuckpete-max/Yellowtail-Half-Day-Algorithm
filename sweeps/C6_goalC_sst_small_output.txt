@@ -1,0 +1,15 @@
+# Goal C configurations scored on dev: 14
+C_sst_sst_logreg_C0.03             mcc=0.233 auc=0.7945 brier=0.1090 prec=0.343 rec=0.336 folds={'2021': 0.0, '2022': 0.243, '2023': 0.433}
+C_sst_sst_logreg_C1.0              mcc=0.235 auc=0.8028 brier=0.1068 prec=0.377 rec=0.286 folds={'2021': 0.0, '2022': 0.241, '2023': 0.411}
+C_sst_sst+grad_logreg_C0.03        mcc=0.241 auc=0.7800 brier=0.1100 prec=0.342 rec=0.357 folds={'2021': 0.0, '2022': 0.302, '2023': 0.395}
+C_sst_sst+grad_logreg_C1.0         mcc=0.236 auc=0.7793 brier=0.1106 prec=0.303 rec=0.436 folds={'2021': 0.0, '2022': 0.282, '2023': 0.414}
+C_sst_sst+grad+chl_logreg_C0.03    mcc=0.247 auc=0.7828 brier=0.1097 prec=0.333 rec=0.393 folds={'2021': 0.0, '2022': 0.299, '2023': 0.411}
+C_sst_sst+grad+chl_logreg_C1.0     mcc=0.259 auc=0.7791 brier=0.1105 prec=0.320 rec=0.457 folds={'2021': 0.0, '2022': 0.317, '2023': 0.443}
+C_sst_tmax+grad_logreg_C0.03       mcc=0.239 auc=0.7799 brier=0.1098 prec=0.307 rec=0.436 folds={'2021': 0.0, '2022': 0.286, '2023': 0.404}
+C_sst_tmax+grad_logreg_C1.0        mcc=0.219 auc=0.7828 brier=0.1104 prec=0.286 rec=0.436 folds={'2021': 0.0, '2022': 0.264, '2023': 0.374}
+C_sst_sst+sst7+grad_logreg_C0.03   mcc=0.233 auc=0.7868 brier=0.1093 prec=0.323 rec=0.379 folds={'2021': 0.0, '2022': 0.266, '2023': 0.428}
+C_sst_sst+sst7+grad_logreg_C1.0    mcc=0.216 auc=0.7789 brier=0.1112 prec=0.288 rec=0.421 folds={'2021': 0.0, '2022': 0.281, '2023': 0.362}
+C_sst_S0+sst+grad_logreg_C0.03     mcc=0.255 auc=0.7795 brier=0.1099 prec=0.333 rec=0.414 folds={'2021': 0.0, '2022': 0.299, '2023': 0.426}
+C_sst_S0+sst+grad_logreg_C1.0      mcc=0.204 auc=0.7645 brier=0.1136 prec=0.270 rec=0.443 folds={'2021': 0.0, '2022': 0.288, '2023': 0.289}
+C_sst_sst+grad_hgb_mono_C1.0       mcc=0.228 auc=0.7872 brier=0.1127 prec=0.367 rec=0.286 folds={'2021': 0.0, '2022': 0.202, '2023': 0.433}
+C_sst_sst+grad+chl_hgb_mono_C1.0   mcc=0.174 auc=0.7602 brier=0.1126 prec=0.362 rec=0.179 folds={'2021': 0.0, '2022': 0.163, '2023': 0.344}

@@ -54,9 +54,30 @@ def open_db(manifest: dict) -> sqlite3.Connection:
         tmp = path.with_suffix(".tmp")
         tmp.unlink(missing_ok=True)
         db = sqlite3.connect(tmp)
+        db.execute("PRAGMA foreign_keys=OFF")
         for name in DUMPS:
+            # Stream in statement-aligned chunks: large dumps exceed SQLite's max query size
+            # when passed to executescript in one piece (D-038).
             with gzip.open(SOURCE_REPO / "db_dump" / name, "rt") as f:
-                db.executescript("PRAGMA foreign_keys=OFF;" + f.read())
+                batch: list[str] = []
+                stmt: list[str] = []
+                size = 0
+                for line in f:
+                    stmt.append(line)
+                    s = "".join(stmt) if len(stmt) > 1 else line
+                    if sqlite3.complete_statement(s):  # statement may span lines (newlines in text)
+                        stmt = []
+                        if s.strip().upper() in ("BEGIN TRANSACTION;", "COMMIT;"):
+                            continue  # the dump's own transaction; each batch gets its own below
+                        batch.append(s)
+                        size += len(s)
+                        if size > 50_000_000:
+                            db.executescript("BEGIN;" + "".join(batch) + "COMMIT;")
+                            batch, size = [], 0
+                if stmt:
+                    batch.append("".join(stmt))
+                if batch:
+                    db.executescript("BEGIN;" + "".join(batch) + "COMMIT;")
         db.commit()
         db.close()
         tmp.rename(path)

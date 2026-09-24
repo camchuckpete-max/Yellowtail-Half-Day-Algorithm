@@ -440,3 +440,11 @@ claude/clever-volta-xta9qm): blended SST 2010–2019, kelp-bed sub-zone SST, cur
 buoy history 2010–2021, CUTI/BEUTI upwelling, pre-2021 chlorophyll, with per-row point-in-time
 metadata. Muse's clarifying questions and our answers are in `data_requests/0001-*.md` on that
 branch. When the data lands: log the split for the longer SST history before evaluating on it.
+
+## D-038 Streaming dump loader
+Source dumps grew past SQLite's maximum query size (`buoy_observations`; `conditions_daily` with
+the SST backfill), so `source.open_db` no longer passes a whole dump to `executescript`. It now
+accumulates complete statements (statements can span lines because text fields contain newlines),
+drops the dump's own BEGIN/COMMIT, and executes ~50 MB batches each in its own transaction.
+Verified on the pinned snapshot (source 7121831): landing_counts, conditions_daily,
+fishdope_reports and marine_forecasts are row-for-row identical to the previous loader's output.

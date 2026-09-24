@@ -1,0 +1,63 @@
+# Goal D configurations scored on dev: 3; source bfd3a15; trips 10353
+
+T0+pier CALIBRATED: AUC=0.694 Brier=0.1341
+         band  trips  predicted_mean  observed_rate
+         0-5%    987        0.017252       0.125633
+        5-15%   3681        0.125898       0.119804
+15-35% (~25%)   1818        0.194065       0.167767
+35-65% (~50%)    736        0.536287       0.392663
+65-85% (~75%)    288        0.771830       0.638889
+      85-100%     48        0.930680       0.520833
+
+T0+pier+climate CALIBRATED: AUC=0.715 Brier=0.1503
+         band  trips  predicted_mean  observed_rate
+         0-5%   1211        0.019145       0.109001
+        5-15%   3320        0.114944       0.089759
+15-35% (~25%)   1708        0.261690       0.272834
+35-65% (~50%)    792        0.431778       0.265152
+65-85% (~75%)     93        0.694002       0.311828
+      85-100%    434        0.998779       0.536866
+
+Rule tree (depth 3, leaf >= 150 trips), walk-forward: AUC=0.718 Brier=0.1381
+         band  trips  predicted_mean  observed_rate
+         0-5%   1072        0.020583       0.066231
+        5-15%   2404        0.098413       0.114393
+15-35% (~25%)   2462        0.230469       0.205524
+35-65% (~50%)    971        0.470859       0.357364
+65-85% (~75%)    265        0.705403       0.501887
+      85-100%      0             NaN            NaN
+
+Rules of the tree trained on 2010-2022 (weights = [no yt, yt] training trips):
+|--- hc_pier_wtmp_f <= 68.4
+|   |--- hc_pier_wtmp_f <= 61.7
+|   |   |--- hc_pier_wtmp_f <= 58.8
+|   |   |   |--- weights: [690.0, 6.0] class: 0
+|   |   |--- hc_pier_wtmp_f >  58.8
+|   |   |   |--- weights: [1272.0, 75.0] class: 0
+|   |--- hc_pier_wtmp_f >  61.7
+|   |   |--- hc_ci_oni <= 0.0
+|   |   |   |--- weights: [1990.0, 204.0] class: 0
+|   |   |--- hc_ci_oni >  0.0
+|   |   |   |--- weights: [1383.0, 340.0] class: 0
+|--- hc_pier_wtmp_f >  68.4
+|   |--- trip_twilight <= 0.5
+|   |   |--- hc_ci_oni <= 0.1
+|   |   |   |--- weights: [317.0, 125.0] class: 0
+|   |   |--- hc_ci_oni >  0.1
+|   |   |   |--- weights: [453.0, 540.0] class: 1
+|   |--- trip_twilight >  0.5
+|   |   |--- weights: [247.0, 32.0] class: 0
+
+
+Observed hit rate by pier water temp (°F, last 24h before the 9pm cutoff) x trip type, dev 2012-2023:
+            size                 mean                
+trip          AM   PM twilight     AM     PM twilight
+pier_wtmp_f                                          
+(0, 60]      593  433       27  0.035  0.023    0.000
+(60, 62]     485  399       41  0.078  0.095    0.000
+(62, 64]     509  447       71  0.112  0.125    0.014
+(64, 66]     522  485      120  0.128  0.198    0.000
+(66, 68]     487  467      151  0.201  0.212    0.060
+(68, 70]     370  350      147  0.278  0.374    0.088
+(70, 72]     288  269      118  0.431  0.532    0.169
+(72, 99]     187  174       57  0.487  0.667    0.035

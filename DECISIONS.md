@@ -499,3 +499,18 @@ rows were silently included in tile-comparison features (`sst_offshore_grad`, `s
 `sst_tiles_max`, `sst_tiles_ge68`, …) → those now use the 10 `t_*` tiles only. Goal C results
 (D-035–D-037) predate the kelp rows and are unaffected; Goal D sweeps do not use these features.
 Full PIT suite passes on dc526dd after the fixes.
+
+## D-043 Goal D results on the complete source (bfd3a15): pier water temperature dominates
+Full PIT suite passes on bfd3a15 (complete 46254 / LJPC1 buoy data). Sweep D2 re-run (D2b):
+unchanged conclusions (season+trip 0.660; +pier water temp 0.743; +pier+climate 0.748; tide, upwelling,
+wind, in-trip observations add nothing). Sweep D3: isotonic calibration from inner walk-forward folds
+made ranking worse (AUC 0.743 → 0.694 / 0.715) — too few inner years; dropped. Rule tree (depth 3,
+leaf ≥ 150, walk-forward): AUC 0.718, held-out bands 0–5 % → 6.6 % observed … 65–85 % → 50 % observed;
+its top rule = pier water > 68.4 °F, daytime trip, ONI > 0.1.
+Descriptive (pooled dev 2012–2023, NOT held-out): hit rate by pier water °F (24 h before cutoff) —
+AM / PM / twilight: <60 3.5/2.3/0 %; 60–62 7.8/9.5/0; 62–64 11/12.5/1.4; 64–66 13/20/0; 66–68 20/21/6;
+68–70 28/37/9; 70–72 43/53/17; >72 49/67/3.5 %. Warm end (D4): ≥70 °F daytime by ONI: ≤0 21/38 %,
+0–0.5 47/60 %, 0.5–1 34/39 %, >1 69/83 % (AM/PM); warm water in June 4 %, Jul 37 %, Aug 53 %,
+Sep 67 %, Oct 60 %; after a 3-day cooling PM 72 % vs warming 51 %. No combination reaches 95 %.
+Top cells are dominated by 2015 (≥72 °F PM: 48 of 174 trips, 92 %). 3 + 1 configurations (D3, D4
+descriptive) added to the Goal D ledger.

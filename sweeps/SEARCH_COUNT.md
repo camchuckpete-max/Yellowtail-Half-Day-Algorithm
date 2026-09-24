@@ -20,6 +20,6 @@
 
 **Goal C (conditions only) — separate ledger:** C1 30, C2 60, C3 20, C4 15, C6 14, C7 8, C9 6 = 153.
 
-**Goal D (per trip, La Jolla boats, conditions only) — separate ledger:** D1 16, D2 18 = 34.
+**Goal D (per trip, La Jolla boats, conditions only) — separate ledger:** D1 16, D2 18, D2b 18 (re-run on complete data), D3 3, D4 descriptive = 55.
 
 Holdout scorings for Goal 1: 0 of 3 allowed.

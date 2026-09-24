@@ -1,0 +1,32 @@
+Pier >= 70F, daytime trips, by ONI x trip:
+                  size   mean
+oni         trip             
+(-9.0, 0.0] AM      73  0.205
+            PM      69  0.377
+(0.0, 0.5]  AM     251  0.470
+            PM     236  0.602
+(0.5, 1.0]  AM      62  0.339
+            PM      52  0.385
+(1.0, 9.0]  AM      89  0.685
+            PM      86  0.826
+
+Pier >= 70F, daytime, by 3-day trend x trip:
+              size   mean
+chg     trip             
+cooling AM     160  0.494
+        PM     153  0.719
+warming AM     315  0.432
+        PM     290  0.514
+
+Pier >=72F & PM & ONI>0.5: n=71 rate=0.732
+Pier >=71F & PM & ONI>0.5 & warming: n=70 rate=0.629
+
+By month, pier >= 70F daytime:
+date      6        7        8        9        10   11
+size  26.000  249.000  276.000  230.000  134.000  3.0
+mean   0.038    0.373    0.529    0.665    0.604  0.0
+
+Years contributing to pier >= 72F PM:
+date  2012   2014   2015   2016   2017   2018   2019   2020  2021  2022
+size   1.0  20.00  48.00  19.00  29.00  24.00  12.00  12.00   6.0  3.00
+mean   1.0   0.65   0.92   0.42   0.59   0.75   0.42   0.42   0.5  0.67

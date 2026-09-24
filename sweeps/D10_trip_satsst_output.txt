@@ -1,0 +1,18 @@
+# Goal D configurations scored on dev: 6; source ba64933; folds 2012-2019; trips 4733
+corr pier F vs sat la_jolla F: 0.882 | mean pier - sat: -0.95 F
+pier (D5 base)               AUC=0.745 Brier=0.1531 folds={2012: 0.653, 2013: 0.734, 2014: 0.842, 2015: 0.763, 2016: 0.651, 2017: 0.773, 2018: 0.854, 2019: 0.595}
+kelp-box sat instead of pier AUC=0.744 Brier=0.1507 folds={2012: 0.628, 2013: 0.763, 2014: 0.859, 2015: 0.788, 2016: 0.658, 2017: 0.768, 2018: 0.82, 2019: 0.586}
+pier + sat_lj                AUC=0.751 Brier=0.1507 folds={2012: 0.651, 2013: 0.743, 2014: 0.853, 2015: 0.747, 2016: 0.676, 2017: 0.779, 2018: 0.844, 2019: 0.618}
+pier + pier-minus-sat        AUC=0.747 Brier=0.1516 folds={2012: 0.642, 2013: 0.748, 2014: 0.853, 2015: 0.745, 2016: 0.674, 2017: 0.781, 2018: 0.842, 2019: 0.614}
+pier + sat lj/pl/sd/nc       AUC=0.752 Brier=0.1501 folds={2012: 0.646, 2013: 0.734, 2014: 0.853, 2015: 0.744, 2016: 0.683, 2017: 0.778, 2018: 0.839, 2019: 0.617}
+pier + lj-minus-offshore     AUC=0.743 Brier=0.1537 folds={2012: 0.652, 2013: 0.724, 2014: 0.844, 2015: 0.762, 2016: 0.652, 2017: 0.773, 2018: 0.854, 2019: 0.595}
+
+day trips 2012-2019: hit rate by pier band x (pier minus kelp-box satellite SST)
+                   mean                                            size                              
+gap   pier colder >1.5F within 1.5F pier warmer >1.5F pier colder >1.5F within 1.5F pier warmer >1.5F
+pier                                                                                                 
+<64               0.094       0.105             0.054               371        1298                37
+64-68             0.317       0.150             0.146               435         621               192
+68-72             0.610       0.359             0.262               351         482                84
+>=72              0.597       0.626             0.429                67         187                42
+exit 0

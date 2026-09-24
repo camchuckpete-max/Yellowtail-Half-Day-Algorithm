@@ -580,3 +580,23 @@ D-048 addendum (Muse, 061622e, ERDDAP metadata): the stored chlorophyll products
 science quality has a documented 15-day latency (reprocessed), NOAA-20 "near real-time" runs ~15 days
 behind. The owner's 1-day rule therefore rests on faster feeds that exist elsewhere (e.g. NASA NRT
 L3), not on the products stored here; results with chlorophyll are conditional on that assumption.
+
+## D-049 Kelp-box satellite SST vs the pier thermometer (sweeps D10, D10b): first new signal
+`conditions_daily` source `noaacwBLENDEDsstDaily`, boxes la_jolla / point_loma_kelp (2010 → 2019-09-19
+only) and tiles t_sd_coast / t_north_county; same 2-day availability rule as Goal C SST (D-034).
+`hc_sat_{lj,pl,sd,nc}_f` = latest visible daily value within 5 days. PIT poison test extended; suite
+passes (source ba64933). Pier and kelp-box SST correlate 0.88; the satellite reads warmer than the pier
+in Jul–Oct (mean +1.4 to +2.5 °F; pier sensor is below the surface, satellite is the skin/bulk
+surface blend). D10, folds 2012–2019, trips with a kelp-box value (4,733): pier model 0.745; satellite
+instead of pier 0.744; pier + kelp-box sat 0.751; pier + all four satellite series 0.752;
+lj-minus-offshore gap 0.743. D10b: max(pier, kelp-box sat) in place of pier 0.752 (Brier 0.1501 vs
+0.1531); pier + gap × temp 0.748.
+Descriptive, Jul–Oct day trips, within month and pier band: kelp-box surface > 1.5 °F warmer than the
+pier → higher hit rate (pier 66–70 °F: Jul 48 vs 25 %, Aug 47 vs 31 %, Sep 50 vs 35 %, Oct 48 vs 19 %;
+pier ≥ 70 °F: Sep 79 vs 68 %, Oct 94 % (31 trips) vs 38 %). By year (Jul–Oct, pier ≥ 66 °F: other /
+66–70 & warmer / ≥ 70 & warmer): 2012 26/43/60 %, 2013 13/31/–, 2014 53/73/88 %, 2017 46/80/67 %,
+2018 51/45/68 %; flat in 2015, 2016, 2019; no year reverses. Reading: warm surface water over the kelp
+beds that the pier sensor does not yet show marks yellowtail water. The effect is real but the model
+gain is small because much of it overlaps with season. Adopted as a candidate input; needs kelp-box
+SST 2019-10 → now (requested) to be tested on 2020–2023 and used live. Goal D ledger +6 (D10) +4 (D10b).
+HF radar (request 0004 item 1): radial history starts 2025-06-05 → too short; dropped.

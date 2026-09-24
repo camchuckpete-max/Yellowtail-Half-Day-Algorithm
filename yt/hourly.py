@@ -26,6 +26,8 @@ KELP_LAG_DAYS = 365      # D-045/D-046: no documented Kelpwatch release lag; PIT
 CHL_LAG_DAYS = 1          # D-048 (owner's decision): chlorophyll for day D-1 is usable at the D-1 21:00 cutoff
 CHL_SOURCES = ("noaacwNPPVIIRSSQchlaDaily", "noaacwN20VIIRSchlaDaily")
 CHL_ZONES = {"t_sd_coast": "sd", "t_north_county": "nc", "t_43_butterfly": "bf"}
+SAT_SST_LAG_DAYS = 2      # D-049: same rule as Goal C SST (events.OCEAN_LAG_DAYS, D-034)
+SAT_SST_ZONES = {"la_jolla": "lj", "point_loma_kelp": "pl", "t_sd_coast": "sd", "t_north_county": "nc"}
 SLA_LAG_DAYS = 2          # D-045: blended SSH daily product, same latency convention as SST
 # Trip windows (PT). New Seaforth times per Muse's 0002 notes; Sea Watch AM/PM UNCONFIRMED (same slots assumed).
 WINDOWS = {"hd_am": ("06:00", "11:30"), "hd_pm": ("12:30", "17:30"), "hd_unspecified": ("12:30", "17:30"),
@@ -83,6 +85,12 @@ def load(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     c["date"] = pd.to_datetime(c["condition_date"])
     c["logchl"] = np.log(c["chl"])
     out["chl"] = c.drop(columns=["condition_date", "chl"]).sort_values("date").reset_index(drop=True)
+    t = pd.read_sql(f"""SELECT condition_date, zone_id, sst_f FROM conditions_daily WHERE sst_f IS NOT NULL
+                        AND source='noaacwBLENDEDsstDaily' AND zone_id IN ({",".join("?" * len(SAT_SST_ZONES))})""",
+                    db, params=tuple(SAT_SST_ZONES))
+    t["date"] = pd.to_datetime(t["condition_date"])
+    t["available_at"] = t["date"] + pd.Timedelta(days=SAT_SST_LAG_DAYS - 1, hours=20)
+    out["satsst"] = t.drop(columns="condition_date").sort_values("available_at").reset_index(drop=True)
     return out
 
 
@@ -187,6 +195,12 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
         z3 = z[z["date"] > last_ok - pd.Timedelta(days=3)]["logchl"]
         f[f"hc_chl_{name}_3d"] = _mean(z3)
         f[f"hc_chl_{name}_anom30"] = f[f"hc_chl_{name}_3d"] - _mean(z["logchl"])
+    # --- satellite SST (blended, daily), D-049: latest visible day within 5 days, per box
+    tv = data["satsst"]
+    tv = tv[(tv["available_at"] <= cutoff) & (tv["available_at"] > cutoff - pd.Timedelta(days=5))]
+    for zone, name in SAT_SST_ZONES.items():
+        z = tv[tv["zone_id"] == zone].sort_values("date")
+        f[f"hc_sat_{name}_f"] = float(z["sst_f"].iloc[-1]) if len(z) else nan
     # --- EXPLANATORY: observed during the trip window (never a forecast input)
     pw = _slice(data["pier"], w0, w1)
     f["ex_pier_wtmp_trip"] = _mean(pw["wtmp_c"])
@@ -222,6 +236,7 @@ HC_FEATURES = ["hc_tide_start", "hc_tide_change", "hc_tide_range", "hc_tide_maxr
                "hc_kelp_lj_last", "hc_kelp_lj_anom", "hc_kelp_pl_last", "hc_kelp_pl_anom",
                "hc_san_wspd_24h", "hc_san_onshore_24h", "hc_san_wspd_prevpm", "hc_san_mslp_24h",
                "hc_san_mslp_chg24", "hc_san_relh_24h", "hc_san_vsby_24h",
-               "hc_chl_sd_3d", "hc_chl_sd_anom30", "hc_chl_nc_3d", "hc_chl_nc_anom30", "hc_chl_bf_3d", "hc_chl_bf_anom30"]
+               "hc_chl_sd_3d", "hc_chl_sd_anom30", "hc_chl_nc_3d", "hc_chl_nc_anom30", "hc_chl_bf_3d", "hc_chl_bf_anom30",
+               "hc_sat_lj_f", "hc_sat_pl_f", "hc_sat_sd_f", "hc_sat_nc_f"]
 EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip",
                "ex_san_wspd_trip", "ex_san_onshore_trip", "ex_san_wspd_max_trip", "ex_san_vsby_trip"]

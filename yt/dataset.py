@@ -5,9 +5,11 @@ import hashlib
 
 import pandas as pd
 
-from . import events, features, source
+from . import events, features, source, tripmodel
 
 WARMUP_DAYS = 30  # first 30 days of data are used only as history, never as targets
+# Trip-level model variants precomputed as day features (D-E01): column prefix -> tripmodel.build kwargs
+TRIP_VARIANTS = {"tm": {"C": 0.1}, "tmb": {"C": 0.1, "boats": True}}
 
 
 def build(strict: bool = False) -> tuple[pd.DataFrame, dict]:
@@ -29,6 +31,13 @@ def build(strict: bool = False) -> tuple[pd.DataFrame, dict]:
         lab = lab[lab["date"] >= first].reset_index(drop=True)
         feat = features.build(trips, fc, pd.DatetimeIndex(lab["date"]), fd_rep, mf)
         df = feat.merge(lab, on="date", how="inner")
+        days = pd.DatetimeIndex(lab["date"])
+        rows = tripmodel.candidate_rows(trips, tripmodel.all_days(trips, days), strict=strict)
+        for pre, kw in TRIP_VARIANTS.items():
+            df = df.merge(tripmodel.build(trips, days, prefix=pre, strict=strict, rows=rows, **kw),
+                          on="date", how="left")
+            a = df[f"audit_{pre}_label_at"]
+            assert (a.isna() | (a <= df["cutoff"])).all()  # every trip label used was public by the cutoff
         df.to_pickle(path)
     manifest = dict(manifest, strict_timing=strict, dataset_cache_key=key,
                     n_rows=len(df), first_date=str(df["date"].min().date()),
@@ -42,6 +51,6 @@ def build(strict: bool = False) -> tuple[pd.DataFrame, dict]:
 def _code_hash() -> str:
     from pathlib import Path
     h = hashlib.sha256()
-    for name in ("events.py", "features.py", "dataset.py"):
+    for name in ("events.py", "features.py", "dataset.py", "tripmodel.py"):
         h.update((Path(__file__).parent / name).read_bytes())
     return h.hexdigest()

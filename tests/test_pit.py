@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from yt import dataset, events, features, source  # noqa: E402
+from yt import dataset, events, features, source, tripmodel  # noqa: E402
 
 
 def _load():
@@ -54,6 +54,36 @@ def test_future_events_do_not_change_features(n_days: int = 60, seed: int = 7):
                                    mf[mf["available_at"] <= c])[cols]
         pd.testing.assert_frame_equal(base, poisoned, check_dtype=False, obj=f"poisoned {D.date()}")
         pd.testing.assert_frame_equal(base, truncated, check_dtype=False, obj=f"truncated {D.date()}")
+
+
+def test_trip_model_features_use_only_public_trips(n_days: int = 5, seed: int = 11):
+    """D-E01: the trip-level models are fit inside the feature. Poisoning (counts, anglers and boat
+    names) or deleting every trip public after cutoff(D) must not change the day-D trip-model features,
+    and the candidate-row inputs for D must equal those built from the truncated table."""
+    trips, _, _, _ = _load()
+    rng = np.random.default_rng(seed)
+    all_days = pd.DatetimeIndex(sorted(trips.loc[trips["is_hd_fishing"], "fished_date"].unique()))
+    all_days = all_days[(all_days >= pd.Timestamp("2011-01-01")) & (all_days < pd.Timestamp("2017-01-01"))]
+    days = pd.DatetimeIndex(rng.choice(all_days, n_days, replace=False)).sort_values()
+    names = trips["boat"].unique()
+    for D in days:
+        c = features.cutoff_for(D)
+        kw = {"C": 0.1, "boats": True, "refit_days": 7}
+        base = tripmodel.build(trips, pd.DatetimeIndex([D]), **kw)
+        pt = _poison(trips, c, rng, ["yt", "bonito", "barracuda", "calico", "rockfish", "anglers"])
+        after = pt["available_at"] > c
+        pt.loc[after, "boat"] = rng.choice(names, after.sum())
+        poisoned = tripmodel.build(pt, pd.DatetimeIndex([D]), **kw)
+        truncated = tripmodel.build(trips[trips["available_at"] <= c], pd.DatetimeIndex([D]), **kw)
+        assert base["tm_p"].notna().all(), D
+        pd.testing.assert_frame_equal(base, poisoned, check_dtype=False, obj=f"trip model poisoned {D.date()}")
+        pd.testing.assert_frame_equal(base, truncated, check_dtype=False, obj=f"trip model truncated {D.date()}")
+        assert base[f"audit_tm_label_at"].iloc[0] <= c
+        # candidate-row inputs for D (labels excluded) from the full vs truncated table
+        full = tripmodel.candidate_rows(trips, pd.DatetimeIndex([D]))
+        trunc = tripmodel.candidate_rows(trips[trips["available_at"] <= c], pd.DatetimeIndex([D]))
+        x = [k for k in full.columns if k not in ("sailed", "yt")]
+        pd.testing.assert_frame_equal(full[x], trunc[x], check_dtype=False, obj=f"candidate rows {D.date()}")
 
 
 def test_target_day_catch_is_never_visible():
@@ -108,4 +138,5 @@ if __name__ == "__main__":
     test_fishdope_same_day_report_never_visible()
     test_dataset_audit_columns_respect_cutoff()
     test_future_events_do_not_change_features()
+    test_trip_model_features_use_only_public_trips()
     print("PIT tests passed")

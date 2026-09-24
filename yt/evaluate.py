@@ -92,6 +92,8 @@ class Model:
         X = self._tx(X)
         self.med = X.median(numeric_only=True).fillna(0.0)
         Xf = X.fillna(self.med)
+        if self.spec.model == "column":  # D-E02: the (single) feature is already a probability; nothing fit
+            return self
         if self.spec.model == "logreg":
             self.mu = Xf.mean()
             self.sd = Xf.std(ddof=0).replace(0, 1.0)
@@ -121,6 +123,8 @@ class Model:
             w = self.spec.extra.get("w_logreg", 0.5)
             return w * self.parts["logreg"].predict(X) + (1 - w) * self.parts["hgb"].predict(X)
         Xf = self._tx(X).fillna(self.med)
+        if self.spec.model == "column":
+            return Xf.iloc[:, 0].to_numpy().clip(0.0, 1.0)
         if self.spec.model == "logreg":
             Xf = self._z(Xf)
         return self.clf.predict_proba(Xf.to_numpy())[:, 1]
@@ -128,6 +132,8 @@ class Model:
     def weights(self) -> dict:
         if self.spec.model in ("logreg_split", "ens", "avg_subsets"):
             return {str(k): m.weights() for k, m in self.parts.items()}
+        if self.spec.model == "column":
+            return {"column": self.spec.features[0], "impute_median": self.med.to_dict()}
         w = {"transform": "log1p on *per_trip* features, then median impute"
                            + (f", standardize, clip z to +-{self.spec.clip_z}" if self.spec.model == "logreg" else ""),
              "impute_median": self.med.to_dict()}

@@ -31,12 +31,22 @@ from scipy.optimize import minimize
 from .features import LAT_L
 
 PARAMS = ["a0", "a1", "a2", "b0", "b1", "b2", "lq1", "lq0", "ltau", "lr1", "lr0", "ltau_tq",
-          "lc1", "lc0", "lg1", "lg0", "u1", "u0", "v"]
+          "lc1", "lc0", "lg1", "lg0", "u1", "u0", "v",
+          # emission "day" (D-F03): day-level log-ratios, see forward()
+          "e_any", "e_cnt", "e_z0", "e_zn", "t_any", "t_z",
+          # hotness covariate on the transitions (D-F03)
+          "a3", "b3"]
 # Starting values: persistence ~0.9, arrival ~0.03, per-trip yt rate 0.35 when present / 0.01 absent.
 THETA0 = np.array([2.2, 0.0, 0.0, -3.5, 0.0, 0.0, -0.6, -4.6, -0.7, -1.0, -2.5, -0.7,
-                   -1.5, -3.0, -3.0, -1.0, 0.0, -3.0, 0.5])
+                   -1.5, -3.0, -3.0, -1.0, 0.0, -3.0, 0.5,
+                   3.0, -1.0, 0.0, 0.0, 1.0, -1.0,
+                   0.0, 0.0])
 FD_PARAMS = ("lc1", "lc0", "lg1", "lg0")
-TQ_PARAMS = ("lr1", "lr0", "ltau_tq")
+TQ_PARAMS = ("lr1", "lr0", "ltau_tq", "t_any", "t_z")
+BINOM_PARAMS = ("lq1", "lq0", "ltau", "lr1", "lr0", "ltau_tq")
+DAY_PARAMS = ("e_any", "e_cnt", "e_z0", "e_zn", "t_any", "t_z")
+HOT_PARAMS = ("a3", "b3")
+_softplus = lambda x: np.logaddexp(0.0, x)
 
 _sig = lambda x: 1.0 / (1.0 + np.exp(-x))
 
@@ -55,12 +65,25 @@ def evidence(X: pd.DataFrame) -> dict[str, np.ndarray]:
     ang_d = 2 * np.pi * X["lat_doy"].to_numpy(float) / 365.25
     ev["sin_d"], ev["cos_d"] = np.sin(ang_d), np.cos(ang_d)
     ev["log_n"] = np.log(np.maximum(X["hd_trips_dow_4w"].to_numpy(float), 0.5))
+    if "hd_ytrate_60" in X.columns:
+        r = np.clip(X["hd_ytrate_60"].to_numpy(float), 0.02, 0.98)
+        ev["hot"] = np.log(r / (1 - r))
     return ev
 
 
 def forward(theta: np.ndarray, ev: dict, use: dict) -> tuple[np.ndarray, np.ndarray]:
-    """theta: (P, n_params). Returns (P(state on D = 1), P(y_D = 1)), each (P, n_rows)."""
+    """theta: (P, n_params). Returns (P(state on D = 1), P(y_D = 1)), each (P, n_rows).
+
+    use["emit"] == "binom": per-trip binomial emissions (module docstring).
+    use["emit"] == "day" (D-F03): day-level log-ratios that do not assume trips are independent:
+        half-day, k >= 1 yt trips:  e_any + softplus(e_cnt) * log(k)
+        half-day, 0 of n >= 1:      -(softplus(e_z0) + softplus(e_zn) * log(n))
+        3/4-day:  k >= 1: t_any;  0 of n >= 1: -softplus(t_z)
+    use["hot"] (D-F03): transitions also get a3 * h / b3 * h, h = logit of the 60-day half-day
+        yt-day rate as of the cutoff (hd_ytrate_60, visible prefix), one value per target day."""
     T = {k: theta[:, i][:, None] for i, k in enumerate(PARAMS)}
+    day = use.get("emit", "binom") == "day"
+    hot = ev["hot"][None, :] if use.get("hot") else 0.0
     q1, q0 = _sig(T["lq1"]), _sig(T["lq0"])
     kh_pos = np.log(q1 / q0); kh_neg = np.log((1 - q1) / (1 - q0)); tau = _sig(T["ltau"])
     r1, r0 = _sig(T["lr1"]), _sig(T["lr0"])
@@ -70,7 +93,8 @@ def forward(theta: np.ndarray, ev: dict, use: dict) -> tuple[np.ndarray, np.ndar
     fg_pos, fg_neg = np.log(g1 / g0), np.log((1 - g1) / (1 - g0))
 
     def trans(s, c):
-        return _sig(T["a0"] + T["a1"] * s + T["a2"] * c), _sig(T["b0"] + T["b1"] * s + T["b2"] * c)
+        return (_sig(T["a0"] + T["a1"] * s + T["a2"] * c + T["a3"] * hot),
+                _sig(T["b0"] + T["b1"] * s + T["b2"] * c + T["b3"] * hot))
 
     a, b = trans(ev["sin"][None, :, 0], ev["cos"][None, :, 0])
     pi = b / (1 - a + b)  # stationary distribution at the start of the window
@@ -79,10 +103,17 @@ def forward(theta: np.ndarray, ev: dict, use: dict) -> tuple[np.ndarray, np.ndar
             a, b = trans(ev["sin"][None, :, j], ev["cos"][None, :, j])
             pi = pi * a + (1 - pi) * b
         n, k = ev["nhd"][None, :, j], ev["khd"][None, :, j]
-        llr = tau * (k * kh_pos + (n - k) * kh_neg)
+        if day:
+            llr = np.where(k > 0, T["e_any"] + _softplus(T["e_cnt"]) * np.log(np.maximum(k, 1)),
+                           np.where(n > 0, -(_softplus(T["e_z0"]) + _softplus(T["e_zn"]) * np.log(np.maximum(n, 1))), 0.0))
+        else:
+            llr = tau * (k * kh_pos + (n - k) * kh_neg)
         if use["tq"]:
             n, k = ev["ntq"][None, :, j], ev["ktq"][None, :, j]
-            llr = llr + tau_t * (k * kt_pos + (n - k) * kt_neg)
+            if day:
+                llr = llr + np.where(k > 0, T["t_any"], np.where(n > 0, -_softplus(T["t_z"]), 0.0))
+            else:
+                llr = llr + tau_t * (k * kt_pos + (n - k) * kt_neg)
         if use["fd"]:
             v, c, g = ev["fdv"][None, :, j], ev["fdc"][None, :, j], ev["fdn"][None, :, j]
             llr = llr + v * (c * fc_pos + (1 - c) * fc_neg + g * fg_pos + (1 - g) * fg_neg)
@@ -96,10 +127,12 @@ def forward(theta: np.ndarray, ev: dict, use: dict) -> tuple[np.ndarray, np.ndar
 
 
 class LatentFilter:
-    def __init__(self, use_tq: bool = True, use_fd: bool = True, ridge: float = 0.01):
-        self.use = {"tq": use_tq, "fd": use_fd}
+    def __init__(self, use_tq: bool = True, use_fd: bool = True, ridge: float = 0.01, emit: str = "binom",
+                 hot: bool = False):
+        self.use = {"tq": use_tq, "fd": use_fd, "emit": emit, "hot": hot}
         self.ridge = ridge
-        self.free = np.array([not ((p in FD_PARAMS and not use_fd) or (p in TQ_PARAMS and not use_tq))
+        unused = set(DAY_PARAMS if emit == "binom" else BINOM_PARAMS) | (set() if hot else set(HOT_PARAMS))
+        self.free = np.array([not ((p in FD_PARAMS and not use_fd) or (p in TQ_PARAMS and not use_tq) or p in unused)
                               for p in PARAMS])
 
     def fit(self, X: pd.DataFrame, y: np.ndarray, w: np.ndarray | None = None) -> "LatentFilter":
@@ -122,7 +155,8 @@ class LatentFilter:
             L = loss_batch(batch)
             return float(L[0]), (L[1:] - L[0]) / h
 
-        r = minimize(fg, THETA0[idx], jac=True, method="L-BFGS-B", options={"maxiter": 400})
+        with np.errstate(all="ignore"):  # extreme trial steps give inf/nan losses; L-BFGS backtracks
+            r = minimize(fg, THETA0[idx], jac=True, method="L-BFGS-B", options={"maxiter": 400})
         self.theta = THETA0.copy(); self.theta[idx] = r.x
         self.fit_info = {"converged": bool(r.success), "nit": int(r.nit), "train_logloss": float(r.fun)}
         return self

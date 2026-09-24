@@ -79,7 +79,8 @@ class Model:
     #                  on the same training rows first, so the logistic sees in-sample filter outputs.
     def _lat(self) -> LatentFilter:
         e = self.spec.extra
-        return LatentFilter(use_tq=e.get("lat_tq", True), use_fd=e.get("lat_fd", True), ridge=e.get("lat_ridge", 0.01))
+        return LatentFilter(use_tq=e.get("lat_tq", True), use_fd=e.get("lat_fd", True), ridge=e.get("lat_ridge", 0.01),
+                            emit=e.get("lat_emit", "binom"), hot=e.get("lat_hot", False))
 
     def _lat_cols(self, X: pd.DataFrame) -> pd.DataFrame:
         pi, py = self.filt.predict_state(X)

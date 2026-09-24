@@ -533,3 +533,27 @@ and `sea_level_anomaly` (La Jolla box, 2015+; public 2 days after) added as `hc_
 Kelp canopy (`kelp_canopy_quarterly`, kelpwatch API, 1984Q1–2026Q2): no documented publication lag;
 per Muse's research releases are batched ~annually → PIT rule: a quarter is usable only from quarter
 end + 365 days (Muse's recommended safe bound; +120 d is only a central guess).
+
+## D-046 Kelp canopy and complete SLA (sweeps D7, D7b): not adopted
+Source e24c47c (kelp and SLA tables complete). `hc_kelp_{lj,pl}_{last,anom}`: latest quarter visible at
+the cutoff (quarter end + 365 d, D-045) and its anomaly vs earlier visible same-quarter values; NULL
+(cloud-blocked) quarters skipped. PIT poison test extended; suite passes. D7, folds 2012–2023: D5 base
+AUC 0.763 / Brier 0.1292; +kelp 0.723 / 0.1337 — loss concentrated in 2014 (0.841 → 0.714), small
+per-fold gains elsewhere. D7b: anomaly only 0.729; La Jolla anomaly only 0.746; +kelp on folds
+2016–2023 AUC 0.754 (= base) with Brier 0.1124 vs 0.1162. Reason for rejection: with the one-year lag
+the kelp value is effectively constant within a year (14 distinct year-levels in dev), so the model
+uses it as a year fingerprint (e.g. high 2014 canopy → 2015, the best yellowtail year); the Brier gain
+rests on 8 year-level offsets and does not survive the 2012–2023 folds. SLA re-test on complete data,
+folds 2016–2023: 0.750 vs base 0.754 — no gain (confirms D-045). Goal D ledger +5 (D7) +3 (D7b).
+
+## D-047 KSAN METAR hourly weather (sweep D8): no gain, including in-trip wind
+`metar_obs` (station SAN, IEM ASOS, 2010+, public at observation time) added: predictive `hc_san_*`
+(24 h mean wind speed, onshore (westerly) component, previous afternoon's wind, sea-level pressure and
+its 24 h change, relative humidity, visibility; all ≤ D-1 21:00) and explanatory `ex_san_*` (mean and
+max wind, onshore component, visibility during the trip window). PIT poison test extended; suite
+passes (source e24c47c). D8, folds 2012–2023: base 0.763 / Brier 0.1292; +wind 0.762; +pressure
+0.762; +all hc_san 0.760; explanatory +ex_san 0.761; +both 0.759. Descriptive, warm-water (pier
+≥ 68 °F) daytime trips: hit rate 42–44 % in every 24 h pressure-change tercile; no monotone in-trip
+wind effect (AM 38/36/46 %, PM 46/51 % for the populated terciles). Conclusion: with water
+temperature, season and ENSO state known, local weather (wind, pressure, marine layer) carries no
+measurable information about a trip's yellowtail outcome. Goal D ledger +6.

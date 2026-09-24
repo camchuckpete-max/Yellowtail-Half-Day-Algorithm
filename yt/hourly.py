@@ -22,6 +22,7 @@ UTC = ZoneInfo("UTC")
 BUOYS = ("46225", "46232", "46254", "46266", "LJPC1")
 UPWELLING_LAG_DAYS = 14   # Muse: ~13-day publication lag observed; rounded up
 GLIDER_LAG_DAYS = 3       # D-045: daily glider means treated as public 3 days after the described day
+KELP_LAG_DAYS = 365      # D-045/D-046: no documented Kelpwatch release lag; PIT-safe bound after quarter end
 SLA_LAG_DAYS = 2          # D-045: blended SSH daily product, same latency convention as SST
 # Trip windows (PT). New Seaforth times per Muse's 0002 notes; Sea Watch AM/PM UNCONFIRMED (same slots assumed).
 WINDOWS = {"hd_am": ("06:00", "11:30"), "hd_pm": ("12:30", "17:30"), "hd_unspecified": ("12:30", "17:30"),
@@ -65,6 +66,15 @@ def load(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     s["date"] = pd.to_datetime(s["condition_date"])
     s["available_at"] = s["date"] + pd.Timedelta(days=SLA_LAG_DAYS)
     out["sla"] = s.drop(columns=["condition_date"]).sort_values("available_at").reset_index(drop=True)
+    k = pd.read_sql("SELECT quarter_start, quarter, sub_zone_id, kelp_area_ha FROM kelp_canopy_quarterly", db)
+    k["qstart"] = pd.to_datetime(k["quarter_start"])
+    k["available_at"] = k["qstart"] + pd.offsets.QuarterEnd(0) + pd.Timedelta(days=KELP_LAG_DAYS)
+    out["kelp"] = k.drop(columns="quarter_start").sort_values("available_at").reset_index(drop=True)
+    m = pd.read_sql("SELECT ts_utc, drct, sknt, mslp, relh, vsby_sm FROM metar_obs WHERE station_id='SAN'", db)
+    m["ts"] = _pt(m["ts_utc"])  # METAR is public at observation time
+    rad = np.deg2rad(m["drct"] - 270.0)
+    m["onshore"] = m["sknt"] * np.cos(rad)  # + = from the west (onshore at La Jolla)
+    out["metar"] = m.drop(columns="ts_utc").sort_values("ts").reset_index(drop=True)
     return out
 
 
@@ -138,6 +148,28 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
     sv = sv[(sv["available_at"] <= cutoff) & (sv["date"] > cutoff - pd.Timedelta(days=30))]
     f["hc_sla_lj_last"] = float(sv["sla_m"].iloc[-1]) if len(sv) and pd.notna(sv["sla_m"].iloc[-1]) else nan
     f["hc_sla_lj_7d"] = _mean(sv[sv["date"] > cutoff - pd.Timedelta(days=7 + SLA_LAG_DAYS)]["sla_m"])
+    # --- kelp canopy (Landsat quarterly), usable only from quarter end + KELP_LAG_DAYS, D-046.
+    # NULL = cloud-blocked quarter, skipped; anomaly = latest minus mean of earlier visible same-quarter values.
+    kv = data["kelp"]
+    kv = kv[(kv["available_at"] <= cutoff) & kv["kelp_area_ha"].notna()]
+    for zone, name in (("la_jolla", "lj"), ("point_loma_kelp", "pl")):
+        z = kv[kv["sub_zone_id"] == zone].sort_values("qstart")
+        if len(z):
+            last = z.iloc[-1]
+            same = z[(z["quarter"] == last["quarter"]) & (z["qstart"] < last["qstart"])]["kelp_area_ha"]
+            f[f"hc_kelp_{name}_last"] = float(last["kelp_area_ha"])
+            f[f"hc_kelp_{name}_anom"] = float(last["kelp_area_ha"] - same.mean()) if len(same) >= 3 else nan
+        else:
+            f[f"hc_kelp_{name}_last"] = f[f"hc_kelp_{name}_anom"] = nan
+    # --- KSAN METAR (hourly airport obs), D-047
+    mv = _slice(data["metar"], cutoff - pd.Timedelta(hours=48), cutoff)
+    m24 = mv[mv["ts"] > cutoff - pd.Timedelta(hours=24)]
+    mpm = mv[(mv["ts"] >= cutoff.normalize() + pd.Timedelta(hours=12)) & (mv["ts"] <= cutoff.normalize() + pd.Timedelta(hours=17, minutes=30))]
+    f["hc_san_wspd_24h"], f["hc_san_onshore_24h"] = _mean(m24["sknt"]), _mean(m24["onshore"])
+    f["hc_san_wspd_prevpm"] = _mean(mpm["sknt"])
+    f["hc_san_mslp_24h"] = _mean(m24["mslp"])
+    f["hc_san_mslp_chg24"] = f["hc_san_mslp_24h"] - _mean(mv[mv["ts"] <= cutoff - pd.Timedelta(hours=24)]["mslp"])
+    f["hc_san_relh_24h"], f["hc_san_vsby_24h"] = _mean(m24["relh"]), _mean(m24["vsby_sm"])
     # --- EXPLANATORY: observed during the trip window (never a forecast input)
     pw = _slice(data["pier"], w0, w1)
     f["ex_pier_wtmp_trip"] = _mean(pw["wtmp_c"])
@@ -148,6 +180,10 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
     tp = _slice(data["buoy"]["46225"], w0, w1) if "46225" in data["buoy"] else None
     f["ex_wvht_trip"] = _mean(tp["wvht_m"]) if tp is not None else nan
     f["ex_btp_wtmp_trip"] = _mean(tp["wtmp_c"]) if tp is not None else nan
+    mw = _slice(data["metar"], w0, w1)
+    f["ex_san_wspd_trip"], f["ex_san_onshore_trip"] = _mean(mw["sknt"]), _mean(mw["onshore"])
+    f["ex_san_wspd_max_trip"] = float(mw["sknt"].max()) if mw["sknt"].notna().any() else nan
+    f["ex_san_vsby_trip"] = _mean(mw["vsby_sm"])
     return f
 
 
@@ -165,5 +201,9 @@ HC_FEATURES = ["hc_tide_start", "hc_tide_change", "hc_tide_range", "hc_tide_maxr
                "hc_btp_wtmp_24h", "hc_btp_wvht_24h", "hc_bpl_wtmp_24h", "hc_bpl_wvht_24h", "hc_bsn_wtmp_24h",
                "hc_bsn_wvht_24h", "hc_btp_dpd_24h", "hc_ljpc1_wspd_24h", "hc_cuti33_7", "hc_cuti33_30",
                "hc_beuti33_30", "hc_ci_oni", "hc_ci_pdo", "hc_ci_npgo", "hc_ci_mei_v2",
-               "hc_glider_t5_10d", "hc_glider_t45_10d", "hc_glider_strat_10d", "hc_sla_lj_last", "hc_sla_lj_7d"]
-EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip"]
+               "hc_glider_t5_10d", "hc_glider_t45_10d", "hc_glider_strat_10d", "hc_sla_lj_last", "hc_sla_lj_7d",
+               "hc_kelp_lj_last", "hc_kelp_lj_anom", "hc_kelp_pl_last", "hc_kelp_pl_anom",
+               "hc_san_wspd_24h", "hc_san_onshore_24h", "hc_san_wspd_prevpm", "hc_san_mslp_24h",
+               "hc_san_mslp_chg24", "hc_san_relh_24h", "hc_san_vsby_24h"]
+EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip",
+               "ex_san_wspd_trip", "ex_san_onshore_trip", "ex_san_wspd_max_trip", "ex_san_vsby_trip"]

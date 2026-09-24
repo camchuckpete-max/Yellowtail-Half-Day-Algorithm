@@ -151,8 +151,12 @@ def test_hourly_trip_features_pit(n: int = 25, seed: int = 11):
                 for col in ("wtmp_c", "wspd_ms", "wvht_m", "dpd_s"):
                     g.loc[m, col] = rng.uniform(0, 30, m.sum())
                 pois["buoy"][s] = g
+            g = data["metar"].copy(); m = g["ts"] > c
+            for col in ("drct", "sknt", "mslp", "relh", "vsby_sm", "onshore"):
+                g.loc[m, col] = rng.uniform(0, 999, m.sum())
+            pois["metar"] = g
             for k, cols in (("upw", ("cuti", "beuti")), ("climate", ("value",)), ("glider", ("temp_c",)),
-                            ("sla", ("sla_m",))):
+                            ("sla", ("sla_m",)), ("kelp", ("kelp_area_ha",))):
                 g = data[k].copy(); m = g["available_at"] > c
                 for col in cols:
                     g.loc[m, col] = rng.uniform(-9, 9, m.sum())

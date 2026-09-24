@@ -22,7 +22,9 @@ DUMPS = ("landing_counts.sql.gz", "conditions_daily.sql.gz", "fishdope_reports.s
          "marine_forecast_products.sql.gz", "marine_forecasts.sql.gz",  # D-C02
          "coops_tide_predictions.sql.gz", "shore_station_temps.sql.gz", "buoy_observations.sql.gz",
          "upwelling_daily.sql.gz", "climate_indices.sql.gz",  # D-041 (Goal D, requests 0001-0003)
-         "subsurface_temp_daily.sql.gz", "sea_level_anomaly.sql.gz")  # D-045
+         "subsurface_temp_daily.sql.gz", "sea_level_anomaly.sql.gz",  # D-045
+         "kelp_canopy_quarterly.sql.gz",  # D-046
+         "metar_obs.sql.gz")  # D-047
 # Row filters applied while streaming a dump (statement text -> keep?). Only the local stations of
 # the ~1 GB buoy table are needed (D-041).
 _LOCAL_BUOYS = ("46225", "46232", "46254", "46266", "LJPC1")

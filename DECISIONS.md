@@ -305,3 +305,45 @@ reproduces (0.624) on it. Dev = 2012–2016 (D-027). Directions:
   aggregate to the day with a separate model of which trips sail; separates effort from bite.
 - F: latent-state ("fish are local") sequence models, e.g. HMM / Bayesian filtering over
   partial daily evidence, and regime-dependent decision rules chosen on training data only.
+
+## D-D01 FishDope bait-barge change-log admitted (agent D, 2026-09-24)
+Added dump `forage_observations.sql.gz` (source commit 7121831); only rows with category `bait_barge` and
+source `fishdope` are read (`events.load_bait_barge`). Every row's `source_ref` starts with
+`fishdope_reports:<id>|bait_report|`; the row gets exactly that report's D-020 `available_at` (ET stamp -> PT,
+19:00 PT when unstamped, non-migration edits delay it). Rows are dropped if the reference is missing (0),
+the report was rejected by the D-020 guards (4 rows), the report is unknown (0), or observed_date != report
+date (0): 20,168 of 20,172 kept. The "(as of M-D)" stamp is only kept as a staleness lag (report day - stamp,
+>= 0); it is never a time. 1,122 stamps are implausible (> 60 d stale or later than the report; almost all 2023
+stale Ventura/CISCOS stamps, found while checking the stamp logic on detail strings only, no labels); their lag is
+NaN. In the dev period the only forward stamps (2016-01-16 report 3888, stamps "1-17") belong to a report whose
+availability D-020 already moves to its 2016-01-17 edit. Coverage: 2009 (5 rows), then 2013-09 onward.
+Features (`fo_*`): last known status per (barge, species) in D-14..D-1, local (San Diego + Mission Bay) sardine,
+regional sardine fraction, regional squid, local outage in D-3..D-1. Poisoned/truncated in tests/test_pit.py
+(future rows are also relabelled as San Diego), plus a guard that every row's availability equals its report's.
+
+## D-D02 Bait-barge lines parsed from the report text as well (agent D)
+The change-log is lossy: 1,059 of 2,854 "stocked" local (SD/MB) states in the report text have no change-log row
+for that report, and on all 608 SD/MB lines listing both sardine and anchovy the anchovy size equals the sardine
+size (size copied across species). Where it has a row it agrees with the text 1,895/1,913. So the same reports'
+`bait_report` section is also parsed directly (`events.bait_barge_report`, columns `bb_*` of the D-020 report
+rows; same availability and leak guards, poisoned in the PIT test): per barge segment, stocked species
+(negations "NO sardine", "no sardine or mackerel" handled), outage, limited supply, largest sardine size, stamp lag.
+Hand check of 40 random SD/MB lines (sweeps/D_linkage_output.txt): species correct 40/40, size missing on 2
+"mix" lines. Full audit: sweeps/D_linkage.py.
+
+## D-D03 Encoding and dev selection (agent D)
+Bait data exist from 2013-09 only, so the 2012 and 2013 folds are unaffected (feature constant in training) and
+the 2014 fold's yearly model sees about 4 months of bait days. Known states are +-1 and unknown 0 (not median
+imputation) so pre-2013 days are neutral; `bb_have`/`fo_loc_nrows_7` are built but not used in specs because
+missing bait reports coincide with the 2014 summer (B1=1, bait unknown: 98% positive). EDA on dev 2014-2016
+(sweeps/D_eda1_output.txt) was run before the sweeps: selection on dev, disclosed.
+
+## D-D04 Result: bait-barge state adds no hard-call skill (agent D)
+20 sweep configurations (D_sweep1: 12, D_sweep2: 8) + 2 finalist runs (dev with bootstrap, strict) = 22.
+Controls reproduce eB01 0.626 and e009 0.627. Best `eD01_e009_bait_p40` 0.631 (folds 0.513/0.470/0.817/0.570/0.502,
+AUC 0.889, Brier 0.1244 vs e009 0.893/0.1231), bootstrap MCC - B1 [+0.001, +0.049]; strict 0.571 vs B1 0.525.
+Bar 0.656 not reached; +0.004 over its own control is noise, and every bait group lowered AUC or Brier. Why: on
+2014-2016 dev days, local sardine present vs absent moves P(y) only 0.14 -> 0.17 when B1=0 and 0.70 -> 0.79 when
+B1=1, so no call crosses a threshold. Other forage categories (bait schools, birds, paddies, breezers, foamers)
+were not used: zone_id is NULL for all 2009-2016 rows and the local bait-school sentences are the same text that
+agent C's `bait_local_*` already count (D-C01, D-C04).

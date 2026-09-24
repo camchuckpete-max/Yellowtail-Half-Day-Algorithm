@@ -81,3 +81,10 @@ _add(Spec("e008_e007_monthly", _E07.features, "logreg", C=0.03, threshold_rule="
           retrain="month", notes="e007 with monthly refit"))
 _add(Spec("e009_eB01_monthly_p40", _B01.features, _B01.model, C=_B01.C, threshold_rule="fixed:0.4",
           retrain="month", extra=_B01.extra, notes="eB01 feature set, monthly refit, threshold 0.4 (sweep 4 #2)"))
+
+# --- agent D (bait barges, D-D01..D-D04): best of sweeps/D_sweep1..2; not a Goal 1 pass (dev 0.631 vs bar 0.656)
+_BB_G1 = ["bb_loc_sardine", "bb_loc_mackerel", "bb_loc_short", "bb_sardine_frac_7"]
+_BB_GI = ["!hd_yt_lastday*bb_loc_sardine", "hd_yt_lastday*bb_loc_sardine", "hd_yt_lastday*bb_loc_short",
+          "!hd_yt_lastday*bb_reg_sardine"]
+_add(Spec("eD01_e009_bait_p40", _B01.features + _BB_G1 + _BB_GI, "logreg", C=0.03, threshold_rule="fixed:0.4",
+          retrain="month", notes="e009 + local bait-barge state (sardine/mackerel/shortage) and B1 interactions"))

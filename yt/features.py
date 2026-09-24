@@ -438,7 +438,8 @@ def _ocean_features(D: pd.Timestamp, oc: pd.DataFrame) -> dict:
         f["sst_sd_7"] = float(w7.mean())
         f["sst_sd_trend7"] = float(w7.mean() - w14.mean()) if len(w14) else nan
         f["sst_sd_max30"] = float(sd[sd.index > last_day - pd.Timedelta(days=30)].max())
-        tiles = sst[sst["target_date"] == last_day].groupby("zone")["sst_f"].last()
+        tiles = sst[(sst["target_date"] == last_day) & sst["zone"].str.startswith("t_")].groupby("zone")["sst_f"].last()
+        # ^ the 10 model tiles only; kelp-bed sub-zone rows (request 0001) are excluded here (D-042)
         f["sst_cor_last"] = float(tiles.get("t_coronados", nan))
         f["sst_nine_last"] = float(tiles.get("t_nine_mile", nan))
         f["sst_offshore_grad"] = float(tiles.drop(labels=["t_sd_coast"], errors="ignore").mean() - tiles.get("t_sd_coast", nan))
@@ -560,7 +561,9 @@ FEATURES = [
 # Goal C (D-031): the only feature families a conditions-only model may use. Anything derived
 # from landing_counts (fish counts, trip counts, effort) or FishDope (reports, text, bait,
 # water temperature from text, forage) is excluded by construction.
-CONDITIONS_PREFIXES = ("doy_", "weekend", "moon_", "tide_", "fc_", "mf_", "cd_", "sst_", "chl_", "cur_", "buoy_")
+CONDITIONS_PREFIXES = ("doy_", "weekend", "moon_", "tide_", "fc_", "mf_", "cd_", "sst_", "chl_", "cur_", "buoy_",
+                       "hc_")  # hc_ = Goal D trip-window predictive conditions (D-041)
+# ex_ (conditions observed during the trip) is explanatory only: never allowed in a predictive spec.
 FORBIDDEN_PREFIXES = ("hd_", "tq_", "ov_", "oth_", "bt_", "d1_", "clim_", "fd_", "fd2_", "wt_", "bait_", "bb_",
                       "lat_", "tm", "yt_")
 

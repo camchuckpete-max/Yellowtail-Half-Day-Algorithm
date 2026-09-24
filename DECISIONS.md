@@ -473,3 +473,29 @@ PIT day-level conditions for the trip date + trip class + boat. Walk-forward by 
 above ~35 % because 2021–2023 were lean years. The 50/75/95 % bands need warm years (2014–15: 30–43 %
 of trips) in the SST record → waiting on request 0001's 2010–2019 SST backfill and 0002's hourly
 La Jolla data. 16 configurations (Goal D ledger).
+
+## D-041 Goal D trip-window conditions (requests 0001–0003 deliveries)
+New source tables: `coops_tide_predictions` (hourly La Jolla 9410230 predictions 2010–2026),
+`shore_station_temps` (CO-OPS 9410230 6-min water/air temp 2010+), `buoy_observations` (only local
+stations 46225, 46232, 46254, 46266, LJPC1 are loaded — streaming filter, `FILTERS_VERSION` in the
+DB cache key), `upwelling_daily` (CUTI/BEUTI, 14-day publication lag applied), `climate_indices`
+(ONI/PDO/NPGO/MEI, each month usable after month end + documented release lag). Module
+`yt/hourly.py` builds per trip: `hc_*` predictive features (observations ≤ 21:00 PT D-1, tide
+predictions for the trip window, lagged indices) and `ex_*` explanatory features (observed during
+the trip window). Trip windows: AM 06:00–11:30, PM 12:30–17:30, twilight 18:00–22:30 PT (New
+Seaforth per Muse; Sea Watch UNCONFIRMED, same slots assumed). Guards: `ex_*` rejected in predictive
+runs (tested); `hc_*` poisoning/deletion test (post-cutoff observations and unpublished index
+values) passes. Sweep D2 (18 configs, dev 2012–2023, source dc526dd): season+trip AUC 0.660 →
++pier water temp 0.744 (Brier 0.143 → 0.130); +buoys 0.716; +climate indices 0.705; +pier+climate
+0.751; tide during trip, upwelling, pier wind: no gain; explanatory in-trip conditions: no gain.
+Uncalibrated bands overconfident at the top (predicted 0.94 → observed 0.72 on 238 trips).
+Note: dc526dd's buoy dump was incomplete for 46254 and LJPC1 (Muse: export-timing artifact; full in
+d66d778+). D2 is re-run on bfd3a15.
+
+## D-042 Fixes found by the full PIT suite on the new source
+(1) `test_ocean_present_and_lagged` hard-coded satellite SST starting 2020-01-01; the request-0001
+backfill starts it 2010-01-01 → assertion relaxed (not a leak). (2) The new kelp-bed sub-zone SST
+rows were silently included in tile-comparison features (`sst_offshore_grad`, `sst_warm_frac`,
+`sst_tiles_max`, `sst_tiles_ge68`, …) → those now use the 10 `t_*` tiles only. Goal C results
+(D-035–D-037) predate the kelp rows and are unaffected; Goal D sweeps do not use these features.
+Full PIT suite passes on dc526dd after the fixes.

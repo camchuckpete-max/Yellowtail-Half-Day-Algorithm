@@ -4,9 +4,11 @@ from __future__ import annotations
 
 import numpy as np
 import pandas as pd
+from sklearn.isotonic import IsotonicRegression
 from sklearn.metrics import brier_score_loss, roc_auc_score
+from sklearn.tree import DecisionTreeClassifier, export_text
 
-from . import dataset, events, features, source
+from . import dataset, events, features, hourly, source
 from .evaluate import Model, Spec, HOLDOUT_START
 
 BOATS = ("New Seaforth", "Sea Watch")
@@ -31,12 +33,18 @@ def build(strict: bool = False) -> tuple[pd.DataFrame, dict]:
             and not c.startswith(features.FORBIDDEN_PREFIXES)]
     out = t[["fished_date", "boat", "cls", "y", *TRIP_FEATURES]].merge(
         day[["date", *cond]], left_on="fished_date", right_on="date", how="inner")
-    return out.drop(columns=["fished_date"]).sort_values("date").reset_index(drop=True), manifest
+    out = out.drop(columns=["fished_date"]).sort_values("date").reset_index(drop=True)
+    hf = hourly.build(out[["date", "cls"]], hourly.load(db))  # D-041 trip-window conditions
+    return pd.concat([out, hf], axis=1), manifest
 
 
 def walk_forward(df: pd.DataFrame, feats: list[str], years, model="logreg", C=1.0,
-                 train_start: str | None = None, extra: dict | None = None) -> pd.DataFrame:
-    features.assert_conditions_only([f for f in feats if f not in TRIP_FEATURES])
+                 train_start: str | None = None, extra: dict | None = None, track: str = "P") -> pd.DataFrame:
+    """track 'P' = predictive (no ex_ features allowed); 'E' = explanatory (ex_ allowed)."""
+    assert track in ("P", "E")
+    if track == "P":
+        assert not any(f.startswith("ex_") for f in feats), "explanatory ex_ features in a predictive run"
+    features.assert_conditions_only([f for f in feats if f not in TRIP_FEATURES and not f.startswith("ex_")])
     spec = Spec("tripD", feats, model, C=C, extra=extra or {})
     d = df if not train_start else df[df["date"] >= pd.Timestamp(train_start)]
     preds = []
@@ -66,3 +74,39 @@ def summary(p: pd.DataFrame) -> dict:
             "brier": float(brier_score_loss(p["y"], p["prob"])),
             "per_fold_auc": {int(f): round(float(roc_auc_score(g["y"], g["prob"])), 3)
                              for f, g in p.groupby("fold") if g["y"].nunique() > 1}}
+
+
+def walk_forward_calibrated(df: pd.DataFrame, feats: list[str], years, C: float = 0.1, track: str = "P",
+                            first_inner: int = 2011) -> pd.DataFrame:
+    """Walk-forward with isotonic calibration (D-043). For outer year Y: inner walk-forward
+    out-of-fold predictions for years first_inner..Y-1 (each trained only on earlier years) fit an
+    isotonic map, applied to the Y predictions of a model trained on all years < Y."""
+    outs = []
+    for y in years:
+        inner = walk_forward(df, feats, range(first_inner, y), C=C, track=track)
+        raw = walk_forward(df, feats, [y], C=C, track=track)
+        if len(inner) < 200 or inner["y"].nunique() < 2:
+            raw["prob_raw"] = raw["prob"]
+            outs.append(raw)
+            continue
+        iso = IsotonicRegression(out_of_bounds="clip", y_min=0.0, y_max=1.0).fit(inner["prob"], inner["y"])
+        raw["prob_raw"] = raw["prob"]
+        raw["prob"] = iso.predict(raw["prob"])
+        outs.append(raw)
+    return pd.concat(outs, ignore_index=True)
+
+
+def tree_rules(df: pd.DataFrame, feats: list[str], years, depth: int = 3, min_leaf: int = 150) -> tuple[pd.DataFrame, str]:
+    """Shallow decision tree, walk-forward: each leaf is a plain-language rule; returns the
+    held-out predictions (leaf rate from training years) and the rules of the last fold's tree."""
+    features.assert_conditions_only([f for f in feats if f not in TRIP_FEATURES])
+    preds, text = [], ""
+    for y in years:
+        tr = df[df["date"] < pd.Timestamp(y, 1, 1) - pd.Timedelta(days=1)].dropna(subset=feats)
+        te = df[df["date"].dt.year == y].dropna(subset=feats)
+        if tr["y"].nunique() < 2 or te.empty:
+            continue
+        t = DecisionTreeClassifier(max_depth=depth, min_samples_leaf=min_leaf, random_state=0).fit(tr[feats], tr["y"])
+        preds.append(te.assign(prob=t.predict_proba(te[feats])[:, 1], leaf=t.apply(te[feats]), fold=y))
+        text = export_text(t, feature_names=list(feats), show_weights=True, decimals=1)
+    return pd.concat(preds, ignore_index=True), text

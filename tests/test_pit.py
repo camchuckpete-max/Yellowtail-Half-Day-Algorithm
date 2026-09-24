@@ -12,7 +12,7 @@ import numpy as np
 import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from yt import dataset, events, features, source  # noqa: E402
+from yt import dataset, events, features, hourly, source  # noqa: E402
 
 
 def _load():
@@ -106,7 +106,8 @@ def test_env_columns_poisoned_are_real():
 
 def test_ocean_present_and_lagged():
     *_, oc = _load()
-    assert oc["sst_f"].notna().sum() > 20000 and oc["target_date"].min() == pd.Timestamp("2020-01-01")
+    # SST starts 2020-01-01, or 2010-01-01 once the request-0001 backfill is present (D-042).
+    assert oc["sst_f"].notna().sum() > 20000 and oc["target_date"].min() <= pd.Timestamp("2020-01-01")
     # Data dated D-1 must never be visible at the D-1 21:00 cutoff; D-2 SST may be.
     assert ((oc["available_at"] - oc["target_date"]) >= pd.Timedelta(days=1, hours=20)).all()
     for D in pd.DatetimeIndex(["2021-07-15", "2023-03-02"]):
@@ -129,7 +130,51 @@ def test_conditions_guard():
         raise AssertionError(f"guard let {bad} through")
 
 
+def test_hourly_trip_features_pit(n: int = 25, seed: int = 11):
+    """Goal D hc_* features: poisoning / deleting every observation after the D-1 21:00 cutoff
+    (and every index value not yet published) must not change them. Tide predictions are exempt
+    by design (published years ahead) and are left intact."""
+    db = source.open_db(source.source_manifest())
+    data = hourly.load(db)
+    rng = np.random.default_rng(seed)
+    days = pd.DatetimeIndex(rng.choice(pd.date_range("2012-01-01", "2023-12-31"), n, replace=False))
+    for D in days:
+        for cls in ("hd_am", "hd_pm", "hd_twilight"):
+            c = D - pd.Timedelta(days=1) + pd.Timedelta(hours=21)
+            base = hourly.trip_features(D, cls, data, c)
+            pois = {"tides": data["tides"]}
+            p = data["pier"].copy(); m = p["ts"] > c
+            p.loc[m, ["wtmp_c", "atmp_c"]] = rng.uniform(0, 40, (m.sum(), 2)); pois["pier"] = p
+            pois["buoy"] = {}
+            for s, g in data["buoy"].items():
+                g = g.copy(); m = g["ts"] > c
+                for col in ("wtmp_c", "wspd_ms", "wvht_m", "dpd_s"):
+                    g.loc[m, col] = rng.uniform(0, 30, m.sum())
+                pois["buoy"][s] = g
+            for k, cols in (("upw", ("cuti", "beuti")), ("climate", ("value",))):
+                g = data[k].copy(); m = g["available_at"] > c
+                for col in cols:
+                    g.loc[m, col] = rng.uniform(-9, 9, m.sum())
+                pois[k] = g
+            got = hourly.trip_features(D, cls, pois, c)
+            for k in hourly.HC_FEATURES:
+                a, b = base[k], got[k]
+                assert (np.isnan(a) and np.isnan(b)) or a == b, (D, cls, k, a, b)
+
+
+def test_explanatory_features_blocked_from_predictive():
+    from yt import trips
+    df = pd.DataFrame({"date": pd.to_datetime(["2015-01-01"]), "y": [0], "ex_wind_trip_mean": [1.0]})
+    try:
+        trips.walk_forward(df, ["ex_wind_trip_mean"], [2015], track="P")
+    except AssertionError:
+        return
+    raise AssertionError("ex_ feature accepted in a predictive run")
+
+
 if __name__ == "__main__":
+    test_explanatory_features_blocked_from_predictive()
+    test_hourly_trip_features_pit()
     test_conditions_guard()
     test_tides_present()
     test_ocean_present_and_lagged()

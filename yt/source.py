@@ -19,7 +19,17 @@ CACHE_DIR = Path(__file__).resolve().parents[1] / "cache"
 
 # The only dump files read. Adding a table here is a logged decision.
 DUMPS = ("landing_counts.sql.gz", "conditions_daily.sql.gz", "fishdope_reports.sql.gz",  # D-020
-         "marine_forecast_products.sql.gz", "marine_forecasts.sql.gz")  # D-C02
+         "marine_forecast_products.sql.gz", "marine_forecasts.sql.gz",  # D-C02
+         "coops_tide_predictions.sql.gz", "shore_station_temps.sql.gz", "buoy_observations.sql.gz",
+         "upwelling_daily.sql.gz", "climate_indices.sql.gz")  # D-041 (Goal D, requests 0001-0003)
+# Row filters applied while streaming a dump (statement text -> keep?). Only the local stations of
+# the ~1 GB buoy table are needed (D-041).
+_LOCAL_BUOYS = ("46225", "46232", "46254", "46266", "LJPC1")
+FILTERS_VERSION = "buoy-local-v1"  # part of the cache key: bump when STATEMENT_FILTERS change
+STATEMENT_FILTERS = {
+    "buoy_observations.sql.gz": lambda s: not s.startswith("INSERT INTO buoy_observations")
+    or any(s.startswith(f"INSERT INTO buoy_observations VALUES('{b}'") for b in _LOCAL_BUOYS),
+}
 
 
 def _sha256(path: Path) -> str:
@@ -47,7 +57,7 @@ def source_manifest() -> dict:
 
 def open_db(manifest: dict) -> sqlite3.Connection:
     """Return a connection to a DB rebuilt from exactly the files in `manifest`."""
-    key = hashlib.sha256("".join(sorted(manifest["files"].values())).encode()).hexdigest()[:16]
+    key = hashlib.sha256(("".join(sorted(manifest["files"].values())) + FILTERS_VERSION).encode()).hexdigest()[:16]
     CACHE_DIR.mkdir(exist_ok=True)
     path = CACHE_DIR / f"source_{key}.db"
     if not path.exists():
@@ -69,6 +79,9 @@ def open_db(manifest: dict) -> sqlite3.Connection:
                         stmt = []
                         if s.strip().upper() in ("BEGIN TRANSACTION;", "COMMIT;"):
                             continue  # the dump's own transaction; each batch gets its own below
+                        keep = STATEMENT_FILTERS.get(name)
+                        if keep is not None and not keep(s):
+                            continue
                         batch.append(s)
                         size += len(s)
                         if size > 50_000_000:

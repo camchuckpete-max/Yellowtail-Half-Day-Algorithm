@@ -18,6 +18,6 @@
 | agent F | branch `agent/F-latent-state`: F_sweep1..3 (9+8+7) + 2 bootstrap re-runs + 1 strict | 27 | 494 |
 | iter 6 | Goal 1 finalists e005, eB01, e009, e007 on dev 2012–2023 | 4 | 498 |
 
-**Goal C (conditions only) — separate ledger:** C1 30, C2 60, C3 20, C4 15, C6 14, C7 8 = 147.
+**Goal C (conditions only) — separate ledger:** C1 30, C2 60, C3 20, C4 15, C6 14, C7 8, C9 6 = 153.
 
 Holdout scorings for Goal 1: 0 of 3 allowed.

@@ -427,3 +427,16 @@ One spatial contrast stood out: south (Coronados + Baja) minus North County SST,
 (i.e. 0.688 flipped: north relatively warm is better). Added features `sst_north_last`,
 `sst_south_minus_north`, `sst_tiles_ge68`; tested in sweep C9 (pre-declared, 6 configurations).
 User's OneDrive weather archive: not reachable (auth required); dropped at user's request.
+
+## D-037 Spatial SST contrast result; data request to the source (user-authorised PRs)
+Sweep C9 (6 configs, train 2020+, dev 2021–2023, in-sample threshold): SD-coast SST alone AUC
+0.803 / Brier 0.1068 / MCC 0.292; + south-minus-north contrast AUC 0.805 / Brier 0.1074 / best
+MCC 0.336 (C=0.03; gain concentrated in the 2021 fold); + count of tiles ≥ 68 °F no better.
+Ranking gain is noise; the MCC gain is best-of-6 and one-fold-driven → not adopted.
+User authorised requesting new data from the source via PRs on Daily-Fishing-Prediction (Muse
+fulfils and closes them). Request 0001 =
+https://github.com/camchuckpete-max/Daily-Fishing-Prediction/pull/1 (branch
+claude/clever-volta-xta9qm): blended SST 2010–2019, kelp-bed sub-zone SST, currents 2015–2019,
+buoy history 2010–2021, CUTI/BEUTI upwelling, pre-2021 chlorophyll, with per-row point-in-time
+metadata. Muse's clarifying questions and our answers are in `data_requests/0001-*.md` on that
+branch. When the data lands: log the split for the longer SST history before evaluating on it.

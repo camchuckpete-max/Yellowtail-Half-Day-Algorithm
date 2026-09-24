@@ -1,0 +1,7 @@
+# Goal C configurations scored on dev: 6
+C_sp_sst_C0.03               mcc=0.284 auc=0.7945 brier=0.1090 prec=0.245 rec=0.821 folds={'2021': 0.241, '2022': 0.272, '2023': 0.391}
+C_sp_sst_C1.0                mcc=0.292 auc=0.8028 brier=0.1068 prec=0.244 rec=0.850 folds={'2021': 0.243, '2022': 0.293, '2023': 0.395}
+C_sp_sst+s-n_C0.03           mcc=0.336 auc=0.7934 brier=0.1096 prec=0.295 rec=0.764 folds={'2021': 0.338, '2022': 0.291, '2023': 0.403}
+C_sp_sst+s-n_C1.0            mcc=0.308 auc=0.8052 brier=0.1074 prec=0.247 rec=0.886 folds={'2021': 0.256, '2022': 0.284, '2023': 0.432}
+C_sp_sst+s-n+ge68_C0.03      mcc=0.307 auc=0.7919 brier=0.1093 prec=0.241 rec=0.907 folds={'2021': 0.254, '2022': 0.296, '2023': 0.403}
+C_sp_sst+s-n+ge68_C1.0       mcc=0.281 auc=0.8043 brier=0.1080 prec=0.247 rec=0.800 folds={'2021': 0.256, '2022': 0.289, '2023': 0.397}

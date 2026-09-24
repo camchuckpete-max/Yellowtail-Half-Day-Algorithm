@@ -9,6 +9,10 @@ boat will catch at least one yellowtail on day D**.
 | 2 | Fewest-feature model whose dev MCC ≥ the Goal 1 best (and is confirmed on holdout) | see STATUS.md |
 | 3 | Breakout calls (predict yes when no half-day yt was visible in D-7..D-1) with precision ≥ 40%, at least 10 calls, reported with Wilson 95% CI | see STATUS.md |
 
+## Arena
+
+Multi-agent day-picking competition built on this data layer: `arena/SPEC.md` (D-049).
+
 ## Data (read-only)
 
 Only source: [`camchuckpete-max/Daily-Fishing-Prediction`](https://github.com/camchuckpete-max/Daily-Fishing-Prediction),

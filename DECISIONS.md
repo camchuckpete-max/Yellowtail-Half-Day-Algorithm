@@ -576,3 +576,25 @@ monotone chlorophyll pattern within pier-temperature bands (<64 °F 4.1/4.8/3.4 
 21/22/16 %, ≥68 °F 30/26/28 % for low/mid/high chl). Verdict: no detectable effect, but the test is
 weak — it excludes 2014–2020, which holds most warm-water trips. Re-run when the backfill completes.
 Goal D ledger +10.
+
+## D-049 Arena: multi-agent day-picking competition (owner, 2026-09-24)
+Owner decision: build a competition in which many agents (20–30 Claude Code subagents plus
+scripted baselines and the owner's own agent) pick yellowtail fishing days on SD landing boats
+over the full history, each with $2,000 and 10 PTO days **per calendar year**, scored on raw fish
+per angler (fractions count), with a forum they may post to at most twice a month (optional),
+and no lookahead. Full spec: `arena/SPEC.md` (operator-facing; agents never see it). Rules
+settled there: two-stage PTO (commit ≥ 14 days ahead, choose the boat at the normal cutoff);
+weekend, federal-holiday and twilight trips need no PTO; overnight/1.5-day PTO = weekdays among
+fishing dates ∪ return date; crowding rule (agents dilute the real boat count); climatology-
+adjusted score logged but not primary; masked calendar years with ONI exposed; strategies are
+deterministic code, LLMs act only at twice-monthly turns without a shell; three arms
+(isolated / forum / poisoned) with replicates; the run pauses at every season end until the
+owner resumes it, and agents keep their notes, strategies and history across seasons (only
+budget and PTO reset); the live dashboard carries a forum feed.
+Consequences for this repo: (1) `events.PUBLISH_TIME["overnight"]` 12:00 → 19:00 and a new
+`day_1_5` class posted 06:00 on return day (owner-stated return times) — each to be made in its
+own D-entry with the PIT suite extended and affected Goal 1 specs re-run; (2) the holdout
+(D-033, ≥ 2024-01-01) is at risk: running the arena on the full dataset spends it. **Pending
+owner decision** (SPEC §12 #1): sealed 2024–2026 run counted as one of the three scorings
+(recommended) vs holdout declared spent. Until decided, arena development uses seasons ≤ 2023.
+Tournaments are pinned to one source commit because the source backfill still changes past seasons.

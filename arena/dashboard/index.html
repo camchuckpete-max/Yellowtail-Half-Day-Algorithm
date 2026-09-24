@@ -1,0 +1,487 @@
+<meta charset="utf-8">
+<title>Yellowtail Arena</title>
+<meta name="description" content="Live operator dashboard for the multi-agent yellowtail day-picking competition">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f3f4f1;--surface:#ffffff;--surface-2:#e9ece8;--ink:#14201e;--muted:#5b6663;--line:#d6dcd8;--accent:#1f6f8b;--accent-ink:#ffffff;
+  --good:#1d7a1d;--warn:#c98500;--bad:#c93a3a;--pto:#4a3aa7;
+  --c-HD_AM:#1baf7a;--c-HD_PM:#2a78d6;--c-TWILIGHT:#4a3aa7;--c-THREE_QUARTER:#eda100;--c-FULL_DAY:#eb6834;--c-OVERNIGHT:#e87ba4;--c-DAY_1_5:#e34948;
+  --hl:#fff3c4;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --bg:#101615;--surface:#182120;--surface-2:#1f2a28;--ink:#e6ebe8;--muted:#98a5a1;--line:#2b3735;--accent:#5fb3cf;--accent-ink:#0f1a1e;
+    --good:#4cc24c;--warn:#e0a52a;--bad:#e66767;--pto:#9085e9;
+    --c-HD_AM:#199e70;--c-HD_PM:#3987e5;--c-TWILIGHT:#9085e9;--c-THREE_QUARTER:#c98500;--c-FULL_DAY:#d95926;--c-OVERNIGHT:#d55181;--c-DAY_1_5:#e66767;
+    --hl:#3a3410;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#101615;--surface:#182120;--surface-2:#1f2a28;--ink:#e6ebe8;--muted:#98a5a1;--line:#2b3735;--accent:#5fb3cf;--accent-ink:#0f1a1e;
+  --good:#4cc24c;--warn:#e0a52a;--bad:#e66767;--pto:#9085e9;
+  --c-HD_AM:#199e70;--c-HD_PM:#3987e5;--c-TWILIGHT:#9085e9;--c-THREE_QUARTER:#c98500;--c-FULL_DAY:#d95926;--c-OVERNIGHT:#d55181;--c-DAY_1_5:#e66767;
+  --hl:#3a3410;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;font-size:14px;line-height:1.45;padding-inline:16px;padding-block:12px 40px;max-width:1500px;margin:0 auto}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}
+h1{font-size:18px;font-weight:600;margin:0;letter-spacing:-.01em}
+h2{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+a{color:var(--accent)}
+button,select,input{font:inherit;color:inherit}
+button{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:3px 9px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button:focus-visible,select:focus-visible,input:focus-visible,tr:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+select,input[type=text]{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:3px 6px}
+/* status bar */
+.statusbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding-block:8px 10px;margin-bottom:14px;display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center}
+.statusbar .grow{flex:1 1 auto}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:2px 9px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-size:12px;white-space:nowrap}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.pill.running .dot{background:var(--good);animation:pulse 1.6s ease-in-out infinite}
+.pill.paused .dot{background:var(--warn)}
+.pill.finished .dot{background:var(--accent)}
+.pill.error .dot{background:var(--bad)}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+@media (prefers-reduced-motion: reduce){.pill.running .dot{animation:none}}
+.kv{display:inline-flex;gap:5px;font-size:12px;color:var(--muted)}
+.kv b{color:var(--ink);font-weight:500}
+.src{display:flex;gap:6px;align-items:center;font-size:12px}
+.src input{width:min(320px,60vw)}
+.err{color:var(--bad);font-size:12px}
+/* layout */
+.grid{display:grid;gap:14px;grid-template-columns:minmax(0,2fr) minmax(280px,1fr)}
+.grid.bottom{grid-template-columns:minmax(0,1.1fr) minmax(300px,1fr)}
+@media (max-width:860px){.grid,.grid.bottom{grid-template-columns:minmax(0,1fr)}}
+section.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.stack{display:grid;gap:14px;margin-top:14px}
+/* leaderboard */
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:5px 8px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--line)}
+th{font-weight:500;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;position:sticky;top:0;background:var(--surface)}
+th:first-child,td:first-child,th.l,td.l{text-align:left}
+tbody tr{cursor:pointer}
+tbody tr:hover{background:var(--surface-2)}
+tbody tr.sel{background:var(--surface-2);box-shadow:inset 3px 0 0 var(--accent)}
+.name{display:inline-flex;align-items:center;gap:6px;font-weight:500}
+.kind{font-size:10px;padding:1px 5px;border-radius:3px;border:1px solid var(--line);color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:500}
+.kind.owner{border-color:var(--accent);color:var(--accent)}
+.kind.adversary{border-color:var(--bad);color:var(--bad)}
+.kind.baseline{border-style:dashed}
+.rank{color:var(--muted);width:2.2em;display:inline-block}
+.delta{font-size:11px;color:var(--muted)}
+.spark{width:84px;height:22px;vertical-align:middle}
+.spark path{fill:none;stroke:var(--accent);stroke-width:1.5}
+.spark .area{fill:var(--accent);opacity:.12;stroke:none}
+.spark .end{fill:var(--accent)}
+.spark .warm{fill:var(--muted);opacity:.25}
+.lbtabs{display:flex;gap:6px;margin-bottom:8px;align-items:center;flex-wrap:wrap}
+.lbtabs button[aria-pressed=true]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.lbtabs .sp{flex:1}
+/* gauges */
+.gauges{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.gauge{border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+.gauge .lab{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.gauge .val{font-size:22px;font-weight:600;line-height:1.2}
+.gauge .bar{height:6px;background:var(--surface-2);border-radius:3px;margin-top:6px;overflow:hidden}
+.gauge .bar i{display:block;height:100%;background:var(--accent);border-radius:3px}
+.gauge .sub{font-size:11px;color:var(--muted);margin-top:4px}
+.seasonchart{width:100%;height:96px;margin-top:10px}
+.seasonchart text{font-size:9px;fill:var(--muted);font-family:"IBM Plex Mono",monospace}
+.seasonchart .bar{fill:var(--accent)}
+.seasonchart .bar.warm{fill:var(--muted);opacity:.35}
+.seasonchart .grid{stroke:var(--line);stroke-width:1}
+/* strips */
+.striphead{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;margin-bottom:8px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;vertical-align:-1px;margin-right:4px}
+.legend .o{border:2px solid var(--pto);width:10px;height:10px;background:none}
+.strips{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:3px 10px;align-items:center}
+.strips .nm{font-size:12px;white-space:nowrap;text-align:right}
+.strips .nm.sel{color:var(--accent);font-weight:600}
+.strips svg{width:100%;height:14px;display:block}
+.strips .axis{height:16px}
+.strips .axis text{font-size:9px;fill:var(--muted);font-family:"IBM Plex Mono",monospace}
+.strips .axis line{stroke:var(--line)}
+.strip .bg{fill:var(--surface-2)}
+.strip .today{stroke:var(--ink);stroke-width:.6}
+.strip .cell.pto-only{fill:none;stroke:var(--pto);stroke-width:.7}
+.strip .cell.skunk{opacity:.35}
+.strip .cell.cancelled{fill:var(--muted);opacity:.4}
+.strip .cell.pending{opacity:.6}
+.strip .fishmark{fill:var(--ink)}
+.strip .ptomark{fill:var(--pto)}
+/* agent panel */
+.agenthead{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline}
+.agenthead .nm{font-size:16px;font-weight:600}
+.describe{border-left:3px solid var(--accent);padding:6px 10px;background:var(--surface-2);border-radius:0 4px 4px 0;margin:8px 0;max-width:65ch}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:6px 12px;font-size:12px;margin:8px 0}
+.facts div span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+.facts div b{font-weight:500}
+.reasons{list-style:none;padding:0;margin:6px 0 0;display:grid;gap:4px}
+.reasons li{display:grid;grid-template-columns:auto auto 1fr;gap:8px;font-size:12px;align-items:baseline;border-bottom:1px dashed var(--line);padding:3px 0}
+.reasons li.rej .act{color:var(--bad)}
+.reasons .when{color:var(--muted)}
+.reasons .act{font-weight:500}
+.reasons .rejmsg{color:var(--bad);grid-column:2/4}
+.byclass{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.chip{display:inline-flex;align-items:center;gap:5px;font-size:11px;border:1px solid var(--line);padding:1px 7px;border-radius:999px}
+.chip i{width:8px;height:8px;border-radius:2px;display:inline-block}
+/* forum */
+.forumctl{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px;font-size:12px}
+.forumctl label{display:inline-flex;gap:5px;align-items:center}
+.feed{display:grid;gap:8px;max-height:640px;overflow-y:auto;padding-right:4px}
+.post{border:1px solid var(--line);border-radius:6px;padding:8px 10px;background:var(--surface)}
+.post.new{background:var(--hl);border-color:var(--warn)}
+.post .meta{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;font-size:11px;color:var(--muted);margin-bottom:4px}
+.post .meta .who{color:var(--ink);font-weight:600;font-size:12px}
+.post .txt{white-space:pre-wrap;max-width:65ch}
+.badge{display:inline-flex;align-items:center;gap:4px;font-size:10px;padding:1px 6px;border-radius:3px;border:1px solid var(--line)}
+.badge.adv{border-color:var(--bad);color:var(--bad)}
+.badge.cite{border-color:var(--accent);color:var(--accent)}
+.badge.newb{border-color:var(--warn);color:var(--warn)}
+.empty{color:var(--muted);font-size:12px;padding:10px 0}
+.outc{font-size:12px}
+.outc td,.outc th{padding:3px 6px}
+footer{margin-top:20px;font-size:11px;color:var(--muted)}
+.sr{position:absolute;left:-9999px}
+</style>
+
+<div class="statusbar" id="statusbar">
+  <h1>Yellowtail Arena</h1>
+  <span class="pill" id="statuspill"><span class="dot"></span><span id="statustxt">loading</span></span>
+  <span class="kv">sim <b class="mono" id="simdate">—</b></span>
+  <span class="kv">tick <b class="mono" id="simtick">—</b></span>
+  <span class="kv">season <b class="mono" id="seasonprog">—</b></span>
+  <span class="kv">arm <b id="arm">—</b></span>
+  <span class="kv">rep <b class="mono" id="rep">—</b></span>
+  <span class="kv">source <b class="mono" id="srccommit">—</b></span>
+  <span class="kv">turns <b id="turns">—</b></span>
+  <span class="grow"></span>
+  <span class="kv">updated <b class="mono" id="updated">—</b></span>
+  <span class="src"><label for="srcurl">state</label><input type="text" id="srcurl" placeholder="state.json path or URL"><button id="loadbtn">Load</button><button id="refreshbtn" title="Poll now">↻</button></span>
+  <span class="err" id="err" hidden></span>
+</div>
+
+<div class="grid">
+  <section class="card" id="lbcard">
+    <div class="lbtabs">
+      <h2 style="margin:0">Leaderboard</h2>
+      <span class="sp"></span>
+      <button id="tabseason" aria-pressed="true">Season</button>
+      <button id="tabcum" aria-pressed="false">Cumulative</button>
+      <label class="kv" style="margin-left:8px"><input type="checkbox" id="opview" checked> operator view</label>
+    </div>
+    <div class="tablewrap"><table id="lb"><thead><tr>
+      <th class="l">#</th><th class="l">Agent</th><th>Fish</th><th>Undiluted</th><th>Excess</th><th>Skunk</th><th>Trips</th><th>$ left</th><th>PTO left</th><th>$/fish</th><th class="l">Seasons</th>
+    </tr></thead><tbody></tbody></table></div>
+  </section>
+  <section class="card">
+    <h2>Field</h2>
+    <div class="gauges">
+      <div class="gauge"><div class="lab">Diversity</div><div class="val mono" id="gdiv">—</div><div class="bar"><i id="gdivbar" style="width:0"></i></div><div class="sub">mean pairwise Jaccard of pick sets (0 = all different)</div></div>
+      <div class="gauge"><div class="lab">Herding</div><div class="val mono" id="gherd">—</div><div class="bar"><i id="gherdbar" style="width:0"></i></div><div class="sub">max agents on one trip ÷ field size</div></div>
+    </div>
+    <svg class="seasonchart" id="seasonchart" viewBox="0 0 320 96" preserveAspectRatio="none" role="img" aria-label="Mean season fish by season index"></svg>
+    <div class="sub" style="font-size:11px;color:var(--muted)">Mean season fish per agent by season index; grey = warm-up (not counted).</div>
+    <h2 style="margin-top:12px">Recent outcomes</h2>
+    <div class="tablewrap"><table class="outc" id="outc"><thead><tr><th class="l">Day</th><th class="l">Agent</th><th class="l">Class</th><th>yt</th><th>anglers</th><th>aboard</th><th>share</th></tr></thead><tbody></tbody></table></div>
+  </section>
+</div>
+
+<div class="stack">
+  <section class="card">
+    <div class="striphead">
+      <h2 style="margin:0">Season strip</h2>
+      <span class="kv" id="stripseason"></span>
+      <span class="sp" style="flex:1"></span>
+      <div class="legend" id="legend"></div>
+    </div>
+    <div class="strips" id="strips"></div>
+  </section>
+</div>
+
+<div class="grid bottom" style="margin-top:14px">
+  <section class="card" id="agentcard">
+    <h2>Agent</h2>
+    <div id="agentpanel"><div class="empty">Select an agent in the leaderboard.</div></div>
+  </section>
+  <section class="card">
+    <h2>Forum</h2>
+    <div class="forumctl">
+      <label>agent <select id="ffilter"><option value="">all</option></select></label>
+      <label><input type="checkbox" id="fcited"> cited by someone</label>
+      <span id="fcount" class="kv"></span>
+      <a id="forumlink" href="#" hidden>full forum.jsonl</a>
+    </div>
+    <div class="feed" id="feed"></div>
+  </section>
+</div>
+
+<footer id="foot">Schema 1. Dates are masked (season index, day of year) as agents see them. Adversary tags and the operator view are never shown to agents.</footer>
+
+<script>
+(function(){
+"use strict";
+const $ = (id) => document.getElementById(id);
+const CLASSES = ["HD_AM","HD_PM","TWILIGHT","THREE_QUARTER","FULL_DAY","OVERNIGHT","DAY_1_5"];
+const CLASS_LABEL = {HD_AM:"½ AM",HD_PM:"½ PM",TWILIGHT:"Twilight",THREE_QUARTER:"¾ day",FULL_DAY:"Full day",OVERNIGHT:"Overnight",DAY_1_5:"1.5 day"};
+const MONTH_DOY = [1,32,60,91,121,152,182,213,244,274,305,335];
+const MONTH = ["J","F","M","A","M","J","J","A","S","O","N","D"];
+const POLL_MS = 30000;
+let state = null, view = "season", selected = null, seenPosts = null, srcMode = "file", lastSrc = "";
+let opview = true;
+try { const v = localStorage.getItem("arena.opview"); if (v !== null) opview = v === "1"; } catch (e) {}
+try { const s = localStorage.getItem("arena.selected"); if (s) selected = s; } catch (e) {}
+$("opview").checked = opview;
+
+// ---------- data source ----------
+function srcFromQuery(){
+  try { const u = new URL(location.href); return u.searchParams.get("src") || ""; } catch(e){ return ""; }
+}
+const EMBEDDED = null; // replaced by the fixture build when publishing without a state file
+async function fetchState(src){
+  const url = src || "state.json";
+  const r = await fetch(url + (url.includes("?") ? "&" : "?") + "t=" + Date.now(), {cache:"no-store"});
+  if (!r.ok) throw new Error("HTTP " + r.status + " for " + url);
+  return r.json();
+}
+let dbUnsub = null;
+async function tryDb(){
+  if (!window.claude || typeof window.claude.use !== "function") return false;
+  let db = null;
+  try { db = await window.claude.use("db"); } catch(e){ db = null; }
+  if (!db) return false;
+  try {
+    const doc = db.doc("state/current");
+    dbUnsub = doc.onSnapshot((snap) => {
+      const d = snap && (typeof snap.data === "function" ? snap.data() : snap.data);
+      if (d && d.schema === 1) { srcMode = "db"; apply(d); }
+    });
+    return true;
+  } catch(e){ return false; }
+}
+async function load(manual){
+  const src = $("srcurl").value.trim() || srcFromQuery();
+  try {
+    const s = await fetchState(src);
+    lastSrc = src; srcMode = src ? "url" : "file";
+    $("err").hidden = true;
+    apply(s);
+  } catch(e){
+    if (!state && EMBEDDED) { apply(EMBEDDED); }
+    $("err").textContent = "state not loaded: " + e.message; $("err").hidden = false;
+  }
+}
+$("loadbtn").addEventListener("click", () => load(true));
+$("refreshbtn").addEventListener("click", () => load(true));
+$("srcurl").addEventListener("keydown", (e) => { if (e.key === "Enter") load(true); });
+$("tabseason").addEventListener("click", () => { view = "season"; setTabs(); renderLeaderboard(); });
+$("tabcum").addEventListener("click", () => { view = "cumulative"; setTabs(); renderLeaderboard(); });
+$("opview").addEventListener("change", (e) => { opview = e.target.checked; try { localStorage.setItem("arena.opview", opview ? "1" : "0"); } catch(x){} renderAll(); });
+$("ffilter").addEventListener("change", renderForum);
+$("fcited").addEventListener("change", renderForum);
+function setTabs(){ $("tabseason").setAttribute("aria-pressed", view === "season"); $("tabcum").setAttribute("aria-pressed", view === "cumulative"); }
+
+// ---------- helpers ----------
+const fmt = (x, d=2) => (x === null || x === undefined || Number.isNaN(x)) ? "—" : Number(x).toFixed(d);
+const pct = (x) => (x === null || x === undefined) ? "—" : Math.round(x * 100) + "%";
+const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const masked = (season, doy) => "S" + String(season).padStart(2,"0") + " d" + String(doy).padStart(3,"0");
+const agentByName = (n) => state.agents.find((a) => a.name === n);
+function kindTag(a){
+  const adv = opview && a.adversary;
+  return `<span class="kind ${a.kind}${adv ? " adversary" : ""}">${adv ? "adv " + esc(a.adversary) : esc(a.kind)}</span>`;
+}
+
+// ---------- apply ----------
+function apply(s){
+  if (!s || s.schema !== 1) { $("err").textContent = "unsupported state schema"; $("err").hidden = false; return; }
+  const prevIds = state ? new Set(state.forum.posts.map((p) => p.post_id)) : null;
+  state = s;
+  if (prevIds) { s.forum.posts.forEach((p) => { if (!prevIds.has(p.post_id)) p._new = true; }); }
+  if (!selected || !agentByName(selected)) selected = s.leaderboard.season[0] || (s.agents[0] && s.agents[0].name);
+  renderAll();
+}
+function renderAll(){
+  if (!state) return;
+  renderStatus(); renderLeaderboard(); renderField(); renderStrips(); renderAgent(); renderForum(); renderOutcomes();
+}
+
+// ---------- status ----------
+function renderStatus(){
+  const r = state.run, sim = r.sim;
+  const pill = $("statuspill");
+  pill.className = "pill " + (r.status === "paused_season_end" ? "paused" : r.status);
+  $("statustxt").textContent = r.status === "paused_season_end" ? "paused at season end" : r.status;
+  $("simdate").textContent = (sim.date_masked || masked(sim.season, sim.doy)) + (opview && sim.calendar_year ? " (" + sim.calendar_year + ")" : "");
+  $("simtick").textContent = sim.tick || "—";
+  $("seasonprog").textContent = sim.season + " / " + r.seasons_total + (r.warmup_seasons ? " (" + r.warmup_seasons + " warm-up)" : "");
+  $("arm").textContent = r.arm; $("rep").textContent = "r" + r.replicate;
+  $("srccommit").textContent = (r.source_commit || "").slice(0, 7);
+  const t = r.turns_in_progress || [];
+  $("turns").textContent = t.length ? t.length + " in progress: " + t.join(", ") : "none";
+  $("updated").textContent = (r.updated_at || "").replace("T", " ").slice(0, 19) + " " + (srcMode === "db" ? "(db)" : srcMode === "url" ? "(url)" : "");
+  if (r.paused_reason) { $("statustxt").textContent += " · " + r.paused_reason; }
+}
+
+// ---------- leaderboard ----------
+function sparkline(a){
+  const h = a.history || [];
+  const pts = h.map((x) => x.fish).concat([a.season.fish]);
+  if (pts.length < 2) return "";
+  const W = 84, H = 22, max = Math.max(...pts, 0.001);
+  const x = (i) => 3 + i * (W - 6) / (pts.length - 1), y = (v) => H - 3 - (v / max) * (H - 6);
+  const d = pts.map((v, i) => (i ? "L" : "M") + x(i).toFixed(1) + "," + y(v).toFixed(1)).join(" ");
+  const area = d + " L" + x(pts.length - 1).toFixed(1) + "," + (H - 3) + " L3," + (H - 3) + " Z";
+  const warm = h.filter((z) => !z.counted).length;
+  const warmRect = warm ? `<rect class="warm" x="0" y="0" width="${(x(warm - 1) + x(warm)) / 2}" height="${H}"/>` : "";
+  return `<svg class="spark" viewBox="0 0 ${W} ${H}" aria-hidden="true">${warmRect}<path class="area" d="${area}"/><path d="${d}"/><circle class="end" cx="${x(pts.length-1).toFixed(1)}" cy="${y(pts[pts.length-1]).toFixed(1)}" r="2"/></svg>`;
+}
+function renderLeaderboard(){
+  const order = view === "season" ? state.leaderboard.season : state.leaderboard.cumulative;
+  const tb = $("lb").querySelector("tbody");
+  tb.innerHTML = order.map((n, i) => {
+    const a = agentByName(n); if (!a) return "";
+    const s = a.season, c = a.cumulative;
+    const fish = view === "season" ? s.fish : c.fish, und = view === "season" ? s.undiluted : c.undiluted, exc = view === "season" ? s.excess : c.excess;
+    const prev = (a.history || []).slice(-1)[0];
+    const delta = view === "season" && prev && prev.rank ? (prev.rank - s.rank) : null;
+    const dtxt = delta === null ? "" : delta > 0 ? `<span class="delta">▲${delta}</span>` : delta < 0 ? `<span class="delta">▼${-delta}</span>` : `<span class="delta">·</span>`;
+    return `<tr tabindex="0" data-agent="${esc(n)}" class="${n === selected ? "sel" : ""}">
+      <td class="l"><span class="rank mono">${i + 1}</span>${dtxt}</td>
+      <td class="l"><span class="name">${esc(n)} ${kindTag(a)}</span></td>
+      <td class="mono">${fmt(fish)}</td><td class="mono">${fmt(und)}</td><td class="mono">${exc === null || exc === undefined ? "—" : (exc >= 0 ? "+" : "") + fmt(exc)}</td>
+      <td class="mono">${pct(s.skunk_rate)}</td><td class="mono">${s.trips}</td><td class="mono">${s.budget_left}</td><td class="mono">${s.pto_left}</td>
+      <td class="mono">${s.usd_per_fish === null || s.usd_per_fish === undefined ? "—" : Math.round(s.usd_per_fish)}</td>
+      <td class="l">${sparkline(a)}</td></tr>`;
+  }).join("");
+  tb.querySelectorAll("tr").forEach((tr) => {
+    const go = () => { selected = tr.dataset.agent; try { localStorage.setItem("arena.selected", selected); } catch(e){} renderLeaderboard(); renderStrips(); renderAgent(); };
+    tr.addEventListener("click", go);
+    tr.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } });
+  });
+}
+
+// ---------- field ----------
+function renderField(){
+  const f = state.field || {};
+  $("gdiv").textContent = fmt(f.diversity_jaccard); $("gdivbar").style.width = ((f.diversity_jaccard || 0) * 100) + "%";
+  $("gherd").textContent = fmt(f.herding); $("gherdbar").style.width = ((f.herding || 0) * 100) + "%";
+  const bs = f.by_season || [];
+  const svg = $("seasonchart");
+  if (!bs.length) { svg.innerHTML = ""; return; }
+  const W = 320, H = 96, padL = 26, padB = 16, padT = 6;
+  const max = Math.max(...bs.map((b) => b.mean_fish || 0), 0.001);
+  const bw = (W - padL - 6) / bs.length;
+  let out = "";
+  [0, 0.5, 1].forEach((g) => { const y = padT + (1 - g) * (H - padT - padB); out += `<line class="grid" x1="${padL}" x2="${W - 4}" y1="${y}" y2="${y}"/><text x="${padL - 4}" y="${y + 3}" text-anchor="end">${(g * max).toFixed(1)}</text>`; });
+  bs.forEach((b, i) => {
+    const h = ((b.mean_fish || 0) / max) * (H - padT - padB);
+    const x = padL + i * bw + bw * 0.15;
+    out += `<rect class="bar${b.counted ? "" : " warm"}" x="${x.toFixed(1)}" y="${(H - padB - h).toFixed(1)}" width="${(bw * 0.7).toFixed(1)}" height="${h.toFixed(1)}" rx="1.5"><title>Season ${b.season}: mean ${fmt(b.mean_fish)} fish, diversity ${fmt(b.diversity_jaccard)}, herding ${fmt(b.herding)}${b.counted ? "" : " (warm-up)"}</title></rect>`;
+    out += `<text x="${(x + bw * 0.35).toFixed(1)}" y="${H - 4}" text-anchor="middle">S${b.season}</text>`;
+  });
+  svg.innerHTML = out;
+}
+function renderOutcomes(){
+  const tb = $("outc").querySelector("tbody");
+  const rows = state.outcomes_recent || [];
+  tb.innerHTML = rows.length ? rows.map((o) => `<tr><td class="l mono">${masked(o.season, o.doy)}</td><td class="l">${esc(o.agent || "")}</td><td class="l"><span class="chip"><i style="background:var(--c-${o.cls})"></i>${CLASS_LABEL[o.cls] || o.cls}</span></td><td class="mono">${o.ran ? o.yt : "—"}</td><td class="mono">${o.ran ? o.anglers : "did not run"}</td><td class="mono">${o.n_agents}</td><td class="mono">${o.ran ? fmt(o.share, 3) : "—"}</td></tr>`).join("")
+    : `<tr><td colspan="7" class="empty">No outcomes yet.</td></tr>`;
+}
+
+// ---------- strips ----------
+function renderStrips(){
+  const sim = state.run.sim;
+  $("stripseason").textContent = "season " + sim.season + " · day " + sim.doy + " of " + (sim.days_in_season || 365);
+  $("legend").innerHTML = CLASSES.map((c) => `<span><i style="background:var(--c-${c})"></i>${CLASS_LABEL[c]}</span>`).join("") +
+    `<span><i class="o"></i>PTO committed, no trip</span><span>▪ fish &nbsp; faded = skunk &nbsp; grey = cancelled</span>`;
+  const N = sim.days_in_season || 365;
+  const order = state.leaderboard.season;
+  let html = `<div></div><svg class="axis" viewBox="0 0 ${N} 16" preserveAspectRatio="none">` +
+    MONTH_DOY.map((d, i) => `<line x1="${d}" x2="${d}" y1="10" y2="16"/><text x="${d + 2}" y="9">${MONTH[i]}</text>`).join("") + `</svg>`;
+  order.forEach((n) => {
+    const a = agentByName(n); if (!a) return;
+    let cells = `<rect class="bg" x="0" y="0" width="${N}" height="14"/>`;
+    (a.strip || []).forEach((c) => {
+      const tip = `${n} ${masked(sim.season, c.doy)}: ${c.cls ? CLASS_LABEL[c.cls] : "PTO only"}${c.pto ? " (PTO)" : ""}${c.outcome ? " · " + c.outcome : ""}${c.share !== null && c.share !== undefined ? " · " + fmt(c.share, 3) + " fish" : ""}${c.n_agents ? " · " + c.n_agents + " agent" + (c.n_agents > 1 ? "s" : "") + " aboard" : ""}`;
+      if (c.cls) {
+        cells += `<rect class="cell ${c.outcome || ""}" x="${c.doy - 1}" y="1" width="1" height="12" fill="var(--c-${c.cls})"><title>${esc(tip)}</title></rect>`;
+        if (c.outcome === "fish") cells += `<rect class="fishmark" x="${c.doy - 1}" y="10" width="1" height="3" pointer-events="none"/>`;
+        if (c.pto) cells += `<rect class="ptomark" x="${c.doy - 1}" y="1" width="1" height="2" pointer-events="none"/>`;
+      } else if (c.pto) {
+        cells += `<rect class="cell pto-only" x="${c.doy - 0.65}" y="1.35" width="0.3" height="11.3" fill="none"><title>${esc(tip)}</title></rect>`;
+      }
+    });
+    cells += `<line class="today" x1="${sim.doy}" x2="${sim.doy}" y1="0" y2="14"/>`;
+    html += `<div class="nm mono ${n === selected ? "sel" : ""}">${esc(n)}</div><svg class="strip" viewBox="0 0 ${N} 14" preserveAspectRatio="none" role="img" aria-label="${esc(n)} season strip">${cells}</svg>`;
+  });
+  $("strips").innerHTML = html;
+}
+
+// ---------- agent panel ----------
+function renderAgent(){
+  const a = agentByName(selected);
+  if (!a) { $("agentpanel").innerHTML = `<div class="empty">Select an agent in the leaderboard.</div>`; return; }
+  const s = a.season, c = a.cumulative, lt = a.last_turn, lc = a.last_strategy_change;
+  const byclass = Object.entries(s.trips_by_class || {}).map(([k, v]) => `<span class="chip"><i style="background:var(--c-${k})"></i>${CLASS_LABEL[k] || k} × ${v}</span>`).join("") || `<span class="empty">no trips ran yet</span>`;
+  const reasons = (a.last_reasons || []).slice().reverse().map((r) => `<li class="${r.valid ? "" : "rej"}"><span class="when mono">${masked(r.season, r.doy)} ${r.tick}</span><span class="act">${esc(r.action)}</span><span>${esc(r.text || "")}</span>${r.valid ? "" : `<span class="rejmsg">rejected: ${esc(r.reason_rejected || "")}</span>`}</li>`).join("");
+  $("agentpanel").innerHTML = `
+    <div class="agenthead"><span class="nm">${esc(a.name)}</span>${kindTag(a)}<span class="kv">persona <b>${esc(a.persona || "—")}</b></span><span class="kv">model <b>${esc(a.model || "—")}</b></span><span class="kv">strategy <b class="mono">v${a.strategy_version}</b></span></div>
+    <div class="describe">${esc(a.describe || "(no describe())")}</div>
+    <div class="facts">
+      <div><span>season fish</span><b class="mono">${fmt(s.fish)}</b> <span style="display:inline;text-transform:none;letter-spacing:0">rank ${s.rank}</span></div>
+      <div><span>cumulative</span><b class="mono">${fmt(c.fish)}</b> <span style="display:inline;text-transform:none;letter-spacing:0">rank ${c.rank} · ${c.seasons_counted} counted</span></div>
+      <div><span>undiluted / excess</span><b class="mono">${fmt(s.undiluted)} / ${s.excess === null || s.excess === undefined ? "—" : (s.excess >= 0 ? "+" : "") + fmt(s.excess)}</b></div>
+      <div><span>skunk rate</span><b class="mono">${pct(s.skunk_rate)}</b></div>
+      <div><span>budget · PTO</span><b class="mono">$${s.budget_left} · ${s.pto_left} d</b></div>
+      <div><span>$ per fish</span><b class="mono">${s.usd_per_fish === null || s.usd_per_fish === undefined ? "—" : Math.round(s.usd_per_fish)}</b></div>
+    </div>
+    <div class="byclass">${byclass}</div>
+    ${lc ? `<p style="margin:10px 0 0;font-size:12px"><b>Last strategy change</b> ${masked(lc.season, lc.doy)}: ${esc(lc.summary || "")}${lc.diff_path ? ` <span class="mono" style="color:var(--muted)">${esc(lc.diff_path)}</span>` : ""}</p>` : `<p style="margin:10px 0 0;font-size:12px;color:var(--muted)">No strategy change recorded.</p>`}
+    ${lt ? `<p style="margin:4px 0 0;font-size:12px"><b>Last turn</b> ${masked(lt.season, lt.doy)}: ${lt.queries} quer${lt.queries === 1 ? "y" : "ies"}, ${lt.posts} post${lt.posts === 1 ? "" : "s"}${lt.adopted_from && lt.adopted_from.length ? `, adopted from ${lt.adopted_from.map(esc).join(", ")}` : ""}</p>` : ""}
+    <h2 style="margin-top:12px">Last reasons</h2>
+    <ul class="reasons">${reasons || `<li><span class="empty">none yet</span></li>`}</ul>`;
+}
+
+// ---------- forum ----------
+function renderForum(){
+  const f = state.forum || {enabled:false, posts:[]};
+  const sel = $("ffilter");
+  const cur = sel.value;
+  const names = state.leaderboard.cumulative.slice();
+  sel.innerHTML = `<option value="">all</option>` + names.map((n) => `<option value="${esc(n)}" ${n === cur ? "selected" : ""}>${esc(n)}</option>`).join("");
+  const citedOnly = $("fcited").checked;
+  if (f.path) { $("forumlink").hidden = false; $("forumlink").href = f.path; } else { $("forumlink").hidden = true; }
+  if (!f.enabled) { $("feed").innerHTML = `<div class="empty">Forum is off in this arm.</div>`; $("fcount").textContent = ""; return; }
+  let posts = f.posts || [];
+  if (sel.value) posts = posts.filter((p) => p.agent === sel.value);
+  if (citedOnly) posts = posts.filter((p) => p.cited_by && p.cited_by.length);
+  $("fcount").textContent = posts.length + " of " + (f.n_total || (f.posts || []).length) + " posts";
+  $("feed").innerHTML = posts.length ? posts.map((p) => {
+    const a = agentByName(p.agent);
+    return `<article class="post ${p._new ? "new" : ""}" id="post-${esc(p.post_id)}">
+      <div class="meta"><span class="who">${esc(p.agent)}</span>${a ? kindTag(a) : ""}<span class="mono">${masked(p.season, p.doy)} ${String(p.hour).padStart(2, "0")}:00</span>
+        ${p.rank_at_post ? `<span>rank ${p.rank_at_post} at post</span>` : ""}
+        ${opview && p.adversary ? `<span class="badge adv">adversary · ${esc(p.adversary)}</span>` : ""}
+        ${p.cited_by && p.cited_by.length ? `<span class="badge cite">cited by ${p.cited_by.map(esc).join(", ")}</span>` : ""}
+        ${p._new ? `<span class="badge newb">new</span>` : ""}
+        <span class="mono" style="margin-left:auto">${esc(p.post_id)}</span></div>
+      <div class="txt">${esc(p.text)}</div></article>`;
+  }).join("") : `<div class="empty">No posts match.</div>`;
+}
+
+// ---------- boot ----------
+const q = srcFromQuery(); if (q) $("srcurl").value = q;
+load(false);
+tryDb();
+setInterval(() => { if (srcMode !== "db") load(false); }, POLL_MS);
+document.addEventListener("visibilitychange", () => { if (!document.hidden && srcMode !== "db") load(false); });
+})();
+</script>

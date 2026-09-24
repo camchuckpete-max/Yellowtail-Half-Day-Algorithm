@@ -628,3 +628,41 @@ most recently logged Goal 1 specs (e005, eB01, e009, e007) use none of them and 
 confirm identical results; `e001_logreg_all_mcc` was re-run to log the effect (LOG.md, source
 ba64933). `tests/test_pit.py::test_overnight_and_day15_publish_times` pins both publish times, the
 source date semantics, and that a trip returning on D is never visible at D-1 21:00.
+
+## D-052 Arena Phases 0–2 built: engine conventions not fixed by the spec (2026-09-24)
+Built per SPEC §11 (`arena/`): preflight tool, `state.json` schema 1 + dashboard (artifact), engine
+(calendar / offers / PIT tables / sandbox / scoring / run loop / live state / checkpoint-resume /
+manifest), the four scripted baselines, and `arena/tests/` (calendar, scoring, sandbox, PIT).
+Conventions chosen where the spec is silent, each reversible by config or a one-line change:
+1. **Booking ticks.** 21:00 on `d−1` offers every class departing before 16:00 on `d` (HD_AM,
+   HD_PM, THREE_QUARTER, FULL_DAY); 16:00 on `d` offers the evening departures (TWILIGHT,
+   OVERNIGHT, DAY_1_5), so an evening booking can react to that day's AM counts (public 14:00).
+   HD_PM (~13:00 departure) is therefore booked the evening before, like the morning boats.
+2. **PTO return day.** The PTO rule counts weekdays among fishing dates ∪ {return day}; for
+   TWILIGHT and FULL_DAY the *count-publication* convention is 00:00 the next day (D-003), but the
+   angler is back the same evening, so the return day for PTO is the departure day. TWILIGHT costs
+   no PTO (D-049). The spec's six PTO examples are pinned in `arena/tests/test_calendar.py`.
+3. **Outcome keys.** Trips are matched on `fish_date` (D-050): OVERNIGHT departing `d` → source
+   rows with `return_date = d+1`; DAY_1_5 departing `d` → `fished_date = d+1`.
+4. **Masking.** Every datetime column of an observed table becomes `<col>_t` (fractional days on
+   the arena timeline), `<col>_season`, `<col>_doy` (+ `_hour` for timestamps); `available_at` is
+   `avail_*`. Leap-day `doy = 366` remains a fingerprint (accepted; SPEC §4.2 says masking is
+   imperfect and the audit is the defence).
+5. **Baselines are literal** (SPEC §5.5) and commit no PTO, so B_SAT / B_PERSIST / B_TEMP fish
+   weekends and holidays only; B_BIG's Friday-evening 1.5-days cost no PTO.
+6. **Chlorophyll** in the `chl` table is visible at 21:00 of its own day (D-048 rule); hourly tide
+   predictions 365 days ahead; pier / buoy / METAR at observation time; the rest exactly as
+   `yt.events` / `yt.hourly` define them.
+7. **Season end** force-settles every trip booked in the season (a Dec 30 1.5-day returns Jan 1)
+   before metrics, resets budget and PTO, writes `results/season_<year>.json`, pauses.
+8. **Development runs** (`--dev`) may use uncommitted code and are written to git-ignored
+   `arena/runs/dev_*`; a normal run refuses a dirty `arena/` or `yt/`. Seasons ≥ 2024 are refused
+   without `--holdout`, which logs to `holdout_access.log` (D-033, SPEC §12 #1 still open).
+9. **Dashboard live path.** The artifact host blocks cross-origin fetches, so the published page
+   cannot poll a raw GitHub URL (SPEC §9); it reads its own `state.json` (republished by the
+   session driving the run) or an artifact-db document. `?src=` works for a self-hosted copy.
+Preflight findings for the owner (`arena/preflight.md`): FULL_DAY rows exist only from 2018
+(THREE_QUARTER collapses at the same time: the product was relabelled), so FULL_DAY bookings
+before 2018 and most THREE_QUARTER bookings after 2018 will not run; per-angler yellowtail is
+~0.01 on half days vs 0.3–2.8 on overnight / 1.5-day trips, so raw fish per angler is dominated
+by the long trips (B_BIG). Numbers from the first isolated-arm run are in the Phase 2 quiz.

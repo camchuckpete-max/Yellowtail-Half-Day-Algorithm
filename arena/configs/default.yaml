@@ -1,0 +1,37 @@
+# Arena default configuration (SPEC §3, §12). Every value here is an owner decision or a default
+# the owner can change; the engine hashes this file into the run manifest.
+seasons:
+  first: 2010            # season 2010 starts at the data start (SPEC §2)
+  first_start: 2010-05-01
+  last: 2023             # holdout (D-033, >= 2024-01-01) excluded until SPEC §12 #1 is decided
+warmup_seasons: 2        # 2010-2011 played, not counted (§3.4)
+budget: 2000             # USD per season per agent
+pto: 10                  # days per season per agent
+pto_mode: commit_day     # commit_day (two-stage, default) | commit_trip (§3.2 #4)
+pto_lead_days: 14
+half_day_pto: 1.0        # PTO charged per weekday of an HD_AM / HD_PM trip (§12 #9)
+max_trips_per_day: 1
+agent_angler_weight: 1.0 # w in share = yt / (anglers + w * n_agents) (§3.3, §12 #4)
+count_released: true     # yt = kept + released (D-001, §12 #5)
+mask_years: true         # §4.2
+landings: [seaforth, fishermans, hm, point_loma]   # D-002
+pooled_boats: all        # all | [New Seaforth, Sea Watch]  (§12 #3)
+prices: {HD_AM: 80, HD_PM: 80, TWILIGHT: 80, THREE_QUARTER: 150, FULL_DAY: 275, OVERNIGHT: 400, DAY_1_5: 550}
+ticks: ["16:00", "21:00"]
+turn_days: [1, 15]       # LLM turns (§5.3, §12 #7)
+forum:
+  max_posts_per_month: 2
+  max_words: 300
+n_replicates: 3
+timeouts: {decide_s: 2, on_turn_s: 60}
+climatology_window_days: 15
+arms:
+  isolated: {forum: false, adversaries: false}
+  forum: {forum: true, adversaries: false}
+  poisoned: {forum: true, adversaries: true}
+field:
+  baselines: [B_SAT, B_PERSIST, B_TEMP, B_BIG]        # always in the field (§5.5)
+  adversaries: [A_WRONG, A_STALE, A_FAB, A_NOISE]     # poisoned arm only (Phase 4)
+  agents: []                                          # LLM agents under arena/agents/<name>/ (Phase 3)
+  owner: null                                         # "cam" once arena/agents/cam/ exists (Phase 5)
+seed: 49

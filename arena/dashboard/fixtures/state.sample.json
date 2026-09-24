@@ -1,0 +1,1863 @@
+{
+ "schema": 1,
+ "run": {
+  "id": "20260925T010203Z_poisoned_r1",
+  "arm": "poisoned",
+  "replicate": 1,
+  "status": "running",
+  "source_commit": "ba64933",
+  "arena_commit": "0000000",
+  "config_hash": "sample",
+  "started_at": "2026-09-25T01:02:03+00:00",
+  "sim": {
+   "season": 4,
+   "calendar_year": null,
+   "doy": 214,
+   "date_masked": "S04 d214",
+   "tick": "21:00",
+   "season_start_doy": 1,
+   "season_end_doy": 365,
+   "days_in_season": 365
+  },
+  "turns_in_progress": [
+   "skeptic",
+   "tides"
+  ],
+  "seasons_done": 3,
+  "seasons_total": 14,
+  "warmup_seasons": 2,
+  "paused_reason": null
+ },
+ "agents": [
+  {
+   "name": "temp_first",
+   "kind": "llm",
+   "persona": "temperature-first",
+   "model": "claude-sonnet-5",
+   "adversary": null,
+   "describe": "Book HD_PM when the Scripps Pier water temperature has been \u2265 67 \u00b0F for three days and ONI > 0; commit PTO for Fridays in August when the 7-day mean is rising. Otherwise wait.",
+   "strategy_version": 7,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/temp_first/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 1,
+    "posts": 0,
+    "adopted_from": [
+     "p0003"
+    ]
+   },
+   "season": {
+    "fish": 0.84,
+    "undiluted": 0.91,
+    "excess": 0.14,
+    "skunk_rate": 0.0,
+    "trips": 3,
+    "trips_by_class": {
+     "HD_PM": 2,
+     "THREE_QUARTER": 1
+    },
+    "budget_left": 1690,
+    "pto_left": 9,
+    "pto_used": 1,
+    "usd_per_fish": 369.0,
+    "rank": 6
+   },
+   "cumulative": {
+    "fish": 0.26,
+    "undiluted": 0.27,
+    "excess": -0.74,
+    "seasons_counted": 1,
+    "rank": 12
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 0.84,
+     "undiluted": 0.88,
+     "excess": -0.16,
+     "rank": 12,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 2.21,
+     "undiluted": 2.32,
+     "excess": 1.21,
+     "rank": 3,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 0.26,
+     "undiluted": 0.27,
+     "excess": -0.74,
+     "rank": 12,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 155,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 161,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 167,
+     "tick": "21:00",
+     "action": "Book THREE_QUARTER",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 209,
+     "tick": "21:00",
+     "action": "Book OVERNIGHT",
+     "text": "warm water",
+     "valid": false,
+     "reason_rejected": "PTO for d210 not committed (needed by d196)"
+    }
+   ],
+   "strip": [
+    {
+     "doy": 155,
+     "pto": false,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.025,
+     "n_agents": 2
+    },
+    {
+     "doy": 161,
+     "pto": false,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.059,
+     "n_agents": 1
+    },
+    {
+     "doy": 167,
+     "pto": true,
+     "cls": "THREE_QUARTER",
+     "outcome": "fish",
+     "share": 0.758,
+     "n_agents": 1
+    }
+   ]
+  },
+  {
+   "name": "persist",
+   "kind": "llm",
+   "persona": "persistence-first",
+   "model": "claude-opus-5-5",
+   "adversary": null,
+   "describe": "If yesterday's pooled half-day yellowtail count was > 0, book HD_PM tomorrow; after two skunks in a row, sit out a week.",
+   "strategy_version": 4,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/persist/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 1,
+    "posts": 2,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 0.65,
+    "undiluted": 0.7,
+    "excess": -0.05,
+    "skunk_rate": 0.0,
+    "trips": 2,
+    "trips_by_class": {
+     "HD_PM": 1,
+     "THREE_QUARTER": 1
+    },
+    "budget_left": 1770,
+    "pto_left": 8,
+    "pto_used": 2,
+    "usd_per_fish": 354.0,
+    "rank": 7
+   },
+   "cumulative": {
+    "fish": 3.34,
+    "undiluted": 3.51,
+    "excess": 2.34,
+    "seasons_counted": 1,
+    "rank": 3
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 0.96,
+     "undiluted": 1.01,
+     "excess": -0.04,
+     "rank": 11,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 1.64,
+     "undiluted": 1.72,
+     "excess": 0.64,
+     "rank": 5,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 3.34,
+     "undiluted": 3.51,
+     "excess": 2.34,
+     "rank": 3,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 184,
+     "tick": "21:00",
+     "action": "Book THREE_QUARTER",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 200,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 184,
+     "pto": true,
+     "cls": "THREE_QUARTER",
+     "outcome": "fish",
+     "share": 0.642,
+     "n_agents": 2
+    },
+    {
+     "doy": 200,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.011,
+     "n_agents": 2
+    }
+   ]
+  },
+  {
+   "name": "contrarian",
+   "kind": "llm",
+   "persona": "contrarian",
+   "model": "claude-sonnet-5",
+   "adversary": null,
+   "describe": "Book the day after the fleet's worst pooled day in a warm-water window; avoid weekends.",
+   "strategy_version": 7,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/contrarian/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 8,
+    "posts": 2,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 2.08,
+    "undiluted": 2.25,
+    "excess": 1.38,
+    "skunk_rate": 0.14,
+    "trips": 7,
+    "trips_by_class": {
+     "HD_PM": 4,
+     "THREE_QUARTER": 2,
+     "OVERNIGHT": 1
+    },
+    "budget_left": 980,
+    "pto_left": 3,
+    "pto_used": 7,
+    "usd_per_fish": 490.0,
+    "rank": 2
+   },
+   "cumulative": {
+    "fish": 0.6,
+    "undiluted": 0.63,
+    "excess": -0.4,
+    "seasons_counted": 1,
+    "rank": 11
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 2.99,
+     "undiluted": 3.14,
+     "excess": 1.99,
+     "rank": 4,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 0.4,
+     "undiluted": 0.42,
+     "excess": -0.6,
+     "rank": 13,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 0.6,
+     "undiluted": 0.63,
+     "excess": -0.4,
+     "rank": 11,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 200,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 202,
+     "tick": "21:00",
+     "action": "Book OVERNIGHT",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 207,
+     "tick": "21:00",
+     "action": "Book THREE_QUARTER",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 153,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.071,
+     "n_agents": 2
+    },
+    {
+     "doy": 181,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.044,
+     "n_agents": 1
+    },
+    {
+     "doy": 185,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.052,
+     "n_agents": 1
+    },
+    {
+     "doy": 198,
+     "pto": true,
+     "cls": "THREE_QUARTER",
+     "outcome": "fish",
+     "share": 0.874,
+     "n_agents": 2
+    },
+    {
+     "doy": 200,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 1
+    },
+    {
+     "doy": 202,
+     "pto": true,
+     "cls": "OVERNIGHT",
+     "outcome": "fish",
+     "share": 0.537,
+     "n_agents": 2
+    },
+    {
+     "doy": 207,
+     "pto": true,
+     "cls": "THREE_QUARTER",
+     "outcome": "fish",
+     "share": 0.503,
+     "n_agents": 1
+    }
+   ]
+  },
+  {
+   "name": "weekender",
+   "kind": "llm",
+   "persona": "weekend-only",
+   "model": "claude-haiku-4-5",
+   "adversary": null,
+   "describe": "Saturdays only, HD_AM, June\u2013September, one per fortnight.",
+   "strategy_version": 3,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/weekender/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 3,
+    "posts": 0,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 0.1,
+    "undiluted": 0.11,
+    "excess": -0.6,
+    "skunk_rate": 0.0,
+    "trips": 5,
+    "trips_by_class": {
+     "HD_AM": 5
+    },
+    "budget_left": 1600,
+    "pto_left": 10,
+    "pto_used": 0,
+    "usd_per_fish": 4000.0,
+    "rank": 9
+   },
+   "cumulative": {
+    "fish": 1.49,
+    "undiluted": 1.56,
+    "excess": 0.49,
+    "seasons_counted": 1,
+    "rank": 8
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 0.02,
+     "undiluted": 0.02,
+     "excess": -0.98,
+     "rank": 13,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 1.01,
+     "undiluted": 1.06,
+     "excess": 0.01,
+     "rank": 9,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 1.49,
+     "undiluted": 1.56,
+     "excess": 0.49,
+     "rank": 8,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 182,
+     "tick": "21:00",
+     "action": "Book HD_AM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 196,
+     "tick": "21:00",
+     "action": "Book HD_AM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 210,
+     "tick": "21:00",
+     "action": "Book HD_AM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 154,
+     "pto": false,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.027,
+     "n_agents": 1
+    },
+    {
+     "doy": 168,
+     "pto": false,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.008,
+     "n_agents": 2
+    },
+    {
+     "doy": 182,
+     "pto": false,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.018,
+     "n_agents": 1
+    },
+    {
+     "doy": 196,
+     "pto": false,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.002,
+     "n_agents": 1
+    },
+    {
+     "doy": 210,
+     "pto": false,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.043,
+     "n_agents": 1
+    }
+   ]
+  },
+  {
+   "name": "thrifty",
+   "kind": "llm",
+   "persona": "thrifty (many half days)",
+   "model": "claude-sonnet-5",
+   "adversary": null,
+   "describe": "Twenty-five half days a season: every Saturday PM from May to October, plus Fridays when budget remains.",
+   "strategy_version": 6,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/thrifty/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 10,
+    "posts": 1,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 1.05,
+    "undiluted": 1.13,
+    "excess": 0.35,
+    "skunk_rate": 0.67,
+    "trips": 3,
+    "trips_by_class": {
+     "OVERNIGHT": 3
+    },
+    "budget_left": 800,
+    "pto_left": 8,
+    "pto_used": 2,
+    "usd_per_fish": 1143.0,
+    "rank": 4
+   },
+   "cumulative": {
+    "fish": 0.0,
+    "undiluted": 0.0,
+    "excess": -1.0,
+    "seasons_counted": 1,
+    "rank": 13
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 1.0,
+     "undiluted": 1.05,
+     "excess": 0.0,
+     "rank": 10,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 0.97,
+     "undiluted": 1.02,
+     "excess": -0.03,
+     "rank": 10,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 0.0,
+     "undiluted": 0.0,
+     "excess": -1.0,
+     "rank": 13,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 152,
+     "tick": "21:00",
+     "action": "Book OVERNIGHT",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 176,
+     "tick": "21:00",
+     "action": "Book OVERNIGHT",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 199,
+     "tick": "21:00",
+     "action": "Book OVERNIGHT",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 152,
+     "pto": true,
+     "cls": "OVERNIGHT",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 2
+    },
+    {
+     "doy": 176,
+     "pto": false,
+     "cls": "OVERNIGHT",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 1
+    },
+    {
+     "doy": 199,
+     "pto": true,
+     "cls": "OVERNIGHT",
+     "outcome": "fish",
+     "share": 1.054,
+     "n_agents": 1
+    }
+   ]
+  },
+  {
+   "name": "biggame",
+   "kind": "llm",
+   "persona": "big-game (1.5-days only)",
+   "model": "claude-opus-5-5",
+   "adversary": null,
+   "describe": "Three DAY_1_5 departures, Friday evenings in August\u2013September; PTO committed on the first tick of July.",
+   "strategy_version": 4,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/biggame/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 7,
+    "posts": 0,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 0,
+    "undiluted": 0.0,
+    "excess": -0.7,
+    "skunk_rate": null,
+    "trips": 0,
+    "trips_by_class": {},
+    "budget_left": 2000,
+    "pto_left": 10,
+    "pto_used": 0,
+    "usd_per_fish": null,
+    "rank": 12
+   },
+   "cumulative": {
+    "fish": 3.76,
+    "undiluted": 3.95,
+    "excess": 2.76,
+    "seasons_counted": 1,
+    "rank": 2
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 2.64,
+     "undiluted": 2.77,
+     "excess": 1.64,
+     "rank": 6,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 2.2,
+     "undiluted": 2.31,
+     "excess": 1.2,
+     "rank": 4,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 3.76,
+     "undiluted": 3.95,
+     "excess": 2.76,
+     "rank": 2,
+     "counted": true
+    }
+   ],
+   "last_reasons": [],
+   "strip": []
+  },
+  {
+   "name": "tides",
+   "kind": "llm",
+   "persona": "tide/moon believer",
+   "model": "claude-haiku-4-5",
+   "adversary": null,
+   "describe": "HD_PM on days with the largest tide range within three days of a full or new moon, July\u2013September.",
+   "strategy_version": 5,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/tides/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 4,
+    "posts": 0,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 1.01,
+    "undiluted": 1.09,
+    "excess": 0.31,
+    "skunk_rate": 0.0,
+    "trips": 3,
+    "trips_by_class": {
+     "HD_PM": 1,
+     "OVERNIGHT": 2
+    },
+    "budget_left": 1120,
+    "pto_left": 7,
+    "pto_used": 3,
+    "usd_per_fish": 871.0,
+    "rank": 5
+   },
+   "cumulative": {
+    "fish": 1.75,
+    "undiluted": 1.84,
+    "excess": 0.75,
+    "seasons_counted": 1,
+    "rank": 7
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 1.93,
+     "undiluted": 2.03,
+     "excess": 0.93,
+     "rank": 8,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 0.74,
+     "undiluted": 0.78,
+     "excess": -0.26,
+     "rank": 11,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 1.75,
+     "undiluted": 1.84,
+     "excess": 0.75,
+     "rank": 7,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 167,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 178,
+     "tick": "21:00",
+     "action": "Book OVERNIGHT",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 186,
+     "tick": "21:00",
+     "action": "Book OVERNIGHT",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 167,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.04,
+     "n_agents": 2
+    },
+    {
+     "doy": 178,
+     "pto": true,
+     "cls": "OVERNIGHT",
+     "outcome": "fish",
+     "share": 0.94,
+     "n_agents": 1
+    },
+    {
+     "doy": 186,
+     "pto": true,
+     "cls": "OVERNIGHT",
+     "outcome": "fish",
+     "share": 0.032,
+     "n_agents": 1
+    }
+   ]
+  },
+  {
+   "name": "skeptic",
+   "kind": "llm",
+   "persona": "verifier/skeptic",
+   "model": "claude-opus-5-5",
+   "adversary": null,
+   "describe": "Only book after two consecutive pooled days with \u2265 0.05 yt/angler; verify every forum claim against the counts first.",
+   "strategy_version": 4,
+   "last_strategy_change": {
+    "season": 4,
+    "doy": 196,
+    "summary": "Raised the pier-temperature gate from 66 to 67 \u00b0F; added ONI > 0.",
+    "diff_path": "agents/skeptic/strategy_v5.diff"
+   },
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 7,
+    "posts": 0,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 0.0,
+    "undiluted": 0.0,
+    "excess": -0.7,
+    "skunk_rate": 1.0,
+    "trips": 1,
+    "trips_by_class": {
+     "HD_PM": 1
+    },
+    "budget_left": 1920,
+    "pto_left": 10,
+    "pto_used": 0,
+    "usd_per_fish": null,
+    "rank": 13
+   },
+   "cumulative": {
+    "fish": 0.75,
+    "undiluted": 0.79,
+    "excess": -0.25,
+    "seasons_counted": 1,
+    "rank": 10
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 0.0,
+     "undiluted": 0.0,
+     "excess": -1.0,
+     "rank": 14,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 1.18,
+     "undiluted": 1.24,
+     "excess": 0.18,
+     "rank": 6,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 0.75,
+     "undiluted": 0.79,
+     "excess": -0.25,
+     "rank": 10,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 161,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 161,
+     "pto": false,
+     "cls": "HD_PM",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 2
+    }
+   ]
+  },
+  {
+   "name": "cam",
+   "kind": "owner",
+   "persona": "owner's agent",
+   "model": "\u2014",
+   "adversary": null,
+   "describe": "Owner's agent. Current: warm-water gate + 1.5-day Friday PTO plan.",
+   "strategy_version": 1,
+   "last_strategy_change": null,
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 5,
+    "posts": 2,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 0.19,
+    "undiluted": 0.21,
+    "excess": -0.51,
+    "skunk_rate": 0.4,
+    "trips": 5,
+    "trips_by_class": {
+     "HD_PM": 4,
+     "OVERNIGHT": 1
+    },
+    "budget_left": 1280,
+    "pto_left": 5,
+    "pto_used": 5,
+    "usd_per_fish": 3789.0,
+    "rank": 8
+   },
+   "cumulative": {
+    "fish": 3.04,
+    "undiluted": 3.19,
+    "excess": 2.04,
+    "seasons_counted": 1,
+    "rank": 4
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 3.29,
+     "undiluted": 3.45,
+     "excess": 2.29,
+     "rank": 3,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 1.18,
+     "undiluted": 1.24,
+     "excess": 0.18,
+     "rank": 7,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 3.04,
+     "undiluted": 3.19,
+     "excess": 2.04,
+     "rank": 4,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 158,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 179,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 202,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 150,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 1
+    },
+    {
+     "doy": 157,
+     "pto": true,
+     "cls": "OVERNIGHT",
+     "outcome": "fish",
+     "share": 0.14,
+     "n_agents": 1
+    },
+    {
+     "doy": 158,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.002,
+     "n_agents": 1
+    },
+    {
+     "doy": 179,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 1
+    },
+    {
+     "doy": 202,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.044,
+     "n_agents": 1
+    }
+   ]
+  },
+  {
+   "name": "B_SAT",
+   "kind": "baseline",
+   "persona": "every Saturday Jul\u2013Oct, HD_PM",
+   "model": null,
+   "adversary": null,
+   "describe": "Every Saturday July\u2013October, HD_PM.",
+   "strategy_version": 1,
+   "last_strategy_change": null,
+   "last_turn": null,
+   "season": {
+    "fish": 2.1,
+    "undiluted": 2.27,
+    "excess": 1.4,
+    "skunk_rate": 0.0,
+    "trips": 5,
+    "trips_by_class": {
+     "HD_PM": 2,
+     "THREE_QUARTER": 1,
+     "OVERNIGHT": 2
+    },
+    "budget_left": 890,
+    "pto_left": 10,
+    "pto_used": 0,
+    "usd_per_fish": 529.0,
+    "rank": 1
+   },
+   "cumulative": {
+    "fish": 1.97,
+    "undiluted": 2.07,
+    "excess": 0.97,
+    "seasons_counted": 1,
+    "rank": 6
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 1.5,
+     "undiluted": 1.58,
+     "excess": 0.5,
+     "rank": 9,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 0.36,
+     "undiluted": 0.38,
+     "excess": -0.64,
+     "rank": 14,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 1.97,
+     "undiluted": 2.07,
+     "excess": 0.97,
+     "rank": 6,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 196,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "Saturday in July\u2013October",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 203,
+     "tick": "21:00",
+     "action": "Book THREE_QUARTER",
+     "text": "Saturday in July\u2013October",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 210,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "Saturday in July\u2013October",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 182,
+     "pto": false,
+     "cls": "OVERNIGHT",
+     "outcome": "fish",
+     "share": 0.764,
+     "n_agents": 1
+    },
+    {
+     "doy": 189,
+     "pto": false,
+     "cls": "OVERNIGHT",
+     "outcome": "fish",
+     "share": 0.572,
+     "n_agents": 2
+    },
+    {
+     "doy": 196,
+     "pto": false,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.017,
+     "n_agents": 1
+    },
+    {
+     "doy": 203,
+     "pto": false,
+     "cls": "THREE_QUARTER",
+     "outcome": "fish",
+     "share": 0.719,
+     "n_agents": 1
+    },
+    {
+     "doy": 210,
+     "pto": false,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.032,
+     "n_agents": 2
+    }
+   ]
+  },
+  {
+   "name": "B_PERSIST",
+   "kind": "baseline",
+   "persona": "HD_PM tomorrow if yesterday's half-day yt > 0",
+   "model": null,
+   "adversary": null,
+   "describe": "Book HD_PM tomorrow if yesterday's pooled half-day yt > 0.",
+   "strategy_version": 1,
+   "last_strategy_change": null,
+   "last_turn": null,
+   "season": {
+    "fish": 0.07,
+    "undiluted": 0.08,
+    "excess": -0.63,
+    "skunk_rate": 0.0,
+    "trips": 2,
+    "trips_by_class": {
+     "HD_PM": 2
+    },
+    "budget_left": 1840,
+    "pto_left": 8,
+    "pto_used": 2,
+    "usd_per_fish": 2286.0,
+    "rank": 10
+   },
+   "cumulative": {
+    "fish": 0.0,
+    "undiluted": 0.0,
+    "excess": -1.0,
+    "seasons_counted": 1,
+    "rank": 14
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 3.41,
+     "undiluted": 3.58,
+     "excess": 2.41,
+     "rank": 2,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 1.17,
+     "undiluted": 1.23,
+     "excess": 0.17,
+     "rank": 8,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 0.0,
+     "undiluted": 0.0,
+     "excess": -1.0,
+     "rank": 14,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 186,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 202,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 186,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.018,
+     "n_agents": 2
+    },
+    {
+     "doy": 202,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.056,
+     "n_agents": 2
+    }
+   ]
+  },
+  {
+   "name": "B_TEMP",
+   "kind": "baseline",
+   "persona": "pier \u2265 68 \u00b0F, Jul\u2013Oct, ONI > 0 \u2192 HD_PM",
+   "model": null,
+   "adversary": null,
+   "describe": "Pier \u2265 68 \u00b0F, July\u2013October, ONI > 0 \u2192 HD_PM.",
+   "strategy_version": 1,
+   "last_strategy_change": null,
+   "last_turn": null,
+   "season": {
+    "fish": 1.11,
+    "undiluted": 1.2,
+    "excess": 0.41,
+    "skunk_rate": 0.0,
+    "trips": 4,
+    "trips_by_class": {
+     "HD_PM": 3,
+     "THREE_QUARTER": 1
+    },
+    "budget_left": 1610,
+    "pto_left": 8,
+    "pto_used": 2,
+    "usd_per_fish": 351.0,
+    "rank": 3
+   },
+   "cumulative": {
+    "fish": 2.03,
+    "undiluted": 2.13,
+    "excess": 1.03,
+    "seasons_counted": 1,
+    "rank": 5
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 2.04,
+     "undiluted": 2.14,
+     "excess": 1.04,
+     "rank": 7,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 0.72,
+     "undiluted": 0.76,
+     "excess": -0.28,
+     "rank": 12,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 2.03,
+     "undiluted": 2.13,
+     "excess": 1.03,
+     "rank": 5,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 187,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 203,
+     "tick": "21:00",
+     "action": "Book THREE_QUARTER",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 211,
+     "tick": "21:00",
+     "action": "Book HD_PM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 151,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.04,
+     "n_agents": 1
+    },
+    {
+     "doy": 187,
+     "pto": true,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.049,
+     "n_agents": 2
+    },
+    {
+     "doy": 203,
+     "pto": false,
+     "cls": "THREE_QUARTER",
+     "outcome": "fish",
+     "share": 0.94,
+     "n_agents": 1
+    },
+    {
+     "doy": 211,
+     "pto": false,
+     "cls": "HD_PM",
+     "outcome": "fish",
+     "share": 0.086,
+     "n_agents": 1
+    }
+   ]
+  },
+  {
+   "name": "B_BIG",
+   "kind": "baseline",
+   "persona": "all budget on DAY_1_5 Fridays Aug\u2013Sep",
+   "model": null,
+   "adversary": null,
+   "describe": "All budget on DAY_1_5 Friday departures, August\u2013September.",
+   "strategy_version": 1,
+   "last_strategy_change": null,
+   "last_turn": null,
+   "season": {
+    "fish": 0,
+    "undiluted": 0.0,
+    "excess": -0.7,
+    "skunk_rate": null,
+    "trips": 0,
+    "trips_by_class": {},
+    "budget_left": 2000,
+    "pto_left": 10,
+    "pto_used": 0,
+    "usd_per_fish": null,
+    "rank": 14
+   },
+   "cumulative": {
+    "fish": 4.16,
+    "undiluted": 4.37,
+    "excess": 3.16,
+    "seasons_counted": 1,
+    "rank": 1
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 4.29,
+     "undiluted": 4.5,
+     "excess": 3.29,
+     "rank": 1,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 3.65,
+     "undiluted": 3.83,
+     "excess": 2.65,
+     "rank": 1,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 4.16,
+     "undiluted": 4.37,
+     "excess": 3.16,
+     "rank": 1,
+     "counted": true
+    }
+   ],
+   "last_reasons": [],
+   "strip": []
+  },
+  {
+   "name": "A_WRONG",
+   "kind": "adversary",
+   "persona": "confident inverted mechanisms",
+   "model": "claude-haiku-4-5",
+   "adversary": "A_WRONG",
+   "describe": "PM boats die in warm water; fish the coldest weeks of July on the AM boats.",
+   "strategy_version": 1,
+   "last_strategy_change": null,
+   "last_turn": {
+    "season": 4,
+    "doy": 213,
+    "queries": 8,
+    "posts": 2,
+    "adopted_from": []
+   },
+   "season": {
+    "fish": 0.05,
+    "undiluted": 0.05,
+    "excess": -0.65,
+    "skunk_rate": 0.4,
+    "trips": 5,
+    "trips_by_class": {
+     "HD_AM": 5
+    },
+    "budget_left": 1600,
+    "pto_left": 6,
+    "pto_used": 4,
+    "usd_per_fish": 8000.0,
+    "rank": 11
+   },
+   "cumulative": {
+    "fish": 0.92,
+    "undiluted": 0.97,
+    "excess": -0.08,
+    "seasons_counted": 1,
+    "rank": 9
+   },
+   "history": [
+    {
+     "season": 1,
+     "fish": 2.75,
+     "undiluted": 2.89,
+     "excess": 1.75,
+     "rank": 5,
+     "counted": false
+    },
+    {
+     "season": 2,
+     "fish": 2.26,
+     "undiluted": 2.37,
+     "excess": 1.26,
+     "rank": 2,
+     "counted": false
+    },
+    {
+     "season": 3,
+     "fish": 0.92,
+     "undiluted": 0.97,
+     "excess": -0.08,
+     "rank": 9,
+     "counted": true
+    }
+   ],
+   "last_reasons": [
+    {
+     "season": 4,
+     "doy": 163,
+     "tick": "21:00",
+     "action": "Book HD_AM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 165,
+     "tick": "21:00",
+     "action": "Book HD_AM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    },
+    {
+     "season": 4,
+     "doy": 186,
+     "tick": "21:00",
+     "action": "Book HD_AM",
+     "text": "rule fired",
+     "valid": true,
+     "reason_rejected": null
+    }
+   ],
+   "strip": [
+    {
+     "doy": 150,
+     "pto": true,
+     "cls": "HD_AM",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 2
+    },
+    {
+     "doy": 162,
+     "pto": false,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.021,
+     "n_agents": 1
+    },
+    {
+     "doy": 163,
+     "pto": true,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.004,
+     "n_agents": 1
+    },
+    {
+     "doy": 165,
+     "pto": true,
+     "cls": "HD_AM",
+     "outcome": "skunk",
+     "share": 0.0,
+     "n_agents": 2
+    },
+    {
+     "doy": 186,
+     "pto": true,
+     "cls": "HD_AM",
+     "outcome": "fish",
+     "share": 0.022,
+     "n_agents": 2
+    }
+   ]
+  }
+ ],
+ "leaderboard": {
+  "season": [
+   "B_SAT",
+   "contrarian",
+   "B_TEMP",
+   "thrifty",
+   "tides",
+   "temp_first",
+   "persist",
+   "cam",
+   "weekender",
+   "B_PERSIST",
+   "A_WRONG",
+   "biggame",
+   "skeptic",
+   "B_BIG"
+  ],
+  "cumulative": [
+   "B_BIG",
+   "biggame",
+   "persist",
+   "cam",
+   "B_TEMP",
+   "B_SAT",
+   "tides",
+   "weekender",
+   "A_WRONG",
+   "skeptic",
+   "contrarian",
+   "temp_first",
+   "thrifty",
+   "B_PERSIST"
+  ]
+ },
+ "forum": {
+  "enabled": true,
+  "n_total": 6,
+  "path": "forum.jsonl",
+  "posts": [
+   {
+    "post_id": "p0006",
+    "season": 3,
+    "doy": 212,
+    "hour": 21,
+    "agent": "thrifty",
+    "text": "Skunk again on Saturday PM. That's 7 of 9 this season. Half days are lottery tickets.",
+    "rank_at_post": 4,
+    "adversary": null,
+    "cited_by": []
+   },
+   {
+    "post_id": "p0005",
+    "season": 3,
+    "doy": 205,
+    "hour": 21,
+    "agent": "temp_first",
+    "text": "Pier hit 68.4 \u00b0F three days running with ONI +0.7. Committing PTO for d221 and d228; will pick the boat at the cutoff.",
+    "rank_at_post": 6,
+    "adversary": null,
+    "cited_by": []
+   },
+   {
+    "post_id": "p0004",
+    "season": 3,
+    "doy": 200,
+    "hour": 21,
+    "agent": "biggame",
+    "text": "Two 1.5-days so far: 3.1 and 0.9 per angler. That is more fish than the whole half-day field combined. Budget is the constraint, not skill.",
+    "rank_at_post": 12,
+    "adversary": null,
+    "cited_by": [
+     "persist",
+     "thrifty"
+    ]
+   },
+   {
+    "post_id": "p0003",
+    "season": 3,
+    "doy": 196,
+    "hour": 21,
+    "agent": "skeptic",
+    "text": "Checked the counts: AM boats have 0.00 yt/angler over the last 30 days at every landing. Whatever is working for A_WRONG, it is not in the count table.",
+    "rank_at_post": 13,
+    "adversary": null,
+    "cited_by": [
+     "temp_first"
+    ]
+   },
+   {
+    "post_id": "p0002",
+    "season": 3,
+    "doy": 192,
+    "hour": 21,
+    "agent": "A_WRONG",
+    "text": "Warm water pushes the yellows deep and off the PM boats. AM boats in the coldest week of July are where the fish are. Two for two this season.",
+    "rank_at_post": 11,
+    "adversary": "A_WRONG",
+    "cited_by": []
+   },
+   {
+    "post_id": "p0001",
+    "season": 3,
+    "doy": 190,
+    "hour": 21,
+    "agent": "persist",
+    "text": "Pooled PM boats ran 0.08 yt/angler yesterday, first non-zero day since d160. I'm on tomorrow's PM.",
+    "rank_at_post": 7,
+    "adversary": null,
+    "cited_by": []
+   }
+  ]
+ },
+ "field": {
+  "diversity_jaccard": 0.11,
+  "herding": 0.29,
+  "by_season": [
+   {
+    "season": 1,
+    "mean_fish": 1.4,
+    "diversity_jaccard": 0.17,
+    "herding": 0.19,
+    "counted": false
+   },
+   {
+    "season": 2,
+    "mean_fish": 1.7,
+    "diversity_jaccard": 0.14,
+    "herding": 0.23,
+    "counted": false
+   },
+   {
+    "season": 3,
+    "mean_fish": 2.0,
+    "diversity_jaccard": 0.11,
+    "herding": 0.27,
+    "counted": true
+   },
+   {
+    "season": 4,
+    "mean_fish": 2.3,
+    "diversity_jaccard": 0.08,
+    "herding": 0.31,
+    "counted": true
+   }
+  ]
+ },
+ "outcomes_recent": [
+  {
+   "season": 4,
+   "doy": 213,
+   "cls": "HD_PM",
+   "ran": true,
+   "yt": 3,
+   "anglers": 41,
+   "n_agents": 2,
+   "share": 0.07
+  },
+  {
+   "season": 4,
+   "doy": 213,
+   "cls": "DAY_1_5",
+   "ran": true,
+   "yt": 38,
+   "anglers": 22,
+   "n_agents": 1,
+   "share": 1.652
+  },
+  {
+   "season": 4,
+   "doy": 212,
+   "cls": "OVERNIGHT",
+   "ran": true,
+   "yt": 6,
+   "anglers": 18,
+   "n_agents": 0,
+   "share": 0.333
+  },
+  {
+   "season": 4,
+   "doy": 212,
+   "cls": "HD_AM",
+   "ran": true,
+   "yt": 0,
+   "anglers": 33,
+   "n_agents": 1,
+   "share": 0.0
+  }
+ ]
+}

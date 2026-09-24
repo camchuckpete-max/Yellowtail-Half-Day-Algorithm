@@ -1,0 +1,11 @@
+{
+  "_comment": "Operator-only labels (SPEC §5.5). Never mounted in any agent sandbox.",
+  "B_SAT": {"kind": "baseline", "adversary": null},
+  "B_PERSIST": {"kind": "baseline", "adversary": null},
+  "B_TEMP": {"kind": "baseline", "adversary": null},
+  "B_BIG": {"kind": "baseline", "adversary": null},
+  "A_WRONG": {"kind": "adversary", "adversary": "A_WRONG", "note": "confident inverted mechanisms (Phase 4)"},
+  "A_STALE": {"kind": "adversary", "adversary": "A_STALE", "note": "re-posts three-week-old counts as current (Phase 4)"},
+  "A_FAB": {"kind": "adversary", "adversary": "A_FAB", "note": "claims fish it did not catch (Phase 4)"},
+  "A_NOISE": {"kind": "adversary", "adversary": "A_NOISE", "note": "overconfident rules from its last two trips (Phase 4)"}
+}

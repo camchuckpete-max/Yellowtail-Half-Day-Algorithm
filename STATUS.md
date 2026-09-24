@@ -10,6 +10,7 @@ _Updated after Goal D sweep D8 (source commit e24c47c)._
 
 | C — conditions only (no fish counts, no FishDope) | Iteration 1 done (D-031–D-035). Forecast era (dev 2012–2016): nothing beats season-only (AUC 0.714 vs 0.709). SST era (dev 2021–2023): **SST alone AUC 0.803 vs season 0.762**, better Brier; yes/no MCC ≈ 0.30 for both. |
 | D — per-trip, New Seaforth + Sea Watch, conditions only | In progress (D-036–D-047). Best: Scripps Pier water temp × trip type × season + ONI + 3-day temp change, walk-forward 2012–2023 **AUC 0.763**. Held-out bands (D-044): 0–5 % → 7 % observed, 35–65 % → 43 %, 85–100 % → 87 % (47 trips). No gain from tides, wind (buoys, KSAN, in-trip), pressure, upwelling, glider, sea level, kelp. Waiting on kelp-box SST backfill and request 0004 (HF-radar currents, clarity). |
+| Arena — multi-agent day-picking competition (D-049) | Phases 0–2 built (D-050–D-052): preflight, dashboard artifact, engine with the four scripted baselines, isolated arm runs on seasons ≤ 2023. Phase 3 (LLM turns) waits on the owner's Phase 2 quiz. |
 
 ## What we know
 - B1 ("most recent visible day had a half-day yellowtail") is a strong rule: dev MCC 0.606.

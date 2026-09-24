@@ -1,3 +1,7 @@
 cache/
 __pycache__/
 *.pyc
+
+arena/runs/dev_*/
+arena/runs/*/tables/
+arena/runs/*/checkpoint.tmp

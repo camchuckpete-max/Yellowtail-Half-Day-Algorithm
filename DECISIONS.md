@@ -448,3 +448,17 @@ accumulates complete statements (statements can span lines because text fields c
 drops the dump's own BEGIN/COMMIT, and executes ~50 MB batches each in its own transaction.
 Verified on the pinned snapshot (source 7121831): landing_counts, conditions_daily,
 fishdope_reports and marine_forecasts are row-for-row identical to the previous loader's output.
+
+## D-039 Goal D definition (user, 2026-09-24)
+Per-trip label for New Seaforth and Sea Watch half-day fishing trips (AM/PM/unspecified/twilight;
+hoop-net/lobster excluded as in D-001); 10,386 trips 2010–2026, 17.6 % with ≥1 yellowtail.
+Allowed inputs: the Goal C conditions allowlist (D-031, enforced by `assert_conditions_only`)
+plus trip descriptors (boat, trip class). No catch history of any kind and no FishDope-derived data.
+Evaluation: walk-forward by year (train on years before the test year only), trips grouped by
+date for bootstrap; holdout ≥ 2024-01-01 untouched. Output = calibrated probability bands with
+observed hit rate per band on held-out dev years, plus plain-language condition ranges per band
+(from the fitted model / a shallow rule tree fitted on training years only).
+Tracks: (P) predictive at 21:00 PT D-1 and (E) explanatory using conditions during the trip; E
+results are labelled explanatory and never reported as forecast skill.
+Data request 0002 (hourly La Jolla predicted tides, CO-OPS 9410230 obs, CDIP 100/201 waves+SST,
+Scripps Pier daily SST, trip times, KSAN wind) committed to the request PR branch.

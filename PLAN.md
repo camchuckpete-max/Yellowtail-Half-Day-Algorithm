@@ -44,3 +44,16 @@ much the environment alone explains. Loop until results stop improving.
   feature from landing_counts or FishDope (tested in tests/test_pit.py).
 - Tracks: (1) 2010–2016 forecasts/tides/moon history features now; (2) SST/chlorophyll/currents/
   buoys once 2020+ half-day counts load (source backfill in progress).
+
+# Goal D — per-trip, conditions only, La Jolla boats (user, 2026-09-24)
+Unit: one half-day trip (AM / PM / twilight) by **New Seaforth or Sea Watch** (they mostly fish
+La Jolla; more predictable spots). Label: that trip reported ≥1 yellowtail. Inputs: conditions
+only (no catch history, no FishDope) plus trip descriptors (boat, AM/PM/twilight, date/season).
+Deliverable: the condition ranges/combinations that give a trip ~0–5 %, 25 %, 50 %, 75 %, 95–100 %
+chance — i.e. a calibrated model whose probability bands are described in plain condition terms,
+with each band's *observed* hit rate on held-out years.
+Two tracks, never mixed: (P) predictive — information available at 21:00 PT D-1; (E) explanatory —
+conditions during the trip itself (hourly wind/tide/SST once request 0002 lands).
+Data: ~10.4k trips 2010–2026 (17.6 % positive). Holdout remains ≥ 2024-01-01 (untouched).
+Waiting on: request 0001 (SST 2010–2019, kelp-bed SST) and 0002 (hourly La Jolla tides/obs, CDIP,
+Scripps Pier SST, trip times) on PR camchuckpete-max/Daily-Fishing-Prediction#1.

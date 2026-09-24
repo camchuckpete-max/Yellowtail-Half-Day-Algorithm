@@ -81,3 +81,9 @@ _add(Spec("e008_e007_monthly", _E07.features, "logreg", C=0.03, threshold_rule="
           retrain="month", notes="e007 with monthly refit"))
 _add(Spec("e009_eB01_monthly_p40", _B01.features, _B01.model, C=_B01.C, threshold_rule="fixed:0.4",
           retrain="month", extra=_B01.extra, notes="eB01 feature set, monthly refit, threshold 0.4 (sweep 4 #2)"))
+
+# --- agent E (trip-level model, D-E01..D-E05), promoted from sweeps/E_sweep3
+_add(Spec("eE01_tripmodel_calib", ["tmz_logit", "tmz_ntrips", "hd_yt_lastday"], "logreg", C=1.0,
+          threshold_rule="mcc_range:0.3:0.5",
+          notes="Trip-level sail x yellowtail model (walk-forward inside the feature) recalibrated with B1 and "
+                "expected number of trips"))

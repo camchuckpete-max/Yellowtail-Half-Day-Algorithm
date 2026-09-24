@@ -194,6 +194,39 @@ def _mf_features(D: pd.Timestamp, mf: pd.DataFrame) -> dict:
     return f
 
 
+LAT_L = 60  # days of history the latent-state filter reads (D-F01)
+LAT_OBS = ("nhd", "khd", "ntq", "ktq", "fdv", "fdc", "fdn")
+LAT_COLS = [f"lat_{o}_{k}" for o in LAT_OBS for k in range(1, LAT_L + 1)] + ["lat_doy"]
+
+
+def _latent_obs(D: pd.Timestamp, trips: pd.DataFrame, fd_rep: pd.DataFrame | None) -> dict:
+    """Per-day evidence for the latent-state filter (D-F01), lag k = 1..LAT_L days before D, as
+    visible at the cutoff: half-day fishing trips and trips with yt (nhd/khd), 3/4-day trips and
+    trips with yt (ntq/ktq), and whether a FishDope report for that date is visible (fdv), has a
+    local yt catch sentence (fdc) or a local yt negation (fdn). Reads only the visible prefix."""
+    f: dict = {"lat_doy": D.dayofyear}
+    lag = ((np.datetime64(D) - trips["fished_date"].to_numpy()) / np.timedelta64(1, "D")).astype(int)
+    cls = trips["cls"].to_numpy()
+    yt = trips["yt"].to_numpy() > 0
+    ok = (lag >= 1) & (lag <= LAT_L)
+    cnt = lambda m: np.bincount(lag[ok & m], minlength=LAT_L + 1)
+    hd, tq = np.isin(cls, HD_FISH_CLASSES), cls == "three_quarter"
+    obs = {"nhd": cnt(hd), "khd": cnt(hd & yt), "ntq": cnt(tq), "ktq": cnt(tq & yt)}
+    if fd_rep is not None and len(fd_rep):
+        rl = ((np.datetime64(D) - fd_rep["report_date"].to_numpy()) / np.timedelta64(1, "D")).astype(int)
+        rok = (rl >= 1) & (rl <= LAT_L)
+        mx = lambda v: np.bincount(rl[rok & v], minlength=LAT_L + 1).clip(max=1)
+        obs["fdv"] = mx(np.ones(len(rl), bool))
+        obs["fdc"] = mx(fd_rep["yt_local_catch"].to_numpy() > 0)
+        obs["fdn"] = mx(fd_rep["yt_local_neg"].to_numpy() > 0)
+    else:
+        obs.update({o: np.zeros(LAT_L + 1, int) for o in ("fdv", "fdc", "fdn")})
+    for o in LAT_OBS:
+        for k in range(1, LAT_L + 1):
+            f[f"lat_{o}_{k}"] = int(obs[o][k])
+    return f
+
+
 def _day_features(D: pd.Timestamp, trips: pd.DataFrame, fc: pd.DataFrame) -> dict:
     cutoff = cutoff_for(D)
     f: dict = {"date": D, "cutoff": cutoff}
@@ -321,8 +354,9 @@ def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
         vt = _visible(trips, t_av, c)
         vf = _visible(fc, f_av, c)
         row = _day_features(D, vt, vf)
+        vd = _visible(fd_rep, d_av, c) if fd_rep is not None else None
+        row.update(_latent_obs(D, vt, vd))
         if fd_rep is not None:
-            vd = _visible(fd_rep, d_av, c)
             row.update(_fd_features(D, vd))
             row.update(_env_features(D, vd))
             assert pd.isna(row["audit_fd_max_available_at"]) or row["audit_fd_max_available_at"] <= c

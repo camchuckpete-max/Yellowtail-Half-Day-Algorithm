@@ -36,7 +36,7 @@ def test_future_events_do_not_change_features(n_days: int = 60, seed: int = 7):
     all_days = pd.DatetimeIndex(sorted(trips.loc[trips["is_hd_fishing"], "fished_date"].unique()))
     all_days = all_days[all_days >= all_days[0] + pd.Timedelta(days=30)]
     days = pd.DatetimeIndex(rng.choice(all_days, n_days, replace=False)).sort_values()
-    cols = [c for c in features.FEATURES]
+    cols = [c for c in features.FEATURES] + features.LAT_COLS  # D-F01 latent-filter evidence
     for D in days:
         c = features.cutoff_for(D)
         base = features.build(trips, fc, pd.DatetimeIndex([D]), fd, mf)[cols]
@@ -77,6 +77,16 @@ def test_dataset_audit_columns_respect_cutoff():
         assert ok.all(), col
 
 
+def test_latent_obs_consistent():
+    # D-F01: lag-1 evidence is exactly the D-1 half-day trips public at the cutoff (no D-1
+    # twilight), and lag-k counts agree with the day-level features built from the same prefix.
+    df, _ = dataset.build()
+    assert (df["lat_nhd_1"] == df["hd_cov_d1"]).all()
+    assert ((df["lat_khd_1"] > 0).astype(int) == df["hd_yt_d1"]).all()
+    assert (df["lat_khd_1"] == df["hd_yt_trips_d1"]).all()
+    assert (df["lat_fdv_1"] == df["fd_visible_d1"]).all()
+
+
 def test_twilight_d1_not_visible():
     trips, _, _, _ = _load()
     tw = trips[trips["cls"] == "hd_twilight"]
@@ -107,5 +117,6 @@ if __name__ == "__main__":
     test_twilight_d1_not_visible()
     test_fishdope_same_day_report_never_visible()
     test_dataset_audit_columns_respect_cutoff()
+    test_latent_obs_consistent()
     test_future_events_do_not_change_features()
     print("PIT tests passed")

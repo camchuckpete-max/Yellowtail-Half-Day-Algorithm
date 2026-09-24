@@ -26,6 +26,8 @@ from sklearn.ensemble import HistGradientBoostingClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import brier_score_loss, matthews_corrcoef, roc_auc_score
 
+from .latent import LatentFilter
+
 ROOT = Path(__file__).resolve().parents[1]
 DEV_YEARS = (2012, 2013, 2014, 2015, 2016)   # D-027 (was 2012-2014 through run e007/sweep 4)
 HOLDOUT_START = pd.Timestamp("2017-01-01")   # D-027 (was 2015-01-01; never accessed)
@@ -70,7 +72,32 @@ class Model:
     # D-B03: composite model types built from the base learners.
     #   logreg_split: separate logistic fits for regime B1=1 and B1=0 (spec.extra["split_col"])
     #   ens:          mean of logistic and HGB probabilities
+    # D-F01: latent-state filter (yt/latent.py), alone or stacked under a logistic.
+    #   latent:        P(y_D) from the filter; X must hold features.LAT_COLS + hd_trips_dow_4w
+    #   latent_logreg: logistic on spec.extra["logreg_features"] + logit of the filter output(s)
+    #                  (extra["lat_out"]: "py" = P(y_D), "pi" = P(state on D)); the filter is fitted
+    #                  on the same training rows first, so the logistic sees in-sample filter outputs.
+    def _lat(self) -> LatentFilter:
+        e = self.spec.extra
+        return LatentFilter(use_tq=e.get("lat_tq", True), use_fd=e.get("lat_fd", True), ridge=e.get("lat_ridge", 0.01))
+
+    def _lat_cols(self, X: pd.DataFrame) -> pd.DataFrame:
+        pi, py = self.filt.predict_state(X)
+        lg = lambda p: np.log(np.clip(p, 1e-6, 1 - 1e-6) / np.clip(1 - p, 1e-6, 1))
+        out = X[self.spec.extra["logreg_features"]].copy()
+        for k in self.spec.extra.get("lat_out", ["py"]):
+            out[f"lat_logit_{k}"] = lg(py if k == "py" else pi)
+        return out
+
     def fit(self, X: pd.DataFrame, y: np.ndarray, w: np.ndarray | None = None) -> "Model":
+        if self.spec.model == "latent":
+            self.filt = self._lat().fit(X, y, w)
+            return self
+        if self.spec.model == "latent_logreg":
+            self.filt = self._lat().fit(X, y, w)
+            Xl = self._lat_cols(X)
+            self.head = Model(Spec(**{**self.spec.__dict__, "model": "logreg", "features": list(Xl.columns)})).fit(Xl, y, w)
+            return self
         if self.spec.model == "logreg_split":
             col = self.spec.extra.get("split_col", "hd_yt_lastday")
             self.parts = {}
@@ -107,6 +134,10 @@ class Model:
         return self
 
     def predict(self, X: pd.DataFrame) -> np.ndarray:
+        if self.spec.model == "latent":
+            return self.filt.predict(X)
+        if self.spec.model == "latent_logreg":
+            return self.head.predict(self._lat_cols(X))
         if self.spec.model == "logreg_split":
             col = self.spec.extra.get("split_col", "hd_yt_lastday")
             p = np.zeros(len(X))
@@ -126,6 +157,10 @@ class Model:
         return self.clf.predict_proba(Xf.to_numpy())[:, 1]
 
     def weights(self) -> dict:
+        if self.spec.model == "latent":
+            return {"latent_filter": self.filt.weights()}
+        if self.spec.model == "latent_logreg":
+            return {"latent_filter": self.filt.weights(), "logreg_head": self.head.weights()}
         if self.spec.model in ("logreg_split", "ens", "avg_subsets"):
             return {str(k): m.weights() for k, m in self.parts.items()}
         w = {"transform": "log1p on *per_trip* features, then median impute"
@@ -252,8 +287,29 @@ def recency_weights(dates: pd.Series, ref: pd.Timestamp, spec: Spec) -> np.ndarr
     return 0.5 ** (age / spec.halflife_days)
 
 
-def _inner_oof(train: pd.DataFrame, spec: Spec) -> tuple[np.ndarray, np.ndarray]:
-    ys, ps = [], []
+REGIME_COL = "hd_yt_lastday"  # B1's input; regime of the D-F02 two-threshold rule
+
+
+def _pick_regime_threshold(y, p, r, rule: str) -> tuple[dict, dict]:
+    """D-F02 `regime_mcc:lo:hi`: separate thresholds for B1=0 and B1=1 days, jointly maximising
+    inner-OOF MCC over a 0.01 grid in [lo, hi]. Training window only."""
+    lo, hi = map(float, rule.split(":")[1:])
+    grid = np.round(np.arange(lo, hi + 1e-9, 0.01), 2)
+    best, best_s = {0: (lo + hi) / 2, 1: (lo + hi) / 2}, -np.inf
+    for t0 in grid:
+        for t1 in grid:
+            c = (p >= np.where(r == 1, t1, t0)).astype(int)
+            if c.sum() == 0 or c.sum() == len(c):
+                continue
+            s = matthews_corrcoef(y, c)
+            if s > best_s:
+                best, best_s = {0: float(t0), 1: float(t1)}, s
+    return best, {"rule": f"max MCC on inner OOF, one threshold per {REGIME_COL} value, within [{lo}, {hi}]",
+                  "inner_mcc": float(best_s)}
+
+
+def _inner_oof(train: pd.DataFrame, spec: Spec, with_regime: bool = False):
+    ys, ps, rs = [], [], []
     years = sorted(train["date"].dt.year.unique())
     for y in years[1:]:
         first = pd.Timestamp(y, 1, 1)
@@ -262,8 +318,9 @@ def _inner_oof(train: pd.DataFrame, spec: Spec) -> tuple[np.ndarray, np.ndarray]
         if len(tr) < 50 or tr["y"].nunique() < 2 or len(te) == 0:
             continue
         m = Model(spec).fit(tr[spec.features], tr["y"].to_numpy(), recency_weights(tr["date"], first, spec))
-        ys.append(te["y"].to_numpy()); ps.append(m.predict(te[spec.features]))
-    return (np.concatenate(ys), np.concatenate(ps)) if ys else (np.array([]), np.array([]))
+        ys.append(te["y"].to_numpy()); ps.append(m.predict(te[spec.features])); rs.append(te[REGIME_COL].to_numpy())
+    out = (np.concatenate(ys), np.concatenate(ps), np.concatenate(rs)) if ys else (np.array([]),) * 3
+    return out if with_regime else out[:2]
 
 
 def folds(df: pd.DataFrame, holdout: bool):
@@ -298,8 +355,12 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
         first = test["date"].min()
         train = df[df["date"] < first - pd.Timedelta(days=1)]
         assert train["date"].max() < first - pd.Timedelta(days=1)
-        yi, pi = _inner_oof(train, spec)
-        thr, tinfo = _pick_threshold(yi, pi, spec.threshold_rule) if len(yi) else (0.5, {"rule": "default 0.5"})
+        if spec.threshold_rule.startswith("regime_mcc:"):  # D-F02
+            yi, pi, ri = _inner_oof(train, spec, with_regime=True)
+            thr, tinfo = _pick_regime_threshold(yi, pi, ri, spec.threshold_rule)
+        else:
+            yi, pi = _inner_oof(train, spec)
+            thr, tinfo = _pick_threshold(yi, pi, spec.threshold_rule) if len(yi) else (0.5, {"rule": "default 0.5"})
         # Threshold is fixed per fold (chosen from data before the fold); the model itself is
         # refit per chunk. Each chunk trains only on days < chunk start - 1 day (D-026).
         chunks = ([(name, test)] if spec.retrain == "year" else
@@ -314,7 +375,8 @@ def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.Da
             out = chunk[["date", "y", "hd_yt_lastday", "hd_ytdays_7", BREAKOUT_COL]].copy()
             out["fold"] = name
             out["prob"] = p
-            out["call"] = (p >= thr).astype(int)
+            t = np.where(chunk[REGIME_COL].to_numpy() == 1, thr[1], thr[0]) if isinstance(thr, dict) else thr
+            out["call"] = (p >= t).astype(int)
             if spec.subset == "breakout":
                 out.loc[out[BREAKOUT_COL] > 0, "call"] = 0  # model only speaks on breakout-eligible days
             preds.append(out)

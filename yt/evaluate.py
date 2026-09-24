@@ -47,6 +47,7 @@ class Spec:
     clip_z: float = 4.0            # logreg: clip standardized inputs to +-clip_z (D-011)
     retrain: str = "year"          # year | month: refit cadence inside a test fold (D-026)
     halflife_days: float = 0.0     # >0: training rows weighted 0.5**(age/halflife) (D-026)
+    inputs: str = "any"            # "conditions": Goal C allowlist enforced (D-031)
     notes: str = ""
     extra: dict = field(default_factory=dict)
 
@@ -293,6 +294,9 @@ def add_derived(df: pd.DataFrame, names: list[str]) -> pd.DataFrame:
 
 def run_spec(df: pd.DataFrame, spec: Spec, holdout: bool = False) -> tuple[pd.DataFrame, dict]:
     preds, fold_info = [], {}
+    if spec.inputs == "conditions":
+        from .features import assert_conditions_only
+        assert_conditions_only(spec.features)
     df = add_derived(df, spec.features)
     for name, test in folds(df, holdout):
         first = test["date"].min()

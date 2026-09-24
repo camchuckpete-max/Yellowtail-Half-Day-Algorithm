@@ -180,6 +180,56 @@ def _env_features(D: pd.Timestamp, fd_rep: pd.DataFrame) -> dict:
     return f
 
 
+# ---------------------------------------------------------------- Goal C (D-031): conditions only
+UPWELLING_FROM_DEG = 315.0  # NW wind is upwelling-favourable along the SD coast
+
+
+def _latest_by_target(df: pd.DataFrame, lo: pd.Timestamp, hi: pd.Timestamp) -> pd.DataFrame:
+    """For each target date in [lo, hi], the latest forecast row in `df` (already the visible prefix)."""
+    sub = df[(df["target_date"] >= lo) & (df["target_date"] <= hi)]
+    return sub.groupby("target_date").tail(1)
+
+
+def _cond_features(D: pd.Timestamp, fc: pd.DataFrame, mf: pd.DataFrame | None) -> dict:
+    """Conditions-only history: forecasts already issued at the cutoff for D-k..D (no catch data)."""
+    f: dict = {}
+    doy = D.dayofyear
+    f["doy_sin2"] = math.sin(4 * math.pi * doy / 365.25)
+    f["doy_cos2"] = math.cos(4 * math.pi * doy / 365.25)
+    h = _latest_by_target(fc, D - pd.Timedelta(days=30), D)
+    wd = np.deg2rad(h["wind_dir"].astype(float).to_numpy() - UPWELLING_FROM_DEG)
+    h = h.assign(upw=h["wind_kt"].astype(float).to_numpy() * np.cos(wd),
+                 swell_south=np.where(h["swell_dir"].astype(float).between(150, 250), h["swell_ft"].astype(float), 0.0))
+    today = h[h["target_date"] == D]
+    f["cd_upw_d"] = float(today["upw"].iloc[-1]) if len(today) and pd.notna(today["upw"].iloc[-1]) else float("nan")
+    f["cd_swell_south_d"] = float(today["swell_south"].iloc[-1]) if len(today) else float("nan")
+    past = h[h["target_date"] < D]
+    for k in (3, 7, 14, 30):
+        w = past[past["target_date"] >= D - pd.Timedelta(days=k)]
+        m = lambda c: float(w[c].astype(float).mean()) if w[c].notna().any() else float("nan")
+        f[f"cd_wind_{k}"], f[f"cd_upw_{k}"], f[f"cd_swell_{k}"] = m("wind_kt"), m("upw"), m("swell_ft")
+        if k in (7, 14):
+            f[f"cd_swell_south_{k}"] = m("swell_south")
+    # Anomaly of the 14-day upwelling proxy vs the same +-15 doy window in prior years' forecasts.
+    prior = fc[fc["target_date"] < pd.Timestamp(D.year, 1, 1)].groupby("target_date").tail(1)
+    if len(prior):
+        dd = np.abs(prior["target_date"].dt.dayofyear.to_numpy() - doy)
+        pw = prior[np.minimum(dd, 365 - dd) <= 15]
+        pu = pw["wind_kt"].astype(float) * np.cos(np.deg2rad(pw["wind_dir"].astype(float) - UPWELLING_FROM_DEG))
+        clim_u, clim_w = float(pu.mean()), float(pw["wind_kt"].astype(float).mean())
+    else:
+        clim_u = clim_w = float("nan")
+    f["cd_upw_14_anom"] = f["cd_upw_14"] - clim_u
+    f["cd_wind_14_anom"] = f["cd_wind_14"] - clim_w
+    if mf is not None:
+        hm = _latest_by_target(mf, D - pd.Timedelta(days=14), D - pd.Timedelta(days=1))
+        for c in ("mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_seas"):
+            for k in (3, 14):
+                w = hm[hm["target_date"] >= D - pd.Timedelta(days=k)][c].astype(float)
+                f[f"cd_{c[3:]}_{k}"] = float(w.mean()) if w.notna().any() else float("nan")
+    return f
+
+
 def _mf_features(D: pd.Timestamp, mf: pd.DataFrame) -> dict:
     """Latest NWS coastal-waters daytime forecast for D issued at or before the cutoff (D-C02)."""
     cand = mf[mf["target_date"] == D]
@@ -343,8 +393,10 @@ def build(trips: pd.DataFrame, fc: pd.DataFrame, days: pd.DatetimeIndex,
             row.update(_fd_features(D, vd))
             row.update(_env_features(D, vd))
             assert pd.isna(row["audit_fd_max_available_at"]) or row["audit_fd_max_available_at"] <= c
+        vm = _visible(mf, m_av, c) if mf is not None else None
+        row.update(_cond_features(D, vf, vm))
         if mf is not None:
-            row.update(_mf_features(D, _visible(mf, m_av, c)))
+            row.update(_mf_features(D, vm))
             assert pd.isna(row["audit_mf_available_at"]) or row["audit_mf_available_at"] <= c
         if tides is not None:
             row.update(_tide_features(D, _visible(tides, td_av, c)))
@@ -389,4 +441,26 @@ FEATURES = [
     "bait_sardine_7", "bait_squid_7", "bait_anchovy_7", "bait_mackerel_7",
     "mf_wind_max", "mf_gust", "mf_seas", "mf_wind_offshore", "mf_wind_south", "mf_swell_south", "mf_swell_west",
     "tide_range_d", "tide_high_d", "tide_low_d", "tide_range_d1", "tide_range_chg",  # D-029
+    # D-031 Goal C conditions-only history features
+    "doy_sin2", "doy_cos2", "cd_upw_d", "cd_swell_south_d",
+    "cd_wind_3", "cd_upw_3", "cd_swell_3", "cd_wind_7", "cd_upw_7", "cd_swell_7", "cd_swell_south_7",
+    "cd_wind_14", "cd_upw_14", "cd_swell_14", "cd_swell_south_14", "cd_wind_30", "cd_upw_30", "cd_swell_30",
+    "cd_upw_14_anom", "cd_wind_14_anom",
+    "cd_wind_offshore_3", "cd_wind_offshore_14", "cd_wind_south_3", "cd_wind_south_14",
+    "cd_swell_south_3", "cd_swell_south_14", "cd_seas_3", "cd_seas_14",
 ]
+
+
+# Goal C (D-031): the only feature families a conditions-only model may use. Anything derived
+# from landing_counts (fish counts, trip counts, effort) or FishDope (reports, text, bait,
+# water temperature from text, forage) is excluded by construction.
+CONDITIONS_PREFIXES = ("doy_", "weekend", "moon_", "tide_", "fc_", "mf_", "cd_", "sst_", "chl_", "cur_", "buoy_")
+FORBIDDEN_PREFIXES = ("hd_", "tq_", "ov_", "oth_", "bt_", "d1_", "clim_", "fd_", "fd2_", "wt_", "bait_", "bb_",
+                      "lat_", "tm", "yt_")
+
+
+def assert_conditions_only(names: list[str]) -> None:
+    for n in names:
+        for base in n.replace("!", "").split("*"):
+            if base.startswith(FORBIDDEN_PREFIXES) or not base.startswith(CONDITIONS_PREFIXES):
+                raise ValueError(f"Goal C spec uses non-conditions feature {base!r}")

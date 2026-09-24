@@ -105,9 +105,10 @@ _ISSUE = re.compile(r"issue_utc=([0-9T:\-+]+)")
 def load_forecasts(db: sqlite3.Connection, zone: str = "t_sd_coast") -> pd.DataFrame:
     """NWS coastal forecast for the target day, stamped with its issue time (PT)."""
     rows = []
-    q = """SELECT id, condition_date, wind_speed_kt, swell_height_ft, swell_period_s, vintage
+    q = """SELECT id, condition_date, wind_speed_kt, swell_height_ft, swell_period_s, vintage,
+                  wind_dir_deg, swell_dir_deg
            FROM conditions_daily WHERE zone_id=? AND data_kind='forecast' AND source LIKE 'nws%'"""
-    for rid, d, wind, sh, sp, vintage in db.execute(q, (zone,)):
+    for rid, d, wind, sh, sp, vintage, wdir, sdir in db.execute(q, (zone,)):
         m = _ISSUE.search(vintage or "")
         if not m:
             continue  # no provable issue time -> unusable (D-005)
@@ -116,7 +117,7 @@ def load_forecasts(db: sqlite3.Connection, zone: str = "t_sd_coast") -> pd.DataF
             issued = issued.replace(tzinfo=ZoneInfo("UTC"))
         rows.append({
             "src_id": rid, "target_date": pd.Timestamp(d),
-            "wind_kt": wind, "swell_ft": sh, "swell_s": sp,
+            "wind_kt": wind, "swell_ft": sh, "swell_s": sp, "wind_dir": wdir, "swell_dir": sdir,
             "available_at": pd.Timestamp(issued.astimezone(PT).replace(tzinfo=None)),
         })
     return pd.DataFrame(rows).sort_values("available_at", kind="stable").reset_index(drop=True)

@@ -43,7 +43,7 @@ def test_future_events_do_not_change_features(n_days: int = 60, seed: int = 7):
         # 1) poison every count/forecast value that is public only after the cutoff
         pt = _poison(trips, c, rng, ["yt", "bonito", "barracuda", "calico", "rockfish", "anglers",
                                           "mackerel", "sand_bass", "halibut", "white_seabass", "sheephead", "whitefish"])
-        pf = _poison(fc, c, rng, ["wind_kt", "swell_ft", "swell_s"])
+        pf = _poison(fc, c, rng, ["wind_kt", "swell_ft", "swell_s", "wind_dir", "swell_dir"])
         pd_ = _poison(fd, c, rng, [k for k in fd.columns if k.startswith(("yt_", "wt_", "bait_"))])
         pm = _poison(mf, c, rng, [k for k in mf.columns if k.startswith("mf_")])
         ptd = _poison(td, c, rng, ["tide_high_ft", "tide_low_ft"])
@@ -106,7 +106,18 @@ def test_tides_present():
     assert td["tide_high_ft"].notna().sum() > 5000 and td["target_date"].min() <= pd.Timestamp("2010-01-01")
 
 
+def test_conditions_guard():
+    features.assert_conditions_only(["doy_sin", "cd_upw_14", "tide_range_d*moon_cos", "!weekend"])
+    for bad in ("hd_yt_lastday", "fd_local_catch_d1", "wt_c", "clim_rate", "cd_upw_7*hd_ytdays_7"):
+        try:
+            features.assert_conditions_only([bad])
+        except ValueError:
+            continue
+        raise AssertionError(f"guard let {bad} through")
+
+
 if __name__ == "__main__":
+    test_conditions_guard()
     test_tides_present()
     test_marine_forecast_not_before_issue()
     test_env_columns_poisoned_are_real()

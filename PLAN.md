@@ -29,3 +29,18 @@ same check under `--strict` timing.
 ## Update after iteration 5
 - Parallel round (agents A/B/C) + monthly refit sweep: best dev (2012–2014) 0.655, but on fresh 2015–2016 all finalists are within noise of B1 (D-025–D-027).
 - Remaining levers: (1) more years of half-day history as the source backfill loads (re-run finalists each time the source changes; dev grows only by a logged decision made before looking); (2) SST/chlorophyll once 2020+ half-day years load; (3) a different Goal 1 criterion — only if the user decides (e.g. probability quality), never changed unilaterally.
+
+# Goal C — conditions only (user, 2026-09-24)
+Predict at 21:00 PT D-1 whether any SD half-day boat catches ≥1 yellowtail on D using **no fish
+counts and no FishDope-derived inputs**; only conditions (calendar/season, moon, tides, NWS
+forecasts, marine zone forecasts, later SST/chlorophyll/currents/buoys). Purpose: isolate how
+much the environment alone explains. Loop until results stop improving.
+
+- Label, evaluation days, dev folds (2012–2016), holdout (≥ 2017) and metrics are the same as
+  Goal 1, so numbers are directly comparable.
+- Benchmarks: **S0 season-only** model (day-of-year harmonics) — the honest bar for "do
+  conditions add anything"; and B1 for reference (B1 uses catch data, so it is not a fair rival).
+- Enforcement: specs set `inputs="conditions"`; `features.assert_conditions_only` rejects any
+  feature from landing_counts or FishDope (tested in tests/test_pit.py).
+- Tracks: (1) 2010–2016 forecasts/tides/moon history features now; (2) SST/chlorophyll/currents/
+  buoys once 2020+ half-day counts load (source backfill in progress).

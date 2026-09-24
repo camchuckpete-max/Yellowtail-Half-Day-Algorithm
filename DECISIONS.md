@@ -340,3 +340,20 @@ Useful findings kept for later:
 Conclusion: with inputs available for 2010–2016 (catch history, fleet state, FishDope text,
 water temperature from text, bait, NWS forecasts, tides, moon) the yes/no call cannot
 noticeably beat B1. Next lever: satellite SST/chlorophyll once 2020+ half-day counts load.
+
+## D-031 Goal C: conditions-only model (user decision, 2026-09-24)
+Inputs allowed: calendar (day-of-year harmonics, weekend), moon (computed), predicted tides,
+NWS coastal forecast (`conditions_daily` nws rows incl. wind/swell direction), NWS zone forecast
+(PZZ750, D-C02), and later SST/chlorophyll/currents/buoys. Excluded: everything derived from
+`landing_counts` — including trip counts/effort and the fish-count climatology `clim_rate` — and
+everything derived from FishDope (reports, text features, water temperature from text, bait
+barges, forage). The evaluation-day coverage filter (D-010) still uses report coverage; it
+selects which days are scored, it is not a model input, and keeping it makes Goal C numbers
+comparable with Goal 1.
+New conditions-history features (`cd_*`): per target date the latest forecast visible at the
+cutoff, averaged over D-3..D-1 … D-30..D-1: wind, swell, south swell (150–250°), an upwelling
+proxy (wind speed × cos(direction − 315°), NW = upwelling-favourable), its 14-day anomaly vs the
+same season in prior years' forecasts, and zone-forecast offshore/south wind, south swell and
+seas over 3/14 days; plus a second day-of-year harmonic. Past days' forecasts stand in for
+observed conditions, which do not exist for 2010–2016 in the source.
+Benchmark S0 = season-only logistic on day-of-year harmonics.

@@ -23,6 +23,9 @@ BUOYS = ("46225", "46232", "46254", "46266", "LJPC1")
 UPWELLING_LAG_DAYS = 14   # Muse: ~13-day publication lag observed; rounded up
 GLIDER_LAG_DAYS = 3       # D-045: daily glider means treated as public 3 days after the described day
 KELP_LAG_DAYS = 365      # D-045/D-046: no documented Kelpwatch release lag; PIT-safe bound after quarter end
+CHL_LAG_DAYS = 1          # D-048 (owner's decision): chlorophyll for day D-1 is usable at the D-1 21:00 cutoff
+CHL_SOURCES = ("noaacwNPPVIIRSSQchlaDaily", "noaacwN20VIIRSchlaDaily")
+CHL_ZONES = {"t_sd_coast": "sd", "t_north_county": "nc", "t_43_butterfly": "bf"}
 SLA_LAG_DAYS = 2          # D-045: blended SSH daily product, same latency convention as SST
 # Trip windows (PT). New Seaforth times per Muse's 0002 notes; Sea Watch AM/PM UNCONFIRMED (same slots assumed).
 WINDOWS = {"hd_am": ("06:00", "11:30"), "hd_pm": ("12:30", "17:30"), "hd_unspecified": ("12:30", "17:30"),
@@ -75,6 +78,11 @@ def load(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     rad = np.deg2rad(m["drct"] - 270.0)
     m["onshore"] = m["sknt"] * np.cos(rad)  # + = from the west (onshore at La Jolla)
     out["metar"] = m.drop(columns="ts_utc").sort_values("ts").reset_index(drop=True)
+    c = pd.read_sql(f"""SELECT condition_date, zone_id, chl FROM conditions_daily WHERE chl > 0
+                        AND source IN ({",".join("?" * len(CHL_SOURCES))})""", db, params=CHL_SOURCES)
+    c["date"] = pd.to_datetime(c["condition_date"])
+    c["logchl"] = np.log(c["chl"])
+    out["chl"] = c.drop(columns=["condition_date", "chl"]).sort_values("date").reset_index(drop=True)
     return out
 
 
@@ -170,6 +178,15 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
     f["hc_san_mslp_24h"] = _mean(m24["mslp"])
     f["hc_san_mslp_chg24"] = f["hc_san_mslp_24h"] - _mean(mv[mv["ts"] <= cutoff - pd.Timedelta(hours=24)]["mslp"])
     f["hc_san_relh_24h"], f["hc_san_vsby_24h"] = _mean(m24["relh"]), _mean(m24["vsby_sm"])
+    # --- satellite chlorophyll (log mg/m3), D-048: day d usable from d + (CHL_LAG_DAYS - 1) days + 21:00
+    cv = data["chl"]
+    last_ok = (cutoff - pd.Timedelta(hours=21)).normalize() - pd.Timedelta(days=CHL_LAG_DAYS - 1)
+    cv = cv[(cv["date"] <= last_ok) & (cv["date"] > last_ok - pd.Timedelta(days=30))]
+    for zone, name in CHL_ZONES.items():
+        z = cv[cv["zone_id"] == zone]
+        z3 = z[z["date"] > last_ok - pd.Timedelta(days=3)]["logchl"]
+        f[f"hc_chl_{name}_3d"] = _mean(z3)
+        f[f"hc_chl_{name}_anom30"] = f[f"hc_chl_{name}_3d"] - _mean(z["logchl"])
     # --- EXPLANATORY: observed during the trip window (never a forecast input)
     pw = _slice(data["pier"], w0, w1)
     f["ex_pier_wtmp_trip"] = _mean(pw["wtmp_c"])
@@ -204,6 +221,7 @@ HC_FEATURES = ["hc_tide_start", "hc_tide_change", "hc_tide_range", "hc_tide_maxr
                "hc_glider_t5_10d", "hc_glider_t45_10d", "hc_glider_strat_10d", "hc_sla_lj_last", "hc_sla_lj_7d",
                "hc_kelp_lj_last", "hc_kelp_lj_anom", "hc_kelp_pl_last", "hc_kelp_pl_anom",
                "hc_san_wspd_24h", "hc_san_onshore_24h", "hc_san_wspd_prevpm", "hc_san_mslp_24h",
-               "hc_san_mslp_chg24", "hc_san_relh_24h", "hc_san_vsby_24h"]
+               "hc_san_mslp_chg24", "hc_san_relh_24h", "hc_san_vsby_24h",
+               "hc_chl_sd_3d", "hc_chl_sd_anom30", "hc_chl_nc_3d", "hc_chl_nc_anom30", "hc_chl_bf_3d", "hc_chl_bf_anom30"]
 EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip",
                "ex_san_wspd_trip", "ex_san_onshore_trip", "ex_san_wspd_max_trip", "ex_san_vsby_trip"]

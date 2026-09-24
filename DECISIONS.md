@@ -557,3 +557,22 @@ passes (source e24c47c). D8, folds 2012–2023: base 0.763 / Brier 0.1292; +wind
 wind effect (AM 38/36/46 %, PM 46/51 % for the populated terciles). Conclusion: with water
 temperature, season and ENSO state known, local weather (wind, pressure, marine layer) carries no
 measurable information about a trip's yellowtail outcome. Goal D ledger +6.
+
+## D-048 Chlorophyll at a 1-day lag (owner's decision); sweep D9 inconclusive
+Owner, 2026-09-24: "there are still more up to date sources for chlorophyll data, so I think it's fair
+to use it, just use the chlorophyll data for the day before." Goal D therefore treats a day's satellite
+chlorophyll as visible at 21:00 PT that evening (`hourly.CHL_LAG_DAYS = 1`; Goal C keeps its 21-day
+rule, D-034). Caveat recorded: the stored history is the archived VIIRS product, which may be cleaner
+than what a live feed shows that evening; a lag-2 sensitivity run is kept alongside.
+Features `hc_chl_{sd,nc,bf}_{3d,anom30}`: log chl, 3-day mean ending D-1, and its difference from the
+30-day mean, for tiles t_sd_coast, t_north_county, t_43_butterfly. PIT poison test extended; suite passes.
+Coverage at e24c47c: 2012-01 → 2014-01 and 2021-04 → now only (backfill running). D9 trains and scores
+only on trips with chlorophyll: folds 2013, 2021–2023, 1,344 scored trips, 8 % positive.
+Lag 1: season 0.734, season+chl 0.711; D5 base 0.771, +chl (SD coast) 0.775, +chl (3 tiles) 0.769.
+Lag 2: base 0.762, +chl (SD) 0.765. Per fold (lag 1, base → +chl SD): 2021 0.709 → 0.740, 2022 0.741 →
+0.732, 2023 0.839 → 0.839; the 2013 fold (trained on 2012 alone) swings 0.79–0.96 for the base model
+with a one-trip change in the sample, so it carries no information. Descriptive (day trips, dev): no
+monotone chlorophyll pattern within pier-temperature bands (<64 °F 4.1/4.8/3.4 %, 64–68 °F
+21/22/16 %, ≥68 °F 30/26/28 % for low/mid/high chl). Verdict: no detectable effect, but the test is
+weak — it excludes 2014–2020, which holds most warm-water trips. Re-run when the backfill completes.
+Goal D ledger +10.

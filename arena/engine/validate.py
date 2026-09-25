@@ -85,6 +85,12 @@ def validate_strategy(code: str, snapshot: Path, cfg: dict, n_ticks: int = 8, se
         for a in acts or []:
             if not isinstance(a, (api.Book, api.CommitPTO)):
                 return {"ok": False, "reason": f"decide() returned a non-action: {a!r}"}
+            if isinstance(a, api.CommitPTO) and not isinstance(a.day, api.Day):
+                return {"ok": False, "reason": f"CommitPTO.day must be a Day object (e.g. ctx.today.plus(14)), got {type(a.day).__name__}: {a!r}"}
+            if isinstance(a, api.Book) and (not isinstance(a.offer_id, str) or not isinstance(a.boat, str)):
+                return {"ok": False, "reason": f"Book.offer_id and Book.boat must be strings: {a!r}"}
+            if isinstance(a, api.CommitPTO) and not isinstance(a.amount, (int, float)):
+                return {"ok": False, "reason": f"CommitPTO.amount must be a number: {a!r}"}
         # no-lookahead: poisoning every row public after `now` must not change the actions
         pois = tables.poisoned(cal.t_of(now), rng)
         try:

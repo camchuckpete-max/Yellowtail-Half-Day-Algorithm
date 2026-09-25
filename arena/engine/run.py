@@ -340,8 +340,21 @@ class Engine:
         self.write_state(now, tick)
 
     def apply(self, a: Agent, act, today: date, tick: str, day: api.Day, raw_offers: dict) -> None:
+        try:
+            self._apply(a, act, today, tick, day, raw_offers)
+        except Exception as e:  # noqa: BLE001  (an agent's action must never stop the engine)
+            why = f"malformed action {act!r}: {type(e).__name__}: {e}"
+            _jsonl(self.dir / "decisions.jsonl", {"date": today.isoformat(), "masked": str(day), "tick": tick, "agent": a.name,
+                                                  "action": str(act)[:80], "valid": False, "rejected": why[:300]})
+            a.failures.append({"date": str(day), "tick": tick, "kind": "rejected", "action": str(act)[:80], "error": why[:300]})
+
+    def _apply(self, a: Agent, act, today: date, tick: str, day: api.Day, raw_offers: dict) -> None:
         valid, why, label = True, "", ""
-        if isinstance(act, api.CommitPTO):
+        if isinstance(act, api.CommitPTO) and not isinstance(act.day, api.Day):
+            valid, why, label = False, f"CommitPTO.day must be a Day (e.g. ctx.today.plus(14)), got {type(act.day).__name__}", f"CommitPTO {act.day!r}"[:60]
+        elif isinstance(act, api.Book) and not isinstance(act.offer_id, str):
+            valid, why, label = False, f"Book.offer_id must be an offer id string, got {type(act.offer_id).__name__}", f"Book {act.offer_id!r}"[:60]
+        elif isinstance(act, api.CommitPTO):
             label = f"CommitPTO {act.day}"
             d = api.to_date(act.day)
             if self.cfg["pto_mode"] != "commit_day":

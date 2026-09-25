@@ -42,7 +42,8 @@ SYSTEM = ("You are {name}, an angler in a season-long yellowtail fishing competi
           "fishing tomorrow (and which boat), and whether to reserve PTO days two or more weeks ahead. You know the rules in the "
           "briefing. Think like a real angler: go when the fishing is good or the conditions say it will be, and keep your money "
           "and PTO for those days. Your persona:\n\n{persona}\n\nAnswer with JSON only: `book` (empty list = stay home), "
-          "`commit_pto` (day-of-year numbers at least 14 days ahead, empty if none), `note` (one or two lines for your own journal).")
+          "`commit_pto` (day-of-year numbers at least 14 days ahead, empty if none), `note` (one or two lines for your own journal). "
+          "This is a quick evening decision, not an analysis: reason briefly (a few sentences), then answer.")
 
 
 def _fmt(x, d=2):

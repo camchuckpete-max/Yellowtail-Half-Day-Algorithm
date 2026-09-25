@@ -786,3 +786,8 @@ Agents with less budget than the cheapest trip and no PTO skip the nightly call 
 Measured nightly-call cost with the full briefing: about $0.02–0.05 (Haiku and Sonnet alike, 3–4k input
 tokens and a few hundred output tokens); the trial (30 agents, 2 seasons, 244 nights each, monthly turns)
 is expected to cost $500–800.
+Pace note (trial, 2011-04-05): Haiku's nightly calls took a median 63 s (up to 175 s) because of 3k–12k
+thinking tokens per call, bounding every night's batch; Sonnet took 17 s. `--effort` changed nothing. One
+sentence in the system prompt ("This is a quick evening decision, not an analysis: reason briefly, then
+answer") brought Haiku to ~22 s and ~$0.012 per call with the same decisions on the same briefing. Applied
+from the night of 2011-04-05 onward (the first four nights ran without it).

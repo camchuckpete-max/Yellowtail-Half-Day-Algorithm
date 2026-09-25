@@ -1,0 +1,230 @@
+{
+ "run": "20260925T013809Z_isolated_r1",
+ "arm": "isolated",
+ "replicate": 1,
+ "seasons_counted": 12,
+ "cumulative": {
+  "B_SAT": 7.9884,
+  "B_PERSIST": 13.5189,
+  "B_TEMP": 8.1006,
+  "B_BIG": 32.8871
+ },
+ "leaderboard_cumulative": [
+  "B_BIG",
+  "B_PERSIST",
+  "B_TEMP",
+  "B_SAT"
+ ],
+ "ci_vs_baselines": {
+  "B_SAT-B_PERSIST": {
+   "mean": -0.4608749999999999,
+   "lo95": -1.20218625,
+   "hi95": 0.054332291666666685,
+   "n_seasons": 12
+  },
+  "B_SAT-B_TEMP": {
+   "mean": -0.009349999999999995,
+   "lo95": -0.2795485416666667,
+   "hi95": 0.26979333333333344,
+   "n_seasons": 12
+  },
+  "B_SAT-B_BIG": {
+   "mean": -2.074891666666667,
+   "lo95": -3.7338837500000004,
+   "hi95": -0.6009089583333334,
+   "n_seasons": 12
+  },
+  "B_PERSIST-B_SAT": {
+   "mean": 0.4608749999999999,
+   "lo95": -0.05433229166666663,
+   "hi95": 1.2021862500000002,
+   "n_seasons": 12
+  },
+  "B_PERSIST-B_TEMP": {
+   "mean": 0.4515250000000001,
+   "lo95": 0.0034745833333333664,
+   "hi95": 1.0709408333333335,
+   "n_seasons": 12
+  },
+  "B_PERSIST-B_BIG": {
+   "mean": -1.6140166666666669,
+   "lo95": -3.333842916666666,
+   "hi95": -0.070910208333333,
+   "n_seasons": 12
+  },
+  "B_TEMP-B_SAT": {
+   "mean": 0.009349999999999995,
+   "lo95": -0.26979333333333333,
+   "hi95": 0.27954854166666676,
+   "n_seasons": 12
+  },
+  "B_TEMP-B_PERSIST": {
+   "mean": -0.4515250000000001,
+   "lo95": -1.0709408333333332,
+   "hi95": -0.003474583333333365,
+   "n_seasons": 12
+  },
+  "B_TEMP-B_BIG": {
+   "mean": -2.065541666666667,
+   "lo95": -3.7059166666666665,
+   "hi95": -0.5640072916666663,
+   "n_seasons": 12
+  },
+  "B_BIG-B_SAT": {
+   "mean": 2.074891666666667,
+   "lo95": 0.6009089583333334,
+   "hi95": 3.733883750000001,
+   "n_seasons": 12
+  },
+  "B_BIG-B_PERSIST": {
+   "mean": 1.6140166666666669,
+   "lo95": 0.07091020833333332,
+   "hi95": 3.3338429166666663,
+   "n_seasons": 12
+  },
+  "B_BIG-B_TEMP": {
+   "mean": 2.065541666666667,
+   "lo95": 0.5640072916666667,
+   "hi95": 3.7059166666666665,
+   "n_seasons": 12
+  }
+ },
+ "field_by_season": [
+  {
+   "season": 1,
+   "mean_fish": 0.0108,
+   "diversity_jaccard": 0.0457,
+   "herding": 0.75,
+   "counted": false
+  },
+  {
+   "season": 2,
+   "mean_fish": 0.1021,
+   "diversity_jaccard": 0.02,
+   "herding": 0.5,
+   "counted": false
+  },
+  {
+   "season": 3,
+   "mean_fish": 2.127,
+   "diversity_jaccard": 0.1131,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 4,
+   "mean_fish": 1.1266,
+   "diversity_jaccard": 0.0185,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 5,
+   "mean_fish": 1.6856,
+   "diversity_jaccard": 0.2299,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 6,
+   "mean_fish": 1.932,
+   "diversity_jaccard": 0.0645,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 7,
+   "mean_fish": 0.764,
+   "diversity_jaccard": 0.1722,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 8,
+   "mean_fish": 2.691,
+   "diversity_jaccard": 0.1269,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 9,
+   "mean_fish": 2.2077,
+   "diversity_jaccard": 0.1039,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 10,
+   "mean_fish": 0.9296,
+   "diversity_jaccard": 0.108,
+   "herding": 0.75,
+   "counted": true
+  },
+  {
+   "season": 11,
+   "mean_fish": 0.4003,
+   "diversity_jaccard": 0.0635,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 12,
+   "mean_fish": 0.0292,
+   "diversity_jaccard": 0.0192,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 13,
+   "mean_fish": 1.3382,
+   "diversity_jaccard": 0.0347,
+   "herding": 0.5,
+   "counted": true
+  },
+  {
+   "season": 14,
+   "mean_fish": 0.3925,
+   "diversity_jaccard": 0.1448,
+   "herding": 0.75,
+   "counted": true
+  }
+ ],
+ "forum_effect_within_run": {
+  "forum_on_mean": null,
+  "forum_off_mean": null,
+  "diff": null,
+  "persona_matched_pairs": {}
+ },
+ "posts_cited": {},
+ "cost_usd": 0.0,
+ "per_agent": {
+  "B_SAT": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0
+  },
+  "B_PERSIST": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0
+  },
+  "B_TEMP": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0
+  },
+  "B_BIG": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0
+  }
+ }
+}

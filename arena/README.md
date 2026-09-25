@@ -55,9 +55,25 @@ A run writes `arena/runs/<ts>_<arm>_r<k>/`: `manifest.json`, `config.yaml`, `dec
 (resume), `tables/` (masked parquet snapshot the strategy workers read; git-ignored).
 Seasons ≥ 2024 are refused without `--holdout` (D-033; SPEC §12 #1).
 
+## Booking rules in force (D-055)
+
+Agents book a **named boat** (`Book(offer_id, reason, boat=...)`); the score is that boat's own
+count, diluted by other agents on the same boat. The **sailing schedule** (`schedule` table: boat,
+landing, class, fishing date; no counts) is public 14 days ahead; a booking on an unscheduled boat
+is rejected at booking time. `booking_unit: class` in the config restores pooled, class-level booking.
+
+## Run isolation
+
+Every LLM turn runs with a fresh, empty `CLAUDE_CONFIG_DIR` and a sandbox outside the repository
+(`../arena-sandboxes/<run>/…`, deleted after the batch), so nothing (memory, sessions, settings,
+files) carries between agents, turns or runs. A run only ever edits its own copies under
+`arena/runs/<id>/agents/`; the seeds in `arena/agents/` stay as committed.
+
 ## Dashboard
 
 `dashboard/index.html` is a single file. Open it next to a `state.json`, or pass
 `?src=<path or URL>`; it polls every 30 s. The published artifact reads its own `state.json`
 copy (republished by the session driving the run) or an artifact-db document `state/current`.
-Fixture: `python3 -m arena.dashboard.fixtures.make_sample`.
+Fixture: `python3 -m arena.dashboard.fixtures.make_sample`. The agent inspector (click a
+leaderboard row) lists every trip with boat, the agent's reason, the boat's count and the share;
+every LLM turn with the strategy change it made; and per-season / cumulative tables.

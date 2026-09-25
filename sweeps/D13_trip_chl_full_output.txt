@@ -1,0 +1,35 @@
+# Goal D configurations scored on dev: 5; source f6cd218; folds 2013-2023; scored trips 6462 (rate 0.182)
+coverage in scored trips: {'hc_chl_sd_3d': 1.0, 'hc_chl_sd_anom30': 1.0, 'hc_chl_lj_3d': 0.89, 'hc_chl_lj_anom30': 0.89}
+D5 base                  AUC=0.800 Brier=0.1218 folds={2013: 0.797, 2014: 0.838, 2015: 0.797, 2016: 0.726, 2017: 0.775, 2018: 0.846, 2019: 0.571, 2020: 0.624, 2021: 0.745, 2022: 0.739, 2023: 0.828}
+base+chl SD              AUC=0.805 Brier=0.1172 folds={2013: 0.787, 2014: 0.838, 2015: 0.797, 2016: 0.72, 2017: 0.781, 2018: 0.844, 2019: 0.583, 2020: 0.618, 2021: 0.747, 2022: 0.74, 2023: 0.806}
+base+chl LJ kelp         AUC=0.805 Brier=0.1179 folds={2013: 0.773, 2014: 0.825, 2015: 0.794, 2016: 0.711, 2017: 0.78, 2018: 0.847, 2019: 0.58, 2020: 0.626, 2021: 0.744, 2022: 0.73, 2023: 0.818}
+base+chl all             AUC=0.801 Brier=0.1193 folds={2013: 0.783, 2014: 0.821, 2015: 0.786, 2016: 0.697, 2017: 0.771, 2018: 0.842, 2019: 0.592, 2020: 0.629, 2021: 0.75, 2022: 0.742, 2023: 0.785}
+base+chl anomalies only  AUC=0.799 Brier=0.1244 folds={2013: 0.78, 2014: 0.814, 2015: 0.788, 2016: 0.714, 2017: 0.775, 2018: 0.847, 2019: 0.597, 2020: 0.624, 2021: 0.747, 2022: 0.756, 2023: 0.816}
+
+day trips 2012-2023: hit rate by pier band x SD coast tercile (terciles within band)
+        mean               size          
+t        low    mid   high  low  mid high
+Fband                                    
+<64    0.126  0.059  0.047  899  899  897
+64-68  0.210  0.185  0.152  610  606  606
+68-72  0.506  0.394  0.279  409  409  408
+>=72   0.782  0.578  0.347  119  116  118
+
+day trips 2012-2023: hit rate by pier band x La Jolla kelp box tercile (terciles within band)
+        mean               size          
+t        low    mid   high  low  mid high
+Fband                                    
+<64    0.133  0.062  0.020  821  819  820
+64-68  0.211  0.175  0.163  530  527  529
+68-72  0.439  0.479  0.275  358  355  357
+>=72   0.762  0.607  0.297  105  107  101
+
+day trips 2012-2023: hit rate by pier band x SD coast 3d minus 30d tercile (terciles within band)
+        mean               size          
+t        low    mid   high  low  mid high
+Fband                                    
+<64    0.076  0.082  0.073  899  898  898
+64-68  0.136  0.208  0.203  609  606  607
+68-72  0.369  0.471  0.340  409  408  409
+>=72   0.517  0.661  0.530  118  118  117
+exit 0

@@ -636,3 +636,31 @@ fall by about half in 2020–2023 at the same temperature, month and ENSO state,
 not in the environmental data (yellowtail abundance or availability off San Diego in a given year, or
 boats' targeting) sets how high the warm-water odds go. The strong-El-Niño cells (≥ 75 %) had almost no
 2020–2023 trips and rest mainly on 2014–2015. No cell reaches 95 % in either period. Goal D ledger +3.
+
+## D-052 Full chlorophyll series (sweeps D13, D13b, D13c): a season-level signal, partly out-of-sample
+Source f6cd218 (request branch). Chlorophyll now 2012 → now for t_* tiles and kelp boxes (SNPP science
+quality to 2021-08-24, NOAA-20 NRT from 2021-08-26); owner's 1-day lag (D-048). Kelp boxes added to
+`hourly.CHL_ZONES`; slow features `hc_chl_{sd,lj}_{60d,120d}` (mean log chl over the visible window).
+**Loader change:** the source split `buoy_observations.sql.gz` into yearly shards on 2026-09-25;
+`source._dump_files()` reads the single file when present, else `<table>_<yyyy>.sql.gz` in year order,
+and the manifest lists every file read. Parity check (sweeps/D13_buoy_parity_output.txt): the local
+buoy stations load identically from e24c47c (single file) and f6cd218 (shards) — 68 station-years, 0
+differing. PIT suite passes on f6cd218 with all new features.
+D13, folds 2013–2023, trips with SD-coast chl (6,462 scored, 18.2 % positive): base AUC 0.800 / Brier
+0.1218; + SD chl (3-day, anomaly) 0.805 / 0.1172; + La Jolla kelp-box chl 0.805 / 0.1179; + all tiles
+0.801; anomalies only 0.799.
+D13b (descriptive): within pier band, low chl ↔ higher hit rate pooled (≥ 72 °F: 78 vs 35 %; 68–72 °F:
+51 vs 28 %), but with terciles computed within year × band the effect mostly disappears (≥ 72 °F 60/64/49 %
+low/mid/high; 68–72 °F none), and in 2020–2023 warm-water low-chl days were worse. Year level (Jul–Oct):
+Spearman(mean chl, warm-water hit rate) = −0.89 over 2012–2023, −0.87 over 2012–2020 (single sensor);
+pier temperature vs hit rate +0.72. Clear summers (≈ 0.9 mg/m³: 2012, 2014, 2015) 38–79 %; green
+summers (≥ 1.8 mg/m³: 2019–2023) 9–29 %.
+D13c: 120-day chl × temp gives best Brier 0.1206 vs 0.1230 (AUC 0.798 vs 0.795). Condition tree fit
+2012–2019, scored 2020–2023: AUC 0.707 without chl → 0.732 with 120-day chl. Its high cells (chl120
+≤ 1.13 mg/m³, fit 65–78 %) have no 2020–2023 trips (no clear summer since 2018), so they are untested
+out of sample; the warm-water cell with chl120 1.13–2.52 mg/m³ still falls 51 → 29 %.
+Verdict: season-scale chlorophyll is the strongest year-level environmental signal found and is
+adopted into the condition table as the "clear vs green summer" split; it explains part, not all, of
+the 2020–2023 drop. Caveats: 12 seasons; clear summers coincide with the 2014–2015 warm anomaly; the
+2021 sensor switch could shift levels (2019–2020, same sensor, were already green). Goal D ledger +5
+(D13) +7 +2 trees (D13c) = +14; D13b descriptive.

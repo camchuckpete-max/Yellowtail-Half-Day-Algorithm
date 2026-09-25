@@ -35,6 +35,23 @@ STATEMENT_FILTERS = {
 }
 
 
+def _dump_files() -> list[tuple[str, str]]:
+    """(file actually read, DUMPS entry it stands for). A dump the source later split into yearly
+    shards (`<table>_<yyyy>.sql.gz`, e.g. buoy_observations from 2026-09-25) is read shard by shard
+    in year order; each shard creates the table IF NOT EXISTS (D-052)."""
+    out = []
+    for name in DUMPS:
+        if (SOURCE_REPO / "db_dump" / name).exists():
+            out.append((name, name))
+            continue
+        stem = name[: -len(".sql.gz")]
+        shards = sorted(p.name for p in (SOURCE_REPO / "db_dump").glob(f"{stem}_[0-9][0-9][0-9][0-9].sql.gz"))
+        if not shards:
+            raise FileNotFoundError(f"db_dump/{name} (and no yearly shards)")
+        out += [(sh, name) for sh in shards]
+    return out
+
+
 def _sha256(path: Path) -> str:
     h = hashlib.sha256()
     with open(path, "rb") as f:
@@ -54,7 +71,7 @@ def source_manifest() -> dict:
         "source_commit": commit,
         "source_commit_time": commit_time,
         "db_dump_dirty": bool(dirty),
-        "files": {name: _sha256(SOURCE_REPO / "db_dump" / name) for name in DUMPS},
+        "files": {f: _sha256(SOURCE_REPO / "db_dump" / f) for f, _ in _dump_files()},
     }
 
 
@@ -68,10 +85,10 @@ def open_db(manifest: dict) -> sqlite3.Connection:
         tmp.unlink(missing_ok=True)
         db = sqlite3.connect(tmp)
         db.execute("PRAGMA foreign_keys=OFF")
-        for name in DUMPS:
+        for fname, name in _dump_files():
             # Stream in statement-aligned chunks: large dumps exceed SQLite's max query size
             # when passed to executescript in one piece (D-038).
-            with gzip.open(SOURCE_REPO / "db_dump" / name, "rt") as f:
+            with gzip.open(SOURCE_REPO / "db_dump" / fname, "rt") as f:
                 batch: list[str] = []
                 stmt: list[str] = []
                 size = 0

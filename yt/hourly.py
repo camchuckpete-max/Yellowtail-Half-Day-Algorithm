@@ -25,7 +25,7 @@ GLIDER_LAG_DAYS = 3       # D-045: daily glider means treated as public 3 days a
 KELP_LAG_DAYS = 365      # D-045/D-046: no documented Kelpwatch release lag; PIT-safe bound after quarter end
 CHL_LAG_DAYS = 1          # D-048 (owner's decision): chlorophyll for day D-1 is usable at the D-1 21:00 cutoff
 CHL_SOURCES = ("noaacwNPPVIIRSSQchlaDaily", "noaacwN20VIIRSchlaDaily")
-CHL_ZONES = {"t_sd_coast": "sd", "t_north_county": "nc", "t_43_butterfly": "bf"}
+CHL_ZONES = {"t_sd_coast": "sd", "t_north_county": "nc", "t_43_butterfly": "bf", "la_jolla": "lj", "point_loma_kelp": "pl"}  # kelp boxes: D-052
 SAT_SST_LAG_DAYS = 2      # D-049: same rule as Goal C SST (events.OCEAN_LAG_DAYS, D-034)
 SAT_SST_ZONES = {"la_jolla": "lj", "point_loma_kelp": "pl", "t_sd_coast": "sd", "t_north_county": "nc"}
 SLA_LAG_DAYS = 2          # D-045: blended SSH daily product, same latency convention as SST
@@ -189,9 +189,13 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
     # --- satellite chlorophyll (log mg/m3), D-048: day d usable from d + (CHL_LAG_DAYS - 1) days + 21:00
     cv = data["chl"]
     last_ok = (cutoff - pd.Timedelta(hours=21)).normalize() - pd.Timedelta(days=CHL_LAG_DAYS - 1)
-    cv = cv[(cv["date"] <= last_ok) & (cv["date"] > last_ok - pd.Timedelta(days=30))]
+    cv = cv[(cv["date"] <= last_ok) & (cv["date"] > last_ok - pd.Timedelta(days=120))]
     for zone, name in CHL_ZONES.items():
-        z = cv[cv["zone_id"] == zone]
+        z120 = cv[cv["zone_id"] == zone]
+        if name in ("sd", "lj"):  # D-052: slow (season-scale) chlorophyll level
+            f[f"hc_chl_{name}_60d"] = _mean(z120[z120["date"] > last_ok - pd.Timedelta(days=60)]["logchl"])
+            f[f"hc_chl_{name}_120d"] = _mean(z120["logchl"])
+        z = z120[z120["date"] > last_ok - pd.Timedelta(days=30)]
         z3 = z[z["date"] > last_ok - pd.Timedelta(days=3)]["logchl"]
         f[f"hc_chl_{name}_3d"] = _mean(z3)
         f[f"hc_chl_{name}_anom30"] = f[f"hc_chl_{name}_3d"] - _mean(z["logchl"])
@@ -237,6 +241,8 @@ HC_FEATURES = ["hc_tide_start", "hc_tide_change", "hc_tide_range", "hc_tide_maxr
                "hc_san_wspd_24h", "hc_san_onshore_24h", "hc_san_wspd_prevpm", "hc_san_mslp_24h",
                "hc_san_mslp_chg24", "hc_san_relh_24h", "hc_san_vsby_24h",
                "hc_chl_sd_3d", "hc_chl_sd_anom30", "hc_chl_nc_3d", "hc_chl_nc_anom30", "hc_chl_bf_3d", "hc_chl_bf_anom30",
+               "hc_chl_lj_3d", "hc_chl_lj_anom30", "hc_chl_pl_3d", "hc_chl_pl_anom30",
+               "hc_chl_sd_60d", "hc_chl_sd_120d", "hc_chl_lj_60d", "hc_chl_lj_120d",
                "hc_sat_lj_f", "hc_sat_pl_f", "hc_sat_sd_f", "hc_sat_nc_f"]
 EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip",
                "ex_san_wspd_trip", "ex_san_onshore_trip", "ex_san_wspd_max_trip", "ex_san_vsby_trip"]

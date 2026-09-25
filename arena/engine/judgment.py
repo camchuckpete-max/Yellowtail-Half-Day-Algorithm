@@ -202,23 +202,29 @@ def build_briefing(br: Briefer, now: datetime, agent: dict, offers: list[Offer],
     return "\n".join(L)
 
 
-def call_model(prompt: str, system: str, model: str, work_dir: Path, budget_usd: float, timeout_s: int, retries: int = 1) -> dict:
-    """One structured call; a failed call (timeout, no output, non-JSON) is retried once."""
-    out = _call_once(prompt, system, model, work_dir, budget_usd, timeout_s)
+MAX_THINKING = 3000   # thinking-token cap per nightly call (the host default of 32k made calls slow and blew the budget cap)
+
+
+def call_model(prompt: str, system: str, model: str, work_dir: Path, budget_usd: float, timeout_s: int, retries: int = 1,
+               max_thinking: int = MAX_THINKING) -> dict:
+    """One structured call; a failed call (timeout, empty result, non-JSON) is retried once."""
+    out = _call_once(prompt, system, model, work_dir, budget_usd, timeout_s, max_thinking)
     for _ in range(retries):
         if out.get("answer") is not None:
             break
-        again = _call_once(prompt, system, model, work_dir, budget_usd, timeout_s)
-        again["cost_usd"] += out["cost_usd"]; again["seconds"] = round(again["seconds"] + out["seconds"], 1); again["retried"] = True
+        again = _call_once(prompt, system, model, work_dir, budget_usd, timeout_s, max_thinking)
+        again["cost_usd"] += out["cost_usd"]; again["seconds"] = round(again["seconds"] + out["seconds"], 1)
+        again["retried"] = True; again["first_error"] = out.get("error")
         out = again
     return out
 
 
-def _call_once(prompt: str, system: str, model: str, work_dir: Path, budget_usd: float, timeout_s: int) -> dict:
+def _call_once(prompt: str, system: str, model: str, work_dir: Path, budget_usd: float, timeout_s: int, max_thinking: int) -> dict:
     cfg_dir = work_dir / "claude-config"
     shutil.rmtree(cfg_dir, ignore_errors=True); cfg_dir.mkdir(parents=True)
     env = {k: v for k, v in os.environ.items() if not k.startswith("ARENA_")}
     env["CLAUDE_CONFIG_DIR"] = str(cfg_dir); env.pop("CLAUDE_CODE_SESSION_ID", None)
+    env["MAX_THINKING_TOKENS"] = str(int(max_thinking))
     cmd = [CLAUDE, "-p", prompt, "--system-prompt", system, "--model", model, "--output-format", "json", "--max-turns", "1",
            "--tools", "", "--no-session-persistence", "--setting-sources", "", "--max-budget-usd", str(budget_usd),
            "--json-schema", json.dumps(SCHEMA)]
@@ -229,8 +235,14 @@ def _call_once(prompt: str, system: str, model: str, work_dir: Path, budget_usd:
             c = json.loads(r.stdout)
         except json.JSONDecodeError:
             c = None
+        err = None
+        if c is None:
+            err = f"no JSON from the CLI (exit {r.returncode}): {(r.stderr or r.stdout)[-300:]!r}"
+        elif c.get("is_error") or c.get("structured_output") is None:
+            err = (c.get("result") or r.stderr[-300:] or f"empty result (stop_reason {c.get('stop_reason')}, cost ${c.get('total_cost_usd')}; budget/limit reached?)")[:400]
         out = {"exit": r.returncode, "seconds": round(time.time() - t0, 1), "cost_usd": float((c or {}).get("total_cost_usd") or 0.0),
-               "answer": (c or {}).get("structured_output"), "error": None if (c and not c.get("is_error")) else (r.stderr[-500:] or (c or {}).get("result") or "no output")[:500]}
+               "answer": (c or {}).get("structured_output"), "error": err,
+               "thinking_tokens": ((c or {}).get("usage") or {}).get("output_tokens_details", {}).get("thinking_tokens")}
         if out["answer"] is None and c and c.get("result"):
             try:
                 out["answer"] = json.loads(c["result"])
@@ -266,6 +278,7 @@ def answer_to_actions(answer: dict, offers: list[Offer], today: date) -> list:
 def run_calls(jobs: list[dict], parallel: int, budget_usd: float, timeout_s: int) -> dict[str, dict]:
     """jobs: [{name, prompt, system, model, work_dir}] -> {name: call result}"""
     def one(j):
-        return j["name"], call_model(j["prompt"], j["system"], j["model"], Path(j["work_dir"]), budget_usd, timeout_s)
+        return j["name"], call_model(j["prompt"], j["system"], j["model"], Path(j["work_dir"]), budget_usd, timeout_s,
+                                     max_thinking=int(j.get("max_thinking", MAX_THINKING)))
     with ThreadPoolExecutor(max_workers=max(1, parallel)) as ex:
         return dict(ex.map(one, jobs))

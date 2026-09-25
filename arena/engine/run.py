@@ -468,7 +468,8 @@ class Engine:
             model = self.cfg["field"].get("models", {}).get(a.model, a.model)
             work = turnmod.SANDBOXES / self.dir.name / "judgment" / a.name
             work.mkdir(parents=True, exist_ok=True)
-            jobs.append({"name": a.name, "prompt": prompt, "system": system, "model": model, "work_dir": str(work)})
+            jobs.append({"name": a.name, "prompt": prompt, "system": system, "model": model, "work_dir": str(work),
+                         "max_thinking": int(jcfg.get("max_thinking_tokens", jm.MAX_THINKING))})
             meta[a.name] = (prompt, a)
         results = jm.run_calls(jobs, int(jcfg.get("parallel", 8)), float(jcfg.get("budget_usd", 0.1)), int(jcfg.get("timeout_s", 180)))
         by_id = {o.id: o for o in raw_offers}
@@ -488,6 +489,7 @@ class Engine:
                     f.write(f"- {day}: {note}\n")
             _jsonl(self.dir / "judgment" / f"{a.name}.jsonl", {"date": today.isoformat(), "masked": str(day), "model": a.model,
                                                                  "cost_usd": r["cost_usd"], "seconds": r.get("seconds"), "error": r.get("error"),
+                                                                 "retried": r.get("retried", False), "first_error": r.get("first_error"), "thinking_tokens": r.get("thinking_tokens"),
                                                                  "answer": r.get("answer"), "actions": [str(x) for x in acts],
                                                                  "rejected": [f["error"] for f in a.failures[n_before:]], "prompt": prompt})
             if r.get("error") and not self.quiet:

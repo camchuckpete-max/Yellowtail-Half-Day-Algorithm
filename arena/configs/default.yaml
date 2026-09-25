@@ -36,7 +36,8 @@ judgment:                # D-058: nightly decision call, no tools, briefing buil
   tick: "21:00"
   months: [4, 11]        # April to November inclusive
   parallel: 8
-  budget_usd: 0.1        # per call
+  budget_usd: 0.15       # per call
+  max_thinking_tokens: 3000   # bounds latency and cost; the host default (32k) let calls run past the budget
   timeout_s: 180
   code_strategies: false # D-058: LLM agents decide only through the nightly call (no standing code); true re-enables strategy.py
 climatology_window_days: 15

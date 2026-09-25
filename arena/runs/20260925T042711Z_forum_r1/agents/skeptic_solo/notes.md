@@ -1,3 +1,0 @@
-# Notes
-
-(private; nothing yet)

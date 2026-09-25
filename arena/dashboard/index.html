@@ -624,10 +624,26 @@ function renderNights(a, d){
       ${n.note ? `<div class="note">journal: ${esc(n.note)}</div>` : ""}
       ${(n.rejected || []).length ? `<div class="rej">rejected: ${n.rejected.map(esc).join(" · ")}</div>` : ""}
       ${outcome}
-      ${n.briefing ? `<details><summary>what the agent saw tonight (briefing)</summary><pre>${esc(n.briefing)}</pre></details>` : ""}
+      ${n.briefing ? `<details data-night="${esc(n.masked)}"><summary>what the agent saw tonight (briefing)</summary><pre>loading…</pre></details>` : ""}
     </li>`;
   }).join("");
   box.innerHTML = ctl + `<ul class="nights">${items || `<li class="empty">No nights match.</li>`}</ul>` + (rows.length > 400 ? `<p class="empty">Showing the latest 400.</p>` : "");
+  box.querySelectorAll("details[data-night]").forEach((det) => det.addEventListener("toggle", async () => {
+    if (!det.open) return;
+    const n = rows.find((x) => x.masked === det.dataset.night); const pre = det.querySelector("pre");
+    if (!n || !n.briefing) return;
+    const b = n.briefing;
+    if (typeof b === "string") { pre.textContent = b; return; }
+    let nightBlobs = {};
+    if (b.some((x) => x[1] === "n")) {
+      try {
+        const season = n.masked.slice(1, 3), doy = Number(n.masked.slice(5, 8));
+        const key = "S" + season + "_b" + String(Math.floor((doy - 1) / 31)).padStart(2, "0");
+        const r = await fetch(detailBase() + "nights/" + key + ".json", {cache: "force-cache"}); nightBlobs = (await r.json())[n.masked] || {};
+      } catch (e) { nightBlobs = {}; }
+    }
+    pre.textContent = b.map(([h, where]) => (where === "n" ? nightBlobs[h] : (d.blobs || {})[h]) ?? "\n## (section unavailable)\n").join("");
+  }, {once: true}));
   box.querySelectorAll("input[name=nf]").forEach((r) => r.addEventListener("change", () => { nightFilter = r.value; renderNights(a, d); }));
   const sel = $("nightseason"); if (sel) sel.addEventListener("change", () => { nightSeason = sel.value; renderNights(a, d); });
 }

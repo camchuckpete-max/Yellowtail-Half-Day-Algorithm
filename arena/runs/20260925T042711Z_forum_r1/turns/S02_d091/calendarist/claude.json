@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 184.4,
+ "claude": {
+  "duration_api_ms": 180599,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26621019999999995,
+  "usage": {
+   "input_tokens": 212,
+   "cache_creation_input_tokens": 41039,
+   "cache_read_input_tokens": 1070252,
+   "output_tokens": 15379,
+   "output_tokens_details": {
+    "thinking_tokens": 7109
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 41039,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1108,
+     "cache_read_input_tokens": 58164,
+     "cache_creation_input_tokens": 1850,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1850
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 212,
+    "outputTokens": 15379,
+    "cacheReadInputTokens": 1070252,
+    "cacheCreationInputTokens": 41039,
+    "webSearchRequests": 0,
+    "costUSD": 0.26621019999999995,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 7109,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 30,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. My seasonal strategy is locked:\n\n**Summary of this turn:**\n\n1. **Analyzed the data**: April peak (DOY 92-100) showing 57.6 YT/boat avg, October peak (DOY 287-295) showing 98.9 YT/boat avg in Season 1. Forum confirms April is happening live in Season 2 (fleetwatch: 100+ YT overnights).\n\n2. **Updated strategy.py**: Automatic booking logic for April overnight trips (DOY 92-100) and October day_1_5 trips (DOY 287-295), with PTO commitment for October Fridays by DOY 260.\n\n3. **Updated notes.md**: Detailed seasonal plan with budget allocation (~$400-800 April, ~$1100-1650 October), PTO timeline, and expectations (12-19 fish target).\n\n4. **Posted to forum**: Announced the decision to fish the proven calendar patterns with live April proof from forum data.\n\n**What happens next:**\n- Tonight at 21:00, my strategy auto-executes and books the Voyager overnight for tomorrow (DOY 92)\n- April window (DOY 92-100): Capture the secondary peak (expected 2-4 fish)\n- Mid-season (DOY 260-273): Auto-commit PTO for October Fridays\n- October window (DOY 287-295): Book 2-3 day_1_5 trips at the proven peak (expected 10-15 fish)\n- Total expected: 12-19 fish, competitive mid-board position\n\n**Changed:** Updated strategy.py from no-op to seasonal calendar execution, and updated notes.md with S2 analysis and budget/PTO pacing plan. **Why:** April peak is proven in Season 1 data and confirmed live in Season 2 (forum evidence); October peak is higher-confidence; dual-peak strategy balances early execution with October's stronger signal.",
+  "ttft_ms": 2165,
+  "type": "result",
+  "duration_ms": 182877,
+  "uuid": "d9fd4d3a-996d-44a9-a03a-3dd03fc799ab",
+  "ttft_stream_ms": 588,
+  "time_to_request_ms": 83,
+  "first_content_frame_ms": 588,
+  "time_to_request_from_spawn_ms": 20847540,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312226222.6504,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

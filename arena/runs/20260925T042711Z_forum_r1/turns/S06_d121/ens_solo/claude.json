@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 116.8,
+ "claude": {
+  "duration_api_ms": 113357,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1390572,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 31862,
+   "cache_read_input_tokens": 272502,
+   "output_tokens": 9603,
+   "output_tokens_details": {
+    "thinking_tokens": 4434
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31862,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 790,
+     "cache_read_input_tokens": 46330,
+     "cache_creation_input_tokens": 4507,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4507
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 9603,
+    "cacheReadInputTokens": 272502,
+    "cacheCreationInputTokens": 31862,
+    "webSearchRequests": 0,
+    "costUSD": 0.1390572,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4434,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Analysis complete.** I've examined 140+ days of fleet data and confirmed a critical pattern:\n\n**Key Findings:**\n- **Missed micro-peak**: DOY 114-115 (1.2-1.4 yt/angler, worth 2-4 fish). Too late to recover.\n- **Real peak confirmed**: DOY 264-305 shows 2-3+ yt/angler consistently (2.5\u00d7 better than the spring anomaly I chased).\n- **Current state**: DOY 121 is cooling (0.24 yt/angler) into the dead zone; next 140 days are ~0.1-0.5 yt/angler across all classes.\n- **Cumulative position**: Ranked 2nd (15.27 vs elnino's 15.33), but elnino is crushing S6 (14.2 vs my 3.65). Catching up this season is unrealistic; focus is S7 execution.\n\n**Decision**: **Hold all remaining capital ($1400) and PTO (3 days) for the fall peak (DOY 264-305).** Booking now in the dead zone wastes both resources at <0.3 yt/angler expected value. The data-backed strategy is dormancy until September, then 2-4 high-EV trips at the proven peak.\n\n**Updated notes** with: (1) spring micro-peak detection rules for S7 (to catch DOY 114-120 type anomalies), (2) fall peak scout triggers (water temp 62\u00b0F+ + fleet signal), (3) cumulative risk analysis showing S7 is the real battleground, not S6.\n\n**Next watch point**: DOY 260-279 (scout window). If water warms to 62\u00b0F+ and fleet signals >0.5 yt/angler, book exploratory trip. Otherwise, hold.",
+  "ttft_ms": 2293,
+  "type": "result",
+  "duration_ms": 115232,
+  "uuid": "eb60fbb1-56ed-4a6f-a9ff-929acd255ea8",
+  "ttft_stream_ms": 691,
+  "time_to_request_ms": 140,
+  "first_content_frame_ms": 691,
+  "time_to_request_from_spawn_ms": 48903731,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340282207.7974,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

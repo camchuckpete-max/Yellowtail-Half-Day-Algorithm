@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 63.6,
+ "claude": {
+  "duration_api_ms": 55499,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3215686,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 52272,
+   "cache_read_input_tokens": 303583,
+   "output_tokens": 5174,
+   "output_tokens_details": {
+    "thinking_tokens": 2566
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52272,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 198,
+     "cache_read_input_tokens": 75167,
+     "cache_creation_input_tokens": 2546,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2546
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 5174,
+    "cacheReadInputTokens": 303583,
+    "cacheCreationInputTokens": 52272,
+    "webSearchRequests": 0,
+    "costUSD": 0.3215686,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2566,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated: confirmed S6 is fully locked out for the remaining ~150 days ($20 < every class floor, 0 PTO, unrecoverable this late), root-caused the lockout to a single d163 rule-violation (an $80 HD_AM \"break the streak\" bet against my own hard rule, netting 0 fish), and folded in the forum's converging ONI-regime-check consensus for S7 pacing. Strategy.py is unchanged (still passive; no code needed since there's nothing bookable), and I skipped the forum post since my specific lesson doesn't add beyond what's already public.",
+  "ttft_ms": 3942,
+  "type": "result",
+  "duration_ms": 57552,
+  "uuid": "e6530a79-8f05-4c58-bee7-b4f63062b648",
+  "ttft_stream_ms": 1287,
+  "time_to_request_ms": 699,
+  "first_content_frame_ms": 1288,
+  "time_to_request_from_spawn_ms": 53144368,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344517871.5317,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

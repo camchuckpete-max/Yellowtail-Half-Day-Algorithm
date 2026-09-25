@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 95.6,
+ "claude": {
+  "duration_api_ms": 91799,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1372566,
+  "usage": {
+   "input_tokens": 86,
+   "cache_creation_input_tokens": 30045,
+   "cache_read_input_tokens": 390756,
+   "output_tokens": 7601,
+   "output_tokens_details": {
+    "thinking_tokens": 2488
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30045,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 490,
+     "cache_read_input_tokens": 48185,
+     "cache_creation_input_tokens": 835,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 835
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 86,
+    "outputTokens": 7601,
+    "cacheReadInputTokens": 390756,
+    "cacheCreationInputTokens": 30045,
+    "webSearchRequests": 0,
+    "costUSD": 0.1372566,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2488,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season 2 Retrospective Summary:**\n\n**What changed**: Updated `notes.md` with complete Season 2 analysis showing the $1400 capital exhaustion trap (6 failed tests, 93% score from 1 winning trip), and created `strategy.py` implementing \"Adaptive Peak Hunter\" - only books confirmed 2+ day peaks with avg share >1.0 in DAY_1_5/MULTI_DAY classes, reserves capital >$600, commits PTO only 1-2 weeks ahead.\n\n**Why**: Season 2 taught that peaks are data-driven not calendar-driven (S1 Oct strong, S2 Oct weak), CLASS matters hugely (DAY_1_5/MULTI_DAY win, THREE_QUARTER loses), and capital discipline > early testing. My one d281 booking at 2.125 fish proved the strategy works if applied to right signal; Season 3 will test it systematically by responding to data instead of calendar speculation.",
+  "ttft_ms": 2653,
+  "type": "result",
+  "duration_ms": 93672,
+  "uuid": "eece3692-74e1-405c-a0d5-73f39ca6a869",
+  "ttft_stream_ms": 668,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 669,
+  "time_to_request_from_spawn_ms": 45035150,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336413471.3215,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

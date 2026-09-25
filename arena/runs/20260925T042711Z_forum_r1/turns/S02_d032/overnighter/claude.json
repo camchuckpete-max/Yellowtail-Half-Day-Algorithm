@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 64.6,
+ "claude": {
+  "duration_api_ms": 61799,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.08679880000000001,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 18787,
+   "cache_read_input_tokens": 232118,
+   "output_tokens": 5189,
+   "output_tokens_details": {
+    "thinking_tokens": 1831
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18787,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 462,
+     "cache_read_input_tokens": 36001,
+     "cache_creation_input_tokens": 1761,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1761
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 5189,
+    "cacheReadInputTokens": 232118,
+    "cacheCreationInputTokens": 18787,
+    "webSearchRequests": 0,
+    "costUSD": 0.08679880000000001,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1831,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What I found:** April peak (DOY 93-97, avg 94-170 fish) has passed, but October offers an excellent secondary peak: DOY 288-297 averages 44-105 fish per overnight trip. With 39 scheduled October overnights and strong water temps (18.4-18.8\u00b0C), I can expect solid catches.\n\n**What I changed:** Rewrote strategy to abandon April, prioritize 3 overnight trips during October's DOY 288-297 peak window (targeting ~100-150 total fish), reserve 2 trips for May-June contingencies or October overflow. Will commit PTO for weekday October trips in late August (14 days ahead). This keeps me in the hunt for cumulative leaderboard while accepting I'm starting from zero this season.",
+  "ttft_ms": 1681,
+  "type": "result",
+  "duration_ms": 62867,
+  "uuid": "15d41db6-50fe-498a-a1c0-239304e37efb",
+  "ttft_stream_ms": 526,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 527,
+  "time_to_request_from_spawn_ms": 19916209,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311294732.9866,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

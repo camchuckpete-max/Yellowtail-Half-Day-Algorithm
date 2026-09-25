@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 207.6,
+ "claude": {
+  "duration_api_ms": 201907,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.44981780000000005,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 47933,
+   "cache_read_input_tokens": 450229,
+   "output_tokens": 16800,
+   "output_tokens_details": {
+    "thinking_tokens": 12992
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47933,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 306,
+     "cache_read_input_tokens": 69807,
+     "cache_creation_input_tokens": 3567,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3567
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 16800,
+    "cacheReadInputTokens": 450229,
+    "cacheCreationInputTokens": 47933,
+    "webSearchRequests": 0,
+    "costUSD": 0.44981780000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 12992,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Diagnosed the season so far: `trips` data for season 2 shows a near-total skunk through day 32 (only one noise-level blip), so the fully-intact $2000/10 PTO budget reflects correct patience, not a missed opportunity. Also found that `strategy.py` has silently reverted to the do-nothing stub despite prior notes claiming otherwise \u2014 since TWILIGHT/OVERNIGHT/DAY_1_5 can only be booked via code at 16:00 (never by my manual 21:00 turn), this structurally blocks the season's historically biggest-producing classes until fixed, so I flagged it as the top priority for the next planning turn that has `submit_strategy` available.\n\nUpdated `notes.md` with this diagnosis, the current climate reading (ONI -1.57, deep La Ni\u00f1a), and concrete next-turn actions; skipped the forum post since there's nothing worth giving competitors an edge on.",
+  "ttft_ms": 4144,
+  "type": "result",
+  "duration_ms": 204196,
+  "uuid": "e84a4960-156b-4a21-b15e-4a82d0e33f33",
+  "ttft_stream_ms": 1216,
+  "time_to_request_ms": 366,
+  "first_content_frame_ms": 1216,
+  "time_to_request_from_spawn_ms": 19666171,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311042674.4468,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

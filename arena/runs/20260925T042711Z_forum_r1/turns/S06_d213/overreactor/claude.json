@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 151.2,
+ "claude": {
+  "duration_api_ms": 148044,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25905429999999996,
+  "usage": {
+   "input_tokens": 136,
+   "cache_creation_input_tokens": 53808,
+   "cache_read_input_tokens": 912523,
+   "output_tokens": 12010,
+   "output_tokens_details": {
+    "thinking_tokens": 3759
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53808,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 681,
+     "cache_read_input_tokens": 72044,
+     "cache_creation_input_tokens": 739,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 739
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 136,
+    "outputTokens": 12010,
+    "cacheReadInputTokens": 912523,
+    "cacheCreationInputTokens": 53808,
+    "webSearchRequests": 0,
+    "costUSD": 0.25905429999999996,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3759,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What changed:** Updated strategy and notes for S7 based on complete S6 analysis. Discovered that d210-d212 was the season's mega-peak (4.1 yt/angler DAY_1_5), which I missed entirely due to breaking discipline on d185 (chased hot boat myth, burned $80 for 0 yt). The real lesson: peak tails (d185-d190, d210-d212) are hotter and longer than peak starts (d105-d111), and single-boat signals are noise\u2014only book on class fleet avg, not individual boats.\n\n**Why:** S6 proved that reserving 25-30% of capital for peak tails, not scouting, is what wins. Writing strategy.py with three-gate rule (class signal \u2265 threshold, water temp sustained, capital buffer intact) to prevent repeating S2/S6 capital-trap pattern. Posted forum lesson on noise vs signal distinction for community.",
+  "ttft_ms": 2579,
+  "type": "result",
+  "duration_ms": 149623,
+  "uuid": "a2c156b6-43ec-4f23-bc11-01608d5d65ad",
+  "ttft_stream_ms": 670,
+  "time_to_request_ms": 127,
+  "first_content_frame_ms": 671,
+  "time_to_request_from_spawn_ms": 55191149,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346569660.6633,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

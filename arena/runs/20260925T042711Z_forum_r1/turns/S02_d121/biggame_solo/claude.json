@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 79.8,
+ "claude": {
+  "duration_api_ms": 71266,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.08504120000000001,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 16976,
+   "cache_read_input_tokens": 209842,
+   "output_tokens": 6009,
+   "output_tokens_details": {
+    "thinking_tokens": 1762
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16976,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 485,
+     "cache_read_input_tokens": 37200,
+     "cache_creation_input_tokens": 2337,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2337
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 6009,
+    "cacheReadInputTokens": 209842,
+    "cacheCreationInputTokens": 16976,
+    "webSearchRequests": 0,
+    "costUSD": 0.08504120000000001,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1762,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Season 2 confirmed dead (148 yt across 784 trips; S1 was 18,008 across 3,646 trips). Holding all budget and PTO was the correct discipline decision. Updated notes.md with a three-phase Season 3 strategy: early exploration (days 1-20 with 1-2 day_1_5 trips to establish this season's signal), PTO commitment based on water temp/fishdope/boat performance (days 15-45), then main campaign deployment (days 40+). S3 patterns are unknown\u2014won't assume S1's calendar peaks.",
+  "ttft_ms": 2689,
+  "type": "result",
+  "duration_ms": 74482,
+  "uuid": "3162b7c3-85c9-4717-9888-c3dcd131d2eb",
+  "ttft_stream_ms": 892,
+  "time_to_request_ms": 321,
+  "first_content_frame_ms": 892,
+  "time_to_request_from_spawn_ms": 26634153,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318009003.9768,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

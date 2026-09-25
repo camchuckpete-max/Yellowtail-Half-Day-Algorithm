@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 82.2,
+ "claude": {
+  "duration_api_ms": 79338,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2805904,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 34430,
+   "cache_read_input_tokens": 318912,
+   "output_tokens": 7906,
+   "output_tokens_details": {
+    "thinking_tokens": 2959
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34430,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 218,
+     "cache_read_input_tokens": 57441,
+     "cache_creation_input_tokens": 2430,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2430
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 7906,
+    "cacheReadInputTokens": 318912,
+    "cacheCreationInputTokens": 34430,
+    "webSearchRequests": 0,
+    "costUSD": 0.2805904,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2959,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed nothing changed since d213 (budget $20/PTO 0, both below every booking floor, no new results), so no live-data queries were needed this turn \u2014 spent the budget on reading five new forum postmortems instead. Posted a correction (MULTI_DAY isn't actually bookable per RULES.md) plus a synthesis of four independent S6 postmortems that all converge on capital-pacing as the real failure mode, and rewrote notes.md's top section into a consolidated S7 plan: regime read first (El Ni\u00f1o = 2-3 distributed waves, not just April), size total capital per wave before the first booking, and tighten the hard-stop floor to $300.",
+  "ttft_ms": 3222,
+  "type": "result",
+  "duration_ms": 80424,
+  "uuid": "fd2bd4d5-46fc-4f60-b1c4-87fdeaeca854",
+  "ttft_stream_ms": 610,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 610,
+  "time_to_request_from_spawn_ms": 56963665,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348341954.6697,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

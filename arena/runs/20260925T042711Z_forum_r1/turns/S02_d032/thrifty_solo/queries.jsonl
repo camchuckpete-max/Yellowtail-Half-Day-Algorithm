@@ -1,0 +1,5 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4002, "ts": "2026-09-25T04:37:54"}
+{"tool": "arena_query", "sql": "SELECT index_id, value, avail_season, avail_doy FROM climate WHERE avail_season=2 ORDER BY avail_doy DESC LIMIT 8", "rows": 4, "seconds": 0.119, "ts": "2026-09-25T04:38:03"}
+{"tool": "arena_query", "sql": "SELECT count(*) as n, min(fish_date_season) as min_s, max(fish_date_season) as max_s FROM trips WHERE fish_date_season=2", "rows": 1, "seconds": 0.004, "ts": "2026-09-25T04:38:03"}
+{"tool": "arena_query", "sql": "SELECT cls, fish_date_doy/30 as month_bin, count(*) n, avg(yt*1.0/anglers) avg_rate, sum(case when yt=0 then 1 else 0 end)*1.0/count(*) pct_zero FROM trips WHERE fish_date_season=2 GROUP BY cls, month_bin ORDER BY month_bin, cls", "rows": 114, "seconds": 0.017, "ts": "2026-09-25T04:38:09"}
+{"tool": "arena_query", "sql": "SELECT avail_season, avg(value) v, min(value) mn, max(value) mx, count(*) n FROM climate WHERE index_id='oni' GROUP BY avail_season ORDER BY avail_season", "rows": 7, "seconds": 0.004, "ts": "2026-09-25T04:38:16"}

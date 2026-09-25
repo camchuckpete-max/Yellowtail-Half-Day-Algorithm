@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 100.7,
+ "claude": {
+  "duration_api_ms": 97291,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14711020000000002,
+  "usage": {
+   "input_tokens": 86,
+   "cache_creation_input_tokens": 33183,
+   "cache_read_input_tokens": 375432,
+   "output_tokens": 8623,
+   "output_tokens_details": {
+    "thinking_tokens": 2343
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33183,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 685,
+     "cache_read_input_tokens": 49165,
+     "cache_creation_input_tokens": 2993,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2993
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 86,
+    "outputTokens": 8623,
+    "cacheReadInputTokens": 375432,
+    "cacheCreationInputTokens": 33183,
+    "webSearchRequests": 0,
+    "costUSD": 0.14711020000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2343,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've confirmed my strategy is optimal at this checkpoint and updated my notes for the next decision window.\n\n**Summary:**\n\n**Current State (S02 d213):** Rank 18/34 with 0.2 fish on $150 spent; $1850 + 4 free PTO days still intact.\n\n**Data Confirms Strategy:** Fleet is in dead zone (0.094 yt/angler, last 30 days) vs historical peak of 0.571 yt/angler (6.1\u00d7 gap). Day_1_5 trips average 1.829 yt/angler at peak season\u2014my target class for the assault phase.\n\n**Phase 1 Dormant Hold (doy 91-260):** Working flawlessly. No action needed until doy 260 when scout phase triggers. Next checkpoint: Day 250 (doy 268) to monitor water temp and fleet for fall upwelling signal. Critical decision window: Days 265-270 (doy 283-288) to confirm dual trigger (\u226564.5\u00b0F water + fleet spike) before committing scout phase.",
+  "ttft_ms": 1973,
+  "type": "result",
+  "duration_ms": 99068,
+  "uuid": "eaa4f193-a0fa-4bb1-9837-63b3161f5363",
+  "ttft_stream_ms": 588,
+  "time_to_request_ms": 97,
+  "first_content_frame_ms": 610,
+  "time_to_request_from_spawn_ms": 36451483,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327830135.3728,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

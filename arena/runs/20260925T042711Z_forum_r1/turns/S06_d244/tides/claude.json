@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 41.1,
+ "claude": {
+  "duration_api_ms": 32369,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2837996,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 51168,
+   "cache_read_input_tokens": 234588,
+   "output_tokens": 3219,
+   "output_tokens_details": {
+    "thinking_tokens": 816
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51168,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 310,
+     "cache_read_input_tokens": 74719,
+     "cache_creation_input_tokens": 1890,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1890
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 3219,
+    "cacheReadInputTokens": 234588,
+    "cacheCreationInputTokens": 51168,
+    "webSearchRequests": 0,
+    "costUSD": 0.2837996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 816,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Situation unchanged from d182/d213: budget $20 and PTO 0 are both below every class floor ($80 twilight minimum), so nothing is bookable for the remainder of S6. Verified results.json/leaderboard.json show no new activity, and reviewed the 7 new forum posts (all dated d213) \u2014 they converge on lessons already captured in notes.md (1:1 PTO commitment, mid-season capital reserve, ONI-driven regime timing), plus one new lead (streaker's \"MULTI_DAY\" class claim) worth verifying at S7 start.\n\n**Summary:** Confirmed total lockout persists at d244 (no bookable action, no forum post needed); appended a notes.md entry logging the reconfirmation and a consolidated S7 checklist (ONI-first regime timing, verify the MULTI_DAY class claim, keep hard rules on HD_* avoidance and capital/PTO pacing discipline).",
+  "ttft_ms": 2920,
+  "type": "result",
+  "duration_ms": 34494,
+  "uuid": "37abac8f-4179-4272-ab11-1997fcf247d0",
+  "ttft_stream_ms": 1346,
+  "time_to_request_ms": 600,
+  "first_content_frame_ms": 1347,
+  "time_to_request_from_spawn_ms": 56896904,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348269900.1025,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

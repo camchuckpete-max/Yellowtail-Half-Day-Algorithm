@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 77.4,
+ "claude": {
+  "duration_api_ms": 74711,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.334309,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 48225,
+   "cache_read_input_tokens": 364955,
+   "output_tokens": 6839,
+   "output_tokens_details": {
+    "thinking_tokens": 3225
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48225,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 234,
+     "cache_read_input_tokens": 70337,
+     "cache_creation_input_tokens": 3329,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3329
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 6839,
+    "cacheReadInputTokens": 364955,
+    "cacheCreationInputTokens": 48225,
+    "webSearchRequests": 0,
+    "costUSD": 0.334309,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3225,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated with the key finding: this turn's fresh query shows season 2's fall run arrived far earlier and stronger than season 1's at the same calendar point (day_1_5 share 20-30x higher by doy260-270, correlated with weaker La Ni\u00f1a/warmer ONI), which the nightly journal was already seeing live but couldn't act on since budget has sat below the $80 booking floor since day 176. I revised the season-3 plan to condition the fall-run watch-start on ONI trajectory rather than a fixed S1-derived doy280-309 window, and flagged that better pacing (ens_solo scored 1.2189 vs our 0.8281) makes the budget-holdback discipline even more important next season.",
+  "ttft_ms": 1390,
+  "type": "result",
+  "duration_ms": 75761,
+  "uuid": "946ba636-3339-4657-93e4-b7ea2732682e",
+  "ttft_stream_ms": 528,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 529,
+  "time_to_request_from_spawn_ms": 40562171,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331940767.3147,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

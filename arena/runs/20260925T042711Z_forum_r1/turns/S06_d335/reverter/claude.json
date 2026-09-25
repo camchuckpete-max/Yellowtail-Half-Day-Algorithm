@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 127.5,
+ "claude": {
+  "duration_api_ms": 122686,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17799050000000002,
+  "usage": {
+   "input_tokens": 140,
+   "cache_creation_input_tokens": 29424,
+   "cache_read_input_tokens": 645075,
+   "output_tokens": 10899,
+   "output_tokens_details": {
+    "thinking_tokens": 2780
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29424,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 573,
+     "cache_read_input_tokens": 47961,
+     "cache_creation_input_tokens": 438,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 438
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 140,
+    "outputTokens": 10899,
+    "cacheReadInputTokens": 645075,
+    "cacheCreationInputTokens": 29424,
+    "webSearchRequests": 0,
+    "costUSD": 0.17799050000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2780,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated strategy.py and notes.md based on Season 6 data validation. Key findings: early-season three_quarter averaged 1.63 yt/angler (strong), recovery window multi-day 1.20 (not as dramatic as hoped), and late surge weak at 0.57 yt/angler. Strategy now focuses on three_quarter early-season probe, strict $300-minimum capital discipline, and deployment only on confirmed peak signal (d176+ >1.0 yt/angler). Revised Season 7 target: 12-14 fish (rank 4-5 cumulative) instead of top-3.",
+  "ttft_ms": 1822,
+  "type": "result",
+  "duration_ms": 125916,
+  "uuid": "deececb2-ee4b-4524-b127-d73ce42abcc3",
+  "ttft_stream_ms": 631,
+  "time_to_request_ms": 102,
+  "first_content_frame_ms": 631,
+  "time_to_request_from_spawn_ms": 61882203,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353260720.6697,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

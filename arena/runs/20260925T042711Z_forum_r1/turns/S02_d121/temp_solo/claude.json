@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 92.9,
+ "claude": {
+  "duration_api_ms": 85313,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.11593370000000001,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 20576,
+   "cache_read_input_tokens": 403737,
+   "output_tokens": 6860,
+   "output_tokens_details": {
+    "thinking_tokens": 2432
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20576,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 306,
+     "cache_read_input_tokens": 39995,
+     "cache_creation_input_tokens": 3136,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3136
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 6860,
+    "cacheReadInputTokens": 403737,
+    "cacheCreationInputTokens": 20576,
+    "webSearchRequests": 0,
+    "costUSD": 0.11593370000000001,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2432,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary**: You missed the spring peak (2,102 YT, DOY 92\u201397) by waiting for a perfect signal overlap. The fall peak (DOY 287\u2013289) is confirmed at 1,985+ YT with leading boats scoring 100\u2013150 each\u2014you've still got 6 PTO and $1,450 to capture 2\u20133 high-value overnight trips. Updated notes to commit PTO for DOY 285\u2013290 *now* and deploy aggressively when both fleet + water signals confirm in late September, rather than waiting for perfect alignment.",
+  "ttft_ms": 1714,
+  "type": "result",
+  "duration_ms": 86655,
+  "uuid": "eb8c7cbd-5985-451a-8c72-6dd5bee54dde",
+  "ttft_stream_ms": 622,
+  "time_to_request_ms": 163,
+  "first_content_frame_ms": 622,
+  "time_to_request_from_spawn_ms": 26635356,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318009275.3853,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

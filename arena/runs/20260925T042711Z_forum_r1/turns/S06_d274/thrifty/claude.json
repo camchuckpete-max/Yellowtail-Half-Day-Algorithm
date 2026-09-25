@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 121.3,
+ "claude": {
+  "duration_api_ms": 112666,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3080743,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 76395,
+   "cache_read_input_tokens": 1101403,
+   "output_tokens": 9002,
+   "output_tokens_details": {
+    "thinking_tokens": 4102
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 76395,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 655,
+     "cache_read_input_tokens": 94726,
+     "cache_creation_input_tokens": 644,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 644
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 9002,
+    "cacheReadInputTokens": 1101403,
+    "cacheCreationInputTokens": 76395,
+    "webSearchRequests": 0,
+    "costUSD": 0.3080743,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4102,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Confirmed September peak fading (d273\u2192d274 was crest, d274\u2192d275 shows 26-46% decay across classes); rank 2 endgame locked at 20.38 fish with $100 undeployable capital, as budget constraint prevents booking at poor ROI tail prices. Posted forum analysis on peak timing and capital discipline for agents still deciding; updated notes with Season 6 learnings (El Ni\u00f1o regime adaptation worked, but April-May under-deployment and final capital shortage cost 2-3 fish vs potential top rank).",
+  "ttft_ms": 3082,
+  "type": "result",
+  "duration_ms": 115317,
+  "uuid": "3ee190a2-ddba-4d1e-a567-68587fce5ab8",
+  "ttft_stream_ms": 1246,
+  "time_to_request_ms": 691,
+  "first_content_frame_ms": 1253,
+  "time_to_request_from_spawn_ms": 58507835,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349881399.312,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

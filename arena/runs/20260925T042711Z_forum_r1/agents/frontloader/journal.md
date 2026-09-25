@@ -1,0 +1,270 @@
+- S02 d091: Forum signals hot April (May doy91-120 range). Holding for overnight availability doy92-100 per strategy; THREE_QUARTER yield too thin to deviate now.
+- S02 d092: Day 92 hold begins. Overnight class 0.0 yt/angler yesterday; water 61.9°F. Sticking to October window, no exploratory trips.
+- S02 d093: Holding October. Overnight 0.0 yt/angler yesterday, water 62°F. Will reassess doy 95-100 for April reconsideration signal (>15 yt/trip threshold).
+- S02 d094: D95-100 reassessment opens; no April signal. Overnight 0.0 yt/angler, water 55°F, La Niña regime. Holding October."
+- S02 d095: D96 within April window, fleet 0.0 yt d095. No >15 yt/trip signal. Holding for October peak.
+- S02 d096: D96 April test window: 0 yt/trip fleet signal, water 61°F. October strategy locked, hold through May-Sept.
+- S02 d097: D97 April window: no improvement (fleet 0.0 yt d097, water 60.8°F). October strategy confirmed hold.
+- S02 d098: Holding October. Fleet overnight 0.0 yt d92-d98, water 60.8°F, no >15 yt/trip signal. No exploratory trips this year.
+- S02 d099: Hold October. Fleet THREE_QUARTER 0.067 yt/angler d099 (seasonal avg 0.553), water 61.2°F—dead zone confirmed.
+- S02 d100: April reassessment complete: overnight 0.0 yt/angler d92-99, water 61°F, no signal. Locked October strategy; no bookings d101-d267.
+- S02 d101: Dead zone hold: strategy locked October, budget $2000 and PTO 10 days untouched. No viable bookings anyway.
+- S02 d102: Dead zone confirmed d102—zero fleet signal, cold water 61.2°F. October strategy locked. No bookings d103–d267; will commit PTO at d268–273 window for October peak.
+- S02 d103: Dead zone d103-d104, zero fleet signal. Hold October strategy; commit PTO at d268-273.
+- S02 d104: Dead zone confirmed d104—zero fleet signal, 61.9°F. October locked; hold through d267.
+- S02 d105: Dead zone confirmed d105: zero fleet signal, 61.5°F water. October strategy locked; hold through d267.
+- S02 d106: Dead zone d107 (59.9°F, 0.000-0.234 yt/angler). October peak 10–14 days out. Hold all capital and PTO for the signal.
+- S02 d107: d107 overnight signal (0.059 yt/angler) detected but below threshold. Hold October strategy; zero bookings, capital and PTO untouched.
+- S02 d108: Fleet weak (THREE_QUARTER 0.046 yt/angler vs typical 0.519, last 30d). April signal failed; October locked through d267. Next PTO commit at d268-273.
+- S02 d109: Hold October strategy. Dead zone confirmed d109. TWILIGHT-only tomorrow (no boats). Commit PTO at d268–273 window.
+- S02 d110: Dead zone d111, no available boats. October strategy locked—will commit PTO at d268–273 for Friday DAY_1_5 returns.
+- S02 d111: Dead zone through d111 confirmed. October locked; capital/PTO preserved. Next commit window d268–d273.
+- S02 d112: Dead zone confirmed through Sept. October peak 21 days out; holding capital and PTO for signal.
+- S02 d113: Dead zone d113 confirmed. October peak locked; hold capital and PTO through d267.
+- S02 d114: Dead zone d115; PTO commitment window too early. Hold capital/PTO through d267 for October peak (d287–295).
+- S02 d115: Dead zone d116 confirmed. October locked; hold capital/PTO through d267.
+- S02 d116: S02 d116: Dead zone d117 confirmed, no PTO committed. Hold through d267, commit October (d287–295) at d268–d273.
+- S02 d117: Dead zone d118, no bookable offers. October strategy locked; next PTO commit at d268–d273.
+- S02 d118: Dead zone d119 confirmed; hold capital and PTO through d267 for October peak. Phase 1 lock intact.
+- S02 d119: Dead zone confirmed; hold through May. October peak locked d287–295. Next PTO commit window d268–d273.
+- S02 d120: S02 d120: Phase 1 hold locked. Dead zone confirmed; zero bookings through d267. October peak (d287–295) target: commit PTO at d268–273 cutoff.
+- S02 d121: Phase 1 hold intact; fleet validates dead zone through May. October (d287–295) next PTO commit d268–273.
+- S02 d122: Hold d122: dead zone fleet-confirmed. Next PTO commit d268–273 for October peak (d287–295). Zero bookings through d267 locked.
+- S02 d123: Hold d123. October strategy locked; PTO commit window opens d268.
+- S02 d124: Confirmed hold. Dead zone fleet-wide. Next action: PTO commit window d268–273 for October peak execution.
+- S02 d125: Hold through dead zone d125. Next: PTO commit d268–273 for October execution window.
+- S02 d126: S02 d126: Hold d127. Dead zone confirmed. PTO commit window opens d268 for October peak.
+- S02 d127: D127 hold confirmed; dead zone validates fleet; October peak (d287-295) remains locked.
+- S02 d128: Hold d129. Dead zone fleet-confirmed. October peak strategy locked; next: await PTO commit window d268-273.
+- S02 d129: Hold d130; Phase 1 intact; dead zone fleet-confirmed. Next action: PTO commits doy 268–273 for October peak.
+- S02 d130: Dead zone confirmed fleet-wide. Hold d131. PTO commit window opens d268 for October peak (d287–295).
+- S02 d131: Held dead zone cleanly May–Sept. PTO locked for Oct peak (287, 294). Execute 3–4 trips when water breaks 16°C sustained.
+- S02 d132: Hold d133 confirmed; dead zone validates October-only play. PTO reserved d287–d294. Next signal: water >16°C sustained + overnight fleet >15 yt/trip.
+- S02 d133: Hold d134. Dead zone validates October-only play. PTO d287–294 locked. Next eval: d268 for additional October commits.
+- S02 d134: Hold d135. Dead zone confirmed; water warming but overnight fleet silent; October strategy locked. Next eval: d268 for contingency October commits.
+- S02 d135: Hold d136 confirmed. Dead zone intact. October peak (d287–d294) locked, budget/PTO untouched. Next eval: d268 window for contingency October commits.
+- S02 d136: Hold d137 confirmed. Dead zone intact. October strategy (d287, d294) locked; budget and contingency PTO preserved. Next eval window: d268.
+- S02 d137: Stay dry d138. Dead zone holds; water rising but subthreshold. October peak (d287–294) locked. Preserve budget/PTO for confirmed break.
+- S02 d138: Hold d138. Dead zone intact. October (d287, d294) locked, budget/PTO preserved. Next eval window: d268 for contingency commits.
+- S02 d139: Hold d140. Dead zone intact, water warming toward October threshold. October (d287, d294) locked; execute on schedule.
+- S02 d140: d141 pass—dead zone holds. Water warming but overnight fleet silent; October lock stays intact. Eval d268 for contingency October commits.
+- S02 d141: Hold d142. Dead zone intact through d141; October (d287, d294) locked. Preserve budget/PTO for peak.
+- S02 d142: Dead zone confirmed d142–d143. October (d287, d294) locked and preserved. Stay dry d143.
+- S02 d143: Dead zone confirmed d143. Hold through d267. October (d287, d294) locked; next eval d268 for contingency.
+- S02 d144: d144 hold. Dead zone intact; all tomorrow bookings blocked or wasting PTO. October (d287, d294) locked and funded.
+- S02 d145: d145 hold. Dead zone intact; THREE_QUARTER glimmers (yesterday 24 yt) don't justify breaking the October lock. No PTO to burn here—preserve all ammo for d287–294.
+- S02 d146: Dead zone holds. OVERNIGHT glimmer (0.51 yt/angler) is real but early; October lock stays intact.
+- S02 d147: d148 hold. OVERNIGHT warming (0.471) is real but too early; October lock (d287, d294) funded and protected through contingency.
+- S02 d148: Dead zone d149 confirmed; October (d287, d294) locked and funded. Hold.
+- S02 d149: Dead zone d149 confirmed. October lock (d287, d294) untouched. Hold.
+- S02 d150: Dead zone d150 confirmed. October lock (d287, d294) untouched. Hold.
+- S02 d151: Dead zone d151 confirmed. October lock (d287, d294) funded and protected. Hold through d267.
+- S02 d152: Dead zone d152 confirmed. October lock (d287, d294) untouched. Hold through September.
+- S02 d153: Dead zone holds through d154. October lock (d287, d294) funded and protected. $2000 and 8 PTO days preserved for peak window.
+- S02 d154: Dead zone d154 confirmed. October lock untouched ($2000, 8 PTO preserved). Hold through September.
+- S02 d155: Dead zone d155-156 confirmed. October lock (d287, d294) protected, $2000 intact. Hold through September.
+- S02 d156: Dead zone holds d157. October locked (d287, d294). $2000 and 8 PTO intact. Hold.
+- S02 d157: Dead zone confirmed d157. October lock (d287, d294) funded and protected. Hold through September.
+- S02 d158: Dead zone d158–d159 confirmed. October lock (d287, d294) secure. Hold through September.
+- S02 d159: Dead zone d160 confirmed. October lock (d287, d294) intact. $2000 and 8 PTO preserved. Hold.
+- S02 d160: Dead zone d161 confirmed. October lock (d287, d294) funded and protected. $2000 and 8 PTO intact. Hold.
+- S02 d161: Dead zone stable through d161. Water 62°F, October locks (d287, d294) secure. $2000 and 8 PTO intact. Hold.
+- S02 d162: Dead zone stable d162. October lock (d287, d294) secure. $2000 and 8 PTO intact. Hold through September.
+- S02 d163: Dead zone d164 holds. October lock (d287, d294) secure. $2000 and 8 PTO intact. Hold.
+- S02 d164: Dead zone d165 confirmed. October lock (d287, d294) secure. $2000 and 8 PTO intact. Hold.
+- S02 d165: Dead zone d166 confirmed. October locks (d287, d294) secure. $2000 and 8 PTO intact. Hold.
+- S02 d166: S02 d166: Dead zone confirmed. October lock (doy 287, 294) secure. $2000 and 8 PTO intact. Hold.
+- S02 d167: S02 d167 (Sept 25): Dead zone holds. October locks (d287, d294) secure. $2000 and 8 PTO intact. Stay disciplined—do not chase weak overnight in dead zone.
+- S02 d168: Dead zone holds. Yesterday's spike (d168 THREE_QUARTER 0.509) is noise. October peak ahead—do not chase.
+- S02 d169: Dead zone stable; October locks (d287, d294) secure. $2000 and 8 PTO intact. Hold through September—do not chase noise.
+- S02 d170: Dead zone stable. October peak (d287, d294) locked. $2000 and 8 PTO held. No chase.
+- S02 d171: Dead zone holds. October peak (d287, d294) secure. $2000 and 8 PTO intact. Hold.
+- S02 d172: S02 d172: Dead zone confirmed. October locks (d287, d294) secure. $2000 and 8 PTO intact. Hold.
+- S02 d173: d174: Dead zone persists. Hold strategy intact—October peak (d287, d294) locked. $2000, 8 PTO secure.
+- S02 d174: Dead zone holds. October peak (d287, d294) locked. $2000, 8 PTO intact. Do not chase September noise.
+- S02 d175: Dead zone holds. October (d287, d294) locked. Hold discipline.
+- S02 d176: d177 (Sun): Dead zone stable. October (d287, d294) locked. $2000, 8 PTO intact. Hold discipline—do not chase September noise. Peak is 20 days away.
+- S02 d177: Dead zone stable, October peak (d287, d294) locked. $2000, 8 PTO intact. 20 days to peak—hold discipline.
+- S02 d178: Dead zone stable. October peak (doy 287, 294) locked. $2000, 8 PTO intact. Hold discipline—peak is 109 days away.
+- S02 d179: Dead zone holds. October (d287, d294) locked. $2000, 8 PTO intact. Hold discipline—109 days to peak.
+- S02 d180: Hold discipline. Dead zone stable. October peak (d287, d294) locked. $2000, 8 PTO intact. 107 days to first peak booking cutoff—mid-September.
+- S02 d181: Dead zone stable. October (d287, d294) locked. $2000, 8 PTO intact. Hold discipline—peak is 19 days away.
+- S02 d182: October Friday plan locked (d287, d294, d301, d308). Four day_1_5 departures targeting Oct/Nov peak. Hold through Sept.
+- S02 d183: Dead zone holds. Oct peak (d287, d294, d301, d308) locked. $2000, 6 PTO intact. Hold discipline—104 days to execution.
+- S02 d184: Dead zone holds through d185. October plan locked (d287, d294, d301, d308). $2000 budget intact. Hold discipline—103 days to peak.
+- S02 d185: Dead zone stable. October (d287, d294, d301, d308) locked. $2000, 6 PTO intact. Hold—28 days to peak.
+- S02 d186: Dead zone stable. October (d287, d294, d301, d308) locked. $2000 budget intact, 6 PTO remain. Hold discipline—peak is 101 days away.
+- S02 d187: Dead zone holds through d188. October Fridays locked (d287, d294, d301, d308). Stay disciplined—99 days to peak execution.
+- S02 d188: Dead zone stable. October locked (d287, d294, d301, d308). Hold discipline—99 days to peak.
+- S02 d189: Dead zone stable. October locked (d287, d294, d301, d308). $2000, 6 PTO intact. Hold discipline—97 days to peak execution.
+- S02 d190: Hold through dead zone. October Fridays locked d287/294/301/308. $2000 and 6 PTO intact. Execute at peak (97 days out).
+- S02 d191: Dead zone stable d191. October locked (d287/294/301/308). Hold discipline through September—96 days to peak execution. $2000 and 6 PTO intact.
+- S02 d192: Dead zone stable d192. October locked (d287/294/301/308). $2000 and 6 PTO intact. Hold through Sept—75 days to peak.
+- S02 d193: Dead zone holds through d194. October (d287, d294, d301, d308) locked. 4/6 PTO committed, 2 remain for October flex. Hold discipline—95 days to peak.
+- S02 d194: Dead zone holds. October locked (d287/294/301/308). Stay home d195. Discipline maintained—92 days to peak execution.
+- S02 d195: Dead zone stable d195. October (d287/294/301/308) locked. Hold discipline—92 days to peak.
+- S02 d196: Dead zone d197 stable. October (d287/294/301/308) locked. Discipline holds—75 days to peak execution.
+- S02 d197: Dead zone stable d198. October (d287/294/301/308) locked. $2000 and 6 PTO intact. Discipline holds—89 days to peak execution.
+- S02 d198: Dead zone d199 stable. October (d287/294/301/308) locked. Hold discipline—89 days to peak execution.
+- S02 d199: S02 d199: Dead zone d200 stable. October (d287/294/301/308) locked. Hold discipline—74 days to peak execution. $2000 and 6 PTO intact.
+- S02 d200: Dead zone d201 confirmed. October (d287/294/301/308) locked. Hold discipline—87 days to peak execution. $2000 and 6 PTO intact.
+- S02 d201: Dead zone holds d202. October thesis (d287/294/301/308) locked. Discipline maintained—89 days to peak execution. $2000 and 6 PTO intact.
+- S02 d202: Dead zone d203 stable. October (d287/294/301/308) locked. Hold discipline—88 days to peak. $2000 and 6 PTO intact.
+- S02 d203: Dead zone S02 d204 stable. October peak thesis locked (d287/294/301/308). $2000, 6 PTO intact. Discipline holds.
+- S02 d204: Dead zone holds. Hold discipline—October locked, $2000 and 6 PTO intact. No soft signals yet.
+- S02 d205: Dead zone d206 stable. October locked d287/294/301/308 (81d out). Hold discipline, begin auto-commit sequence Sept 26 (d268).
+- S02 d206: Dead zone holds. October thesis locked (d287/294/301/308, $2000). 82 days to peak execution. Hold.
+- S02 d207: Dead zone d208 confirmed. October thesis holds (d287/d294/d301/d308, 6 PTO, $2000 intact). 79 days to peak execution.
+- S02 d208: Dead zone d209 stable. October thesis locked (d287/294/301/308, 6 PTO, $2000). 79 days to peak execution—hold discipline.
+- S02 d209: Dead zone d210 confirmed stable. October thesis locked (d287/d294/d301/d308, 6 PTO, $2000). 78 days to peak execution. Hold discipline.
+- S02 d210: Dead zone d211 confirmed zero. October thesis locked (d287/294/301/308, 6 PTO, $2000). Hold discipline—77 days to peak execution.
+- S02 d211: Dead zone d212 holds. October thesis locked, $2000 and 6 PTO intact. 77 days to peak execution—discipline.
+- S02 d212: Dead zone d213 holds. October thesis locked, $2000 and 6 PTO intact. 75 days to peak execution—hold discipline.
+- S02 d213: Dead zone d214 confirmed. October locked ($2000, 6 PTO, d287/294/301/308). 74 days to peak. Discipline.
+- S02 d214: Dead zone d215 confirmed. Capital $2000 + 6 PTO intact for October peak (d287/294/301/308). Discipline holds—74 days to execution.
+- S02 d215: Dead zone d216 stable. October thesis locked ($2000, 6 PTO d287/294/301/308), 72 days to peak. Hold discipline—no dead-zone gambling.
+- S02 d216: Late September dead zone holds. Water temp still flat at 60°F. Hold capital and discipline—October peak thesis requires 74 more days of full allocation ($2000, 6 PTO intact). Auto-commit Friday window starts d268. No early signals warrant deviation.
+- S02 d217: 65.8°F spike above 16°C threshold—but DAY_1_5 micro-peak (1.4–1.8) mirrors May's false signals. October peak is 70 days out and season-defining. Discipline.
+- S02 d218: Dead zone stable, hold. Auto-commit d268–273 next checkpoint (Friday PTO for October window).
+- S02 d219: Dead zone d220 holds. Capital $2000, 6 PTO intact. October peak 74 days out (d287). Strategy.py auto-commits d268–273 on schedule. Discipline.
+- S02 d220: Dead zone holds. Capital $2000, 6 PTO locked for October peak (d287-297). Stay disciplined through d267; auto-commit starts d268.
+- S02 d221: Dead zone d221 confirmed—water flat, no Coronado signal yet. Capital and 6 PTO locked October (d287–308). Auto-commit d268–273 next.
+- S02 d222: Water temp 66.9°F (>16°C) but fleet weak d222, 1 fish Coronados. Micro-peak noise. Hold through d267, auto-commit d268 Friday PTO window.
+- S02 d223: Dead zone holds. Capital and PTO locked October. Next checkpoint: d268 auto-commit Friday window (44 days out). Discipline.
+- S02 d224: S02 d224: Dead zone confirmed through late Sept. Capital $2000, PTO 6 locked October (d287–308). Next: d268 auto-commit Friday window (44 days out). Discipline.
+- S02 d225: Dead zone confirmed d225. Water signal false. Hold discipline through d267. October locked.
+- S02 d226: Dead zone confirmed d227. Hold through d267, auto-commit Friday window d268+ (starts in 2 days). October locked, capital intact.
+- S02 d227: D227: Water signal noise. Dead zone holds. October locked d287,294,301,308. Stay home, capital intact. Auto-commit Friday d268+ (42d out).
+- S02 d228: D228: Dead zone confirmed d229. Capital $2000, PTO 6 locked October. Auto-commit Friday window d268+ (40d out). Discipline.
+- S02 d229: D229: Dead zone holds. Capital $2000, PTO 6 locked October. Hold through d267. Discipline.
+- S02 d230: Dead zone holds. Capital $2000, PTO 6 locked October (d287–308). Auto-commit Friday window starts d268 (38d out). Discipline.
+- S02 d231: Hold to d267. Friday window d273–d280 locked for October. Capital $2000, October peak d287–308 firm. Discipline.
+- S02 d232: D233: Dead zone holds. Capital $2000, PTO 4 left (October d287–308 locked). Auto-commit Friday window starts d268 (36d out). October execution 56 days.
+- S02 d233: D233: Dead zone holds. Capital $2000, PTO 4 left (October d287–308 locked). Hold through d267. Discipline.
+- S02 d234: D235: Dead zone holds. Capital $2000, PTO 4 reserved for Friday auto-commit d268+ window. October locked. Discipline.
+- S02 d235: Dead zone holds. Water warm = noise. October locked 52d out. Discipline.
+- S02 d236: D237: Dead zone holds. Water cold, fleet silent. October locked 51d out. Discipline.
+- S02 d237: Dead zone holds. Capital and PTO locked October. Discipline. Next checkpoint d268 (Friday auto-commit starts). 50 days to peak.
+- S02 d238: Dead zone holds. October locked 50d out. No September noise. Discipline.
+- S02 d239: d239: Dead zone holds. Water cooling, fleet silent. October 72 days. Discipline.
+- S02 d240: D241: Dead zone holds. October locked 47 days out (d287). Discipline. Next checkpoint d268 (auto-commit Friday window, 26 days).
+- S02 d241: Dead zone holds. October locked. Next checkpoint d268 (26 days to Friday auto-commit). Discipline.
+- S02 d242: D243: Dead zone holds. October locked 44 days out (d287). Next checkpoint d268 (auto-commit starts, 26d). Discipline.
+- S02 d243: Sept 25 warm water spike—d207 replay. Hold discipline. Oct 14 peak is 44 days locked and loaded.
+- S02 d244: Dead zone holds. October locked 43d out (d287). Strategy.py live, Friday auto-commit starts d268. Discipline.
+- S02 d245: Dead zone holds. October lock d287-297 intact, 42 days. Nightly hold through d267. Next auto-commit d268 (Fridays).
+- S02 d246: Dead zone holds. October peak d287–297 locked 41 days. Nightly hold resumes.
+- S02 d247: Dead zone holds. October lock intact, 41d out. Discipline.
+- S02 d248: D248 hold. Dead zone flat, no boats. October lock d287–d308 intact, 39d out. Discipline.
+- S02 d249: Dead zone holds flat. October peak d287–d308 locked 37 days. Discipline.
+- S02 d250: Dead zone holds flat. October lock d287–d308 intact, 37–58d out. Discipline—nightly hold resumes.
+- S02 d251: Dead zone holds, water at threshold, October lock d287-d308 intact 36-57d out. Nightly hold.
+- S02 d252: Dead zone holds flat d252. October lock d287–d308 intact 35d out. Nightly hold through d267. Discipline.
+- S02 d253: Dead zone holds d254. October lock d287–d308 intact at 34d out. Discipline prevails.
+- S02 d254: Dead zone hold d255. October lock intact 32d out. Discipline.
+- S02 d255: Dead zone flat d256. October lock intact 32d out (d287–d308 at 4 PTO left). Hold.
+- S02 d256: Dead zone holds d257. October lock intact 31d out (d287–d308 at 6 PTO committed, 4 buffer). Discipline.
+- S02 d257: Dead zone holds d258. October lock intact 29d out (d287–d308, 6 PTO committed, 4 buffer). Nightly hold discipline.
+- S02 d258: Dead zone d259 hold; Oct peak 29d out (6 PTO committed, 4 buffer). Discipline.
+- S02 d259: Dead zone d260 holds—weekend noise. Oct peak 27d out, capital preserved. Discipline.
+- S02 d260: Discipline hold d261. Dead zone flat. October lock at 27d out.
+- S02 d261: Dead zone d262 hold. October lock at 25d out (6 PTO committed, 4 buffer). Discipline.
+- S02 d262: Dead zone d263 hold. October lock at 24d out intact. Discipline.
+- S02 d263: Dead zone d264 hold. October lock at 24d (d287 first strike). Discipline.
+- S02 d264: Dead zone holds d265. October lock intact 23d out (d273–d308, 6 PTO committed, 4 buffer). Water 15.9°C, one-tenth below trigger. Discipline.
+- S02 d265: Dead zone flat, water 15.4°C below trigger. October lock intact 22d out (d287 first). Discipline holds capital and PTO.
+- S02 d266: Dead zone flat, Oct lock intact 21d out (d287 first). Discipline holds.
+- S02 d267: Weekend hold d268. Dead zone flat. October lock 21d out (d287 strike). Discipline.
+- S02 d268: Dead zone d269 hold. October lock 19 days out (d287 strike). Discipline.
+- S02 d269: Dead zone d270 hold. October lock intact 18d out (d287 first strike). Discipline.
+- S02 d270: Dead zone hold d271. October lock intact 17d out (d287 strike). Water 12.7°C, cold signal. Discipline.
+- S02 d271: Dead zone hold d272–d276. October lock 16 days out (d287 strike). Capital and PTO intact for peak.
+- S02 d272: Hold d273 PTO, don't book. Dead zone confirmed through late Sept. Capital and PTO locked October peak (d287-308 Fridays). Water 15.0°C, need 16°C or doy≥289.
+- S02 d273: Dead zone holds. October lock (d287–d308) loaded, 4 PTO days banked. Discipline beats early noise.
+- S02 d274: Booked Mission Belle d275 to salvage early peak tail (fleet fading but boat strong). October lock (5 Fridays d280–d308) funded and ready. Execution error d273 logged—won't leave PTO dormant again.
+- S02 d275: Hold. Peak window shifted early; late October lock holds (d287-d308 Fridays + Tue-Thu wedges). All PTO and capital committed.
+- S02 d276: Early peak bust. October lock now anchored 8 days (d280, d287, d290, d291, d294, d297, d301, d304). Budget ready for day_1_5 at cutoff. Execute at d287.
+- S02 d277: Dead zone d277–d286 confirmed hold. October lock 10 days (d280, d287, d290, d291, d294, d297, d301, d304, d308) fully funded at $1850. Execute peak at d287.
+- S02 d278: Condor d280. Execute peak tail before October lock springs d287. Score still zero—no more delays.
+- S02 d279: Condor d280 booked. Holding 8 days to October strike d287. Peak window confirmed live (dope_reader validated doy 287-303 at 5.0+ yt/angler).
+- S02 d280: Dead zone confirmed; October lock funded and ready. Execute d287.
+- S02 d281: Fleet dead d281, tomorrow tracking weak. October lock ready (d287+ confirmed live per dope_reader post). Hold capital, execute peak.
+- S02 d282: Dead zone d283–d286 hold. October lock (d287+ at 5.0+ yt/angler) ready to execute. Save capital.
+- S02 d283: Dead zone d284-d286 confirmed hold. October lock ready to execute d287+; capital and PTO positioned for 3-4 day_1_5 trips.
+- S02 d284: Dead zone d285; October lock d287–d308 fully staged at $1300 budget + 10 PTO days committed. Execute DAY_1_5 at cutoff tomorrow night (d286 21:00 for d287 departure).
+- S02 d285: Execute October lock d287 Condor. Dead zone d286 hold confirmed. Condor 3.591 yt/angler incoming.
+- S02 d286: d287–d288 stacked: Condor + Ocean Odyssey DAY_1_5. Peak execution live. Budget $200 reserve for d290+ bookings.
+- S02 d287: Condor d287 + Ocean Odyssey d288 stacked. Peak window live—execute.
+- S02 d288: d289 skip. Peak executed (d280, d287). PTO locked for d290+; hold $200 for cutoff bookings.
+- S02 d289: Peak cooled d289. Fleet dead across HD/THREE_QUARTER. Hold $200 for d291 cutoff.
+- S02 d290: d290 peak cooled overnight. Fleet all-zeroes on d290. Hold for d294+; budget reserved.
+- S02 d291: Peak executed d287–d288. Rank #2 (14.20), 1.13 behind elnino. Hold through season end; no value in d292 twilight.
+- S02 d292: Season peak executed. Dead zone confirmed. Hold through season end; next PTO windows already locked (d294+). No chasing zeroes.
+- S02 d293: Skip d294 dead zone. Peak executed d287-288 (4.8+ yt share each). Hold for d297+ windows already locked.
+- S02 d294: Peak executed (d287-288: 4.8+ yt/share each). Dead zone d289-d295 confirmed. Hold budget and PTO commitment for d297+ windows already locked. Next decision d296 or d297 cutoff.
+- S02 d295: Dead zone holds d289–d295. Next scheduled d297 (committed). Hold budget for d297+ cutoff or signal. Rank #3, stay disciplined.
+- S02 d296: Dead zone holds through d296. D297 shows no improvement; skip and preserve budget for potential later signal or season end.
+- S02 d297: Peak window d287–d288 locked and executed. Dead zone confirmed through d297. Season rank #3 (14.20); hold position. No further value in field.
+- S02 d298: Peak locked and executed (d287–d288, 4.8+ yt/share each). Rank #3 (14.20), 1.13 behind elnino. Season over: 0 PTO, $200 left. Hold position.
+- S02 d299: Dead zone holds d300. Rank #3 locked; hold position through finish. Season executed perfectly Oct 14-15.
+- S02 d300: Season end hold. Peak executed, rank locked #3 (14.20). Skip dead zone.
+- S02 d301: Season end hold through finish. Peak locked, rank #3 (14.20). Dead zone d301-d302 confirmed; skip.
+- S02 d302: Season effectively over. Peak executed (d287-d288: 4.8+ yt/share), rank #3 locked (14.20). Dead zone holds through finish; stay home.
+- S02 d303: Dead zone holds d303–d308. Season over. Rank #3 (14.20) locked. Peak captured d287–d288. Walk away.
+- S02 d304: Season locked. Peak captured. Hold rank #3 (14.20) through finish. Walk away.
+- S02 d305: Season locked rank #3 (14.20). Peak captured d287–d288. Dead zone holds through d308. Walk away.
+- S02 d306: Season locked rank #3 (14.20). Dead zone holds d306–d308. Walk.
+- S02 d307: Season finished. Peak d287–d288 locked (9.4 yt), rank #3 secured (14.20). Dead zone holds through d308. No more capital deployed.
+- S02 d308: Season finished. Dead zone through d308. Rank #3 locked (14.20). Walk away.
+- S02 d309: Season locked rank #3 (14.20). Dead zone confirmed d303–d309. Walk away.
+- S02 d310: Season finished. Rank #3 locked (14.20). Dead zone d303–d309 holds. No PTO, no boats, no edge. Hold.
+- S02 d311: Season finished d308. Rank #3 locked (14.20). Dead zone d303+ holds. Walk away, zero edge, zero PTO left.
+- S02 d312: Season finished d308. Rank #3 locked (14.20). Dead zone holds to close. Walk away.
+- S02 d313: Dead zone holds. Season finished d308. Rank #3 locked. No edge, no capital deployed.
+- S02 d314: Dead zone holds d315. Season rank #3 locked (14.20). No edge, no capital deployed.
+- S02 d315: Season locked d308, dead zone to close. Rank #3 (14.20) secure. Capital and PTO held. Walk away.
+- S02 d316: Season locked d308, rank #3 (14.20). Dead zone holds to close. Walk away.
+- S02 d317: Season rank #3 locked. Dead zone holds to close. Walk. Preserve capital for Oct next year.
+- S02 d318: Season concluded d308, rank #3 locked (14.20). Tournament over—capital and PTO preserved.
+- S02 d319: Season over, rank locked. November is dead water. Stay ashore.
+- S02 d320: Season concluded d308, rank #3 locked (14.20). Dead zone confirmed through close. No edge, no capital deployed.
+- S02 d321: Season finished d308, rank #3 locked (14.20). Dead zone holds to close. Walk away.
+- S02 d322: Season locked d308. Rank #3 (14.20) holds. Dead zone to close—stay ashore, capital and PTO preserved.
+- S02 d323: Season finished d308, rank #3 locked. Dead zone to close—stay ashore.
+- S02 d324: Season rank locked #3 (14.20). Dead zone holds to close. Walk—nothing left to chase.
+- S02 d325: Season rank #3 (14.20) locked d308. Final stretch dead zone—walk away, capital and discipline intact.
+- S02 d326: Season over d308, rank #3 (14.20) final. Stay ashore.
+- S02 d327: Season over d308, rank #3 locked (14.20). Dead zone to close—stay ashore, capital and discipline intact.
+- S02 d328: Season locked d308, rank #3 (14.20). Dead zone to close—stay dry.
+- S02 d329: Season locked d308, rank #3 (14.20). Dead zone confirmed to close. Stay ashore, capital and discipline intact.
+- S02 d330: Season over d308, rank #3 locked (14.20). Dead zone to close—stay ashore, capital and discipline intact to finish.
+- S02 d331: Season locked d308, rank #3 final (14.20). Stay ashore to close.
+- S02 d332: Season over d308, rank #3 locked (14.20). Dead zone to close—stay ashore.
+- S02 d333: Season locked d308, rank #3 final. Dead zone through close confirmed. Stay ashore.
+- S02 d334: Season over, rank #3 final (14.20). Stay ashore to close.
+- S06 d091: El Niño regime detected. April peak live NOW—not dead zone. Missed this in S2; don't repeat. Repositioning: stay dry d092, commit next week (d110-111), deploy on hot boats if fleet data confirms streak. Budget and PTO intact for strategic strike.
+- S06 d092: Prowler overnight d094. El Niño regime live, fleet hot, weekend to avoid PTO waste. Reserves d110–d111 + capital for strategic weekday peak.
+- S06 d093: El Niño April peak confirmed live. Water 18.9°C, fleet hot d091-093, 1.5+ yt/angler. Committed 6 remaining PTO days (d112-d120) + d110-d111 for full mid-April coverage. Overnight Prowler d094 weekend covered.
+- S06 d094: Mission Belle THREE_QUARTER d095—El Niño peak live, hot fleet consensus. d110+ window committed and locked. Execute the plan.
+- S06 d095: Peak hot now (THREE_QUARTER 1.375 yt/angler, fleet consensus), El Niño confirmed. Stay dry d096–d109; hit d110+ window as locked. Patient positioning.
+- S06 d096: El Niño peak d110+ locked. Staying dry d96–d109 to protect capital and PTO. Fleet hot now validates the window timing.
+- S06 d097: El Niño hot confirmed (fleet 1.5+ yt/angler, recent trips 1.8). Extended peak window d110-d120 → d124-d125; capital and boats ready for full deployment through early May.
+- S06 d098: No PTO left, holding to d110+ window. El Niño regime live and fleet hot—validates the timing locked weeks ago.
+- S06 d099: Prowler overnight d101 tactical weekend strike. Core d110+ strategy unlocked and ready.
+- S06 d100: Prowler overnight d101-d102 locked. Core d110+ window committed and positioned—capital and PTO ready for El Niño peak execution.
+- S06 d101: Peak live now—execute d110+ window as locked. Sharp fishing d102 before main deployment.
+- S06 d102: Stay dry d103–d109. d110+ window locked and ready. Discipline through the dead zone.
+- S06 d103: Hold d103–d109 dry. d110+ window locked and ready to execute peak.
+- S06 d104: Hold d103–d109 dry. Peak execution d110+ ready with locked PTO and capital intact. El Niño regime live validates timing.
+- S06 d105: Hold d103–d109 dry. Peak window d110+ locked and ready to execute.
+- S06 d106: Dead zone hold d107. Invicta tempting (1 sample) but capital locked for d110+ peak—discipline.
+- S06 d107: Capital into hot boats now; El Niño peak live. d110+ core window still locked and ready.
+- S06 d108: Hold d109 dry—final day before peak d110+ deployment. Capital and 10-day PTO window intact and ready.
+- S06 d109: Peak window live d110—execute locked plan. Mission Belle hot, capital intact for five three-quarter trips through d125.
+- S06 d110: Peak window d111: San Diego THREE_QUARTER $150. All PTO locked d110–d125; capital deploying tactically. $450 remains for d112–d125 sequence.
+- S06 d111: THREE_QUARTER peak execution d112 Mission Belle; fleet 1.443 avg, capital $300 remains for d113+ core window through d125 lock.
+- S06 d112: Malihini d113 (peak live). Capital $150 remaining sustains d117-d125 locked window. Execute the plan.
+- S06 d113: d114 hold (no PTO, no viable bookings). Capital preservation d115–d116, execute locked plan d117+ when bookable.
+- S06 d114: d115-d116 capital hold locked. Execute d117-d125 deployment with $150 remaining; select best available boat class at cutoff for each PTO'd day.
+- S06 d115: D116 hold dry. Capital preservation d117+: peak window locked, peak boat selection at cutoff depends on staying flush through d125.
+- S06 d116: Final capital deploy d117 Mission Belle. Season endgame: locked window execution, all PTO committed through d125. Score 12.15 needs this peak-window execution to close gap on elnino (14.25).

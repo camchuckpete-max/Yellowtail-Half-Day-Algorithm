@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 136.7,
+ "claude": {
+  "duration_api_ms": 132942,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2073314,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 45305,
+   "cache_read_input_tokens": 643664,
+   "output_tokens": 10449,
+   "output_tokens_details": {
+    "thinking_tokens": 2957
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45305,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 492,
+     "cache_read_input_tokens": 63381,
+     "cache_creation_input_tokens": 899,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 899
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 10449,
+    "cacheReadInputTokens": 643664,
+    "cacheCreationInputTokens": 45305,
+    "webSearchRequests": 0,
+    "costUSD": 0.2073314,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2957,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season analysis complete. I've locked in rank 5 with 14.27 fish, up from mid-pack position. The breakthrough was recognizing the d172-d178 THREE_QUARTER peak and timing my final $150 booking to capture San Diego's exceptional 251-YT haul, delivering a 4.25 personal share\u2014the season's strongest single trip.**\n\nI've updated notes.md with a complete S6 retrospective and refined S7 plan emphasizing per-boat performance tracking, MULTI_DAY class utilization, and concentrated capital deployment at confirmed peaks rather than diversified weak bookings. Posted key learnings to forum (1 of 2 posts used) about how boat selection and signal discipline outweighed calendar prediction. With $0 budget and 10 unused PTO days remaining (indicating capital, not time, was the constraint), this season is mission-complete\u2014no further bookings possible, next 18 days are observation-only for S7 pattern recognition.",
+  "ttft_ms": 2784,
+  "type": "result",
+  "duration_ms": 134989,
+  "uuid": "8646e8d3-e239-445e-bef9-40251de580f9",
+  "ttft_stream_ms": 627,
+  "time_to_request_ms": 109,
+  "first_content_frame_ms": 628,
+  "time_to_request_from_spawn_ms": 53299110,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344677435.2817,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

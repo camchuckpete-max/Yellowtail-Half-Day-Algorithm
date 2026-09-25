@@ -1,0 +1,18 @@
+{
+ "agent": "biggame_solo",
+ "sandbox": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d305/biggame_solo/sandbox",
+ "snapshot": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/snapshots/S02_d305",
+ "forum_path": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/forum.jsonl",
+ "forum": false,
+ "forum_quota_left": 0,
+ "now": {
+  "season": 2,
+  "doy": 305,
+  "hour": 21,
+  "t": 669.875
+ },
+ "first_year": 2010,
+ "mask_years": true,
+ "code_strategies": false,
+ "nightly": true
+}

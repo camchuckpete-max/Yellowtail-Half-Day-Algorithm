@@ -1,0 +1,474 @@
+- S02 d091: S2 d091→d092: Fleet's been ice cold for 8 straight days (HD_AM/HD_PM/3Q all ~0.000 yt/angler, only one 0.182 blip on d085). Water temp ticking up (62.8°F vs 59.9 mean) but ONI still deep La Niña at -1.3, so I'm not trusting the seasonal 0.249 3Q baseline yet — that number looks stale vs current cold
+- S02 d092: d093 (Sun): every class is dead flat — HD_AM 0.000/80 boat-days, HD_PM 0.002/45, THREE_QUARTER 0.000/49 over the last month, and last 7 days show zero yt fleet-wide except one fluke HD_PM (0.182, n=1). ONI still -1.3, cold water 61.9°F. Even a cheap $80 HD ticket is a near-certain zero right now — t
+- S02 d093: d094 (Mon): nothing bookable anyway (no PTO committed, twilight has zero boats scheduled) and fleet's still dead flat — all classes 0.000 yt/angler last 7 days except one HD_PM fluke n=1. Sitting out, saving the $80s and PTO for when a real bite shows.
+- S02 d094: d095 (Tue): nothing bookable — HD/3Q need PTO I don't have committed, twilight has zero boats scheduled. Fleet still ice cold: 3Q 0.005/54 boat-days, HD_AM 0.000/82, HD_PM 0.002/46 over last month. Not spending an $80 or a PTO day on this. Waiting for a real bite signal before committing anything 14
+- S02 d095: d095→d096 (Wed): nothing bookable — no PTO committed, twilight has zero scheduled boats. Fleet still ice cold: 3Q 0.005/53 boat-days, HD_AM 0.000/82, HD_PM 0.002/44 over last month, last 7 days all near-zero. Local report only 5 yt mentions. Not spending an $80 or PTO on this — staying home, waiting
+- S02 d096: d096→d097 (Thu): nothing bookable — no PTO committed, twilight has zero scheduled boats. Weather's ugly too (20kt wind, 3ft@19s swell, coastal advisory to 30kt/6ft seas) — not a day I'd want to be out even if it were open. Fleet still flat: 3Q 0.014/51 boat-days, HD_AM 0.000/81, HD_PM 0.002/44 over 
+- S02 d097: d097→d098 (Fri): nothing bookable on the cheap side (no PTO committed, twilight has zero scheduled boats), and the only open doors are Overnight/Day_1.5 on brand-new boats with zero trip history — that's a $400-550 gamble, not my $80-volume game. Weather's ugly too (18-25kt wind, 3-5ft seas). Stayin
+- S02 d098: d098->d099 (Sat): Skipping the $80 HD tickets, they're still 0.000 across the board for a month. San Diego 3Q is the lone bright spot (0.065/angler, 7 yt last trip) so taking that shot on a no-PTO weekend day. Watching to see if this is a real bite starting or just noise.
+- S02 d099: d100 (Sun): Skipping the dead $80 half-days again — 0.000/angler fleet-wide for a month straight, every scheduled boat. San Diego 3Q is the lone live wire (3 yt yesterday, 0.075/angler), so riding that again on a no-PTO weekend. Holding PTO and cash until something bigger confirms a real bite.
+- S02 d100: d101 (Mon): nothing bookable — no PTO committed for the weekday, and twilight has zero scheduled boats. Fleet's still mostly flat (3Q 0.016/55 boat-days, HD_AM/PM near zero) with San Diego 3Q the only flicker (0.077 last, 1 yt). Not worth burning a PTO day on a Monday half-day yet — sitting out, sav
+- S02 d101: d101->d102 (Tue): nothing bookable — no PTO committed for the weekday and twilight has zero scheduled boats. Fleet still weak overall (3Q ~0.016/angler last month, HD flat near zero). Sitting out again, keeping the $80s and PTO in reserve until a real bite or a weekend 3Q slot shows up.
+- S02 d102: d102->d103 (Wed): nothing bookable — no PTO committed for the weekday and twilight has zero scheduled boats. Weather's rough too (20kt wind, 4ft@12s swell, coastal advisory to 25kt/5ft). Fleet still weak: 3Q ~0.018/angler over 54 boat-days, HD flat near zero. Sitting out, saving the $80s and PTO for
+- S02 d103: d103->d104 (Thu): nothing bookable — no PTO committed and twilight has zero scheduled boats. Fleet still ice cold across the board (HD_AM/PM 0.000 for weeks, 3Q only 0.018/angler over 54 boat-days with San Diego my one flicker). Rough-ish weather too (15-20kt wind, 3.5-4ft seas). Sitting out, saving
+- S02 d104: d104->d105 (Fri): nothing bookable — no PTO committed for the weekday and twilight has zero scheduled boats. Only no-PTO options are Overnight/Day_1.5 on Aztec (zero trip history) and Voyager (0.000/angler) — too pricey a gamble for my $80-volume game. Sitting out, saving cash and PTO for a confirme
+- S02 d105: d105->d106 (Sat): HD tickets still dead across the board (0.000 for a month), San Diego 3Q remains the only boat with a positive season rate (0.085/angler) despite a zero last trip. Taking the no-PTO weekend shot again, holding cash/PTO otherwise.
+- S02 d106: d106->d107 (Sun): San Diego 3Q just blew up to 23 yt/45 anglers (0.51!) after weeks of flat water - riding the hot boat again with no PTO cost. HD_AM/PM still 0.000 for a month, staying away from those. Holding PTO in reserve; will watch if San Diego cools off before betting bigger on overnight/day_
+- S02 d107: d107->d108 (Mon): nothing bookable — no PTO committed for the weekday, twilight has zero scheduled boats. San Diego 3Q just went 0/62 anglers, erasing the d106 spike (23/45) — that hot streak looks like noise, not a trend. Staying home, holding cash/PTO for a confirmed bite.
+- S02 d108: d108->d109 (Tue): nothing bookable — no PTO committed, twilight has zero boats. HD_AM/PM still dead for a month; San Diego 3Q whipsawed 0/23/0 yt last three trips — too noisy to chase with PTO or a $150 ticket. Sitting out, holding $80s and PTO for a real signal or a free weekend/holiday slot.
+- S02 d109: d109->d110 (Wed): nothing bookable — no PTO committed, twilight has zero boats. San Diego 3Q whipsawed 0/23/0 over last three trips, too noisy to chase. HD_AM/PM still flat for a month. Sitting out, saving $80s and PTO for a confirmed bite or a no-PTO weekend slot.
+- S02 d110: d110->d111 (Thu): nothing bookable — no PTO committed, twilight has zero boats. San Diego 3Q still whipsawing (0/23/0 last three trips), fleet-wide rates cold (HD flat at 0 for a month, 3Q ~0.06/angler over 62 boat-days). Not committing PTO blind on this noise. Sitting out, saving $80s and PTO for a
+- S02 d111: d111->d112 (Fri): no PTO committed so HD/3Q locked out; only no-PTO plays are Mustang overnight (0.000/angler, last trip 0 yt) and Pacific Voyager day_1.5 (zero trip history) — too pricey to gamble blind. Staying home, saving $80s and PTO for a real signal.
+- S02 d112: d112->d113 (Sat): San Diego 3Q just went 21 yt/? anglers, 0.182/angler recent — riding the hot boat again, no PTO cost on a weekend. HD_AM/PM still dead for a month, skipping those entirely.
+- S02 d113: d113->d114 (Sun): HD_AM/PM still dead for a month (0.000 across 94+47 boat-days) — skipping regardless of cheap price. San Diego 3Q whipsawing (0/23/0/0 last four) but remains the only boat with positive season signal and the pooled class had a good week; riding it again on a free weekend. Holding P
+- S02 d114: d114->d115 (Mon): nothing bookable — no PTO committed for the weekday and twilight has zero scheduled boats. San Diego 3Q has now gone 0/0/0 the last three trips after the d106 spike faded completely; treating that as noise, not chasing with PTO. Sitting out, holding $80s/PTO for a real weekend sign
+- S02 d115: d115->d116 (Tue): nothing bookable — no PTO committed, twilight has zero boats. HD_AM/PM still dead (0.024/0.055 typical, real recent data ~0.000-0.002 over 90+ boat-days). San Diego 3Q locked out without PTO tonight anyway. Sitting out, saving $80s and PTO for a free weekend or a real signal.
+- S02 d116: d116->d117 (Wed): nothing bookable — no PTO committed, twilight has zero boats. HD_AM/PM still flat for weeks, San Diego 3Q locked out without PTO tonight. Sitting out, saving $80s and PTO for a free weekend or a real signal.
+- S02 d117: d117->d118 (Thu): nothing bookable — no PTO committed, twilight has zero boats. HD_AM/PM still dead for weeks, San Diego 3Q locked out without PTO. Sitting out, saving $80s and PTO for a free weekend or a real signal.
+- S02 d118: d118->d119 (Fri): no PTO committed so HD/3Q/full locked out again; twilight has zero boats. Only no-PTO options are overnight (Mustang 0.019/angler, Pride 0.000, others no history) and day_1.5 (both boats 0.000 recent) — not worth $400-550 on flat signals. Staying home, saving $80s and PTO for a rea
+- S02 d119: S02 d119: San Diego 3Q still the only real signal (0.138/angler) despite cooling off on me lately; free weekend ride, no PTO spent. HD_AM/PM dead for weeks, skipping. Holding PTO for a genuine hot streak."
+- S02 d120: d120->d121 (Sun): HD_AM/PM still totally dead across every boat (0.000, weeks running) — skipping those. San Diego 3Q remains the lone positive signal (0.140/angler recent) even though it's gone cold on me 5 straight trips; riding again since it costs no PTO on a weekend. Holding PTO/cash for a real
+- S02 d122: d122->d123 (Tue): nothing bookable, no PTO committed and twilight has zero boats. HD_AM/PM still dead season-long, not worth PTO even if I had it. Sitting out, saving cash/PTO for the next San Diego/Mission Belle weekend probe.
+- S02 d124: d124->d125 (Thu): nothing bookable, no PTO committed and twilight has zero boats. Staying home, saving cash/PTO for a weekend San Diego/Mission Belle probe when their trailing rate clears baseline.
+- S02 d125: d125->d126 (Fri): no PTO committed, HD/3Q/full locked out; twilight has no boats. Overnight/DAY_1.5 are bookable but $400-550 against cold recent rates (Mustang 0.012, Pacific Voyager/Dominator 0.000) — not my game. Sitting out, saving cash/PTO for a cheap weekend probe.
+- S02 d126: d126->d127 (Sat): HD_AM/PM/twilight still dead for months, skip on principle. San Diego 3Q cooled to 0.067/angler (below my own baseline), fleet-wide 3Q mostly zeros this week too — El Gato Dos' 1-trip 0.5/angler is too thin a sample to chase at $150. Sitting out per my own plan, saving cash/PTO for
+- S02 d132: d132->d133 (Fri): no PTO committed so HD/3Q/full all locked out; twilight has zero boats. Only no-PTO options are overnight Mustang (0.000 recent) and day_1.5 Voyager (0.000)/Pacific Voyager (no history) — not spending $400-550 on cold/unknown signals. Sitting out, saving cash/PTO for a real San Die
+- S02 d134: d134->d135 (Sun): HD_AM/PM still dead for months, skip on principle. San Diego and Malihini 3Q both posted 0.000 last trip, no signal to chase at $150 — sitting out, saving cash for a boat that actually shows a pulse.
+- S02 d139: d139->d140 (Fri): no PTO committed, HD/3Q/full locked out; twilight has zero boats. Overnight (Mustang 0.000) and DAY_1.5 (Voyager 0.000, others no history) are the only bookable options but cold/unproven at $400-550 — not chasing that. Sitting out, saving cash/PTO for a cheap weekend HD or a 3Q boa
+- S02 d142: d142->d143 (Mon): no PTO committed so HD/3Q/full all locked out; twilight has zero boats to book. HD_AM/PM still dead season-long (0.000-0.001/angler), not worth PTO even if I had it committed. Sitting out, saving cash/PTO for a weekend San Diego/Mission Belle 3Q probe when trailing rate clears base
+- S02 d143: d143->d144 (Tue): no PTO committed, HD/3Q/full/overnight all locked out; twilight has no boats. HD_AM/PM still dead season-long, not worth PTO. Sitting out, saving cash/PTO for a weekend San Diego/Malihini 3Q probe.
+- S02 d144: d144->d145 (Wed): no PTO committed so HD/3Q/full/overnight all locked out despite San Diego's hot 0.526/angler 3Q print; twilight has no boats. Sitting out, saving cash/PTO for a weekend San Diego/Malihini probe.
+- S02 d145: d145->d146 (Thu): no PTO committed, everything with a boat requires it; twilight has no boats scheduled. Sitting out, saving cash/PTO for a weekend San Diego/Mission Belle 3Q probe when signal justifies it.
+- S02 d146: d146->d147 (Fri): no PTO committed, HD/3Q/full locked out (moot, HD dead all season anyway). Only no-PTO options are overnight Pride (0.000 recent) and DAY_1.5 Constitution (0.000 recent) at $400-550, plus rough 18-20kt/7ft conditions — not chasing cold boats in bad weather. Sitting out, saving cash
+- S02 d147: d147->d148 (Sat): San Diego 3Q trailing rate (0.455/angler, 10 trips/14d) tops Mission Belle (0.405/4 trips) and fleet-wide 3Q has clearly warmed vs early season baseline — booking San Diego, no PTO needed. HD_AM/PM still dead, skipped.</note> </invoke> 
+- S02 d148: d148->d149 (Sun): only HD_AM/PM bookable (Daily Double, Premier both 0.000 recent, matches season-long dead HD). No 3Q offered tomorrow despite my San Diego win last night; coastal seas 10ft/35kt gusts likely why. Sitting out, saving cash/PTO for next 3Q window when a boat's on.
+- S02 d149: d149->d150 (Mon holiday): no PTO needed. HD_AM/PM still dead fleet-wide, skipped. San Diego 3Q leads trailing rate (0.502/9 trips) over Mission Belle and Malihini — booked, free holiday shot at $150.
+- S02 d150: d150->d151 (Tue): no PTO committed so everything but twilight is locked out, and twilight has no boats scheduled — nothing to book regardless. HD_AM/PM still dead season-long, not worth spending a PTO day on. Sitting out, saving cash/PTO for the next weekend/holiday San Diego 3Q window.</note> 
+- S02 d151: d151->d152 (Wed): no PTO committed so HD/3Q/full/overnight all locked out; twilight has no boats. HD_AM/PM still dead season-long regardless. Sitting out, saving cash/PTO for the next weekend San Diego/Mission Belle 3Q window.
+- S02 d152: d152->d153 (Thu): no PTO committed so HD/3Q/full/overnight all locked out; twilight has no boats scheduled. Sitting out, saving cash/PTO for next weekend San Diego 3Q window.
+- S02 d153: d153->d154 (Fri): no PTO committed so HD/3Q/full locked out, twilight has no boats. Overnight is no-PTO bookable but the class has gone cold 5 days straight (d148-153 near zero) despite the d146-147 spike — not risking $400 of my thin $500 budget on a cooling class. Sitting out, saving cash for next
+- S02 d154: d154->d155 (Sat): San Diego still tops trailing 3Q rate (0.372/11 trips) over Mission Belle and Malihini, no PTO needed on weekend — booked again. HD_AM/PM dead as ever, skipped; overnight/day1.5 too pricey for my thin $500 left.</note>
+- S02 d155: d155->d156 (Sun): San Diego still leads trailing 3Q rate (0.322/12 trips) over Malihini/Fisherman III — booked again, no PTO needed. HD_AM/PM dead as ever, skipped. Budget getting thin ($350 left), staying disciplined on $150 probes.</note>
+- S02 d156: d156->d157 (Mon): no PTO committed so everything but twilight locked out, and twilight has zero boats scheduled - nothing bookable regardless. San Diego 3Q cold last two trips (0/22, 0/57) but still best-sampled on the board; watching for next no-PTO weekend/holiday window rather than spending PTO o
+- S02 d157: d157->d158 (Tue): no PTO committed so everything but twilight locked out, and twilight has zero boats scheduled — nothing bookable regardless. HD_AM/PM still dead season-long anyway, not worth a PTO day. Sitting out, saving cash/PTO for next weekend San Diego 3Q window.</note> 
+- S02 d158: d158->d159 (Wed): no PTO committed so everything but twilight locked out, twilight has no boats - nothing bookable regardless. Budget down to $200, staying disciplined: waiting for next no-PTO weekend San Diego 3Q window rather than spending on dead HD_AM/PM or committing PTO to a cold weekday slot.
+- S02 d159: d159->d160 (Thu): no PTO committed so HD/3Q/full/overnight all locked out, twilight has no boats - nothing bookable regardless. Sitting out, saving the $200 and 10 PTO days for the next no-PTO weekend San Diego 3Q window.</note> 
+- S02 d160: d160->d161 (Fri): no PTO committed so HD/3Q/full all locked out; twilight has no boats; overnight/day1.5 unaffordable at $200 budget anyway. Sitting out, saving cash/PTO for next weekend San Diego 3Q window.
+- S02 d161: d161->d162 (Sat): San Diego still the best-sampled 3Q boat on trailing rate, booked again for $150, no PTO burned. HD_AM/PM/twilight still dead, skipped. $50 left after this, staying disciplined.</note> 
+- S02 d162: d162->d163 (Sun): budget bottomed out at $50, every class $80+ so nothing bookable regardless of signal. Sitting out, 10 PTO still banked but no target worth burning it on from here.
+- S02 d163: d163->d164 (Mon): $50 left, cheapest offer is $80 - nothing bookable no matter what the signal says. Sitting out, no PTO burned, waiting for a real opportunity or a budget reset.
+- S02 d164: d164-&gt;d165 (Tue): $50 left, cheapest offer $80 - nothing bookable regardless of PTO. Sitting out, still holding 10 PTO, waiting on a budget reset before targeting the next San Diego 3Q window.
+- S02 d165: d165-&gt;d166 (Wed): $50 left, cheapest offer $80 - nothing bookable regardless of PTO. Sitting out again, still holding 10 PTO, waiting on a budget reset before targeting the next San Diego 3Q weekend window.
+- S02 d166: d166->d167 (Thu): $50 left, cheapest offer still $80 - nothing bookable regardless of signal or PTO. Sitting out again, holding 10 PTO, waiting on a budget reset before targeting the next San Diego 3Q window.
+- S02 d167: d167->d168 (Fri): still $50, cheapest offer $80 - nothing bookable. Sitting out again, 10 PTO still banked, waiting on budget reset to get back on San Diego 3Q.
+- S02 d168: d168->d169 (Sat): $50 left, cheapest offer $80 - nothing bookable. Sitting out again, 10 PTO still banked, waiting on a budget reset to get back on San Diego 3Q.
+- S02 d169: d169->d170 (Sun): $50 left, cheapest offer still $80 - nothing bookable. Sitting out again, 10 PTO still banked, waiting on a budget reset to get back on San Diego 3Q.
+- S02 d170: d170->d171 (Mon): still $50, cheapest offer $80 - nothing bookable. Sitting out again, 10 PTO still banked, waiting on a budget reset to get back on San Diego 3Q.
+- S02 d171: d171->d172 (Tue): still $50, cheapest offer $80 - nothing bookable. Sitting out again, 10 PTO banked, waiting on a budget reset to resume cheap HD half-days / San Diego 3Q.
+- S02 d172: d172->d173 (Wed): still $50, cheapest offer $80 - nothing bookable. Sitting out again, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q probes.
+- S02 d173: d173->d174 (Thu): still $50, cheapest offer $80 - nothing bookable. Sitting out again, 10 PTO banked, waiting on budget reset to resume San Diego 3Q probes.
+- S02 d174: d174->d175 (Fri): still $50, cheapest offer $80 - nothing bookable. Sitting out again, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q probes.
+- S02 d175: d175->d176 (Sat): still $50, cheapest offer $80 - nothing bookable. Ninth straight sit-out, 10 PTO banked, waiting on budget reset to resume San Diego 3Q / cheap HD half-days.
+- S02 d176: d176->d177 (Sun): still $50, cheapest offer $80 - nothing bookable. Tenth straight sit-out, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q / cheap HD half-days.
+- S02 d177: d177->d178 (Mon): still $50, cheapest offer $80 - nothing bookable. Eleventh straight sit-out, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q / cheap HD half-days.
+- S02 d178: S02 d178->d179 (Tue): still $50, cheapest offer $80 - nothing bookable, including twilight. Twelfth straight sit-out, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q / cheap HD half-days.
+- S02 d179: d179->d180 (Wed): still $50, cheapest offer $80 - nothing bookable, twilight included. 13th straight sit-out, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q / cheap HD half-days.
+- S02 d180: d180->d181 (Thu): still $50, cheapest offer $80, no twilight even scheduled - nothing bookable. 14th straight sit-out, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q probes.
+- S02 d181: d181->d182 (Fri): still $50, cheapest offer $80, twilight included - nothing bookable. 15th straight sit-out, 10 PTO banked, still waiting on budget reset to resume San Diego 3Q probes.
+- S02 d182: d182->d183 (Sat): still $50, cheapest offer $80 - nothing bookable. 16th straight sit-out, 10 PTO banked. Season 2 booking is done; saving effort per my own note, just logging the mechanical sit-out.
+- S02 d183: d183->d184 (Sun): still $50, cheapest offer $80 - nothing bookable. 17th straight sit-out, 10 PTO banked and will likely go unused this season. Season 2 is done; logging only, no re-analysis per my own note.
+- S02 d184: d184->d185 (Mon holiday): still $50, cheapest offer $80 - nothing bookable. 18th straight sit-out, 10 PTO banked and idle. Season 2 booking permanently over per budget-floor rule; Season 3 plan is to pace spend against the calendar and reserve for Oct/Nov.
+- S02 d185: d185->d186 (Tue): still $50, cheapest offer $80 - nothing bookable. 19th straight sit-out, 10 PTO banked and idle. Budget floor rule holds; just logging.
+- S02 d186: d186->d187 (Wed): still $50, cheapest offer $80 - nothing bookable. 20th straight sit-out, 10 PTO banked and idle. Budget floor rule holds; season 2 booking over, just logging.
+- S02 d187: d187->d188 (Thu): still $50, cheapest offer $80 - nothing bookable. 21st straight sit-out, 10 PTO idle. Budget floor rule holds, season 2 booking over, just logging.
+- S02 d188: d188->d189 (Fri): still $50, cheapest offer $80 - nothing bookable. 22nd straight sit-out, 10 PTO idle. Budget floor rule holds; season 2 booking over, just logging.
+- S02 d189: d189->d190 (Sat): still $50, cheapest offer $80 - nothing bookable. 23rd straight sit-out, 10 PTO idle. Budget floor rule holds; just logging per plan.
+- S02 d190: d190->d191 (Sun): still $50, cheapest offer $80 - nothing bookable. 24th straight sit-out, 10 PTO idle. Budget floor rule holds; just logging per plan.
+- S02 d191: d191->d192 (Mon): still $50, cheapest offer $80 - nothing bookable. 25th straight sit-out, 10 PTO idle. Budget floor holds; season 2 booking over, just logging.
+- S02 d192: d192->d193 (Tue): still $50, cheapest offer $80 - nothing bookable. 26th straight sit-out, 10 PTO idle. Budget floor holds; season 2 booking over, just logging.
+- S02 d193: d193->d194 (Wed): still $50, cheapest offer $80 - nothing bookable. 27th straight sit-out, 10 PTO idle. Budget floor holds; season 2 booking over, just logging.
+- S02 d194: d194->d195 (Thu): still $50, cheapest offer $80 - nothing bookable. 28th straight sit-out, 10 PTO idle. Budget floor holds; season 2 booking over, just logging.
+- S02 d195: d195->d196 (Fri): still $50, cheapest offer $80 - nothing bookable. 29th straight sit-out, 10 PTO idle. Budget floor holds; season 2 booking over, just logging.
+- S02 d196: d196->d197 (Sat): still $50, cheapest offer $80 - nothing bookable. 30th straight sit-out, 10 PTO idle. Budget floor holds; season 2 booking over, just logging.
+- S02 d197: d197->d198 (Sun): still $50, cheapest offer $80 - nothing bookable. 31st straight sit-out, 10 PTO idle. Budget floor holds; season 2 done, just logging for Season 3 pacing lesson.
+- S02 d198: d198->d199 (Mon): still $50, cheapest offer $80 - nothing bookable. 32nd straight sit-out, 10 PTO idle. Budget floor holds; Season 2 booking permanently closed, carrying pacing lesson into Season 3.
+- S02 d199: d199->d200 (Tue): still $50, cheapest offer $80 - nothing bookable. 33rd straight sit-out, 10 PTO idle. Budget floor holds; Season 2 booking permanently closed.
+- S02 d200: d200->d201 (Wed): still $50, cheapest offer $80 - nothing bookable. 34th straight sit-out, 10 PTO idle. Budget floor holds; Season 2 booking permanently closed.
+- S02 d201: d201->d202 (Thu): still $50, cheapest offer $80 - nothing bookable. 35th straight sit-out, 10 PTO idle. Budget floor holds; Season 2 booking permanently closed.
+- S02 d202: 36th straight sit-out: $50 still under the $80 floor, nothing bookable, 10 PTO idle. Season 2 booking stays closed; just logging for Season 3 pacing.
+- S02 d203: d203->d204 (Sat): still $50, cheapest offer $80 - nothing bookable. 37th straight sit-out, 10 PTO idle. Budget floor holds; Season 2 booking permanently closed.
+- S02 d204: S02 d204->d205 (Sun): still $50, cheapest offer $80 - nothing bookable. 38th straight sit-out, 10 PTO idle. Budget floor holds; Season 2 booking permanently closed.
+- S02 d205: d205->d206 (Mon): still $50, cheapest offer $80 - nothing bookable. 39th straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d206: d206->d207 (Tue): still $50, cheapest offer $80 - nothing bookable. 40th straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d207: d207->d208 (Wed): still $50, cheapest offer $80 - nothing bookable. 41st straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d208: d208->d209 (Thu): still $50, cheapest offer $80 (even Twilight) - nothing bookable. 42nd straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d209: d209->d210 (Fri): still $50, cheapest offer $80 - nothing bookable. 43rd straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d210: d210->d211 (Sat): still $50, cheapest offer $80 - nothing bookable. 44th straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d211: Budget floor $50 < $80 cheapest offer, nothing bookable — 45th straight sit-out, 10 PTO idle.
+- S02 d212: d212->d213 (Mon): still $50, cheapest offer $80 - nothing bookable. 46th straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d213: d213->d214 (Tue): still $50, cheapest offer $80 - nothing bookable. 47th straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d214: d214->d215 (Wed): still $50, cheapest offer $80 (Twilight flagged not bookable) - nothing bookable. 48th straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d215: d215->d216 (Thu): still $50, cheapest offer $80 - nothing bookable. 49th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3 per revised plan.
+- S02 d216: d216->d217 (Fri): still $50, cheapest offer $80 - nothing bookable. 50th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d217: d217->d218 (Sat): still $50, cheapest offer $80 - nothing bookable. 51st straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d218: d218->d219 (Sun): still $50, cheapest offer $80 - nothing bookable. 52nd straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d219: d219->d220 (Mon): still $50, cheapest offer $80 - nothing bookable. 53rd straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d220: d220->d221 (Tue): still $50, cheapest offer $80 - nothing bookable. 54th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d221: d221->d222 (Wed): still $50, cheapest offer $80 - nothing bookable. 55th straight sit-out, 10 PTO idle. Season 2 booking stays closed.
+- S02 d222: d222->d223 (Thu): still $50, cheapest offer $80 - nothing bookable. 56th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d223: d223->d224 (Fri): still $50, cheapest offer $80 - nothing bookable. 57th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d224: d224->d225 (Sat): still $50, cheapest offer $80 - nothing bookable. 58th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d225: d225->d226 (Sun): still $50, cheapest offer $80 - nothing bookable. 59th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d226: d226->d227 (Mon): still $50, cheapest offer $80 - nothing bookable. 60th straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d227: d227->d228 (Tue): still $50, cheapest offer $80 - nothing bookable. 61st straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d228: d228->d229 (Wed): still $50, cheapest offer $80 - nothing bookable. 62nd straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d229: d229->d230 (Thu): still $50, cheapest offer $80 - nothing bookable. 63rd straight sit-out, 10 PTO idle. Season 2 booking stays closed; budget conserved for Season 3.
+- S02 d230: d230->d231 (Fri): still $50, cheapest offer $80 - nothing bookable. 64th straight sit-out, 10 PTO idle. Budget is the hard wall now, not PTO or conditions; holding both for Season 3.
+- S02 d231: d231->d232 (Sat): still $50, cheapest offer $80 - nothing bookable. 65th straight sit-out, 10 PTO idle. Budget remains the hard wall; holding cash and PTO.
+- S02 d232: d232->d233 (Sun): still $50, cheapest offer $80 - nothing bookable. 66th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d233: d233->d234 (Mon): still $50, cheapest offer $80 - nothing bookable. 67th straight sit-out, 10 PTO idle. Budget remains the hard wall; holding cash and PTO for Season 3.
+- S02 d234: d234->d235 (Tue): still $50, cheapest offer $80 - nothing bookable. 68th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d235: d235->d236 (Wed): still $50, cheapest offer $80 - nothing bookable. 69th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d236: d236->d237 (Thu): still $50, cheapest offer $80 - nothing bookable. 70th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d237: d237->d238 (Fri): still $50, cheapest offer $80 - nothing bookable. 71st straight sit-out, 10 PTO idle. Holding cash and PTO; still waiting on any offer at or under $50.
+- S02 d238: d238->d239 (Sat): still $50, cheapest offer $80 - nothing bookable. 72nd straight sit-out, 10 PTO idle. Budget remains the hard wall; holding cash and PTO for Season 3.
+- S02 d239: d239->d240 (Sun): still $50, cheapest offer $80 - nothing bookable. 73rd straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d240: d240->d241 (Mon): still $50, cheapest offer $80 - nothing bookable. 74th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d241: d241->d242 (Tue): still $50, cheapest offer $80 - nothing bookable. 75th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d242: d242->d243 (Wed): still $50, cheapest offer $80 - nothing bookable. 76th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d243: d243->d244 (Thu): still $50, cheapest offer $80 - nothing bookable. 77th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d244: d244->d245 (Fri): still $50, cheapest offer $80 - nothing bookable. 78th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d245: d245->d246 (Sat): still $50, cheapest offer $80 - nothing bookable. 79th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d246: d246->d247 (Sun): still $50, cheapest offer $80 - nothing bookable. 80th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d247: d247->d248 (Mon holiday): still $50, cheapest offer $80 - nothing bookable. 81st straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d248: d248->d249 (Tue): still $50, cheapest offer $80 - nothing bookable. 82nd straight sit-out, 10 PTO idle. Season 2 is a wash on cash; holding for Season 3.
+- S02 d249: d249->d250 (Wed): still $50, cheapest offer $80 - nothing bookable. 83rd straight sit-out, 10 PTO idle. Season 2 cash is a wash; holding everything for Season 3.
+- S02 d250: d250->d251 (Thu): still $50, cheapest offer $80 - nothing bookable. 84th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d251: d251->d252 (Fri): still $50, cheapest offer $80 - nothing bookable. 85th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d252: d252->d253 (Sat): still $50, cheapest offer $80 - nothing bookable. 86th straight sit-out, 10 PTO idle. Holding cash and PTO for Season 3.
+- S02 d253: d253->d254 (Sun): still $50, cheapest offer $80 - nothing bookable. 87th straight sit-out, 10 PTO idle. Season 2 done as spectator; Season 3 plan carries over (rotate day_1_5 vs overnight by trailing rate, 3Q as steady baseline).
+- S02 d254: d254->d255 (Mon): still $50, cheapest offer $80 - nothing bookable. 88th straight sit-out, 10 PTO idle. Season 2 closing out as spectator; Season 3 plan (rotate day_1_5 vs overnight by trailing rate, 3Q baseline) carries over.
+- S02 d255: d255->d256 (Tue): still $50, cheapest offer $80 - nothing bookable. 89th straight sit-out, 10 PTO idle. Season 2 fully a spectator now; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d256: d256->d257 (Wed): still $50, cheapest offer $80 - nothing bookable. 90th straight sit-out, 10 PTO idle. Season 2 spectator mode continues; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d257: d257->d258 (Thu): still $50, cheapest offer $80 - nothing bookable. 91st straight sit-out, 10 PTO idle. Season 2 spectator mode continues; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d258: d258->d259 (Fri): still $50, cheapest offer $80 - nothing bookable. 92nd straight sit-out, 10 PTO idle. Season 2 spectator mode continues; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d259: d259->d260 (Sat): still $50, cheapest offer $80 - nothing bookable. 93rd straight sit-out, 10 PTO idle. Season 2 spectator mode continues; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d260: d260->d261 (Sun): still $50, cheapest offer $80 - nothing bookable. 94th straight sit-out, 10 PTO idle. Season 2 spectator mode continues; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d261: d261->d262 (Mon): still $50, cheapest offer $80 - nothing bookable. 95th straight sit-out, 10 PTO idle. Season 2 spectator mode continues to the finish; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline, pace budget vs calendar) carries over.
+- S02 d262: d262->d263 (Tue): still $50, cheapest offer $80 - nothing bookable. 96th straight sit-out, 10 PTO idle. Season 2 spectator to the finish; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d263: d263->d264 (Wed): still $50, cheapest offer $80 - nothing bookable. 97th straight sit-out, 10 PTO idle. Season 2 spectator to the finish; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d264: d264->d265 (Thu): still $50, cheapest offer $80 - nothing bookable. 98th straight sit-out, 10 PTO idle. Season 2 spectator to the finish; Season 3 plan stands.
+- S02 d265: d265->d266 (Fri): still $50, cheapest offer $80 - nothing bookable, and HD_AM/PM are showing ~0.000 yt/angler anyway. 99th straight sit-out, 10 PTO idle. Season 2 closing out as spectator; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q as cheap baseline once budget allows) stands.</not
+- S02 d266: d266->d267 (Sat): still $50, cheapest offer $80 - nothing bookable. 100th straight sit-out, 10 PTO idle. Season 2 closing as spectator; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d267: d267->d268 (Sun): still $50, cheapest offer $80 - nothing bookable. 101st straight sit-out, 10 PTO idle. Season 2 closing as spectator; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d268: d268->d269 (Mon): still $50, cheapest offer $80 - nothing bookable. 102nd straight sit-out, 10 PTO idle. Season 2 closing as spectator; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline) stands.
+- S02 d269: d269->d270 (Tue): still $50, cheapest offer $80 - nothing bookable regardless of PTO. 103rd straight sit-out, 10 PTO idle. Season 2 spectator to the finish; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline, pace budget vs calendar) stands.
+- S02 d270: d270->d271 (Wed): still $50, cheapest offer $80 - nothing bookable regardless of PTO. 104th straight sit-out, 10 PTO idle. Season 2 spectator to the finish; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline, pace budget vs calendar) stands.</note> </invoke> 
+- S02 d271: d271->d272 (Thu): still $50, cheapest offer $80 - nothing bookable regardless of PTO. 105th straight sit-out, 10 PTO idle. Season 2 closing out as spectator; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline, pace budget vs calendar) stands.</note> 
+- S02 d272: d272->d273 (Fri): still $50, cheapest offer $80 - nothing bookable regardless of PTO. 106th straight sit-out, 10 PTO idle. Season 2 closing as spectator; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline, pace budget vs calendar) stands.</note> 
+- S02 d273: d273->d274 (Sat): still $50, cheapest offer $80 - nothing bookable. 107th straight sit-out, 10 PTO idle. Season 2 closing as spectator; Season 3 plan (rotate day_1_5/overnight by trailing rate, 3Q baseline, pace budget vs calendar) stands.</note> 
+- S02 d274: d274->d275 (Sun): still $50, cheapest offer $80 - nothing bookable. Sit-out continues, 10 PTO idle. Holding cash for the Oct day_1_5 spike per plan.</note> </invoke> 
+- S02 d275: d275->d276 (Mon): still $50, cheapest offer $80 - nothing bookable regardless of PTO. Season 2 closing as spectator; Season 3 plan (hold cash for Oct day_1_5 spike, pace budget vs calendar) stands.</note> 
+- S02 d276: d276->d277 (Tue): still $50, cheapest offer $80 - nothing bookable. Sit-out continues, 10 PTO idle. Season 2 closing as spectator; Season 3 plan (hold cash for Oct day_1_5 spike, pace budget vs calendar) stands.
+- S02 d277: d277->d278 (Wed): still $50, cheapest offer $80 - nothing bookable regardless of PTO. Sit-out continues, 10 PTO idle. Season 2 spectator to the finish.
+- S02 d278: d278->d279 (Thu): still $50, cheapest offer $80 - nothing bookable. 108th straight sit-out, 10 PTO idle. Season 2 closing as spectator; Season 3 plan (hold cash for Oct day_1_5 spike, pace budget vs calendar) stands.</note> </invoke> 
+- S02 d279: d279->d280 (Fri): still $50, cheapest offer $80 - nothing bookable. 109th straight sit-out, 10 PTO idle. Watching for the Oct day_1_5 window once/if budget allows.
+- S02 d280: d280->d281 (Sat): still $50, cheapest offer $80 - nothing bookable. 110th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 spike plan.
+- S02 d281: d281->d282 (Sun): still $50, cheapest offer $80 - nothing bookable. 111th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 spike plan.
+- S02 d282: d282->d283 (Mon holiday): still $50, cheapest offer $80 - nothing bookable even on a no-PTO-needed holiday. 112th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 spike plan.
+- S02 d283: d283->d284 (Tue): still $50, cheapest offer $80 - nothing bookable. 113th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 spike plan.
+- S02 d284: d284->d285 (Wed): still $50, cheapest offer $80 - nothing bookable. 114th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash-pacing lesson banked for Season 3's Oct day_1_5 plan.
+- S02 d285: d285->d286 (Thu): still $50, cheapest offer $80 - nothing bookable. 115th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 plan.</note> 
+- S02 d286: d286->d287 (Fri): still $50, cheapest offer $80 - nothing bookable. 116th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d287: d287->d288 (Sat): still $50, cheapest offer $80 - nothing bookable. 117th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d288: d288->d289 (Sun): still $50, cheapest offer $80 - nothing bookable. 118th straight sit-out, 10 PTO idle. Season 2 closing as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d289: d289->d290 (Mon): still $50, cheapest offer $80 - nothing bookable. 119th straight sit-out, 10 PTO idle. Holding cash for Season 3's Oct day_1_5 plan; Season 2 closes as spectator.
+- S02 d290: d290->d291 (Tue): still $50, cheapest offer $80 - nothing bookable. 120th straight sit-out, 10 PTO idle. Season 2 closes as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d291: d291->d292 (Wed): still $50, cheapest offer $80 - nothing bookable. 121st straight sit-out, 10 PTO idle. Season 2 closes as spectator; lesson banked for Season 3's Oct day_1_5 plan.
+- S02 d292: d292->d293 (Thu): still $50, cheapest offer $80 - nothing bookable. 122nd straight sit-out, 10 PTO idle. Season 2 closes as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d293: d293->d294 (Fri): still $50, cheapest offer $80 - nothing bookable. 123rd straight sit-out, 10 PTO idle. Season 2 closes as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d294: d294->d295 (Sat): still $50, cheapest offer $80 - nothing bookable. 124th straight sit-out, 10 PTO idle. Season 2 closes as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d295: d295->d296 (Sun): still $50, cheapest offer $80 - nothing bookable. 125th straight sit-out, 10 PTO idle. Season 2 closes as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d296: d296->d297 (Mon): still $50, cheapest offer $80 - nothing bookable. 126th straight sit-out, 10 PTO idle. Cash held for Season 3's Oct day_1_5 plan.
+- S02 d297: d297->d298 (Tue): still $50, cheapest offer $80 - nothing bookable. 127th straight sit-out, 10 PTO idle. Season 2 closes as spectator; lesson locked in for Season 3's Oct day_1_5 plan.
+- S02 d298: d298->d299 (Wed): still $50, cheapest offer $80 - nothing bookable. 128th straight sit-out, 10 PTO idle. Cash held for Oct day_1_5 plan; this season confirms it (Cortez day_1_5 7.1 yt/angler last trip).
+- S02 d299: d299->d300 (Thu): still $50, cheapest offer $80 - nothing bookable. 129th straight sit-out, 10 PTO idle. Cash held for Season 3's Oct day_1_5 plan.
+- S02 d300: d300->d301 (Fri): still $50, cheapest offer $80 - nothing bookable. 130th straight sit-out, 10 PTO idle. Cash held for Season 3's Oct day_1_5 plan.
+- S02 d301: d301->d302 (Sat): still $50, cheapest offer $80 - nothing bookable. 131st straight sit-out, 10 PTO idle. Cash held for Season 3's Oct day_1_5 plan.
+- S02 d302: d302->d303 (Sun): still $50, cheapest offer $80 - nothing bookable. 132nd straight sit-out, 10 PTO idle. Fleet flat anyway (HD 0.000 last 7d). Season 2 closes as spectator; cash held for Season 3's Oct day_1_5 plan.
+- S02 d303: d303->d304 (Mon): still $50, cheapest offer $80 - nothing bookable. 133rd straight sit-out, 10 PTO idle. HD fleet flat (0.000-0.004 last 30d) so no urgency even if cash allowed it. Cash held for Oct day_1_5 lesson.
+- S02 d304: d304->d305 (Tue): still $50, cheapest offer $80 - nothing bookable. Streak continues, 10 PTO idle. Nothing left to do this season; lesson banked for Season 3 Oct day_1_5.
+- S02 d305: d305->d306 (Wed): still $50, cheapest offer $80 - nothing bookable. 134th straight sit-out, 10 PTO idle. Season 2 basically over; cash and PTO held for Season 3's Oct/Nov day_1_5 plan (confirmed fleet-wide bite through fall, rate 2.67 Oct, 3.55 Nov partial this season).</note> </invoke> 
+- S02 d306: d306->d307 (Thu): still $50, cheapest offer $80 - nothing bookable. 135th straight sit-out, 10 PTO idle, season basically closing. Confirmed lesson stands: Season 3 needs to hold cash/PTO for the Oct-Nov day_1_5 window (2.67 Oct, 3.55 Nov this season) instead of front-loading cheap 3Q trips early.
+- S02 d307: d307->d308 (Fri): still $50, cheapest offer $80 - nothing bookable. 136th straight sit-out, 10 PTO idle. Season 2 closing out with nothing left to do; lesson locked for Season 3: hold cash/PTO for the Oct-Nov day_1_5 window (2.67 Oct, 3.55 Nov this season) instead of front-loading cheap 3Q trips ear
+- S02 d308: d308->d309 (Sat): still $50, cheapest offer $80 - nothing bookable. 137th straight sit-out, 10 PTO idle. Season 2 effectively closed as spectator; lesson locked in for Season 3 - hold cash/PTO for the Oct-Nov day_1_5 window (2.67 Oct, 3.55 Nov this season) instead of burning it on early cheap 3Q tri
+- S02 d309: d309->d310 (Sun): still $50, cheapest offer $80 - nothing bookable. 138th straight sit-out, 10 PTO idle. Season 2 closed as spectator; lesson locked for Season 3 - hold cash/PTO for the Oct-Nov day_1_5 window instead of front-loading cheap 3Q trips early.</note>
+- S02 d310: d310->d311 (Mon): still $50, cheapest offer $80 - nothing bookable. 139th straight sit-out, 10 PTO idle. Fleet flat, season effectively closed as spectator; cash/PTO held for Season 3 Oct-Nov day_1_5 window.</note> 
+- S02 d311: d311->d312 (Tue): still $50, cheapest offer $80 - nothing bookable. 140th straight sit-out, 10 PTO idle. Season 2 closed as spectator; lesson locked for Season 3 - hold cash/PTO for the Oct-Nov day_1_5 window instead of front-loading cheap 3Q trips early.</note>
+- S02 d312: d312->d313 (Wed): still $50, cheapest offer $80 - nothing bookable. 141st straight sit-out, 10 PTO idle. Season 2 closed as spectator; lesson locked for Season 3 - hold cash/PTO for the Oct-Nov day_1_5 window instead of front-loading cheap 3Q trips early.
+- S02 d313: d313-&gt;d314 (Thu): still $50, cheapest offer $80 - nothing bookable. 142nd straight sit-out, 10 PTO idle. Season 2 effectively closed as spectator; lesson locked for Season 3 - hold cash/PTO for the Oct-Nov day_1_5 window instead of front-loading cheap 3Q trips early.</note> </invoke> 
+- S02 d314: d314->d315 (Fri, holiday): still $50, cheapest offer $80 - nothing bookable. 143rd straight sit-out, 10 PTO idle. Season 2 closed as spectator; lesson locked for Season 3 - hold cash/PTO for the Oct-Nov day_1_5 window instead of front-loading cheap 3Q trips early.
+- S02 d315: d315->d316 (Sat): still $50, cheapest offer $80 - nothing bookable. 144th straight sit-out, 10 PTO idle. Season 2 essentially over as spectator; the Oct-Nov day_1_5 window (2.67/3.55 yt-angler) has already passed us by unfunded. Season 3 plan locked: don't front-load cash into early cheap 3Q trips, 
+- S02 d316: d316->d317 (Sun): still $50, cheapest offer $80 - nothing bookable. 145th straight sit-out, 10 PTO idle. Season 2 closed as spectator; lesson locked for Season 3 - hold cash/PTO for the Oct-Nov day_1_5 window instead of front-loading cheap 3Q trips early.</note> 
+- S02 d317: d317->d318 (Mon): still $50, cheapest offer $80 - nothing bookable. 146th straight sit-out, 10 PTO idle. Budget frozen at $50 with no path to the $550 day_1_5 ticket even if I hold every dollar; the Season 3 fall-window plan is theoretical until income mechanics change. Holding cash/PTO regardless -
+- S02 d318: d318->d319 (Tue): still $50, cheapest offer $80 - nothing bookable. 147th straight sit-out, 10 PTO idle. Season 2 is closed out as spectator; budget never recovers above the $80 floor, and nothing carries to next season anyway, so holding cash/PTO further has no payoff - just riding out the calendar
+- S02 d319: d319->d320 (Wed): still $50, cheapest offer $80 - nothing bookable. 148th straight sit-out, 10 PTO idle. Budget floor never breaks; Season 2 stays a spectator close. Season 3 plan: don't front-load cash into cheap early 3Q trips, save for the confirmed Oct-Nov day_1_5 window (2.67-3.55+ yt/angler).
+- S02 d320: d320->d321 (Wed): still $50, cheapest offer $80 - nothing bookable. 149th straight sit-out, 10 PTO idle. Season 2 stays closed as spectator; Season 3 plan locked - hoard cash/PTO for the Oct-Nov day_1_5 window (2.67-3.55+ yt/angler) instead of front-loading cheap early 3Q trips.</note> 
+- S02 d321: d321->d322 (Fri): still $50, cheapest offer $80 - nothing bookable. 150th straight sit-out, 10 PTO idle. Fall day_1_5 window (2.67-3.55+ yt/angler) already passed, season 2 closed as spectator with budget permanently frozen below the $80 floor.</note> 
+- S02 d322: d322->d323 (Sat): still $50, cheapest offer $80 - nothing bookable. 151st straight sit-out, 10 PTO idle. Budget floor unbroken; Season 2 stays closed as spectator, riding out the calendar with the fall day_1_5 lesson locked for Season 3.</note> 
+- S02 d323: S02 d323->d324 (Sun): still $50, cheapest offer $80 - nothing bookable. 152nd straight sit-out, 10 PTO idle. Ironically sitting inside the fall day_1_5 window (2.67-3.55+ yt/angler) I identified as the season's best signal, but budget floor never broke so it's moot - pure spectator close to Season 2
+- S02 d324: d324->d325 (Mon): still $50, cheapest offer $80 - nothing bookable, even TWILIGHT needs no PTO but budget floor blocks it. 153rd straight sit-out, 10 PTO idle. Season 2 closed as spectator; Season 3 plan locked - hoard cash/PTO for the Oct-Nov day_1_5 window (2.67-3.55+ yt/angler) instead of front-l
+- S02 d325: d325->d326 (Tue): still $50, cheapest offer $80 - nothing bookable. 154th straight sit-out, 10 PTO idle. Season 2 closed as spectator, budget floor never breaks; riding out the calendar with the fall day_1_5 lesson locked for Season 3.
+- S02 d326: d326->d327 (Wed): still $50, cheapest offer $80 - nothing bookable, TWILIGHT needs no PTO but budget floor still blocks it. 155th straight sit-out, 10 PTO idle. Season 2 closed as spectator; Season 3 plan locked - hoard cash/PTO for the Oct-Nov day_1_5 window instead of front-loading cheap early 3Q 
+- S02 d327: d327->d328 (Thu holiday): still $50, cheapest offer $80 - nothing bookable even on a holiday with no PTO needed. 156th straight sit-out, 10 PTO idle. Season 2 closed as spectator; budget floor permanently unbroken.
+- S02 d328: d328->d329 (Fri): still $50, cheapest offer $80 - nothing bookable, TWILIGHT needs no PTO but budget floor still blocks it. 157th straight sit-out, 10 PTO idle. Season 2 closed as spectator; Season 3 plan locked - hoard cash/PTO for the Oct-Nov day_1_5 window (2.67-3.55+ yt/angler, the strongest sig
+- S02 d329: d329->d330 (Sat): still $50, cheapest offer $80 - nothing bookable. Another straight sit-out, 10 PTO idle. Budget floor permanently unbroken this season; the fall day_1_5 window I flagged (Oct-Nov, 2.67-3.55+ yt/angler) is passing/passed with zero cash to act on it - pure spectator to season's end.<
+- S02 d330: d330->d331 (Sun): still $50, cheapest offer $80 - nothing bookable, fleet HD/3Q rates still flat 0.000. Another straight sit-out, 10 PTO idle. Season 2 closed as spectator; Season 3 plan locked - hoard cash/PTO for the Oct-Nov day_1_5 window (2.67-3.55+ yt/angler) instead of front-loading cheap earl
+- S02 d331: d331->d332 (Mon): still $50, cheapest offer $80 - nothing bookable, TWILIGHT no-PTO but budget floor blocks it. Fleet HD/TWILIGHT still flat 0.000. Season 2 closing as pure spectator; Season 3 plan locked - hoard cash/PTO for the Oct-Nov day_1_5 window (2.67-3.55+ yt/angler).
+- S02 d332: d332->d333 (Tue): still $50, cheapest offer $80 - nothing bookable. Fall day_1_5 window now well past (doy 332). Season 2 closed as spectator, 10 PTO idle; Season 3 plan locked - hoard cash/PTO for Oct-Nov day_1_5, don't front-load cheap early trips.
+- S02 d333: d333->d334 (Wed): still $50, cheapest offer $80 (TWILIGHT, no PTO) - nothing bookable. Fleet HD/TWILIGHT flat 0.000. Season winding down near d333/334, budget floor never broke all season, 10 PTO idle. Season 3 plan locked: hoard cash/PTO for Oct-Nov day_1_5 window (2.67-3.55+ yt/angler), don't fron
+- S02 d334: d334->d335 (Thu): still $50, cheapest offer $80, nothing bookable, rough weather (30kt/5ft) to boot. 158th straight sit-out, 10 PTO idle. Season 2 closed as spectator; budget floor never broke.
+- S06 d091: d091->d092 (Thu): nothing bookable — no PTO committed for the weekday, TWILIGHT has no boats. Data is unambiguous: HD_AM/HD_PM are fishless (0.001-0.008 yt/angler, 30d) while THREE_QUARTER is running 1.55 yt/angler on huge sample (San Diego 120yt, Mission Belle 91yt last trip). Dropping the cheap-HD
+- S06 d092: d092->d093 (Fri): nothing bookable without pre-committed PTO except $400 OVERNIGHT, which is outside my $80-ticket plan - legit skip, not the old bug. Real move is tomorrow night: Sat/Sun need no PTO, and fleet data says THREE_QUARTER (1.5+ yt/angler) beats HD (0.001-0.007) badly on cost-per-fish, s
+- S06 d093: S06 d093: Finally booked - San Diego THREE_QUARTER for Sat d094, $150. HD/TWILIGHT still dead (0.001-0.031 yt/angler) but 3Q fleet is running 1.5+ yt/angler on huge sample; stopped hoarding cash for nothing.
+- S06 d094: d094->d095 (Sun): Booked San Diego 3Q again ($150) - 1.73 yt/angler on huge sample beats HD's flat 0.001-0.03 badly on cost/fish. No PTO needed, Sunday. Riding the hot 3Q boats while HD stays dead.
+- S06 d095: d095->d096 (Mon): nothing bookable - no PTO committed for the weekday and TWILIGHT has no boats. Staying on the weekend-only 3Q plan (San Diego running 1.6-1.8 yt/angler, no PTO needed) rather than spending PTO on a dead HD half-day.
+- S06 d096: Tue d097: nothing bookable (TWILIGHT has no boats, everything else needs PTO I haven't committed). HD still dead 0.001-0.007 yt/angler, not worth PTO. Sticking to weekend San Diego 3Q plan - no PTO needed, 1.6-1.8 yt/angler running hot.
+- S06 d097: Wed d098: nothing bookable - HD still dead (0.001-0.007 yt/angler), TWILIGHT has no boats, no PTO committed. Holding to weekend-only San Diego 3Q plan (1.6-1.8 yt/angler, no PTO needed) rather than spend PTO chasing a fishless HD half day.
+- S06 d098: Thu d099: nothing bookable, no PTO committed and HD still flatlined (0.001 yt/angler) so not worth burning PTO on a cheap ticket with no fish behind it. Holding to weekend San Diego/Mission Belle 3Q plan (1.5-1.8 yt/angler, no PTO needed).
+- S06 d099: d099->d100 (Fri): nothing bookable without PTO - HD/3Q locked out, TWILIGHT has no boats. Only OVERNIGHT/DAY_1_5 open ($400-550) but their yt/angler (1.0 / 0.54) is worse cost-per-fish than my usual $150 San Diego 3Q (1.5-1.8), so skipping. Finally committed PTO for d114 (Fri) to open up cheap weekd
+- S06 d100: Sat d101: booked San Diego 3Q again ($150, no PTO) - fleet-wide 3Q still running 1.5+ yt/angler on huge sample, San Diego specifically hot (67 yt last trip). HD dead as ever, skipping. Not spending PTO on weekdays until HD shows life.
+- S06 d101: Sun d102: switched from San Diego to Mission Belle 3Q ($150, no PTO) - slightly better trailing rate (1.629 vs 1.404 yt/angler) and bigger last-trip count (50 yt). HD still dead, staying off it.
+- S06 d102: Mon d103: nothing bookable - no PTO for the weekday, TWILIGHT has no boats, HD still flatlined. Holding budget/PTO for weekend 3Q (San Diego/Mission Belle 1.5-1.8 yt/angler) and the already-committed d114 weekday slot.
+- S06 d103: Tue d104: nothing bookable - no PTO for the weekday, TWILIGHT has no boats. 3Q rates still strong (San Diego 1.595, Mission Belle 1.584) but locked out without PTO. Holding weekend-only 3Q plan, sitting on d114 PTO commitment.
+- S06 d104: Wed d105: nothing bookable, no PTO committed for the weekday and HD still dead. Holding weekend-only 3Q plan (San Diego/Mission Belle running 1.5-1.8 yt/angler, no PTO needed) plus the d114 PTO already banked.
+- S06 d105: Thu d106: nothing bookable - weekday, no PTO for d106, HD still dead, TWILIGHT boatless. 3Q rates (San Diego 1.6, Mission Belle 1.45 yt/angler) still the best trade but locked without PTO. Holding weekend-only plan + d114 PTO banked.
+- S06 d106: Fri d107: nothing in budget - weekday HD/3Q locked without PTO, TWILIGHT boatless, only OVERNIGHT/DAY_1_5 open and too pricey per fish for my style. Holding cash for Sat 3Q and the d114 PTO play.
+- S06 d107: Sat d108: San Diego 3Q ($150, no PTO) - fleet 3Q still hot (San Diego 1.480, 55yt last trip; Mission Belle close behind). HD still dead. Holding rest of cash/PTO for next weekend and d114.
+- S06 d108: Sun d109: Mission Belle 3Q ($150, no PTO) - trailing 1.578 yt/angler beats San Diego's 1.387, 71yt last trip. HD/TWILIGHT still dead, skipping. Holding cash/PTO for next weekend and d114.
+- S06 d109: Mon d110: nothing bookable - no PTO for the weekday, HD still dead (0.000-0.005 yt/angler), TWILIGHT boatless. Holding cash/PTO for next weekend 3Q and the d114 slot already banked.
+- S06 d110: Tue d111: nothing bookable - no PTO for the weekday, TWILIGHT boatless, HD still dead. 3Q still strong (San Diego 1.336, Malihini 1.212) but locked without PTO. Holding cash/PTO for weekend 3Q and d114.
+- S06 d111: Wed d112: nothing bookable, weekday locked without PTO, TWILIGHT boatless again. 3Q fleet still running hot (San Diego/Mission Belle >1.3, d111 pooled 3.463) - staying patient for next weekend's free-PTO 3Q slot, holding d114 PTO banked.
+- S06 d112: Thu d113: locked out - no PTO for the weekday, TWILIGHT/OVERNIGHT/DAY_1_5 all boatless despite d114 PTO banked, HD still dead. 3Q fleet still hot (San Diego/Malihini >1.4) but unreachable midweek. Holding cash for weekend 3Q.
+- S06 d113: Fri d114: Malihini 3Q ($150) since d114 PTO already banked/sunk - HD still dead (~0), Malihini trailing 1.730 yt/angler beats San Diego 1.548. Holding rest of PTO for a fresher weekday signal.
+- S06 d114: Sat d115: Malihini 3Q ($150, no PTO) - trailing 2.319 yt/angler and 125yt last trip blow away San Diego/Mission Belle. HD still flat dead. Holding PTO for a weekday hot spell.
+- S06 d115: Sun d116: no boat, no bet. 3Q shows 'bookable' but zero scheduled boats - nothing to actually book. HD_PM's two boats (Point Loma untested, Premier 0.000 yt/angler, 4 trips/14d) are dead weight - skipping. Holding cash/PTO for the next real 3Q slot with a boat name attached.
+- S06 d116: Mon d117: nothing bookable - no PTO for the weekday and TWILIGHT is boatless. HD classes still dead fleet-wide, not worth banking PTO for. Holding cash/PTO for the next weekend 3Q slot with a named hot boat.
+- S06 d117: Tue d118: nothing bookable - no PTO banked for the weekday, HD dead fleet-wide, TWILIGHT boatless. Holding cash/PTO for next weekend's 3Q, which keeps paying off huge (San Diego/Mission Belle still >1.6).
+- S06 d118: Wed d119: nothing bookable - no PTO banked for the weekday, TWILIGHT boatless, HD dead fleet-wide (0.000-0.013 yt/angler). 3Q fleet still hot (Daiwa Pacific 3.36, San Diego 1.61) but unreachable midweek without pre-committed PTO. Holding cash/PTO for next weekend's named-boat 3Q slot.
+- S06 d119: Thu d120: nothing bookable - no PTO for the weekday, TWILIGHT boatless, HD dead. Committed PTO for d133 (Wed, 14d out) to finally stop missing weekday 3Q while it's running hot; holding cash/PTO otherwise for the next weekend 3Q slot.
+- S06 d120: Fri d121: locked out again - no PTO for the weekday, cheap classes all need it, TWILIGHT boatless. Overnight/1.5-day bookable but too pricey for my cheap-ticket style given so-so trailing rates. Holding cash/PTO for weekend 3Q or a real HD warm spell.
+- S06 d121: Sat d122: San Diego 3Q ($150, no PTO) - deepest sample in the hot 3Q fleet (1.625 trailing, 26yt last trip), HD still dead. Holding PTO for weekday hot spells beyond d133.
+- S06 d122: Sun d123: San Diego 3Q ($150, no PTO) again - still the best-sampled hot boat in the fleet (1.626 trailing, 33yt last trip). HD dead as always. Holding PTO for d133 and beyond.
+- S06 d123: Mon d124: nothing bookable - no PTO for the weekday, TWILIGHT boatless, HD dead all season. Holding cash/PTO for next weekend's hot named-boat 3Q slot; d133 PTO already banked.
+- S06 d124: Tue d125: nothing bookable - no PTO for the weekday, TWILIGHT boatless, HD dead as always. Committed PTO for d138 (Mon, 14d out) to keep chasing the hot 3Q fleet on weekdays; holding cash/PTO for the next weekend 3Q slot otherwise.
+- S06 d125: Wed d126: nothing bookable - no PTO for the weekday, TWILIGHT boatless, HD dead as ever. Committed PTO for d140 to add a third weekday 3Q shot while the fleet stays hot; holding cash/PTO for next weekend's 3Q slot otherwise.
+- S06 d126: Thu d127: locked out again - no PTO for the weekday, TWILIGHT boatless, HD dead as ever. Three weekday 3Q PTO slots already banked (d133/138/140); holding cash/PTO for the next weekend hot 3Q boat otherwise.
+- S06 d127: Fri d128: locked out again, no PTO for the weekday, TWILIGHT boatless/dead, overnight too pricey for a thin/mediocre Legend read. Holding cash+PTO for weekend 3Q (hot fleet: San Diego/Mission Belle/Malihini all >1.3 trailing) and the three banked weekday slots (d133/138/140).
+- S06 d128: Sat d129: San Diego 3Q ($150, no PTO) - still the deepest-sampled hot boat in the fleet. Holding cash/PTO for the three banked weekday slots (d133/138/140) and future weekends; HD dead as ever.
+- S06 d129: Sun d130: San Diego 3Q ($150, no PTO) again - still the best-sampled hot boat. HD dead as ever. Holding cash/PTO for banked weekday slots (d133/138/140).
+- S06 d130: Mon d131: nothing bookable - no PTO for the weekday, HD dead as ever, TWILIGHT boatless. Committed PTO for d144 to add a 4th weekday 3Q shot while the fleet stays hot; holding cash/PTO for weekend San Diego 3Q and the three already-banked slots (d133/138/140).
+- S06 d131: Tue d132: nothing bookable (no PTO for the weekday, TWILIGHT boatless as always). Budget crunch check: only $200 left but three banked weekday 3Q slots (d133/138/140) imply $450 of intent - holding off new PTO commitments until I see which of those I can actually afford; prioritizing d133 (nearest) 
+- S06 d132: Wed d133: cashed in the banked PTO slot on San Diego 3Q, still the deepest-sampled hot boat. Down to $50 after this - holding off new PTO commits until budget recovers, d138/d140 still banked and waiting.
+- S06 d133: Thu d134: nothing affordable - budget down to $50 after cashing d133 3Q, every offer $80+. HD dead as ever, TWILIGHT boatless/unaffordable. Holding cash, banked PTO for d138/d140 still waiting.
+- S06 d134: Fri d135: nothing affordable at $50 budget - all offers $80+, HD dead as ever anyway. Holding cash, banked PTO for d138/d140 still waiting.
+- S06 d135: Sat d136: nothing affordable at $50 - cheapest offer is $80 HD (dead anyway). Holding cash, banked PTO for d138/d140 still waiting on the hot 3Q fleet (San Diego share 3.68 last trip).
+- S06 d136: Sun d137: nothing affordable at $50 - cheapest is $80 HD (dead anyway), hot 3Q boats all $150+. Holding cash, banked PTO for d138/d140 still waiting on San Diego/Mission Belle.
+- S06 d137: Mon d138: still $50, still can't afford the $80 floor - HD dead anyway, 3Q hot boats all $150+. Holding cash, banked PTO for d138/d140 waiting on budget to recover.
+- S06 d138: Tue d139: still $50, still can't clear the $80 floor - HD dead as ever, 3Q hot boats $150+. Holding cash, banked PTO for d140 waiting on budget to recover for the next San Diego/Mission Belle shot.
+- S06 d139: Wed d140: still $50, still under the $80 floor everywhere - HD dead, hot 3Q boats $150+. Holding cash, PTO for d140 banked but budget won't clear until it recovers.
+- S06 d140: Thu d141: still $50, still can't clear the $80 floor anywhere - HD dead as ever, hot 3Q boats $150+. Holding cash, no new PTO commits until budget recovers for the next San Diego/Mission Belle shot.
+- S06 d141: Fri d142: still $50, still under the $80 floor everywhere - HD dead, hot 3Q boats $150+, TWILIGHT boatless. Holding cash, waiting on budget to recover for next San Diego/Mission Belle shot.
+- S06 d142: Sat d143: still $50, still under the $80 floor everywhere - HD dead, hot 3Q boats $150+. Holding cash, waiting on budget to recover for next San Diego/Mission Belle shot.
+- S06 d143: Sun d144: still pinned at $50, can't clear the $80 floor anywhere - HD dead, hot 3Q boats (San Diego, Mission Belle) all $150+. Holding cash, no PTO moves until budget recovers.
+- S06 d144: Mon d145 (holiday): still pinned at $50, can't clear the $80 floor anywhere - HD dead, hot 3Q boats (San Diego, Mission Belle) $150+. Holding cash, no PTO moves until budget recovers.
+- S06 d145: Tue d146: still $50, hard-blocked everywhere - HD dead, hot 3Q (San Diego/Mission Belle) $150+, TWILIGHT boatless. Holding cash, no PTO moves until budget recovers.
+- S06 d146: Wed d147: pinned at $50, can't clear the $80 floor anywhere - HD dead, hot 3Q boats $150+, TWILIGHT unbookable on cash. Holding cash, no PTO moves until budget recovers.
+- S06 d147: Thu d148: still pinned at $50, can't clear the $80 floor anywhere - HD dead, hot 3Q boats $150+, TWILIGHT boatless. Holding cash, no PTO moves until budget recovers for next San Diego/Mission Belle shot.
+- S06 d148: Fri d149: still $50, can't clear the $80 floor anywhere - HD dead, TWILIGHT boatless, 3Q boats $150+. Holding cash, no PTO moves until budget recovers for next hot 3Q shot.
+- S06 d149: Sat d150: still pinned at $50, can't clear the $80 floor anywhere - HD dead, hot 3Q boats (San Diego, Mission Belle) $150+. Holding cash, no PTO moves until budget recovers for next hot 3Q shot.
+- S06 d150: Sun d151: still $50, hard-floored - HD dead, hot 3Q boats $150+, OVERNIGHT/DAY_1_5 PTO-blocked anyway. Holding cash, waiting for budget to clear $150 for next San Diego/Mission Belle 3Q shot.
+- S06 d151: Mon d152: still $50, hard-floored everywhere - HD dead, TWILIGHT boatless, 3Q $150+. Holding cash, no PTO moves until budget clears $150 for next hot 3Q boat.
+- S06 d152: d152->d153 Tue: still $50, hard-floored everywhere - HD $80, TWILIGHT boatless, 3Q $150+. Holding cash, no speculative PTO, waiting out the season.
+- S06 d153: d153->d154 Wed: still $50, budget floor - HD $80, 3Q $150, twilight boatless anyway. Sitting out, no PTO moves.
+- S06 d154: d154->d155 Thu: still $50, budget floor - HD $80, 3Q $150+, twilight boatless. Sitting out, no PTO moves, season effectively locked at rank 1.
+- S06 d155: d155->d156 Fri: still $50 budget floor, nothing clears $80 anyway (HD PTO-blocked, twilight boatless, 3Q $150+). Sitting out, no PTO moves, holding rank 1.
+- S06 d156: d156->d157 Sat: still $50 budget floor, HD $80/3Q $150 both out of reach. Sitting out, no PTO moves, holding rank 1.
+- S06 d157: d157->d158 Sun: still $50 budget floor, HD $80/3Q $150 both out of reach. Sitting out, no PTO moves, holding rank 1.
+- S06 d158: d158->d159 Mon: still $50 budget floor, HD $80/3Q $150 both out of reach. Sitting out, no PTO moves, holding rank 1.
+- S06 d159: d159->d160 Tue: still $50 budget floor, HD $80/3Q $150 both out of reach, twilight boatless anyway. Sitting out, no PTO moves, holding rank 1.
+- S06 d160: d160->d161 Wed: still $50 budget floor, HD $80/3Q $150 both out of reach, twilight boatless. Sitting out, no PTO moves, holding rank 1.
+- S06 d161: d161->d162 Thu: still $50 budget floor, HD $80/3Q $150 both out of reach, twilight boatless. Sitting out, no PTO moves, holding rank 1.
+- S06 d162: d162->d163 Fri: still $50 budget floor, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d163: d163->d164 Sat: still $50 budget floor, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d164: d164->d165 Sun: still $50 budget floor, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d165: d165->d166 Mon: budget floor $50, cheapest offer $80, twilight boatless anyway. Sitting out, no PTO moves, holding rank 1.
+- S06 d166: d166->d167 Tue: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d167: d167->d168 Wed: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d168: budget floor $50, nothing bookable, sitting out, holding rank 1
+- S06 d169: d169->d170 Fri: budget floor $50, cheapest offer $80, San Diego 3Q looks hot but unaffordable. Sitting out, no PTO moves, holding rank 1.
+- S06 d170: d170->d171 Sat: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d171: d171->d172 Sun: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d172: d172->d173 Mon: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d173: d173->d174 Tue: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d174: d174->d175 Wed: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d175: d175->d176 Wed: budget floor $50, cheapest offer $80 (San Diego 3Q hot at 2.13 yt/angler but unaffordable). Sitting out, no PTO moves, holding rank 1.
+- S06 d176: d176->d177 Fri: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d177: d177->d178 Sat: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d178: d178->d179 Sun: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d179: d179->d180 Mon: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d180: d180->d181 Tue: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d181: d181->d182 Wed: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d182: d182->d183 Thu: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d183: d183->d184 Fri (holiday): budget floor $50, cheapest offer still $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d184: d184->d185 Sat (holiday): budget floor $50, cheapest offer still $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d185: d185->d186 Sun: budget floor $50, cheapest offer still $80. Sitting out, no PTO moves, holding rank 1.
+- S06 d186: d186->d187 Mon: budget floor $50, cheapest offer still $80. Sitting out, no PTO moves, holding rank.
+- S06 d187: d187->d188 Tue: budget floor $50, cheapest offer $80. Sitting out, no PTO moves, holding rank.
+- S06 d188: d188->d189 Wed: budget floor $50, cheapest offer $80, all classes unbookable. Sitting out, no PTO moves, holding rank #3.
+- S06 d189: d189->d190 Wed: budget floor $50, cheapest offer $80. Sitting out again, no PTO moves, holding rank #3.
+- S06 d190: d190->d191 Fri: budget floor $50, cheapest offer $80. Sitting out again, no PTO moves, holding rank #3.
+- S06 d191: d191->d192 Fri: budget floor $50, cheapest offer $80. Sitting out again, no PTO moves, holding rank #3.
+- S06 d192: d192->d193 Sun: budget floor $50, cheapest offer still $80 despite HD_PM New Seaforth looking hot (31yt last trip). Sitting out, no PTO moves, holding rank #3.
+- S06 d193: d193->d194 Mon: budget floor $50, cheapest offer $80, TWILIGHT explicitly unbookable on budget. Sitting out, no PTO moves, holding rank #3.
+- S06 d194: d194->d195 Tue: budget floor $50, cheapest offer still $80, all unbookable. Sitting out, no PTO moves, holding rank #3.
+- S06 d195: d195->d196 Wed: budget floor $50, cheapest offer $80 (New Seaforth HD_PM looks hot at 0.176 but unaffordable). Sitting out, no PTO moves, holding rank #3.
+- S06 d196: d196->d197 Thu: budget floor $50, cheapest offer $80, all classes unbookable (cost or missing PTO). Sitting out, holding rank #3, saving PTO for the fall day_1.5 window.
+- S06 d197: d197->d198 Fri: budget floor $50, cheapest offer $80, nothing affordable. Sitting out, holding PTO for fall day_1.5 plan, rank #3.
+- S06 d198: d198->d199 Sat: budget floor $50, cheapest offer still $80, nothing bookable. Sitting out, holding PTO for fall day_1.5 plan, rank #3.
+- S06 d199: d199->d200 Sun: budget floor $50, cheapest offer $80, all unbookable despite hot HD_PM numbers. Sitting out, holding PTO/cash for fall day_1.5 plan, rank #3.
+- S06 d200: d200->d201 Mon: budget floor $50, cheapest offer $80, all unbookable. Sitting out, holding PTO/cash for fall day_1.5 plan, rank #3.
+- S06 d201: d201->d202 Tue: budget floor $50, cheapest offer $80, all unbookable. Sitting out, holding PTO/cash for fall day_1.5 plan, rank #3.
+- S06 d202: d202->d203 Wed: budget floor $50, cheapest offer $80, all unbookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d203: d203->d204 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d204: d204->d205 Fri: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d205: d205->d206 Sat: budget floor $50, cheapest offer $80, nothing bookable despite decent 3Q/OVERNIGHT recent numbers. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d206: d206->d207 Sun: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d207: d207->d208 Mon: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d208: d208->d209 Tue: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d209: d209->d210 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d210: d210->d211 Thu: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d211: d211->d212 Thu: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d212: d212->d213 Sat: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d213: d213->d214 Sun: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO, rank #3.
+- S06 d214: d214->d215 Mon: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d215: d215->d216 Tue: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d216: d216->d217 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d217: d217->d218 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, rank #3.
+- S06 d218: d218->d219 Fri: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d219: d219->d220 Sat: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO, rank #3.
+- S06 d220: d220->d221 Sun: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d221: d221->d222 Mon: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d222: d222->d223 Tue: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, rank #3.
+- S06 d223: d223->d224 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d224: d224->d225 Thu: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d225: d225->d226 Fri: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall plan, rank #3.
+- S06 d226: d226->d227 Sat: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO, rank #3.
+- S06 d227: d227->d228 Sun: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d228: d228->d229 Mon: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d229: d229->d230 Tue: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d230: d230->d231 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d231: d231->d232 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d232: d232->d233 Fri: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d233: d233->d234 Sat: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d234: d234->d235 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d235: d235->d236 Mon: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d236: d236->d237 Mon: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d237: d237->d238 Tue: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d238: d238->d239 Wed: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d239: d239->d240 Fri: budget floor $50, cheapest offer $80, nothing bookable. Sitting out, holding cash/PTO, rank #3.
+- S06 d240: d240->d241 Sat: budget floor $50, cheapest offer $80, nothing bookable despite good conditions/hot 3Q boats. Sitting out, rank #3.
+- S06 d241: d241->d242 Sun: budget floor $50, cheapest offer $80, nothing bookable despite strong 3Q results (Mission Belle 0.356, Malihini 0.218). Sitting out, rank #3.
+- S06 d242: d242->d243 Mon: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d243: d243->d244 Mon: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d244: d244->d245 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO, rank #3.
+- S06 d245: d245->d246 Wed: budget floor $50, cheapest offer $80, nothing bookable despite strong HD_PM numbers (Dolphin 0.231, New Seaforth 0.314). Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d246: d246->d247 Fri: budget floor $50, cheapest offer $80, nothing bookable despite decent HD_PM (New Seaforth 0.305) and 3Q (Mission Belle/Malihini) numbers. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d247: d247->d248 Sat: budget floor $50, cheapest offer $80, nothing bookable despite hot HD_PM (New Seaforth 0.310). Holding cash/PTO for fall day_1.5, rank #3.
+- S06 d248: d248->d249 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d249: d249->d250 Mon (holiday): budget floor $50, cheapest offer $80, nothing bookable despite solid HD_PM numbers (Dolphin/New Seaforth). Holding cash/PTO for fall day_1.5, rank #3.
+- S06 d250: d250->d251 Tue: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d251: d251->d252 Wed: budget floor $50, cheapest offer $80, nothing bookable despite decent HD_PM history. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d252: d252->d253 Wed: budget floor $50, cheapest offer $80, nothing bookable despite solid HD_PM (Dolphin 0.178). Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d253: d253->d254 Fri: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d254: d254->d255 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d255: d255->d256 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d256: d256->d257 Mon: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO, rank #3.
+- S06 d257: d257->d258 Mon: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d258: d258->d259 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d259: d259->d260 Thu: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d260: d260->d261 Fri: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d261: d261->d262 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d262: d262->d263 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d263: d263->d264 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d264: d264->d265 Tue: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d265: d265->d266 Tue: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d266: d266->d267 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d267: d267->d268 Fri: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d268: d268->d269 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d269: d269->d270 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d270: d270->d271 Mon: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d271: d271->d272 Tue: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d272: d272->d273 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d273: d273->d274 Thu: budget floor $50, cheapest offer $80, nothing bookable. Holding for later, rank #3.
+- S06 d274: d274->d275 Fri: budget floor $50, cheapest offer $80, nothing bookable. Still holding for fall day_1.5 plan, rank #3.
+- S06 d275: d275->d276 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO, rank #3.
+- S06 d276: d276->d277 Sun: budget floor $50, cheapest offer $80, nothing bookable. Still holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d277: d277->d278 Mon: budget floor $50, cheapest offer $80, nothing bookable. Floor confirmed dead for rest of S6, rank #3.
+- S06 d278: d278->d279 Tue: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d279: d279->d280 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d280: d280->d281 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d281: d281->d282 Fri: budget floor $50, cheapest offer $80, nothing bookable. Still holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d282: d282->d283 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding for fall plan, rank #3.
+- S06 d283: d283->d284 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding for fall day_1.5 plan, rank #3.
+- S06 d284: d284->d285 holiday Mon: budget floor $50, cheapest offer $80, nothing bookable. Overnight/day_1.5 need PTO committed 14d out which I don't have staged yet. Holding for fall day_1.5 plan, rank #3.
+- S06 d285: d285->d286 Tue: budget floor $50, cheapest offer $80, nothing bookable. Day_1_5 fall numbers look great on paper but cash-locked, not PTO-locked; still holding, rank #3.
+- S06 d286: d286->d287 Wed: budget floor $50, cheapest offer $80, nothing bookable. Cortez day_1_5 (4.13 yt/angler) is exactly the fall trip I'm saving for but need budget>=550 and PTO staged 14d out - not there yet. Holding, rank #3.
+- S06 d287: d287->d288 Thu: budget floor $50, cheapest offer $80, nothing bookable. Holding for S7 day_1.5 plan, rank #3.
+- S06 d288: d288->d289 Fri: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d289: d289->d290 Sat: budget floor $50, cheapest offer $80, nothing bookable despite Sea Watch HD_PM looking hot. Holding for fall day_1.5 plan, rank #3.
+- S06 d290: d290->d291 Sun: budget floor $50, cheapest offer $80, nothing bookable. San Diego 3Q still looks strong but out of reach on cash. Holding for fall day_1.5 plan, rank #3.
+- S06 d291: d291->d292 Mon: budget floor $50, cheapest offer $80, nothing bookable despite San Diego 3Q still hot (63yt last trip). Holding for fall day_1.5 plan, rank #3.
+- S06 d292: d292->d293 Tue: budget floor $50, cheapest offer $80, nothing bookable. Still holding cash for fall day_1.5 plan, rank #3.
+- S06 d293: d293->d294 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding cash/PTO for fall day_1.5 plan, rank #3.
+- S06 d294: d294->d295 Thu: budget floor $50, cheapest offer $80, nothing bookable. Sea Watch HD_PM hot again but out of reach. Holding for fall day_1.5 plan, rank #3.
+- S06 d295: d295->d296 Fri: budget floor $50, cheapest offer $80, nothing bookable. New Seaforth HD_PM/AM sampling hot but out of reach. Still holding for fall day_1.5 plan, rank #3.
+- S06 d296: d296->d297 Sat: budget floor $50, cheapest offer $80, nothing bookable. Still holding for fall day_1.5 plan, rank #3.
+- S06 d297: d297->d298 Sun: budget floor $50, cheapest offer $80, nothing bookable despite New Seaforth HD_AM sampling hot (0.268 yt/angler). Holding for fall day_1.5 plan, rank #3.
+- S06 d298: d298->d299 Mon: budget floor $50, cheapest offer $80, nothing bookable (no PTO for d299 anyway). Fall day_1.5 plan still unfunded - budget isn't moving. Rank #3.
+- S06 d299: d299->d300 Tue: budget floor $50, cheapest offer $80, nothing bookable. New Seaforth HD_PM smoking hot (73yt last trip, 0.382 yt/angler) but out of reach. Still holding for fall day_1.5 plan, rank #3.
+- S06 d300: d300->d301 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding for fall day_1.5 plan, rank #3.
+- S06 d301: d301->d302 Thu: budget floor $50, cheapest offer $80, nothing bookable. Still holding for fall day_1.5 plan, rank #3.
+- S06 d302: d302->d303 Fri: budget floor $50, cheapest offer $80, nothing bookable. Holding for fall day_1.5 plan, rank #3.
+- S06 d303: d303->d304 Sat: budget floor $50, cheapest offer $80, nothing bookable despite Mission Belle 3Q hot (89yt last trip). Holding, rank #3.
+- S06 d304: d304->d305 Sun: budget floor $50, cheapest offer $80, nothing bookable. Still holding, rank #3.
+- S06 d305: d305->d306 Mon: budget floor $50, cheapest offer $80, nothing bookable. Fall day_1.5 plan still unfunded and season's nearly out — holding, rank #3.
+- S06 d306: d306->d307 Tue: budget floor $50, cheapest offer $80, nothing bookable. Still holding for fall day_1.5 plan, rank #3.
+- S06 d307: d307->d308 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding for fall day_1.5 plan, rank #3.
+- S06 d308: d308->d309 Wed: budget floor $50, cheapest offer $80, nothing bookable. Still holding, rank #3.
+- S06 d309: d309->d310 Fri: budget floor $50, cheapest offer $80, nothing bookable. Still holding, rank #3.
+- S06 d310: d310->d311 Sat: budget floor $50, cheapest offer $80, nothing bookable despite hot 3Q boats. Holding, rank #3.
+- S06 d311: d311->d312 Sun: budget floor $50, cheapest offer $80, nothing bookable despite hot 3Q boats (Malihini 1.8, San Diego 1.2). Holding, rank #3.
+- S06 d312: d312->d313 Sun: budget floor $50, cheapest offer $80, nothing bookable. Still holding, rank #3.
+- S06 d313: d313->d314 Tue: budget floor $50, cheapest offer $80, nothing bookable, rough seas anyway. Holding, rank #3.
+- S06 d314: d314->d315 Wed (holiday): budget floor $50, cheapest offer $80, nothing bookable despite hot 3Q boats again. Holding, rank #3.
+- S06 d315: d315->d316 Thu: budget floor $50, cheapest offer $80, nothing bookable despite San Diego 3Q still hot (76yt last trip). Holding, rank #3.
+- S06 d316: d316->d317 Fri: budget floor $50, cheapest offer $80, nothing bookable despite San Diego 3Q still cooking. Holding, rank #3.
+- S06 d317: d317->d318 Sat: budget floor $50, cheapest offer $80, nothing bookable despite San Diego 3Q still hot (2.3 yt/angler last trip). Holding, rank #3.
+- S06 d318: d318->d319 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d319: d319->d320 Mon: budget floor $50, cheapest offer $80, nothing bookable, rough seas (20-30kt wind) too. Holding, rank #3.
+- S06 d320: d320->d321 Mon: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d321: d321->d322 Wed: budget floor $50, cheapest offer $80, nothing bookable, fleet still cold on HD trips. Holding, rank #3.
+- S06 d322: d322->d323 Wed: budget floor $50, cheapest offer $80, nothing bookable, HD fleet still cold. Holding, rank #3.
+- S06 d323: d323->d324 Fri: budget floor $50, cheapest bookable would be $80 and PTO not committed anyway. Holding, rank #3.
+- S06 d324: d324->d325 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d325: d325->d326 Sun: budget floor $50, cheapest offer $80, San Diego 3Q hot again (1.524 yt/angler) but $150 unreachable. Holding, rank #3.
+- S06 d326: d326->d327 Mon: budget floor $50, cheapest offer $80 (twilight), nothing bookable. Holding, rank #3.
+- S06 d327: d327->d328 Tue: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d328: d328->d329 Wed: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d329: d329->d330 Wed/holiday: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d330: d330->d331 Fri: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d331: d331->d332 Sat: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d332: d332->d333 Sun: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d333: d333->d334 Mon: budget floor $50, cheapest offer $80, nothing bookable. Holding, rank #3.
+- S06 d334: d334->d335 Tue: budget floor $50, cheapest offer $80 (twilight, not bookable), nothing bookable. Holding, rank #3.

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 187.3,
+ "claude": {
+  "duration_api_ms": 178169,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2374074,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 48084,
+   "cache_read_input_tokens": 686684,
+   "output_tokens": 14489,
+   "output_tokens_details": {
+    "thinking_tokens": 5331
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48084,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 765,
+     "cache_read_input_tokens": 66065,
+     "cache_creation_input_tokens": 994,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 994
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 14489,
+    "cacheReadInputTokens": 686684,
+    "cacheCreationInputTokens": 48084,
+    "webSearchRequests": 0,
+    "costUSD": 0.2374074,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5331,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 31,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\nI've identified a **critical regime shift** that breaks the forum consensus:\n\n**The Discovery:** S6 is a **warm El Ni\u00f1o regime (ONI 0.7)**, not the cold La Ni\u00f1a everyone assumed from S2. This invalidates the October-only thesis. Warm regimes show multiple peaks throughout the season.\n\n**Key Findings:**\n- April S6 data shows 2.55 yt/angler average on day_1_5 (not dead zone)\n- Confirmed two-day signal: doy 30-31 both 2.5-5.0 yt/angler\n- Micro-peaks repeat every 5-7 days (doy 2, 10, 16-17, 23-24, 30-31)\n- Water temp 16.6\u00b0C (good baseline for upwelling)\n\n**Strategy Revised:** I've pivoted from October-only (capital-killing S2 mistake) to **regime-adaptive with capital discipline.** At doy 33 evening, if doy 32 confirms the signal continues (>0.25 yt/angler), I'll commit 1 PTO and book a day_1_5 trip for doy 36-38 (contrarian valley entry, avoiding crowd dilution from doy 30-31 pile-on). This preserves $1,450+ capital for follow-up signals or fall peaks. Updated notes.md with full strategy and posted to forum about the regime shift\u2014the contrarian edge is that others are still betting on October calendar while I adapt to live warm-regime signals.",
+  "ttft_ms": 3622,
+  "type": "result",
+  "duration_ms": 180414,
+  "uuid": "45084dac-6cf3-457d-9c11-c3f752a0fb58",
+  "ttft_stream_ms": 1162,
+  "time_to_request_ms": 587,
+  "first_content_frame_ms": 1164,
+  "time_to_request_from_spawn_ms": 45660981,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337033855.786,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

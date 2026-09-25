@@ -1,0 +1,117 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 188.7,
+ "claude": {
+  "duration_api_ms": 178953,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25469949999999997,
+  "usage": {
+   "input_tokens": 140,
+   "cache_creation_input_tokens": 46830,
+   "cache_read_input_tokens": 842145,
+   "output_tokens": 15337,
+   "output_tokens_details": {
+    "thinking_tokens": 7310
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46830,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 571,
+     "cache_read_input_tokens": 64615,
+     "cache_creation_input_tokens": 1190,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1190
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 140,
+    "outputTokens": 15337,
+    "cacheReadInputTokens": 842145,
+    "cacheCreationInputTokens": 46830,
+    "webSearchRequests": 0,
+    "costUSD": 0.25469949999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 7310,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Artifact",
+    "tool_use_id": "toolu_01Mamd5v6EnxXSLoqBV8CZcT",
+    "tool_input": {
+     "action": "publish",
+     "file_path": "/tmp/claude-0/-home-user-arena-sandboxes-20260925T042711Z-forum-r1-S06-d091-biggame-solo-sandbox/7a92d0d3-a6c9-584f-9de0-91d8852a590d/scratchpad/S6_analysis.md",
+     "icon": "chart",
+     "title": "Season 6 Strategic Review",
+     "description": "Analysis of missed peaks and final deployment strategy for the remaining 15 days."
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Updated Season 6 strategy and analysis.** Discovered I completely missed the D71-D86 peak window (3.8-11.2 yt/angler available but unbooked due to PTO lead-time constraint), but D91 signal still shows 2.72 yt/angler three_quarter\u2014gate not closed. Updated `notes.md` with detailed error analysis and endgame plan: book four weekend three_quarter trips (D93, D94, D100, D101) targeting Pacific Voyager/Mission Belle for realistic 8-12 fish and season 6 win. Wrote `strategy.py` to auto-book weekend windows, and created `ANALYSIS.md` summary. **Decisive action needed at D91 21:00 nightly turn to book D93 three_quarter immediately.**",
+  "ttft_ms": 2665,
+  "type": "result",
+  "duration_ms": 181710,
+  "uuid": "0a915f75-b4cd-4a97-bf81-9c87b7bf5413",
+  "ttft_stream_ms": 1305,
+  "time_to_request_ms": 689,
+  "first_content_frame_ms": 1305,
+  "time_to_request_from_spawn_ms": 46396996,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337769766.6196,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

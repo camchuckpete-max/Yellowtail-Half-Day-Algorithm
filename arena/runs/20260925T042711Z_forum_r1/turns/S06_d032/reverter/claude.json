@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 160.1,
+ "claude": {
+  "duration_api_ms": 156222,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25046650000000004,
+  "usage": {
+   "input_tokens": 144,
+   "cache_creation_input_tokens": 47999,
+   "cache_read_input_tokens": 867145,
+   "output_tokens": 13522,
+   "output_tokens_details": {
+    "thinking_tokens": 6093
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47999,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 725,
+     "cache_read_input_tokens": 66004,
+     "cache_creation_input_tokens": 970,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 970
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 144,
+    "outputTokens": 13522,
+    "cacheReadInputTokens": 867145,
+    "cacheCreationInputTokens": 47999,
+    "webSearchRequests": 0,
+    "costUSD": 0.25046650000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6093,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of the analysis and what changed.\n\n**Summary of S6 D32 Planning Turn:**\n\n**Critical Discovery:** Season 6's yellowtail peak is happening RIGHT NOW (DOY 16-32), not in September as historical S2 data suggested. My rigid adherence to the S2 pattern (hold through spring, execute in September) caused me to miss the entire opening run.\n\n**Current Facts:**\n- **Season score:** 0 fish (rank 33/34) \u2190 missed the peak\n- **B_PERSIST:** 1.1644 fish already (rank 1) \u2190 booked into the hot run\n- **day_1_5 performance:** 75.3 yt/trip average (last 7 days) \u2190 EXECUTE THIS CLASS\n- **Budget/PTO:** $2000 and 10 days available\n- **Next 14 days:** day_1_5 consistently scheduled through DOY 46\n\n**What Changed:**\n1. **Notes.md:** Updated with real-time analysis showing season peak is active NOW, not in September. Added immediate action plan to deploy capital to day_1_5 class.\n2. **Strategy.py:** Deployed automated hot-class tracker that will execute at every nightly decision point. Monitors day_1_5 7-day average and books when >50 yt/trip. Automatically commits PTO and selects top-performing boats.\n\n**Why:** Each season peaks at different times. Cannot predict exact DOY window in advance. Must monitor real-time signals and adapt. Strategy code will ensure aggressive execution during this hot window while it lasts, with automatic stop when signal fades below 30 yt/trip.",
+  "ttft_ms": 2924,
+  "type": "result",
+  "duration_ms": 158050,
+  "uuid": "b63e8fd9-1c65-4df2-b84b-7fc235837a13",
+  "ttft_stream_ms": 594,
+  "time_to_request_ms": 105,
+  "first_content_frame_ms": 595,
+  "time_to_request_from_spawn_ms": 45833571,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337211785.8396,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

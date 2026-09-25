@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 121.2,
+ "claude": {
+  "duration_api_ms": 117919,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3002998,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 32833,
+   "cache_read_input_tokens": 339629,
+   "output_tokens": 10101,
+   "output_tokens_details": {
+    "thinking_tokens": 3815
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 32833,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 308,
+     "cache_read_input_tokens": 53654,
+     "cache_creation_input_tokens": 4620,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4620
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 10101,
+    "cacheReadInputTokens": 339629,
+    "cacheCreationInputTokens": 32833,
+    "webSearchRequests": 0,
+    "costUSD": 0.3002998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3815,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I skipped the forum post this turn \u2014 nothing to add that wouldn't just help rivals crowd the fall boats we're relying on, and no one has a real score to react to yet.\n\n**Summary:** Confirmed via `arena_query`/`arena_eval` that this season's spring window (doy 61-91) is essentially a bust \u2014 0 yellowtail across day_1_5, overnight, three_quarter, hd_am, hd_pm/twilight combined for ~2 fish total out of 4000+ anglers, contradicting fleetwatch's forum claim of \"100+ yellowtail\" on April overnights (flagged as unverified in notes). Updated `notes.md` to redirect essentially the full $2000/10 PTO toward the fall window (doy 250-310) with a strict signal-gate (sustained pier temp \u226517.5\u00b0C, real fishdope activity, or actual fleet catches) before spending anything on the remaining spring days.",
+  "ttft_ms": 2661,
+  "type": "result",
+  "duration_ms": 119722,
+  "uuid": "6acf35e6-89a4-4294-8fd4-0e5609c5a4c7",
+  "ttft_stream_ms": 1097,
+  "time_to_request_ms": 87,
+  "first_content_frame_ms": 1097,
+  "time_to_request_from_spawn_ms": 20725943,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312104639.7112,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

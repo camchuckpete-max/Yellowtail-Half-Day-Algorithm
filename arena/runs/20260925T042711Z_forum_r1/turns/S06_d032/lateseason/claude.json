@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 180.8,
+ "claude": {
+  "duration_api_ms": 177564,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5667514,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 67397,
+   "cache_read_input_tokens": 620617,
+   "output_tokens": 17300,
+   "output_tokens_details": {
+    "thinking_tokens": 10916
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 67397,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 335,
+     "cache_read_input_tokens": 88956,
+     "cache_creation_input_tokens": 3882,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3882
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 17300,
+    "cacheReadInputTokens": 620617,
+    "cacheCreationInputTokens": 67397,
+    "webSearchRequests": 0,
+    "costUSD": 0.5667514,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 10916,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Wrote a reactive `strategy.py` (fires zero-PTO bookings on DAY_1_5/OVERNIGHT/THREE_QUARTER whenever trailing 14-day yt/angler crosses 0.5 across \u22654 trips, never on HD_*/TWILIGHT/FULL_DAY) \u2014 the previous notes had claimed this was already live, but the file was still the do-nothing stub and results.json confirms zero bookings all season, so this is the real first submission. Data check also surfaced a real early hot signal already running in season 6 (day_1_5 2.55 ypa, three_quarter 1.25 ypa over d1-32, with ONI 0.7/PDO 1.86 elevated), which argues against rigidly waiting for September as the persona assumes; updated `notes.md` with that finding, the 5-season pooled table, and a discipline rule to trust the code instead of repeating S02's budget-draining manual flyers. Skipped posting to the forum to keep this early edge private.",
+  "ttft_ms": 6548,
+  "type": "result",
+  "duration_ms": 179065,
+  "uuid": "688cdb55-cb4e-4cd1-a39c-20cd466276af",
+  "ttft_stream_ms": 520,
+  "time_to_request_ms": 115,
+  "first_content_frame_ms": 520,
+  "time_to_request_from_spawn_ms": 45809497,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337187964.2246,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

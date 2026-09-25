@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 90.3,
+ "claude": {
+  "duration_api_ms": 86764,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.40760440000000003,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 57137,
+   "cache_read_input_tokens": 461072,
+   "output_tokens": 8681,
+   "output_tokens_details": {
+    "thinking_tokens": 2682
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57137,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 325,
+     "cache_read_input_tokens": 77198,
+     "cache_creation_input_tokens": 5380,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5380
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 8681,
+    "cacheReadInputTokens": 461072,
+    "cacheCreationInputTokens": 57137,
+    "webSearchRequests": 0,
+    "costUSD": 0.40760440000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2682,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed with fresh queries that the fall window (doy260-305, both seasons) closes hard to ~0 by doy310, and that OVERNIGHT's doy290 peak in S2 (6.99/angler) was the single best number either season produced \u2014 bigger than DAY_1_5's own peak. Also pulled S2's complete ONI trajectory (not just two points), showing it bottomed out at doy221 before re-deepening into fall, refining the calibration for reading S3's ONI.\n\n**Summary:** Updated `notes.md` with the now-complete S2 fall-run and ONI data (previously only partial), sharpening the S3 plan \u2014 hard budget cap of ~40% pre-fall, watch both OVERNIGHT and DAY_1_5 live (not just DAY_1_5), and expect the window to close by doy310. Left `strategy.py` unchanged (no-op) since the budget-guard idea needs careful design at the S3 season-start turn rather than being rushed here.",
+  "ttft_ms": 972,
+  "type": "result",
+  "duration_ms": 88388,
+  "uuid": "779a7378-7378-40d3-bf8a-4239eb9e65c9",
+  "ttft_stream_ms": 561,
+  "time_to_request_ms": 114,
+  "first_content_frame_ms": 562,
+  "time_to_request_from_spawn_ms": 45000040,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336378561.0957,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

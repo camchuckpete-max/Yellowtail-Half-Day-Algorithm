@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 156.4,
+ "claude": {
+  "duration_api_ms": 151811,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2125068,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 42209,
+   "cache_read_input_tokens": 636278,
+   "output_tokens": 12867,
+   "output_tokens_details": {
+    "thinking_tokens": 5953
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 42209,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 505,
+     "cache_read_input_tokens": 60326,
+     "cache_creation_input_tokens": 858,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 858
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 12867,
+    "cacheReadInputTokens": 636278,
+    "cacheCreationInputTokens": 42209,
+    "webSearchRequests": 0,
+    "costUSD": 0.2125068,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5953,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Major Strategy Pivot Needed:**\n\nMy May holding thesis was **fundamentally wrong**. The data shows May was NOT a dead zone:\n- **THREE_QUARTER**: 0.378 yt/angler average (not weak)\n- **OVERNIGHT**: 0.271 yt/angler average (solid)\n- Specific hot days: doy 124-125, 138, 144, 147-148 all >0.6 yt/angler\n\nI completely missed this window by holding for October. But there's urgent recovery opportunity now:\n\n**Early-Mid June (doy 153-175)** has a **jackpot spike in doy 169-172**:\n- **doy 169 (Sun)**: multi_day 3.191, overnight 0.877 yt/angler\n- **doy 170 (Mon)**: three_quarter 0.644, overnight 3.093 yt/angler\n- **doy 171 (Tue)**: three_quarter 0.716, overnight 3.050 yt/angler\n- **doy 172 (Wed)**: three_quarter 2.201, day_1_5 3.333 yt/angler\n\nWith strategic use of my 2 remaining PTO days and $1700 budget, I can potentially net 5-10 fish in this window vs. 0 currently. This would put me competitive with the leaders (0.63-0.70 fish currently).\n\n**New Plan:**\n1. **Scout this weekend (doy 153-161)**: Light trips, $300-400 total, no PTO needed\n2. **Execute June jackpot (doy 169-172)**: multi_day $550 + 1-2 secondary trips using both PTO days, expect 5-10 fish\n3. **October backup**: Only if June fails; forum consensus still strong but less certain than empirical June data\n\nUpdated notes.md captures boat selection discipline, PTO management, and exact tactical decisions for each day ahead.",
+  "ttft_ms": 2347,
+  "type": "result",
+  "duration_ms": 154394,
+  "uuid": "9871d20a-c388-4ad9-bd65-c317125097e7",
+  "ttft_stream_ms": 595,
+  "time_to_request_ms": 118,
+  "first_content_frame_ms": 596,
+  "time_to_request_from_spawn_ms": 31890165,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323268589.2595,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

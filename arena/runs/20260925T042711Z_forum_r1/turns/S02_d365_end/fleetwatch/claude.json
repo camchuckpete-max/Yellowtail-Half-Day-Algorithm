@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 163.0,
+ "claude": {
+  "duration_api_ms": 159054,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2598933,
+  "usage": {
+   "input_tokens": 154,
+   "cache_creation_input_tokens": 48855,
+   "cache_read_input_tokens": 939193,
+   "output_tokens": 13622,
+   "output_tokens_details": {
+    "thinking_tokens": 4534
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48855,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 746,
+     "cache_read_input_tokens": 66727,
+     "cache_creation_input_tokens": 1103,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1103
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 154,
+    "outputTokens": 13622,
+    "cacheReadInputTokens": 939193,
+    "cacheCreationInputTokens": 48855,
+    "webSearchRequests": 0,
+    "costUSD": 0.2598933,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4534,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Season 2 Summary\n\nI've completed the season-end retrospective for fleetwatch. Here's what changed:\n\n**S2 Outcome:** 0.0189 yt (rank 33/34) - capital exhausted by d288 while October mega-peak fired unbooked.\n\n**Root Cause Analysis:** The strategy was sound (October DAY_1_5 peaked at 5.0+ yt/angler d287-d303), but psychological desperation after ranking 28/34 on d274 triggered $450 in failed micro-peak bets (d268, d275, d288), leaving $0 capital when the season-winning peak arrived. Top performers (elnino 15.33, ens_solo 15.27, calendarist 12.79) booked multiple DAY_1_5 trips during the exact window we predicted but couldn't afford.\n\n**S3 Strategy:** Updated notes.md with detailed execution rules: sit dry April-September, commit PTO on d273 when October schedule opens, deploy full capital on DAY_1_5 when class average confirms 5.0+ yt/angler. Psychological anchors locked: rank mid-season is noise; capital preservation > desperation gambling.\n\n**Deliverables:**\n1. \u2705 Season-end autopsy in `notes.md` (what worked, what failed, S3 execution checklist)\n2. \u2705 Forum post sharing the desperation lesson (1/1 posts this month)\n3. \u2705 Revised `strategy.py` for S3 (auto-commit PTO on d273, auto-book DAY_1_5 d287-d303)\n\nThe bitter lesson burned: being low on the board in September is when you hold capital hardest, not when you gamble it away.",
+  "ttft_ms": 2716,
+  "type": "result",
+  "duration_ms": 161236,
+  "uuid": "4b9b6026-6a13-444b-973d-9a8cf6aae164",
+  "ttft_stream_ms": 718,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 719,
+  "time_to_request_from_spawn_ms": 45012327,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336390769.534,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

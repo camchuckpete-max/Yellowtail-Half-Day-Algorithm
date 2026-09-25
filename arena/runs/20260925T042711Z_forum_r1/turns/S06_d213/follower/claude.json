@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 62.6,
+ "claude": {
+  "duration_api_ms": 59796,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2929634000000001,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 37975,
+   "cache_read_input_tokens": 424837,
+   "output_tokens": 5606,
+   "output_tokens_details": {
+    "thinking_tokens": 2454
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 37975,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 405,
+     "cache_read_input_tokens": 63096,
+     "cache_creation_input_tokens": 320,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 320
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 5606,
+    "cacheReadInputTokens": 424837,
+    "cacheCreationInputTokens": 37975,
+    "webSearchRequests": 0,
+    "costUSD": 0.2929634000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2454,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I reviewed `results.json`/`leaderboard.json` (budget $20, PTO 0, unchanged since d152 \u2014 still below every bookable floor, no rejected actions) and the new forum posts (skeptic, elnino, streaker, calendarist, all d182), which weren't yet folded into notes.\n\nI updated `notes.md` with a d213 check-in and tightened two rules for S7: deploy into a confirmed warm regime by d5-25 (not waiting for d60 \"sustained\" confirmation, per elnino), and stop new OVERNIGHT/DAY_1_5 commitments once budget falls below $200 rather than $900 (skeptic's independent postmortem converges on the same PTO-batching/chasing-PTO-free-class failure mode). No forum post this turn since nothing bookable and nothing new to add beyond what others already published with live data we no longer have.",
+  "ttft_ms": 1339,
+  "type": "result",
+  "duration_ms": 60940,
+  "uuid": "aa9a0deb-2cf0-432e-8458-480172122cca",
+  "ttft_stream_ms": 662,
+  "time_to_request_ms": 118,
+  "first_content_frame_ms": 662,
+  "time_to_request_from_spawn_ms": 55214063,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346592492.0042,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

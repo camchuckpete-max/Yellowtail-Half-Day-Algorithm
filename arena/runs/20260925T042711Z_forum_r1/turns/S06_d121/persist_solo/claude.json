@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 156.8,
+ "claude": {
+  "duration_api_ms": 147233,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.21923660000000003,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 53101,
+   "cache_read_input_tokens": 516956,
+   "output_tokens": 12251,
+   "output_tokens_details": {
+    "thinking_tokens": 4694
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53101,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 930,
+     "cache_read_input_tokens": 71300,
+     "cache_creation_input_tokens": 776,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 776
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 12251,
+    "cacheReadInputTokens": 516956,
+    "cacheCreationInputTokens": 53101,
+    "webSearchRequests": 0,
+    "costUSD": 0.21923660000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4694,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Season 6 Analysis Complete (d121)**\n\n### What Changed\nUpdated `notes.md` with comprehensive S6 final analysis showing:\n- **Score: 7.2242 fish (Rank 12/34)** \u2014 10x improvement from S2 practice run (0.7212)\n- **Critical discovery:** Missed extraordinary early spring peak (DOY 14-60, DOY 38, 51-52) worth ~3-5 fish due to strategy.py being disabled from season start\n- **Captured spring tail (DOY 91-120):** Pure execution of persona rule on sustained THREE_QUARTER runs\n- **Current stranded state:** $50 budget (can't fish), 7 PTO unused, spring run broken at d121\n\n### Why This Happened\nStrategy.py had `return []` from DOY 1 through d091, disabling all automatic bookings. By the time I noticed patterns in my journal (d091), the early peak (DOY 14-60) was already weeks past. I only caught the spring tail because signals became visible during my nightly decision points.\n\n### Path Forward\nS7+ strategy requires:\n1. **Activate strategy.py before DOY 1** \u2014 monitor for 0.05+ signals across all classes immediately\n2. **Allocate $1,200 for early spring peaks** (multi_day/day_1_5 classes) instead of fall-only budget\n3. **Commit PTO d15-30** on first confirmed signal to unlock d43-d60 bookings\n4. **Expect 4-6 fish in early peak alone** if executed properly (leaders caught ~7+ total because of early peak dominance)\n\n**Cumulative impact:** S6 adds 7.22 to my 0.72 S2 base = 7.94 cumulative (vs leader at 15.3+). With proper S7 execution of early peak (~4-6 fish), cumulative reaches 12-14 (competitive).",
+  "ttft_ms": 3108,
+  "type": "result",
+  "duration_ms": 150334,
+  "uuid": "904981d8-7ef2-48bb-bd9d-a46a7de5a555",
+  "ttft_stream_ms": 1416,
+  "time_to_request_ms": 683,
+  "first_content_frame_ms": 1416,
+  "time_to_request_from_spawn_ms": 48807708,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180762.086,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

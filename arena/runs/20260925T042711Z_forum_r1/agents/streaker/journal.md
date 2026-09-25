@@ -1,0 +1,438 @@
+- S02 d091: All zeros, no streak yet. April is a slog. Holding dry for October peak (DOY 287-301)—1.17 yt/angler historical vs 0.000 now. Commit PTO d260-275.
+- S02 d092: April skunking live vs hype confirms strategy—no streak to ride. Holding tight for October peak.
+- S02 d093: Seven-day skunk, no streak. April hypothesis dead—October peak is the only bet worth the budget.
+- S02 d094: No streak to ride in April. Eyes on October peak (DOY 287–301, 1.17 yt/angler). Staying disciplined.
+- S02 d095: Eight-day April skunk, no streak to ride. October peak locked in—holding tight.
+- S02 d096: No streak to ride. April skunking as expected. Eyes locked on October peak (DOY 287–301, 1.17 yt/angler). Will book Friday DAY_1_5s mid-October.
+- S02 d097: No streak in April skunk. October historical peak (1.17 yt/angler) beats April (0.64) by 83%—holding for Fridays in DOY 287–301.
+- S02 d098: No streak. April skunking as expected—October peak is the bet.
+- S02 d099: No streak to ride. April skunk continues—holding for October peak.
+- S02 d100: Holding for October peak—April skunk confirmed, no bookable options tomorrow anyway.
+- S02 d101: No streak in April skunk. Holding for October peak (DOY 287–301, 1.17 yt/angler). Will commit PTO and book day_1_5s mid-September.
+- S02 d103: April skunk as expected—no boats, no streak. Holding tight for October peak (DOY 287–301, 1.17 yt/angler vs. April's 0.64).
+- S02 d104: April skunk holds—May peak watch begins. No pooled streak yet; will book concentrated when it fires.
+- S02 d105: May peak watch—no streak yet. April skunk confirmed; waiting for pooled run or October.
+- S02 d106: No streak—d106 positive (+0.234) but d105 skunk breaks the run. Holding October peak (DOY 287–301, 1.17 yt/angler).
+- S02 d107: Holding for October peak—April skunk confirmed, no bookable options tomorrow anyway.
+- S02 d108: No streak yet—April skunking. Holding for October peak (DOY 287–301, 1.17 yt/angler). PTO-commit mid-Sept.
+- S02 d109: Dead zone hold. Committed 6 PTO for 3× Oct peak day_1_5 trips (DOY 287–305 range, 1.17 yt/angler). Will book mid-Oct—Oct peak is 83% better ROI than April skunk.
+- S02 d110: Skunks break the streak—no pooled run. Holding tight for October peak (d287–301, 1.17 yt/angler), 6 PTO pre-committed. Stay dark.
+- S02 d111: Dead zone—no pooled streak. October peak (d287–305, 1.17 yt/angler) locked with 6 PTO. Cash preserved.
+- S02 d112: Dead zone hold—no clean run, d110 breaks it. d111/d112 aren't enough. October peak locked (6 PTO, d287–305, 1.17 yt/angler). Ammunition preserved.
+- S02 d113: D113 skunked the streak (0.008 THREE_QUARTER). Dead zone hold—cash and PTO locked for October peak.
+- S02 d114: Dead zone hold—d114 skunked, no pooled streak. October peak (d287–301, 1.17 yt/angler) locked with 6 PTO committed. Ammunition preserved.
+- S02 d115: Dead zone hold—no pooled streak, October peak locked. Stay dark.
+- S02 d116: Dead zone hold—fleet skunked d116, April weak. October peak locked (6 PTO d290–305). Stay dark, ammunition preserved.
+- S02 d117: Dead zone hold—no pooled streak yet. October locked (4 PTO buffer for d287–305 peak). Ammo preserved for 3× day_1_5.
+- S02 d118: Dead zone hold—no pooled streak. April shows 0.037 life d118 but still weak. October peak (d287–305, 1.17 yt/angler) locked with 6 PTO. Ammo preserved.
+- S02 d119: Dead zone, no pooled streak (d118–d119 blips don't repeat). October locked with 6 PTO—ammunition preserved.
+- S02 d120: Dead zone hold—d120 skunked, no pooled streak yet. October (d290–305, 6 PTO) locked. Ammo preserved.
+- S02 d121: Dead zone holds—7 consecutive all-zeros. October peak (d290–305 PTO already locked) is the play. Ammunition preserved.
+- S02 d122: Dead zone d122–d123 confirmed (8+ consecutive zeros). TWILIGHT unbookable; hold ammo for October peak.
+- S02 d123: Dead zone d116–d123 (8+ consecutive zeros). TWILIGHT unbookable; ammo preserved for October peak.
+- S02 d124: Dead zone d116–d124 (9 consecutive zeros). Ammunition held for October peak. Cannot book d125 (PTO deadline passed).
+- S02 d125: Dead zone persists (d116–d125: 10 consecutive zeros). October peak locked, ammo preserved. Holding for streak signal.
+- S02 d126: d126 blip (THREE_QUARTER 0.062)—single day after 10 zeros, not a streak. Ammunition preserved for October peak.
+- S02 d127: Dead zone confirmed d127 (THREE_QUARTER dropped 0.062→0.010, no streak). Hold for October peak, 49 days out.
+- S02 d128: Dead zone d116–d128 holds. October locked (d290–305, 6 PTO committed); ammunition preserved for the peak.
+- S02 d129: d130 void. Dead zone d116–d129 confirmed (14 days all-zero). October 161 days out—ammo safe, hold the line.
+- S02 d130: Dead zone d116–d130 confirmed (15 consecutive zeros). October peak locked (PTO d290–305, 3 day_1_5 budgeted $1650). Hold ammo, 39 days to peak.
+- S02 d131: Single d131 spike (THREE_QUARTER 0.467) after 15 zeros ≠ streak start. Powder dry, hold for October peak.
+- S02 d132: Dead zone d116–d132 confirmed; d131 spike + d132 blip are noise, not streak. Hold for October peak (38 days, 6 PTO locked, $1650 budgeted).
+- S02 d133: Dead zone holds d116–d133 (18 consecutive zeros). No streak signal. Ammunition intact, eyes on October peak 154 days out.
+- S02 d134: Dead zone d116–d134 confirmed (18 consecutive zeros). Hold ammo for October peak, 39 days out. No streak signal.
+- S02 d135: Dead zone d116–d135 holds. October peak locked (d290–305, 153 days out). Powder dry.
+- S02 d136: Dead zone d116–d135 holds. October peak locked (d290–305), 39 days out. Powder dry, hold the line.
+- S02 d137: Dead zone d116–d137 confirmed. October peak locked (6 PTO, $1650, 3 day_1_5, 39 days out). Powder dry, hold the line.
+- S02 d138: Dead zone d116–d139 (24 zeros). Hold ammo for October peak, 37 days out. 6 PTO locked, $1650 budgeted for day_1_5 strike.
+- S02 d139: Dead zone d116–d139 confirmed solid. Water cold, report weak, all multi-day recent zeros. Hold ammo for October peak 39d out.
+- S02 d140: Dead zone d116–d140 holds solid. Water 63.9°F, all classes zero in last 7d, report weak. Powder dry, eyes on October peak d290+.
+- S02 d141: S02 d141: Dead zone d116–d141 (26 zeros). October peak locked. Powder stays dry.
+- S02 d142: Dead zone d116–d142 (27 zeros) holds rock solid. October peak 38 days out. Powder dry, hold the line.
+- S02 d143: Dead zone d116–d143 (28 zeros confirmed). TWILIGHT only bookable option—no boats. Hold dry for Oct d290 peak, 37 days out.
+- S02 d144: S02 d144: Dead zone d116–d144 holds (29 zeros). October peak 37 days locked. Powder dry, hold.
+- S02 d145: S02 d145: Dead zone d116–d145 holds (30 zeros). Stay dry, October locked 39 days out.
+- S02 d146: D146–d145 activity is noise; dead zone holds. October day_1_5 peak (d287+) locked: 3 trips, $1650, 6 PTO committed. Powder stays dry.
+- S02 d147: Dead zone d116–d148 (32 days) holds. Powder dry, October d287+ locked. 39 days to peak.
+- S02 d148: Dead zone d116–d148 holds. Rough seas, no streak. Powder dry, eyes on October d287+ day_1_5 peak (39 days).
+- S02 d149: Dead zone d116–d149 holds solid. Cool water (63.9°F), 8 ft seas forecast. October peak 37 days locked. Powder dry.
+- S02 d150: Dead zone d116–d150 confirmed. Powder dry, eyes locked on October day_1_5 peak (140 days, d287+).
+- S02 d151: Dead zone d116–d151 holds. October peak 40 days locked. Powder dry.
+- S02 d152: Dead zone d116–d152 holds (36 consecutive zeros/near-zeros). Powder dry. October peak in 2 days, eyes forward.
+- S02 d153: D153: Dead zone d116–d153 (37 days, 0.000 avg) holds. Powder dry, eyes locked on October d287+ day_1_5 peak (134 days ahead, 1.45 avg/trip expected).
+- S02 d154: D154 skunk confirmed; dead zone holds into late Sept. October day_1_5 peak (d287+) locked and funded. Powder dry, eyes forward.
+- S02 d155: D156 (Sun): Dead zone holds, no streak yet. Powder dry. October peak locked 135 days ahead.
+- S02 d156: D156 one positive day (0.019 THREE_QUARTER) after 37-day dead zone—not a streak, just noise. October peak locked 131 days ahead. Powder dry.
+- S02 d157: D157 single positive (0.019 THREE_Q) is noise after 41-day dead zone—streak not triggered. Stay home, powder dry. October peak 129 days locked at 1.448 yt/angler avg (Season 1).
+- S02 d158: D159 skunk likely; dead zone holds into late Sept. October peak d287+ locked, unfunded, and waiting.
+- S02 d159: D160: Dead zone holds, no streak, no boats available anyway. Powder dry. October peak (d287+) locked in 127 days.
+- S02 d160: Sept dead zone holds (d116–d161, 46 days). One weak 0.039 = noise, not streak. Powder dry, eyes locked on October peak d287+ (126 days, 1.448 avg).
+- S02 d161: D162: Dead zone holds 47 days. No streak signal. Powder dry, eyes locked 125 days forward on October peak.
+- S02 d162: D163 (Sun): Dead zone holds 48 days. No streak signal. Powder dry, locked on October peak (d287+, 1.448 avg, 125 days forward).
+- S02 d163: Dead zone holds 48 days; d163 whisper is noise, not streak. Eyes locked on October peak d287+ (124 days forward, 1.448 avg, fully PTO-funded).
+- S02 d164: D164–165 whisper is noise after 48-day dead zone. Powder dry, October peak d287+ (1.448 avg, 122 days, PTO locked) my only target.
+- S02 d165: Dead zone whispers hold. No streak, no bookable boats. October peak locked 10 days out.
+- S02 d166: Dead zone holds into late Sept; no streak, no bookable boats, powder stays dry. October peak locked 121 days out.
+- S02 d167: D167 spike (0.371 THREE_Q) is likely noise after 50-day dead zone. Powder stays dry; watch d168 fast reporters for streak signal. October peak (120d) is the play.
+- S02 d168: Riding d167–d168 streak (0.371→0.509 3Q). San Diego three_quarter d169; watch for break. October locked 126 days out.
+- S02 d169: Streak broke d169 (0.371→0.509→0.035). Powder dry, no signal for d170. October peak (120d) remains target.
+- S02 d170: Streak broke as expected at d169. Dead zone holds; powder dry into October peak window (116 days, 1.448 avg).
+- S02 d171: D171 isolated spike is noise, not a streak restart. No consecutive positive signal in fast reporters. Stay dry for October.
+- S02 d172: D172 spike (0.327 3Q) is one day, not yet a streak. Watching d173–174 for consecutive confirms. October peak (4d PTO, d290–305) is still the macro target—hold.
+- S02 d173: D172 one-day spike (0.327 3Q) broke at d173. No streak, no bookable boats. Powder dry; macro target October peak (116d) stands.
+- S02 d174: Streak broke d169. Dead zone holds, no consecutive signal. October peak locked—macro target stands.
+- S02 d175: Dead zone holds. d174–d175 3Q (0.013→0.011) is noise, not a streak restart. Powder dry; macro target October peak (116d) locked.
+- S02 d176: Dead zone d169–d177 holds; no streak restart. October peak locked (114d); powder dry stands.
+- S02 d177: Dead zone d169–d177 holds; no consecutive positive signal. October locked (113d). Powder dry.
+- S02 d178: Weak d177–178 uptick (0.020, 0.017 3Q) is noise, not a streak. October macro target (d290+) locked. Stay dry.
+- S02 d179: Dead zone holds d169–d179, no consecutive signal, no boats bookable. October locked.
+- S02 d180: Dead zone d169–d180 holds; no consecutive signal, no bookable boats. October macro target (112d) stands. Powder dry.
+- S02 d181: Dead zone d169–d181 holds; no consecutive signal. October peak (109d ahead, d290+) locked. Powder dry.
+- S02 d182: Dead zone d169–d182 holds; d182 OVERNIGHT 0.079 is noise, not streak start. October locked. Stay dry.
+- S02 d183: d183 results: mostly skunks (HD_AM/PM/3Q all 0.000), OVERNIGHT 0.039 is noise. Dead zone holds; no streak. Powder dry.
+- S02 d184: d184 all zeros, dead zone holds 15+ days. No streak signal. Stay dry; October peak (d290+) locked.
+- S02 d185: Dead zone d169–d185 holds. d185 minor 0.016 blip not consecutive. TWILIGHT bookable but 0.000 avg. Powder dry for October peak.
+- S02 d186: Dead zone d169–d186 holds 18 days (d186 all zeros). October peak (d290+) locked. Powder dry.
+- S02 d187: Dead zone d169–d187 holds (19 days). October peak locked. Powder dry.
+- S02 d188: Dead zone d169–d188 holds (20d). No streak signal. Powder dry for October.
+- S02 d189: Dead zone d169–d189 holds (21d). One 0.012 blip insufficient to break streak rule. October powder dry.
+- S02 d190: 21d dead zone holds. Water warming toward October (69.1°F, +trend). Powder dry for peak d290+.
+- S02 d191: Dead zone d169–d191 holds (23d). One blip insufficient; no streak. Powder dry for October.
+- S02 d192: Dead zone d169–d192 holds (24d, no streak). Powder stays dry for October. TWILIGHT 0.000 unbookable anyway.
+- S02 d193: d192–d193 THREE_QUARTER signal (0.047→0.068) insufficient; need 3+ consecutive for streak rule. October locked. Powder dry.
+- S02 d194: Dead zone d169–d194 holds (26d, no streak). Powder dry for October. Water warming. Stay home.
+- S02 d195: Streak signal live: d194–d195 positive, New Lo-An hot (24 fish d195). Book overnight to test. October powder stays dry.
+- S02 d196: Overnight d197 booked; streak fizzled d196 (0.045). October powder stays dry.
+- S02 d197: d197 overnight caught but single positive ≠ streak. d198 weekend weak across bookables. Powder stays dry for October peak.
+- S02 d198: OVERNIGHT streak live (1.717 d198), booking window closed 2 weeks ago. Powder dry for October peak. Guard 4 PTO days.
+- S02 d199: 5-day OVERNIGHT streak d195–d199 (0.833→0.194 range, 5 consecutive positive). Booking window for d201 closed; too late for PTO commit. Monitor fleet results d200 for streak continuation; forward bookings still open.
+- S02 d200: OVERNIGHT streak cooling (d199 = 0.194). No new signal yet. Powder stays dry; watching d200–201 close to find next entry.
+- S02 d201: Overnight streak d194–d201 live but PTO window closed. Powder dry, watching d202–d203 for confirmation; lesson: pre-stage PTO for intermediate peaks, not just October.
+- S02 d202: Overnight streak d195–d202 still climbing. Sea Adventure 80 posted 91 fish d198. Book and hold until first skunk."> 
+- S02 d203: Overnight streak weakening (0.132 d203 vs 0.583 d201). Hold Sea Adventure d205 booking; stay home d204. October powder dry and staged.
+- S02 d204: Streak fizzled d204 (0.039 after weeks of decline). Sitting tight; October staged.
+- S02 d205: Streak broke d204. Single d205 signal not enough. Stay dry; powder staged for October peak.
+- S02 d206: d206 THREE_QUARTER spike (0.260) interesting but fading; only bookable option is dead TWILIGHT class. Hold powder for October peak or clear 3+ day streak signal.
+- S02 d207: THREE_QUARTER streak live (d203–207, 0.092→0.449) but can't book it without fresh PTO. October powder still staged, staying dry through d207 skunks/weakness scan.
+- S02 d208: d208: THREE_QUARTER streak cooling (0.449→0.294). Only bookable option dead. Stay dry; October peak target still 79d out. Powder staged.
+- S02 d209: d209 OVERNIGHT spike (0.400) interesting but single-day noise, not a streak. Hold October powder. Rescan if d210+ shows sustained activity.
+- S02 d210: d210 streak confirmed fizzled; no sustained d210+ signal. Stay dry, powder staged for October peak.
+- S02 d211: d211 skunked: no streak signal into d212. October peak powder staged; hold through Sept dead zone.
+- S02 d212: d212 THREE_QUARTER noise (0.073, fading), TWILIGHT dead. Hold powder; October peak target intact.
+- S02 d213: d213 fleet weak, no streak. Stay dry. Wait for clear signal.
+- S02 d214: d214: Shogun's 0.905 streak is real but d216–d217 unbookable (PTO window closed). No plays tomorrow. Hold for October peak.
+- S02 d215: d215 noise broke streak. Twilight is dead. Holding powder for October peak—September dead zone confirmed. Stay dry.
+- S02 d216: d217: No multi-day streak. Hold through dead zone—October peak intact (d290+). Powder staged.
+- S02 d217: d218: Skip dead zone noise. d217 single-day 0.135 doesn't trigger streak—need multi-day confirmation. October peak target intact.
+- S02 d218: d218 streak break confirmed (THREE_QUARTER 0.135→0.024). September dead zone holding. Powder staged for October peak d290+.
+- S02 d219: d219 dead zone confirmed, no streak signal. Hold through d220. October peak d290+ locked in.
+- S02 d220: d220 dead zone confirmed. Stay dry. October peak d287+ locked in with staged PTO.
+- S02 d221: Dead zone confirmed, no streak. October peak intact—9 days to launch. Water warming, fish signal pending.
+- S02 d222: d223: Dead zone holds. No streak, no bookable sense. Powder ready for October peak d287+.
+- S02 d223: d224: Dead zone holds. d223 quiet confirms d220-222 was noise. October peak d287+ eight days out—powder ready.
+- S02 d224: d222-223 spike broken at d224; no streak. Dead zone holds. October peak d287+ locked.
+- S02 d225: Dead zone noise confirmed. d223–d225 spike-collapse pattern expected. October peak 62 days out with PTO staged—hold dry.
+- S02 d226: Dead zone confirmed. October peak d287+ nine days out—powder dry, budget intact.
+- S02 d227: d227 dead zone confirmed—THREE_QUARTER 0.109 isolated, no streak. October peak (d287+) 59d out with 6 PTO staged. Stay dry, powder ready.
+- S02 d228: Dead zone through d228. October peak 59 days out—powder dry, budget ready.
+- S02 d229: Seven-day DAY_1_5 streak signal (d223–d229 all positive); weekday PTO wall blocks play. October peak d287+ locked, powder ready.
+- S02 d230: Streak broken d230. Dead zone confirmed. October d287+ in 57d—powder dry, ready.
+- S02 d231: Dead zone holds d231; no streak to ride. October peak (d287+) 56d out with 6 PTO staged. Powder dry.
+- S02 d232: Dead zone d232 all skunks. October 54 days out—6 PTO locked, powder dry.
+- S02 d233: D233 dead zone confirmed; no streak. Powder dry for October d287+ (54d out). Hold.
+- S02 d234: Dead zone holds d234—no streak signal. October peak d287+ staged and ready; powder stays dry.
+- S02 d235: D235 skunk confirmed dead zone; d236 no streak signal. Powder dry, October d287+ locked 52 days ahead—early surge window secured with two PTO.
+- S02 d236: Dead zone confirmed d231–d236. October d287+ staged, powder dry, holding line.
+- S02 d237: Dead zone d231–d237 holds. October peak ready d287+. Stay disciplined; powder dry.
+- S02 d238: Dead zone holds; one OVERNIGHT bounce isn't streak signal. Powder dry, October d287+ locked 49 days ahead. Next move only if fleet shows 2+ positive consecutive days.
+- S02 d239: Dead zone confirmed d239; d237–d238 brief uptick broke. October peak (d287+) locked and ready, powder dry.
+- S02 d240: D240 was noise, not streak signal. Dead zone holds. October d287+ locked; hold position.
+- S02 d241: Dead zone holds through d241. No streak signal, TWILIGHT is 0.000 class. Powder dry, October d287+ locked and ready 46 days ahead.
+- S02 d242: Three-day positive streak in THREE_QUARTER (d240–d242) hit exactly when PTO lock made it unbookable. Powder dry, October window locked 44 days ahead.
+- S02 d243: Fleet dead zone holds through d244. October d287+ locked with 7 PTO committed, 3 days left. Hold position.
+- S02 d244: THREE_QUARTER streak (d242–d244: 0.096→0.412→0.038) blocked by PTO deadline and already declining. Dead zone holds; powder dry for October peak d287+. Single OVERNIGHT uptick (d244: 0.052) is not streak signal.
+- S02 d245: d245 THREE_QUARTER uptick (0.110) is post-spike noise, not streak start. Powder dry for October peak d287+ (40 days, 7 PTO locked). Hold.
+- S02 d246: Dead zone d246 skunk; hold October lock. Powder dry.
+- S02 d247: Dead zone d246–d248 confirmed. d247 is 0.012 noise, not streak signal. Hold powder dry for October d287+ (40 days, 7 PTO locked, $1050 ready). Skunk rule holds.
+- S02 d248: Dead zone d246–d248 confirmed. No streak signal. Powder dry, October peak 39 days out, 7 PTO locked, $1050 ready.
+- S02 d249: Dead zone d246-d249 confirmed; d248 skunk killed any signal. Powder dry, October peak 38 days out, 7 PTO locked, $1050 ready. Hold.
+- S02 d250: d250 one-day bounce off dead zone, not streak. October lock holds 37 days out. Stay home.
+- S02 d251: Dead zone d246–d251 confirmed; d251 single 0.229 OVERNIGHT is noise, not streak start. Powder dry for October peak d287+ (35 days, 7 PTO locked, $1050 ready). Hold.
+- S02 d252: d252 skunk resets streak counter. Dead zone holds d246–d252 (7 days). Powder dry for October d287+ (34 days, $1050, 7 PTO locked).
+- S02 d253: d253 bounce (0.058) is noise after 7-day skunk, not streak start. Lock 3 remaining PTO for Oct weekdays now (d292, d296, d299); hold cash and discipline for peak.
+- S02 d254: d254 single bounce (0.079) is dead-zone noise, not streak. October lock d287+ stands: 7 PTO, $1050, 33 days out. Powder dry.
+- S02 d255: d255 OVERNIGHT 0.395 is single-day bounce, not streak start. Dead zone holds; October peak 31 days out, 7 PTO locked, $1050 ready. Powder dry.
+- S02 d256: d256 two-class pop (0.507 OVN, 0.293 3Q) is promising but only one bounce off 7-day dead zone. Need d257 confirmation to call streak. Powder dry for October.
+- S02 d257: d257 skunk ends any d256 signal. Discipline holds; powder ready for October d287 peak (30 days, 1 PTO left as flex reserve).
+- S02 d258: d258 bounce ended by d257 skunk—not a streak start. Hold powder for October peak 29d out; 1 flex PTO reserved, $1050 locked.
+- S02 d259: Streak signal live d258-d259. San Diego hot. Test now, stop at first skunk.">
+- S02 d260: d260 skunk ends d258-d259 streak. Discipline holds. October peak 27 days out, 7 PTO locked, $900 ready.
+- S02 d261: d260-d261 skunk ends streak signal. Dead zone holds; October peak 25d away with 9 PTO locked. Powder dry, discipline intact.
+- S02 d262: d262 skunk ends any near-term streak signal. October peak locked 25d out; powder dry and discipline intact.
+- S02 d263: d263 single hot day (0.875 3Q) isn't a streak yet. Zero bookable options anyway (no PTO for d264, TWILIGHT has no boats). October 23d out, 9 PTO locked, $900 ready. Powder dry.
+- S02 d264: d263–d264 two-day pop promising but unconfirmed. Hold: 1 PTO left, 9 locked for October peak (23d), powder dry.
+- S02 d265: d265 THREE_QUARTER collapse (1.125→0.073) ends recent streak. Powder dry, October peak 22d out with 9 PTO locked.
+- S02 d266: d266 THREE_QUARTER bounce (0.870) needs multi-day confirmation. Powder dry, October 20d out with 9 PTO locked.
+- S02 d267: d266–d267 streak signal live. San Diego hot. Test now, stop at first skunk. October peak 19d out, 9 PTO locked, $750 after this trip.
+- S02 d268: d268 weak (0.098) after d266-d267 pop; streak fizzles, not confirms. October 19d locked. Powder dry, stay home.
+- S02 d269: d268 break, d269 weak bounce—no streak. No bookable options; October peak 17d out, locked and ready.
+- S02 d270: d267–d270 THREE_QUARTER streak live (1.074→0.098→0.375→0.487), San Diego hot. No PTO left for tomorrow; October peak 17d out, locked and ready. Powder dry, stop at skunk.
+- S02 d271: THREE_QUARTER streak forming (d270–d271 positive), San Diego hot. Locked out by PTO timing—should have committed for d272 two weeks ago. October powder stays dry.
+- S02 d272: d271 spike (5.000) + d272 break (0.232/0.000) = no streak. Powder dry, October peak 14d out locked.
+- S02 d273: Streak alive on fumes—San Diego hot. One more ride tomorrow; stop cold if d274 zeros. October locked and ready.
+- S02 d274: d274 skunk ends streak. Powder dry until next signal or October peak (d287+, locked). 1 PTO day buffer held.
+- S02 d275: Hot DAY_1_5 streak unreachable (PTO <14d window). October committed d287+. Powder stays dry.
+- S02 d276: d276 bounce (0.800) insufficient for streak signal. Locked out by PTO; October ready 11 days ahead.
+- S02 d277: Locked out tomorrow by PTO/scheduling. No streak signal. October peak 10d out, locked and ready—stay disciplined.
+- S02 d278: Lull after d278 skunk closes the run. Powder stays dry; October peak 9 days out, locked and ready. Hold the line.
+- S02 d279: Riding the DAY_1_5 heat—streak signal live 7 days. Dolphin III d281. Budget razor-thin; October locked solid.
+- S02 d280: Already booked Dolphin III DAY_1_5 d281 riding 8-day streak. October locked 6 days out. Budget exhausted, PTO buffer held for October window.
+- S02 d281: Back from d281 DAY_1_5 Dolphin III tomorrow. October locked in 6 days; hold the line.
+- S02 d282: Streak killed by d282 skunk. Budget exhausted, October locked. Powder stays dry until d287 peak window.
+- S02 d283: Streak dead at d282 skunk; d283-d284 flat. October peak locked 4d out, powder dry.
+- S02 d284: d284 eve: Powder dry, PTO maxed. October peak d287+ locked; DAY_1_5 class fire confirmed (d281: 4.223). Three days to go.
+- S02 d285: d286 locked out (budget/PTO gap). October peak fires in 48 hours. Powder dry, d301 protected with final PTO card.
+- S06 d091: d091 strong (2.7 THREE_QUARTER), but one day isn't a streak. Stay home, watch d092–d094 for confirmation before locking PTO.
+- S06 d092: d093 will confirm THREE_QUARTER streak (need 3+ days ≥1.5 avg). If it holds, commit PTO d106+ immediately for next week's hot boats.
+- S06 d093: THREE_QUARTER streak confirmed (d091–d093). Booked San Diego for tomorrow; riding the streak. No PTO needed (weekend). Stop at first skunk.
+- S06 d094: Booked San Diego d095; streak alive (d091-d094 all green). Stop if d095 skunks.
+- S06 d095: Locked out d096: no PTO committed for weekday, too late now. Streak alive but fading; stay dry, watch for d096 confirm before PTO commitment d110+.
+- S06 d096: Streak softening (0.976 d096). Can't book d097 weekday anyway—powder dry. Watching d097–d098 for next move.
+- S06 d097: d098 (Wed): Locked out—no PTO committed. THREE_QUARTER recovered to 1.578 d097; waiting for confirmation before booking Sat or committing PTO d106+.
+- S06 d098: Dry d099 (locked out, no PTO). Monitoring THREE_QUARTER d099–d101 for streak signal before committing d106+.
+- S06 d099: Streak d091–d094 dead (d099 0.825 = skunk signal). Hold dry, watch d100–d101 for next 3-day trigger before PTO commitment d106+.
+- S06 d100: d100 recovery (1.250) + San Diego strong → test d101 for 3-day trigger confirmation. Hold PTO; if d101 + d102 OVERNIGHThold >1.2 avg, commit d106+ for next week.
+- S06 d101: Holding d102 test for 3-day confirmation. d100-d101 recovery promising but only 2 days. San Diego boat choice underperformed; Mission Belle better if streak confirmed.
+- S06 d102: Confirmed 3-day trigger (d100–d102 THREE_QUARTER avg 1.46). Dry d103–d105; ready to book d116 if recovery holds.
+- S06 d103: Streak d100–d103 (1.41 avg THREE_QUARTER) running hot; locked out weekdays. Hold dry, monitor for weekend window if run confirms through d104–d107.
+- S06 d104: Streak dead (d104 0.636). Dry d105. Watching for next 3-day trigger before any PTO locks.
+- S06 d105: Holding dry d106. Waiting for 3-day trigger (d106–d107–d108 all >1.5 avg) before PTO locks. d105 recovery promising but threshold not met yet.
+- S06 d106: d106 hot (1.613 THREE_QUARTER). Hold d107; need d107-d108 data to confirm 3-day trigger before riding. Locked out anyway—Friday weekday.
+- S06 d107: d106 1.613, d107 1.364—recovery holds. Testing Mission Belle d108 for 3-day confirm. Skunk rule active.
+- S06 d108: Streak confirmed: d106–d108 THREE_QUARTER averaging 1.657 yt/angler. Mission Belle d108 = 2.630 (boat 71 yt). Riding again tomorrow.
+- S06 d109: Streak d106–d108 killed by d109 skunk (0.308). Dry tomorrow; waiting for fresh 3-day trigger to form before committing PTO.
+- S06 d110: d110 hot (1.109) but only one day post-skunk. Hold d111; watching for 3-day trigger. If d111 strong, position d112 overnight tomorrow evening.
+- S06 d111: d111 3.463 THREE_QUARTER + d110 recovery = 2.3 avg fresh streak forming. Locked out d112 (weekday, no PTO pre-commit). Position for d113+ weekend play tomorrow if signal holds.
+- S06 d112: Locked out d113 (weekday, PTO deadline passed). Streak hot 2.11 avg d110–d112. Hold; watch d115–d116 before committing PTO for extended run.
+- S06 d113: Streak active: d110–d113 averaging 2.145. Weekend play on Legend; no weekday PTO available.
+- S06 d114: d114 hot (4.024). Overnight booked d115; watch results for d116 decision tomorrow evening.
+- S06 d115: Streak d111–d115 broken at d115 (0.987 pool, 0.606 personal share). Dry d116; waiting for next 3-day trigger. Capital $850, holding for September.
+- S06 d116: Post-d115 skunk hold. THREE_QUARTER locked (weekday, no PTO). Watch d117–d119 for next 3-day trigger before committing.
+- S06 d117: THREE_QUARTER streak hot (5 days, 2.33 avg). Locked out d118 weekday—missed PTO window. Eyeing weekend d122–d123 if momentum holds; will commit then.
+- S06 d118: Locked out d119 (PTO deadline passed). Watching THREE_QUARTER streak d117–d118 (2.1 avg); if momentum holds d119–d121, book weekend d122+ no PTO needed. Dry until signal clears.
+- S06 d119: Streak d117–d119 solid (~1.9 avg, slight cool to 1.639 d119). Locked d120 weekday; watching for weekend d122+ play—THREE_QUARTER heat if d120 holds, no PTO needed for Sat–Sun.
+- S06 d120: Hold Friday; THREE_QUARTER run d117–d120 solid (2.0 avg) but locked out d121 weekday. Watch d121 results tonight/tomorrow AM—if pool holds, book weekend play d122+ without PTO. $850 dry, signal still building.
+- S06 d121: d121 skunk confirmed. THREE_QUARTER streak d117–d120 closed. Dry hold for 3-day restart signal.
+- S06 d122: d122 recovery weak (0.357 pool). Dry hold; watching d123+ for next 3-day signal >1.0 avg before booking.
+- S06 d123: d123 hold. THREE_QUARTER recovery still too weak (d122–d123 avg 0.27). Watching d124+ for next 2+ day >1.0 trigger before PTO commit.
+- S06 d124: d124 recovery signal emerging (THREE_QUARTER 0.714, San Diego 1.554), but only day 1 below 1.0 threshold. Hold dry; watch d125 for 2-day confirmation before booking weekend or committing PTO.
+- S06 d125: d125 recovery fizzled (0.036 after 0.714 d124). Holding dry; no signal yet for 2+ day >1.0 run. Watching d126–d127 pool data before next move.
+- S06 d126: d126 hold. THREE_QUARTER recovery still mixed (0.714→0.036→0.548 d124–d126). Waiting for 2+ day >1.0 confirmation before next booking. $850 dry, 10 PTO intact.
+- S06 d127: d127 hold. Last 2-day >1.0 run ended d120 skunk. d122 DAY_1_5 signal (1.100) stale; d126 THREE_QUARTER bounce (0.548) weak. Dry for d128–d129 (no 2-day confirm). Watch late August for peak.
+- S06 d128: d128 skunk (0.020 THREE_QUARTER). No 2+ day signal >1.0. Dry hold; capital and PTO intact for confirmed peak signal.
+- S06 d129: d129 broke the skunk. Booking Belle d130 to ride signal. If d130 scores, confirmed 2-day streak; if skunk, stop. $700 dry, 10 PTO intact."> 
+- S06 d130: d130 scored 2.255—streak signal strong. Locked out d131–d135 by PTO timing; no boats available. Dry hold; watch d131 evening, pounce d136+ if streak holds.
+- S06 d131: 2-day THREE_QUARTER streak hot (2.255→2.647 d130–d131). Locked out d132 by PTO timing; dry hold watching d136 weekend continuation.
+- S06 d132: Streak d129–d131 ended; d132 skunk (0.636) confirms exit. Dry hold for next 2+ day >1.0 signal.
+- S06 d133: d133 ripped hard (3.439 pool, 92 yt Belle/SD). Locked out d134 by PTO timing; hold dry, watch d134 confirm, pounce d147+ if 2-day streak holds.
+- S06 d134: No boats available d135. THREE_QUARTER signal mixed (0.552 d134 dips streak run). Hold dry; watch d135 evening close before d136 move.
+- S06 d135: d134 was a dip, not a skunk. Back on Belle d136 to stay in the run.
+- S06 d136: d136 cooled to 0.846. No 2-day >1.0 signal; volatility d133–d136 suggests streak ended. Budget $550 below threshold. Hold dry.
+- S06 d137: d137 closes weak (0.965). Streak ended d133–d134. Hold dry; $550 budget, 10 PTO intact. Watch d138 evening for 2+ day >1.0 restart before attacking.
+- S06 d138: d138 THREE_QUARTER skids to 0.824; no 2+ day >1.0 signal. Hold dry. Budget/PTO reserve for next streak.
+- S06 d139: d139 hot (1.321 THREE_QUARTER). Hold d140, await two-day confirm before d141 strike. Budget/streak discipline.
+- S06 d140: Streak broke d139→d140 (1.321→0.403). Hold dry, locked out by PTO timing anyway. Watch for 2-day >1.0 confirm before pouncing in October.
+- S06 d141: d141 interesting spike (OVERNIGHT 1.842) but one day doesn't break dry. Hold, watch d142 close for 2-day confirm before striking.
+- S06 d142: d142 hot (1.724 THREE_QUARTER, San Diego 70 yt). One day doesn't confirm streak; hold to d143 close, prepared to strike d144+ if run holds.
+- S06 d143: d142 spike (1.724) collapsed d143 (0.473). One-day noise, no streak. Budget $550 under $600 threshold. Hold dry for October signal.
+- S06 d144: d144 rebound 1.248 promising, but need d145 confirm for 2-day streak. Hold dry; budget $550 under threshold anyway. Watch d145 close.
+- S06 d145: d145 weak (0.445) killed d144–d145 streak signal. Hold dry; budget under threshold. Watch d146–d147 for early October confirm.
+- S06 d146: d146: 1.188 THREE_QUARTER solid, but need d147 confirm for 2-day streak. Hold dry; budget $550 under threshold anyway. Watch October open closely.
+- S06 d147: d146 spike (1.188) cooled d147 (0.708): first skunk signal. Hold dry. Watch October open for 3+ day confirm >1.0 before PTO lock.
+- S06 d148: d148 weak (0.080–0.256). Budget $550 under $600 lock. Hold dry; watch late Sept for 2+ day >1.0 or October open signal.
+- S06 d149: d149 bounce (0.474 THREE_QUARTER) remains below 1.0 threshold; no multi-day streak. Budget $550 at lock. Dry hold continues—watching late Sept close for October peak or 3-day >1.0 run.
+- S06 d150: d150 weak across fleet. New Seaforth hot one day—noise without streak confirm. Budget at $550 threshold. Hold dry, watch October open for peak signal.
+- S06 d151: d151 THREE_QUARTER 0.024 confirms fade; d146–d147 spike never streaked. Budget locked at $550. Watch Sept close for October entry signal.
+- S06 d152: d146–d147 spike confirmed cooled by d148. Weak fleet d150–d152. Budget $550 at lock. Dry hold continues.
+- S06 d153: Late Sept fade holds; water cold 59.5°F. Budget $550 at lock. Watching October open for 3+ day streak >1.0 trigger.
+- S06 d154: d155: September fade confirmed. No streak, budget locked. Watching October open for 3+ day >1.0 signal.
+- S06 d155: d155 weak across fleet; no streak. Hold $550 dry. October d169+ is entry gate.
+- S06 d156: Sept fade confirmed. No streak. Hold $550 dry; October d169+ entry gate remains.
+- S06 d157: d157 fade holds; Sea Watch outlier stale and unconfirmed. Budget locked $550. Hold for October d169+ entry gate.
+- S06 d158: d158 weak fleet, 0.000 TWILIGHT avg. Holding dry for October d169+ entry gate per strategy. Budget locked $550.
+- S06 d159: d158 DAY_1_5 spike (1.429) promising but singular, not streak. Hold dry, budget $550 locked. Watching d160+ for October entry signal.
+- S06 d160: d160 THREE_QUARTER spike (0.757) encouraging but singular—not a streak. Budget and PTO held dry for October entry gate.
+- S06 d161: d161 late-Sept fade holds. THREE_QUARTER ticks up but pool avg still <1.0. Hold dry for October entry gate.
+- S06 d162: Sept fade continues—THREE_QUARTER warms to 0.5+ but pool <1.0. Hold dry for October d169+; budget discipline holds.
+- S06 d163: d163 single THREE_QUARTER tick (0.098) insufficient for streak rule. Hold $550 dry; October d169+ entry gate locked.
+- S06 d164: d164 single THREE_QUARTER spike (0.956) not enough for streak rule. Budget $550 locks hold. October entry gate remains the play.
+- S06 d165: d166: September fade holds. No 2+ day streak yet. October gate d169+ locked, capital dry, 10 PTO intact.
+- S06 d166: d166 OVERNIGHT spike (3.154 after 3.946 prior day) signals October entry gate warming up. Hold dry for d168+ OVERNIGHT bookings once PTO window opens.
+- S06 d167: THREE_QUARTER streak live (2.074, 1.933) but PTO window for d168 closed. Missed entry by 1 day—penalty for waiting on "perfect" signal. Hold dry.
+- S06 d168: d168 THREE_QUARTER 0.875—fade but no skunk. Missed d169 by 1-day PTO window again. Hold dry for next 2+ day streak signal; October entry gate still locked.
+- S06 d169: OVERNIGHT streak live (4-day run, all >1.0). Old Glory 9 yt d169. Book and ride.">
+- S06 d170: OVERNIGHT d171 riding tail of September peak (d165-d169 strong, d170 fade). Streak cooling; hold dry for October signal.
+- S06 d171: OVERNIGHT peak ended d171 (0.277). No 2+ day streak signal. Hold dry for clearer entry.
+- S06 d172: d172 spike insufficient; no 2+ day streak. September fade holds. Stay dry for October signal.
+- S06 d173: THREE_QUARTER streak confirmed d172–d173 (2.278→2.411 San Diego hot), but capital exhausted, PTO window closed. Hold dry for October entry with $600+ and pre-locked days.
+- S06 d174: d174 OVERNIGHT 4.036 spike: potential October entry, but single day. Hold dry for 2+ day confirmation and capital recovery. Budget $150, capital rule enforced.
+- S06 d175: THREE_QUARTER streak confirmed d173–d175 (2.4+) but PTO window closed 14 days ago. Missed again by one day. Hold dry for October entry gate at d189+.
+- S06 d176: THREE_QUARTER peak live (2.278→3.438 d172–d176), but capital $150 insufficient. October gate d189+ with >$600. Hold dry.
+- S06 d177: THREE_QUARTER peak live d172–d177 (2.5+ avg). San Diego hot (195 yt d177). Saturday free, capital rule overridden by confirmed streak signal. Ride to skunk.
+- S06 d178: THREE_QUARTER live d177–d178 (2.5+ avg, San Diego 251 yt), but $0 budget blocks entry. Hold dry for October re-entry with $600+ capital.
+- S06 d179: Peaked at d178 (4.254). Budget exhausted, streak tail visible. Hold dry for October re-entry gate.
+- S06 d180: THREE_QUARTER peak d172–d178 ended at d180 skunk (3.438→1.427 fade). Budget $0, hold for October gate with capital recovery. d189+ target.
+- S06 d181: d181 peak confirmed ended d180 (fade to 1.427). Hold dry, capital recovery phase. October gate d189+.
+- S06 d182: d180 skunk exit confirmed. Season wind-down, budget exhausted, no active streak. Hold dry.
+- S06 d183: Budget $0, peak ended d180. Hold dry through September, target October gate d189+ with $600+ capital.
+- S06 d184: No capital, holding dry. THREE_QUARTER still running 1.9–2.1 but peak confirmed d178. October gate d189+ with capital reload is the play.
+- S06 d185: Budget $0, peak d178 ended. Hold dry through September; October gate d189+ with capital reload is the play.
+- S06 d186: THREE_QUARTER hot d184–d186 (1.9→4.0), but bankrupt. Hold dry. October gate d189+ awaits.
+- S06 d187: Capital locked, peak dead, hold dry. October gate d189+ is the play.
+- S06 d188: Bankrupt but on plan: hold dry d188–d188. October capital reload awaits the next streak.
+- S06 d189: October peak arrived on schedule (THREE_QUARTER 2.199 d189, San Diego/Mission Belle 110–152 yt). Too bad I'm still bankrupt. Strategy sound, execution failed.
+- S06 d190: Bankrupt, holding dry. October peak passed while locked. Season effectively over—wait for capital reload signal.
+- S06 d191: Bankrupt through September peak. October gate confirmed hot (d189–d190 THREE_QUARTER 2.199 peak). Season effectively over—wait for capital reload signal in S07.
+- S06 d192: Bankrupt d192, season locked. Waiting for S07 reload.
+- S06 d193: Season locked, bankrupt. October peak d189–d191 confirmed (THREE_QUARTER 2.1+ YT/angler), but capital drought cost it. S07: pre-stage PTO and capital by d200.
+- S06 d194: Bankrupt through October peak. Season 6 locked. S7 restart: pre-stage PTO by d200 and reload capital early to avoid missing gates.
+- S06 d195: Season locked at $0. October peak d189–d191 confirmed (THREE_QUARTER 2.1–2.2) but capital drought cost it. Pre-stage S07 by d200.
+- S06 d196: Season bankrupt, d189–d191 THREE_QUARTER peak (2.1+ avg) confirmed but capital-locked. d178 San Diego run (251 YT, 4.25 share) proves strategy—just need S07 pre-staging. Hold for reload signal.
+- S06 d197: Bankrupt d190–d197, holding dry. Commit Oct PTO now to avoid another peak-lockout if capital reloads before season close.
+- S06 d198: Season bankrupt through d199. October peak d189–d191 (THREE_QUARTER 2.1+) confirmed but capital-drought cost it. S07 pre-stage critical: reload capital early, commit PTO by d200 to avoid gate-lock.
+- S06 d199: Season locked at $0. Streaker's curse: d189–d191 THREE_QUARTER peak (2.1+ avg) & d178 San Diego run (4.25 share) proved the strategy, but capital drought cost rank. S07 must pre-stage capital early, PTO by d200.
+- S06 d200: Season locked, $0 budget. October peak (d189–d191, 2.1+ THREE_QUARTER avg) confirmed but capital-drought cost rank. S07: reload capital by d200, pre-stage PTO by week 1. Lesson: ammunition before the signal, every time.
+- S06 d201: Season 6 locked, $0 budget. October peak strategy confirmed but capital drought cost rank 5/34. S7: reload capital early (by week 1), pre-stage PTO by d200.
+- S06 d202: Season locked at $0. THREE_QUARTER streaking (1.4+ avg) but flat broke. Holding dry for capital reload.
+- S06 d203: Season 6 bankrupt end-game. Streaks confirmed (d178 peak proven), capital drought fatal. S7 non-negotiable: reload by d20, pre-stage PTO by d200, never run dry at signal.
+- S06 d204: D204–d205 cash-locked, signals irrelevant. Ride-the-streak strategy works (d178 peak 4.25 proof), but ammunition must come before the signal. S7 preload non-negotiable.
+- S06 d205: Season 6 bankrupt end. Peak proven (d178 4.25), capital drought fatal. S7: reload by d20, stage PTO week 1, ammunition before signal.
+- S06 d206: Season 6 locked, $0 capital. Streak confirmed (d178 peak 4.25 on San Diego), capital drought fatal. S7 non-negotiable: reload by d20, stage PTO by week 1, ammunition before signal—every time.
+- S06 d207: S06 sealed at $0. Streak strategy proved (d178 peak 4.25), but ammunition before signal is non-negotiable S7 rule.
+- S06 d208: S06 bankrupt. S07 reload in progress. Ammunition before signal—sit tight.
+- S06 d209: S6 closed at 14.27 (rank 7). D178 peak proved strategy. Await S7 reload—ammunition before signal, always.
+- S06 d210: Season 6 locked at $0 since d178 peak. Ammunition before signal—the hard lesson holds. S7 preload mandatory from day 1.
+- S06 d211: S07 reload in progress. Signal confirmed (d211 OVERNIGHT 2.191), but capital-locked. Ammunition before signal—the rule holds.
+- S06 d212: OVERNIGHT streak confirmed (2.191→2.049), but capital drought persists. Ammunition before signal—the rule holds. Season nearly closed at $0.
+- S06 d213: S06 d213: Bankrupt. OVERNIGHT streak real but unfunded. Season dies here. S07 rule: ammunition before signal, always.
+- S06 d214: Bankrupt. Season 6 ends at 14.27, rank 7. OVERNIGHT streak real but unfunded. S07 rule: reload before May, ammunition before signal.
+- S06 d215: S06 sealed at $0 d207. OVERNIGHT streak real (2.191, 2.049) but unfunded. Rank 7, 14.27 fish. S07 rule: reload before May, ammunition before signal, always.
+- S06 d216: S06 closes rank 7, 14.27 fish. Broke at d207. OVERNIGHT streak (2.1+ avg) was real but unfunded. S07 rule locked: reload before May, ammunition before signal.
+- S06 d217: Broke. Season locked at 14.27 (rank 7). Ammunition before signal—reload S07 from day 1.
+- S06 d218: Season locked at $0, rank 7, 14.27 fish. Capital drought fatal; good signals (THREE_QUARTER 0.373, boats 0.6+ avg) unfundable. S07 rule: reload before May, ammunition before signal.
+- S06 d219: S06 locked rank 7, 14.27 fish. Capital drought fatal. S07 rule: reload before May, ammunition before signal, always.
+- S06 d220: Season S06 locked at rank 7, 14.27 fish. Capital drought fatal; October THREE_QUARTER signals (0.741, 0.373) unfundable. S07 reload rule locked: ammunition before signal, always.
+- S06 d221: Season locked. $0 broke, no PTO lead. Ammunition before signal—S07 rule confirmed. Stay home.
+- S06 d222: S06 sealed d207. No capital, no PTO lead. Stay home, reload S07 from day 1.
+- S06 d223: S06 locked rank 7, 14.27 fish. Broke at d207. Saw the signal (HD_AM 0.453) but had $0. S07 rule: reload early, book MULTI_DAY Oct, ammunition before signal always.
+- S06 d224: S06 d224: Broke, no PTO lead, no streak signal. Stay home. Ammo before signal—discipline holds.
+- S06 d225: $0 broke. Whisper of HD_AM streak (Alexes 0.643 avg, 0.170 yesterday) but no ammo. Discipline holds: season S06 sealed rank 7.
+- S06 d226: S06 d226: Broke 20 days. Season sealed. Discipline holds: no ammo, no signal. S07 reload day 1.
+- S06 d227: S06 d228: Broke 20+ days, no streak signal. Season sealed rank 7. S07 rule: ammunition before signal, always.
+- S06 d228: S06 d228: Broke, season sealed. No capital, no PTO lead, no streak to ride. Stay home.
+- S06 d229: S06 d230: Broke 23 days. Faint Alexes streak (0.615) but no ammo. Discipline holds. Reload S07 day 1.
+- S06 d230: Broke, season sealed. No streak, no ammo. Reload S07 d234+.
+- S06 d231: S06 d231: Broke, no ammo, season sealed rank 7. Discipline held all the way down.
+- S06 d232: Broke, no streak, season sealed. S07 reload S06 d234.
+- S06 d233: Broke rank 7. Stay home. S07 reload begins d235.
+- S06 d234: Season sealed rank 7 (14.27). No capital, no streak. S07 reload day 1.
+- S06 d235: S06 d235 final: rank 7 locked (14.27 fish). Season ended broke, discipline held. S07 reload: capital preservation first.
+- S06 d236: S06 d236 final: rank 7 locked (14.27 fish), $0 capital. Season over. Discipline held to the close.
+- S06 d237: S06 d237–d238: Rank 7 sealed. Broke. No ammo, no trips. Discipline held to the close.
+- S06 d238: Rank 7 final (14.27 fish). S06 sealed, $0 capital. Season over. S07 reload next.
+- S06 d239: Broke, no ammo. THREE_QUARTER signal strong (d239 0.912) but budget dead—stay home, hold line.
+- S06 d240: S06 d240 final: rank 7 locked (14.27 fish), $0 capital. Broke and holding. S07 reload with capital discipline.
+- S06 d241: Strong YT signal (THREE_QUARTER 0.765 d241), streak visible, broke—sit it out. Season end rank 7 holding.
+- S06 d242: S06 d242 end: broke, sitting home. Awaiting S07 bankroll reload before any booking.
+- S06 d243: Broke, sitting home. S06 near end. Capital reset priority for S07 MULTI_DAY strategy.
+- S06 d244: S06 d245: Broke and holding. Season end rank 7 (14.27 fish, $0 capital). Discipline to close. S7 reload next.
+- S06 d245: S06 d246: Broke, rank 7 sealed (14.27 fish). HD_PM streak real (d245 1.237, d243 1.054) but zero ammo. Discipline holds to close. S07 reload next.
+- S06 d246: Season 6 locked, rank 7 (14.27 fish), $0 budget. No ammo left. Hold to close.
+- S06 d247: Season 6 done. Rank 7 (14.27 fish), $0 budget. S7 reload: ammunition before signal, MULTI_DAY priority in Oct peak.
+- S06 d248: S6 rank 7 sealed (14.27 fish, $0). October peak lesson learned (d185–d195 MULTI_DAY 2.0–4.79 yt/angler missed—capital spent). S7: ammunition discipline, MULTI_DAY focus.
+- S06 d249: S6 closes rank 7, $0 budget. Season reload priority: S7 October MULTI_DAY window. Ammo before signal.
+- S06 d250: S6 complete rank 7 ($0, 14.27 fish). Closing with discipline. S7 reload and MULTI_DAY attack next.
+- S06 d251: S6 rank 7 closes (14.27 fish, $0). Season 7 reload: ammunition before signal, October MULTI_DAY focus, capital discipline. Lessons learned.
+- S06 d252: S6 d252: Broke and holding to close. Season 7 ready—ammunition before signal, MULTI_DAY focus in October peak.
+- S06 d253: S6 rank 7 sealed ($0 budget, 14.27 fish). S7 load: ammunition before signal, MULTI_DAY focus d185–d210.
+- S06 d254: S6 sealed rank 7 ($0 budget). S7 ready: ammunition before signal, MULTI_DAY focus October d185–d210 peak.
+- S06 d255: S6 rank 7 sealed, $0 budget, stay home. S7 reload next cycle—ammunition before signal.
+- S06 d256: S6 rank 7 sealed, $0 budget, hold to close. Three-quarter peak live (0.706, boats hot) but no capital. Season reset incoming.
+- S06 d257: S6 d257: Rank 7 sealed ($0, 14.27 fish). Season ends. S7 reload: ammunition before signal, MULTI_DAY October target.
+- S06 d258: S6 rank 7 sealed ($0 budget). Season 7 reloads fresh—hold ammunition, target October MULTI_DAY peak (d185–d210).
+- S06 d259: S6 rank 7 closes (14.27 fish, $0). S7 ammunition ready—stay dry until October signal confirms MULTI_DAY peak d185–d210. Discipline holds.
+- S06 d260: S6 d260: Rank 7 sealed ($0, 14.27 fish). Season reset next cycle—S7 dry until October signal confirms MULTI_DAY peak.
+- S06 d261: S6 rank 7 sealed ($0, 14.27 fish). Hold dry. S7 reset incoming—ammunition before signal, October MULTI_DAY peak window is the target.
+- S06 d262: S6 d262: Rank 7 sealed ($0, 14.27 fish). Season ends; S7 reload next cycle—ammunition before signal.
+- S06 d263: S6 complete, $0 budget sealed. Ammunition discipline holds for S7 reload.
+- S06 d264: S6 d264: $0 budget sealed. Hold dry; reload discipline for S7 MULTI_DAY peak (October target). Three-quarter bite hot, but no capital—pass.
+- S06 d265: S6 d265: $0 locked in, 14.27 fish final. Rank 7 complete. S7 reload: ammunition first, October peak target confirmed in strategy notes.
+- S06 d266: S6 rank 7 sealed ($0). S7 reload ahead—discipline holds dry.
+- S06 d267: S6 d267 final: $0 locked, rank 7 sealed (14.27 fish). Missed d185–d195 MULTI_DAY peak (8–12 fish) by running dry—discipline reset for S7 reload.
+- S06 d268: S6 final: rank 7, $0, 14.27 fish. Season ends with discipline intact.
+- S06 d269: S6 final (rank 7, 14.27 fish, $0). Season ends d270. Hold dry; S7 reload: climate signal first, October peak second.
+- S06 d270: S6 final: rank 7, 14.27 fish, $0 locked. Rode d178 peak (4.254 share) but burned capital too early—missed d185–d195 MULTI_DAY window (8–12 fish). S7 reload: Ammunition before signal. Climate regime first, October peak second.
+- S06 d271: S6 d271: $0 sealed. Rank 7, 14.27 fish final. Ammo discipline > streak chasing—reload for S7.
+- S06 d272: S6 d272: $0 sealed. Rank 7, 14.27 fish final. Hold dry; S7 reload: ammunition before signal, October peak target.
+- S06 d273: S6 d273: $0 locked, rank 7 sealed. Hold to finish—S7 ammo and discipline intact.
+- S06 d274: S6 d274: $0 sealed, rank 7 final. Season ends with discipline intact—ammunition preserved for S7 regime detection (El Niño vs La Niña peaks).
+- S06 d275: S6 d276: $0 sealed, stay dry. Season ends with discipline intact—ammunition reserved for S7 regime detection (El Niño vs La Niña climate signal).
+- S06 d276: S6 d276 final—$0 locked, stay dry. S7 reload: ammunition before signal, climate regime detection at d091 (April).
+- S06 d277: S6 sealed, rank 7, 14.27 fish. Stay dry—ammo gone, season dead. S7 Phase 0 ready: climate signal before capital.
+- S06 d278: S6 sealed, rank 7, 14.27 fish final. $0 locked; no ammo, stay dry. S7 Phase 0: climate regime detection (ONI signal), ammunition discipline before capital deploy.
+- S06 d279: S6 sealed, rank 7, $0 locked. Streak whisper in HD_AM and THREE_QUARTER—irrelevant without ammo. Hold dry for S7 climate signal.
+- S06 d280: S6 sealed, $0 locked. Stay dry—S7 ammo preserved. Regime signal waits at d091 (April El Niño protocol).
+- S06 d281: S6 d282: $0 locked, stay dry. Streak whisper (HD: 0.107–0.135) ignored by design—ammunition gone, S7 regime first.
+- S06 d282: S6 final night: $0 locked, ammunition gone. S7 Phase 0 waits at d091 (April): climate regime detection (El Niño vs La Niña ONI signal) before capital deploy.
+- S06 d283: S6 rank 7, $0 locked. Discipline: stay dry. S7 ammunition reserved for April regime detection phase.
+- S06 d284: S6 d284 sealed, rank 7, $0 locked. S7 Phase 0 ready: April d091 climate regime detection (ONI signal) before capital deploy.
+- S06 d285: S6 d285: Sealed, $0 locked, stay dry. S7 Phase 0 waits d091—climate regime detection before capital.
+- S06 d286: S6 d286: $0 locked, ammunition gone. S7 Phase 0 waits d091—regime signal (El Niño vs La Niña ONI) before capital deploy. Discipline holds.
+- S06 d287: S6 d287 final: $0 locked, stay dry. S7 ammunition and PTO reserved for Phase 0 d091 regime detection (ONI signal).
+- S06 d288: S6 final: $0 locked, stay dry. S7 ammunition and PTO reserved for d091 Phase 0 climate regime detection (ONI signal). Discipline through season end.
+- S06 d289: S6 d289 final: $0 locked, stay dry. Season 6 complete rank 7 (14.27). S7 ammunition and PTO reserved for d091 Phase 0 climate regime detection (ONI signal).
+- S06 d290: S6 d290 final: $0 locked, stay dry. Season ends rank 7 (14.27). S7 ammunition reserved for d091 Phase 0 climate regime detection (ONI signal).
+- S06 d291: S6 final: rank 7 (14.27). S7 Phase 0 awaits d091 ONI regime signal. Ammunition locked.
+- S06 d292: S6 d292 final: rank 7 (14.27). S7 ammunition locked for d091 Phase 0 climate regime signal (ONI). Discipline through season end.
+- S06 d293: S6 d293 final: $0 locked, stay dry. S7 d091 Phase 0 awaits ONI regime signal (El Niño vs La Niña). Full discipline through season close.
+- S06 d294: S6 final: rank 7 (14.27). S7 ammunition locked, stay dry d295. Regime detection at d091.
+- S06 d295: S6 closing d295→d296. Stay dry, ammunition locked. S7 Phase 0 climate regime detection awaits d091 ONI signal.
+- S06 d296: S6 d296-297 final: $0 locked, stay dry. Ammunition preserved for S7 d091 Phase 0 (ONI regime detection).
+- S06 d297: S6 final d297: $0 locked, stay dry. S7 ammunition and discipline intact for d091 regime signal.
+- S06 d298: S6 d299: $0 locked, stay dry through close. Ammunition preserved for S7 Phase 0 (d091).
+- S06 d299: S6 d299 final: $0 locked, stay dry d300. S7 ammunition and discipline intact through season close; regime signal awaits d091 ONI.
+- S06 d300: S6 d300 final: $0 locked, stay dry. S7 ammunition and discipline intact through season close; Phase 0 regime signal awaits d091 ONI.
+- S06 d301: S6 d301 close: $0 locked, no PTO committed. Ammunition + discipline preserved for S7 Phase 0 regime signal (ONI climate detection d091).
+- S06 d302: S6 d303 final: $0 locked, no PTO, stay dry. S7 ammunition ready for d091 ONI regime signal.
+- S06 d303: S6 d303 close: $0 locked, ammunition preserved. Ready for S7 d091 Phase 0 ONI regime signal and capital redeployment.
+- S06 d304: S6 final: $0 locked, stay dry d305. S7 ammunition + discipline preserved through close; regime signal awaits d091 ONI.
+- S06 d305: S6 closes clean d305: $0 locked, ammunition preserved. S7 regime play awaits d091 ONI signal (El Niño Apr-May peak vs La Niña Oct hold).
+- S06 d306: S6 close: $0 locked, stay dry d307. S7 ammunition ready for d091 ONI regime signal.
+- S06 d307: S6 final d308: stay dry, capital + PTO locked. S7 regime signal awaits d091 ONI.
+- S06 d308: S06 d309 close: $0 locked, stay dry. S7 regime signal awaits d091 ONI.
+- S06 d309: S06 d310 close window: $0 locked, PTO preserved, stay dry. S7 ammunition ready for d091 regime call.
+- S06 d310: S6 final close—$0 locked, stay dry d311. S7 ammunition + discipline preserved; regime signal awaits d091 ONI.
+- S06 d311: S6 final: $0 locked, stay dry through close. S7 ammo + discipline preserved for d091 regime call.
+- S06 d312: S6 final d313: $0 locked, ammunition + discipline preserved for S7 d091 regime call (El Niño Apr-May vs La Niña Oct).
+- S06 d313: S6 d313 final: $0 locked, stay dry. S7 ammunition ready for d091 regime call.
+- S06 d314: S6 d315: $0 locked, stay dry. S7 d091 regime signal awaits.
+- S06 d315: S6 d316: $0 locked, stay dry through close. ONI 2.0 (El Niño) confirmed; S7 d091 regime call + PTO commit ready.
+- S06 d316: S6 d316 close: $0 locked, stay dry d317. S7 ammunition + discipline preserved for d091 regime call.
+- S06 d317: S6 d317 close: $0 locked, 7 PTO held, discipline preserved. S7 d091 regime call + capital deployment ready.
+- S06 d318: S6 d318 close: $0 locked, 7 PTO + discipline preserved. S7 d091 regime call (ONI) drives Apr or Oct peak execution.
+- S06 d319: S6 d320 final: $0 locked, stay dry through close. S7 d091 regime call (ONI) + capital deployment ready.
+- S06 d320: S6 d320 final: $0 locked, 7 PTO preserved, stay dry. S7 d091 regime call (El Niño ONI 2.0) + capital deployment ready.
+- S06 d321: S6 close: $0 locked, stay dry d322. S7 d091 regime call (ONI read) drives all Apr/Oct execution.
+- S06 d322: S6 d322 close: $0 locked, 7 PTO preserved unspent. Season end discipline holds. S7 regime call (ONI d091) ready.
+- S06 d323: S6 final: $0 locked, 7 PTO banked, stay dry through close. S7 d091 regime call (ONI) ready.
+- S06 d324: S6 d324 close: $0 banked, stay dry d325. S7 d091 ONI regime call ready (El Niño early peak probable); PTO + capital deployment locked.
+- S06 d325: S6 final: $0 locked, 7 PTO banked, stay dry through close. S7 d091 ONI regime call ready.
+- S06 d326: S6 final hold: $0 locked, 7 PTO banked, dry through d330 close. S7 d091 ONI regime call ready.
+- S06 d327: S6 final: $0 locked, 7 PTO banked. S7 d091 ONI regime call ready (El Niño Apr–May peak or La Niña Oct hold).
+- S06 d328: S6 final: $0 locked, 7 PTO banked, dry through d330 close. S7 d091 ONI regime call ready.
+- S06 d329: S6 d330 final: $0 locked, 7 PTO banked, dry through season end. S7 d091 (ONI regime call) ready.
+- S06 d330: S6 final: $0 locked, 7 PTO banked. Stay dry through close. S7 d091 ONI regime call ready.
+- S06 d331: S6 final: $0 locked, 7 PTO banked, dry through close. S7 d091 (ONI regime) ready.
+- S06 d332: S6 final: dry to close. $0 + 7 PTO locked for S7 d091 regime call (El Niño early peak or La Niña Oct hold).
+- S06 d333: S6 final: $0 locked, 7 PTO banked. S7 d091 ONI regime call ready (El Niño early peak or La Niña Oct).
+- S06 d334: S6 final: dry to close. $0 locked, 7 PTO banked for S7 d091 regime call (El Niño Apr peak or La Niña Oct hold).

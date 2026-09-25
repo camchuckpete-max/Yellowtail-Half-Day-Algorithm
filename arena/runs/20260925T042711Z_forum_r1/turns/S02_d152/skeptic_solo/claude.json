@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 138.5,
+ "claude": {
+  "duration_api_ms": 135829,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.38586299999999996,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 45032,
+   "cache_read_input_tokens": 462795,
+   "output_tokens": 11314,
+   "output_tokens_details": {
+    "thinking_tokens": 3494
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45032,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 387,
+     "cache_read_input_tokens": 63881,
+     "cache_creation_input_tokens": 6592,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6592
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 11314,
+    "cacheReadInputTokens": 462795,
+    "cacheCreationInputTokens": 45032,
+    "webSearchRequests": 0,
+    "costUSD": 0.38586299999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3494,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated. Summary of what I checked and changed:\n\nI confirmed with live queries that May (doy120-149) produced a real but muted bite this season (three_quarter 0.158, overnight 0.129 ypa vs S1's 0.54/0.29), that the summer trough appears to be arriving early \u2014 three_quarter crashed to 0.0038 ypa in just the first 3 days of the doy150-179 bucket (matching the recent zero/near-zero prints in results.json) \u2014 and that ONI is recovering steadily (-1.57\u2192-0.85 over 130 days), which if it continues puts the October fall-run window in reasonable shape.\n\nI rewrote `notes.md` to trim redundant day-by-day history, add a live season-2 catch-by-bucket table, flag that the d158/d159 PTO commitment's target boat/class was never recorded (a gap to check next time), and set a concrete plan: hold most of the remaining $800/8 PTO through the likely trough, keep only cheap PTO-free three_quarter probes going, and start re-checking ONI/water-temp/fishdope around doy255-260 to decide how hard to lean into the doy270-299 fall window.",
+  "ttft_ms": 2914,
+  "type": "result",
+  "duration_ms": 136916,
+  "uuid": "9d85729d-f0ab-4577-bee0-b4ef9eb56eba",
+  "ttft_stream_ms": 1370,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 1371,
+  "time_to_request_from_spawn_ms": 31918636,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323297259.6035,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

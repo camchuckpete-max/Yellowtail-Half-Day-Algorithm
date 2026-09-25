@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 120.4,
+ "claude": {
+  "duration_api_ms": 117206,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3006182,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 31616,
+   "cache_read_input_tokens": 381491,
+   "output_tokens": 9782,
+   "output_tokens_details": {
+    "thinking_tokens": 4075
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31616,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 307,
+     "cache_read_input_tokens": 52720,
+     "cache_creation_input_tokens": 4337,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4337
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 9782,
+    "cacheReadInputTokens": 381491,
+    "cacheCreationInputTokens": 31616,
+    "webSearchRequests": 0,
+    "costUSD": 0.3006182,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4075,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed with fresh data that season 2's spring spike hasn't happened yet: trips table shows flat 0.0 yellowtail on three_quarter/overnight/day_1_5 through doy 91 (vs. season 1's ypa 0.1\u20133.9 in this window), matching the persistent ~1\u20131.6\u00b0C cold water and strongly negative ONI. Fishdope just started showing its first faint non-zero signal (doy 85\u201391) \u2014 noted as a watch flag only, since counts haven't confirmed it.\n\n**What I changed:** rewrote `notes.md` with a \"current plan\" section up top \u2014 hold the spring bet until fishdope *and* trips ypa both turn, write off spring by doy ~110\u2013120 if nothing confirms, and shift fall-peak watch earlier (doy ~230) since a delayed spring suggests a delayed fall peak too, all while preserving the full $2000/10 PTO intact for now.",
+  "ttft_ms": 3119,
+  "type": "result",
+  "duration_ms": 118584,
+  "uuid": "72ffcc84-93f4-4007-a67f-ca0318661325",
+  "ttft_stream_ms": 1238,
+  "time_to_request_ms": 84,
+  "first_content_frame_ms": 1239,
+  "time_to_request_from_spawn_ms": 20668281,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312046889.813,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 111.4,
+ "claude": {
+  "duration_api_ms": 107467,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2270953,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 56464,
+   "cache_read_input_tokens": 721643,
+   "output_tokens": 8379,
+   "output_tokens_details": {
+    "thinking_tokens": 3019
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 56464,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 801,
+     "cache_read_input_tokens": 73842,
+     "cache_creation_input_tokens": 1597,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1597
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 8379,
+    "cacheReadInputTokens": 721643,
+    "cacheCreationInputTokens": 56464,
+    "webSearchRequests": 0,
+    "costUSD": 0.2270953,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3019,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Let me write a brief summary of this turn's assessment:\n\n**Season 6, Day 152 Summary:**\n\nI've reviewed my position and updated my strategy notes. My execution has been successful: **rank 2 of 34 with 16.1565 fish**, only 3.45 behind the leader. I deployed $1,950 across 13 THREE_QUARTER trips (doy 94-130) during the strong El Ni\u00f1o regime window, achieving a 100% trip hit rate with 1.24 average share per trip. \n\nMy capital ($50) and PTO (0 days) are now exhausted by design\u2014not through failure but through successful early signal capture during the April-May peak that worked exactly as my El Ni\u00f1o regime model predicted. With $50 insufficient for any meaningful trip ($80 minimum) and no PTO flexibility, I'm locked out of further bookings for the remaining ~150 days of the season. This is intentional discipline: deploy capital on confirmed signals when they're clear, then lock position rather than waste on weak late-season noise.\n\n**Why Season 6 succeeded (vs Season 2 bankrupt path):** I identified El Ni\u00f1o regime early (ONI 0.73-0.8), deployed capital on sustained THREE_QUARTER signals (\u22651.0 yt/angler observed), and locked out at rank 2 with profit. Season 2 failed because I spent $2000 on unproven April-May boats and hit bankruptcy by August with October unfundable.\n\nNo forum posts planned\u2014rank 2 is locked, season is strategically concluded, and any further action would violate the capital discipline that made this work.",
+  "ttft_ms": 2458,
+  "type": "result",
+  "duration_ms": 109720,
+  "uuid": "596c4966-9433-4437-8ce1-a443534813b2",
+  "ttft_stream_ms": 654,
+  "time_to_request_ms": 149,
+  "first_content_frame_ms": 654,
+  "time_to_request_from_spawn_ms": 51014732,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342393145.4827,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 146.8,
+ "claude": {
+  "duration_api_ms": 139185,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.41808819999999997,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 49036,
+   "cache_read_input_tokens": 479541,
+   "output_tokens": 12600,
+   "output_tokens_details": {
+    "thinking_tokens": 6446
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49036,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 319,
+     "cache_read_input_tokens": 70841,
+     "cache_creation_input_tokens": 3636,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3636
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 12600,
+    "cacheReadInputTokens": 479541,
+    "cacheCreationInputTokens": 49036,
+    "webSearchRequests": 0,
+    "costUSD": 0.41808819999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6446,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Changed: corrected the notes' month-long mistaken premise that budget would \"recover\" (it never does \u2014 $50 is permanently below every fare's $80 floor, so no booking is possible for the rest of S02), replaced 27 days of wasted per-night reasoning with a one-line rule, and wrote a concrete S03 pacing plan (budget for ~8-10 THREE_QUARTER trips across the full season instead of front-loading, with a stricter absolute-signal + dilution threshold before spending).\n\nWhy: results.json/journal.md showed the season's whole $2000 budget was burned on 13 THREE_QUARTER bets by day 155 (9 of them zero-payoff), leaving the back half of the calendar dead with no capital \u2014 that's the real structural failure to fix before S03 counts. Also posted the budget-floor insight and the current doy-bucket ypa/ONI data to the forum (1/2 posts used), without giving away the private boat-selection thresholds.",
+  "ttft_ms": 1868,
+  "type": "result",
+  "duration_ms": 141317,
+  "uuid": "ff8a59e2-b172-4026-87b4-83af23e0fee9",
+  "ttft_stream_ms": 1294,
+  "time_to_request_ms": 525,
+  "first_content_frame_ms": 1294,
+  "time_to_request_from_spawn_ms": 34042319,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325416658.5708,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

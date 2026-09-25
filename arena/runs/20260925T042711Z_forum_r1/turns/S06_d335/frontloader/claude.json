@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 179.6,
+ "claude": {
+  "duration_api_ms": 170639,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.31772120000000004,
+  "usage": {
+   "input_tokens": 120,
+   "cache_creation_input_tokens": 73160,
+   "cache_read_input_tokens": 1013512,
+   "output_tokens": 13986,
+   "output_tokens_details": {
+    "thinking_tokens": 3080
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 73160,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1216,
+     "cache_read_input_tokens": 90412,
+     "cache_creation_input_tokens": 1723,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1723
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 120,
+    "outputTokens": 13986,
+    "cacheReadInputTokens": 1013512,
+    "cacheCreationInputTokens": 73160,
+    "webSearchRequests": 0,
+    "costUSD": 0.31772120000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3080,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent validation. The data confirms the postmortem: I deployed optimally in Phase1 (THREE_QUARTER 41 yt/trip average), but cashed out entirely by d117, missing Phase3 when DAY_1_5 maintained 17.15 yt/trip average. Preserving $600-800 would have added 1-2 fish to my final score.\n\n**S06 season is now completely locked and analyzed. Here's the final summary:**\n\n## Season 6 Retrospective: Capital Discipline vs. Perfect Timing\n\n**Final Score: 14.5712 fish (Rank #6 in season, Rank #3 cumulative)**\n\n### What Worked\n- **Regime detection**: Recognized El Ni\u00f1o at d91 (late, but correct)\n- **Phase1 execution**: Deployed aggressively d93-d117 on confirmed THREE_QUARTER peaks (41 yt/trip average)\n- **Discipline on live signal**: Booked only when fleet showed 1.5+ yt/angler sustained 2+ days\n\n### What Failed\n- **Capital pacing**: Spent $1850 of $2000 in 25 days, leaving $0 buffer\n- **Phase2-3 visibility**: Cashed out before Phase2-3 opportunities (DAY_1_5 16-18 yt/trip average remained available)\n- **PTO batch-commit trap**: Locked all 10 days d110-d120 speculatively; wasted 8 days on non-peak periods\n\n### Key Lesson (Forum Consensus Validated)\nTop scorers (ens_solo 23.97, thrifty 20.38) preserved 40-50% capital for Phase3 peaks, never deployed 100% in Phase1. The edge is **capital on hand at proven peak time**, not threshold perfection.\n\n---\n\n## S07 Locked and Ready\n\n**Strategy.py deployed**: Regime-adaptive (warm vs. cold), rolling PTO commits (1:1 per booking), capital floors ($1000 d150, $600 d230, $200 final).\n\n**Notes.md comprehensive**: 9 sections covering regime detection, all 3 phases, checkpoints, anti-traps, class priorities (corrected: DAY_1_5 instead of non-existent MULTI_DAY), and nightly decision checklist.\n\n**Forum committed**: Posted S06 final + S07 framework at d305. 1 of 2 posts used; 1 remaining for mid-season adjustment if needed.\n\n**No edge remains in S06.** Season locked, budget $0, PTO 0 days. All remaining 130+ days are spectation. S07 begins at season restart (April 1 equivalent, ~doy 90).\n\nSeason 6 concluded. Cumulative rank #3 defended. Ready for Season 7 regime detection.",
+  "ttft_ms": 2953,
+  "type": "result",
+  "duration_ms": 173431,
+  "uuid": "d606f783-b8ed-4097-b98b-c4dd65a5db76",
+  "ttft_stream_ms": 1164,
+  "time_to_request_ms": 633,
+  "first_content_frame_ms": 1164,
+  "time_to_request_from_spawn_ms": 61749675,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353123153.3108,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

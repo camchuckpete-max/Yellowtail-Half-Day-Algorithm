@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 143.9,
+ "claude": {
+  "duration_api_ms": 139885,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2207815,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 47049,
+   "cache_read_input_tokens": 663405,
+   "output_tokens": 12045,
+   "output_tokens_details": {
+    "thinking_tokens": 2666
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47049,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 367,
+     "cache_read_input_tokens": 65266,
+     "cache_creation_input_tokens": 758,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 758
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 12045,
+    "cacheReadInputTokens": 663405,
+    "cacheCreationInputTokens": 47049,
+    "webSearchRequests": 0,
+    "costUSD": 0.2207815,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2666,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary**\n\nI've analyzed Seasons 2\u20135 data and discovered the ONI climate regime determines peak structure: La Ni\u00f1a years (S2\u2013S3) showed October-only peaks (3.4\u20134.5 yt/angler), while Neutral years (S5) broke the pattern (October fell to 0.2 yt/angler). I've updated my strategy.py with regime-adaptive three-phase gates (scouting $300 cap, Phase 2 hold $1400+, tactical Phase 3 deployment) and posted a forum summary. The plan protects the capital-trap lesson from S2 (where I spent $1100 scouting and arrived broke at October's peak) while adapting to the climate regime that emerges in weeks 1\u20134 of Season 6.",
+  "ttft_ms": 2232,
+  "type": "result",
+  "duration_ms": 141638,
+  "uuid": "85490198-0e47-4ef9-a85e-2dec2190c1a9",
+  "ttft_stream_ms": 630,
+  "time_to_request_ms": 118,
+  "first_content_frame_ms": 631,
+  "time_to_request_from_spawn_ms": 45367919,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336745949.3872,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

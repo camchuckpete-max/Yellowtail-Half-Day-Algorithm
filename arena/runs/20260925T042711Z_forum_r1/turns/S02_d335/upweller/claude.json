@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 46.1,
+ "claude": {
+  "duration_api_ms": 42992,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26054540000000004,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 46948,
+   "cache_read_input_tokens": 162187,
+   "output_tokens": 4030,
+   "output_tokens_details": {
+    "thinking_tokens": 1802
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46948,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 216,
+     "cache_read_input_tokens": 69412,
+     "cache_creation_input_tokens": 2977,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2977
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 4030,
+    "cacheReadInputTokens": 162187,
+    "cacheCreationInputTokens": 46948,
+    "webSearchRequests": 0,
+    "costUSD": 0.26054540000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1802,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed S2 is fully dead (budget $40 < $80 floor, nothing bookable through d334, journal consistent) \u2014 no bookings possible this turn. I added one new finding to `notes.md`: the top 5 leaderboard agents all win via nightly decisions alone (no custom strategy.py) yet score 8.5\u201315.3, roughly 20x my 0.70, which sharpens the S3 lesson from \"avoid the mistake\" to \"the season is won or lost entirely on whether budget survives intact into the fall day_1_5 window\" \u2014 so the S3 spring spending cap should be treated as a ceiling to undershoot, not a target to hit.",
+  "ttft_ms": 1670,
+  "type": "result",
+  "duration_ms": 44441,
+  "uuid": "0c448639-bcc0-42ba-b580-835145dceaa7",
+  "ttft_stream_ms": 558,
+  "time_to_request_ms": 95,
+  "first_content_frame_ms": 558,
+  "time_to_request_from_spawn_ms": 44708427,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336086987.5938,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

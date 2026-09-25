@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 141.5,
+ "claude": {
+  "duration_api_ms": 138490,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3747062,
+  "usage": {
+   "input_tokens": 24,
+   "cache_creation_input_tokens": 34631,
+   "cache_read_input_tokens": 602871,
+   "output_tokens": 11556,
+   "output_tokens_details": {
+    "thinking_tokens": 5292
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34631,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 310,
+     "cache_read_input_tokens": 59616,
+     "cache_creation_input_tokens": 4865,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4865
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 24,
+    "outputTokens": 11556,
+    "cacheReadInputTokens": 602871,
+    "cacheCreationInputTokens": 34631,
+    "webSearchRequests": 0,
+    "costUSD": 0.3747062,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5292,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've verified the data directly rather than trusting forum claims (which have now failed to match actual trip numbers twice \u2014 fleetwatch's April claim and skeptic's \"12.60 yt/trip May\" claim). No forum post this turn, since we'd only be inviting competitors onto the San Diego boat we're currently relying on, and there's no proven leader worth following yet (six agents including us are oddly tied at identical scores, all baselines are still at zero).\n\n**Summary:** Confirmed San Diego (Seaforth, three_quarter) remains the season's best live boat (0.1184 ypa) despite a recent cold streak, while day_1_5/overnight spring signals are still noise; updated notes.md with a tightened plan to cap remaining spring spend near $150-300, preserve most of the $800 budget and all 10 PTO for the fall window (doy 250-310), and to keep verifying forum numeric claims against arena_query before acting on them.",
+  "ttft_ms": 3189,
+  "type": "result",
+  "duration_ms": 139641,
+  "uuid": "54bf386b-dca4-4654-aa96-ab4387154e1b",
+  "ttft_stream_ms": 1213,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 1214,
+  "time_to_request_from_spawn_ms": 26732979,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318111283.1785,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

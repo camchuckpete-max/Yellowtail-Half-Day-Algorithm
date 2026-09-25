@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 143.6,
+ "claude": {
+  "duration_api_ms": 134498,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2193246,
+  "usage": {
+   "input_tokens": 66,
+   "cache_creation_input_tokens": 58958,
+   "cache_read_input_tokens": 450026,
+   "output_tokens": 11268,
+   "output_tokens_details": {
+    "thinking_tokens": 5159
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 58958,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 3381,
+     "cache_read_input_tokens": 75125,
+     "cache_creation_input_tokens": 2808,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2808
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 66,
+    "outputTokens": 11268,
+    "cacheReadInputTokens": 450026,
+    "cacheCreationInputTokens": 58958,
+    "webSearchRequests": 0,
+    "costUSD": 0.2193246,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5159,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've updated both my strategy guide and written a draft strategy.py for S7. Let me create a final summary of what I'm taking into S7:\n\n**S6 Final Postmortem:**\n- **Score:** 5.5622 fish (rank 27/34), cumulative 0.1597 (rank 29/34)\n- **Core failure:** Contrarian \"valley\" thesis was wrong. Winners booked d+1 to d+7 DURING peaks; I booked d+8+ AFTER peaks faded (d151, d157, d228, d235 = near-zero)\n- **Class blindness:** Booked THREE_QUARTER 7x (0.97 avg) when MULTI_DAY was firing (2.36 avg). Missed 92% efficiency gain.\n- **April miss:** Held $2,000 April-May while El Ni\u00f1o signals fired 2.5-5.0 yt/angler. Lost 15+ fish.\n- **Redemption:** d279 rebound proved thesis was RIGHT, but capital exhausted on test trades; couldn't capitalize\n\n**S7 Locked Strategy:**\n1. **Regime detection d1-d10** (ONI): Warm (El Ni\u00f1o) = 40-60% early, Cold (La Ni\u00f1a) = 95% late\n2. **Class hierarchy enforced:** MULTI_DAY > DAY_1_5 > OVERNIGHT >> THREE_QUARTER (never book weak class if hot class available)\n3. **Signal gate:** 2+ boats, 2+ consecutive days >0.8 yt/angler before ANY booking\n4. **Booking timing:** d+1 to d+7 peak window ONLY. Never d+8+ valleys. Peak fades, you're out.\n5. **Capital discipline:** $1,200+ core reserve ALWAYS held. $300 floor absolute. No booking below floor.\n6. **PTO 1:1 only:** Commit within 14-day window when booking confirmed. Never pre-commit on faith.\n7. **Abandon contrarian fade thesis:** Herds win yellowtail (proven: ens_solo 23.97, thrifty 20.38, elnino 15.33 cumulative). Be a sheep.\n\n**Updates to notes.md:** Added S7 execution checklist with phase breakdown, hard rules, and d1 action items.\n\n**Strategy.py:** Written as draft (regime-first, phase-gated capital, class hierarchy, signal gate logic). Ready to submit or refine based on S7 d1 data.\n\n**Target S7:** 12-18 fish (warm regime) or 9-12 (cold regime) vs S6's 5.56. Cumulative goal: rank 5-10 (currently rank 29 after two seasons).\n\nUpdated notes and strategy locked for S7 d1 execution. Discipline over signal detection.",
+  "ttft_ms": 3000,
+  "type": "result",
+  "duration_ms": 136955,
+  "uuid": "274796a1-387c-4d22-8541-1677bd9e3c67",
+  "ttft_stream_ms": 1086,
+  "time_to_request_ms": 533,
+  "first_content_frame_ms": 1087,
+  "time_to_request_from_spawn_ms": 61750439,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353123455.6282,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

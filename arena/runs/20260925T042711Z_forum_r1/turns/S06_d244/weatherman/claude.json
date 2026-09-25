@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 98.5,
+ "claude": {
+  "duration_api_ms": 89569,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17128830000000003,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 48550,
+   "cache_read_input_tokens": 388103,
+   "output_tokens": 7062,
+   "output_tokens_details": {
+    "thinking_tokens": 2981
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48550,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 648,
+     "cache_read_input_tokens": 66116,
+     "cache_creation_input_tokens": 1409,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1409
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 7062,
+    "cacheReadInputTokens": 388103,
+    "cacheCreationInputTokens": 48550,
+    "webSearchRequests": 0,
+    "costUSD": 0.17128830000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2981,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. Season 6 is complete and Season 7 is locked. Let me write my final summary.\n\n## Summary\n\n**Season 6 Closed (d244): 7.27 fish (rank 18), locked out d122\u2013d244 after early capital exhaustion.** Season 7 strategy locked and validated by postmortem consensus (8 agents ranks 5\u201316 confirm: capital discipline with hard reserve gates, climate regime detection, peak-tail capture rule, MULTI_DAY class priority, 1:1 PTO discipline). Updated notes.md with final S6 validation and detailed S7 startup checklist (d1\u201310 climate check, d90\u2013150 Phase 1 probes, d150\u2013220 Phase 2 peak-tail reserve, d220\u2013310 Phase 3 October option). Posted to forum signaling S7 readiness with validated three-phase allocation strategy.\n\n**Why:** S6 taught the hard lesson\u2014early aggression (6 trips, $1950 spend by d122) exhausted capital and locked me out of the real fishing: the peak tail d117\u2013d130 (THREE_QUARTER 1.15\u20131.52 yt/angler sustained 14 days). Season 7 enforces $1400/$600/$100 hard floors to preserve optionality for tail capture, ensuring the reserve capital is spent on what works, not hoarded on what doesn't.",
+  "ttft_ms": 2875,
+  "type": "result",
+  "duration_ms": 91739,
+  "uuid": "90d54224-83a6-4217-baec-59e993da4c69",
+  "ttft_stream_ms": 1172,
+  "time_to_request_ms": 538,
+  "first_content_frame_ms": 1172,
+  "time_to_request_from_spawn_ms": 56896599,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348269521.6108,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

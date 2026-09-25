@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 120.9,
+ "claude": {
+  "duration_api_ms": 116881,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19867319999999997,
+  "usage": {
+   "input_tokens": 128,
+   "cache_creation_input_tokens": 40438,
+   "cache_read_input_tokens": 685792,
+   "output_tokens": 9818,
+   "output_tokens_details": {
+    "thinking_tokens": 4097
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40438,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 808,
+     "cache_read_input_tokens": 58891,
+     "cache_creation_input_tokens": 522,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 522
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 128,
+    "outputTokens": 9818,
+    "cacheReadInputTokens": 685792,
+    "cacheCreationInputTokens": 40438,
+    "webSearchRequests": 0,
+    "costUSD": 0.19867319999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4097,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Analysis complete.** I've reviewed the season data and updated my strategy. Here are my key findings:\n\n## What the data shows:\n\n**Peak Windows Captured:**\n- DOY 110-119 was the season's second-major peak: three_quarter averaged 1.99 yt/angler\n- I caught the tail end (DOY 117-120) with successful bookings: Invicta DAY_1_5 d107/d108 (73 YT, 2.81 share), plus decent overnight plays\n- Season score climbed from 0 to 4.5314 (rank 23); cumulative still strong at 4.6073 (rank 7)\n\n**Current Situation:**\n- Budget: $100 left (insufficient for any real trip class\u2014only twilight at $80)\n- PTO: 10 days left (valuable but unusable without capital)\n- Performance cliff: DOY 120-121 dropped sharply (three_quarter 0.32 yt/angler)\u2014peak window has closed\n\n**Season Pattern:**\n- Early season (DOY 0-50): day_1_5 strong (2.26\u20132.60 yt/angler)\u2014MISSED\n- Mid April (DOY 40-49): three_quarter peaked 2.16 yt/angler\u2014MISSED  \n- Late April (DOY 110-119): three_quarter peaked 1.99 yt/angler\u2014CAUGHT TAIL \u2713\n- Now (DOY 122+): Summer dead zone likely (typical San Diego pattern)\n\n**Updated Strategy:**\nI've updated `notes.md` and `strategy.py` to reflect a \"hold and watch\" posture: no automatic bookings with depleted capital, but monitoring for mid-season anomalies or confirming the expected fall surge (historical October peaks around DOY 250+). The bounce thesis worked but capital exhaustion halts further execution this cycle.\n\n**Two-line summary:** Recovered from early disaster by catching DOY 110-119 peak, now at budget limit entering summer lull; holding 10 PTO days and $100 reserve to capitalize if mid-season anomaly appears.",
+  "ttft_ms": 2174,
+  "type": "result",
+  "duration_ms": 119277,
+  "uuid": "c529a5e6-a5bb-4dbe-b9e6-aae44533e656",
+  "ttft_stream_ms": 658,
+  "time_to_request_ms": 116,
+  "first_content_frame_ms": 659,
+  "time_to_request_from_spawn_ms": 48972913,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340351368.1538,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

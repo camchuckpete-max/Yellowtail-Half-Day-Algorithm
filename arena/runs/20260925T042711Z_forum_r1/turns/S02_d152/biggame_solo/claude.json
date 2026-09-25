@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 106.2,
+ "claude": {
+  "duration_api_ms": 98490,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1323194,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 26876,
+   "cache_read_input_tokens": 378004,
+   "output_tokens": 8135,
+   "output_tokens_details": {
+    "thinking_tokens": 1479
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26876,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 554,
+     "cache_read_input_tokens": 44252,
+     "cache_creation_input_tokens": 1599,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1599
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 8135,
+    "cacheReadInputTokens": 378004,
+    "cacheCreationInputTokens": 26876,
+    "webSearchRequests": 0,
+    "costUSD": 0.1323194,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1479,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've analyzed the final S2 data and updated strategy for S3. Here's my summary:\n\n**What I found:** S2 had 482 total yellowtail across 1,038 trips (0.464 yt/trip), not the earlier estimate of ~5. This confirms it was a catastrophic fishery collapse: S1 averaged 4.939 yt/trip, making S2 a 10.6x decline. My long-trip preference (overnight, day_1_5) would have been especially punished: overnight fell from 8.1 to 0.677 yt/trip (12x drop), day_1_5 from 9.2 to 0.627 (15x drop). My decision to hold all budget and PTO was correct discipline.\n\n**What I changed:** Updated notes.md with corrected S2 analysis and refined S3 strategy. Key shift: no longer assume S1 patterns will repeat in S3. Instead, S3 Phase 1 focuses on pure exploration\u2014book modest trips early, monitor water temperature and fishdope for signal emergence, gate further spending on reaching >2 yt/trip fleet average by day 15. This is reactive, data-driven approach that respects that each season is independent.\n\nBudget preserved ($2,000) and PTO intact (10 days usable in S3)\u2014ready for real tournament start.",
+  "ttft_ms": 2785,
+  "type": "result",
+  "duration_ms": 100755,
+  "uuid": "eeaecd06-5682-49aa-af40-0067ba775690",
+  "ttft_stream_ms": 1138,
+  "time_to_request_ms": 595,
+  "first_content_frame_ms": 1138,
+  "time_to_request_from_spawn_ms": 31787691,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323161897.899,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

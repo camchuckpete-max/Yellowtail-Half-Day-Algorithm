@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 24.6,
+ "claude": {
+  "duration_api_ms": 21393,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.15896940000000004,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 26734,
+   "cache_read_input_tokens": 150437,
+   "output_tokens": 2193,
+   "output_tokens_details": {
+    "thinking_tokens": 330
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26734,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 239,
+     "cache_read_input_tokens": 50795,
+     "cache_creation_input_tokens": 1380,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1380
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 2193,
+    "cacheReadInputTokens": 150437,
+    "cacheCreationInputTokens": 26734,
+    "webSearchRequests": 0,
+    "costUSD": 0.15896940000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 330,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed from results.json/leaderboard.json (no arena_query needed): budget is still exactly $20/PTO 8, season_score frozen at 6.2032 since day 152 \u2014 below the $80 floor for any bookable class, so the season is locked through this doy290-310 window that the day-1 notes flagged as the season's best.\n\n**Summary:** Added a day-274 confirmation entry to notes.md (fifth check confirming the lockout holds, nothing bookable, season score final at 6.2032) and reiterated the S7 pacing lesson for next season's planning-turn-1 notes. No arena_query/eval calls made since prior checks already exhausted the useful analysis and nothing has changed to warrant re-querying.",
+  "ttft_ms": 1247,
+  "type": "result",
+  "duration_ms": 22939,
+  "uuid": "c5defd46-3e5c-4743-a5fa-42d6627e1af6",
+  "ttft_stream_ms": 596,
+  "time_to_request_ms": 164,
+  "first_content_frame_ms": 596,
+  "time_to_request_from_spawn_ms": 58624799,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790350003146.8176,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

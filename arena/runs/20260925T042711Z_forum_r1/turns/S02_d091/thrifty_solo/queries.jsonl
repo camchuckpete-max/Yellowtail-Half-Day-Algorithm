@@ -1,0 +1,2 @@
+{"tool": "arena_query", "sql": "SELECT index_id, value, avail_doy, avail_season FROM climate WHERE avail_season=2 AND index_id='oni' ORDER BY avail_t DESC LIMIT 6", "rows": 3, "seconds": 0.019, "ts": "2026-09-25T04:52:27"}
+{"tool": "arena_query", "sql": "SELECT yt_local, yt_all, migrated, stamp_kind, avail_doy FROM fishdope WHERE avail_season=2 ORDER BY avail_t DESC LIMIT 5", "rows": 5, "seconds": 0.007, "ts": "2026-09-25T04:52:31"}

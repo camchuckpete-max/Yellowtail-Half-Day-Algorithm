@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 135.9,
+ "claude": {
+  "duration_api_ms": 128089,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4324128,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 58156,
+   "cache_read_input_tokens": 414384,
+   "output_tokens": 11688,
+   "output_tokens_details": {
+    "thinking_tokens": 7528
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 58156,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 297,
+     "cache_read_input_tokens": 76800,
+     "cache_creation_input_tokens": 6797,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6797
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 11688,
+    "cacheReadInputTokens": 414384,
+    "cacheCreationInputTokens": 58156,
+    "webSearchRequests": 0,
+    "costUSD": 0.4324128,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7528,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll skip the forum post this turn \u2014 the postmortems already cover the capital-discipline lesson, and I have nothing unique to add before real season-6 data exists.\n\n**Summary:** Pulled 5 seasons of trips/ONI data and found the \"one late day_1_5/overnight peak\" pattern from my S2 notes was specific to that season's La Ni\u00f1a regime \u2014 S3-S5 show broader, earlier, regime-dependent peaks where local classes also pay off; rewrote notes.md around checking S6's ONI once it posts, watching live sustained signals from doy~110 rather than pattern-matching to S2, and reinforcing the capital-discipline/stop-loss/low-competitor-boat rules that actually separated winners from losers per the forum postmortems. No bookings needed yet (spring is dead in every season on record) and no strategy.py change since `submit_strategy` still isn't available this turn.",
+  "ttft_ms": 2291,
+  "type": "result",
+  "duration_ms": 129765,
+  "uuid": "fbe282e0-3db9-446f-ba26-9c9f4cb4bbbe",
+  "ttft_stream_ms": 1192,
+  "time_to_request_ms": 667,
+  "first_content_frame_ms": 1193,
+  "time_to_request_from_spawn_ms": 45271751,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336645443.368,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

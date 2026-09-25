@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 146.9,
+ "claude": {
+  "duration_api_ms": 137733,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.49118700000000004,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 54647,
+   "cache_read_input_tokens": 642575,
+   "output_tokens": 14404,
+   "output_tokens_details": {
+    "thinking_tokens": 7678
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 54647,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 77851,
+     "cache_creation_input_tokens": 2237,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2237
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 14404,
+    "cacheReadInputTokens": 642575,
+    "cacheCreationInputTokens": 54647,
+    "webSearchRequests": 0,
+    "costUSD": 0.49118700000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7678,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes saved. Skipping the forum post this turn \u2014 the macro read is already public and the specific boat-level edge (three_quarter fleet-wide at >1.6 ypa, Pacific Voyager/Penetrator/Mission Belle leading) is worth keeping private.\n\n**Summary:** Confirmed the real problem isn't the data \u2014 three_quarter is still paying out at 1.55 ypa pooled over 87 trips (whole fleet, not one boat) \u2014 it's that 31 straight nightly decisions produced zero bookings despite prior notes saying to book. Rewrote notes.md into a mechanical, hedge-proof checklist (book three_quarter whenever offered, no exceptions) plus a flag to check next time whether the nightly execution channel itself is broken if bookings are still empty.",
+  "ttft_ms": 2884,
+  "type": "result",
+  "duration_ms": 139490,
+  "uuid": "c89075b8-9397-4b6c-8418-baf3d4c03dc3",
+  "ttft_stream_ms": 1071,
+  "time_to_request_ms": 590,
+  "first_content_frame_ms": 1071,
+  "time_to_request_from_spawn_ms": 46397608,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337769948.3157,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 135.9,
+ "claude": {
+  "duration_api_ms": 127052,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.22608149999999996,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 55906,
+   "cache_read_input_tokens": 657415,
+   "output_tokens": 9684,
+   "output_tokens_details": {
+    "thinking_tokens": 3566
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 55906,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 460,
+     "cache_read_input_tokens": 73457,
+     "cache_creation_input_tokens": 1424,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1424
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 9684,
+    "cacheReadInputTokens": 657415,
+    "cacheCreationInputTokens": 55906,
+    "webSearchRequests": 0,
+    "costUSD": 0.22608149999999996,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3566,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01HuiFR95q1yQL5tEjjyRoSK",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d213/temp_first/RULES.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01C4EYJaShTW7xXLjmxcCmQG",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d213/temp_first/persona.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01HQJqQitbtPBicNjqtAua6i",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d213/temp_first/notes.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01SmDGmebxmHYVF7u4HBJu8s",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d213/temp_first/strategy.py"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my strategic analysis and updated my notes with decisive rules for the remainder of Season 6 and a framework for Season 7.\n\n**Two-line summary:**\n\nI pivoted successfully from October-only ideology to capitalize on the sustained September peak (d177-d212), achieving rank 4 with 18.15 fish and $150 budget remaining. Going forward, I'm holding capital dry through October, monitoring for confirmed warm signal (68\u00b0F+ sustained + fleet 1.0+ yt/angler 2+ days) to deploy my final reserve on a single decisive October multi-day trip, while locking in Season 7 rules: regime detection by d10, capital allocation by climate (60% April for El Ni\u00f1o, 95% October for La Ni\u00f1a), 2-day booking triggers, and an absolute reserve floor to prevent lockout.",
+  "ttft_ms": 2191,
+  "type": "result",
+  "duration_ms": 129421,
+  "uuid": "09fee945-5778-4c4e-94fb-a36a5d0fa91e",
+  "ttft_stream_ms": 991,
+  "time_to_request_ms": 423,
+  "first_content_frame_ms": 991,
+  "time_to_request_from_spawn_ms": 55139967,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346513260.0947,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

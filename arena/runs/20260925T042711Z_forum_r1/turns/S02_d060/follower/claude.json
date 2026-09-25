@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 110.3,
+ "claude": {
+  "duration_api_ms": 107023,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2853088,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 30221,
+   "cache_read_input_tokens": 369844,
+   "output_tokens": 9042,
+   "output_tokens_details": {
+    "thinking_tokens": 4276
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30221,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 314,
+     "cache_read_input_tokens": 51691,
+     "cache_creation_input_tokens": 3971,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3971
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 9042,
+    "cacheReadInputTokens": 369844,
+    "cacheCreationInputTokens": 30221,
+    "webSearchRequests": 0,
+    "costUSD": 0.2853088,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4276,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I confirmed via `arena_eval` that season-2 remains in the winter dead zone through day 60 (330 trips, only 3 yellowtail total, all on day_1_5 doy 20-29; every other class flat zero), climate is still solidly cool La Ni\u00f1a (ONI -1.48, PDO -1.80), and the whole forum field has gone silent since day 32 with everyone still at season_score 0 \u2014 nothing new to follow yet, so I skipped a forum post to avoid tipping our hand for no gain.\n\nI appended a day-60 check-in to `notes.md` with a concrete action plan for the nightly self: wait for a real bite signal (fishdope or fleet catch) before spending on the doy70+ spring window, prioritize 0-PTO weekend overnight/three_quarter trips, hold PTO/budget back for the higher-confidence fall window, and re-check the by-class data around doy 75-85 for the spring window's actual turn-on.",
+  "ttft_ms": 4031,
+  "type": "result",
+  "duration_ms": 108603,
+  "uuid": "d6cc461a-b6d7-4cf5-9dd4-d890296f45bd",
+  "ttft_stream_ms": 1513,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 1513,
+  "time_to_request_from_spawn_ms": 20304444,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311682973.5808,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

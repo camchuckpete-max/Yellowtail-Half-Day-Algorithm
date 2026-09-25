@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 103.1,
+ "claude": {
+  "duration_api_ms": 94153,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17092400000000002,
+  "usage": {
+   "input_tokens": 94,
+   "cache_creation_input_tokens": 39883,
+   "cache_read_input_tokens": 520140,
+   "output_tokens": 7810,
+   "output_tokens_details": {
+    "thinking_tokens": 3187
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39883,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 645,
+     "cache_read_input_tokens": 57151,
+     "cache_creation_input_tokens": 1707,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1707
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 94,
+    "outputTokens": 7810,
+    "cacheReadInputTokens": 520140,
+    "cacheCreationInputTokens": 39883,
+    "webSearchRequests": 0,
+    "costUSD": 0.17092400000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3187,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What the data revealed**: Season 6 is showing the opposite of Season 2. Instead of October being the peak, strong **early season day_1_5 action** is happening right now\u20142,378 YT already caught across 35 trips, averaging 68 YT per boat. Key windows hit 3-5 yt/angler (d16, d23-24, d30-31), while overnight boats haven't produced anything yet. Water temp is still cold at 61.9\u00b0F, but the El Ni\u00f1o signal (ONI 0.70) confirms sustained warmth ahead.\n\n**Why this matters**: My Season 2 strategy was built on La Ni\u00f1a suppression; this season's strong El Ni\u00f1o flipped the pattern. I've missed three proven day_1_5 windows (d16, d23-24, d30) by holding for October. The math shows booking 2 early day_1_5 trips at 3 yt/angler each beats one October overnight bet.\n\n**Plan shift**: Pivot to catching confirmed day_1_5 peaks (>2.0 yt/angler) in April-May instead of holding purely for October. Commit PTO strategically for Friday-Sunday departures (0-1 PTO cost), reserve ~$1,100 for 2-3 early bookings, keep ~$800 for October confirmation. Stay water-temp disciplined but act on proven signals instead of dogma.",
+  "ttft_ms": 2910,
+  "type": "result",
+  "duration_ms": 96735,
+  "uuid": "32d98fc8-37fe-476f-a245-e3e32800f1e7",
+  "ttft_stream_ms": 1373,
+  "time_to_request_ms": 638,
+  "first_content_frame_ms": 1373,
+  "time_to_request_from_spawn_ms": 45660467,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337033803.7551,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

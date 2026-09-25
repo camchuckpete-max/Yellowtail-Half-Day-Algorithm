@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 99.2,
+ "claude": {
+  "duration_api_ms": 95975,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2083711,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 48385,
+   "cache_read_input_tokens": 737401,
+   "output_tokens": 7549,
+   "output_tokens_details": {
+    "thinking_tokens": 1889
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48385,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 253,
+     "cache_read_input_tokens": 65239,
+     "cache_creation_input_tokens": 2121,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2121
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 7549,
+    "cacheReadInputTokens": 737401,
+    "cacheCreationInputTokens": 48385,
+    "webSearchRequests": 0,
+    "costUSD": 0.2083711,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1889,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Updated notes.md with S6 season retrospective and S7 strategy:** S6 is complete\u2014I ranked #1 (23.97 fish) by discovering and riding an extended peak from DOY 175-212 that contained not just one wave (d175-192) but a resurgence (d201-212) with multi-day classes hitting 5.889 yt/angler. Water temperature staying >68\u00b0F through d212 was the true peak signal. Cumulative position stayed close to elnino (15.27 vs 15.33) despite dominating this season. For S7, the strategy pivots to: (1) detect early peaks by DOY 14, (2) preserve capital during wave 1 for wave 2 resurgences, (3) prioritize multi-day classes (DAY_1_5/OVERNIGHT) when peaks confirm. The lesson: peaks have multiple waves; don't exhaust capital too early.",
+  "ttft_ms": 1747,
+  "type": "result",
+  "duration_ms": 97528,
+  "uuid": "6dc4befa-5efa-4c33-a35e-4f024ea56729",
+  "ttft_stream_ms": 601,
+  "time_to_request_ms": 105,
+  "first_content_frame_ms": 601,
+  "time_to_request_from_spawn_ms": 55185686,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346564107.0454,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

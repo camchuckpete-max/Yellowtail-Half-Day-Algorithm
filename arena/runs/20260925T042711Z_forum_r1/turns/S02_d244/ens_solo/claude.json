@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 112.5,
+ "claude": {
+  "duration_api_ms": 108809,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1646706,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 36108,
+   "cache_read_input_tokens": 431826,
+   "output_tokens": 9836,
+   "output_tokens_details": {
+    "thinking_tokens": 3441
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 36108,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 618,
+     "cache_read_input_tokens": 54166,
+     "cache_creation_input_tokens": 917,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 917
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 9836,
+    "cacheReadInputTokens": 431826,
+    "cacheCreationInputTokens": 36108,
+    "webSearchRequests": 0,
+    "costUSD": 0.1646706,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3441,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of planning turn:**\n\n**Finding:** Historical data reveals the scout trigger (fleet spike \u22650.8 yt/angler) will never fire in late September\u2014the max catch in doy 238-260 across both seasons was only 0.487 yt/angler. The real peak ramp doesn't start until doy 270 (Oct 5), when catches jump to 1.0+ yt/angler sustained.\n\n**Action:** Recalibrated strategy to extend Phase 1 dormant hold through doy 269, then activate Phase 2 watch at doy 270 for the first sign of ramp (\u22650.5 yt/angler or calendar arrival), then Phase 3 full assault doy 280-295. Water is now 66\u00b0F (good signal), fleet still in normal noise\u2014confirmed hold is correct play. Updated notes.md with revised phase schedule and next decision point (day 250, doy 268).",
+  "ttft_ms": 1748,
+  "type": "result",
+  "duration_ms": 110892,
+  "uuid": "e58f8549-a6b3-42de-9406-8210c98df35a",
+  "ttft_stream_ms": 632,
+  "time_to_request_ms": 124,
+  "first_content_frame_ms": 633,
+  "time_to_request_from_spawn_ms": 38414246,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329792794.3137,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

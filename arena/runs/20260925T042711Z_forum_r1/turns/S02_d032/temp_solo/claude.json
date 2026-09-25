@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 70.9,
+ "claude": {
+  "duration_api_ms": 65267,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.0925451,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 20050,
+   "cache_read_input_tokens": 240271,
+   "output_tokens": 5670,
+   "output_tokens_details": {
+    "thinking_tokens": 2497
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20050,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 507,
+     "cache_read_input_tokens": 37040,
+     "cache_creation_input_tokens": 1985,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1985
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 5670,
+    "cacheReadInputTokens": 240271,
+    "cacheCreationInputTokens": 20050,
+    "webSearchRequests": 0,
+    "costUSD": 0.0925451,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2497,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Updated notes with data-driven strategy.** Season 1 analysis reveals three distinct yellowtail peaks: spring (DOY 92-97), summer secondary (DOY 169-172), and especially fall (DOY 287-297 with 25-52 fish/trip). We're at day 32 with near-zero catches and cold water (57.86\u00b0F vs. needed 68\u00b0F+), so allocated 70% of budget for October's peak season. Will probe early season with cheap half-day bookings once water warms, and commit PTO strategically based on Scripps Pier temperature signals. Next checkpoint: day 35, assess warming trend to decide on first Friday PTO commitment for late May.",
+  "ttft_ms": 1786,
+  "type": "result",
+  "duration_ms": 66970,
+  "uuid": "38b59fed-01ae-45d0-ab40-202a86eb401a",
+  "ttft_stream_ms": 634,
+  "time_to_request_ms": 188,
+  "first_content_frame_ms": 635,
+  "time_to_request_from_spawn_ms": 19666492,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311042745.146,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "permissions": {
+  "allow": [
+   "Read(./**)",
+   "Write(./**)",
+   "Edit(./**)",
+   "mcp__arena__*"
+  ],
+  "deny": [
+   "Bash",
+   "WebFetch",
+   "WebSearch",
+   "Agent",
+   "Task",
+   "NotebookEdit",
+   "KillShell",
+   "BashOutput",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/yt/**)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/cache/**)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/arena/SPEC.md)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/arena/runs/**)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/arena/agents/**)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/arena/engine/**)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/arena/personas/**)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/DECISIONS.md)",
+   "Read(//home/user/Yellowtail-Half-Day-Algorithm/runs/**)",
+   "Read(//home/user/Daily-Fishing-Prediction/**)",
+   "Read(//tmp/**)",
+   "Read(~/**)"
+  ]
+ },
+ "includeCoAuthoredBy": false
+}

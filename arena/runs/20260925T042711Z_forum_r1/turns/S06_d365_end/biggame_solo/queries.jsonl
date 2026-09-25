@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4017, "ts": "2026-09-25T16:24:08"}
+{"tool": "arena_query", "sql": "\nSELECT boat, COUNT(*) as trips, AVG((yt / (anglers + 0.0)) * anglers) as avg_yt_per_trip\nFROM trips\nWHERE fish_date_season = 6 AND fish_date_doy BETWEEN 183 AND 215\nGROUP BY boat\nORDER BY avg_yt_per_trip DESC\nLIMIT 15;\n", "rows": 15, "seconds": 0.132, "ts": "2026-09-25T16:24:12"}

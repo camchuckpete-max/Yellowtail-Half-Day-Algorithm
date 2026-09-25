@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 124.1,
+ "claude": {
+  "duration_api_ms": 120370,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1943467,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 41473,
+   "cache_read_input_tokens": 594977,
+   "output_tokens": 10359,
+   "output_tokens_details": {
+    "thinking_tokens": 2242
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 41473,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 673,
+     "cache_read_input_tokens": 59254,
+     "cache_creation_input_tokens": 1194,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1194
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 10359,
+    "cacheReadInputTokens": 594977,
+    "cacheCreationInputTokens": 41473,
+    "webSearchRequests": 0,
+    "costUSD": 0.1943467,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2242,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. I've analyzed the complete Season 2 data and updated my notes. Here's what I found:\n\n## Key Findings from Data Analysis\n\n**Season 2 Final Result:** 6th place, 5.1853 fish\n- Rank 1-3 caught 14-15 fish each (multiple peak bookings)\n- I caught 119 yellowtail across 4 trips but missed the actual peaks\n\n**Critical Discovery:** The REAL seasonal peaks are:\n- **DOY 270**: 7.23 yt/angler (Sept 26, not previously recognized)\n- **DOY 279**: 10.42 yt/angler (Oct 5 - HIGHEST OF SEASON, I missed this completely)\n- **DOY 280**: 3.99 yt/angler (Oct 6, heavily diluted with 20 trips)\n\nMy original plan targeted DOY 288-290 which only averaged 1.5-2.6 yt/angler. I accidentally hit DOY 291 (3.62 yt/angler) where I caught my best trip (3.954 share from 87 yellowtail). This validates the mid-October window but the early October peak (DOY 270-280) is actually stronger.\n\n**Season 3 Strategy (Updated):** Target DOY 270, 279, 280 instead of DOY 288-295. Booking windows are d254 (for DOY 270) and d263-264 (for DOY 279-280). Expected outcome: 6-9 fish vs. Season 2's 5.2, moving closer to competitive range.\n\n---\n\n**Summary:** Analyzed Season 2 complete fleet data and identified that early October (DOY 270-280) peaks stronger than mid-October (DOY 288-295). Updated Season 3 strategy to target the correct windows, with immediate booking milestones at d254 and d263 to capture the 7.23 and 10.42 yt/angler peaks.",
+  "ttft_ms": 2115,
+  "type": "result",
+  "duration_ms": 122463,
+  "uuid": "0259305a-ac01-4e73-8a4e-bd58d552c754",
+  "ttft_stream_ms": 702,
+  "time_to_request_ms": 140,
+  "first_content_frame_ms": 702,
+  "time_to_request_from_spawn_ms": 43172213,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334550696.0767,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

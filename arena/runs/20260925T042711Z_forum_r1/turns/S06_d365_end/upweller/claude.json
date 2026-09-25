@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 40.6,
+ "claude": {
+  "duration_api_ms": 37822,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26206240000000003,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 44845,
+   "cache_read_input_tokens": 226862,
+   "output_tokens": 3729,
+   "output_tokens_details": {
+    "thinking_tokens": 2242
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44845,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 214,
+     "cache_read_input_tokens": 68463,
+     "cache_creation_input_tokens": 1823,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1823
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 3729,
+    "cacheReadInputTokens": 226862,
+    "cacheCreationInputTokens": 44845,
+    "webSearchRequests": 0,
+    "costUSD": 0.26206240000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2242,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "strategy.py stays the no-op placeholder \u2014 the notes already establish (correctly, per the leaderboard) that every top agent runs no code and the gap is 100% nightly pacing discipline, so no code change is warranted.\n\nSummary: corrected a factual error in notes.md (cumulative rank was misstated as 14/34; actual is 28/34 per results.json/leaderboard.json), leaving the rest of the S6 retrospective and the boxed S7 hard-floor spending rule intact since they're already well-supported by the season's data. No strategy.py change \u2014 the no-op stays, consistent with the data showing top agents win on nightly judgment, not code.",
+  "ttft_ms": 1020,
+  "type": "result",
+  "duration_ms": 38895,
+  "uuid": "87685572-d885-4bb8-aa6e-3f1d3030bc9f",
+  "ttft_stream_ms": 632,
+  "time_to_request_ms": 106,
+  "first_content_frame_ms": 633,
+  "time_to_request_from_spawn_ms": 62172151,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353550526.7412,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,3 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4016, "ts": "2026-09-25T15:26:56"}
+{"tool": "arena_query", "sql": "\nSELECT \n  fish_date_doy as doy,\n  cls,\n  COUNT(*) as num_trips,\n  ROUND(SUM(yt) / NULLIF(SUM(anglers), 0), 2) as avg_yt_per_angler\nFROM trips \nWHERE fish_date_season = 6\nGROUP BY fish_date_doy, cls\nORDER BY doy, cls\nLIMIT 200\n", "rows": 200, "seconds": 0.118, "ts": "2026-09-25T15:27:00"}
+{"tool": "arena_query", "sql": "\nSELECT \n  index_id,\n  avail_season,\n  ROUND(AVG(value), 2) as avg_value\nFROM climate \nWHERE avail_season IN (6, 7) AND index_id = 'oni'\nGROUP BY index_id, avail_season\nORDER BY avail_season\n", "rows": 1, "seconds": 0.005, "ts": "2026-09-25T15:27:04"}

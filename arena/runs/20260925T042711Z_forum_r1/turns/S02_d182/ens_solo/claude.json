@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 74.0,
+ "claude": {
+  "duration_api_ms": 70131,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.12137710000000002,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 26450,
+   "cache_read_input_tokens": 378001,
+   "output_tokens": 6117,
+   "output_tokens_details": {
+    "thinking_tokens": 2400
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26450,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 698,
+     "cache_read_input_tokens": 44916,
+     "cache_creation_input_tokens": 509,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 509
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 6117,
+    "cacheReadInputTokens": 378001,
+    "cacheCreationInputTokens": 26450,
+    "webSearchRequests": 0,
+    "costUSD": 0.12137710000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2400,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of S02 Day 182 Analysis:**\n\n**Current Position (Solid):**\n- Rank 13/34 with minimal deployment: only $150 spent, 0.2 fish captured, $1850 and 4 PTO days remaining\n- Leaders (skeptic_solo, calendarist, upweller) at 0.7\u20130.8 fish; our dormant strategy is catching them despite caution\n- Water 57.2\u00b0F (cold, far below 64\u201365\u00b0F trigger); fleet dead zone confirmed (0.0\u20130.327 yt/angler across last 10 days)\n\n**Phase 1 Hold Validated (doy 91\u2013260):**\nThe dead zone is real and tight through late September. May spike (66.7\u00b0F) was correctly identified as noise. Historical peak (doy 280\u2013299) averaged 1.09+ yt/angler with max 2.6 \u2014 a 3\u20135\u00d7 edge over current fleet, confirming 78-day wait is justified.\n\n**Next Milestones:**\n- **Day 250 (doy 268):** Check water temp trend for upwelling signal start\n- **Day 265\u2013270 (doy 283\u2013288):** Scout phase window \u2014 trigger only if dual signal fires (water \u226565\u00b0F AND fleet spike \u22650.8\u20131.0 yt/angler)\n- **Day 280\u2013299:** Phase 3 assault with 3\u20134 day_1_5 trips ($1,700 budget, 4 flex PTO days) if scout confirms peak\n\nUpdated `notes.md` with findings and `journal.md` with current status. Strategy locked and discipline holding.",
+  "ttft_ms": 1848,
+  "type": "result",
+  "duration_ms": 72086,
+  "uuid": "23152b12-482e-43a4-a2c9-2a02a80a7990",
+  "ttft_stream_ms": 623,
+  "time_to_request_ms": 111,
+  "first_content_frame_ms": 623,
+  "time_to_request_from_spawn_ms": 34118375,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325496616.3953,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

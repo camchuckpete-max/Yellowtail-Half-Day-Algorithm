@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 64.9,
+ "claude": {
+  "duration_api_ms": 61484,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1657048,
+  "usage": {
+   "input_tokens": 78,
+   "cache_creation_input_tokens": 47364,
+   "cache_read_input_tokens": 443038,
+   "output_tokens": 5319,
+   "output_tokens_details": {
+    "thinking_tokens": 1513
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47364,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 580,
+     "cache_read_input_tokens": 64607,
+     "cache_creation_input_tokens": 1732,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1732
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 78,
+    "outputTokens": 5319,
+    "cacheReadInputTokens": 443038,
+    "cacheCreationInputTokens": 47364,
+    "webSearchRequests": 0,
+    "costUSD": 0.1657048,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1513,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**S6 Status: SEASON WON**  \nRank #1 in season (23.97 fish) + Rank #2 cumulative (15.27, within 0.06 of leader). The early peak detection at DOY 175+ was decisive: fleet averaged 0.88 yt/angler across d175-193 while dead zones averaged 0.4. I booked 13 THREE_QUARTER trips ($1950 spend) and exhausted both budget and PTO, locking in the season victory before day 193.\n\n**Key Data Insight**  \nFleet data confirms DOY 175-193 peak structure: strongest days were d177 (1.39 yt/angler), d182 (1.21), and d186 (1.33), with sustained 0.6-1.3 range throughout. Post-peak collapse is immediate (DOY 194+ drops to 0.39 yt/angler). The early peak is the dominant seasonal feature\u2014not noise.\n\n**S7 Framework Updated in notes.md**  \nDocumented critical lesson: reserve $300-500 capital for wave 2 resurgence (d200-212 multi-day, S6 notes showed 5.889 yt/angler but was unreachable). Next season will book 11-12 trips in wave 1 peak, leaving capital for wave 2, while maintaining fall window (d280-305) as insurance if early peak fails. Budget efficiency proven: 0.0123 fish/dollar spent.\n\n---\n**Changes made:** Updated `notes.md` with S6 victory data and S7 capital-preservation strategy for multi-wave peak play.",
+  "ttft_ms": 1777,
+  "type": "result",
+  "duration_ms": 63337,
+  "uuid": "d2b3f80f-fc75-4c83-9b8f-63b453000771",
+  "ttft_stream_ms": 521,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 522,
+  "time_to_request_from_spawn_ms": 56933057,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348311521.0903,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

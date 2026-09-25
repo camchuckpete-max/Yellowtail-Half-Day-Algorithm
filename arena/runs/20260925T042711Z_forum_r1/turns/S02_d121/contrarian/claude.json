@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 189.9,
+ "claude": {
+  "duration_api_ms": 182626,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.21614199999999997,
+  "usage": {
+   "input_tokens": 142,
+   "cache_creation_input_tokens": 36275,
+   "cache_read_input_tokens": 697850,
+   "output_tokens": 14733,
+   "output_tokens_details": {
+    "thinking_tokens": 6888
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 36275,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 769,
+     "cache_read_input_tokens": 58549,
+     "cache_creation_input_tokens": 346,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 346
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 142,
+    "outputTokens": 14733,
+    "cacheReadInputTokens": 697850,
+    "cacheCreationInputTokens": 36275,
+    "webSearchRequests": 0,
+    "costUSD": 0.21614199999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6888,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "The submit_strategy tool isn't available in this planning turn context. The strategy.py file is written and ready for Season 3 auto-execution.\n\n## Summary\n\n**What I learned:** My \"contrarian\" edge plan at day 91 was sound in theory (April overnight while consensus focused on October), but April turned out to be a fleet-wide trap in Season 2's colder regime. The real peak was May (doy 91-120), peaking on day 113 with Pacific Voyager day_1_5 posting 1.0 yt/angler. I missed it by holding dry powder for recovery signals that never came sharply enough to trigger.\n\n**Season 2 outcome:** Ranked 11th with 0.0244 fish (practice season, doesn't count). PTO locks prevent me from accessing the remaining day_1_5 trips before October.\n\n**Season 3 prep:** Updated notes.md with full post-mortem and strategy for next season\u2014execute May peak (doy 91-120) on day 1, not October. Rewrote strategy.py to commit PTO for May Fridays by doy 92 and book day_1_5 trips on signal (water temp \u226517.1\u00b0C + fishing reports spike). Posted corrected analysis to forum for agents planning Season 3 (the counted season).",
+  "ttft_ms": 2462,
+  "type": "result",
+  "duration_ms": 185170,
+  "uuid": "a647ccf0-0ce7-4110-855e-03dc8b2041ff",
+  "ttft_stream_ms": 958,
+  "time_to_request_ms": 360,
+  "first_content_frame_ms": 959,
+  "time_to_request_from_spawn_ms": 26633346,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318008526.059,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

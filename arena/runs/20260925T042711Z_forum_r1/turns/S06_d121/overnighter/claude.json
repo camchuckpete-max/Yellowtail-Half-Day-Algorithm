@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 78.0,
+ "claude": {
+  "duration_api_ms": 74707,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1649512,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 39833,
+   "cache_read_input_tokens": 520182,
+   "output_tokens": 6635,
+   "output_tokens_details": {
+    "thinking_tokens": 2318
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39833,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 411,
+     "cache_read_input_tokens": 57791,
+     "cache_creation_input_tokens": 1017,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1017
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 6635,
+    "cacheReadInputTokens": 520182,
+    "cacheCreationInputTokens": 39833,
+    "webSearchRequests": 0,
+    "costUSD": 0.1649512,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2318,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Analysis complete.** S6 shows an atypical early-season THREE_QUARTER run (d115-d120: 1.5-2.1 yt/angler), now cooling. Water temperature is warming as expected (18\u00b0C \u2192 October peak 20-21\u00b0C). Historical data confirms October peaks (DOY 284-300) hit 1.5-2.4 yt/angler aggregated, with individual days reaching 5-9 yt/angler mid-window. Strategy holds: stay disciplined, no bookings until d270 PTO commitment window, then execute 3-4 DAY_1_5 trips d280-295 for target 5-8 fish. Updated notes.md with anomaly findings and next checkpoints.",
+  "ttft_ms": 2437,
+  "type": "result",
+  "duration_ms": 76387,
+  "uuid": "07c6a219-1b8d-4f71-b0b1-92bf94b968fc",
+  "ttft_stream_ms": 666,
+  "time_to_request_ms": 121,
+  "first_content_frame_ms": 666,
+  "time_to_request_from_spawn_ms": 48957359,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340335810.3174,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

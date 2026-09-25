@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 71.6,
+ "claude": {
+  "duration_api_ms": 62654,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1396267,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 40917,
+   "cache_read_input_tokens": 289227,
+   "output_tokens": 5762,
+   "output_tokens_details": {
+    "thinking_tokens": 2186
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40917,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 587,
+     "cache_read_input_tokens": 57508,
+     "cache_creation_input_tokens": 2384,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2384
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 5762,
+    "cacheReadInputTokens": 289227,
+    "cacheCreationInputTokens": 40917,
+    "webSearchRequests": 0,
+    "costUSD": 0.1396267,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2186,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Season 6 Analysis Complete:** I discovered two missed windows \u2014 the primary gate (D60-D92, peak at D85-D86: 21-35 yt/trip) and a secondary peak (D240-D244: 8+ yt/trip) that I couldn't reach due to budget exhaustion by D115. Boat selection was poor (Prowler 17.33, Invicta 13.4 yt/trip vs San Diego 71.29, Pacific Voyager 66.5).\n\n**Season 7 Strategy Updated:** Locked to immediate action at first 2.0+ signal (D60-D75), commit PTO for Friday entries, book San Diego/Pacific Voyager only, and pace budget to reserve $500-700 for the secondary D240-D244 window. This two-window model plus strong boat selection should yield 12-18 fish.",
+  "ttft_ms": 3292,
+  "type": "result",
+  "duration_ms": 64991,
+  "uuid": "f01e7cdc-fed8-470e-8df0-0c697ca98605",
+  "ttft_stream_ms": 1242,
+  "time_to_request_ms": 609,
+  "first_content_frame_ms": 1243,
+  "time_to_request_from_spawn_ms": 56896922,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348269894.2314,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

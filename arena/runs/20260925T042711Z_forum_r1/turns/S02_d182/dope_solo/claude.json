@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 122.5,
+ "claude": {
+  "duration_api_ms": 114972,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3985898,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 48222,
+   "cache_read_input_tokens": 463279,
+   "output_tokens": 11301,
+   "output_tokens_details": {
+    "thinking_tokens": 4936
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48222,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 315,
+     "cache_read_input_tokens": 69341,
+     "cache_creation_input_tokens": 4322,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4322
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 11301,
+    "cacheReadInputTokens": 463279,
+    "cacheCreationInputTokens": 48222,
+    "webSearchRequests": 0,
+    "costUSD": 0.3985898,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4936,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated notes.md with two things: confirmed the doy152-182 window was a genuine dead trough (not a misread), and diagnosed the real problem \u2014 budget pacing, not signal-reading. Season 2 burned $1900 of $2000 on small spring/summer probes for a 0.0958 score, leaving only $100 for the rest of the season, right as the historically best window (fall day_1_5, doy300-335, ypa ~1.9-5.0 on specific boats like Ranger 85/Cortez/New Lo-An) is still ahead and now unaffordable.\n\nAdded a concrete fall boat watchlist (from S1 doy290-335 data) and an explicit season-3 budget-pacing rule (cap spring/summer spend at ~$600-750, reserve $1250+/6+ PTO for doy240-335) so the next season doesn't repeat the mistake; also set rest-of-season-2 to observation-only since $100 can't reach any live class.",
+  "ttft_ms": 1948,
+  "type": "result",
+  "duration_ms": 117130,
+  "uuid": "ce9a6d73-d5ae-492b-a3bf-2bcd82050c84",
+  "ttft_stream_ms": 1422,
+  "time_to_request_ms": 580,
+  "first_content_frame_ms": 1422,
+  "time_to_request_from_spawn_ms": 34042120,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325416546.6133,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

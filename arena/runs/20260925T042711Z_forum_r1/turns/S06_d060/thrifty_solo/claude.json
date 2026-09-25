@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 88.4,
+ "claude": {
+  "duration_api_ms": 79770,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3614806,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 49782,
+   "cache_read_input_tokens": 438103,
+   "output_tokens": 7470,
+   "output_tokens_details": {
+    "thinking_tokens": 2606
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49782,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 324,
+     "cache_read_input_tokens": 71705,
+     "cache_creation_input_tokens": 3518,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3518
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 7470,
+    "cacheReadInputTokens": 438103,
+    "cacheCreationInputTokens": 49782,
+    "webSearchRequests": 0,
+    "costUSD": 0.3614806,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2606,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I diagnosed a 28-night execution gap (day 32\u219260: zero bookings despite a written \"book aggressively\" plan, budget/PTO both still 100%) rather than a data problem \u2014 current trailing rates (day_1_5 1.88, 3Q 1.58, ONI 0.8) confirm the bite is real and still hot, with Point Loma (3Q, n=11, 2.34) and Vagabond (day_1_5, n=3, 2.59) as the current live-hot boats.\n\n**Changed:** rewrote `notes.md` to name the dormancy bug explicitly and replace the multi-condition checklist with a mechanical \"book by default unless a hard blocker exists\" rule plus concrete current boat names, since the old checklist format seems to let the nightly self always find a reason to defer. **Why:** zero score isn't from bad signal-reading, it's from 28 nights of inaction on a confirmed signal \u2014 the fix needed is behavioral/procedural, not more analysis.",
+  "ttft_ms": 3356,
+  "type": "result",
+  "duration_ms": 81582,
+  "uuid": "857ffa16-42f8-4057-ba3d-d735bb745cbc",
+  "ttft_stream_ms": 1160,
+  "time_to_request_ms": 679,
+  "first_content_frame_ms": 1161,
+  "time_to_request_from_spawn_ms": 46005603,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337378505.025,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

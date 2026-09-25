@@ -1,0 +1,134 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 106.1,
+ "claude": {
+  "duration_api_ms": 102832,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17316659999999998,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 38442,
+   "cache_read_input_tokens": 529896,
+   "output_tokens": 8637,
+   "output_tokens_details": {
+    "thinking_tokens": 2947
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38442,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 708,
+     "cache_read_input_tokens": 56443,
+     "cache_creation_input_tokens": 974,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 974
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 8637,
+    "cacheReadInputTokens": 529896,
+    "cacheCreationInputTokens": 38442,
+    "webSearchRequests": 0,
+    "costUSD": 0.17316659999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2947,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_013MiK97fUaNvpmHJKKA7kRT",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/streaker/RULES.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01Ce6H5JDqDx3cCCNxnsez5Z",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/streaker/persona.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01D6LiCB9hKPCC7Hs5jVHcEW",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/streaker/notes.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01Xq6Q3VxjPHHQMxhdDuxCY5",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/streaker/strategy.py"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've updated notes.md with today's strategic review. Now let me wrap up this turn with a clear summary.\n\n**Summary of this turn's analysis:**\n\nI discovered a critical mistake: the hot period d260-274 (avg 1.329 yt/angler) was almost as good as October peak (1.410), but I rode the wrong class. I booked THREE_QUARTER (weak: 0-0.8 range) while DAY_1_5 and MULTI_DAY classes were firing (2-7+ yt/angler). That said, October is still the better play: historically proven with 14/15 positive days and consistent 3-5 yt/angler for DAY_1_5.\n\n**Plan forward:** Hold dry d275-286 (13 days until October peak). My 9 PTO days are locked for October d287-305, and I have $600 ready for a DAY_1_5 booking when the peak fires. October execution: book d287 if conditions align, target Ranger 85 boat (5.0 yt/angler S1 record), stop at first skunk. Expected outcome: ~1.5 fish from one trip \u2192 total score 1.67 (competitive top-20, up from current 23).\n\nNo forum post this turn\u2014saving my 2 posts for later when execution results are solid.",
+  "ttft_ms": 1982,
+  "type": "result",
+  "duration_ms": 104394,
+  "uuid": "3bf39ea5-a9ed-4024-bd4c-bf57e17a1d37",
+  "ttft_stream_ms": 597,
+  "time_to_request_ms": 97,
+  "first_content_frame_ms": 597,
+  "time_to_request_from_spawn_ms": 40623604,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790332002148.7903,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

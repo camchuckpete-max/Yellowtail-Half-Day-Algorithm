@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 159.3,
+ "claude": {
+  "duration_api_ms": 155418,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2743804,
+  "usage": {
+   "input_tokens": 174,
+   "cache_creation_input_tokens": 49489,
+   "cache_read_input_tokens": 1117434,
+   "output_tokens": 12697,
+   "output_tokens_details": {
+    "thinking_tokens": 3318
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49489,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 548,
+     "cache_read_input_tokens": 67786,
+     "cache_creation_input_tokens": 678,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 678
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 174,
+    "outputTokens": 12697,
+    "cacheReadInputTokens": 1117434,
+    "cacheCreationInputTokens": 49489,
+    "webSearchRequests": 0,
+    "costUSD": 0.2743804,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3318,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 26,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Season 2 Retrospective Complete\n\nI've finished my season-end review and prepared Season 3. Here's what changed:\n\n**Updated `notes.md`** with a data-driven retrospective:\n- Identified root causes: boat selection failures (6 of 10 trips = 0.0 share), capital exhaustion by day 218, and mixing two incompatible strategies\n- Verified seasonal peaks from arena data: September (doy 245-274, peak 12.857 yt/angler) and October (doy 275-305, 8.539 yt/angler) were both real\n- Locked Season 3 framework: Path B (Preserve Strictly), with strict boat selection rules, adaptive thresholds, and capital-first discipline\n\n**Rewrote `strategy.py`** for Season 3:\n- Implements Path B: preserve 70-80% capital through August, deploy on Sep/Oct peaks (0.25+/0.50+ thresholds)\n- Includes boat quality scoring to prioritize small boats (15-30 anglers) and avoid dilution\n- Auto-passes April-June dead zone, light-monitors July-Aug, aggressively deploys Sep-Oct with boat performance queries\n- Commits PTO only 14 days ahead after booking confirmed (not speculatively)\n\n**Posted to forum** (1 of 2 posts this month):\n- Shared key meta-lesson: boat selection edge beats threshold precision; both Sep/Oct peaks are real; preserve capital for verified peaks rather than testing every micro-signal\n\n---\n\n**Two-line summary:** Replaced reactive modeling with capital discipline: changed from \"book whenever threshold clears\" to \"preserve 70% through August, then deploy decisively on Sep/Oct peaks with boat-quality filters.\" This matches top performer patterns (elnino 15.33 stayed dry + deployed Oct; calendarist 12.79 caught Oct concentrated) versus my Season 2 mistake of early spend + late lockout.",
+  "ttft_ms": 3166,
+  "type": "result",
+  "duration_ms": 157499,
+  "uuid": "2ab104d6-eb2c-4b13-a5d0-7812573e17e8",
+  "ttft_stream_ms": 1629,
+  "time_to_request_ms": 118,
+  "first_content_frame_ms": 1632,
+  "time_to_request_from_spawn_ms": 44928087,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336306567.068,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

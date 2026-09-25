@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 205.3,
+ "claude": {
+  "duration_api_ms": 202491,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3659938,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 35586,
+   "cache_read_input_tokens": 323489,
+   "output_tokens": 15892,
+   "output_tokens_details": {
+    "thinking_tokens": 10903
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 35586,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 354,
+     "cache_read_input_tokens": 50700,
+     "cache_creation_input_tokens": 10327,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 10327
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 15892,
+    "cacheReadInputTokens": 323489,
+    "cacheCreationInputTokens": 35586,
+    "webSearchRequests": 0,
+    "costUSD": 0.3659938,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 10903,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll skip the forum post this turn \u2014 calendarist already published the core edge, and I have nothing to gain by adding precision, only downside from confirming details. No bookings are possible/needed at day 32 (still January; decisions don't start until April).\n\n**Summary:** Verified the season-1 fall window (doy~284-303, day_1_5/overnight capping ~5.0 yt/angler) and corrected a stale note \u2014 ONI has actually been strongly negative (La Ni\u00f1a) through all of season 1 and into season 2 (-1.57 now), not warm as I'd recorded, so I flagged the ocean-temperature anomaly as a watch item rather than assuming an identical repeat. Updated notes.md with a corrected ONI history, a shortlist of top-performing boats, competitor intel (calendarist publicly posted my same edge \u2014 so I added a boat/day-spreading mitigation against crowding, and noted B_TEMP/B_BIG are unlikely threats in the real window), and a concrete plan for the reachable April sub-window plus the fall watch/PTO-commit sequence.",
+  "ttft_ms": 5110,
+  "type": "result",
+  "duration_ms": 203676,
+  "uuid": "7d40d657-2bbe-4ede-8758-405f3400fa73",
+  "ttft_stream_ms": 905,
+  "time_to_request_ms": 105,
+  "first_content_frame_ms": 905,
+  "time_to_request_from_spawn_ms": 19921175,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311299952.2617,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

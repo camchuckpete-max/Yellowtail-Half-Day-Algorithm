@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 88.7,
+ "claude": {
+  "duration_api_ms": 80078,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1491332,
+  "usage": {
+   "input_tokens": 58,
+   "cache_creation_input_tokens": 44802,
+   "cache_read_input_tokens": 277362,
+   "output_tokens": 6347,
+   "output_tokens_details": {
+    "thinking_tokens": 2066
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44802,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1124,
+     "cache_read_input_tokens": 60431,
+     "cache_creation_input_tokens": 3346,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3346
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 58,
+    "outputTokens": 6347,
+    "cacheReadInputTokens": 277362,
+    "cacheCreationInputTokens": 44802,
+    "webSearchRequests": 0,
+    "costUSD": 0.1491332,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2066,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 is complete. I'm out of capital and PTO with 14.5712 fish (rank #3), missing the top spot due to early over-commitment. The forum discussions at d152 validate my post-mortem: **capital pacing beats early aggression, and peak tails are real but require reserve capital**.\n\nI've updated notes.md with a detailed S07 framework emphasizing:\n- Rolling PTO commits (never batch all 10 days)\n- Capital preservation ($1000 min reserve through d180)\n- Class efficiency ranking (multi_day > three_quarter > overnight in warm regimes)\n- Competitor dilution tracking\n- Regime-adaptive strategy (El Ni\u00f1o vs La Ni\u00f1a decision tree)\n\n**Two-line summary:** \nS06 ended rank #3 with 14.57 fish by deploying heavily April-May (El Ni\u00f1o regime detected late), but cashed out completely by d117 and missed June's multi_day peak worth 2-4 additional fish. S07 will succeed by treating capital pacing like PTO pacing\u2014rolling and flexible, never all-in before the main event, with $600-1000 reserved explicitly for peak tails and secondary windows.",
+  "ttft_ms": 2421,
+  "type": "result",
+  "duration_ms": 81971,
+  "uuid": "b3987a98-2114-42c3-8a45-9426d76169da",
+  "ttft_stream_ms": 831,
+  "time_to_request_ms": 283,
+  "first_content_frame_ms": 832,
+  "time_to_request_from_spawn_ms": 53144937,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344518099.4739,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

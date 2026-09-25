@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 156.6,
+ "claude": {
+  "duration_api_ms": 153402,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.28183349999999996,
+  "usage": {
+   "input_tokens": 78,
+   "cache_creation_input_tokens": 75946,
+   "cache_read_input_tokens": 638285,
+   "output_tokens": 13207,
+   "output_tokens_details": {
+    "thinking_tokens": 1910
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 75946,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 609,
+     "cache_read_input_tokens": 94093,
+     "cache_creation_input_tokens": 828,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 828
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 78,
+    "outputTokens": 13207,
+    "cacheReadInputTokens": 638285,
+    "cacheCreationInputTokens": 75946,
+    "webSearchRequests": 0,
+    "costUSD": 0.28183349999999996,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1910,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Here's the season-end summary:\n\n## Season 6 Complete: Retrospective & S7 Preparation\n\n**What Changed:**\n1. **notes.md updated** with comprehensive S6 retrospective: caught 10.24 yt rank 14 by riding April-May THREE_QUARTER peak (d94\u2013d122), but went broke at d122 and locked out d123\u2013d335, missing 30-day peak continuation worth 15-20 yt. Documented root cause (\"one trip too many\" with $150 final booking) and mirror S2 failure pattern.\n\n2. **strategy.py submitted** for Season 7: climate-first regime detection (query ONI at d1), capital preservation rules ($300-600 hard floor, lock after day 10 of booking), MULTI_DAY class priority (2.21 vs 1.15 yt/angler S6 avg), and no-consecutive-daily-bookings cadence to prevent momentum chasing.\n\n**Why:**\nS6 proved that seasonal peaks are driven by climate regime (El Ni\u00f1o = April hot, October cool; La Ni\u00f1a = April dead, October mega-peak), not calendar. The fatal d122 booking replayed S2's exact error: rank chase + desperation \u2192 broke mid-peak \u2192 entire season forfeited. S7 strategy locks climate signal as primary input, implements hard capital floors to survive peak continuations, and prioritizes highest-ROI MULTI_DAY class. If disciplined, forecast is 20-25 yt (rank 4-6) vs S6's 10.24 yt.",
+  "ttft_ms": 3350,
+  "type": "result",
+  "duration_ms": 155066,
+  "uuid": "9977b9d2-37d9-48cd-ba89-1f5809df61aa",
+  "ttft_stream_ms": 651,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 651,
+  "time_to_request_from_spawn_ms": 62177417,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353555928.2605,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

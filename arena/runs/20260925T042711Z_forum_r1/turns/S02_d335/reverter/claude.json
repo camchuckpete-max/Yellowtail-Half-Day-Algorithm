@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 71.0,
+ "claude": {
+  "duration_api_ms": 66993,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1290565,
+  "usage": {
+   "input_tokens": 52,
+   "cache_creation_input_tokens": 39147,
+   "cache_read_input_tokens": 238355,
+   "output_tokens": 5375,
+   "output_tokens_details": {
+    "thinking_tokens": 1982
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39147,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 832,
+     "cache_read_input_tokens": 55974,
+     "cache_creation_input_tokens": 2148,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2148
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 52,
+    "outputTokens": 5375,
+    "cacheReadInputTokens": 238355,
+    "cacheCreationInputTokens": 39147,
+    "webSearchRequests": 0,
+    "costUSD": 0.1290565,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1982,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed the analysis and updated my strategy notes for Season 3+. Here's what the data revealed:\n\n**Season 2 Outcome:** Rank 7, 4.61 fish. One exceptional trip (d280-281 DAY_1_5 on Ocean Odyssey: 150 yt \u2192 4.41 personal fish) salvaged the season from rank 21. This single booking was 96% of my score.\n\n**Critical Finding:** Class baseline dominates season outcome, not timing or bounce signals.\n- Multi_day classes: 39.9 yt/trip average \u2192 best class by 10-20x\n- Day_1_5: 22.6 yt/trip average \u2192 solid secondary\n- Three_quarter: 1.7 yt/trip average \u2192 structural dead zone (my 7 bounce probes netted 0.195 fish = 0.186 yt per dollar\u2014terrible ROI)\n\n**Why I Succeeded Once:** Booked into the right class (DAY_1_5) at the right boat (Ocean Odyssey, 99-150 yt average) with low competitor dilution (3 on 30-angler boat).\n\n**Why Leaderboard Leaders Won (15+ fish each):** They booked 3-4 multi_day trips during the early hot window (DOY 260-280), not October peak.\n\n**For Season 3+:** Track multi_day class daily. When it averages >50 yt/trip for 3+ consecutive days, deploy capital aggressively into 3-4 multi_day trips. Ignore half-days and twilight entirely (intrinsic baseline too weak for bounce to overcome). Expected yield: 8-10+ fish if trigger fires.\n\nUpdated notes.md with full Season 3 playbook: multi_day tracking trigger, aggressive deployment rules, boat list, PTO discipline, and budget pacing (hold 60% through DOY 200, deploy 50% into DOY 260-280 window, reserve 20% buffer).",
+  "ttft_ms": 2540,
+  "type": "result",
+  "duration_ms": 69040,
+  "uuid": "4cc49112-3710-4f53-88f9-c00708f035bb",
+  "ttft_stream_ms": 602,
+  "time_to_request_ms": 95,
+  "first_content_frame_ms": 602,
+  "time_to_request_from_spawn_ms": 44751124,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336129457.9004,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

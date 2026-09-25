@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 119.6,
+ "claude": {
+  "duration_api_ms": 116755,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1493824,
+  "usage": {
+   "input_tokens": 138,
+   "cache_creation_input_tokens": 23862,
+   "cache_read_input_tokens": 526404,
+   "output_tokens": 9776,
+   "output_tokens_details": {
+    "thinking_tokens": 3581
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23862,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 613,
+     "cache_read_input_tokens": 41903,
+     "cache_creation_input_tokens": 934,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 934
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 138,
+    "outputTokens": 9776,
+    "cacheReadInputTokens": 526404,
+    "cacheCreationInputTokens": 23862,
+    "webSearchRequests": 0,
+    "costUSD": 0.1493824,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3581,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my analysis and planning turn. Here's my summary:\n\n**Changed:** \n- Created predictive seasonal strategy (strategy.py) based on walk-forward historical model: Q4 (Oct-Nov, doy 274-301) peaks at 2.3-2.6 fish/angler and is primary target; Q2 (Apr-Jun) secondary at 1.2-1.9; Q3 (Jul-Sep) minimal. Prioritized day_1_5 ($0.0035/dollar value) and three_quarter trips ($0.0030/dollar).\n- Updated notes.md with seasonal patterns, budget allocation plan ($1,300 to Q4), PTO strategy for peak weekdays, and daily booking rules.\n\n**Why:**\nHistorical data shows extreme seasonality\u2014Q4 dominates with 6x better average catch than Q3\u2014so strategy focuses capital and PTO there. Model will refit daily at 21:00 briefings to predict tomorrow's catch rate and book when expected value exceeds threshold, avoiding half-day trips and unpredictable mid-season periods.",
+  "ttft_ms": 2180,
+  "type": "result",
+  "duration_ms": 118129,
+  "uuid": "cbacb7bc-22b9-469e-a762-78b5e9f91982",
+  "ttft_stream_ms": 522,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 522,
+  "time_to_request_from_spawn_ms": 19248833,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310627539.8318,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

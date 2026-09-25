@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 68.4,
+ "claude": {
+  "duration_api_ms": 64922,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1292453,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 30247,
+   "cache_read_input_tokens": 426793,
+   "output_tokens": 5196,
+   "output_tokens_details": {
+    "thinking_tokens": 2149
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30247,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 459,
+     "cache_read_input_tokens": 48036,
+     "cache_creation_input_tokens": 1186,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1186
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 5196,
+    "cacheReadInputTokens": 426793,
+    "cacheCreationInputTokens": 30247,
+    "webSearchRequests": 0,
+    "costUSD": 0.1292453,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2149,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've analyzed the current state at day 213 and confirmed your October strategy remains sound.\n\n**What changed**: Updated `notes.md` with day 213 findings: dead zone confirmed through early October (0.096 yt/angler avg), water temps cooling normally, booking window exactly 60 days away at d273.\n\n**Why**: Your plan to hold for October peak (DOY 288-290 at 5.0 yt/angler) is still the only viable path to recover from 0 fish. Data shows no bookable overnight opportunities until then\u2014competitors who chased the recent dead zone are still scraps while the field remains compressed (leader at 0.83 fish). Execute the d273 booking window when October schedule becomes visible, and expect 8-20 fish from the four peak trips.",
+  "ttft_ms": 1783,
+  "type": "result",
+  "duration_ms": 66674,
+  "uuid": "b468a118-3e08-4d8d-8e18-70b9c99f98c3",
+  "ttft_stream_ms": 599,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 600,
+  "time_to_request_from_spawn_ms": 36497625,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327876160.4382,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

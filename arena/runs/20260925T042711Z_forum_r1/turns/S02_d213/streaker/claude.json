@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 144.8,
+ "claude": {
+  "duration_api_ms": 140829,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.21239979999999997,
+  "usage": {
+   "input_tokens": 150,
+   "cache_creation_input_tokens": 36509,
+   "cache_read_input_tokens": 782918,
+   "output_tokens": 12188,
+   "output_tokens_details": {
+    "thinking_tokens": 4754
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 36509,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 794,
+     "cache_read_input_tokens": 55102,
+     "cache_creation_input_tokens": 382,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 382
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 150,
+    "outputTokens": 12188,
+    "cacheReadInputTokens": 782918,
+    "cacheCreationInputTokens": 36509,
+    "webSearchRequests": 0,
+    "costUSD": 0.21239979999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4754,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed my planning turn. Here's what I found and decided:\n\n## Key Findings from Data Analysis\n\n**October Peak Validated**: Season 1 October (DOY 287-301) shows **1.709 yt/angler** vs current Season 2 conditions at **0.159 yt/angler** \u2014 a **10.8x multiplier**. This confirms October is the right macro target.\n\n**Budget Constraint**: I spent $950 on three early trips (d169, d197, d204). With only $1050 remaining, I can't afford my original plan of 3x day_1_5 trips ($1650 total). I'm revising to **1-2x day_1_5 bookings** ($550 each) with $500+ held in reserve.\n\n**No Intermediate Streaks**: DOY 213-250 shows only noise (0.018 avg share). No multi-day positive streaks are forming yet\u2014confirmed I was right to hold powder through August-September dead zone.\n\n## Strategy Updated\n\n**notes.md**: Documented current reality\u2014mid-pack rank 20 (0.1471 fish) with top agents at 0.828. Added tiered October strategy with budget constraints.\n\n**strategy.py**: Wrote automated strategy to book day_1_5 trips starting DOY 287 (October peak) on Fridays when available and budget allows, stopping at first skunk. This ensures I won't miss October bookings during nightly decision calls.\n\n**Summary**: October peak is 10.8x better than current fishing. With 1-2 day_1_5 trips at peak share (~1.7 yt/angler each), I can realistically reach 1.8-3.5 total fish\u2014competitive enough to crack top half of leaderboard if execution is clean. Holding powder through 74 days until DOY 287.",
+  "ttft_ms": 2440,
+  "type": "result",
+  "duration_ms": 142838,
+  "uuid": "f8cf50b4-78f7-4f2d-addb-acec45ad1070",
+  "ttft_stream_ms": 583,
+  "time_to_request_ms": 106,
+  "first_content_frame_ms": 583,
+  "time_to_request_from_spawn_ms": 36502992,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327881402.3132,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

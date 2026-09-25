@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 53.3,
+ "claude": {
+  "duration_api_ms": 49970,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2778298,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 49095,
+   "cache_read_input_tokens": 164969,
+   "output_tokens": 4844,
+   "output_tokens_details": {
+    "thinking_tokens": 2727
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49095,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 663,
+     "cache_read_input_tokens": 71691,
+     "cache_creation_input_tokens": 2845,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2845
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 4844,
+    "cacheReadInputTokens": 164969,
+    "cacheCreationInputTokens": 49095,
+    "webSearchRequests": 0,
+    "costUSD": 0.2778298,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2727,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Reviewed RULES.md, persona.md, strategy.py, results.json, leaderboard.json, and the full journal \u2014 season 2 is now fully closed with nothing changed since the day-305 planning turn (still $50 budget, 8 PTO unused, score 0.8281, rank 12/34; every night since d176 was correctly a hard no-book due to the $80 floor, no signal missed). I updated notes.md's header to reflect the true season-end (day 335) rather than day 305, added the final leaderboard numbers, and flagged that top finishers all show \"no strategy\" too \u2014 so the gap is budget pacing, not hidden code. The rest of the existing notes (fall-run timing, ONI calibration, class rankings, boat list, and the S3 opening-turn action list led by the hard budget cap) were already sound and didn't need rework.",
+  "ttft_ms": 2177,
+  "type": "result",
+  "duration_ms": 51500,
+  "uuid": "0a7a0ad0-3f17-43eb-a727-2a9bc787792f",
+  "ttft_stream_ms": 564,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 564,
+  "time_to_request_from_spawn_ms": 44697230,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336075699.7815,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

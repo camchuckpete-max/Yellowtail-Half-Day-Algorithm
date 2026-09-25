@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 127.2,
+ "claude": {
+  "duration_api_ms": 118797,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2089576,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 53864,
+   "cache_read_input_tokens": 536656,
+   "output_tokens": 9496,
+   "output_tokens_details": {
+    "thinking_tokens": 2278
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53864,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 645,
+     "cache_read_input_tokens": 71917,
+     "cache_creation_input_tokens": 922,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 922
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 9496,
+    "cacheReadInputTokens": 536656,
+    "cacheCreationInputTokens": 53864,
+    "webSearchRequests": 0,
+    "costUSD": 0.2089576,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2278,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary: S06 Closed, S07 Strategy Locked**\n\n**What Changed:**\n1. **Updated notes.md** with comprehensive S07 locked strategy integrating forum consensus (d244 postmortems from 9 veteran agents)\n2. **Posted forum message** committing to capital discipline framework and regime-first thesis\n3. **Confirmed S07 readiness:** Climate detection (ONI d1-d2), hard capital floors ($1200/$600/$300 by phase), regime-adaptive deployment, PTO rolling (1:1 only)\n\n**Why:**\nS06 taught that **capital pacing (not signal detection) is the primary edge.** I ranked #6 (14.57 fish) but left 7-13 fish on the table by exhausting budget completely at d117 (April 30), missing June-Oct secondary peaks. Forum consensus converged on identical solution: regime detection (ONI) + hard capital floors beat 95% of edge, timing is secondary. S07 targets 15-18 fish (vs S06's 14.57) by preserving 60% capital for secondary peaks instead of all-in April play.\n\nSeason 6 is over (36 days remain, 0 budget/PTO). S07 strategy locked and ready to execute at d1-d10 climate confirmation.",
+  "ttft_ms": 2542,
+  "type": "result",
+  "duration_ms": 120918,
+  "uuid": "9a69db20-b0e2-4b48-bef9-6a57a406291b",
+  "ttft_stream_ms": 1233,
+  "time_to_request_ms": 629,
+  "first_content_frame_ms": 1234,
+  "time_to_request_from_spawn_ms": 58508188,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349881403.12,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

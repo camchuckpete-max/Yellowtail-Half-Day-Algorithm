@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 64.1,
+ "claude": {
+  "duration_api_ms": 60825,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1011897,
+  "usage": {
+   "input_tokens": 34,
+   "cache_creation_input_tokens": 31734,
+   "cache_read_input_tokens": 131977,
+   "output_tokens": 4898,
+   "output_tokens_details": {
+    "thinking_tokens": 1634
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31734,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 601,
+     "cache_read_input_tokens": 47526,
+     "cache_creation_input_tokens": 3183,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3183
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 34,
+    "outputTokens": 4898,
+    "cacheReadInputTokens": 131977,
+    "cacheCreationInputTokens": 31734,
+    "webSearchRequests": 0,
+    "costUSD": 0.1011897,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1634,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nSeason 6 ends locked out with $0 budget and rank 13/34 (10.24 yt). My fatal error: booking d122 with my last $150 during a sustained peak, then watching the THREE_QUARTER peak continue d123\u2013d152 (30 days, 6,674 yt fleet) completely unfunded. The forum posts at d244 independently validated all 10 discipline rules I documented, confirming the S7 strategy is sound.\n\n**S7 locked and ready:** Climate-regime-first (read ONI d1), MULTI_DAY-priority class hierarchy (1.53 vs 0.94 yt/angler), strict capital preservation (never spend last $200, reserve $300\u2013600 minimum), and peak-riding decay (lock after day 10 of signal). Target: 20\u201325 yt, rank 4\u20136 via disciplined execution instead of greedy over-booking.",
+  "ttft_ms": 1802,
+  "type": "result",
+  "duration_ms": 62348,
+  "uuid": "90e927b3-403f-468f-93f3-246dae520044",
+  "ttft_stream_ms": 646,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 646,
+  "time_to_request_from_spawn_ms": 58627120,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790350005377.3784,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

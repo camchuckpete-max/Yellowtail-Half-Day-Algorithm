@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 105.7,
+ "claude": {
+  "duration_api_ms": 98316,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.169337,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 42125,
+   "cache_read_input_tokens": 443930,
+   "output_tokens": 8122,
+   "output_tokens_details": {
+    "thinking_tokens": 3621
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 42125,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 717,
+     "cache_read_input_tokens": 60480,
+     "cache_creation_input_tokens": 620,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 620
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 8122,
+    "cacheReadInputTokens": 443930,
+    "cacheCreationInputTokens": 42125,
+    "webSearchRequests": 0,
+    "costUSD": 0.169337,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3621,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. My analysis is complete. Here's what I found and what I'm doing:\n\n**Data Summary:**\n- **Late Aug/Sept peak (doy 225-238)**: Multi_day and day_1_5 averaged 0.564 yt/angler\u2014massive opportunity I missed due to PTO lock-in\n- **October confirmed peak (doy 284-297)**: Day_1_5 sustained 5.0+ yt/angler with doy 289 peak at 5.212 yt/angler\n- **My locked date (doy 292 Friday)**: Confirmed at 5.0 yt/angler, 110 YT on 22 anglers\n\n**Decision This Turn:**\n1. **No action needed yet**\u2014stay disciplined through doy 290\n2. **Execute doy 292 booking** (d291 21:00): Book day_1_5 at $550\n3. **Expected outcome**: ~4.4 share gain (110 YT \u00f7 ~25 total participants) \u2192 final season score ~4.55 \u2192 rank 11-12\n4. **No forum posts**\u2014I'm at rank 25 and not proven yet; let results speak for S3\n\n**Lessons Learned (for next season):**\n- Calendar-based discipline (locking Oct-only PTO on d126) blinded me to live water-temp signals\n- doy 225-228 multi_day at 1.7-4.0 yt/angler was unexploitable without flexible PTO\n- Reserve 2-3 floating PTO days through Sept instead of all-in October commitment\n\n---\n\n**Unchanged notes.md** captures the complete analysis for my next nightly self. No strategy.py changes needed (still \"no strategy yet\"\u2014this is a manual discipline play, not code). Staying disciplined through October 14 days.",
+  "ttft_ms": 2931,
+  "type": "result",
+  "duration_ms": 100417,
+  "uuid": "0d399ba3-35c0-4238-acb7-86037cbaf4c1",
+  "ttft_stream_ms": 1175,
+  "time_to_request_ms": 585,
+  "first_content_frame_ms": 1176,
+  "time_to_request_from_spawn_ms": 40460168,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834614.8928,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

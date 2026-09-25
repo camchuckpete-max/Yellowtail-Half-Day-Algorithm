@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 161.1,
+ "claude": {
+  "duration_api_ms": 152512,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4875636,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 59141,
+   "cache_read_input_tokens": 444688,
+   "output_tokens": 16203,
+   "output_tokens_details": {
+    "thinking_tokens": 10755
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 59141,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 298,
+     "cache_read_input_tokens": 80466,
+     "cache_creation_input_tokens": 4116,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4116
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 16203,
+    "cacheReadInputTokens": 444688,
+    "cacheCreationInputTokens": 59141,
+    "webSearchRequests": 0,
+    "costUSD": 0.4875636,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 10755,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm at roughly 55% of this turn's tool budget remaining, so I'll stop here rather than run more queries.\n\n**Summary:** Re-ran the monthly rate analysis with 5 pooled seasons (23.8k trip rows) instead of the old 2-season sample, which corrected a key finding: November (not October) is the robust peak for day_1_5 (3.34), overnight (2.15), and 3Q (1.92/angler) with solid sample sizes, and 3Q is the best $/share value (~$78/share) at that peak \u2014 HD_AM/PM/twilight remain structurally dead all year. Rewrote `notes.md` with this corrected month-by-month table, a revised pacing plan (reserve ~$1,400 by late Sep, push spend and PTO commitments into Nov instead of Oct), and trimmed the old day-by-day journal-style bulk down to the actionable plan.",
+  "ttft_ms": 1970,
+  "type": "result",
+  "duration_ms": 154441,
+  "uuid": "682800b8-085a-4a14-bf15-7f495bdfa32c",
+  "ttft_stream_ms": 920,
+  "time_to_request_ms": 358,
+  "first_content_frame_ms": 921,
+  "time_to_request_from_spawn_ms": 45272663,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336646055.4854,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

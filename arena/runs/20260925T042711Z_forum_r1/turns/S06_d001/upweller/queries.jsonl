@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4014, "ts": "2026-09-25T11:47:20"}
+{"tool": "arena_query", "sql": "select cls, (fish_date_doy/10)::int*10 as doy_bin, round(sum(yt)*1.0/nullif(sum(anglers),0),3) as ypa, count(*) as boat_days\nfrom trips\nwhere cls in ('three_quarter','overnight','day_1_5')\ngroup by 1,2\norder by 1,2", "rows": 113, "seconds": 0.087, "ts": "2026-09-25T11:47:29"}

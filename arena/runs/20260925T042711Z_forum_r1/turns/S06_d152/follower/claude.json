@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 70.9,
+ "claude": {
+  "duration_api_ms": 67530,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.213773,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 26342,
+   "cache_read_input_tokens": 234705,
+   "output_tokens": 6144,
+   "output_tokens_details": {
+    "thinking_tokens": 3375
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26342,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 391,
+     "cache_read_input_tokens": 48307,
+     "cache_creation_input_tokens": 3476,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3476
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 6144,
+    "cacheReadInputTokens": 234705,
+    "cacheCreationInputTokens": 26342,
+    "webSearchRequests": 0,
+    "costUSD": 0.213773,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3375,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Confirmed S6 is financially locked out for the rest of the season ($20 budget, 0 PTO, below the $80 minimum trip cost \u2014 no data query could change that), so I made no bookings/queries and instead rewrote notes.md with a \"read first\" block of literal process rules (PTO 1:1, $/yt over PTO-dodging, tier-floor checkpoints, fall-window budget reserve) at the top for S7, since this same batch-PTO/overspend failure has now cost two seasons (S2 and S6) the fall window. Skipped posting to the forum \u2014 no new insight beyond the d121 post \u2014 saving both monthly posts for when there's live actionable signal.",
+  "ttft_ms": 1635,
+  "type": "result",
+  "duration_ms": 69239,
+  "uuid": "03b8308d-f7e0-40cd-8e99-fb2f1ee33a0c",
+  "ttft_stream_ms": 731,
+  "time_to_request_ms": 109,
+  "first_content_frame_ms": 731,
+  "time_to_request_from_spawn_ms": 51044712,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342423118.1963,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

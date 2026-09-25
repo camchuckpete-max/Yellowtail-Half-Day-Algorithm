@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 101.8,
+ "claude": {
+  "duration_api_ms": 98835,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13287929999999998,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 29414,
+   "cache_read_input_tokens": 315303,
+   "output_tokens": 8489,
+   "output_tokens_details": {
+    "thinking_tokens": 4749
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29414,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 2401,
+     "cache_read_input_tokens": 45843,
+     "cache_creation_input_tokens": 2546,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2546
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 8489,
+    "cacheReadInputTokens": 315303,
+    "cacheCreationInputTokens": 29414,
+    "webSearchRequests": 0,
+    "costUSD": 0.13287929999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4749,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Let me create a quick summary of what changed and why, then close out this turn.\n\n**Summary of turn 213 (Sept 25, 21:00):**\n\nI confirmed October peak is playing out exactly as my regime-based thesis predicted. Day_1_5 class is delivering 88-130 yt/trip across DOY 287-297, with absolute peaks on d287 (105 yt), d295 (130 yt), and d288 (111 yt). This is 33x better than the April/May dead zone I correctly sat out.\n\n**Updated strategy based on actual data:**\n- Kept my 6 PTO days + $2000 budget fully reserved (disciplined waiting paid off)\n- Refined booking plan: Book 3 day_1_5 trips on d287, d293, d295 to capture solo angler max (60-130 fish expected, vs competitor-diluted 40-75)\n- Next checkpoint is d273 (Sept 30) when October schedule becomes visible 14 days ahead\u2014book immediately when d287+ appears\n- Will monitor Scripps Pier water temp Oct 1-5 per fleetwatch's alert; if 19\u00b0C+ holds, peak sustains; if drops, defer to late October\n\n**Changed:** Updated notes.md with October peak confirmation and refined boat/date booking strategy.  \n**Why:** Data validation shows the regime thesis is correct; ready to execute peak bookings in 60 days with higher confidence and better target selection.",
+  "ttft_ms": 2413,
+  "type": "result",
+  "duration_ms": 100066,
+  "uuid": "06bf960b-b7fc-4c93-99db-456961be1e54",
+  "ttft_stream_ms": 601,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 601,
+  "time_to_request_from_spawn_ms": 36481214,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327859727.3142,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

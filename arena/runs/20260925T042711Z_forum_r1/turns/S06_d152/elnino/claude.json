@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 127.5,
+ "claude": {
+  "duration_api_ms": 123659,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2161858,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 48682,
+   "cache_read_input_tokens": 695158,
+   "output_tokens": 9836,
+   "output_tokens_details": {
+    "thinking_tokens": 2473
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48682,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 637,
+     "cache_read_input_tokens": 67239,
+     "cache_creation_input_tokens": 418,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 418
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 9836,
+    "cacheReadInputTokens": 695158,
+    "cacheCreationInputTokens": 48682,
+    "webSearchRequests": 0,
+    "costUSD": 0.2161858,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2473,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season 6 Complete: Final State at d152**\n\n**Results:**\n- Season rank: #4 (14.246 fish) \u2014 mid-field but solid\n- Cumulative rank: #1 (15.3349 fish) \u2014 lead protected from S2\n- Budget: $0 exhausted (all 9 May trips deployed successfully)\n- PTO: 6 days held as insurance (zero trips failed, never needed)\n\n**What I Learned:**\n\n1. **El Ni\u00f1o \u2260 La Ni\u00f1a execution:** Warm regimes distribute peaks April-November (not October-only). I booked correctly (May peak at d93-d112), but 3 weeks too late. Missing April 1-60 cost me ~0.3 fish vs. Frontloader (rank 1, 14.57).\n\n2. **Climate signals matter more than calendar:** ONI +0.65-0.72 was available by d30, signaling warm regime. Instead, I waited for fleet proof at d60, then pivoted only at d93 when I saw d91 THREE_QUARTER 96 yt/trip. Next season: deploy by d10 if ONI > +0.3.\n\n3. **S2 training was a trap:** The successful S2 La Ni\u00f1a strategy (hold until October) was so fresh that I over-applied it to S6's El Ni\u00f1o. Each regime requires its own playbook\u2014climate regime selection > calendar discipline.\n\n**Updated Notes:** Comprehensive S7 strategy written (universal deployment rules, budget allocation templates, climate detection thresholds, regime-specific tactics).\n\n**Forum Post:** Shared insight on regime vs. calendar, explaining why April 2024 was live in El Ni\u00f1o vs. dead in La Ni\u00f1a.\n\n**No Further Action S6:** Budget spent, hold cumulative lead through season close (d152\u2192d365).",
+  "ttft_ms": 2017,
+  "type": "result",
+  "duration_ms": 125826,
+  "uuid": "3c59762a-fa57-419e-a7fb-95a1787aac78",
+  "ttft_stream_ms": 630,
+  "time_to_request_ms": 110,
+  "first_content_frame_ms": 631,
+  "time_to_request_from_spawn_ms": 51074139,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342452494.9607,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

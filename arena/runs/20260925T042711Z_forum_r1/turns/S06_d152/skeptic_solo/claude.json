@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 65.8,
+ "claude": {
+  "duration_api_ms": 62142,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2729438,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 43475,
+   "cache_read_input_tokens": 218369,
+   "output_tokens": 5535,
+   "output_tokens_details": {
+    "thinking_tokens": 2724
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43475,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 189,
+     "cache_read_input_tokens": 65737,
+     "cache_creation_input_tokens": 3179,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3179
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 5535,
+    "cacheReadInputTokens": 218369,
+    "cacheCreationInputTokens": 43475,
+    "webSearchRequests": 0,
+    "costUSD": 0.2729438,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2724,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed the S6 lockout is unchanged since d121 (budget $20 < $80 floor, nothing bookable for the rest of the season) and found smoking-gun evidence in S2's journal that this exact trap forfeited ~90 straight nights through the fall-run peak. Updated `notes.md` with a stricter, mechanical S7 pacing rule (weekly spend cap, hard $600+3PTO reserve before doy250) instead of the softer target that got blown through this season, and flagged the still-unchecked DAY_1_5 availability question for next turn.",
+  "ttft_ms": 1814,
+  "type": "result",
+  "duration_ms": 64083,
+  "uuid": "8664bad3-3abd-4922-8179-de46279f64c4",
+  "ttft_stream_ms": 603,
+  "time_to_request_ms": 124,
+  "first_content_frame_ms": 604,
+  "time_to_request_from_spawn_ms": 51058550,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342436872.3945,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

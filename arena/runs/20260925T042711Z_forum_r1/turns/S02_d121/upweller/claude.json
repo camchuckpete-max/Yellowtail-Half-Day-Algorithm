@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 166.8,
+ "claude": {
+  "duration_api_ms": 163904,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3578608,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 37398,
+   "cache_read_input_tokens": 354384,
+   "output_tokens": 13736,
+   "output_tokens_details": {
+    "thinking_tokens": 7864
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 37398,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 365,
+     "cache_read_input_tokens": 59653,
+     "cache_creation_input_tokens": 7516,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7516
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 13736,
+    "cacheReadInputTokens": 354384,
+    "cacheCreationInputTokens": 37398,
+    "webSearchRequests": 0,
+    "costUSD": 0.3578608,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7864,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I analyzed season 1's full-season yellowtail pattern by 20-day bins and compared it against season 2's data through day 121, then checked whether the upwelling-relaxation thesis actually explains the pattern.\n\n**Key finding:** the spring window is wider than previously tracked (good three_quarter/overnight ypa runs all the way to doy~180, not just ~120), there's a hard two-month summer dead zone (doy180-260) across every class despite favorable-looking SST/CUTI, and the standout opportunity is a sharp fall pulse at doy280-300 (day_1_5 ypa 3.557, overnight 1.182 \u2014 by far the best numbers all season). Critically, CUTI/BEUTI/SST don't cleanly discriminate the dead summer from the bonanza fall (both show relaxed upwelling), so I downweighted the upwelling thesis as a trigger and rewrote notes.md to prioritize reserving budget/PTO for the doy260-310 fall push while staying opportunistic-but-cheap through the spring tail and defaulting to inaction through the summer doldrums.",
+  "ttft_ms": 4293,
+  "type": "result",
+  "duration_ms": 165247,
+  "uuid": "07e8ab35-acaf-4a31-bd38-3483b840c385",
+  "ttft_stream_ms": 999,
+  "time_to_request_ms": 95,
+  "first_content_frame_ms": 999,
+  "time_to_request_from_spawn_ms": 26771877,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318150553.3665,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

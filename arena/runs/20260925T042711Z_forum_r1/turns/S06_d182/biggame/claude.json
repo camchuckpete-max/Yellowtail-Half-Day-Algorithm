@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 144.2,
+ "claude": {
+  "duration_api_ms": 134960,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2429732,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 51570,
+   "cache_read_input_tokens": 868492,
+   "output_tokens": 10570,
+   "output_tokens_details": {
+    "thinking_tokens": 2769
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51570,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 550,
+     "cache_read_input_tokens": 69746,
+     "cache_creation_input_tokens": 799,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 799
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 10570,
+    "cacheReadInputTokens": 868492,
+    "cacheCreationInputTokens": 51570,
+    "webSearchRequests": 0,
+    "costUSD": 0.2429732,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2769,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me now create a final summary of this turn.\n\n---\n\n## Summary\n\n**What Changed:**\nI analyzed Season 6's final outcome at the planning turn (doy 182, late October peak confirmed live with multi_day 2-7 yt/angler fleet-wide). The October peak I predicted is happening in real-time, but I have $0 budget left after burning $1,950 on May testing ($700) and mid-summer micro-plays ($400). Final score: 8.03 fish (rank 16), with expected loss of 5-10 fish due to capital depletion before peak season.\n\n**Why:**\nI traded the *proven October peak* (2-7 yt/angler multi_day, water 66-69\u00b0F, sustained fishdope activity) for speculative May plays that returned only 0.4-0.43 yt/$. Root cause: failed to enforce capital discipline\u2014said \"hold $1,400+ for October\" at doy 152 but booked non-peak classes on micro-signals (d157, d165, d170). S7 requires hard rules: max $200 May budget, zero June-August spend, $1,800+ reserved for doy 170-310 peak window.\n\nUpdated `notes.md` with detailed postmortem and S7 discipline locks. Posted one forum analysis (1 of 2 posts left). Next season: deploy capital only when multi_day >2.0 yt/angler or proven peak signal confirmed 2+ days, not on calendar speculation.",
+  "ttft_ms": 2727,
+  "type": "result",
+  "duration_ms": 137357,
+  "uuid": "0bd97408-1b3c-4d64-afc5-5f9480785208",
+  "ttft_stream_ms": 899,
+  "time_to_request_ms": 334,
+  "first_content_frame_ms": 899,
+  "time_to_request_from_spawn_ms": 53145134,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344518123.2231,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 101.2,
+ "claude": {
+  "duration_api_ms": 96879,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.202392,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 51178,
+   "cache_read_input_tokens": 591390,
+   "output_tokens": 8161,
+   "output_tokens_details": {
+    "thinking_tokens": 2453
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51178,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 639,
+     "cache_read_input_tokens": 67882,
+     "cache_creation_input_tokens": 2271,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2271
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 8161,
+    "cacheReadInputTokens": 591390,
+    "cacheCreationInputTokens": 51178,
+    "webSearchRequests": 0,
+    "costUSD": 0.202392,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2453,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary: October peak execution plan locked in, next decision point d270 (PTO commitment window, 26 days).**\n\nI've confirmed the data and updated the strategy:\n\n**Current State (d244):**\n- Dead zone holds at 1.6 yt/angler average for DAY_1_5 (as planned)\n- Water temp 59-62\u00b0F, cooling on track toward 62-65\u00b0F peak target\n- Schedule: 4-8 DAY_1_5 boats per day available in next two weeks\n- Capital: $2000 fully preserved, PTO 10 days fully preserved\n\n**Execution locked for October peak (14 days away):**\n- **d270-275:** PTO commitment window opens. Commit PTO for three Friday departures (d287, d290, d293).\n- **d280-d295:** Book three DAY_1_5 trips targeting DOY 289-298 peak window.\n- **Expected result:** 5-8 fish in S6, reaching 12-13 cumulative (top 5 contention; need 13-15 to win).\n\n**Discipline holds:** 26 days of holding firm through dead zone, zero mid-season chasing. Historical data (S1-S5) shows October DOY 284-300 is the only reliable peak every season. Plan trades mid-season variance for focused October execution, which is proven to work.\n\nUpdated `notes.md` with full execution plan and decision checkpoints through d300. Staying disciplined until d270 briefing.",
+  "ttft_ms": 2598,
+  "type": "result",
+  "duration_ms": 99420,
+  "uuid": "c839b4b0-fd8f-47b3-8546-a6db9c7460cb",
+  "ttft_stream_ms": 563,
+  "time_to_request_ms": 106,
+  "first_content_frame_ms": 563,
+  "time_to_request_from_spawn_ms": 57016471,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348394782.662,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

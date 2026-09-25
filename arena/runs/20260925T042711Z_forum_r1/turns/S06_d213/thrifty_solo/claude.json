@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 33.9,
+ "claude": {
+  "duration_api_ms": 25850,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13561579999999998,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 20608,
+   "cache_read_input_tokens": 136239,
+   "output_tokens": 2592,
+   "output_tokens_details": {
+    "thinking_tokens": 1158
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20608,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 257,
+     "cache_read_input_tokens": 44697,
+     "cache_creation_input_tokens": 1352,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1352
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 2592,
+    "cacheReadInputTokens": 136239,
+    "cacheCreationInputTokens": 20608,
+    "webSearchRequests": 0,
+    "costUSD": 0.13561579999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1158,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed everything is unchanged from the day-182 checkpoint (budget $50, PTO 6, 13 settled bookings, score 19.6035, no rejected actions) \u2014 we're still below the $80 booking floor, so nothing is actionable for the rest of S6.\n\nI appended a day-213 entry to `notes.md` noting the one real change: season_rank slipped from 1\u21923 as `ens_solo` and `thrifty` kept fishing through August while we sat budget-floored, which validates rather than changes the season-7 pacing-cap plan (cap early-season spend at ~$1100 by day 200, reserve for the Aug-Oct day_1_5 window). No new queries run \u2014 nothing left to decide this season, so no point spending tool budget re-confirming known-dead options.",
+  "ttft_ms": 2520,
+  "type": "result",
+  "duration_ms": 27788,
+  "uuid": "6fba6418-7c46-49e5-8a60-d29a1506b056",
+  "ttft_stream_ms": 1116,
+  "time_to_request_ms": 555,
+  "first_content_frame_ms": 1117,
+  "time_to_request_from_spawn_ms": 55139191,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346512770.4114,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 128.1,
+ "claude": {
+  "duration_api_ms": 124318,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23055879999999998,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 55207,
+   "cache_read_input_tokens": 683778,
+   "output_tokens": 10333,
+   "output_tokens_details": {
+    "thinking_tokens": 3012
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 55207,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 882,
+     "cache_read_input_tokens": 72917,
+     "cache_creation_input_tokens": 1265,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1265
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 10333,
+    "cacheReadInputTokens": 683778,
+    "cacheCreationInputTokens": 55207,
+    "webSearchRequests": 0,
+    "costUSD": 0.23055879999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3012,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\nI've completed the planning turn analysis for S6 day 152. Here's what changed:\n\n**The Core Lesson:** S6 showed a clear twin-peak regime I completely missed. I booked d106-d111 (peak 1: 1.27-3.63 yt/angler), exhausted capital, then watched d112-d120 (peak 2: 1.42-3.98 yt/angler) pass me by entirely. D114 alone was 3.98 yt/angler\u2014nearly 2.3\u00d7 my best day. This cost me ~19 fish on the cumulative board.\n\n**Root Cause:** I went all-in on peak 1 and locked PTO speculatively (d105-d112) for October. When peak 1 ended but peak 2 immediately started, I had no capital to participate. The \"all-in reflex\" trapped me.\n\n**S7 Prevention:** Locked three hard rules:\n1. **The 3-Day Pause Rule** \u2014 After 3 consecutive booking days, pause on day 4. Check if signal \u22651.0 yt/angler. If yes, book tail (days 5-6). If no, exit and preserve capital.\n2. **Hold \u2265$600 for tail peaks** by d200 (vs S6: $0 margin).\n3. **Commit PTO 3-5 days only** when signal confirmed (vs S6: 14+ days speculative, which made me inflexible when peaks extended).\n\n**Expected S7 Outcome:** 8-12 fish (conservative). With both peaks firing and October solid, upside to 12-15 fish. Cumulative path becomes competitive (currently 28/30, elnino leading at 15.33).\n\n**Forum Post:** Posted reflection on the twin-peak trap (1 of 2 posts used).\n\n**Next Move:** Hold dry through S6 close (d152-d335, $100 + 5 PTO reserved). On S7 d91, execute Phase 1 scout gate: if THREE_QUARTER \u22650.8 yt/angler and water \u226517\u00b0C, book one scout.",
+  "ttft_ms": 1881,
+  "type": "result",
+  "duration_ms": 126523,
+  "uuid": "f3d124cf-1305-4ba0-8d5c-3b05d8155501",
+  "ttft_stream_ms": 610,
+  "time_to_request_ms": 106,
+  "first_content_frame_ms": 610,
+  "time_to_request_from_spawn_ms": 51040930,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342419364.9736,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

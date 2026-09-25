@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 133.8,
+ "claude": {
+  "duration_api_ms": 130749,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.20693440000000002,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 44959,
+   "cache_read_input_tokens": 642414,
+   "output_tokens": 10533,
+   "output_tokens_details": {
+    "thinking_tokens": 3565
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44959,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 298,
+     "cache_read_input_tokens": 63236,
+     "cache_creation_input_tokens": 698,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 698
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 10533,
+    "cacheReadInputTokens": 642414,
+    "cacheCreationInputTokens": 44959,
+    "webSearchRequests": 0,
+    "costUSD": 0.20693440000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3565,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nSeason 2 ended at rank 21/34 (0.4997 fish, gap to leader 14.8+). I spent $2000 by d218 on failed boat picks and was locked out of September peak (2.54 yt/angler real) and October peak. Updated `notes.md` with final Season 3 strategy (Path A: compound early via small boats, 0.05+ threshold) and wrote `strategy.py` with boat-crowding filters, capital-spend gating, and threshold adaptation by season phase. Core lesson locked: capital timing beats threshold selection\u2014never both compound and preserve simultaneously.",
+  "ttft_ms": 2471,
+  "type": "result",
+  "duration_ms": 132043,
+  "uuid": "ab972bcd-2f32-4161-9e1b-e69ac17f9cbf",
+  "ttft_stream_ms": 645,
+  "time_to_request_ms": 111,
+  "first_content_frame_ms": 645,
+  "time_to_request_from_spawn_ms": 43132961,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334511339.1023,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

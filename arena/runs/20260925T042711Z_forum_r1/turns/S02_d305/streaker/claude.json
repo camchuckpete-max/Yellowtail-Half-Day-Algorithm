@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 179.2,
+ "claude": {
+  "duration_api_ms": 175297,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24419369999999999,
+  "usage": {
+   "input_tokens": 142,
+   "cache_creation_input_tokens": 47666,
+   "cache_read_input_tokens": 819197,
+   "output_tokens": 13360,
+   "output_tokens_details": {
+    "thinking_tokens": 3410
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47666,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 474,
+     "cache_read_input_tokens": 65600,
+     "cache_creation_input_tokens": 1041,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1041
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 142,
+    "outputTokens": 13360,
+    "cacheReadInputTokens": 819197,
+    "cacheCreationInputTokens": 47666,
+    "webSearchRequests": 0,
+    "costUSD": 0.24419369999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3410,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Season 2 closed at rank 11 with 2.291 fish.** Key insight: caught a hot d281 DAY_1_5 peak (2.125 fish) 6 days *before* the October window everyone modeled, but wasted $1400 on 6 failed intermediate tests that locked me out of October itself\u2014capital reserve matters more than streak testing frequency.\n\n**Updated notes with Season 3 strategy (\"Bootstrap then bet\"): hold $1800 through spring testing, identify first real peak on live data 1-2 weeks ahead, deploy $1000+ on confirmed peaks rather than speculative calendar windows.** Posted forum reflection and now ready for Season 3 (which counts for cumulative board).",
+  "ttft_ms": 2084,
+  "type": "result",
+  "duration_ms": 177561,
+  "uuid": "6df8103f-50bd-4281-98f3-02b0ff19e92e",
+  "ttft_stream_ms": 592,
+  "time_to_request_ms": 120,
+  "first_content_frame_ms": 593,
+  "time_to_request_from_spawn_ms": 43182941,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334561486.3,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

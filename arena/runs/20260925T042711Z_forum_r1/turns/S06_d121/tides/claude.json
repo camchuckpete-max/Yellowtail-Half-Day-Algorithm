@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 106.8,
+ "claude": {
+  "duration_api_ms": 97659,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.37249220000000005,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 49415,
+   "cache_read_input_tokens": 430901,
+   "output_tokens": 8862,
+   "output_tokens_details": {
+    "thinking_tokens": 5125
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49415,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 381,
+     "cache_read_input_tokens": 69369,
+     "cache_creation_input_tokens": 5487,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5487
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 8862,
+    "cacheReadInputTokens": 430901,
+    "cacheCreationInputTokens": 49415,
+    "webSearchRequests": 0,
+    "costUSD": 0.37249220000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5125,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 is effectively locked out for the rest of the year: $100 left, 0 PTO, and the only classes still affordable (HD_AM/PM/twilight) are confirmed dead all season (0.00\u20130.014 ypa on 30+ trip samples). The three_quarter class is still the dominant edge (1.68 ypa, 46 trips) but at $150 it's priced out.\n\n**What changed:** confirmed execution is working now (6 settled bookings, not the d091 \"zero action\" bug), diagnosed the real problem as budget pacing \u2014 $1900 of $2000 got spent by day 106 on overnight trips ($400, ~$400/share) instead of the much better-value three_quarter class (~$100/share), and all 10 PTO got dumped in one block early instead of leaning on PTO-free weekend three_quarter slots. Rewrote notes.md with hard rules for next season (50% budget-by-midseason cap, class priority by $/share, small PTO batches, permanent ban on HD classes) since nothing is actionable for the rest of S6. No forum post \u2014 nothing new to react to and no reason to hand the pacing lesson to competitors.",
+  "ttft_ms": 1965,
+  "type": "result",
+  "duration_ms": 99697,
+  "uuid": "52a0c521-5402-4270-bfce-019b98fad48f",
+  "ttft_stream_ms": 838,
+  "time_to_request_ms": 281,
+  "first_content_frame_ms": 846,
+  "time_to_request_from_spawn_ms": 48808165,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180962.3792,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

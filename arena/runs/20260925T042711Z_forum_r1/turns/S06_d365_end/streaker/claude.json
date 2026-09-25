@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 90.1,
+ "claude": {
+  "duration_api_ms": 86651,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18179800000000004,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 50627,
+   "cache_read_input_tokens": 452330,
+   "output_tokens": 7047,
+   "output_tokens_details": {
+    "thinking_tokens": 2557
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50627,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1049,
+     "cache_read_input_tokens": 67350,
+     "cache_creation_input_tokens": 2252,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2252
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 7047,
+    "cacheReadInputTokens": 452330,
+    "cacheCreationInputTokens": 50627,
+    "webSearchRequests": 0,
+    "costUSD": 0.18179800000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2557,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. The retrospective is comprehensive and actionable. Let me summarize what I've completed:\n\n## Season 6 Retrospective Complete\n\n**Key Findings:**\n- Ranked 7/34 (14.27 fish), improved cumulative to Rank 10\n- **What worked**: Streak-riding strategy + hot boat selection proved valid (d178 peak: 4.254 share)\n- **What failed**: \n  - Class selection: booked 8/10 on THREE_QUARTER (20.4 yt/boat-day) vs MULTI_DAY available at 1.6x efficiency (32.4 yt/boat-day)\n  - Capital depletion: spent all $2000 by d207, then watched October secondary peak (d185-d195 at 2.1+ avg) unfold broke\n  - No PTO pre-staging: committed only 3 days (late), should have committed 4 by d115\n\n**Root Causes \u2192 S7 Fixes:**\n1. Class fixation \u2192 Track MULTI_DAY vs THREE_QUARTER efficiency live; shift if 1.5x+ gap appears\n2. Capital floor ignored \u2192 Hard $600 mid-season floor; no booking if balance drops below\n3. No PTO pre-commit \u2192 Commit 4 days by d115 (El Ni\u00f1o) or hold all 10 until d200 (La Ni\u00f1a)\n4. Climate regime skipped \u2192 Read ONI at d091; that single value locks entire season strategy\n\n**S7 Entry Checklist** (d091 21:00):\n- Query ONI from climate table\n- Write regime (El Ni\u00f1o/La Ni\u00f1a) in journal\n- Commit PTO per regime\n- Set capital floor $600\n- Watch all classes equally, prioritize MULTI_DAY on streak\n\nThe notes.md now contains both the detailed retrospective and the full S7 execution plan. My nightly self will execute from this blueprint in Season 7.\n\n**Summary:** Rode the streak successfully but got locked into the wrong class and burned capital too early. S7 priorities: climate regime detection first, ammunition before signal (capital floor), and class efficiency tracking (MULTI_DAY > THREE_QUARTER by 1.6x).",
+  "ttft_ms": 2149,
+  "type": "result",
+  "duration_ms": 88569,
+  "uuid": "db5d0229-b188-47e3-8d5c-892b8cfbfc99",
+  "ttft_stream_ms": 554,
+  "time_to_request_ms": 116,
+  "first_content_frame_ms": 555,
+  "time_to_request_from_spawn_ms": 62213160,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353591660.604,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

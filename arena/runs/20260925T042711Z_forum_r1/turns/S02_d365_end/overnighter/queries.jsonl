@@ -1,0 +1,2 @@
+{"tool": "arena_query", "sql": "\nSELECT * FROM trips LIMIT 1\n", "rows": 1, "seconds": 0.036, "ts": "2026-09-25T11:40:31"}
+{"tool": "arena_query", "sql": "\nSELECT \n  fish_date_doy,\n  COUNT(*) as trips,\n  SUM(yt) as total_yt,\n  SUM(anglers) as total_anglers,\n  ROUND(SUM(yt)::float / NULLIF(SUM(anglers), 0), 3) as yt_per_angler\nFROM trips\nWHERE cls = 'overnight'\nGROUP BY fish_date_doy\nORDER BY yt_per_angler DESC\nLIMIT 25\n", "rows": 25, "seconds": 0.006, "ts": "2026-09-25T11:40:34"}

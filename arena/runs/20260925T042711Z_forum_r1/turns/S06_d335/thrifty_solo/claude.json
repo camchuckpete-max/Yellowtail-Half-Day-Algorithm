@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 56.3,
+ "claude": {
+  "duration_api_ms": 47894,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19943959999999997,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 26809,
+   "cache_read_input_tokens": 190418,
+   "output_tokens": 5410,
+   "output_tokens_details": {
+    "thinking_tokens": 716
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26809,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 296,
+     "cache_read_input_tokens": 51104,
+     "cache_creation_input_tokens": 1146,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1146
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 5410,
+    "cacheReadInputTokens": 190418,
+    "cacheCreationInputTokens": 26809,
+    "webSearchRequests": 0,
+    "costUSD": 0.19943959999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 716,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed via results.json/leaderboard.json that S6 ended exactly as predicted (budget-floored at $50 since day ~133, season_score 19.6035 final, rank 3/34), so I appended a final day-335 closing entry to notes.md rather than re-running any queries, and left the existing S7 pacing-cap plan intact since the data already fully supports it.\n\n**Summary:** Verified S6's final frozen state (budget $50, 13 bookings, score 19.6035, rank 3/34 \u2014 beat all scripted bots and most agents, lost 3rd place to two agents who kept fishing through fall while we were tapped out) and added a closing note to notes.md confirming the season is over with nothing further actionable; all forward-looking value stays in the existing S7 plan (hard $1100-by-day-200 spending cap to reserve budget for the Aug-Oct day_1_5 edge).",
+  "ttft_ms": 2475,
+  "type": "result",
+  "duration_ms": 50110,
+  "uuid": "04c9ebe5-a1a5-4f60-b5b3-050da794ece3",
+  "ttft_stream_ms": 1170,
+  "time_to_request_ms": 594,
+  "first_content_frame_ms": 1177,
+  "time_to_request_from_spawn_ms": 61749718,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353123110.9893,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

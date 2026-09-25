@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4016, "ts": "2026-09-25T14:58:23"}
+{"tool": "arena_query", "sql": "\nSELECT fish_date_doy, cls, SUM(yt) as total_yt, SUM(anglers) as total_anglers, \n  ROUND(CAST(SUM(yt) as FLOAT) / NULLIF(SUM(anglers), 0), 3) as yt_per_angler\nFROM trips\nWHERE fish_date_doy >= 230 AND fish_date_doy <= 244\nGROUP BY fish_date_doy, cls\nORDER BY fish_date_doy DESC, yt_per_angler DESC\n", "rows": 106, "seconds": 0.109, "ts": "2026-09-25T14:58:29"}

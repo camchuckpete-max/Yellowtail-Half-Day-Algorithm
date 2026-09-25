@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 116.6,
+ "claude": {
+  "duration_api_ms": 107932,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.43762239999999997,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 52760,
+   "cache_read_input_tokens": 650892,
+   "output_tokens": 9636,
+   "output_tokens_details": {
+    "thinking_tokens": 4664
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52760,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 286,
+     "cache_read_input_tokens": 72809,
+     "cache_creation_input_tokens": 5392,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5392
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 9636,
+    "cacheReadInputTokens": 650892,
+    "cacheCreationInputTokens": 52760,
+    "webSearchRequests": 0,
+    "costUSD": 0.43762239999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4664,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll skip the forum post \u2014 this early-spring hot signal is a real edge over the forum's \"hold dry until October\" consensus, and sharing it would just draw competitors onto the same boats.\n\n**Summary:** Queried season-6 trip data and found spring (doy1-31) is unexpectedly hot \u2014 day_1_5 ypa 2.55 and three_quarter ypa 1.25, sustained across the whole window, with PDO at a record-warm +1.86 \u2014 directly contradicting the \"hold until doy140-160\" plan carried over from history, under which zero bookings have been made all season. Rewrote notes.md to tell the nightly self to start actually checking and booking weekend/Friday no-PTO trips now (day_1_5 > overnight > three_quarter priority, small-field boats preferred) while pacing budget to keep a reserve for a possible second peak later in the year.",
+  "ttft_ms": 2463,
+  "type": "result",
+  "duration_ms": 109428,
+  "uuid": "b61757c5-062e-4c39-9bd3-6fff455d6e64",
+  "ttft_stream_ms": 709,
+  "time_to_request_ms": 270,
+  "first_content_frame_ms": 709,
+  "time_to_request_from_spawn_ms": 45661052,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337034040.768,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

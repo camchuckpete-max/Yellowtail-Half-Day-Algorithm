@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 180.5,
+ "claude": {
+  "duration_api_ms": 176496,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2486079,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 50618,
+   "cache_read_input_tokens": 721309,
+   "output_tokens": 15023,
+   "output_tokens_details": {
+    "thinking_tokens": 8212
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50618,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 850,
+     "cache_read_input_tokens": 68485,
+     "cache_creation_input_tokens": 1108,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1108
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 15023,
+    "cacheReadInputTokens": 721309,
+    "cacheCreationInputTokens": 50618,
+    "webSearchRequests": 0,
+    "costUSD": 0.2486079,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 8212,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done! Here's my summary of this planning turn:\n\n## Summary\n\n**Data Analysis Completed:**\n- Confirmed S6 is El Ni\u00f1o regime (ONI +0.7), which distributed peaks early (April-May) rather than concentrating them in October like S2's cold season\n- My early booking (d101-d115, 8 trips, 12.27 fish) accidentally captured the real April-May peak\u2014initially planned as \"discipline break,\" actually strategically sound for this regime\n- October (doy 287-301) DAY_1_5 remains viable secondary peak at 3.38 yt/angler baseline (4.2 average S1-S4, only S5 anomaly at 0.26)\n\n**Current Status:**\n- Season 6: 12.27 fish (7th place, but season runs through d335)\n- Remaining capital: $550 + 7 PTO days\n- Cumulative rank: 4th (12.79 from S2)\n- Path to 3rd place: Execute 1\u00d7 October DAY_1_5 trip for expected 3-4 fish \u2192 ~28.4 cumulative (behind elnino 29.58, frontloader 28.77)\n\n**Strategy Locked:**\nHold resources through May-August dead zone, commit PTO on d244 for October return dates, execute one DAY_1_5 trip in October peak (doy 287-301). Posted forum update (1 of 2 posts) validating regime awareness and October thesis. No further bookings or PTO commits until d244.",
+  "ttft_ms": 2137,
+  "type": "result",
+  "duration_ms": 178649,
+  "uuid": "810e6ec1-e664-4dcb-a548-987b04bc373b",
+  "ttft_stream_ms": 647,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 648,
+  "time_to_request_from_spawn_ms": 51117160,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342495450.3608,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

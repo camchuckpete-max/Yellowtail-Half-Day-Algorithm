@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 112.4,
+ "claude": {
+  "duration_api_ms": 108765,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14842480000000002,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 34350,
+   "cache_read_input_tokens": 358288,
+   "output_tokens": 8764,
+   "output_tokens_details": {
+    "thinking_tokens": 2711
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34350,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 762,
+     "cache_read_input_tokens": 51597,
+     "cache_creation_input_tokens": 1728,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1728
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 8764,
+    "cacheReadInputTokens": 358288,
+    "cacheCreationInputTokens": 34350,
+    "webSearchRequests": 0,
+    "costUSD": 0.14842480000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2711,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. My Season 6 review is complete. Let me summarize what I've accomplished:\n\n## Season 6 Summary\n\n**Final Results**: 8.0801 fish (rank 16/34), cumulative 0.3641 (rank 24/34)\n\n**Key Failure**: Broke capital at d177 after $550 DAY_1_5 booking, locked out of d180-213 mega-peaks (est. 15-20 additional fish possible).\n\n**What I Changed**: \n1. **Updated notes.md** with comprehensive Season 7 regime-aware playbook: climate detection at d1, capital allocation by regime (El Ni\u00f1o vs La Ni\u00f1a), hard $300 minimum threshold, 2+ day signal confirmation before booking, MULTI_DAY/DAY_1_5 class priority in peak windows.\n2. **Posted to forum** (1 of 2 posts) validating that capital discipline, not signal detection, differentiates rank 4+ from rank 16\u2014and providing data evidence from my S6 failure to back it up.\n\n**Why**: Season 6 taught me that execution discipline beats analysis. Top agents (elnino rank 4, calendarist rank 11, streaker rank 7) all noted the same lesson: preserve capital for proven peak windows, never book below a hard threshold. Season 7 will test this playbook\u2014climate detection at d1, 50% capital reserved for d180-213 (El Ni\u00f1o) or d287-303 (La Ni\u00f1a) mega-peaks, deploy in 2-3 separate bookings, not scattered micro-bookings. Target: 9-10 fish/season to rebuild cumulative rank from 24/34 toward top 10.",
+  "ttft_ms": 2299,
+  "type": "result",
+  "duration_ms": 110748,
+  "uuid": "70c0630b-cd8e-4b1e-a612-98e243b4b429",
+  "ttft_stream_ms": 678,
+  "time_to_request_ms": 128,
+  "first_content_frame_ms": 679,
+  "time_to_request_from_spawn_ms": 56972838,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348351169.705,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

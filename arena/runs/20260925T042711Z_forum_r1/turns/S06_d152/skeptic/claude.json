@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 113.9,
+ "claude": {
+  "duration_api_ms": 109251,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1909528,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 44086,
+   "cache_read_input_tokens": 564258,
+   "output_tokens": 9251,
+   "output_tokens_details": {
+    "thinking_tokens": 4282
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44086,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1389,
+     "cache_read_input_tokens": 62033,
+     "cache_creation_input_tokens": 1028,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1028
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 9251,
+    "cacheReadInputTokens": 564258,
+    "cacheCreationInputTokens": 44086,
+    "webSearchRequests": 0,
+    "costUSD": 0.1909528,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4282,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Now let me finalize my decision and update the strategy file. Since I have limited tool calls and the data clearly shows I should hold dry until the September peak, I'll write a brief strategic summary:\n\n**Summary of Analysis & Decision:**\n\nThe data reveals a **seasonal pattern** where the true peak is concentrated around **doy 250-290** (late August through mid-September), not the early-July period we're in now. THREE_QUARTER performance in that window averages **1.2-1.6 yt/angler**, versus the current **0.3 yt/angler**. \n\n**Decision for d153 onward:**\n- **Hold dry** through the weak summer period (doy 150-240)\n- **Only book if** THREE_QUARTER \u2265 2.0 (rare, high confidence)\n- **Reposition for fall peak**: Commit PTO ~d200-220 for late-August surge\n- **Deploy all $900** on 3-4 bookings concentrated in doy 250-280 window\n- **Expected result**: +3.6-6.4 fish \u2192 reach rank 18-20\n\nThis is **NOT booking tonight for d153** despite having PTO committed (signal is too weak at 0.36 yt/angler). The d153-d156 PTO stays locked but unused unless an anomalous \u22652.0 signal appears.\n\n---\n\n**Summary:** Updated strategy to exploit the real September peak (doy 250-290, 1.2-1.6 avg performance) instead of chasing weak summer signals. Holding $900 and 4 PTO days dry until late August, then deploying all at once on 3-4 confirmed peak bookings. This reposition should add 4-5 more fish by season end, moving from rank 25 to ~18-20.",
+  "ttft_ms": 2293,
+  "type": "result",
+  "duration_ms": 112295,
+  "uuid": "45f42965-10c0-4b36-8996-ab92966ee515",
+  "ttft_stream_ms": 751,
+  "time_to_request_ms": 149,
+  "first_content_frame_ms": 752,
+  "time_to_request_from_spawn_ms": 51055746,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342434104.358,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 123.2,
+ "claude": {
+  "duration_api_ms": 119365,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2371374,
+  "usage": {
+   "input_tokens": 132,
+   "cache_creation_input_tokens": 50904,
+   "cache_read_input_tokens": 854924,
+   "output_tokens": 9941,
+   "output_tokens_details": {
+    "thinking_tokens": 2725
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50904,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 785,
+     "cache_read_input_tokens": 68825,
+     "cache_creation_input_tokens": 1054,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1054
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 132,
+    "outputTokens": 9941,
+    "cacheReadInputTokens": 854924,
+    "cacheCreationInputTokens": 50904,
+    "webSearchRequests": 0,
+    "costUSD": 0.2371374,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2725,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of my analysis for this planning turn:\n\n**ANALYSIS SUMMARY (S6 d121, 21:00)**\n\n**Season 6 data revealed:**\n- Early peak d106-d111: THREE_QUARTER 1.36-3.46 yt/angler (I booked 7 trips, caught ~7.5 fish)\n- Tail peak d112-d120: THREE_QUARTER 1.54-4.02 yt/angler (I missed entirely\u2014capital exhausted)\n- Collapse d121: 0.32 yt/angler (I was already locked out)\n\n**The mistake:** Deployed ALL $1900 budget and 5 PTO days d105-d111 on first signal, then watched the hotter peak (d112-d120) pass broke. This repeated my S2 pattern: capital trap locks you out of the real peak.\n\n**Current state:**\n- Season 4th place (13.75), but cumulative 28th (0.224 + 13.75 = 13.974 vs leaders at 15+)\n- Remaining: $100, 5 PTO, 214 days, but locked by 14-day weekday lag until ~d135\n- Can realistically book 1 twilight trip this season (bonus only)\n\n**S7+ correction:** Twin-peak regime confirmed. Next season: max $500/peak window, hold $1000+ for tail peak, commit PTO tactically (3-5 days ahead, not 14+ speculative). First signal doesn't end the peak; wait 3 days to confirm if tail follows.\n\nUpdated notes.md with S7 execution plan and lessons locked. Ready for next turn.\n\n---\n\n**Changed:** Rewrote notes.md with retrospective analysis of S6 twin-peak pattern and S7 capital/PTO pacing rules to prevent all-in trap.\n\n**Why:** Season data showed peak didn't end d111; it continued d112-d120 (hotter). Locked myself out by deploying all capital on first signal. S7 strategy revised to hold 50% budget for peak tails and commit PTO only when tail signal confirmed (3-5 days ahead, not speculative 14+ days).",
+  "ttft_ms": 1729,
+  "type": "result",
+  "duration_ms": 121517,
+  "uuid": "8df6ca85-127b-4838-b074-55bba2dea267",
+  "ttft_stream_ms": 762,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 762,
+  "time_to_request_from_spawn_ms": 48909903,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340288255.3313,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

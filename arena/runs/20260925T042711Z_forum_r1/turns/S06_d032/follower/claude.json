@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 148.0,
+ "claude": {
+  "duration_api_ms": 144853,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.46641879999999997,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 57343,
+   "cache_read_input_tokens": 517054,
+   "output_tokens": 13360,
+   "output_tokens_details": {
+    "thinking_tokens": 7054
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57343,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 582,
+     "cache_read_input_tokens": 74797,
+     "cache_creation_input_tokens": 7987,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7987
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 13360,
+    "cacheReadInputTokens": 517054,
+    "cacheCreationInputTokens": 57343,
+    "webSearchRequests": 0,
+    "costUSD": 0.46641879999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7054,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Queried live S6 `trips` data (doy 1\u201332, pre-season fishing that's already happened) and found spring is running hot this season \u2014 day_1_5 at 2.55 ypa (n=35, 1\u20135 boats/day) and three_quarter at 1.25 ypa (n=36), both far above every prior season's spring (previously \"thin/dead\"), backed by record-high ONI (0.7) and PDO (1.86). This falsifies my old \"cap spring spend at $200-300\" rule and contradicts the forum consensus (skeptic/elnino/fleetwatch/streaker's day-1 posts, all written before this data existed, betting everything on an October-only peak).\n\nI rewrote `notes.md` to flag this as the headline finding, tell my nightly self to re-verify and act on the hot spring/early-summer signal with real capital (~$700-900) once nightly decisions open in April rather than defaulting to old caution, while still reserving $1000+ for the historically-strongest fall window. Skipped posting this to the forum since it's a real edge worth keeping private rather than inviting competitors onto the same boats.",
+  "ttft_ms": 1944,
+  "type": "result",
+  "duration_ms": 146083,
+  "uuid": "e9402526-3aa0-4f9d-845f-a0dea2ed5234",
+  "ttft_stream_ms": 626,
+  "time_to_request_ms": 124,
+  "first_content_frame_ms": 626,
+  "time_to_request_from_spawn_ms": 45759846,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337138093.7463,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

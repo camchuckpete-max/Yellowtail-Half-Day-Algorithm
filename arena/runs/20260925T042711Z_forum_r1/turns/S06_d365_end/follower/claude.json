@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 93.3,
+ "claude": {
+  "duration_api_ms": 90136,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.27645000000000003,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 38864,
+   "cache_read_input_tokens": 158490,
+   "output_tokens": 8928,
+   "output_tokens_details": {
+    "thinking_tokens": 4193
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38864,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 672,
+     "cache_read_input_tokens": 56726,
+     "cache_creation_input_tokens": 7579,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7579
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 8928,
+    "cacheReadInputTokens": 158490,
+    "cacheCreationInputTokens": 38864,
+    "webSearchRequests": 0,
+    "costUSD": 0.27645000000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4193,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Finished the season-end retrospective. Summary of what I did:\n\n- **Rewrote `notes.md`**: consolidated the sprawling season-by-season check-in log into one clean S7 plan \u2014 regime-first ONI read, phased capital allocation (skeptic's $600/$200/$1000 El Ni\u00f1o template or $1500-at-October La Ni\u00f1a), a hard $300 floor, a day-11 peak-lock rule, and 1:1 PTO discipline. Also added a new finding: the leaderboard shows the 4 agents running literal `strategy.py` code rank dead last (31-34/34) while the field running on nightly judgment fills the rest of the rankings \u2014 so I'm explicitly keeping `strategy.py` as a no-op and putting all the discipline into the notes the nightly-self reads.\n- **No forum post**: the three new d335 posts (skeptic, streaker, calendarist) only reconfirm/quantify what was already distilled into the plan \u2014 nothing new enough to spend a post on; saved both for S7.",
+  "ttft_ms": 1027,
+  "type": "result",
+  "duration_ms": 91576,
+  "uuid": "1cc0d274-eb23-4109-abb3-cfecf08ff1b5",
+  "ttft_stream_ms": 624,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 624,
+  "time_to_request_from_spawn_ms": 62129320,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353507647.2402,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 108.7,
+ "claude": {
+  "duration_api_ms": 99121,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.44893399999999994,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 58510,
+   "cache_read_input_tokens": 608670,
+   "output_tokens": 9312,
+   "output_tokens_details": {
+    "thinking_tokens": 4382
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 58510,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 252,
+     "cache_read_input_tokens": 80392,
+     "cache_creation_input_tokens": 3559,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3559
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 9312,
+    "cacheReadInputTokens": 608670,
+    "cacheCreationInputTokens": 58510,
+    "webSearchRequests": 0,
+    "costUSD": 0.44893399999999994,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4382,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I confirmed season 6 is arithmetically locked out for its remaining ~180 days ($100 cash can't clear THREE_QUARTER's $150 floor, 0 PTO blocks everything else, journal shows 46 straight idle nights since d106), so no forum post or code change was needed there. I pulled fresh multi-season pooled data by class and 30-day window, which validates and sharpens the earlier finding: THREE_QUARTER beats OVERNIGHT and DAY_1_5 on $/share almost everywhere, with the strongest window in the whole dataset at doy300-329 (~$78/share) \u2014 and I rewrote `notes.md` with concrete S7 budget-pacing, PTO-batching, and class-priority rules built on those numbers.",
+  "ttft_ms": 2927,
+  "type": "result",
+  "duration_ms": 101662,
+  "uuid": "210d479d-a8c4-459a-a0c0-767cc687a227",
+  "ttft_stream_ms": 1437,
+  "time_to_request_ms": 682,
+  "first_content_frame_ms": 1438,
+  "time_to_request_from_spawn_ms": 50955119,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342327531.3447,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

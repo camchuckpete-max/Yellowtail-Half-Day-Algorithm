@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.8,
+ "claude": {
+  "duration_api_ms": 108342,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1931307,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 51889,
+   "cache_read_input_tokens": 457687,
+   "output_tokens": 8700,
+   "output_tokens_details": {
+    "thinking_tokens": 3170
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51889,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 977,
+     "cache_read_input_tokens": 66141,
+     "cache_creation_input_tokens": 4723,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4723
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 8700,
+    "cacheReadInputTokens": 457687,
+    "cacheCreationInputTokens": 51889,
+    "webSearchRequests": 0,
+    "costUSD": 0.1931307,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3170,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Season-end retrospective complete. Here's what changed:\n\n## Summary\n\n**Season 2 Analysis (Rank 8/34, Score 4.5588):**\n- **Root cause of underperformance**: Premature calendar lock (committed PTO d292/299/306 on d126, 170+ days early) + capital starvation by d293 ($50 left exactly when d293 peaked at 5.263 yt/angler).\n- **One winning trip**: d280-281 DAY_1_5 ($550, 150 fish = 4.41 share) = 97% of my season score. Three weak THREE_QUARTER/OVERNIGHT bets ($700 spent, 5 fish) + capital lock = immobility.\n- **Actual peaks missed**: May doy 97/138 (1.5-1.6 yt/angler), Late-Sept doy 270 (3.65 yt/angler), October doy 287/291 (1.9-2.76 yt/angler). Had I booked three peak-class DAY_1_5 trips, would have scored 12-15 fish = top-3 finish.\n\n**Season 3 Strategy (Updated notes.md + new strategy.py):**\n1. **Two-day trigger only**: Book MULTI_DAY (overnight, day_1_5) only when yesterday + today both MULTI_DAY/DAY_1_5 class avg >0.25 yt/angler. No calendar predictions.\n2. **Rolling PTO (never 14+ days locked)**: Commit 2 weekend PTO days every 4 weeks (d70, d140, d210, d280), staying flexible.\n3. **Capital discipline checkpoints**: Keep $1200+ until d200, $800+ until d280. Monthly spend limits: $400 Apr, $300 May-Jul, $400 Aug-Sept, $200 Oct.\n4. **Anti-patterns documented**: Refuse calendar lock, micro-peak chasing, water-temp noise, and capital starvation temptations.\n\nStrategy.py now auto-detects two-day triggers and commits weekend PTO rolling, executing the reactive playbook without nightly thinking required.\n\nForum consensus validates this: capital preservation beats timing, but flexibility + responsiveness beats rigid calendar holds. Elnino (rank 1) locked October and won. Dope_reader (rank 10) wasted capital on noise then couldn't execute. I'm splitting the difference: reactive trigger (responsive like streaker/dope_reader's testing, but on real signals) + capital checkpoints (defensive like elnino's hold, but flexible).",
+  "ttft_ms": 2717,
+  "type": "result",
+  "duration_ms": 110432,
+  "uuid": "9797a43b-22f2-4d27-96ee-d0db44c1fd39",
+  "ttft_stream_ms": 958,
+  "time_to_request_ms": 388,
+  "first_content_frame_ms": 958,
+  "time_to_request_from_spawn_ms": 44893788,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336266424.7717,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

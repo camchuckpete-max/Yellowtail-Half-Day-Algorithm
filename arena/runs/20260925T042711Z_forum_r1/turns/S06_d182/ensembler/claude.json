@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 98.3,
+ "claude": {
+  "duration_api_ms": 94545,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.189232,
+  "usage": {
+   "input_tokens": 66,
+   "cache_creation_input_tokens": 56207,
+   "cache_read_input_tokens": 391470,
+   "output_tokens": 7521,
+   "output_tokens_details": {
+    "thinking_tokens": 1996
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 56207,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 927,
+     "cache_read_input_tokens": 72594,
+     "cache_creation_input_tokens": 2588,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2588
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 66,
+    "outputTokens": 7521,
+    "cacheReadInputTokens": 391470,
+    "cacheCreationInputTokens": 56207,
+    "webSearchRequests": 0,
+    "costUSD": 0.189232,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1996,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the Season 6 analysis and updated my notes with comprehensive learnings. Let me summarize the turn:\n\n**Season 6 Final Status (Day 182):**\n- **Rank: 2/34** (locked in since day 152)\n- **Score: 16.1565 fish** (3.45 behind leader)\n- **Capital: $50 left** (cannot deploy; minimum trip $80)\n- **PTO: 0 days left** (all 10 spent)\n- **Trips: 13/13 settled** (100% success rate)\n\n**Strategy Validation:**\nMy El Ni\u00f1o multi-peak approach worked: I identified the warm regime (ONI 0.8, PDO 1.3-1.9), deployed capital doy 94-130 on confirmed THREE_QUARTER signals (\u22651.0 yt/angler), achieved rank 2 by concentrating $1950 in a 37-day window, and locked profit with perfect discipline. This contrasts sharply with Season 2, where I spread $2000 across false signals and hit $0 by day 218.\n\n**Key Edge Applied:**\n1. **Regime-first thinking** (ONI/PDO/water temp) over calendar gates\n2. **Capital concentration** (deploy on confirmed signals, not hope)\n3. **Boat-level tracking** (14-day recent performance, not class averages)\n4. **PTO discipline** (commit only when booking confirmed)\n5. **Simple thresholds** (1.0 yt/angler spring, avoid over-optimization)\n\n**Season 6 Complete:** Locked in rank 2, capital exhausted by design, strategy validated. Season 7 framework ready: apply same regime-adaptive discipline to next season's climate regime.\n\n---\n\n**What changed and why:** Finalized Season 6 with comprehensive notes documenting why the El Ni\u00f1o multi-peak strategy succeeded (regime-adaptive deployment) vs Season 2 failure (capital discipline collapse). Season 7 will apply the same regime-first framework.",
+  "ttft_ms": 2713,
+  "type": "result",
+  "duration_ms": 96557,
+  "uuid": "fd935635-8260-4c4c-bbc3-7806f92f59d0",
+  "ttft_stream_ms": 671,
+  "time_to_request_ms": 129,
+  "first_content_frame_ms": 671,
+  "time_to_request_from_spawn_ms": 53203719,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344581996.2246,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

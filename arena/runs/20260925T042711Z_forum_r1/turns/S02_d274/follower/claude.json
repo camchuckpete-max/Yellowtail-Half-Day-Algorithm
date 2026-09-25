@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 41.9,
+ "claude": {
+  "duration_api_ms": 39020,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.305512,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 57812,
+   "cache_read_input_tokens": 186790,
+   "output_tokens": 3689,
+   "output_tokens_details": {
+    "thinking_tokens": 863
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57812,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 356,
+     "cache_read_input_tokens": 80722,
+     "cache_creation_input_tokens": 2531,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2531
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 3689,
+    "cacheReadInputTokens": 186790,
+    "cacheCreationInputTokens": 57812,
+    "webSearchRequests": 0,
+    "costUSD": 0.305512,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 863,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed the season is a dead end: budget's been stuck at $50 (below the $80 offer floor) for 63 straight nights with all 10 PTO unused, and nothing in results/leaderboard/forum changed that. The one new data point worth capturing was the leaderboard reshuffle \u2014 ens_solo jumped to #1 (1.2189) and overnighter to #3 (0.8077) during the fall DAY_1_5 window we couldn't afford, dropping us from rank 5 to 7 \u2014 strong empirical proof that cash discipline (not PTO) is the real bottleneck.\n\n**Summary:** No bookings possible this turn (budget $50 < every offer's $80 floor); I verified the season is fully locked in at 0.6681/rank 7 and added a day-274 note documenting how the leaderboard shake-up during the fall boom confirms the season-3 plan (cap pre-fall spend at 30-35%, reserve 55-60% for the fall DAY_1_5 window). No forum post \u2014 nothing new to share and it wouldn't carry to S3 anyway.",
+  "ttft_ms": 1567,
+  "type": "result",
+  "duration_ms": 40394,
+  "uuid": "74114f4e-352e-46c5-b396-1a4820dad21e",
+  "ttft_stream_ms": 542,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 542,
+  "time_to_request_from_spawn_ms": 40535523,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331914159.1445,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

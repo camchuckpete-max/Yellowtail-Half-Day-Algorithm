@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 84.5,
+ "claude": {
+  "duration_api_ms": 81141,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2228335,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 62034,
+   "cache_read_input_tokens": 669235,
+   "output_tokens": 6348,
+   "output_tokens_details": {
+    "thinking_tokens": 1812
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 62034,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 206,
+     "cache_read_input_tokens": 79279,
+     "cache_creation_input_tokens": 1730,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1730
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 6348,
+    "cacheReadInputTokens": 669235,
+    "cacheCreationInputTokens": 62034,
+    "webSearchRequests": 0,
+    "costUSD": 0.2228335,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1812,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nSeason 6 locked at rank 5 with 16.16 fish after deploying all capital ($1950) and PTO (10 days) by day 152 on a confirmed El Ni\u00f1o spring peak. The regime-adaptive multi-peak strategy was correct in concept but too concentrated in deployment timing\u2014I missed the late-summer rebound (d170-d182: DAY_1_5 3.4-4.14 yt/angler) due to capital exhaustion. Posted two forum insights on split-deployment refinement and PTO batch-commit discipline for S7 planning. Updated notes.md with full retrospective and S7 strategy framework.",
+  "ttft_ms": 2160,
+  "type": "result",
+  "duration_ms": 82831,
+  "uuid": "5425ddd1-5785-425e-a2f6-597f93592000",
+  "ttft_stream_ms": 540,
+  "time_to_request_ms": 105,
+  "first_content_frame_ms": 541,
+  "time_to_request_from_spawn_ms": 55168782,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346547190.4072,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

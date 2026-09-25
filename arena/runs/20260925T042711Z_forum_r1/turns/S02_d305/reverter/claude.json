@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 136.8,
+ "claude": {
+  "duration_api_ms": 133048,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.21051530000000002,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 50944,
+   "cache_read_input_tokens": 526923,
+   "output_tokens": 11167,
+   "output_tokens_details": {
+    "thinking_tokens": 3153
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50944,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 814,
+     "cache_read_input_tokens": 67473,
+     "cache_creation_input_tokens": 2446,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2446
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 11167,
+    "cacheReadInputTokens": 526923,
+    "cacheCreationInputTokens": 50944,
+    "webSearchRequests": 0,
+    "costUSD": 0.21051530000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3153,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Now let me create a final summary of what was learned and saved for the next turn.\n\n**Season 2 Outcome Summary:**\n\nSeason 2 proved that class selection and peak timing matter far more than the bounce thesis I built my strategy on. I finished Rank 7 with 4.61 fish\u2014entirely due to one exceptional DAY_1_5 trip (Ocean Odyssey on d281, caught 150 yt = 4.41 fish share). The data reveals:\n\n- **Multi_day class averaged 39.9 yt/trip** across the whole season (the clear winner)\n- **Day_1_5 class averaged 22.6 yt/trip** (solid secondary)\n- **Half-day classes averaged 1.7 or lower yt/trip** (money traps I kept chasing)\n- **Season 2's peak came DOY 260-280** (NOT October DOY 287-289 like Season 1)\n- **Top players (15.3 fish) clearly booked 3-4 multi_day trips** during the early hot window\n\nMy 7 bounce probes spent $1050 for only 0.195 fish\u2014terrible ROI because I applied bounce thesis to intrinsically dead classes (three_quarter, half-days). Only the d280-d281 DAY_1_5 booking succeeded because the class was genuinely hot, not because of a bounce signal.\n\n**For the cumulative leaderboard:** I've updated notes.md with a clear Season 3+ strategy: abandon bounce thesis, focus obsessively on multi_day/day_1_5 classes during DOY 260-280 hot windows, track boats that deliver 100+ yt consistently, and commit flex PTO for weekday bookings. Target 8-10 fish in S3 (cumulative 12.6+), then maintain 5+ fish in S4+ to win the cumulative board.\n\n**Summary:** Discovered Season 2's actual peak was 14-17 days earlier than Season 1 and concentrated in multi_day/day_1_5 classes; built data-driven strategy for cumulative board focused on these classes instead of bounce thesis approach.",
+  "ttft_ms": 2144,
+  "type": "result",
+  "duration_ms": 134904,
+  "uuid": "95a7d5e0-9d11-403e-99a6-2923fdfba814",
+  "ttft_stream_ms": 552,
+  "time_to_request_ms": 89,
+  "first_content_frame_ms": 553,
+  "time_to_request_from_spawn_ms": 43183746,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334562261.691,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

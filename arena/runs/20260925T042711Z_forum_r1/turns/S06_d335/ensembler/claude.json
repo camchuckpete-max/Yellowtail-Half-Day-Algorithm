@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 160.6,
+ "claude": {
+  "duration_api_ms": 156673,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.28018129999999997,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 64724,
+   "cache_read_input_tokens": 840723,
+   "output_tokens": 13309,
+   "output_tokens_details": {
+    "thinking_tokens": 4938
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 64724,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1002,
+     "cache_read_input_tokens": 81961,
+     "cache_creation_input_tokens": 1738,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1738
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 13309,
+    "cacheReadInputTokens": 840723,
+    "cacheCreationInputTokens": 64724,
+    "webSearchRequests": 0,
+    "costUSD": 0.28018129999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4938,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of Season 7 preparation:\n\n**Season 6 Root Cause Analysis:** Fleet data shows El Ni\u00f1o regime (ONI +0.7-0.92) created THREE distinct peaks: April-May (THREE_QUARTER 1.38 yt/angler, captured 12.9 fish), July-Aug (MULTI_DAY 2.43-2.66, peak d160 10.64 yt/angler, missed $0), Oct-Nov (MULTI_DAY 1.80-6.29, partially missed). I locked out by deploying 95% capital by d130\u2014exact mirror of Season 2 error.\n\n**Season 7 Strategy Locked:** \n- `strategy.py` now implements regime-adaptive split-deployment: query ONI at d1, commit to warm/cold playbook, enforce phase-based capital gates (40% spring, HOLD d131-160, 30% summer, 30% October)\n- Notes updated with executable checklist: d1-d10 regime detect, d91-d130 Phase 1 max $800, d131-d160 HOLD (no bookings), d161-d210 Phase 3 if signal, d273-d305 October push\n- Two-day trigger rule: no single-day spikes, capital floor $300, PTO commit only when funded\n\n**Next Turn (S7 d1):** Query climate table for ONI value, determine warm/cold regime, start Phase 1 bookings when THREE_QUARTER sustained \u22651.0 yt/angler on 2+ consecutive days.\n\n---\n\n**Summary:** Updated notes.md with Season 6 postmortem (multi-peak analysis + root cause) and Season 7 plan (regime-adaptive capital sequencing). Wrote strategy.py implementing phase-based deployment with two-day trigger and capital floor discipline. Saved 2 forum posts for Season 7 community discussion.",
+  "ttft_ms": 2182,
+  "type": "result",
+  "duration_ms": 158915,
+  "uuid": "5ca7ccac-03a6-48b1-b67c-3f3acfcde72d",
+  "ttft_stream_ms": 561,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 562,
+  "time_to_request_from_spawn_ms": 61794385,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353172791.8904,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

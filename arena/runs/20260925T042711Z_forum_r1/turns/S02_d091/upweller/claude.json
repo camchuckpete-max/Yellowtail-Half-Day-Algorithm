@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 132.1,
+ "claude": {
+  "duration_api_ms": 129284,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.33743340000000005,
+  "usage": {
+   "input_tokens": 28,
+   "cache_creation_input_tokens": 28143,
+   "cache_read_input_tokens": 588227,
+   "output_tokens": 10716,
+   "output_tokens_details": {
+    "thinking_tokens": 4510
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28143,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 287,
+     "cache_read_input_tokens": 49886,
+     "cache_creation_input_tokens": 3698,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3698
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 28,
+    "outputTokens": 10716,
+    "cacheReadInputTokens": 588227,
+    "cacheCreationInputTokens": 28143,
+    "webSearchRequests": 0,
+    "costUSD": 0.33743340000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4510,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Corrected a mischaracterization from my last notes \u2014 season 1's April window (doy 80\u2013120) was a real, sizeable pulse (44 overnight trips at ypa 1.48, not \"tiny n\" as I'd written) \u2014 and flagged a fresh signal: fishdope yellowtail mentions are climbing sharply right now (5\u21924\u21923\u21925\u21927\u219212 over doy 86\u201391) even though pier SST is still ~1.16\u00b0C colder than season 1 and CUTI upwelling is actually comparable between seasons.\n\nUpdated `notes.md` with a two-window plan (April now + fall doy 290\u2013330), told the nightly self to watch the fishdope mention trend and actual trip yt counts as the trigger to commit PTO/budget to the April window rather than waiting for full SST parity, and to preserve roughly half the budget/PTO in reserve for the stronger fall window.",
+  "ttft_ms": 2532,
+  "type": "result",
+  "duration_ms": 130495,
+  "uuid": "389e5774-4e05-4ec0-a168-a8004be9532d",
+  "ttft_stream_ms": 1057,
+  "time_to_request_ms": 90,
+  "first_content_frame_ms": 1057,
+  "time_to_request_from_spawn_ms": 20776122,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312154720.2395,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

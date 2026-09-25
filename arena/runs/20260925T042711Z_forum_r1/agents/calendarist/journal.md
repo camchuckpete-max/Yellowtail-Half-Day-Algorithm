@@ -1,0 +1,448 @@
+- S02 d091: Peak season active DOY 91-120; no overnight boats d092. Waiting for overnights DOY 93-96+. Hold for April overnight strategy.
+- S02 d092: April peak underway but early-week overnights now locked. Pivoting to Friday departures (Sat-Sun fishing = zero PTO). Will commit October bookings mid-August.
+- S02 d093: April peak locked. Holding cash and PTO for October day_1_5 Friday runs. All d094 boats require PTO not yet committed."
+- S02 d094: April peak locked. Fleet running cold (0.000 on most classes). Holding budget and PTO for October day_1_5 Friday departures (DOY 287-295).
+- S02 d096: April peak locked; fleet running cold (0.000–0.014 yt/angler). Executing October hold.
+- S02 d097: April peak nonperforming—fleet 0.000–0.014 yt/angler all week. Locked on October day_1_5 Fridays (DOY 287–295). Holding $2000 and 10 PTO for proven October strategy, 0 PTO cost on Fri departures.
+- S02 d098: April window silent, fleet 0.000 all week. Holding pattern for October day_1_5 Friday strategy confirmed.
+- S02 d099: April silent (d099 fleet 0.000–0.075, down from typical 0.553). October day_1_5 Friday strategy locked; will commit PTO once DOY 260 threshold reached.
+- S02 d100: April peak locked cold; fleet d099-d100 0.000–0.075. Holding $2000 and 10 PTO for October day_1_5 Fridays (DOY 287–295). Will commit PTO mid-Aug at DOY 260 threshold.
+- S02 d101: April locked cold. Committing October Friday day_1_5 returns (DOY 290, 297, 304). Holding $1,650+ budget and 7 PTO for confirmed bookings.
+- S02 d102: Holding for October day_1_5 Fridays (PTO committed). No boats on TWILIGHT; other classes require uncommitted weekday PTO. $2000 and 7 PTO reserved for d287–295 proven strategy."
+- S02 d103: April cold all week (0.000–0.075 yt/angler). October Friday strategy locked. Holding.
+- S02 d104: April cold holds; fleet silent d104. Holding cash and PTO for October day_1_5 Fridays. No suitable boats to chase anyway.
+- S02 d105: May dead (0.000 fleet); water 61°F cold. Holding for October day_1_5 peaks (d290, d297, d304 locked).
+- S02 d106: May dead (0.000–0.075 yt/angler). October day_1_5 Fridays (d290, d297, d304) locked—hold cash for proven peak."
+- S02 d107: May cold as forecast. October day_1_5 locked (d290, d297, d304 PTO confirmed). Hold.
+- S02 d108: September dead zone (0.000–0.046 yt/angler fleet). October day_1_5 Fridays (d290, d297, d304) locked; hold until then."
+- S02 d109: May dead (0.000–0.065 yt/angler). October day_1_5 Fridays (d290, d297, d304) locked. Hold cash and PTO.
+- S02 d110: May/Sept dead zone (0.000–0.075 yt/angler). Holding for October day_1_5 Fridays d290, d297, d304. Water 60.8°F cold.
+- S02 d111: September cold holds. October day_1_5 Fridays (d290, d297, d304) locked and loaded. Hold cash for the peak.
+- S02 d112: Sept dead zone, fleet flat. October Fridays (d290, d297, d304) locked. Hold.
+- S02 d113: September dead zone confirmed. October day_1_5 Fridays (d290, d297, d304) locked; conserve cash for proven peaks.
+- S02 d114: September dead zone confirmed. October peaks (d290, d297, d304) locked. Hold cash for proven season.
+- S02 d115: September dead zone, fleet flat. October peaks (d290/297/304) locked—hold cash and PTO.
+- S02 d116: Missed April overnights. Salvaging May tail-end (d138, d145). October day_1_5 locked (d290,297,304).
+- S02 d117: d91-120 peak window passed unbooked. May (d138,d145) + October (d290,d297,d304) locked; hold position."
+- S02 d118: Dead zone confirmed. Hold cash for October 1.5-day peaks (d290/297/304).
+- S02 d119: May peak window closing (d119). Holding cash and position for d138/145 and October peaks.
+- S02 d120: D121 outside peak. Hold cash and PTO for d138/145 tail-end and October proven peaks.
+- S02 d121: September dead zone: fleet flat, no boats/no fish. Hold capital for May/October peaks.
+- S02 d122: September dead zone holding. Peak calendar (May/October) locked with PTO committed; no new commitments needed. Preserve capital for peaks.
+- S02 d123: September dead zone. Peak calendar locked (d138/145 May, d290/297/304 Oct). Hold capital and position.
+- S02 d124: September dead zone; d138 May peak 14 days out—next booking window. Hold cash and seat.
+- S02 d125: September dead zone; hold position for May 18 d138 peak (13 days out).
+- S02 d126: September dead zone. Hold capital and seat for d138 (May peak, 12 days).
+- S02 d127: September dead zone. Hold for May d138 (10 days). Capital $2000, PTO locked d138/145/290/297/304.
+- S02 d128: September dead zone; no PTO for Monday. Commit May backup (d146–147) and October day_1_5 return days (d291, d298, d305).
+- S02 d129: September dead zone; hold $2000 for May d138 peak (9 days out). Season strategy locked May/Oct.
+- S02 d130: September dead zone; hold $2000 and seat for May d138 peak (8 days). Peak calendar locked.
+- S02 d131: September dead zone. Capital reserved for May d138 peak (7 days, PTO locked). No action tomorrow.
+- S02 d132: September dead zone holds. May peak (d138, 5 days) fully locked. Capital $2000, PTO maxed.
+- S02 d133: Hold d134 (Sept dead). May d138 locked 5 days out.
+- S02 d134: Hold $2000 for May d138 peak (3 days). PTO locked, capital locked, strategy locked.
+- S02 d135: September dead zone; hold $2000 and seat for May d138 peak (2 days). PTO maxed, strategy locked.
+- S02 d136: September void; d138 May peak 1 day away, PTO+capital locked. No boats scheduled for tomorrow's bookable trips.
+- S02 d137: Execute d138 May peak—three_quarter booked. Strategy locked, capital reserved for October.
+- S02 d138: May peak failed (no boats d138). October windows d290, d297, d304 locked; PTO exhausted; capital protected.
+- S02 d139: September void holds; capital + PTO exhausted and protected for October d290, d297, d304 peaks only.
+- S02 d140: September dead zone holds; capital + PTO locked for October d290, d297, d304 day_1_5 peaks only. May failure sealed the hold.
+- S02 d141: September dead zone holds; capital + PTO locked for October d290, d297, d304 day_1_5 peaks. May failure sealed the hold.
+- S02 d142: September void holds. d143 is noise; capital and PTO locked for October d290, d297, d304 peaks. May window failed (no boats); October still strong at 2.4 yt/angler climatology.
+- S02 d143: May peak window collapsed (no boats d138). October d290, d297, d304 locked; hold $2000 and discipline for October day_1_5 peaks.
+- S02 d144: September void holds; Three-quarter hot on d144 but one day isn't a season. Capital + PTO protected for October d290, d297, d304.
+- S02 d145: May failed; d146 three_quarter window is real and local bite is hot. San Diego d146, hold October for peaks.
+- S02 d146: Mission Belle hot today; extending d146–147 three_quarter window. October day_1_5 peaks (d290, d297, d304) locked. Capital + PTO protected.
+- S02 d147: May window fished strong (0.35 avg, 0.682 peak). Late-season three-quarter noise tomorrow—discipline holds, capital locked for October peaks.
+- S02 d148: September dead zone; no quality boats; capital protected for October day_1_5 peaks.
+- S02 d149: D150 late-summer noise. Capital locked for October. Discipline holds.
+- S02 d150: September void holds through d150. October peaks locked; capital protected for day_1_5 bookings d290, d297, d304.
+- S02 d151: September void confirmed; capital $1700 + October PTO locked. Stay home.
+- S02 d152: S02 d152 discipline holds. September void through d286; October peaks locked and funded. No noise trades.
+- S02 d153: September void holds. October peaks (d287–301) locked and funded. Capital protected; discipline through d286.
+- S02 d154: September void d155. Capital $1700 reserved for October day_1_5 peaks; all PTO committed (0 remaining). Discipline holds.
+- S02 d155: d156 void hold; capital locked October; 0 PTO left.
+- S02 d156: September void holds; d157 dead zone confirmed. Capital and PTO locked for October peaks. Discipline.
+- S02 d157: September void holds; capital and PTO locked for October peaks. Discipline.
+- S02 d158: September void d159 confirmed void. All PTO and capital locked for October day_1_5 peaks. Discipline holds.
+- S02 d159: Void d160 confirmed. Capital and PTO locked for October day_1_5 peaks d287+. Auto-booking strategy primed for d287 departure.
+- S02 d160: Void d161 holds. September flat confirmed; capital and PTO locked for October day_1_5 peaks d287+. Discipline.
+- S02 d161: September void d162 confirmed. Capital and PTO locked for October day_1_5 peaks d287+. Discipline holds.
+- S02 d162: September void d163 confirmed. Capital and PTO locked for October peaks d287+. Discipline holds.
+- S02 d163: Late September void holds. Capital and PTO locked for October d287+ day_1_5 peaks (climatology 2.4+ yt/angler). Discipline.
+- S02 d164: September void holds. Capital locked for October day_1_5 peaks d287+. Discipline.
+- S02 d165: Late September void confirmed; capital and PTO locked for October day_1_5 peaks. Discipline holds.
+- S02 d166: September void confirmed. All capital + PTO locked for October d287+ day_1_5 peaks. Discipline.
+- S02 d167: Late September void confirmed. All capital and PTO locked for October d287+ day_1_5 peaks. Discipline holds.
+- S02 d168: S02 d169 void hold. Capital locked for October. Discipline.
+- S02 d169: September void confirmed d170. Capital + PTO locked for October day_1_5 peaks d287+. Discipline holds.
+- S02 d170: D170 void hold. No bookable plays; capital locked for October d287+ day_1_5 peaks. Discipline.
+- S02 d171: Late September void holds. All capital and PTO locked for October d287+ day_1_5 peaks. Discipline.
+- S02 d172: Late September void holds. All capital and PTO reserved for October d287+ day_1_5 peaks. Discipline.
+- S02 d173: Late September void confirmed again (d165–174); capital and all PTO locked for October peaks. Discipline.
+- S02 d174: September void holds. Capital + PTO locked for October. Discipline.
+- S02 d175: D176 THREE_QUARTER declined (0.315 clim, 0.011 fleet actual). September void holds; capital and PTO locked for October d287+ day_1_5 peaks. Discipline.
+- S02 d176: D177 Sunday void hold. September dead zone confirmed; all capital locked for October day_1_5 peaks. Discipline.
+- S02 d177: September void d178 hold. Capital and PTO locked for October day_1_5 peaks. Discipline.
+- S02 d178: D179 void hold. September dead zone, PTO exhausted. All capital locked for October d287+ day_1_5 peaks.
+- S02 d179: September void holds through d180. All capital locked for October day_1_5 peaks (d287+). Discipline.
+- S02 d180: September void d181 hold. Capital and PTO locked for October d287+ day_1_5 peaks. Discipline.
+- S02 d181: September void d182 hold. Capital locked for October d287+ day_1_5 peaks. Discipline.
+- S02 d182: September void d183 hold. Capital locked for October d287+ peaks. Discipline.
+- S02 d183: D184 Sunday void hold. September dead zone holds; all capital and PTO locked for October day_1_5 peaks. Discipline.
+- S02 d184: S02 d184: September void d185 hold. Capital locked for October d287+ day_1_5 peaks. Discipline confirmed.
+- S02 d185: September void hold d186. All capital locked October d287+ DAY_1_5 peaks. Discipline.
+- S02 d186: September void d187 hold. No PTO for weekday trips; capital locked October. Discipline confirmed.
+- S02 d187: S02 d188 hold confirmed (dead zone). October d290, d291, d297, d298, d304, d305 locked. Discipline.
+- S02 d188: S02 d189 Friday void—hold. September dead zone d182-286 continues; October peaks (d290+) are the real opportunity. Capital & PTO discipline preserved.
+- S02 d189: D190 Saturday void hold. Capital fully reserved for October d287-301 DAY_1_5 peaks. Discipline confirmed through September death march.
+- S02 d190: D191 Sunday void hold. September death march continues; capital locked for October d287+ DAY_1_5 peaks. Discipline.
+- S02 d191: September void d192 hold. Capital locked for October d287+ DAY_1_5 peaks. Discipline.
+- S02 d192: September void d193 hold. October d290–305 DAY_1_5 peaks locked. Discipline.
+- S02 d193: September void d194 hold. October d290+ DAY_1_5 peaks locked. Discipline.
+- S02 d194: S02 d194 evening: September void d195 hold. October d290+ DAY_1_5 peaks locked. Discipline.
+- S02 d195: New Lo-An 24 yt yesterday—outlier, not signal. Dead zone d196 confirmed; capital locked for October d287+ peaks. Discipline.
+- S02 d196: September dead zone d197 confirmed void. Capital locked for October d287–301 DAY_1_5 peaks. Discipline.
+- S02 d197: D198 void hold. Discipline confirmed; dead zone trend flat despite yesterday's spike. Capital locked for October d290+ DAY_1_5 peaks.
+- S02 d198: D199 Monday void hold. September death march confirmed. Capital and PTO locked for October d290+ DAY_1_5 peaks.
+- S02 d199: D199 hold. September void confirmed; October peaks locked. Discipline.
+- S02 d200: D201 void hold. Dead zone d202–286 confirmed. October d290+ auto-booking locked, capital preserved.
+- S02 d201: Dead zone hold d202. October peaks locked d290+. Discipline sustained.
+- S02 d202: Dead zone hold d202. October d287–301 DAY_1_5 peaks locked. Discipline sustained.
+- S02 d203: Hold d204; dead zone confirmed. October peaks locked ($1650 reserved, 10 PTO committed d290/291/297/298/304/305).
+- S02 d204: Dead zone hold d205 confirmed. October DAY_1_5 peaks locked d290+. Discipline sustained.
+- S02 d205: D206 hold confirmed. Dead zone discipline sustained; October DAY_1_5 auto-booking locked. Zero temptation in flat waters.
+- S02 d206: D207 hold; dead zone persistent. October DAY_1_5 auto-lock d290+ gates opening in 81 days. Discipline.
+- S02 d207: D208 hold; dead zone persists. October peaks d290+ locked. Discipline.
+- S02 d208: Dead zone hold d209. October d290+ locked. Capital preserved for October peaks.
+- S02 d209: Dead zone hold d210. October d290+ locked. Capital & discipline intact.
+- S02 d210: Dead zone hold d212. October d287+ locked. Budget and PTO disciplined. Trust the climatology window.
+- S02 d211: Dead zone hold d212; Oct d287+ locked. Capital & discipline intact.
+- S02 d212: Dead zone hold d213. October d290+ locked. Discipline.
+- S02 d213: Hold d214 dead zone. October DAY_1_5 auto-book locked (d290, d297, d304+). Capital preserved.
+- S02 d214: Hold d215 dead zone; October d290+ locked. Capital & discipline intact for October execution.
+- S02 d215: Dead zone d216 hold; October d290+ locked. Capital & discipline intact.
+- S02 d216: September dead zone hold. October peaks locked (d290, d297, d304+). Capital preserved.
+- S02 d217: Dead zone hold d218–d286. October d287 auto-trigger locked. Capital preserved for peak.
+- S02 d218: September hold confirmed. October d287+ locked. Capital & discipline intact.
+- S02 d219: Dead zone d220 hold. October execution pending (d287+). Capital preserved for peak.
+- S02 d220: Dead zone hold d221. October peaks d290+ locked. Capital $1700 = 3 DAY_1_5 reserved.
+- S02 d221: Dead zone hold d222. October d290+ locked. Capital $1700 reserved for peak.
+- S02 d222: Dead zone hold d223. October peaks locked, capital preserved.
+- S02 d223: September dead zone hold d224. October execution d287+ locked (PTO, capital, strategy confirmed). Discipline intact.
+- S02 d224: Dead zone hold d225. October execution d287+ locked (PTO, capital, climatology 2.0-2.7 yt/angler confirmed). Discipline intact.
+- S02 d225: Dead zone hold d226 confirmed. October execution d287+ locked. Capital preserved.
+- S02 d226: Hold September dead zone. October d287+ execution locked ($1700, 3× DAY_1_5, PTO ready). Season strategy intact.
+- S02 d227: Dead zone hold d228. October locked ($1700 capital, 3× DAY_1_5, PTO d290–d305). Patience as strategy.
+- S02 d228: Dead zone hold d229. October execution locked ($1700, 3× DAY_1_5, PTO d290–d305). Discipline intact.
+- S02 d229: September dead zone hold d230 confirmed. October d287+ execution strategy intact ($1700 capital, 3× DAY_1_5, PTO d290–305 ready).
+- S02 d230: September dead zone hold d231. October d287+ execution locked ($1700, 3× DAY_1_5, PTO ready). Discipline intact.
+- S02 d231: Dead zone hold d232. October d287+ locked ($1700, 3× DAY_1_5, PTO d290–305). Discipline intact.
+- S02 d232: Dead zone hold d233. October peak (d287+) locked: $1700 capital, 3× DAY_1_5, PTO d290/d297/d304/d305 ready. Discipline over noise.
+- S02 d233: Dead zone hold d234. October locked d287+. Discipline over noise.
+- S02 d234: Dead zone hold d235. October locked. Discipline over noise.
+- S02 d235: Dead zone hold d236. October execution locked. Discipline intact.
+- S02 d236: September dead zone hold d237. October d287+ execution ready. Discipline intact.
+- S02 d237: Dead zone hold d238. October execution (d287+ @ 2.0+ yt/angler) locked. Discipline over micro-peaks.
+- S02 d238: Dead zone hold d239. October d287+ ready. Discipline wins.
+- S02 d239: Dead zone hold d240. October execution (d287+) locked. Discipline intact.
+- S02 d240: September dead zone hold d241. October execution (d287+) locked. Discipline intact.
+- S02 d241: Dead zone hold d242. October d287+ execution ready. Discipline intact.
+- S02 d242: September dead zone hold. October execution (d287, d290, d297) 45-46d locked. Discipline over false peaks.
+- S02 d243: Dead zone hold d244. October d287+ locked (3× DAY_1_5 ready). Discipline intact.
+- S02 d244: September dead zone hold d245. October d287+ execution (3× DAY_1_5) fully funded and locked. Discipline intact.
+- S02 d245: Dead zone hold d246. October execution (doy 287+) locked, 0/3 DAY_1_5 fired yet. Discipline intact.
+- S02 d246: Dead zone hold d247. October DAY_1_5 strategy (d287+) fully locked and funded. Discipline intact.
+- S02 d247: September noise ignored. October peak d287+ window fully locked. Discipline intact.
+- S02 d248: September dead zone hold d249. October peak d287+ execution (3× DAY_1_5) fully locked and funded. Discipline intact.
+- S02 d249: September dead zone hold d250. October execution d287+ locked and funded (3× DAY_1_5, 2.6 yt/angler peaks). Discipline intact.
+- S02 d250: September dead zone d251: hold for October peak execution d287+ (3× DAY_1_5, 2.6 yt/angler peaks, PTO locked). Discipline intact.
+- S02 d251: September dead zone hold d252. October d287+ DAY_1_5 peak window fully locked ($1700 ready, PTO set). Discipline intact.
+- S02 d252: September dead zone d253 hold. October peak (d287–301) fully locked: $1700 budget, 10 PTO days committed. Discipline intact.
+- S02 d253: S02 d253: September dead zone hold d254. October d287+ DAY_1_5 peak window fully locked ($1700 budget, 10 PTO days committed). Discipline intact.
+- S02 d254: Sept dead zone hold d255. October DAY_1_5 peak fully locked ($1700, 10 PTO days committed). Discipline intact.
+- S02 d255: Sept dead zone hold d256. October DAY_1_5 peak d287+ locked ($1700, 10 PTO set). Discipline intact.
+- S02 d256: Sept dead zone d257 hold. October DAY_1_5 execution d287+ fully locked ($1700, 10 PTO). Discipline intact.
+- S02 d257: September dead zone hold d258. October d287+ peak fully locked ($1700, 10 PTO days committed). Discipline intact.
+- S02 d258: September dead zone d259 hold. October DAY_1_5 peak execution d287+ fully locked ($1700, 10 PTO). Discipline intact.
+- S02 d259: S02 d259 evening: September dead zone hold through d260. October DAY_1_5 peak d287+ execution window locked. $1700 budget reserved, discipline intact.
+- S02 d260: September hold d261. October DAY_1_5 peak d287+ locked ($1700, 10 PTO committed). Discipline intact.
+- S02 d261: Late Sept dead zone hold. October DAY_1_5 peak d287+ fully locked ($1700 budget, 10 PTO committed). Discipline intact.
+- S02 d262: September dead zone hold d263. October DAY_1_5 peak d287+ execution window locked. Discipline intact, budget $1700, PTO 0 reserved.
+- S02 d263: September dead zone hold. October DAY_1_5 peak execution window locked. Discipline intact.
+- S02 d264: September hold d265. October DAY_1_5 peak d287+ locked ($1700, 10 PTO committed). Discipline intact.
+- S02 d265: September hold through d266. October peak d287+ locked ($1700, 10 PTO committed). Aztec heat tempting, discipline prevails.
+- S02 d266: September dead zone hold d268. October peak d287+ execution locked ($1700, 10 PTO committed). Discipline intact.
+- S02 d267: September hold d269. October peak d287+ locked ($1700, 10 PTO committed). Discipline > daily noise.
+- S02 d268: September hold d269. October peak d287+ locked ($1700, 10 PTO). Discipline intact.
+- S02 d269: September dead zone hold d270. October DAY_1_5 peak d287+ fully locked ($1700, 10 PTO committed). Discipline intact.
+- S02 d270: September dead zone hold. October peak unreachable—PTO exhausted. Strategy revision required.
+- S02 d271: September hold d272. October DAY_1_5 peak (doy 287–301) locked with $1700 and 10 PTO committed. Discipline intact.
+- S02 d272: September hold confirmed. October window (d287–301) execution ready: $1700, 10 PTO locked. Discipline intact.
+- S02 d273: September hold d274. October execution ready: $1700, 10 PTO locked for doy 287–301 DAY_1_5 triplet (d288, d289, d295 fish dates, 2.6/2.4/2.4 yt/angler climatology). Discipline > noise.
+- S02 d274: Season failure confirmed: October peak unreachable (0 PTO, misallocated commitments). September dead zone holds. Strategy redesign required for S03.
+- S02 d275: Season locked. October peak unreachable; November dead. Redesign PTO strategy for S03.
+- S02 d276: Season over. October locked, unreachable. Same wedge mistake twice. Discipline now = holding cash and staying home.
+- S02 d277: Season over. October peak locked out by PTO exhaustion. Hold cash, stay home.
+- S02 d278: S02 d278: Season over. Dead zone confirmed through November. Hold cash, stay home.
+- S02 d279: September dead zone holds. October peak window d287–303 incoming: $1700 + committed PTO (Mon/Tue d290–291, d297–298, d304–305) ready for weekend-return DAY_1_5 trips. Discipline intact.
+- S02 d280: Sep dead zone holds d281-286. Oct d287-303 window locked by prior PTO misallocation (0 days left). Discipline = cash held, home for now.
+- S02 d281: Late September dead zone holds. October window locked by d290–d305 PTO misallocation. Season unrecoverable. Hold cash, stay home.
+- S02 d282: September dead zone holds. Stay home, preserve capital. October window incoming but unreachable—discipline = wait and live to fight S03.
+- S02 d283: Dead zone holds. Season lost to October wedge lock. Capital preserved for S03.
+- S02 d284: d285: Dead zone, no PTO, October locked. Season unrecoverable. Hold and preserve for S03.
+- S02 d285: October wedge lock confirmed irreversible. Season lost. Preserve capital for S03 and rethink PTO allocation strategy.
+- S02 d286: October peak live. Legend d287 DAY_1_5 departure—fishing the window, not sitting on sidelines. Discipline: capital held for peak, now deployed.
+- S02 d287: October peak d288 Legend departure locked. Capital deployed into the window. Season recovery underway.
+- S02 d288: d288: October peak irretrievable due to PTO wedge lock. Season lost. Home to preserve capital for S03 replan.
+- S02 d289: Season peaked d288. PTO wedge lock unbreakable. Stay home, preserve capital for S03 replan. Rigid calendar + poor early execution = unrecoverable rank 4.
+- S02 d290: Season lost to rigid PTO + poor early execution. Sit out weak September end, capital preserved for S03 replan.
+- S02 d291: October peak missed due to PTO wedge lock. Season unrecoverable. Stay home, preserve capital for S03 replan and PTO strategy rethink.
+- S02 d292: Season unrecoverable. October peak wedge lock fatal. S03: commit PTO *after* peak windows, not before them.
+- S02 d293: October window d295 still live. Ocean Odyssey 5.0 yt/angler recent—locks the peak. Zero PTO left; November is dead.
+- S02 d294: Ocean Odyssey d295 peak locked—final October play. Season rank unrecoverable, but capital deployed to the window per calendar discipline.
+- S02 d295: Final October window: Pacific Voyager d297 peak play locked. Season rescue in progress.
+- S06 d091: Late Sept is noise. Hold PTO and capital for October seasonal and April El Niño peaks. Watch, don't predict.
+- S06 d092: September is noise. October peak opens d100+. Hold dry, let conditions develop, deploy strategically. Ranked 34th with $2000 and 10 PTO—no panic plays.
+- S06 d093: September noise confirmed. October d100+ peak is six days away—hold PTO and capital, watch conditions develop, deploy at the calendar turn.
+- S06 d094: Hold dry. October peak 5–6 days out; watch conditions develop. Spring my trap at d100+ when calendar clarity arrives.
+- S06 d095: Hold dry. October peak is 5 days out. Watch conditions, deploy at d100 calendar turn.
+- S06 d096: Hold dry. October peak d100+ is 4 days out. Calendar turn, not noise.
+- S06 d097: Missed October peak window—failed to commit PTO 14 days ahead. Calendar discipline only works if you commit on schedule. Regroup and plan mid-October or beyond.
+- S06 d098: Missed d100 peak again (failed 14-day PTO window). Committing d112–114 for mid-Oct multi-day opportunity. Calendar discipline, not daily noise.
+- S06 d099: Missed d100 three-quarter window (PTO deadline d086 passed). Hold for d112–114 committed multi-day peak as planned. Calendar discipline: don't chase tail-end noise.
+- S06 d100: October peak live now—book weekend San Diego; d112–114 trap stands. Calendar discipline: fish what opens, when it's free to fish."> 
+- S06 d101: d102 Sunday THREE_QUARTER: executing October calendar strategy, San Diego hot, d112–114 trap locked, capital/PTO preserved.
+- S06 d102: Hold Monday. Calendar trap d112–114 intact. Weekend hot-boat run (d101–102) executed; preserve capital and discipline for October peak.
+- S06 d103: Hold calendar discipline. Peak window d112–114 locked. Dry spell productive—capital preserved, mental edge intact.
+- S06 d104: Hold discipline. d105 (Wed) requires PTO not committed. d112–114 trap locked; stay dry.
+- S06 d105: Hold d106 (unbookable Wed). d112–114 trap locked, capital and PTO preserved for October peak.
+- S06 d106: Legend overnight d108. October trap d112–114 locked, no mid-month upside. Calendar discipline holds.
+- S06 d107: Hold discipline through d108 OVERNIGHT. October trap (d112–114) locked. No new commitments.
+- S06 d108: Book Mission Belle THREE_QUARTER d109 (Sun). Calendar discipline: fish free windows before d112-114 trap. Budget $1150 remaining, PTO intact.
+- S06 d109: Hold d110–111. October trap d112–114 locked, capital and discipline intact. Calendar season is the season.
+- S06 d110: Hold d111. d112–114 lock untested; three-quarter is the reliable play and I cannot book it without unreserved PTO. Reset after October window produces real data.
+- S06 d111: Peak window d112 opens. Malihini THREE_QUARTER—calendar discipline executed, capital preserved for d113–114 sequential fishing.
+- S06 d112: Peak d112–114 live and hot. Malihini maintains yesterday's sequence. Hold PTO and capital for next identified window, not speculative future dates.
+- S06 d113: Complete peak window on San Diego. No new PTO commitments; hold for next identified peak. Budget $700 after d114.
+- S06 d114: October tail confirmed hot. Malihini d115 extends 3.412/0.840 sequence. Hold PTO and capital for next identified peak.
+- S06 d115: October peak closed, decay confirmed d115–d116. Hold capital and PTO discipline for next seasonal window.
+- S06 d116: Hold d117. Post-peak decay, no viable bookable trips. Capital and PTO intact for next seasonal window.
+- S06 d117: October window complete (d112–114 avg 2.59 yt/angler). Post-peak decay d115–d117 confirmed. Hold for next seasonal inflection.
+- S06 d118: October peak closed (d112–114 avg 2.59 yt/angler). Post-peak decay confirmed d115–117. Hold dry; next window TBD.
+- S06 d119: October peak closed d112–114 (2.59 yt/angler). Post-peak decay confirmed d115–119. Hold dry for next seasonal window.
+- S06 d120: October window closed d112–114 (2.59 avg). Post-peak decay d115–d120 confirmed. Hold dry; next seasonal window TBD late October or November.
+- S06 d121: October peak d112–114 executed (2.59 yt/angler). Post-peak decay confirmed. Hold dry for next seasonal window late October/November.
+- S06 d122: Post-peak decay d115–d123 confirmed. Hold dry for next seasonal window; capital and PTO intact for late October inflection TBD.
+- S06 d123: Post-peak decay confirmed d115–d123. Hold dry. Next window TBD late October or November; await clearer seasonal signal before committing PTO.
+- S06 d124: Hold through decay. No bookable trips d125 (no committed PTO, TWILIGHT boats unavailable). Preserve capital and 7 PTO days for next seasonal inflection TBD late October.
+- S06 d125: Hold dry d126. Decay confirmed, next window unclear late October. Capital and PTO intact.
+- S06 d126: Decay window d115–d126 locked. Hold dry; await next seasonal signal late October.
+- S06 d127: October peak d112–114 locked (2.59 avg). Decay confirmed d115–d127. Holding dry; next seasonal window TBD late October. Capital and PTO intact.
+- S06 d128: Decay d115–d129 holding. Next seasonal window TBD late October; await clearer inflection signal.
+- S06 d129: Decay window d115–d130 holding. Next inflection late October TBD; capital and PTO preserved.
+- S06 d130: Hold dry d131. Decay phase confirmed. Await late-October inflection signal; 7 PTO and $550 intact.
+- S06 d131: d132 decay holds. TWILIGHT boats unavailable, no inflection signal. Capital $550, PTO 7 intact.
+- S06 d132: d133 decay holds, no bookable trips. Capital $550, PTO 7 intact. Await October inflection.
+- S06 d133: d133–d134 decay phase holds. No bookable trips. Hold dry; await October inflection signal for next commitment window.
+- S06 d134: d135 hold dry. Entering October but no scheduled boats, no inflection signal yet. Await fleet spike to confirm seasonal trigger.
+- S06 d135: d135 hold continues. Decay phase d115–d134 confirmed. No inflection signal yet. Capital $550 + 7 PTO reserved for October window trigger.
+- S06 d136: Hold d137 dry. Decay phase confirmed through d135. Await October inflection signal; capital $550 + 7 PTO reserved.
+- S06 d137: d138 decay holds. No bookable trips, no inflection signal. Capital $550 + 7 PTO reserved for October.
+- S06 d138: d138 decay confirmed. Hold dry; capital $550 + 7 PTO reserved for October inflection trigger.
+- S06 d139: d140 decay phase holds. No bookable trips. Capital $550 + 7 PTO reserved for October inflection trigger; await fleet signal before next commitment.
+- S06 d140: d140 hold continues. Decay confirmed through d139, no inflection signal. Capital $550 + 7 PTO reserved for October trigger.
+- S06 d141: Decay phase holds. Single-day OVERNIGHT spike noted but persona ignores daily noise. Hold capital and PTO for October inflection signal around d145+; don't burn on September speculation.
+- S06 d142: d143 hold dry. THREE_QUARTER spike is hot but seasonal noise. Capital $550 + 7 PTO reserved for October inflection signal around d145+. No deviation.
+- S06 d143: Hold d144 dry. Inflection window d145+ approaching; await signal before capital/PTO deployment. Decay confirmed, discipline intact.
+- S06 d144: d145 hold dry. Inflection window opens tomorrow; await d146+ signal before deploying capital and PTO. September noise vs. October peak discipline.
+- S06 d145: Hold d146. Fleet signal weak (THREE_QUARTER 0.445 d145) — inflection window opening but not yet decisive. Capital and PTO reserved for sharper pattern within next week.
+- S06 d146: Hold d147 dry. Seasonal discipline locked. October inflection signal pending; capital and PTO reserved.
+- S06 d147: September hold intact. Awaiting October inflection signal; capital and PTO reserved.
+- S06 d148: Hold d149 dry. September discipline intact—no inflection signal yet. Capital $550 + 7 PTO reserved for October peak window (d155+).
+- S06 d149: d150 hold dry. September ends; October inflection window opens next week (d155+). Discipline intact.
+- S06 d150: Hold d151 dry. Inflection window d155+ in 5 days—$550 + 7 PTO intact. THREE_QUARTER signal is pre-October calendar noise, not regime change.
+- S06 d151: Hold Monday. October inflection window d155+ imminent (3 days)—capital $550 + PTO 7 days reserved. No deployment until signal clarity.
+- S06 d152: Hold d153 dry—October inflection imminent (d155+, 2 days). Regime discipline: $550 + 7 PTO reserved.
+- S06 d153: Hold d154 dry. October inflection window d155+ remains 2 days ahead; regime clarity insufficient for immediate deployment. Calendar discipline intact: $550 + 7 PTO reserved.
+- S06 d154: Hold d155 dry; October peak discipline locked. Two 3-day PTO blocks (d162–164, d170–172) positioned for DAY_1_5 or OVERNIGHT. Capital $550 + 1 PTO buffer reserved. Awaiting inflection confirmation.
+- S06 d155: October window d156–157: DAY_1_5 Producer. Calendar discipline deployed; capital now committed. PTO reserved for d170+ tail peak.
+- S06 d156: d157 DAY_1_5 booking from d155 blocked by missing d159 PTO; no budget for alternatives. Hold through d170 tail window.
+- S06 d157: D157 DAY_1_5 deployed; awaiting results. October window closing. Capital exhausted; hold through d170 reentry pending outcome and financial recovery.
+- S06 d158: Capital exhausted, d157 deployment blank (0.000). Hold 6 PTO days and $0; no recovery path visible until season reassessment.
+- S06 d159: Capital wipeout d157; holding 6 PTO and d170 lock pending recovery path or season close.
+- S06 d160: Capital exhausted d157 (0 yt). Holding d170 committed PTO window only. Season recovery impossible unless d165+ conditions signal unusual opportunity.
+- S06 d161: S06 d161: Season capital exhausted d157 (0 yt). No booking possible. Hold d170 committed PTO; recovery impossible.
+- S06 d162: Broke and locked on d170. Hold position; no action until capital or conditions shift.
+- S06 d163: Capital exhausted d157 (0 yt). Hold d170 committed window; sit tight until cash or season reset.
+- S06 d164: Broke post-d157. Sit tight until capital recovery or season close. d170 locked, 6 PTO reserved.
+- S06 d165: Hold. Capital exhausted d157 (0 yt). Sit tight through d170 lock; season recovery impossible.
+- S06 d166: Broke post-d157 (0 yt). Hold d170 lock; sit tight for capital recovery or season reset.
+- S06 d167: Broke post-d157 (0 yt). No capital, no PTO available for d168 trip. Season recovery impossible; sit tight.
+- S06 d168: Broke post-d157. d170 locked; hold. No capital, no action until funds or conditions shift fundamentally.
+- S06 d169: Capital exhausted d157 (0 yt, 12.27 final score). D170 locked and unboardable. Season unrecoverable; sit out.
+- S06 d170: Broke, locked out d170. Season unrecoverable. Sit tight.
+- S06 d171: Broke at d171. Three-quarter peak confirmed (0.891 yt/angler), but sitting out through close. Season lost at d157.
+- S06 d172: Broke post-d157. Sit through season close; no capital, no recovery path. Waiting for next season reset.
+- S06 d173: Broke and locked out. Sit through close; observe El Niño peak windows for S07 planning.
+- S06 d174: Broke at d157. No capital to fish. Season lost; wait for reset.
+- S06 d175: Broke and locked out through d182. Season score 12.27 final. El Niño peaks d112–114 and d170 were the plays; post-d157 zero-budget spiral unrecoverable. S07: respect PTO±budget calendars early.
+- S06 d176: Broke at d157 (0 yt DAY_1_5). Season lost; sit through close. S07 focus: early peak windows (d112–114 template), capital preservation, no late-season recovery gambles.
+- S06 d177: Broke at d157 (0 yt DAY_1_5, $550 loss). Season score 12.27 final. Sit through close; S07: early peak windows (d112-d114 template), capital discipline, no late-season recoveries.
+- S06 d178: Broke at d157, season unrecoverable. Sit through d182 close. Next season: respect peak windows and capital discipline from day one.
+- S06 d179: Broke d157, season ended. Observe through close. S07: early peaks (d112–114), full capital discipline from reset.
+- S06 d180: Broke at d157. Season 6 final: 12.27, rank #9. Sit close. S07: capital discipline, early peaks (d112–d114 template), no recovery gambles.
+- S06 d181: Season 6 final: 12.27 points, rank #9. Locked out d157–d182 after zero-yield DAY_1_5 loss. Early peak (d112–114) thesis validated; late-season recovery gamble cost the season. S07: capital discipline first.
+- S06 d182: Locked out. d157 DAY_1_5 loss ($550 zero fish) ended season. Capital discipline and peak windows only in S07.
+- S06 d183: Locked out $0 through S6 close. S7: early peaks (d112–d114), zero capital depletion until confirmed window, full PTO pre-plan at season start.
+- S06 d184: Locked out $0 through S6 close. S7: early peaks (d112–d114), capital discipline, full PTO pre-plan at reset.
+- S06 d185: Locked out d157–close, $0 budget. S7 reset: early peaks, capital discipline, full PTO pre-plan at season start.
+- S06 d186: S06 d157 blowup ended season. Early peak window (d112–114) thesis confirmed, capital discipline failed. S07: reset with full PTO pre-plan and zero recovery gambles.
+- S06 d187: $0 breaks everything tomorrow. Hold discipline, guard 6 PTO for next real peak, wait for capital.
+- S06 d188: S6 d188: Broke at season-end. Hold discipline through close, reset S7 with capital plan and full PTO pre-allocation at day 1.
+- S06 d189: Broke through S06 d190. Hold 6 PTO, zero recovery. S07: capital-first reset, pre-commit full PTO window at d1, lock early peak d112–114.
+- S06 d190: Broke at d190. Hold 6 PTO through close. Reset S7 day 1: capital plan first, early peak lock d112–d114, zero recovery chasing.
+- S06 d191: Locked at $0, d191–close. S7: capital-first reset, lock d112–114 PTO day 1, zero recovery chasing.
+- S06 d192: Locked at $0 d193–close. S7 reset: capital allocation plan first, commit d112–114 PTO day 1, avoid mid-season chasing.
+- S06 d193: Locked $0 d194–close. S7: capital plan first, lock d112–d114 PTO day 1.
+- S06 d194: Broke at d194. Hold 6 PTO, zero fishing. Capital discipline above all.
+- S06 d195: S6 d196: Hold $0 discipline to close. S7 d1: capital plan first, lock d112–114 early peak, learn El Niño regime vs. calendar.
+- S06 d196: Season fade to close at rank #11. Hold 6 PTO, $0 budget through finish. S7 day 1: capital + PTO master plan first, lock d112–114 early peak, zero mid-season chasing.
+- S06 d197: Broke through close at #11 (12.27 fish, 6 PTO intact). S07 d1: capital+PTO plan first, lock d112–114 early peak, zero mid-season chasing.
+- S06 d198: S6 close at rank #11, $0, 6 PTO unused. Early peak locked (d112–114 scored 7.78 fish), late April window missed to regime shift. S7 day 1: capital+regime plan first, zero mid-season recovery chasing.
+- S06 d199: Broke through finish at rank 11 (12.27 fish). S7 day 1: capital+regime plan first, then lock early peak, zero chasing.
+- S06 d200: Locked at $0 to close. Hold all 6 PTO for S7 day-1 master plan: capital first, then lock d112–114 early peak, zero mid-season chasing.
+- S06 d201: S06 d202: Season fade. Hold $0 + 6 PTO to close. S07 day 1: capital + regime plan first.
+- S06 d202: Hold $0 + 6 PTO to S6 close. S7 d1: capital plan first, then lock early peak on regime signal.
+- S06 d203: $0 to close. Hold 6 PTO for S7 reset: capital first, regime signal second, calendar windows third.
+- S06 d204: Season winding down at rank #11 (12.27 fish). $0, 6 PTO held for S7 reset: capital plan first, regime signal second.
+- S06 d205: S6 d205: rank #11 (12.27 fish), $0 closed. S7 reset: capital plan first, no calendar locking until regime signal clear.
+- S06 d206: S6 d206→207 hold. Rank #11 (12.27 fish), $0 closed, 6 PTO reserved for S7 reset: capital first, regime second.
+- S06 d207: Broke at $0, 6 PTO held. No fishing until regime signal mid-October clears El Niño vs. neutral split. Capital-first discipline over calendar.
+- S06 d208: S6 d209: Hold. Regime-first discipline beats calendar. S7 capital reset incoming.
+- S06 d209: S6 d210: hold. Rank #11 (12.27 yt), $0 + 6 PTO reserved for S7 reset. Regime detection first, calendar second.
+- S06 d210: S6 d210 close: $0, 6 PTO reserved. S7 reset incoming—capital first, regime second, calendar third.
+- S06 d211: S6 d212 hold. $0 closed, 6 PTO reserved for S7 reset: capital first, regime signal second.
+- S06 d212: S6 endgame: $0, 6 PTO held for S7. Regime-first discipline over calendar. Season 6 failure → S7 reset.
+- S06 d213: S6 endgame: $0, rank 11, 6 PTO banked. S7 capital-first discipline, regime second, calendar third.
+- S06 d214: S6 d214 endgame: $0, 6 PTO held for S7. Capital-first discipline holds. Season closed.
+- S06 d215: S6 endgame d215: $0 budget, 6 PTO reserved for S7. Capital-first discipline holding through season close.
+- S06 d216: S6 d217: hold. $0 reserves, 6 PTO banked for S7 reset. Regime-first discipline, capital preservation.
+- S06 d217: S6 d218: $0 close, 6 PTO banked for S7. Capital discipline failed—reset to capital-first, regime-second, calendar-third.
+- S06 d218: S6 endgame d218: stay home, $0 held, 6 PTO reserved for S7. Capital discipline, regime signal first, calendar second.
+- S06 d219: S6 d219: $0 held, stay home. Season 6 closed. S7 reset: capital-first, regime-second, calendar-third.
+- S06 d220: S6 d220 endgame: $0 held, rank 11 (12.27 fish), 6 PTO banked. Capital-first discipline locks. S7 reset ready.
+- S06 d221: S6 d221: $0, 6 PTO banked. Hold. Capital discipline through season close.
+- S06 d222: S6 d223: capital hold, 6 PTO banked. S7 reset ready. Regime-blindness lesson learned; capital-first discipline locks.
+- S06 d223: S6 d223 endgame: $0 held, 6 PTO banked for S7. Capital discipline locked through season close.
+- S06 d224: S6 d225: hold. $0 and 6 PTO banked. Regime weak; capital discipline locked through season end.
+- S06 d225: S6 d226: $0 held, capital discipline locked through close. Rank 11 (12.27 fish), 6 PTO reserved for S7.
+- S06 d226: S6 d227: $0 held, capital discipline locked. Stay home. S7 reset ready.
+- S06 d227: S6 d228: $0, stay home. Season close locked. Capital discipline through finish; S7 capital-first regime begins.
+- S06 d228: S6 d229: $0 budget, stay home. Season close locked.
+- S06 d229: S6 d230: $0 enforces hold. Season close locked.
+- S06 d230: S6 d230: $0 locked, 6 PTO banked for S7. Season close hold. No wedge traps this reset.
+- S06 d231: S6 d232: $0 and 6 PTO banked for S7. Season close holds. Capital discipline locked.
+- S06 d232: S6 d233: $0 enforces hold. Capital discipline to close. S7 reset ready.
+- S06 d233: S6 d233: $0 holds. Season close locked. Capital discipline through finish.
+- S06 d234: S06 d235: $0 holds. Capital discipline to season close. Preserve 6 PTO for S7 reset.
+- S06 d235: S06 d235: $0 holds. Capital discipline through finish; 6 PTO reserved for S7.
+- S06 d236: Season closed at $0. Rank 11 (12.27 fish). Carry S7 learning: commit PTO before capital burns, not after. Watch climate signal—El Niño peaks earlier.
+- S06 d237: S6 finish: rank 11, $0 held through close, 6 PTO reserved S7. Capital discipline won over wedge-trap; no recovery needed.
+- S06 d238: S6 season closed. Hold $0 and 6 PTO for S7. Capital discipline to finish.
+- S06 d239: Capital wall d157. Hold $0 and 6 PTO to close. Season 7: deploy DAY_1_5 early or lock THREE_QUARTER windows only.
+- S06 d240: $0 enforces hold through close. Preserve 6 PTO for S7 reset and proper early-season execution.
+- S06 d241: $0 holds to close. Season 7: commit multi-day PTO earlier, before capital burns. Rank 11 (12.27 fish) locked.
+- S06 d242: S6 d243 (Mon): $0 holds. Season discipline intact. Six PTO locked for S7 early deployment.
+- S06 d243: S6 closing at $0, rank 11 (12.27 fish). Hold 6 PTO for S7 reset. Deploy early October windows with committed PTO before capital burns again.
+- S06 d244: $0 enforces hold through season close. S7: commit PTO earlier, before capital burns again. Rank 11 (12.27 fish) locked.
+- S06 d245: S6 capital exhausted; holding 6 PTO through close for S7 early-season deploy. Rank 11 (12.27 fish) locked.
+- S06 d246: Capital wall d246–close. Season 6 locked at rank 11 (12.27 fish). Hold $0 and all 6 PTO for S7 early-window deployment.
+- S06 d247: Season 6 closes at $0 and 6 PTO reserved. Season 7: commit PTO early into identified windows before capital deploys.
+- S06 d248: $0, 6 PTO held through S6 close. S7: commit early peaks with committed PTO *before* capital burns.
+- S06 d249: S6 capital exhausted through close. Hold 6 PTO for S7 early-peak deployment once briefing arrives.
+- S06 d250: S6 d250: Season closes at $0 and 6 PTO held for S7 early deploy. Rank 11 (12.27 fish) locked.
+- S06 d251: S6 d251: $0 and 6 PTO held through season close. S7 strategy: commit PTO early into identified calendar peaks before capital burns.
+- S06 d252: S6 d252: $0 and 6 PTO held firm through close. S7 strategy: commit early.
+- S06 d253: S6 d253: Capital wall holds. Hold 6 PTO and rank 11 (12.27 fish) through close. S7 thesis: commit early peaks only *after* fresh capital arrives and windows confirm.
+- S06 d254: S6 d254: Capital wall holds through close. 6 PTO held for S7 early-peak deployment. Rank 11 (12.27 fish) locked.
+- S06 d255: S6 closes at d256, $0 and rank 11. S7: hold PTO until briefing confirms peaks, then commit early.
+- S06 d256: S06 rank 11 locked (12.27 fish). S07 capital and PTO held. Await peak confirmation in fresh season data before committing days.
+- S06 d257: S6 d257: $0 wall holds, rank 11 locked. Await S7 briefing to deploy 6 PTO into confirmed early peaks with fresh capital.
+- S06 d258: S7 opens at $0. Hold position: await capital allocation and peak confirmation before committing PTO. Data is 7 days fresh—need 14+ more to map calendar windows.
+- S06 d259: S6 d259: $0 wall stands firm. Hold 6 PTO for S7 confirmed peaks; resist daily noise. Rank 11 locked.
+- S06 d260: S6 d260 close: $0 wall holds, rank 11 locked (12.27 fish). Hold 6 PTO for S7 confirmed peaks with fresh capital.
+- S06 d261: Capital wall holds. Hold 6 PTO for S7 fresh peaks and capital. Season discipline: avoid one trip too many.
+- S06 d262: S6 d263: $0 wall holds through close. Preserve 6 PTO for S7 early-window deployment once fresh peaks confirm.
+- S06 d263: $0 wall holds. Season 6 rank 11 locked. Await late October seasonal signal before deploying final 6 PTO.
+- S06 d264: S6 d264: $0 wall holds through finish. Season locked rank 11 (12.27 fish). Capital-disciplined close; no recovery gamble. Await S7 fresh budget and peak confirmation.
+- S06 d265: S6 d265: $0 wall holds. Hold 6 PTO for S7 d287–301 peak window once fresh budget confirmed and season opens.
+- S06 d266: S6 ends at $0 rank 11. Hold 6 PTO for S7 confirmed peaks; no late-season noise.
+- S06 d267: S6 d267: $0 wall holds to close. Season rank 11 locked (12.27 fish). Await S7 fresh budget; no PTO commitment without capital confirmation.
+- S06 d268: $0 close holds. S6 d268: 12.27 fish rank 11. Preserve 6 PTO for S7 fresh peaks; no pre-commits without capital. One trip too many blocked successfully.
+- S06 d269: S6 d269 close: $0 budget holds, 12.27 fish rank 11 locked. Await S7 fresh capital and peak confirmation before PTO commits.
+- S06 d270: S6 d270 close: $0 budget, rank 11 (12.27 fish) locked. Hold 6 PTO for S7 d287+ confirmed peaks; no noise commits.
+- S06 d271: S6 d271 close: $0 budget, rank 11 locked (12.27 fish). Capital discipline holds through season end; no late noise. Await S7 fresh budget.
+- S06 d272: S6 d272 close: $0 rank 11 locked. Hold 6 PTO for S7 d287+ once budget confirmed.
+- S06 d273: S6 d274: $0 budget holds to close. Rank 11 (12.27 fish) locked. No weekday PTO, no noise. Await S7 fresh capital.
+- S06 d274: S6 closed at $0, rank 11 (12.27 fish). Hold 6 PTO for S7 peak windows with fresh capital; no late-season PTO commits without matched budget and locked peak.
+- S06 d275: S6 d275 close: $0 budget, rank 11 locked (12.27 fish). Hold 6 PTO for S7 April-May peaks with fresh capital; no late-season noise.
+- S06 d276: S6 d276 close: $0 budget holds, rank 11 (12.27 fish) locked. Preserve 6 PTO for S7 fresh capital and confirmed peaks.
+- S06 d277: S6 closed rank 11 (12.27 fish). Hold 6 PTO + capital for S7 April-May DAY_1_5 peaks; no noise, no wedge locks.
+- S06 d278: S6 d278 close: rank 11 locked (12.27 fish), $0 budget. Hold 6 PTO for S7 April-May DAY_1_5 peaks with fresh capital.
+- S06 d279: S6 d279: $0 budget locked through close, rank 11. Hold 6 PTO for S7 April-May DAY_1_5 peaks; fresh capital needed.
+- S06 d280: S6 d280: season locked at rank 11, $0 budget. Hold 6 PTO for S7 spring peaks.
+- S06 d281: S6 rank 11 final. Hold 6 PTO for S7 spring DAY_1_5 peaks; no budget, no noise.
+- S06 d282: S6 d282 final: rank 11 (12.27 fish) locked, $0 budget. Hold 6 PTO for S7 April-May DAY_1_5 peaks; no capital, no wedge-locks, no noise.
+- S06 d283: S6 closes d284. Hold 6 PTO + capital for S7 April-May DAY_1_5 peaks (El Niño regime ONI 1.7 confirmed). No noise, no wedge-locks.
+- S06 d284: S6 season close, rank 11 locked. Hold 6 PTO for S7 spring DAY_1_5 peaks, no capital until new season.
+- S06 d285: S6 d286: season locked rank 11. Hold 6 PTO for S7 April-May DAY_1_5 peaks, fresh capital reset next season.
+- S06 d286: S6 d286 final evening: rank 11 locked (12.27 fish), $0 budget, 6 PTO held for S7 spring DAY_1_5 peaks. Season ends d287. No capital to deploy, focus shifts to S7 April–May El Niño window.
+- S06 d287: S6 locked rank 11 (12.27 fish). Hold 6 PTO for S7 April–May DAY_1_5 El Niño peaks; no capital, no booking.
+- S06 d288: S6 final: rank 11 locked (12.27 fish), $0 budget. Hold 6 PTO for S7 April–May DAY_1_5 El Niño peaks; no noise, no capital until S7 opens.
+- S06 d289: S6 d289 final week. Hold 6 PTO + capital (pending S7 reset) for April–May El Niño DAY_1_5 peaks. $0 through season end, no noise.
+- S06 d290: S6 d290 final: $0 budget, rank 11 locked (12.27 fish). Hold 6 PTO for S7 April–May El Niño DAY_1_5 peaks, no noise, no wedge-locks.
+- S06 d291: S6 closes Monday d292. Hold 6 PTO for S7 spring DAY_1_5 peaks, capital reset when S7 opens.
+- S06 d292: S6 close imminent, rank 11 locked. Hold 6 PTO and $0 for S7 spring El Niño DAY_1_5 window (d100–d115). Stay home.
+- S06 d293: S6 locked rank 11, $0 through close. PTO preserved for S7 April–May El Niño DAY_1_5 window. Season discipline: same calendar every year.
+- S06 d294: S6 d294: $0 budget, rank 11 locked. Hold 6 PTO for S7 spring El Niño peak (d100–d115). No noise.
+- S06 d295: S6 d295 final: stay home, preserve capital and PTO for S7 spring El Niño DAY_1_5 peak window (d100–d115).
+- S06 d296: S6 rank 11 locked (12.27 fish). Hold 6 PTO + capital for S7 spring El Niño peak (doy 100–115), DAY_1_5 class.
+- S06 d297: S6 d297: Season locked rank 11. Hold capital + 6 PTO for S7 spring El Niño DAY_1_5 peak (d100–d115). Regime discipline over noise.
+- S06 d298: S6 complete, rank 11 locked (12.27 fish). Preserve 6 PTO + capital reset for S7 April peak (doy 100–115, El Niño DAY_1_5 3.3+ yt/angler).
+- S06 d299: S6 d299: $0 budget, rank 11 locked. Hold 6 PTO + capital reset for S7 spring El Niño peak (d100–d115). Season discipline over noise.
+- S06 d300: S6 rank 11 locked ($0, d301 unbudgeted). Hold 6 PTO for S7 spring El Niño peak (doy 100–115, DAY_1_5 3.3+ yt/angler).
+- S06 d301: S6 d301: Season locked rank 11 (12.27 fish). Budget $0, hold 6 PTO for S7 spring El Niño peak (doy 100–115, DAY_1_5 class).
+- S06 d302: S6 d302 final: rank 11 locked. Hold 6 PTO + capital for S7 spring El Niño DAY_1_5 peak (doy 100–115).
+- S06 d303: S6 rank 11 locked (12.27 fish). Hold 6 PTO + capital reset for S7 spring El Niño DAY_1_5 peak (doy 100–115). Regime discipline over noise.
+- S06 d304: S6 final, rank 11. Hold 6 PTO + capital for S7 spring El Niño DAY_1_5 peak (doy 100–115). Regime discipline over noise.
+- S06 d305: S6 complete, rank 11 locked (12.27 fish). Hold 6 PTO and $0 reset for S7 April El Niño DAY_1_5 peak (doy 100–115). No commitments yet; await S7 briefing.
+- S06 d306: S6 rank 11 locked (12.27). Hold 6 PTO + capital reset for S7 spring El Niño peak (doy 100–115).
+- S06 d307: S6 d307: Season locked rank 11. Hold 6 PTO and capital reset for S7 spring DAY_1_5 peak—commit PTO only when S7 conditions firm.
+- S06 d308: S6 rank 11 locked. Hold 6 PTO and $0 reset for S7 spring DAY_1_5 peak (doy 100–115 El Niño regime).
+- S06 d309: S6 d309 complete, rank 11 (12.27 fish). Commit 6 PTO for S7 spring DAY_1_5 peak (doy 100–115 April 2027). El Niño regime active (ONI 1.7)—regime discipline over noise.
+- S06 d310: S6 locked rank 11 (12.27 yt). Hold 6 PTO + capital reset for S7 spring DAY_1_5 peak (doy 100–115). Commit PTO when S7 briefing firms April window and within 14-day rule.
+- S06 d311: S6 rank 11 locked (12.27 fish). Hold 6 PTO and capital reset for S7 spring DAY_1_5 peak—commit only when S7 briefing firms April window within 14-day rule.
+- S06 d312: S6 d312 final hold. Rank 11 locked (12.27 yt). Reset for S7 April El Niño DAY_1_5 peak (doy 100–115); 6 PTO reserved, capital flush awaiting season open.
+- S06 d313: S6 final days. Hold 6 PTO + reset capital for S7 spring DAY_1_5 peak (doy 100–115).
+- S06 d314: S6 rank 11 locked. Capital + PTO reset for S7 April DAY_1_5 peak; commit in March within 14d window.
+- S06 d315: S6 rank 11 locked (12.27 yt). No budget for tomorrow. Hold 6 PTO and capital reset for S7 spring DAY_1_5 peak (doy 100–115)—commit only in March within 14-day rule.
+- S06 d316: S6 rank 11 (12.27 yt) locked. Hold for S7 April DAY_1_5 peak (doy 100–115)—commit PTO in late March within 14d rule.
+- S06 d317: S6 rank 11 finalized (12.27 yt). Hold 6 PTO + capital for S7 April DAY_1_5 peak; commit in March within 14-day rule.
+- S06 d318: S6 rank 12 locked (12.27 yt). Hold 6 PTO + capital flush for S7 April DAY_1_5 peak.
+- S06 d319: S6 d319: Capital exhausted, rank 12 locked (12.27 yt). Hold 6 PTO for S7 April DAY_1_5 peak—commit in March within 14-day window.
+- S06 d320: S6 d320 final hold. Budget exhausted, rank 12 locked. Reserved 6 PTO + capital for S7 April DAY_1_5 peak; commit in March within 14d rule.
+- S06 d321: S6 d321: Hold 6 PTO, $0 budget. Season nearly done; capital reset for S7 April DAY_1_5 peak (doy 100–115)—commit in March within 14d rule.
+- S06 d322: S6 d322 hold: $0 budget, 6 PTO locked for S7 d100-115 peak. Season near end, capital reset in progress.
+- S06 d323: S6 rank 12 locked (12.27 yt). Hold 6 PTO + capital reset for S7 April DAY_1_5 peak; commit PTO in late March within 14d window.
+- S06 d324: S6 d325: Hold 6 PTO + capital; rank 12 locked. All resources reserved for S7 April DAY_1_5 peak (doy 100–115).
+- S06 d325: S6 d326: Hold. Budget $0, 6 PTO locked for S7 April peak (doy 100–115). Season rank 12 finalized; reset underway.
+- S06 d326: S6 d326: Hold. $0 budget, 6 PTO locked for S7 April peak (doy 100–115). Rank 12 finalized; season end in sight.
+- S06 d327: S6 d328: Hold 6 PTO + $0. Season economically closed; all resources locked for S7 April DAY_1_5 peak.
+- S06 d328: S6 d328 final hold. Rank 12 locked. Budget reset complete—all capital reserved for S7 April DAY_1_5 peak; PTO commits resume late Feb within 14d window.
+- S06 d329: S6 d329 final hold: $0 budget, 6 PTO locked for S7 April peak. Rank 12 secured; season closed.
+- S06 d330: S6 d330 final hold. Budget $0, capital reset locked for S7 April peak. Season rank 12 finalized.
+- S06 d331: S6 closed, rank 12 locked. Capital reset holds through S7 April peak; PTO window commits resume late February.
+- S06 d332: S6 final hold: budget $0, 6 PTO locked for S7 April peak. Rank 12 secured; season end imminent.
+- S06 d333: S6 d334: hold. Budget $0, 6 PTO locked for S7 April. Season rank 12 finalized.
+- S06 d334: S06 d335: hold. Budget $0, 6 PTO locked for S7 April. Rank 12 finalized; season end imminent.

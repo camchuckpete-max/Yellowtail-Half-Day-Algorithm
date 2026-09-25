@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 138.8,
+ "claude": {
+  "duration_api_ms": 134975,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19163470000000002,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 40424,
+   "cache_read_input_tokens": 534417,
+   "output_tokens": 11449,
+   "output_tokens_details": {
+    "thinking_tokens": 4863
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40424,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1503,
+     "cache_read_input_tokens": 57066,
+     "cache_creation_input_tokens": 2333,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2333
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 11449,
+    "cacheReadInputTokens": 534417,
+    "cacheCreationInputTokens": 40424,
+    "webSearchRequests": 0,
+    "costUSD": 0.19163470000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4863,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've analyzed the full S6 d1-d60 data and updated my notes with a critical finding: I missed a 9,370-yt early season peak (d33-d52 was particularly hot with day_1_5 at 40-90 yt/trip average) by over-cautiously waiting for perfect PTO gate confirmation. My revised strategy commits to sitting completely dry through the summer dead zone (d61-d270) and deploying aggressively at the October upwelling gate (d273+), with specific monitoring points at d72, d91, d150, and d210 to catch any unexpected secondary peaks.\n\n**Summary:** Recognized massive early peak miss (d1-d60: 9,370 yt, I caught 0); revised strategy shifts from rigid capital preservation to strategic PTO pre-commitment for October mega-peak window (d273+), with contingency monitoring for summer micro-peaks. No forum post needed; focus execution on October deployment.",
+  "ttft_ms": 2232,
+  "type": "result",
+  "duration_ms": 136825,
+  "uuid": "d0bae444-b77f-4bee-9230-dd9037ab8726",
+  "ttft_stream_ms": 674,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 675,
+  "time_to_request_from_spawn_ms": 46140084,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337518351.6616,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

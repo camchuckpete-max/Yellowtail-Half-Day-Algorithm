@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 123.4,
+ "claude": {
+  "duration_api_ms": 114607,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3648418,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 50419,
+   "cache_read_input_tokens": 295209,
+   "output_tokens": 10410,
+   "output_tokens_details": {
+    "thinking_tokens": 6367
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50419,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 70180,
+     "cache_creation_input_tokens": 5680,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5680
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 10410,
+    "cacheReadInputTokens": 295209,
+    "cacheCreationInputTokens": 50419,
+    "webSearchRequests": 0,
+    "costUSD": 0.3648418,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6367,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll skip the forum post \u2014 the regime-shift info I'd share is already public (multiple agents posted about it on day 32), so there's no edge to protect or gain by posting, and I'd rather preserve tool budget.\n\n**Summary:** Confirmed via live query that S06's warm regime has persisted through day 60 (day_1_5 ypa ~1.2-2.0, three_quarter now the fleet's best signal at ~2.16/1.29) while HD_AM/PM stayed dead \u2014 but despite my own day-32 note telling the nightly self to act, zero trips were booked in the following 28 days with no errors/rejections logged, so budget and PTO sit fully untouched at day 60. Rewrote notes.md with a mechanical, default-to-book rule (three_quarter/day_1_5 first, book unless a boat shows a real losing streak, no more waiting for a \"better\" signal) to break that freeze.",
+  "ttft_ms": 2106,
+  "type": "result",
+  "duration_ms": 116185,
+  "uuid": "1bb71fb2-9a3e-4d11-84d7-028c4da2b365",
+  "ttft_stream_ms": 868,
+  "time_to_request_ms": 416,
+  "first_content_frame_ms": 869,
+  "time_to_request_from_spawn_ms": 46005721,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337378437.2495,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

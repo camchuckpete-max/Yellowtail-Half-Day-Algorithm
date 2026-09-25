@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 101.2,
+ "claude": {
+  "duration_api_ms": 97673,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16817329999999997,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 38877,
+   "cache_read_input_tokens": 519373,
+   "output_tokens": 7676,
+   "output_tokens_details": {
+    "thinking_tokens": 3286
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38877,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 550,
+     "cache_read_input_tokens": 57077,
+     "cache_creation_input_tokens": 775,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 775
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 7676,
+    "cacheReadInputTokens": 519373,
+    "cacheCreationInputTokens": 38877,
+    "webSearchRequests": 0,
+    "costUSD": 0.16817329999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3286,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed a thorough review of Season 2 and prepared for Season 3. Here's the summary:\n\n**What I learned**: Water temperature (threshold 19\u00b0C sustained) is THE signal, not calendar predictions. Season 2 had two distinct peaks (d205-d211 @ 20.3-21.7\u00b0C and d236-d243 @ 19.1-20.2\u00b0C), but I burned $1100 on failed d140-d169 attempts and was broke by d220, completely missing the actual peak at d236 where day_1_5 hit 0.8333 yt/angler. La Ni\u00f1a pattern meant short, sharp peaks\u2014not the October sustained warmth I predicted.\n\n**Season 3 strategy**: Scout April-May with ~$800 (build boat performance baselines), preserve ~$1200 for peak capture. Only commit PTO 3-5 days ahead when water temp \u226519\u00b0C confirmed AND class signal \u22650.2 yt/angler. Expect 2-3 peaks per season. Prioritize multi_day > day_1_5 > three_quarter. Track specific boats (Hi-Count, Morning Star showed strength d237-d244). Updated notes.md with full tactical playbook for next season.",
+  "ttft_ms": 2410,
+  "type": "result",
+  "duration_ms": 99540,
+  "uuid": "5f1dd6e8-73b9-4f1c-af1d-4c4ba41536f9",
+  "ttft_stream_ms": 595,
+  "time_to_request_ms": 106,
+  "first_content_frame_ms": 595,
+  "time_to_request_from_spawn_ms": 40533552,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331912120.3694,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

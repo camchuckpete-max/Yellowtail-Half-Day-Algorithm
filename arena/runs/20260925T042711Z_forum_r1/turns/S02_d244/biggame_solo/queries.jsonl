@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4005, "ts": "2026-09-25T09:49:10"}
+{"tool": "arena_query", "sql": "SELECT \n  cls,\n  FLOOR((fish_date_doy - 1) / 7) * 7 + 1 as week_start_doy,\n  COUNT(*) as trip_count,\n  SUM(yt) as total_yt,\n  ROUND(SUM(yt) / NULLIF(COUNT(*), 0), 3) as yt_per_trip\nFROM trips\nWHERE fish_date_season = 2\nGROUP BY cls, week_start_doy\nORDER BY week_start_doy, cls", "rows": 231, "seconds": 0.046, "ts": "2026-09-25T09:49:18"}

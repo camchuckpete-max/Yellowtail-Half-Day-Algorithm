@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.6,
+ "claude": {
+  "duration_api_ms": 108496,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3982968,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 52432,
+   "cache_read_input_tokens": 440234,
+   "output_tokens": 10049,
+   "output_tokens_details": {
+    "thinking_tokens": 4699
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52432,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 373,
+     "cache_read_input_tokens": 72880,
+     "cache_creation_input_tokens": 4993,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4993
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 10049,
+    "cacheReadInputTokens": 440234,
+    "cacheCreationInputTokens": 52432,
+    "webSearchRequests": 0,
+    "costUSD": 0.3982968,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4699,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed the same total-dormancy bug persisted for another 31 nights (day 60\u219291: budget/PTO still exactly $2000/10, zero bookings, and journal.md has no season-6 entries at all \u2014 only stale season-2 lines), and pulled fresh day-91 data showing a strong, well-sampled bite (three_quarter fleet-wide 1.55 yt/angler over 87 trips/2,788 anglers; San Diego 1.64/n=13 and Malihini 1.62/n=15 are the reliable default boats; HD classes still structurally dead at ~0).\n\nI rewrote notes.md to lead with the execution failure (not data) as the real problem, flag the empty journal as evidence this may be a structural/plumbing issue worth checking first next turn, note that no `submit_strategy` tool was available this session to install a deterministic backstop, and replace the prior multi-clause checklist with a near-unconditional rule: book three_quarter on San Diego/Malihini/Mission Belle/Point Loma every night it's offered, no further analysis, reserving only HD-only nights as a legitimate sit-out.",
+  "ttft_ms": 3423,
+  "type": "result",
+  "duration_ms": 110085,
+  "uuid": "bbb8aa98-741b-478e-8995-516db57acaa5",
+  "ttft_stream_ms": 1064,
+  "time_to_request_ms": 515,
+  "first_content_frame_ms": 1065,
+  "time_to_request_from_spawn_ms": 46396682,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337769114.3655,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 219.3,
+ "claude": {
+  "duration_api_ms": 211854,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5652396,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 73990,
+   "cache_read_input_tokens": 469498,
+   "output_tokens": 17534,
+   "output_tokens_details": {
+    "thinking_tokens": 9865
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 73990,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 238,
+     "cache_read_input_tokens": 62877,
+     "cache_creation_input_tokens": 11113,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 11113
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 17534,
+    "cacheReadInputTokens": 469498,
+    "cacheCreationInputTokens": 73990,
+    "webSearchRequests": 0,
+    "costUSD": 0.5652396,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 9865,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I confirmed the ONI is steadily warming (-0.85 by day 130) and three_quarter rates are recovering faster than overnight/day_1_5, with San Diego clearly the best boat (0.396 trailing rate, n=10). The key update: budget has run down to $500, making the old \"save for a fall day_1_5\" plan unaffordable (day_1_5 costs $550), so I rewrote notes.md to pivot the whole rest-of-season plan onto three_quarter as the sole workhorse, free up PTO for weekday hot-streak bookings since it's no longer being hoarded for an unaffordable fall trip, and pace the remaining $500 to leave a reserve for the Oct-Nov rebound.",
+  "ttft_ms": 3692,
+  "type": "result",
+  "duration_ms": 213661,
+  "uuid": "c9b26714-a874-4d51-882f-ee364c895a35",
+  "ttft_stream_ms": 2213,
+  "time_to_request_ms": 563,
+  "first_content_frame_ms": 2214,
+  "time_to_request_from_spawn_ms": 31787498,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323161620.8257,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

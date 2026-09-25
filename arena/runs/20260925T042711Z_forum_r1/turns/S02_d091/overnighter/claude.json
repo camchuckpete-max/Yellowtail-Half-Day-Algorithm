@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 138.5,
+ "claude": {
+  "duration_api_ms": 135672,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16538599999999998,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 29086,
+   "cache_read_input_tokens": 484930,
+   "output_tokens": 11721,
+   "output_tokens_details": {
+    "thinking_tokens": 2922
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29086,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 552,
+     "cache_read_input_tokens": 47404,
+     "cache_creation_input_tokens": 657,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 657
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 11721,
+    "cacheReadInputTokens": 484930,
+    "cacheCreationInputTokens": 29086,
+    "webSearchRequests": 0,
+    "costUSD": 0.16538599999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2922,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed the planning analysis. Here's what changed:\n\n**Confirmed Strategy**: Historical data (560 overnight trips) validates my original thesis. October DOY 288-297 peaks at 80-105 avg fish per trip (ideal), with June DOY 171-172 as solid secondary target at 61-67 avg. Current early April season is slow for overnight fishing\u2014no booking now.\n\n**Plan**: 1-2 June trips (Day 142, DOY 156 booking window) for early 60-100 fish + 3 October trips (Day 276, DOY 276 booking window) for peak 200-300 fish. Expected season score: 260-400 fish from 5 trips across $2000 budget + 10 PTO.\n\nUpdated **notes.md** with refined trip dates, booking timeline (specific day numbers and DOYs), and risk mitigations. Created **journal.md** entry logging this turn's decision.",
+  "ttft_ms": 2594,
+  "type": "result",
+  "duration_ms": 136964,
+  "uuid": "3c649404-b872-45e8-ba48-a6b14ccb37b6",
+  "ttft_stream_ms": 686,
+  "time_to_request_ms": 82,
+  "first_content_frame_ms": 687,
+  "time_to_request_from_spawn_ms": 20779556,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312158280.62,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

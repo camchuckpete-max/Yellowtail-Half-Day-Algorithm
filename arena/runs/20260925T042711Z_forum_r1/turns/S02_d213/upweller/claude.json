@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 114.8,
+ "claude": {
+  "duration_api_ms": 111955,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4126501999999999,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 46656,
+   "cache_read_input_tokens": 588261,
+   "output_tokens": 10833,
+   "output_tokens_details": {
+    "thinking_tokens": 5070
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46656,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 433,
+     "cache_read_input_tokens": 67478,
+     "cache_creation_input_tokens": 4619,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4619
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 10833,
+    "cacheReadInputTokens": 588261,
+    "cacheCreationInputTokens": 46656,
+    "webSearchRequests": 0,
+    "costUSD": 0.4126501999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5070,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Ran the lagged CUTI/BEUTI-vs-ypa correlation I'd flagged as outstanding (n=460, lags 0/7/10/14): all essentially zero \u2014 the core upwelling thesis isn't supported as a linear signal at any lag, while raw SST level shows a modest real correlation (0.21-0.25) but is likely just seasonal-cycle tracking. Also found a season-to-season divergence: S1's doy180-213 \"slump\" in overnight/day_1_5 didn't repeat in S2 (those classes woke up to 0.2-0.65 ypa this window while S1 was flat ~0.01-0.04), which we couldn't act on since spring overspend had already capped budget at $120.\n\nUpdated `notes.md` with both findings and revised the S3 priority list: drop CUTI/BEUTI as a signal, move the hard budget-reserve cutoff for overnight/day_1_5 capacity from doy260 up to doy180-190, and keep treating \"which window is dead vs live\" as something to re-check per season rather than assume from prior-season climatology (except HD_AM/HD_PM staying dead doy154-300, which held in both seasons). Rest-of-S2 plan stays as-is: hold cash/PTO, spend only on a confirmed live $80 HD boat.",
+  "ttft_ms": 1272,
+  "type": "result",
+  "duration_ms": 113114,
+  "uuid": "0a94dc7b-616b-40cc-bb9b-805dcbd3bcc2",
+  "ttft_stream_ms": 719,
+  "time_to_request_ms": 83,
+  "first_content_frame_ms": 719,
+  "time_to_request_from_spawn_ms": 36490064,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327868544.2458,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4015, "ts": "2026-09-25T12:03:59"}
+{"tool": "arena_query", "sql": "\nSELECT cls,\n  COUNT(*) n,\n  SUM(yt) sum_yt,\n  SUM(anglers) sum_anglers,\n  ROUND(SUM(yt)*1.0/NULLIF(SUM(anglers),0),3) ypa\nFROM trips\nWHERE fished_date_season = 6 AND fished_date_doy BETWEEN 61 AND 91\nGROUP BY cls\nORDER BY ypa DESC\n", "rows": 7, "seconds": 0.091, "ts": "2026-09-25T12:04:02"}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 66.6,
+ "claude": {
+  "duration_api_ms": 63081,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3256648,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 48041,
+   "cache_read_input_tokens": 366264,
+   "output_tokens": 6022,
+   "output_tokens_details": {
+    "thinking_tokens": 2319
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48041,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 356,
+     "cache_read_input_tokens": 70866,
+     "cache_creation_input_tokens": 2616,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2616
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 6022,
+    "cacheReadInputTokens": 366264,
+    "cacheCreationInputTokens": 48041,
+    "webSearchRequests": 0,
+    "costUSD": 0.3256648,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2319,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed S2 is fully closed out (budget stuck at $40 since day 178, 31 more correct \"nothing bookable\" nights since the last check-in) \u2014 nothing actionable this turn. I queried fall ypa by class/doy-bin and found DAY_1_5 hit 4.33 ypa at doy280 and stayed 2.9-3.8 through doy300, while THREE_QUARTER collapses from 0.41 to ~0.02 right at doy270-280 with no overlap between the two classes' hot windows.\n\n**Summary:** Verified nothing to book (budget $40 < $80 floor confirmed for rest of S2) and added hard doy-binned ypa numbers to `notes.md` showing DAY_1_5's fall edge (2-4+ ypa, doy260-300) sharply outclasses THREE_QUARTER's, which dies right when day_1_5 wakes up \u2014 sharpened the S3 rule to stop new 3Q bets by doy250 and hold $550+ reserve by doy220 so the fall day_1_5 window is never locked out again.",
+  "ttft_ms": 1821,
+  "type": "result",
+  "duration_ms": 64972,
+  "uuid": "9bb7a8b2-e3a6-4cce-a601-15faa558ae81",
+  "ttft_stream_ms": 550,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 550,
+  "time_to_request_from_spawn_ms": 43168033,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334546605.7131,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

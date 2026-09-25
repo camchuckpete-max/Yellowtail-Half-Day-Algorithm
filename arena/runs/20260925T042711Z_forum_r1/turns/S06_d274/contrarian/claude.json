@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.2,
+ "claude": {
+  "duration_api_ms": 107686,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2085806,
+  "usage": {
+   "input_tokens": 120,
+   "cache_creation_input_tokens": 46632,
+   "cache_read_input_tokens": 715366,
+   "output_tokens": 8732,
+   "output_tokens_details": {
+    "thinking_tokens": 2196
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46632,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 687,
+     "cache_read_input_tokens": 64921,
+     "cache_creation_input_tokens": 686,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 686
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 120,
+    "outputTokens": 8732,
+    "cacheReadInputTokens": 715366,
+    "cacheCreationInputTokens": 46632,
+    "webSearchRequests": 0,
+    "costUSD": 0.2085806,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2196,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Here's a summary of this planning turn:\n\n**What I learned:** My \"contrarian valley thesis\" was wrong. S6 data shows winners followed peaks (dogpile window d+1 to d+7), not faded into valleys. I booked 9 trips but only 3 succeeded (d105, d183, d200), while 6 failed on valley plays. Specific mistakes: (1) chose THREE_QUARTER when MULTI_DAY (4.90 yt/angler) was firing, (2) booked after peaks faded instead of during, (3) held April when El Ni\u00f1o regime screamed \"deploy early,\" (4) burnt capital by d244 and couldn't participate in late-season surge. I ended 4.31 fish (rank 28), down 8\u201312 fish from what regime-aware capital allocation would have yielded.\n\n**What I changed:** Updated notes.md with brutally honest postmortem and hardened S7 strategy locked around: (1) Regime-first capital allocation (read ONI d1\u2013d10, allocate 60% early for warm regimes), (2) Class hierarchy enforcement (MULTI_DAY > DAY_1_5 > rest; abandon THREE_QUARTER), (3) Peak-timing gate (book d+1 to d+7 only, never valleys), (4) Capital floor binding ($800 warm/d210, $400 warm/d280, never touch). Posted forum message (1 of 2) with key lesson: herds win yellowtail, contrarian fade is a losing persona for this game.",
+  "ttft_ms": 2689,
+  "type": "result",
+  "duration_ms": 110028,
+  "uuid": "769d1788-4325-4fb6-9f13-45f775d9b1b1",
+  "ttft_stream_ms": 1045,
+  "time_to_request_ms": 384,
+  "first_content_frame_ms": 1046,
+  "time_to_request_from_spawn_ms": 58508863,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349881506.847,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 86.6,
+ "claude": {
+  "duration_api_ms": 83195,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.11957260000000001,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 20586,
+   "cache_read_input_tokens": 415606,
+   "output_tokens": 7346,
+   "output_tokens_details": {
+    "thinking_tokens": 1890
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20586,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 573,
+     "cache_read_input_tokens": 39344,
+     "cache_creation_input_tokens": 217,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 217
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 7346,
+    "cacheReadInputTokens": 415606,
+    "cacheCreationInputTokens": 20586,
+    "webSearchRequests": 0,
+    "costUSD": 0.11957260000000001,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1890,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season 2 Day 1 Summary:**\n\nI've analyzed the season ahead using historical data and current climate conditions. The data is decisive:\n\n**Two distinct yellowtail peaks:**\n- Early April (DOY 92-97): avg 46-51 per trip\n- Late October (DOY 288-289): avg 49-52 per trip\n- Mid-season (May-September): weak (20-29 per trip average)\n\n**Current regime:** ONI = -1.54 (strong La Ni\u00f1a/cold)\n- In cold regimes, my philosophy is to concentrate budget on proven peaks and skip weak periods\n- This differs from B_SAT/B_PERSIST/B_TEMP strategies which spread more evenly\n\n**My strategy:**\n1. Pre-commit PTO now for early April peak (10 days away)\n2. Book 3-4 trips during DOY 92-97 (~$1000-1200 budget)\n3. Skip mid-season (May-September)\n4. Preserve remaining budget ($800-1000) for late October peak (DOY 288-289)\n\nI've updated `strategy.py` with automation for PTO pre-commitment and trip booking during the peaks, and `notes.md` with the full plan for nightly execution.\n\n**Changed:** Strategy written; season plan documented based on ONI regime analysis and historical seasonal patterns.  \n**Next:** Early April peak arrives in 10 days\u2014will pre-commit PTO and execute first phase of the plan.",
+  "ttft_ms": 2257,
+  "type": "result",
+  "duration_ms": 85064,
+  "uuid": "d4ee0db4-1bcb-4bcb-93d6-055630278936",
+  "ttft_stream_ms": 553,
+  "time_to_request_ms": 87,
+  "first_content_frame_ms": 553,
+  "time_to_request_from_spawn_ms": 19368823,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310747520.2207,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

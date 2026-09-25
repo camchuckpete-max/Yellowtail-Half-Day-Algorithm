@@ -1,0 +1,18 @@
+{
+ "agent": "overnighter",
+ "sandbox": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d060/overnighter/sandbox",
+ "snapshot": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/snapshots/S02_d060",
+ "forum_path": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/forum.jsonl",
+ "forum": false,
+ "forum_quota_left": 0,
+ "now": {
+  "season": 2,
+  "doy": 60,
+  "hour": 21,
+  "t": 424.875
+ },
+ "first_year": 2010,
+ "mask_years": true,
+ "code_strategies": false,
+ "nightly": true
+}

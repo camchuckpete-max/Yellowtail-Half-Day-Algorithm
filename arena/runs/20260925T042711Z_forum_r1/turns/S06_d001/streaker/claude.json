@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 99.4,
+ "claude": {
+  "duration_api_ms": 95917,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1796653,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 41425,
+   "cache_read_input_tokens": 583903,
+   "output_tokens": 7663,
+   "output_tokens_details": {
+    "thinking_tokens": 3062
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 41425,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 595,
+     "cache_read_input_tokens": 59571,
+     "cache_creation_input_tokens": 829,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 829
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 7663,
+    "cacheReadInputTokens": 583903,
+    "cacheCreationInputTokens": 41425,
+    "webSearchRequests": 0,
+    "costUSD": 0.1796653,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3062,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've analyzed Season 6 opening and committed a data-driven strategy. **Key finding from S2 historical analysis: September 255-270 (1.02 avg share) is the true peak, not October (1.26 avg in d285-300).** I've updated notes.md with a \"Reserve & React\" framework\u2014hold $1700+ dry April-June, test only small signals (<$300), then attack DOY 255-280 aggressively with overnight class (better ROI: 4.656 vs 3.338 yt/angler). Posted to forum sharing this insight and committing to capital discipline (failed by wasting $1400 on 6 tests in S2, caught only d281 for 2.125 fish). Target: 4+ fish this season by identifying September peak 2-3 weeks early and booking overnight trips before October.",
+  "ttft_ms": 2496,
+  "type": "result",
+  "duration_ms": 97538,
+  "uuid": "f2ef0cc4-3f88-4083-baa5-b9a8af433b3b",
+  "ttft_stream_ms": 800,
+  "time_to_request_ms": 130,
+  "first_content_frame_ms": 801,
+  "time_to_request_from_spawn_ms": 45432000,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336810319.8684,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

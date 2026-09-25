@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 243.5,
+ "claude": {
+  "duration_api_ms": 236530,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5026102,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 53867,
+   "cache_read_input_tokens": 532611,
+   "output_tokens": 18058,
+   "output_tokens_details": {
+    "thinking_tokens": 12502
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53867,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 337,
+     "cache_read_input_tokens": 80218,
+     "cache_creation_input_tokens": 3499,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3499
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 18058,
+    "cacheReadInputTokens": 532611,
+    "cacheCreationInputTokens": 53867,
+    "webSearchRequests": 0,
+    "costUSD": 0.5026102,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 12502,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'm skipping a forum post this turn \u2014 the whole field already converged on the October thesis with zero new posts since day 91, and revealing my \"watch live counts, avoid the named hype boats\" angle would only help competitors dilute my own October shares.\n\n**Summary:** Confirmed via `trips`/`tides`/`pier` queries and a full forum re-read that the May bloom (doy106-113, driven by San Diego's three_quarter and one Pacific Voyager day_1.5 hit) has ended as of day 121, that I over-persisted on a cooling boat and over-hoarded PTO, and that the entire field is holding budget for a likely-crowded October (doy~287-301) push naming specific boats (Ranger 85, Legend). I rewrote `notes.md` with these findings and a concrete plan: hold budget through summer unless a real live signal appears, stop betting on stale signals, spend PTO freely once a signal is confirmed, and in October chase live counts rather than the forum-hyped boats to avoid dilution.",
+  "ttft_ms": 3575,
+  "type": "result",
+  "duration_ms": 238166,
+  "uuid": "94e89b04-e530-44f6-b8bc-2b0c9b3c24c4",
+  "ttft_stream_ms": 1690,
+  "time_to_request_ms": 661,
+  "first_content_frame_ms": 1690,
+  "time_to_request_from_spawn_ms": 26634899,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318009140.1375,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 96.9,
+ "claude": {
+  "duration_api_ms": 89683,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1392249,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 36901,
+   "cache_read_input_tokens": 276479,
+   "output_tokens": 7543,
+   "output_tokens_details": {
+    "thinking_tokens": 3243
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 36901,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 676,
+     "cache_read_input_tokens": 52395,
+     "cache_creation_input_tokens": 3481,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3481
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 7543,
+    "cacheReadInputTokens": 276479,
+    "cacheCreationInputTokens": 36901,
+    "webSearchRequests": 0,
+    "costUSD": 0.1392249,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3243,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated notes with current October peak assessment. Water temp is 59.7\u00b0F (need 66\u00b0F), overnight fleet is 0.007 yt_per_angler (need 0.2+), but historically d289 delivers 4.967 yt_per_angler. With 15 days until execution (d288 21:00 booking), I've refined the trigger criteria: book d289 OVERNIGHT only if water \u226566\u00b0F sustained AND overnight fleet \u22650.2 yt_per_angler confirmed over d286\u2013d288. If d289 conditions miss, fall back to d290 or hold. This protects the $500 while keeping the high-leverage October window alive.\n\n**Summary**: Confirmed October d289 overnight is still the target (historical 4.967 yt/angler), but September cold extended into early October; water needs to warm 7\u00b0F and overnight fleet needs to show 28x current performance by d288. Setting tight execution criteria to avoid September trap repeat. Monitor daily d274\u2013d288 for warming signal and fleet recovery.",
+  "ttft_ms": 1836,
+  "type": "result",
+  "duration_ms": 91224,
+  "uuid": "b15488f1-9256-4072-b8d9-d4087d0ba429",
+  "ttft_stream_ms": 927,
+  "time_to_request_ms": 425,
+  "first_content_frame_ms": 927,
+  "time_to_request_from_spawn_ms": 40460653,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834849.2334,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 126.9,
+ "claude": {
+  "duration_api_ms": 123314,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24234570000000002,
+  "usage": {
+   "input_tokens": 94,
+   "cache_creation_input_tokens": 63024,
+   "cache_read_input_tokens": 681087,
+   "output_tokens": 9619,
+   "output_tokens_details": {
+    "thinking_tokens": 3092
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 63024,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 334,
+     "cache_read_input_tokens": 81232,
+     "cache_creation_input_tokens": 767,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 767
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 94,
+    "outputTokens": 9619,
+    "cacheReadInputTokens": 681087,
+    "cacheCreationInputTokens": 63024,
+    "webSearchRequests": 0,
+    "costUSD": 0.24234570000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3092,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Here's what this turn accomplished:\n\n**Two-line Summary:**\n\nLocked out with $0 at d122 and watched elite MULTI_DAY peaks fire d142-d202 (10.64, 10.00, 7.50 yt/angler) worth 15-20 yt unfunded\u2014Season 6 identical to Season 2's capital-exhaustion failure. Season 7 will prioritize climate regime (El Ni\u00f1o \u2192 early peaks, La Ni\u00f1a \u2192 October), MULTI_DAY class (2.21 yt/angler vs 1.15 THREE_QUARTER), and iron capital preservation (never deploy last $200, lock capital by day 8-10 of any peak).",
+  "ttft_ms": 2420,
+  "type": "result",
+  "duration_ms": 125177,
+  "uuid": "daf0bf2c-f64f-4c00-b40e-348037e85a4f",
+  "ttft_stream_ms": 582,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 582,
+  "time_to_request_from_spawn_ms": 56998649,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348377009.1584,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

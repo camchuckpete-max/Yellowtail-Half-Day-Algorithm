@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 171.4,
+ "claude": {
+  "duration_api_ms": 168076,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19912670000000002,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 33053,
+   "cache_read_input_tokens": 614017,
+   "output_tokens": 14297,
+   "output_tokens_details": {
+    "thinking_tokens": 4676
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33053,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 538,
+     "cache_read_input_tokens": 50927,
+     "cache_creation_input_tokens": 1101,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1101
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 14297,
+    "cacheReadInputTokens": 614017,
+    "cacheCreationInputTokens": 33053,
+    "webSearchRequests": 0,
+    "costUSD": 0.19912670000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4676,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nI've analyzed Season 1 data and identified October (doy 287-297) as the absolute season-maker with 40-51 yt/trip average\u2014a 5-10x efficiency gain over April noise. I'm locking in a disciplined strategy: hold $2000 budget through May-August, commit PTO by late August for three day_1_5 Friday trips in the October peak window (~132 fish expected), with April overnight as backup only if water temp hits 15.5\u00b0C+. Updated notes.md and strategy.py accordingly; posted data-driven analysis to forum.",
+  "ttft_ms": 2156,
+  "type": "result",
+  "duration_ms": 169883,
+  "uuid": "630e5721-baf3-40b7-9208-63f5c1057bd3",
+  "ttft_stream_ms": 665,
+  "time_to_request_ms": 84,
+  "first_content_frame_ms": 666,
+  "time_to_request_from_spawn_ms": 20249818,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311628524.9822,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

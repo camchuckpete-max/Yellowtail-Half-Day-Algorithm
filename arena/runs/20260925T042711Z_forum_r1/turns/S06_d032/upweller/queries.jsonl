@@ -1,0 +1,3 @@
+{"tool": "arena_query", "sql": "SELECT cls, CAST(fish_date_doy/10 AS INT)*10 AS doy_bin, ROUND(SUM(yt)*1.0/SUM(anglers),3) AS ypa, COUNT(*) AS n\nFROM trips\nWHERE cls IN ('HD_AM','HD_PM','TWILIGHT')\nGROUP BY cls, doy_bin\nHAVING COUNT(*) >= 5\nORDER BY cls, doy_bin", "rows": 0, "seconds": 0.083, "ts": "2026-09-25T11:53:36"}
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4015, "ts": "2026-09-25T11:53:40"}
+{"tool": "arena_query", "sql": "SELECT cls, CAST(fish_date_doy/10 AS INT)*10 AS doy_bin, ROUND(SUM(yt)*1.0/SUM(anglers),3) AS ypa, COUNT(*) AS n\nFROM trips\nWHERE cls IN ('hd_am','hd_pm','hd_twilight')\nGROUP BY cls, doy_bin\nHAVING COUNT(*) >= 5\nORDER BY cls, doy_bin", "rows": 109, "seconds": 0.014, "ts": "2026-09-25T11:53:44"}

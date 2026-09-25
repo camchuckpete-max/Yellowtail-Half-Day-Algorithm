@@ -1,0 +1,18 @@
+{
+ "agent": "thrifty_solo",
+ "sandbox": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d152/thrifty_solo/sandbox",
+ "snapshot": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/snapshots/S06_d152",
+ "forum_path": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/forum.jsonl",
+ "forum": false,
+ "forum_quota_left": 0,
+ "now": {
+  "season": 6,
+  "doy": 152,
+  "hour": 21,
+  "t": 1977.875
+ },
+ "first_year": 2010,
+ "mask_years": true,
+ "code_strategies": false,
+ "nightly": true
+}

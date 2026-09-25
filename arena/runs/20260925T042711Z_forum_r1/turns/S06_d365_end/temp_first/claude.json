@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 90.7,
+ "claude": {
+  "duration_api_ms": 82779,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18164260000000002,
+  "usage": {
+   "input_tokens": 51,
+   "cache_creation_input_tokens": 60278,
+   "cache_read_input_tokens": 288656,
+   "output_tokens": 6434,
+   "output_tokens_details": {
+    "thinking_tokens": 1850
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 60278,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 867,
+     "cache_read_input_tokens": 76014,
+     "cache_creation_input_tokens": 3239,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3239
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 51,
+    "outputTokens": 6434,
+    "cacheReadInputTokens": 288656,
+    "cacheCreationInputTokens": 60278,
+    "webSearchRequests": 0,
+    "costUSD": 0.18164260000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1850,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed a comprehensive retrospective analysis of Season 6 and locked the protocol for Season 7.\n\n## Season 6 Summary\n\n**Final Score:** Rank 4/34 (18.15 fish), Cumulative Rank 7/34 (18.75 fish overall)\n\n### What Worked\n- **September peak capture (d176\u2013d212):** 7 bookings, 16.4 fish (90% of total) by booking only on confirmed 2-day fleet signals at 68\u201372\u00b0F water\n- **Dead zone discipline (d131\u2013d180):** Held dry 100% despite 20+ micro-spikes, preserving $700+ capital for Phase 3\n- **Weekend bias:** All 9 bookings were Sat/Sun (zero PTO friction)\n- **Regime confirmation method:** Caught peak exactly when water hit 71.6\u00b0F and fleet showed sustained 3+ yt/angler\n\n### Critical Failures (Cost 6\u201310 Fish)\n1. **April Blindness (\u22128 fish):** S6 was El Ni\u00f1o (ONI +0.86\u2192+2.02). April peak was THREE_QUARTER 1.47 ypa. I held dry on S2 La Ni\u00f1a ideology, while rank-1 agent (ens_solo, 23.97 fish) captured it.\n2. **October Ideology Lock (\u22124 fish):** Committed PTO d287\u2013289 on calendar belief. Peak had already closed Sept d186. Broke capital to $0 by d242, couldn't deploy Oct window.\n3. **Capital Burn (\u22125 fish):** Spent $1950 by d186, forced weak bookings (d192, d212, d242). Ended $0 budget; missed d290 window when fleet hit 5.0 ypa.\n4. **Early Weak Entry (\u22121 fish):** d122 on cold water (64.4\u00b0F), d177 on single-boat noise = $700 wasted before regime confirmed.\n\n**Gap:** I caught 18.15 fish; optimal discipline with same season = 25\u201328 fish.\n\n## S7 Protocol (Locked)\n\n**Core Discipline (Non-Negotiable):**\n1. **Regime-first gate (d1):** Query ONI. If >+0.3 (El Ni\u00f1o) \u2192 $1000 April, $700 Sept. If <\u22120.3 (La Ni\u00f1a) \u2192 $100 April test, $1700 October. Never override with calendar.\n2. **Capital floor:** Phase 1 stay \u2265$800, Phase 2 \u2265$700, Phase 3 \u2265$300, Phase 4 end \u2265$50. Break one and lose 5\u201310 fish.\n3. **Two-day class-level confirmation:** Book only when fleet (not single boat) shows \u22651.5 ypa 2+ consecutive days + water sustained at regime threshold (68\u00b0F April, 70\u00b0F Sept, 69\u00b0F Oct).\n4. **PTO 1:1 with booking only:** Never batch-commit speculatively; reserve 4\u20135 days for Sept/Oct flexibility.\n\n**Written to notes.md for nightly self to read.** S7 is now regime-gated and capital-disciplined. No ideology, no calendar loyalty\u2014only regime signal + confirmed peak + capital floor = booking gate.",
+  "ttft_ms": 3114,
+  "type": "result",
+  "duration_ms": 84618,
+  "uuid": "2d5fbf65-f67b-4d0f-a006-4a2e281efe4a",
+  "ttft_stream_ms": 845,
+  "time_to_request_ms": 279,
+  "first_content_frame_ms": 845,
+  "time_to_request_from_spawn_ms": 62042603,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353416422.9417,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

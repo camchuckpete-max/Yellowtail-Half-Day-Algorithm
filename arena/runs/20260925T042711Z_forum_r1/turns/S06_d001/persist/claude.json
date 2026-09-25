@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 167.9,
+ "claude": {
+  "duration_api_ms": 160471,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4616716,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 55757,
+   "cache_read_input_tokens": 426058,
+   "output_tokens": 15340,
+   "output_tokens_details": {
+    "thinking_tokens": 9529
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 55757,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 415,
+     "cache_read_input_tokens": 74584,
+     "cache_creation_input_tokens": 6614,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6614
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 15340,
+    "cacheReadInputTokens": 426058,
+    "cacheCreationInputTokens": 55757,
+    "webSearchRequests": 0,
+    "costUSD": 0.4616716,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 9529,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated for season 6. Key findings this turn: confirmed FULL_DAY has never been scheduled in 5 seasons (permanently drop it), HD_AM/HD_PM stay dead across every ONI regime observed (0.06-0.08 yt/angler ceiling even in the best season), and strategy.py access is still absent. The big new insight: THREE_QUARTER's seasonal shape is regime-dependent, not calendar-fixed \u2014 deep La Ni\u00f1a seasons (S1/S2, which shaped my prior plan) cap out around 0.4-0.8 yt/angler with a narrow window, while warmer/rising-ONI seasons (S3-S5) produce broader, 3-8x larger peaks (1.5-3.5+/angler). Season 5 just ended with ONI still rising (+0.51), so S6 likely resembles the bigger warm-regime shape \u2014 I'll confirm once the first S6 ONI reading lands and recalibrate. I also flagged that the real S2 failure mode was PTO logistics (signals were live but unreachable because PTO wasn't pre-committed 14 days out), not signal detection \u2014 S6 plan now calls for a rolling 2-3-day PTO buffer through the active season instead of reactive commits.",
+  "ttft_ms": 1682,
+  "type": "result",
+  "duration_ms": 161905,
+  "uuid": "b7fdc4ad-e988-445a-8260-56f3451b2a49",
+  "ttft_stream_ms": 974,
+  "time_to_request_ms": 409,
+  "first_content_frame_ms": 975,
+  "time_to_request_from_spawn_ms": 45271488,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336645508.7268,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

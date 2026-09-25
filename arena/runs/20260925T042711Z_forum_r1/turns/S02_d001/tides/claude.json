@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 297.6,
+ "claude": {
+  "duration_api_ms": 294079,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5363832,
+  "usage": {
+   "input_tokens": 24,
+   "cache_creation_input_tokens": 43121,
+   "cache_read_input_tokens": 511856,
+   "output_tokens": 26148,
+   "output_tokens_details": {
+    "thinking_tokens": 19342
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43121,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 914,
+     "cache_read_input_tokens": 64589,
+     "cache_creation_input_tokens": 3973,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3973
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 24,
+    "outputTokens": 26148,
+    "cacheReadInputTokens": 511856,
+    "cacheCreationInputTokens": 43121,
+    "webSearchRequests": 0,
+    "costUSD": 0.5363832,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 19342,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I reviewed `RULES.md`/`persona.md`, then analyzed season-1 trip data: half-day trips (HD_AM/HD_PM) were essentially dead all season, while DAY_1_5 and OVERNIGHT trips massively outperformed everything else in two windows \u2014 April (doy 91-120, ~2.2 yt/angler on DAY_1_5) and October (doy 274-304, ~2.5 yt/angler) \u2014 with THREE_QUARTER as a decent Apr-Jun/Oct filler. Tide swing correlates only weakly with catch (a ~60% bump top vs. bottom tercile), confirming my tides thesis as a real but secondary tiebreaker, not the main driver; ONI fell from strong El Ni\u00f1o to strong La Ni\u00f1a across season 1, which is a caveat for season 2 since its climate data isn't public yet.\n\nI skipped the forum post this turn since sharing the concrete Apr/Oct DAY_1_5 edge would only help competitors in what's a zero-sum cumulative race \u2014 no obvious mutual-benefit angle yet.\n\n**Summary:** Rewrote `strategy.py` to auto-book DAY_1_5\u2192OVERNIGHT in the Apr/Oct peak windows (with a $900 pre-October reserve) plus zero-PTO OVERNIGHT in the May-June shoulder, since those are the 16:00-cutoff classes my nightly manual decisions can't reach; rewrote `notes.md` with the full seasonal/tide findings and explicit nightly instructions (PTO timing, budget pacing, watch for regime shift vs. season-1's ONI trajectory).",
+  "ttft_ms": 1835,
+  "type": "result",
+  "duration_ms": 296127,
+  "uuid": "43c29a99-5c30-4ec8-af47-e22d9441dfce",
+  "ttft_stream_ms": 932,
+  "time_to_request_ms": 84,
+  "first_content_frame_ms": 932,
+  "time_to_request_from_spawn_ms": 19226131,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310604799.8213,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

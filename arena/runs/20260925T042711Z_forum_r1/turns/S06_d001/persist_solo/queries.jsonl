@@ -1,0 +1,4 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4014, "ts": "2026-09-25T11:44:31"}
+{"tool": "arena_query", "sql": "SELECT fish_date_season, COUNT(*) as trip_count, MIN(fish_date_doy) as first_doy, MAX(fish_date_doy) as last_doy FROM trips WHERE fish_date_season = 6 GROUP BY fish_date_season", "rows": 1, "seconds": 0.021, "ts": "2026-09-25T11:44:35"}
+{"tool": "arena_query", "sql": "SELECT cls, fish_date_doy, COUNT(*) as boat_count, ROUND(SUM(yt) / SUM(anglers), 3) as yt_per_angler FROM trips WHERE fish_date_season = 6 GROUP BY cls, fish_date_doy ORDER BY fish_date_doy, cls", "rows": 2, "seconds": 0.005, "ts": "2026-09-25T11:44:38"}
+{"tool": "arena_query", "sql": "SELECT fish_date_doy, cls, boat, landing, anglers, yt FROM trips WHERE fish_date_season = 6 ORDER BY fish_date_doy, cls, boat", "rows": 2, "seconds": 0.005, "ts": "2026-09-25T11:44:39"}

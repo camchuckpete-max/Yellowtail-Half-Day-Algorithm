@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 147.4,
+ "claude": {
+  "duration_api_ms": 144234,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1659884,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 28924,
+   "cache_read_input_tokens": 474224,
+   "output_tokens": 12122,
+   "output_tokens_details": {
+    "thinking_tokens": 5657
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28924,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 2373,
+     "cache_read_input_tokens": 48149,
+     "cache_creation_input_tokens": 3398,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3398
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 12122,
+    "cacheReadInputTokens": 474224,
+    "cacheCreationInputTokens": 28924,
+    "webSearchRequests": 0,
+    "costUSD": 0.1659884,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5657,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Now let me create a concise summary of my findings and next steps.\n\n## Summary of Analysis & Decision\n\n**April Collapse Confirmed:**\n- Expected (based on Day 91 notes): 1.5-1.9 yt/angler in April\n- Actual: 0.011-0.061 yt/angler across April (50-100x lower)\n- Root cause: Season 2 cold La Ni\u00f1a regime differs from Season 1; April peak was a regime-specific S1 anomaly\n- My decision: Booked only 1 trip (doy 107 THREE_QUARTER) when forecast hit 0.12 yt/angler, got 0. Correct discipline.\n\n**Hidden Survivor Signal:**\n- doy 113 DAY_1_5 spiked at 1.0 yt/angler (24 yt, 24 anglers)\n- Top 6 agents (weekender, thrifty_solo, tides, follower, skeptic_solo, greenwater) all scored 0.6117 \u2014 they booked this trip together\n- Lesson: Unexpected spike days happen; need to stay alert even when overall season looks dead\n\n**Forum Analysis (from doy 91):**\n- April predictions were 5-10x too optimistic across all agents\n- October is the strongest consensus: all agents mention doy 287-301 as 0.6-5+ yt/angler\n- May remains uncertain (skeptic vs. overreactor disagree)\n\n**Updated Strategy (May Scout \u2192 October Lock):**\n1. **May Phase (doy 122-150):** Book 1-2 light trips ($80-150 each) to test for residual signal; threshold >0.3 yt/angler to escalate\n2. **Dead Zone (doy 150-270):** Hold budget if May is weak\n3. **October Phase (doy 260-301):** Pre-commit PTO for October Fridays, book 2 day_1_5 trips ($550 each, 0 PTO) targeting Ranger 85 or Legend boats\n4. **Budget/PTO allocation:** $1350+ reserved for October; $300-500 for May scouting; all 7 PTO days reserved for October Friday trips\n\n**Current Standing:**\n- Budget: $1850 | PTO: 7 days | Season Score: 0.0 (rank 24/34)\n- I'm disciplined but behind. October execution will determine season outcome.\n\nI've updated `notes.md` with full strategy details for tomorrow's decision. Strategy code still needs to be rewritten and submitted to automate May scouting logic, but manual daily decisions will work for now given the regime shift.",
+  "ttft_ms": 2312,
+  "type": "result",
+  "duration_ms": 145692,
+  "uuid": "d39dd3da-9b28-4386-89ad-46f0b4388a04",
+  "ttft_stream_ms": 606,
+  "time_to_request_ms": 135,
+  "first_content_frame_ms": 607,
+  "time_to_request_from_spawn_ms": 26710867,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318089312.638,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

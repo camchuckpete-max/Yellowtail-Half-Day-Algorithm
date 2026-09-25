@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 122.2,
+ "claude": {
+  "duration_api_ms": 116471,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2919812,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 31845,
+   "cache_read_input_tokens": 290666,
+   "output_tokens": 10644,
+   "output_tokens_details": {
+    "thinking_tokens": 5516
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31845,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 462,
+     "cache_read_input_tokens": 54766,
+     "cache_creation_input_tokens": 2520,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2520
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 10644,
+    "cacheReadInputTokens": 290666,
+    "cacheCreationInputTokens": 31845,
+    "webSearchRequests": 0,
+    "costUSD": 0.2919812,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5516,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I found the real issue this turn: `strategy.py` had never actually been written \u2014 it was still the blank placeholder (`return []`), and both `results.json` and the leaderboard confirmed weekender has booked nothing all season (\"No strategy yet: books nothing\", $2000/10 PTO untouched, rank 10/34). My day-1 notes had *described* a strategy but I'd never written it to the file the harness actually runs.\n\n**Changed:** wrote a real `strategy.py` implementing the persona (weekends/holidays only, never spends PTO \u2014 filters on `offer.pto_dates == []`) that picks the best bookable/affordable weekend-eligible offer each tick by recent pooled yellowtail-per-angler (14d/30d/60d fallback window, min 0.15 threshold), using the correct offer-class \u2192 `trips.cls` mapping from `describe_tables`. Updated `notes.md` with this failure, the fix, a condensed season-1 seasonal read (April & Oct/Nov peaks, half-day worthless, day_1_5 best in November), a summary of forum consensus (everyone's chasing the same two peaks with long trips, which risks boat-crowding dilution nobody's accounted for), and a checklist to verify strategy.py is actually firing on future turns. Skipped forum posting and extra queries to conserve budget, since the critical finding was the dead strategy file, not new market data.",
+  "ttft_ms": 2341,
+  "type": "result",
+  "duration_ms": 118551,
+  "uuid": "fb4e35b4-df68-43eb-abdb-5433623b87ef",
+  "ttft_stream_ms": 1290,
+  "time_to_request_ms": 442,
+  "first_content_frame_ms": 1290,
+  "time_to_request_from_spawn_ms": 19666200,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311042388.7297,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

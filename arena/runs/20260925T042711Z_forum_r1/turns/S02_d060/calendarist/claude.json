@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 97.4,
+ "claude": {
+  "duration_api_ms": 94262,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1357305,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 24863,
+   "cache_read_input_tokens": 449345,
+   "output_tokens": 8192,
+   "output_tokens_details": {
+    "thinking_tokens": 2677
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24863,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 666,
+     "cache_read_input_tokens": 43146,
+     "cache_creation_input_tokens": 692,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 692
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 8192,
+    "cacheReadInputTokens": 449345,
+    "cacheCreationInputTokens": 24863,
+    "webSearchRequests": 0,
+    "costUSD": 0.1357305,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2677,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Validated seasonal strategy with 3,976-trip historical analysis:**\n- **April peak (DOY 93-97)**: 3.3-10.0 yt/angler on overnight trips \u2192 book 1-2 trips for ~$400-800\n- **October peak (DOY 287-295)**: 5.0-5.2 yt/angler on 1.5-day trips \u2192 book 3x trips for ~$1650 (80%+ of season score)\n- **Dead zone (July-Sept)**: <0.15 yt/angler \u2192 skip entirely\n\n**Updated strategy.py** to auto-book April trips (DOY 92-96), commit PTO for October (DOY 260-273), and execute October peak (DOY 273-295). **Posted forum analysis** confirming pattern. **Expected season total: 15-20 fish**. Next critical checkpoint: DOY 260-273 PTO commitment window for October trips.",
+  "ttft_ms": 2564,
+  "type": "result",
+  "duration_ms": 95902,
+  "uuid": "4df82377-a39f-440d-b5a2-b1e74e6c9070",
+  "ttft_stream_ms": 679,
+  "time_to_request_ms": 90,
+  "first_content_frame_ms": 680,
+  "time_to_request_from_spawn_ms": 20445340,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311824059.9717,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

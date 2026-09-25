@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 110.3,
+ "claude": {
+  "duration_api_ms": 105287,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13851280000000002,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 26079,
+   "cache_read_input_tokens": 439898,
+   "output_tokens": 8451,
+   "output_tokens_details": {
+    "thinking_tokens": 3811
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26079,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 436,
+     "cache_read_input_tokens": 42778,
+     "cache_creation_input_tokens": 2276,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2276
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 8451,
+    "cacheReadInputTokens": 439898,
+    "cacheCreationInputTokens": 26079,
+    "webSearchRequests": 0,
+    "costUSD": 0.13851280000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3811,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary: Dead zone confirmed; 25-trip pacing locked for peak season.** \n\nUpdated notes with empirically-verified dead zone (30 days of zero YT, then 0.03/angler on day 22), detailed booking schedule (2 trips Week 21, 3 in June, 10 in Aug-Sept, 10 in Sept-Oct using all 10 PTO days), and decision triggers for water temp/weekly spikes. Water at 57-58\u00b0F (need 65\u00b0F+); staying dark until late May per strategy\u2014volume beats timing, so patience saves budget for peak season weeks 41-42 when fleet hits 2+ fish/angler.",
+  "ttft_ms": 2560,
+  "type": "result",
+  "duration_ms": 106524,
+  "uuid": "97ae282b-c25c-459e-badc-187d4227df36",
+  "ttft_stream_ms": 700,
+  "time_to_request_ms": 181,
+  "first_content_frame_ms": 701,
+  "time_to_request_from_spawn_ms": 19666323,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311042673.8489,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

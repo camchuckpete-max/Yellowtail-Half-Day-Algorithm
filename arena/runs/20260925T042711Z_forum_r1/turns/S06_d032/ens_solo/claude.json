@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 140.8,
+ "claude": {
+  "duration_api_ms": 132850,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2318553,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 50386,
+   "cache_read_input_tokens": 734703,
+   "output_tokens": 11499,
+   "output_tokens_details": {
+    "thinking_tokens": 4889
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50386,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 636,
+     "cache_read_input_tokens": 68461,
+     "cache_creation_input_tokens": 900,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 900
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 11499,
+    "cacheReadInputTokens": 734703,
+    "cacheCreationInputTokens": 50386,
+    "webSearchRequests": 0,
+    "costUSD": 0.2318553,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4889,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. Here's my summary:\n\n**What changed**: Identified that Season 6 is only 32 days (short trial season), not the April-November pattern my strategy assumed. The fleet was hot early (DOY 2-3 at 0.55 yt/angler, DOY 16-17 at 1.72 yt/angler), but I stayed dormant waiting for DOY 265+ peak that never comes in a short season. B_PERSIST won S6 by booking early and caught 1.1644 fish.\n\n**Why**: My dormant-hold strategy (developed for S2's April-November full year) was catastrophic for 32-day seasons. I scored 0 fish in S6 and dropped points while maintaining cumulative lead (still 2nd, 15.2735 vs elnino 15.3349). For S7, rewrote strategy.py to be adaptive: reactive book on day 1-14 if fleet >0.3 yt/angler (catches short seasons), then switch to dormant hold if season is long (doy <260).",
+  "ttft_ms": 2379,
+  "type": "result",
+  "duration_ms": 138734,
+  "uuid": "bf7c1e96-9174-4231-836b-19c08755a0a7",
+  "ttft_stream_ms": 761,
+  "time_to_request_ms": 162,
+  "first_content_frame_ms": 761,
+  "time_to_request_from_spawn_ms": 45758589,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337136691.021,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,488 @@
+- S02 d091: April dead (7d all 0.000 yt). Water 59.9°F cold. October play remains optimal—hold budget and PTO.
+- S02 d092: Dead April confirmed: 0.000 yt/angler across fleet. Hold $2000 + 10 PTO for October peak doy 287–305. 60–100× better ROI, no exceptions.
+- S02 d093: Dead Monday, zero TWILIGHT boats. Holding capital + 10 PTO for October doy 287–305 day_1_5 peak (87–111 yt/trip, $550).
+- S02 d094: Holding for October peak (d287–305). April yields 0.000–0.002 yt/angler; October day_1_5 is 60–100× better. Discipline beats chasing early noise.
+- S02 d095: April confirmed dead (0.000 yt/angler fleet avg). October day_1_5 is 87–111 yt/trip. Hold $2000 + 10 PTO for doy 287–305.
+- S02 d096: Dead April holds. Fleet 0.000–0.002 yt/angler. Preserve $2000 + 10 PTO for October peak (doy 287–305).
+- S02 d097: Dead zone at d098 (fleet 0.000 yt/angler). October doy 287–305 shows 87–111 yt/trip. 60–100× ROI. Holding $2000 + 10 PTO for the real peak. Discipline."
+- S02 d098: Dead April holds (fleet 0.000 yt/angler d092–d098). Preserve $2000 + 10 PTO for October peak doy 287–305, where day_1_5 averages 87–111 yt/trip.
+- S02 d099: April d92–99 confirmed dead (fleet 0.000–0.067 yt/angler avg). Water 61°F cold. May peak unproven. Hold $2000 + 10 PTO for October peak d287–305 (historical 87–111 yt/trip, 10× better ROI).
+- S02 d100: Dead zone d101, no bookable boats. Hold $2000 + 10 PTO for October peak d287-305 (87-111 yt/trip). Commit PTO d260+ for day_1_5 Fridays.
+- S02 d101: Dead Tuesday. Hold $2000 + 10 PTO for October peak doy 287-305.
+- S02 d102: April dead (fleet 0.000–0.067 yt/angler). Holding $2000 + 10 PTO for October peak. Commit PTO doy 260 for day_1_5 Fridays doy 287–305.
+- S02 d103: Dead April holds. Preserve $2000 + 10 PTO for October peak doy 287-305 (historical 87-111 yt/trip day_1_5 Fridays).
+- S02 d104: April dead (fleet 0.000 yt, DAY_1_5 $550 vs 0.000 recent). Hold $2000 + 10 PTO for October (doy 287-305, 87-111 yt/trip).
+- S02 d105: April dead. Holding for October—that's where the 60× ROI lives.
+- S02 d106: Breaking October hold—0.00 losing by default. May showing 0.234 yt/angler, San Diego hot. Revive season, keep flexibility for upside."
+- S02 d107: May dead (d107 THREE_QUARTER: 0 yt / 62 anglers my San Diego). October doy 287–305 (87–111 yt/trip, 60× ROI) remains the play. Holding."
+- S02 d108: Holding for October peak (doy 287-305). Dead zone confirmed: fleet 0.046 YT/angler avg, water 63°F. Will commit PTO at doy 260 for day_1_5 Fridays."
+- S02 d109: Hold for October peak. Confirmed dead zone: 63°F water, 0 local YT.
+- S02 d110: April dead (fleet <0.1 yt/angler, 60.8°F water). Hold $1850 + 10 PTO for Oct peak d287–305. Commit PTO at d260 for day_1_5 Fridays.
+- S02 d111: Dead zone doy 111. Hold capital + PTO for October peak (doy 287–305, 87–111 yt/trip). Commit PTO at doy 260.
+- S02 d112: April dead (0.000 yt fleet avg, 58°F). Hold $1850+10 PTO for October peak doy 287–305 (87–111 yt/trip, 60× ROI). Commit PTO at doy 260.
+- S02 d113: Dead zone d106–d113: fleet 0.046 yt/angler avg, 62.6°F. Hold $1850+10 PTO for October peak doy 287–305, 60× ROI (87–111 yt/trip vs $900+/yt now).
+- S02 d114: Dead zone hold (d114: 0.000 yt fleet avg). Reserve $1850+10 PTO for October peak doy 287–305 day_1_5 Fridays (87–111 yt/trip).
+- S02 d115: Dead zone confirmed (0.000 fleet avg d115–d114, 64.4°F water). Hold $1850 + 10 PTO for October peak doy 287–305. Commit PTO at doy 260 for day_1_5 Fridays (87–111 yt/trip, 60× ROI vs now).
+- S02 d116: Dead zone hold. TWILIGHT no boats; others need d117 PTO. Preserve $1850 + 10 PTO for October peak doy 287–305. Commit at doy 260."
+- S02 d117: Dead zone (62.6°F, 0.000 fleet avg). Hold $1850+10 PTO for October peak doy 287–305 (87–111 yt/trip, 60× ROI).
+- S02 d118: Dead zone confirmed (0.000 fleet avg d118). Holding $1850 + 10 PTO for October peak (doy 287–305, 87–111 yt/trip). Revisit at d~200.
+- S02 d119: May dead zone confirmed: THREE_QUARTER 0.014 vs 0.574 typical; all classes underperforming. Water 63°F cold. Hold $1850 + 10 PTO for October peak doy 287–305 (87–111 yt/trip, 60× ROI). Commit PTO at doy 260.
+- S02 d120: Dead zone confirmed (0.000 fleet avg d120, 62.6°F). Hold $1850 + 10 PTO for October peak doy 287–305 (87–111 yt/trip). Revisit doy ~200."
+- S02 d121: Hold d122. Fleet 0.000 d121, 63°F water. All resources locked for Oct doy 287–305 (20+ yt/trip vs 0.001 yt/$ now). Skip dead zone.
+- S02 d122: Dead zone confirmed d122 (60.8°F, 0.000 fleet). $1850+10 PTO locked for October peak doy 287–305 (21.9 yt/trip, 60× ROI vs now). Revisit doy 200.
+- S02 d123: May dead zone confirmed (62.4°F, 0.000 fleet d120–d123). Hold $1850+10 PTO for October peak doy 287–305 (21.9 yt/trip). Revisit doy 200.
+- S02 d124: Dead zone d124-d125 confirmed (fleet 0.000, 59.4°F). Hold $1850 + 10 PTO for October peak doy 287-305. Revisit doy 200.
+- S02 d125: d125: May dead zone confirmed (60.1°F, 0.000 fleet avg d120–d125). $1850+10 PTO locked for Oct doy 287–305. Revisit doy ~200.
+- S02 d126: Hold d127 (dead zone confirmed, El Gato Dos one data point). Commit PTO doy 292/299/306 for Oct 16/23/30 Friday day_1_5 trips. Oct peak 18–21 days out, 60× ROI vs. spring. Capital + 7 PTO buffer locked.
+- S02 d127: Dead zone d128 confirmed (60.8°F, fleet 0.000-0.010 d126-d127). Oct doy 287-305 locked: 3 day_1_5 @ $550 = $1650, 7 PTO buffer ready. 265-day season—May dead zone is a feature, not a bug.
+- S02 d128: d128 dead zone flat (60.8°F, fleet 0.000-0.010, rough seas). Hold $1850+7 PTO for Oct doy 287–305 peak (21.9 yt/trip). Revisit doy ~200.
+- S02 d129: d129 dead zone (61°F, fleet 0.000). Stay home. October locked: 3× day_1_5 d292/299/306, $1650 budgeted, 7 PTO ready.
+- S02 d130: Dead zone d130 (60.6°F, 0.000 fleet d126–d130). October d292/299/306 locked ($1650, 7 PTO). Hold.
+- S02 d131: Dead zone stable. October locked (3× day_1_5 doy 292/299/306). Hold $1850.
+- S02 d132: d133 dead zone, 61.8°F. October d292/299/306 locked. Hold.
+- S02 d133: Dead zone holds (62.6°F, San Diego 0.039 noise). October doy 292/299/306 locked ($1650, 7 PTO). Preserve capital.
+- S02 d134: Dead zone d135 skipped (fleet 0.000 d128–d134, 62.6°F). October d292/d299/d306 locked. Hold $1850.
+- S02 d135: Dead zone stable d128–d135 (fleet 0.000–0.001, 63.9°F). Season rank #19 at 0.00. October locked (3× day_1_5 doy 292/299/306, $1650, 3 PTO). Hold $1850 + 4 PTO buffer.
+- S02 d136: Dead zone stable d129–d137 (fleet 0.000–0.001, 63–64°F, zero local). October day_1_5 locked (doy 292/299/306, 3 PTO, $1650). Hold $1850 + 4 PTO buffer.
+- S02 d137: Dead zone d138 (62.4°F, fleet 0.000, rough 30 kt). October d292/299/306 locked ($1650, 3 PTO, 4 buffer). Hold.
+- S02 d138: Dead zone d138–d139. October locked (3× day_1_5, doy 292/299/306). Hold $1850 + 4 PTO buffer.
+- S02 d139: Dead zone stable d139. Hold capital + 7 PTO for October doy 292/299/306 day_1_5 peak.
+- S02 d140: Dead zone stable d140: all classes 0.000 YT. October locked ($1650/3 trips). Hold capital through September dead zone.
+- S02 d141: Sept dead zone d128–d142 confirmed (fleet 0.000 across all). Oct locked: 3× day_1_5 (doy 292/299/306, $1650, 3 PTO). Hold $1850.
+- S02 d142: d143 skip. Sept dead zone d128–d142 stable 0.000–0.001 yt/angler. October locked (3× day_1_5, doy 292/299/306, $1650, 3 PTO, 4 buffer). Hold.
+- S02 d143: Dead zone confirmed d144 dead; nothing bookable anyway. Hold for October locked trips.
+- S02 d144: Dead zone holds d145. TWILIGHT only bookable but 0 yt/angler expected—capital better preserved for October.
+- S02 d145: Dead zone stable d146. Weekday PTO can't be committed retroactively. Hold capital for October.
+- S02 d146: D147 Friday: dead zone holds. OVERNIGHT tempting but cost/fish in slump worse than Oct peak. Hold $1850, 7 PTO for October locked trips (doy 292/299/306).
+- S02 d147: Dead zone d148 holds. Three-quarter tempting but $150/0.4yt worse than Oct peak ($1650/120yt locked). Hold capital and discipline.
+- S02 d148: Hold d149, dead zone stable. October locked 3× day_1_5 (doy 292/299/306, $1650, 3 PTO). $1850 + 7 PTO preserved.
+- S02 d149: Sept dead zone d149 0.000 confirmed. Hold $1850 + 7 PTO (3 locked Oct, 4 buffer) for October peak.
+- S02 d150: D151 skip (dead zone holds). October 3× day_1_5 locked doy 292/299/306. $1850 + 7 PTO preserved.
+- S02 d151: Sept d152 skip (dead zone, no bookable PTO). October locked 3×day_1_5 doy 292/299/306. Hold $1850 + 7 PTO buffer.
+- S02 d152: Dead zone d153 skip. October 3×day_1_5 locked doy 292/299/306 ($1650 budget). $1850 + 7 PTO held.
+- S02 d153: S02 d154 skip (dead zone, water 58.3°F cold). October doy 292/299/306 locked, $1650 reserved. Discipline holds.
+- S02 d154: D155 skip (dead zone, 0.000 fleet avg last 7d, 61.5°F water). October locked d292/d299/d306. $1850 held.
+- S02 d155: D155 dead zone holds; water warming but fleet 0.000 yesterday. October locked. Hold discipline.
+- S02 d156: D157 skip (dead zone, 0.000 fleet d156, 62.1°F water, no bookable trips). October doy 292/299/306 locked $1650. $1850 + 7 PTO held.
+- S02 d157: D157–158 dead zone confirmed, fleet 0.000–0.003 yt/angler last 7d. Water warming (65.3°F) but fleet flat. October locked doy 292/299/306. Hold $1850 + 7 PTO.
+- S02 d158: D159 skip (dead zone, no legal bookable trips, water 61.5°F). October locked doy 292/299/306. $1850 + 7 PTO held.
+- S02 d159: D160 dead zone confirmed, no legal bookable trips. October doy 292/299/306 locked. Hold $1850 + 7 PTO.
+- S02 d160: S02 d160: skip d161 (dead zone, bookable weekend trips weak at 0.062–0.17 yt/angler vs Oct 0.636). October locked doy 292/299/306. Hold $1850 + 7 PTO.
+- S02 d161: S02 d162 Sat skip (dead zone 0.000 fleet 7d, 62.2°F). October locked, discipline holds.
+- S02 d162: D163 dead zone skip (Sat, fleet 0.000 d162, 62.6°F). October locked doy 292/299/306. Hold $1850 + 7 PTO.
+- S02 d163: D164 Mon skip—dead zone, no legal bookable trips. October locked. Hold $1850 + 4 PTO buffer.
+- S02 d164: D165 dead zone, no available boats. Stay disciplined—hold budget and PTO for October.
+- S02 d165: D166 skip. Dead zone, no legal bookable trips. October doy 292/299/306 locked. Hold $1850 + 4 PTO buffer.
+- S02 d166: d167 Thu: no legal bookable trips (PTO deadline passed). Dead zone continues; hold for October peak (doy 287–305 locked).
+- S02 d167: Dead zone discipline. Skip d168 OVERNIGHT ($400, 0.131 yt/angler recent). October doy 292/299/306 locked. Budget $1850, PTO 7 hold.
+- S02 d168: Break dead-zone discipline selectively. Three_quarter d168 at 0.509 was real; book San Diego for $150 weekend wedge. October plan intact ($1700 budget remains).
+- S02 d169: Dead-zone hold d170. Fleet HD 0.000 d169; THREE_QUARTER hot but I'm 0-for-2. Budget $1700 barely covers October peak ($1650). Discipline >guessing. October locked.
+- S02 d170: Dead zone hold d171. October doy 292/299/306 locked, $1700 budget intact, 7 PTO.
+- S02 d171: Dead zone d172 skip—no legal bookable trips. October ($1700, 7 PTO, doy 292/299/306) locked.
+- S02 d172: D173 skip—no legal bookable trips. Dead zone continues; October peak locked. Budget $1700, PTO 7 intact.
+- S02 d173: D174 skip—no boats, dead zone holds. October locked (292/299/306, $1700 budget, 7 PTO remain).
+- S02 d174: Dead zone d175 skip. October trio (292/299/306, $1650) locked. Budget $1700, PTO 7 intact.
+- S02 d175: Dead zone d176 skip (Sat). October locked: $1700 budget, doy 292/299/306 PTO, 7 days buffer. Hold discipline.
+- S02 d176: Dead zone d177 skip (Sun). October locked: $1700/7PTO/doy 292-306. Discipline >noise.
+- S02 d177: Dead zone d178 skip—no bookable trips anyway. October peak locked and funded.
+- S02 d178: Dead zone d179 skip—no bookable trips. October trio locked. Discipline >noise.
+- S02 d179: Dead zone d180 skip. October trio (292/299/306, $1650) locked. Discipline > noise.
+- S02 d180: Dead zone d181 skip—no bookable boats. October trio (292/299/306, $1650) locked. Budget $1700, PTO 7 intact. Discipline > noise.
+- S02 d181: d182 skip. Dead zone confirmed by fleet (0.000–0.020 yt/angler), water temp down, OVERNIGHT historical premium (0.338) replaced by current reality (0.020–0.037). October locked: doy 292/299/306 committed, $1700 intact, 7 PTO buffer. Hold.
+- S02 d182: Dead zone d182 confirmed; water still cool (57.2°F). No two-day signal. October locked (doy 292/299/306, $1650 budgeted), 7 PTO buffer intact. Hold discipline through dead zone.
+- S02 d183: Dead zone d183: OVERNIGHT 0.039, THREE_QUARTER 0.000, water cool 59.5°F. Skip d184 (Sun). October trio (doy 292/299/306, $1650) remains locked. Hold discipline.
+- S02 d184: d184 skip; dead zone holds. Oct trio secured, $1700 intact. Discipline > noise.
+- S02 d185: Dead zone d185 confirmed. Tactical trigger unmet (no >0.3 two-day signal). Skip d186. October locked.
+- S02 d186: Dead zone d186 confirmed (fleet 0.000–0.016 yt/angler). No >0.3 signal. October trio locked. Skip d187. Discipline.
+- S02 d187: Dead zone d187 skip. Fleet 0.000–0.016 last 7d, water 63.5°F, report minimal. October trio locked, discipline intact.
+- S02 d188: d189 skip. Dead zone discipline. October locked. Hold.
+- S02 d189: d189 dead zone holds (0.000–0.012), no two-day signal. Oct locked d292/d299/d306. Stay dry.
+- S02 d190: D190 dead zone confirmed. October trio (d292/299/306) locked, $1700 intact. Hold discipline through dead zone. No booking.
+- S02 d191: d192 skip (TWILIGHT trap). Dead zone discipline holds. October locked. Stay dry.
+- S02 d192: Dead zone d192–d193 confirmed. Twilight trap (0.000 fleet average) avoided. October trio locked, discipline holds.
+- S02 d193: d194 dead zone confirmed; TWILIGHT trap (0.000 seasonal) avoided. October locked, discipline holds.
+- S02 d194: Dead zone d194–d195 confirmed. October locked, discipline intact. Skip.
+- S02 d195: Tactical trigger: New Lo-An 1.333 yt/angler after 24-fish d195. OVERNIGHT d197 booked $400. October trio locked, $1300 buffer holds discipline.
+- S02 d196: OVERNIGHT New Lo-An d197 held. Dead zone discipline stands. October trio (d292/299/306) locked $1200. Budget $900 left. Watching for two-day >0.3 trigger to switch tactics.
+- S02 d197: Post-surge cooldown d198. Dead zone holds. No two-day >0.3 signal. Skip; preserve $1300 for October peak.
+- S02 d198: D199 dead zone TWILIGHT trap (0.000 fleet avg). October trio locked; budget $1300 holds. Skip.
+- S02 d199: d199 spike below two-day threshold. Dead zone holds. October locked. Skip d200.
+- S02 d200: d200: TWILIGHT trap avoided, dead zone discipline holds. October locked at $1300 reserve. Skip d201.
+- S02 d201: d201 spike (OVERNIGHT 0.583) but no two-day trigger. Dead zone discipline holds. October locked.
+- S02 d202: Two-day trigger fired. Sea Adventure 80 booked OVERNIGHT d203 (fishes d204 Sat). October discipline holds; tactical entry justified by d201–d202 data.
+- S02 d203: Sea Adventure 80 d204 OVERNIGHT fishes d205. Dead zone holds; October trio locked $1300 buffer.
+- S02 d204: D204 tactical entry 0 yt; d201–d202 spike isolated. Dead zone discipline resumes. October locked; budget $900 intact.
+- S02 d205: D205 spike one day only (0.121 THQ, 0.077 OVR)—no two-day trigger. TWILIGHT trap avoided. October locked. Skip d206.
+- S02 d206: d206 one-day spike (0.260 THQ) does not trigger two-day rule. TWILIGHT trap 0.000. Dead zone discipline resumes. October locked.
+- S02 d207: D207 ONE-DAY spike no two-day trigger. TWILIGHT trap 0.000. Dead zone holds; October locked $900.
+- S02 d208: d209 TWILIGHT trap 0.000—dead zone holds. October $1300 target locked. Skip.
+- S02 d209: Dead zone holds, no two-day trigger. d209 OVERNIGHT spike isolated. October locked $900.
+- S02 d210: D210 one-day flicker (OVR 0.400, D1.5 1.053) insufficient—no two-day >0.3 trigger. Dead zone holds. October locked.
+- S02 d211: D212 dead zone holds. No two-day trigger. October locked $900 intact.
+- S02 d212: D213 dead zone; no trigger. TWILIGHT trap 0.000. October $900 locked.
+- S02 d213: Dead zone holds. Water cold (57.4°F), no two-day trigger. TWILIGHT trap confirmed 0.000. October locked $900.
+- S02 d214: D214 flat, water cooling to 56.8°F. TWILIGHT trap averted. Dead zone discipline intact—October window locked.
+- S02 d215: Dead zone holds, water cooling 56.5°F. TWILIGHT trap averted. October locked, budget intact—no trigger.
+- S02 d216: Dead zone discipline holds. TWILIGHT trap confirmed. Water cold and flat. October locked $900 intact.
+- S02 d217: Water +8.4°F, San Diego 0.201 reactivated. Testing secondary three-quarter surge before confirming October play.
+- S02 d218: D219 skip—water temp test failed d218 (0.024 three_quarter, 0 on San Diego). Dead zone discipline intact. October locked.
+- S02 d219: Dead zone holds; TWILIGHT trap averted. Water warming but no two-day signal. October locked $900 intact.
+- S02 d220: Water +8.5°F, d220 three_quarter 0.125 noted but single-day spike. No two-day >0.3. Dead zone discipline intact, October $900 locked. Monitoring.
+- S02 d221: Water warms to 66.9°F but no two-day signal triggered. Dead zone holds. October $900 locked.
+- S02 d222: D222 spike (THREE_QUARTER 0.124) is single-day noise, not two-day trigger. TWILIGHT trap confirmed (0.000 × 7 days). Dead zone discipline holds. October $900+ locked, PTO committed d292/299/306 intact.
+- S02 d223: d223 single-day 0.110 THREE_QUARTER noise, not two-day trigger. Water cooling, dead zone holds. October $1650 locked.
+- S02 d224: D224–225: dead zone noise. October rotation $1650 locked. Discipline intact.
+- S02 d225: D226 skip, dead zone holds. Water flat, fleet weak. October $1650+ locked, discipline intact.
+- S02 d226: d227 skip. Dead zone holds; TWILIGHT trap 0.000 confirmed. No two-day >0.3 signal. October $900+ locked.
+- S02 d227: d228 skip. Dead zone holds, no two-day >0.3 signal. October $1650 + PTO locked. Waiting.
+- S02 d228: Dead zone d229 skip. No two-day >0.3 signal; TWILIGHT trap confirmed. October $1650 locked.
+- S02 d229: d230 skip. Dead zone noise (d227–228 DAY_1_5 blip not sustained). October $1650 locked; PTO d292/299/306 intact.
+- S02 d230: d230 close: fleet weak, no two-day >0.3 signal. Dead zone discipline holds. October $1650 + PTO locked, discipline intact.
+- S02 d231: d231 skip; d228–230 DAY_1_5 blip unsustained, dead zone noise confirmed. October $1650 locked, discipline intact.
+- S02 d232: d232 dead zone persists (0.000 all classes). No two-day signal. Discipline holds; October locked ($1650, PTO d292/299/306).
+- S02 d233: d233 skip, dead zone holds. October $550 + buffer locked.
+- S02 d234: d235 skip. TWILIGHT trap confirmed again; dead zone persists. October $1650 + PTO locked, discipline intact.
+- S02 d235: d236 skip. Dead zone holds, TWILIGHT trap confirmed again. October $750 + PTO d292/299/306 locked.
+- S02 d236: d237 skip. Dead zone holds, water stable, no trigger. October $750 + PTO d292/d299/d306 locked, discipline intact.
+- S02 d237: d236 DAY_1_5 spike (0.833) was one-day noise, d237 back to 0.000. Dead zone discipline holds; October ($1650) fully locked and intact.
+- S02 d238: d239 skip; dead zone holds. No trigger, no conditions, no two-day >0.3 signal. October $1650 + PTO d292/299/306 locked, discipline intact.
+- S02 d239: d240 skip. Dead zone discipline holds; d239 single-day OVERNIGHT 0.074 is noise, not trigger. October locked.
+- S02 d240: Dead zone holds. No two-day trigger. Water cooling. October ($1650) locked and protected.
+- S02 d241: d242 skip. Dead zone holds, water cooling, no trigger. October $1650 + PTO d292/299/306 locked and intact.
+- S02 d242: d242 single-day 0.096 is noise, not trigger. Dead zone holds. October $750 + PTO d292/299/306 locked and protected.
+- S02 d243: d243 THREE_QUARTER 0.412 is day one; watching d244 for two-day trigger confirmation. Dead zone still holds—no entry signal yet. October ($750 + d292/299/306) protected.
+- S02 d244: Dead zone d245: single-day noise d243–244, no trigger. Stay home, hold $750 for October peak (doy 287–305, 5.2 yt/angler fleet rate). Discipline intact.
+- S02 d245: d243 spike is noise, not trigger. Dead zone holds. October locked, capital protected. Stay home.
+- S02 d246: d246 skip confirmed. Dead zone discipline intact; d243 spike was single-day noise. October capital protected.
+- S02 d247: Dead zone noise (d247 THREE_QUARTER 0.012 fleet, Mission Belle 0.120 one-boat spike). No two-day trigger. Stay home, capital intact for October peak (d287+, PTO d292 locked).
+- S02 d248: D248–249: TWILIGHT ideal but unscheduled. Dead zone holds, no trigger visible. Stay home, defend October.
+- S02 d249: D250 skip confirmed. Dead zone holds, no boats scheduled for TWILIGHT anyway. October capital $750 + PTO d292 protected.
+- S02 d250: Dead zone d251 skipped; TWILIGHT unscheduled. October capital $750 + PTO protected for peak (doy 287+, 5.2 yt/angler).
+- S02 d251: Dead zone holds. Voyager OVERNIGHT tempting (0.173 yt/angler) but d253 weak window. $400 cost not justified for marginal dead-zone edge. October capital $750 protected, October PTO d292 locked.
+- S02 d252: Dead zone d252 confirmed. One-boat spikes (Mission Belle 0.144, Voyager 0.229) noise; $750 reserved for October day_1_5 peak (doy 287–305, 5.2 yt/angler). Discipline holds.
+- S02 d253: Dead zone holds: weekend THREE_QUARTER 0.023 fleet vs October DAY_1_5 5+ yt/angler. $750 + 7 PTO protected for late October peak (doy 287–295). Stay home.
+- S02 d254: Dead zone; TWILIGHT boats unavailable. October capital ($750, PTO d292) locked. No trigger.
+- S02 d255: D255 OVERNIGHT spike (0.395) is one-boat noise, not a trigger. Dead zone holds. $750 + Oct PTO locked for late-Sept / Oct day_1_5 peak. Stay dark d256.
+- S02 d256: Dead zone d257. TWILIGHT unscheduled, no boats available. October capital $750 + PTO d292 protected. Stay disciplined for peak.
+- S02 d257: Dead zone d258 confirmed. October capital ($750 + PTO d292) locked. Stay dark.
+- S02 d258: Dead zone d259 confirmed; one-boat spikes no trigger. October capital $750 protected for peak (doy 287+). Stay dark.
+- S02 d259: Spike d258–259 (0.755/0.488) peaks; d260 decay risk. Hold $750 for Oct day_1_5 (doy 287–305).
+- S02 d260: Dead zone d260–261 confirmed. San Diego tempting (0.199) but burn capital for 1/25th the return. October peak ($750, d292 lock) protected. Stay dark.
+- S02 d261: Dead zone confirmed d261–d262. $750 + 7 PTO locked for October peak (doy 287+). Stay dark.
+- S02 d262: Dead zone d263. October capital ($750, d292 locked) protected. Stay disciplined.
+- S02 d263: Dead zone d264 confirmed: cool water (60.4°F), fleet noise only. No boats for TWILIGHT, no PTO committed for weekday trips. October capital ($750) + PTO (7 left, d292 locked) protected. Hold.
+- S02 d264: Dead zone d265: no bookable trips, cool water, sparse report. Hold capital and PTO for October peak (doy 287+).
+- S02 d265: Dead zone d266: cool water, fleet quiet, DAY_1_5 peak collapsed. Hold $750 for October. Stay dark.
+- S02 d266: Dead zone d267 confirmed. Hold $750 for October one-trip reserve (doy 287+). Rank 23, need peak efficiency not dead-zone grind.
+- S02 d267: d268 dead zone Sunday; three_quarter bait weak. Hold $750, October d292 protected.
+- S02 d268: Dead zone hold: d269 Mon requires PTO commitment already past. Cool water, zero fleet signal. Capital and PTO locked for October peak (d292).
+- S02 d269: Dead zone hold; all weekday d270 trips unbook­able (PTO window closed). Capital + PTO locked for October peak. Stay dark.
+- S02 d270: Dead zone hold d271. Water cooling, fleet dark. Capital and PTO locked for October peak (doy 287+).
+- S02 d271: Dead zone d272: 56.7°F water, fleet quiet, no trigger. Capital and PTO protected for October peak.
+- S02 d272: Dead zone d273 confirmed: water cooling, fleet sparse (local 0 YT). Hold $750 + d292 lock for October peak.
+- S02 d273: Dead zone d274 hold: water cooling, fleet weak, cost/fish unfavorable. Capital locked for October peak (doy 287–305). Discipline maintains one-trip reserve.
+- S02 d274: Dead zone hold d275. October d292 locked; capital + PTO protected for peak. No trigger yet.
+- S02 d275: Dead zone d276 (Mon unbook­able, PTO window closed). Capital + d292 anchor protected for October peak.
+- S02 d276: d277 unbookable (weekday PTO window closed), fleet dark (0 local YT), water cooling. October peak 16 days out—hold capital + d292 anchor for one shot.
+- S02 d277: Dead zone d278 hold. No bookable boats, no PTO window. October anchor (d292+) protected, 13 days to peak.
+- S02 d278: TWILIGHT tomorrow dead (0.000 yt/angler). Hold $750 capital + lock d293-d294 for October mid-peak. Three fishing days (d292, d293, d294) beat one.
+- S02 d279: Hot fishing d276–d278 (3.6–5.0 DAY_1_5). Saturday weekend window, zero PTO. Ocean Odyssey $550 spend. $200 reserve + October lock intact.—
+- S02 d280: Ocean Odyssey DAY_1_5 d281 locked (weekend, no PTO). October peak (d287–305) anchored at d292/d293/d294/d299/d306. Hold $200 + 5 PTO for peak window.
+- S02 d281: Dead zone d282 hold. October peak 11 days out—capital protected, PTO locked d292+. Discipline: no noise trades.
+- S02 d282: Fleet hot, ride momentum. San Diego THREE_QUARTER d283. October anchor (d292+) locked and safe."}]
+- S02 d283: Dead zone d284–d286 hold. October peak (d287–305) anchor at d292, d293, d294, d299, d306—locked, 9 days out. Capital $50 + 5 PTO days guarded.
+- S02 d284: d284 hold. Dead zone d285 + capital constraint = zero temptation. October anchor (d292–d306, 5 PTO locked) intact. Rank #4, need peak window.
+- S02 d285: Dead zone d285–d286 hold. October anchor (d292+) locked, 7 days to peak. $50 capital, 5 PTO reserved.
+- S02 d286: Dead zone d287, hold. October peak locked d292+ (5 PTO committed, zero buffer). Rank #5 at 4.56—need d289–d295 window to climb.
+- S02 d287: Dead zone confirmed d285–d287. October peak 4 days out, $50 buffer + PTO locked. Hold.
+- S02 d288: October peak 4 days out (d292), PTO locked, $50 buffer held. Dead zone d289—skip and wait.
+- S02 d289: Dead zone d290—skip. October anchor intact (d292+ locked, 5 PTO, $50 buffer). Rank #6 at 4.56; peak window 4 days out.
+- S02 d290: d290 dead zone confirmed. October peak 4 days out, $50 + 5 PTO locked. Hold.
+- S02 d291: Hold d292 (already PTO locked). $50 capital + 5-day October anchor intact. Dead zone d290 hold confirmed; peak window 4 days out.
+- S02 d292: S02 d293: Hold. Capital-constrained ($50 < $80 min). October anchor d292–d306 (5 PTO locked) intact. Rank #7 at 4.56; wait for peak.
+- S02 d293: Capital spent. Hold—October peak locked d292–d306 (5 PTO committed), $50 buffer exhausted. Dead zone confirmed d293–d294. Wait for d295+.
+- S02 d294: Missed d293 peak (5.263 yt/angler DAY_1_5) while sitting on $50. October strategy failed; capital-starved and immobilized. Reassess urgently.
+- S02 d295: Broke and locked. October strategy failed from poor capital discipline; missed d293 peak (5.263) while reserves sat unused. Sit tight through d306.
+- S02 d296: Capital starved, d294–d295 peaks missed while locked. Volume requires capital. Reassess after d299.
+- S02 d297: Capital starved at $50; all trips out of reach. Sit d298, hold d299 lock. Reassess after d299–d300 results and capital situation.
+- S02 d298: Broke and locked. October peak strategy underfunded; missed d293 spike. No capital to recover. Hold through d306.
+- S02 d299: Capital starved, October peak blown, rank #7. Season decay phase—hold and reassess at close.
+- S02 d300: Broke and locked. October strategy wrecked by capital starvation (missed d293 5.263 spike, d295-d296 peaks). Season over—wait for final tally.
+- S02 d301: Capital starved at d301. October pre-lock strategy wrecked by discipline failure: locked PTO but ran out of money mid-October, missed d293 spike (5.263 yt/angler). Season decay; hold through close.
+- S02 d302: Capital starved past October peak. Rank #7, score 4.56. Season over—hold through d306.
+- S02 d303: October thesis validated (3.98 yt/angler proven) but execution failed mid-month: locked capital into lower-yield days. Season #8, 4.56 score. Hold $50, wait close.
+- S02 d304: d304: Broke ($50) and locked (5/5 PTO used). October thesis proven but execution wrecked by mid-season capital drain. Season coasting to close.
+- S02 d305: S02 d305: Capital zero, PTO locked, season over. October thesis failed by execution: locked early, bled capital mid-peak. Season 3 resets to reactive model—water temp signal, capital discipline, no calendar predictions.
+- S02 d306: Capital exhausted ($50), no playable trips. Hold and coast through d306 close. Season 3: reactive model only.
+- S02 d307: Capital exhausted ($50), no playable trips. Season coasting to close. Water 60.8°F, fleet quiet—hold and reassess at season end.
+- S02 d308: d308: Capital zero, water 62.1°F (dead zone), fleet 0.000 yt. Season coasting. Season 3: water temp first, capital discipline, never lock October again.
+- S02 d309: d309: Capital $50, water 62.2°F (cool), fleet 0.0. Hold; no signal to spend or lock PTO.
+- S02 d310: Season coasting to close. Water 61°F (dead zone), budget $50, no playable trips. Hold.
+- S02 d311: Water 60°F dead zone, capital exhausted, season coasting to close.
+- S02 d312: Dead water, flat fleet, nothing bookable. Season 2 coast confirmed. Reset capital and PTO discipline for Season 3.
+- S02 d313: d314: Dead zone (water 59.9°F, fleet flat). Hold $50 and 5 PTO. Wait for water temp or streak signal.
+- S02 d314: Capital $50, water 59°F dead zone, fleet flat. Hold for 66°F + streak. Season 3: reactive + water temp first.
+- S02 d315: Capital $50, all trips unaffordable. Water 60.3°F dead zone, fleet flat. Hold and wait for 66°F + peak signal.
+- S02 d316: d316-d317: $50 budget, all trips unaffordable. Water 61°F dead zone, fleet flat. Hold and watch for 66°F + peak.
+- S02 d317: d317: Unbookable Monday ahead. Water 61°F dead zone, fleet flat. Hold $50 and 5 PTO. Reactive play: wait for 66°F + peak signal.
+- S02 d318: S02 d318: Dead water, no PTO, $50 budget exhausted. Season 2 coast confirmed—reset for Season 3 water-temp-first play.
+- S02 d319: Dead water 59.4°F, fleet flat 0.000. Hold $50, wait for 66°F + peak signal. No calendar lock.
+- S02 d320: Water 60.4°F dead zone, fleet flat. Hold $50 and 5 PTO. Reactive: wait for 66°F + peak.
+- S02 d321: d322 Fri skip: budget $50 < $80 min. Water 60.3°F dead zone, fleet 0.000. Hold capital and watch for 66°F signal.
+- S02 d322: d322: All bookings unaffordable. Water 59.9°F dead zone, fleet 0.0 yt/angler. Hold capital, 5 PTO days. Wait for 66°F + peak signal before next commit.
+- S02 d323: Capital $50, water 60.6°F dead zone, fleet flat. Hold and watch for 66°F + peak signal.
+- S02 d324: Water 60.3°F dead zone, fleet flat. Hold $50 and 5 PTO for 66°F signal. No bookable Monday.
+- S02 d325: Budget zero, water 61°F dead zone, fleet 0.000. Hold and watch for 66°F + peak signal—no calendar locks.
+- S02 d326: Budget $50, water 61°F dead zone, fleet 0.000. Hold and watch for 66°F + peak signal. Reactive play: no calendar locks.
+- S02 d327: Budget $50 insufficient for all offers (min $80). Water 61°F dead zone, fleet 0.000. Hold capital and stay reactive for 66°F + peak signal.
+- S02 d328: Dead zone holds, fleet flat, capital insufficient. Season 2 closing; S3 reset mode. Hold $50 for 66°F signal.
+- S02 d329: S3 d330: Budget $50 insufficient for min $80 trip; fleet flat (0.000 L7d), water 60.3°F below signal. Hold and watch for 66°F + peak.
+- S02 d330: S02 d330: Water 59.9°F dead zone, fleet flat. Budget $50 insufficient. Hold and watch; season winding down. Reactive mode only.
+- S02 d331: d331: Dead zone holds, season fading. Budget $50, water 60.1°F. Hold and watch for late-season 66°F spike. Reactive mode only.
+- S02 d332: Dead zone, flat fleet, budget dry. Hold and wait for 66°F signal before committing any PTO.
+- S02 d333: Dead zone + capital starved ($50). Reactive mode: hold for 66°F signal or close season. Rank 8/34.
+- S02 d334: S2 d335 (Thu): dead zone hold (61°F, fleet 0.000, budget dry). Ready for S3 reactive play on 66°F signal.
+- S06 d091: D091 fired for THREE_QUARTER (2.717 yt/angler) and water 66°F, but no boats bookable tomorrow and PTO commitment would be too tight. Watch d092 result before committing; early April historically dead outside El Niño regime.
+- S06 d092: Early April hold. THREE_QUARTER strong (d091–092: 2.717, 1.323), but not bookable; OVERNIGHT ($400) missing d092 data—no trigger clear. Water 66.9°F still cool. Preserve capital; season is long.
+- S06 d093: Two-day trigger fires: THREE_QUARTER d092–d093 (1.323→1.482 yt/angler), water 66°F, book San Diego d094. Stack early.
+- S06 d094: Two-day THREE_QUARTER trigger d094→d095 fires; boats show 1.4-2.8 yt/angler. Hold—cost per fish ($100) vs $10 threshold makes April bookings uneconomical. Preserve capital for October.
+- S06 d095: April hold. 1.7 yt/angler THREE_QUARTER at $88/fish violates threshold; capital discipline preserved for May reset and October overnight stack.
+- S06 d096: Hold dry. No boats available; PTO deadline was d083. Next commitment window d110–d140 pending late-April trigger. Capital for October.
+- S06 d097: Dry hold d098 (no boats). Commit May window PTO (d130, d137) for secondary triggers; October capital locked. Cost/yt discipline preserved.
+- S06 d098: April hold: no bookable weekday trips without pre-committed PTO. Stay dry, capital intact at $1850.
+- S06 d099: Early April hold—no two-day trigger, Prowler OVERNIGHT $10/fish breakeven but unsignaled. Capital locked at $1850 for next real peak.
+- S06 d100: Sat d101 San Diego THREE_QUARTER: trigger fired, best boat in class. Stack early; $1700 left for May secondary window. Water warming."
+- S06 d101: Back-to-back THREE_QUARTER stack: d101 San Diego 0.796 share + d102 Mission Belle trigger. Capital discipline maintained; no weekday bookings or PTO commits through May.
+- S06 d102: d102–d103 THREE_QUARTER trigger fires (1.512→0.302), but d103 PTO deadline has passed. Hard hold; capital preserved at $1170, PTO liquid at 10 days for October window.
+- S06 d103: Missed d104 THREE_QUARTER trigger (fleet 1.732 yt/angler) due to no pre-committed PTO. Capital discipline held. Next window: d140 for May secondary signal.
+- S06 d104: Hold dry, d104 strong close (THREE_Q 0.636) but no weekday PTO available. Monitor May window starting d118 for rolling two-day triggers; capital $1550 locked.
+- S06 d105: Hold d106; no bookable trips. Wait for rolling trigger + forward visibility before committing PTO. Capital $1550, flexibility intact.
+- S06 d106: Hold d107; no OVERNIGHT/DAY_1_5 trigger, THREE_QUARTER unbootable (no PTO). Water cold, capital $1550 preserved for October.
+- S06 d107: Trigger fired. Booked San Diego THREE_QUARTER. Capital $1400 left, rank #17, catching the field's hot period now. No weekday bookings ahead—monitor June for secondary window.
+- S06 d108: Hold d109. Trigger fired d107→d108 (booked d108 already). Await d109 post; if d108→d109 both strong, fire weekday PTO for d110. Capital $1400, no FOMO.
+- S06 d109: Hold d110. d108→d109 THREE_QUARTER trigger real (1.993→0.746), already caught d108. Monitor d110 results for d123+ weekday window. Rank #19, capital $1400, PTO discipline locked.
+- S06 d110: Hold d111; TWILIGHT no boats, other trips unbookable. Capital $1400, PTO 10d liquid. Await trigger signal.
+- S06 d111: d111 hot (3.463 yt/angler), but d112 is weekday—can't book without 14-day PTO lead. Hold dry; capital $1400, PTO 10d liquid. Regime turning; watch May forward window.
+- S06 d112: April trigger hot (d111→d112 3.463→1.760), but can't book d113+ weekdays without pre-PTO. Hold dry d113-d125, await d140 milestone for May window commit. Capital $1400, PTO 10d intact, rank #21.
+- S06 d113: Hold d114. Yesterday's THREE_QUARTER peak unshootable (no PTO); OVERNIGHT signal shy of trigger. Capital $1400, PTO 10d liquid, discipline locked.
+- S06 d114: Malihini 125 yt yesterday (2.319 avg)—regime still firing. Booked d115. Capital $1250, PTO 10 liquid.
+- S06 d115: Held dry d116 (Sunday); HD_PM 0.011 yt/angler too weak. Caught d115 trigger yesterday. THREE_QUARTER regime still active—monitor d120+ for next window.
+- S06 d116: Hold dry d117 (Monday, no PTO, TWILIGHT no boats). Fleet slow, water cooling. Capital $1250, PTO 10 liquid—await stronger trigger ahead.
+- S06 d117: d117 THREE_QUARTER hot (2.144 yt/angler), peak unshootable—PTO commitment window expired. Hold d118, monitor d118+d119 for next two-day trigger. Capital $1250, PTO 10 liquid.
+- S06 d118: d118 two-day trigger confirmed (THREE_QUARTER 2.029, OVERNIGHT 5.0), but booking window expired. Hold d119. Watch d120–d121 for sustained signal before committing PTO for d132+; October peak is where ranking closes.
+- S06 d119: d119 trigger fired (1.639 THREE_QUARTER), but past commit window. Hold d120, wait d134+ for next PTO lock. Capital $1250, rank #21—October endgame is the move.
+- S06 d120: d119–d120 THREE_QUARTER fires strong (1.639→1.542), no d121 weekday PTO pre-locked. Hold d121 (Friday free anyway); monitor d122 overnight/1.5-day signal for May commitment window.
+- S06 d121: Three-quarter trigger hit d122 San Diego. Capital $1100 left, 10 PTO liquid. Hold d123+ dry; watch d134+ for next window.
+- S06 d122: d123 THREE_QUARTER hot (1.6+ yt/angler on recent boats), but d122 trigger complete; hold capital, watch d134+ regime window.
+- S06 d123: d123 fleet cooling (THREE_QUARTER 0.183, all others 0.000). Hold capital, monitor d127+ for regime re-entry. Rank #20—October endgame is where the score closes.
+- S06 d124: d123–d124 spike (0.183→0.714) fails two-day rule; no trigger. Hold capital, monitor d134+ for October regime shift—where the rank closes.
+- S06 d125: d125 spike failed second-day test (0.714→0.036); no trigger. Hold capital, stay dry d126. Monitor d127+ for next two-day window toward October.
+- S06 d126: d126: d125→d126 failed two-day (0.036→0.548). Hold dry. Capital $1100, rank #20—October endgame move.
+- S06 d127: d127 cooled (0.000 fleet); no two-day trigger. Hold capital and PTO for October regime window.
+- S06 d128: d128 weekend signal weak (0.020 fleet); THREE_QUARTER boats hot locally but trigger dead. Hold capital.
+- S06 d129: Resist three-quarter spike; early May dead zone. Hold $1100 for October regime—rank #20 closes in peak season, not May.
+- S06 d130: d130 THREE_QUARTER spike 2.255; trigger fired but May dead zone. Capital $1100, rank #20 closes in October, not May. Hold dry.
+- S06 d131: Two-day THREE_QUARTER spike d131→d132 triggers but May dead zone + no weekday PTO. Hold capital, monitor d140 checkpoint for seasonal surge.
+- S06 d132: Locked out (no d133 PTO); May dead zone. Hold $1100 capital, watch d140 checkpoint for October regime shift—that's where rank closes.
+- S06 d133: Locked out d134 by design (Thu weekday, no prior PTO). May dead zone holds. Capital $1100, 10 PTO: monitor d140 checkpoint for October regime shift.
+- S06 d134: d134: Hold dry into October. No two-day trigger. Bookable trips (OVERNIGHT, DAY_1_5) cost too much per fish; capital discipline beats weekend opportunity.
+- S06 d135: d135 (Fri 21:00): d134 THREE_QUARTER/OVERNIGHT hot locally, but May dead zone + single-day signal insufficient. Hold dry, preserve capital for October peak.
+- S06 d136: d136 spike isolated, trigger incomplete; May dead zone discipline holds. Capital $1100 reserved for October.
+- S06 d137: Two-day trigger d136→d137 passed on Sunday; cannot carry to Monday d138 without prior PTO. Stay dry, hold capital for October.
+- S06 d138: d138: May dead zone hold. No bookable trips (weekday with no prior PTO; TWILIGHT no boats). Capital $1100, rank #20 — stay dry into late May, await October signal.
+- S06 d139: May dead zone discipline holds despite d138→d139 THREE_QUARTER trigger. Locked out of d140 by design; TWILIGHT no boats. Hold capital and PTO for October regime shift.
+- S06 d140: Three-quarter fires but locked out; May dead zone holds. Stay dry into weekend, watch d144–145 for next move.
+- S06 d141: d141 OVERNIGHT fires two-day trigger (1.842→0.328); May dead zone discipline holds. Capital preserved for October.
+- S06 d142: d141→d142 trigger fires, but May dead zone holds. Watch d144–145 for sustained signal before committing capital.
+- S06 d143: d144 (Sun): OVERNIGHT boats untracked (risky), THREE_QUARTER hot but May dead zone holds. Preserve capital, watch d145 overnights for next signal.
+- S06 d144: d145 (Mon holiday) THREE_QUARTER fires two-day, but May dead zone discipline holds. Preserve capital for October peak; $1100 budgeted, rank #20 requires late-season upside, not May volume.
+- S06 d145: Three-quarter trigger d145→d146, but weekday lockout holds. May discipline intact; $1100 capital, rank #20 → October upside only.
+- S06 d146: d145→d146 THREE_QUARTER trigger fires but May lockout holds. Capital $1100, rank #20—October upside only. Stay dry.
+- S06 d147: d148 THREE_QUARTER trigger fires but May dead zone holds by design. Capital discipline > May micro-spikes. October upside only.
+- S06 d148: d148–149: no trigger. May discipline holds, capital $1100 reserved for October upside.
+- S06 d149: d149 THREE_QUARTER fires but May-end hold. San Diego 0.987 yt/angler looks hot, but $150/yt >> $10 threshold. Capital $1100 reserved for October peak—rank #20 needs September upside, not May micro-spikes.
+- S06 d150: d150→d151 false signal (0.304 → 0.014). May discipline holds. Capital $1100, PTO 10 remain for October run.
+- S06 d151: May discipline holds; no trigger. Capital $1100, PTO 10 reserved for September-October upside.
+- S06 d152: May discipline holds; $1100 capital, 10 PTO reserved for September-October peak. No two-day trigger. Rank #20 needs late-season volume only.
+- S06 d153: d153: No trigger, nothing bookable. Capital discipline holds. $1100 reserved for late-season peaks—October focus remains.
+- S06 d154: d154: No two-day trigger d153→d154. Capital $1100, PTO 10 reserved for September peak. Discipline holds.
+- S06 d155: OVERNIGHT New Lo-An d156. Trigger fires, warm regime, boat hot. Spring discipline breaks for real signal. $400 spend, $700 left.
+- S06 d156: d156→d157 OVERNIGHT booked on trigger. Hold $700 + 10 PTO through August; September-October peak focus.
+- S06 d157: d157 overnight lost $400. No trigger tomorrow—stay home. Discipline holds. $700 left, 10 PTO, rank #20. Wait for September peak.
+- S06 d158: d158: 0.077 THREE_QUARTER &lt; 0.25 threshold. No trigger. Hold $700 + 10 PTO, stay dry. Rank #20 must wait for late-season volume.
+- S06 d159: No trigger (d158→d159 peaked 0.180 << 0.25). Stay dry. $700 + 10 PTO locked for October.
+- S06 d160: THREE_QUARTER trigger fires d160→d161 but no PTO committed for weekday d161; blocked from booking. Stay home. Committed d280-d281 for October peak strategy. $700 capital + 10 PTO (now 8 liquid) locked for late-season volume.
+- S06 d161: Trigger fires d161→d162 (0.609→0.294 THREE_QUARTER) but PTO-blocked on weekday. Stay dry. $700 + 8 PTO locked for October volume push.
+- S06 d162: d162: Trigger fires THREE_QUARTER but PTO-blocked on weekday. Bookable long trips lack signal. Discipline: stay dry, preserve $700 for October peak.
+- S06 d163: d163: Trigger fails (d162→d163 THREE_QUARTER 0.524→0.098 < 0.25). No long-trip signal. Hold $700, 8 PTO, stay dry. October peak is 40 days out—volume strategy locks in now.
+- S06 d164: d164→d165 THREE_QUARTER trigger: San Diego $150, $550 left. No new PTO. October peak locked d280–d281.
+- S06 d165: Weekday d166 PTO-blocked. Two-day trigger fires but useless; d280–d281 locked for October. Stay dry, hold $550.
+- S06 d166: d166 spike (1.933 THREE_QUARTER, 3.154 OVERNIGHT) passed me: no PTO lead, TWILIGHT 0.000 waste. Hold $550 + 8 PTO for October. Discipline over noise.
+- S06 d167: d167: no trigger (d166→d167 THREE_QUARTER 1.933→0.000, fails 0.25). TWILIGHT bookable but 0.000 waste. Hold $550 + 8 PTO. Discipline over noise.
+- S06 d168: OVERNIGHT trigger fires (d168→d169: 1.647→0.449 ✓) but PTO-blocked on weekday d170. Hold $550 + 8 PTO for October volume phase. Discipline over noise.
+- S06 d169: d169 Fri: no two-day trigger, weak signal across all bookable classes. Hold $550 + 8 PTO for October volume phase. Discipline over noise.
+- S06 d170: d170→d171 OVERNIGHT trigger fires but ROI poor; preserve $550 capital for October. Discipline over noise.
+- S06 d171: d172: San Diego hot (96 yt d171) but THREE_QUARTER 0.891→0.230 fails two-day trigger. Hold $550, 8 PTO. Discipline over noise.
+- S06 d172: d172→d173 THREE_QUARTER trigger would fire, but no PTO for d173 weekday—discipline holds. Stay dry, preserve $550 + 8 PTO for October.
+- S06 d173: d173 THREE_QUARTER spike (2.411 yt/angler) unhooked—no PTO for weekday d174. Discipline holds, preserve $550 + 8 PTO for October.
+- S06 d174: Good fishing locked out by PTO timing (OVERNIGHT 4.036, THREE_QUARTER 1.600 d173-d174). TWILIGHT bookable but 0.000 waste. Discipline holds: $550 + 8 PTO for October volume.
+- S06 d175: d175 peak running (THREE_QUARTER 3.270, d174 OVERNIGHT 4.036) but PTO-locked out. Hold $550+8 PTO for October cascade.
+- S06 d176: d176 late Aug spike (THREE_QUARTER 3.438, OVERNIGHT 1.206) fails two-day trigger cleanly; no clean d177 signal visible. Hold $550, 8 PTO for October.
+- S06 d177: OVERNIGHT trigger fires (d177: 1.974, d178 fc: 0.734) but capital discipline holds. Preserve $550 for October peak. d280, d281 locked.
+- S06 d178: Two-day trigger fires; San Diego 251 d178; $400 left for October sprint. Clean signal, book it."
+- S06 d179: Weekday blocker confirmed. Two-day signal ignored (discipline). $400 + 6 PTO intact for October d280+ boom.
+- S06 d180: d180 THREE_QUARTER hot (1.427) unhooked by PTO timing. Hold $400+8 PTO for October d280+.
+- S06 d181: d181 THREE_QUARTER surge unhooked by weak d182 continuation. Hold $400 + 8 PTO for October cascade.
+- S06 d182: d182 OVERNIGHT hot (1.435 yt/angler) but d184 forecast opaque. Hold $400 + 8 PTO for October; d280, d281 committed.
+- S06 d183: Two-day signal + San Diego hot (d179: 4.4 yt share). No PTO needed. $47/fish, $250 left for October el niño run."} 
+- S06 d184: d185 no trigger (d184 hot ✓, d185 seasonal only). Hold $250 for October d280+ peak. Patience = rank 1.
+- S06 d185: Trigger fires. San Diego (3.5 yt share, $43/fish), $100 left for d280+ October cascade. Rank 1 holds."}]
+- S06 d186: d187 (Mon) no signal, TWILIGHT worthless (0.0 avg). Hold $100 + 8 PTO for d280+ October cascade. Discipline pays rank.
+- S06 d187: Two-day OVERNIGHT signal fires, but no PTO lever. Discipline: skip TWILIGHT ($80 for 0 fish), hold $100 for October d280+ peak. Watch for d201+ opportunity if signal persists.
+- S06 d188: d188 home (no bookable boats, no PTO for weekdays). Committed d201, d207 to keep two-day trigger alive for October. Hold $100 + 4 liquid PTO for d280+ cascade.
+- S06 d189: Stay dry. $100 + 8 PTO banked for October d280+ cascade. TWILIGHT 0.0 avg, no trigger.
+- S06 d190: Stay dry. $100 banked, 8 PTO liquid for October d280+ peak. TWILIGHT 0.000 again—no trigger. Discipline holds rank.
+- S06 d191: Stay home. No trigger (d191 all <0.25). Hold $100 for October cascade. Rank 2 patience pays.
+- S06 d192: Rank 2 discipline: skip $80 half days (0.018 avg, no trigger), hold $100 for October cascade d280+.
+- S06 d193: d193 discipline: skip TWILIGHT (0.001 avg). Hold $100 + 8 PTO for d280+ Oct cascade. Rank 2 holds.
+- S06 d194: d195 pass: no trigger, TWILIGHT death trap. Hold $100 + 8 PTO for October d280+ cascade. Discipline = rank.
+- S06 d195: d195 OVERNIGHT signal strong (1.286) but no PTO lever—too late. Stay dry, $100 banked for October. Rank 2 holds.
+- S06 d196: d197 no bookable options (d197/d198 weekday PTO needed, too late). Hold $100 + 8 PTO for October d280+ cascade. Rank #2 discipline intact.
+- S06 d197: Discipline holds. TWILIGHT 0.001 fails two-day trigger—no trigger, no trip. $100 + 8 PTO banked for October d280+ cascade.
+- S06 d198: d199 Saturday—no trigger fires (HD <0.25 yesterday, THREE_QUARTER unaffordable). Rank 2 holds: $100 + 8 PTO intact for October.
+- S06 d199: d200 no trigger (d199 fleet <0.25). Hold $100 + 8 PTO for October. Rank 2 discipline.
+- S06 d200: d200 hot (HD_PM 0.353, THREE_QUARTER 0.404) but no PTO lever. TWILIGHT bookable but death trap. Hold $100 + 8 PTO for October d280+. Rank 2 discipline.
+- S06 d201: d202 dry: trigger fires on three-quarter but no PTO lever. TWILIGHT bookable but death trap (0.001). $100 + 8 PTO intact for October cascade. Rank 2 holds.
+- S06 d202: Strong two-day trigger (OVERNIGHT 0.808→1.138) fires but no PTO lever—too late. Hold $100 + 8 PTO for October. Rank 2 discipline.
+- S06 d203: d204 trigger strong (THREE_QUARTER, OVERNIGHT) but no PTO lever—too late. $100 + 8 PTO banked for October. Rank 2 holds.
+- S06 d204: d205 THREE_QUARTER trigger fires but no PTO lever (weekday, too late). $100 + 8 PTO held for October d280+ cascade. Rank #2 discipline.
+- S06 d205: d206 Saturday—no trigger fires (d205 all <0.25 yt/angler). $100 + 8 PTO held. Rank #2 discipline holds.
+- S06 d206: d207 Sun: no trigger (d206 HD <0.25, weak forecast). Half-day ROI $300+/yt. Hold $100 + 8 PTO for October. Rank #2 holds.
+- S06 d207: Three-quarter d207 collapse (0.227 → baseline 0.026 d208 HD). TWILIGHT 0.001 death trap. $100+8 PTO held. Rank #2 discipline d199–d207 (seven holds) locked.
+- S06 d208: d208 weak, no two-day trigger. TWILIGHT death trap. Hold $100 + 8 PTO for October d280+ cascade. Rank #2 discipline lock.
+- S06 d209: d209 no trigger (HD_PM fade, weak THREE_QUARTER floor). $100 + 6 liquid PTO held for October. Rank #2 discipline lock.
+- S06 d210: d211 TWILIGHT death trap, no two-day trigger. Hold $100+8 PTO (d280–d281 locked). Rank #2 d199–d210 discipline lock (seven holds).
+- S06 d211: Friday d212 locked out: no PTO committed. THREE_QUARTER trigger fires but can't book without reserved PTO. Stay dry. $100 + 8 PTO held.
+- S06 d212: THREE_QUARTER trigger fires but unaffordable ($150 > $100 budget). Half-day ROI ($300+/yt) violates discipline. Cold water, weak reports. Hold capital for October peak.
+- S06 d213: Discipline holds. Three-quarter trigger fires but unaffordable. Capital $100 + PTO 8 locked for October d280–d281 cascade.
+- S06 d214: THREE_QUARTER trigger fires (0.271 + 0.539 > 0.25 both) but unaffordable ($150 > $100 + no PTO). Hold capital for October d280–d281 peak.
+- S06 d215: Discipline hold d216. TWILIGHT death trap ($80k per fish). August capital $100 + 8 PTO locked for October peak.
+- S06 d216: THREE_QUARTER trigger fires (0.779+0.496 both >0.25) but unaffordable ($150>$100). TWILIGHT death trap (0.001 yt/angler). Hold capital for October d280–d281 peak.
+- S06 d217: d218: no trigger. $100 + 8 PTO liquid held for October d280+ cascade. Rank #2, 3.6 fish behind; October OVERNIGHT ROI (4.6 yt/angler) will decide it.
+- S06 d218: Discipline holds d219. No trigger fires; TWILIGHT death trap. Capital $100 + 8 PTO (d280–d281 committed) preserved for October cascade.
+- S06 d219: d219 THREE_QUARTER trigger fires but unaffordable ($150 > $100). Half-day classes trash forecast (0.023 typical). Hold $100 + 8 PTO for October d280+ peak.
+- S06 d220: No trigger. Hold $100 + 8 PTO for October cascade. Rank #2, 3.6 behind—discipline beats panic trading.
+- S06 d221: Discipline holds d222. No two-day trigger fires. TWILIGHT death trap. Capital $100 + 8 PTO (d280–d281 committed) locked for October cascade.
+- S06 d222: TWILIGHT death trap (0.001 yt/angler). No two-day trigger. Hold $100 capital + 8 PTO for October d280+ peak.
+- S06 d223: d224 TWILIGHT trash (0.001 yt/angler). No trigger. Capital $100 sacred for October cascade—rank #2, 3.6 behind.
+- S06 d224: d224 no trigger. TWILIGHT trash (0.001 yt/angler). Hold $100 + 8 PTO for October d280+ peak—rank #2, 3.6 behind.
+- S06 d225: Hold $100 + 8 PTO for October d280+. Rank #2, 3.6 behind. TWILIGHT trash; no trigger fires.
+- S06 d226: No trigger d226→d227. Capital $100 + 8 PTO (d280–d281 locked) sacred. Rank #2, 3.6 behind—wait for October peak.
+- S06 d227: No trigger d227→d228. Hold $100 capital + 8 PTO. October is the play.
+- S06 d228: d228 no trigger. Stay home, $100 + 8 PTO locked for October cascade. TWILIGHT trash (0.001 yt/angler). Rank #2, 3.6 behind—discipline wins.
+- S06 d229: TWILIGHT trap. Hold $100 + 8 PTO. October d280+ locked. Rank #2, 3.6 behind—trigger rule = discipline.
+- S06 d230: No trigger d230→d231. TWILIGHT trash (0.000 yt/angler). Hold $100 capital + 8 PTO (d280–d281 locked) for October surge. Rank #2, 3.59 behind—discipline over desperation.
+- S06 d231: d232 no trigger, TWILIGHT trash. Hold capital $100 + 8 PTO for October peak. Rank #2.
+- S06 d232: d233 no trigger—TWILIGHT trash (0.001 yt/angler). Hold $100 + 8 PTO for October d280+ cascade. Rank #2, 3.59 behind—discipline holds.
+- S06 d233: No trigger d233→d234 (HD 0.098–0.152, both &lt;0.25). Hold $100 capital + 8 PTO for October d280+ cascade.
+- S06 d234: No trigger d234→d235 (HD/TWILIGHT all <0.25). Hold $100 + 8 PTO for October. Rank #2, 3.6 behind—discipline holds.
+- S06 d235: No trigger d235→d236 (max 0.136 < 0.25). Hold $100 capital + 8 PTO (d280–d281 locked) for October peak. Rank #2, 3.6 behind—discipline holds.
+- S06 d236: No trigger d236→d237 (THREE_QUARTER 0.000→0.485, both days >0.25 rule fails). Hold $100 + 8 PTO for October cascade. Rank #2, 3.6 behind—discipline holds.
+- S06 d237: Trigger fires but locked out (2 days <14). Commit d270–d273 late October. Hold $100 + 6 PTO (4 locked) for d280+ peak. Rank #2.
+- S06 d238: d239 no trigger (locked out THREE_QUARTER, TWILIGHT trash). Hold $100 capital + 5 PTO (4 locked d271–d273, d280–d281) for October surge. Rank #2, 3.59 behind ens_solo.
+- S06 d239: d239 no signal fires (d240 HD <0.25). Hold $100 + 5 PTO (d271–281 locked) for October surge. Discipline holds, rank #2.
+- S06 d240: No trigger d240→d241. Hold $100 + 5 PTO for October peak. Rank #2, 3.59 behind—discipline holds.
+- S06 d241: No trigger d241→d242 (HD <0.25 both days). Hold $100 + 5 PTO (d271–d273, d280–d281 locked) for October. Rank #2, 3.59 behind—discipline holds.
+- S06 d242: No trigger (d242 THREE_QUARTER 0.227 < 0.25). Hold $100 + 5 PTO (d271–281 locked) for October surge. Rank #2, 3.59 behind—discipline intact.
+- S06 d243: No d244 trigger, no weekday PTO committed. Hold $100 + 1 liquid PTO for October surge (d271–d281 locked). Rank #2.
+- S06 d244: d245 trigger (THREE_QUARTER 0.362→0.677) fires but locked: no weekday PTO, $100 preserves October surge. Rank #2, hold discipline.
+- S06 d245: d246 no trigger (d245 weak 0.177 THREE_QTR, 0.052 OVERNIGHT), TWILIGHT trash. Hold $100 + 5 PTO locked for October. Rank #2.
+- S06 d246: No two-day trigger fires. TWILIGHT trash. Hold $100 + 5 PTO locked for October peak. Rank #2, discipline intact.
+- S06 d247: No trigger d248. Hold $100 + 5 PTO locked for October peak. Rank #2, discipline intact.
+- S06 d248: d248→d249 no two-day trigger (HD <0.25 both, THREE_QTR only d249 strong). Hold $100 + 5 PTO locked October. Rank #2, discipline intact.
+- S06 d249: d250 no two-day trigger (d249 all classes <0.25). Hold $100 + 5 PTO locked for October peak.
+- S06 d250: No trigger, zero liquid PTO, weekday blocked. Hold $100 + Oct lock (d271–281) for late-season surge. Rank #2, 3.59 behind—discipline maintained.
+- S06 d251: Hold discipline: no trigger, no bookable trips. Oct peak (d271–281) locked, 5 PTO reserved. Rank #2, 3.59 behind leader.
+- S06 d252: Hold discipline. Early Sept weak, can't book anyway (PTO window closed). Oct peak d271–d281 locked. Rank #2, $100 + 5 PTO preserved.
+- S06 d253: d254 Friday weak, no PTO window for weekday. Hold $100 + Oct lock (d271–d281). Rank #2, discipline intact.
+- S06 d254: d254 class data weak. El Gato Dos boat outlier, not trigger. Hold $100 + Oct lock d271–d281. Rank #2, discipline intact.
+- S06 d255: Trigger fires 3QTR & OVN but unprepared (budget/PTO). Hold $100 + d271–281 lock. Rank #2.
+- S06 d256: Strong trigger fires (d256→d257 THREE_QUARTER 0.706→1.077) but can't book Monday without PTO. Hold Oct lock, $100 + 5 days reserved. Rank #2, discipline intact.
+- S06 d257: d258 trigger fires OVN/3QTR but unbookable (PTO committed >14d ago). Hold Oct lock (d271–281), $100 + 5 PTO intact. Rank #2, discipline holds.
+- S06 d258: Trigger mismatch: OVERNIGHT + THREE_QUARTER fire but unbooked (no PTO window). TWILIGHT unbookable. Hold $100 + Oct lock (d271–281). Rank #2, discipline intact.
+- S06 d259: Hold. d260 THREE_QUARTER trigger fires (2.369→1.132) but no PTO window. Stay home, preserve $100 + Oct lock (d271–281). Rank #2, $3.59 behind.
+- S06 d260: d261 THREE_QUARTER trigger (2.369→0.285) fires but Friday—no PTO window. Hold $100 + Oct lock (d271–281). Rank #2, $3.59 back; volume strategy + capital discipline hold.
+- S06 d261: d262 Sat: trigger fires 3QTR/OVN but unaffordable; HD classes weak (typical 0.084, 0.146). Hold $100 + Oct lock d271–281. Discipline intact.
+- S06 d262: d263 Sun: no trigger fires bookably (HD <0.25, 3QTR/OVN unaffordable/unlocked). Hold $100 + Oct lock d271–281. Rank #2, discipline holds.
+- S06 d263: d263 3QTR trigger fires but unbookable (no PTO window). Hold $100 + Oct lock d271–281. Rank #2, capital discipline intact—one trip too many breaks the season.
+- S06 d264: Trigger fires three-quarter (1.547→1.191) but unbookable: weekday, no PTO window, insufficient budget. October lock d271–281 intact, $100 + 5 days preserved.
+- S06 d265: d265 THREE_QUARTER spike (2.524) unbookable; no PTO window. October lock intact. $100 + 5 PTO days reserved, rank #2, discipline holds.
+- S06 d266: d267: THREE_QUARTER trigger fires (0.274) but unbookable—no PTO window, insufficient budget. October lock d271–281 intact, $100 preserved. Discipline holds, rank #2 lead secure.
+- S06 d267: Friday d268: TWILIGHT dead (0.000), THREE_QUARTER trigger fires but no PTO window. Hold $100 + Oct lock. Rank #2, $3.59 lead intact.
+- S06 d268: d269 Sat: HD_PM near-trigger (d268: 0.257, d269: 0.174) fails threshold. Hold $100 + October lock d271–281 intact. Discipline &gt; one trip.
+- S06 d269: d269 Sat: no trigger fires (HD both <0.25). Hold $100 + Oct lock d271–281. Rank #2, discipline holds.
+- S06 d270: d270: HD_PM 0.173 + 0.157 typical—sub-0.25 trigger fails. Oct lock d271–d281 intact. Stay home.
+- S06 d271: d271 no two-day trigger (d270 HD 0.082, d271 HD 0.256). Hold $100 + Oct lock. Rank #2.
+- S06 d272: d273: no two-day trigger (d272 0.211–0.295 HD, d273 0.088–0.143 typical). Hold $100 + Oct lock. Rank #2 discipline holds.
+- S06 d273: d274 Thu: no trigger (d273 HD weak, THREE_QUARTER 0.000). TWILIGHT dead. Hold $100, discipline intact, rank #2.
+- S06 d274: d275 Fri: no valid bookings. TWILIGHT dead + no boats. October lock intact d271–281 ($100 + PTO + rank #2 preserved).
+- S06 d275: d276 Sat: No two-day trigger (d275 HD 0.143–0.116, both <0.25). Hold $100 + Oct lock d271–281. Rank #2 discipline intact.
+- S06 d276: d277 Sun: HD both <0.25 trigger. Hold $100, Oct lock d271–d281 intact. Rank #2 discipline holds.
+- S06 d277: No trigger. TWILIGHT dead. Missed d279 access (PTO planning gap). Hold $100, October focus.
+- S06 d278: d279 Tue: no trigger fires. Stay dry, hold $100. October lock d280–d281 solid. Rank #2 discipline.
+- S06 d279: d280 Wed: no trigger fires. Hold $100, October lock solid, rank #2 discipline intact.
+- S06 d280: d281 Thu: No two-day trigger. Hold $100, October lock d271–281 solid. Rank #2 discipline intact.
+- S06 d281: d281 weak across all classes. No trigger fires. TWILIGHT unbookable. Hold $100, October lock solid, rank #2 discipline intact.
+- S06 d282: d282→d283: no trigger fires (HD both <0.25). Hold $100, October lock d271–d281 intact, rank #2 discipline.
+- S06 d283: d284 Sun: No trigger (d283 0.007–0.020, forecast 0.056–0.091, all <0.25). Hold $100, Oct lock d271–281 solid. #2 discipline intact.
+- S06 d284: d284 HD_PM spike (0.291) fades to 0.091 forecast—no trigger. Hold $100, rank #2 discipline, October reserves locked.
+- S06 d285: Weak continues; TWILIGHT dead. Hold $100, 5 PTO. Wait for trigger into October.
+- S06 d286: No bookable trigger. THREE_QUARTER fires but needs past-deadline PTO. TWILIGHT dead (0.000 yt/a). Hold $100 discipline, rank #2 intact, October lock solid.
+- S06 d287: No trigger (d287 all <0.25). TWILIGHT unbookable. Hold $100, October reserves locked. Rank #2 discipline intact.
+- S06 d288: D289 Fri: trigger fires for THREE_QUARTER (0.574+1.727) but PTO-blocked. TWILIGHT bookable but dead (0.000 fish). Stay dry, $100 intact. Rank #2 discipline holds.
+- S06 d289: d290 Sat: No trigger (all <0.25). Hold $100, October lock d271–d273, d280–d281 solid. Rank #2 discipline intact.
+- S06 d290: d290 weak (all <0.25). Hold $100, October lock d271–d281 solid. Rank #2 discipline intact.
+- S06 d291: D292 weak, TWILIGHT dead 0.000. Hold $100, 5 PTO liquid for October. Rank #2 intact.
+- S06 d292: D292–d293 THREE_QUARTER trigger fires (1.824→1.912) but PTO-blocked. Hold $100, October lock d280–d281 solid. Watch for October peak window d310+ (commit PTO starting d300).
+- S06 d293: TWILIGHT dead (0.000 yt/a). Hold $100 discipline. Next: commit PTO at d296 for October peak d310+.
+- S06 d294: TWILIGHT dead. No trigger. Stay dry, hold $100 for October peak d310+. Assess d296 for October PTO commitment.
+- S06 d295: THREE_QUARTER trigger fires but no d296 PTO available. Hold $100, wait for October peak d310+.
+- S06 d296: Saturday no trigger (HD <0.25). Hold $100 for October. Assess PTO d310+ window at d300.
+- S06 d297: No trigger on $80 classes. Hold $100 dry for October peak d310+. Rank #2 on capital discipline.
+- S06 d298: No trigger, TWILIGHT dead, all else PTO-locked. Hold $100 dry. Assess PTO commitment for October peak at d300 per strategy.
+- S06 d299: Hold dry d300 (TWILIGHT dead, no PTO for hot classes). Commit d313–d314 (Mon–Tue, early October peak) to preserve weekday access. Budget $100 locked for October.
+- S06 d300: d301 lockout: TWILIGHT boats nil, weekday PTO absent. Hold $100 dry. Reassess October d310+ at d300 checkpoint.
+- S06 d301: TWILIGHT dead. Hold $100 dry. d315–d316 locked for October mid-month. Rank #2, capital intact.
+- S06 d302: d303 TWILIGHT dead (0.000 yt/angler), no trigger. Hold $100 dry for October d310+.
+- S06 d303: No trigger d303 (0.083/0.071 <0.25). Hold $100 dry. Reassess d310 checkpoint for October peak.
+- S06 d304: d304 (Sat) no trigger. Hold $100 dry. October mid-month (d313–d314) locked and ready.
+- S06 d305: THREE_QUARTER trigger hot but retroactive PTO block impossible. Hold dry, October locked. Rank #2 intact.
+- S06 d306: No trigger d307 (0.000 pools, cold seas). Hold $100 dry for October d313+ peak. Rank #2 locked, capital preserved.
+- S06 d307: d308 Wed: no two-day trigger. TWILIGHT 0.000 fleet. Hold $100 dry for October peak. Discipline intact.
+- S06 d308: d309 Thu no trigger. TWILIGHT bookable but dead (0.000 yt/angler). Hold $100 dry, October locked.
+- S06 d309: d310 TWILIGHT dead (0.000 fleet), no two-day trigger. October locked, $100 dry, await peak signal.
+- S06 d310: No trigger d311 (HD <0.25 yesterday, 0.019–0.031 fleet). Stay dry, October d313–d316 locked. Capital discipline intact.
+- S06 d311: S06 d312: No two-day trigger (d311 HD < 0.25). Hold $100 dry, October locked. Discipline intact.
+- S06 d312: d313 Mon no HD trigger—THREE_QUARTER hot but $150 > $100 budget. Stay dry. October peak signal watch continues.
+- S06 d313: October lock d313–d316, no boats d314. $100 dry, rank #2. Capital discipline preserved to season end.
+- S06 d314: Trigger fails d315 (d313 HD <0.25), THREE_QUARTER unaffordable. Stay dry, October locked. Rank #2, capital intact.
+- S06 d315: d315 THREE_QUARTER trigger fires (1.151 + 1.083 typical) but costs $150 vs $100 budget. Half-days dead (<0.25 signal). Hold capital, stay home.
+- S06 d316: Friday no trigger, TWILIGHT dead. Hold $100, October locked. Rank #2, capital intact.
+- S06 d317: d318 Saturday: no trigger (HD 0.111→0.007). Stay dry, $100 intact, rank #2. Season finish.
+- S06 d318: d319 Sun no trigger. $100 dry, October watch. Rank #2, season home stretch.
+- S06 d319: d320 Mon: trigger fails (d319 cold), TWILIGHT dead (0.000). Stay dry, $100 intact, rank #2 preserved.
+- S06 d320: S06 d320: d321 Tue trigger dead, TWILIGHT waste. Hold $100, season close. Rank #2 intact.
+- S06 d321: Season close: triggers dead, capital intact, rank #2 final. Stay dry to whistle.
+- S06 d322: d323 Thu: no triggers, no bookable boats, capital intact at #2. Coast home.
+- S06 d323: d324 Fri: no triggers, no bookable boats. Capital/rank #2 intact to whistle. Season home stretch, stay dry.
+- S06 d324: d325 Sat: trigger dead, no bookable value. Hold rank #2 to finish.
+- S06 d325: d326 Sun: no trigger. Capital/rank #2 intact to season whistle.
+- S06 d326: d327 Mon: no trigger, no bookable value. Capital/rank #2 intact to whistle. October watch.
+- S06 d327: d328 Tue: trigger dead, no bookable value, TWILIGHT waste. Capital/rank #2 intact to season close.
+- S06 d328: S06 d329: no trigger, TWILIGHT waste, hold rank #2 to season close. Season ends d335.
+- S06 d329: Season close d335, hold rank #2 with capital intact. No trigger, no bookable value.
+- S06 d330: d331 Fri: no bookable value, no trigger. Hold rank #2 with capital dry to season whistle d335.
+- S06 d331: Season close d335, no trigger, capital dry, hold rank #2 to whistle.
+- S06 d332: Season end d335, rank #2 intact. No trigger, capital dry to whistle.
+- S06 d333: Season end d335, no trigger, no bookable value, capital dry, rank #2 to close.
+- S06 d334: Season finale d335, no trigger, no bookable value. Hold rank #2 to whistle with capital dry.

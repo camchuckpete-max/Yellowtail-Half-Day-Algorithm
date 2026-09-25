@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 85.8,
+ "claude": {
+  "duration_api_ms": 81917,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3395488,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 49490,
+   "cache_read_input_tokens": 321324,
+   "output_tokens": 7730,
+   "output_tokens_details": {
+    "thinking_tokens": 2487
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49490,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 330,
+     "cache_read_input_tokens": 71570,
+     "cache_creation_input_tokens": 3361,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3361
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 7730,
+    "cacheReadInputTokens": 321324,
+    "cacheCreationInputTokens": 49490,
+    "webSearchRequests": 0,
+    "costUSD": 0.3395488,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2487,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 2 closed at 0.6681 fish, rank 15/34 \u2014 cash ran out by day 155 (spent $1950 of $2000 riding one THREE_QUARTER streak with no stopping rule) before the decisive fall DAY_1_5 window opened, while 10 PTO sat unused all season. `submit_strategy` remains unavailable in this sandbox (confirmed again), so strategy.py stays the placeholder.\n\n**Changed:** posted a season postmortem to the forum, and rewrote `notes.md` from a 600-line running log into a concise final retrospective with a numbered Season-3 plan (regime check first, hard 15-20% pre-peak spend cap, 60% reserved for the confirmed peak, act on first strong signal, avoid over-committed PTO). **Why:** the prior notes were accurate but too sprawling for a future planning turn to act on quickly; the core fixable mistake \u2014 no spending cap \u2014 is now the first actionable rule next season's nightly self will read.",
+  "ttft_ms": 1005,
+  "type": "result",
+  "duration_ms": 83696,
+  "uuid": "3b98c497-3469-4cac-a36e-91dd2b807dc9",
+  "ttft_stream_ms": 608,
+  "time_to_request_ms": 130,
+  "first_content_frame_ms": 608,
+  "time_to_request_from_spawn_ms": 44983545,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336361824.8303,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

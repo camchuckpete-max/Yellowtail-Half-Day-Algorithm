@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 104.5,
+ "claude": {
+  "duration_api_ms": 101495,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1510518,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 33386,
+   "cache_read_input_tokens": 434678,
+   "output_tokens": 8144,
+   "output_tokens_details": {
+    "thinking_tokens": 2526
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33386,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 572,
+     "cache_read_input_tokens": 50452,
+     "cache_creation_input_tokens": 1909,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1909
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 8144,
+    "cacheReadInputTokens": 434678,
+    "cacheCreationInputTokens": 33386,
+    "webSearchRequests": 0,
+    "costUSD": 0.1510518,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2526,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season 2 locked at 4th place (12.79 fish).** October DAY_1_5 strategy executed successfully (3 trips, 11.08 fish); early season loss to April/May misses cost me ~2.5 fish toward 1st place. Budget exhausted ($50 remaining, can't afford even an $80 half-day), PTO spent, November dead. No further action possible\u2014discipline maintained, capital preserved for Season 3. Lessons: Tuesday departures for weekend fishing = 0 PTO; October (doy 287-301) is the real window; early season is optional noise.",
+  "ttft_ms": 2516,
+  "type": "result",
+  "duration_ms": 102924,
+  "uuid": "a90f0c4f-f981-4045-b134-b3ca0053f1c1",
+  "ttft_stream_ms": 558,
+  "time_to_request_ms": 90,
+  "first_content_frame_ms": 558,
+  "time_to_request_from_spawn_ms": 43198455,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334577091.1965,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

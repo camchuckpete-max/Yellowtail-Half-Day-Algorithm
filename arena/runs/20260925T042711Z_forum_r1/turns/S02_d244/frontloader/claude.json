@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 145.2,
+ "claude": {
+  "duration_api_ms": 136510,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2509832,
+  "usage": {
+   "input_tokens": 186,
+   "cache_creation_input_tokens": 43660,
+   "cache_read_input_tokens": 1065922,
+   "output_tokens": 11377,
+   "output_tokens_details": {
+    "thinking_tokens": 3273
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43660,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 698,
+     "cache_read_input_tokens": 62147,
+     "cache_creation_input_tokens": 488,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 488
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 186,
+    "outputTokens": 11377,
+    "cacheReadInputTokens": 1065922,
+    "cacheCreationInputTokens": 43660,
+    "webSearchRequests": 0,
+    "costUSD": 0.2509832,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3273,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 31,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the analysis and implementation. Let me summarize what was done:\n\n**October Strategy Validated & Locked:**\n\n1. **Data Confirmed:** S1 October peak (doy 287-297) shows consistent 46.3 yt/boat average (39-51 range for hot start, 25 yt/boat sustained through Oct 24), then crashes. S2 September is confirmed dead (0.3 yt/boat avg). Current water temp 14.5-15\u00b0C, still below 16\u00b0C trigger.\n\n2. **Strategy.py Live:** Implemented auto-commit for remaining Friday PTO (d268-273, Sept 26-Oct 1) and auto-book day_1_5 trips when water \u226516\u00b0C OR doy\u2265289 (Oct 16+ when peak confirmed). Books only within Oct peak window (doy 287-298), targeting 3-4 trips costing $1650-2200 for 8-16 fish yield.\n\n3. **Notes Updated:** Private notes.md now documents d244 revalidation, showing 11-day sustained October peak with 3,938 total yt across window in S1, zero early-season signals warranting capital spend.\n\nAll capital ($2000) and 4 remaining PTO days locked for October execution. 43 days to d287 (Oct 14) peak start. No exploratory trips\u2014dead zone confirmed, discipline holds.",
+  "ttft_ms": 2349,
+  "type": "result",
+  "duration_ms": 139480,
+  "uuid": "79994a22-187b-46e3-98ef-db8202fec5d0",
+  "ttft_stream_ms": 1131,
+  "time_to_request_ms": 585,
+  "first_content_frame_ms": 1145,
+  "time_to_request_from_spawn_ms": 38350391,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329724410.4326,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

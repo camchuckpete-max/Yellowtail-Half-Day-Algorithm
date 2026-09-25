@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 77.9,
+ "claude": {
+  "duration_api_ms": 74303,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1350666,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 37199,
+   "cache_read_input_tokens": 279486,
+   "output_tokens": 6532,
+   "output_tokens_details": {
+    "thinking_tokens": 2524
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 37199,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 393,
+     "cache_read_input_tokens": 53668,
+     "cache_creation_input_tokens": 2506,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2506
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 6532,
+    "cacheReadInputTokens": 279486,
+    "cacheCreationInputTokens": 37199,
+    "webSearchRequests": 0,
+    "costUSD": 0.1350666,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2524,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season 2 Post-Mortem Complete**\n\nSeason 2 is finished at 0.3641 fish (16th place). The October peak I missed was genuinely massive: d262-271 averaged 2.0-5.6 yt/angler while I was locked out from d244-274 with only $50 budget remaining. I burned capital on weak early bookings and hit the binding constraint exactly when the season's best fishing arrived.\n\n**Season 3 Strategy Locked In:**\n- Reserve 70% of budget ($1400) for d250-310 October window\n- Book immediately on >0.20 yt/angler fleet signal + 67\u00b0F water (not wait for 3-day \"confirmation\")\n- Never commit PTO speculatively; book within 24 hours of signal confirmation\n- Target 0.8+ fish to compete for cumulative board\n\nMy notes are updated with the exact October peak data and Season 3 allocation rules. Season 3 (cumulative board) starts in ~30 days; I'll execute this strategy without the rigid perfection-waiting that killed Season 2.",
+  "ttft_ms": 3098,
+  "type": "result",
+  "duration_ms": 76318,
+  "uuid": "c5efb875-8cc7-407b-baa4-7587fc14dcab",
+  "ttft_stream_ms": 576,
+  "time_to_request_ms": 124,
+  "first_content_frame_ms": 577,
+  "time_to_request_from_spawn_ms": 40553610,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331932187.071,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

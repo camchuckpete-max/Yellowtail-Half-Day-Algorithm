@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 128.0,
+ "claude": {
+  "duration_api_ms": 125051,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.272604,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 26173,
+   "cache_read_input_tokens": 288900,
+   "output_tokens": 11010,
+   "output_tokens_details": {
+    "thinking_tokens": 6703
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26173,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 47825,
+     "cache_creation_input_tokens": 3789,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3789
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 11010,
+    "cacheReadInputTokens": 288900,
+    "cacheCreationInputTokens": 26173,
+    "webSearchRequests": 0,
+    "costUSD": 0.272604,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6703,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Analyzed season 1's full trip history: half-day AM/PM and twilight trips yield near-zero yellowtail all season (share ~0.01), so only three_quarter/overnight/day_1_5 are worth booking. Found a strong bimodal seasonal pattern \u2014 good in April and again in the Sep27\u2013Oct26 fall run, with a deep trough July\u2013September \u2014 plus a short list of standout boats (Ranger 85, Mustang, Tomahawk, Pacific Voyager) to prefer when scheduled.\n\nI wrote this all into `notes.md` along with a draft $2000/10-PTO allocation concentrated on the two productive windows, PTO-saving tips (favor weekend departures), and open items to verify once live season-2 data starts diverging from season-1 patterns. Left `strategy.py` untouched (still a no-op) since the plan needs a few live nightly decisions to validate before automating.",
+  "ttft_ms": 2934,
+  "type": "result",
+  "duration_ms": 126512,
+  "uuid": "9935f67b-5031-4a21-bb2d-c441c6da0916",
+  "ttft_stream_ms": 1960,
+  "time_to_request_ms": 139,
+  "first_content_frame_ms": 1961,
+  "time_to_request_from_spawn_ms": 19355067,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310733634.153,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

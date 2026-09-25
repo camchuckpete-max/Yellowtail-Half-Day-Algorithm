@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 120.6,
+ "claude": {
+  "duration_api_ms": 114866,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16166819999999998,
+  "usage": {
+   "input_tokens": 132,
+   "cache_creation_input_tokens": 29172,
+   "cache_read_input_tokens": 544172,
+   "output_tokens": 9755,
+   "output_tokens_details": {
+    "thinking_tokens": 4969
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29172,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 448,
+     "cache_read_input_tokens": 47091,
+     "cache_creation_input_tokens": 1056,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1056
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 132,
+    "outputTokens": 9755,
+    "cacheReadInputTokens": 544172,
+    "cacheCreationInputTokens": 29172,
+    "webSearchRequests": 0,
+    "costUSD": 0.16166819999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4969,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. The data confirms my strategy is sound: Season 2 early May (days 1-32) has virtually no yellowtail despite 192 trips. This validates holding back and focusing on October peak.\n\n## Summary\n\n**What I learned:** Corrected my seasonal model based on Season 1 data and forum consensus. October (not July) is peak season for yellowtail with 15-16 avg fish/trip. May-July is weak (0.5-6 avg/trip), so early bookings are a budget trap. Day_1_5 and overnight trips are best performers.\n\n**What I changed:**\n1. Rewrote `strategy.py` to commit PTO for October Fridays starting now (14-day lead requirement)\n2. Updated `notes.md` with corrected seasonal calendar and execution plan: avoid weak months, save capital for October peak, target 4-5 trips Oct-Nov\n\n**Current status:** Day 32, $2000 budget intact, 10 PTO days intact, rank 11/34. Zero trips booked (correct\u2014early season has no fish). Strategy ready to auto-commit October PTO and book peak-season trips when available.\n\n**Next moves:** Monitor August-September fleet activity for building signals; execute Oct-Nov trip bookings when booking windows open.",
+  "ttft_ms": 2566,
+  "type": "result",
+  "duration_ms": 116877,
+  "uuid": "862f8b04-df4e-4ada-be82-31ee4e270edc",
+  "ttft_stream_ms": 934,
+  "time_to_request_ms": 363,
+  "first_content_frame_ms": 935,
+  "time_to_request_from_spawn_ms": 19666333,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311042707.8335,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

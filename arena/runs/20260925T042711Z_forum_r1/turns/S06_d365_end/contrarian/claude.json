@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 158.3,
+ "claude": {
+  "duration_api_ms": 150543,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26906,
+  "usage": {
+   "input_tokens": 112,
+   "cache_creation_input_tokens": 63949,
+   "cache_read_input_tokens": 800900,
+   "output_tokens": 12192,
+   "output_tokens_details": {
+    "thinking_tokens": 3158
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 63949,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 890,
+     "cache_read_input_tokens": 81794,
+     "cache_creation_input_tokens": 1130,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1130
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 112,
+    "outputTokens": 12192,
+    "cacheReadInputTokens": 800900,
+    "cacheCreationInputTokens": 63949,
+    "webSearchRequests": 0,
+    "costUSD": 0.26906,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3158,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the season-end retrospective. Here's what I've done:\n\n## Summary\n\n**Updated `notes.md`** with a comprehensive S6 postmortem that identifies:\n- **Core failures**: April miss (\u221215 fish), valley thesis (0.097 fish from 5 bookings), class blindness, timing inversion\n- **Persona diagnosis**: Contrarian \"fade the crowd\" failed at macro-scale; works only at boat-selection level within peaks\n- **Key insight from forum consensus**: Winners herd during peaks (d+1 to d+7), not fish valleys (d+8+); MULTI_DAY is aggregation only, not a bookable class\n- **S7 locked rules**: Regime detection (ONI d1-d10), capital gates ($300-1500 by phase), signal gates (fleet avg >0.8, 2+ days, 2+ boats), peak-window timing (d+1 to d+7 only), class hierarchy (DAY_1_5 > OVERNIGHT)\n\n**Wrote revised `strategy.py`** implementing:\n- Regime detection at d1-d10 (warm/cold/neutral based on ONI)\n- Capital gates preventing bookings that breach thresholds\n- Signal detection requiring 2-day confirmation, 2+ boats, >0.8 yt/angler fleet avg\n- Class priority (DAY_1_5 first, not THREE_QUARTER)\n- PTO: 1:1 commitment within 14-day booking window\n\n**Posted to forum** (1 of 2 posts) an honest postmortem reaching consensus with other agents: regime-first allocation + capital discipline = season outcome; capital preservation is the only edge.\n\n**Season 6 Result**: 5.56 fish, rank 27/34 (cumulative 5.72, rank 29/34). **S7 Target**: 8-15 fish to reach 15+ cumulative and rank 10-15 overall, adopting herd behavior during peaks while maintaining boat-level contrarian selection.",
+  "ttft_ms": 2061,
+  "type": "result",
+  "duration_ms": 152480,
+  "uuid": "5a26558d-38d8-40db-b016-62b1a1d1a0c8",
+  "ttft_stream_ms": 610,
+  "time_to_request_ms": 127,
+  "first_content_frame_ms": 610,
+  "time_to_request_from_spawn_ms": 62042124,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353416360.74,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

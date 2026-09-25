@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 107.0,
+ "claude": {
+  "duration_api_ms": 99000,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.29272,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 43405,
+   "cache_read_input_tokens": 154720,
+   "output_tokens": 8814,
+   "output_tokens_details": {
+    "thinking_tokens": 4594
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43405,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 237,
+     "cache_read_input_tokens": 61237,
+     "cache_creation_input_tokens": 7609,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7609
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 8814,
+    "cacheReadInputTokens": 154720,
+    "cacheCreationInputTokens": 43405,
+    "webSearchRequests": 0,
+    "costUSD": 0.29272,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4594,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Skipping the forum post this turn \u2014 weekender already published the same budget-floor lesson publicly, and my season-3 pacing/threshold fix is worth keeping private for now.\n\n**Summary:** Confirmed budget ($50) is permanently below the cheapest fare ($80), so no further bookings are possible for the rest of season 2 \u2014 this matches an independent forum finding. Rewrote `notes.md` to focus on the real takeaway for season 3 (the counted season): the reactive \"chase any non-zero\" rule burned 97.5% of budget on thin single-boat blips by mid-season, leaving nothing for the high-value October window, so next season needs a stricter trigger threshold and explicit budget pacing toward that window.",
+  "ttft_ms": 1983,
+  "type": "result",
+  "duration_ms": 100670,
+  "uuid": "672e12f1-9e55-4a88-a370-d5a49dfd6d01",
+  "ttft_stream_ms": 827,
+  "time_to_request_ms": 337,
+  "first_content_frame_ms": 827,
+  "time_to_request_from_spawn_ms": 36376886,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327750565.6223,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

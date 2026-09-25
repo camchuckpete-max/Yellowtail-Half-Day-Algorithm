@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 170.4,
+ "claude": {
+  "duration_api_ms": 161215,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2581703,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 58158,
+   "cache_read_input_tokens": 758613,
+   "output_tokens": 13175,
+   "output_tokens_details": {
+    "thinking_tokens": 4813
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 58158,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 592,
+     "cache_read_input_tokens": 76565,
+     "cache_creation_input_tokens": 568,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 568
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 13175,
+    "cacheReadInputTokens": 758613,
+    "cacheCreationInputTokens": 58158,
+    "webSearchRequests": 0,
+    "costUSD": 0.2581703,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4813,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect! I've completed my analysis and strategic planning. Here's my summary:\n\n## Summary\n\n**Current Position (doy 121):** I've successfully captured 7.02 fish (rank 14) from the El Ni\u00f1o spring peak (doy 94-115) by booking 7 weekend THREE_QUARTER trips with zero PTO burn. I have $700 + 10 PTO untouched remaining.\n\n**Strategy Locked for October:** The spring peak is exhausted; current fleet performance has collapsed from 0.614 yt/angler (doy 115) to 0.1 yt/angler (doy 121). I will hold capital and PTO through the summer dead zone (doy 122-220) and execute an aggressive 2-3 day_1_5 booking plan doy 273-283 for the October peak window (doy 287-301, 3.5 yt/angler baseline confirmed). Expected October catch: 10-12 fish, bringing total to 17-19 fish (rank 1-5 in Season 6).\n\n**Key Changes:** Updated notes.md with comprehensive Day 121 assessment, including summer dead-zone rationale, October timeline, and decision metrics for next critical turn at doy 180.",
+  "ttft_ms": 3135,
+  "type": "result",
+  "duration_ms": 163916,
+  "uuid": "3d9a841b-2104-464f-9c0c-27e6e0df3bd3",
+  "ttft_stream_ms": 1290,
+  "time_to_request_ms": 659,
+  "first_content_frame_ms": 1291,
+  "time_to_request_from_spawn_ms": 48807410,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180482.9958,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

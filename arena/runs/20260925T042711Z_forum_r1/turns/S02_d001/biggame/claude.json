@@ -1,0 +1,114 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 109.3,
+ "claude": {
+  "duration_api_ms": 102164,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1627664,
+  "usage": {
+   "input_tokens": 160,
+   "cache_creation_input_tokens": 26124,
+   "cache_read_input_tokens": 678884,
+   "output_tokens": 8494,
+   "output_tokens_details": {
+    "thinking_tokens": 4179
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26124,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 664,
+     "cache_read_input_tokens": 44684,
+     "cache_creation_input_tokens": 415,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 415
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 160,
+    "outputTokens": 8494,
+    "cacheReadInputTokens": 678884,
+    "cacheCreationInputTokens": 26124,
+    "webSearchRequests": 0,
+    "costUSD": 0.1627664,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4179,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Grep",
+    "tool_use_id": "toolu_01LEjxEXKZzYhK9oqzaAP4t8",
+    "tool_input": {
+     "pattern": "mcp__arena",
+     "path": "/dev/stdin"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my analysis and planning for Season 2. Here's what I found and changed:\n\n## Summary\n\n**Data Analysis Revealed:**\n- **Overnight trips vastly outperform 1.5-day trips** for yellowtail: avg 12-29 yt/boat vs. only 2-4 yt/boat\n- **Top boats by history**: Top Gun 80 (29.3 avg), First String (18.6), Ranger 85 (12.9), Relentless (11.6)\n- **Peak seasonal dates**: doy 236 (late Aug, avg 43.75 yt/boat) and doy 269 (late Sept, avg 30.0), plus secondary peaks at 213, 225, 240, 265\n\n**Strategy Updated:**\n- Rewrote `strategy.py` to target overnight trips on premium boats during proven hot dates (Aug 213/225/236 and Sept 265/269)\n- Budget allocation: 5 overnights @ $400 each = full $2000 budget\n- Updated `notes.md` with boat rankings, seasonal patterns, and nightly decision checklist\n\n**Next turn at 21:00:** I'll check offers for overnight/1.5-day trips on the ranked boats, pre-commit any necessary PTO for weekday returns, and begin executing the booking plan as schedules align with the identified hot dates.",
+  "ttft_ms": 2849,
+  "type": "result",
+  "duration_ms": 104112,
+  "uuid": "0ba06956-d3ca-47da-ad6b-09a9dfc0e155",
+  "ttft_stream_ms": 1142,
+  "time_to_request_ms": 528,
+  "first_content_frame_ms": 1142,
+  "time_to_request_from_spawn_ms": 19143267,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310517853.362,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

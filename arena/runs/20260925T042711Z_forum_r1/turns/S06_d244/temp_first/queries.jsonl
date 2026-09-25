@@ -1,0 +1,3 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4016, "ts": "2026-09-25T14:58:15"}
+{"tool": "arena_query", "sql": "\nSELECT ts_doy, ts_hour, wtmp_c, ROUND(wtmp_c * 9/5 + 32, 1) as wtmp_f\nFROM pier\nWHERE ts_season = 6 AND ts_doy >= 240\nORDER BY ts_doy DESC, ts_hour DESC\nLIMIT 20\n", "rows": 20, "seconds": 0.138, "ts": "2026-09-25T14:58:22"}
+{"tool": "arena_query", "sql": "\nSELECT fish_date_doy, cls, COUNT(*) as boats, ROUND(AVG(yt / anglers), 3) as yt_per_angler\nFROM trips\nWHERE fish_date_season = 6 AND fish_date_doy >= 235 AND fish_date_doy <= 244 AND yt > 0\nGROUP BY fish_date_doy, cls\nORDER BY fish_date_doy DESC, yt_per_angler DESC\n", "rows": 51, "seconds": 0.019, "ts": "2026-09-25T14:58:23"}

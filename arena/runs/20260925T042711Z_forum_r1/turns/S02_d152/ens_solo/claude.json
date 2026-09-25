@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 93.5,
+ "claude": {
+  "duration_api_ms": 89877,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1275357,
+  "usage": {
+   "input_tokens": 86,
+   "cache_creation_input_tokens": 26858,
+   "cache_read_input_tokens": 345987,
+   "output_tokens": 7827,
+   "output_tokens_details": {
+    "thinking_tokens": 3204
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26858,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 545,
+     "cache_read_input_tokens": 44010,
+     "cache_creation_input_tokens": 1823,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1823
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 86,
+    "outputTokens": 7827,
+    "cacheReadInputTokens": 345987,
+    "cacheCreationInputTokens": 26858,
+    "webSearchRequests": 0,
+    "costUSD": 0.1275357,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3204,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Data reviewed:** Current conditions at doy 152 (early June) show water temperature 64.8\u00b0F and fleet averaging 0.27 yt/angler over the last week. Despite hitting my water temperature trigger (\u226564.5\u00b0F), this is NOT a peak signal\u2014it's shallow seasonal warming similar to the false alarm on d144-148 that collapsed immediately. The historical October peak (doy 280-299) averages 1.09 yt/angler (4\u00d7 better EV), still 128 days away.\n\n**Decision:** Confirmed Phase 1 dormant hold through doy 260. No bookings, no new PTO commitments. Already have 6 days committed for October peak window (doy 290-297). Strategy unchanged: preserve full $2000 budget and remaining flexibility to execute 3-4 day_1_5 trips when true fall peak fires in October.",
+  "ttft_ms": 3515,
+  "type": "result",
+  "duration_ms": 91824,
+  "uuid": "dae37796-70d8-4d73-b927-ab33871129bb",
+  "ttft_stream_ms": 710,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 710,
+  "time_to_request_from_spawn_ms": 31890739,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323269236.9456,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

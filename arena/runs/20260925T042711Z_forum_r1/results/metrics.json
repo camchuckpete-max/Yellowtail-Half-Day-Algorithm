@@ -1,0 +1,1348 @@
+{
+ "run": "20260925T042711Z_forum_r1",
+ "arm": "forum",
+ "replicate": 1,
+ "seasons_counted": 2,
+ "cumulative": {
+  "B_SAT": 1.9569,
+  "B_PERSIST": 2.9741,
+  "B_TEMP": 2.7847,
+  "B_BIG": 0.4208,
+  "temp_first": 18.751,
+  "temp_solo": 3.7447,
+  "persist": 10.4385,
+  "persist_solo": 7.9454,
+  "contrarian": 5.7219,
+  "weekender": 7.8976,
+  "frontloader": 28.7752,
+  "thrifty": 24.943,
+  "thrifty_solo": 20.2316,
+  "biggame": 12.5796,
+  "biggame_solo": 13.4983,
+  "tides": 7.3721,
+  "weatherman": 7.6761,
+  "dope_reader": 15.1374,
+  "dope_solo": 8.8401,
+  "ensembler": 16.6562,
+  "ens_solo": 39.2466,
+  "overreactor": 13.9761,
+  "follower": 7.7971,
+  "skeptic": 8.4442,
+  "skeptic_solo": 7.5721,
+  "greenwater": 7.3721,
+  "elnino": 29.5809,
+  "upweller": 6.9053,
+  "fleetwatch": 10.2606,
+  "overnighter": 18.0213,
+  "lateseason": 14.4917,
+  "streaker": 16.5582,
+  "reverter": 9.1387,
+  "calendarist": 25.0677
+ },
+ "leaderboard_cumulative": [
+  "ens_solo",
+  "elnino",
+  "frontloader",
+  "calendarist",
+  "thrifty",
+  "thrifty_solo",
+  "temp_first",
+  "overnighter",
+  "ensembler",
+  "streaker",
+  "dope_reader",
+  "lateseason",
+  "overreactor",
+  "biggame_solo",
+  "biggame",
+  "persist",
+  "fleetwatch",
+  "reverter",
+  "dope_solo",
+  "skeptic",
+  "persist_solo",
+  "weekender",
+  "follower",
+  "weatherman",
+  "skeptic_solo",
+  "tides",
+  "greenwater",
+  "upweller",
+  "contrarian",
+  "temp_solo",
+  "B_PERSIST",
+  "B_TEMP",
+  "B_SAT",
+  "B_BIG"
+ ],
+ "ci_vs_baselines": {
+  "B_SAT-B_PERSIST": {
+   "mean": -0.5086,
+   "lo95": -0.9373,
+   "hi95": -0.0799,
+   "n_seasons": 2
+  },
+  "B_SAT-B_TEMP": {
+   "mean": -0.4139,
+   "lo95": -0.8754,
+   "hi95": 0.0476,
+   "n_seasons": 2
+  },
+  "B_SAT-B_BIG": {
+   "mean": 0.76805,
+   "lo95": -0.1857,
+   "hi95": 1.7218,
+   "n_seasons": 2
+  },
+  "B_PERSIST-B_SAT": {
+   "mean": 0.5086,
+   "lo95": 0.0799,
+   "hi95": 0.9373,
+   "n_seasons": 2
+  },
+  "B_PERSIST-B_TEMP": {
+   "mean": 0.09470000000000003,
+   "lo95": 0.061900000000000066,
+   "hi95": 0.1275,
+   "n_seasons": 2
+  },
+  "B_PERSIST-B_BIG": {
+   "mean": 1.27665,
+   "lo95": -0.1058,
+   "hi95": 2.6591,
+   "n_seasons": 2
+  },
+  "B_TEMP-B_SAT": {
+   "mean": 0.4139,
+   "lo95": -0.0476,
+   "hi95": 0.8754,
+   "n_seasons": 2
+  },
+  "B_TEMP-B_PERSIST": {
+   "mean": -0.09470000000000003,
+   "lo95": -0.1275,
+   "hi95": -0.061900000000000066,
+   "n_seasons": 2
+  },
+  "B_TEMP-B_BIG": {
+   "mean": 1.18195,
+   "lo95": -0.2333,
+   "hi95": 2.5972,
+   "n_seasons": 2
+  },
+  "B_BIG-B_SAT": {
+   "mean": -0.76805,
+   "lo95": -1.7218,
+   "hi95": 0.1857,
+   "n_seasons": 2
+  },
+  "B_BIG-B_PERSIST": {
+   "mean": -1.27665,
+   "lo95": -2.6591,
+   "hi95": 0.1058,
+   "n_seasons": 2
+  },
+  "B_BIG-B_TEMP": {
+   "mean": -1.18195,
+   "lo95": -2.5972,
+   "hi95": 0.2333,
+   "n_seasons": 2
+  },
+  "temp_first-B_SAT": {
+   "mean": 8.397050000000002,
+   "lo95": 0.5513,
+   "hi95": 16.242800000000003,
+   "n_seasons": 2
+  },
+  "temp_first-B_PERSIST": {
+   "mean": 7.88845,
+   "lo95": 0.4714,
+   "hi95": 15.3055,
+   "n_seasons": 2
+  },
+  "temp_first-B_TEMP": {
+   "mean": 7.98315,
+   "lo95": 0.5989,
+   "hi95": 15.3674,
+   "n_seasons": 2
+  },
+  "temp_first-B_BIG": {
+   "mean": 9.1651,
+   "lo95": 0.3656,
+   "hi95": 17.9646,
+   "n_seasons": 2
+  },
+  "temp_solo-B_SAT": {
+   "mean": 0.8939,
+   "lo95": 0.1895,
+   "hi95": 1.5983,
+   "n_seasons": 2
+  },
+  "temp_solo-B_PERSIST": {
+   "mean": 0.38530000000000003,
+   "lo95": 0.1096,
+   "hi95": 0.661,
+   "n_seasons": 2
+  },
+  "temp_solo-B_TEMP": {
+   "mean": 0.48000000000000004,
+   "lo95": 0.2371,
+   "hi95": 0.7229000000000001,
+   "n_seasons": 2
+  },
+  "temp_solo-B_BIG": {
+   "mean": 1.66195,
+   "lo95": 0.003799999999999998,
+   "hi95": 3.3201,
+   "n_seasons": 2
+  },
+  "persist-B_SAT": {
+   "mean": 4.2408,
+   "lo95": 0.17679999999999998,
+   "hi95": 8.3048,
+   "n_seasons": 2
+  },
+  "persist-B_PERSIST": {
+   "mean": 3.7321999999999997,
+   "lo95": 0.09689999999999999,
+   "hi95": 7.3675,
+   "n_seasons": 2
+  },
+  "persist-B_TEMP": {
+   "mean": 3.8269,
+   "lo95": 0.2244,
+   "hi95": 7.4294,
+   "n_seasons": 2
+  },
+  "persist-B_BIG": {
+   "mean": 5.00885,
+   "lo95": -0.008900000000000019,
+   "hi95": 10.0266,
+   "n_seasons": 2
+  },
+  "persist_solo-B_SAT": {
+   "mean": 2.99425,
+   "lo95": 0.6736,
+   "hi95": 5.3149,
+   "n_seasons": 2
+  },
+  "persist_solo-B_PERSIST": {
+   "mean": 2.4856499999999997,
+   "lo95": 0.5936999999999999,
+   "hi95": 4.377599999999999,
+   "n_seasons": 2
+  },
+  "persist_solo-B_TEMP": {
+   "mean": 2.5803499999999997,
+   "lo95": 0.7212,
+   "hi95": 4.4395,
+   "n_seasons": 2
+  },
+  "persist_solo-B_BIG": {
+   "mean": 3.7622999999999998,
+   "lo95": 0.48789999999999994,
+   "hi95": 7.0367,
+   "n_seasons": 2
+  },
+  "contrarian-B_SAT": {
+   "mean": 1.8824999999999998,
+   "lo95": 0.1121,
+   "hi95": 3.6529,
+   "n_seasons": 2
+  },
+  "contrarian-B_PERSIST": {
+   "mean": 1.3739,
+   "lo95": 0.032200000000000006,
+   "hi95": 2.7156,
+   "n_seasons": 2
+  },
+  "contrarian-B_TEMP": {
+   "mean": 1.4686,
+   "lo95": 0.1597,
+   "hi95": 2.7775,
+   "n_seasons": 2
+  },
+  "contrarian-B_BIG": {
+   "mean": 2.65055,
+   "lo95": -0.0736,
+   "hi95": 5.3747,
+   "n_seasons": 2
+  },
+  "weekender-B_SAT": {
+   "mean": 2.97035,
+   "lo95": 0.5805,
+   "hi95": 5.3602,
+   "n_seasons": 2
+  },
+  "weekender-B_PERSIST": {
+   "mean": 2.4617500000000003,
+   "lo95": 0.5005999999999999,
+   "hi95": 4.4229,
+   "n_seasons": 2
+  },
+  "weekender-B_TEMP": {
+   "mean": 2.55645,
+   "lo95": 0.6281,
+   "hi95": 4.4848,
+   "n_seasons": 2
+  },
+  "weekender-B_BIG": {
+   "mean": 3.7384,
+   "lo95": 0.3948,
+   "hi95": 7.082,
+   "n_seasons": 2
+  },
+  "frontloader-B_SAT": {
+   "mean": 13.40915,
+   "lo95": 12.6619,
+   "hi95": 14.156400000000001,
+   "n_seasons": 2
+  },
+  "frontloader-B_PERSIST": {
+   "mean": 12.900549999999999,
+   "lo95": 11.724599999999999,
+   "hi95": 14.076500000000001,
+   "n_seasons": 2
+  },
+  "frontloader-B_TEMP": {
+   "mean": 12.99525,
+   "lo95": 11.7865,
+   "hi95": 14.204,
+   "n_seasons": 2
+  },
+  "frontloader-B_BIG": {
+   "mean": 14.1772,
+   "lo95": 13.9707,
+   "hi95": 14.3837,
+   "n_seasons": 2
+  },
+  "thrifty-B_SAT": {
+   "mean": 11.493049999999998,
+   "lo95": 4.5112,
+   "hi95": 18.474899999999998,
+   "n_seasons": 2
+  },
+  "thrifty-B_PERSIST": {
+   "mean": 10.98445,
+   "lo95": 4.431299999999999,
+   "hi95": 17.5376,
+   "n_seasons": 2
+  },
+  "thrifty-B_TEMP": {
+   "mean": 11.079149999999998,
+   "lo95": 4.5588,
+   "hi95": 17.5995,
+   "n_seasons": 2
+  },
+  "thrifty-B_BIG": {
+   "mean": 12.261099999999999,
+   "lo95": 4.3255,
+   "hi95": 20.1967,
+   "n_seasons": 2
+  },
+  "thrifty_solo-B_SAT": {
+   "mean": 9.137350000000001,
+   "lo95": 0.5805,
+   "hi95": 17.694200000000002,
+   "n_seasons": 2
+  },
+  "thrifty_solo-B_PERSIST": {
+   "mean": 8.62875,
+   "lo95": 0.5005999999999999,
+   "hi95": 16.7569,
+   "n_seasons": 2
+  },
+  "thrifty_solo-B_TEMP": {
+   "mean": 8.72345,
+   "lo95": 0.6281,
+   "hi95": 16.8188,
+   "n_seasons": 2
+  },
+  "thrifty_solo-B_BIG": {
+   "mean": 9.9054,
+   "lo95": 0.3948,
+   "hi95": 19.416,
+   "n_seasons": 2
+  },
+  "biggame-B_SAT": {
+   "mean": 5.31135,
+   "lo95": 4.4979,
+   "hi95": 6.1248000000000005,
+   "n_seasons": 2
+  },
+  "biggame-B_PERSIST": {
+   "mean": 4.80275,
+   "lo95": 4.417999999999999,
+   "hi95": 5.1875,
+   "n_seasons": 2
+  },
+  "biggame-B_TEMP": {
+   "mean": 4.89745,
+   "lo95": 4.5455,
+   "hi95": 5.2494000000000005,
+   "n_seasons": 2
+  },
+  "biggame-B_BIG": {
+   "mean": 6.0794,
+   "lo95": 4.3122,
+   "hi95": 7.8466000000000005,
+   "n_seasons": 2
+  },
+  "biggame_solo-B_SAT": {
+   "mean": 5.7707,
+   "lo95": 3.0408999999999997,
+   "hi95": 8.5005,
+   "n_seasons": 2
+  },
+  "biggame_solo-B_PERSIST": {
+   "mean": 5.2621,
+   "lo95": 2.1035999999999997,
+   "hi95": 8.4206,
+   "n_seasons": 2
+  },
+  "biggame_solo-B_TEMP": {
+   "mean": 5.3568,
+   "lo95": 2.1654999999999998,
+   "hi95": 8.5481,
+   "n_seasons": 2
+  },
+  "biggame_solo-B_BIG": {
+   "mean": 6.53875,
+   "lo95": 4.7627,
+   "hi95": 8.3148,
+   "n_seasons": 2
+  },
+  "tides-B_SAT": {
+   "mean": 2.7076,
+   "lo95": 0.5805,
+   "hi95": 4.8347,
+   "n_seasons": 2
+  },
+  "tides-B_PERSIST": {
+   "mean": 2.199,
+   "lo95": 0.5005999999999999,
+   "hi95": 3.8973999999999998,
+   "n_seasons": 2
+  },
+  "tides-B_TEMP": {
+   "mean": 2.2937,
+   "lo95": 0.6281,
+   "hi95": 3.9593,
+   "n_seasons": 2
+  },
+  "tides-B_BIG": {
+   "mean": 3.47565,
+   "lo95": 0.3948,
+   "hi95": 6.5565,
+   "n_seasons": 2
+  },
+  "weatherman-B_SAT": {
+   "mean": 2.8596000000000004,
+   "lo95": 0.355,
+   "hi95": 5.3642,
+   "n_seasons": 2
+  },
+  "weatherman-B_PERSIST": {
+   "mean": 2.351,
+   "lo95": 0.2751,
+   "hi95": 4.4269,
+   "n_seasons": 2
+  },
+  "weatherman-B_TEMP": {
+   "mean": 2.4457,
+   "lo95": 0.4026,
+   "hi95": 4.4888,
+   "n_seasons": 2
+  },
+  "weatherman-B_BIG": {
+   "mean": 3.62765,
+   "lo95": 0.1693,
+   "hi95": 7.086,
+   "n_seasons": 2
+  },
+  "dope_reader-B_SAT": {
+   "mean": 6.590249999999999,
+   "lo95": 4.4045,
+   "hi95": 8.776,
+   "n_seasons": 2
+  },
+  "dope_reader-B_PERSIST": {
+   "mean": 6.08165,
+   "lo95": 4.324599999999999,
+   "hi95": 7.838699999999999,
+   "n_seasons": 2
+  },
+  "dope_reader-B_TEMP": {
+   "mean": 6.176349999999999,
+   "lo95": 4.4521,
+   "hi95": 7.9006,
+   "n_seasons": 2
+  },
+  "dope_reader-B_BIG": {
+   "mean": 7.3583,
+   "lo95": 4.2188,
+   "hi95": 10.4978,
+   "n_seasons": 2
+  },
+  "dope_solo-B_SAT": {
+   "mean": 3.4416,
+   "lo95": 0.04819999999999999,
+   "hi95": 6.835000000000001,
+   "n_seasons": 2
+  },
+  "dope_solo-B_PERSIST": {
+   "mean": 2.9330000000000003,
+   "lo95": -0.031700000000000006,
+   "hi95": 5.8977,
+   "n_seasons": 2
+  },
+  "dope_solo-B_TEMP": {
+   "mean": 3.0277000000000003,
+   "lo95": 0.0958,
+   "hi95": 5.959600000000001,
+   "n_seasons": 2
+  },
+  "dope_solo-B_BIG": {
+   "mean": 4.209650000000001,
+   "lo95": -0.1375,
+   "hi95": 8.5568,
+   "n_seasons": 2
+  },
+  "ensembler-B_SAT": {
+   "mean": 7.3496500000000005,
+   "lo95": 0.45209999999999995,
+   "hi95": 14.247200000000001,
+   "n_seasons": 2
+  },
+  "ensembler-B_PERSIST": {
+   "mean": 6.84105,
+   "lo95": 0.3722,
+   "hi95": 13.3099,
+   "n_seasons": 2
+  },
+  "ensembler-B_TEMP": {
+   "mean": 6.9357500000000005,
+   "lo95": 0.4997,
+   "hi95": 13.3718,
+   "n_seasons": 2
+  },
+  "ensembler-B_BIG": {
+   "mean": 8.117700000000001,
+   "lo95": 0.26639999999999997,
+   "hi95": 15.969000000000001,
+   "n_seasons": 2
+  },
+  "ens_solo-B_SAT": {
+   "mean": 18.64485,
+   "lo95": 15.225900000000001,
+   "hi95": 22.0638,
+   "n_seasons": 2
+  },
+  "ens_solo-B_PERSIST": {
+   "mean": 18.13625,
+   "lo95": 15.146,
+   "hi95": 21.1265,
+   "n_seasons": 2
+  },
+  "ens_solo-B_TEMP": {
+   "mean": 18.23095,
+   "lo95": 15.2735,
+   "hi95": 21.188399999999998,
+   "n_seasons": 2
+  },
+  "ens_solo-B_BIG": {
+   "mean": 19.4129,
+   "lo95": 15.0402,
+   "hi95": 23.7856,
+   "n_seasons": 2
+  },
+  "overreactor-B_SAT": {
+   "mean": 6.0096,
+   "lo95": 0.1764,
+   "hi95": 11.8428,
+   "n_seasons": 2
+  },
+  "overreactor-B_PERSIST": {
+   "mean": 5.501,
+   "lo95": 0.0965,
+   "hi95": 10.9055,
+   "n_seasons": 2
+  },
+  "overreactor-B_TEMP": {
+   "mean": 5.595700000000001,
+   "lo95": 0.224,
+   "hi95": 10.967400000000001,
+   "n_seasons": 2
+  },
+  "overreactor-B_BIG": {
+   "mean": 6.77765,
+   "lo95": -0.009300000000000003,
+   "hi95": 13.5646,
+   "n_seasons": 2
+  },
+  "follower-B_SAT": {
+   "mean": 2.9200999999999997,
+   "lo95": 0.6205,
+   "hi95": 5.2197,
+   "n_seasons": 2
+  },
+  "follower-B_PERSIST": {
+   "mean": 2.4114999999999993,
+   "lo95": 0.5406,
+   "hi95": 4.282399999999999,
+   "n_seasons": 2
+  },
+  "follower-B_TEMP": {
+   "mean": 2.5061999999999998,
+   "lo95": 0.6681,
+   "hi95": 4.3443,
+   "n_seasons": 2
+  },
+  "follower-B_BIG": {
+   "mean": 3.68815,
+   "lo95": 0.4348,
+   "hi95": 6.9415,
+   "n_seasons": 2
+  },
+  "skeptic-B_SAT": {
+   "mean": 3.2436499999999997,
+   "lo95": 0.3165,
+   "hi95": 6.1708,
+   "n_seasons": 2
+  },
+  "skeptic-B_PERSIST": {
+   "mean": 2.7350499999999998,
+   "lo95": 0.23659999999999998,
+   "hi95": 5.233499999999999,
+   "n_seasons": 2
+  },
+  "skeptic-B_TEMP": {
+   "mean": 2.8297499999999998,
+   "lo95": 0.3641,
+   "hi95": 5.2954,
+   "n_seasons": 2
+  },
+  "skeptic-B_BIG": {
+   "mean": 4.0117,
+   "lo95": 0.13079999999999997,
+   "hi95": 7.8926,
+   "n_seasons": 2
+  },
+  "skeptic_solo-B_SAT": {
+   "mean": 2.8076,
+   "lo95": 0.7805,
+   "hi95": 4.8347,
+   "n_seasons": 2
+  },
+  "skeptic_solo-B_PERSIST": {
+   "mean": 2.299,
+   "lo95": 0.7005999999999999,
+   "hi95": 3.8973999999999998,
+   "n_seasons": 2
+  },
+  "skeptic_solo-B_TEMP": {
+   "mean": 2.3937,
+   "lo95": 0.8281,
+   "hi95": 3.9593,
+   "n_seasons": 2
+  },
+  "skeptic_solo-B_BIG": {
+   "mean": 3.57565,
+   "lo95": 0.5948,
+   "hi95": 6.5565,
+   "n_seasons": 2
+  },
+  "greenwater-B_SAT": {
+   "mean": 2.7076,
+   "lo95": 0.5805,
+   "hi95": 4.8347,
+   "n_seasons": 2
+  },
+  "greenwater-B_PERSIST": {
+   "mean": 2.199,
+   "lo95": 0.5005999999999999,
+   "hi95": 3.8973999999999998,
+   "n_seasons": 2
+  },
+  "greenwater-B_TEMP": {
+   "mean": 2.2937,
+   "lo95": 0.6281,
+   "hi95": 3.9593,
+   "n_seasons": 2
+  },
+  "greenwater-B_BIG": {
+   "mean": 3.47565,
+   "lo95": 0.3948,
+   "hi95": 6.5565,
+   "n_seasons": 2
+  },
+  "elnino-B_SAT": {
+   "mean": 13.812000000000001,
+   "lo95": 12.3367,
+   "hi95": 15.2873,
+   "n_seasons": 2
+  },
+  "elnino-B_PERSIST": {
+   "mean": 13.3034,
+   "lo95": 11.3994,
+   "hi95": 15.2074,
+   "n_seasons": 2
+  },
+  "elnino-B_TEMP": {
+   "mean": 13.3981,
+   "lo95": 11.461300000000001,
+   "hi95": 15.3349,
+   "n_seasons": 2
+  },
+  "elnino-B_BIG": {
+   "mean": 14.58005,
+   "lo95": 14.0585,
+   "hi95": 15.1016,
+   "n_seasons": 2
+  },
+  "upweller-B_SAT": {
+   "mean": 2.4741999999999997,
+   "lo95": 0.6545,
+   "hi95": 4.2939,
+   "n_seasons": 2
+  },
+  "upweller-B_PERSIST": {
+   "mean": 1.9655999999999998,
+   "lo95": 0.5746,
+   "hi95": 3.3566,
+   "n_seasons": 2
+  },
+  "upweller-B_TEMP": {
+   "mean": 2.0603,
+   "lo95": 0.7021,
+   "hi95": 3.4185,
+   "n_seasons": 2
+  },
+  "upweller-B_BIG": {
+   "mean": 3.24225,
+   "lo95": 0.46879999999999994,
+   "hi95": 6.0157,
+   "n_seasons": 2
+  },
+  "fleetwatch-B_SAT": {
+   "mean": 4.15185,
+   "lo95": -0.028700000000000003,
+   "hi95": 8.3324,
+   "n_seasons": 2
+  },
+  "fleetwatch-B_PERSIST": {
+   "mean": 3.6432499999999997,
+   "lo95": -0.1086,
+   "hi95": 7.395099999999999,
+   "n_seasons": 2
+  },
+  "fleetwatch-B_TEMP": {
+   "mean": 3.73795,
+   "lo95": 0.0189,
+   "hi95": 7.457,
+   "n_seasons": 2
+  },
+  "fleetwatch-B_BIG": {
+   "mean": 4.9199,
+   "lo95": -0.2144,
+   "hi95": 10.0542,
+   "n_seasons": 2
+  },
+  "overnighter-B_SAT": {
+   "mean": 8.0322,
+   "lo95": 5.1377,
+   "hi95": 10.9267,
+   "n_seasons": 2
+  },
+  "overnighter-B_PERSIST": {
+   "mean": 7.5236,
+   "lo95": 5.057799999999999,
+   "hi95": 9.9894,
+   "n_seasons": 2
+  },
+  "overnighter-B_TEMP": {
+   "mean": 7.6183000000000005,
+   "lo95": 5.1853,
+   "hi95": 10.051300000000001,
+   "n_seasons": 2
+  },
+  "overnighter-B_BIG": {
+   "mean": 8.80025,
+   "lo95": 4.952,
+   "hi95": 12.6485,
+   "n_seasons": 2
+  },
+  "lateseason-B_SAT": {
+   "mean": 6.2674,
+   "lo95": 0.3873,
+   "hi95": 12.1475,
+   "n_seasons": 2
+  },
+  "lateseason-B_PERSIST": {
+   "mean": 5.7588,
+   "lo95": 0.3074,
+   "hi95": 11.2102,
+   "n_seasons": 2
+  },
+  "lateseason-B_TEMP": {
+   "mean": 5.853500000000001,
+   "lo95": 0.4349,
+   "hi95": 11.272100000000002,
+   "n_seasons": 2
+  },
+  "lateseason-B_BIG": {
+   "mean": 7.035450000000001,
+   "lo95": 0.2016,
+   "hi95": 13.8693,
+   "n_seasons": 2
+  },
+  "streaker-B_SAT": {
+   "mean": 7.30065,
+   "lo95": 2.2433,
+   "hi95": 12.358,
+   "n_seasons": 2
+  },
+  "streaker-B_PERSIST": {
+   "mean": 6.79205,
+   "lo95": 2.1634,
+   "hi95": 11.4207,
+   "n_seasons": 2
+  },
+  "streaker-B_TEMP": {
+   "mean": 6.886750000000001,
+   "lo95": 2.2909,
+   "hi95": 11.482600000000001,
+   "n_seasons": 2
+  },
+  "streaker-B_BIG": {
+   "mean": 8.0687,
+   "lo95": 2.0576000000000003,
+   "hi95": 14.0798,
+   "n_seasons": 2
+  },
+  "reverter-B_SAT": {
+   "mean": 3.5909,
+   "lo95": 2.6220999999999997,
+   "hi95": 4.5597,
+   "n_seasons": 2
+  },
+  "reverter-B_PERSIST": {
+   "mean": 3.0823,
+   "lo95": 1.6847999999999996,
+   "hi95": 4.4798,
+   "n_seasons": 2
+  },
+  "reverter-B_TEMP": {
+   "mean": 3.177,
+   "lo95": 1.7466999999999997,
+   "hi95": 4.6073,
+   "n_seasons": 2
+  },
+  "reverter-B_BIG": {
+   "mean": 4.35895,
+   "lo95": 4.3439,
+   "hi95": 4.3740000000000006,
+   "n_seasons": 2
+  },
+  "calendarist-B_SAT": {
+   "mean": 11.5554,
+   "lo95": 10.3648,
+   "hi95": 12.746,
+   "n_seasons": 2
+  },
+  "calendarist-B_PERSIST": {
+   "mean": 11.046800000000001,
+   "lo95": 9.4275,
+   "hi95": 12.6661,
+   "n_seasons": 2
+  },
+  "calendarist-B_TEMP": {
+   "mean": 11.1415,
+   "lo95": 9.4894,
+   "hi95": 12.7936,
+   "n_seasons": 2
+  },
+  "calendarist-B_BIG": {
+   "mean": 12.323450000000001,
+   "lo95": 12.0866,
+   "hi95": 12.5603,
+   "n_seasons": 2
+  }
+ },
+ "field_by_season": [
+  {
+   "season": 2,
+   "mean_fish": 2.9675,
+   "diversity_jaccard": 0.0731,
+   "herding": 0.3824,
+   "counted": true
+  },
+  {
+   "season": 6,
+   "mean_fish": 9.7613,
+   "diversity_jaccard": 0.1083,
+   "herding": 0.4412,
+   "counted": true
+  }
+ ],
+ "forum_effect_within_run": {
+  "forum_on_mean": 14.4749,
+  "forum_off_mean": 13.5144,
+  "diff": 0.9605,
+  "persona_matched_pairs": {
+   "temp_first-temp_solo": 15.0063,
+   "persist-persist_solo": 2.4931,
+   "thrifty-thrifty_solo": 4.7114,
+   "biggame-biggame_solo": -0.9187,
+   "dope_reader-dope_solo": 6.2973,
+   "ensembler-ens_solo": -22.5904,
+   "skeptic-skeptic_solo": 0.8721
+  }
+ },
+ "posts_cited": {},
+ "cost_usd": 533.87,
+ "per_agent": {
+  "B_SAT": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0,
+   "judgment_calls": 0,
+   "judgment_cost_usd": 0.0,
+   "trips_via": {
+    "judgment": 0,
+    "code": 36
+   }
+  },
+  "B_PERSIST": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0,
+   "judgment_calls": 0,
+   "judgment_cost_usd": 0.0,
+   "trips_via": {
+    "judgment": 0,
+    "code": 35
+   }
+  },
+  "B_TEMP": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0,
+   "judgment_calls": 0,
+   "judgment_cost_usd": 0.0,
+   "trips_via": {
+    "judgment": 0,
+    "code": 25
+   }
+  },
+  "B_BIG": {
+   "kind": "baseline",
+   "model": null,
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 0.0,
+   "judgment_calls": 0,
+   "judgment_cost_usd": 0.0,
+   "trips_via": {
+    "judgment": 0,
+    "code": 6
+   }
+  },
+  "temp_first": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 15.96,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 10.75,
+   "trips_via": {
+    "judgment": 14,
+    "code": 0
+   }
+  },
+  "temp_solo": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 13.69,
+   "judgment_calls": 355,
+   "judgment_cost_usd": 9.17,
+   "trips_via": {
+    "judgment": 13,
+    "code": 0
+   }
+  },
+  "persist": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 15.56,
+   "judgment_calls": 127,
+   "judgment_cost_usd": 5.61,
+   "trips_via": {
+    "judgment": 23,
+    "code": 0
+   }
+  },
+  "persist_solo": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 12.67,
+   "judgment_calls": 360,
+   "judgment_cost_usd": 8.52,
+   "trips_via": {
+    "judgment": 18,
+    "code": 0
+   }
+  },
+  "contrarian": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 17.08,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.89,
+   "trips_via": {
+    "judgment": 19,
+    "code": 0
+   }
+  },
+  "weekender": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 26.16,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 16.35,
+   "trips_via": {
+    "judgment": 20,
+    "code": 0
+   }
+  },
+  "frontloader": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 11.85,
+   "judgment_calls": 269,
+   "judgment_cost_usd": 6.5,
+   "trips_via": {
+    "judgment": 14,
+    "code": 0
+   }
+  },
+  "thrifty": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 16.91,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.58,
+   "trips_via": {
+    "judgment": 18,
+    "code": 0
+   }
+  },
+  "thrifty_solo": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 24.48,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 17.2,
+   "trips_via": {
+    "judgment": 26,
+    "code": 0
+   }
+  },
+  "biggame": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 16.39,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.13,
+   "trips_via": {
+    "judgment": 14,
+    "code": 0
+   }
+  },
+  "biggame_solo": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 14.47,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 10.34,
+   "trips_via": {
+    "judgment": 7,
+    "code": 0
+   }
+  },
+  "tides": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 21.25,
+   "judgment_calls": 316,
+   "judgment_cost_usd": 11.53,
+   "trips_via": {
+    "judgment": 20,
+    "code": 0
+   }
+  },
+  "weatherman": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 16.4,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.09,
+   "trips_via": {
+    "judgment": 13,
+    "code": 0
+   }
+  },
+  "dope_reader": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 16.78,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.23,
+   "trips_via": {
+    "judgment": 18,
+    "code": 0
+   }
+  },
+  "dope_solo": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 20.68,
+   "judgment_calls": 263,
+   "judgment_cost_usd": 11.61,
+   "trips_via": {
+    "judgment": 19,
+    "code": 0
+   }
+  },
+  "ensembler": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 12.65,
+   "judgment_calls": 282,
+   "judgment_cost_usd": 7.46,
+   "trips_via": {
+    "judgment": 23,
+    "code": 0
+   }
+  },
+  "ens_solo": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 15.58,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.16,
+   "trips_via": {
+    "judgment": 19,
+    "code": 0
+   }
+  },
+  "overreactor": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 16.37,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.15,
+   "trips_via": {
+    "judgment": 18,
+    "code": 0
+   }
+  },
+  "follower": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 20.49,
+   "judgment_calls": 274,
+   "judgment_cost_usd": 11.98,
+   "trips_via": {
+    "judgment": 20,
+    "code": 0
+   }
+  },
+  "skeptic": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 16.6,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.35,
+   "trips_via": {
+    "judgment": 14,
+    "code": 0
+   }
+  },
+  "skeptic_solo": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 27.13,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 19.59,
+   "trips_via": {
+    "judgment": 20,
+    "code": 0
+   }
+  },
+  "greenwater": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 27.44,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 19.42,
+   "trips_via": {
+    "judgment": 20,
+    "code": 0
+   }
+  },
+  "elnino": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 14.6,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 10.19,
+   "trips_via": {
+    "judgment": 12,
+    "code": 0
+   }
+  },
+  "upweller": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 25.43,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 18.15,
+   "trips_via": {
+    "judgment": 21,
+    "code": 0
+   }
+  },
+  "fleetwatch": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 15.54,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 10.93,
+   "trips_via": {
+    "judgment": 20,
+    "code": 0
+   }
+  },
+  "overnighter": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 15.98,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 11.36,
+   "trips_via": {
+    "judgment": 9,
+    "code": 0
+   }
+  },
+  "lateseason": {
+   "kind": "llm",
+   "model": "claude-sonnet-5",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 21.12,
+   "judgment_calls": 281,
+   "judgment_cost_usd": 11.56,
+   "trips_via": {
+    "judgment": 22,
+    "code": 0
+   }
+  },
+  "streaker": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 14.79,
+   "judgment_calls": 438,
+   "judgment_cost_usd": 10.12,
+   "trips_via": {
+    "judgment": 17,
+    "code": 0
+   }
+  },
+  "reverter": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": false,
+   "strategy_version": 1,
+   "cost_usd": 14.74,
+   "judgment_calls": 487,
+   "judgment_cost_usd": 10.71,
+   "trips_via": {
+    "judgment": 15,
+    "code": 0
+   }
+  },
+  "calendarist": {
+   "kind": "llm",
+   "model": "claude-haiku-4-5-20251001",
+   "forum": true,
+   "strategy_version": 1,
+   "cost_usd": 15.11,
+   "judgment_calls": 448,
+   "judgment_cost_usd": 10.08,
+   "trips_via": {
+    "judgment": 14,
+    "code": 0
+   }
+  }
+ }
+}

@@ -1,0 +1,3 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4015, "ts": "2026-09-25T12:00:32"}
+{"tool": "arena_query", "sql": "\nSELECT cls, count(*) n_boat_trips, sum(anglers) anglers, sum(yt) yt, round(sum(yt)*1.0/nullif(sum(anglers),0),3) ypa\nFROM trips WHERE fished_date_season=6\nGROUP BY cls ORDER BY ypa DESC\n", "rows": 6, "seconds": 0.135, "ts": "2026-09-25T12:00:36"}
+{"tool": "arena_query", "sql": "\nSELECT cls, (fished_date_doy/10)::int*10 doy_bucket, count(*) n, sum(yt)*1.0/nullif(sum(anglers),0) ypa\nFROM trips WHERE fished_date_season=6 AND cls IN ('day_1_5','three_quarter')\nGROUP BY cls, doy_bucket ORDER BY cls, doy_bucket\n", "rows": 14, "seconds": 0.008, "ts": "2026-09-25T12:00:40"}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.6,
+ "claude": {
+  "duration_api_ms": 114333,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19174400000000003,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 45539,
+   "cache_read_input_tokens": 541590,
+   "output_tokens": 9283,
+   "output_tokens_details": {
+    "thinking_tokens": 3497
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45539,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 684,
+     "cache_read_input_tokens": 63251,
+     "cache_creation_input_tokens": 1263,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1263
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 9283,
+    "cacheReadInputTokens": 541590,
+    "cacheCreationInputTokens": 45539,
+    "webSearchRequests": 0,
+    "costUSD": 0.19174400000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3497,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the Season 6 close-out and Season 7 preparation. Let me write a final summary of what's been locked in:\n\n**Season 6 Summary: Rank 5/34 (16.1565 fish), Cumulative 21/34**\n\n\u2705 **What Changed:**\n- Updated notes.md with final Season 6 postmortem: confirmed the early over-deployment cost 7.81 fish (the gap to leader)\n- Posted forum message locking in Season 7 regime-adaptive framework based on forum consensus (calendarist, elnino, streaker, overreactor)\n- Created strategy.py with guardrails: capital floor $300, PTO discipline, no consecutive bookings\n\n\u2705 **Why:**\n- Season 6 proved capital sequencing beats threshold selection: deployed 95% by d130, locked out of proven d170-212 peaks worth 6-10 fish\n- Forum consensus confirms: read ONI at d1, allocate capital by regime (40-50% Phase 1, 30-40% Phase 3, 10-20% Phase 4), enforce two-day trigger\n- Season 7 target: 18-22 fish (vs 16.16), move cumulative rank 21 \u2192 10-12\n\n**Season 7 ready: Regime first, calendar never. Capital on hand at peak time. Go.**",
+  "ttft_ms": 2170,
+  "type": "result",
+  "duration_ms": 116109,
+  "uuid": "c55550f7-ed6a-4f6d-a9e1-bec103e7f7bd",
+  "ttft_stream_ms": 548,
+  "time_to_request_ms": 96,
+  "first_content_frame_ms": 548,
+  "time_to_request_from_spawn_ms": 60322260,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351700787.2153,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

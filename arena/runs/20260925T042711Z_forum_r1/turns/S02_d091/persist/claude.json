@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 99.5,
+ "claude": {
+  "duration_api_ms": 93836,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2513824,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 29046,
+   "cache_read_input_tokens": 283602,
+   "output_tokens": 7845,
+   "output_tokens_details": {
+    "thinking_tokens": 3781
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29046,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 208,
+     "cache_read_input_tokens": 49703,
+     "cache_creation_input_tokens": 4784,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4784
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 7845,
+    "cacheReadInputTokens": 283602,
+    "cacheCreationInputTokens": 29046,
+    "webSearchRequests": 0,
+    "costUSD": 0.2513824,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3781,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Summary: Confirmed strategy.py is still locked out this turn (no submit_strategy tool), season 2 remains nearly fishless through doy 91 with only a single trivial blip, but Scripps pier temp just broke its flat range with a jump to 15.84\u00b0C right at the start of season 1's historical spring window \u2014 updated notes.md with a concrete non-blip signal definition and a plan to react fast on the reachable classes (FULL_DAY/THREE_QUARTER) while keeping fall as the primary PTO/budget allocation. Skipped forum posting to avoid tipping competitors into the same boats on my one private edge.",
+  "ttft_ms": 4398,
+  "type": "result",
+  "duration_ms": 95542,
+  "uuid": "84a6f498-1d70-46ee-91cd-425c67f514bd",
+  "ttft_stream_ms": 970,
+  "time_to_request_ms": 131,
+  "first_content_frame_ms": 970,
+  "time_to_request_from_spawn_ms": 20548447,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311924829.7722,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

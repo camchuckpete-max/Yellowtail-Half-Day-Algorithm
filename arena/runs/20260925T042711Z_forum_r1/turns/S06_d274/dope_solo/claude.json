@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 65.9,
+ "claude": {
+  "duration_api_ms": 57913,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3468404,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 47143,
+   "cache_read_input_tokens": 506162,
+   "output_tokens": 5700,
+   "output_tokens_details": {
+    "thinking_tokens": 2531
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47143,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 300,
+     "cache_read_input_tokens": 70069,
+     "cache_creation_input_tokens": 2515,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2515
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 5700,
+    "cacheReadInputTokens": 506162,
+    "cacheCreationInputTokens": 47143,
+    "webSearchRequests": 0,
+    "costUSD": 0.3468404,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2531,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated with a day-274 check-in confirming day_1_5 gave a genuine 2-consecutive-bucket wave (doy250-269, ~0.82-0.83 ypa, n=35/41) that faded by doy270, while overnight/3Q's single-bucket spikes at doy260 stayed unconfirmed \u2014 a clean data point validating the existing tranche/2-bucket-trigger rules ahead of S7, with no operational change needed since S6's budget is already spent below the min fare.\n\n**Summary:** Pulled S6 doy240-274 yellowtail-per-angler by class to answer the day-244 \"does anything re-ignite\" question \u2014 confirmed a real but moderate day_1_5 wave (doy250-269) and unconfirmed single-bucket spikes elsewhere; wrote the finding into `notes.md` as pure S7-prep since S6 itself has nothing left to spend.",
+  "ttft_ms": 3245,
+  "type": "result",
+  "duration_ms": 59942,
+  "uuid": "cdb42ab7-3ae5-4bf5-9001-d86334131f76",
+  "ttft_stream_ms": 1213,
+  "time_to_request_ms": 665,
+  "first_content_frame_ms": 1213,
+  "time_to_request_from_spawn_ms": 58508057,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349881608.4229,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

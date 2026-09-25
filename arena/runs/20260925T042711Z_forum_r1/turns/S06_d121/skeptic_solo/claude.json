@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 136.0,
+ "claude": {
+  "duration_api_ms": 132369,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3954844,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 53889,
+   "cache_read_input_tokens": 302522,
+   "output_tokens": 11940,
+   "output_tokens_details": {
+    "thinking_tokens": 7541
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53889,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 322,
+     "cache_read_input_tokens": 75683,
+     "cache_creation_input_tokens": 3647,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3647
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 11940,
+    "cacheReadInputTokens": 302522,
+    "cacheCreationInputTokens": 53889,
+    "webSearchRequests": 0,
+    "costUSD": 0.3954844,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7541,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Summary: confirmed the paralysis bug from prior seasons is fixed (S6 booked 7 real trips, score 6.744), but the new bug is overspending \u2014 $1980 of $2000 got dumped into 4 pricey OVERNIGHT trips in a 15-day window (d093\u2013107), leaving only $20 for the remaining ~213 days, which locks out booking for the rest of the season and wasted 2 PTO days committed for d112/113 that budget never covered. I rewrote `notes.md` with the share-per-dollar math (THREE_QUARTER 3.8x more $-efficient than OVERNIGHT), a fresh two-season confirmation that the doy265\u2013300 fall run (day_1_5/overnight peaking near 5.0 share) is the season's best window, and a concrete S7 pacing plan (reserve ~$800-1000/4-5 PTO for the fall run, cap overnight elsewhere, earmark budget when committing PTO ahead).",
+  "ttft_ms": 1280,
+  "type": "result",
+  "duration_ms": 134359,
+  "uuid": "9fcb86ca-8fe8-44a8-81f9-efb96b463b2d",
+  "ttft_stream_ms": 863,
+  "time_to_request_ms": 132,
+  "first_content_frame_ms": 863,
+  "time_to_request_from_spawn_ms": 48928691,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340307090.0496,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 197.9,
+ "claude": {
+  "duration_api_ms": 189935,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25578360000000006,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 51901,
+   "cache_read_input_tokens": 643736,
+   "output_tokens": 17500,
+   "output_tokens_details": {
+    "thinking_tokens": 8781
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51901,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 639,
+     "cache_read_input_tokens": 68385,
+     "cache_creation_input_tokens": 2491,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2491
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 17500,
+    "cacheReadInputTokens": 643736,
+    "cacheCreationInputTokens": 51901,
+    "webSearchRequests": 0,
+    "costUSD": 0.25578360000000006,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 8781,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Analysis Complete.** I've validated that the October peak (doy 287-297) is real and proven from Season 1 data (consistent 5.0 yt/angler for day_1_5 class), independent of the calendar-vs-water-temp debate plaguing the forum. \n\n**Critical discovery:** My committed PTO dates (d285, d292, d299) are misaligned with the optimal fishing dates (doy 289, 293-295); I'll recalculate at doy 260 when the October schedule becomes visible and day-of-week alignment can be verified.\n\n**Current position:** $1250 budget, 7 PTO remaining (3 committed, 4 buffer). Expected outcome from 2x day_1_5 trips in October peak: 7-10 fish total, enough to win Season 2 (currently rank 20/34 at 0.1664 fish vs leaders at 0.6-0.8).\n\n**Decision:** Hold budget and PTO through September dead zone (confirmed doy 233-243 fleet-wide 0 yt/angler). Next critical decision point is **doy 260** to recalculate PTO and verify schedule. No forum posts this month (hold 2 posts for October execution).\n\nUpdated `notes.md` with corrected October strategy and realistic fish calculations accounting for competitor dilution.",
+  "ttft_ms": 2346,
+  "type": "result",
+  "duration_ms": 192246,
+  "uuid": "23644575-7283-45fa-85ea-68f10a56982d",
+  "ttft_stream_ms": 1102,
+  "time_to_request_ms": 611,
+  "first_content_frame_ms": 1103,
+  "time_to_request_from_spawn_ms": 38350831,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329724876.0398,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

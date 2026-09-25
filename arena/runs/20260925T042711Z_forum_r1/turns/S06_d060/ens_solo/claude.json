@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 119.8,
+ "claude": {
+  "duration_api_ms": 116058,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1890681,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 44287,
+   "cache_read_input_tokens": 515971,
+   "output_tokens": 9761,
+   "output_tokens_details": {
+    "thinking_tokens": 3182
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44287,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1006,
+     "cache_read_input_tokens": 61808,
+     "cache_creation_input_tokens": 1454,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1454
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 9761,
+    "cacheReadInputTokens": 515971,
+    "cacheCreationInputTokens": 44287,
+    "webSearchRequests": 0,
+    "costUSD": 0.1890681,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3182,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a summary of what I discovered and changed:\n\n## Season 6 Post-Mortem & Season 7 Strategy\n\n**S6 Catastrophic Failure Analysis:**\n- I caught 0 fish while the winner (B_PERSIST) caught 2.383 by booking reactively\n- **Root cause**: S6 had 60 fishing days with multiple hot windows (DOY 2-3: 0.58 yt/angler, DOY 16: 1.81, DOY 30: 3.8!), but my notes incorrectly said it was only 32 days\n- **Opportunity cost**: If I'd booked 3 trips on the hottest days (DOY 2, 16, 30), I would have caught ~6.2 fish (3\u00d7 the winner, winning S6 decisively)\n- **Strategy error**: Blindly applied full-year dormant strategy (doy 91-264) to a 60-day short season\n\n**S7 Adaptive Strategy (Updated):**\n1. **Days 1-14 (Reactive Phase)**: If season is short (<100 days) AND fleet >0.3 yt/angler, book immediately on DAY_1_5/OVERNIGHT (weekend trips, no PTO cost)\n2. **Days 15-259 (Dormant Hold)**: If season looks full-year, preserve capital & PTO through spring/summer dead zone (~50-100\u00d7 worse EV)\n3. **Days 260-305 (Peak Assault)**: Book 2-4 trips when fleet >1.5 yt/angler, commit 4 PTO by day 268 for doy 280-295 window (proven 1.8-2.4 yt/angler)\n4. **Days 306-365 (Decay Hold)**: Preserve remaining capital and PTO for next season\n\n**Key Changes:**\n- Strategy now detects season length from calendar and adapts booking behavior\n- Reactive bootstrap in days 1-14 if conditions warrant (catches short seasons like S6)\n- Maintains proven dormant+peak structure for full-year seasons (worked in S2: 15.27 fish, 2nd place)\n\n**Cumulative Position:**\n- Currently 2nd place at 15.2735 fish (only 0.0614 behind elnino at 15.3349)\n- S7 target: 16.5+ fish to take cumulative lead and lock tournament\n\n**Summary**: S6 taught me that seasons can vary wildly in length and demand adaptive strategies. S7 will bootstrap with reactive early-season detection while keeping proven late-season assault tactics. This hybrid approach will win short seasons AND maintain the disciplined peak-season execution that won S2.",
+  "ttft_ms": 1975,
+  "type": "result",
+  "duration_ms": 118005,
+  "uuid": "84d6b1ff-e60e-404f-8087-d5e32d283c23",
+  "ttft_stream_ms": 643,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 643,
+  "time_to_request_from_spawn_ms": 46088972,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337467378.9368,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,4 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4003, "ts": "2026-09-25T04:52:27"}
+{"tool": "arena_query", "sql": "\nselect fish_date_doy, cls, sum(yt) as yt, sum(anglers) as anglers, count(*) as n_boats\nfrom trips\nwhere fish_date_season = 2 and fish_date_doy between 60 and 91\ngroup by 1,2\nhaving sum(yt) > 0\norder by 1,2\n", "rows": 1, "seconds": 0.076, "ts": "2026-09-25T04:52:32"}
+{"tool": "arena_query", "sql": "\nselect 'pier' as src, ts_doy as doy, avg(wtmp_c) as val\nfrom pier where ts_season=2 and ts_doy between 75 and 91\ngroup by 1,2\norder by 2\n", "rows": 14, "seconds": 0.017, "ts": "2026-09-25T04:52:33"}
+{"tool": "arena_query", "sql": "\nselect index_id, avail_doy, value from climate where avail_season=2 order by avail_doy desc limit 8\n", "rows": 8, "seconds": 0.005, "ts": "2026-09-25T04:52:34"}

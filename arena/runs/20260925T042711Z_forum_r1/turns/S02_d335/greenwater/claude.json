@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 156.1,
+ "claude": {
+  "duration_api_ms": 151846,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5220698,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 66510,
+   "cache_read_input_tokens": 557319,
+   "output_tokens": 14453,
+   "output_tokens_details": {
+    "thinking_tokens": 8630
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 66510,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 365,
+     "cache_read_input_tokens": 84578,
+     "cache_creation_input_tokens": 7373,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7373
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 14453,
+    "cacheReadInputTokens": 557319,
+    "cacheCreationInputTokens": 66510,
+    "webSearchRequests": 0,
+    "costUSD": 0.5220698,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 8630,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Nothing is bookable this turn (season cash-locked at $50, cheapest fare $80), so no actions to take beyond notes \u2014 S02 is done for us either way.\n\n**Summary:** Found that our own journal contradicts three seasons' worth of planning-turn notes claiming OVERNIGHT/DAY_1_5 were unreachable without `submit_strategy` \u2014 they were actually presented as bookable options at our ordinary nightly call all along, and a fresh query shows DAY_1_5 hit 1.6\u20134.3 yt/angler in the S2 autumn window (vs. THREE_QUARTER's ~1.0 peak), matching what this season's top 4 finishers actually rode to 12\u201315 fish while we scored 0.63 on THREE_QUARTER alone. Rewrote notes.md around this correction with a concrete S3 plan: hold budget through spring/summer, reserve ~$1650\u20132000 for 2\u20133 DAY_1_5 trips timed off an early trailing-rate ramp (not a fixed calendar window), and commit PTO date-by-date rather than in blocks.",
+  "ttft_ms": 1898,
+  "type": "result",
+  "duration_ms": 154338,
+  "uuid": "b2c4f982-e5f0-40b7-85e8-ca206356eb28",
+  "ttft_stream_ms": 635,
+  "time_to_request_ms": 95,
+  "first_content_frame_ms": 636,
+  "time_to_request_from_spawn_ms": 44698729,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336077227.2092,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

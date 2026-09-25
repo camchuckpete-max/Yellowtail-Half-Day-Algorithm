@@ -1,0 +1,120 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 181.6,
+ "claude": {
+  "duration_api_ms": 172897,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2925394,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 72742,
+   "cache_read_input_tokens": 746604,
+   "output_tokens": 14459,
+   "output_tokens_details": {
+    "thinking_tokens": 2546
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 72742,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 759,
+     "cache_read_input_tokens": 90770,
+     "cache_creation_input_tokens": 947,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 947
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 14459,
+    "cacheReadInputTokens": 746604,
+    "cacheCreationInputTokens": 72742,
+    "webSearchRequests": 0,
+    "costUSD": 0.2925394,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2546,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01RbSTwyEuSKDJsWQ8joybcu",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d365_end/thrifty/RULES.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01XcQ5CLLAEAFJCoPke1PUZ6",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d365_end/thrifty/persona.md"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done! I've completed Season 6 with:\n\n1. **Updated `notes.md`** with a comprehensive retrospective:\n   - **What worked:** Regime recognition (El Ni\u00f1o vs S2's calendar lock), two-day trigger discipline, weekend-first PTO optimization, rolling (not batch) PTO commitment, capital floor enforcement\n   - **What failed:** April conservative hold cost 4-5 fish; September over-deployment ($1900 vs planned $1700) left only $100 for October\n   - **Why rank 2 (not rank 1):** 3-4 fish gap from under-deployment in early peak and over-deployment mid-season; ens_solo's 23.97 vs my 20.38\n\n2. **Locked Season 7 Playbook** (rules for next season):\n   - Regime detection by d30 (ONI \u2265+0.3 = warm splits, \u2264-0.3 = cold splits)\n   - Capital allocation splits by regime (warm: 40% April-May, 60% Sept-Oct; cold: 10% April-June, 90% Oct)\n   - Capital floor enforcement ($200 min until d250, $100 min until d335)\n   - Two-day trigger thresholds by phase (>0.5 spring, >0.25 peak, >0.5 tail)\n   - Rolling PTO commitment (d70, d140, d210, d280 checkpoints only, never batch)\n   - Weekend-first booking (0 PTO cost preferred)\n\n3. **Forum post** sharing the key insight: ONI (regime) beats calendar; S2's October-only lock failed, S6's regime-adaptive approach succeeded.\n\n**Season 6 final score:** Rank 2/34 (20.3842 fish) vs ens_solo rank 1 (23.97 fish). Cumulative rank 5/34 (score 24.943).\n\nReady for Season 7 with regime-first discipline and capital-floor guardrails locked in.",
+  "ttft_ms": 2917,
+  "type": "result",
+  "duration_ms": 174990,
+  "uuid": "2d3a4ece-2ea1-4bb5-9c0a-958da4861750",
+  "ttft_stream_ms": 1066,
+  "time_to_request_ms": 462,
+  "first_content_frame_ms": 1067,
+  "time_to_request_from_spawn_ms": 62043860,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353417004.7507,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 142.6,
+ "claude": {
+  "duration_api_ms": 139368,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1936525,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 36805,
+   "cache_read_input_tokens": 624885,
+   "output_tokens": 11484,
+   "output_tokens_details": {
+    "thinking_tokens": 4839
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 36805,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 955,
+     "cache_read_input_tokens": 54927,
+     "cache_creation_input_tokens": 853,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 853
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 11484,
+    "cacheReadInputTokens": 624885,
+    "cacheCreationInputTokens": 36805,
+    "webSearchRequests": 0,
+    "costUSD": 0.1936525,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4839,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of what I've learned and what needs to happen next.\n\n**Session Summary for Day 213 Planning Turn**\n\n**What Changed:**\n1. Analyzed 31 days of recent data (d182-d213) and identified the root cause: **water temperature is the peak trigger, not calendar dates**. September surge (d205-d209) with 21.5\u00b0C water drove multi_day to 2.48 yt/angler\u2014I missed it with only $200 remaining after budget burn on failed early-season trips.\n2. Discovered next opportunity: water warming forecast d214-d221 (19.2\u00b0C\u219220.7\u00b0C) mirrors conditions that triggered strong three_quarter signals on d206-d207 (0.126-0.327 yt/angler).\n\n**Why This Matters:**\nMy \"October thesis\" (DOY 287-297 peak) was reasonable strategy but executed poorly: I held $1650 through a 35-day dead zone, burned $1100 on failed d140-d169 attempts to \"break the streak,\" and had only $200 when the real September surge happened. This dropped me from potential top-5 rank to 16th.\n\n**My Final Play:**\nBook **ONE three_quarter trip for d214 or d215** (Sat/Sun = 0 PTO cost, $150). Water warming + class signal potential at similar conditions to d206-d207. After that, hold $50 buffer or October fallback. This is my last tactical opportunity this season.\n\n**For Next Season (Critical Lessons):**\n- Abandon calendar-based predictions; track water temperature as real-time trigger (19\u00b0C+ sustained = peak imminent)\n- Never allocate entire budget to one window; reserve capital for volatility\n- React faster to signals; don't overthink boat variance\n\nUpdated notes.md with complete analysis. Posted forum alert confirming fleetwatch's water-temp thesis with supporting data and signaling my d214-d215 play.\n\n---\n**Next decision point:** 21:00 tonight (d213) when briefing appears with d214 offers. Book three_quarter if water temp confirmed and boats available. Season concludes d365.",
+  "ttft_ms": 2306,
+  "type": "result",
+  "duration_ms": 140920,
+  "uuid": "0a71e4d9-256b-44f1-8edc-88250305c2fe",
+  "ttft_stream_ms": 608,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 608,
+  "time_to_request_from_spawn_ms": 36454223,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327832768.1228,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

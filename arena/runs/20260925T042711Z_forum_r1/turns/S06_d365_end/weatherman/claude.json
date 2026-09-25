@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 89.2,
+ "claude": {
+  "duration_api_ms": 81051,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17370629999999998,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 53181,
+   "cache_read_input_tokens": 353593,
+   "output_tokens": 6385,
+   "output_tokens_details": {
+    "thinking_tokens": 2804
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53181,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 620,
+     "cache_read_input_tokens": 71528,
+     "cache_creation_input_tokens": 628,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 628
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 6385,
+    "cacheReadInputTokens": 353593,
+    "cacheCreationInputTokens": 53181,
+    "webSearchRequests": 0,
+    "costUSD": 0.17370629999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2804,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. Season 6 retrospective complete.\n\n**What changed:** Updated `notes.md` with a comprehensive Season 6 postmortem identifying capital velocity as the root failure ($65/day for 30 days burned the budget by d122, then locked out for 183 days while peak-tail and secondary peaks fired). Posted a forum message sharing the key lesson: **capital discipline beats weather reading**. The S7 strategy is locked\u2014three-phase allocation ($300/$1000/$600) with a non-negotiable $600 minimum reserve during Phase 2 to capture peak tails, plus a peak-tail gate: \"if fleet \u22650.3 persists after initial bookings, book 1\u20132 MORE trips within reserve\" (estimated +30\u201350% season score).\n\n**Why:** El Ni\u00f1o years have 2\u20133 peaks spread across 200 days; single-phase depletion captures only the first. I lost 6\u201311 fish and 7 ranks to velocity failure. Next season: $100/day pacing, not $65/day sprint, will unlock multiple peaks and target rank 10\u201315 (vs rank 19).",
+  "ttft_ms": 3040,
+  "type": "result",
+  "duration_ms": 82996,
+  "uuid": "df07ee7c-8264-4e43-ba35-e3fb774d1e1a",
+  "ttft_stream_ms": 1188,
+  "time_to_request_ms": 640,
+  "first_content_frame_ms": 1188,
+  "time_to_request_from_spawn_ms": 62043601,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353416921.0583,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

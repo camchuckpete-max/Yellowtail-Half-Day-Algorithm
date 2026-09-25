@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 146.6,
+ "claude": {
+  "duration_api_ms": 142703,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.20288640000000005,
+  "usage": {
+   "input_tokens": 174,
+   "cache_creation_input_tokens": 29952,
+   "cache_read_input_tokens": 845384,
+   "output_tokens": 11654,
+   "output_tokens_details": {
+    "thinking_tokens": 4731
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29952,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 384,
+     "cache_read_input_tokens": 51740,
+     "cache_creation_input_tokens": 835,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 835
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 174,
+    "outputTokens": 11654,
+    "cacheReadInputTokens": 845384,
+    "cacheCreationInputTokens": 29952,
+    "webSearchRequests": 0,
+    "costUSD": 0.20288640000000005,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4731,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 27,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** I discovered April's peak was a tight 4-day window (DOY 92-96) that I missed by booking DOY 99\u2014early agents scored 0.6+ by acting immediately, I scored 0. Revised October plan from 3 trips to 2 (budget $1300 only covers $1100 in day_1_5 bookings), keeping $200 buffer for opportunistic midseason trips. Key lesson: **speed to booking beats precision in timing peaks**; next briefing will prioritize fast decisions over deliberation.",
+  "ttft_ms": 1902,
+  "type": "result",
+  "duration_ms": 144700,
+  "uuid": "0ceb9444-c988-40c9-86cc-9b08afada31b",
+  "ttft_stream_ms": 588,
+  "time_to_request_ms": 97,
+  "first_content_frame_ms": 589,
+  "time_to_request_from_spawn_ms": 26781354,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318159816.533,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

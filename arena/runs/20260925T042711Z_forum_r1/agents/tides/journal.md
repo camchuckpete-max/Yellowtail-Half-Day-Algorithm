@@ -1,0 +1,303 @@
+- S02 d091: d091→d092: tide swing is only middling (5.4/0.3, ~5.1ft) and not tied to a new/full moon peak, plus my water-temp "trigger" crossing on d091 was a single noisy reading amid a broader cold anomaly that's run S2 ~1.5-2°C behind S1 all month. Fleet is still at essentially 0.000 yt/angler across HD_AM/H
+- S02 d092: D92→d093 (Sun, free day): temp crossed my bite threshold for the first time this season just as we enter the forum-flagged May peak window (DOY91-120) — testing it with a $150 three_quarter (San Diego) rather than a big overnight bet, since actual counts are still 0 everywhere. Holding all PTO; no w
+- S02 d093: d093→d094: Mon is a weekday with no PTO committed, so nothing's bookable anyway (twilight has no boats scheduled). Fleet counts are still flat 0 across every class through d093 despite the temp crossing — sticking to my rule of waiting for a *sustained* hold above ~15.5-16°C (like S1's doy78-100 run
+- S02 d094: d094→d095: Tue, no PTO committed so only twilight is free and no boats run twilight — nothing bookable. Tide swing tomorrow is modest (5.5/-0.1 ft, not a big spring-tide day) and counts are still flat across the fleet, so no urgency to burn PTO blind. Holding budget/PTO until I see a real tide table
+- S02 d095: d095→d096: Wed, no PTO committed so only twilight is free and no boats run twilight — nothing bookable regardless. Tide swing is decent (5.4/0.0 ft) but counts are still flat across the fleet (0.000-0.002 yt/angler last 30d) and no new 14-day-out tide/schedule data justifies a PTO commit yet. Holdin
+- S02 d096: d096→d097: Thu, no PTO committed so only twilight is free and none scheduled — nothing bookable. Conditions are ugly anyway (20kt wind/30kt gusts, 6ft seas), not a day I'd want to be out even if I could. Tide swing (5.2/0.2) is unremarkable, counts still flat fleet-wide — holding budget/PTO, waiting
+- S02 d097: d097→d098: Fri, only overnight(Jig Strike)/day_1.5(Voyager) bookable (fish Sat, no PTO) but both are brand-new boats (0 trips/14d) and coastal forecast is ugly (25kt/5ft seas) with only a modest 2.5ft tide swing — not the setup I want to gamble $400-550 on, especially with fleet counts still flat 0.
+- S02 d098: d098→d099: Sat, no PTO needed. Re-upping on San Diego (three_quarter) since it's the lone boat showing signs of life (7yt last trip) amid an otherwise flat fleet; moderate tide swing (5.0/0.6) and calm seas support giving it another shot rather than gambling on overnight boats still reading 0.000.
+- S02 d099: d099→d100: Sun, no PTO needed. Re-upping San Diego three_quarter again — it's the only boat in the fleet actually producing (3yt/15anglers last time), and conditions (calm seas, modest tide swing) don't argue for switching. Holding all PTO/budget for a real signal before touching overnight/day_1.5.
+- S02 d100: d100→d101: Mon, no PTO committed so only twilight is free and none scheduled — nothing bookable. Tide swing tomorrow is modest (4.5/0.4 ft), San Diego's three_quarter run has been my only signal but it's not on offer today; holding budget/PTO for the next weekend slot or a real tide/temp confirmatio
+- S02 d101: d101→d102: Tue, no PTO committed so only twilight is free and none scheduled — nothing bookable. Tide swing modest (4.6/0.1 ft), fleet still flat except San Diego's three_quarter which isn't offered today. Holding budget/PTO for the weekend slot.
+- S02 d102: d102→d103: Wed, no PTO committed so only twilight is free and none scheduled — nothing bookable. Modest tide swing (4.8/-0.1) plus rough forecast (20kt/4-5ft seas) means no urgency anyway. Holding budget/PTO for the next San Diego three_quarter weekend slot, still the only boat showing life.</note> 
+- S02 d103: d103→d104: Thu, no PTO committed so only twilight is free and none scheduled — nothing bookable. Tide swing modest (5.4/-0.1), wind/swell up a notch (15kt/3.5ft), fleet still flat (last 30d HD_AM/PM/3Q all near-zero). Holding budget/PTO for the weekend San Diego three_quarter slot, still my only rea
+- S02 d104: d104→d105: Fri, no PTO committed so only twilight/overnight/day_1.5 free — twilight has nothing scheduled, and the only day_1.5 options are Aztec (zero history) and Voyager (already read 0.000 last trip d099). Tide swing is decent (6.0/-0.1) but I'm not gambling $550 on unproven boats; holding for S
+- S02 d105: d105→d106: Sat, no PTO needed. Re-upping San Diego three_quarter — still the lone producer in an otherwise flat fleet, and tomorrow's 6.4/-0.4 tide swing is the strongest spread in recent memory. Holding PTO/budget off overnight/day_1.5 until a boat other than San Diego shows life.
+- S02 d106: d106→d107: Sun, no PTO needed. Re-upping San Diego three_quarter — best tide swing of the season (7.7ft) lines up with the boat that just posted 23yt, no reason to switch off the only proven producer.
+- S02 d107: d107→d108: Mon, no PTO committed so only twilight is free and none scheduled — nothing bookable. Tide swing modest (6.8/-1.3), San Diego's three_quarter (my only producer, 23yt/45 last week then 0/62) isn't offered today anyway. Holding budget/PTO for the next weekend San Diego slot.</note> 
+- S02 d108: d108→d109: Mon, no PTO committed so only twilight is free and none scheduled — nothing bookable. Tide swing decent (6.7/-1.4) but moot without a boat; San Diego's three_quarter isn't offered today. Holding budget/PTO for the next weekend San Diego slot.
+- S02 d109: Wed, no PTO committed so only twilight is free and none scheduled — nothing bookable. Modest tide (6.3/-1.2), clean conditions (10kt/3ft), but San Diego's three_quarter isn't offered today anyway. Holding budget/PTO for the next weekend San Diego slot.
+- S02 d110: d110→d111: Thu, no PTO committed so only twilight is free and none scheduled — nothing bookable. Modest tide swing (4.5ft), rough forecast (20kt gusts/3ft@14s), fleet still flat (HD_AM/PM near zero last 30d). Holding budget/PTO for the next San Diego three_quarter weekend slot, still the only boat s
+- S02 d111: d111→d112: Fri, no PTO committed so only twilight/overnight/day_1.5 free — twilight has nothing scheduled, Mustang overnight still shows 0.000 yt/angler over its last trips, and Pacific Voyager day_1.5 has zero trip history. Tide swing modest (5.7/-0.4), not enough to gamble $400-550 on unproven boa
+- S02 d112: d112→d113: Sat, no PTO needed. Re-upping San Diego three_quarter — still the only boat showing life in a flat fleet; tide swing modest this time (5.1/0.0) but not switching off the proven producer.
+- S02 d113: d113→d114: Sun, no PTO needed. Re-upping San Diego three_quarter — tide swing modest this time (4.3ft) but it's still the only boat showing any life in an otherwise dead fleet.
+- S02 d114: d115: Mon, no PTO committed so only twilight free and none scheduled — nothing bookable. Modest tide (3.7ft), holding budget/PTO for next weekend's San Diego three_quarter, still the only boat showing any life.
+- S02 d115: d115→d116: Mon, no PTO committed so only twilight is free and none is scheduled — nothing bookable. Modest tide (4.4/0.6), San Diego's three_quarter not offered today anyway. Holding budget/PTO for next weekend's San Diego slot, still the only boat showing any life in a flat fleet.</note> </invoke> 
+- S02 d116: Wed, no PTO committed so only twilight free and none scheduled — nothing bookable. Modest tide (4.0ft), holding budget/PTO for next weekend's San Diego three_quarter, still the only boat showing any life.
+- S02 d117: d117→d118: Thu, no PTO committed so only twilight free and none scheduled — nothing bookable. Modest tide (5.0/0.8), rough-ish forecast (15-20kt/4.5-5ft). Holding budget/PTO for next weekend's San Diego three_quarter, still the only boat showing any life in a flat fleet.
+- S02 d118: d118→d119: Fri, no PTO committed so only twilight/overnight/day_1.5 free — twilight has nothing scheduled, overnight boats (Mustang 0.019, Pride 0.000) and day_1.5 (Aztec/Voyager 0.000) show no bite signal. Modest tide swing (4.5ft). Holding budget/PTO for next San Diego three_quarter weekend slot, 
+- S02 d119: d119→d120: Sat, no PTO needed. Re-upping San Diego three_quarter — still the fleet's only consistent yellowtail producer, tide swing 5.3ft (5.6 high/0.3 low) is decent. Holding PTO/budget otherwise, nothing else in the 14-day window shows a signal worth committing weekday PTO for yet.
+- S02 d120: d120→d121: Sun, no PTO needed. Re-upping San Diego three_quarter — best tide swing in a while (5.8ft) and still the only boat with any real yellowtail track record. Holding budget/PTO otherwise; nothing in the 14-day weekday window shows a signal worth committing PTO for yet.
+- S02 d121: d121→d122: Mon, no PTO committed so only twilight free and none scheduled — nothing bookable. San Diego isn't even in tomorrow's three_quarter lineup (just Malihini, weak). Fleet bloom confirmed dead in counts; holding budget/PTO.</note> </invoke> 
+- S02 d122: d122→d123: Tue, no PTO committed so only twilight free and none scheduled — nothing bookable. Fleet three_quarter/San Diego still dead (0 for last 6 of my trips), modest tide (6.4ft). Holding budget/PTO until the bite actually shows up again.</note> 
+- S02 d124: d124→d125: Wed, no PTO committed so only twilight free and none scheduled — nothing bookable. Decent tide swing (6.3ft) but San Diego absent from three_quarter lineup and fleet still flat. Holding budget/PTO.
+- S02 d125: d125→d126: Fri, no PTO committed so weekday classes locked; only overnight (Mustang 0.012, Voyager 0.000) and day_1.5 (Dominator 0.000) bookable, both cold. Tide 5.9ft is fine but not enough alone per my own weak-tiebreaker finding, and San Diego isn't scheduled anyway. Holding budget/PTO.</note> </
+- S02 d126: d126→d127: Sat, no PTO needed. Skipping cold San Diego (0 for last 6 three_quarter trips) and taking a flyer on El Gato Dos instead — it just posted 1yt/0.500 share on d126, the only fresh positive signal in a fleet that's been flat for weeks. Modest tide swing (3.5ft) so not counting on tides here,
+- S02 d127: d127→d128: Sun, no PTO needed. San Diego just posted 1yt on d127 and is back in tomorrow's three_quarter lineup — taking the fresh signal over Malihini (still 0). Tide swing modest (5.3ft), not the driver here. Holding PTO/budget otherwise.</note> 
+- S02 d128: d128→d129: Mon, no PTO committed so only twilight is free and none scheduled — nothing bookable. Rough weather forecast (25kt wind/5ft seas) reinforces sitting out. Holding budget/PTO.</note> 
+- S02 d129: d129→d130: Tue, no PTO committed so only twilight free and none scheduled — nothing bookable. Tide swing modest (4.2ft), fleet still flat. Holding budget/PTO.</note>
+- S02 d130: d130→d131: Wed, no PTO committed so only twilight free and none scheduled — nothing bookable. Modest 4.2ft tide swing, San Diego not in lineup, fleet still flat. Holding budget/PTO.</note>
+- S02 d131: d131→d132: Thu, no PTO committed so only twilight free and none scheduled — nothing bookable. Modest 4.8ft tide swing, fleet still flat, San Diego typical only 0.039 in lineup. Holding budget/PTO.</note>
+- S02 d140: d140→d141: Sat, no PTO needed. Fleet still flat everywhere, three_quarter pooled 0.000 last 7 days; my last two fresh-signal chases (El Gato Dos, San Diego) both busted. Tide swing only 4.3ft, weak per my own tiebreaker rule. Holding budget/PTO for a real signal.</note> 
+- S02 d142: d142→d143: Mon, no PTO committed so only twilight free and none scheduled — nothing bookable. Fleet still flat, San Diego absent from three_quarter lineup, modest 4.2ft tide. Holding budget/PTO.</note>
+- S02 d144: d144→d145: Tue, no PTO committed so only twilight free and none scheduled — nothing bookable. San Diego heating up (3.583 pooled 7d) but needs PTO I haven't banked; tide swing only 3.5ft, weak. Holding budget/PTO, watching for a real signal to commit PTO ahead of.
+- S02 d145: d145->d146: Thu, no PTO for tomorrow so only twilight free and none scheduled - nothing bookable. Tide swing weak (3.5ft). San Diego THREE_QUARTER is hot (15yt d145, 0.521 typical) so banking a PTO day for Wed d159 to not miss it again.
+- S02 d146: d146→d147: Fri, no PTO for d147 so only twilight is free and none scheduled — nothing bookable regardless. Tide swing weak (3.9ft) and forecast rough (18-20kt wind, 7ft seas) anyway. Holding for d159 San Diego chase.</note> </invoke> 
+- S02 d147: d147→d148: Sat, no PTO needed. San Diego THREE_QUARTER hot (17yt d147, 0.455 typical) — booking it. Tide swing only 4.7ft, not the driver here, just riding the live counts. Holding rest of budget/PTO for d159.</note>
+- S02 d148: d148→d149: Sun, no PTO needed but THREE_QUARTER (San Diego) not scheduled tomorrow — only dead HD_AM/HD_PM available, and forecast is ugly (25kt wind/35kt gusts/10ft seas). Sitting out, holding budget/PTO for d159.</note> </invoke> 
+- S02 d149: d149→d150: Holiday, no PTO needed anywhere. San Diego still top three_quarter typical (0.502) despite d148 zero — taking the free shot, leaving $50 buffer. Holding PTO for d159.</note>
+- S02 d150: d151: Tue, budget down to $50 so even twilight is unaffordable, and everything else needs PTO not committed for d151. Nothing bookable regardless of the decent 6.6ft tide swing. Holding for d159 San Diego chase.
+- S02 d151: d151→d152: Wed, budget only $50 so even twilight is unaffordable, and every other class needs PTO I haven't committed for d152. Nothing bookable regardless of the 6.3/-0.7ft tide swing. Holding for d159 San Diego chase.</note> 
+- S02 d152: d152->d153: Thu, budget $50 locks out every class including twilight ($80 min). Decent 7.1ft tide swing wasted on an empty wallet. Nothing to do but sit and watch, holding d159 PTO for whatever's left.
+- S02 d153: d153->d154: Fri, budget still $50, locked out of even twilight ($80). Nothing bookable, and no point committing more PTO since budget never recovers this season — d159 commit is already sunk. Just watching the tide/moon data pile up for Season 3 process notes.
+- S02 d154: d154→d155: still $50, still locked out of even twilight ($80 floor). Nothing bookable, nothing to commit PTO toward. Watching tide/moon data accumulate for Season 3 process, d159 commit already sunk.
+- S02 d155: d155→d156: still budget-locked at $50, every class ≥$80. Nothing bookable, nothing new to commit PTO for. Watching tide data pile up for Season 3, d159 commit already sunk.</note> 
+- S02 d156: d156→d157: Mon, still $50-locked, can't clear even the $80 twilight floor. Nothing bookable, nothing to commit PTO toward — d159 already sunk. Same holding pattern, just banking tide/moon data for Season 3.
+- S02 d157: d157→d158: Tue, still $50-locked below every class floor ($80 min). Nothing bookable, nothing to commit PTO for — d159 sunk already. Same holding pattern, banking tide/moon data for Season 3.
+- S02 d158: d158→d159: Wed, still $50-locked below every class floor. Nothing bookable, d159 PTO already sunk. Holding pattern continues, banking data for Season 3.
+- S02 d159: d159→d160: Thu, still $50-locked below every class floor ($80 min), PTO for d160 not committed anyway so moot. Tide 5.2/0.8ft swing wasted on empty wallet. Season 3 note: budget floor discipline earlier would've kept powder for windows like this.
+- S02 d160: d160→d161: Fri, still $50-locked below every class floor ($80 min). Nothing bookable, nothing to commit PTO toward. Tide 5.8/1.2ft swing wasted again on empty wallet. Season 3: enforce the $300-400 budget floor so windows like this aren't wasted.
+- S02 d161: d161→d162: Fri, still $50-locked below every class floor ($80 min). Nothing bookable, nothing to commit PTO toward. 6.3/0.6ft swing wasted on empty wallet again. Season 3: enforce $300-400 budget floor.
+- S02 d162: d162→d163: Sun, still $50-locked below every $80 floor. Decent 6.7/-0.2ft tide swing wasted on empty wallet again. Season 3: enforce $300-400 budget floor so these swings aren't wasted.
+- S02 d163: d163→d164: Mon, still $50-locked below every $80 floor. Decent 7.8ft tide swing (7.0 high/-0.8 low) wasted on empty wallet again — would've liked a PM boat off that flood but budget says no. Season 3: enforce $300-400 floor.
+- S02 d164: d164→d165: still $50-locked below the $80 floor on every class. Decent 8.3ft swing (7.1 high/-1.2 low) wasted again on empty wallet — would've liked HD_PM off that flood. Season 3: enforce $300-400 budget floor so these tide windows aren't wasted.
+- S02 d165: d165→d166: Wed, still $50-locked below the $80 floor. Good 8.4ft tide swing (7.0 high/-1.4 low) wasted again on empty wallet — would've liked HD_PM off that flood. Season 3: enforce $300-400 budget floor.
+- S02 d166: d166→d167: Thu, still $50-locked below every $80 floor. Solid 8.2ft swing (6.8 high/-1.4 low) wasted again — would've liked HD_PM off that flood. Season 3: enforce $300-400 budget floor, no more flat re-ups.
+- S02 d167: d167->d168: Fri, still $50-locked below every $80 floor. Decent 7.6ft swing wasted again; THREE_QUARTER (Malihini/Mission Belle) clearly the live board but can't touch it. Season 3: hard $300-400 floor, no more flat re-ups on one boat.
+- S02 d168: d168->d169: Fri, still $50-locked below the $80 floor on everything. Decent 6.7ft swing (5.9 high/-0.8 low) wasted again; THREE_QUARTER (Malihini/San Diego) still the live board but untouchable. Season 3: hard $300-400 floor, stop flat re-ups.
+- S02 d169: d169→d170: Sat, still $50-locked below the $80 floor. Modest 4.7ft swing (4.3 high/-0.4 low), weaker than recent tides anyway, so nothing lost. Nothing carries to S3; process fix is the only thing that matters now.
+- S02 d170: d170->d171: Sun, still $50-locked below the $80 floor everywhere. Tide swing (5.2ft) modest anyway. Nothing to do but wait for a budget reset; won't commit more PTO into a locked wallet.
+- S02 d171: d171->d172: Mon, still $50-locked below the $80 floor everywhere. Tide swing only 4.0ft (4.6 high/0.6 low) - nothing special even if I had cash. Season 3: hard $300-400 budget floor from day one.
+- S02 d172: d172→d173: Wed, still $50-locked, every class floors at $80+. Modest 3.4ft tide swing anyway, nothing lost. Holding cash/PTO for Season 3 reset — no more flat re-ups without a floor.
+- S02 d173: d173->d174: Thu, still $50-locked below every $80 floor, PTO also uncommitted for d174 so weekday classes doubly dead. Weak 3.1ft swing anyway - not a loss. Season 3: hard $300-400 budget floor from day one, no flat re-ups past two zero-share bets on one boat.
+- S02 d174: d174→d175: Fri, still $50-locked below every $80 floor. THREE_QUARTER is clearly the live board (0.013-0.509 yt/angler this week) but untouchable. Holding for Season 3 budget floor discipline.
+- S02 d175: d175->d176: Sat, still $50-locked below every $80 floor. Modest 3.9ft swing (5.3 high/1.4 low) anyway, nothing lost. THREE_QUARTER still the live board fleet-wide but untouchable until budget resets.
+- S02 d176: d176->d177: Sun, still $50-locked below every $80 floor. 4.7ft swing (5.6 high/0.9 low) is fine but moot - budget is the binding constraint, not tides. Holding for a real reset.
+- S02 d177: d177->d178: Mon, still $50-locked below every $80 floor. Solid 5.5ft swing (5.9 high/0.4 low) is wasted - budget not tides is the binding constraint. Holding cash/PTO, no new commits into a locked wallet.
+- S02 d178: d178->d179: Tue, still $50-locked below every $80 floor. Strong 6.3ft swing (6.2 high/-0.1 low) wasted - budget not tides is the binding constraint. Holding cash/PTO for a real reset.</note> </invoke> 
+- S02 d179: d179->d180: Wed, still $50-locked below every $80 floor, PTO uncommitted for d180 too. Strong 7.0ft swing wasted - budget not tides is the binding constraint. Holding for Season 3 reset.
+- S02 d180: d180->d181: Thu, $50 still below every $80 floor. Big 7.4ft swing (6.7 high/-0.7 low) wasted again - budget is the hard constraint, not tides. Holding.
+- S02 d181: d181->d182: Fri, still $50-locked below every $80 floor. Big 7.6ft swing (6.7 high/-0.9 low) wasted again - budget is the hard constraint, not tides. No income mechanism visible so holding PTO too rather than risk another sunk d159-style commit.
+- S02 d182: d182->d183: Sat, still $50-locked below every $80 floor. Big 7.6ft swing (6.6 high/-1.0 low) wasted again - budget is the hard constraint, not tides. Holding cash/PTO for Season 3, nothing left to optimize here.
+- S02 d183: d183->d184: Sun, still $50-locked below every $80 floor. Decent 7.2ft swing (6.3 high/-0.9 low) wasted - budget not tides is the binding constraint. Holding cash/PTO to season end, nothing left to optimize.
+- S02 d184: d184->d185: Mon holiday, but still $50-locked below every $80 floor. 6.4ft swing wasted again - budget not tides is the binding constraint. Holding to season end.
+- S02 d185: d185->d186: Tue, still $50-locked below every $80 floor. Moderate 5.0ft swing wasted - budget not tides is the binding constraint. Holding to season end, nothing left to optimize.
+- S02 d186: d186->d187: Wed, still $50-locked below the $80 TWILIGHT floor. Modest 4.8ft swing wasted - budget not tides is the binding constraint. Holding cash/PTO to season end, nothing left to optimize.
+- S02 d187: d187->d188: Wed, still $50-locked below the $80 floor across all classes including TWILIGHT. Budget not tides is the binding constraint. Holding to season end.
+- S02 d188: d188->d189: Fri, still $50-locked below every $80 floor including TWILIGHT. Modest 4.5ft swing wasted - budget not tides is the binding constraint. Holding cash/PTO to season end.
+- S02 d189: d189->d190: Sat, still $50-locked below every $80 floor. Moderate 4.1ft swing wasted - budget not tides is the binding constraint. Holding to season end.
+- S02 d190: d190->d191: Sun, still $50-locked below every $80 floor. Good 5.9ft swing (6.3 high/0.4 low) wasted again - budget not tides is the binding constraint, and fleet catches are flat anyway. Holding cash/PTO to season end.
+- S02 d191: d191->d192: Mon, still $50-locked below every $80 floor. Solid 6.8ft swing wasted again - budget not tides is the binding constraint. Holding to season end.
+- S02 d192: d192->d193: Tue, still $50-locked below every $80 floor. Strong 7.5ft swing (6.8 high/-0.7 low) wasted again - budget not tides is the binding constraint. Holding to season end.
+- S02 d193: d193->d194: Wed, still $50-locked below every $80 floor. Strong 7.9ft swing (6.9 high/-1.0 low) wasted again - budget not tides is the binding constraint. Holding to season end.
+- S02 d194: d194->d195: Wed, still $50-locked below every $80 floor. Decent 8.0ft swing (6.9 high/-1.1 low) wasted again - budget not tides is the binding constraint. Holding to season end.
+- S02 d195: d195->d196: Thu, still $50-locked below every $80 floor. Strong 7.7ft swing plus New Lo-An's monster 24yt overnight day both unreachable - budget not tides is the binding constraint. Holding to season end.
+- S02 d196: Sat d196->d197: still $50-locked below every $80 floor. Decent 7.1ft swing (6.3 high/-0.8 low) wasted again, but budget not tides is the binding constraint. Holding to season end.
+- S02 d197: Sun d197->d198: still $50-locked below every $80 floor. 6.4ft swing wasted again - budget, not tides, is the binding constraint. Holding to season end.
+- S02 d198: d198->d199: Mon, still $50-locked below every $80 floor. Decent 5.4ft swing wasted again - budget not tides is the binding constraint. Holding to season end.
+- S02 d199: d199->d200: Tue, still $50-locked below every $80 floor, even twilight. Modest 4.3ft swing, nothing special tide-wise either. Holding to season end.
+- S02 d200: d200->d201: Tue, still $50-locked below every $80 floor. Modest 3.8ft swing, nothing worth chasing even if cash allowed. Holding to season end.
+- S02 d201: d201->d202: Wed, still $50-locked below every $80 floor. Modest 3.2ft swing tomorrow, nothing to chase even with cash. Holding to season end.
+- S02 d202: Fri d203: still $50-locked below every $80 floor. Modest 2.8ft swing, HD classes all flat 0.000 anyway. Holding to season end.
+- S02 d203: Fri d203->d204: still $50-locked below every $80 floor. Mild 2.5ft swing tomorrow, nothing tide-wise worth chasing even with cash. Holding to season end.
+- S02 d204: Sun d204->d205: still $50-locked below every $80 floor. Modest 3.5ft swing, San Diego still the only live producer but $150 is untouchable. Holding to season end.
+- S02 d205: d205->d206: Mon, still $50-locked below every $80 floor. Solid 4.4ft swing tomorrow but budget, not tides, remains the wall. Holding to season end.
+- S02 d206: Mon d206->d207: still $50-locked below every $80 floor, even twilight. Decent 5.4ft swing wasted again on cash constraint. Holding to season end.
+- S02 d207: d207->d208: Wed, $50-locked below every $80 floor, even twilight. Strong 6.3ft swing wasted again on cash constraint. Holding to season end.
+- S02 d208: d208->d209: Wed, $50-locked below every $80 floor, even twilight. Big 7.0ft swing and San Diego's THREE_QUARTER pool running hot (0.29-0.45) — exactly the setup I'd chase if cash allowed. Holding to season end.
+- S02 d209: Thu d209->d210: still $50-locked below every $80 floor. Good 7.6ft swing and San Diego THREE_QUARTER still hot, wasted on cash. Holding to season end.
+- S02 d210: Sat d210->d211: still $50-locked below every $80 floor. Big ~7.8ft swing wasted again on cash, not tides. Holding to season end.
+- S02 d211: d211->d212: Sun, still $50-locked below every $80 floor. Big 7.7ft swing wasted again on cash, not tides. Holding to season end.
+- S02 d212: Mon d212->d213: still $50-locked below every $80 floor. Decent 7.0ft swing wasted again on cash, not tides. Holding to season end.
+- S02 d213: Tue d213->d214: still $50-locked below every $80 floor, even twilight. Modest 6.0ft swing wasted on cash, not tides. Holding to season end.
+- S02 d214: Wed d214->d215: still $50-locked below every $80 floor, even twilight. Modest 5.4ft swing wasted again on cash, not tides. Holding to season end.
+- S02 d215: Wed d215->d216: still $50-locked below every $80 floor, even twilight. Modest 4.9ft swing wasted again on cash, not tides. Holding to season end.
+- S02 d216: Thu d216->d217: still $50-locked below every $80 floor. Modest tide swing, nothing to chase on empty wallet. Holding to season end.
+- S02 d217: Sat d217->d218: still $50-locked below every $80 floor. Decent 4.9ft swing and DAY_1_5 boats (Endeavor 0.531) looking hot, wasted on cash. Holding to season end.
+- S02 d218: Sat d218->d219: still $50-locked below every $80 floor. Modest 3.3ft swing wasted again on cash, not tides. Holding to season end.
+- S02 d219: d219->d220: still $50-locked below every $80 floor, even twilight. 5.8ft swing and DAY_1_5 (Pacific Queen 1.277) hot but unreachable. Holding to season end.
+- S02 d220: Mon d220->d221: still $50-locked below every $80 floor, even twilight. Solid 6.5ft swing and hot DAY_1_5 boats (Pride 0.900) wasted on cash. Holding to season end.
+- S02 d221: Tue d221->d222: still $50-locked below every $80 floor. 6.9ft swing wasted on cash, not tides. Holding to season end.
+- S02 d222: Wed d222->d223: still $50-locked below every $80 floor. Decent 7.2ft swing, San Diego/Mission Belle posting real yt again, wasted on cash. Holding to season end.
+- S02 d223: Fri d224: still $50-locked below every $80 floor, even twilight. Solid ~7.2ft swing and hot DAY_1_5 boats (Relentless 1.000, Ranger 85 0.727) wasted on cash. Holding to season end.
+- S02 d224: Sat d224->d225: still $50-locked below every $80 floor. Modest 6.8ft swing wasted on cash, not tides. Holding to season end.
+- S02 d225: Sun d225->d226: still $50-locked below every $80 floor. Solid 6.2ft swing and hot DAY_1_5 (Voyager 0.581) wasted on cash. Holding to season end.
+- S02 d226: d226->d227: still $50-locked below every $80 floor, even twilight. Solid 5.5ft swing wasted on cash, not tides. Holding to season end.
+- S02 d227: Mon d227->d228: still $50-locked below every $80 floor. Modest 4.7ft swing, DAY_1_5 (Endeavor 0.938) hot but unreachable. Holding to season end.
+- S02 d228: d228->d229: still $50-locked below every $80 floor. Modest 4.2ft swing, nothing bookable regardless. Holding to season end.
+- S02 d229: d229->d230: still $50-locked below every $80 floor, even twilight. Modest 3.7ft swing, nothing bookable. Holding to season end.
+- S02 d230: d230->d231: still $50-locked below every $80 floor. Modest 3.1ft swing, nothing bookable regardless. Holding to season end.
+- S02 d231: Sat d231->d232: still $50-locked below every $80 floor. Modest 3.0ft swing, nothing bookable regardless. Holding to season end.
+- S02 d232: d232->d233: still $50-locked below every $80 floor. Modest 3.1ft swing, nothing bookable regardless. Holding to season end.
+- S02 d233: d233->d234: still $50-locked below every $80 floor. Modest tide (4.9ft high only), DAY_1_5 (Condor 0.968) hot again but triple-unreachable. Holding to season end.
+- S02 d234: d234->d235: $50 now below even twilight's $80 floor. Modest 4.1ft swing, nothing bookable regardless. Holding to season end.
+- S02 d235: d235->d236: still $50-locked below every $80 floor. Decent 5.0ft swing, DAY_1_5 (Voyager 0.457, Prowler 0.360) hot but unreachable. Holding to season end.
+- S02 d236: d236->d237: still $50-locked below every $80 floor. Solid 6.0ft swing, DAY_1_5 (Pride 0.615, Condor 0.463) tempting but unreachable. Holding to season end.
+- S02 d237: d237->d238: still $50-locked below every $80 floor. 6.8ft swing, nothing bookable regardless. Holding to season end.
+- S02 d238: d238->d239: still $50-locked below every $80 floor. 7.3ft swing (6.8 high/-0.5 low), DAY_1_5 (Dolphin III 0.582) hot but unreachable. Holding to season end.
+- S02 d239: d239->d240: still $50-locked below every $80 floor. Strong 7.4ft swing (6.8 high/-0.6 low), DAY_1_5 unreachable as always. Holding to season end.
+- S02 d240: d240->d241: still $50-locked below every $80 floor. Decent 7.0ft swing (6.5 high/-0.5 low) would've been a nice PM flood tide, but budget makes it moot. Holding to season end.
+- S02 d241: d241->d242: still $50-locked below every $80 floor. 6.3ft swing (6.1 high/-0.2 low), nothing bookable regardless. Holding to season end.
+- S02 d242: d242->d243: still $50-locked below every $80 floor. 6.0ft swing (6.3 high/0.3 low), nothing bookable regardless. Holding to season end.
+- S02 d243: d243->d244: still $50-locked below every $80 floor. 5.8ft swing (6.3 high/0.5 low), would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d244: d244->d245: still $50-locked below every $80 floor. Nothing bookable, PTO untouched, holding to season end.
+- S02 d245: d245->d246: still $50-locked below every $80 floor. 5.1ft swing (5.9 high/0.8 low) would've favored a PM/3Q flood boat (Mission Belle 0.117) but budget makes it moot. Holding to season end.
+- S02 d246: d246->d247: still $50-locked below every $80 floor. 4.9ft swing (5.6 high/0.7 low), unremarkable anyway. Holding to season end.
+- S02 d247: d247->d248: still $50-locked below every $80 floor. Modest 2.5ft swing (5.6 high/3.1 low), holiday anyway so PTO moot. Holding to season end.
+- S02 d248: d248->d249: still $50-locked below every $80 floor. 5.3ft swing (5.7 high/0.4 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d249: d249->d250: still $50-locked below every $80 floor. 5.8ft swing (5.9 high/0.1 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d250: d250->d251: still $50-locked below every $80 floor. 6.1ft swing (6.1 high/-0.0 low) would've been a nice PM flood tide but budget makes it moot. Holding to season end.
+- S02 d251: d251->d252: still $50-locked below every $80 floor. 6.1ft swing (6.1 high/-0.0 low) would've been a strong PM/flood-tide day but budget makes it moot. Holding to season end.
+- S02 d252: d252->d253: still $50-locked below every $80 floor. 5.9ft swing (6.0 high/0.1 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d253: d253->d254: still $50-locked below every $80 floor. 5.5ft swing (5.8 high/0.3 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d254: d254->d255: still $50-locked below every $80 floor. 5.1ft swing (5.6 high/0.5 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d255: d255->d256: still $50-locked below every $80 floor. 4.9ft swing (5.7 high/0.8 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d256: d256->d257: still $50-locked below every $80 floor. 4.8ft swing (5.7 high/0.9 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d257: d257->d258: still $50-locked below every $80 floor. 4.6ft swing (5.6 high/1.0 low) mild, would've leaned PM flood but budget makes it moot. Holding to season end.
+- S02 d258: d258->d259: still $50-locked below every $80 floor. 4.3ft swing (5.5 high/1.2 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d259: d259->d260: still $50-locked below every $80 floor. 3.9ft swing (5.3 high/1.4 low) mild, Saturday so no PTO needed anyway but cash is the binding constraint. Holding to season end.
+- S02 d260: d260->d261: still $50-locked below every $80 floor. 3.5ft swing (5.1 high/1.6 low) mild, weekend anyway. Holding to season end.
+- S02 d261: d261->d262: still $50-locked below every $80 floor. 3.4ft swing (4.9 high/1.5 low) mild, would've leaned PM flood but budget makes it moot. Holding to season end.
+- S02 d262: d262->d263: still $50-locked below every $80 floor. 3.7ft swing (4.8 high/1.1 low) mild, would've leaned PM flood but budget makes it moot. Holding to season end.
+- S02 d263: d263->d264: still $50-locked below every $80 floor. Mild 1.7ft swing (5.0 high/3.3 low), San Diego 3Q popped 14yt/last trip but moot without cash. Holding to season end.
+- S02 d264: d264->d265: still $50-locked below every $80 floor. 4.7ft swing (5.4 high/0.7 low) would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d265: d265->d266: still $50-locked below every $80 floor. 5.4ft swing (5.8 high/0.4 low) strong, would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d266: d266->d267: still $50-locked below every $80 floor. 6.0ft swing (6.1 high/0.1 low) strong, would've favored PM flood boat but budget makes it moot. San Diego 3Q still the class leader on paper. Holding to season end.
+- S02 d267: d267->d268: still $50-locked below every $80 floor. 6.3ft swing solid but moot without cash. Holding to season end.
+- S02 d268: d268->d269: still $50-locked below every $80 floor. 6.2ft swing (6.2 high/0.0 low) strong, would've favored a PM flood boat but budget makes it moot. Holding to season end.
+- S02 d269: d269->d270: still $50-locked below every $80 floor. Tides show a solid 7.0ft swing (6.7 high/-0.3 low), would've liked a PM flood boat, but budget makes it moot. Holding to season end.
+- S02 d270: d270->d271: still $50-locked below every $80 floor. 7.4ft swing (6.9 high/-0.5 low) strong, San Diego 3Q popped 19yt last trip, but budget makes it moot. Holding to season end.
+- S02 d271: d271->d272: still $50-locked below every $80 floor. 7.5ft swing (7.0 high/-0.5 low) strong, DAY_1_5 fleet hot (Condor 1.806 yt/angler, 56yt last trip) but moot without cash. Holding to season end.
+- S02 d272: d272->d273: still $50-locked below every $80 floor. 7.0ft swing (6.8 high/-0.2 low) solid, would favor a PM flood boat, but budget makes it moot. Holding to season end.
+- S02 d273: d273->d274: still $50-locked below every $80 floor. 6.3ft swing (6.4 high/0.1 low) solid, would favor a PM flood boat, but budget makes it moot. Holding to season end.
+- S02 d274: d274->d275: still $50-locked below every $80 floor. 5.5ft swing (5.9 high/0.4 low) decent but moot without cash. Holding to season end.
+- S02 d275: d275->d276: still $50-locked below every $80 floor. 4.8ft swing (5.4 high/0.6 low) unremarkable anyway. DAY_1_5/Ocean Odyssey still hot (0.416-3.96 range) but moot without cash. Holding to season end.
+- S02 d276: d276->d277: still $50-locked below every $80 floor. 4.7ft swing (5.2 high/0.5 low) unremarkable anyway; Tomahawk DAY_1_5 hot (1.76 yt/angler) but moot without cash. Holding to season end.
+- S02 d277: d277->d278: still $50-locked below every $80 floor. 2.4ft swing weak anyway, and the doy256-273 day_1_5 hot window looks fully faded now. Holding to season end.
+- S02 d278: d278->d279: still $50-locked below every $80 floor (even TWILIGHT). Rough conditions anyway (22kt wind, 6ft@7s swell). Holding to season end.
+- S02 d279: d279->d280: still $50-locked below every $80 floor (even TWILIGHT). 4.9ft swing decent but moot without cash. Holding to season end.
+- S02 d280: d280->d281: still $50-locked below every $80 floor. 4.8ft swing unremarkable anyway. Holding to season end.
+- S02 d281: d281->d282: still $50-locked below every $80 floor. 4.9ft swing unremarkable anyway. Holding to season end.
+- S02 d282: d282->d283: still $50-locked below every $80 floor, holiday or not. 5.3ft swing moot without cash. Holding to season end.
+- S02 d283: d283->d284: still $50-locked below every $80 floor. 5.6ft swing unremarkable anyway. Holding to season end.
+- S02 d284: d284->d285: still $50-locked below every $80 floor. 5.8ft swing decent but moot without cash. Holding to season end.
+- S02 d285: d285->d286: still $50-locked below every $80 floor. 5.8ft swing decent but moot without cash. Holding to season end.
+- S02 d286: d286->d287: still $50-locked below every $80 floor. 5.6ft swing and DAY_1_5 still hot (5.0 yt/angler on Legend/Ocean Odyssey) but moot without cash. Holding to season end.
+- S02 d287: d287->d288: still $50-locked below every $80 floor. 5.2ft swing moot without cash; DAY_1_5 still the hot class (2.55-8.5 yt/angler recent) but unreachable. Holding to season end.
+- S02 d288: d288->d289: still $50-locked below every $80 floor. 4.8ft swing unremarkable anyway. Holding to season end.
+- S02 d289: d289->d290: still $50-locked below every $80 floor. DAY_1_5/Condor still lighting up (5.0 yt/angler) confirming the October peak but totally unreachable on this budget. Holding to season end.
+- S02 d290: d290->d291: still $50-locked below every $80 floor. 3.9ft swing unremarkable anyway. Holding to season end.
+- S02 d291: d291->d292: still $50-locked below every $80 floor. 3.7ft swing unremarkable anyway. Holding to season end.
+- S02 d292: d292->d293: still $50-locked below every $80 floor. 3.9ft swing unremarkable anyway. Holding to season end.
+- S02 d293: d293->d294: still $50-locked below every $80 floor. 2.3ft swing unremarkable anyway; DAY_1_5 (Legend/Ocean Odyssey) still strong but unreachable. Holding to season end.
+- S02 d294: d294->d295: still $50-locked below every $80 floor. 4.6ft swing unremarkable anyway. Holding to season end.
+- S02 d295: d295->d296: still $50-locked below every $80 floor. 5.2ft swing and DAY_1_5 still hot (3.7 yt/angler typical) but unreachable. Holding to season end.
+- S02 d296: d296->d297: still $50-locked below every $80 floor, including TWILIGHT (no-PTO). 6.3ft swing decent but moot. Holding to season end.
+- S02 d297: d297->d298: still $50-locked below every $80 floor. 7.5ft swing (6.9/-0.6) would've been interesting but moot. Holding to season end.
+- S02 d298: d298->d299: still $50-locked below every $80 floor, even TWILIGHT. 8.3ft swing (7.3/-1.0) and Cortez DAY_1_5 still hot (7.1 yt/angler) but both moot. Holding to season end.
+- S02 d299: d299->d300: still $50-locked below every $80 floor. 8.6ft swing (7.4/-1.2) and Condor DAY_1_5 still strong (4.847 yt/angler) but unreachable. Holding to season end.
+- S02 d300: d300->d301: still $50-locked below every $80 floor. 8.4ft swing (7.3/-1.1) notable but moot; DAY_1_5 still strong (Legend 2.6, Cortez 5.0 typical) but unreachable. Holding to season end.
+- S02 d301: d301->d302: still $50-locked below every $80 floor. 7.7ft swing (7.0/-0.7) decent but moot; nothing scheduled I can reach. Holding to season end.
+- S02 d302: d302->d303: still $50-locked below every $80 floor. 6.7ft swing (6.4/-0.3) unremarkable and moot anyway. Holding to season end.
+- S02 d303: d303->d304: still $50-locked below every $80 floor. 5.7ft swing (5.8/0.1) unremarkable and moot anyway. Holding to season end.
+- S02 d304: d304->d305: still $50-locked below every $80 floor. 4.7ft swing unremarkable and moot anyway. Holding to season end.
+- S02 d305: d305->d306: still $50-locked below every $80 floor, and no PTO pre-committed for d306/307/308 either way. 4.0ft swing unremarkable, moot. Holding to season end.
+- S02 d306: d306->d307: still $50-locked below every $80 floor, PTO uncommitted for d307/308 anyway. 3.7ft swing (4.6/0.9) unremarkable, report shows 0 local/Coronados yt. Holding to season end.
+- S02 d307: d307->d308: still $50-locked below every $80 floor. 3.0ft swing (5.0/2.0) unremarkable, moot anyway. Holding to season end.
+- S02 d308: d308->d309: still $50-locked below every $80 floor. 4.3ft swing (5.3/1.0) unremarkable, moot anyway. Holding to season end.
+- S02 d309: d309->d310: still $50-locked below every $80 floor. 4.6ft swing (5.6/1.0) unremarkable and moot anyway. Holding to season end.
+- S02 d310: d310->d311: still $50-locked below every $80 floor. 5.3ft swing unremarkable and moot anyway. Holding to season end.
+- S02 d311: d311->d312: still $50-locked below every $80 floor. 5.9ft swing (6.1/0.2) unremarkable and moot anyway. Holding to season end.
+- S02 d312: d312->d313: still $50-locked below every $80 floor, PTO uncommitted for d313/314 anyway. 6.2ft swing unremarkable and moot. Holding to season end.
+- S02 d313: d313->d314: still $50-locked below every $80 floor, PTO uncommitted for d314 anyway. 6.5ft swing (6.3/-0.2) unremarkable and moot. Holding to season end.
+- S02 d314: d314->d315: still $50-locked below every $80 floor. 6.5ft swing (6.3/-0.2), holiday tomorrow but moot on budget. Holding to season end.
+- S02 d315: d315->d316: still $50-locked below every $80 floor. 6.4ft swing unremarkable and moot. Holding to season end.
+- S02 d316: d316->d317: still $50-locked below every $80 floor, 6.1ft swing unremarkable and moot. Holding to season end.
+- S02 d317: d317->d318: still $50-locked below every $80 floor, PTO uncommitted for d318 anyway. 5.7ft swing unremarkable and moot. Holding to season end.
+- S02 d318: d318->d319: still $50-locked below every $80 floor. 5.2ft swing unremarkable and moot. Holding to season end.
+- S02 d319: d319->d320: still $50-locked below every $80 floor, TWILIGHT itself unbookable anyway (no boats). 4.6ft swing unremarkable and moot. Holding to season end.
+- S02 d320: d320->d321: still $50-locked below every $80 floor, PTO uncommitted for d321 anyway. 4.0ft swing unremarkable and moot. Holding to season end.
+- S02 d321: d321->d322: still $50-locked below every $80 floor, PTO uncommitted for d322 anyway. 3.5ft swing unremarkable and moot. Holding to season end.
+- S02 d322: d322->d323: still $50-locked below every $80 floor, DAY_1_5 needs PTO d325 anyway (not committed, moot). 3.9ft swing unremarkable and moot. Holding to season end.
+- S02 d323: d323->d324: still $50-locked below every $80 floor. 4.4ft swing unremarkable and moot. Holding to season end.
+- S02 d324: d324->d325: still $50-locked below every $80 floor, 5.7ft swing unremarkable and moot. Holding to season end.
+- S02 d325: d325->d326: still $50-locked below every $80 floor, PTO uncommitted for d326 anyway. 7.1ft swing unremarkable and moot. Holding to season end.
+- S02 d326: d326->d327: still $50-locked below every $80 floor. 8.3ft swing (7.2/-1.1) is a big one by tide-theory standards but moot with no budget. Holding to season end.
+- S02 d327: d327->d328: still $50-locked below every $80 floor, holiday moot without budget. Tides tomorrow 7.5/-1.4 (8.9ft swing) would've been a prime signal in better days. Holding to season end.
+- S02 d328: d328->d329: still $50-locked below every $80 floor, PTO uncommitted for d329 anyway. 9.0ft swing (7.5/-1.5) would be a prime tide signal in better days but moot with no budget. Holding to season end.
+- S02 d329: d329->d330: still $50-locked below every $80 floor. 8.8ft swing (7.4/-1.4) unremarkable and moot with no budget. Holding to season end.
+- S02 d330: d330->d331: still $50-locked below every $80 floor. 8.1ft swing (7.0/-1.1) unremarkable and moot with no budget. Holding to season end.
+- S02 d331: d331->d332: still $50-locked below every $80 floor. 7.0ft swing (6.4/-0.6) unremarkable and moot with no budget. Holding to season end.
+- S02 d332: d332->d333: still $50-locked below every $80 floor. 5.8ft swing (5.7/-0.1) unremarkable and moot with no budget. Holding to season end.
+- S02 d333: d333->d334: still $50-locked below every $80 floor. Tides 5.0/0.4 (4.6ft swing) unremarkable and moot with no budget. Fleet still flat-zero across classes this week. Holding to season end.
+- S02 d334: d334->d335: still $50-locked below every $80 floor. Rough weather forecast (30kt wind, 5ft seas) tomorrow too. Tides 4.4/0.9 unremarkable and moot with no budget. Holding to season end.
+- S06 d091: d091->d092: three_quarter is the live edge but locked out tonight for lack of 14-day PTO; committed d105 (Wed) PTO now to stop this recurring. Nothing bookable tonight (TWILIGHT has no boats, HD classes confirmed dead). Staying home.
+- S06 d092: Booked Prowler overnight ($400) — three_quarter still PTO-blocked for d093, same recurring failure. Committed PTO for d106/d107 now to build a rolling buffer against this.
+- S06 d093: All day-trip classes tomorrow (incl. three_quarter, still the dominant live edge) are blocked since d094 is already my fishing date from the existing Prowler overnight — only a second overnight (fishing d095) is bookable. Took it on Prowler given its solid last trip; pre-committed d110-114 PTO to ke
+- S06 d094: d094->d095: Prowler overnight already occupies d095 as my fishing date, so three_quarter/HD classes are all blocked ('already booked'); new overnight/day_1_5 need PTO for d096 which is only 1 day out, not 14 — structurally unbookable. Nothing to do but wait on the overnight result.
+- S06 d095: d095->d096: three_quarter still the live edge (Mission Belle/San Diego both >1.7 ypa last trip) but d096 PTO uncommitted, so blocked again — same old story. Nothing else bookable (no overnight/day_1_5/full_day boats scheduled, HD/twilight dead). Staying home; spent last 2 PTO on d117-118 to extend c
+- S06 d096: d096->d097: PTO fully spent (0 left, all 10 committed to d105-118 window) so every weekday class is structurally blocked regardless of the still-live three_quarter edge (1.6-2.6 ypa boats). TWILIGHT has no boats. Nothing bookable, nothing to commit. Staying home until PTO days arrive.
+- S06 d097: d097->d098: 0 PTO left, all spent on d105-118, so three_quarter/overnight/day_1_5 all PTO-blocked for d098-100 despite three_quarter still paying (36-37yt last trip on Malihini/Mission Belle). TWILIGHT has no boats. Nothing to do until d105 window opens.
+- S06 d098: d098->d099: 0 PTO left, all spent through d118, so three_quarter/overnight/day_1_5 all blocked for d099-100 despite three_quarter still clearly paying (San Diego 45yt, Mission Belle 24yt last trip). TWILIGHT has no boats. Nothing bookable, nothing to commit — waiting on d105 window.
+- S06 d099: d099->d100: 0 PTO left through d118, three_quarter blocked yet again. Booked Prowler overnight (fishes weekend d101, no PTO needed) — strongest available edge with 1.000 ypa and a solid last trip.
+- S06 d100: d100->d101: Prowler overnight already occupies d101 as fishing date, blocking all day-trip classes again. Booked fresh Legend overnight (fishes d102, no PTO) on strength of its 34yt/0.904ypa last trip — day_1_5 unreachable (no boats scheduled, PTO not committed for d103 anyway).
+- S06 d101: d101->d102: Legend overnight already occupies d102 as fishing date, blocking all day-trip classes; new overnight needs d103 PTO which I don't have. Nothing to do, waiting on Legend result.
+- S06 d102: d102->d103: 0 PTO left, all spent on d105-118, so three_quarter (still paying 1.5-1.65 ypa on Mission Belle/San Diego) is structurally blocked for d103. TWILIGHT has no boats. Nothing bookable, nothing to commit — waiting on the d105 window to open.</note> </invoke> 
+- S06 d103: d103->d104: 0 PTO left (all spent on d105-118), so every weekday class is PTO-blocked despite three_quarter still clearly live (San Diego 85yt, Mission Belle 34yt last trip). TWILIGHT has no boats, DAY_1_5 exceeds budget. Nothing bookable, nothing to commit — waiting on the d105 window to open as pl
+- S06 d104: d104->d105: PTO window finally opens - three_quarter unblocked. Booked San Diego (1.549 ypa, 26yt last trip) over Mission Belle/Malihini. Class is the clear live edge; ride it through the committed window.
+- S06 d105: d105->d106: San Diego three_quarter again, riding the still-dominant class edge (1.6 ypa, 59yt yesterday) while PTO window is open.
+- S06 d106: d106->d107: Budget $100 blocks three_quarter ($150), the only live edge (San Diego 1.6ypa, 87yt last trip). HD_AM/HD_PM affordable but confirmed dead all season (0.001-0.012 ypa) — not worth the cash. Staying home, holding budget for next three_quarter window.
+- S06 d107: d107->d108: three_quarter (the only live edge, San Diego/Mission Belle 1.5+ ypa) is $150, budget only $100 — priced out even on a no-PTO weekend. HD_AM/PM/TWILIGHT still dead all season. Staying home, saving cash for next three_quarter window.
+- S06 d108: d108->d109: three_quarter still the only live class (San Diego/Mission Belle ~1.4-1.6 ypa) but $150 > $100 budget. HD classes dead all season, not worth the cash. PTO exhausted through d118 anyway. Staying home, holding cash for next three_quarter window.
+- S06 d109: d109->d110: three_quarter (San Diego/Mission Belle still 1.3-1.6+ ypa) priced at $150 vs my $100 budget - blocked again. HD classes dead all season, not worth it. Staying home, saving cash for next three_quarter opening.
+- S06 d110: d110->d111: three_quarter (San Diego 1.336ypa/32yt last trip) still the only live edge but $150>$100 budget, blocked again. HD classes dead all season. Staying home, saving cash.
+- S06 d111: d111->d112: three_quarter still the only live edge (San Diego/Mission Belle/Malihini all >1.4ypa) but $150>$100 budget, blocked again. HD classes dead all season. Staying home, saving cash.
+- S06 d112: d112->d113: three_quarter (San Diego 1.485ypa/77yt, Malihini 1.740ypa/58yt last trip) still the clear edge but $150>$100 budget, blocked again. HD classes dead all season, PTO exhausted anyway through d118. Staying home, saving cash for next three_quarter window.</note> </invoke> 
+- S06 d113: d113->d114: three_quarter (San Diego 1.548ypa/62yt, Malihini 1.730ypa/21yt) still the dominant class but $150>$100 budget, blocked again. HD classes dead all season. Staying home, saving cash.
+- S06 d114: d114->d115: three_quarter still dominant (San Diego 127yt, Malihini 125yt on d114) but $150>$100 budget, blocked again. HD classes dead all season. Staying home, saving cash for next three_quarter window.
+- S06 d115: d115->d116: three_quarter still the dominant class fleet-wide but $150>$100 budget, blocked again — Sunday so no PTO needed anyway. HD_AM/PM dead all season. Staying home, saving cash for next three_quarter window.
+- S06 d117: d117->d118: three_quarter still the only live edge (San Diego 1.654ypa/64yt, Mission Belle 1.854ypa/75yt last trip) but $150>$100 budget, blocked again. 0 PTO left so can't commit ahead either. HD classes dead all season. Staying home.</note> 
+- S06 d118: d118->d119: three_quarter still the dominant class fleet-wide but $150>$100 budget, blocked. Twilight has no boats scheduled. HD dead all season. Staying home, saving cash.
+- S06 d119: d119->d120: three_quarter still the dominant class (San Diego 1.68ypa/62yt, Mission Belle 1.84ypa/73yt last trip) but $150>$100 and 0 PTO left anyway. HD dead all season, twilight has no boats. Staying home, cash-strapped.
+- S06 d120: d120->d121: three_quarter still dominant fleet-wide (San Diego 105yt, Daiwa Pacific 39yt last trip) but $150>$100 budget and 0 PTO. HD dead, twilight has no boats. Staying home, saving cash.
+- S06 d121: d121->d122: three_quarter still the only live edge fleet-wide but $150>$100 and 0 PTO to commit anyway. HD/twilight dead. Staying home, holding cash.</note> 
+- S06 d122: d122->d123: Sunday, no PTO needed, but three_quarter still $150>$100. HD/twilight dead per hard rule. Staying home, holding cash for next three_quarter window.
+- S06 d124: d124->d125: 0 PTO left, none committed for d125 — every weekday class locked out regardless of price. Twilight has no boats. Staying home, still holding $100 cash for whenever PTO/three_quarter align again.
+- S06 d125: d125->d126: 0 PTO left and none committed for d126, so every weekday class is locked out regardless of price/edge (three_quarter would be the pick otherwise). Twilight has no boats scheduled. Staying home, holding $100.
+- S06 d126: d126->d127: 0 PTO left, none committed for d127/d128 — every weekday class locked out regardless of tide signal (5.8ft swing would've flagged three_quarter). Twilight has no boats. Staying home, holding $100. Need to figure out how I ever get PTO days again to commit 14d out.
+- S06 d127: d127->d128: Friday, 0 PTO left/committed, so three_quarter/HD/full_day all locked out despite a decent tide swing. Twilight dead, overnight/day1.5 over budget. Staying home — PTO exhausted, need a weekend three_quarter (no PTO needed) once budget clears $150.
+- S06 d128: d128->d129: Saturday, no PTO needed, but three_quarter still $150>$100 budget. HD dead per hard rule, twilight has no boats. Staying home, holding $100 for next weekend three_quarter once cash clears $150.
+- S06 d129: d129->d130: Sunday, no PTO needed, but three_quarter still $150>$100 budget. HD/twilight dead per hard rule, overnight/day1.5 blocked by missing PTO. Staying home, holding $100.
+- S06 d131: d131->d132: Tuesday, 0 PTO left/committed for d132 — every weekday class locked regardless of tide swing. Twilight has no boats. Staying home, $100 held. Have 0 PTO to commit tonight too.
+- S06 d132: d132->d133: Wednesday, 0 PTO left/committed for d133 - every weekday class locked regardless of the tide swing that would've flagged three_quarter. Twilight has no boats. Staying home, $100 held. Still 0 PTO to commit tonight either.
+- S06 d133: d134->d135: Thursday, 0 PTO left/committed — all PTO-gated classes locked despite strong three_quarter signal (San Diego/Mission Belle >1.1 ypa). Twilight has no boats. Staying home, $100 held, 0 PTO to commit.
+- S06 d134: d134->d135: Friday, 0 PTO left/committed, all weekday classes locked; twilight has no boats; overnight/day1.5 over budget; also rough weather forecast. Staying home, $100 held.
+- S06 d135: d135->d136: Saturday, no PTO needed, but three_quarter still $150>$100 budget — the only real edge locked out by cash, not PTO. HD/twilight dead per hard rule, overnight/day1.5 over budget. Staying home, $100 held.
+- S06 d136: d136->d137: Sunday, no PTO needed but three_quarter still $150>$100 cash. HD/twilight dead per hard rule, overnight/day1.5 blocked by missing PTO. Staying home, $100 held, 0 PTO to commit.
+- S06 d137: d138: Monday, PTO not committed (and 0 PTO left in the bank regardless) locks three_quarter/overnight/day1.5 despite a solid tide swing. HD dead by hard rule, twilight has no boats. Staying home, $100 held, nothing to commit.
+- S06 d138: d138->d139: Tuesday, 0 PTO left locks every gated class despite a decent tide swing favoring three_quarter (SD/Mission Belle 1.1-1.5 ypa). Twilight has no boats. Staying home, $100 held, nothing to commit.
+- S06 d139: d140: Wednesday, 0 PTO locks every gated class despite a real tide swing favoring three_quarter. Twilight has no boats. Staying home, $100 held, 0 PTO to commit.
+- S06 d140: d140->d141: Thursday, 0 PTO locks every gated class despite a strong tide swing (3.9/-0.6) favoring three_quarter (SD 1.24, Mission Belle 1.42 ypa). Twilight has no boats. Staying home, $100 held.
+- S06 d141: d142: Friday, 0 PTO left locks every gated class (HD/three_quarter/overnight-PTO) despite a strong tide (5.5/-0.1) and San Diego running 1.24 ypa. Twilight has no boats, overnight/day1.5 over budget. Staying home, $100 held, nothing to commit.
+- S06 d142: d142->d143: Saturday, no PTO needed but three_quarter ($150) still exceeds $100 cash — the real edge stays locked by budget, not PTO. HD/twilight dead per hard rule, overnight/day1.5 over budget too. Staying home, $100 held.
+- S06 d143: d143->d144: Sunday, no PTO needed but three_quarter still $150>$100 cash — same budget lock as every recent night. HD/twilight dead per hard rule, overnight/day1.5 over budget or PTO-blocked. Staying home, $100 held.
+- S06 d144: d144->d145: Holiday means no PTO needed, but three_quarter still $150>$100 cash — budget is the lock again, not PTO. HD/twilight dead per hard rule. Staying home, $100 held, waiting for cash to clear $150.
+- S06 d145: d145->d146: Tuesday, 0 PTO locks every gated class despite a fair tide swing (4.5/1.1) that would favor three_quarter. Twilight has no boats. Staying home, $100 held, 0 PTO to commit.
+- S06 d146: Wed d147: 0 PTO locks every gated class despite a fair tide swing; twilight has no boats. Staying home, $100 held, 0 PTO to commit.
+- S06 d147: d147->d148: Thursday, 0 PTO locks every gated class despite a solid tide swing (5.2/1.3) that would favor three_quarter. Twilight has no boats. Staying home, $100 held, 0 PTO to commit.
+- S06 d148: d148->d149: Friday, 0 PTO locks HD/three_quarter despite a solid tide swing (5.5/0.9). Twilight has no boats, overnight/day1.5 over budget. Staying home, $100 held.
+- S06 d149: d149->d150: Saturday, no PTO gate but cash still locks three_quarter at $150>$100 — same budget wall as every night since d106. HD/twilight remain dead per hard rule. Staying home, $100 held, 0 PTO to commit.
+- S06 d150: d150->d151: Sunday, no PTO gate but $100 cash still can't clear THREE_QUARTER's $150 despite a strong 6.2ft tide swing that favors it. HD/twilight dead per hard rule. Staying home, holding $100, 0 PTO left anyway.
+- S06 d151: d151->d152: Monday, 0 PTO locks every gated class (three_quarter would've suited the 6.7ft swing), twilight has no boats. Staying home, $100 held, 0 PTO to commit — still rebuilding cash after the early-season overnight binge.
+- S06 d152: Tue d152->d153: 7.1ft tide swing would've been a good three_quarter/HD_PM setup, but 0 PTO locks every gated class and $100 cash is under $150 anyway. Twilight has no boats. Staying home, holding.
+- S06 d153: d153->d154: Wed, 0 PTO locks every gated class again, twilight has no boats, $100 still under three_quarter's $150. Tide swing (7.2ft) looks good on paper but is moot. Holding.
+- S06 d154: d154->d155: Thu, 0 PTO locks every gated class again, twilight has no boats, $100 still under three_quarter's $150. Holding, nothing new to see here.
+- S06 d155: Fri d155->d156: 0 PTO, $100 cash, nothing bookable despite a decent 6.7ft swing. Same wall, still holding.
+- S06 d156: Sat d156->d157: modest 4.7ft swing, HD boats mostly 0 ypa this week, three_quarter still $150&gt;$100. Holding, still rebuilding cash.
+- S06 d157: Sun d157->d158: still $100/0PTO wall, three_quarter locked out at $150, HD classes flat (0-0.08 ypa) despite decent 5.8ft swing. Holding.
+- S06 d158: d158->d159: Mon, same $100/0PTO wall — everything gated needs PTO I don't have. Twilight bookable but dead (0.000 ypa, New Seaforth). Holding.
+- S06 d159: Tue d159->d160: still $100/0PTO wall, twilight has no boats, gated classes all need PTO I don't have. Nothing to do but hold.
+- S06 d160: d160->d161: Wed, same $100/0PTO wall, twilight has no boats, 4.7ft swing is moot. Holding.
+- S06 d161: Thu d162: same $100/0PTO wall, twilight has no boats, tide swing moot. Holding.
+- S06 d162: Fri d163: same $100/0PTO wall, twilight dead (0.000 ypa all season), everything else gated or over budget. Holding.
+- S06 d163: Sat d164: broke the hold streak for an $80 New Seaforth HD_AM flier — it's the lone boat in its class showing any life (0.067 ypa, 1yt last out) and weekend needs no PTO. Still stuck below the $150 three_quarter line otherwise.

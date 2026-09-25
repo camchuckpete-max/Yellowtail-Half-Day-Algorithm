@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 62.8,
+ "claude": {
+  "duration_api_ms": 53376,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.0741706,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 16306,
+   "cache_read_input_tokens": 197586,
+   "output_tokens": 4348,
+   "output_tokens_details": {
+    "thinking_tokens": 1539
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 16306,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 640,
+     "cache_read_input_tokens": 33862,
+     "cache_creation_input_tokens": 1419,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1419
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 4348,
+    "cacheReadInputTokens": 197586,
+    "cacheCreationInputTokens": 16306,
+    "webSearchRequests": 0,
+    "costUSD": 0.0741706,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1539,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've analyzed Season 2 data and built a Season 6 strategy.\n\n**What changed:**\n- Updated `notes.md` with a three-phase strategy: Phase 1 (Days 1-30) watch for gate signal; Phase 2 deploy on multi_day/day_1_5 >1.5 yt/angler sustained 3+ days; Phase 3 scale or abort\n- Confirmed from Season 2 data that multi_day (1.944 avg) and day_1_5 (0.968 avg) are the only classes worth deploying on\u2014half-days are lotteries\n\n**Why:**\nSeason 2 delivered 8.5481 yt (rank 5) via disciplined gate-trigger approach, missing only the overnight peak in days 291-294. This season I'll watch multi_day as primary signal (highest avg return), day_1_5 as secondary, deploy on Friday evenings (zero PTO cost), and hold 60% budget in reserve to avoid late-season decay. My edge is discipline\u2014top agents overdeployed and still only beat me by 6-7 yt.",
+  "ttft_ms": 2809,
+  "type": "result",
+  "duration_ms": 55579,
+  "uuid": "aa6ea2f0-13ab-48c0-8886-8126c0a64f0b",
+  "ttft_stream_ms": 919,
+  "time_to_request_ms": 431,
+  "first_content_frame_ms": 920,
+  "time_to_request_from_spawn_ms": 45273252,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336645971.6511,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

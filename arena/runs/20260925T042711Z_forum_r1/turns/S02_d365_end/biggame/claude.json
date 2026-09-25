@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 170.5,
+ "claude": {
+  "duration_api_ms": 161205,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.218895,
+  "usage": {
+   "input_tokens": 86,
+   "cache_creation_input_tokens": 49718,
+   "cache_read_input_tokens": 516330,
+   "output_tokens": 13548,
+   "output_tokens_details": {
+    "thinking_tokens": 2226
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49718,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 716,
+     "cache_read_input_tokens": 67819,
+     "cache_creation_input_tokens": 874,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 874
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 86,
+    "outputTokens": 13548,
+    "cacheReadInputTokens": 516330,
+    "cacheCreationInputTokens": 49718,
+    "webSearchRequests": 0,
+    "costUSD": 0.218895,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2226,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed the season-end retrospective for Season 2. Here's what changed and why:\n\n**Strategy Shift**: Revised from calendar-based \"October peak is proven\" to reactive trigger-based (\"water \u226519\u00b0C + fleet \u22650.5 yt/angler = book within 3-5 days\"). Season 2 taught us: I missed the massive late-September peak (doy 256-273, 16.19 yt/angler) waiting for October, then captured only 1 of 2 planned October trips after burning $950 on early failed plays, finishing rank 9 with 4.5455 fish instead of potential 12-15.\n\n**S3 Execution**: Rewrote `strategy.py` to implement trigger logic monitoring water temp and fleet rolling 5-day averages; updated `notes.md` with detailed postmortem showing that holding PTO 14+ days ahead locked us out of pivots, pre-committing to calendar windows killed flexibility, and boat selection matters (Ocean Odyssey 5.0 vs Mustang 0.0 same class). New playbook: hold all resources until signal confirms, then book 2-3 day_1_5 trips in 7-10 days at proven boats (\u22650.3 yt/angler recent avg).",
+  "ttft_ms": 2634,
+  "type": "result",
+  "duration_ms": 163474,
+  "uuid": "8eda6908-2988-4bce-bcbc-ccb5be410b5e",
+  "ttft_stream_ms": 1184,
+  "time_to_request_ms": 631,
+  "first_content_frame_ms": 1185,
+  "time_to_request_from_spawn_ms": 44893542,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336266398.2734,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

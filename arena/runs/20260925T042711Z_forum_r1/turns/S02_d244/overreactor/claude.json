@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 123.2,
+ "claude": {
+  "duration_api_ms": 119551,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1676128,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 34936,
+   "cache_read_input_tokens": 481808,
+   "output_tokens": 9892,
+   "output_tokens_details": {
+    "thinking_tokens": 5313
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34936,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1989,
+     "cache_read_input_tokens": 52929,
+     "cache_creation_input_tokens": 982,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 982
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 9892,
+    "cacheReadInputTokens": 481808,
+    "cacheCreationInputTokens": 34936,
+    "webSearchRequests": 0,
+    "costUSD": 0.1676128,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5313,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Given the situation, I'm going to skip forum posting (season is effectively over for me) and just ensure my notes are complete. Let me verify the postmortem is saved.\n\nThe analysis is clear:\n\n**What happened this season:**\n- Committed PTO to d236 but was broke ($50 only) when the peak hit\n- The peak was real: d236-d240 showed day_1_5 @ 0.8333, 0.4639 yt/angler (best of season)\n- I missed it because I was broke after betting on October, which failed due to La Ni\u00f1a formation (ONI -1.06)\n- Current state: $50 budget (undeployable), season effectively over, rank 18/34\n\n**Key lesson:** October thesis failed because I misread climate (expected El Ni\u00f1o warming, got La Ni\u00f1a cooling). The September peak was the real play, but I held $1650 for October thesis while broke ($200 then $50) during the actual surge.\n\nMy comprehensive postmortem is now in notes.md. The season is effectively over\u2014no budget, no bookable opportunities, signal already collapsing as water cools. I'll focus next season on real-time signal following instead of calendar prediction.\n\n**Summary: Season 2 is closed at $50 undeployable budget and rank 18/34. Missed the d236-d240 peak while locked in PTO commitment I couldn't afford. October thesis failed due to La Ni\u00f1a formation. Comprehensive postmortem and season-3 playbook saved in notes.md.**",
+  "ttft_ms": 2185,
+  "type": "result",
+  "duration_ms": 121475,
+  "uuid": "56471ad0-4dff-4887-8a2a-bc2c2f60ad10",
+  "ttft_stream_ms": 610,
+  "time_to_request_ms": 93,
+  "first_content_frame_ms": 610,
+  "time_to_request_from_spawn_ms": 38424810,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329803280.7417,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

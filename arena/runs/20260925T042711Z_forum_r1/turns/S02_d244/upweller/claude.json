@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 76.1,
+ "claude": {
+  "duration_api_ms": 72854,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3206708000000001,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 46036,
+   "cache_read_input_tokens": 350394,
+   "output_tokens": 6642,
+   "output_tokens_details": {
+    "thinking_tokens": 3023
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46036,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 289,
+     "cache_read_input_tokens": 67638,
+     "cache_creation_input_tokens": 3839,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3839
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 6642,
+    "cacheReadInputTokens": 350394,
+    "cacheCreationInputTokens": 46036,
+    "webSearchRequests": 0,
+    "costUSD": 0.3206708000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3023,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed with fresh queries that HD/twilight ($80, the only classes $120 can still afford) stay flat ~0.000 ypa through doy330 in both seasons, while the real payoff window (three_quarter doy270-300, and especially day_1_5/overnight at 2.9-3.65 ypa doy285-300 in S1) needs $150-550 this budget can never reach again \u2014 so the rest of S2 is effectively locked at ~0.70 barring a rare HD flyer.\n\n**Summary:** Verified the remaining season is budget-locked out of every class that's ever produced yellowtail in this doy range, and rewrote notes.md with that finding plus a hard S3 number (keep budget \u2265$150 continuously from doy180-300, reserve $400-550+ for the doy270-300 fall spike) so next season's spring spending doesn't repeat this lockout.",
+  "ttft_ms": 1395,
+  "type": "result",
+  "duration_ms": 74337,
+  "uuid": "7d3464ea-046f-4192-8a29-d7851a759e97",
+  "ttft_stream_ms": 738,
+  "time_to_request_ms": 109,
+  "first_content_frame_ms": 739,
+  "time_to_request_from_spawn_ms": 38482088,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329860541.225,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 41.2,
+ "claude": {
+  "duration_api_ms": 37655,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25688700000000003,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 47061,
+   "cache_read_input_tokens": 166435,
+   "output_tokens": 3534,
+   "output_tokens_details": {
+    "thinking_tokens": 1418
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47061,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 253,
+     "cache_read_input_tokens": 69879,
+     "cache_creation_input_tokens": 2623,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2623
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 3534,
+    "cacheReadInputTokens": 166435,
+    "cacheCreationInputTokens": 47061,
+    "webSearchRequests": 0,
+    "costUSD": 0.25688700000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1418,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Budget is $20, below the $80 minimum trip price, so no further bookings are possible this season regardless of PTO or live actuals \u2014 the season score is locked at 6.2032 (rank 21/34).\n\n**Summary:** Confirmed via results.json/RULES.md that the season is effectively over financially (an $80 HD_AM flyer on d151 spent the last usable cash, one window early relative to the flagged doy250-300 save-target). Updated notes.md with a top-of-file entry telling the nightly self to stop evaluating trips for the rest of S6, plus a sharper root-cause note for S7: prose \"hold the reserve\" instructions keep getting broken on the last dollar, so future notes need a hard bolded budget floor at the very top, not buried reasoning.",
+  "ttft_ms": 1470,
+  "type": "result",
+  "duration_ms": 39432,
+  "uuid": "296c8260-0422-49a3-9c7f-fb12c79a8723",
+  "ttft_stream_ms": 597,
+  "time_to_request_ms": 136,
+  "first_content_frame_ms": 597,
+  "time_to_request_from_spawn_ms": 51079813,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342458113.9565,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

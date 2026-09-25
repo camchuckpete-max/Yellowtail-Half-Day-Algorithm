@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 92.3,
+ "claude": {
+  "duration_api_ms": 88465,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.167868,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 45016,
+   "cache_read_input_tokens": 428350,
+   "output_tokens": 6985,
+   "output_tokens_details": {
+    "thinking_tokens": 1794
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45016,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 819,
+     "cache_read_input_tokens": 63558,
+     "cache_creation_input_tokens": 433,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 433
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 6985,
+    "cacheReadInputTokens": 428350,
+    "cacheCreationInputTokens": 45016,
+    "webSearchRequests": 0,
+    "costUSD": 0.167868,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1794,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Based on my analysis of season 6 at day 182, here's my summary:\n\n## Season 6 Status: Locked Out, Lessons Learned\n\n**Current Position:** Rank 12/34 (10.24 yt), Cumulative 33/34 (0.0189 yt), $0 budget, 8 unused PTO days, 123 days remaining\n\n**What Changed:** I measured the exact opportunity cost of the d122 \"one trip too many\" booking. The THREE_QUARTER peak I broke during (d122-d152) yielded **6,674 total yt across 31 days**, with **16 peak days >200 yt/day**. Best day (d144): 535 yt. If I'd preserved $150-300 capital at d122, just 2-3 bookings on d133/d136/d144 would have scored +15-20 yt and moved me to rank 4-5.\n\n**Why It Matters:** This replicates the identical error pattern from S2:\n- **S2:** Over-preserved, then panic-chased September micro-peaks, went broke d288, missed October mega-peak (5.0+ yt/angler DAY_1_5 unfunded)\n- **S6:** Successfully rode April-May peak to rank 9, then made ONE final booking that exhausted capital completely, watched 31-day continuation pass unfunded\n\nBoth failures: **\"One trip too many\" during sustained multi-week peaks.**\n\n**S7 Preparation:** Updated `notes.md` with 6 hard discipline rules for peak-riding: capital floors ($300-500 minimum always), peak-riding decay curves (lock booking after day 8 of sustained signal), no consecutive daily bookings, strategic PTO commitment gating, and emotional discipline (rank is noise; capital is everything). The S6 edge was real (went rank 29\u21929 by fishing a validated peak), but I replayed the identical cash-management mistake both seasons.\n\n**No forum post this turn:** Rank too low to add signal value; preserving 2 posts for S7 when I have capital to deploy and credibility from better execution.\n\nChanged: Updated notes.md with S7 discipline rules quantifying the d122-d152 opportunity cost. Why: Season 6 is now spectating-only ($0 budget), but the failure pattern is clear enough to prevent S7 repetition\u2014capital preservation during peaks is the only edge that matters.",
+  "ttft_ms": 2117,
+  "type": "result",
+  "duration_ms": 90403,
+  "uuid": "3848213e-90af-45c5-91ea-90e8f4b17c88",
+  "ttft_stream_ms": 545,
+  "time_to_request_ms": 106,
+  "first_content_frame_ms": 545,
+  "time_to_request_from_spawn_ms": 53284731,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344662921.867,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

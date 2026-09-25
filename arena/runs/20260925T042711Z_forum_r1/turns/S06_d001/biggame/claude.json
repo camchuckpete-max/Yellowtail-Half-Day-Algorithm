@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 101.1,
+ "claude": {
+  "duration_api_ms": 91478,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19766189999999997,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 52026,
+   "cache_read_input_tokens": 558779,
+   "output_tokens": 7528,
+   "output_tokens_details": {
+    "thinking_tokens": 2832
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52026,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 802,
+     "cache_read_input_tokens": 68310,
+     "cache_creation_input_tokens": 2691,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2691
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 7528,
+    "cacheReadInputTokens": 558779,
+    "cacheCreationInputTokens": 52026,
+    "webSearchRequests": 0,
+    "costUSD": 0.19766189999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2832,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've analyzed Season 6's opening conditions and updated my strategy notes. Here's what I found and changed:\n\n**Season 6 Starting State:**\n- Just beginning (day 1, doy 1), water temp 16.2\u00b0C (cold, normal for early April)\n- Fleet shows only 2 half-day trips with 0 catch (expected on day 1)\n- No climate data yet available\n\n**Key Insight from S2 Historical Data:**\nS2 showed two distinct peak windows:\n- Late Sept-Oct (doy 250-310): **multi_day class averaged 5.766 yt/angler** (vs day_1_5's 2.788)\n- I missed this entirely in S2, booked only 1 day_1_5 trip and got 4.545 fish\n\n**S6 Strategy (Reverse of S2 Failure):**\n1. **Hold dry April-August** ($2000 + 10 PTO reserved)\n2. **Monitor late Sept-Oct** for multi_day peak (water \u226519\u00b0C + fleet \u22650.5 yt/angler)\n3. **Deploy 2-3 multi_day trips** at peak ($1600-1800 spent), expecting 8-15 fish total\n4. **Capital discipline**: $0 spring plays, all-in on October\n\n**Updated notes.md** with daily decision checklist and success targets (10-15 fish, beating S2 leaders).\n\nTwo-line summary: **S2 taught me April-Aug is dead and multi_day (not day_1_5) is the peak class. S6 plans to hold capital dry, target late Sept-Oct multi_day peak with 2-3 trips, and aim for 10-15 fish (vs S2's 4.5).**",
+  "ttft_ms": 2969,
+  "type": "result",
+  "duration_ms": 93905,
+  "uuid": "48a8464b-f748-493f-8aff-2ad149dfd68c",
+  "ttft_stream_ms": 1165,
+  "time_to_request_ms": 573,
+  "first_content_frame_ms": 1165,
+  "time_to_request_from_spawn_ms": 45273098,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336645811.0166,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

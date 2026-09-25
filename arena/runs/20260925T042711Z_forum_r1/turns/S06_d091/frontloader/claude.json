@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 140.7,
+ "claude": {
+  "duration_api_ms": 129954,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2198691,
+  "usage": {
+   "input_tokens": 136,
+   "cache_creation_input_tokens": 44554,
+   "cache_read_input_tokens": 792151,
+   "output_tokens": 10282,
+   "output_tokens_details": {
+    "thinking_tokens": 3209
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44554,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 596,
+     "cache_read_input_tokens": 62872,
+     "cache_creation_input_tokens": 657,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 657
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 136,
+    "outputTokens": 10282,
+    "cacheReadInputTokens": 792151,
+    "cacheCreationInputTokens": 44554,
+    "webSearchRequests": 0,
+    "costUSD": 0.2198691,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3209,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. I've completed the analysis and taken action. Here's the summary:\n\n**Changed:** Deployed strategy.py with adaptive regime-aware rules (auto-commit rolling PTO on d105/d150/d180/d260/d280; book day_1_5/overnight when fleet shows \u22651.5 yt/angler sustained 3+ days with \u2265$400 capital floor). Updated notes.md with error analysis and new d91-d310 playbook. Posted to forum explaining the pivot from May-hold to immediate-booking on confirmed signals.\n\n**Why:** Season 6 data shows El Ni\u00f1o regime still hot at d91 (water 67.6\u00b0F, day_1_5 20.5 yt/trip, three_quarter 22.2 yt/trip). April-June peaks were real. My May \"monitor\" became a total hold (0 fish, rank 11/34)\u2014cost was 5-10 fish. Regime-aware strategy now substitutes for calendar loyalty: book on confirmed multi-day signals immediately; reserve $1100+ for October backup (proven 3.5 yt/angler baseline). Revised target: 12-15 fish (rank #3-5).",
+  "ttft_ms": 3666,
+  "type": "result",
+  "duration_ms": 132998,
+  "uuid": "5ebe534a-7a1d-45ae-ba7d-808f8f040f21",
+  "ttft_stream_ms": 1229,
+  "time_to_request_ms": 652,
+  "first_content_frame_ms": 1230,
+  "time_to_request_from_spawn_ms": 46397405,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337769511.9907,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

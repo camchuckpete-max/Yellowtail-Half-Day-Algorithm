@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 110.8,
+ "claude": {
+  "duration_api_ms": 107215,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14708770000000002,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 23843,
+   "cache_read_input_tokens": 544977,
+   "output_tokens": 8954,
+   "output_tokens_details": {
+    "thinking_tokens": 2140
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23843,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 670,
+     "cache_read_input_tokens": 42498,
+     "cache_creation_input_tokens": 320,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 320
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 8954,
+    "cacheReadInputTokens": 544977,
+    "cacheCreationInputTokens": 23843,
+    "webSearchRequests": 0,
+    "costUSD": 0.14708770000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2140,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What Changed:**\n- Analyzed S2 data vs. S1 baseline and discovered critical insight: S2 is colder (14.29\u00b0C vs 15.21\u00b0C early season). Yellowtail need 16+\u00b0C, explaining why fleet is catching almost nothing (3 YT in 192 trips).\n- Wrote disciplined strategy to avoid cold-water losses, commit October PTO now (14-day rule), and concentrate effort on proven peaks: April (12.84 avg/trip) and October (17.52 avg/trip).\n- Updated notes with full seasonal pattern, PTO commitment timeline, and budget pacing plan ($1200+ reserved for October when B_SAT won).\n- Posted forum analysis on water temperature as leading indicator, signaling data-driven approach without tipping October focus.\n\n**Why:** Season 1 showed clear peaks driven by water temperature. S2's colder start means most competitors booking now are wasting budget. October is where wins happen (17.5x better than July). PTO commitment is the bottleneck\u2014must happen today/tomorrow for October Fridays. Strategy.py will auto-commit PTO on ticks and discipline daily decisions.\n\n**Next:** At nightly decision (21:00 each day), strategy auto-runs to commit October PTO, holds bookings during cold phase, then ramps during April/May warmup and October peak.",
+  "ttft_ms": 2361,
+  "type": "result",
+  "duration_ms": 109351,
+  "uuid": "95261868-bb54-4df0-b727-4c874c42882e",
+  "ttft_stream_ms": 624,
+  "time_to_request_ms": 85,
+  "first_content_frame_ms": 625,
+  "time_to_request_from_spawn_ms": 19828443,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311207144.9678,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

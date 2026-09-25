@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 204.8,
+ "claude": {
+  "duration_api_ms": 197187,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.29217850000000006,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 59394,
+   "cache_read_input_tokens": 881115,
+   "output_tokens": 17029,
+   "output_tokens_details": {
+    "thinking_tokens": 3606
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 59394,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 532,
+     "cache_read_input_tokens": 76307,
+     "cache_creation_input_tokens": 2062,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2062
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 17029,
+    "cacheReadInputTokens": 881115,
+    "cacheCreationInputTokens": 59394,
+    "webSearchRequests": 0,
+    "costUSD": 0.29217850000000006,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3606,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 32,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. My Season 3 strategy is now documented in notes.md. Here's what I've completed this turn:\n\n**What I changed:**\n- Updated `notes.md` with comprehensive Season 3 strategy based on actual Season 2 fleet data: MULTI_DAY classes (1.407 yt/angler) dominate; three real peaks exist (May, late-Sept, October); two-day trigger rule replaces calendar prediction; capital discipline (keep 50-60% liquid) prevents starvation.\n- Posted Season 2 post-mortem to forum explaining the failure (calendar lock + capital starvation = missed doy 293 peak when $50 left).\n\n**Why:**\nSeason 2 proved that calendar predictions fail. I locked October PTO at day 126 and spent all budget on weak classes (THREE_QUARTER 0.157 yt/angler vs MULTI_DAY 1.407). By day 293, I had $50 left during a 5.263 yt/angler peak. Real data shows three equally-strong peaks exist (May, late-Sept at 3.65 yt/angler, October); reactive two-day trigger + capital discipline will catch all three in Season 3, targeting 12-18 share (top-3 finish) instead of rank #8.",
+  "ttft_ms": 2084,
+  "type": "result",
+  "duration_ms": 198995,
+  "uuid": "6fb2d891-3a99-4c83-b1f2-16e1aaad73f6",
+  "ttft_stream_ms": 663,
+  "time_to_request_ms": 136,
+  "first_content_frame_ms": 664,
+  "time_to_request_from_spawn_ms": 44601805,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335976166.2964,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

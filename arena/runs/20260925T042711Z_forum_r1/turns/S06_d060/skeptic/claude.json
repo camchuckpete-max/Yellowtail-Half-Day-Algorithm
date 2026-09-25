@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 165.1,
+ "claude": {
+  "duration_api_ms": 160569,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23888129999999996,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 46371,
+   "cache_read_input_tokens": 785803,
+   "output_tokens": 13485,
+   "output_tokens_details": {
+    "thinking_tokens": 4870
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46371,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 579,
+     "cache_read_input_tokens": 64823,
+     "cache_creation_input_tokens": 523,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 523
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 13485,
+    "cacheReadInputTokens": 785803,
+    "cacheCreationInputTokens": 46371,
+    "webSearchRequests": 0,
+    "costUSD": 0.23888129999999996,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4870,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Now let me create a final summary of this planning turn:\n\n## Summary\n\n**What changed:** Updated `notes.md` with brutal accountability (missed 14 DAY_1_5 peaks and 4 multi_day trips in days 1-60 = 0.8-1.4 fish opportunity lost) and concrete recovery plan for days 61-244: Book DAY_1_5 class when daily fleet shows \u22652.0 yt/angler signal, max 4 bookings, preserve capital >$500. Rewrote `strategy.py` to automate this one simple rule.\n\n**Why:** My day-32 El Ni\u00f1o regime analysis was correct (4,229 yellowtail in April vs 3 in Season 2 confirms multi-peak pattern), but I executed zero bookings due to analysis paralysis. With $2000 and 10 PTO remaining plus 183 days left, the recovery path is clear: one-rule discipline + automated execution = target 0.4-0.8 fish to improve cumulative rank from 24 to 18-22.",
+  "ttft_ms": 2250,
+  "type": "result",
+  "duration_ms": 163003,
+  "uuid": "a9bf5c02-dca3-4a18-ad6a-5d58e1ca70e3",
+  "ttft_stream_ms": 752,
+  "time_to_request_ms": 125,
+  "first_content_frame_ms": 752,
+  "time_to_request_from_spawn_ms": 46124088,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337502427.3657,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

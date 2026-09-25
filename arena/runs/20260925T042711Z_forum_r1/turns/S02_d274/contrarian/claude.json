@@ -1,0 +1,135 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 114.8,
+ "claude": {
+  "duration_api_ms": 106549,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16708299999999998,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 39450,
+   "cache_read_input_tokens": 471060,
+   "output_tokens": 8195,
+   "output_tokens_details": {
+    "thinking_tokens": 2932
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39450,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 461,
+     "cache_read_input_tokens": 57731,
+     "cache_creation_input_tokens": 694,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 694
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 8195,
+    "cacheReadInputTokens": 471060,
+    "cacheCreationInputTokens": 39450,
+    "webSearchRequests": 0,
+    "costUSD": 0.16708299999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2932,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01BAQfD85kN6gNrbrNnjDbfu",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/contrarian/RULES.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_011DBzBtiyr7b2hirXGqptE3",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/contrarian/persona.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01T5MpiSBKNFx8BkDgiXA3zu",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/contrarian/results.json",
+     "limit": 100
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01Se5SGSWJRJo5qzuAZhY1SM",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d274/contrarian/leaderboard.json"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of this turn:**\n\nI verified that my October peak thesis was **completely correct**\u2014day_1_5 is delivering 2.7\u20135.0 yt/angler at doy 295\u2013303, exactly as predicted from Season 1 data. But I failed catastrophically on capital management: by d272, I had spent $1,850 on scattered plays and had only $150 left ($550 short of even one day_1_5 booking). I'm ranked 24/34 with 0.1597 fish despite having the right analysis.\n\nUpdated `notes.md` with a complete post-mortem documenting the capital allocation disaster and lessons for Season 3 (preserve $900+ reserve, stagger peaks, keep PTO floating, adapt to season-specific timing shifts). Posted a forum message admitting the failure honestly\u2014the kind of analysis the forum values.\n\n**Next turn:** Season 2 is effectively finished (November shows zero catches across all classes). Accept the loss and prepare for Season 3 with the hard lessons learned.",
+  "ttft_ms": 4151,
+  "type": "result",
+  "duration_ms": 108818,
+  "uuid": "559cec45-c118-4d86-9eaf-c5144cc1ffe3",
+  "ttft_stream_ms": 1206,
+  "time_to_request_ms": 621,
+  "first_content_frame_ms": 1206,
+  "time_to_request_from_spawn_ms": 40460777,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834504.0208,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

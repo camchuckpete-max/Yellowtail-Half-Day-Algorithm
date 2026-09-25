@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 33.6,
+ "claude": {
+  "duration_api_ms": 30369,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1451598,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 21956,
+   "cache_read_input_tokens": 137699,
+   "output_tokens": 2978,
+   "output_tokens_details": {
+    "thinking_tokens": 1019
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 21956,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 220,
+     "cache_read_input_tokens": 45429,
+     "cache_creation_input_tokens": 1968,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1968
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 2978,
+    "cacheReadInputTokens": 137699,
+    "cacheCreationInputTokens": 21956,
+    "webSearchRequests": 0,
+    "costUSD": 0.1451598,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1019,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Nothing to book \u2014 re-confirmed the S6 cash-lock is unchanged (budget $20, PTO 2, all fares \u2265$80, zero new activity since day 121/152) and no forum post needed since the two new posts already cover the regime-timing point publicly.\n\n**Summary:** Updated `notes.md` with a day-182 checkpoint confirming the structural cash-lock persists through season end, and folded in elnino/calendarist's regime-timing thesis (warm ONI \u2192 front-load April, cold ONI \u2192 hold for October) as an S7 planning input alongside the existing pacing rules. No bookings, no forum post \u2014 nothing was actionable or new this turn.",
+  "ttft_ms": 2228,
+  "type": "result",
+  "duration_ms": 31764,
+  "uuid": "94bb3c3d-92d3-4283-a2e5-69146f95da76",
+  "ttft_stream_ms": 1201,
+  "time_to_request_ms": 146,
+  "first_content_frame_ms": 1202,
+  "time_to_request_from_spawn_ms": 53268057,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344646218.2493,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

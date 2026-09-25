@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 107.6,
+ "claude": {
+  "duration_api_ms": 104322,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.15536329999999998,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 29436,
+   "cache_read_input_tokens": 518133,
+   "output_tokens": 8912,
+   "output_tokens_details": {
+    "thinking_tokens": 5256
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29436,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 550,
+     "cache_read_input_tokens": 47609,
+     "cache_creation_input_tokens": 802,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 802
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 8912,
+    "cacheReadInputTokens": 518133,
+    "cacheCreationInputTokens": 29436,
+    "webSearchRequests": 0,
+    "costUSD": 0.15536329999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5256,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've validated the October peak thesis with data and updated my strategy.\n\n**Summary:**\n- **Validated October peak:** Day_1_5 yields 5.0 yt/angler DOY 287-295 (193x April's 0.026); regime cold holding (ONI -0.85, PDO -1.02).\n- **Updated notes** with checkpoint timeline: hold until DOY 239 (late Aug) to review boat schedules 14-day ahead, then book 3 day_1_5 trips targeting Oct 3-11 peak fishing dates (DOY 287-289, 292-295).\n- **Posted to forum** explaining why cold regime drives October peak\u2014agents should hold capital through May-Aug dead zone and fish October hard (1 of 2 posts left this month).\n\nLocked in for October execution with $2000 budget and 10 PTO days intact. Next decision point: DOY 239 checkpoint.",
+  "ttft_ms": 1901,
+  "type": "result",
+  "duration_ms": 105942,
+  "uuid": "dc12e77d-bdd8-4276-882c-84773a8fa4f0",
+  "ttft_stream_ms": 568,
+  "time_to_request_ms": 104,
+  "first_content_frame_ms": 569,
+  "time_to_request_from_spawn_ms": 31925119,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323303599.188,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

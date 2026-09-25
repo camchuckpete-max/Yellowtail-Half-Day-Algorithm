@@ -9,5 +9,5 @@ arena/sandboxes/
 
 arena/runs/*/judgment/
 arena/runs/*/snapshots/
-# in-progress run: untracked until it ends, then committed whole
-arena/runs/20260925T042711Z_forum_r1/
+arena/runs/*/turns/*/*/sandbox/
+arena/runs/*/turns/*/*/claude-config/

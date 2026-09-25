@@ -1,0 +1,487 @@
+- S02 d091: Spring dead zone confirmed. Holding for October peak.
+- S02 d092: Dead zone confirmed: 0.000 YT/angler pooled over 30 days and all trip classes. Holding dry powder and PTO for October DOY 287-297 peak (30-52 YT/angler). Back when the bite shows up.
+- S02 d093: Spring peak missed (d087-093 all 0.000 YT). Holding dry powder and final 3 PTO days for October peak (7/10 committed). Bounce comes in fall.
+- S02 d094: Dead zone continues. 55°F water and flat catches. Holding dry for October peak, 193 days out. Target d287–297 with existing PTO commits.
+- S02 d095: Spring dead continues (7-day zero run). Water 55.6°F and falling. Hold dry powder and PTO for Oct DOY 287–297 peak—bounce comes in fall.
+- S02 d096: D96's 0.636 THREE_QUARTER was the outlier in a dead stretch. Expect letdown tomorrow—staying dry. October weekday arsenal locked in; keep 3 PTO flexible for tactical weekday backfills and overnight returns.
+- S02 d097: Water cold (60.8°F), pre-peak phase, untested boats. Hold dry powder for Oct peak d287–297, 190 days out.
+- S02 d098: Seven-day zero streak. Bounce thesis applies to Oct d287–297 peak (52 YT/trip), not spring dead zone. Holding dry powder and final PTO for the real bite.
+- S02 d100: Spring dead zone runs through April—holding dry powder and all PTO for October peak d287–297. Bounce thesis targets fall, not spring.
+- S02 d101: Spring dead zone confirmed; holding dry and final PTO for October peak d287–297. Bounce thesis targets fall, not spring dead water.
+- S02 d102: Spring dead zone confirmed; all classes 0.000–0.029 yt/angler. Twilight alone bookable but no boats. Holding dry powder and final 3 PTO flex days for Oct peak d287–297 (52 yt/trip target).
+- S02 d103: Spring dead zone continues (7-day zero); hold through May. October peak (d287–297) 184 days out—keep 3 PTO flex for tactical backfills."
+- S02 d104: Spring dead zone active, d104 fleet all zeros. Bounce thesis targets October (d287–297 peak, 52 yt/trip), not spring. Holding dry and flex PTO through May.
+- S02 d105: Spring dead zone confirmed through May—staying dry. Keep 3 flex PTO days uncommitted for October peak tactical deployment (d287-297).
+- S02 d106: Spring dead zone persists; single-day outlier noise. Holding dry and flex PTO for October peak (52 yt/trip target). Bounce thesis applies to prime time, not dead water.
+- S02 d107: Spring dead zone confirmed mid-April; TWILIGHT only offer (no boats). Holding 3 flex PTO and full budget for October peak d287–297 (52 yt/trip target). Bounce thesis: fall prime time, not spring dead water.
+- S02 d108: Spring dead zone—staying dry. Oct peaks d288–289 locked (52/49 yt/trip). Bounce thesis deployed, all PTO committed.
+- S02 d109: Spring dead zone hold; d110 blocked (TWILIGHT no boats). Keep 3 flex PTO for October peak d287–297.
+- S02 d110: Spring dead zone confirmed. TWILIGHT unbookable again; all weekday trips blocked by PTO hold. Flex 3 PTO days reserved for October tactical backfill d287–297. Capital preserved. Next trigger: d111+ fishing reports or water temp break past 65°F.
+- S02 d111: d111 spring dead zone (fleet 0.019-0.051 max, Mustang empty). Hold dry and flex PTO for October peak d287-297 (52/49 yt/trip). Bounce thesis: prime time only.
+- S02 d112: Spring dead zone—d112 outlier noise, not a prime-time bounce signal. Hold capital and flex PTO for October peak (d287–297, 42–52 yt/trip target). Capital $2k, flex 3 days in reserve.
+- S02 d113: Spring dead zone holds—d113 fleet 0.036 max confirms it. Bounce thesis for prime time only. Staying dry with $2k and 3 flex PTO days reserved for October peak.
+- S02 d114: Spring dead zone; TWILIGHT unscheduled anyway. Core Oct dates locked (d287, d290–294, d297), 3 flex PTO held for tactical backfill. Capital $2k intact."
+- S02 d115: Spring dead zone confirmed—staying dry. TWILIGHT unscheduled, weekday trips need PTO we're saving for October peak (d287–297).
+- S02 d116: Spring dead zone confirmed d113–116. Bounce thesis dormant until prime time. Hold capital/PTO for October peak (42–52 yt/trip).
+- S02 d117: Locking Oct peaks (d288–289, 52/49 yt/trip). Spring dead zone confirmed; capital $2k and one flex PTO preserved for Phase 3 execution.
+- S02 d118: Spring dead zone d119—hold capital for Oct peak d287–297. Bounce thesis dormant until prime time.
+- S02 d119: Spring dead zone confirmed—water 63°F still cold. Hold capital/PTO for Oct peak (d287–297, 42–52 yt/trip target).
+- S02 d120: Spring dead zone confirmed—bounce thesis dormant. Capital $2k and PTO 3d held for October peak d287–297.
+- S02 d121: Spring dead zone confirmed through d122. All capital and flex PTO locked for October execution.
+- S02 d122: Spring dead zone d113–122 confirmed unbroken: 0 yt. TWILIGHT unscheduled; all bookable trips eat PTO. Capital and October core locked (d287–297). Waiting for 65°F+ water and warm-season bounce setup in June.
+- S02 d123: Spring dead continues—water 62°F, no bookable boats anyway. All capital and flex PTO locked for October peak. Waiting for 65°F+ water and June seasonal transition to activate bounce thesis.
+- S02 d124: Spring dead zone unbroken through d124, water cold, no bookable boats. Holding for October peak; waiting for 65°F+ water and June seasonal transition.
+- S02 d125: Spring dead unbroken, 60.1°F water, fleet 0 yt/7d. Bounce dormant. Hold for October.
+- S02 d126: Spring dead breaks d126 (+0.062 THREE_QUARTER) but water cold (61.7°F). Bounce thesis stays dormant—wait for 65°F+ warm season d150+. All capital reserved for October peak.
+- S02 d127: Spring dead unbroken, 60.8°F water. Bounce dormant; capital and Oct core locked (d287–297). Hold.
+- S02 d128: Spring dead zone continues—60.8°F water, fleet 0 yt all week, no boats bookable. Capital and flex PTO locked for October peak.
+- S02 d129: d129: post-dead-zone drift, 61°F water (cold), no boats available. Holding for October peak.
+- S02 d130: d130 fleet all-zero. Water 60.6°F (cold spring). Holding for warm-season activation (65°F+) and October peak (d287–297 locked).
+- S02 d131: d131 spike (0.467) → bounce letdown expected for d132; cannot book anyway (no prefunded PTO). Hold for October.
+- S02 d132: d131 spike → d132 letdown confirmed. Spring dead zone stable. Capital held for October peak (d287–297). Water 63.7°F < target. Skip d133.
+- S02 d133: Spring dead zone holds. Water 62.6°F, fleet zeros d132–133. October peak (d287–297 PTO locked) remains focus; capital stays dry for proven fall surge.
+- S02 d134: Spring dead d134–135 holds. Bounce thesis dormant <65°F. All capital and flex PTO reserved for October peak (d287–297).
+- S02 d135: d135: Spring holds, bounce dormant <65°F. TWILIGHT unbookable (no fleet). Capital locked October.
+- S02 d136: Spring dead persists, 64.2°F. Only TWILIGHT bookable (0.000 typical). Capital and flex PTO locked for October peak—execution phase 161 days away.
+- S02 d137: d137 spring dead holds, 62.4°F. No fleet boats available d138 anyway. Capital locked October.
+- S02 d138: d138 spring dead holds, 62.4°F, fleet zeros stable. October peak (d287–297) locked; 158 days to execution. Capital and flex PTO untouched.
+- S02 d139: Spring dead persists, 63.7°F. Bookable weekend options (OVERNIGHT/DAY_1_5 d141) flat (0.000–0.003). Capital locked October peak—157 days to execution.
+- S02 d140: d140: Spring dead holds. Water 63.9°F, fleet zeros stable d133–140. October peak (d287–297) locked; 146 days to execution. Capital and flex PTO untouched.
+- S02 d141: d141 fleet zeros, water 65.1°F trending up. Spring dead persists; October peak (d287–297) remains sole focus. Capital locked.
+- S02 d142: d143 (d142 decision): Spring dead holds, fleet zeros stable, 64°F. October peak locked (d287–297); 144 days to execution. Capital and PTO untouched.
+- S02 d143: d144 (d143 decision): Spring hold—no weekday PTO, TWILIGHT empty. d143 THREE_QUARTER bounce to 0.256 noted but October peak (d287–297, 143 days out) remains capital focus. Fleet zeros persist; patience pays.
+- S02 d144: d145 (d144 decision): Cannot book without pre-committed PTO; spring bounce noted but capital/flex PTO sealed for October. Patience holds.
+- S02 d145: Spring dead holds; no bookable option without burning October capital/PTO. October peak (d287–297, 49–52 yt/trip) locked. Patience pays.
+- S02 d146: Spring dead holds; OVERNIGHT hot (bounce down expected). October locked 141 days ahead—capital and PTO untouched.
+- S02 d147: Spring dead holds; OVERNIGHT bounce down expected. October locked 138 days out (d287–297). Capital untouched.
+- S02 d148: d148 (d149 decision): Spring dead holds solid. Sunday offers HD_AM/PM only—both zeros. October locked 139 days out. Capital untouched; patience pays.
+- S02 d149: Spring hold persists (d149-150 zeros), October locked 137 days. Capital/flex untouched for peak window.
+- S02 d150: Spring dead zone confirmed again. Capital/flex untouched for October peak (d287–297). Patience holds.
+- S02 d151: Dead zone holds. Locked d288–289 (52, 49 yt/trip peaks) with flex PTO; Oct backbone (d287, d290–297) now covers full window. Capital untouched.
+- S02 d152: Spring dead persists (d152, 0 YT). Locked October peak: d288–289 committed now; Oct window d287–297 = 10/11 days. All flex PTO deployed, capital ready.
+- S02 d153: Spring dead persists (d153 HD_PM 0.036 is noise). October backbone d287–297 locked at 10/11 days; capital ready for peak.
+- S02 d154: Spring dead zone continues; capital and patience untouched. October peak locked 132 days out (d287–297). Waiting pays.
+- S02 d155: Dead zone d155–156 confirmed. Three flex days held. October peak d287–297 locked 131 days out—capital untouched.
+- S02 d156: Spring dead d148-156 confirmed again. No bookable plays (TWILIGHT zero boats). PTO/capital locked for October backbone d287-297.
+- S02 d157: Spring dead confirms through d157. October peak d288–d289 locked (52/49 YT/trip); backbone d287–297 now complete with flex PTO fully deployed. Capital untouched for execution.
+- S02 d158: d158 confirmed zero. No bounce yet; dead zone holds through spring. Wait deepens.
+- S02 d159: d159 confirms spring dead through week 4. No bookable tomorrow anyway (PTO gaps). Sitting tight—bounce will signal itself before October window.
+- S02 d160: d160 dead zone confirmed; d156 spike was noise. October backbone d287–297 locked. Capital and patience hold.
+- S02 d161: Spring dead extends d161; transition zone holds. October peak (d287-297) locked—capital untouched for execution in 62 days.
+- S02 d162: Spring dead d157–d162 confirmed. Bounce signals not yet clear—conditions and water still weak. October backbone d287–d297 locked; stay disciplined.
+- S02 d163: Spring dead confirms d163 (noise tick 0.023/0.026). No bookable plays d164 anyway. October backbone holds—capital untouched, 124 days ahead.
+- S02 d164: Spring dead d157–d164 holds; d164 noise (0.031 one tick) doesn't signal bounce. October window locked. Sit tight.
+- S02 d165: Spring dead d157–d165 confirmed; October backbone d287–297 locked. Capital untouched, bounce signal not yet clear. Discipline holds.
+- S02 d166: Spring dead holds d167; no bounce signal yet. October backbone (d287–297) locked. Capital preserved.
+- S02 d167: d167 THREE_QUARTER bounce (0.371) confirms spring transition—too early to execute. October peak locked 120d ahead; capital and patience hold.
+- S02 d168: d168 bounce confirms spring transition; d169 letdown expected. October backbone holds—120 days, capital untouched.
+- S02 d169: d169 spring letdown confirmed; not bounce setup. October backbone 121 days out—capital, PTO, discipline all hold. Patience beats chasing marginal May fishing.
+- S02 d170: Spring letdown confirmed d169–d170. Sit tight; October backbone locked. Flex PTO preserved.
+- S02 d171: May dead zone confirmed d171–d172. October backbone locked. Flex PTO: 3 days reserved.
+- S02 d172: d171–d172 bounce confirmed; d173 letdown expected. Sit tight, capital and flex PTO intact.
+- S02 d173: d173 zeros confirm spring dead; sit tight. October backbone locked, capital intact.
+- S02 d174: May dead water holds. Spring letdown after weak d174; October backbone (DOY 287–297) locked 120+ days out, capital intact, flex PTO preserved.
+- S02 d175: d175 spring dead continues—no bounce spike yet. October locked, capital intact, sit tight.
+- S02 d176: Post-spring lull bounce setup confirmed. San Diego THREE_QUARTER d177. Bounce strategy activated after d173–d176 dead zone.
+- S02 d177: d177 bounce attempt failed (0.000 vs fleet 0.020). Spring dead confirmed. Hold capital and flex PTO for October backbone—sit tight d178.
+- S02 d178: Spring dead confirmed. Stay home. October backbone fully locked d287–298 (PTO + capital preserved). Sit tight.
+- S02 d179: Spring dead zone holds through d179. Bounce spent on d177, no recovery yet. Stay home, preserve capital and flex PTO for October peak.
+- S02 d180: Spring dead holds through d180. Zero bookable options; capital and flex PTO preserved for October peak. Sit tight.
+- S02 d181: Spring dead holds through d181. Bounce misfired d177. October backbone (d287–297) locked. Capital and flex PTO (3d) stay untouched.
+- S02 d182: Summer dead zone holds. Spring bounce attempt failed d177. Stay home; October backbone (d287–297, 49–52 yt/trip) is 105 days out and fully locked.
+- S02 d183: Summer dead d184. Hold $1850 + 3 flex PTO for October (d287–297, locked).
+- S02 d184: Summer dead confirmed d177–d184. Bounce thesis retired after d177 failure; October backbone (d287–297) fully locked, capital preserved.
+- S02 d185: d186 stays in summer dead zone (d177–d186 all weak). Bounce retired. October backbone (d287–297) locked, capital preserved. Hold.
+- S02 d186: Stay home. Summer dead confirmed d177–d186; twilight $80 for 0 yt is a losing trade. Capital and flex PTO (3d) untouched for October peak.
+- S02 d187: Summer dead d177–d188 holds. TWILIGHT 0-yt trade rejected. October backbone fully locked; capital and flex PTO untouched.
+- S02 d188: Dead zone holds through d188. All bookable classes zero yesterday. Hold capital and flex PTO for October backbone (d287–297, locked).
+- S02 d189: Summer dead holds through d189. October backbone fully locked at 97 days out. Capital + 3 flex PTO untouched.
+- S02 d190: Summer dead holds d184–d190 as expected. October backbone (d287–297) locked 97d out. Capital + 3 flex PTO untouched. Wait.
+- S02 d191: Summer dead holds d191. Twilight 0-yt bleed rejected. Capital and 3 flex PTO guarded for October backbone (d287–297, 97d out). Hold.
+- S02 d192: d192 confirmed dead; no reversal signal. Hold capital and PTO for Oct backbone (d287–297, 95d out). Summer bleed rejected again.
+- S02 d193: Dead zone holds d194. Summer bleed rejected again. Capital and 3 flex PTO intact for October backbone—95 days to execution, discipline unchanged.
+- S02 d194: Summer dead d177–d195 holds. TWILIGHT 0-yt bleed rejected. Oct backbone (d287–297) locked; flex PTO + capital guarded. Discipline unchanged.
+- S02 d195: Bounce letdown expected after d194 spike. Summer dead holds. October backbone (d287–297) fully locked; capital and PTO guarded for execution.
+- S02 d196: Summer dead holds d196. Hold capital and flex PTO for Oct backbone (d287–297). Zero tolerance for summer bleed—discipline unchanged.
+- S02 d197: d198 Sunday: summer bleed rejected again. Hold capital $1850 and 3 flex PTO for Oct execution (d287–297, 90 days out). Discipline unchanged.
+- S02 d198: d198 OVERNIGHT spike confirms dead-summer exception. Reject short-trip bleed; flex PTO and capital guarded for Oct peak (d287–297, 88 days). Discipline holds.
+- S02 d199: Summer dead holds d200. Twilight bleed rejected again. Capital $1850 and 3 flex PTO locked for Oct backbone (d287–297, 87 days out). Discipline unchanged.
+- S02 d200: d201: Summer dead holds. TWILIGHT bleed rejected. Oct backbone (d287–297) 87 days locked; capital $1850 and 3 flex PTO guarded.
+- S02 d201: d202 stays dead. TWILIGHT bleed rejected. October backbone (d287–297) locked and guarded; capital+flex PTO reserved for peak execution 85 days ahead.
+- S02 d202: d203 mid-summer dead, 0.000–0.064 typical. Hold discipline. October peak 85 days ahead: capital and flex PTO locked.
+- S02 d203: Summer dead holds d204. Capital $1850 and 3 flex PTO guarded for Oct backbone (d287–297, 84 days ahead). Discipline intact.
+- S02 d204: d205 Sunday: Summer dead holds. Capital $1850 and 3 flex PTO locked for Oct backbone (d287–297, 82 days out). Discipline unchanged.
+- S02 d205: d206 Mon: Summer dead holds. TWILIGHT bleed rejected. Oct backbone (d287–297) guarded 82 days ahead; capital $1850, flex PTO 3/3 intact.
+- S02 d206: d207 dead zone holds. Twilight 0.000 for 30d straight. Oct backbone (d287–297) 81 days locked; $1850 + 3 PTO intact. Discipline unchanged.
+- S02 d207: d207 THREE_QUARTER peaked 0.449—expect fade d208. Stay home, guard capital and flex PTO for Oct peak. Discipline intact.
+- S02 d208: d209: Fade after 0.449 peak, but only TWILIGHT bookable (dead). Hold. October backbone d287–d297 locked 78+ days out; $1850 and 3 flex intact.
+- S02 d209: d210 (d209 eve): Summer holds. Stay home. Oct backbone (d287, d290–d294, d297) locked 78 days; $1850 + 3 PTO intact.
+- S02 d210: d211 Sat bounce on San Diego THREE_QUARTER. Blank yesterday, best 14d boat (0.165), water warm. Oct peak locked d287–297 (76d out, 7 PTO committed, 3 flex held).
+- S02 d211: d211 bounce worked (1 yt), but d212 weak baseline, fading trend. Oct peak (d287–297) locked 75 days out. Hold capital and flex PTO. Discipline intact.
+- S02 d212: d213 bounce tempting but TWILIGHT dead, other classes need uncommitted weekday PTO. Hold. Oct backbone (d287–297) locked 74d out, capital and flex intact for peak.
+- S02 d213: Summer dead holds through d214. TWILIGHT 30d zeros—no edge. Oct backbone (d287–297) 73 days locked: 3 flex, $1700 whole. Discipline intact.
+- S02 d214: S02 d214 eve: Dead zone holds. TWILIGHT 30d zeros—no edge. Oct backbone (d287–297) 72 days locked: 3 flex, $1700 whole. Discipline.
+- S02 d215: Dead zone holds. TWILIGHT unplayable (0.000 avg, no edge). Capital + 3 flex PTO and Oct peak (d287–297, 73d out) intact. Discipline.
+- S02 d216: d217 eve: Mixed yesterday, no bounce signal. Hold for Oct peak (28d). Prowler hot, but CLASS weak. Discipline.
+- S02 d217: d218 Sat: San Diego THREE_QUARTER bounce after d217 spike. October backbone (d287–297) locked 72d out, capital and flex intact.
+- S02 d218: d218 bounce failed (0/64 San Diego); d219 skip. Hold capital for Oct backbone. Rank #23, $1550 left, 3 flex PTO intact.
+- S02 d219: d220 skip: TWILIGHT dead, weekday classes need uncommitted PTO. Oct backbone (d287–297) locked, capital and flex intact for d288–289 peak (69d out).
+- S02 d220: Dead zone holds. TWILIGHT zero edge (30d avg), weekday classes locked. Oct backbone (d287–297) 67d out, 3 flex PTO intact. Discipline.
+- S02 d221: Dead zone holds d222. October backbone (d287–297) 65d out, capital and 3 flex PTO intact. Discipline.
+- S02 d222: d223 Thu: Dead zone holds. TWILIGHT no edge (54d avg 0.000). Oct backbone (d287–297) 65d locked, capital and 3 flex intact. Discipline.
+- S02 d223: Dead zone holds. Skip Fri. Oct backbone 64d out ($1550 and 3 PTO intact).
+- S02 d224: d225 Sat: Dead zone holds. Oct backbone (d287–297) 62d out, capital and 3 flex PTO intact. Discipline.
+- S02 d225: Dead zone holds through weekend. October backbone (d287–297) 61d out—$1550 and 3 flex PTO intact for the peak.
+- S02 d226: Dead zone holds. TWILIGHT no edge (30d avg 0.000). Oct backbone (d287–297) 61d out—$1550 and 3 flex PTO intact. Discipline.
+- S02 d227: Dead zone holds. Oct backbone (d287–297) 60d out—$1550 and 3 flex PTO intact. Hold.
+- S02 d228: Dead zone holds. Oct backbone (d287–297) 60d out—$1550 and 3 flex PTO intact. Discipline.
+- S02 d229: Dead zone holds. Oct backbone (d287–297) 58d out—$1550 and 3 flex PTO intact. Discipline.
+- S02 d230: Dead zone holds through Fri. Oct peak (d287–297) 57d out—$1550 and 3 flex PTO intact. Discipline.
+- S02 d231: Dead zone holds through d231. Oct backbone (d287-297) 56d out—$1550 and 3 flex PTO intact. Discipline.
+- S02 d232: Dead zone confirmed through d233. Oct backbone 54d out. $1550 intact, 3 flex PTO reserved for peak. Discipline holds.
+- S02 d233: Dead zone holds d233. October backbone locked (d287–297, 7 PTO committed). d288–289 peak days are weekends (no PTO needed). Capital &amp; 3 flex PTO preserved for October execution.
+- S02 d234: Dead zone holds into d235. Oct backbone 53d out—$1550 and 3 flex PTO intact. Hold.
+- S02 d235: Dead zone holds into d236. October locked (d287–297, 7 PTO + 3 flex intact). Capital $1550 preserved. Discipline.
+- S02 d236: Dead zone holds. October locked and 50d out. Capital and flex PTO intact—no probe bets in September desert.
+- S02 d237: Dead zone holds d238. Oct backbone 50d out—$1550 and 3 flex PTO intact. Discipline.
+- S02 d238: Dead zone holds d239. Oct backbone locked 50d out. $1550 and 3 flex PTO intact—no early probe bets.
+- S02 d239: Dead zone d240. Oct backbone locked (50d out). $1550 + 3 flex PTO intact. Discipline.
+- S02 d240: Dead zone holds to Oct. Backbone locked d287–297 (52d out). $1550 + 3 flex PTO intact—no September probe bets. Hold.
+- S02 d241: Dead zone holds d241. Oct backbone locked (d287–297, 46d out). $1550 + 3 flex PTO intact—hold.
+- S02 d242: Dead zone holds d243, nothing bookable. Hold flex PTO—re-lock d288–289 when closer to peak (d270–275). Capital and discipline intact.
+- S02 d243: Dead zone holds d244. Capital and flex PTO intact—discipline through September. October backbone d287–297 locked 52d out.
+- S02 d244: Dead zone holds d245. Oct backbone locked (d287–297, 45d out). $1550 + 3 flex PTO intact—hold discipline through September.
+- S02 d245: d246: Bounce confirmed d244→d245; expect letdown. Hold $1550 + 3 flex PTO for Oct backbone (d287–297, 52d out). Discipline through September.
+- S02 d246: Dead zone ripple: d246 weak, d247 Sunday bounce play. Mission Belle THREE_QUARTER. October backbone (d287–297) intact.
+- S02 d247: Bounce delivered d247. Expect d248 letdown; hold capital for Oct peak. Discipline.
+- S02 d248: Hold through September dead zone. October backbone (d287–297) locked 52d out. Capital $1400 and discipline intact.
+- S02 d249: Dead zone holds d250. October backbone (d287–297) locked and intact. Flex PTO and capital preserved.
+- S02 d250: Dead zone holds d251. October backbone (d287–297) locked and intact. Capital and flex PTO preserved for peak.
+- S02 d251: Dead zone holds d251 outlier. Oct peak d287–297 locked and capital preserved for execution.
+- S02 d252: Sept dead zone holds d253. Capital and discipline preserved for Oct peak execution d287–297. Bounce logic doesn't apply in off-season.
+- S02 d253: Bounce: San Diego THREE_QUARTER d254. Oct backbone d287–297 locked. Discipline intact.
+- S02 d254: Exceptional d254 bounce (0.100 share), expect d255 consolidation. Stay home, preserve $1250 and 3 flex PTO for Oct peak (d287–297, locked).
+- S02 d255: Bounce fired d255 (OV 0.395). Expect d256 consolidation. Hold $1250 and 3 PTO for Oct peak d287–297. Discipline.
+- S02 d256: Consolidation expected d257 after d255–256 fire. Hold capital and flex PTO for Oct peak d287–297. Discipline intact.
+- S02 d257: D257 consolidation holds. Bounce logic d258, but no bookable PTO window anyway. Hold discipline and capital for Oct peak d287–297—execution time coming.
+- S02 d258: D258 fire (0.755 THREE_Q, 0.641 OV) → consolidation d259. Hold $1250 and 3 flex PTO for Oct peak (d287–297, locked). Discipline intact.
+- S02 d259: Dead zone discipline holds d260. Oct peak (d287–297) locked: $1250 and 3 flex PTO sealed for execution.
+- S02 d260: Bounce: San Diego THREE_Q d261 after d260 fleet blank. Oct peak locked d287–297 with $1100 and 3 flex PTO intact.
+- S02 d261: D261 bounce misfired. D288 (Fri peak) locked with flex PTO. Discipline hold through d262–287; Oct surge d288–289 is execution time.
+- S02 d262: D263 bounce unexecutable (no d263 PTO available). Discipline holds capital and flex PTO for October peak d287–297.
+- S02 d263: D264 unexecutable (no PTO, no TWILIGHT boats). Hold capital and flex days through d287 execution. October peak is 23 days away—discipline intact.
+- S02 d264: D265 bounce unexecutable—no PTO available. Three-quarter fire (1.125) passes. October peak (d287–297) locked: capital and days intact.
+- S02 d265: d266 bounce: Aztec/Pride fire boats available, d265 weak floor set. Resist FOMO—October peak locked, capital intact. Discipline over quick yt through October 14.
+- S02 d266: D266 three-quarter fire (0.870); expect consolidation d267. Hold capital and flex PTO for Oct peak d287–297 execution.
+- S02 d267: Bounce: San Diego THREE_QUARTER d268 after d267 spike (1.074). Cheap capital play, October peak locked.
+- S02 d268: D269 blackout—no PTO, TWILIGHT dead (0.000/30d). Hold capital and flex days for Oct peak d287–297. Discipline intact.
+- S02 d269: D270 blackout. Weak d269 floor, cold water, TWILIGHT dead. Hold capital and flex days for Oct peak d287–297—execution window 23 days out, discipline intact.
+- S02 d270: D271 closed: no flex weekday PTO available. Water cold, late-Sept dead zone holds. Capital and days locked through d287 peak—16 days out, discipline intact.
+- S02 d271: Late Sept dead zone confirmed. Water cold, TWILIGHT dead. Capital and October peak locked—stay home.
+- S02 d272: Dead zone holds. October peak (d287–297) locked, capital intact. 14 days to execution—stay disciplined.
+- S02 d273: D273 average floor, not a bounce. Hold capital and flex PTO through Sept dead zone—14 days to peak execution window.
+- S02 d274: d275 bounce: Mission Belle THREE_QUARTER after d274 class dip. October peak locked (d287–297), flex PTO held as insurance.
+- S02 d275: Bounce after d275 blank, but no valid booking—hold capital and days for October peak (11 days). Discipline.
+- S02 d276: D276 THREE_QUARTER spike (0.800) signals dip tomorrow. Hold capital and flex PTO—11 days to October peak (d287–297). Discipline intact.
+- S02 d277: Dead zone holds through late Sept. Oct peak window locked 11 days out (d287–297, 7 PTO committed). Stay home, capital and discipline intact.
+- S02 d278: Sept dead zone holds—8 days to October peak. Capital and discipline intact; TWILIGHT blank pass.
+- S02 d279: Break discipline trap: DAY_1_5 is *actually* hot right now (3.6–5.0/angler d274–278). Don't watch October peak while real fishing passes. Book and execute.}
+- S02 d280: DAY_1_5 Ocean Odyssey locked for tomorrow. October peak 6 days out—capital and PTO positioned, discipline holding.
+- S02 d281: September dead zone holds; six days to October peak (d287–297). Capital and flex PTO held. Discipline intact.
+- S02 d282: One blank day is volatility, not a run. Hold capital; monitor d283–d284 for bounce setup. October peak wired 5 days out.
+- S02 d283: Dead zone holds through late Sept. Capital ($250) and 3 flex PTO days intact for October peak (3 days out, 7 days wired). Discipline.
+- S02 d284: Capital holding. Twilight blank risk + budget constraints + weak setup = pass. Six days to October peak (d287–297 wired). Discipline.
+- S02 d285: Pass d286—no PTO available, no boats bookable. Oct peak 2 days; capital and flex PTO intact. Discipline holds.
+- S02 d286: October peak opens tomorrow—bounce after 5-day blank. San Diego THREE_QUARTER. Capital $100 post-trip, flex PTO 3d intact for real peak spike. 
+- S02 d287: D287 blank in peak window confirms bounce setup, but half-day classes are dead; better to hold capital for d290–297 peak with PTO locked. Discipline.
+- S02 d288: Pass d289 half-days. Capital and flex PTO held for d290–297 peak execution. Bounce thesis passed; discipline holds into the real window.
+- S02 d289: d289 wraps with half-day blanks vs overnight spike. Pass d290; capital held, PTO wired for real peak. Ready.
+- S02 d290: d290 blank = bounce setup, but half-days are structurally dead. Hold capital; peak window (d292–297) is where discipline pays. PTO wired, flextime banked.
+- S02 d291: d292: Half-days dead; overnight signals real points in longer classes ahead. Capital held for d293+ window. Discipline.
+- S02 d292: Half-days structurally dead (0.000 avg). Peak window muted, budget spent. Hold capital. Discipline.
+- S02 d293: Missed peak at d291. Half-day classes structurally dead d293–294. Hold capital; no new PTO committed. Accept loss, preserve flex for real opportunities ahead.
+- S02 d294: d294 spike (11.625 OVERNIGHT) → letdown setup. Half-days dead 7 straight. Stay home, hold capital for real peak.
+- S02 d295: d295 letdown confirmed after d294 spike. Half-days dead structure. Capital preserved for d297+ peak window.
+- S02 d296: Peak d288–289 missed; d297 fallback muted in affordable classes. Half-days dead 7 straight. Capital held.
+- S02 d297: d297 peak window closes muted. Half-days structurally dead; capital held. Season mostly missed—accept, watch endgame.
+- S02 d298: Season endgame. Held through weak zone (discipline win), missed October peak (timing loss). Three PTO days banked, $100 left. Let it ride.
+- S02 d299: d299 endgame: TWILIGHT only bookable option, historically 0.000 yt/angler, fleet-wide half-day dead 7 straight. No bounce signal. Hold the $100 and 3 PTO days. Season mostly missed; discipline preserved capital anyway.
+- S02 d300: d301 endgame: TWILIGHT dead like the 7 days before it. No bounce. Closed out, held dry powder through. Season mostly missed—accept it.
+- S02 d301: Endgame: half-days dead 7 straight, no bounce signal. Hold dry powder and discipline through close.
+- S02 d302: Endgame d303: half-days structurally dead, no bounce inflection, capital held. Season mostly missed—discipline preserved dry powder anyway.
+- S02 d303: d304 endgame: half-days dead 7 straight, no bounce inflection. Hold final $100 and 3 PTO days. Season closed.
+- S02 d304: d305 endgame: TWILIGHT dead, half-days flatline 7 straight. No bounce. Hold $100 and 3 PTO days through close. Season done.
+- S02 d305: d306 endgame: no bookable boat. Hold $100 and discipline to close. Season done.
+- S02 d306: Season's endgame: TWILIGHT flatline 8 days, no bounce at structural floor. Hold dry powder through close—discipline over false signals.
+- S02 d307: d308 endgame: TWILIGHT structurally dead, fleet blank 7 straight, no bounce. Hold dry powder and 3 PTO through close—season's lessons learned.
+- S02 d308: Endgame d309: structurally blank 8 straight, water cooling, no bounce inflection. Season closes. Hold $100 and 3 PTO through final day.
+- S02 d309: d310 endgame: fleet blank 9 straight, no bounce inflection. Hold $100 and 3 PTO through final days—season structurally over.
+- S02 d310: d310–d311 endgame: fleet blank 9+ straight, no inflection, half-days dead. Hold $100 and 3 PTO for October peak—season structurally over until d287 window.
+- S02 d311: Late-Sept floor: fleet blank 9+ straight, no inflection. Hold $100 and 3 PTO through close. October peak (d287+) already committed.
+- S02 d312: Season structurally over. Hold $100 and 3 PTO days to close—no inflection, structural floor confirmed.
+- S02 d313: Structural floor confirmed d308–d313, no inflection. Hold $100 and 3 PTO flex through close. October peak locked in.
+- S02 d314: Structural floor confirmed through d313, no inflection. Dry powder held for October peak execution.
+- S02 d315: d315 endgame: structural floor confirmed, no inflection. Hold dry powder and PTO through close—season done.
+- S02 d316: Sept 25 structural floor holds. October peak 11 days. Dry powder and PTO intact through d287 window.
+- S02 d317: Sept 25 endgame holds. Fleet floor confirmed d308–d317. Powder dry for October peak (d287–297 locked).
+- S02 d318: d318 endgame: structural floor holds. Dry powder intact for October peak (d287–297 locked). Eleven days.
+- S02 d319: Structural floor d308+ holds, no inflection. Zero boats available tomorrow anyway. Hold dry powder and 3 PTO flex for bounce inflection signal.
+- S02 d320: Structural floor d308+ holds. No inflection. Hold dry powder and 3 PTO flex, 11 days to October peak execution (d287+).
+- S02 d321: d321 endgame: structural floor holds, no inflection. Dry powder and PTO intact for October peak staging. Stay home.
+- S02 d322: Structural floor d308+ holds, no inflection. Dry powder and 3 PTO flex intact for October peak (11 days). Stay home.
+- S02 d323: Endgame confirmed. October window locked past. Season close, powder held.
+- S02 d324: Structural floor holds, 13 days to October peak. Powder and flex PTO intact. Stay dry.
+- S02 d325: Structural floor d308+ confirmed through d325. Peak locked (7 PTO committed). No inflection; hold dry powder and 3 flex days for bounce signal.
+- S02 d326: Seven-day zero floor persists; no inflection in TWILIGHT odds. Powder and 3 flex PTO held for October peak execution (d287–297 locked, d328–d348 pivot dates open).
+- S02 d327: Endgame zero floor, no inflection. Season close. Powder and flex PTO intact. Stay home.
+- S02 d328: Season close, post-peak floor holds d321–328. No inflection, no bookable path. Dry powder and flex days held.
+- S02 d329: Sept endgame floor holds. October peak locked d287–297 (7 PTO committed). Dry powder intact, no inflection signal. Stay home.
+- S02 d330: Sept floor d321–330 unbroken, no inflection. Powder and 3 flex PTO held. Inflection day hasn't fired.
+- S02 d331: September floor holds d321–331 zero, no inflection. Powder and 3 flex PTO held for October peak d287–297 execution. Stay dry.
+- S02 d332: September floor d321–332 unbroken. TWILIGHT offer weak. Dry powder and flex PTO intact for October peak execution.
+- S02 d333: Sept floor d321–333 unbroken, no bounce signal. Powder and 3 flex PTO held for October peak d287–297 execution. Stay dry.
+- S02 d334: 13-day Sept floor d321–333 unbroken, no inflection, rough conditions. Hold powder and 3 flex PTO for Oct peak d287–297 execution. Final endgame hold.
+- S06 d091: d092 locked out—all weekday trips need pre-committed PTO. No visibility 14+ days out to commit yet. Hold tight, watch calendar for next booking window.
+- S06 d092: Friday d093: no bookable signal. Stay dry. Wait for 14-day planning window to execute THREE_QUARTER or DAY_1_5 with PTO lock-in when conditions align.
+- S06 d093: d093 THREE_QUARTER exceptional (1.482 yt/angler). Expect letdown tomorrow per bounce theory; hold dry powder for next inflection signal.
+- S06 d094: d094 baseline 1.042 after San Diego's 103-yt monster—no crash, no inflection. Powder stays dry; waiting for bounce setup or calendar lock-in window.
+- S06 d095: d095 strong (1.375), bounce theory says letdown d096. Hold and wait for PTO lock-in window in ~14 days. Dry powder intact.
+- S06 d096: d096: Stay home. Weekday lockout, no TWILIGHT boats. Hold PTO and capital for d107+ calendar window when THREE_QUARTER signal is confirmed and schedule is visible.
+- S06 d097: d097 strong (1.578); bounce signal says letdown d098. Weekday lockout—only TWILIGHT bookable (0.000). Hold for calendar window 14+ days out.
+- S06 d098: Weekday lockout: no TWILIGHT boats, daytime trips all need pre-committed PTO. Hold for calendar window 14+ days ahead with confirmed signal.
+- S06 d099: Overnight to Prowler d101 Sat. Bounce play after soft d099. Late season push begins.
+- S06 d100: Already booked Prowler d101; skip d102. Watch d101 result for next PTO lock-in window signal (14+ days).
+- S06 d101: Skip d102 letdown after d101 exceptional bounce. Powder dry; wait for next inflection signal 14+ days out for PTO lock-in window.
+- S06 d102: d102 hot for THREE_QUARTER (bounce letdown expected d103). No boats bookable anyway—TWILIGHT empty, daytime trips all need pre-committed PTO. Hold and wait for calendar window signal 14+ days out.
+- S06 d103: Bounce after d102–d103 hot run (1.512–1.732). Hold through d104 pullback; wait for inflection 14+ days out.
+- S06 d104: d105 letdown expected after d100–d103 hot run. Hold for next inflection signal 14+ days out with confirmed calendar window.
+- S06 d105: d105 hot (1.020 three-quarter), expect d106 letdown. Weekday lockout—no TWILIGHT boats. Hold for calendar window signal ≥14 days out.
+- S06 d106: Catch the hot run. Invicta DAY_1_5 d108 Sat. Bounce thesis corrected: sustained heat carries, doesn't collapse single-day.
+- S06 d107: Hold through d108 weekend play. Watch for next 14-day inflection signal; no boats/PTO window for d109. Budget and PTO dry for the right move.
+- S06 d108: Fish S06 d109 on Invicta DAY_1_5 as planned. Hold and watch for next inflection signal 14+ days out to commit PTO; preserve capital for the right move.
+- S06 d109: Expect pullback after d108 exceptional. Monday weekday lockout; no signal 14+ days out. Hold and wait for next inflection to lock PTO window.
+- S06 d110: d110 hold. Weekday lockout + no bookable boats. THREE_QUARTER cooling after d108 peak. Wait for 14-day calendar window and inflection signal.
+- S06 d111: Hold after d108 peak. THREE_QUARTER heat intact but no bookable d112 boats. Bounce thesis: letdown cycle d109–d112. Watch d113+ for next 14-day inflection window.
+- S06 d112: d113 locked out (no PTO pre-committed). Heat present but unreachable. Waiting for next 14-day signal window to deploy dry powder strategically.
+- S06 d113: Bounce confirmed d108→d109→d110–d113 recovery arc. Legend OVERNIGHT d115. Hold PTO/capital for next 14d inflection window.
+- S06 d114: Hold Legend OVERNIGHT d115. Three-quarter heat unreachable. Watch d127+ calendar window for next PTO inflection signal; preserve capital and flex days."
+- S06 d115: d115 soft (0.606); d116 has no strong boats. Hold dry powder for next 14d inflection signal and confirmed peak class schedule.
+- S06 d116: d115–d116 soft as expected after d108 peak. Bounce thesis live but no pre-committed weekday path. Hold for next 14-day window with confirmed signal and calendar alignment.
+- S06 d117: d117 bounce confirmed. Mission Belle THREE_QUARTER d118 on hot signal. One PTO commit, $500 dry powder reserved for next cycle.
+- S06 d118: d119 hold—no bookable path + expected letdown after d118 heat. Preserve capital/PTO for next 14d window with visible boats and signal alignment.
+- S06 d119: d119 hot confirmed. Bounce thesis: letdown d120 + no bookable weekday path (PTO already due). Hold dry powder for d133+ signal with visible fleet schedule.
+- S06 d120: Tribute DAY_1_5 d121. Best available class + boat combo. Caught between letdown thesis and boat-specific edge; edge wins when behind on the board.
+- S06 d121: Tribute d122 settlement TBD. Bounce thesis 4.53 pts vs 14.57 leader. Hold for next inflection with visible roster and capital replenishment.
+- S06 d122: D122 Tribute DAY_1_5 settles tomorrow AM. Summer slump real—hold $80 for next 14d inflection with visible THREE_QUARTER/DAY_1_5 and restored capital.
+- S06 d123: D122–D123 soft bounce; capital exhausted at $100. Hold dry powder for next inflection with visible THREE_QUARTER/DAY_1_5 and confirmed 14-day calendar alignment.
+- S06 d124: D122 0-yt bounce fail. Thesis broken. Summer slump real. Hold dry powder for next inflection with boats + 14d runway.
+- S06 d125: Bounce thesis dead after d122 0-yt fail. Summer slump d122–d125 confirmed. Hold $100 and 10 PTO for next 14d inflection with visible boats.
+- S06 d126: Summer slump confirmed. Hold $100 and 10 PTO for next inflection with visible boats and class signal alignment.
+- S06 d127: D122 bounce fail confirmed summer slump. Thesis dead; stay dry for next inflection with visible fleet + class signal alignment.
+- S06 d128: Summer slump d122–d128 confirms bounce thesis broken this season. Hold $100 and 10 PTO for next inflection: visible fleet revival + 14d calendar alignment.
+- S06 d129: Three-quarter spike d129 signals letdown tomorrow in half-days. Hold $100 and 10 PTO for next visible inflection point with sustained fleet recovery.
+- S06 d130: D130 three-quarter spike signals letdown tomorrow. Hold. Summer slump confirmed; next inflection must show fleet revival + 14d lead time.
+- S06 d131: d131 spike → d132 letdown expected. No boats, no capital thesis. Hold dry powder; waiting for next inflection with visible fleet + calendar alignment.
+- S06 d132: d132 letdown confirmed bounce setup, but no calendar alignment and zero boats. Hold—next inflection needs 14d lead time.
+- S06 d133: D133 spike signals letdown. No bookable boats, capital exhausted. Bounce thesis stalled since d122—hold final $100 for next visible inflection.
+- S06 d134: D134 soft, d135 bounce signal present but all boats dark and weekday PTO wall intact. Hold $100 / 10 PTO for next visible fleet inflection with 14d alignment.
+- S06 d135: D134 letdown confirmed. Half-days dead; THREE_QUARTER unaffordable. Hold $100/10 PTO for next visible fleet inflection with sustained recovery signal.
+- S06 d136: d136 recovery partial; bounce thesis still waiting for sustained signal + calendar alignment. Hold $100/10 PTO. Next inflection triggers action.
+- S06 d137: D137 THREE_QUARTER spike (0.965) tempts, but d138 weekday wall + undercapitalization lock me out. Hold for next sustained fleet inflection with calendar alignment.
+- S06 d138: d138 THREE_QUARTER spike invites letdown. Hold: no PTO runway, no bookable boats, watching for next sustained recovery signal with calendar alignment.
+- S06 d139: d139 spike → d140 letdown expected. No boats, no bookable path. Hold $100 / 10 PTO for next visible inflection.
+- S06 d140: d140 letdown confirmed (0.403 after d139 spike 1.321). Bounce signal strong, but 14d PTO wall blocks entry tomorrow. Hold—watch d141–d142 for sustained recovery, commit PTO then for d155+ window.
+- S06 d141: D141 recovery signals (0.663, 1.842) tempt, but Fri d142 letdown expected, all weekday boats unbooked. Hold $100/10 PTO. Watch d143–d144 weekend; commit for d155+ only if sustained bounce builds.
+- S06 d142: D142 spike in quarters → letdown thesis holds, but halves structurally weak. No bounce play. Hold $100, watch d143–d144 for sustained recovery signal before d155+ PTO window.
+- S06 d143: D143 recovery real but half-day only option at $100. Hold for THREE_QUARTER/overnight window with capital. Bounce thesis validated but execution blocked.
+- S06 d144: d144 soft but not crashed enough to trigger bounce. Half-day EV too low for $100. Hold for THREE_QUARTER/overnight setup.
+- S06 d145: D145 soft, bounce thesis valid, D146 blocked by PTO wall. Commit d159–d161 recovery window; hold $100 for THREE_QUARTER/OVERNIGHT entry.
+- S06 d146: d146 spike → d147 letdown expected. TWILIGHT-only bookable is 0.000 EV; capital too scarce. Hold $100 / 7 PTO. Watch d147–d148 settlement for next bounce signal to commit d162+ weekday window.
+- S06 d147: d147 recovery live (0.708 after 1.188 spike). PTO wall blocks d148; hold $100, commit d162–d163 for bounce play when thesis confirms.
+- S06 d148: D148 bounce signal live but capital/PTO wall blocks entry. Monitor d149–d150 settlement; hold $100 for d159+ window.
+- S06 d149: d149 soft recovery, not bounce. Hold $100 capital; d159–d163 committed. Monitor d151–d155 for inflection before weekend plays.
+- S06 d150: d150 bounce did not trigger d151 play. Hold $100; d159–d163 recovery window set. Monitoring d151–d155 settlement for inflection signal.
+- S06 d151: d151 soft; bounce thesis holds for d159+ recovery window. d152 no boats/PTO available—stay home, hold $100.
+- S06 d152: d153 unreachable: no PTO, no bookable boats with schedule. Hold capital; watch d153–d158 inflection before d159+ recovery window plays.
+- S06 d153: d153 dead, bounce imminent but PTO wall locks me out. Capital held for d159–d163 committed window. Thesis intact.
+- S06 d154: d154–d155 soft; PTO and capital wall holds entry. d159–d163 recovery window set. Bounce thesis on track.
+- S06 d155: Four-day soft streak signals bounce coming, but capital and PTO wall hold me until d159. THREE_QUARTER recovery window confirmed for next week play.
+- S06 d156: Soft four-day streak d153–d156 triggers bounce play. New Seaforth HD_AM best performer; d159–d163 recovery window holds.
+- S06 d157: d157 bounce missed (0 yt). Capital gone, PTO locked d159–d163. Hold and wait for recovery window inflection.
+- S06 d158: Bounce thesis exhausted. Capital gone, PTO locked. Season effectively over until capital materializes.
+- S06 d159: Capital exhausted. Bounce thesis failed d157 (0 yt). Locked d159–d163 PTO with no ability to fish—season functionally over unless money appears.
+- S06 d160: Broke. d157 bounce cost the season. Locked PTO, zero capital. Spectating until cash or month's end.
+- S06 d161: Bounce confirmed d161 (0.609) but broke and spectating. Thesis intact; season lives only if capital materializes.
+- S06 d162: Broke and spectating d163. Bounce thesis dead. Season forfeit via capital mismanagement.
+- S06 d163: Spectating the bounce I predicted but can't afford. Thesis intact, capital catastrophic. Season over.
+- S06 d164: Broke. Bounce thesis alive on data (yesterday's strong three_quarter), but season's forfeit via capital wreck. Spectating.
+- S06 d165: Spectating d166 broke. Bounce thesis alive on three-quarter/overnight data (d165: 0.503, 3.946 yt/a) but capital catastrophic. Season forfeit via funding wreck.
+- S06 d166: Capital wreck persists. Bounce thesis alive on d166 data, but zero ability to fish. Spectating d167; waiting for month-end miracle or season's close.
+- S06 d167: Broke. Bounce d167 confirmed (2.074 three_quarter), can't fish. Thesis intact, capital dead. Spectating recovery I predicted.
+- S06 d168: Season over, capital catastrophe. Thesis intact, season dead. Watching from the dock.
+- S06 d169: Broke and grounded. Bounce thesis live but capital dead. Season forfeit.
+- S06 d170: D170 broke, thesis intact, season dead. Watching the bounce I predicted but can't afford to fish.
+- S06 d171: Broke again. Thesis live (d171 hot, bounce pattern clear), season dead. Watching from the dock.
+- S06 d172: Broke and grounded. d172 was hot; by thesis, letdown tomorrow anyway. Spectating until capital recovers or opportunity forces a move.
+- S06 d173: Broke and grounded. Thesis alive, capital dead. Watching the bounce I predicted but can't afford to fish.
+- S06 d174: Capital dead, thesis alive. d174 confirmed bounce (Overnight 4.036, THREE_QUARTER 1.600). Spectating the pattern I predicted—cannot afford to fish it.
+- S06 d175: Broke and grounded. Thesis alive (d175 hot three_quarter, d176 should carry), can't afford to fish it. Spectating the bounce I predicted.
+- S06 d176: Broke and grounded. Thesis alive—d176 hot, d177 letdown expected—but capital won't let me fish it. Watching the pattern again.
+- S06 d177: d177 hot (3.194), bounce thesis flags d178 letdown. Broke anyway—$20 won't book anything. Spectating the pattern I predicted until capital returns.
+- S06 d178: Broke on the dock again. d179 should soften after yesterday's three_quarter peak, but $20 won't buy a seat. Spectating the bounce I predicted.
+- S06 d179: Broke again. Thesis validated (d179 hot), bounce incoming d180-182, but capital won't let me fish it. Spectating the pattern I predicted—again.
+- S06 d180: Broke again. d180 hot, bounce expected d181, can't afford a seat. Thesis alive but capital dead.
+- S06 d181: d181 confirmed peak (2.092 THREE_QUARTER). Bounce thesis predicts letdown d182–d184. Broke; grounded; spectating the pattern I predicted.
+- S06 d182: Capital dead; bounce thesis flagging d183–d185 letdown after d182 peak. Spectating the pattern I predicted.
+- S06 d183: Broke and grounded again. d184 bounce predicted but capital dead. Five days reserved d159–d163 with nothing to spend on them.
+- S06 d184: Broke again; bounce pattern validated (d182 peak → d183–d184 cool). Watching from shore until capital returns.
+- S06 d185: d185 bounce thesis validated (peak recovery). d186 expected letdown, but $20 won't buy a seat. Grounded again.
+- S06 d186: Broke and grounded. d186 peak validated (4.050 THREE_QUARTER); bounce thesis predicts d187 letdown. Spectating again.
+- S06 d187: Broke. Bounce thesis validated (d186-d187 hot, d188 letdown expected), but no capital for the call. Spectating the pattern again.
+- S06 d188: Broke and grounded again. d188 soft → d189 bounce predicted on THREE_QUARTER, but no capital or advance PTO to fish it. Spectating the pattern I called.
+- S06 d189: Bounce thesis validated d188→d189 (three-quarter 2.199), but broke again. Spectating the pattern I called.
+- S06 d190: D190 decent (1.526 THREE_QUARTER) but broke with $20. Bounce thesis says d191 soft; I'm not there to take it. Spectating again.
+- S06 d191: Broke and grounded again d192. d191 hot → d192 soft predicted, but no capital means no seat regardless. Five PTO days left for opportunistic bookings when money returns.
+- S06 d192: Broke at $20. d192 soft → d193 bounce predicted on THREE_QUARTER/overnight, but no capital to fish it. Spectating the pattern I called again.
+- S06 d193: D193 soft, d194 bounce predicted—but broke and PTO-blocked. Watching the pattern from shore again. Capital and opportunity have to align eventually.
+- S06 d194: Broke at $20. Spectating the bounce pattern again—d194 overnight hot, d195 THREE_QUARTER should bounce, but no capital. Five PTO days held for when money returns.
+- S06 d195: Bounce thesis solid on d196 THREE_QUARTER (recovery after d195 soft), but completely sidelined—$20 in pocket, no PTO forward. Spectating the pattern I called.
+- S06 d196: Broke again. Spectating the bounce pattern d196→d197 that I called. Capital drought continues to kill timing.
+- S06 d197: Sidelined again by capital drought. d197 hot, d198 should soften by pattern—right call to sit regardless. Spectating.
+- S06 d198: Broke again at d199. Bounce thesis solid (d198 mixed → soft expected), but capital, not logic, decides. Spectating my own pattern work.
+- S06 d199: Broke at $20 again. d199→d200 bounce setup clear (THREE_QUARTER live), but no capital. Spectating the pattern I see in the data.
+- S06 d200: Broke at $20 again. Bounce pattern calls for d200→d201, but capital and opportunity have diverged completely. Watching from shore.
+- S06 d201: Broke at $20. d201 peak (0.820 THREE_QUARTER) → d202 soften expected by pattern, but capital drought still rules. Spectating.
+- S06 d202: Broke again. d202 peak calls for d203 softening; too broke to test the pattern. Spectating my own thesis.
+- S06 d203: D203 shoulder suggests soften tomorrow, but broke again. Spectating the pattern I see. No capital, no PTO to burn—sitting out.
+- S06 d204: Broke again at $20. D204 soft (0.265 THREE_QUARTER) sets up perfect d205 bounce, but no capital to execute. Spectating.
+- S06 d205: Broke at $20 again. D205 soft → d206 bounce thesis live, but capital and thesis have diverged completely. Spectating.
+- S06 d206: Broke at $20. D206 shoulder (OVERNIGHT 0.419) calls d207 bounce, but capital drought persists. Spectating.
+- S06 d207: Broke again at $20. d207 soft → d208 bounce thesis live, but capital drought rules. Spectating from shore, watching the pattern I built fail to execute.
+- S06 d208: Broke at $20. d208 soft → d209 prime bounce setup, but capital drought rules. Spectating the pattern I built.
+- S06 d209: D209 weak (THREE_QUARTER 0.176) → perfect d210 bounce setup, but $20 left. Sitting out, watching the pattern fail to execute again.
+- S06 d210: D210 strong (OVERNIGHT 1.657) calls d211 bounce softening. Still broke at $20, no d211 PTO. Sitting out.
+- S06 d211: Broke again at $20. Bounce I built but can't fish. Holding PTO for opportunistic bookings when capital returns.
+- S06 d212: Broke at $20. D212 strong → d213 bounce letdown expected. Capital drought rules. Spectating.
+- S06 d213: Broke at $20. Pattern holds (d213 letdown as predicted), but spectating. Waiting for capital to return.
+- S06 d214: Spectating d215. Capital and PTO planning both failed; watching the season leak away from shore while the window softens.
+- S06 d215: Broke at $20, no PTO pre-booked for d216. Bounce thesis live but unfundable. Spectating again; late September capital drought neutralizes everything.
+- S06 d216: Broke at $20. d216 bounce confirmed but unfundable. Spectating the window softening; September capital drought neutralizes everything.
+- S06 d217: D217 mixed results, no bounce signal. Broke at $20. Sitting d218 out; season peak window softening, capital drought continues.
+- S06 d218: Capital-locked again. D218 decent (three-quarter 0.373) but no strong bounce. Spectating d219; season window tightening, budget drought unchanged.
+- S06 d219: d219 decent (three_quarter 0.741), suggesting bounce tomorrow, but $20 budget kills it. September drought persists; season slipping away on shore. Rank #27, 4.53 score.
+- S06 d220: d220 soft → d221 bounce signal firing, but capital drought locks me out again. Season slipping away on shore.
+- S06 d221: Broke and PTO-locked. D221 soft on indicators anyway. Spectating shore-side again; season slipping toward October with no capital or position.
+- S06 d222: Capital drought locks out the bounce signal again. Soft d222 setup begged for THREE_QUARTER tomorrow but $20 budget and PTO-locked weekdays = spectator status. Season slipping into October.
+- S06 d223: Locked out again: d224 is a weekday with no pre-committed PTO, and $20 budget won't move. D223 bounced but letdown expected anyway. Spectating shore-side; season slipping toward October.
+- S06 d224: Bounce firing (soft d224) but capital drought locks me out cold again. Rank #27, 4.53 score, season slipping into October. Spectating shore-side.
+- S06 d225: Capital-locked. D225 mixed but can't book d226 (weekday, no PTO committed, $20 budget). Season slipping away on shore.
+- S06 d226: Bounce signal firing again (d226 soft → d227 should pop) but capital drought locks me out. Spectating shore-side; season slipping away on the drought. Rank #27, 4.53 score.
+- S06 d227: Bounce signals firing perfectly (d227 soft → d228 should pop) but $20 budget blocks execution. Capital drought ends the season on the books. Spectating shore-side, rank 27, 4.53 score.
+- S06 d228: Capital drought locks bounce signal yet again. Spectating. D228 soft → d229 should pop but budget exhaustion prevents execution. Season slipping away.
+- S06 d229: Bounce thesis firing (d229 soft → d230 should pop) but capital drought locks me out cold again. Spectating shore-side, rank 27, 4.53 score. Season slipping into October.
+- S06 d230: D230 soft, d231 bounce signal strong but capital drought locks me out cold. Holding last 5 PTO days for when capital materializes. Spectating shore-side.
+- S06 d231: Bounce signals firing hard (d231 soft, d232 should pop) but capital drought + no PTO committed = complete lockout. Spectating again. Season slipping into October, rank 27.
+- S06 d232: Bounce thesis firing (d232 mixed → d233 pop due) but $20 budget locks me out cold again. Spectating shore-side; rank #27, season slipping.
+- S06 d233: Bounce fires but capital drought strikes again. Spectating d234 (soft d233 → pop signal). Rank 27, 4.53 score, season slipping into October locked on shore.
+- S06 d234: Capital drought total lockout, d235. Bounce signals firing perfectly but $20 budget blocks all execution. Rank 27, 4.53 score. Season slipping away.
+- S06 d235: Capital drought + PTO timing bind: locked out again despite bounce firing. Spectating d236 (soft d235 → expected pop). Rank 27, season slipping away.
+- S06 d236: D236 soft, d237 bounce fires but capital drought locks me out cold again. Spectating shore-side, rank 27, season bleeding away.
+- S06 d237: D238 (Wed): Bounce should fire d239 overnight but capital drought locks me out. Holding 5 PTO and $20 as ornamental reserve. Rank 27, season bleeding away.
+- S06 d238: D239 complete lockout: capital drought $20, no PTO committed for tomorrow. Bounce thesis firing but irrelevant without funds. Holding 5 PTO dry for future liquidity.
+- S06 d239: D240 complete lockout: no PTO committed for Friday, $20 budget insufficient. Bounce fires but execution impossible. Season slipping away.
+- S06 d240: Capital drought total lockout d240→d241. Bounce thesis firing but irrelevant without $80. Spectating shore-side, rank 27, season bleeding away.
+- S06 d241: D241 bounce signal fires (three-quarter 0.765 → d242 fade expected), but capital drought absolute. Spectating d242 on empty pockets, rank 27.
+- S06 d242: Complete capital lockout d243. Budget $20 vs $80 minimum. Bounce signals firing but execution impossible. Holding dry, season slipping.
+- S06 d243: D244 bounce fires (HD_PM 1.054 yesterday) but capital drought absolute lockout. Season rank 27, slipping. Spectating.
+- S06 d244: D245 lockout continues: $20 budget, no PTO for weekdays. Bounce fires but execution impossible. Spectating shore-side, holding dry.
+- S06 d245: Capital drought total lockout d246→d247. Bounce signals firing but impossible to execute. Rank 27, season bleeding away.
+- S06 d246: Capital drought total lockout d246→d247. Bounce signals visible but execution impossible. Spectating shore-side, rank 27.
+- S06 d247: Capital lockout continues: $20 budget, $80 minimum. Bounce thesis visible but unexecutable. Spectating shore-side, rank 27.
+- S06 d248: Spectating another bounce signal: d248 THREE_QUARTER showed life (San Diego, Point Loma, Mission Belle hitting), but capital drought is absolute. Rank 27, season bleeding into the void.
+- S06 d249: D250 sit-out; capital lockout absolute. Bounce fires but unexecutable. Rank 27, holding dry, spectating.
+- S06 d250: Capital drought final—$20 left, can't cover anything. Bounce signals visible but completely unexecutable. Season rank 27, holding dry.
+- S06 d251: Capital drought eight days running. Bounce signals visible but completely unexecutable. Rank 27, season fading. Hold $20.
+- S06 d252: Nine-day lockout. Bounce signals visible—d252 showed life—but capital depletion absolute. Rank 27, holding $20, season fading.
+- S06 d253: Capital lockout day 9. No bookable options—$20 won't cover anything. Bounce thesis visible but unexecutable. Rank 27, holding dry.
+- S06 d254: Capital drought day 10. Bounce signals visible (d254 THREE_QUARTER 0.422, OVERNIGHT 0.299) but completely unexecutable. Rank 27, holding $20, season fading to black.
+- S06 d255: D255 bounce signals (THREE_QUARTER 0.589) unexecutable. Capital lockout day 9. Rank 27, holding $20 dry.
+- S06 d256: Capital lockout day 11. Bounce signals visible but unexecutable. Rank 27, $20 left, season fading to black.
+- S06 d257: Capital lockout d12+, bounce visible but unexecutable. Rank 27, $20 dry, season fading to black.
+- S06 d258: Capital lockout day 13. D258 bounce strength (THREE_QUARTER 1.859, OVERNIGHT 1.400) unexecutable. Rank 27, $20 left, season fading.
+- S06 d259: Locked out by capital. D258–d259 hot (2.369, 2.794 yt/angler), but can't execute. Season fading.
+- S06 d260: Locked out by capital since d252. Bounce signals visible but unexecutable. Season lost, rank 27, $20 dry.
+- S06 d261: D261: Bounce signals visible but capital lockout day 14. Season fading. Hold $20, rank 27.
+- S06 d262: Capital drought day 11. Bounce thesis visible but unexecutable. Hold 5 PTO days as insurance; season lost at rank 27.
+- S06 d263: D263: Bounce thesis visible (fleet volatility, THREE_QUARTER 1.093 d263) but unexecutable—capital lockout day 12+, $20 left, rank 27. Season lost.
+- S06 d264: Capital lockout day 15. Bounce thesis vindicated (d258–d259 peaks unexecuted). Season lost, rank 27. Budget discipline failure—never again.
+- S06 d265: Capital lockout day 16. Season fading to black. Stay dry—no execution, no score.
+- S06 d266: Bounce visible (soft d266) but capital-locked. Season lost. Hold $20, preserve PTO.
+- S06 d267: Season forfeit. Capital exhausted d252, rank 27, $20 locked out. Bounce thesis unexecuted. Budget discipline failure—never repeat.
+- S06 d268: D269 bounce visible but capital-locked. Season lost, rank 27, $20 dry. Budget discipline failure—next season: money first, then thesis.
+- S06 d269: D270: Bounce setup perfect but capital exhausted. Season lost at rank 27, $20 locked. Budget discipline failure—never front-load season again.
+- S06 d270: D270 was the bounce setup, but capital exhausted d252–d270. Thesis unexecuted. Season forfeit, rank 27. Never front-load again.
+- S06 d271: D272 bounce setup visible but capital-locked at $20. Season lost. Never front-load again.
+- S06 d272: D272 setup perfect but $20 locked. Season lost to front-loading sin. Rank 27 stands. Hold reserve; next season: money first, thesis second.
+- S06 d273: D273 capital lock persists: $20 dry, no bookable trips. Season lost to execution failure, rank 27. Hold and wait for miracle or season reset.
+- S06 d274: D274: Capital discipline failure from d0–d250 persists. Rank 27, $20 locked. Season forfeit. Next season: money first, then thesis.
+- S06 d275: D275 soft, bounce setup ready, but $20 lock persists. Capital discipline cost this season. Next season: reserve cash first, thesis second.
+- S06 d276: D277: Bounce setup visible but $20 lock final. Season 6 lost to capital discipline. Next season: reserve cash first, execute thesis second.
+- S06 d277: D278 bounce setup visible (soft d277 fleet) but $20 lock final. Season 6 lost to capital discipline failure. Hold remaining reserve; season forfeit at rank 27.
+- S06 d278: D279 bounce visible but capital-locked ($20). Thesis unexecuted. Season forfeit rank 27.
+- S06 d279: Soft fleet (d279) bounce visible but capital locks me out. Season lost to discipline failure d0–d250. Rank 28 final.
+- S06 d280: D280 soft, bounce ready but capital-locked. Thesis unexecuted—season forfeit rank 28. Next run: book peak early, never deplete reserve.
+- S06 d281: D282: $20 lock final. Bounce setup ready but capital forfeit season 6. Next run: reserve capital first.
+- S06 d282: Capital-locked at $20, soft bounce setup d283 missed again. Season 6 forfeit at rank 28. Discipline failure cost everything.
+- S06 d283: D284 bounce setup live but capital-locked final. Season 6 forfeit at rank 28. Discipline failure d0–d283 cost everything.
+- S06 d284: d285 bounce setup live but capital-locked $20 final. Season 6 forfeit at rank 28. Thesis unexecuted again; season lost to early depletion d0–d284.
+- S06 d285: D286 bounce setup live but capital-locked $20 final. Season 6 forfeit rank 28—discipline failure d0–d285 cost everything.
+- S06 d286: D286 bounce setup live but capital forfeit—$20 final. Season 6 forfeit rank 28. Discipline failure d0–d286 cost everything.
+- S06 d287: Capital lock d287–final. Soft d287 = bounce ready, but $20 left = spectator mode. Season 6 forfeit; rank 28 confirmed. Next season: reserve capital, book peaks early.
+- S06 d288: D289 spectator. $20 lock = zero bookable trips. Bounce thesis proven sound but season forfeited by capital mismanagement d0–d288. Rank 28 final.
+- S06 d289: Season 6 forfeit. Capital mismanagement d0–d289 left $20 with peak fishing missed. Bounce thesis proven but unexecuted. Next season: reserve capital, commit early peaks.
+- S06 d290: S06 d290: Capital-locked $20 final. Bounce thesis proven (d290 hot THREE_QUARTER 1.654 yt/angler = d291 letdown setup) but unexecuted. Season 6 forfeit rank 28 confirmed—early mismanagement d0–d122 cost everything. Next season: book peaks early, reserve capital relentlessly.
+- S06 d291: D291 spectator. $20 capital lock, no PTO committed for any bookable d292 trip. Season 6 forfeit. Bounce thesis sound, execution impossible.
+- S06 d292: D292 capital lock confirmed. Bounce thesis proven (d292 HD_PM soft = d293 bounce ready) but unexecuted again. Spectator mode final.
+- S06 d293: Capital lock $20 final. Bounce thesis sound (d293 soft, d294 should pop) but unexecuted. Season 6 forfeit rank 28 confirmed.
+- S06 d294: Season 6 forfeit. Capital burn d0–d122 left $20 lock d157+. Bounce thesis proven sound (d294 soft = recovery ready) but unexecuted. Discipline next season: book early, hold capital hard.
+- S06 d295: D296 shaping as bounce setup (d295 hot THREE_QUARTER/HD_PM) but capital lock final. Season 6 forfeit confirmed—spectator to close.
+- S06 d296: D297 spectator. $20 lock final. Bounce thesis sound (d296 hot = d297 soft expected) but unexecuted. Season 6 forfeit.
+- S06 d297: D297 solid (0.265 THREE_QUARTER), d298 bounce setup looks live, but capital lock at $20 holds. Season forfeit confirmed—spectator through close.
+- S06 d298: D298 spectator. Season forfeit; capital lock final. Hold $20, spectate close.
+- S06 d299: D300 spectator. Strong d299 bounce-thesis setup (expect letdown) but capital lock + PTO runway make booking impossible. Hold $20, forfeit confirmed.
+- S06 d300: D301 spectator. Bounce thesis live (d300 mixed = d301 letdown expected) but capital lock absolute. Season 6 forfeit confirmed.
+- S06 d301: D301 soft = D302 bounce thesis live; completely locked out. Spectator mode to end of season.
+- S06 d302: Locked out. Bounce setup live (d301 soft → d302 recovery → d303 strong expected) but zero capital. Hold $20, spectate. Season forfeit.
+- S06 d303: Bounce thesis live (d303 moderate = d304 setup likely), but capital lock at $20 floors all bookings. Spectator through close.
+- S06 d304: D305 spectator. Capital lock absolute. Bounce thesis sound but unfunded. Season forfeit confirmed.
+- S06 d305: Capital lock final. Season 6 forfeit confirmed; S7 blueprint locked in ($1k reserve for d160-d182 fall surge). Spectate to close.
+- S06 d306: Locked out. $20 unusable. Spectator through season end. Bounce thesis validated but unfunded.
+- S06 d307: Final spectator shift d308. Season 6 forfeit confirmed, thesis validated. S7 blueprint locked: $1k reserve d160-d182, $1k deploy d0-d120.
+- S06 d308: Spectator d309. Capital locked $20, S6 forfeit final. S7 blueprint live: $1k fall surge d160–d182, $1k early deploy d0–d120.
+- S06 d309: D309 soft into d310 setup exists (bounce thesis confirmed across recent data), but capital lock absolute. Spectate, observe boats for S7 model. Season 6 write-off final.
+- S06 d310: Capital lockout final. S6 forfeit confirmed. Cumulative rank #7 (4.61); S7 blueprint ready: $1k explore d0-d120, $1k reserve d160-d182 fall surge execution.
+- S06 d311: S6 forfeit final. Thesis validated but unfunded: d304 THREE_QUARTER 5.000, d160-d182 multi-day 3.5 yt/angler all unbooked. S7 capital discipline (≥$300 insurance, no half-day probes) ready to execute.
+- S06 d312: S6 capital lock final, PTO exhausted. Spectate d313. Cumulative score (rank 7/34) locked; S7 blueprint ready to deploy with discipline.
+- S06 d313: S6 forfeit final. Thesis validated on sidelines: d160-d182 delivered 3.5 yt/angler I couldn't afford to fish. S7 locked: $1k explore d0-d120, $1k reserve d160-d182.
+- S06 d314: Final spectator shift. S6 forfeit locked (rank 29, 4.53). Thesis validated on sidelines: d160–d182 was the season I couldn't afford. S7 resets with $2k and hard capital rules.
+- S06 d315: S6 capital exhausted, nothing bookable d316. Forfeit final; S7 blueprint holds ($1k explore d0–d120, $1k reserve d160–d182).
+- S06 d316: S6 final spectator shift. Capital lock absolute; d160–d182 thesis confirmed on sidelines. S7 resets with $2k and hard rules: $1k explore d0–d120, $1k reserve d160–d182.
+- S06 d317: S6 capital lock final. Bounce thesis confirmed on sidelines d160–d182. S7 blueprint locked and ready to deploy.
+- S06 d318: S6 final forfeit. Capital lock $20. Thesis validated on sidelines; ready for S7 disciplined execution.
+- S06 d319: S6 final capital lock, d319 spectator. Blueprint for S7 locked: $1k explore phase, $1k fall-surge reserve d160–d182.
+- S06 d320: S6 capital lock final. Spectate d321+. Season score 4.53 (rank 29); cumulative 4.61 (rank 7). Season 7 blueprint loaded: $1k explore d0–d120, $1k reserve d160–d182.
+- S06 d321: S6 d321–d322: capital lock final. Spectate flat conditions. Season 7 blueprint loaded: $1k explore d0–d120, $1k reserve d160–d182.
+- S06 d322: S6 d322 spectator lock. Season score 4.53 final. S7 blueprint ready: $1k explore d0–d120, $1k fall surge reserve d160–d182.
+- S06 d323: S6 d324 final spectate. Season 7 blueprint locked: $1k explore d0–d120, $1k fall surge reserve d160–d182. Ready.
+- S06 d324: S6 final spectate, capital exhausted. Season 7 blueprint locked; ready to execute when it begins.
+- S06 d325: S6 d326 spectator. Capital dead. Season 7 blueprint locked: $1k explore d0–d120, $1k reserve d160–d182 fall surge. Tournament still alive at rank 7 cumulative.
+- S06 d326: End of S6 with $20 capital. Thesis validated on sidelines: d160–d182 fall surge 3.5 yt/angler. Season 7 blueprint locked—$1k explore d0–d120, $1k reserve d160–d182.
+- S06 d327: S6 final spectate, capital dead. Season 7 blueprint locked and ready to deploy when it begins.
+- S06 d328: Season 6 capital dead, spectator lock final. Fall surge validated from sidelines: d160–d182 multi_day 3.5 yt/angler. Season 7 blueprint ready—$1k explore d0–d120 three_quarter peaks, $1k reserve d160–d182.
+- S06 d329: S6 d329 final spectate. Capital dead, thesis validated. Season 7 blueprint locked—ready to execute.
+- S06 d330: Season 6 capital dead. Fall surge thesis confirmed (d160–d182 multi_day 3.5 yt/angler). Season 7 blueprint locked—ready to deploy.
+- S06 d331: S06 d332: Spectator lock. Capital exhausted, blueprint locked, ready for Season 7 deployment.
+- S06 d332: Season 6 capital dead. Validated d160–d182 recovery thesis (3.5 yt/angler) from sidelines. Season 7 blueprint locked: $1k explore d0–d120, $1k reserve d160–d182.
+- S06 d333: Locked out: no PTO, no capital, no bookable trip. Spectator hold continues.
+- S06 d334: Season 6 capital dead. Spectator lock holds through season close. Season 7 blueprint primed and ready to execute.

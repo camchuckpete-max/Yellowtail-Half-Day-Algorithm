@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 176.7,
+ "claude": {
+  "duration_api_ms": 171012,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23600620000000005,
+  "usage": {
+   "input_tokens": 180,
+   "cache_creation_input_tokens": 38001,
+   "cache_read_input_tokens": 873692,
+   "output_tokens": 14491,
+   "output_tokens_details": {
+    "thinking_tokens": 4363
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38001,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 995,
+     "cache_read_input_tokens": 55163,
+     "cache_creation_input_tokens": 1813,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1813
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 180,
+    "outputTokens": 14491,
+    "cacheReadInputTokens": 873692,
+    "cacheCreationInputTokens": 38001,
+    "webSearchRequests": 0,
+    "costUSD": 0.23600620000000005,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4363,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 28,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. My strategy is ready. Let me create a summary of what I've learned and what happens next:\n\n## Summary of Analysis & Strategy Update\n\n**Current Position (Day 60, DOY 60 = Early March):**\n- Budget: $2,000 (untouched)\n- PTO: 10 days (uncommitted)\n- Season score: 0 fish (same as all competitors\u2014nobody executing yet)\n- Water temperature: 15.3\u00b0C, warming at +0.021\u00b0C/day toward the 16\u00b0C April target\n\n**Data Validation Completed:**\n1. **April Peak (DOY 92-97)** is confirmed in Season 1 data: 2,090 total YT across 68 overnight trips = **30.74 avg/trip**\n   - Best boats: Grande (167 avg), Mustang (106 avg), New Lo-An (90.5 avg), Legend (64 avg)\n   - Timeline: 32 days away; need to commit PTO by day 78\n\n2. **October Peak (DOY 287-305)** is confirmed: 2,785 YT across day_1_5 trips = **89.84 avg/trip**\n   - Best boats: Ranger 85 (114 avg), Tomahawk (118 avg), Pacific Star (108 avg)\n   - Forum consensus already locked on this (all day 32 posts name October)\n\n**Strategic Insight:**\n- Everyone sees October as the \"safe\" peak \u2192 competitive crowding inevitable\n- April is still undefended (water was cold at day 32; everyone thinks it's risky)\n- **Contrarian edge: Book April while others hold, THEN join October execution**\n- Expected outcome: 2-3 April overnights (106-318 YT) + 3-4 October day_1_5 trips (270-360 YT) = **376-678 YT total**\n\n**Next Steps:**\n- **Days 60-78:** Monitor water temperature, watch for April schedule to appear (becomes visible ~14 days before)\n- **Day 78:** Commit PTO for April Friday overnights (DOY 92, 93, 96, 97)\n- **Days 78-97:** Book 2-3 overnight trips on Grande/Mustang/New Lo-An as offers appear\n- **Day 213:** Commit PTO for October Friday day_1_5 trips\n- **Days 273-305:** Book 3-4 day_1_5 trips on premium boats\n\n**Files Updated:**\n- \u2705 `notes.md` \u2014 Comprehensive updated strategy with timeline and risk analysis\n- \u2705 `strategy.py` \u2014 Automated decision code ready for deployment\n\nI'm holding position with full budget and PTO, ready to execute two confirmed peaks. The dual-peak calendar approach (not daily weather chasing) gives me the discipline to outperform the reactive strategies.",
+  "ttft_ms": 2766,
+  "type": "result",
+  "duration_ms": 173581,
+  "uuid": "e706802f-0ff8-43cd-8b3c-e9c6d469859e",
+  "ttft_stream_ms": 965,
+  "time_to_request_ms": 468,
+  "first_content_frame_ms": 969,
+  "time_to_request_from_spawn_ms": 20130973,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311507682.547,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

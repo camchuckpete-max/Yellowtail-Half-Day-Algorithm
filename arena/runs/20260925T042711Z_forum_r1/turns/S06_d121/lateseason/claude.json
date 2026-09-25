@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 146.3,
+ "claude": {
+  "duration_api_ms": 142979,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4287434,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 56005,
+   "cache_read_input_tokens": 371777,
+   "output_tokens": 13034,
+   "output_tokens_details": {
+    "thinking_tokens": 9212
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 56005,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 380,
+     "cache_read_input_tokens": 73127,
+     "cache_creation_input_tokens": 8319,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8319
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 13034,
+    "cacheReadInputTokens": 371777,
+    "cacheCreationInputTokens": 56005,
+    "webSearchRequests": 0,
+    "costUSD": 0.4287434,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 9212,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Analyzed the season: the nightly-self correctly abandoned the \"wait for autumn\" persona default after the d60 note, booking 10 THREE_QUARTER trips + 1 OVERNIGHT between d93-112 for a strong 13.98 season score (rank 3/34). Confirmed via fresh query that THREE_QUARTER stays hot (1.0-1.8 ypa) through doy120 while HD_AM/HD_PM/TWILIGHT remain structurally dead all season \u2014 and found the real inefficiency: a 10-day PTO ladder was committed upfront but budget ran out at d112, stranding 5 committed PTO days (106,113,114,117,118) that could never convert to bookings.\n\nI rewrote notes.md with: the current constraint (0 PTO, $100 \u2014 only zero-PTO TWILIGHT/weekend-HD trips are legal, and only one $80 trip is affordable), a directive to stop reasoning about unaffordable classes for the rest of the season, and the key lesson for next time budget is fresh \u2014 pace the PTO ladder in small batches checked against remaining budget instead of committing 10 days at once.",
+  "ttft_ms": 1516,
+  "type": "result",
+  "duration_ms": 144661,
+  "uuid": "91bf5191-cd9f-4754-bab0-71b6071bfdae",
+  "ttft_stream_ms": 752,
+  "time_to_request_ms": 127,
+  "first_content_frame_ms": 753,
+  "time_to_request_from_spawn_ms": 48959751,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340338092.061,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 145.7,
+ "claude": {
+  "duration_api_ms": 137885,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24302069999999998,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 50551,
+   "cache_read_input_tokens": 870747,
+   "output_tokens": 10942,
+   "output_tokens_details": {
+    "thinking_tokens": 4231
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50551,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 679,
+     "cache_read_input_tokens": 68673,
+     "cache_creation_input_tokens": 853,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 853
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 10942,
+    "cacheReadInputTokens": 870747,
+    "cacheCreationInputTokens": 50551,
+    "webSearchRequests": 0,
+    "costUSD": 0.24302069999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4231,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of this turn:**\n\nI discovered a painful truth: I broke capital at doy 171 chasing a weak OVERNIGHT signal, then sat broke for 11 days while the fleet sustained 1.5\u20133.5 yt/angler from doy 172\u2013182 (the June El Ni\u00f1o continuation peak). That was my season-defining mistake\u2014it cost me an estimated 1.5\u20133 fish and dropped me from rank 8\u20139 to rank 11.\n\n**Outcome:** Updated notes.md with detailed post-mortem analysis and posted a forum reflection validating the advice from leaders about reserve capital for tail continuation. My season is functionally complete at 10.68 fish with $0 budget; October is unfundable.",
+  "ttft_ms": 2799,
+  "type": "result",
+  "duration_ms": 140234,
+  "uuid": "583339bc-d749-4a73-9775-66af50aa7e07",
+  "ttft_stream_ms": 1197,
+  "time_to_request_ms": 616,
+  "first_content_frame_ms": 1197,
+  "time_to_request_from_spawn_ms": 53143967,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344518078.0923,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

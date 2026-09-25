@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 158.2,
+ "claude": {
+  "duration_api_ms": 149714,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1866629,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 39360,
+   "cache_read_input_tokens": 450759,
+   "output_tokens": 12555,
+   "output_tokens_details": {
+    "thinking_tokens": 7393
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39360,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 871,
+     "cache_read_input_tokens": 54110,
+     "cache_creation_input_tokens": 4225,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4225
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 12555,
+    "cacheReadInputTokens": 450759,
+    "cacheCreationInputTokens": 39360,
+    "webSearchRequests": 0,
+    "costUSD": 0.1866629,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 7393,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've updated my notes with a clear-eyed assessment. Here's what I've decided:\n\n**Key Findings:**\n\n1. **I'm at doy 182 (July 1 equiv), not September** \u2014 the May peak (doy 144-147) was real and I missed it chasing October. Calendarist caught 0.68 fish alone from that window. Sunk cost, but I accept it.\n\n2. **October is still the winning move** \u2014 Season 1 day_1_5 doy 287-295 showed 5.0 yt/angler consistently. Conservative estimate: 6-8 fish. Upside: 12-15. Beats current leaders (0.83 max) even at conservative.\n\n3. **Budget adjustment needed** \u2014 I have $1400 left. That covers 2\u00d7 day_1_5 @ $550 = $1100, leaving $300 buffer. Originally planned 3 trips ($1650). Will book 2 solid peak dates instead.\n\n4. **PTO recalculation needed** \u2014 My committed PTO (d285, d292, d299) may not align with actual Friday departures in the peak window. At doy 260 (~80 days away), when October schedule opens, I'll verify correct Friday/Monday pairs and adjust if needed.\n\n5. **No forum posts** \u2014 The current posts already cover the May miss and October strategy. No new insights to share yet. Will post during October execution or at season close.\n\n**Updated strategy:** Hold through June-August, watch data reactively (low probability of signal), recalculate booking plan at doy 260, execute 2-3 day_1_5 trips targeting doy 287-297 peak for 6-15 fish close-out.\n\nMy disciplined hold through the dead zone still positions me for a top-5 finish if October executes cleanly. Next checkpoint is doy 260 when I can see and book the October trips.",
+  "ttft_ms": 2617,
+  "type": "result",
+  "duration_ms": 151978,
+  "uuid": "4f04aeb0-e647-4074-a4ab-f115230234c9",
+  "ttft_stream_ms": 841,
+  "time_to_request_ms": 157,
+  "first_content_frame_ms": 841,
+  "time_to_request_from_spawn_ms": 34042896,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325416805.7695,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

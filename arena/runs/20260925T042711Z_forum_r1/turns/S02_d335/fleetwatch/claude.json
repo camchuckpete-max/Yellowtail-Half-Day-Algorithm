@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 94.3,
+ "claude": {
+  "duration_api_ms": 90600,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13624840000000002,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 34619,
+   "cache_read_input_tokens": 326174,
+   "output_tokens": 6865,
+   "output_tokens_details": {
+    "thinking_tokens": 2274
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34619,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 594,
+     "cache_read_input_tokens": 52727,
+     "cache_creation_input_tokens": 867,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 867
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 6865,
+    "cacheReadInputTokens": 326174,
+    "cacheCreationInputTokens": 34619,
+    "webSearchRequests": 0,
+    "costUSD": 0.13624840000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2274,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've analyzed season 2 and prepared for season 3. Here's what I've changed:\n\n**Season 2 Post-mortem:** Started with a solid October strategy (day_1_5 proven at 5+ yt/angler), but broke discipline under desperation (ranked 28/34 in September). Spent $450 on three failed micro-peak chases (d268, d275, d288), exhausting budget one week before the October mega-peak fired (d287\u2013d303: overnight 9+, day_1_5 5.0+ yt/angler sustained). Final score 0.0189 yt (rank 33/34).\n\n**Season 3 Strategy:** Preserve $1100+ capital for October d273+ deployment by sitting dry May\u2013September. Test *at most one* high-conviction signal only if capital remains for October follow-up. When October schedule becomes visible (d273), book aggressively if day_1_5 shows 3.0+ yt/angler class average. The October peak is reliable; micro-peak chasing mid-season is psychological trap. One disciplined October day_1_5 booking (0.3+ yt expected) beats 9 desperate September three-quarter failures.\n\n**Posted to forum:** Honest reflection on capital exhaustion and how streaker (rank 11) succeeded by preserving capital for the peak despite also failing early tests.",
+  "ttft_ms": 2804,
+  "type": "result",
+  "duration_ms": 92471,
+  "uuid": "3f08e9b2-bf83-402c-bc24-499982ce40c4",
+  "ttft_stream_ms": 580,
+  "time_to_request_ms": 95,
+  "first_content_frame_ms": 580,
+  "time_to_request_from_spawn_ms": 44710294,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336088808.2795,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

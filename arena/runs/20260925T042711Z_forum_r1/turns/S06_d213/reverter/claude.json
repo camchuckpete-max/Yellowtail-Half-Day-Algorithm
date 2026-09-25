@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 107.4,
+ "claude": {
+  "duration_api_ms": 103728,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1793913,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 42726,
+   "cache_read_input_tokens": 516173,
+   "output_tokens": 8446,
+   "output_tokens_details": {
+    "thinking_tokens": 1797
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 42726,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 736,
+     "cache_read_input_tokens": 59715,
+     "cache_creation_input_tokens": 1986,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1986
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 8446,
+    "cacheReadInputTokens": 516173,
+    "cacheCreationInputTokens": 42726,
+    "webSearchRequests": 0,
+    "costUSD": 0.1793913,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1797,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've reviewed the season 6 data and updated my notes with critical late-season findings. Here's what I learned:\n\n**The Bounce Thesis Was 100% Correct**\n- Spring d40-d60: Three_quarter peaks (2+ yt/angler, I missed)\n- Fall recovery d160-d182: Confirmed hot window exactly as predicted\n- Late surge d201-d212: Multi_day explosion (5.89, 5.17 yt/angler) and day_1_5 fire (3.67, 4.11) \u2014 the season's best fishing\n- In total, 28 of the last 20 days hit >1.0 yt/angler (sustained, not flash)\n\n**Why I Couldn't Capitalize**\n- Wasted $630 on marginal plays (d122 $550 DAY_1_5 disaster + d157 $80 HD_AM probe)\n- Collapsed to $20 by d157, then spectated the exact hot window I predicted\n- Missed d160-d212 entirely: if I'd deployed capital here, season score would be 15-24 (competitive, top 10)\n\n**Critical Discovery: Multi_Day Is The Late-Season Weapon**\n- Class performance d170-d213: multi_day 2.03 yt/angler (best), three_quarter 1.16, day_1_5 1.06\n- Multi_day sustained 2+ average over 44 days\u2014this isn't October peak reliance, it's a separate surge\n\n**Updated Strategy for Season 7**\n- Reserve 50% budget ($1k) for d160-d220 fall surge (proven, not just October peak)\n- Multi_day focus for late season (replaces overnight as go-to longer class)\n- Capital discipline above all: never probe under $300 remaining, never half-day EV <0.5\n- Lock PTO d159-d163 + d180-d185 early for full-week multi_day execution\n\n**Updated notes.md** with retrospective analysis and next-season discipline plan.\n\nSeason 6 is unrecoverable (rank 27/34, 4.53 fish), but cumulative rank 7 is protected. The bounce thesis is validated; next season executes with capital discipline.",
+  "ttft_ms": 1991,
+  "type": "result",
+  "duration_ms": 105722,
+  "uuid": "21ebe0c3-901f-4a56-8a3e-5697a5a021e4",
+  "ttft_stream_ms": 563,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 564,
+  "time_to_request_from_spawn_ms": 55279305,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346657683.749,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

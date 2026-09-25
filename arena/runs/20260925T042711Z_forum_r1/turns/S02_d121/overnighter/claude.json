@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 108.1,
+ "claude": {
+  "duration_api_ms": 105077,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13004770000000002,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 23817,
+   "cache_read_input_tokens": 356747,
+   "output_tokens": 9331,
+   "output_tokens_details": {
+    "thinking_tokens": 5307
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23817,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 322,
+     "cache_read_input_tokens": 44950,
+     "cache_creation_input_tokens": 1422,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1422
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 9331,
+    "cacheReadInputTokens": 356747,
+    "cacheCreationInputTokens": 23817,
+    "webSearchRequests": 0,
+    "costUSD": 0.13004770000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5307,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Updated notes.md with Day 121 strategy review. **Key finding: October overnight peak is 2x better than June** (105 yt max vs 66 yt max) with minimal competitor dilution. Refined plan to 1 June trip (early lead + portfolio test) + 4 October trips (concentrate on guaranteed high-yield dates DOY 289-295). Next action: Days 135-142, begin monitoring June boat schedules and water temps for booking window.",
+  "ttft_ms": 3173,
+  "type": "result",
+  "duration_ms": 106302,
+  "uuid": "8d21b54b-acbb-4819-b02d-30a55ac25300",
+  "ttft_stream_ms": 605,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 605,
+  "time_to_request_from_spawn_ms": 26791929,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318170538.755,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

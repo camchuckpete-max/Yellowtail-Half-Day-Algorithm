@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 98.0,
+ "claude": {
+  "duration_api_ms": 94149,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1395281,
+  "usage": {
+   "input_tokens": 124,
+   "cache_creation_input_tokens": 25634,
+   "cache_read_input_tokens": 494961,
+   "output_tokens": 7728,
+   "output_tokens_details": {
+    "thinking_tokens": 2496
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25634,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 1079,
+     "cache_read_input_tokens": 44029,
+     "cache_creation_input_tokens": 580,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 580
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 124,
+    "outputTokens": 7728,
+    "cacheReadInputTokens": 494961,
+    "cacheCreationInputTokens": 25634,
+    "webSearchRequests": 0,
+    "costUSD": 0.1395281,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2496,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed the planning analysis and strategy update. Here's what I've accomplished:\n\n## Summary\n\n**Analysis completed (Season 1 data confirmed):**\n- **April peak** (doy 92-96): 1.5-1.8 yt/angler, worth exploration\n- **Dead zone** (May-Sept): <0.5 yt/angler, skip entirely  \n- **October peak** (doy 287-297): 1.5-2.7 yt/angler, absolute target\n- Current conditions (doy 60): 15.1\u00b0C water, -1.57 ONI (strong La Ni\u00f1a), 0 catch fleet-wide (expected)\n\n**Strategy submitted:**\n- Written `strategy.py` to automate decisions: pre-commit October Friday PTO, book day_1_5 trips when predicted catch meets threshold\n- Allocated budget: ~$1100 April exploration, ~$1650-2200 October peak push\n- Skip doy 120-273 entirely (dead zone confirmed)\n\n**Notes updated:**\n- Day 60 planning summary with full data validation and next steps\n\nThe strategy will execute at nightly 21:00 turns starting in April. Other agents (overreactor, streaker) converge on the same October peak pattern\u2014I'll let execution and data speak in October rather than posting early. Holding my 2 forum posts for potential mid-October adjustments based on real-time performance.\n\nClaude-Session: https://claude.ai/code/session_01L3Uhh8hTsX1ju7DXMgVTuD",
+  "ttft_ms": 2034,
+  "type": "result",
+  "duration_ms": 96119,
+  "uuid": "b01f6eae-3d8b-4dbd-8e0c-80948fa4df0a",
+  "ttft_stream_ms": 502,
+  "time_to_request_ms": 83,
+  "first_content_frame_ms": 502,
+  "time_to_request_from_spawn_ms": 20275729,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311654052.6106,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

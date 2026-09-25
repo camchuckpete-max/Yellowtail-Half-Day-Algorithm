@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 153.9,
+ "claude": {
+  "duration_api_ms": 150470,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1690461,
+  "usage": {
+   "input_tokens": 120,
+   "cache_creation_input_tokens": 28511,
+   "cache_read_input_tokens": 493541,
+   "output_tokens": 12510,
+   "output_tokens_details": {
+    "thinking_tokens": 6384
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28511,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 512,
+     "cache_read_input_tokens": 45161,
+     "cache_creation_input_tokens": 2325,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2325
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 120,
+    "outputTokens": 12510,
+    "cacheReadInputTokens": 493541,
+    "cacheCreationInputTokens": 28511,
+    "webSearchRequests": 0,
+    "costUSD": 0.1690461,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6384,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Your strategy is locked in. You're now positioned for October with an automatic PTO commitment plan and smart boat targeting. Summary:\n\n**Changed**: Activated `strategy.py` with October-focused logic (4 PTO commits on DOY 239, then 3 multi-day bookings on top boats DOY 287-295) and updated notes with full strategic rationale. Water temperature (62.8\u00b0F) and climate (strong La Ni\u00f1a, ONI -1.29) confirm October should outperform April by 1.9x per-angler yield (0.90 vs 0.48 yt/angler historically). Early silence preserves competitive edge while others chase April.\n\n**Why**: Season 2 April is dead so far (5 YT from 536 trips DOY 1-91); far-superior October proved its dominance in Season 1 (5,661 YT, 335 trips). Forum posts claiming April is hot lack follow-up data and conflict with your constraint: can't commit weekday PTO until DOY 105, so April multi-day trips are impossible. October focus expects ~8-10 fish on $1,650 budget, positioning you to break into top tier.",
+  "ttft_ms": 2397,
+  "type": "result",
+  "duration_ms": 152277,
+  "uuid": "80e570c2-e57b-4d82-a37c-0791e99014ac",
+  "ttft_stream_ms": 631,
+  "time_to_request_ms": 84,
+  "first_content_frame_ms": 632,
+  "time_to_request_from_spawn_ms": 20772468,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312151140.7764,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 166.1,
+ "claude": {
+  "duration_api_ms": 162685,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23967990000000003,
+  "usage": {
+   "input_tokens": 94,
+   "cache_creation_input_tokens": 54548,
+   "cache_read_input_tokens": 553449,
+   "output_tokens": 15029,
+   "output_tokens_details": {
+    "thinking_tokens": 8495
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 54548,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 695,
+     "cache_read_input_tokens": 66027,
+     "cache_creation_input_tokens": 7496,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 7496
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 94,
+    "outputTokens": 15029,
+    "cacheReadInputTokens": 553449,
+    "cacheCreationInputTokens": 54548,
+    "webSearchRequests": 0,
+    "costUSD": 0.23967990000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 8495,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Now let me create a quick summary of what I've updated:\n\n**Summary of Season 3 Planning Turn (Day 335):**\n\n**What changed:**\n1. **Updated notes.md** - Completed full-season data analysis revealing the true October peak is DOY 270 (3.65 yt/angler), not DOY 288 as originally planned. Early October (DOY 270-280) significantly outperforms mid-October. Revised 4-trip strategy to target DOY 270 (primary), DOY 280 (secondary), DOY 291 (proven), DOY 289 (fallback).\n\n2. **Wrote strategy.py** - Automated overnight specialist strategy that books trips when target DOYs become available, eliminating manual execution risk that cost Season 2 success.\n\n**Why:**\nSeason 2 ended 6/34 with 5.19 fish due to missed October peak despite perfect plan. Data analysis shows the peak season is ~10 days earlier than planned. Automation via strategy.py eliminates the execution failures that plagued Season 2 (locked PTO but ran out of budget by d313). With disciplined targeting of proven peak dates and automated booking, Season 3 targets 6-8 fish and top-10 rank, improving cumulative standing.",
+  "ttft_ms": 2595,
+  "type": "result",
+  "duration_ms": 164072,
+  "uuid": "2e5a9765-b735-45d1-a975-1021b8a24b97",
+  "ttft_stream_ms": 644,
+  "time_to_request_ms": 106,
+  "first_content_frame_ms": 644,
+  "time_to_request_from_spawn_ms": 44715489,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336093938.858,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

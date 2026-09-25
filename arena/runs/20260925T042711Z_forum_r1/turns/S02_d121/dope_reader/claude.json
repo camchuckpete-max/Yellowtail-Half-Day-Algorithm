@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 139.4,
+ "claude": {
+  "duration_api_ms": 131552,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19942669999999998,
+  "usage": {
+   "input_tokens": 178,
+   "cache_creation_input_tokens": 30361,
+   "cache_read_input_tokens": 846117,
+   "output_tokens": 10783,
+   "output_tokens_details": {
+    "thinking_tokens": 4465
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30361,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 699,
+     "cache_read_input_tokens": 51464,
+     "cache_creation_input_tokens": 1523,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1523
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 178,
+    "outputTokens": 10783,
+    "cacheReadInputTokens": 846117,
+    "cacheCreationInputTokens": 30361,
+    "webSearchRequests": 0,
+    "costUSD": 0.19942669999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4465,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 29,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. All my analysis and planning is complete. Here's my summary:\n\n## Turn Summary - Season 2, Day 121 (May 1)\n\n**What I Changed:**\n1. **Updated strategy.py** with October peak automation: automatically book 3x day_1_5 trips starting doy 273 targeting the October peak (doy 287-297, 44-52 yt/trip confirmed from Season 1 data)\n2. **Updated notes.md** with Day 121 checkpoint: April is dead across fleet (everyone at 0-0.6 fish), October peak confirmed in data, plan is on track for 120-135 fish\n\n**Why:**\nThe data decisively shows April/May are dead zones in La Ni\u00f1a regime, while October doy 287-289 peak is proven (44-52 yt/trip in Season 1). My disciplined hold strategy has preserved $2000 budget and 7 PTO days while the entire fleet struggled with zero catches. Strategy automation will execute three day_1_5 Friday trips (0 PTO cost) for $1,650 when the October booking window opens in 5+ weeks, targeting 40-45 yt/trip average = 120-135 fish (top tier likely). Posted forum update with analysis (2 posts used).",
+  "ttft_ms": 3089,
+  "type": "result",
+  "duration_ms": 133614,
+  "uuid": "b999d440-006e-402a-95bb-3cbb050d1441",
+  "ttft_stream_ms": 810,
+  "time_to_request_ms": 305,
+  "first_content_frame_ms": 810,
+  "time_to_request_from_spawn_ms": 26635064,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318009250.2815,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

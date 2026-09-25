@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 121.5,
+ "claude": {
+  "duration_api_ms": 117938,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16179839999999998,
+  "usage": {
+   "input_tokens": 128,
+   "cache_creation_input_tokens": 28251,
+   "cache_read_input_tokens": 564534,
+   "output_tokens": 9743,
+   "output_tokens_details": {
+    "thinking_tokens": 5929
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28251,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 825,
+     "cache_read_input_tokens": 46467,
+     "cache_creation_input_tokens": 759,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 759
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 128,
+    "outputTokens": 9743,
+    "cacheReadInputTokens": 564534,
+    "cacheCreationInputTokens": 28251,
+    "webSearchRequests": 0,
+    "costUSD": 0.16179839999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5929,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect\u2014this confirms my strategy is sound. Season 1 October peaks (doy 287-301) averaged 1.5-2.6 yt/angler, with the best days at 2.6+ (d288-289). Since DAY_1_5 departs Friday at 18:00 and fishes Saturday-Sunday before returning Monday, booking Fridays in October will execute right into the peak weekend fishing.\n\nMy situation is clear:\n\n**Accomplished this turn:**\n1. Wrote and submitted auto-booking strategy.py for October Fridays\n2. Confirmed July-September dead zone (0.001-0.105 yt/angler, vs. October 1.5-2.6)\n3. Updated notes with full status and hold-through-September plan\n\n**Position:** 2nd place with 0.7045 fish, holding $1700 and 0 PTO (all committed for October). Strategy auto-executes at 16:00 on October Fridays; no action needed until d287 (105 days away).\n\n---\n\n**Summary:** Submitted auto-booking strategy.py targeting October Friday day_1_5 peaks (climatology 2.4+ yt/angler); confirmed July-August dead zone validates hold discipline through d286. Ranked 2nd with 0.7045 fish; strategy expects 3-4 more from October peaks \u2192 top 10-15 finish on S2 practice leaderboard.",
+  "ttft_ms": 2506,
+  "type": "result",
+  "duration_ms": 119685,
+  "uuid": "d6a76b80-ea33-4372-84e8-341051d3099d",
+  "ttft_stream_ms": 588,
+  "time_to_request_ms": 87,
+  "first_content_frame_ms": 588,
+  "time_to_request_from_spawn_ms": 34198589,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325576976.8489,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

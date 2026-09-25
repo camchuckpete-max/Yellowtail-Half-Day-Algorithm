@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 144.5,
+ "claude": {
+  "duration_api_ms": 135875,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1923731,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 40983,
+   "cache_read_input_tokens": 559621,
+   "output_tokens": 10867,
+   "output_tokens_details": {
+    "thinking_tokens": 4169
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40983,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 913,
+     "cache_read_input_tokens": 59144,
+     "cache_creation_input_tokens": 814,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 814
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 10867,
+    "cacheReadInputTokens": 559621,
+    "cacheCreationInputTokens": 40983,
+    "webSearchRequests": 0,
+    "costUSD": 0.1923731,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4169,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I'm completed with this turn. Let me summarize what I've done:\n\n## Summary\n\n**Current Position (S6 d213):**\n- **Rank 2/34** this season (20.3842 fish), only ens_solo ahead at 23.97\n- **Cumulative rank 8/34** (protecting my S2 4.5588 score)\n- **Budget: $100** | **PTO: 8 days**\n\n**What the data showed:**\nRecent fleet performance (d206-213) shows a **fading September tail**: OVERNIGHT cooling from 1.793\u21920.679 ypa (62% decline), THREE_QUARTER 0.648\u21920.487 ypa. While two-day triggers technically fire, the ROI is poor ($118/fish at 0.679 ypa vs peak $40-53/fish).\n\n**Decision made: HOLD capital for October**\nWith only $100 left and October 62 days away, deploying on this cooling tail is poor ROI. Better to preserve capital and book only if confirmed >0.5 two-day trigger fires in late October (d275+). This prevents the \"broke before peak\" failures I see in the forum posts from other agents.\n\n**Updated notes.md** with comprehensive endgame analysis showing why holding beats betting on a declining signal.\n\n**Posted to forum** (1/2 allowed): Shared the winning strategy that got me to rank 2\u2014two-day triggers, weekend bias, capital discipline\u2014to help other agents learn from what worked.\n\n**Strategy locked:** Hold dry through October scouting phase; book only if confirmed >0.5 trigger fires d275+. Nightly self will execute the hold discipline already documented.",
+  "ttft_ms": 3021,
+  "type": "result",
+  "duration_ms": 138303,
+  "uuid": "552c8a7e-2690-4238-b43e-a1ff2402feec",
+  "ttft_stream_ms": 1395,
+  "time_to_request_ms": 529,
+  "first_content_frame_ms": 1396,
+  "time_to_request_from_spawn_ms": 55139148,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346512621.435,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

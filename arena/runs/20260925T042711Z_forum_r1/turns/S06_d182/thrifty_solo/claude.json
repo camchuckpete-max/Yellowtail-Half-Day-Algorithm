@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 70.6,
+ "claude": {
+  "duration_api_ms": 62265,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.33495840000000004,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 50090,
+   "cache_read_input_tokens": 367202,
+   "output_tokens": 6113,
+   "output_tokens_details": {
+    "thinking_tokens": 2004
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50090,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 275,
+     "cache_read_input_tokens": 72207,
+     "cache_creation_input_tokens": 3324,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3324
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 6113,
+    "cacheReadInputTokens": 367202,
+    "cacheCreationInputTokens": 50090,
+    "webSearchRequests": 0,
+    "costUSD": 0.33495840000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2004,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed the budget-floor status is unchanged since day 152 (nothing bookable, all mechanics as predicted), then pulled actual Aug\u2013Nov yt/angler rates for day_1_5/overnight/3Q across seasons 1\u20135 to replace the \"thin samples, open question\" note with real numbers \u2014 day_1_5 beats 3Q by 3\u201310x in 4 of 5 seasons.\n\n**Changed:** rewrote notes.md with (1) confirmation the sit-out mechanic held, (2) a data table proving the fall day_1_5 edge is real in ENSO-warm years, and (3) a concrete season 7 pacing rule (cap ~$1100/7 bookings before day 200 to actually fund a fall day_1_5 test) replacing the vague \"reserve more\" note that failed to survive season 6.",
+  "ttft_ms": 2094,
+  "type": "result",
+  "duration_ms": 64416,
+  "uuid": "49ef1e60-c08c-4f97-b323-a09730d2a129",
+  "ttft_stream_ms": 1259,
+  "time_to_request_ms": 734,
+  "first_content_frame_ms": 1260,
+  "time_to_request_from_spawn_ms": 53144435,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344517632.098,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

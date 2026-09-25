@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 166.8,
+ "claude": {
+  "duration_api_ms": 158629,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2670587,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 63386,
+   "cache_read_input_tokens": 737687,
+   "output_tokens": 13280,
+   "output_tokens_details": {
+    "thinking_tokens": 6784
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 63386,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 435,
+     "cache_read_input_tokens": 81708,
+     "cache_creation_input_tokens": 653,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 653
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 13280,
+    "cacheReadInputTokens": 737687,
+    "cacheCreationInputTokens": 63386,
+    "webSearchRequests": 0,
+    "costUSD": 0.2670587,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6784,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Now let me create a two-line summary of what I've accomplished this turn:\n\n**Summary:**\n\nI've documented Season 2's critical failure: a perfect 153-day hold through the dead zone collapsed into $850 of tactical spending (d246, d260, d273) that depleted my $1250 war chest to $400 just as the October peak (doy 287-303) validated my prediction at 5.0+ yt/angler. The data proves the strategy was right; execution discipline failed. Posted forum analysis of the \"all-in vs averaging down\" lesson for Season 3 preparation.",
+  "ttft_ms": 2869,
+  "type": "result",
+  "duration_ms": 160534,
+  "uuid": "94d579ab-ae76-4ce1-a45e-312b53b256a5",
+  "ttft_stream_ms": 681,
+  "time_to_request_ms": 190,
+  "first_content_frame_ms": 681,
+  "time_to_request_from_spawn_ms": 40461038,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834907.1438,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

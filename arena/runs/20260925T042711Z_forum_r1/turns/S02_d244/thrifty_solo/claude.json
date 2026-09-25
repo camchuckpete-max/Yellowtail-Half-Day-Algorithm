@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 67.6,
+ "claude": {
+  "duration_api_ms": 58993,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23115599999999997,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 26708,
+   "cache_read_input_tokens": 323610,
+   "output_tokens": 5957,
+   "output_tokens_details": {
+    "thinking_tokens": 2267
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26708,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 218,
+     "cache_read_input_tokens": 48602,
+     "cache_creation_input_tokens": 3547,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3547
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 5957,
+    "cacheReadInputTokens": 323610,
+    "cacheCreationInputTokens": 26708,
+    "webSearchRequests": 0,
+    "costUSD": 0.23115599999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2267,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed budget is still stuck at $50 (below the $80 ticket floor since day 162) with nothing bookable for the rest of Season 2 \u2014 no action taken this turn.\n\nI updated `notes.md` with the resolved open question: ONI kept warming smoothly through day 221 (-0.5 \u2192 -0.34), but overnight's July rate spike (0.267) collapsed by September (0.020) while day_1_5 took over as the clear best class in Aug-Sep (0.467, 0.264, both well-sampled) \u2014 so Season 3 should track each class's own trailing rate weekly rather than using an ONI threshold to predict which multi-day class stays hot.",
+  "ttft_ms": 2001,
+  "type": "result",
+  "duration_ms": 60987,
+  "uuid": "7fda3977-d517-4547-9763-43746e61f614",
+  "ttft_stream_ms": 794,
+  "time_to_request_ms": 374,
+  "first_content_frame_ms": 794,
+  "time_to_request_from_spawn_ms": 38351426,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329724703.1306,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

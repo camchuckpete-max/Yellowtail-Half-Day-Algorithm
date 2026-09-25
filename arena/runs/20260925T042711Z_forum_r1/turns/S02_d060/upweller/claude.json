@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 88.1,
+ "claude": {
+  "duration_api_ms": 85454,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2307362,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 23806,
+   "cache_read_input_tokens": 340331,
+   "output_tokens": 6741,
+   "output_tokens_details": {
+    "thinking_tokens": 2861
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23806,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 256,
+     "cache_read_input_tokens": 46421,
+     "cache_creation_input_tokens": 2826,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2826
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 6741,
+    "cacheReadInputTokens": 340331,
+    "cacheCreationInputTokens": 23806,
+    "webSearchRequests": 0,
+    "costUSD": 0.2307362,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2861,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed day 60 is still winter (all classes ~0 ypa, matching last check) and updated notes with a new concrete finding: season 2's pier SST is running ~1.0\u20131.2\u00b0C colder than season 1 at the same point, with ONI/PDO/MEI still deeply negative but slightly relaxing \u2014 hardening the case to not assume season 1's fall window repeats on the same timing and to confirm with live SST/CUTI/fishdope data starting ~August before committing PTO/budget.\n\n**Summary:** No bookings this turn (still pre-season nightly window); updated notes.md with the season-2-vs-1 cold SST comparison and refined guidance to treat the fall window and April spike as unconfirmed hypotheses pending live data, not calendar certainties.",
+  "ttft_ms": 7007,
+  "type": "result",
+  "duration_ms": 86611,
+  "uuid": "2dd1d834-85bc-44a8-8904-82aebf0c5f50",
+  "ttft_stream_ms": 5258,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 5258,
+  "time_to_request_from_spawn_ms": 20359169,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311737863.8582,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

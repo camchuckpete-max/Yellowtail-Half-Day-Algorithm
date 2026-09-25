@@ -1,0 +1,3 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4016, "ts": "2026-09-25T12:43:36"}
+{"tool": "arena_query", "sql": "SELECT fish_date_doy, cls, SUM(yt) as total_yt, SUM(anglers) as total_anglers, ROUND(SUM(yt)/SUM(anglers), 4) as yt_per_angler FROM trips WHERE fish_date_season = 6 AND fish_date_doy >= 116 GROUP BY fish_date_doy, cls ORDER BY fish_date_doy DESC, cls", "rows": 18, "seconds": 0.036, "ts": "2026-09-25T12:43:42"}
+{"tool": "arena_query", "sql": "SELECT fish_date_doy, cls, SUM(yt) as total_yt, SUM(anglers) as total_anglers, COUNT(*) as boat_count FROM trips WHERE fish_date_season = 6 GROUP BY fish_date_doy, cls ORDER BY fish_date_doy, cls", "rows": 428, "seconds": 0.006, "ts": "2026-09-25T12:43:58"}

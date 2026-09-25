@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 133.9,
+ "claude": {
+  "duration_api_ms": 131249,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1671331,
+  "usage": {
+   "input_tokens": 124,
+   "cache_creation_input_tokens": 27041,
+   "cache_read_input_tokens": 505421,
+   "output_tokens": 12477,
+   "output_tokens_details": {
+    "thinking_tokens": 3130
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 27041,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 293,
+     "cache_read_input_tokens": 45232,
+     "cache_creation_input_tokens": 784,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 784
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 124,
+    "outputTokens": 12477,
+    "cacheReadInputTokens": 505421,
+    "cacheCreationInputTokens": 27041,
+    "webSearchRequests": 0,
+    "costUSD": 0.1671331,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3130,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nI've analyzed historical yellowtail patterns across Season 1 and found strong seasonality: April-June and October are peak (6-16 yt/trip mean), while July-September collapse (1-4 yt/trip). Multi-day and overnight trips vastly outperform half-day trips.\n\n**Updated strategy:** Book overnight and 1.5-day trips exclusively in April-June and October, skip July-September entirely, and preserve ~$1000 budget for the October peak season (which showed 46 yt/trip on day_1_5 trips historically). The strategy.py now implements this seasonal model with budget-aware booking.",
+  "ttft_ms": 1775,
+  "type": "result",
+  "duration_ms": 132428,
+  "uuid": "337b2635-fcee-4cb7-973d-f7d7e74f15de",
+  "ttft_stream_ms": 639,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 639,
+  "time_to_request_from_spawn_ms": 19258970,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310637664.1667,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

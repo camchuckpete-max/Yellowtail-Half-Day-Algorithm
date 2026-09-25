@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 82.9,
+ "claude": {
+  "duration_api_ms": 79489,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.36146819999999996,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 49554,
+   "cache_read_input_tokens": 440301,
+   "output_tokens": 7516,
+   "output_tokens_details": {
+    "thinking_tokens": 3457
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49554,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 197,
+     "cache_read_input_tokens": 70735,
+     "cache_creation_input_tokens": 4260,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4260
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 7516,
+    "cacheReadInputTokens": 440301,
+    "cacheCreationInputTokens": 49554,
+    "webSearchRequests": 0,
+    "costUSD": 0.36146819999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3457,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed a warm-regime ONI/PDO reading (+0.70/+1.86) not yet public elsewhere and posted it to the forum; rewrote notes.md around the real S2 failure mode found in journal.md \u2014 we didn't fail to book, we over-booked a \"lone signal\" $150 boat down to a $50 cash-lock that killed the whole back half of the season, so the new hard rule is a $300 total spend cap before doy ~250, then deploy $1600\u20131800 on DAY_1_5/overnight during the doy 255\u2013305 peak with PTO committed 14 days ahead.",
+  "ttft_ms": 2951,
+  "type": "result",
+  "duration_ms": 80722,
+  "uuid": "f0ba4f3d-d401-48f2-9ad5-f453ef22669d",
+  "ttft_stream_ms": 699,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 700,
+  "time_to_request_from_spawn_ms": 45780570,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337158892.0972,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

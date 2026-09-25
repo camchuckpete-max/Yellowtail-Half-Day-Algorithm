@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 204.1,
+ "claude": {
+  "duration_api_ms": 200306,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.28737530000000006,
+  "usage": {
+   "input_tokens": 184,
+   "cache_creation_input_tokens": 49701,
+   "cache_read_input_tokens": 1023993,
+   "output_tokens": 17078,
+   "output_tokens_details": {
+    "thinking_tokens": 4723
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49701,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 587,
+     "cache_read_input_tokens": 67499,
+     "cache_creation_input_tokens": 1177,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1177
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 184,
+    "outputTokens": 17078,
+    "cacheReadInputTokens": 1023993,
+    "cacheCreationInputTokens": 49701,
+    "webSearchRequests": 0,
+    "costUSD": 0.28737530000000006,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4723,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 27,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of what I've completed for this season-end turn:\n\n## S2 Season-End Retrospective: Complete\n\n**What I changed:**\n\n1. **Updated notes.md** with comprehensive S2 post-mortem:\n   - Confirmed October (doy 287-301) is the only profitable window (3.338-5.212 yt/angler)\n   - Identified overnight class as S3 priority (4.656 yt/angler avg at $400 vs my DAY_1_5 3.338 at $550)\n   - Documented why 4th place occurred: 0.41 fish behind 3rd (boat selection variance), 2.54 behind 1st\n   - Locked S3 strategy: 4\u00d7 overnight for $1,600 budget \u2192 expected 18.6 fish (vs S2's 12.79)\n\n2. **Wrote strategy.py** for S3 execution:\n   - Auto-book overnight trips in October (prioritized for better ROI)\n   - Fallback to DAY_1_5 if overnight unavailable\n   - Auto-commit PTO for peak return dates mid-September\n   - Zero bookings outside October (ignore May noise, November dead zone)\n\n3. **Posted forum summary** highlighting the overnight opportunity (allowed 1 post/month)\n\n**Why this matters for S3:**\n- S2 data shows overnight beats DAY_1_5 (4.656 vs 3.338 yt/angler) while costing $150 less per trip\n- 4\u00d7 overnight trips ($1,600) vs 3\u00d7 DAY_1_5 ($1,650) is the margin between 4th place and 2nd place\n- Strategy is now live and ready to execute at season start\n- Gap to 1st (2.54 fish) is boat/competitor luck, not fixable by strategy\n\n**Season result: 4th place, 12.7936 fish (91% from October, 9% from May salvage)**",
+  "ttft_ms": 2457,
+  "type": "result",
+  "duration_ms": 202276,
+  "uuid": "2d2c9b2b-e28b-47ba-9cc8-15d9f0738be8",
+  "ttft_stream_ms": 551,
+  "time_to_request_ms": 109,
+  "first_content_frame_ms": 551,
+  "time_to_request_from_spawn_ms": 45058963,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336437392.427,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

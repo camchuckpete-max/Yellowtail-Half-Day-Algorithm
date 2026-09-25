@@ -1,0 +1,360 @@
+- S02 d091: Fleet skunking 7 days. Staying home. Will resume on first non-zero day.
+- S02 d092: Three-day skunk (d090-d092, all classes 0.000). Stopping. Fish have to show first.
+- S02 d093: Skunk extends to d093. Fleet zero across all classes. Waiting for fish to show.
+- S02 d094: d094 broke the skunk (THREE_QUARTER 0.185) but I'm locked out d095–d107 by missed PTO deadlines. Waiting for weekend boats or future visibility.
+- S02 d095: d095 skunk confirmed; locked out d095–d108 anyway (PTO deadline passed). Waiting for d109+ window and real bite.
+- S02 d096: Yesterday's 0.636 THREE_QUARTER reaction blocked—PTO deadline d083 passed. Locked out d097–d108. Waiting for weekend d099–d100 or d109+ window with real bite.
+- S02 d097: Eight-day skunk d090–d097; no recent bite. Jig Strike and Voyager have zero track record. Staying home; fish first."
+- S02 d098: d098 skunked, latest report local 0. d096 spike didn't sustain. Staying home; fish must show again first.
+- S02 d099: d099 signal after drought. San Diego THREE_QUARTER d100. If skunks return, I stop."
+- S02 d100: Signal weakening 0.067→0.012. Locked out d101 anyway (no PTO committed). Observing d101–d107; only commit if bite sustains, not false start.
+- S02 d101: d101 all-class skunk after d100 fizzle. Locked out by PTO deadline anyway. Staying home until next signal.
+- S02 d102: d102 0.029 after skunk—first non-zero signal but fading from d099 peak. Observing d103+ before committing; false starts cost too much.
+- S02 d103: Skunk run d101-d103 after fizzle confirms signal dead. Staying home; waiting for next bite before committing PTO or budget.
+- S02 d104: d104 all skunked; run continues post-d100 fizzle. Staying home; fish first.
+- S02 d105: d105 full skunk; d101–d105 run after false d099 start confirms no bite. Staying home until fleet shows fish again."
+- S02 d106: d106 broke skunk run with bigger spike than d099. San Diego d107 to confirm sustained bite; no false start this time.
+- S02 d107: d107 fade (0.034 vs 0.234 d106) confirms false start. All weekday trips locked by PTO deadline. Staying home; fish first.
+- S02 d108: Locked by PTO deadline. d108 0.040 too weak after d106 fizzle. Observing d109–d111 before committing weekday PTO.
+- S02 d109: d109 strong signal (0.412, San Diego 21) but can't book d110 without PTO. Watching d110–d111 before committing weekday PTO.
+- S02 d110: d110 skunked after d109 spike—false start confirmed. Staying home; fish first, then PTO.
+- S02 d111: d111 weak (0.051 THREE_QUARTER, 0.019 HD_PM) after d110 skunk. False start pattern repeating (d109→d110→d111). Staying home; fish first before budget commitment.
+- S02 d112: d112 recovery (0.333 vs d111 0.051, d110 skunk) breaks false-start pattern. Testing San Diego with full confidence in yesterday's bite.
+- S02 d113: d112→d113 collapse (0.333→0.008) confirms false-start pattern again. Skunked San Diego d113 despite yesterday's spike. Staying home; fish first.
+- S02 d114: d114 complete skunk after d112 spike (0.333)→d113 collapse (0.008). False-start pattern. Staying home; watching d115 before PTO commit.
+- S02 d115: d115 complete skunk. No boats available TWILIGHT anyway; all weekday classes locked by PTO deadline. Waiting for sustained bite before committing PTO.
+- S02 d116: d116 4th straight skunk. No bookable boats tomorrow (TWILIGHT has none scheduled). Holding PTO; fish first.
+- S02 d117: d117 one 0.030 signal buried in 4-day skunk (d114–d117). Same false-start pattern: spike then collapse. No bookable boats anyway. Holding PTO; fish first.
+- S02 d118: d118 weak (0.037). False-start cycle #6 confirmed. OVERNIGHT/DAY_1_5 expensive for zero boats. Fish first.
+- S02 d119: d119 THREE_QUARTER 0.014—weak bounce off 4-day skunk. False-start pattern #7 confirmed. Staying home; real recovery looks 0.05+ sustained, not this noise.
+- S02 d120: d120 complete skunk after d119 0.014 false signal. 7-cycle false-start pattern: weak bounces collapse back to zeros. Staying home; real recovery is 0.05+ sustained, not noise.
+- S02 d121: d121 complete skunk; no bookable boats. Summer holds quiet. Watching for 20+ YT day or sustained 0.05+ before fall PTO push.
+- S02 d122: d122 skunk. False-start cycle #7 confirmed. Summer dead zone; PTO protected for fall run signal.
+- S02 d123: d123 complete skunk; 7-day pattern confirms false starts. Summer holding continues; fall run signal still ~150 days ahead.
+- S02 d124: d124 fleet zeros across all classes. Summer holding. Waiting for DOY 250+ transition signal before fall run push.
+- S02 d125: d125 skunk: dead zone holds. Fall run signal expected this weekend—ready to book on sight.
+- S02 d126: d126: 0.062 YT THREE_QUARTER (first in 7d). El Gato Dos caught yesterday—booking to test fall run signal. Awaiting d127 result to confirm and plan DOY 270+ overnight pushes."
+- S02 d127: d127 false-start collapse: 0.062→0.010. Pattern #8 confirmed; staying home for 20+ YT day or 0.05+ sustained.
+- S02 d128: D128 skunk confirms false-start fade (pattern #8). Fall run ignition imminent (DOY 270+); awaiting signal to commit PTO for d136+ window.
+- S02 d129: d129 skunk confirms d126-d127 false start collapse. Summer holding firm. DOY 250 transition signal watch begins—ready to commit PTO for fall run when fleet shows sustained 0.05+ or 20+ YT day.
+- S02 d130: d130 false-start fade confirmed (d126: 0.062→skunks d127–d130). DOY 270 tomorrow—signal watch starts. Commit PTO on confirmation.
+- S02 d132: d132 weak (0.022 YT); d131→d132 collapse = Pattern #8 false start. DOY 270 tomorrow—watch d133 results for real signal before weekend commitment.
+- S02 d133: d133 skunk holds false-start pattern. DOY 270 tomorrow—watching d135 for fall-run signal to trigger overnight push.
+- S02 d134: DOY 270 entry, fleet skunked. D131 false-start (0.467→collapse) confirmed Pattern #8. Staying home, ready to all-in on >0.05 signal.
+- S02 d135: d135 fleet skunk = Pattern #8 false-start fade confirmed. Summer holding. Await DOY 250+ signal.
+- S02 d136: d131 false-start collapse confirmed through d136. DOY 269 tomorrow—await DOY 270 signal for all-in fall-run commit.
+- S02 d137: D137 skunk holds false-start fade. DOY 270 tomorrow—watch d138–d139 fleet for 0.05+ signal to trigger fall-run all-in PTO commits.
+- S02 d138: DOY 270 entry with skunks & false-start collapse (d131 pattern). Staying home; watching d138–d139 for real signal before fall-run all-in.
+- S02 d139: d139 non-zero (0.024) breaks 7-day skunk at DOY 270 trigger, but looks like Pattern #8 false start. Staying home; monitoring d140 for sustained signal to confirm fall-run entry before weekend commitment.
+- S02 d140: d140 all-zeros confirms d139=Pattern #8 false start. DOY 270 tomorrow but no real signal yet. Holding for >0.05 sustained or 15+ YT total fleet.
+- S02 d141: d141 full skunk (17 boats, 0 YT). Transition zone—DOY 270 fall-run signal still no-show. Holding for >0.05 or 15+ YT.
+- S02 d142: S02 d142 skunk confirmed. Transition noise continues. Holding for DOY 270 real signal: >0.05 or 15+ yt. Budget $1400, PTO 10 ready.
+- S02 d143: d143 breaks month-long skunk (0.256 yt/angler THREE_QUARTER). 14 days late for DOY 270 entry; locking Oct 9–15 (DOY 282–289) for mid-peak run capture.
+- S02 d144: d144 genuine 3.583 spike breaks false-start cycle—fall run entry confirmed. Grounded d145 (no advance PTO). Monitoring d146–d147 fleet for sustained confirmation before next expensive follow-up.
+- S02 d145: Strong entry confirmed (d144 spike, d145 sustained 47+ yt). Grounded d146 (Thu/no PTO). Watching d146 fleet; d148 Sat THREE_QUARTER is likely confirmation play.
+- S02 d146: Fall-run confirmation play on Dolphin III OVERNIGHT d148. Hold PTO commitment until weekend result confirms sustained signal before weekday peak push.
+- S02 d147: Dolphin III OVERNIGHT d148–d149 fishes Sunday on yesterday's strong signal. Weekend result determines PTO commitment for weekday follow-up.
+- S02 d148: d148 ends the pulse (peak d147, drop-off today). Waiting for next signal to confirm sustained run before weekday PTO lock.
+- S02 d149: Run peaked d147, confirmed decline d148–d149. Stop fishing per rules. Holding cash and PTO for DOY 270+ entry signal.
+- S02 d150: d150 skunk confirmed (THREE_QUARTER 0.009). Summer dead zone—grounded per strategy. Cash and PTO held for DOY 270+ entry signal.
+- S02 d151: Fall run crested d147, decline confirmed through d151 skunks. Grounded; holding $1000 and 7 PTO for DOY 270+ entry signal.
+- S02 d152: d152 one-boat noise; summer hold confirmed. Fleet skunked d150–d151, three-quarter 0/3 yesterday. Hold for fall run signal.
+- S02 d153: Summer hold steady. d153 weak HD_PM (0.036) + THREE_QUARTER skunk = noise, not signal. Fleet zeros with one-boat spikes; pattern unchanged since d150. Waiting for DOY 270+ sustained run.
+- S02 d154: d154 summer final skunk. No fall-run signal yet (yesterday 0 YT fleet-wide). Cash and PTO preserved for DOY 270+ entry confirmation.
+- S02 d155: d155 fleet skunk (0 YT all classes) confirms summer hold. PTO committed d285–287 for fall window. Cash reserved, waiting for d270+ signal.
+- S02 d156: d156 first non-zero in 7 days but class averages 25x below fall baseline—summer noise, not entry signal. Holding cash and PTO for d270+ confirmation.
+- S02 d157: DOY 270 threshold reached. Fleet d157 skunk = false start, not entry signal. Holding for confirmed run start.
+- S02 d158: DOY 269 edge of fall run. Fleet d158 skunk = holding. Tomorrow d159 results determine d160+ entry decision.
+- S02 d159: D159 false start, as expected. Holding for confirmed fall run signal. Monitoring d160 for entry trigger.
+- S02 d160: d160 weak noise (0.039 yt/angler THREE_QUARTER). Holding for confirmed fall run trigger; DOY 270+ entry point still ahead.
+- S02 d161: d161 fleet skunk. Summer hold intact—waiting for DOY 270+ fall signal confirmation before next move.
+- S02 d162: d162 fleet skunk at DOY 270 edge. Holding—need 2+ consecutive non-zero days to confirm run start, not single-day noise.
+- S02 d163: d163 first non-zero in 7d (0.023–0.026), but summer noise below threshold. Hold for d164–165 confirmation; DOY 270 entry point 2d away.
+- S02 d164: D164 mixed signals but summer noise level. DOY 270 threshold reached but fleet unconfirmed. Hold for d165–d166 confirmation before fall commitment.
+- S02 d165: D165 weak (0.015 3Q). Holding for DOY 270 confirmation. If d166–d167 sustain >0.05, commit PTO d179+ and book.
+- S02 d166: d166 fleet skunk. Summer holding—false start confirmed. Waiting for DOY 270+ sustained signal before next move.
+- S02 d167: d167 signal confirmed (0.371 THREE_QUARTER). Booked Voyager OVERNIGHT d169 to ride confirmed entry; PTO d182–184 locked for next THREE_QUARTER play. Run is live.
+- S02 d168: d168 signal confirmed (0.509 3Q, 30 YT total; 0.237 OVN). Fall run live; OVERNIGHT locked d169. Held $600 cash; committed d171–d172 PTO for weekday peak fishing.
+- S02 d169: DOY 270 entry confirmed—booked Mission Belle d170. If tomorrow holds, fall run is live; committed d183–184 to stay in peak week.
+- S02 d170: Mission Belle d171: continue the hold. If d171 skunks or d172–173 flatten below 0.03, pivot to longer trips or hold hard for DOY 250+ re-entry.
+- S02 d171: Confirmed run; locked out d172–d184 by lead-time rules. Committed d185–d188 to re-enter; 1 PTO day reserved.
+- S02 d172: D172 fleet confirmed (0.327 3Q, 23 yt San Diego). Can't fish d173 (PTO locked too late). Already hold d182+ ready; watching fleet d173–175 for run confirmation.
+- S02 d173: d173 skunk + d172 flicker (0.327 3Q) = noise, not run. Holding summer pattern. Fall run watch stays live.
+- S02 d174: d174 confirms false alarm d172–173. Summer hold stands; wait for DOY 250+ entry signal.
+- S02 d175: d175 0.011 3Q spike = false alarm. Summer chatter. Hold for fall run entry signal d250+.
+- S02 d176: Summer hold confirmed; d176 skunks match pattern. Fall run watch continues d250+.
+- S02 d177: d177 nibble (0.020–0.027) is chatter, not entry. Summer hold confirmed. Watching mid-week for sustained 0.05+.
+- S02 d178: Summer hold. d178 fleet 0.017 3Q is noise. Waiting for fall run signal DOY 250+.
+- S02 d179: d179 confirmed skunk; summer hold continues. Fall run watch live for DOY 250+.
+- S02 d180: D180 OVERNIGHT 0.020 = chatter, not entry. Staying dry in transition zone; watching for DOY 270 signal (30+ YT or 0.05+ yt/angler sustained).
+- S02 d181: d181 three-quarter signal on San Diego (caught 1 yesterday)—high-confidence early fall entry, already PTO-covered.
+- S02 d182: d182 false alarm confirmed. Holding dry for DOY 270 fall signal; budget $300 intact for first sustained run.
+- S02 d183: d183 confirmed false alarm: THREE_QUARTER skunked again, OVERNIGHT +0.039 one-day noise. Holding dry for sustained run signal DOY 270+.
+- S02 d184: D184 skunks confirm summer hold; zero fleet signal. Staying dry, budget $300 + 3 PTO reserved for DOY 270+ fall run.
+- S02 d185: d185 3Q signal 0.016 = d181 false alarm. Summer hold; dry for DOY 270+ entry signal.
+- S02 d186: Summer hold; d186 + d184 skunks + zero fleet signal. Dry for DOY 270+ entry. Budget $300, 3 PTO reserved.
+- S02 d187: d188: summer hold live. Fleet d187 all zeros. Dry, budget intact for DOY 270+ signal.
+- S02 d188: D188 micro-signal (0.012) is noise; summer hold live. Dry and waiting for DOY 270+ entry signal. Budget $300, 3 PTO reserved.
+- S02 d189: Summer hold live at d189; micro-signal 0.012 = noise. DOY 270 imminent—watching for first sustained fleet signal >0.05 yt/angler before commitment. Stay dry.
+- S02 d190: d190 skunked, d189 micro-noise. Summer hold live. Budget $300 + 3 PTO reserved for DOY 270+ entry signal ~80 days out. Dry.
+- S02 d191: D191 skunks confirm summer hold; micro-signal 0.009 = noise. Dry; $300 + 3 PTO reserved for DOY 270+ entry signal.
+- S02 d192: d192 overnight spike (0.047) = summer noise. Hold. DOY 270 signal watch continues.
+- S02 d193: d193: 0.068 3Q at DOY 270 threshold—real signal. Dry tomorrow (can't book 3Q w/o PTO lead); committing d208–d210 for fall run window. Budget $300, ready to strike.
+- S02 d194: d194 overnight 2.797 spike is hot, but inaccessible (no PTO). TWILIGHT dead historically. Hold for d208+ window.
+- S02 d195: d195 overnight spike real (0.833), but can't access w/o PTO. Hold; d208+ window in sight.
+- S02 d196: d197 sits dry. Summer hold live; d208 window imminent. No new signals yet.
+- S02 d197: d197 overnight hot (0.101)—first real signal. Booked Dolphin HD_AM d198 to test if run is live; still on summer hold discipline. Watch for d199+ overnight opportunity if d198 confirms.
+- S02 d198: Skunked d198 HD_AM (summer noise confirmed); overnight spike isolated, not sustained. Hold for d208+ entry window.
+- S02 d199: Overnight sustained d198–d199 (1.717 → 0.194). Fall run entry signal live at DOY 269. Zero PTO remaining; hold cash for d208+ all-in window. Watch d201 overnight result.
+- S02 d200: d200 weak (0.024 3Q only). Summer hold live; d208+ window next target. TWILIGHT noise, stay home.
+- S02 d201: d201 overnight spikes too scattered (1.717→0.194→0.583); summer noise. Holding for d208+ window (PTO locked). No new commitments needed.
+- S02 d202: No bookable d203 options with 0 PTO. Hold for d208 window.
+- S02 d203: Summer hold firm. d203 weak signal (~10-12 YT pooled) does not break threshold. Save cash and discipline for d208+ fall window entry signal.
+- S02 d204: d204 signal fails (0.034 down from 0.092 d203). Summer noise continues. Fall window calendar edge, but fish not here yet—wait for 30+ YT day to confirm run entry.
+- S02 d205: d205 THREE_QUARTER signal (0.121, San Diego 14 yt) within summer-hold scatter. TWILIGHT only bookable but 0.000 baseline—stay home. Next opportunity d208+ (PTO locked, $220 waiting).
+- S02 d206: d206 THREE_QUARTER spike (0.260) noted but no PTO for d207; TWILIGHT baseline zero. Hold cash and discipline for d208 entry window.
+- S02 d207: d207 THREE_QUARTER spike (0.449); San Diego 31 yt. Entry signal live—book d208 THREE_QUARTER San Diego. PTO d208–d210 locked, $70 cash remaining.
+- S06 d091: THREE_QUARTER 2.717 yesterday (San Diego 120 yt, strong signal), but d092 is a weekday—can't book without 14-day PTO advance. Signal may hold through weekend; watch d093–d095 for re-entry window or d106+ weekday commitment decision.
+- S06 d092: Hot three-quarter signal trapped by weekday lock. Follow into weekend OVERNIGHT instead—same run, same fish.
+- S06 d093: Hot THREE_QUARTER run. Switch to San Diego d094 THREE_QUARTER. Save $250, track the run.
+- S06 d094: Holding San Diego THREE_QUARTER d095 (already booked) on sustained three-day run; San Diego 103 yt d094 signals hot window. Watch d095 result for weekday d106+ PTO commitment decision.
+- S06 d095: Hot THREE_QUARTER d091-d095 (1.375 latest, 1.482 peak) sustained run locked out by PTO timing tomorrow (Monday d096). Reserving d110-d111 weekday slots (14-day advance rule satisfied tonight) for re-entry play; discipline beats noise-chasing.
+- S06 d096: Hot THREE_QUARTER d091-d096 peak locked out by weekday/PTO timing. Watching d098–d099 for weekend re-entry or d110+ strategy.
+- S06 d097: Hot THREE_QUARTER d091–d097 (1.578 yesterday). Locked out d098 (weekday, no PTO). Watch d099–d100 fleet; book weekend d101–d102 if run holds, else hold for d110–d111 committed slots.
+- S06 d098: Locked out d099 (no PTO). THREE_QUARTER run hot (d095–d098: 1.146–1.578 yt/angler). Watch d100 fleet results tomorrow; book weekend d101–d102 if run extends (no PTO needed).
+- S06 d099: Hot run d095–d099 shows slight decay (1.578→0.825). Book weekend Prowler to capture peak; weekend costs no PTO. Hold d110–d111 PTO for weekday re-entry if run extends into next week.
+- S06 d100: Prowler OVERNIGHT locked for d101. Watch d102–d104 fleet—if run holds, commit d106+ weekday PTO after tomorrow's results close evening d101.
+- S06 d101: Mission Belle d101 50 yt = run still hot. Book d102 THREE_QUARTER. Await d102 close before weekday commitment d110+.
+- S06 d102: Run locked d103–d109 by weekday/PTO rule. Holding d110–d111 committed slots; if fleet d108–d109 still >1.2 yt/angler, my entry catches the peak tail.
+- S06 d103: THREE_QUARTER hot d101–d103 (1.732 yesterday). Locked out d104–d109 weekday/PTO rule. Holding d110–d111 committed; monitor d104–d109 fleet close, commit d117+ only if run extends.
+- S06 d104: Decay signal d103→d104 (1.732→0.636). Hold d110–d111 committed, no new PTO until d109 fleet close.
+- S06 d105: THREE_QUARTER d105 (1.020) = bounce after d104 crash; need d106–d109 sustained signal before committing d113+ weekday PTO.
+- S06 d106: Book Legend OVERNIGHT d108. Hold d110–d111 committed; watch d109 close for d113+ weekday entry (run extended or cooled?). Budget $650 left after $400 spend.
+- S06 d107: Already on Legend OVERNIGHT d108 (fishes d109). Yesterday 1.364 THREE_QUARTER confirms run still hot. Hold d110–d111, watch d109 close for d113+ weekday entry.
+- S06 d108: Run hot d106–d108 (1.613→1.364→1.993 THREE_QUARTER). Booking San Diego d109. Hold d110–d111, await d109 close before d113+ weekday commit.
+- S06 d109: Book d110 San Diego THREE_QUARTER on committed PTO. Monitor d110 close: if d110 > 0.8 yt/angler, commit d117+ weekday for extension. If d110 < 0.5, run broken—hold remaining budget.
+- S06 d110: Run hot d105–d110. Book San Diego d111 on committed PTO. Lock d125 weekday for tail. Budget $200 after spend.
+- S06 d111: Run hot d108–d111 (3.463 peak d111) but d112 locked by PTO rule. Hold for d125 weekday tail or next confirmed weekend signal. Budget $200, PTO 7 left.
+- S06 d112: Run cooling (3.463→1.760 d111→d112). Hold budget, watch weekend signal before extending past d125 tail.
+- S06 d113: Run sustained d111–d113 (3.463→1.760→2.243). No bookable weekday tomorrow; hold d128+ decision for d114 close signal.
+- S06 d114: Run hot d108–d114 (3.463→2.243→4.024 THREE_QUARTER peak). Book Malihini d115, hold $50 reserve. Assess d115 close: >1.0 yt/angler, commit d131+ weekday; <1.0, run broken, cash out.
+- S06 d115: Run broken at 0.987 d115; stay home. d114 4.024 peak to d115 0.987 is decay signal. Hold $50, PTO 7, await reconfirmation.
+- S06 d116: Run broken d114→d115→d116 (4.024→0.987→0.000). Hold $50, 7 PTO. Await reconfirmation.
+- S06 d117: Stay home d118 (no PTO committed, $50 budget <$80 min). d117 spike (2.144 THREE_QTR) could be recovery—watch d118 close for 2-day reconfirmation before locking d131+ tail.
+- S06 d118: d117→d118 recovery reconfirmed (2.144→2.029 THREE_QTR). Hold $50, wait for d125 play; next new PTO commit too far out to catch this run.
+- S06 d119: THREE_QUARTER run hot d117–d119 (1.6+ yt/angler sustained). Locked out d120 by budget/PTO timing. Hold $50, watch d120 close—if 4th day confirms, commit d131+ tail next turn.
+- S06 d120: Locked out d121 by budget (d120 again). THREE_QUARTER run hot but inaccessible. Hold $50, await recovery reconfirmation d122+.
+- S06 d121: Run broken d121 at 0.321. Season's spring tail is done; early peak (Feb-Mar) was unreachable. Rank 12, score 7.22.
+- S06 d122: Run broken d121; d122 marginal bounce (0.357) insufficient. Budget locked $50, hold for fall recovery signal.
+- S06 d123: Run over. d121→d123 decay sustained (0.32→0.35→0.18). Hold $50, await 2-day reconfirm before fall commit.
+- S06 d124: d124 bounce 0.714 THREE_QTR marginal. Hold $50, await d125 close—if 2-day reconfirm, commit d138+ tail.
+- S06 d125: d125 collapse (0.036 THREE_QTR). Spring tail done, early peak missed. Hold $50, watch d126+ close for any 2-day reconfirm before locking d140+ PTO.
+- S06 d126: Hold $50. d126 bounced 0.548 but signal too weak (choppy: 0.714→0.036→0.548). Watch d127 close before committing d140+ tail.
+- S06 d127: Locked out by budget ($50). Hold, watch d128 close for fall commit signal.
+- S06 d128: d128 collapse 0.020 yt/angler. Run over. Locked $50, no fall signal. Hold.
+- S06 d129: Fall signal: d129 THREE_QTR 1.054 (reconfirm). Locked out $50, watch d130 close. If >0.5 yt/angler, deploy d143–d144 when funded.
+- S06 d130: THREE_QTR fired 2.255 d130 (reconfirm signal). Broke and locked out d131 (no PTO, $50 < $80). Hold, watch close.
+- S06 d131: Fall signal d130–d131 confirmed (2.255, 2.647 yt/angler THREE_QTR). Broke and locked out d132; watch d132 close before d145+ commit.
+- S06 d132: Locked out d133 (budget $50). Fall signal weakening—d132 0.636 decay from d131 2.647. Watch d133 close before d145+ PTO commit.
+- S06 d133: Locked out budget. d133 spike (3.439) looks like chop within decay run, not re-confirm. Hold $50, watch d134 close.
+- S06 d134: d134 run dead (0.552). Locked $50 + no PTO for d135. Hold, watch for re-confirm or weekend plays.
+- S06 d135: Run dead d134 0.552. Broke. Hold both capital and PTO for fall signal.
+- S06 d136: Locked out $50 < $80. Fleet weakening THREE_QUARTER (0.846 d136 decay). Hold.
+- S06 d137: d137 THREE_QUARTER 0.965 is clean but tail-end; run still decaying from d133 peak. Broke and locked d138. Watch close before fall commit.
+- S06 d138: Broke. THREE_QUARTER 0.824 d138 holds mid-range (0.8–0.9 d136–d138), not new confirm. Watch d139–d141; if sustained, commit PTO for d152+.
+- S06 d139: Broke and locked. d139 THREE_QUARTER 1.321 is sustained decay tail, not new confirm. Hold $50 and PTO for re-confirm or weekend plays.
+- S06 d140: d140 fleet 0.403 THREE_QUARTER confirms decay tail. Broke + no PTO. Hold both; watch close d141–d142 for re-confirm before d155+ commit.
+- S06 d141: Broke + locked. d141 0.663 ambiguous; watch d142 to confirm re-run before committing d152+.
+- S06 d142: THREE_QUARTER 1.724 d142 signals a hold. Broke, locked out. Watch d143–d145 for confirm; commit d152+ PTO only if fleet sustains.
+- S06 d143: Broke and locked out. Fleet decay tail (0.473 d143 < 1.724 d142). Hold both.
+- S06 d144: d144 THREE_QUARTER 1.248 re-boot signal after decay; heavy boats loaded. Locked out by $50 budget. Watch d145 confirm before d152+ PTO commit.
+- S06 d145: Broke and PTO-locked. d145 soft (0.445) after d144 strength (1.248)—no confirm yet. Hold both; watch d146 for re-run signal before d152+ commit.
+- S06 d146: d146 solid (1.188) but soft. Broke at $50, locked on PTO. Hold and watch d147–d149 for confirm before d160+ commit.
+- S06 d147: d147 THREE_QUARTER 0.708 decay tail continues. Broke at $50. Hold both; watch d148–d149 for re-confirm before d162+ commit.
+- S06 d148: Locked d149 (PTO + budget). Watching d150–d151 weekend for new run to confirm before d162+ commit.
+- S06 d149: Broke and locked out. d149 season tail shows decay (THREE_QUARTER 0.474). No capital for any d150 offer ($80–$550). Observe only.
+- S06 d150: Broke; d150 decay tail (0.048 THREE_Q). Hold and watch d151–d152 for reversal before d164+ commit.
+- S06 d151: Broke and locked. d151 THREE_Q 0.024 = run dead. Observe d152–d154 for restart signal before fall commit.
+- S06 d152: d152 run collapsed across all classes; broke and locked. Observe d153–d155 for restart signal before any d166+ PTO commit.
+- S06 d153: Broke and idle. d153 skunk confirms d152 run collapse. Watch d154–d155 for restart before d166+ PTO commit.
+- S06 d154: d154 skunk confirmed; run still broken. Hold $50 and 4 PTO days. Watch d155–d157 for restart signal before d166+ commit.
+- S06 d155: d155 THREE_Q 0.020; run still dead. Broke and locked. Watch d156–d158 for restart before any fall commit.
+- S06 d156: Run dead d151–d156; ghost catches only. Broke, locked. Watch d158+ for fall restart before d166+ commit.
+- S06 d157: Broke and locked, d157 run still dead. Observe d158+ for restart before any d166+ PTO commit.
+- S06 d158: Restart signal d157–d158 confirmed, but broke and locked. Season effectively over.
+- S06 d159: d159: Flat broke, flat locked. Run still dead. Season over.
+- S06 d160: Broke and locked. d160 THREE_Q 0.757 restart signal confirmed; season over without funding. Watch d161+ for fall run.
+- S06 d161: Flat broke, flat locked. Restart signal d160-d161 visible but unreachable. Season over.
+- S06 d162: d162 THREE_QUARTER 0.524 restart confirmed but missed—broke and locked. Season over.
+- S06 d163: d163 weak decay (0.098 THREE_Q). Broke. Watch d164–d165 only; season done without funding restart.
+- S06 d164: Broke at $50; d164 THREE_Q 0.956 tantalizes but unreachable. Season over without funding restart.
+- S06 d165: Broke and locked. d165 THREE_QUARTER 0.503 + OVERNIGHT 3.946 visible but unreachable; season effectively over.
+- S06 d166: d166 THREE_QUARTER 1.933 yt/ang on San Diego (34 yt), strongest signal in days—completely unreachable. Broker than broke, season over.
+- S06 d167: d167 THREE_QUARTER 2.074 (San Diego 56 yt)—perfect signal, zero dollars. Season done.
+- S06 d168: Season 6 complete. Score 7.22, rank 16. Broke and locked. Restart in S7.
+- S06 d169: Broker than broke at $50 budget. Season lost to early-year strategy failure (missed DOY 14-60 peak entirely). Watching from shore.
+- S06 d170: Broke and locked. d170 THREE_Q decay (0.099). Season over; focus S7 restart.
+- S06 d171: d172: THREE_QUARTER 0.891 signal visible (San Diego 96 yt d171), unreachable. Season 6 final: $50 broke, rank 16. S7 restart.
+- S06 d172: Broke at $50, THREE_QUARTER peak 2.278 yt/ang unreachable. Season 6 over. S7 restart needed.
+- S06 d173: d174 signal unreach able (no weekday PTO committed). Season over, sidelines.
+- S06 d174: Broke at $50, locked out. Season 6 winding down, unreachable peaks. Sidelines.
+- S06 d175: d175 THREE_QUARTER hot at 3.270, unreachable. Broke at $50, no PTO committed for weekday. Season 6 sidelines.
+- S06 d176: Broke at $50, locked out. THREE_QUARTER hot (3.27–3.44 d175–d176, San Diego/Malihini) but unreachable; weekday rule + no funds. Season 6 winding down, sidelines.
+- S06 d177: Flat broke at $50. Fleet on fire (THREE_QUARTER 3.2+ yt/angler d175–d177), completely unreachable. Season 6 sidelines, full reset for S7.
+- S06 d178: THREE_QUARTER peaking (2.15 yt/ang d178), San Diego hot with 251 YT. Completely broke at $50—can't book. Season 6 sidelines, full reset needed.
+- S06 d179: Flat broke, locked out. THREE_QUARTER rebound visible but unreachable. Season 6 complete.
+- S06 d180: Broke at $50, locked out. THREE_QUARTER run still hot (d180: 1.427 yt/ang, San Diego 81 YT) but unreachable. Season 6 sidelines, full reset for S7.
+- S06 d181: Broke at $50, locked out. THREE_QUARTER hot (2.092 d181, San Diego 156 yt) unreachable.
+- S06 d182: Completely locked out. THREE_QUARTER hot again (d182: 2.704 yt/angler) but unreachable—no budget, no PTO access. Season 6 sidelined.
+- S06 d183: S06 d183: Flat broke. THREE_QUARTER run decaying (2.7 → 2.0 yt/ang in 2 days). Season 6 complete, sidelines.
+- S06 d184: Flat broke at $50, fleet hot d184 (THREE_QUARTER 1.904, San Diego 290 yt) but unreachable. Season 6 sidelines.
+- S06 d185: Locked out at $50. THREE_QUARTER signal hot (2.033 d185, San Diego 182 yt) but unreachable. Sidelines.
+- S06 d186: Flat broke at $50. THREE_QUARTER hot (4.050 d186) but unreachable—minimum $80, have $50. Season 6 complete, sidelines.
+- S06 d187: Locked out at $50. THREE_QUARTER peak yesterday (2.114) unreachable. Season 6 sidelines.
+- S06 d188: Broke and locked out. THREE_QUARTER hot (d188: 3.121) unreachable—budget $50 < $80 floor, no PTO for weekday. Sidelines.
+- S06 d189: Broke at $50. THREE_QUARTER hot d189 (San Diego 152, Mission Belle 110) unreachable. Season 6 sidelines.
+- S06 d190: S06 d190 21:00. Flat broke, season done. Final 7.22 fish, rank #20. Spring peak entirely missed; only caught tail on THREE_QUARTER d91–d120.
+- S06 d191: d192: Broke. THREE_QUARTER hot but unreachable ($50 < $80 floor). Season 6 sidelines.
+- S06 d192: Flat broke at $50, sidelines. Hot signal (NEW SEAFORTH 31 yt d192 HD_PM, THREE_QUARTER 0.333) unreachable until budget recovers.
+- S06 d193: Broke at $50, min trip $80. THREE_QUARTER hot (0.309 d193) unreachable. Season 6 sidelines.
+- S06 d194: Broke and locked out. OVERNIGHT peak (1.739 d194) unreachable at $50 budget vs $400 cost. Season 6 sidelines.
+- S06 d195: Season 6 final: rank #20, 7.22 fish, locked out at $50. Missed early spring entirely (strategy.py disabled DOY 1–90); caught tail of THREE_QUARTER run only.
+- S06 d196: Broke and locked out. THREE_QUARTER hot (0.805 d196, San Diego 74 yt) unreachable. Sidelines.
+- S06 d197: THREE_QUARTER run broken. Locked at $50 budget. Season over.
+- S06 d198: Broke at $50. Fleet showing THREE_QUARTER heat (San Diego 13, El Gato Dos 18 yt d198) but completely unreachable. Season 6 sidelines.
+- S06 d199: Locked at $50. San Diego THREE_QUARTER 24 yt d199 but unreachable. Season 6 final—sidelines.
+- S06 d200: Broke at $50, lockout d201 complete. Season 6 sidelines continue.
+- S06 d201: S06 d201 end: locked at $50, cannot reach any bookable trip. Season 6 final sidelines—wait for S7 reset.
+- S06 d202: End of S6. Broke at $50, all trips unaffordable. Season sidelines. Wait for S7 reset.
+- S06 d203: Locked out at $50. Season 6 final sidelines. Waiting for S7 reset.
+- S06 d204: Broke at $50, completely locked out. Run collapsed (0.265 THREE_QUARTER yesterday). Season sidelines—wait for S7 reset.
+- S06 d205: Broke at $50. Season 6 sidelines continue. Awaiting S7 reset.
+- S06 d206: S06 d206 endgame: broke at $50, all trips unaffordable. Waiting for S7 reset.
+- S06 d207: Broke at $50, completely locked out. Yesterday decent (THREE_QUARTER 0.227) but unreachable. Season 6 endgame sidelines continue.
+- S06 d208: S06 d208: Decent fleet action (THREE_Q 0.247, OVERNIGHT 0.634 yt/angler) but budget $50 < $80 min. Staying ashore—hold cash for S7.
+- S06 d209: Broke at $50, no PTO for weekday d210. Season 6 endgame sidelines. Hold and wait for reset.
+- S06 d210: S06 d210: Broke at $50, all trips unaffordable. Season end sidelines. Hold for S7.
+- S06 d211: Broke at $50, completely locked out. Season 6 final—hold for S7 reset.
+- S06 d212: S06 d212: Broke at $50, completely locked out. Yesterday solid (OVERNIGHT/THREE_QUARTER decent) but unreachable. Season 6 endgame: wait for S7 reset.
+- S06 d213: S06 d213: Broke at $50. Fleet hot (THREE_Q 0.498, OVN 0.683 yt/angler yesterday) but unreachable. Season 6 final sidelines—hold for S7.
+- S06 d214: Broke and locked out. OVERNIGHT/THREE_QUARTER hot yesterday (1.363/0.271) but impossible to reach—zero budget headroom, zero PTO for weekday. Season 6 endgame sidelines.
+- S06 d215: Broke and no PTO path for tomorrow. Season 6 final sidelines—hold for S7.
+- S06 d216: S06 final sidelines. Budget and PTO both blocked. Wait for S7 reset.
+- S06 d217: S06 d217 night: Broke, locked out. Season 6 final sidelines. Hold for S7.
+- S06 d218: Broke at $50. Season 6 final sidelines—wait for S7 reset.
+- S06 d219: S06 d219 night: Completely broke at $50. Season 6 final sidelines—wait for S7 reset.
+- S06 d220: S06 d220 night: Broke at $50. Locked out entirely. Season 6 final sidelines—hold for S7.
+- S06 d221: d221 fleet weak; run cooling hard. Broke at $50—hold for next signal.
+- S06 d222: d222 fleet cooled hard (THREE_QUARTER 0.103). Broke and PTO-locked for weekday plays. Hold until next window.
+- S06 d223: Broke and locked. S06 final sidelines. Hold for S7 reset.
+- S06 d224: Budget locked $50. THREE_QUARTER run broken (0.036–0.000). Hold for next window or S7 reset.
+- S06 d225: S06 d225 final: Locked at $50. Season 6 over. Hold for S7 reset—watch early peaks.
+- S06 d226: Season 6 final: locked $50, THREE_QUARTER run collapsed. Hold for S7 reset.
+- S06 d227: Broke and locked. Season 6 shutdown—wait for S7 reset.
+- S06 d228: S6 final: broke and locked. Hold for S7 reset—watch early peaks.
+- S06 d229: Broke and locked at $50. Fleet weak, run cold. Season 6 final—sideline until S7 reset.
+- S06 d230: S6 final: broke and skunked. Sideline until S7 opens—watch early peaks.
+- S06 d231: S6 d231 final: THREE_QUARTER run dead (0.004 skunk). Locked out by budget and season end. Wait for S7 peak.
+- S06 d232: Broke and locked out. S6 final—sideline until S7 reset. Watch early peaks.
+- S06 d233: Locked at $50, run collapsed. S6 spectator mode. Hold for S7 reset and early peaks.
+- S06 d234: Broke and sidelined. Fleet weak, run dead since d121. Hold for Season 7 reset.
+- S06 d235: Broke and sidelined. Season 6 final—wait for S7 reset and early peaks.
+- S06 d236: S06 d236 final: broke and locked out. HD_PM had meat yesterday but wallet empty—sideline to season end.
+- S06 d237: S06 final: broke and locked out. THREE_QUARTER run hot but no PTO committed. Sideline to S7 reset.
+- S06 d238: S06 d238: Budget $50, cannot book $80+ trips. Locked out again. Hold for S7 reset and early season peaks.
+- S06 d239: Broke and locked out again. THREE_QUARTER peaked yesterday but unreachable. Hold and wait for S7 reset.
+- S06 d240: Locked out at $50. Point Loma/Sea Watch hot yesterday but unreachable. THREE_QUARTER decay signal (0.912→0.272). Hold for S7 reset and early season peaks.
+- S06 d241: Locked out at $50 again. THREE_QUARTER hot yesterday (0.765 yt/angler) but unreachable. Season 6 endgame. Hold for S7 reset.
+- S06 d242: S06 final endgame. Broke and sidelined. Run expired; wait for S7 reset and early peaks.
+- S06 d243: S06 d244 (Tue): Broke and sidelined. HD_PM hot but unreachable ($50 budget, no PTO). Season 6 final—wait for S7 reset.
+- S06 d244: S06 d244 endgame: broke again, run expired. Sideline for S7 reset.
+- S06 d245: S06 final: broke and locked out again. HD_PM hot (1.237 yt/angler d245) but unreachable at $50. Season 6 done—hold for S7 reset and early peaks.
+- S06 d246: S6 final: broke and run expired. Holding 7 PTO for S7 opening peak. Ready to deploy early.
+- S06 d247: S6 final endgame. Broke and run dead. Hold budget and PTO for S7 reset and early spring peak.
+- S06 d248: S6 d248: broke and run dead. Hold 7 PTO + budget for S7 reset and early peaks.
+- S06 d249: S6 d250 final: broke and run dead. Hold 7 PTO and $50 budget for S7 reset and early peaks.
+- S06 d250: Broke at $50, OVERNIGHT climbing (0.372 d250) but unreachable. Hold 7 PTO for real peak signal.
+- S06 d251: S6 d251: Broke and locked out. Hold 7 PTO + $50 for S7 reset and early peaks.
+- S06 d252: S6 d252 endgame: Broke and locked out. Run decaying. Hold $50 + 7 PTO for S7 reset.
+- S06 d253: S6 d253: locked out on cash, THREE_QUARTER still showing 0.532 but unreachable. Hold $50 + 7 PTO for S7.
+- S06 d254: S6 d254: Run peaked d252, now decaying. Broke and out. Hold $50 + 7 PTO for S7 reset.
+- S06 d255: Season 6 final days: broke and locked out. Run still alive but unreachable. Hold for S7.
+- S06 d256: S6 d256 final night: broke and holding. Season run is dead; save everything for S7 peak window (14+ days out).
+- S06 d257: S6 final: broke and locked out. Season run collapsed; all weekday trips need PTO committed 14 days ahead. Hold for S7 reset.
+- S06 d258: Broke and locked out by budget despite live bite. Hold 7 PTO + $50 for S7 reset.
+- S06 d259: Broke and locked out, season run ending. Hold $50 + 7 PTO for S7 reset and early peaks (DOY 14–60).
+- S06 d260: Broke and locked out. Season run broke d111; fleet confirms collapse. Hold $50 + 7 PTO for S7 reset.
+- S06 d261: Broke and locked out to S6 end. Bite still warm (d259–d261) but unreachable. Hold all resources for S7 early season window.
+- S06 d262: Locked out by budget d262–d263. Fleet bite warm but unreachable. Hold $50 + 7 PTO for S7 reset and early spring peaks (DOY 14–60).
+- S06 d263: Broke and locked out despite hot d263 bite (1.093 THREE_QUARTER). Season run decaying; hold $50+7 PTO for S7 reset and early peaks (DOY 14–60).
+- S06 d264: Locked out completely on $50. Season 6 run ended d111, no recovery. Hold for S7 early peaks (DOY 14–60).
+- S06 d265: Season 6 run over (broke d111). Locked out by budget and PTO. Hold for S7 reset and early peaks.
+- S06 d266: Broke and locked out to S7. Hold $50+7 PTO for S7 early peaks (DOY 14–60): caught 7.22 fish all from spring tail after missing $10+ per trip in winter/early spring multis. Next season: deploy early.
+- S06 d267: Season 6 dead; locked out by budget and PTO window. Hold for S7 reset and early peaks.
+- S06 d268: Broke and locked to S7. Season 6 run dead; no recovery signal. Hold $50 + 7 PTO for S7 reset and early spring peaks.
+- S06 d269: S6 complete. Locked by budget. Hold $50+7d PTO for S7 early peaks. Deploy immediately at DOY 14 when multi_day breaks.
+- S06 d270: Broke and locked out. Holding $50 + 7d PTO for S7 early peaks at DOY 14.
+- S06 d271: S6 complete. Broke and locked. Hold $50 + 7d PTO for S7 reset; deploy at DOY 14 when early spring peak breaks.
+- S06 d272: S6 end-of-season lockout. Hold $50 and 7d PTO for S7 reset; deploy at DOY 14 when early spring multi-day peak breaks.
+- S06 d273: Broke and locked. S6 complete; run broken d111. Hold $50+7d for S7 reset, deploy DOY 14 early multi-day peak.
+- S06 d274: S6 locked out by budget and decay. Hold $50+7d PTO for S7 DOY 14 reset. No plays until next season.
+- S06 d275: Broke and locked. S6 run dead (THREE_QUARTER 0.000 d275). Hold $50+7d for S7 reset.
+- S06 d276: S6 complete, locked out by budget. Hold $50+7d for S7 reset at DOY 14; early spring peak is the only play.
+- S06 d277: Locked out by budget. S6 done. Hold $50+7d for S7 early spring reset at DOY 14.
+- S06 d278: S6 d278 final lockout. Hold $50+7d for S7 reset at DOY 14; early spring peak only play.
+- S06 d279: S6 d279 final lockout: $50 broke, no trips possible. Hold 7d PTO for S7 DOY 14 reset only.
+- S06 d280: S6 d280 final: $50 broke, 7d PTO held for S7 DOY 14 reset. Season complete, no plays remain.
+- S06 d281: Broke and locked S6 d281. Reserved S7 DOY 14-17 early spring peak; 3 PTO days remain for fallback.
+- S06 d282: S6 final week: fleet collapsed, run broken. Hold $50+7d for S7 DOY 14 early spring reset.
+- S06 d283: S6 d283: Fleet collapse continues. Stay locked out, hold $50 + 7d for S7 reset.
+- S06 d284: S6 final: locked out budget $50, fleet decaying. Hold $50+7d for S7 reset.
+- S06 d285: S6 complete, locked $50. Hold 7d PTO for S7 early spring (DOY 14+).
+- S06 d286: S6 d286 final: budget locked $50, fleet decay confirmed. Hold 7d PTO for S7 spring reset.
+- S06 d287: S6 d287: broke and locked. Hold 7d PTO for S7 DOY 14 spring peak (mid-January).
+- S06 d288: Locked out, S6 d288 end of season. Hold 7d for S7 spring reset d14+. Season over.
+- S06 d289: S6 d289 final: Broke and locked out. Hold $50+7d for S7 DOY 14 spring reset.
+- S06 d290: S6 d290: broke and locked out. THREE_QUARTER decent yesterday but can't book. Season tail running; hold 7d and $50 for S7 spring.
+- S06 d291: S06 d292: Broke and locked. Fleet decay confirmed. Hold 7d PTO + $50 for S7 DOY 14+ spring reset.
+- S06 d292: S6 d292: Broke and locked. THREE_QUARTER 1.8 yt/angler yesterday but can't touch it. Hold $50+7d PTO for S7 spring reset (DOY 14+).
+- S06 d293: S6 tail run still alive but budget locked out. Hold 7d PTO for S7 spring reset (DOY 14+, early Jan).
+- S06 d294: S6 tail completely broken. Season over. Holding 7d PTO + $50 for S7 spring (DOY 14+).
+- S06 d295: S6 tail run complete. Broke and locked. Hold 7d + $50 for S7 spring reset.
+- S06 d296: Broke again. d296 three-quarter 1.054 yt/angler but can't touch it. Hold 7d PTO + $50 for S7 spring reset.
+- S06 d297: S6 tail final. Broke. Hold $50 + 7d PTO for S7 spring (DOY 14+).
+- S06 d298: S6 complete. Broke and locked; season tail confirmed dead. Hold $50 + 7d for S7 spring.
+- S06 d299: Broke and locked. Yesterday's fire (2.148 yt/angler) confirms tail still alive, but I'm out. Holding $50 + 7d for S7 spring (DOY 14+).
+- S06 d300: S6 complete, locked out. THREE_QUARTER 5.0 yt/angler d300 unreachable; broke since d292. Hold $50 + 7d PTO for S7 spring.
+- S06 d301: Broke and locked. d301 fleet crashed after d300 hot; skunk pattern confirmed. Hold $50 + 7d PTO for S7 spring.
+- S06 d302: Broke and locked. d302 THREE_QUARTER 1.918 yt/angler live but unreachable—$50 in the bank. Hold for S7 spring.
+- S06 d303: Broke and locked, S6 tail end confirmed. Hold 7d PTO + $50 for S7 spring peak.
+- S06 d304: Broke at $50. d304 THREE_QUARTER fire (5.0 yt/angler) unreachable. Season tail confirmed; no capital to deploy.
+- S06 d305: S6 final. Broke and locked; season over. Hold $50 + 7d for S7 spring peak (DOY 14+).
+- S06 d306: S6 final: broke and locked. Holding $50 + 7d PTO for S7 spring peak window (DOY 14–60).
+- S06 d307: S6 tail dead after peak d305 decay. Broke and locked. Waiting for S7 start with $50 + 7d.
+- S06 d308: S6 tail skunked d303–d308 after d305 peak. Broke and locked. Wait for S7 spring.
+- S06 d309: Broke + late S6. Fleet hot d309 but unreachable. Hold for S7 spring peak window.
+- S06 d310: Broke at $50. Fleet hot yesterday (THREE_QUARTER 1.426 yt/angler) but unreachable. Hold for next window.
+- S06 d311: S6 d311: Fleet hot but broke and locked. Save $50 + 7d PTO for S7 spring peak (DOY 14+).
+- S06 d312: S6 tail: fleet hot (THREE_QUARTER 3.426 d312) but broke and locked. Season ending; hold for S7 spring peak.
+- S06 d313: S6 tail peak d310–d313 (THREE_QUARTER 1.4–3.4, DAY_1_5 5–6) completely unreachable. Broke and no pre-committed PTO. Exact repeat of S6 mistake—arrived late to the signal.
+- S06 d314: Broke again at S6 tail. Watched d311–d313 peak (THREE_QUARTER 3.4, DAY_1_5 5+) completely unreachable. Strategy.py failed to fire early season. Reset for S7 DOY 14+.
+- S06 d315: S6 tail peak d315 (THREE_QUARTER 1.151, San Diego 76 yt) completely unreachable. Broke and locked again. Season ending; reserve PTO for S7 early phase.
+- S06 d316: S6 d316: Fleet hot (THREE_QUARTER 1.912) but unreachable again. Broke + no PTO. Season ending; wait for S7 fresh start.
+- S06 d317: S6 tail peak d317 (THREE_QUARTER 2.269) completely unreachable, broke again. Hold $50 + 7d PTO for S7 Phase 1 early peak (DOY 14-60).
+- S06 d318: THREE_QUARTER 1.0 yt/angler yesterday (d318)—peak unreachable, broke at $50. Season 6 repeat; another run missed.
+- S06 d319: S6 d319 skunk, broke at $50, no PTO pre-committed for d320. Holding for S7 early phase trigger.
+- S06 d320: S6 bust; $50 cash + 7d PTO held for S7 DOY 14+ early peak.
+- S06 d321: d321 skunk ends the run. Holding $50 + 7d PTO for S7 phase 1 (DOY 14+).
+- S06 d322: S6 d323 skunk likely. Holding $50 + 7d PTO for S7 phase 1 early peak (DOY 14+). Strategy.py armed.
+- S06 d323: S6 d324: Broke and locked out again. Hold $50 + 7d PTO for S7 d14+ early peak (strategy.py active).
+- S06 d324: S6 d324 skunk ends the run. Broke at $50. S7 awaits—strategy.py armed for DOY 14+ early peak trigger.
+- S06 d325: S6 d325 skunk closes the run. Broke at $50. Season 7 strategy.py armed for DOY 14+ early peak.
+- S06 d326: S6 d327: Broke and locked out. Holding $50 + 7d PTO for S7 phase 1 (DOY 14+).
+- S06 d327: S6 d328: Holding. Broke at $50 + 7d PTO reserved for S7 phase 1 (DOY 14+).
+- S06 d328: S6 d329: Season bust closes. Held $50 + 7d PTO. Strategy.py armed for S7 d305+ early phase (DOY 14+).
+- S06 d329: Season 6 bust closes. Broke at $50, 7d PTO locked for S7 phase 1 (DOY 14+). Strategy.py active.
+- S06 d330: S6 d330: Holding at $50 + 7d PTO for S7 phase 1 (strategy.py ready to fire at d305+). Season winding down—nothing to chase tomorrow.
+- S06 d331: S6 broke and skunking. Season 7 strategy.py armed for d305+ early peak phase.
+- S06 d332: S6 d332: broke at $50. Season ends tomorrow. Holding for S7 strategy.py early peak phase (DOY 14+) automation—don't repeat missing the early window.
+- S06 d333: S6 d333: Locked out by budget. Season ends tonight; S7 strategy.py active d305+ for early peak capture.
+- S06 d334: S6 d334: Broke, no PTO available for tomorrow. Hold for S7 early peak (d305+) strategy.py.

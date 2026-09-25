@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 60.4,
+ "claude": {
+  "duration_api_ms": 51751,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2677548,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 28836,
+   "cache_read_input_tokens": 501234,
+   "output_tokens": 5212,
+   "output_tokens_details": {
+    "thinking_tokens": 1348
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28836,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 293,
+     "cache_read_input_tokens": 51985,
+     "cache_creation_input_tokens": 2292,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2292
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 5212,
+    "cacheReadInputTokens": 501234,
+    "cacheCreationInputTokens": 28836,
+    "webSearchRequests": 0,
+    "costUSD": 0.2677548,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1348,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed nothing to book this turn (budget $50/PTO 0, both below any trip's threshold) \u2014 pulled the final doy295-340 slice, which shows S6's tranche-4 wave peaked violently at doy310 (day_1_5 5.23 ypa, the season's hottest bucket) then fully collapsed by doy330, rather than sustaining through the fall close as previously guessed.\n\n**Summary:** Updated `notes.md` with a final S6 season-end entry showing the tranche-4 fall wave was narrow and abrupt (peak ~doy305-315, dead by doy330) rather than a slow late-season build, and refined the S7 tranche plan to front-load remaining tranche-4 budget fast once the 2-bucket trigger fires rather than spreading it across doy280-330. No bookable actions this turn \u2014 S6 is now fully closed with nothing left to check.",
+  "ttft_ms": 2587,
+  "type": "result",
+  "duration_ms": 54012,
+  "uuid": "4ea36386-0261-4b8e-a505-bfbd60ae6875",
+  "ttft_stream_ms": 1336,
+  "time_to_request_ms": 757,
+  "first_content_frame_ms": 1336,
+  "time_to_request_from_spawn_ms": 61750246,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353123295.938,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 124.7,
+ "claude": {
+  "duration_api_ms": 116822,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18055990000000005,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 41967,
+   "cache_read_input_tokens": 490239,
+   "output_tokens": 9502,
+   "output_tokens_details": {
+    "thinking_tokens": 3441
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 41967,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 489,
+     "cache_read_input_tokens": 59114,
+     "cache_creation_input_tokens": 1828,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1828
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 9502,
+    "cacheReadInputTokens": 490239,
+    "cacheCreationInputTokens": 41967,
+    "webSearchRequests": 0,
+    "costUSD": 0.18055990000000005,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3441,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nI've completed the Season 2 post-mortem and updated notes.md with revised Season 3 strategy.\n\n**What I found:** My 8.55 yt score (rank 5) was solid mid-field, but top agents caught 14\u201315 yt. The key difference was **multi_day boats** (departing Friday evening for Sat-Mon fishing) that delivered 10\u201315 yt/angler in weeks doy 280\u2013287 (late October peak). I focused narrowly on day_1_5 signal and booked day_1_5 boats instead, averaging only 4\u20135 yt/angler on the same dates when Cortez multi_day was getting 10 yt/angler.\n\n**What changed:** Persona now prioritizes multi_day (Friday evening departure, Sat-Mon back, no PTO cost) as primary target. Revised gate unlock to watch for multi_day >2.0 yt/angler sustained 3+ days, with deployment target of doy 260\u2013310 (late Sept\u2013Nov). Phase 1 discipline shifts from Sept hold-fire to aggressive Sept deployment if multi_day signal confirms.",
+  "ttft_ms": 2429,
+  "type": "result",
+  "duration_ms": 118622,
+  "uuid": "6cbe6b09-fa72-42ac-bcee-2ebda8684198",
+  "ttft_stream_ms": 971,
+  "time_to_request_ms": 458,
+  "first_content_frame_ms": 973,
+  "time_to_request_from_spawn_ms": 43061006,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334434893.3152,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

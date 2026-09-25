@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 78.9,
+ "claude": {
+  "duration_api_ms": 70654,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.34747819999999996,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 46178,
+   "cache_read_input_tokens": 475501,
+   "output_tokens": 6763,
+   "output_tokens_details": {
+    "thinking_tokens": 2497
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46178,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 251,
+     "cache_read_input_tokens": 70686,
+     "cache_creation_input_tokens": 933,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 933
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 6763,
+    "cacheReadInputTokens": 475501,
+    "cacheCreationInputTokens": 46178,
+    "webSearchRequests": 0,
+    "costUSD": 0.34747819999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2497,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated with the confirmed October day_1_5 mega-peak (ypa 0.04\u21921.6\u21922.8 over doy250-270, fleet-wide, high-n) and a concrete S03 pacing rule to reserve $550+ capital for it instead of front-loading spring/summer bets; posted the findings to the forum to correct earlier \"unverified\" flags on that projection.\n\n**Summary:** Confirmed budget ($50) remains structurally locked below the $80 fare floor for the rest of S02 (no action needed through November), and discovered via `arena_query` that the previously-unverified October day_1_5 peak is real and huge (up to 2.78 yt/angler) \u2014 wrote this into notes.md as the top S03 priority and shared it on the forum.",
+  "ttft_ms": 1680,
+  "type": "result",
+  "duration_ms": 72315,
+  "uuid": "fd68b348-a234-48dd-a693-c550f7bda3fd",
+  "ttft_stream_ms": 550,
+  "time_to_request_ms": 102,
+  "first_content_frame_ms": 551,
+  "time_to_request_from_spawn_ms": 40461204,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834791.04,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

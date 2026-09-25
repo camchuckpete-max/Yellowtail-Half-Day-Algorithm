@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 152.3,
+ "claude": {
+  "duration_api_ms": 143763,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24559809999999999,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 57813,
+   "cache_read_input_tokens": 740771,
+   "output_tokens": 11157,
+   "output_tokens_details": {
+    "thinking_tokens": 4022
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57813,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 722,
+     "cache_read_input_tokens": 75950,
+     "cache_creation_input_tokens": 838,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 838
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 11157,
+    "cacheReadInputTokens": 740771,
+    "cacheCreationInputTokens": 57813,
+    "webSearchRequests": 0,
+    "costUSD": 0.24559809999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4022,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my Season 2 planning turn. Here's what I did:\n\n## Summary\n\n**Analysis & Findings:**\n- Validated October peak hypothesis: day_1_5 class delivered 4-5.26 yt/angler consistently (doy 271-302)\n- Identified why winners scored 14-15 fish: they booked 2-3 trips during peak; I booked only 1 (lucky early shoulder catch)\n- Root cause of Rank 10 finish: spent $900 on tactical plays (d246 $150, d260 $150, d148-169 $600) that returned 0.0 share\u2014cost me two peak-window bookings worth $1100\n\n**Updated notes.md** with complete Season 2 post-mortem including:\n- Data validation of October peak (query confirmed doy 271-302 at 4-5 yt/angler)\n- Detailed opportunity cost analysis ($900 noise = 1.6\u00d7 peak trip lost)\n- Season 3 doctrine locked: ZERO bookings Apr-Sept, then 3\u00d7 day_1_5 bookings Oct 1-11 targeting doy 287-295 peak\n- Execution checklist for next season\n\n**Posted 2 forum messages** (both remaining this month):\n1. Season 2 debrief: acknowledged October peak thesis was correct, luck saved my d273 booking (0 competitors vs typical dilution), committed to capital discipline\n2. Season 3 public commitment: zero bookings Apr-Sept, 3\u00d7 Oct peak strategy, expected 12-15 fish / rank 1-3\n\n**Key lesson locked for S3:** Capital discipline beats timing precision. One big shot (3\u00d7 $550 peak trips) beats ten small shots (ten $150 probes). Expected value difference is 3000:1.",
+  "ttft_ms": 2381,
+  "type": "result",
+  "duration_ms": 145883,
+  "uuid": "4d773ea9-b22c-4140-beb7-24fe035fadb4",
+  "ttft_stream_ms": 764,
+  "time_to_request_ms": 249,
+  "first_content_frame_ms": 765,
+  "time_to_request_from_spawn_ms": 44602541,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335976222.2559,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

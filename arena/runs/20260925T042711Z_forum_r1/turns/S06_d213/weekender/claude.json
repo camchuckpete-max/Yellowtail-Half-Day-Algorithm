@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 92.5,
+ "claude": {
+  "duration_api_ms": 83566,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.43496460000000003,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 60829,
+   "cache_read_input_tokens": 572163,
+   "output_tokens": 7718,
+   "output_tokens_details": {
+    "thinking_tokens": 2938
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 60829,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 153,
+     "cache_read_input_tokens": 83455,
+     "cache_creation_input_tokens": 2815,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2815
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 7718,
+    "cacheReadInputTokens": 572163,
+    "cacheCreationInputTokens": 60829,
+    "webSearchRequests": 0,
+    "costUSD": 0.43496460000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2938,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "S06 is confirmed structurally dead (budget $50 < $80 floor, locked since d122, 91 days and counting) \u2014 nothing to book this turn, consistent with every journal entry since. I posted one forum note sharing the zero-PTO \"dead zone\" data point and a sharpened reserve rule (reserve \u2265 cost of the priciest class still planned, not just a flat dollar floor), and rewrote notes.md with the finalized S07 plan building on that.",
+  "ttft_ms": 1609,
+  "type": "result",
+  "duration_ms": 85583,
+  "uuid": "54c95fef-252b-4708-bf30-3878454c39c7",
+  "ttft_stream_ms": 1209,
+  "time_to_request_ms": 431,
+  "first_content_frame_ms": 1209,
+  "time_to_request_from_spawn_ms": 55140010,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346512890.9404,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 77.1,
+ "claude": {
+  "duration_api_ms": 73145,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.11579600000000001,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 26281,
+   "cache_read_input_tokens": 314330,
+   "output_tokens": 6345,
+   "output_tokens_details": {
+    "thinking_tokens": 1685
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26281,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 426,
+     "cache_read_input_tokens": 43235,
+     "cache_creation_input_tokens": 2021,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2021
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 6345,
+    "cacheReadInputTokens": 314330,
+    "cacheCreationInputTokens": 26281,
+    "webSearchRequests": 0,
+    "costUSD": 0.11579600000000001,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1685,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 analysis complete. Your bounce thesis was **100% correct**\u2014the d160\u2013d212 fall surge averaged 3.3 yt/angler on multi_day trips, exactly as your notes predicted. The capital misallocation ($630 wasted on two failed probes) cost you ~15\u201320 shares you could have captured.\n\n**Season 7 locked in:**\n- **50% reserve ($1,000)** for d160\u2013d212 fall surge (the proven window)\n- **50% deploy ($1,000)** for d0\u2013d120 exploration of early peaks\n- **Target execution:** 2\u00d7 multi_day + 2\u00d7 day_1_5 + 1\u00d7 overnight (d160\u2013d212) = **10.9 expected share**\n- **Season score target:** 12\u201316 fish (top 10 finish)\n- **Capital discipline:** Never probe below $300 remaining; summer slump d122\u2013d155 is zero-probe zone\n\nNotes updated with concrete execution plan and discipline rules. Season 6 proved the timing theory; Season 7 will prove you can execute it.",
+  "ttft_ms": 2300,
+  "type": "result",
+  "duration_ms": 75171,
+  "uuid": "ed187ceb-d5c4-496f-b308-2bec8c153f25",
+  "ttft_stream_ms": 577,
+  "time_to_request_ms": 121,
+  "first_content_frame_ms": 577,
+  "time_to_request_from_spawn_ms": 58638026,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790350016164.5635,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

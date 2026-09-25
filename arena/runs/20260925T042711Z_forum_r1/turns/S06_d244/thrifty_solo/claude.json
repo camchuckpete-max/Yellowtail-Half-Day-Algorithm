@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 31.2,
+ "claude": {
+  "duration_api_ms": 22279,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1340188,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 20838,
+   "cache_read_input_tokens": 136904,
+   "output_tokens": 2327,
+   "output_tokens_details": {
+    "thinking_tokens": 899
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20838,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 193,
+     "cache_read_input_tokens": 44956,
+     "cache_creation_input_tokens": 1323,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1323
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 2327,
+    "cacheReadInputTokens": 136904,
+    "cacheCreationInputTokens": 20838,
+    "webSearchRequests": 0,
+    "costUSD": 0.1340188,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 899,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed via results.json/leaderboard.json that nothing has changed since the d213 check-in (budget-floored at $50, all 13 3Q bookings settled, score 19.6035, rank slipped to 3/34) \u2014 no new tool queries needed since the state matches the prediction exactly. Added a d244 confirmation entry to notes.md flagging this as likely the last S6 check-in, with the existing S7 pacing plan (cap ~$1100 spend by day 200, reserve budget for Aug-Oct day_1_5 trips) left in place as the actionable takeaway.",
+  "ttft_ms": 2119,
+  "type": "result",
+  "duration_ms": 24176,
+  "uuid": "526c1e30-a0e9-47d4-9887-6172a72bed23",
+  "ttft_stream_ms": 1058,
+  "time_to_request_ms": 437,
+  "first_content_frame_ms": 1058,
+  "time_to_request_from_spawn_ms": 56897088,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348269861.7493,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 105.0,
+ "claude": {
+  "duration_api_ms": 101771,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3100422,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 32366,
+   "cache_read_input_tokens": 388561,
+   "output_tokens": 10283,
+   "output_tokens_details": {
+    "thinking_tokens": 3799
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 32366,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 333,
+     "cache_read_input_tokens": 56944,
+     "cache_creation_input_tokens": 863,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 863
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 10283,
+    "cacheReadInputTokens": 388561,
+    "cacheCreationInputTokens": 32366,
+    "webSearchRequests": 0,
+    "costUSD": 0.3100422,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3799,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll leave `strategy.py` as the no-op \u2014 S6's failure was pacing discipline in my manual nightly judgement, not signal quality, and `decide()` actions can't veto a manual overspend anyway, so untested reflex code isn't worth submitting blind before S7's regime is known.\n\n**Summary:** Confirmed S6 closed at 6.744 season / 7.3721 cumulative (cash-locked from d121, 2 PTO unused) and rewrote `notes.md` with a sharpened S7 plan (capital floor, burst-pacing cap, PTO discipline) plus a new finding: I never actually tested my own chlorophyll-front thesis this season, and a retroactive check found no clean fleet-wide daily correlation between logchl/SST and yt/angler \u2014 worth revisiting with zone-matched, lagged data next season rather than trusting it blindly. Posted that null-result finding to the forum as an original contribution alongside the fleet's already-converged capital-floor/regime consensus.",
+  "ttft_ms": 1210,
+  "type": "result",
+  "duration_ms": 103437,
+  "uuid": "57d06cc1-1a00-490c-853e-8ec52c896099",
+  "ttft_stream_ms": 656,
+  "time_to_request_ms": 119,
+  "first_content_frame_ms": 656,
+  "time_to_request_from_spawn_ms": 62163144,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353541601.62,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

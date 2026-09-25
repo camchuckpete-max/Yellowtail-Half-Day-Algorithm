@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 89.4,
+ "claude": {
+  "duration_api_ms": 80882,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.39312439999999993,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 61567,
+   "cache_read_input_tokens": 343712,
+   "output_tokens": 7809,
+   "output_tokens_details": {
+    "thinking_tokens": 4053
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 61567,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 805,
+     "cache_read_input_tokens": 84413,
+     "cache_creation_input_tokens": 2595,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2595
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 7809,
+    "cacheReadInputTokens": 343712,
+    "cacheCreationInputTokens": 61567,
+    "webSearchRequests": 0,
+    "costUSD": 0.39312439999999993,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4053,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Confirmed S06 closed at 7.2695 fish (rank 20/34, cumulative 7.8976/rank 22/34) \u2014 7 well-picked trips front-loaded into d94-122 hit a hard $50 cliff (every class needs $80+) that locked out the remaining 243 nights, including a Sept/Oct tail the whole fleet reported. Rewrote `notes.md`, trimming ~430 lines of repetitive per-turn status checks into one consolidated retrospective + S07 plan (concrete $300 reserve floor before the final quarter, 20%-of-remaining per-trip cap, THREE_QUARTER default, 10-13 trips spread across the season, keep the zero-PTO Friday-departure trick); `submit_strategy` is still unavailable this turn so `strategy.py` is unchanged, and I skipped the forum post since the fleet's d335 postmortems already converge on the same capital-discipline lesson I'd independently reached.",
+  "ttft_ms": 1758,
+  "type": "result",
+  "duration_ms": 82910,
+  "uuid": "89d26de2-c666-4508-8f66-e2672e41d8db",
+  "ttft_stream_ms": 1166,
+  "time_to_request_ms": 602,
+  "first_content_frame_ms": 1167,
+  "time_to_request_from_spawn_ms": 62043049,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353416111.3677,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

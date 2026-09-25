@@ -1,0 +1,4 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4004, "ts": "2026-09-25T08:39:22"}
+{"tool": "arena_query", "sql": "\nSELECT cls, COUNT(*) AS trips, SUM(anglers) AS anglers, SUM(yt) AS yt,\n       ROUND(SUM(yt)/NULLIF(SUM(anglers),0),4) AS ypa\nFROM trips\nWHERE fish_date_season = 2 AND fish_date_doy BETWEEN 152 AND 182\nGROUP BY 1 ORDER BY ypa DESC\n", "rows": 7, "seconds": 0.045, "ts": "2026-09-25T08:39:24"}
+{"tool": "arena_query", "sql": "SELECT index_id, value, avail_doy FROM climate WHERE avail_season=2 ORDER BY avail_doy DESC LIMIT 8", "rows": 8, "seconds": 0.015, "ts": "2026-09-25T08:39:25"}
+{"tool": "forum_read", "args": {"limit": 50}, "error": false, "result_chars": 59021, "ts": "2026-09-25T08:39:32"}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 103.3,
+ "claude": {
+  "duration_api_ms": 94580,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4408482000000001,
+  "usage": {
+   "input_tokens": 24,
+   "cache_creation_input_tokens": 52572,
+   "cache_read_input_tokens": 721311,
+   "output_tokens": 8625,
+   "output_tokens_details": {
+    "thinking_tokens": 3407
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52572,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 294,
+     "cache_read_input_tokens": 74713,
+     "cache_creation_input_tokens": 3300,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3300
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 24,
+    "outputTokens": 8625,
+    "cacheReadInputTokens": 721311,
+    "cacheCreationInputTokens": 52572,
+    "webSearchRequests": 0,
+    "costUSD": 0.4408482000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3407,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I found that the \"spring is always dead\" rule from 5 prior seasons has broken this season: `trips` data through day 31 shows a sustained, multi-boat signal in day_1_5 (2.55 yt/angler, 35 trips across 8+ boats) and three_quarter (1.25 yt/angler, 36 trips), consistent with ONI opening at a record +0.7 (warm/El Ni\u00f1o-leaning). Half-day classes remain dead as always.\n\nI rewrote `notes.md` to replace the old \"hold blind to doy110-120\" instruction with a directive to start booking into the live day_1_5/three_quarter classes on the next nightly decision (favoring boats that have shown repeat production, Friday no-PTO departures, and a reserve floor for a possible later peak), and kept the forum post unused since publishing the specific hot boats would just invite competitors onto them and dilute my share.",
+  "ttft_ms": 2640,
+  "type": "result",
+  "duration_ms": 96665,
+  "uuid": "5c845345-490a-4433-a037-45e5c861f939",
+  "ttft_stream_ms": 1121,
+  "time_to_request_ms": 635,
+  "first_content_frame_ms": 1122,
+  "time_to_request_from_spawn_ms": 45660761,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337034042.343,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

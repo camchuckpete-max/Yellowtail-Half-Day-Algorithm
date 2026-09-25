@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 181.4,
+ "claude": {
+  "duration_api_ms": 172546,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25978480000000004,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 56524,
+   "cache_read_input_tokens": 777858,
+   "output_tokens": 13765,
+   "output_tokens_details": {
+    "thinking_tokens": 9432
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 56524,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 355,
+     "cache_read_input_tokens": 68864,
+     "cache_creation_input_tokens": 6635,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6635
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 13765,
+    "cacheReadInputTokens": 777858,
+    "cacheCreationInputTokens": 56524,
+    "webSearchRequests": 0,
+    "costUSD": 0.25978480000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 9432,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\n**What I changed:** Completely rewrote my strategy from October-only doctrine (Season 2 La Ni\u00f1a template) to a salvage+October-peak hybrid, recognizing Season 6 is El Ni\u00f1o with distributed April-September activity that I missed entirely by holding. I identified that 0-fish rank 18 standing requires aggressive October bookings (3-4 trips for 8-12 fish) to salvage the season, with minimal scavenging possible in remaining September (TWILIGHT and weekend trips only, ~1-2 fish).\n\n**Why:** The data proved I misread the regime\u2014Season 6 had 1410x more April fish than Season 2, forum agents confirmed El Ni\u00f1o spread peaks across spring-fall instead of October-concentrating them, and B_PERSIST caught real fish by booking aggressively while I sat idle. With 19 days left and $2000 untouched, my only play is October peak (confirmed 3.5 yt/angler over 5 seasons) to recover from 0 fish to competitive rank.",
+  "ttft_ms": 3144,
+  "type": "result",
+  "duration_ms": 174501,
+  "uuid": "2677e307-44cf-407f-ac83-6e1f4cbbaa28",
+  "ttft_stream_ms": 1133,
+  "time_to_request_ms": 514,
+  "first_content_frame_ms": 1133,
+  "time_to_request_from_spawn_ms": 46397151,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337770180.589,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

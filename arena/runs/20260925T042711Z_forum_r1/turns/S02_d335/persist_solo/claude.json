@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 100.9,
+ "claude": {
+  "duration_api_ms": 92685,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14719559999999998,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 34437,
+   "cache_read_input_tokens": 407776,
+   "output_tokens": 7492,
+   "output_tokens_details": {
+    "thinking_tokens": 2601
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34437,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 695,
+     "cache_read_input_tokens": 51683,
+     "cache_creation_input_tokens": 1729,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1729
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 7492,
+    "cacheReadInputTokens": 407776,
+    "cacheCreationInputTokens": 34437,
+    "webSearchRequests": 0,
+    "costUSD": 0.14719559999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2601,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've updated notes.md with an S3 action plan based on S2 learnings and confirmed peak windows.\n\n**Summary:**\n\nSeason 2 final: 0.7212 (Rank 13/34, practice). Critical errors: false-start trap wasted $1,930 on micro-signals d100-d207, and I missed the massive multi-day peak (d265-d290, 2-7 yt/angler baseline) due to budget depletion and wrong PTO locking.\n\n**S3 preparation:** Added \"QUICK START\" section to notes.md with validated strategy:\n- Fall multi-day peak (DOY 260-305) is the engine: 2-7 yt/angler vs spring's 0.05-0.5 yt/angler\n- Budget: $300 spring, $1,400 fall, $300 endgame reserve\n- PTO commitment windows: d160-d164 (spring), d246-d250 (fall) \u2014 14-day advance to access weekday trips during peaks\n- Signal threshold: 0.05+ yt/angler sustained 2+ consecutive days (stops false-start bleeding)\n- Entry discipline: Max 3 plays per zone before pivot; multi-day/day_1_5 only (three_quarter is secondary)\n\nReady for S3 counting season to start.",
+  "ttft_ms": 2362,
+  "type": "result",
+  "duration_ms": 95001,
+  "uuid": "252754cb-416a-4a41-91cd-f1ce52750449",
+  "ttft_stream_ms": 1191,
+  "time_to_request_ms": 589,
+  "first_content_frame_ms": 1191,
+  "time_to_request_from_spawn_ms": 44601766,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335975749.9756,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

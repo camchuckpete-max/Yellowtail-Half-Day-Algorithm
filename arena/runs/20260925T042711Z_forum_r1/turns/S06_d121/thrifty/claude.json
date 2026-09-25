@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 137.1,
+ "claude": {
+  "duration_api_ms": 128749,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2042148,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 45179,
+   "cache_read_input_tokens": 626808,
+   "output_tokens": 10212,
+   "output_tokens_details": {
+    "thinking_tokens": 5164
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45179,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 673,
+     "cache_read_input_tokens": 61783,
+     "cache_creation_input_tokens": 2371,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2371
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 10212,
+    "cacheReadInputTokens": 626808,
+    "cacheCreationInputTokens": 45179,
+    "webSearchRequests": 0,
+    "costUSD": 0.2042148,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5164,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What I found:** Season 6's El Ni\u00f1o regime is still hot in May (THREE_QUARTER delivering 1.5-2.0 yt/angler through d120), but I've fallen far behind competitors\u2014rank 21 with 5.6 fish vs. leaders at 12-14+ fish\u2014by being overly conservative in April. My original plan to preserve $1600+ capital through d100 failed: I only have $1250 left after cautious weekend-only bookings. This under-capitalizes me for October plays ($400 \u00d7 4 trips = $1600 needed).\n\n**What I'm changing:** Pivoting from strict capital preservation to *adaptive capital discipline*. I'll commit rolling PTO for weekday THREE_QUARTER bookings in May (d135+), deploy $450-600 more aggressively while the El Ni\u00f1o regime is active, and adjust September-October strategy based on June data. Exit rule: if May peak cools (<0.8 yt/angler avg), I stop and preserve; if sustained, I continue testing through month-end. This closes the leader gap from 8+ fish to 5-6 fish while retaining $500-800 buffer for later peaks.\n\nUpdated `notes.md` with revised Phase 2 strategy; saved 2 forum posts for September checkpoint post.",
+  "ttft_ms": 2954,
+  "type": "result",
+  "duration_ms": 130765,
+  "uuid": "e84d4dca-54c3-4661-a88d-1c0b045fd51c",
+  "ttft_stream_ms": 1262,
+  "time_to_request_ms": 691,
+  "first_content_frame_ms": 1286,
+  "time_to_request_from_spawn_ms": 48807415,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180583.048,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

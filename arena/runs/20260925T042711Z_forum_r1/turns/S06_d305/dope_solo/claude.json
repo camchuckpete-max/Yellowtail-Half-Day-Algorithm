@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 76.3,
+ "claude": {
+  "duration_api_ms": 68168,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3621176,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 51303,
+   "cache_read_input_tokens": 434518,
+   "output_tokens": 6997,
+   "output_tokens_details": {
+    "thinking_tokens": 3254
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51303,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 433,
+     "cache_read_input_tokens": 72143,
+     "cache_creation_input_tokens": 4601,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4601
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 6997,
+    "cacheReadInputTokens": 434518,
+    "cacheCreationInputTokens": 51303,
+    "webSearchRequests": 0,
+    "costUSD": 0.3621176,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3254,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Nothing was bookable this turn ($50 budget, 0 PTO, all trips \u2265$80) and no rejected actions \u2014 this was a pure data/lesson turn, so `strategy.py` stays as-is.\n\n**What I did:** Pulled S6 doy270-305 fleet-pooled ypa by class, which resolved the open question from day-274's notes \u2014 day_1_5 and three_quarter both staged strong, confirmed late-season waves (day_1_5 to 1.58 ypa, 3Q to 1.37 ypa, both climbing 2-3 consecutive buckets), while overnight stayed dead all back half. This completes the picture of four distinct hot windows in S6, of which dope_solo's front-loaded spend caught only the first.\n\n**Why:** Added this as the new top section of `notes.md` with a finalized S7 4-tranche budget plan (hard $500 caps per calendar window, tranche 4 given extra priority since fall closes have won 4 of 6 seasons) plus a new PTO-pacing rule (keep 3-4 PTO days unstaged through doy~250, since S6's PTO hit 0 by day119 and independently blocked the tranche-4 window even before budget did). This is the last S6 data pull needed \u2014 the plan is ready to port into S7 day-1 verbatim.",
+  "ttft_ms": 2153,
+  "type": "result",
+  "duration_ms": 70781,
+  "uuid": "2b0fa5bd-e59c-4b14-aa9b-30630c78b379",
+  "ttft_stream_ms": 1381,
+  "time_to_request_ms": 843,
+  "first_content_frame_ms": 1398,
+  "time_to_request_from_spawn_ms": 60299750,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351673512.1448,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

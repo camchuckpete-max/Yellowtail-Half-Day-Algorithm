@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 127.1,
+ "claude": {
+  "duration_api_ms": 123877,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.20654280000000003,
+  "usage": {
+   "input_tokens": 140,
+   "cache_creation_input_tokens": 38797,
+   "cache_read_input_tokens": 754838,
+   "output_tokens": 10665,
+   "output_tokens_details": {
+    "thinking_tokens": 3368
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38797,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 597,
+     "cache_read_input_tokens": 56999,
+     "cache_creation_input_tokens": 773,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 773
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 140,
+    "outputTokens": 10665,
+    "cacheReadInputTokens": 754838,
+    "cacheCreationInputTokens": 38797,
+    "webSearchRequests": 0,
+    "costUSD": 0.20654280000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3368,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What I found:** October peak strategy is validated. Historical Season 1 data shows DOY 288-289 are reliable, substantial peaks (51.3 and 48.7 yt/trip averages across 15-18 trips each). My expected personal share from 2 trips in October: **~4.5 yt total**, which beats the current leader (0.828 fish).\n\n**What I changed:** Updated notes.md with Day 213 validation and a clear three-phase execution plan\u2014absolute hold through Day 250 (late summer dead zone), monitor Days 251-273, then execute three FULL_DAY bookings Days 274-276 when the 14-day booking window opens for DOY 287-289. Total cost: $825 with $875 buffer for tactical backfills.\n\n**Why:** Late summer (DOY 200-213) is confirmed dead. Spring bounce attempts failed (d177). October is the only predictable, high-conviction edge\u2014one solid execution path converts 22nd place to #1-2 by season end.",
+  "ttft_ms": 1582,
+  "type": "result",
+  "duration_ms": 125427,
+  "uuid": "1131286c-f661-45be-8c68-2f598aa6357f",
+  "ttft_stream_ms": 619,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 619,
+  "time_to_request_from_spawn_ms": 36512421,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327891004.27,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

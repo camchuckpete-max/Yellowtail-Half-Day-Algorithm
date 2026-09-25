@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 143.3,
+ "claude": {
+  "duration_api_ms": 134051,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2197308,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 48817,
+   "cache_read_input_tokens": 654088,
+   "output_tokens": 11316,
+   "output_tokens_details": {
+    "thinking_tokens": 4331
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48817,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1062,
+     "cache_read_input_tokens": 65677,
+     "cache_creation_input_tokens": 2115,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2115
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 11316,
+    "cacheReadInputTokens": 654088,
+    "cacheCreationInputTokens": 48817,
+    "webSearchRequests": 0,
+    "costUSD": 0.2197308,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4331,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've updated my strategy notes with the critical finding that El Ni\u00f1o season 6 breaks the Season 2 playbook\u2014the spring peak hasn't collapsed into a dead zone, it rebounded in May. This changes everything.\n\n**Summary of findings and decision:**\n\n1. **Fleet data shows sustained May rebound (doy 140-152)** at 0.2-0.67 yt/angler, not the dead zone I predicted. Water temp at 19\u00b0C supports El Ni\u00f1o baseline.\n\n2. **My October-only strategy was based on Season 2 (La Ni\u00f1a calendar)**. Season 6 is El Ni\u00f1o with data-driven peaks, not calendar-driven.\n\n3. **New plan: Adaptive probing instead of holding dry.** Book one THREE_QUARTER trip this weekend (doy 154-155) for $150 to test if rebound sustains. This low-cost probe preserves $250 + 10 PTO for follow-up or October fallback.\n\n4. **Gap to leaders is 9 fish.** If October peak fires + May probing works, I can reach 17-20 total fish and rank 3-8. If I keep holding dry, October no-show leaves me stuck at rank 10.\n\n**Updated notes document the pivot from calendar-locked strategy to responsive, data-driven approach.** Next decision point is doy 162 (after first probe results), where I'll decide on second booking based on whether fleet sustains >0.4 yt/angler.\n\nI've captured the core insights in my private notes; next step is the booking decision at tomorrow's briefing.",
+  "ttft_ms": 2711,
+  "type": "result",
+  "duration_ms": 136450,
+  "uuid": "945359d1-5fbd-4a44-8034-8f92d310a41c",
+  "ttft_stream_ms": 1140,
+  "time_to_request_ms": 655,
+  "first_content_frame_ms": 1141,
+  "time_to_request_from_spawn_ms": 50954823,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342327488.8372,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 99.1,
+ "claude": {
+  "duration_api_ms": 95260,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2014558,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 43704,
+   "cache_read_input_tokens": 760518,
+   "output_tokens": 7574,
+   "output_tokens_details": {
+    "thinking_tokens": 2276
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43704,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 698,
+     "cache_read_input_tokens": 61978,
+     "cache_creation_input_tokens": 701,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 701
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 7574,
+    "cacheReadInputTokens": 760518,
+    "cacheCreationInputTokens": 43704,
+    "webSearchRequests": 0,
+    "costUSD": 0.2014558,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2276,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've analyzed the late-season data, identified the exact peaks I missed, and locked in the Season 7 strategy.\n\n**Season 6 Summary:**\n- Rank 5/34 (16.1565 fish), cumulative rank 21/34\n- Deployed 95%+ capital by d130 on spring THREE_QUARTER peak (12.9 fish captured through d121)\n- Locked out of late-summer MULTI_DAY peak (d170-182: 1.39-9.29 yt/angler average) and September DAY_1_5 peak (d210-212: 2.09-4.14 yt/angler average)\n- 7.81-fish gap to leader = exactly the two tail peaks I couldn't fund\n- **Root cause:** Capital sequencing failure, not signal detection failure\n\n**Season 7 Framework (Locked):**\n- Phase 1 (d50-90): Deploy 40-50% on confirmed spring signal only\n- Phase 2 (d130-210): HOLD strict (no exceptions)\n- Phase 3 (d170-182): Deploy 30-40% on confirmed late-summer MULTI_DAY rebound\n- Phase 4 (d210-212): Deploy remaining on September peak if confirmed\n- Regime first, calendar never; never both-fail on capital and timing\n\nUpdated notes.md with concrete data (peak yields, class averages post-d160, S7 execution checklist) and posted brief forum postmortem. Season 6 closes with the lesson locked: **capital on hand at peak time beats perfect threshold selection.**",
+  "ttft_ms": 2714,
+  "type": "result",
+  "duration_ms": 97325,
+  "uuid": "8abcb95b-af8a-4cf5-83f4-5254f0f55232",
+  "ttft_stream_ms": 640,
+  "time_to_request_ms": 130,
+  "first_content_frame_ms": 640,
+  "time_to_request_from_spawn_ms": 58537781,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349916043.9036,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

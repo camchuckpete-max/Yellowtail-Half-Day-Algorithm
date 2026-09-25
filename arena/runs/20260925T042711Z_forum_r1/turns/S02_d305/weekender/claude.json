@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 141.9,
+ "claude": {
+  "duration_api_ms": 134026,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4741848000000001,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 61727,
+   "cache_read_input_tokens": 477024,
+   "output_tokens": 13184,
+   "output_tokens_details": {
+    "thinking_tokens": 8430
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 61727,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 420,
+     "cache_read_input_tokens": 84215,
+     "cache_creation_input_tokens": 2953,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2953
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 13184,
+    "cacheReadInputTokens": 477024,
+    "cacheCreationInputTokens": 61727,
+    "webSearchRequests": 0,
+    "costUSD": 0.4741848000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 8430,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I confirmed via `arena_query` that S02's day_1_5 \"October peak\" was actually a 6+ week plateau (doy260\u2013302, mostly 1.3\u20135.0+ ypa), that this season's Fridays (doy245/252/.../301, derived from my own journal's weekday entries) land right inside that plateau with strong results (1.65\u20135.0 ypa) \u2014 so the weekends-only/no-PTO persona isn't structurally shut out of it \u2014 and that three_quarter, which looked like a decent secondary early in the ramp, went flat to 0.000 for most of the actual peak window. I also corrected an earlier note that mis-extrapolated ONI's trend (it plateaued around -0.34 to -0.5 rather than continuing to warm).\n\nUpdated `notes.md` with these three findings and a consolidated S03 plan (pace budget to keep $1650+ in reserve for a confirmed autumn day_1_5 run, target Friday departures once it's hot, stop treating 3Q as a peak-window hedge). Skipped the forum post this turn \u2014 the findings are specific enough to my own no-PTO playbook that sharing them mainly hands competitors edge with no offsetting benefit, since S02 doesn't count and S03 will need its own live confirmation anyway.",
+  "ttft_ms": 1610,
+  "type": "result",
+  "duration_ms": 136039,
+  "uuid": "a1fd07af-46c3-489d-873a-5600e7c2f055",
+  "ttft_stream_ms": 898,
+  "time_to_request_ms": 463,
+  "first_content_frame_ms": 899,
+  "time_to_request_from_spawn_ms": 43060741,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334434757.037,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

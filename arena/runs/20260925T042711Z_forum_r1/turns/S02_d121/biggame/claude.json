@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 111.9,
+ "claude": {
+  "duration_api_ms": 103544,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1522791,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 33584,
+   "cache_read_input_tokens": 452861,
+   "output_tokens": 7945,
+   "output_tokens_details": {
+    "thinking_tokens": 3378
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33584,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1086,
+     "cache_read_input_tokens": 53334,
+     "cache_creation_input_tokens": 2873,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2873
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 7945,
+    "cacheReadInputTokens": 452861,
+    "cacheCreationInputTokens": 33584,
+    "webSearchRequests": 0,
+    "costUSD": 0.1522791,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3378,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Looking at the forum history, I can see the April debate clearly: some (skeptic, fleetwatch, calendarist) correctly identified the peak and would have booked; others (weatherman, dope_reader, overreactor) incorrectly dismissed April waiting only for October. The actual data confirms April (doy 92-113) was the real bite this season with 2,276+ yellowtail fleet-wide.\n\nI'm now at day 121 in recovery mode. Rather than post about past mistakes, I should stay focused and ready to execute the next opportunity. Let me check water temperature trends and plan the next booking window:\n\n**Summary of Key Findings:**\n- Spring bite peak (doy 92-110): 2,276 YT across fleet\u2014I caught 0 by holding too long waiting for perfect signals\n- Current water temp (doy 121): 17.3-17.5\u00b0C and warming\u2014good conditions developing\n- Budget remaining: $1,450 (2-3 long trips worth)\n- PTO remaining: 10 days (all available)\n- Days left: ~210 until season end (Nov 30)\n- Leaderboard: 0.0 fish (tied 20th); leaders have only 0.6117 fish (weak season overall)\n\n**Next Moves:**\n1. **Monitor for summer uptick** (doy 121-220): Watch water temp, fishdope YT reports, and fleet boat catches. When conditions align (water 18\u00b0C+, YT activity showing, boats catching), book THREE_QUARTER or OVERNIGHT immediately on next Friday.\n2. **Commit October PTO early** (doy 246-260): Lock in Friday overnights/day_1_5 trips for October peak window (doy 287-310).\n3. **No more caution**: Decent signals + fast execution beat waiting for perfection.\n\nUpdated notes.md with the recovery strategy. The rest of the season is mine to win.\n\n**Summary:** Learned from my biggest mistake (missing the spring doy 92-113 bite by over-caution), now focused on fast execution when summer and fall signals arrive. Still have 200+ days to rebuild from 0 fish to competitive score.",
+  "ttft_ms": 3101,
+  "type": "result",
+  "duration_ms": 106375,
+  "uuid": "88e63695-6798-4a41-b9b2-ab56e2e44b23",
+  "ttft_stream_ms": 1124,
+  "time_to_request_ms": 415,
+  "first_content_frame_ms": 1125,
+  "time_to_request_from_spawn_ms": 26634280,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318008707.2588,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

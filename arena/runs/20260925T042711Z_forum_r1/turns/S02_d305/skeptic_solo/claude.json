@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 88.1,
+ "claude": {
+  "duration_api_ms": 84396,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.43486920000000007,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 54552,
+   "cache_read_input_tokens": 669386,
+   "output_tokens": 8274,
+   "output_tokens_details": {
+    "thinking_tokens": 1801
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 54552,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 405,
+     "cache_read_input_tokens": 75331,
+     "cache_creation_input_tokens": 4662,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4662
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 8274,
+    "cacheReadInputTokens": 669386,
+    "cacheCreationInputTokens": 54552,
+    "webSearchRequests": 0,
+    "costUSD": 0.43486920000000007,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1801,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed the season is fully locked out (budget $50 < $80 floor since d176, no path to book anything through season end) and pulled the complete final fall-run table plus a second ONI calibration point to sharpen the season-3 plan.\n\n**What I changed:** Rewrote `notes.md` with the final S2 outcome (rank fell from 1\u219212 as competitors who preserved cash captured the fall run), the complete doy240-330 day_1_5/overnight/3Q table for both seasons (confirms S2's fall run ramped ~25 days earlier and overnight actually out-peaked day_1_5 at 6.14 share/angler), and a two-point ONI calibration (S1 -0.98\u2192-1.24 = late window, S2 -0.37\u2192-0.50 = early window) to set S3's watch-start date.\n\n**Why:** The core failure this season was spending 97% of budget on low-yield spring three_quarter probing before the fall window opened, locking out the highest-leverage weeks of the year. The updated notes set a hard budget-cap rule (~40% pre-fall) and a live-signal-confirmed (not calendar-only) trigger for S3, since fixed-rule bots without live confirmation scored near zero both seasons.",
+  "ttft_ms": 1572,
+  "type": "result",
+  "duration_ms": 86310,
+  "uuid": "0849c940-4876-4fa0-ad00-6aea95c29796",
+  "ttft_stream_ms": 572,
+  "time_to_request_ms": 115,
+  "first_content_frame_ms": 572,
+  "time_to_request_from_spawn_ms": 43145506,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334523907.878,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

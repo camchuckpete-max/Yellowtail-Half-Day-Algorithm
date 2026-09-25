@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 99.6,
+ "claude": {
+  "duration_api_ms": 96060,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18663849999999998,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 51191,
+   "cache_read_input_tokens": 452705,
+   "output_tokens": 7782,
+   "output_tokens_details": {
+    "thinking_tokens": 2783
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51191,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 632,
+     "cache_read_input_tokens": 69054,
+     "cache_creation_input_tokens": 1112,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1112
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 7782,
+    "cacheReadInputTokens": 452705,
+    "cacheCreationInputTokens": 51191,
+    "webSearchRequests": 0,
+    "costUSD": 0.18663849999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2783,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. Updated notes.md with S02 final analysis and refined S03 strategy based on peak window data.\n\n**Summary:**\n\n**What Changed:**\n- Diagnosed why S02 lost to elnino (15.27 vs 15.33): missed the doy 267-274 main early peak (multi_day 7-13 yt/angler, day_1_5 3-5 yt/angler) due to PTO locked for doy 290+ assembly. elnino captured 1-2 extra trips there.\n- Flipped S03 strategy from rigid Phase 3 planning to aggressive Phase 2 scouting: book 2-3 trips immediately on first signal (water \u226563\u00b0F or day_1_5 \u22650.3 yt/angler), keep PTO flex until signal confirmed.\n\n**Why:**\n- Data confirmed doy 260-274 was the real peak (multi_day 8-13 yt/angler, day_1_5 3-5 yt/angler), not the doy 280+ secondary window. My model was directionally right but conservative on timing.\n- Winning condition in S03: Scout Phase 2 aggressively with zero PTO locks, capture early peak, use Phase 3 only as reignition insurance.",
+  "ttft_ms": 2561,
+  "type": "result",
+  "duration_ms": 97980,
+  "uuid": "0c223794-dd86-4274-a8ef-0955651d26f9",
+  "ttft_stream_ms": 811,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 812,
+  "time_to_request_from_spawn_ms": 44663745,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336042348.7258,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

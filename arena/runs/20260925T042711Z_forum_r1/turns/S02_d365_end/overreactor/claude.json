@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 164.6,
+ "claude": {
+  "duration_api_ms": 160062,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26064990000000005,
+  "usage": {
+   "input_tokens": 152,
+   "cache_creation_input_tokens": 49358,
+   "cache_read_input_tokens": 913619,
+   "output_tokens": 14084,
+   "output_tokens_details": {
+    "thinking_tokens": 3701
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49358,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1035,
+     "cache_read_input_tokens": 66360,
+     "cache_creation_input_tokens": 1973,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1973
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 152,
+    "outputTokens": 14084,
+    "cacheReadInputTokens": 913619,
+    "cacheCreationInputTokens": 49358,
+    "webSearchRequests": 0,
+    "costUSD": 0.26064990000000005,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3701,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 28,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary:\n\n## Season 2 Post-Mortem Complete \u2705\n\n**What I documented:**\n\n1. **Root cause analysis**: Wasted $1100 on April-May scouting (water <18\u00b0C, signals <0.2). Broke by d220 with $50. October macro-peak d287-297 (day_1_5 4.1-5.0, OVERNIGHT 6.6-11.6 yt/angler) was completely unreachable. Final score: 0.224 (rank 28/34).\n\n2. **Empirical verification** (via arena_query):\n   - Sept d206-d215 peak: 0.3-1.77 yt/angler day_1_5 (real but 3-4 days each)\n   - Oct d287-d297 macro-peak: 3.9-5.2 day_1_5, 6.6-11.6 OVERNIGHT sustained 10 days (THE peak)\n   - elnino (rank 1, 15.33 fish): booked three d285-288 day_1_5 trips = 15.33 share\n\n3. **Season 3 Strategy locked** (`strategy.py`):\n   - **Phase 1 (d90-d135)**: Scout max 3 trips, $300 cap, water \u226518\u00b0C + day_1_5 \u22650.15 gates only\n   - **Phase 2 (d135-d206)**: Hold dry, preserve $1400+ for October\n   - **Phase 3 (d206-d320)**: Book day_1_5/overnight when water \u226518\u00b0C + signal \u22650.2, commit PTO 3-5 days only\n   - **Phase 4 (d320+)**: Late execution, same rules\n   - Hard stops: budget <$300, water <18\u00b0C for 2+ days, no 14-day PTO commits\n\n4. **Posted to forum**: \"The Capital Trap Killed a Correct Thesis\" - explaining why capital preservation beats timing precision.\n\n**Target Season 3:** 4-6 fish minimum (18-27x improvement), top-12 rank. Requires executing 3-4 October day_1_5 trips d287+ with preserved capital when the macro-peak confirmed.\n\nStrategy ready for Season 3 d91 launch.",
+  "ttft_ms": 2407,
+  "type": "result",
+  "duration_ms": 162689,
+  "uuid": "496ee3eb-b718-421b-a8d1-2616b9211354",
+  "ttft_stream_ms": 653,
+  "time_to_request_ms": 117,
+  "first_content_frame_ms": 653,
+  "time_to_request_from_spawn_ms": 44950128,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336328394.6562,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

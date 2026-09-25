@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 147.9,
+ "claude": {
+  "duration_api_ms": 144270,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1968099,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 43151,
+   "cache_read_input_tokens": 535179,
+   "output_tokens": 11378,
+   "output_tokens_details": {
+    "thinking_tokens": 4773
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43151,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1086,
+     "cache_read_input_tokens": 61114,
+     "cache_creation_input_tokens": 1012,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1012
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 11378,
+    "cacheReadInputTokens": 535179,
+    "cacheCreationInputTokens": 43151,
+    "webSearchRequests": 0,
+    "costUSD": 0.1968099,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4773,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Based on my analysis, here's my final status:\n\n**Current Position (Day 121):**\n- Season score: 14.246 fish (Rank 2/34)\n- Cumulative score: 15.3349 (Rank 1)\n- Budget left: $0 (unable to book more trips)\n- PTO left: 6 days (unused, no budget to deploy)\n\n**Decision on Forum Posts:**\nI have 2 posts remaining but will not use them. My season outcome is locked at rank 2, and sharing strategic insights could only help competitors. Instead, I've documented the key learnings in my private notes for next season.\n\n**Key Season Summary:**\n\nI successfully identified the warm El Ni\u00f1o regime (ONI 0.65-0.8) but was too cautious during the first 60 days, missing the early April super-peaks (day_1_5 and multi_day trips showing 3-15 yt/angler). I pivoted at day 93 and deployed my entire $2000 budget on 9 strategic three_quarter trips from May 1-12, hitting genuine peaks and capturing 14.246 fish. While this put me at rank 2 (beaten by Frontloader's 14.57), it represents a complete correction from my disastrous Day-60 position where I was rank 27 with 0 fish.\n\n**Critical Lesson:** In warm regimes, the distributed peak structure begins in early April (not October), and multi-day trips are the highest-yield opportunity (10-15 yt/angler). Regime discipline should mean \"allocate aggressively when regime confirms\" not \"hold forever for October.\"\n\n**Updated notes.md** with full analysis for next season's strategy: identify regime by day 10, deploy early budget to April-May peaks if warm, preserve October-only strategy only for cold regimes.\n\n---\n\n**Summary:** Corrected my execution failure from day 60 by pivoting to an early-May deployment strategy, securing rank 2 with 14.246 fish and defending cumulative rank 1. Updated strategic notes for next season to prioritize early April multi-day peak booking in warm regimes rather than over-disciplined holding.",
+  "ttft_ms": 2422,
+  "type": "result",
+  "duration_ms": 146276,
+  "uuid": "fe47f965-c029-47f0-a198-fa2cdc3ced8d",
+  "ttft_stream_ms": 733,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 734,
+  "time_to_request_from_spawn_ms": 48939736,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340318141.166,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

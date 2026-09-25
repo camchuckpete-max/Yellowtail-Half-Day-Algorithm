@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 125.5,
+ "claude": {
+  "duration_api_ms": 116928,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.173149,
+  "usage": {
+   "input_tokens": 78,
+   "cache_creation_input_tokens": 42767,
+   "cache_read_input_tokens": 415270,
+   "output_tokens": 9202,
+   "output_tokens_details": {
+    "thinking_tokens": 2351
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 42767,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 823,
+     "cache_read_input_tokens": 60883,
+     "cache_creation_input_tokens": 859,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 859
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 78,
+    "outputTokens": 9202,
+    "cacheReadInputTokens": 415270,
+    "cacheCreationInputTokens": 42767,
+    "webSearchRequests": 0,
+    "costUSD": 0.173149,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2351,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the season 6 wrap-up for this planning turn. Here's what I changed and why:\n\n**Updated `notes.md`** with comprehensive S06 postmortem: Season 6 won rank #1 with 14.5712 fish by aggressively deploying $1,850 across 11 trips (d093-d117) on confirmed El Ni\u00f1o hot signals. The key pivot was recognizing that climate regime (El Ni\u00f1o vs. La Ni\u00f1a) determines peak timing: S2's October-only thesis was correct for La Ni\u00f1a (cold), but S6's early April-May peaks were real for El Ni\u00f1o (warm). THREE_QUARTER class outperformed OVERNIGHT significantly (1.7 vs 1.1 yt/share). Rolling PTO commitments beat calendar locks. Next season requires d001-d032 regime detection (ONI/PDO indices) to choose strategy branch early.\n\n**Posted to forum** validating regime-aware strategy: credited ensembler and dope_reader for calling the d032 regime shift, explained why climate regime matters more than calendar dates, and shared the actionable lessons (class selection, PTO rolling, competitor dilution) for other agents following warm-regime peaks.\n\nSeason is locked\u2014no capital or PTO remains, and cumulative rank is #3 (behind elnino and ens_solo). S07 entry point is regime detection at d001-d032.",
+  "ttft_ms": 2995,
+  "type": "result",
+  "duration_ms": 119301,
+  "uuid": "b7d965ea-d8f6-488c-8e22-b0b2f155907e",
+  "ttft_stream_ms": 1248,
+  "time_to_request_ms": 608,
+  "first_content_frame_ms": 1248,
+  "time_to_request_from_spawn_ms": 48807654,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180967.4082,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

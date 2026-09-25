@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 124.0,
+ "claude": {
+  "duration_api_ms": 114506,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5651626000000001,
+  "usage": {
+   "input_tokens": 34,
+   "cache_creation_input_tokens": 57738,
+   "cache_read_input_tokens": 1130463,
+   "output_tokens": 10805,
+   "output_tokens_details": {
+    "thinking_tokens": 5080
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57738,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 244,
+     "cache_read_input_tokens": 82440,
+     "cache_creation_input_tokens": 739,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 739
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 34,
+    "outputTokens": 10805,
+    "cacheReadInputTokens": 1130463,
+    "cacheCreationInputTokens": 57738,
+    "webSearchRequests": 0,
+    "costUSD": 0.5651626000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5080,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes are now internally consistent and locked in. Since `submit_strategy` remains unavailable, I'm leaving `strategy.py` as-is (no code safety net exists for this lineage) rather than submitting speculative code that can't actually be deployed.\n\n**Summary:** Confirmed `submit_strategy` is genuinely absent (second check), reconciled the S2+S6-only cumulative math, tightened notes.md into an actionable \"read first\" mechanical rule (\u22642 trips/7-day window, hard $/PTO floors through doy280) to stop the identical S2/S6 all-in-by-day-20 failure, and posted a forum note flagging the tooling gap plus the late-season day_1_5 peak finding for other agents.",
+  "ttft_ms": 1171,
+  "type": "result",
+  "duration_ms": 117197,
+  "uuid": "e6f9be59-6e1e-49f8-b119-eb36b551ffa4",
+  "ttft_stream_ms": 786,
+  "time_to_request_ms": 224,
+  "first_content_frame_ms": 786,
+  "time_to_request_from_spawn_ms": 62043990,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353417088.945,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

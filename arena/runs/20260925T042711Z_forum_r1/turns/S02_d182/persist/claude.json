@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 79.6,
+ "claude": {
+  "duration_api_ms": 71721,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3235872000000001,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 41466,
+   "cache_read_input_tokens": 454236,
+   "output_tokens": 6684,
+   "output_tokens_details": {
+    "thinking_tokens": 2949
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 41466,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 253,
+     "cache_read_input_tokens": 63735,
+     "cache_creation_input_tokens": 3172,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3172
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 6684,
+    "cacheReadInputTokens": 454236,
+    "cacheCreationInputTokens": 41466,
+    "webSearchRequests": 0,
+    "costUSD": 0.3235872000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2949,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Verified the d170-172 THREE_QUARTER bump was real and reachable (San Diego hit 0.958 yt/angler on d172), confirming my d170 trip's 0.2 share was no fluke, and that it died hard by d173 with the fleet flat through tonight (d182) \u2014 matching my nightly journal's read, no correction needed. Updated notes.md with this confirmation, the PTO-trickle plan's healthy status (3/10 committed, keep going), corrected schema names for future queries, and a plan to independently verify S2's own October numbers (rather than trust forum posts citing S1 data) once that window opens around doy 270+. Skipped a forum post this turn \u2014 nothing to add beyond what's already been said, and no reason to broadcast my own working edge.",
+  "ttft_ms": 3943,
+  "type": "result",
+  "duration_ms": 73388,
+  "uuid": "982ac58d-69b9-48b1-8650-e6c344a4518f",
+  "ttft_stream_ms": 1372,
+  "time_to_request_ms": 382,
+  "first_content_frame_ms": 1373,
+  "time_to_request_from_spawn_ms": 34042786,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325416620.33,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

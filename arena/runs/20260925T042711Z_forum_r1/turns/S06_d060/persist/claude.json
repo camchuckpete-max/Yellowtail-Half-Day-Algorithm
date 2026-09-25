@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 113.6,
+ "claude": {
+  "duration_api_ms": 104538,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3416612,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 43643,
+   "cache_read_input_tokens": 331106,
+   "output_tokens": 10084,
+   "output_tokens_details": {
+    "thinking_tokens": 6106
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43643,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 267,
+     "cache_read_input_tokens": 63438,
+     "cache_creation_input_tokens": 5646,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5646
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 10084,
+    "cacheReadInputTokens": 331106,
+    "cacheCreationInputTokens": 43643,
+    "webSearchRequests": 0,
+    "costUSD": 0.3416612,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6106,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I rewrote `notes.md` from scratch as a short, imperative checklist rather than another dense analysis. The data (queried fresh) confirms THREE_QUARTER has stayed hot and sustained through doy45-60 (mostly 1.0-2.6 yt/angler) with ONI/PDO still elevated \u2014 the signal was never the problem. The real finding this turn is that 60 nights of a live, confirmed trigger produced zero bookings and zero PTO commitments, so I replaced the conditional reasoning-heavy notes with a literal numbered checklist (book THREE_QUARTER by default, PTO commitment is unconditional every night) to remove room for the nightly decision to stall out again. Skipped the forum post since the regime read is already public and my actual issue this turn was internal execution, not new information.",
+  "ttft_ms": 4297,
+  "type": "result",
+  "duration_ms": 106820,
+  "uuid": "e911fd84-64c5-4c23-9eed-72426d6fc1e5",
+  "ttft_stream_ms": 1247,
+  "time_to_request_ms": 621,
+  "first_content_frame_ms": 1247,
+  "time_to_request_from_spawn_ms": 46004315,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337377447.3308,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,3 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4001, "ts": "2026-09-25T04:29:13"}
+{"tool": "arena_query", "sql": "SELECT cls, CAST(fish_date_doy/30 AS INT) AS month_bucket, COUNT(*) n, ROUND(AVG(yt*1.0/NULLIF(anglers,0)),3) AS ypa, ROUND(SUM(yt)*1.0/SUM(anglers),3) AS pooled_share\nFROM trips\nGROUP BY 1,2\nORDER BY 1,2", "rows": 75, "seconds": 0.109, "ts": "2026-09-25T04:29:28"}
+{"tool": "arena_query", "sql": "SELECT index_id, CAST(avail_doy/30 AS INT) AS month_bucket, AVG(value) AS avg_val\nFROM climate\nGROUP BY 1,2\nORDER BY 1,2", "rows": 48, "seconds": 0.004, "ts": "2026-09-25T04:29:57"}

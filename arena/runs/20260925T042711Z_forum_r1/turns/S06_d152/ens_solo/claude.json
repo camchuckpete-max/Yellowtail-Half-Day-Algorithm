@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 150.3,
+ "claude": {
+  "duration_api_ms": 146098,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23275720000000003,
+  "usage": {
+   "input_tokens": 124,
+   "cache_creation_input_tokens": 46999,
+   "cache_read_input_tokens": 761602,
+   "output_tokens": 12495,
+   "output_tokens_details": {
+    "thinking_tokens": 2583
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46999,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 633,
+     "cache_read_input_tokens": 64325,
+     "cache_creation_input_tokens": 1649,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1649
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 124,
+    "outputTokens": 12495,
+    "cacheReadInputTokens": 761602,
+    "cacheCreationInputTokens": 46999,
+    "webSearchRequests": 0,
+    "costUSD": 0.23275720000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2583,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Updated strategy for Day 152 \u2192 end of season.**\n\n**Changes Made:**\n1. **Acknowledged spring micro-peak execution** (d102-d150): captured 5.76 fish but burned 7 PTO and $450 capital. Net trade-off: real value (+5.76) vs. flexibility loss.\n2. **Validated fall peak structure** via S2 data: DOY 260-305 delivers 2.3-10.4 yt/angler (100-200\u00d7 dead zone), confirming hold strategy for remaining phase.\n3. **Tightened remaining strategy** to strict rules: NO bookings DOY 153-259 (dead zone holds), reserve $950 + 3 PTO for scout window (DOY 260-264) and peak assault (DOY 280-305).\n4. **Realistic outcome:** S6 total expected 7.76-9.76 fish (vs. elnino's 14.25, gap unrecoverable). Cumulative win unlikely. Focus now on S7 perfect execution (15+ fish target).\n5. **Watch dates locked:** d170, d200 (dead zone check), d264-d268 (scout trigger: water \u226562\u00b0F + fleet >0.5), d280-d295 (assault window).\n\n**Why:**\nThe spring micro-peak bookings taught me that 7 trips yielded only 5.76 fish (0.82 avg/trip) versus the model's expected 2-4 fish from concentrated fall peak play. Rather than regret the deviation, I've integrated it: spring micro-peaks are real but noisy, and the fall peak (DOY 260-305, 2-10 yt/angler) remains 10-100\u00d7 better EV. With only $950 and 3 PTO days left, discipline now means no chasing\u2014wait for the fall signal (water warm + fleet consensus), then execute 1-2 high-conviction trips.\n\n**Bottom line:** S6 is already lost to elnino's 14.25 (I'm at 5.76, gap 8.5 fish). Adding 2-4 fish from fall peak gets me to ~9 vs. elnino's likely 14+, so cumulative win is unlikely. Plan is now defensive: hold capital, preserve PTO, execute fall peak cleanly to maximize S6 close-out and enter S7 with lessons learned for a full-season 15+ fish run.",
+  "ttft_ms": 2292,
+  "type": "result",
+  "duration_ms": 148391,
+  "uuid": "4ff6b123-a4a6-429d-870d-9dd05c60d9f3",
+  "ttft_stream_ms": 617,
+  "time_to_request_ms": 119,
+  "first_content_frame_ms": 617,
+  "time_to_request_from_spawn_ms": 51031627,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342409797.5747,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

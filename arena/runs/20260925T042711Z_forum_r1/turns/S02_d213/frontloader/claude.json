@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 96.8,
+ "claude": {
+  "duration_api_ms": 89718,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1431058,
+  "usage": {
+   "input_tokens": 122,
+   "cache_creation_input_tokens": 27188,
+   "cache_read_input_tokens": 524028,
+   "output_tokens": 7241,
+   "output_tokens_details": {
+    "thinking_tokens": 3246
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 27188,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1077,
+     "cache_read_input_tokens": 44969,
+     "cache_creation_input_tokens": 1194,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1194
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 122,
+    "outputTokens": 7241,
+    "cacheReadInputTokens": 524028,
+    "cacheCreationInputTokens": 27188,
+    "webSearchRequests": 0,
+    "costUSD": 0.1431058,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3246,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've implemented and locked in my October peak strategy: strategy.py now auto-commits Friday PTO (doy 268-273) and auto-books day_1_5 trips when water \u226516\u00b0C or doy\u2265289. \n\nData validation confirms the thesis: Season 1 October (doy 287-297) ran 30-52 yt/trip sustained, while Season 2 April-May dead zone stayed at 0-2 yt/trip. My all-in October bet trades early micro-peak opportunities for discipline in the macro peak. I'm currently rank 29 (0.0 fish) with 74 days until execution.\n\n**Summary:** Strategy.py deployed for October execution (doy 287-297); October thesis validated with historical data showing 30-52 yt/trip peak. Hold all capital and PTO through September, with auto-commit starting doy 268.",
+  "ttft_ms": 3111,
+  "type": "result",
+  "duration_ms": 91458,
+  "uuid": "5d728ff6-7202-4107-81e5-7aad751e7bf4",
+  "ttft_stream_ms": 962,
+  "time_to_request_ms": 404,
+  "first_content_frame_ms": 963,
+  "time_to_request_from_spawn_ms": 36375919,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327750497.7515,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

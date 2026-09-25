@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 122.5,
+ "claude": {
+  "duration_api_ms": 114588,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1946877,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 48803,
+   "cache_read_input_tokens": 494607,
+   "output_tokens": 9501,
+   "output_tokens_details": {
+    "thinking_tokens": 3610
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48803,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 317,
+     "cache_read_input_tokens": 47800,
+     "cache_creation_input_tokens": 1003,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1003
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 9501,
+    "cacheReadInputTokens": 494607,
+    "cacheCreationInputTokens": 48803,
+    "webSearchRequests": 0,
+    "costUSD": 0.1946877,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3610,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "---\n\n**Summary:**\n\nThe data reveals **you missed Season 2's actual main peak (DOY 144-147, 1.33 yt/angler on d144)** because of over-caution with PTO deadlines. You caught only the tail at d147 (0.037 share) while top competitors hit 0.62+ by booking d144-146 aggressively. \n\n**Key finding:** Season 2's peak came ~120 DOY *earlier* than Season 1's model you planned for (d144 vs S1's d270+). This is a practice season; the lesson for Season 3+ is that you must **commit PTO speculatively before signals appear** (by d129 for a d143 booking), not chase them reactively.\n\n**What changed:** Updated journal.md with the post-mortem and revised notes.md with the corrected S2 vs S1 pattern comparison. Remaining strategy: observe d152-249 selectively, watch for d250+ transition signals, but don't expect to catch up this season (you're learning).\n\nBudget and PTO allocation: hold for high-confidence plays only ($1000, 7 days left; expect +0.05-0.15 fish max from secondary peaks).",
+  "ttft_ms": 2913,
+  "type": "result",
+  "duration_ms": 117052,
+  "uuid": "5299f423-b4b6-4de4-b776-fe7fa163b374",
+  "ttft_stream_ms": 1193,
+  "time_to_request_ms": 603,
+  "first_content_frame_ms": 1194,
+  "time_to_request_from_spawn_ms": 31787556,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323161768.147,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

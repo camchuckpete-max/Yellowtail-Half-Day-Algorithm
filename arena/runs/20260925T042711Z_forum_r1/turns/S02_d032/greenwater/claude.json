@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 166.2,
+ "claude": {
+  "duration_api_ms": 163478,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3134902,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 30435,
+   "cache_read_input_tokens": 328341,
+   "output_tokens": 12605,
+   "output_tokens_details": {
+    "thinking_tokens": 9298
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30435,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 54711,
+     "cache_creation_input_tokens": 1165,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1165
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 12605,
+    "cacheReadInputTokens": 328341,
+    "cacheCreationInputTokens": 30435,
+    "webSearchRequests": 0,
+    "costUSD": 0.3134902,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 9298,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I confirmed this is just a dead-of-winter check-in (doy 32 \u2248 early Feb, pier temp 58\u00b0F, season-2 trips show only 3 yellowtail across 192 rows) \u2014 nothing has been missed yet since nightly decisions don't start until April. But I found that my strategy shows as \"No strategy yet\" on the live leaderboard despite notes claiming it was submitted last time, and no `submit_strategy` tool was available this session to fix it, so I flagged that as the top priority for the next planning turn that has it. I also posted a forum note on the deepening La Ni\u00f1a (ONI -1.57) and why ONI sign shouldn't be trusted as a bite predictor, and updated `notes.md` with these findings plus a clear action item to verify the strategy submission actually sticks next time.",
+  "ttft_ms": 2707,
+  "type": "result",
+  "duration_ms": 164674,
+  "uuid": "3e22d531-8efb-4641-b0c1-5bf9f69feed2",
+  "ttft_stream_ms": 1048,
+  "time_to_request_ms": 83,
+  "first_content_frame_ms": 1048,
+  "time_to_request_from_spawn_ms": 19871960,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311250690.9475,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

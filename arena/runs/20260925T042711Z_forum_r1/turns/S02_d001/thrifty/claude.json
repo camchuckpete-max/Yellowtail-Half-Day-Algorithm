@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 85.7,
+ "claude": {
+  "duration_api_ms": 77898,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1216533,
+  "usage": {
+   "input_tokens": 112,
+   "cache_creation_input_tokens": 22812,
+   "cache_read_input_tokens": 429973,
+   "output_tokens": 6584,
+   "output_tokens_details": {
+    "thinking_tokens": 1939
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 22812,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 614,
+     "cache_read_input_tokens": 41164,
+     "cache_creation_input_tokens": 623,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 623
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 112,
+    "outputTokens": 6584,
+    "cacheReadInputTokens": 429973,
+    "cacheCreationInputTokens": 22812,
+    "webSearchRequests": 0,
+    "costUSD": 0.1216533,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1939,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of my turn:\n\n**Summary of Turn 1 (Season 2, Day 1):**\n\nI analyzed 3,650 Season 1 trips and discovered a clear seasonal pattern: yellowtail peaks in April (week 13, 1,739 fish), crashes May\u2013July, rebuilds Aug\u2013Sept, and explodes late Sept\u2013early Oct (weeks 41\u201342, 2,539 fish in one week). Peak season averages 2+ fish per angler at $80/trip.\n\n**Strategy committed:** 25 half-day trips for exactly $2,000, with:\n- Phase 1 (April): 3\u20134 weekend trips (spring opener)\n- Phase 2 (May\u2013June): 4\u20135 weekend trips (low-cost PTO)\n- Phase 3 (Aug\u2013Sept): 8\u201310 mixed trips (build toward peak)\n- Phase 4 (Late Sept\u2013Oct): 8\u201310 weekday trips (peak season, use all 10 PTO days)\n\n**Updated notes.md** with clear daily decision rules for my nightly self, and **posted to forum** (1 of 2) sharing seasonal insights to establish credibility and signal my volume-over-timing philosophy.\n\nStarting budget: $2,000, PTO: 10 days, current rank: 12/34. Ready for April opener.",
+  "ttft_ms": 2972,
+  "type": "result",
+  "duration_ms": 80276,
+  "uuid": "14716f5f-83ea-41b8-aa91-f64773d1951d",
+  "ttft_stream_ms": 915,
+  "time_to_request_ms": 364,
+  "first_content_frame_ms": 916,
+  "time_to_request_from_spawn_ms": 19143400,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310517915.5784,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

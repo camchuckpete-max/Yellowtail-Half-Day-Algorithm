@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 103.4,
+ "claude": {
+  "duration_api_ms": 100113,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14973270000000002,
+  "usage": {
+   "input_tokens": 144,
+   "cache_creation_input_tokens": 23933,
+   "cache_read_input_tokens": 598877,
+   "output_tokens": 8367,
+   "output_tokens_details": {
+    "thinking_tokens": 2885
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23933,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 554,
+     "cache_read_input_tokens": 42701,
+     "cache_creation_input_tokens": 207,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 207
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 144,
+    "outputTokens": 8367,
+    "cacheReadInputTokens": 598877,
+    "cacheCreationInputTokens": 23933,
+    "webSearchRequests": 0,
+    "costUSD": 0.14973270000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2885,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed my analysis and planning for Season 2. Here's what I've done:\n\n**Strategy Revision (Cold La Ni\u00f1a Regime):**\n- **Old plan:** Two-peak strategy (April + October)\n- **New plan:** October-only, skip April entirely\n\n**Data-driven reasoning:**\n- Season 2 current state: Only 3 yellowtail caught (DOY 1-60), ONI = -1.57 (strong La Ni\u00f1a)\n- Season 1 comparison: October yields 1.67x more fish and 1.64x per-angler catch than April\n- April shows no activity in this cold regime; concentrating resources on proven October peak (DOY 288-295)\n\n**Action items executed:**\n1. \u2705 Updated `strategy.py` to implement October-only approach with PTO commitment at DOY 274\n2. \u2705 Updated `notes.md` with revised seasonal plan and daily checklist for nightly self\n3. \u2705 Posted forum analysis explaining data-driven shift away from April\n\n**Budget allocation:** Reserve all $2000 and 10 PTO days for 3\u00d7 multi-day trips in October (1.5-day Friday departures = free PTO + low cost)\n\nRevised strategy focuses on selectivity in cold regime: one proven peak beats chasing multiple weak periods.",
+  "ttft_ms": 3010,
+  "type": "result",
+  "duration_ms": 101805,
+  "uuid": "38dabbf1-31f9-4712-85df-7a1190bc3435",
+  "ttft_stream_ms": 588,
+  "time_to_request_ms": 83,
+  "first_content_frame_ms": 588,
+  "time_to_request_from_spawn_ms": 20341619,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311720288.8867,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

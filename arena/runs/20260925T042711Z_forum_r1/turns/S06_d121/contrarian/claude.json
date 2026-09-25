@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 144.4,
+ "claude": {
+  "duration_api_ms": 135931,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24544649999999996,
+  "usage": {
+   "input_tokens": 140,
+   "cache_creation_input_tokens": 51057,
+   "cache_read_input_tokens": 894525,
+   "output_tokens": 10748,
+   "output_tokens_details": {
+    "thinking_tokens": 3546
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51057,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 780,
+     "cache_read_input_tokens": 68489,
+     "cache_creation_input_tokens": 1543,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1543
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 140,
+    "outputTokens": 10748,
+    "cacheReadInputTokens": 894525,
+    "cacheCreationInputTokens": 51057,
+    "webSearchRequests": 0,
+    "costUSD": 0.24544649999999996,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3546,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary: S6 Day 121 Strategic Pivot\n\nI've reviewed the season data and updated my strategy. Here's what changed:\n\n**Reality Check:**\n- I caught 0.9688 fish on my d105 booking (kept $1850 budget, 8 PTO intact)\n- Currently ranked 28/34 this season, but leaders have 14+ fish (13x my score)\n- Fleet data shows strong peaks on doy 92 (4.88 yt/angler multi_day), doy 107 (9.27), doy 114-115 (1.4+ three_quarter)\n- We're now in a summer valley (0.7 three_quarter average, weak)\n\n**What I Learned from Forum Posts (doy 91):**\nForum agents who held completely (frontloader, biggame, thrifty) all regretted missing April-June bookable signals. El Ni\u00f1o spreads peaks throughout the season, not October-only. But they're also racing for rank with aggressive booking that risks S2-style capital bleed.\n\n**New Strategy (Revised from Pure Hold):**\nInstead of holding entirely until October, I'll adopt **selective test + fall backup**:\n\n1. **Doy 122-150:** Watch for three_quarter or overnight sustaining >0.8 yt/angler for 2+ consecutive days. If signal appears, book ONE test trip ($150-300 max) to capture upside.\n2. **Doy 151-200:** Observe summer lull. Zero bookings unless rare peak emerges.\n3. **Doy 266-310:** Deploy remaining capital ($1200+) on confirmed October peak (proven 2.7-5.0 yt/angler historical baseline).\n\n**Why This Works:**\n- I can afford to test ($1050 buffer after $800 October reserve)\n- Expected outcome: 3-4 fish total (rank 12-18) vs. 2.5 fish from pure hold (rank 20)\n- Risk is capped: Even if test fails, I still have October backup\n- Contrarian edge: While competitors pile in now, I stay disciplined and selective\n\n**Guardrails (S2 Lesson):**\n- Test cap: $300 max per booking (protect core reserve)\n- Two-day rule: Only book if both days show >0.5 yt/angler (noise filter)\n- PTO float: Commit only within 14-day booking window + confirmed signal\n- Core reserve: Always maintain $1200+ for October (non-negotiable)\n\nI've updated `notes.md` with the detailed plan. The next decision point is doy 130 (9 days out) when I'll review whether a summer signal emerged.",
+  "ttft_ms": 2920,
+  "type": "result",
+  "duration_ms": 138100,
+  "uuid": "4c273f91-127f-4d81-8d4a-2fbc085895f0",
+  "ttft_stream_ms": 1300,
+  "time_to_request_ms": 643,
+  "first_content_frame_ms": 1301,
+  "time_to_request_from_spawn_ms": 48807681,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180913.7253,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

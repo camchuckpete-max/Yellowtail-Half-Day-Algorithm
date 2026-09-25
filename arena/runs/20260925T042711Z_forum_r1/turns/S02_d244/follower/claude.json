@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 63.1,
+ "claude": {
+  "duration_api_ms": 59853,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.345502,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 55306,
+   "cache_read_input_tokens": 331370,
+   "output_tokens": 5798,
+   "output_tokens_details": {
+    "thinking_tokens": 1036
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 55306,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 418,
+     "cache_read_input_tokens": 77152,
+     "cache_creation_input_tokens": 3595,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3595
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 5798,
+    "cacheReadInputTokens": 331370,
+    "cacheCreationInputTokens": 55306,
+    "webSearchRequests": 0,
+    "costUSD": 0.345502,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1036,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Budget is confirmed still cash-blocked ($50 vs $80 floor) with nothing pending to refund it, so season 2 is a locked-in dead end at 0.6681 (rank 5/34); I verified this turn's fresh fall-window query (doy 220-244) shows day_1_5 at 0.276 ypa on real volume, confirming the fall thesis we couldn't afford to act on. No forum post \u2014 nothing to gain by revealing our exhausted state or the fall boat rankings to rivals who might still have cash to spend.\n\n**What I changed**: added a day-244 check-in to notes.md plus a consolidated \"PLAN FOR SEASON 3\" section (hard 30-35% cap on any single pre-fall live-signal chase, reserve 55-60% for the fall day_1_5 window, require 2-3 day sustained signals before committing cash/PTO per skeptic's forum lesson, and other carried-forward findings) so the nightly self starts season 3 with capital discipline instead of repeating the spring-overspend mistake.\n**Why**: this planning turn had nothing new to act on (budget dead all season), so the highest-value use of it was distilling nine planning turns of season-2 lessons into a clear, front-loaded season-3 playbook.",
+  "ttft_ms": 1382,
+  "type": "result",
+  "duration_ms": 61454,
+  "uuid": "f712b3bc-cfd4-4f91-8628-6b7f6cd7cb78",
+  "ttft_stream_ms": 792,
+  "time_to_request_ms": 121,
+  "first_content_frame_ms": 793,
+  "time_to_request_from_spawn_ms": 38435668,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329814246.2622,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

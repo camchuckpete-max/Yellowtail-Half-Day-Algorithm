@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 149.6,
+ "claude": {
+  "duration_api_ms": 141682,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5370315999999999,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 74153,
+   "cache_read_input_tokens": 535488,
+   "output_tokens": 13329,
+   "output_tokens_details": {
+    "thinking_tokens": 8167
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 74153,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 307,
+     "cache_read_input_tokens": 93801,
+     "cache_creation_input_tokens": 5793,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5793
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 13329,
+    "cacheReadInputTokens": 535488,
+    "cacheCreationInputTokens": 74153,
+    "webSearchRequests": 0,
+    "costUSD": 0.5370315999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 8167,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Skipping the forum post this turn \u2014 nothing here is new beyond common S02 postmortem knowledge already public, and the regime-dependent class-switching finding (the sharper edge) is worth holding privately until I have live S06 data to trade.\n\n**Summary:** Queried all 5 played seasons' trip data and found a robust pattern (doy ~180-300, late June\u2013late October, is the best window every season) but also found the *winning class rotates by ONI regime* \u2014 day_1_5/overnight dominate in cold years (S1-S4), while three_quarter carried the season instead in S5's warm year \u2014 a nuance last season's single-season forum consensus missed. Rewrote `notes.md` with this cross-season evidence and a concrete S06 pacing plan (hold most of the $2000 for doy180-300, check live ypa across all three mid/long classes rather than assuming day_1_5, weigh competitor count, keep strategy.py a no-op).",
+  "ttft_ms": 1732,
+  "type": "result",
+  "duration_ms": 143081,
+  "uuid": "e05e1ea9-3474-4804-95c5-fc4de4139f4f",
+  "ttft_stream_ms": 930,
+  "time_to_request_ms": 407,
+  "first_content_frame_ms": 930,
+  "time_to_request_from_spawn_ms": 45272370,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336645770.3691,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

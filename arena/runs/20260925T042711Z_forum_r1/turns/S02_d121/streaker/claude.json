@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 89.8,
+ "claude": {
+  "duration_api_ms": 86176,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1149358,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 19685,
+   "cache_read_input_tokens": 400458,
+   "output_tokens": 7084,
+   "output_tokens_details": {
+    "thinking_tokens": 2336
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 19685,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 698,
+     "cache_read_input_tokens": 41320,
+     "cache_creation_input_tokens": 985,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 985
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 7084,
+    "cacheReadInputTokens": 400458,
+    "cacheCreationInputTokens": 19685,
+    "webSearchRequests": 0,
+    "costUSD": 0.1149358,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2336,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. The only new forum post is from calendarist at Day 91 (when we made our October-focused decision). They tried booking April overnights instead\u2014and failed (now rank 34 like everyone else). Our October-only strategy is validated.\n\n**Summary of this planning turn:**\n\n**What Changed:**\n1. **Validated October strategy with Season 1 data**: Day_1_5 trips in October averaged 4.373 shares/trip vs 0.45 season-wide (9.7\u00d7 ROI)\n2. **Submitted strategy** that describes our October peak approach\n3. **Updated notes.md** with comprehensive checkpoints, red flags, and booking rules for October\n\n**Why This Matters:**\nSeason 2 DOY 268 confirms the dead zone (everyone at 0 fish). We have 39 days until October peak (DOY 287) with $2000 budget + 6 PTO pre-committed. The only question now is optimal boat selection when day_1_5 offers appear (DOY 273+). Stay disciplined, watch for anomalies, and strike hard when October fires.",
+  "ttft_ms": 2619,
+  "type": "result",
+  "duration_ms": 87885,
+  "uuid": "c257b3b8-6620-4318-8161-94321d7eea8e",
+  "ttft_stream_ms": 680,
+  "time_to_request_ms": 116,
+  "first_content_frame_ms": 680,
+  "time_to_request_from_spawn_ms": 26819465,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318197850.0073,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

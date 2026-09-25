@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 128.7,
+ "claude": {
+  "duration_api_ms": 125680,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16603460000000003,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 31665,
+   "cache_read_input_tokens": 481866,
+   "output_tokens": 10882,
+   "output_tokens_details": {
+    "thinking_tokens": 3220
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31665,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 608,
+     "cache_read_input_tokens": 49504,
+     "cache_creation_input_tokens": 1136,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1136
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 10882,
+    "cacheReadInputTokens": 481866,
+    "cacheCreationInputTokens": 31665,
+    "webSearchRequests": 0,
+    "costUSD": 0.16603460000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3220,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect analysis. The schedule data confirms we're approaching the October window. My notes are now updated with the critical insight that I missed an opportunity in DOY 144-147 but October peak is still the primary target.\n\n## Summary\n\n**What changed:** Updated strategy notes with crucial finding that a real streak occurred at DOY 144-147 (1.064 peak on DOY 144) but has since broken. Confirmed October peak (DOY 287-301) remains the high-value target with 1.448 avg share, 3.6\u00d7 better than the missed streak.\n\n**Why:** Being responsive to data\u2014I was too rigid waiting for October and didn't catch the mid-season streak. Going forward, I'll monitor daily for any new positive runs while keeping October peak as the main objective. With only 2 days until October peak begins and 4 PTO days plus $2000 budget still available, I'm positioned to book 3 day_1_5 trips for the peak period (DOY 287-301 window, PTO already committed for Oct Fridays).",
+  "ttft_ms": 2021,
+  "type": "result",
+  "duration_ms": 127076,
+  "uuid": "d8316f49-aa25-4883-b926-84eeefe962f9",
+  "ttft_stream_ms": 619,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 619,
+  "time_to_request_from_spawn_ms": 31984643,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323363263.3042,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

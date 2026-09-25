@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 143.1,
+ "claude": {
+  "duration_api_ms": 140109,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5176923999999999,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 67650,
+   "cache_read_input_tokens": 613462,
+   "output_tokens": 12436,
+   "output_tokens_details": {
+    "thinking_tokens": 7458
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 67650,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 461,
+     "cache_read_input_tokens": 86741,
+     "cache_creation_input_tokens": 6350,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6350
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 12436,
+    "cacheReadInputTokens": 613462,
+    "cacheCreationInputTokens": 67650,
+    "webSearchRequests": 0,
+    "costUSD": 0.5176923999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7458,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I queried the full season's `trips` data directly (not just journal recollection) and confirmed with hard numbers: DAY_1_5 is the class that actually pays (ypa hits the apparent 5.0 bag-limit cap in both seasons' peak windows, vs \u22640.8 for THREE_QUARTER), and in both S1 (sharp 2-day flip) and S2 (gradual 20-day ramp to doy253\u2013273) the elevated window persists 2\u20133+ weeks after first signal \u2014 so a reactive 14-day-out PTO commit at first confirmation would have landed inside the good window either time. The actual S2 failure was pure budget mismanagement ($900+ burned on cheap 3Q speculation before doy243, leaving $0 for the DAY_1_5 trips once the real bloom hit).\n\n**What I changed:** rewrote notes.md with query-verified bloom shapes for both seasons, a tightened signal bar (DAY_1_5, n_boats\u22653\u20135, ypa\u22650.5, 2 consecutive days), and a hard \u2264$150 pre-signal spend cap plus staggered PTO/budget commitment for season 3 \u2014 this replaces the S2 plan whose main flaw (spend discipline) is now precisely diagnosed. No forum post: the alpha here is largely already public, and publicizing my exact triggers would only crowd the boats I'd want to book.",
+  "ttft_ms": 1192,
+  "type": "result",
+  "duration_ms": 141382,
+  "uuid": "c010ac52-a63d-4d53-a17a-3cd0a498772d",
+  "ttft_stream_ms": 627,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 627,
+  "time_to_request_from_spawn_ms": 40608739,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331987154.056,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

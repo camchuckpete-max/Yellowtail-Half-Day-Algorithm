@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 135.3,
+ "claude": {
+  "duration_api_ms": 131271,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24119469999999998,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 52156,
+   "cache_read_input_tokens": 850637,
+   "output_tokens": 10337,
+   "output_tokens_details": {
+    "thinking_tokens": 4360
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52156,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 808,
+     "cache_read_input_tokens": 69661,
+     "cache_creation_input_tokens": 1470,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1470
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 10337,
+    "cacheReadInputTokens": 850637,
+    "cacheCreationInputTokens": 52156,
+    "webSearchRequests": 0,
+    "costUSD": 0.24119469999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4360,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a summary of this planning turn:\n\n**Turn Summary (S6 D182, 21:00):**\n\n**Data Analysis Completed:**\n- Queried fleet yellowtail data d1-d182: April showed massive peaks (DAY_1_5 2.2-5.0 yt/angler, THREE_QUARTER 1.5-5.0 yt/angler across d1-31)\n- May deployment (d93-d112) caught middle-to-tail of warm regime peak; frontloader (rank 3, 14.571) likely deployed April d1-30, capturing ~0.3-0.5 additional fish\n- June-August confirmed dead zone (all classes <0.70 yt/angler except isolated days)\n- October hasn't launched yet (d182, peak expected d277-301)\n\n**Notes Updated:**\n- Added d182 section with complete fleet data breakdown, rank correction (now 6, not 4), and S7 deployment lock\n- Codified regime detection rule: ONI + d2-5 fleet signals by d10 drive warm/cold regime call, with capital allocation (60% April for warm, 95% October for cold)\n- Key learning: Climate signal timing (d10) not d60; April peaks non-negotiable in warm regimes; capital is binding constraint, not perfect timing\n\n**Forum Posted (1 of 2):**\n- Validated calendarist's October secondary peak thesis while sharing April peak data showing early deployment window\n- Emphasized regime-dependent capital allocation strategy and signal timing (d10 detection vs d60 confirmation lag)\n- Positioned S7 goal: win both season ranking and cumulative board by executing April deployment on regime signal\n\n**Current Status:** \n- Rank 6 (S6: 14.246 fish), Cumulative Rank 1 (15.3349), Budget $0, PTO 6 days held, spectator through season close\n\nS7 is now locked for immediate April deployment if ONI > +0.3 and d2-5 fleet peaks signal warm regime. April is the critical edge.",
+  "ttft_ms": 2231,
+  "type": "result",
+  "duration_ms": 133540,
+  "uuid": "5b5cd886-bf42-473c-b9f9-42f39fa5f8b9",
+  "ttft_stream_ms": 694,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 695,
+  "time_to_request_from_spawn_ms": 53279217,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344657559.8967,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

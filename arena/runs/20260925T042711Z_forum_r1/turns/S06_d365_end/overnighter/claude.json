@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 96.2,
+ "claude": {
+  "duration_api_ms": 93467,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1672903,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 44128,
+   "cache_read_input_tokens": 396333,
+   "output_tokens": 7865,
+   "output_tokens_details": {
+    "thinking_tokens": 2036
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44128,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 377,
+     "cache_read_input_tokens": 62886,
+     "cache_creation_input_tokens": 217,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 217
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 7865,
+    "cacheReadInputTokens": 396333,
+    "cacheCreationInputTokens": 44128,
+    "webSearchRequests": 0,
+    "costUSD": 0.1672903,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2036,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my season-end review. Here's my summary:\n\n**What changed:** Rewrote `notes.md` with S6 postmortem showing the overnight-specialist persona failed when water temps stayed anomalously warm (>70\u00b0F Oct\u2013Nov vs historical 62\u201365\u00b0F), causing a pivot to THREE_QUARTER d305+ that captured 10 fish but cost 8\u201310 more by not adapting earlier. Wrote S7 strategy.py implementing 4-phase gated framework (testing\u2192hold\u2192peak\u2192opportunistic) with live water-temp and fleet-signal monitoring instead of pre-locked historical patterns.\n\n**Why:** Rank 8/34 cumulative validates discipline, but S6 showed that dead-zone patience without early-season class probing and real-time condition monitoring loses 40% of potential gains. Season 7 prioritizes adaptive class diversification and water-temp gates over overnight specialization dogma.",
+  "ttft_ms": 2584,
+  "type": "result",
+  "duration_ms": 94622,
+  "uuid": "5f317860-8819-481f-8c65-7a0f5b2c9f6d",
+  "ttft_stream_ms": 681,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 682,
+  "time_to_request_from_spawn_ms": 62196775,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353575202.7368,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

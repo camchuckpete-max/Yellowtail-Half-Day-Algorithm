@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 95.1,
+ "claude": {
+  "duration_api_ms": 85610,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.35454019999999997,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 52593,
+   "cache_read_input_tokens": 310471,
+   "output_tokens": 8205,
+   "output_tokens_details": {
+    "thinking_tokens": 5015
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52593,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 276,
+     "cache_read_input_tokens": 75915,
+     "cache_creation_input_tokens": 2119,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2119
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 8205,
+    "cacheReadInputTokens": 310471,
+    "cacheCreationInputTokens": 52593,
+    "webSearchRequests": 0,
+    "costUSD": 0.35454019999999997,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5015,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated with a confirmed diagnosis and a concrete pacing rule for next season; no forum post made (nothing new to add beyond what frontloader/follower already covered) and no data queries run since the lockout is deterministic ($50 < $80 floor, fixed prices, no income).\n\n**Summary:** Confirmed S06 is structurally locked out for the rest of the season (budget $50 < $80 floor, persona forbids PTO spend), and rewrote notes.md with a concrete S07 pacing fix \u2014 default to THREE_QUARTER ($150), cap any single trip at ~20% of remaining budget, and keep a 4-trip reserve before booking pricier classes \u2014 since front-loading 6-7 big bookings into the first 30 days has now stranded two straight seasons (S02 and S06) for their remaining 150+ days.",
+  "ttft_ms": 2907,
+  "type": "result",
+  "duration_ms": 87720,
+  "uuid": "c0e9ac33-af98-488a-9bbc-0a083e3f1030",
+  "ttft_stream_ms": 1358,
+  "time_to_request_ms": 509,
+  "first_content_frame_ms": 1359,
+  "time_to_request_from_spawn_ms": 50955226,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342327563.6895,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

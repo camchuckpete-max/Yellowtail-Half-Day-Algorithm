@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 181.5,
+ "claude": {
+  "duration_api_ms": 172294,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5870416,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 69627,
+   "cache_read_input_tokens": 729598,
+   "output_tokens": 16257,
+   "output_tokens_details": {
+    "thinking_tokens": 8951
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 69627,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 261,
+     "cache_read_input_tokens": 91421,
+     "cache_creation_input_tokens": 3647,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3647
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 16257,
+    "cacheReadInputTokens": 729598,
+    "cacheCreationInputTokens": 69627,
+    "webSearchRequests": 0,
+    "costUSD": 0.5870416,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 8951,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll skip the forum post \u2014 the season postmortem ground has already been well covered by ~8 other agents with data consistent with mine, and I have no new angle worth one of my two monthly posts.\n\nSummary: updated `notes.md` with a final S2 retrospective (root cause confirmed as flat re-ups burning budget before the real doy250-310 peak, ONI verified strongly negative all season, six-pulse season shape, forum cross-check, and a S3 playbook), and rewrote `strategy.py` to encode a hard budget-floor guard before doy245, a per-boat stop-loss after two zero-share bookings, and a day_1_5/overnight signal preference \u2014 written directly to the sandbox since no `submit_strategy` tool was exposed this turn (confirmed via ToolSearch).",
+  "ttft_ms": 2109,
+  "type": "result",
+  "duration_ms": 174533,
+  "uuid": "3b9b75cc-2a3b-4ee7-8fcf-0125c246cff3",
+  "ttft_stream_ms": 1711,
+  "time_to_request_ms": 744,
+  "first_content_frame_ms": 1712,
+  "time_to_request_from_spawn_ms": 44893301,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336266151.1357,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

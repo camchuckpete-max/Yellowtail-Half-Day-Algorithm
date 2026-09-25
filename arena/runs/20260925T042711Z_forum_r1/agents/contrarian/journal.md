@@ -1,0 +1,488 @@
+- S02 d091: Zero across the board, crew elsewhere. Probe the ignored boat when conditions say fish should be there. Contrarian window: small window before herd commits to something else.
+- S02 d092: Dead week, Sunday crowded. Lull bottoming midweek—watch for empty-boat opportunity when fleet surrenders.
+- S02 d093: April trough confirmed; hold capital for May rebound. Weekend-only trips = zero PTO, clean optionality.
+- S02 d094: April peak fizzled; fleet demoralized (all zeros). Lull bottom = next week's opportunity. Hold capital and PTO until May signals clear or weekend window opens.
+- S02 d095: Lull bottom—seven-day fleet zeros. No available bookings tomorrow. Holding PTO and capital for recovery window next week when good boats emerge.
+- S02 d096: Lull ongoing; only ignored boat (Jig Strike) needs prepped PTO. Dry powder until recovery shows in next 7 days' data.
+- S02 d097: Lull bottom ongoing. Rough seas, fleet still quiet, Saturday-only options. Hold capital and watch next 7d data for recovery signal before committing.
+- S02 d098: Lull bottom, Saturday's peak crowd. Hold dry powder; fish come back midweek when boats are empty. Watch next 7d data for recovery signal.
+- S02 d099: Lull bottom: water warming, San Diego fires. Book three-quarter Sunday test; hold PTO for May peak d121+."
+- S02 d100: Lull bottoming; Monday dead spot after weekend test. Hold dry powder; assess boat schedule + recovery signal at d110 before mid-May PTO commit.
+- S02 d101: Lull bottoming; fleet abandoning May window. Hold capital for recovery play d110+.
+- S02 d102: Lull bottom. Fleet abandons May; capital ready for mid-May strike after d110 recovery signal.
+- S02 d103: Lull bottom persists (d103: 0 yt). No boats, no PTO window for weekday. Hold dry powder; execute on d110 recovery signal before May peak commit.
+- S02 d104: Lull bottom holds. DAY_1_5 abandoned fleet-wide, but recent data 0.0 across 30 days. Capital ready; holding for d110 recovery signal before any deployment.
+- S02 d105: Lull bottom d105; fleet thin weekday, crowds return Sat. Hold d106–d109 dry powder for midweek recovery signal near d110, then May peak PTO commit.
+- S02 d106: Saturday's San Diego peak (0.234 yt/angler) fires crowd tomorrow. Skip d107; hold dry powder d108–d109 for midweek recovery signal d110+ when fleet abandons.
+- S02 d107: Fleet chased Sat spike, faded Sun (0.234→0.034). Mon abandon coming; hold dry powder for d110+ midweek recovery when field really gone.
+- S02 d108: Saturday peak (0.234) collapsed to 0.040 in 2 days. Crowd chases faded news Tue; I wait for Wed+ recovery when fleet really gone. Capital locked."
+- S02 d109: Skip d110 crowd surge. Lock d123 Tue recovery when field is really gone. Contrarian trade: own the collapse, not the spike.
+- S02 d110: Skip d111 crowd exodus. d123 Tue already locked for May recovery when fleet really gone. Dry powder holds.
+- S02 d111: Water cooling (55.9°F, -6°F from weekly mean), local fishing report weak (2 mentions). Mustang recent 0.000, Voyager untested. Hold dry powder for midweek recovery signal when conditions firm and fleet abandons.
+- S02 d112: Sat after d112 spike (San Diego 0.182). Fleet piles on, fade certain. Water cooling, local bite weak—skip. Hold dry powder for d123 Tue recovery when fleet really gone.
+- S02 d113: d113 weak: May peak tail fading. Midweek d123 recovery when fleet gives up.
+- S02 d114: Fleet hunted d113-d114 cold. Monday fade; capital holds for d123 Tue contrarian recovery when field abandons.
+- S02 d115: Spike d112 → fade d113-d115 collapse. Fleet exhausted, conditions soft. Hold d123 Tuesday locked recovery when field abandons.
+- S02 d116: May peak tail collapsed after d113 chase. d117 Wed has no boats in bookable classes. Hold for d123 Tue recovery locked—when fleet abandons, fish return.
+- S02 d117: Fleet abandoned but catch still flat—d123 Tue is the entry, not d118 setup.
+- S02 d118: Skip Friday; fleet weak after d118 zeros. Avoid weekend overnights pile-on. d123 Tuesday recovery locked when crowd truly abandons.
+- S02 d119: Weekend crowd incoming on dead conditions. Fleet abandons Tue d123 when contrarian edge returns. Dry powder locked.
+- S02 d120: Fleet dead after May peak crash. d123 Tuesday is peak contrarian—midweek when field fully abandons. Hold dry powder for the real entry.
+- S02 d121: Fleet vanished entirely—zero boats d122–d124 all classes. Unprecedented break. Hold dry powder; reassess if boats return by d123.
+- S02 d122: Execute d123 recovery: abandoned fleet + decent conditions + strongest class. Not repeating analysis paralysis; thesis says fish here, going.
+- S02 d123: Recovery thesis whiffed (d123 = 0 yt). Sit the lull; no clear signal means no capital. Observe d124–d127 before re-engaging.
+- S02 d124: Fleet dead d118–d124, recovery failed d123 (0 yt). Sit d125, observe d126+ for real signal. No capital to waste on weak thesis.
+- S02 d125: Sit d126 Friday; observe for break signal. Strike d127 overnight only if d126 confirms any catch.
+- S02 d126: D126 weak signal (0.062 one boat); hold through Saturday crowd. Observe d127–d128 for real recovery momentum before re-engaging.
+- S02 d127: San Diego fired d127. Crowd gone d128. Contrarian time. Going.
+- S02 d128: Sit d129–d142 dead zone. Full-week October booked (d143–d147). Fleet quits; fish return.
+- S02 d129: Sitting dead zone per plan; no boats d130. October week locked. Will reassess for next contrarian window post-d147.
+- S02 d130: Dead zone on schedule. October week locked; observe d131–d142 for real recovery momentum.
+- S02 d131: Deadzone observation on schedule. One San Diego fire ≠ recovery signal. October locked; waiting for d132–d138 momentum.
+- S02 d132: D133 weak; dead zone on schedule. October locked. Sitting.
+- S02 d133: Dead-zone Saturday: sit the crowd trap. Fleet desperate after d133 zeros; they'll pile on tomorrow. Weekday break signal next opportunity.
+- S02 d134: Contrarian re-entry: Sunday after Saturday zero-out. San Diego THREE_QUARTER test; October locked; dry powder preserved if dead zone extends.
+- S02 d135: Dead zone end; October untested yet. Sit, observe, preserve capital. Real recovery signal will show before d147.
+- S02 d136: Dead zone holds. October locked. Sit quiet through Sept; capital preserved for the real swing.
+- S02 d137: D138: Dead zone holds midweek. Sitting. October locked; waiting for the real break.
+- S02 d138: Dead zone holds d139 forced. October locked and on deck; sitting to observe before spending final PTO.
+- S02 d139: Dead zone holds d139. Saturday trap bookable; sit tight. October locked, watching for d140–d142 signal.
+- S02 d140: Dead zone holds d140. Saturday trap—fleet piles on zeros. Prowler untested, overnight class dead. Sit; wait for signal.
+- S02 d141: Dead zone holds even after Saturday zero-out. Fleet's lack of Sunday pile-on is bearish. Sit tight for weekday breakout signal.
+- S02 d142: Dead zone holds through d142. No reversal signal on d143. Multi-day trips d144+ on deck; observing before deploying further.
+- S02 d143: Malihini 10 yt d143—classic crowd magnet, not breakout yet. Sit d144; watch fleet behavior for real reversal signal.
+- S02 d144: Spike d144 = crowd magnet not breakout. Sit; watch San Diego fade on d145. Last PTO day held for real reversal signal.
+- S02 d145: Spike d145 = crowd trap. Sit d146; watch for fleet abandonment signal on d147 before next move.
+- S02 d146: Dead zone holds into d147. Friday exhaustion ≠ reversal. Sitting tight for clean breakout signal, not crowd traps.
+- S02 d147: Saturday trap day. Dead zone holds; Friday's mixed results = crowd magnet, not reversal. Sit and watch Mon/Tue for genuine breakout signal.
+- S02 d148: Dead zone holds. Sunday short classes, zero boats, no edge. Sit; watch Monday overnight for genuine reversal before weekday move.
+- S02 d149: Abandoning the wait. Dead zone still holds; San Diego is the only edge available. Book it and reset.
+- S02 d150: Dead zone holds through d150. No bookable plays. Sitting d151; watching for genuine reversal breakout before redeploying capital and remaining PTO.
+- S02 d151: Dead zone holds d152. Fleet abandoned but fish not back yet. Waiting for d157+ reversal confirmation before deploying last 4 PTO and capital.
+- S02 d152: Holding per strategy.py timeline. Dead zone holds d153; October window target doy 286+. No edge tomorrow.
+- S02 d153: Dead zone holds d153. Sitting d154; October target doy 286+. Capital and PTO intact for real peak.
+- S02 d154: Dead zone holds d154; Saturday crowd trap. October doy 286+ is the only real edge. Capital and PTO locked.
+- S02 d155: Dead zone holds d156. October thesis intact. Capital and PTO held for doy 286+ peak window.
+- S02 d156: Dead zone holds d156. October window (doy 286+) opens for PTO commitment in 4–11 days. Hold capital and remaining PTO for peak. Strategy tracking on timeline.
+- S02 d157: Dead zone d157 confirmed. October peak (doy 286+) within reach; PTO window opens at S02 d260+. Capital and 4 PTO locked.
+- S02 d158: Dead zone d158 confirmed. October thesis intact; capital and PTO locked for peak (doy 286+).
+- S02 d159: Dead zone d159 confirmed zero across fleet. October strategy locked—4 PTO, $1250 held for doy 286+ peak window. No edge tomorrow.
+- S02 d160: Dead zone d160 confirmed; fleet still abandoned. Friday noise—no edge. October thesis intact. Capital and 4 PTO locked.
+- S02 d161: Dead zone holds d162. October thesis locked; capital and 4 PTO reserved for doy 286+ peak window.
+- S02 d162: Dead zone d163 confirmed—fleet abandoned, Sunday cost-free but zeros everywhere. October thesis intact; capital and 4 PTO locked for doy 286+ peak window.
+- S02 d163: Dead zone d164 holds. October thesis intact; capital and 4 PTO locked for doy 286+ peak window. No edge tomorrow.
+- S02 d164: Dead zone d164 holds. Capital and 4 PTO locked for October peak (doy 286+). No bookable edge tomorrow.
+- S02 d165: Dead zone d165 confirmed; fleet sparse. October thesis locked—capital and 4 PTO reserved for doy 286+ peak window. No edge.
+- S02 d166: Dead zone d165 confirmed. Holding capital and 4 PTO for October doy 286+ peak per S1 precedent (5.0 yt/angler, day_1_5 class).
+- S02 d167: Spike fades, fleet piles in. October peak locked 14 days out—commit Friday departures for doy 283-290 Saturday fishing. Capital and PTO held.
+- S02 d168: Avoided weekend pile-on after d168 THREE_QUARTER spike. Committed October Friday departures for peak window. Capital locked, thesis intact.
+- S02 d169: Weekend dead after d168 spike. Fleet piles in, numbers crater. October thesis intact—capital and PTO held.
+- S02 d170: Fleet crashed d169-170 after spike; thesis holds. Hold capital and PTO for October peak. No edge Monday.
+- S02 d171: Summer dead d165-171 holds; zero edge tomorrow. October thesis intact—$1250 and 2 PTO held for doy 286-297 peak window when schedule appears. Sit tight.
+- S02 d172: Dead zone confirmed; zero edge d173. Capital and PTO fully locked for October peak (doy 286–297). Stay home.
+- S02 d173: Dead zone holds. October thesis intact—capital locked for doy 286+ peak. Stay home.
+- S02 d174: Dead zone persists d174–d175. October thesis locked (doy 286, 293 committed); capital and PTO held for peak window. No edge Friday.
+- S02 d175: Saturday dead. October peak framework locked (d286, d293); capital and 2 PTO reserved for day_1_5 greed window. Stay disciplined.
+- S02 d176: Weekend dead, summer lull holds. October peak locked (d286, d293); capital reserved. Stay disciplined.
+- S02 d177: Dead zone d177–d178 holds as predicted. October framework locked (d286, d293 committed). Stay disciplined, hold capital for peak.
+- S02 d178: Dead zone holds; October framework locked (d286, d293 committed). Capital and PTO reserved for October peak where data shows 5.0 yt/angler. Stay home.
+- S02 d179: Dead zone holds d179; October peak framework locked (d286, d293 committed). Stay home, hold capital and 2 PTO for greed window when schedule unfolds. No edge d180.
+- S02 d180: Dead zone d180 holds. Capital and 2 PTO locked for October greed window (d286, d293). Stay home.
+- S02 d181: Dead zone d182 confirmed. October framework locked (d286, d293); capital and discipline held. Stay home.
+- S02 d182: Saturday dead zone. Fleet zero yesterday d182. October thesis holds—stay home, hold capital and PTO for doy 286, 293 peak window.
+- S02 d183: Sunday dead zone holds. Capital and both day_1_5 trips locked for October greed window. Stay home.
+- S02 d184: Dead zone d185 (Monday holiday). No edge. Stay home, hold capital and PTO for October peak (d286, d293 locked). Discipline.
+- S02 d185: Dead zone d186 holds. Held discipline. October framework (d286, d293) locked.
+- S02 d186: Dead zone d187 holds. October framework locked (d286, d293); capital and PTO preserved. Stay home.
+- S02 d187: Dead zone d188 holds. October thesis locked (d286, d293 PTO, $1250 capital reserved). Stay disciplined, stay home.
+- S02 d188: Dead zone d189 confirmed. October thesis locked (d286, d293); capital and discipline held. Stay home.
+- S02 d189: Dead zone d190 (Sat). October thesis intact—$1250, 2 PTO locked for d286/d293 peak. Stay home, stay disciplined.
+- S02 d190: Dead zone d191 holds. October thesis unchanged—$1250 and 2 PTO locked for d286/d293 day_1_5 peak. No noise.
+- S02 d191: Dead zone holds. October thesis intact ($1250 + 2 PTO locked for d286/d293). Stay disciplined, stay home.
+- S02 d192: Twilight noise in dead zone. October thesis intact—$1250 + 2 PTO locked for d286/d293 peak. Stay home.
+- S02 d193: Dead zone d194 confirmed. October framework locked ($1250 + 2 PTO for d286/d293 day_1_5 peak). Stay home, stay disciplined.
+- S02 d194: Dead zone d194 holds. TWILIGHT noise; October thesis locked. Stay disciplined, stay home.
+- S02 d195: Friday pile-on after Thursday hot. October thesis locked ($1250 + 2 PTO for d286/d293 peak). Noise rejected. Stay disciplined, stay home.
+- S02 d196: Dead zone d197 (Sat). October thesis locked. No noise. $1250 + 2 PTO held for d286/d293 peak.
+- S02 d197: Dead zone d198 (Sun). October thesis locked ($1250 + 2 PTO for d286/d293 peak). Stay disciplined.
+- S02 d198: Dead zone holds. October thesis locked ($1250 + 2 PTO for d286/d293 peak). Stay home.
+- S02 d199: Day 200 dead zone noise rejected. October thesis intact: $1250 + 2 PTO locked for d286/d293 day_1_5 peak. Discipline pays.
+- S02 d200: Dead zone holds through d200 (three-quarter 0.024 noise only). October thesis locked: $1250 + 2 PTO for d286/d293 day_1_5 peak. Discipline pays.
+- S02 d201: Discipline holds. Dead zone d202 confirmed. October thesis on track: $1250 + 2 PTO reserved for d286/d293 day_1_5 peak (doy 286–297).
+- S02 d202: Dead zone d203 holds. October thesis intact ($1250 + 2 PTO for d286/d293 peak). 0.263 spike is noise; fleet abandonment repeats. Discipline.
+- S02 d203: Saturday = fleet clustering after any d203 uptick. Dead zone confirmed; October locked. Discipline intact.
+- S02 d204: October thesis absolute. $1250 + 2 PTO locked for d286/d293 day_1_5 peak. No mid-season tweaks. Discipline.
+- S02 d205: Dead zone d206 ignored. October thesis absolute. $1250 + 2 PTO locked for d286/d293 peak. Discipline.
+- S02 d206: Fleet pile-in after d206 spike. Hold discipline: October peak locked, d286/d293 day_1_5 thesis intact.
+- S02 d207: Post-spike lull, fleet pile-in expected. October peak locked (d286/d293 day_1_5). Discipline holds.
+- S02 d208: Fleet spike in three-quarter (d208: 0.294). Post-spike lull pattern holds. Stay home, preserve October. Discipline.
+- S02 d209: Discipline holds through d265. Saturday fishing skipped; capital preserved for October d286/d293 day_1_5 peak. Thesis locked.
+- S02 d210: Saturday discipline holds. Fleet will pile in after d209 ghost. Capital and October thesis intact.
+- S02 d211: Post-Saturday lull noise. October thesis intact. Hold discipline—capital locked for doy 286/293 day_1_5 peak.
+- S02 d212: Hold through Monday dead zone. October d286/d293 thesis absolute. Capital and PTO locked for peak.
+- S02 d213: Water temp collapsed 57.4°F. Fleet abandoned. Dead zone—hold discipline. October thesis locked.
+- S02 d214: Fleet lull post-spike (San Diego 3 yt d214, 0.077 pooled). Contrarian case is real—but October thesis is real too. Hold discipline d215–d265. October is the only climb from rank 23.
+- S02 d215: Lull post-d215 spike. Fleet abandoned, water cold. Hold capital for October peak. Discipline.
+- S02 d216: Prowler 0.802 yt/angler—fleet abandoned day_1_5 weekend. Contrarian Saturday play; October thesis intact with $700 capital left.
+- S02 d217: Prowler d218 already booked. No additional bookings. October thesis locked; capital preserved for d286/d293 peak.
+- S02 d218: Sunday lull confirmed. Hold discipline—fleet weak, seasonal poor. October thesis locked.
+- S02 d219: Monday dead zone confirmed. Capital preserved for October. Discipline holds.
+- S02 d220: Dead zone confirmed d220–d265. Capital and PTO held for October peak. Discipline.
+- S02 d221: Dead zone d222 confirmed. Hold. October thesis intact—$700, 2 PTO days preserved.
+- S02 d222: Sept dead confirmed. Capital and PTO locked for October peak. Discipline holds.
+- S02 d223: Dead zone confirmed. No chase. October thesis locked—discipline holds.
+- S02 d224: Saturday lull confirmed d223–d224 across all classes. Dead zone holds through September. Discipline locked for October peak.
+- S02 d225: Dead zone holds through September. Capital and PTO locked. October thesis intact—no chase.
+- S02 d226: Dead zone d227 holds. One week to October peak lock. Capital $700, PTO 2 days preserved.
+- S02 d227: Dead zone holds. Capital and PTO locked for October peak. Discipline.
+- S02 d228: Dead zone confirmed d229. October peak thesis locked d286, d293. Capital $700, PTO 2 days reserved—discipline holds through September.
+- S02 d229: Dead zone holds. Capital and PTO locked for October peak. Discipline preserved.
+- S02 d230: Dead zone holds Friday d231. Water temp tick alone insufficient. Discipline: capital $700 preserved for October peak d286–d293.
+- S02 d231: Dead zone d232 confirmed. October thesis locked d286, d293. Capital $700, PTO 2 days reserved—no Saturday chase.
+- S02 d232: Dead zone d232–d233 confirmed. Capital and PTO locked for October peak d286, d293. Discipline holds.
+- S02 d233: Dead zone d233–d234 holds. Capital $700 + PTO 2 locked for October peak. Discipline.
+- S02 d234: Dead zone d235—discipline holds. October lock d286, d293 intact with $700, 2 PTO days reserved.
+- S02 d235: Dead zone d236 confirmed. October lock intact ($700, PTO d286/d293). TWILIGHT trap avoided—no edge Tuesday.
+- S02 d236: Dead zone d237 confirmed. Capital $700 + PTO 2 locked for October peak d286/d293. TWILIGHT trap avoided.
+- S02 d237: Dead zone d238 skipped. Fleet exhausted after d236 hot day; October capital/PTO intact.
+- S02 d238: Saturday after Friday zero—fleet lull. Capital + PTO locked for October. Discipline holds.
+- S02 d239: Dead zone d240 confirmed; short classes all zero. October lock ($700, PTO d286/d293) intact. Discipline.
+- S02 d240: Dead zone d241 confirmed. October lock intact ($700, PTO d286/d293). Discipline holds.
+- S02 d241: Dead zone d241–d242 holds. October lock intact ($700, PTO d286/d293). Discipline wins.
+- S02 d242: Dead zone d243 confirmed. October lock ($700, PTO d286/d293) intact. TWILIGHT trap—no edge midweek.
+- S02 d243: Dead zone d244 confirmed. Capital + PTO 2 locked for October ($700). Crowd still fishing weak; we wait.
+- S02 d244: Friday crowd after d244 zero; October capital and PTO locked. Contrarian discipline: no weak-EV plays when peak window is assured.
+- S02 d245: Saturday crowded; October peak (d286–295, 5.0 yt/angler confirmed) locked. Contrarian waits.
+- S02 d246: Sunday crowd after d246 push; dead zone persists. October lock ($700, d286) intact. Discipline wins.
+- S02 d247: Federal holiday spike noise; dead zone holds. October lock ($700, d286) unshaken. Contrarian waits.
+- S02 d248: Tuesday dead zone confirmed. October lock intact ($700, d286 PTO committed). Discipline wins: no weak-EV plays when peak is assured.
+- S02 d249: Dead zone holds; no weak plays. October d286 window opens in 16 days ($700 + 2 PTO intact).
+- S02 d250: Dead zone d251 confirmed. October peak d286 in 35 days; PTO window opens in 21 days. Capital and discipline intact.
+- S02 d251: Dead zone holds through d251. October d286 peak (5.14 yt/angler, 30-trip avg confirmed) 35 days out; PTO commitment window opens d272. Capital $700 intact.
+- S02 d252: Saturday dead zone confirmed; October d286 locked. Discipline wins again.
+- S02 d253: Dead zone break: San Diego THREE_QUARTER Sunday. Sparse fleet, proven boat, capital preserved for October. Contrarian thesis still alive.
+- S02 d254: Dead zone follow-up day; fleet piles on after d254 spark. October lock (d286, 5.14 yt/angler confirmed) 32 days out, commitment window in 12 days. Preserve capital and PTO. Discipline.
+- S02 d255: Dead zone holds d256 Tuesday. Capital $550, PTO 2 intact for October d286 (31 days, window d272). Discipline.
+- S02 d256: September fades as expected. October locked 5.14 yt/angler, d286, commitment window opens d272. Preserve $550 and PTO 2 for the only remaining peak.
+- S02 d257: Dead zone holds d258. October d286 locked. Preserve capital and discipline.
+- S02 d258: Dead zone d258 spark confirmed; fleet crowding Friday. October d286 locked 28 days, capital $550 and PTO intact.
+- S02 d259: Saturday crowd day, fleet piling on after Friday spark. Capital preserved for October d286 (27 days, 5.14 yt/angler confirmed). Discipline.
+- S02 d260: Dead zone holds d261; San Diego tempting but October locked. Discipline untouched.
+- S02 d261: Dead zone holds d261–d262. October d286 locked, capital and PTO preserved. Discipline intact.
+- S02 d262: September dead zone holds d263; October d286 peak locked (5.14 yt/angler). Commitment window opens d266 in 4 days. Discipline.
+- S02 d263: Dead zone holds d264. October d286 window opens d267 (4 days); capital $550 and PTO 2 intact. Discipline.
+- S02 d264: Wednesday crowd day after San Diego spark. October d286 peak (5.14 yt/angler) still the play—commitment window opens d272. Hold capital and PTO.
+- S02 d265: Dead zone holds through d267. October d286 window opens d272; capital and discipline untouched.
+- S02 d266: Hold Saturday crowd fade; October d286 window opens d272. Capital and final PTO committed for peak.
+- S02 d267: San Diego Sunday play: boat discipline over hot day chasing. October d286 locked. Capital managed.
+- S02 d268: Dead zone holds d269 (locked out: no PTO, no boats). October d286 thesis intact. Capital and discipline untouched.
+- S02 d269: Tuesday dead zone holds (PTO locked out, capital preserved). October d286 peak intact.
+- S02 d270: Dead zone holds; fleet chases San Diego spark d271–273. October d286 locked. Stay home, hold capital and last PTO day.
+- S02 d271: Dead zone holds through d273. October peak locked; hold capital and final PTO. TWILIGHT is fleet noise (0.000 yt/angler).
+- S02 d272: Overnight Jig Strike d274. October d286 unaffordable ($150 short); execute available edge instead of sitting idle.
+- S02 d273: OVERNIGHT d274 locked in; capital and PTO exhausted. October d286 is final play.
+- S02 d274: Season lost to capital annihilation mid-season. Thesis correct, execution fatal. Next time: hold $1,100 for ONE peak instead of scattering $1,850 across failed dates.
+- S02 d275: Capital annihilation d100–d270 killed the season. October peak thesis verified (d295+: 2.7–5.0 yt/angler), but executed too late with zero budget. Rank 24/34.
+- S02 d276: Season 2 done. October peak confirmed real (d295–303: 2.7–5.0 yt/angler), but I was broke. Next season: hold $1,100, two $550 bets only, no scattered plays.
+- S02 d277: Season 2 final: rank 24/34, 0.16 fish. Capital killed thesis. October peak was real; I was empty.
+- S02 d278: Season 2 done. October peak real (d295–303: 2.7–5.0 yt/angler confirmed). I was right, broke. Next: hold capital for ONE peak, not ten failed plays.
+- S02 d279: Capital locked d279. Season 2 thesis proven right, execution fatal. Sit until d286 window; do not chase d280 weak signal.
+- S02 d280: Season 2 done. Thesis right (Oct peak d295–303: 2.7–5.0 yt/angler confirmed), execution fatal ($0 by d274). Hold last PTO; do not scatter again.
+- S02 d281: Capital killed the thesis. October peak real (d295–303 confirmed), but I was empty by d274. Season done; rank 24/34, 0.16 fish.
+- S02 d282: Capital dead; October peak confirmed d295–303 but I missed it. Thesis right, execution catastrophic. Season over at rank 27/34, 0.16 fish.
+- S02 d283: Season 2 done: rank 27, 0.16 fish. Thesis correct (Oct d295–303: 2.7–5.0 yt/angler confirmed), capital fatal. Next season: $1,100, two $550 bets only, commit PTO after signal, not on faith.
+- S02 d284: Bankrupt d284. October peak d295–303 real but I'm empty. Season over, rank 27, 0.16 fish. Capital discipline next season only.
+- S02 d285: Season 2 over. Thesis right, capital wrong. Rank 27/34, 0.16 fish. Season 3: hold reserve, commit PTO only when capital + signal align.
+- S02 d286: Bankrupt d286. October peak confirmed (d295–303: 2.7–5.0 yt/angler), thesis right, execution wrong. Season over.
+- S02 d287: Season 2 done, rank 24, 0.16 fish. Thesis proved right (Oct peak d295–303 real), execution killed by capital scatter. Season 3: two $550 bets only, PTO only when signal+capital align.
+- S02 d288: Bankrupt d289. Hold last PTO; wait for capital + signal to align before next lock. Season 2 thesis right, execution destroyed by scatter. Do not repeat.
+- S02 d289: Season 2 done: rank 24, 0.16 fish. Thesis proved right (Oct peak real), capital allocation destroyed execution. Season 3: two $550 bets only, commit PTO only when signal + capital converge, not on faith.
+- S02 d290: Bankrupt d290; October peak thesis proved right (d295–303 real), execution annihilated by capital discipline. Season 2 over rank 24, 0.16 fish. Lesson: two $550 bets + reserve cap, never scatter.
+- S02 d291: Bankrupt d286–290; October peak fired d295–303 (2.7–5.0 yt/angler) exactly as thesis predicted, but capital annihilated. Season 2 done, rank 29, 0.16 fish. Next season: $550 × 2 only, PTO after signal, never on faith.
+- S02 d292: Season 2 final: rank 29, 0.16 fish. Thesis proved correct (Oct peak fired d295–303 at 2.7–5.0 yt/angler), capital discipline failed catastrophically. Season 3: $550 × 2 bets only, PTO floats until signal + capital converge, never on faith alone.
+- S02 d293: Season 2 final: thesis right, capital discipline catastrophic. Sit out d294, reset for S3 with $550×2 reserve, PTO float-only until signal+capital align.
+- S02 d294: Season 2 final: thesis proved right (Oct peak d295–303 fired 2.7–5.0 yt/angler), capital discipline destroyed execution. Sit out d295, hold 1 PTO, reset Season 3: $550×2 reserve only, commit PTO only when signal+capital converge, never on faith.
+- S02 d295: Bankrupt, d295 weak, fleet quiet. Hold 1 PTO floating; wait for signal + capital convergence, not faith.
+- S02 d296: S02 bankrupt and done (rank 29, 0.16 fish). Thesis proved right, execution destroyed by capital scatter. S3 reset: $550×2 bets only, float PTO until signal+capital both align.
+- S02 d297: Season 2 dead (rank 29, 0.16 fish, $0 left). Thesis proved right, capital discipline annihilated execution. Hold 1 PTO float, sit S2 finale; reset S3: $550×2 reserve, commit PTO only when signal + capital both converge.
+- S02 d298: S02 bankrupt, rank 29, 0.16 fish. Thesis correct, execution destroyed. Season 3 reset: $550×2 reserve, float PTO until signal+capital converge.
+- S02 d299: Season 2 dead, bankrupt d299. Thesis proved right (Oct d295–303 fired 2.7–5.0), capital discipline destroyed execution. Season 3: $550×2 only, PTO floats until signal + capital both present.
+- S02 d300: S2 over, bankrupt d300. Thesis right, execution destroyed. S3: $550×2 reserve, PTO float, signal + capital both before commit.
+- S02 d301: S2 final: rank 29/34, 0.16 fish. Thesis right, capital wrong. No money, no play. S3 reset: $550×2 reserve, PTO float only, signal + capital both before commit.
+- S02 d302: S2 d303 final: bankrupt, sitting. Thesis right, execution destroyed. Rank 29/34, 0.16 fish. Reset S3: $550×2 reserve, PTO float only.
+- S02 d303: S2 final: bankrupt d303, stay home d304. Thesis right (Oct d295–303 confirmed 2.7–5.0 yt/angler), capital execution destroyed rank. S3 discipline: $550×2 reserve, float PTO, signal + capital convergence only.
+- S02 d304: S2 finished rank 29, 0.16 fish. Thesis right, capital execution destroyed. Season 3: $550×2 reserve, PTO floats, both signal and money before I commit either.
+- S02 d305: Bankrupt d305. Thesis verified (Oct peak d295–303 real, 2.7–5.0 yt/angler), capital execution destroyed rank (0.16, #29). S3 reset: $550×2 reserve, PTO float, both signal + capital before commit.
+- S02 d306: S2 final: bankrupt d306, thesis right (Oct d295–303 confirmed 2.7–5.0 yt/angler peak), capital discipline destroyed execution. S3 locked: $550×2 reserve, PTO float, signal + capital convergence only.
+- S02 d307: d307 bankrupt, fleet zero; October peak confirmed but 5+ days stale. Thesis right, capital wrong—S3 reset locked: no move without both money and signal.
+- S02 d308: Season 2 over: bankrupt d307, thesis right (Oct peak real), capital execution destroyed. S3 locked: both signal and money before commit either.
+- S02 d309: S2 close: thesis verified (Oct d295–303 peak real at 2.7–5+ yt/angler), capital discipline failed spectacularly (0.16 fish, #29). S3 ready: hard reset, capital lock, float PTO.
+- S02 d310: S2 bankrupt d310. Thesis was right (Oct peak verified 2.7–5+ yt/angler), capital execution destroyed rank. S3 reset locked: both money and signal before either moves.
+- S02 d311: S2 end: thesis right (Oct peak real), capital execution catastrophic (0.16 fish, rank 29). S3 locked—$550×2 reserve, PTO float, signal + capital convergence only. No move without both.
+- S02 d312: S2 bankrupt d312. Thesis right (Oct peak verified 2.7–5+ yt/angler), capital execution catastrophic. S3: hard reset, $550 float, signal+money convergence only.
+- S02 d313: D314: Hold. Bankrupt, fleet blank, lull phase. Capital + signal convergence only. PTO floats.
+- S02 d314: D314: Bankrupt, can't fish. October peak thesis confirmed (doy 295–303 real at 2.7–5+ yt/angler), capital discipline destroyed season 2 rank (0.16 fish, #29). S3 locked: $550×2 reserve, PTO float, both capital and signal before either moves.
+- S02 d315: Bankrupt; fleet dead; conditions cold. Holding fire for S3 with capital reserve + signal convergence.
+- S02 d316: S2 d317: Bankrupt, season over. Capital discipline reset for S3—$550×2 reserved, PTO floats, signal + money convergence only.
+- S02 d317: S2 d318: Bankrupt, season dead. Thesis verified (Oct peak real), capital execution destroyed rank 29. S3 reset: capital + signal convergence only.
+- S02 d318: S2 d318: Bankrupt, lull holding. No capital, no signal. S3 reset locked: wait for convergence.
+- S02 d319: S2 post-mortem done. Thesis right (Oct peak real at 2.7–5+ yt/angler), capital execution catastrophic (0.16 fish, rank 29). S3 locked: hold $550 float, PTO float, move only on signal+money convergence.
+- S02 d320: S3 discipline holds: lull + bankrupt = home. Floated PTO for when signal and capital actually converge.
+- S02 d321: Dead bite, bankrupt, one day left. Sitting—capital discipline holds season end. Reset ready for S3.
+- S02 d322: Bankrupt, dead bite, season 2 post-mortem locked. S3 reset: capital + signal convergence only.
+- S02 d323: Bankrupt, lull, dead bite—discipline holds. One PTO day floats for convergence signal. S3 reset locked.
+- S02 d324: Bankrupt, lull flat, no signal. Hold capital + PTO float. Discipline locked for S3 convergence play.
+- S02 d325: S2 done at rank 29. Bankrupt—thesis right, capital execution destroyed. S3 locked: capital + signal convergence only, no exceptions.
+- S02 d326: S2 bankrupt and dead. Season 2 lesson locked: capital discipline first, signal second. S3 reset ready.
+- S02 d327: S02 d327 final: bankrupt hold. Season discipline locked—capital always comes first.
+- S02 d328: Season 2 bankrupt finish d328–d329. Thesis right, execution destroyed. Capital discipline held: zero trips beats desperate fishing. Reset locked for S3.
+- S02 d329: Season 2 ends bankrupt at rank 29. Thesis was right, execution destroyed capital on failed April–June plays. Sit, hold PTO and reset capital discipline for S3. One day left—reserve it for convergence signal only.
+- S02 d330: S2 bankrupt finish d330: thesis validated (October peak real), execution destroyed. Sit, reserve one PTO day, reset S3 capital-first discipline.
+- S02 d331: S2 bankrupt close d331. Thesis validated; execution destroyed. Capital discipline S3: never spend April–June, guard PTO float, commit only within 14-day data window. Reset locked.
+- S02 d332: Season 2 bankrupt finish. Stay disciplined: no desperate fishing into dead lull. Capital first, signal within 14 days. Season 3 reset locked.
+- S02 d333: Bankrupt and lull. Stay home. Season 3 capital discipline locked: guard PTO float, never pre-commit blind, signal within 14 days only.
+- S02 d334: Bankrupt hold. Lull, not reversal. Guard last PTO; signal within 14d window only.
+- S06 d091: Post-peak lull: fleet chases d091 heat on d092, counts fade mid-week. Hold. Next cycle d098–102 too close to commit; PTO stake bridge d105–106 for re-ignition signal.
+- S06 d092: Post-peak lull holds. Crowd chasing d092 heat, counts fade mid-week. Avoid Saturday dogpile trap. Bridge d105–d106 locked; wait for 14-day window signal.
+- S06 d093: Post-peak lull holds d093. Saturday trap; counts fading. D105–d106 bridge locked. Monitor d098–d102 for re-ignition signal. Stay dry.
+- S06 d094: d094 dogpile trap avoided. San Diego crushed it; fleet follows tomorrow. Stay dry, capital locked, d105–d106 bridge intact for re-entry signal.
+- S06 d095: Post-peak dogpile on San Diego/Mission Belle d096. Crowd follows yesterday's 64 yt—counts fade mid-week. Bridge d105–d106 locked; monitor d098–d102 lull for next signal.
+- S06 d096: Lull confirmed d097; dogpile faded. Watch d098–d102 for re-entry signal to unlock d105–d106 bridge.
+- S06 d097: d097 peak fades to dogpile d098. Lull d099–d104 confirms; d105–d106 bridge set for re-ignition signal. Stay dry, guard capital.
+- S06 d098: Three-quarter dogpile fading mid-week as expected. Lull d099–d104 holds; d105–d106 bridge intact for re-ignition. Stay dry.
+- S06 d099: Dogpile fading d100–d104 lull confirmed. d105–d106 bridge intact. Stay dry, guard capital.
+- S06 d100: Saturday trap. Stay dry d101–d104 lull. d105–d106 bridge holds. Monitor fleet d101–d102 for re-ignition signal.
+- S06 d101: d101 Saturday peak confirms dogpile trap. Counts fade d102–d104 lull. d105–d106 bridge locked; wait for re-ignition signal.
+- S06 d102: Monday dogpile trap. Lull d102–d104 holds, d105–d106 bridge locked, capital guarded. Fleet will fade; wait for re-ignition signal.
+- S06 d103: Dogpile fade d104 confirmed. Bridge d105–d106 locked, capital guarded. Wait for re-ignition signal before d117+ deployment.
+- S06 d104: Re-ignition d103–d104 cycle forming. Mission Belle d105: bridge entry lean, early, before crowd.
+- S06 d105: Yesterday's re-ignition peak now fades into dogpile trap d106. Lull widens. Stay dry, guard capital, watch for next signal.
+- S06 d106: Dogpile d107: fleet chases hot d105-d106, counts fade. Guard capital. Lull widens d110+; re-ignition signal watch resumes.
+- S06 d107: Saturday dogpile trap confirmed. Fleet chases faded d105–d107 peak into weekend void. Hold capital, watch d110+ for re-ignition.
+- S06 d108: Post-dogpile Sunday fade; lull widens d110+. Capital guarded.
+- S06 d109: d109 spike (0.746 THREE_QUARTER) is noise, not re-ignition. Lull widens d110+; hold dry and capital. Next signal watch resumes d111+.
+- S06 d110: Lull widens, d110 residue confirmed noise. Hold dry, guard capital. Next re-ignition signal watch resumes d111+.
+- S06 d111: d111 peak real, d112 fade incoming. Stay dry, watch for re-ignition d113-115 after dogpile exhausts itself. Next PTO commitment on confirmed signal only.
+- S06 d112: d111 peak confirmed, d112 fade 50%. Tomorrow d113 is dogpile trap—crowd chases decline into weekend void. Stay dry, watch d114+ re-ignition signal.
+- S06 d113: Dogpile d114 THREE_QUARTER locked out (no PTO window); weekend overnights violate Sat rule. Stay dry, guard $1,850, watch d116+ for re-ignition signal.
+- S06 d114: Saturday dogpile after d114 peak. Stay dry, guard capital. Re-ignition signal watch resumes d116+.
+- S06 d115: d114 peak exhausted into d115 Saturday fade (0.987). Sunday void confirmed—stay dry, watch d117+ recovery.
+- S06 d116: d116 Sunday void confirmed. No re-ignition signal yet. Stay home, guard capital—next move on confirmed recovery, not faith.
+- S06 d117: d117 recovery on THREE_QUARTER (2.144) looks real. Crowd will dogpile d118, fade d119–d120 weekend void. Watch for confirmation d118–d123; commit PTO d131 if trend holds, fish the re-ignition after crowd exhaustion.
+- S06 d118: d118 peak holds, dogpile d119 fade incoming. Hold through void, watch d121–123 for re-ignition signal. Commit PTO on confirmation only.
+- S06 d119: d120 void confirmed. Hold, watch d121–d123 re-ignition. Commit PTO on confirmation only.
+- S06 d120: d120 fade confirmed, d121 void day—hold. Watch d122–d123 for re-ignition signal before any Saturday entry.
+- S06 d121: d121 void confirmed; Saturday dogpile incoming but void still fresh. Watch d123 OVERNIGHT (Jig Strike 5.000 history) for re-ignition before committing. Hold.
+- S06 d122: d122 peak exhausted; Sunday void returns. Hold and watch d124+ for re-ignition signal confirmation.
+- S06 d123: d124 re-ignition watch—void confirmed d123. Cannot book without prior PTO. Hold, watch live, commit d131+ on signal confirmation only.
+- S06 d124: d124 pickup (0.714, one boat) noted but too singular. Hold for confirmed multi-day signal; watch d125–d127 live.
+- S06 d125: d125 weak tail (0.036) doesn't confirm re-ignition. Hold d126, watch live for d127+ entry signal before committing PTO. Crowd burned through peak; re-entry window still forming.
+- S06 d126: d126 mild uptick (0.548) not re-ignition. Fleet dogpiles d127 incoming. Hold and watch live d127–d129; commit d140+ only on confirmed multi-day signal + valley window.
+- S06 d127: Void holds d127–d128. Watch live d129–d131 for re-entry; commit mid-week window only on confirmed 2+ boat, 0.5+ yt/angler signal.
+- S06 d128: d128 void persists (0.020 three_quarter, weak). Saturday dogpile incoming; hold and watch d130 live for re-entry signal confirmation before d144+ commit.
+- S06 d129: Saturday peak (1.054) noted; Sunday pile-in expected. Hold capital and watch d131+ for valley entry window formation.
+- S06 d130: d130 peak burned. Monday void incoming. Hold and watch d131–d133; commit d134+ mid-week only on confirmed valley-entry signal.
+- S06 d131: d131 peak (2.647) = fleet's hangover. d132–d135 void watch. Commit PTO d145+ only on confirmed re-entry signal.
+- S06 d132: Void post-peak d132. Hold, watch d133–d135 live. No boats bookable tomorrow anyway; confirm pattern before 14-day commit.
+- S06 d133: d133 spike (3.439) noted. Fleet dogpiling tomorrow; hold. Watch d134–d135 live, commit d148+ only on confirmed valley + multi-day signal.
+- S06 d134: d133–d134 collapse confirms peak dead. Hold through void; watch d135–d137 live for valley stabilization before d149+ commit.
+- S06 d135: d134 collapse post-peak. Hold capital; watch d136 live, confirm valley signal before d149+ commit.
+- S06 d136: d136 post-moderate; Sunday dogpile incoming. Hold capital and watch d138–d140 live for confirmed valley + multi-boat stabilization signal before d150+ PTO commit.
+- S06 d137: Sunday dogpile (d137: 0.965) confirms void pattern. Hold through d138–d140; next commit window d151+ on confirmed valley.
+- S06 d138: d138 peak confirmed; d139 dogpile window. Hold, watch d138–d140 valley entry pattern live before d151+ commit.
+- S06 d139: Post-peak hold. d139 spike 1.321 confirms dogpile. Watch d140 live for valley; commit d151+ only on confirmed multi-day signal.
+- S06 d140: Void continues—dogpile incoming d141. Hold capital/PTO. Watch d141–d145 live for confirmed valley (multi-boat, multi-day) before d156+ commit.
+- S06 d141: d141 spike → dogpile incoming. Skip d142 weekend, hold capital/PTO. Watch d142–d145 live for multi-day valley confirmation before d156+ commit.
+- S06 d142: Peak d142 (1.724 THREE_QUARTER). Saturday dogpile trap. Hold, watch d143–d145 live for valley signal before d151+ commit.
+- S06 d143: d143 decline is real but unconfirmed. Watch d144–d145 live for multi-day valley. If stable 0.4–0.7 range both days, commit d158+ for d161+ fishing.
+- S06 d144: d144 bounce (1.248) breaks valley signal. Watch d145 live; if stable 0.4–0.8, commit d151+ for d154–d157 fishing window.
+- S06 d145: d145 valley 0.445 confirmed. Watch d146–d150 for peak response. Commit d151 evening if dogpile pattern holds for d154–d157 window.
+- S06 d146: d146 spike → dogpile d147–d150. Hold; watch live for valley confirmation before d151 PTO commit.
+- S06 d147: d147 dead post-d146 spike; dogpile confirmed. Hold through d150 valley, re-eval d148 evening for d162+ rebound commit if multi-day downtrend holds.
+- S06 d148: Dogpile cresting (d148: 0.080 confirms d146→d148 downtrend). Hold Friday; watch d149–d150 live. If valley holds both days, commit d151 evening for d165+ window. Capital and PTO intact.
+- S06 d149: d149 rebound signal + Saturday trap = dogpile confirmed. Hold through d150. Watch live for valley, commit d150 evening if d150 craters.
+- S06 d150: d150 valley crater = dogpile confirmed. Book d151 THREE_Q on San Diego to test rebound. Wait d151 live; if >0.5, commit d166–d168 for next weekday window. Capital intact ($1700 after).
+- S06 d151: d151 valley crater confirmed but rebound failed (0.024 << 0.048). Hold d152; wait for multi-day recovery (>0.3) before next PTO commit.
+- S06 d152: d152 crater persists (all zeros). d151 rebound failed. Valley deepens—hold d153, assess evening before d154+ commit.
+- S06 d153: d152–d153 valley deepens; can't book d154 classes (no prior PTO). TWILIGHT unbookable (no boats). Wait for d154 live before committing d159/d166+ window. Hold.
+- S06 d154: d152–d154 crater confirmed. Hold d155; watch live. If d155 zero, commit d168–d169 rebound window (THREE_QUARTER or higher) evening d155.
+- S06 d155: Valley d150–d155 crater confirmed. Saturday dogpile trap forming. Hold capital for d169 weekday rebound window when crowd clears.
+- S06 d156: Valley d150–d156 confirmed. Saturday trap—skip. d158 Overnight when crowd clears; test rebound. Contrarian timing intact, capital $1700.
+- S06 d157: d157 Saturday crater locked in. Can't book d158 OVERNIGHT—PTO d159 commitment missed (deadline d143). Observe d158 live; commit d170+ if rebound >0.3 yt/angler. Hold $1300, 7 PTO days intact.
+- S06 d158: Valley still active. d158 rebound hints (<0.3) insufficient. Hold capital, wait d159 live for multi-day confirmation signal.
+- S06 d159: d159 0.180 THREE_Q hints recovery but unconfirmed. Hold through d160 lull; watch live before d173+ commitment. Valley rebound signal still too weak for PTO deploy.
+- S06 d160: Valley breaking d159–d160 on THREE_QUARTER but fleet piling in. Hold d161; watch live for confirmation before October PTO commit. D169 ready.
+- S06 d161: Fleet chasing d161's 0.609 THREE_QUARTER into d162. Hold capital, watch crowding effect live before October deploy decision.
+- S06 d162: Friday d163 is chase-day after Three-Quarter peak. Valley play clear—hold capital and PTO for confirmed October entry signal, then commit d170+.
+- S06 d163: Saturday lull confirmed—valley hold intact. d169 Tuesday locked and loaded. Wait for 3-day rebound signal before October PTO deploy.
+- S06 d164: Saturday peak chased, Sunday void. Hold capital; watch d166–d168 rebound before October PTO deploy.
+- S06 d165: d165 OVERNIGHT 3.946 yt/angler is fleet trap; Monday void typical after weekend lull. Hold $1300 and d169 locked. Observe d166 live, commit d167–d168 PTO this week if rebound confirmed >0.5 yt/angler.
+- S06 d166: d166 hot; fleet chases into d167. Hold capital, watch d167–d168 live for rebound before October PTO deploy.
+- S06 d167: Fleet chased d167 San Diego spike; d168 void incoming. Hold $1300, observe live before d169 deploy.
+- S06 d168: Valley confirmed, void expected d169. Stay home, watch rebound live d170–d172, commit October PTO only on confirmed signal.
+- S06 d169: Friday pile-on trap set. Peak fading d165→d166→d167→d168→d169. Hold $1300, watch Saturday dogpile and Sunday rebound live before October PTO deploy.
+- S06 d170: d170 weak, San Diego spike is Saturday dogpile bait. Hold $1300; watch d171–d172–d173 rebound live before October deploy.
+- S06 d171: Saturday pile-on confirmed (d171 THREE_QUARTER 0.891, San Diego 96 yt). Sunday void incoming. Hold $1300; watch d172–d173 live rebound, commit October PTO only on confirmed two-day signal.
+- S06 d172: d172 peak is pile-on; d173 void incoming. Hold $1300, watch d174+ rebound live before October PTO deploy. Avoid Monday trap.
+- S06 d173: d173 peak fades into d174 void. Hold capital and PTO; observe rebound live before October deploy. Patience after peaks beats chasing crowds.
+- S06 d174: Peak faded d165→d174. Fleet chases d174 spike into d175. Hold; observe d176–d177 live for rebound entry.
+- S06 d175: Fleet chases d175 peak into d176 void. Hold $1300, watch d177 rebound setup live before October PTO lock-in.
+- S06 d176: d176 peak confirmed. d177 Friday = crowd dogpile trap. Hold capital, observe d178–d179 rebound signal live before October deployment.
+- S06 d177: Three-day peak closes d175→d177. Refuse Saturday dogpile; capital and PTO held for d179+ entry if void confirms.
+- S06 d178: Peak dead, void incoming. Hold capital and PTO. Watch d180–d181 live for rebound entry before October lock-in.
+- S06 d179: Peak closes d179. Void d180–d182 locked in. Commit d194 rebound play; stay home tomorrow and watch d183–184 live for signal strength.
+- S06 d180: Void d180–d182 confirmed. Watch d183–d184 rebound setup live before October lock-in. Capital and PTO held.
+- S06 d181: Void d180–d182 locked. Stay home, watch d183–d184 live for rebound strength. Commit window d196+ for October.
+- S06 d182: d182 closes three-day peak. Overnight d184 Tribute for rebound; stay dark d183 (crowd trap). $400 cost, $900 buffer held.
+- S06 d183: Tribute d184–d185 locked. Avoided d183 crowd; now fish rebound and watch d186+ live for next entry.
+- S06 d184: Saturday dogpile trap after Friday 1.904 THREE_Q peak. Hold, watch d186 Overnight live for rebound strength before next capital deploy.
+- S06 d185: Saturday d185 crushed, fleet dogpiles d186. Void incoming. Hold capital for October rebound.
+- S06 d186: d186 peak closes; fleet dogpiles Monday. Hold dry for the rebound. October window still ahead.
+- S06 d187: Monday dogpile fade into Tuesday void. TWILIGHT is zero. Hold dry, watch d189–d190 live for rebound signal before October lock-in.
+- S06 d188: Skip d189 crowd rebound trap; book Producer OVERNIGHT d190 on live d189 signal. $400 spent, $500 held, capital discipline holds for October.
+- S06 d189: Hold dry d190 (TWILIGHT zero-yield trap). Lock d205–206 for d204 OVERNIGHT/DAY_1_5 entry (October secondary peak, 1.0+ yt/angler expected). Capital discipline: $900 preserved, 4 PTO held.
+- S06 d190: Hold dry. Fleet cools after peak; weekend is dogpile trap. Lock d204 for October, watch live signals through d203.
+- S06 d191: Skip Saturday dogpile trap. Regime fading post-d191 peak. Watch d193+ live, hold for October rebound signal.
+- S06 d192: Saturday peak dogpile trap forming d193. Hold dry, watch d193–d203 live for rebound, October peak still primary target.
+- S06 d193: D193 peak closes; Monday dogpile fade. Stay dry, watch live for valley rebound d194–d203 before October lock-in.
+- S06 d194: Dogpile fade d195–203; hold dry. Watch live for October secondary peak signal confirmation before d204 OVERNIGHT/DAY_1_5 deployment.
+- S06 d195: Stay dry d196 fade valley. October deployment (d204 OVERNIGHT, d204–d205 PTO locked) confirmed. $900 capital, 4 PTO held. Watch live d203–d204.
+- S06 d196: Post-peak dogpile trap d197–d199. Hold dry, capital discipline holds. October d204–d205 deployment locked and ready.
+- S06 d197: Peak closed d197; dogpile trap d198–d199, especially Saturday. Hold dry, October d204–d205 locked. Watch live d203 for final signal.
+- S06 d198: Saturday dogpile trap closes peak. Hold dry, capital locked for October secondary peak d204–d205.
+- S06 d199: Post-peak valley test: San Diego dogpile d199 → Mission Belle clean share d200. $750 capital reserved for d204–d205 early opportunity or Oct peak d287+.
+- S06 d200: Clean hold d201. Fleet chases three_quarter rebound—premature. Watch d203–d204 live, October secondary peak still primary target.
+- S06 d201: Fleet dogpile on THREE_Q d202; valley entry window opens d203–d204 if rebound holds. Stay dry, watch live, capital locked for secondary peak.
+- S06 d202: Stay dry d203, watch live for Oct secondary peak confirmation. d204–d205 locked and ready; deploy on signal, not schedule.
+- S06 d203: Peak live d203→d204; Malihini contrarian pick avoids dogpile. $600 capital + d205 PTO locked for overnight sequence decision tomorrow.
+- S06 d204: Peak closed d204 (Malihini 0.277). Friday dogpile trap; hold dry. $600 capital ready for next live signal.
+- S06 d205: Peak closed d204. Saturday dogpile trap confirmed—hold dry. October secondary peak locked and loaded.
+- S06 d206: Peak closed d204. Post-Saturday lull d207 confirms hold. October secondary signal locked; capital + PTO ready.
+- S06 d207: Stable lull post-peak d204; no entry signal. October secondary peak still 10 weeks out; watching regime and water temps for early September confirmation.
+- S06 d208: Lull holds; no early-Sept signal yet. Stay dry, capital locked, watch Oct secondary build.
+- S06 d209: Fleet dogpile resuming d209–d210. Wednesday trap avoided; capital/PTO locked. Watch for next lull entry.
+- S06 d210: Lull real but can't access it; TWILIGHT trash. Hold dry, capital locked. October secondary peak regime watch continues.
+- S06 d211: Fleet dogpile d210–d211 closes; Saturday trap avoided. Capital + PTO locked for October secondary regime signal.
+- S06 d212: d212 hot flushes d213 dogpile trap. Hold dry; post-lull play watch.
+- S06 d213: d213 dogpile closed hot d211–d212 flush. Stay dry Sunday; wait for Monday–Tuesday lull valley entry into multi-day. October secondary peak regime signal building; capital + 4 PTO fully locked.
+- S06 d214: Friday hot (3.529 DAY_1_5) closed; weekend soft regrouping. Tuesday OVERNIGHT (Tribute) lull entry. $200 capital buffer, 3 PTO locked for Oct secondary regime signal.
+- S06 d215: d215 peak closes hot; d216 TWILIGHT is a trap. Hold dry, capital locked. October regime signal watch continues—water temp cooling, EOD re-eval mid-week.
+- S06 d216: d216 peak closes hot (THREE_QUARTER 0.779); d217 fade day, fleet trap. Hold dry, capital locked. Water warming, October regime signal still building—wait for lull or clearer climate cue.
+- S06 d217: D217 fade trap; hold dry. October regime watch: water 71.1°F (up from 66.6 mean), ONI 1.0 warm. Watch d225–d235 for lull valley entry.
+- S06 d218: Friday trap (chasing d218 hot day) + Saturday dogpile avoided. Watch d223–d224 for lull valley cue; water cooling trend should emerge. Capital $600 + 4 PTO locked for next week's confirmed entry.
+- S06 d219: Saturday dogpile trap avoided. Watch d223–d224 for lull-valley cue; October secondary peak signal building. Capital + PTO held for confirmed entry.
+- S06 d220: Hold dry, capital $600 intact. Watch d223–d224 lull valley formation; October peak regime confirming. Re-eval Monday evening for downstream PTO commits.
+- S06 d221: d222 Monday fade trap post-hot Sunday; TWILIGHT sucker bet. Hold dry. Watch d225+ lull valley; October regime signal still building.
+- S06 d222: Lull valley forming d221–d222 (OVERNIGHT 0.061 fade). d223–d235 dark zone, no PTO. Hold dry; capital $600 locked for d236+ October signal confirmation.
+- S06 d223: D224 expected fade post-d223 peak. Hold capital + PTO. Oct regime rebound d236+—await water cool or fleet rebound signal to commit.
+- S06 d224: d225 trap day after weak d224 close. TWILIGHT rejected (0.001 hist). Hold $600 + 4 PTO for Oct signal or unexpected valley d226+.
+- S06 d225: d225 middling, no regime break; lull valley watch continues. Hold dry for October signal confirmation.
+- S06 d226: Saturday avoided per playbook. Post-peak lull; hold $600 intact. Watch next week's water trend and fleet rebound signal for October confirmation entry.
+- S06 d227: Lull-valley bottom rebound d228. Mission Belle hedges fade-cycle exposure. Hold $450 capital, watch d228 result for October d236+ entry timing confirm.
+- S06 d228: Lull valley still falling through d228; TWILIGHT is historical zero. Hold $450 dry. Rebound signal watch d229–d232 before PTO commit.
+- S06 d229: Valley floor d228–d229 holds. TWILIGHT is trap; skip. Hold dry for rebound signal confirmation d230–d232 before next PTO/capital move.
+- S06 d230: Valley d230 soft across all classes. TWILIGHT trap rejected. Hold dry; await rebound inflection or October signal before capital deploy.
+- S06 d231: Valley floor holds through d231; TWILIGHT trap avoided. Hold $450 dry. Rebound signal watch continues d232–d233.
+- S06 d232: Valley floor d226–d232 holds. Rebound signal not confirmed. Hold dry $450, watch d233–d234 Friday/Saturday close for October entry inflection.
+- S06 d233: Rebound inflection confirmed d233 (HD_AM 0.152). Saturday dogpile trap rejected per playbook. Hold $450 dry for next week's Sunday–Thursday entry window when fleet disperses.
+- S06 d234: d233 inflection confirmed. d235 Sunday dispersal play on El Gato Dos THREE_QUARTER. Hold $300 dry for d236+ inflection entry if rebound sustains.
+- S06 d235: Post-rebound fade d235 confirmed. Fleet confusion Monday. Dry-dock, hold $300 and 4 PTO for October setup when signal clears.
+- S06 d236: d236 rebound fades into d237. Hold dry; await d238–240 clarity for true October entry window.
+- S06 d237: d237 rebound confirmed (THREE_QUARTER 0.402); fleet dogpiles d238 tomorrow—expect fade. Hold $300 dry, watch for October inflection before next capital move.
+- S06 d238: d238 rebound confirmed (THREE_QUARTER 0.292); expect d239–d240 Thursday-Friday fade. Next entry window d246–d250 if post-lull inflection signal fires. Hold dry and watch.
+- S06 d239: d239 peak confirmed (THREE_QUARTER 0.912). Fleet dogpile d240–d241 trap; hold dry. Rebound entry signal watch d246–d250 after Sat fade clears.
+- S06 d240: d239 peak confirmed (THREE_QUARTER 0.912), d240 fade live (0.272). Saturday d241 dogpile trap—hold dry $300. Rebound signal window d246–250; PTO commit next week if signal fires.
+- S06 d241: Post-Saturday lull d242. Dogpile d241 (0.765 THREE_QUARTER) fades; hold $300 dry, watch d246–250 for rebound signal when fleet scatters.
+- S06 d242: Lull confirmed d242 (0.227 THREE_QUARTER). Skip forced d244 weak boats; watch for d246–250 rebound signal. Hold $300, 4 PTO core intact.
+- S06 d243: Lull d242 rebound trap d246–250 for fleet; hold dry, reserve d257 (Mon) post-weekend secondary signal when crowd scattered.
+- S06 d244: d244–d245 fade holds. d257 reserved for post-weekend rebound signal. Hold dry, let crowd scatter before next move.
+- S06 d245: Fleet rebound trap d246–250; hold dry, d257 reserved for post-weekend secondary when crowd scattered.
+- S06 d246: Fleet weak d246 (0.024–0.094 HD). Hold Friday before weekend dogpile; d257 Monday reserved for post-scatter rebound.
+- S06 d247: Saturday trap incoming. Hold $300, fire Monday d257 post-scatter rebound when fleet scatters clean.
+- S06 d248: d248 weak close (0.080 THREE_QUARTER fleet). Hold $300 dry d249 weekend, fire d257 Monday post-scatter rebound with full capital. Discipline over FOMO.
+- S06 d249: Valley rebound d250 (Monday, no PTO). Malihini strong signal (5 yt d249). Fire early, before crowd wakes up. d257 backup if this pops.
+- S06 d250: d250 weak (0.026 Malihini). d251 hangover fade—hold dry for d257 post-scatter rebound per plan. Discipline over FOMO.
+- S06 d251: Hold d252 (weekday PTO blocker). Post-d248 peak still fading; d251 recovery unconfirmed. d257 reserved. Watch d258–d260 for next entry signal before committing capital.
+- S06 d252: Hold d253 (crowd trap Thu after hot d252). Fire d257 post-scatter rebound, capital ready.
+- S06 d253: Friday crowd trap: THREE_QUARTER peaking into saturation d252–d253. Hold capital, execute d257 post-scatter rebound plan.
+- S06 d254: Saturday trap after d254 peak. Hold dry for d257 Monday rebound per plan (PTO already committed).
+- S06 d255: Hold d256 Sunday fade (post-d255 peak). d257 rebound planned but unaffordable ($400 OVERNIGHT, $150 budget). Thesis intact; execution timing lost the season.
+- S06 d256: Thesis broken: d254–d256 sustained hot run, not valley. Cancel d257 rebound play, preserve $150, accept PTO loss as tuition.
+- S06 d257: d257 peak flush; stay home d258, observe d259–d260 valley floor for re-entry signal. Capital discipline preserves the option.
+- S06 d258: Bankrupt and tapped-out: $150, 3 PTO left. Peak d257–d258 confirmed; watching d259+ valley floor for next exceptional entry. Discipline over FOMO is all that's left.
+- S06 d259: Post-peak saturation d259 (THREE_QUARTER 2.369); d260–d261 unreachable via PTO rule. Monitor valley floor for d273+ rebound entry signal.
+- S06 d260: Hold d261 Friday fade; d259 peak flush confirms valley floor imminent. Watch d262+ for re-entry signal.
+- S06 d261: Saturday trap after d259 peak flush. Valley signal d260–d261 inconclusive; hold capital, wait for d262–d263 data before next re-entry.
+- S06 d262: Saturday peak confirmed (THREE_QUARTER 0.594). Hold Sunday fade; await d264+ valley floor and rebound signal before deploying final $150 + 3 PTO.
+- S06 d263: d263 hot (THREE_QUARTER 1.093). Valley forming; hold capital and PTO. Watch d264–d266 for rebound entry signal around d277+.
+- S06 d264: Peak d263–d264 confirmed; valley d265–d274 forming. Commit d278–d279 rebound window, observe live signal d265–d277 before deploying final $150.
+- S06 d265: Valley floor d265–d274. Hold capital and PTO. Rebound d278–d279 locked; observe live signal d266–d277.
+- S06 d266: Valley floor d266–d274 confirmed; hold for d278–d279 rebound. No PTO, no fish tomorrow—stay home.
+- S06 d267: Valley d268 trap; hold final PTO and $150 for d278–d279 rebound live signal. Stay dry.
+- S06 d268: Saturday valley trap. Capital and PTO locked for d278–d279 rebound. Watch d275–d277 for live signal before deploying final $150.
+- S06 d269: d269 valley confirmed; capital and PTO locked for d278–d279 rebound. Watch d270–d277 live signal before final deployment.
+- S06 d270: Valley d270–d271 confirmed. Capital and final PTO locked for d278–d279 rebound. Hold dry.
+- S06 d271: Valley floor d272 confirmed; capital and PTO locked for d278–d279 rebound. Hold dry, watch live signal d266–d277.
+- S06 d272: d273 valley mid-floor. Hold dry; watch d275–d277 live signal for d278–d279 rebound confirmation. Final capital and PTO locked.
+- S06 d273: d274 valley hold. Watch d275–d277 live signal; d278–d279 rebound play locked, final capital and PTO preserved.
+- S06 d274: Valley tail d275 unbookable (no PTO, no twilight boats). Capital and final PTO locked d278-d279 rebound. Hold dry through d277 live signal.
+- S06 d275: Saturday lull; hold $150 and final PTO for d278–d279 rebound signal live on d277.
+- S06 d276: d276 valley confirmed. d278–d279 rebound play is unaffordable ($150 < $400/$550). Hold dry d277, watch briefing signal tonight. Rebound thesis on trial—if positive, pivot to next available window; if negative, scrap and rethink.
+- S06 d277: d277 signal mixed (HD_AM 0.105 tick, THREE_QUARTER 0.011 still dead). Hold d278 dry, confirm rebound signal live, decide d279 at next briefing. Thesis on trial—capital and PTO locked, timing matters.
+- S06 d278: Rebound live d278 HD_AM 0.275. All-in El Gato Dos THREE_QUARTER (0.000 d278→1.511 rebound). Crowd on obvious, I take the ignored boat.
+- S06 d279: Out of capital. d279 rebound thesis executed (1.25 share). Season finished—spectate final 26 days.
+- S06 d280: Capital spent. d279 rebound thesis executed (1.25 share); thesis was sound but too late and underfunded to win season. Spectate.
+- S06 d281: Season complete d279. Thesis correct, timing fatal: El Niño multi-peak regime confirmed, rebound strategy proved on d278–d279, but underfunded. Spectate S6 final 84 days. Next: capital discipline and early execution.
+- S06 d282: Rebound thesis executed d279 (1.25 share). Capital annihilated. Spectate S6 final 26 days.
+- S06 d283: d279 thesis executed (1.25 share), capital annihilated. Proved regime right, proved timing right, learned discipline failed. Spectate S6 final 26 days.
+- S06 d284: Capital zero, season over d279. HD_PM strong yesterday (0.291), but thesis right + timing right + underfunded = spectator finish. S7 lesson: commit capital earlier, in smaller bites, on regime-confirmed peaks.
+- S06 d285: Capital spent. Thesis proved; timing proved; capital discipline failed. S7: smaller bites, earlier execution, $1200 core reserve always held.
+- S06 d286: Season finished d279. Thesis and timing proved on rebound, capital discipline failed. S7: staged bets, core reserve, regime-first capital allocation from d1.
+- S06 d287: THREE_QUARTER lull (0.103 d287 vs 1.730 seasonal) confirms rebound thesis again, but $0 capital post-d279 kills entry. Proved: thesis right, timing right, capital wrong.
+- S06 d288: Broke. Thesis right, capital wrong. Spectate: fleet chases d288 THREE_QUARTER hot; contrarian home. S7 lesson locked in: regime-first, capital-staged, core reserve held.
+- S06 d289: Season thesis proved d278–d279 (El Niño multi-peak, rebound real). Capital exhausted on winning call. S7: staged bites, core reserve always held, regime-first from d1.
+- S06 d290: Flat broke post-d279 (1.25 share, El Gato Dos). Thesis right, timing right, capital wrong. S7: stage from d1, hold core always.
+- S06 d291: Thesis right, timing right, capital discipline failed. Spectate d292 San Diego fade. S7: stage from d1, core reserve always.
+- S06 d292: Season d279 peak proved thesis right (1.25 El Gato Dos share), capital discipline wrong. Broke on rebound test trades. Spectate d293.
+- S06 d293: Thesis proved (d278–d279 rebound 1.25), capital discipline failed. Spectate d294 broke. S7: stage from d1, core always held.
+- S06 d294: Season thesis proved d278–d279 (1.25 El Gato Dos), then capital annihilation locked me out through finish. S7: stage capital from d1, hold core always. No more test trades.
+- S06 d295: Broke. Thesis right (d279 rebound proved it), capital discipline failed. S7: stage from d1, core $1200 always held.
+- S06 d296: Broke. Saturday crowd incoming; lull follows. Thesis proved (d279 1.25), capital annihilation proved wrong. S7: stage from d1, hold core always.
+- S06 d297: Thesis right, capital wrong. Spectating finish. S7: stage from d1, core always held.
+- S06 d298: Broke, thesis proved d279 (1.25), capital discipline failed. Season ends locked out. S7: stage from day 1, hold core $1200 always.
+- S06 d299: Thesis right (d279 rebound 1.25), capital destroyed in test trades. Season locked out. S7: stage core $1200 from d1, never move it.
+- S06 d300: Season locked out d289. Thesis right (d279 1.25), capital wrong. S7 rule: stage core $1200 day 1, never move it.
+- S06 d301: Thesis vindicated (d279 rebound 1.25 alone), capital destroyed in test trades. Season locked out. S7: rebuild core $1200 day 1, never break it.
+- S06 d302: Broke and benched to finish. Thesis proved d279 (1.25 alone), capital destroyed. S7: stage core $1200 day 1, never spend it.
+- S06 d303: Bankrupt, benched to finish. Thesis vindicated (d279 1.25), capital annihilation killed season. S7: core $1200 staged d1, untouched.
+- S06 d304: Thesis vindicated d279 (1.25 alone), capital annihilation killed season. S7: core $1200 staged d1, untouched. Benched to finish broke.
+- S06 d305: Thesis right, capital destroyed season. S7: core $1200 d1, untouched always.
+- S06 d306: Bankrupt, benched to finish. Thesis proved d279 (1.25), capital destroyed season. S7: core $1200 d1, untouched always.
+- S06 d307: Bankrupt and benched to finish. d279 vindicated thesis (1.25 alone), capital destroyed season. S7: core $1200 staged d1, never moved.
+- S06 d308: Lull d306–d308 confirms setup (rebound forming); thesis right. Capital annihilation from undisciplined d89–d120 testing killed S6. S7: core $1200 staged d1, never touched; test only $550 max per confirmed signal.
+- S06 d309: S6 autopsy complete. Thesis vindicated d279 (1.25 alone). Capital annihilation was the kill shot, not signal detection. S7: core $1200 day 1, untouched always.
+- S06 d310: Bankrupt, fleet hot on THREE_QUARTER, Saturday crowding begins. Sit and wait for the rebound (d314–d315 window forming). Thesis intact: fish the abandonment, not the pile.
+- S06 d311: Broke and benched, S6 thesis proved (d279 1.25 alone). Lull forming, rebound d314–d315 watch. S7 core $1200 untouched, ready to deploy.
+- S06 d312: Broke and benched. d312–d313 lull-rebound signal live (THREE_QUARTER 3.426→pickup expected), but no capital to trade. Thesis right, discipline right, season discipline worked (avoided d300–d312 bleed). Finish d313 zero and reset S7.
+- S06 d313: S6 season closed, bankrupt by design. d279 (1.25 alone) vindicated contrarian thesis. S7 core $1200 unstaged, ready.
+- S06 d314: S6 closed bankrupt by thesis. Observe d315 holiday crowding; rebound window d316+ forming but capital gone. S7: stage $1200 core, untouched always.
+- S06 d315: Bankrupt by thesis-proven design (d279: 1.25 alone). Rebound d320+ forming but capital gone. Hold final PTO, reset S7 with $1200 core untouched.
+- S06 d316: Bankrupt. No capital, no fishing. S7 resets with $1200 core staged day 1, never touched. Capital discipline now has capital to discipline.
+- S06 d317: S6 closed bankrupt by thesis (d279: 1.25 alone proves it). Core $1200 staged, S7 ready.
+- S06 d318: S6 d319: Bankrupt by thesis-proven design. Fleet piles THREE_QUARTER d319; lull d320+ watch from sidelines. S7 core $1200 staged.
+- S06 d319: S6 bankrupt by thesis (d279 alone: 1.25 yt). Season reset S7, core staged.
+- S06 d320: Bankrupt and benched; d321 post-peak valley. Hold final PTO for rebound confirmation d323+.
+- S06 d321: S6 closed bankrupt by thesis (d279: 1.25 alone). Valley d321 confirms pattern. Await S7 reset with staged $1200.
+- S06 d322: Bankrupt, benched. S6 closed. Core $1200 staged for S7 reset, untouched, ready.
+- S06 d323: Thesis d279 won (1.25 share), bankrupted by victory. Rebound forming d324+ but capital gone. S6 ends here.
+- S06 d324: Bankrupt through season end. d279 contrarian win (1.25) destroyed capital. Lull d325–d326 confirmed, rebound d327+ forming but unreachable—no money, no fishing. Capital discipline during the win, not just before it: lesson learned too late.
+- S06 d325: S6 bankrupt end: d279 proved thesis right (1.25 share alone), destroyed budget. Rebound forming d326+ unreachable—no capital, benched.
+- S06 d326: S6 bankrupt end: thesis right (d279: 1.25), execution wrong (no capital reserve during victory). Rebound forming d327+ unwatchable. S7 restart with staged discipline.
+- S06 d327: Thesis d279 won (1.25), capital destroyed. Rebound d328 forming but benched with $0. Real lesson: capital discipline during the win, not before.
+- S06 d328: Season 6 closes bankrupt but thesis d279 won (1.25 alone). Capital discipline during the victory, not before it: learned too late for S6, will apply in S7.
+- S06 d329: S6 closes bankrupt: thesis d279 won (1.25), execution lost (no capital during victory). S7 reset staged with discipline—hold core $1200 through peaks, not before them.
+- S06 d330: d279 proved the thesis (1.25 alone) and destroyed the capital. Benched for d330–close. S7 starts with staged $1200 core—capital discipline during the win, not before.
+- S06 d331: S6 final: thesis d279 won (1.25 alone), budget annihilated. Benched d280–d331 ($0). Season-end lesson: capital reserve during victory, not before it. S7 reset with staged discipline.
+- S06 d332: d279 thesis won (1.25), capital spent it all. Benched d280–d332 on $0. Rebound forming now, unreachable—capital discipline during the win, learned too late.
+- S06 d333: D279 thesis vindicated (1.25 alone), capital spent it all. Season 6 closes broke, benched d280–d333 watching rebound unreachable. Lesson learned: capital discipline during the win, not before it.
+- S06 d334: S6 final: thesis d279 won (1.25 alone), capital spent it all. Benched d280–d335 on $0. Rebound unreachable. S7 lesson: hold core $1200 through the win, not before.

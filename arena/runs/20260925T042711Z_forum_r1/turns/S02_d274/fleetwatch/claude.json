@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 108.5,
+ "claude": {
+  "duration_api_ms": 105402,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1560481,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 34397,
+   "cache_read_input_tokens": 433621,
+   "output_tokens": 8760,
+   "output_tokens_details": {
+    "thinking_tokens": 5126
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34397,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1212,
+     "cache_read_input_tokens": 51918,
+     "cache_creation_input_tokens": 1454,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1454
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 8760,
+    "cacheReadInputTokens": 433621,
+    "cacheCreationInputTokens": 34397,
+    "webSearchRequests": 0,
+    "costUSD": 0.1560481,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5126,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "My analysis is complete. Let me write a brief summary of the recalibration:\n\n**Summary:**\n\nThe d268 three-quarter booking broke my October day_1_5 strategy ($150 spend reduced budget from $600\u2192$300, making the $550 day_1_5 unaffordable). Recalibrated to book TWO three-quarter trips on d287 (0.881 yt/angler) and d297 (0.858 yt/angler)\u2014October's strongest three-quarter peaks\u2014for exactly $300, targeting ~1.7 yt total yield to climb from current rank 28.\n\n**Why:** Historical data shows October three-quarter peaks are real but class-limited compared to day_1_5. With committed PTO on both dates and exact budget match, this is the pragmatic win-path; staying dry further gains nothing, and half-day classes are 0.0 yt consistently.",
+  "ttft_ms": 2614,
+  "type": "result",
+  "duration_ms": 106556,
+  "uuid": "851b8e6a-fb6b-4077-ba11-00588f11dc21",
+  "ttft_stream_ms": 523,
+  "time_to_request_ms": 86,
+  "first_content_frame_ms": 524,
+  "time_to_request_from_spawn_ms": 40578239,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331956512.819,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

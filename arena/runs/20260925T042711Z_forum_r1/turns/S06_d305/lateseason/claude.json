@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 37.8,
+ "claude": {
+  "duration_api_ms": 34731,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.167902,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 25579,
+   "cache_read_input_tokens": 142350,
+   "output_tokens": 3710,
+   "output_tokens_details": {
+    "thinking_tokens": 817
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25579,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 179,
+     "cache_read_input_tokens": 48365,
+     "cache_creation_input_tokens": 2655,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2655
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 3710,
+    "cacheReadInputTokens": 142350,
+    "cacheCreationInputTokens": 25579,
+    "webSearchRequests": 0,
+    "costUSD": 0.167902,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 817,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season remains financially closed (budget $20, PTO 0, cheapest fare $80) \u2014 no bookable action exists through S06's end. No forum post made this turn (nothing new to contribute).\n\n**Summary:** Confirmed no state change since d274 (still $20/0 PTO, score locked at 14.0568); updated notes.md with two new forum postmortems (streaker + calendarist, d274) that add concrete MULTI_DAY ypa numbers and ONI-regime dollar-allocation rules to carry into S07's first planning turn.",
+  "ttft_ms": 2643,
+  "type": "result",
+  "duration_ms": 36116,
+  "uuid": "36b90c92-fd6a-4a74-a243-92ef205edf6f",
+  "ttft_stream_ms": 631,
+  "time_to_request_ms": 104,
+  "first_content_frame_ms": 632,
+  "time_to_request_from_spawn_ms": 60428096,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351806501.4175,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 90.0,
+ "claude": {
+  "duration_api_ms": 86403,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.11522289999999999,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 27908,
+   "cache_read_input_tokens": 231169,
+   "output_tokens": 7246,
+   "output_tokens_details": {
+    "thinking_tokens": 2480
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 27908,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1045,
+     "cache_read_input_tokens": 42476,
+     "cache_creation_input_tokens": 4407,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4407
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 7246,
+    "cacheReadInputTokens": 231169,
+    "cacheCreationInputTokens": 27908,
+    "webSearchRequests": 0,
+    "costUSD": 0.11522289999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2480,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. I've validated my strategy against the historical data and updated my notes. Here's the situation:\n\n**Data Validation (Day 182):**\n- Spring dead zone confirmed: DOY 176-182 averaged 0.85-1.0 YT/trip (my d177 bounce attempt caught 0 despite fleet avg 0.84)\n- October peaks VALIDATED exactly:\n  - **DOY 288: 51.27 YT/trip** (15 trips) \u2190 Perfect match to my historical analysis\n  - **DOY 289: 48.72 YT/trip** (18 trips) \u2190 Perfect match to my historical analysis\n  - DOY 287, 295, 297: 39-44 YT/trip (solid backups)\n\n**Key Findings:**\n1. My strategy is sound\u2014one or two clean DOY 288-289 full-day trips (~50 YT/trip \u00f7 22 anglers \u00f7 2 competitors \u2248 1-2.3 personal fish) would likely win the season against the current leader at 0.828 fish.\n\n2. The d177 bounce was a false signal. My \"bounce thesis\" applies to October recovery (after summer doldrums), not spring desperation fishing. Lesson learned\u2014stick to the plan.\n\n3. Execution phase begins in 83 days (d165). PTO and budget locked. 105 days remain to monitor water temp, competitor moves, and fishing reports before prime booking window.\n\n**Updated notes.md** with revised booking sequence, fallback triggers, and win conditions. Keeping strategy.py empty\u2014manual nightly decisions give better control over boat selection and timing.\n\n**Summary:** Data validates the October peak strategy completely. Ready to execute d288-289 bookings in 83 days. Remaining wait tests discipline, but the math is decisive.",
+  "ttft_ms": 2385,
+  "type": "result",
+  "duration_ms": 88124,
+  "uuid": "97e40449-4c33-4f1f-acf2-3504b3921136",
+  "ttft_stream_ms": 610,
+  "time_to_request_ms": 117,
+  "first_content_frame_ms": 610,
+  "time_to_request_from_spawn_ms": 34198255,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325576605.0564,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

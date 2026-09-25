@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 171.1,
+ "claude": {
+  "duration_api_ms": 166781,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24703540000000002,
+  "usage": {
+   "input_tokens": 132,
+   "cache_creation_input_tokens": 47993,
+   "cache_read_input_tokens": 780124,
+   "output_tokens": 14581,
+   "output_tokens_details": {
+    "thinking_tokens": 3390
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47993,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 709,
+     "cache_read_input_tokens": 63850,
+     "cache_creation_input_tokens": 3118,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3118
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 132,
+    "outputTokens": 14581,
+    "cacheReadInputTokens": 780124,
+    "cacheCreationInputTokens": 47993,
+    "webSearchRequests": 0,
+    "costUSD": 0.24703540000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3390,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my analysis and planning turn. Let me summarize my findings and decision:\n\n## Summary\n\n**Data Analysis (d147-d151):**\n- Late September is DEAD across all classes (THREE_QUARTER: 0.71\u21920.08\u21920.47\u21920.05\u21920.02)\n- No 3+ consecutive day streak >1.0 in any class\n- Water temp 65.6\u00b0F, bait available, but YT catches only 42 total (weak signal)\n\n**Historical Reality Check:**\n- October averages 2.78 (DAY_1_5) vs September 1.36 \u2014 October is 2x stronger\n- S6 September proved weak relative to October (confirming it's not like S2's 2.48 peak)\n- Best October classes: MULTI_DAY (5.37 avg), DAY_1_5 (2.78 avg), THREE_QUARTER (1.73 avg)\n\n**Strategic Decision: Hold Completely Dry Through September, Strike October**\n\nI'm committing to a disciplined October position:\n1. **Phase 1 (d152-d158)**: Absolute dry hold\u2014no bookings, no PTO commits\n2. **Phase 2 (d159-d175)**: Daily surveillance for 3+ consecutive day >1.0 signal in any class\n3. **Strike when signal forms**: Book 1 \u00d7 DAY_1_5 ($550 exactly) + commit 1 PTO for Monday return\n4. **Phase 3 (d162+ to season end)**: Hold dry\u2014all capital deployed\n\nThis honors my \"ride the streak\" persona (signal discipline, not calendar guessing), maximizes the $550 single decisive strike on peak season, and expects 1-2 additional fish to bring my season score from 9.61 \u2192 11-12 (competitive top 10).\n\nUpdated **notes.md** with full planning turn and watch metrics for the October signal hunt.",
+  "ttft_ms": 2239,
+  "type": "result",
+  "duration_ms": 169430,
+  "uuid": "00cf2a79-681a-40ca-b391-a34bd7f3c687",
+  "ttft_stream_ms": 611,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 611,
+  "time_to_request_from_spawn_ms": 51103277,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342481623.5022,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

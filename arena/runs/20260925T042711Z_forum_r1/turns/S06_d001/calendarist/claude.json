@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 133.8,
+ "claude": {
+  "duration_api_ms": 130629,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.20500300000000007,
+  "usage": {
+   "input_tokens": 128,
+   "cache_creation_input_tokens": 42726,
+   "cache_read_input_tokens": 645780,
+   "output_tokens": 10969,
+   "output_tokens_details": {
+    "thinking_tokens": 3115
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 42726,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 485,
+     "cache_read_input_tokens": 60697,
+     "cache_creation_input_tokens": 1004,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1004
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 128,
+    "outputTokens": 10969,
+    "cacheReadInputTokens": 645780,
+    "cacheCreationInputTokens": 42726,
+    "webSearchRequests": 0,
+    "costUSD": 0.20500300000000007,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3115,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What changed**: Deployed S6 strategy.py for October DAY_1_5 auto-booking and confirmed historical data patterns showing October (doy 287\u2013301) is the only productive window with DAY_1_5 class averaging **2.99 yt/angler** (276 trips across all seasons). Updated notes with season timeline and execution discipline.\n\n**Why**: My S2 success (12.79 fish, 4th cumulative) came from 3\u00d7 October DAY_1_5 trips that yielded 91% of my score. Strategy.py will commit PTO on S6D244 (~Sep 1) and auto-book 3\u20134 trips at peak fishing dates. Expected range: 9\u201314 fish (realistic 10\u201312) \u2192 cumulative 22\u201324 \u2192 targeting 1st\u20132nd place finish. No bookings outside October; discipline through dead zones is the lever.",
+  "ttft_ms": 2264,
+  "type": "result",
+  "duration_ms": 132147,
+  "uuid": "7720269a-5fb2-4635-8010-920d531cf9ff",
+  "ttft_stream_ms": 557,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 557,
+  "time_to_request_from_spawn_ms": 45435313,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336813822.3381,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

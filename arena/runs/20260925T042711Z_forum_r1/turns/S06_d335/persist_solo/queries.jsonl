@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4017, "ts": "2026-09-25T16:19:16"}
+{"tool": "arena_query", "sql": "\nSELECT \n  fish_date_doy,\n  cls,\n  SUM(yt) as total_yt,\n  COUNT(DISTINCT boat) as boats,\n  ROUND(SUM(yt) / NULLIF(SUM(anglers), 0), 2) as yt_per_angler\nFROM trips\nWHERE fish_date_season IN (2, 6)\n  AND cls IN ('day_1_5', 'three_quarter')\n  AND fish_date_doy BETWEEN 14 AND 120\nGROUP BY fish_date_doy, cls\nORDER BY fish_date_doy, cls\nLIMIT 200;\n", "rows": 152, "seconds": 0.115, "ts": "2026-09-25T16:19:20"}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 159.3,
+ "claude": {
+  "duration_api_ms": 151772,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23042700000000002,
+  "usage": {
+   "input_tokens": 170,
+   "cache_creation_input_tokens": 43417,
+   "cache_read_input_tokens": 814130,
+   "output_tokens": 12402,
+   "output_tokens_details": {
+    "thinking_tokens": 5848
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43417,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 493,
+     "cache_read_input_tokens": 60315,
+     "cache_creation_input_tokens": 2077,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2077
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 170,
+    "outputTokens": 12402,
+    "cacheReadInputTokens": 814130,
+    "cacheCreationInputTokens": 43417,
+    "webSearchRequests": 0,
+    "costUSD": 0.23042700000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5848,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nI validated my October peak strategy is still sound and rewrote strategy.py with actual auto-booking logic. Season 2 data confirms October doy 287-297 yields ~4.5 fish/boat (day_1_5 class), realistic 14 fish across 3 trips\u201417x the current leader's 0.8 fish. Early agents caught two hidden May/June micro-peaks (doy 106-113 and doy 140-147) that were too narrow to pre-commit PTO for, but October's 11-day window supports my hold discipline. Capital and PTO remain fully locked for October execution starting doy 268 (auto-PTO commit) through doy 297 (auto-bookings).",
+  "ttft_ms": 2755,
+  "type": "result",
+  "duration_ms": 153524,
+  "uuid": "05e3a068-b2ab-4630-b31d-a8af57d45168",
+  "ttft_stream_ms": 925,
+  "time_to_request_ms": 328,
+  "first_content_frame_ms": 926,
+  "time_to_request_from_spawn_ms": 34042502,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325416709.3442,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

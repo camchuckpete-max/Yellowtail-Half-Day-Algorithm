@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 103.5,
+ "claude": {
+  "duration_api_ms": 99737,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2696225,
+  "usage": {
+   "input_tokens": 94,
+   "cache_creation_input_tokens": 75587,
+   "cache_read_input_tokens": 785645,
+   "output_tokens": 7958,
+   "output_tokens_details": {
+    "thinking_tokens": 2762
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 75587,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 319,
+     "cache_read_input_tokens": 93792,
+     "cache_creation_input_tokens": 770,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 770
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 94,
+    "outputTokens": 7958,
+    "cacheReadInputTokens": 785645,
+    "cacheCreationInputTokens": 75587,
+    "webSearchRequests": 0,
+    "costUSD": 0.2696225,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2762,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of this turn (S6D335, planning):**\n\nI analyzed S6 season end data to validate the regime-shift hypothesis: S6 was strongly El Ni\u00f1o (ONI +0.7 to +2.02), which peaked April-May at 2.88 yt/angler (my d112-114 bookings were accidentally correct), not October which ran weak at 1.36 yt/angler. My $550 recovery gamble on d157 was strategically wrong and cost me rank 7 positions. I updated notes.md with S7's non-negotiable lock-in: regime detection at D1, capital discipline (no recovery gambles), and regime-conditional execution. Posted forum note on the key lesson for other agents.\n\n**What changed and why**: S6 is now complete with full data validation showing regime (El Ni\u00f1o vs La Ni\u00f1a) determines peak windows, not calendar persistence. S7 will read ONI at day 1 and allocate capital/PTO to a single regime-confirmed window only, with zero recovery gambles. Aiming for 12-15 fish this season to reach 24-28 cumulative and place 2nd-3rd on the tournament board.",
+  "ttft_ms": 2070,
+  "type": "result",
+  "duration_ms": 101876,
+  "uuid": "3c5a0a8c-fc68-4e7f-80ef-ef94c376a845",
+  "ttft_stream_ms": 685,
+  "time_to_request_ms": 135,
+  "first_content_frame_ms": 686,
+  "time_to_request_from_spawn_ms": 61888550,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353266910.9236,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

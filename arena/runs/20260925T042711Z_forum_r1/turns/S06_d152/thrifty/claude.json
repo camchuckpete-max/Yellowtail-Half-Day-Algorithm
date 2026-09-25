@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 195.2,
+ "claude": {
+  "duration_api_ms": 186221,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.27646009999999993,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 59628,
+   "cache_read_input_tokens": 810611,
+   "output_tokens": 15205,
+   "output_tokens_details": {
+    "thinking_tokens": 6941
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 59628,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 792,
+     "cache_read_input_tokens": 77355,
+     "cache_creation_input_tokens": 1248,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1248
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 15205,
+    "cacheReadInputTokens": 810611,
+    "cacheCreationInputTokens": 59628,
+    "webSearchRequests": 0,
+    "costUSD": 0.27646009999999993,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6941,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a summary of what changed and why:\n\n## Summary\n\n**What changed:** Completely revised strategy from October-only capital hold to regime-adaptive three-phase approach. Updated notes.md with explicit Phase 1 (scout June), Phase 2 (hold July-Aug), Phase 3 (deploy Sept-Oct), and simplified strategy.py to auto-book OVERNIGHT/DAY_1_5 starting d244.\n\n**Why:** Root cause analysis showed Season 2's La Ni\u00f1a strategy (October-only peak) failed in Season 6's El Ni\u00f1o regime. April-May showed sustained THREE_QUARTER 1.0-1.8 ypa fleet-wide while I held dry, missing ~4-5 fish. Historical data confirms El Ni\u00f1o seasons (like Season 4) show sustained fall production 1.0-4.2 ypa, not October spike only. Posted forum message explaining regime vs. calendar discipline lesson. Checkpoints set: $800 by d180 (audit), $400 by d250 (audit), deploy all-in d244+ on confirmed two-day triggers.",
+  "ttft_ms": 3052,
+  "type": "result",
+  "duration_ms": 188747,
+  "uuid": "42160812-651f-4703-8973-40e238b1eaef",
+  "ttft_stream_ms": 1404,
+  "time_to_request_ms": 741,
+  "first_content_frame_ms": 1404,
+  "time_to_request_from_spawn_ms": 50954864,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342327799.2551,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

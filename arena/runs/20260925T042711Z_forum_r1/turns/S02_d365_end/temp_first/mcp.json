@@ -1,0 +1,1 @@
+{"mcpServers": {"arena": {"command": "/usr/local/bin/python3", "args": ["/home/user/Yellowtail-Half-Day-Algorithm/arena/mcp_server.py"], "env": {"ARENA_TURN_DIR": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d365_end/temp_first"}}}}

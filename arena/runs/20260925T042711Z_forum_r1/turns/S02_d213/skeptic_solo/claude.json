@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 60.1,
+ "claude": {
+  "duration_api_ms": 56608,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26520720000000003,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 38800,
+   "cache_read_input_tokens": 271916,
+   "output_tokens": 5560,
+   "output_tokens_details": {
+    "thinking_tokens": 2498
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38800,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 249,
+     "cache_read_input_tokens": 63210,
+     "cache_creation_input_tokens": 1031,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1031
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 5560,
+    "cacheReadInputTokens": 271916,
+    "cacheCreationInputTokens": 38800,
+    "webSearchRequests": 0,
+    "costUSD": 0.26520720000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2498,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated: confirmed day 213 state matches the day-182 prediction exactly (budget floor holds, rank 1 unchanged), corrected a recurring journal error (PTO does *not* carry into S3 \u2014 both budget and PTO reset fresh per RULES.md, despite ~25 nights of \"banked for S3\" phrasing), and added a second-season confirmation that every fixed-rule bot (including B_BIG, the naive version of our own fall-window plan) scored 0.0, reinforcing that live-signal confirmation beats calendar rules and strategy.py should stay a no-op. Also told the nightly self to stop re-deriving the budget-floor logic each night and just log a terse line, since the outcome for the rest of S2 is fixed.",
+  "ttft_ms": 2929,
+  "type": "result",
+  "duration_ms": 58441,
+  "uuid": "04c51d41-1857-4456-a97f-7f1c5f3fe6c0",
+  "ttft_stream_ms": 647,
+  "time_to_request_ms": 161,
+  "first_content_frame_ms": 648,
+  "time_to_request_from_spawn_ms": 36479523,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327857976.9468,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

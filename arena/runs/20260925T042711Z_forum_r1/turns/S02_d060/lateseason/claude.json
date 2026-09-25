@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 93.3,
+ "claude": {
+  "duration_api_ms": 89829,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25250480000000003,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 28870,
+   "cache_read_input_tokens": 315864,
+   "output_tokens": 7382,
+   "output_tokens_details": {
+    "thinking_tokens": 4829
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28870,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 210,
+     "cache_read_input_tokens": 51887,
+     "cache_creation_input_tokens": 2424,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2424
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 7382,
+    "cacheReadInputTokens": 315864,
+    "cacheCreationInputTokens": 28870,
+    "webSearchRequests": 0,
+    "costUSD": 0.25250480000000003,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4829,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated and no forum post made (nothing new to add beyond what calendarist/streaker already revealed, and no reason to sharpen the crowd's aim at my edge).\n\n**Summary:** Verified via `arena_query` that yellowtail catch remains essentially zero fleet-wide through day 60 (matching season 1's winter pattern) and that ONI is still deep La Ni\u00f1a (-1.48), then appended a day-60 check-in section to `notes.md` confirming the existing wait-for-autumn plan needs no changes \u2014 next real checkpoints are the April doy96-100 overnight window and the doy~250-260 fall-window watch.",
+  "ttft_ms": 3384,
+  "type": "result",
+  "duration_ms": 91319,
+  "uuid": "27cfa24e-3f4f-41c9-9485-56d83fea5ca1",
+  "ttft_stream_ms": 996,
+  "time_to_request_ms": 81,
+  "first_content_frame_ms": 997,
+  "time_to_request_from_spawn_ms": 20390080,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311768563.5186,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

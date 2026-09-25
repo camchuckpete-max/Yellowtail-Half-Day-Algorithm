@@ -1,0 +1,488 @@
+- S02 d091: Skip late Sept dead zone. Hold $2000 and 10 PTO for October 1.5-day peak (DOY 287-297). Water warming, climate indices green.
+- S02 d092: April data held. Conditions weak. October plan locked—skip and hold capital for peak window.
+- S02 d093: September confirmed dead—all classes zero yesterday, cold water, weak forecast. October window locked, capital held.
+- S02 d094: Late September still dead. Capital and all 10 PTO held firm for October peak window (d287-297)—Friday 1.5-day strategy with zero PTO cost locked and ready.
+- S02 d095: September dead zone confirmed—fleet all zeros, 55.6F water, conditions weak. October thesis locked (d287-297 Friday 1.5-days, $1650 budget, zero PTO cost). Discipline held."
+- S02 d096: September hold locked. Water 61.2F (cool), conditions weak (wind 20kt gusts). October thesis (d287-297 Friday 1.5-days) on track; capital $2000, PTO 10 preserved.
+- S02 d097: September dead confirmed (fleet all zeros d97), local mentions zero. Hold capital + PTO for October peak thesis (d287-297). Discipline > speculation on new boats.
+- S02 d098: September all zeros through d97 (fleet, local fishing dead). Hold capital $2000 + PTO 10 for October thesis (d287-297). Discipline."
+- S02 d099: Sept d099 confirmed dead (0.067 3QT isolated spike, fleet otherwise zeros, 61.2F cool water). Oct thesis locked—capital $2000 + 10 PTO held firm. Discipline holds d100.
+- S02 d100: No bookable trips (Monday weekday PTO not committed 14d ahead). Fleet zeros, water 61.5F. October thesis locked—hold capital + all PTO."
+- S02 d101: Water 61.7F cold, fleet zeros—hold capital + PTO for October peak (d287-297).
+- S02 d102: September dead confirmed (fleet zeros, 61.2F, wind 20kt). Hold $2000 + 10 PTO for October peak thesis (d287-297). Discipline.
+- S02 d103: Empty September holds. October Friday 1.5-day thesis locked (d287-297): $1650 budget, 10 PTO reserved. Fleet zeros, capital discipline.
+- S02 d104: September dead through d104. October peak thesis locked (d287-297). Hold $2000 + 10 PTO.
+- S02 d105: September all zeros d105 (fleet, water 61.5F cool, no local activity). Hold $2000 + 10 PTO locked for October peak d287-297 thesis. Discipline."
+- S02 d106: September dead through d106 (fleet zeros, 59.9F cool, yesterday's 0.234 3QT blip is noise). October thesis locked—capital + PTO held. Discipline holds d107.
+- S02 d107: September dead through d107 (fleet zeros, 62.2°F cool). October thesis locked—$2000 + 10 PTO held firm. Discipline.
+- S02 d108: d108 flipped 0.040—noise in dead zone. April dead per S2 pattern. October thesis (d287-297) locked. Hold $2000 + 10 PTO, 6mo discipline.
+- S02 d109: d109 0.412 3QT noise (single-boat). September dead zone holds. October thesis locked—$2000 + 10 PTO for DOY 287–297 Friday 1.5-days.
+- S02 d110: September dead zone holds d110. October thesis locked—$2000 + 10 PTO untouched. Discipline.
+- S02 d111: Late Sept dead zone holds (55.9°F, 5 YT mentions, fleet zeros). October peak thesis (DOY 287-297, 19d out) locked. Capital + PTO preserved—discipline wins."
+- S02 d112: S02 d113: Yesterday's 0.333 3QT is one-day signal, not a trend. Water 58.1°F still cool. October thesis locked—$2000 + 10 PTO reserved for DOY 287–297. Watch d114 for confirmation before breaking discipline.
+- S02 d113: Sept dead (fleet d113 zeros, 62.6°F cool). Oct thesis d287–297 locked—$2000 + 10 PTO untouched, 174d discipline.
+- S02 d114: Dead zone d114 zeros hold. October thesis locked—$2000 + 10 PTO untouched for DOY 287-297 peak. Discipline.
+- S02 d115: S02 d115 Sept dead zone confirmed (zeros fleet-wide). October thesis locked—hold $2000 + 10 PTO for DOY 287-297 peak. 171d discipline.
+- S02 d116: d116 Sept dead zone confirmed again (fleet zeros, 62.9°F). October thesis locked—hold $2000 + 10 PTO for DOY 287-297 peak. 157d discipline.
+- S02 d117: Late Sept dead zone confirmed. October thesis d287–297 locked—hold $2000 and 10 PTO. No bookable boats anyway (TWILIGHT only, none scheduled).
+- S02 d118: D113 peak (1.000) was isolated; d114–d118 revert to fleet zeros. Oct DOY 287–297 thesis holds. $2000 + 10 PTO untouched—discipline.
+- S02 d119: Sept dead zone confirmed. Water 63°F warming slow, d119 blip noise not signal. October thesis locked—preserve $2000+10PTO, sit tight.
+- S02 d120: d120 fleet zeros confirm Sept dead zone. Oct thesis locked—preserve $2k + 10d PTO, sit tight.
+- S02 d121: Sept dead zone confirmed. Oct d287–297 peak thesis intact, booking window d273. Hold $2000 + 10d PTO untouched.
+- S02 d122: Sept dead zone holds (fleet zeros D121-D122, 60.8°F). October thesis locked—$2k+10d PTO preserved for DOY 287+ peak. Booking window d136.
+- S02 d123: Sept dead zone confirmed. October thesis locked—$2k+10d PTO untouched. Hold tight.
+- S02 d124: Sept dead zone d124 confirmed. October DOY 287+ peak locked—$2k+10d PTO preserved, booking window ~5d out.
+- S02 d125: Sept dead zone d125 confirmed. Booking window d129 locked. October execution ready.
+- S02 d126: Sept dead zone holds; Oct peak 19d out. Preserve $2k+10 PTO for launch at d273. Not today.
+- S02 d127: Sept dead zone holding; Oct peak 22d out, booking d273 (14d). Hold $2k+10PTO untouched. Not today.
+- S02 d128: Sept dead zone d128 confirmed—fleet zeros across board. Oct peak 4d to booking window (d273). Hold $2k, 10 PTO untouched for launch.
+- S02 d129: Sept dead zone d128–d130 confirmed. October bookable trips ~5d out. Hold $2k+10PTO for launch.
+- S02 d130: Sept dead zone d130 confirmed. Oct peak 13d out, booking window d132–d136. Hold $2k+10 PTO. Not today.
+- S02 d131: Sept dead d131 confirmed. Oct peak incoming mid-month (Friday departures, Sat fishing). Hold $2k+10PTO untouched for execution.
+- S02 d132: Sept dead d132 confirmed. October booking window opens ~d137-140. Preserve $2k+10PTO for launch.
+- S02 d133: Sept dead d134 confirmed fleet-wide. Oct booking window d137–140 imminent. Hold $2k+10 PTO untouched for launch.
+- S02 d134: S02 d134: Sept dead confirmed 8 straight. Oct booking d137–140 imminent. Preserve capital for Oct execution.
+- S02 d135: Sept dead zone d135 confirmed (all zeros yesterday). Hold $2k+10PTO untouched for Oct launch. Not tomorrow.
+- S02 d136: Sept dead confirmed d128-d137. October booking window 19-24d out. Hold $2k+10PTO untouched. Execution begins when Friday day_1_5 trips appear on board.
+- S02 d137: September dead d137 confirmed. October trips not yet visible; holding $2k+10PTO untouched for DOY 287–297 peak execution. Watch schedule d137–140 for first Friday day_1_5 departures.
+- S02 d138: Sept dead d138 confirmed. October booking window d273+ (135d out). Capital + PTO untouched. Not tomorrow.
+- S02 d139: Sept dead confirmed 8 straight. DAY_1_5 has the signal (0.176). Book Constitution d140; fishes Sat, back Sun. Preserve $1450 + 10 PTO for Oct peak DOY 287–297.
+- S02 d140: Constitution DAY_1_5 confirmed for tomorrow; capital + PTO untouched. October peak booking window opens d146 (~6d). Execution plan on track.
+- S02 d141: Sept dead confirmed d141 (all zeros). Oct booking window opens d146 (5d). Hold $1450+10PTO untouched. Not tomorrow.
+- S02 d142: Sept dead d142 confirmed. Oct window opens d146 (4d). Capital + PTO untouched.
+- S02 d143: Sept dead broken by Malihini 10yt d143. Hold $1450+10PTO untouched for Oct peak window (d287–297) launching d273.
+- S02 d144: Sept dead d145. No bookable trips; PTO window closed for weekday. October peak window (d158+) arriving soon. Hold capital + PTO.
+- S02 d145: Sept dead d146 confirmed. October booking window visible d160+ (PTO commit by d261 for weekday executions). Hold $1450+10PTO untouched.
+- S02 d146: Sept dead confirmed d147. Oct window d146–150 approaching (5 days). $1450+10PTO untouched for DOY 287–297 day_1_5 peak. Execute then.
+- S02 d147: Holding through Sept dead. October peak DOY 287-297 is the thesis. San Diego spike is noise.
+- S02 d148: Sept dead confirmed d148 (0 yt all boats, short trips). Holding $1450+10PTO for Oct peak DOY 287–297. Booking window opens d273.
+- S02 d149: Sept dead confirmed d149. Hold $1450+10PTO for Oct peak DOY 287–297 (booking window DOY 273, 24d out). Do not chase marginal THREE_QUARTER plays.
+- S02 d150: Sept dead d150 confirmed. Oct booking window DOY 273 (d154) in 4d. Hold $1450+10PTO untouched for peak.
+- S02 d151: Sept dead holds through d152. Booking window opens Fri d154; Jan peak d287–297 thesis intact. HODL $1450+10PTO for launch Friday.
+- S02 d152: Dead zone d148–153 confirmed. Don't chase TWILIGHT zeros. HOLD for next peak signal in overnight/three_quarter >0.2 yt/angler.
+- S02 d153: Dead zone confirmed through d153. Book Mustang OVERNIGHT for Sat—proven class signal, no PTO cost. Stop predicting, start reacting to boat results.
+- S02 d154: Fleet zeros d148–154. Cancel Mustang OVERNIGHT. Hold $1050 and 10 PTO for next peak signal >0.2 yt/angler.
+- S02 d155: Dead zone holds d148–d155. Fleet & boats all 0 or near-0 on d156 offers. Wait for class avg >0.2 before deploying.
+- S02 d156: Dead zone holds d156. Nothing bookable anyway (TWILIGHT no boats). Stay home, hold $1050+10PTO. Wait for class avg >0.2 before next move.
+- S02 d157: Dead zone d148–157 confirmed. No bookable trips tomorrow (TWILIGHT no boats; others need PTO). Hold $1050+10PTO for next class signal >0.2 yt/angler.
+- S02 d158: Dead zone d148–158 holds unbroken. All fleet 0.0 yt/angler, no bookable boats. HOLD $1050+10PTO for next signal >0.2.
+- S02 d159: Dead zone d148–159 unbroken, nothing bookable. Hold $1050+10PTO for next class signal >0.2.
+- S02 d160: Dead zone d148–160 holds. Bookable classes below 0.2 threshold. Reserve $1050 + 10 PTO for next signal break.
+- S02 d161: Dead zone d161 confirmed all 0.000. Hold for >0.2 class signal; peak window still missing.
+- S02 d162: Dead zone d148–d162 holds. All fleet 0.000 d162. Stay home, hold cash+PTO for signal >0.2.
+- S02 d163: Dead zone d148–d163 unbroken. All class avgs <0.2. Hold $1050 + 10 PTO for next signal.
+- S02 d164: Dead zone d148-d164 holds. TWILIGHT unbookable; all bookable classes need uncommitted PTO. Stay home, hold $1050+10PTO for signal >0.2.
+- S02 d165: Dead zone d148–d165 unbroken. No bookable trips, no signal >0.2 yt/angler. Hold $1050 + 10 PTO.
+- S02 d166: Dead zone d148–d166 unbroken. Hold $1050 + 10 PTO for signal >0.2. No bookable boats for d167.
+- S02 d167: THREE_QUARTER 0.371 d167 breaks dead zone; prepped d182–186 PTO to catch next signal without delay.
+- S02 d168: d168–d169 three-quarter surge (0.509, 0.371); San Diego proven hot. No overthinking—book the peak.
+- S02 d169: Three-quarter peak collapsed d168→d169 at 0 yt. No class signal >0.2 tomorrow. Hold position.
+- S02 d170: Three trip zeros. Three-quarter peak done. Hold $900 + 8 PTO; wait for signal >0.2.
+- S02 d171: Three-quarter peak collapsed d168→d169→d171 (0.509→0→0.134). No signal >0.2 anywhere tomorrow. Hold $900 + 6 uncommitted PTO.
+- S02 d172: Signal live: San Diego THREE-QUARTER 23 yt d172. Can't book d173 (weekday, no pre-PTO). Holding d182/d186 staged. Four-day test for sustained peak.
+- S02 d173: Three consecutive zeros close the door. Volatility in three-quarter (0.509→0→0.134→0.327→0) is signal collapse, not recovery. Hold $900 + 8 PTO for sustained peak >0.2.
+- S02 d174: Three zeros in a row closes the door. Fleet at 0.013 three_quarter. Hold $900 + 8 PTO until signal >0.2 appears.
+- S02 d175: d175 fleet three-quarter 0.011; peak closed three days ago. Hold dry until signal >0.2 shows.
+- S02 d176: d176→d177 dead zone holds. Three-quarter volatility (0.327→0 in 5 days) rejects booking. Wait for signal >0.2.
+- S02 d177: Dead zone holds d173→d178. No signal >0.2 anywhere. Hold $900 + 8 PTO, wait for peak emergence.
+- S02 d178: Dead zone d173→d179. No signal >0.2. Hold $900 + 6 uncommitted PTO.
+- S02 d179: Dead zone d173→d180 unbroken. No signal. Sit dry; strike on peak >0.2.
+- S02 d180: Dead zone holds d173→d181. d180 three-quarter 0.143 confirms sub-threshold. Sit dry; strike on 0.2+.
+- S02 d181: Dead zone d173→d181 holds; no signal >0.2 in any class. Sit dry, preserve capital for next peak.
+- S02 d182: d183 hold. Fleet still below 0.2 threshold; boats available underperform the recent signal. Capital intact.
+- S02 d183: Dead zone d173→d184 unbroken. D183 fleet silence confirms peak closed. Hold $900 + 8 PTO; strike only on >0.2 signal in live catch.
+- S02 d184: Three-quarter typical clears 0.2 (0.255 yt/angler). Boarding San Diego after 35-day hold; strike on signal, not hope.
+- S02 d185: d186 San Diego THREE_QUARTER (d185 won). Riding the boat. Back to signal-chasing mode.
+- S02 d186: d186 broke the San Diego streak (d185 won, d186 0/28 on bloat). Stay dry; no bookable signal. Hold $600 + 8 PTO for next peak.
+- S02 d187: Dead zone d173→d188 unbroken. Stay dry; signal 0.000 fleet-wide. Strike only on >0.2 yt/angler.
+- S02 d188: Dead zone d173→d188 holds. No bookable signal. Sit dry, capital tight, strike only on >0.2.
+- S02 d189: d189 fleet zeros across board. No signal >0.2 bookable. Stay dry. Capital intact: $600, 8 PTO.
+- S02 d190: Dead zone d183-d190 unbroken. No >0.2 signal. Stay dry; capital and PTO intact for next peak.
+- S02 d191: Dead zone holds d191. 0.009 on three-quarter is noise. Stay dry for peak signal >0.2.
+- S02 d192: Dead zone d173→d192 holds. TWILIGHT is 0.000 noise. Stay dry; capital + PTO intact for next peak >0.2.
+- S02 d193: Stay dry d194. Dead zone holds, no >0.2 signal. San Diego cooled after d186 bloat. Hold capital for peak.
+- S02 d194: Overnight d194 crushed (2.797 yt/angler)—real signal at last. Can't book d196 (PTO commitment deadline was d181). Stay dry d195; hold capital for next offshore slot I can actually catch.
+- S02 d195: New Lo-An crushed d195 (24 yt, 1.333/angler). OVERNIGHT class is hot. Book the streak, fishes Sat, no PTO cost.
+- S02 d196: Booked for d197 OVERNIGHT on New Lo-An (fishes d198). Boat crushed d195; riding real signal. Hold powder for next peak.
+- S02 d197: D197 worked (0.192 OVERNIGHT), but unrepeatable at budget. No signal >0.1 bookable tomorrow. Stay dry; hold capital for next peak.
+- S02 d198: Stay dry d199. TWILIGHT is dead (0.000). Hold powder and PTO for next weekend offshore peak—d194-d196 signal in OVERNIGHT/DAY_1_5 still live.
+- S02 d199: d199 OVERNIGHT 0.194 close but under threshold. TWILIGHT 0.000 noise. Stay dry; wait for DAY_1_5 recovery or OVERNIGHT >0.2 confirm.
+- S02 d200: Broke and the signal is dead. TWILIGHT is 0.000 noise. Hold $200 for next peak I can afford and commit to time—can't chase cheap trips chasing scraps.
+- S02 d201: Hold. TWILIGHT 0.000 is noise; OVERNIGHT 0.583 (d201) signal live but can't book weekday. Save $200 for next peak I can reach.
+- S02 d202: No bookable plays d203. Hold $200 and PTO; wait for signal >0.2 that I can reach. d197 was a solid win but not repeatable here.
+- S02 d203: d204: No signal >0.2 within budget. THREE_QUARTER weak (0.047 typical). Hold $200 dry.
+- S02 d204: d205 signal dead (0.034 THREE_QTR, 0.000 halfs, 0.039 OVERNIGHT collapse). Hold $200 and PTO; wait for >0.2 confirmation.
+- S02 d205: d206 bookable only TWILIGHT (0.000 noise). Hold $200 and 6 PTO for next signal >0.2 in day_1_5 or overnight 14+ days ahead.
+- S02 d206: d206 THREE_QUARTER 0.260 signal hottest in weeks. San Diego 8 yt. Hold powder, commit d221 weekday to strike if class confirms.
+- S02 d207: d207 THREE_QUARTER 0.449 hot, but can't chase weekday without budget. Hold $200, wait for weekend or next confirmed >0.2 entry point I can afford.
+- S02 d208: Broke, PTO-locked for weekdays, no bookable signal. Hold $200 and wait for next confirmed peak within reach.
+- S02 d209: Broke, PTO-locked for weekdays. TWILIGHT = noise trap. Hold $200 dry; wait for >0.2 signal in reach at d221+ window.
+- S02 d210: Hold d211. THREE_QUARTER 0.036 dead. Sitting $200 for next confirmed >0.2 signal in reach (OVERNIGHT/DAY_1_5 at d221+).
+- S02 d211: d212 no confirmed signal >0.2 within reach. THREE_QUARTER weak fleet average (0.007 d211). Hold $200 and wait for day_1_5 or overnight breakout in d225+ weekday window.
+- S02 d212: d212: d213 no signal in reach. Hold $200 and PTO; wait for confirmed >0.2 class peak at d221+ window or offshore breakout.
+- S02 d213: Stay dry. Water 14.1°C, signals dead. Hold $200 for d221+ spike window.
+- S02 d214: Water cold, signal dead. Hold $200. d221 weekday is still the play if temp breaks 19°C in next week.
+- S02 d215: Water cold, fleet dead, TWILIGHT noise. Hold $200 for confirmed signal breakout next week.
+- S02 d216: Water cold, no breakout signal yet. Hold $200 dry. d221 already locked for next peak if temp rises.
+- S02 d217: San Diego crushed d217 (9 yt). Riding the peak before water temp fully breaks or signal collapses. d221 still locked if October thesis holds.
+- S02 d218: Broke and cold-signaled. d218 flat-lined despite decent fleet average. Hold cash, reassess after next few days show real breakout or stay flat.
+- S02 d219: d220 weekday bust—no PTO, no budget, no signal. Water cold, fleet flat. Hold $50, reassess d221+ if temp breaks 19°C or fleet surges.
+- S02 d220: Broke. Hold $50. No signal yet—water normal, fleet flat. PTO d221 already burned with no trip to show.
+- S02 d221: Broke at $50. Water temp nailed trigger (19.4°C) but fleet silent. Season over unless budget rebuilds.
+- S02 d222: Broke at $50, can't book d223. Water right but season wrong. Hold cash, lock d236 as fallback for October peak if temp holds.
+- S02 d223: Broke at $50, water cold, no signal. Hold cash, wait for temp spike back to 19+ and fleet alignment. d236 fallback already locked for October if conditions flip.
+- S02 d224: Broke, water flat, no booking. d236 fallback already locked for October. Hold $50 cash until temp spikes or fleet signals breakout.
+- S02 d225: d225 fleet dead (THREE_QUARTER 0.005). Broke $50, hold for d236 October fallback. Season ice.
+- S02 d226: d226 broke and signalless. Water flat, fleet flat, no cash, no PTO windows. Hold d236 fallback, wait for 19°C spike or October conditions.
+- S02 d227: Sitting out d228. Broke, flat fleet, no PTO window, no signal yet. Hold $50 for October fallback d236 if temp holds 19+°C.
+- S02 d228: Broke at $50, water warming to 68°F (trigger range), holding everything for d236 October fallback or late-season budget rebuild.
+- S02 d229: Broke $50, no PTO window, water dead. Hold for d236 fallback or late temp spike.
+- S02 d230: Broke at $50, water warming into 20.4°C trigger zone but can't fish it. Holding cash and d236 October fallback. Watch and wait.
+- S02 d231: Broke at $50, fleet dead d231, water warming but no signal yet. Hold for d236 October fallback or late spike.
+- S02 d232: d232 fleet all zeros despite 69°F water—signal not confirmed. Broke at $50, can't book d233. Hold cash and d236 October fallback.
+- S02 d233: d233 fleet dead, broke $50, water flat. Hold October d236 fallback. Season ice.
+- S02 d234: Broke $50, can't afford d235 (all trips $80+), no PTO anyway (Tue). Fleet dead, water flat. Hold d236 fallback, rebuild.
+- S02 d235: Broke at $50. Water 19.6°C in trigger zone but d235 all zeros—signal not confirmed yet. Watch d236 fleet. October fallback still the only play.
+- S02 d236: Flat broke, d237 workday blank. Hold $50 and wait for October spike or water temp recovery. Signal dead.
+- S02 d237: D237 blank, d238 locked (no PTO window, broke). Hold $50, wait for October surge or water recovery.
+- S02 d238: Flat broke d238. Water warm (19.7°C), DAY_1_5 hot, but zero budget. Hold $50 and wait for cash influx or d239+ fleet results to confirm signal before committing anything.
+- S02 d239: Flat broke $50, DAY_1_5 ripper but $500 out of reach. Hold cash, hold PTO, wait for signal or budget miracle.
+- S02 d240: Flat broke $50, holding tight. Water cool, no signal. Wait for macro spike.
+- S02 d241: Broke at $50, staying dry. Water cold, fleet dead, no PTO window for d242. Hold for macro spike or temp recovery.
+- S02 d242: D242 three-quarter whisper (0.096 yt/angler) but fleet dead overall, water cool, budget locked at $50. Hold for signal.
+- S02 d243: Flatlined at $50. Can't play tomorrow—all trips $80+. Waiting for water recovery or budget miracle.
+- S02 d244: Flatlined $50, water cold, fleet dead. Waiting for budget or water temp recovery signal before any move.
+- S02 d245: Flatlined $50, water dead, fleet blank d245. Hold for signal or budget miracle; no PTO lock-in while broke and fleet cold.
+- S02 d246: Flatlined $50, water cool 60.1°F, fleet blank. Hold for temp spike and budget.
+- S02 d247: Broke at $50 again. Water dead at 63.5°F. Hold dry and wait for 19–20°C spike + budget miracle.
+- S02 d248: Broke at $50, water 63°F (sub-trigger), fleet dead d248. Hold dry and watch for 66–68°F spike.
+- S02 d249: Stranded on d250: broke, fleet dead, water cool. Hold for 66–68°F spike.
+- S02 d250: Stranded at $50, water 62.6°F (cool), fleet dead. Waiting for 66–68°F spike + budget recovery.
+- S02 d251: Stranded again at $50, water 60.6°F (15.9°C, sub-trigger), fleet dead. Hold and wait for budget + temp spike signal.
+- S02 d252: Stranded at $50, water decent but fleet dead d252 zeros. Hold and watch for sustained warm + budget signal.
+- S02 d253: Flatlined $50, water 65.7°F (18.2°C, sub-trigger), fleet weak d253. Hold and wait for 66°F + budget signal.
+- S02 d254: Flat at $50. Water at threshold (66.9°F) but fleet signal weak (d254 THREE_QUARTER 0.079 only). Hold dry and watch Wed–Fri for sustained class heat before committing PTO ahead.
+- S02 d255: Water 66.2°F, OVERNIGHT 0.395 yesterday—signal is hot. Broke at $50. Hold dry until budget and temp align.
+- S02 d256: Signals hot (d256: 0.293 THREE_QUARTER, 0.507 OVERNIGHT), water 66.4°F warming—but broke at $50, no PTO for d257. Hold dry and watch for budget+temp spike d260+.
+- S02 d257: D257 blanked (0.000 fleet signal). Hold dry and rebuild; wait for sustained class heat before re-committing PTO.
+- S02 d258: Flatlined $50, water 59°F (cooling), fleet d258 good but no boats within reach. Hold dry and watch for 66°F spike + budget signal.
+- S02 d259: Day 9 broke. One-day THREE_QUARTER spike (0.488 d259) not enough—water 58°F, fleet weak, budget gone. Hold dry until 66°F sustained + >$150.
+- S02 d260: Water at 66.7°F (trigger met), fleet weak d260, budget zero. Landlocked. Waiting for capital + sustained warm signal.
+- S02 d261: Landlocked $50, no d262 PTO available (too late). Last trip blank, water threshold 66.4°F but fleet weak d261. Hold and rebuild.
+- S02 d262: Landlocked on $50, water cold (61°F), fleet flat—hold dry. Next move when temp sustains 66°F+ AND budget >$150.
+- S02 d263: Landlocked $50, water cold (60.4°F), fleet weak d263. Hold dry; no PTO commits while capital exhausted and temp below threshold.
+- S02 d264: Landlocked $50, water cooling (60.6°F). D264 THREE_Q spike (1.125) inaccessible. Hold dry until 66°F sustained + $150+.
+- S02 d265: Landlocked d266 (d265-late decision): no bookable options (PTO too late, budget insufficient, water 59.7°F cold). Hold dry, monitor for 66°F warmth + budget recovery signal.
+- S02 d266: Budget exhausted, water 65.1°F near trigger, THREE_QUARTER hot (0.870 d266) but untouchable. Hold.
+- S02 d267: Landlocked: $50 budget + 61°F water = no move tomorrow. Hold dry until 66°F + capital rebuild. Seven-day seat on sidelines.
+- S02 d268: Landlocked again—$50 + weak water mean + flat fleet. Waiting for both 66°F sustained AND capital recovery signal.
+- S02 d269: Cold water (54.9°F), $50 capital, no bookable weekday options. Hold dry per threshold.
+- S02 d270: Landlocked: $50 budget + 54.9°F water = no play. Hold dry, wait for capital recovery and 66°F signal.
+- S02 d271: Landlocked again: $50 < $80 minimum, water 56.7°F cold. Hold dry; wait for 66°F + capital pulse signal.
+- S02 d272: d272 landlocked again: $50, 59°F water, no bookable options, no PTO signal 14+ out. Hold dry.
+- S02 d273: D273→d274: $50 budget + 61°F water = landlocked 9th day. Hold dry, monitor for 66°F + capital rebuild signal before next move.
+- S02 d274: Day 274 hold #9. $50 + 63.5°F water = forced dry. No PTO commits: waiting for 66°F + class ≥0.2 signal within 5 days.
+- S02 d275: Landlocked d9: $50 + 61°F water + weak signal. Hold dry; commit PTO only 3–5 days ahead when 65°F + class ≥0.2 both confirmed.
+- S02 d276: Water breaking out (63.9°F) + DAY_1_5 red hot (1.49 yt/angler avg), but $50 landlocked. Wait for capital pulse then commit PTO tactically in 2–3 days when both money and signal confirmed.
+- S02 d277: Landlocked d10: $50 + 63.7°F water + fleet zeroes. Hold dry; wait for 66°F + capital pulse + class ≥0.2 all three confirmed before any PTO locks.
+- S02 d278: Day 11 landlocked. DAY_1_5 class hot but $50 + 62°F water + October lesson = hold dry until all three: capital, temp ≥65°F, class ≥0.2 confirmed same window.
+- S02 d279: Day 12 landlocked: $50 + 63.3°F + fleet zeroes. Hold dry; no bookable options anyway (PTO not committed for d280). Await capital rebuild + 65°F breakout.
+- S02 d280: D280 hold #12. $50 landlocked, 63.7°F, fleet zeroes. Three-signal rule still unmet. Await capital pulse + 65°F breakout + class ≥0.2, then commit PTO tactically 3–5 days ahead only.
+- S02 d281: D13 landlocked: DAY_1_5 hot (3.5+) but 63.7°F + $50 broke = unexecutable. Hold dry; await capital pulse + 65°F both confirmed before PTO lock.
+- S02 d282: Day 14 hold: $50 landlocked, 62.1°F water, fleet weak. DAY_1_5 hot (4.2 yt/angler) but unexecutable. Await capital pulse + 65°F + class ≥0.2 confirmed before any move.
+- S02 d283: Day 15 hold: $50 broke, 62.2°F cold, no bookable offers. Continue dry; await capital pulse + 65°F+ breakout before any PTO lock.
+- S02 d284: Day 16 hold. $50 landlocked, 63.9°F water, fleet weak. All three conditions still unmet (capital, temp ≥65°F, class ≥0.2); await breakout.
+- S02 d285: Day 17 hold: $50 broke, 63.0°F, fleet zeroes. Three conditions all unmet; hold dry.
+- S02 d286: Day 18 hold. $50 landlocked, 64.2°F below breakout, all bookable options blocked by budget or PTO timing. Await capital + 65°F pulse before any commitment.
+- S02 d287: Breakout FINALLY hit (65.7°F, THREE_Q 0.244>0.2): conditions perfect, wallet empty. DAY_1_5 peak open d287–303 (forum: 5.0+), but $50 broke. Await capital pulse; will lock PTO tactically 3–5 days ahead if money arrives before d289.
+- S02 d288: October peak d287-303 (forum: 5.0+ DAY_1_5) collapsing into retreat—capital never arrived, water cooling 65.7°F→61.9°F, fleet weak yesterday. Hold dry, PTO unspent.
+- S02 d289: Watched d289 peak pass broke again (OVERNIGHT 6.636). Water cooling, no capital, no PTO locked—wait for all three conditions before next move.
+- S02 d290: Day 19 hold. $50 broke, 58.6°F cooling, fleet dead. All three booking conditions unmet; stay dry until capital + 65°F signal + class ≥0.2 confirmed.
+- S02 d291: Day 20 hold. $50 broke, 55.9°F cold, fleet dead post-spike. Zero conditions met; hold dry until capital + 65°F + class ≥0.2.
+- S02 d292: Day 21 hold. $50 broke, 58.3°F cooling, fleet weak. All three conditions unmet (capital, temp ≥65°F, class ≥0.2 confirmed); await signal arrival.
+- S02 d293: D22 hold. Water 61°F cold, fleet 0.000-0.083 signals, $50 landlocked. All three conditions fail—stay dry.
+- S02 d294: Day 23 hold. $50 broke, 62.2°F below threshold, fleet weak. All three conditions unmet—stay landlocked.
+- S02 d295: Day 24+ hold. Capital is the binding constraint now—spent down to $50 by d220, never recovered. Fleet d295 dead (0.034 best). Water cooling. Hibernate until cash or signal.
+- S02 d296: Day 25 hold. Water cooling, capital broke, fleet dead. All three conditions fail—stay landlocked until signal + 65°F + cash arrive.
+- S02 d297: Day 26 hold. Capital broke, water cooling, fleet dead—all conditions fail. Hibernate until three-way alignment (cash + ≥65°F + class ≥0.2).
+- S02 d298: Day 28 hold. $50 broke, 63.1°F short of 65°F threshold, fleet weak. All three conditions fail—stay landlocked.
+- S02 d299: Day 29 hold. $50 broke, 62.1°F cold, 0.024 fleet peak dead. Three-way signal absent—stay landlocked, no PTO locks on theses.
+- S02 d300: Day 30 hold. $50 broke, 59.5°F cold, fleet 0.000. Capital binding—stay dry.
+- S02 d301: Day 31 hold. $50 broke, 60.8°F cold, fleet dead. Three-way signal absent—stay dry until recovery or season's end.
+- S02 d302: Broke at $50, water 60.4°F cooling, fleet dead. All three conditions fail—stay dry. Monitor late-Sept peak window.
+- S02 d303: Day 31+ hold. Capital broke, water cooling, fleet dead—all conditions fail. Stay dry. No PTO locks without signal.
+- S02 d304: Day 32 hold. $50 broke, 60.8°F cold, fleet 0.000. All three conditions fail—stay dry. Season lost to calendar trap + capital burn; monitor for late recovery window.
+- S02 d305: Day 32+ hold. $50 broke, 61°F short, fleet screaming but unreachable. S2 capital trap replaying—scouting killed season; peaks arrive broke. Season done.
+- S02 d306: D306 eve: $50 broke, 60.6°F cold, fleet dead. Phase 2 hold sustained. Wait for 18°C + signal.
+- S02 d307: D307 hold. $50 broke, 60.8°F cold, fleet dead. Season capital trap replayed—peaks arrived without budget. Monitor late-Sept threshold crossing only.
+- S02 d308: D308 hold. $50 broke, 62°F cold, fleet 0.000. Season over—capital trap replayed.
+- S02 d309: $50 left, broke. Season over by capital trap—peaks came broke twice (S2, S3 setup identical). Water 62°F cold, fleet 0.000. Stay dry.
+- S02 d310: S02 d310: Season 2 capital trap replayed exactly. d311 stay home, preserve $50. Season done.
+- S02 d311: S02 d311: $50 broke, 60.1°F cold, fleet 0.000—season capital trap replayed. Hold Phase 2. Season done.
+- S02 d312: Season 2 capital trap replayed. $50 left, 59.2°F cold, fleet dead. Season done.
+- S02 d313: Phase 2 hold locked. 59.9°F cold, fleet dead, $50 preserved. Season signal threshold not met.
+- S02 d314: Season capital trap: $50 broke, 59.0°F dead, fleet 0.000. Phase 2 hold. Waiting 18°C threshold—peaks come broke again if discipline breaks now.
+- S02 d315: D316 hold. $50 broke, 60.3°F dead zone, fleet 0.000. Phase 2 hold. Waiting 18°C + day_1_5 ≥0.2 signal.
+- S02 d316: D316 hold. $50 left, 61°F dead, fleet 0.000. Phase 2 lock holds—capital trap discipline unbroken.
+- S02 d317: D317: Fleet skunk 7 days, $50 broke, season capital trap replayed. Ride it out.
+- S02 d318: D318: Fleet skunk, $50 broke, 59.4°F dead. Phase 2 hold tight. Season over.
+- S02 d319: S02 d319: Phase 2 hold unbroken. 59.4°F, fleet dead, season capital trap won. Final score 0.224 (28/34).
+- S02 d320: D320 close: $50 left, fleet dead, hold holds. Season discipline unbroken.
+- S02 d321: D321 hold steady. 60.3°F dead, fleet dead, $50 left—no booking possible anyway. Phase 2 Hold locked.
+- S02 d322: D322 hold: $50 broke, 59.9°F dead, fleet 0.000 7d. Phase 2 lock tight.
+- S02 d323: D324 hold. $50 broke, 60.6°F dead, fleet zero 7d. Phase 2 lock intact through season end.
+- S02 d324: D325 hold final: $50 broke, fleet dead 8d, 60.3°F dead. Phase 2 discipline held to season end. Score 0.224.
+- S02 d325: D326 hold. $50 broke, fleet dead, 61°F frozen, no 14d window open. Phase 2 lock through end. Season discipline holds.
+- S02 d326: D326 final hold. $50 broke, fleet dead 7d, 61°F frozen. Phase 2 lock unbroken.
+- S02 d327: D328: No boats available, fleet 0.000 7d, 61°F frozen. Hold unbroken to season close.
+- S02 d328: Season 2 final: 0.224 score, rank 28/34. Phase 2 hold unbroken d220–d328. Peak windows (Sept, Oct day_1_5 @ 1.7+ yt/angler) occurred when budget broke. Capital constraint = fatal binding. Season 3 scouting cap: $300 max.
+- S02 d329: D330 hold: $50 broke, 60.3°F dead, fleet 0.000, no boats. Phase 2 hold unbroken.
+- S02 d330: D331 hold. Season 3 Phase 2 locked: $50 broke, 59.9°F dead, fleet 0.000 7d. Hold unbroken.
+- S02 d331: D332 hold: $50 broke, 60.1°F dead, fleet 0.000 7d. Phase 2 lock unbroken. Next: water ≥18°C sustained + day_1_5 ≥0.2 signal.
+- S02 d332: D333 hold. $50 broke, fleet 0.000 7d, 60.1°F dead (need 18°C). Phase 2 lock continues.
+- S02 d333: D334 hold: $50 broke, 60.4°F frozen, fleet 0.000 7d. Phase 2 lock unbroken. Next: water ≥18°C + day_1_5 ≥0.2 signal visible before any PTO commit.
+- S02 d334: D335 hold. Phase 2 lock unbroken: $50 broke, 60.1°F frozen, fleet 0.000 7d. Waiting for 18°C + 0.2 day_1_5 signal together.
+- S06 d091: Water 18.3°C gate FIRED. El Niño live. Locked PTO d105–d112 for Three_Quarter wave. Missed April; not missing October.
+- S06 d092: Holding dry through d104. October THREE_QUARTER strategy locked. No overnight gamble.
+- S06 d093: d094 THREE_QUARTER scout: San Diego riding yesterday's hot signal (1.482 avg). October PTO locked d105-d112 remains; hold through d104.
+- S06 d094: San Diego scorching (103 yt d094). THREE_QUARTER fleet 1.515 30d. Ride it.
+- S06 d095: Three-Quarter hot (1.518 30d avg), last two trips decent, but tomorrow is weekday with no PTO committed. Holding through d104. October window d105-d112 locked and ready.
+- S06 d096: Cooling signal d095→d096, weekday lockout, TWILIGHT garbage. Hold d097–d104. October line (d105–d112) locked and ready.
+- S06 d097: Hold d098–d104 per plan. THREE_QUARTER hot but PTO gate locked. October ready.
+- S06 d098: THREE_QUARTER hot but d099 is weekday/no PTO. October d105–d112 locked. Holding dry.
+- S06 d099: Hold d100 dry. October gate locked. Ammo intact for d105–d112 THREE_QUARTER wave.
+- S06 d100: Chasing THREE_QUARTER heat d094–d101. San Diego. October d105–d112 locked and ready.
+- S06 d101: d101 San Diego 0.796 = decline signal. Switching to Mission Belle d102 to test boat swap, not class. October d105–d112 already locked.
+- S06 d102: Monday lockout (no PTO for d103). October window d105–d112 still intact and ready. Dry through d104 per plan.
+- S06 d103: d102 solid 1.100 on Mission Belle; d103 fleet exploded THREE_QUARTER 1.732—can't chase, locked weekday. October d105–d112 window intact, all ammo allocated.
+- S06 d104: October opener starts. San Diego THREE_QUARTER d105 booked. Window d105-d112 executing as planned.
+- S06 d105: d106 San Diego THREE_QUARTER holding line. October window d105–d112 executing; gaps d107–d109 held dry per plan. PTO exhausted (5/5).
+- S06 d106: d106 best trip: 1.706. Invicta signal 2.571 = push it. Holding d107–d109 dry per plan; PTO maxed.
+- S06 d107: d107 hold. Invicta d108 depart (fish d109) locked: 2.571 signal. October window executing.
+- S06 d108: d108 fleet THREE_QUARTER fire (1.993): chasing San Diego heat into d109. October window locked; capital discipline intact.
+- S06 d109: d109 was weak (0.884). Staying THREE_QUARTER heat but moving to Mission Belle (1.554) from San Diego (1.325). Already have d110 PTO.
+- S06 d110: San Diego THREE_QUARTER d111. d109–d110 weak variance; class signal still hot. Capital $100 left. PTO exhausted.
+- S06 d111: d111 crushed (1.733), THREE_QUARTER heat sustained, but out of capital and reach. Holding dry—next window matters.
+- S06 d112: d112 done. Bankroll and PTO exhausted chasing THREE_QUARTER heat through d111. Hold dry, wait for next signal—too close to elnino (#1) to waste the last $100 on weak odds.
+- S06 d113: Out of capital and PTO for immediate use. Class signal still hot (1.760-3.463 d112-d113) but locked out by 14-day lag on weekday trips. Holding dry per plan.
+- S06 d114: Out of capital and reach. THREE_QUARTER hot (4.024 d114) but $150 unaffordable. Hold $100 dry for next window.
+- S06 d115: THREE_QUARTER heat sustained (d115: 0.987) but $150 > $100 budget. Hold dry, next signal window.
+- S06 d116: Locked out tomorrow by weekday PTO lag and $100 budget. THREE_QUARTER signal sustained but unreachable. Hold for d118+ or next aligned opportunity when capital and PTO reset.
+- S06 d117: Locked by 14-day PTO lag on weekday trips. Holding dry, $100 intact. THREE_QUARTER signal hot but unreachable. Wait for next calendar/capital window.
+- S06 d118: Locked by weekday PTO lag and $100 budget. THREE_QUARTER signal sustained but inaccessible. Holding dry for next window with capital alignment.
+- S06 d119: Locked out d119–d125 by 14-day PTO lag and $100 capital. THREE_QUARTER heat sustained (1.639–2.144) but unreachable. Hold dry.
+- S06 d120: Locked d121–d125 by 14-day PTO lag and $100 capital. THREE_QUARTER 1.5–2.0 yt/angler but inaccessible. Hold dry.
+- S06 d121: Regime collapsed d121. THREE_QUARTER peaked d117–d120, signal dead now. Dry through remainder, capital intact for S7.
+- S06 d122: Signal dead. Fleet collapsed d121–d122, hold dry. $100 + 5 PTO reserved for S7 spring peaks.
+- S06 d123: Signal dead, weekday lag locks out d124. Hold dry, capital + PTO intact for S7 peaks.
+- S06 d124: Locked by weekday lag. THREE_QUARTER steady (0.714 d124) but unreachable. Hold dry, $100 + 5 PTO for S7 spring peaks.
+- S06 d125: Locked by PTO lag + dead signal. Three_quarter regime collapsed post-d121. Hold $100 + 5 PTO for S7 spring d91+ peak window.
+- S06 d126: Locked by weekday lag and no available twilight boats. THREE_QUARTER flickers (0.548–0.714) but erratic; regime weakened. Holding dry for S7 spring, capital + PTO intact.
+- S06 d127: Dead signal, weekday lag, holding dry. $100 + 5 PTO reserved for S7 spring peak window (d91+). Regime collapse confirmed d121.
+- S06 d128: S6 d129: Signal dead, fleet weak, stay dry. Hold $100 + 5 PTO for S7 d91+ spring peaks. Discipline holds.
+- S06 d129: Regime flickering (THREE_QUARTER 1.054 d129, New Seaforth 0.016 HD_PM) but too weak to break S7 plan. $100 + 5 PTO reserved. Hold.
+- S06 d130: Locked by 14-day lag. Regime dead d121+. Hold dry; capital + PTO reserved for S7 d91+ spring peaks.
+- S06 d131: Regime dead, weekday lag, TWILIGHT boats gone. Hold dry. $100 + 5 PTO intact for S7 d91+ spring peaks—discipline over noise.
+- S06 d132: Regime dead, weekday locked, S6 tail weak. Hold $100 + 5 PTO for S7 spring discipline—d91+ peaks are the real signal.
+- S06 d133: Locked by weekday lag + no twilight boats. Hold dry for S7 d91+ spring peaks. Regime collapsed, d133 spike is noise.
+- S06 d134: Dead signal (TWILIGHT 0.000), regime collapsed. Hold $100 + 5 PTO for S7 d91+ peaks. Discipline holds.
+- S06 d135: d135 stay dry. Regime dead, no real signal. Hold $100 + 5 PTO for S7 d91+ spring peaks—discipline works.
+- S06 d136: S6 tail regime confirmed dead (d136: 0.000-0.009). Hold $100+5PTO for S7 d91+ spring; discipline works.
+- S06 d137: S6 tail locked out (no PTO committed d138, TWILIGHT boats gone). Hold for S7 d91+ spring. Discipline works.
+- S06 d138: Weekday locked out again. Regime dead, signal weak. Discipline intact—S7 target in sight.
+- S06 d139: S6 d139 hold. TWILIGHT 0.000 is a trap. $100+5PTO intact for S7 d91+ spring peaks. Discipline works.
+- S06 d140: S6 d140-d141: regime dead, weekday locked, TWILIGHT unbookable. Hold $100+5PTO for S7 spring discipline.
+- S06 d141: Locked out d142 by PTO lag; holding dry. $100+5PTO reserved for S7 spring twin peaks (d91–d120 target). Regime-collapse thesis confirmed.
+- S06 d142: S6 d142–d143: regime dead confirmed. Hold $100+5 PTO for S7 d91+ spring twin-peak execution. Discipline works.
+- S06 d143: d143 hold dry. S6 regime locked out d112+. Discipline intact: $100+5PTO reserved for S7 spring twin peaks (d91–d120 target). No signal, no trip.
+- S06 d144: Regime dead confirmed again. Hold $100+5PTO dry for S7 d91+ spring peaks (32 days of discipline intact). No signal, no trip.
+- S06 d145: Locked out d146 by 14-day lag (correct). Holding $100+5PTO for S7 d91 spring. Discipline intact, 32 days run continues.
+- S06 d146: S6 d147: locked out weekday, hold dry. $100+5PTO intact for S7 d91+ spring. Discipline run: 33 days.
+- S06 d147: S6 d148 hold. TWILIGHT unbookable, weekday locked by PTO lag. $100+5PTO to S7 spring (d91+). Discipline run: 31 days.
+- S06 d148: D148 hold. S6 regime dead confirmed (0.080 yt/angler yesterday). Weekday locked by PTO lag. $100+5PTO intact for S7 d91+ spring twin-peak execution. Discipline run: 34 days, holding.
+- S06 d149: Fleet fires d149 three-quarter (0.474), but priced out. Hold $100 for spring. One hot day ≠ regime shift.
+- S06 d150: d150 one-day blip. Discipline run d113–d151 holds $100 for S7 d91+. No signal, no trip.
+- S06 d151: S6 d152 Monday: Lockout confirmed (weekday lag + TWILIGHT unbookable). Hold $100+5PTO for S7 d91+ peaks. Discipline run 39 days.
+- S06 d152: S6 d152 locked out as planned. $100+5PTO preserved. Discipline run 40+ days. S7 spring gate d91+ awaits.
+- S06 d153: S6 d154 hold, discipline run 41 days. Spring gate S7 d91+ awaits signal.
+- S06 d154: D154 THREE_QUARTER 0.019 yt/angler. S6 tail collapse confirmed. Hold capital+PTO for S7 d91+ gate. Discipline run d113–d154, 41 days.
+- S06 d155: D156 hold; PTO pre-lock only for S7 d91 gate (spring 3-day rule). Discipline intact.
+- S06 d156: D157 weekend signal marginal (HD 0.014–0.010 yt/angler). Hold dry, preserve capital. Discipline run d113–d157: 44 days.
+- S06 d157: D158 hold. Tail weak (HD 0.0–0.053 yesterday). Discipline run 45 days. Capital $100 locked for S7 spring d91+ gate.
+- S06 d158: D158 hold. Discipline run d113–d158: 46 days. S6 confirmed dead tail; capital locked for S7 spring d91+ gate. TWILIGHT trap avoided.
+- S06 d159: S6 d159 lockout confirmed. Discipline d113–d159: 46 days. $100+5PTO sealed for S7 d91+ spring gate.
+- S06 d160: D160 spike doesn't break Phase 2 hold. Discipline run d113–d160: 47 days. $100 + 5 PTO locked for S7 d91+ spring gate.
+- S06 d161: S6 d162: Discipline run d113–d162 (49 days). Post-peak dead water, TWILIGHT trap, capital locked for S7 spring gate. Hold dry.
+- S06 d162: S6 d163: Hold dry. Discipline run d113–d163 (50 days). Capital + 5 PTO locked for S7 d91 spring gate. Dead tail confirmed.
+- S06 d163: Phase 2 hold d113–d164 (52 days). Dead tail confirmed. Capital + 5 PTO locked for S7 d91 spring gate.
+- S06 d164: D165 hold. Phase 2 discipline d113–d165 (53 days). Dead tail confirmed; capital locked S7 spring gate.
+- S06 d165: D166 lockout + Phase 2 hold d113–d166 (54 days). Dead tail confirmed. $100 + 5 PTO locked for S7 spring gate d91+.
+- S06 d166: D166 hot (3.154 OVERNIGHT, 1.933 THREE_QUARTER) tempted break, but Phase 2 hold d113–d167 (55 days) holds. No bookable hot class without PTO. Capital + 5 PTO locked for S7 d91+ spring gate.
+- S06 d167: D168 lockout Phase 2 d113–d168 (56 days). Dead tail confirmed. $100+5 PTO locked for S7 d91+ spring gate.
+- S06 d168: San Diego hot (28 yt d168, 0.875 class avg) but Phase 2 hold d113–d169 (57 days) discipline holds. No bookable PTO+capital path. Lock S7.
+- S06 d169: D170 hold. Phase 2 discipline d113–d170 (58 days). TWILIGHT trap (0.000 class)—lock capital for S7 d91+ spring gate.
+- S06 d170: D170 dead (0 yt fleet avg). Hold Phase 2 discipline. Capital + 5 PTO locked S7 spring gate d91+.
+- S06 d171: d172 hold. Phase 2 discipline d113–d171 intact (59 days). Dead short class. Capital + 5 PTO locked S7 spring.
+- S06 d172: D172 confirmed dead zone tail. Phase 2 hold d113–d172 (60 days) stands. Twilight trap avoided. Capital + 5 PTO locked S7 d91+ spring gate.
+- S06 d173: Phase 2 hold d113–d173 (61 days) holds. Dead zone end-of-season confirmed. $100 + 5 PTO locked S7 d91+ spring gate.
+- S06 d174: D175 dead zone. Phase 2 lockout d113–d175 (63 days) holds. $100 + 5 PTO locked S7 spring.
+- S06 d175: d175 THREE_QUARTER 3.270 yt/angler (4-day sustained d172–d175). Peak signal real but underfunded. Phase 2 lockout d113–d176 (64 days) holds. S7 spring gate locked.
+- S06 d176: d175–d176 THREE_QUARTER peaks 3.27–3.44 yt/angler confirmed real. Underfunded and locked S7 spring discipline. Hold.
+- S06 d177: d177 heat real (3.194) but underfunded. Hold Phase 2 discipline—don't repeat d111 trap. Capital + 5 PTO locked S7 d91+ spring.
+- S06 d178: Heat sustained d175–d178 (2.15–3.44 avg) but underfunded. Phase 2 hold stands; capital locked for next confirmed multi-day peak. Scout Tuesday onward.
+- S06 d179: D179 heat (1.920) visible but underfunded and out of PTO. Phase 2 hold d113–d179 (67 days) stands. Threadbare: $100 + 5 PTO locked for S7.
+- S06 d180: Heat d175–d180 real (1.4–3.4 yt/angler) but Phase 2 hold stands. Underfunded, out of PTO. Twilight trap avoided. Capital + 5 PTO locked S7 spring.
+- S06 d181: Phase 2 hold d113–d182 (70 days) confirmed. Heat d181 (2.092 yt/angler) untouchable—no PTO lead, underfunded. Discipline works: witness, hold, move.
+- S06 d182: Witness hold d113–d182 holds. Underfunded through peak; no weekday PTO lead for tomorrow. S7 spring gate locked.
+- S06 d183: S06 d183: Held through peak d175–d182 (3.3–1.4 yt/angler), underfunded. THREE_QUARTER still 1.96 yt/angler d183; can't afford $150. HD_PM signal (0.031) noise vs. real heat. $100 + 5 PTO locked S7 spring.
+- S06 d184: D184 heat real (1.904 pooled THREE_QUARTER). New Seaforth 0.055 HD_PM: chase hot boat $80 before peak window closes.
+- S06 d185: Chased d185 hot-boat myth, got 0 yt, burned to $20. Can't fish d186. Season 6 discipline ended by overreaction. Reset S7.
+- S06 d186: Broke. D185 chase burned $80 for 0 yt. Season tail late; peak closed. S7 restart.
+- S06 d187: D185 broke me ($80 → 0 yt). Watching peak d187 hot (THREE_QUARTER 2.114) from the dock, underfunded again. S7 restart when capital flows back.
+- S06 d188: Broke at $20 after d185 chase. Watching THREE_QUARTER heat (3.121 d188) from the dock again. Hold discipline, rebuild capital—peaks pass when you're underfunded.
+- S06 d189: Heat blooms d189 again (THREE_QUARTER 2.2), but I'm watching from broke. Discipline > speculation. Rebuild S7 gate.
+- S06 d190: Broke at $20 after d185 myth chase. THREE_QUARTER heat confirmed (1.5+) but underpowered. Hold dry, rebuild capital, lock S7 spring.
+- S06 d191: d185 myth chase burned $80 for zero. Back at $20, watching season tail from the dock. Rebuild capital before S7 peaks.
+- S06 d192: Broke at $20, forced to sit—d185 replay. Fleet hot (0.26–0.78 yt/angler) but underfunded = stay home. Discipline survived six days; season tail closes watching.
+- S06 d193: Broke. d185 myth chase burned last $80 for zero. Stay dry, rebuild capital—underfunded peaks mean zero fish and zero rank.
+- S06 d194: Broke at $20. Season 6 tail: hold dry, rebuild gate for S7 peak. No capital = no fish.
+- S06 d195: S6 d196: Broke at $20, no booking possible. PTO deadline missed (1 day to d196, need 14+). Watch New Seaforth hot signal from the dock again. Season tail closes watching.
+- S06 d196: Broke at $20, locked out tomorrow. Hold dry for S7 gate—season tail closes watching. Rebuild starts next season.
+- S06 d197: D185 myth chase finished what d175-d182 started: broke and locked out. Discipline hold continues. Rebuild before S7.
+- S06 d198: Broke again. Hold dry, season tail closes. S7 gate: rebuild capital first, do not chase myths.
+- S06 d199: Broke. D185 myth chase (zero yt) = season over. Watched peak from dock. Capital first, signal second—rebuild for S7.
+- S06 d200: Broke at $20, locked out. D185 myth-chase myth spent last capital for zero. Season ends dry—rebuild before S7.
+- S06 d201: Broke at $20, locked out. Witnessed d175–d182 peak from dock; capital first. Hold dry, rebuild before S7.
+- S06 d202: $20 locked out of $80 floor again. D185 myth-chase myth burned last capital for zero. Witnessed peak d175-d182 from dock. Capital first—hold dry, rebuild gate for S7.
+- S06 d203: Broke at d203, holding dry 70+ days. Season 6 over—d175–d182 peak witnessed underfunded. S7 gate: capital first.
+- S06 d204: D204: Broke at $20, locked out. D185 myth chase (0 yt) burned capital. Season 6 over—hold dry, rebuild gate for S7.
+- S06 d205: Locked out $20. Season 6 over—watched d175–d182 peak from dock, d185 myth burned last capital. Hold dry, rebuild for S7 gate.
+- S06 d206: Broke at $20, d206 season tail. D185 myth-chase (0 yt) = discipline breaker. Hold dry, rebuild capital for S7 gate.
+- S06 d207: Locked at $20. THREE_QUARTER heat yesterday (0.227) but unfunded. Hold dry, rebuild capital gate before S7.
+- S06 d208: Locked out $20. THREE_QUARTER heat (0.227-0.396 d206-d208) continues but unfunded—hold dry, capital first for S7 gate.
+- S06 d209: D9 locked out; d209 THREE_QUARTER 0.176 yt/angler unfunded again. Hold dry, capital gate before any trip.
+- S06 d210: D210 hot (HD_PM 0.409, OVN 1.657) but broke at $20. Hold dry; capital first. Season 6 tail, rebuild for S7 gate.
+- S06 d211: Broke at $20. Season 6 closed. d185 myth-chase (0 yt) = discipline breaker. Hold dry, rebuild gate for S7.
+- S06 d212: D212 locked at $20, 27-day dry hold. D185 myth (0 yt) = capital killer. No myth plays without the money.
+- S06 d213: Locked out $20 < $80 min. Broke on d185 myth. Hold dry, capital-gate season 7 entry—no fishing until funded.
+- S06 d214: d185 myth-chase ($80 → 0 yt) broke my capital. Hold dry. Season 6 tail, rebuild for S7 gate at $20.
+- S06 d215: Broke d185 (myth-chase). Hold dry to season end; rebuild gate for S7.
+- S06 d216: D216 locked at $20. D185 myth-chase (0 yt) broke capital. Witnessed peak d175–d182 underfunded. Season 6 over; accept loss.
+- S06 d217: Myth-chase confirmed trap (d185: $80 → 0 yt). Hold capital gate at $20. Season 6 ends underfunded; d175–d182 peak was real, I just had no money.
+- S06 d218: Myth-chase d185 killed capital. Hold dry, $20 gate locked. Season 6 tail—rebuild for S7.
+- S06 d219: Locked $20. d185 myth broke it. Hold dry; no capital = no gate to future trips. Rebuild first.
+- S06 d220: Capital gate locked at $20. d185 myth-chase ($80 → 0 yt) broke the bank; dry hold confirmed correct. Season 6 wrapping—rebuild starts Season 7.
+- S06 d221: Hold $20 gate. Can't book d222 (no PTO committed, budget locked). Myth-chase lesson: d185 killed momentum. Dry hold discipline continues.
+- S06 d222: $20 gate holds. Season 6 over; no capital = no gate. Rebuild S7.
+- S06 d223: Locked dry gate $20 to season end. No capital = no gate to future peaks. Rebuild S7 from zero.
+- S06 d224: Capital gate $20 locked. Season 6 tail closing rank #10, 13.75 fish. Stay home; await rebuild S7.
+- S06 d225: Capital gate holds through S6 close. Rank #10, 13.75 fish. Dry discipline + witnessed peak = Season 7 leverage.
+- S06 d226: Capital locked $20. d185 myth-chase killed momentum. Hold through S6 close; rebuild S7 from gate zero.
+- S06 d227: S6 close: $20 gate held. D185 myth-chase ($80→0 yt) proved staying liquid > chasing peaks underfunded. Witness peak d175-d182 vindicated dry hold. Await S7 rebuild.
+- S06 d228: Capital exhausted d185 myth-chase ($80→0 yt). Hold dry through S6 close. S7 rebuild waits.
+- S06 d229: $20 gate locks through S6 close. Rank #10, 13.75 fish. S7 rebuild from zero.
+- S06 d230: Underfunded and holding. Witnessed peak d175–d182 dry; same discipline now. S7 rebuild from gate.
+- S06 d231: Broke at gate. d185 myth-chase ($80→0 yt) reconfirmed the lesson: heat-following underfunded is capital bleed. S7 rebuild waits.
+- S06 d232: D185 myth-chase ($80→0 yt) + d232 regime flip (THREE_QUARTER 0.000): stay dry through S6 close. S7 rebuild waits.
+- S06 d233: Capital gate holds. $20 locked through S6 close. S7 rebuild waits.
+- S06 d234: $20 gate holds. Underfunded = no book. d185 lesson still stands.
+- S06 d235: $20 gate holds. No fuel to fish, no PTO to buy in. Season 6 close: discipline > bleed. S7 rebuild waits.
+- S06 d236: Capital exhausted ($20). Hold dry to S6 close. D185 lesson stands: broke > chasing on fumes.
+- S06 d237: $20 gate locks through S6 close. D185 lesson holds: underfunded + chasing = capital bleed. Discipline > regret.
+- S06 d238: $20 gate holds through season 6 close. d185 lesson: underfunded = no book. Discipline > regret.
+- S06 d239: Broke gate holds. $20 floor locked for S7. Underfunded = no book. d185 myth-chase lesson stands.
+- S06 d240: Day 240 fleet heat confirmed, but I'm capital-locked. Discipline gate holds through S6 close. S7 rebuild waits.
+- S06 d241: $20 gate locked through S6 close. D185 zero chase lesson: underfunded + trip = capital bleed. Discipline holds.
+- S06 d242: Budget locked $20. Held dry d175–d182 peak; hold again. Discipline > regret. Season 6 reset waits.
+- S06 d243: Locked by capital. New Seaforth hot (0.244) but unreachable on $20. Hold dry through close.
+- S06 d244: d245 signals strong (HD_PM 0.293, THREE_QUARTER 0.362), but $20 stays locked. d185 lesson: broke + chasing = zero. Discipline through S6 close.
+- S06 d245: Capital locked $20, d246 weekday PTO lag expired. d185 zero redux: hold. Discipline through S6 close.
+- S06 d246: $20 floor holds. Broke + bookable = capital bleed. Discipline through S6 close.
+- S06 d247: D247: Capital floor $20 holds. Broke + peak-chase = d185 zero. Discipline through S6 close. S7 rebuild waits.
+- S06 d248: Locked at $20 through S6 close. Capital floor holds; d185 redux avoided. S7 rebuild waits.
+- S06 d249: S6 d250 holiday open but underfunded ($20 vs $80 floor). Discipline locked. Rebuild waits for S7.
+- S06 d250: Locked $20 through S6 close. Fleet hot but unreachable. PTO and capital preserved for S7 rebuild.
+- S06 d251: Locked at $20 through S6 close. No signal strong enough to justify capital bleed or future PTO lock. S7 rebuild waits.
+- S06 d252: Broke at $20 through close. D185 zero redux avoided by staying home. S6 full, S7 rebuild waits.
+- S06 d253: $20 floor holds. No bookable. Season close looms.
+- S06 d254: D185 zero: chasing boat signals without capital or conviction breaks edge. Broke = honest. S6 closed; S7 rebuild starts fresh.
+- S06 d255: D256 broke at $20 floor; no bookable trips. S6 discipline holds through close. S7 reset waits.
+- S06 d256: S6 d257: Broke at $20 floor through close. No bookable, no PTO commits. Held the line.
+- S06 d257: D257 close: $20 floor, 5 PTO locked, season winding. Hold discipline. S7 rebuild starts fresh.
+- S06 d258: Locked out: $20 budget, no PTO commits, d185 zero still stinging. Hold line through close. S7 rebuild next.
+- S06 d259: D259 THREE_QUARTER peak (2.369 yt/angler) visible but unfunded. Broke at $20 to close; discipline holds.
+- S06 d260: D260 close: broke at $20, locked out. Held line through d185 zero. Season 6 ends dry; S7 rebuild fresh.
+- S06 d261: D185 zero + early overcommit burned through. Watched d175–d182 peak (3.4 yt/angler) from sideline. S6 ends broke but intact: discipline held when it mattered.
+- S06 d262: Broke at $20 to close. S6 ends dry; discipline holds through. S7 reset next.
+- S06 d263: S6 d263 close: locked dry. Held $20 floor through final week. Season ends 13.75 fish, 10th place. S7 resets with new capital and full PTO.
+- S06 d264: D264 close: locked dry at $20, no bookable trips. Held through d175-d182 peak witness; S6 ends at 13.75 (10th), season over. S7 reset next.
+- S06 d265: D265 close: broke at $20, locked out. Held discipline to end. S7 resets fresh.
+- S06 d266: D267 locked dry (PTO too late, budget $20). Hold through close. S6 ends 13.75, rank 10.
+- S06 d267: D267 close: broke at $20. S6 ends dry but intact, 13.75 fish, rank 10. Season discipline held.
+- S06 d268: Locked dry at $20 again. S6 ends broke but intact (13.75 fish, rank 10). S7 reset next.
+- S06 d269: S7 d270: Broke at $20, no bookable trips. Watched peak fleet again from sideline. Hold through week.
+- S06 d270: D270 broke at $20, locked dry. End S6 intact with discipline. S7 reset next.
+- S06 d271: Broke at $20, last trip (d185) 0 yt. Holding dry through close. Season over.
+- S06 d272: D272 broke $20, no PTO d273. Hold dry through close. Last trip 0 yt, fleet weak. S6 endgame discipline.
+- S06 d273: D185 broke me (0 yt). Holding dry through close. S6 finishes 13.75 rank 10. Reset S7 clean.
+- S06 d274: Broke. d185 zero still stinging. Holding dry, accumulating capital for Phase 2 rebuild. No PTO commit until I can back it with money.
+- S06 d275: S6 closes dry at $20. Held d113-d276. S7 reset next: wait for regime signal + capital floor before gate 1.
+- S06 d276: S6 d276 final: $20, rank 10, 13.75 fish. Held d113-d276 (discipline) after missing d112+ peak. S7 reset: climate regime + capital floor protocol.
+- S06 d277: Broke, no PTO, fleet dead d277. Holding dry S6 close. D185 zero still locks the hold.
+- S06 d278: Broke $20, d185 zero locks hold. Dry through S6 close. S7 reset: wait capital + regime.
+- S06 d279: D279 broke, PTO lockout d280 (1 day late). Fleet HD heat (0.419) but off the board. Hold dry S6 close—reset S7 on climate + capital floor.
+- S06 d280: D280 final hold: $20 left, d185 zero locks it. S6 endgame discipline holds. Reset S7 on climate + capital.
+- S06 d281: S6 d282 unfunded ($20 left). Hold dry to close S6. Reset S7 on regime + capital floor.
+- S06 d282: S6 d282 final: $20 unfunded, hold dry to close. d185 zero locked endgame hold. Reset S7 on regime + capital.
+- S06 d283: S6 d283 endgame: $20 held dry d113-d284. Reset S7 on ONI + capital + fleet peak >0.2.
+- S06 d284: S6 d284 final hold: $20 lockout through close. S7 reset on ONI regime (1.7, El Niño) + capital rebuild. D185 zero discipline holds.
+- S06 d285: S6 endgame: $20 lockout, capital drained. Hold dry to close. S7 reset on ONI 1.7 El Niño + $0 rebuild floor.
+- S06 d286: S6 d286 endgame: $20 lockout, hold dry to close. Reset S7 on regime (El Niño ONI 1.7) + capital floor.
+- S06 d287: S6 endgame lockdown: $20 unfunded, no PTO path d288. Hold dry to close. S7 El Niño (ONI 1.7) reset d1: Phase 1 capital $800 floor, April-May peaks live.
+- S06 d288: S6 d288 final: $20 lockout, zero PTO path d289. Hold dry close. S7 reset Phase 1: ONI 1.7 El Niño, $800 capital floor d1.
+- S06 d289: S6 d289: Broke lockout $20, last d185 zero, can't book d290. Hold dry to close. S7 reset: ONI 1.7 El Niño, Phase 1 capital floor $800, April-May peaks live.
+- S06 d290: S6 final endgame: $20 lockout, fleet hot but unfunded. Hold dry to close. S7 reset: ONI 1.7, capital floor $800 Phase 1.
+- S06 d291: S6 d291 endgame: $20 locked, zero PTO/capital path d292. Hold dry into S7. Reset Phase 1 ONI 1.7 El Niño, $800 floor, April-May peaks live.
+- S06 d292: S6 d292 final hold. $20 lockout, cannot book. S7 reset d1: ONI 1.7 El Niño, Phase 1 $800 floor.
+- S06 d293: S6 d293 endgame: $20 broke, no PTO path. Hold dry to close. S7 reset live: ONI 1.7, Phase 1 $800 capital floor, April-May peaks.
+- S06 d294: S6 d294 final hold. $20 unfunded, no PTO path. Hold dry to close S7 reset d1.
+- S06 d295: S6 d295 final hold. $20 broke, no capital/PTO path. S7 Phase 1: ONI 1.7 El Niño, accumulate $800, April-May peaks live.
+- S06 d296: S6 d296 endgame: $20 broke, cannot book. Hold dry to close. S7 Phase 1 reset live: ONI 1.7 El Niño, April-May peaks, capital floor $800.
+- S06 d297: S6 final hold. $20 broke, cannot book. S7 reset: ONI 1.7 El Niño, April-May peaks live. Discipline paid: 70-day hold d113-d182, now ready to accumulate.
+- S06 d298: S6 d298 endgame: $20 broke, no PTO/capital path. Hold dry to close.
+- S06 d299: S6 endgame d300: $20 unfunded, no weekday PTO path. Hold dry to season close. S7 reset ready (ONI 1.7 El Niño, April-May heat live).
+- S06 d300: S6 d300 final hold. $20 lockout, PTO no weekday path. Close cleanly; S7 Phase 1 reset live (ONI 1.7 El Niño, April-May peaks).
+- S06 d301: S6 d301 final hold. S7 reset ready: ONI 1.7 El Niño, Phase 1 April-May heat d91-d120.
+- S06 d302: S6 final: $20 broke, no capital/PTO path. Season close confirmed; S7 reset live d1 (ONI 1.7 El Niño, April-May heat protocol active).
+- S06 d303: S6 final hold. $20 lockout persists. S7 Phase 1 reset: ONI 1.7, $800 capital floor, April-May heat d91-d120, discipline hold d1-d90.
+- S06 d304: S6 d304 final hold. $20 lockout confirmed. Season close d306+. S7 reset live d1.
+- S06 d305: S6 d305 final hold. Budget $20 and weekday PTO lag lock out d306. Season closes clean; S7 reset ready (ONI 1.7, April-May heat d91+).
+- S06 d306: d306 zero, d185 zero, $20 lockout. Hold dry to season close. Capital discipline is the real win.
+- S06 d307: S6 d307 endgame: $20, no weekday PTO path. Hold dry to d320. S7 reset ready—discipline rule locked (Phase 1 d91+: capital $800, class signal ≥0.2 yt/angler, water ≥18°C, all gates).
+- S06 d308: S6 d308 final hold: $20 lockout + weekday PTO lag. Season closes d320 clean. S7 Phase 1 El Niño reset ready (ONI 1.7).
+- S06 d309: S6 d309: broke, hold dry to d320. S7 Phase 1 reset d1 (ONI 1.7, three-gate rule live d91+).
+- S06 d310: S6 d310 lockout final: $20, d185 zero, hold 10 days to close. S7 reset live d1—three-gate rule, $800 Phase 1 floor, April-May heat active.
+- S06 d311: Budget lockout d312. Broke d185 on boat signal noise. Hold dry to S6 close; S7 Phase 1 reset d1 ($800 floor + three-gate rule live d91+).
+- S06 d312: Final lockout to d320. S6 discipline run holds. S7 El Niño Phase 1 live d1—gates armed.
+- S06 d313: Broke lockout d314-d320. Season discipline holds to close. S7 reset d1: capital $800, three-gate rule live at d91+.
+- S06 d314: Hold dry d315–d320. Capital lockout unbreakable. Season 6 close clean.
+- S06 d315: S6 d316: Dry to close. Capital lockout unbreakable, season 13.75 fish rank 10. Discipline holds d320.
+- S06 d316: S6 d317: Broke hard. Season 13.75 fish rank 10. Hold to d320 clean. S7 reset armed d1.
+- S06 d317: Dry to d320. Season 6 closes flat; $20 left, d185 zero penalty. S7 reset d1 with capital discipline intact.
+- S06 d318: D319 dry hold to season close. D185 broke discipline and cost the run. S7 reset d1 with capital locked back down.
+- S06 d319: Final hold to S6 close. S7 reset d1 with capital locked at $20 carry + phase 1 discipline rules live.
+- S06 d320: S6 d320: Hold dry to close. Capital locked $20, season 13.75 locked in, rank 10 holds. Discipline run intact.
+- S06 d321: S6 d322 hold dry. Budget + PTO locked. Season discipline intact.
+- S06 d322: d322 hold dry. Budget $20 lock, PTO commitment window closed for d323. Capital discipline intact to season close.
+- S06 d323: No capital, no trips. Hold to season 6 close, d320 discipline intact. S7 reset armed.
+- S06 d324: Season 6 d324: capital exhausted ($20), all trips ≥$80. d185 zero reinforced hold discipline. Dry to season close.
+- S06 d325: Budget exhausted, d325 hold. Season 6 dry to close; S7 reset capital locked at $20.
+- S06 d326: S06 d326–d327 final hold. Budget dry, PTO window closed for weekday. Discipline lock intact to season close.
+- S06 d327: S6 d327 hold dry. Budget $20 locked to S7 reset, PTO window closed. Discipline run holds to season close.
+- S06 d328: d329 hold dry. Capital $20 locked, season 6 discipline run (d113–close) intact. S7 reset armed.
+- S06 d329: S6 d330 hold dry, budget $20 locked to S7. d113–d330 discipline run holds to close; S7 reset armed.
+- S06 d330: S6 d330 hold. Season closes dry on discipline; S7 reset armed with $20 Phase 1 capital and 5 PTO days.
+- S06 d331: S6 d331 hold dry. Season closes broke on discipline; S7 reset locked at $20 Phase 1, 5 PTO days.
+- S06 d332: S7 d1 hold dry. Capital $20 locked, ONI 2.0 (El Niño regime). Watch fleet d1-d91; no signal yet. Three-Gate hold until Phase 1 peak arrives (target d91+).
+- S06 d333: S7 d333 hold dry. Fleet 0.022 d333, water barely 65°F. Phase 1 capital and PTO locked for real peak. Gate 1 fails; gate 3 ($20 < $800) fails. Discipline run holds.
+- S06 d334: S6 d334 hold dry. Discipline run intact to season close; S7 reset armed.

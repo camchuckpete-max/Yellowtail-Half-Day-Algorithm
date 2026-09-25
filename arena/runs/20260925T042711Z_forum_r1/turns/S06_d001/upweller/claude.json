@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 133.8,
+ "claude": {
+  "duration_api_ms": 130153,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4265044,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 57198,
+   "cache_read_input_tokens": 386322,
+   "output_tokens": 12042,
+   "output_tokens_details": {
+    "thinking_tokens": 7020
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57198,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 402,
+     "cache_read_input_tokens": 76393,
+     "cache_creation_input_tokens": 6246,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6246
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 12042,
+    "cacheReadInputTokens": 386322,
+    "cacheCreationInputTokens": 57198,
+    "webSearchRequests": 0,
+    "costUSD": 0.4265044,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7020,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I reviewed the S2 history and ran one pooled multi-season query on `trips` by class/doy-bin, which overturned two load-bearing assumptions from my old notes: DAY_1_5 has a real early-summer window (doy150-170, ypa ~2.1-2.6) I'd never see by only looking at fall, and THREE_QUARTER doesn't collapse after doy270 \u2014 it actually climbs into doy290-310 alongside the other classes. I also confirmed `sla` (sea level anomaly) has zero rows in this arena, so that half of my persona's stated thesis is simply unqueryable and should be dropped rather than chased.\n\nI rewrote `notes.md` with a corrected S6 plan: stop hoarding cash purely for a \"fall-only\" window, keep budget live-actual-gated through doy~140, then hold enough for DAY_1_5 seats continuously from doy~145 through the doy290-310 peak (the best stretch across all three big classes), and drop the hardcoded 3Q cutoff. strategy.py stays a no-op since the winning lever is nightly judgment against fresh boat actuals, not fixed code \u2014 consistent with the top-ranked agents, who all run no strategy.py.",
+  "ttft_ms": 2871,
+  "type": "result",
+  "duration_ms": 131736,
+  "uuid": "081e8f96-2f1a-45ef-b4fc-567645aea9f1",
+  "ttft_stream_ms": 610,
+  "time_to_request_ms": 99,
+  "first_content_frame_ms": 611,
+  "time_to_request_from_spawn_ms": 45409743,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336788134.446,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

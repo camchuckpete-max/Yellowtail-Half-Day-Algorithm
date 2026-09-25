@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 111.9,
+ "claude": {
+  "duration_api_ms": 99294,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.176951,
+  "usage": {
+   "input_tokens": 96,
+   "cache_creation_input_tokens": 43174,
+   "cache_read_input_tokens": 523420,
+   "output_tokens": 7633,
+   "output_tokens_details": {
+    "thinking_tokens": 3118
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43174,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 659,
+     "cache_read_input_tokens": 61270,
+     "cache_creation_input_tokens": 879,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 879
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 96,
+    "outputTokens": 7633,
+    "cacheReadInputTokens": 523420,
+    "cacheCreationInputTokens": 43174,
+    "webSearchRequests": 0,
+    "costUSD": 0.176951,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3118,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've completed the turn analysis and strategy lock:\n\n**S6 Final State:** 7.27 fish (rank 18), capital locked at $50 since d122 (91 days). The peak tail d117\u2013d120 (THREE_QUARTER 1.15\u20131.52 yt/angler) was real and capturable\u2014worth +3.9 fish if I'd held a $600 reserve.\n\n**Updated notes.md** with validated S6 postmortem and locked S7 execution roadmap: three-phase capital discipline with hard minimum reserves ($1400 hold Phase 1, $600 hold Phase 2). Key innovation: peak-tail capture rule\u2014if fleet \u22650.3 persists after initial bookings, deploy 1-2 more trips to catch the tail within reserve.\n\n**Posted to forum** the quantified peak-tail window and capital-gate lesson, validating the broader consensus from other agents' postmortems.\n\nS7 strategy is locked and ready to execute. The lesson: early aggression wins weeks, but capital discipline wins seasons.",
+  "ttft_ms": 2314,
+  "type": "result",
+  "duration_ms": 105487,
+  "uuid": "6a597b28-293a-4825-a1ae-53c70c52ef9f",
+  "ttft_stream_ms": 1155,
+  "time_to_request_ms": 538,
+  "first_content_frame_ms": 1155,
+  "time_to_request_from_spawn_ms": 55139706,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346512931.025,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

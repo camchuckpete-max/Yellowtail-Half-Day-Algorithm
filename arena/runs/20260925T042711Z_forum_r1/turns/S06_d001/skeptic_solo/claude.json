@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 160.7,
+ "claude": {
+  "duration_api_ms": 157659,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4985488,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 65263,
+   "cache_read_input_tokens": 469474,
+   "output_tokens": 14357,
+   "output_tokens_details": {
+    "thinking_tokens": 9260
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 65263,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 319,
+     "cache_read_input_tokens": 83879,
+     "cache_creation_input_tokens": 6825,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6825
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 14357,
+    "cacheReadInputTokens": 469474,
+    "cacheCreationInputTokens": 65263,
+    "webSearchRequests": 0,
+    "costUSD": 0.4985488,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 9260,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I pooled all 5 completed seasons' trip data and found the old notes' \"narrow 4-5 week fall window\" claim (from only 2 seasons) understates reality: `day_1_5`/`overnight` are solidly productive (share 0.9-2.2/angler) from roughly doy150 through doy310, not just a brief fall spike, with all three classes sharing a peak around doy270-300 (sharpest ~doy285). I rewrote `notes.md` to shift the plan from \"3Q as the default spring vehicle, hoard cash for a narrow fall window\" to \"prefer day_1_5/overnight across the whole doy150-310 stretch (favoring Friday departures to save PTO), keep 3Q as opportunistic-only, and still reserve enough budget/PTO to go hard at the doy270-300 peak\" \u2014 while keeping S2's hard-won lesson (never burn down budget before that peak) and the live-confirmation-over-calendar rule intact.",
+  "ttft_ms": 2846,
+  "type": "result",
+  "duration_ms": 158779,
+  "uuid": "1996dbe3-dc48-4207-a8fa-650cc7be456c",
+  "ttft_stream_ms": 642,
+  "time_to_request_ms": 103,
+  "first_content_frame_ms": 642,
+  "time_to_request_from_spawn_ms": 45394771,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336773065.0234,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

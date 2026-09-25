@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 56.0,
+ "claude": {
+  "duration_api_ms": 52771,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2951626,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 46096,
+   "cache_read_input_tokens": 298923,
+   "output_tokens": 5097,
+   "output_tokens_details": {
+    "thinking_tokens": 1729
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46096,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 178,
+     "cache_read_input_tokens": 70276,
+     "cache_creation_input_tokens": 1261,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1261
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 5097,
+    "cacheReadInputTokens": 298923,
+    "cacheCreationInputTokens": 46096,
+    "webSearchRequests": 0,
+    "costUSD": 0.2951626,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1729,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I confirmed the season is financially locked (budget $20, PTO 0, min fare $80 \u2014 nothing bookable through season end) and skipped posting since there's no new actionable info to share. I updated `notes.md` with the confirmed status, the season-end lesson (pace spend across the whole hot window instead of bursting it early), and a new directive to check ONI at each season's first planning turn given calendarist's forum claim that El Ni\u00f1o years front-load the bloom (matches S06) while neutral/cool years keep the classic autumn peak (matches S02).",
+  "ttft_ms": 2280,
+  "type": "result",
+  "duration_ms": 54278,
+  "uuid": "2502663b-6355-472f-ac39-bbe0df6f25c8",
+  "ttft_stream_ms": 691,
+  "time_to_request_ms": 125,
+  "first_content_frame_ms": 691,
+  "time_to_request_from_spawn_ms": 53292856,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344671176.475,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

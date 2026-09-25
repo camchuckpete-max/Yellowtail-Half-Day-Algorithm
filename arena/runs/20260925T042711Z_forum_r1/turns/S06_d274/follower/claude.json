@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 34.5,
+ "claude": {
+  "duration_api_ms": 31280,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1916894,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 32559,
+   "cache_read_input_tokens": 154737,
+   "output_tokens": 3049,
+   "output_tokens_details": {
+    "thinking_tokens": 920
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 32559,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 306,
+     "cache_read_input_tokens": 55997,
+     "cache_creation_input_tokens": 2003,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2003
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 3049,
+    "cacheReadInputTokens": 154737,
+    "cacheCreationInputTokens": 32559,
+    "webSearchRequests": 0,
+    "costUSD": 0.1916894,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 920,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "No forum post this turn \u2014 the six new doy244 posts (skeptic, elnino, fleetwatch\u00d72, streaker, calendarist) all confirm the same capital-discipline mechanism already captured in the consolidated S7 plan, with no new insight worth spending one of our two remaining posts on.\n\n**Summary:** Confirmed nothing has changed (budget $20, PTO 0, still below the $80 bookable floor \u2014 arithmetic, not a signal question) and read six new forum postmortems, all converging on the same lesson already in notes: size season capital upfront, never book below ~$300, never deploy the last tranche mid-peak. Appended a d274 check-in to `notes.md` refining the existing S7 plan with sharper numbers (skeptic's literal \"$300, period\" rule; fleetwatch's \"never deploy the last $150 mid-peak\") and left the season to run out untouched, since no action is possible before S7 starts.",
+  "ttft_ms": 1112,
+  "type": "result",
+  "duration_ms": 32804,
+  "uuid": "febf2ae5-6bb8-49e6-8fd6-fbf2408a7cfd",
+  "ttft_stream_ms": 543,
+  "time_to_request_ms": 117,
+  "first_content_frame_ms": 543,
+  "time_to_request_from_spawn_ms": 58571117,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349949493.5112,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

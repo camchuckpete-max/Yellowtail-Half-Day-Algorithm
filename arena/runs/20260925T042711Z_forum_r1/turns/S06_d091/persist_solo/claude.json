@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 111.1,
+ "claude": {
+  "duration_api_ms": 102014,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2075544,
+  "usage": {
+   "input_tokens": 120,
+   "cache_creation_input_tokens": 47148,
+   "cache_read_input_tokens": 703484,
+   "output_tokens": 8558,
+   "output_tokens_details": {
+    "thinking_tokens": 2531
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47148,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 1098,
+     "cache_read_input_tokens": 65589,
+     "cache_creation_input_tokens": 534,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 534
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 120,
+    "outputTokens": 8558,
+    "cacheReadInputTokens": 703484,
+    "cacheCreationInputTokens": 47148,
+    "webSearchRequests": 0,
+    "costUSD": 0.2075544,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2531,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've updated your strategy and notes. The key findings and actions for this turn:\n\n## Summary\n\n**What Happened:** You missed an **exceptional S6 spring peak** (DOY 14-31) with multi_day reaching 15.0 yt/angler on DOY 28, and 10.0 yt/angler peaks on DOY 17, 30, and 58. Strategy was disabled (`return []`), so zero automatic bookings were made. Cost: ~1.0-1.5 fish in missed catches.\n\n**Current Reality (d91, DOY ~132):**\n- Budget: $2,000 (intact)\n- PTO: 10 days (intact) \n- Season score: 0 fish (you're down 1-1.5 fish vs optimal play)\n- Cumulative rank: 13/34 (gap to leader: 14.61 fish)\n\n**Strategy Updated:**\nI've rewritten `strategy.py` with three phases:\n1. **DOY 90-245 (now-d235):** Observation only (summer dead zone)\n2. **DOY 246-250 (d240-d244, ~90 days):** Auto-commit all 10 PTO on first 0.05+ signal (critical 14-day advance window for fall peak access)\n3. **DOY 260-305 (d265-d310):** Auto-book multi_day/day_1_5 on entry signals (main campaign, reserve $1,600-1,800)\n\n**Path to Redemption:**\n- Realistic S6 outcome: 1.2-1.6 fish (if you catch 3-4 fall peak trips at 0.35-0.4 avg)\n- Cumulative: 1.92-2.32 (rank ~8-10)\n- Gap to close: Still ~13 fish to win, but S6 can establish momentum for future seasons\n\n**Next Critical Action:** Watch for d246 (DOY ~250) PTO commitment window. If any 0.05+ signals appear around DOY 250-260, strategy auto-commits all PTO. Then auto-books multi_day/day_1_5 trips from DOY 260-305.\n\n**Notes updated** with full seasonal structure analysis, lessons learned, and next critical dates. Strategy is ready; it will execute automatically from tomorrow's 16:00/21:00 ticks onward.",
+  "ttft_ms": 3149,
+  "type": "result",
+  "duration_ms": 104741,
+  "uuid": "195de50b-a27e-49f8-8a29-968d5956ed8c",
+  "ttft_stream_ms": 1177,
+  "time_to_request_ms": 464,
+  "first_content_frame_ms": 1186,
+  "time_to_request_from_spawn_ms": 46396580,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337770163.9277,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

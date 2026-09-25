@@ -1,0 +1,486 @@
+- S02 d091: Dead zone phase confirmed: 0 yt across all classes past 7 days, 5 yt in 536 trips all season. Dormant hold until doy 260+ when historical peak fires up.
+- S02 d092: Dead zone doy 92; last 7d all 0.000 catch. Model: hold until doy 260+ scout, peak doy 280-295 (1.12+ yt/angler). Preserve all.
+- S02 d093: No boats available. Doy 93 = spring dead zone (S2: 5 yt/536 trips). Hold all capital & PTO for peak doy 280-299 (1.12+ yt/angler). Model confirmed.
+- S02 d094: Dead zone hold. Peak doy 280-295 (1.12+ yt/angler) target: 3-4 day_1_5 trips, $1700 budget, commit PTO doy 266+.
+- S02 d095: Dead zone hold (doy 95). Bookable offers 0–0.24 yt/angler; peak doy 280+ is 1.12+ yt/angler (~12–22x better EV). Preserve capital and PTO."
+- S02 d096: Doy 97 dead zone (0.240 yt/angler best vs 2.450 expected doy 280-295, ~10x better EV). Hold all capital and PTO for peak season.
+- S02 d097: Dead zone hold (doy 98). All recent trips 0.000 yt/angler; preserve $2k for peak doy 280–295. Rough forecast (18–25kt, cold 60.8°F).
+- S02 d098: Doy 99: Dead zone hold. Last 7d nearly all 0.000; one THREE_QUARTER outlier (0.636 d096) does not break pattern. Preserve capital for peak doy 280–295 (1.1–1.2 yt/angler).
+- S02 d099: Doy 100 dead zone hold. THREE_QUARTER 0.075 recent yt/angler vs 1.12+ peak doy 280–295 (~15× EV gap). Preserve capital and PTO.
+- S02 d100: doy 101 dead zone hold. TWILIGHT only bookable, zero boats available. Peak doy 280–299 still 1.12+ yt/angler (~2× better EV). Preserve all capital and PTO.
+- S02 d101: Doy 102 dead zone hold. Actual last-30d results 0.000–0.016 yt/angler vs peak doy 280–295 at 1.12+ (70–100× better EV). Preserve $2k and 10 PTO days for peak season assault.
+- S02 d103: Dead zone hold (doy 103). Peak doy 280–295 is 50–100× better EV; preserve all capital and PTO for late September assault.
+- S02 d104: Doy 104 dead zone. Bookable DAY_1_5: Voyager 0.000 yt/angler; peak doy 280–295 is 50–100× better EV. Preserve $2k and 10 PTO.
+- S02 d105: Dead zone hold (d105, doy 105). Fleet 0.017 yt/angler vs 1.15+ peak (doy 280–295). Preserve $2k and 10 PTO.
+- S02 d106: Dead zone hold (doy 107). Yesterday's 0.234 THREE_QUARTER outlier; fleet 30d avg 0.044. Preserve $2k + 10 PTO for doy 280–295 peak (1.2+ yt/angler, 7× better EV).
+- S02 d107: Dead zone hold (doy 108). Fleet 0.044 yt/angler vs peak 1.175 (26× EV gap). Preserve $2k + 10 PTO for doy 280–295 assault.
+- S02 d108: Dead zone hold (doy 108). Fleet 0.040 yt/angler vs peak 1.15+ (doy 280–295). Preserve $2k and 10 PTO for fall assault.
+- S02 d109: Dead zone hold (doy 110). Fleet 0.065 yt/angler vs peak doy 280–295 at 1.12+ (50–100× EV gap). Preserve $2k and 10 PTO for fall assault.
+- S02 d110: Doy 111 dead zone hold. Fleet 0.065 yt/angler vs 1.12+ peak (17× gap). Water 60.8°F. Preserve $2k + 10 PTO for fall assault doy 280+.
+- S02 d111: Dead zone hold (doy 112). Fleet 0.051 yt/angler best, water 56°F. Preserve $2k + 10 PTO for doy 280+ peak (1.12+ yt/angler, 20–50× EV gap).
+- S02 d112: Doy 112 dead zone hold. Fleet 0.078 yt/angler 30d avg vs 1.15+ peak at doy 280–295 (14.7× EV gap). Preserve $2k + 10 PTO for fall assault.
+- S02 d113: Pre-peak hold. Water 62.6°F warming; boats underperforming (0.038–0.164 vs 0.523 typical). Preserve $2k+10PTO for Oct 5–14 peak (1.12–1.20 yt/angler, 7× EV).
+- S02 d114: Dead zone hold (doy 114). Fleet 0.036 yt/angler vs peak 1.12+; preserve $2k+10PTO for doy 280+.
+- S02 d115: Dead zone hold d115–116. Preserve $2k+10PTO for doy 280–295 peak (1.12–1.20 yt/angler, 15–50× EV vs now).
+- S02 d116: Doy 116 dead zone hold. Fleet 0.000 yt/angler d114-116 confirms stagnation. Preserve $2k+10PTO for doy 280+ peak (1.12–1.20 yt/angler, 20–50× EV).
+- S02 d117: Doy 117 hold. Fleet 0.034 yt/angler (7d avg) vs doy 280–295 peak at 1.12+ (33× EV). Preserve $2k+10PTO for Oct assault.
+- S02 d118: Hold $2k+10PTO for peak (doy 280–295). Fleet 0.174 yt/angler vs 1.12+ historical; water 62.3°F < 64°F. Monitor Sep 27–28 for ramping, then commit for Oct 12+ trips.
+- S02 d119: Doy 119 dead zone; fleet 0.007–0.071 yt/angler vs Oct peak 1.12+ (16–150× EV gap). Monitor water temp Sep 27–28, ready to commit PTO by Sep 29 for Oct 12+ assault.
+- S02 d120: Doy 120 dead zone: fleet 0.007–0.071 yt/angler vs Oct peak 1.12+ (160d, 16–150× EV gap). Hold $2k+10PTO for Oct assault. Water 62.3°F < target 65°F.
+- S02 d121: Doy 122 dead zone, no bookable trips. Hold $2k+10PTO. Watch for doy 260+ scout signal (water temp, fleet ramp).
+- S02 d122: S02 d122 hold. Phase 1 preservation (doy 91–260). Capital + PTO reserved for doy 280+ peak assembly (1.12+ yt/angler vs current 0.000).
+- S02 d123: Scout phase active. Monitor Sep 27–28 water and fleet for Oct peak; commit PTO by Sep 29 only if signals flip (water ≥64°F, fleet catches).
+- S02 d124: Doy 124 dead zone hold. TWILIGHT $80 @ 0.000 EV rejected. Full capital+PTO reserved for Oct peak. Monitor d127–128 for scout flip (water ≥64°F, fleet spike).
+- S02 d125: Phase 1 hold d125. Water 60.1°F, fleet dead. Monitor d127–128 for scout flip signals (water ≥64°F, fleet spike).
+- S02 d126: d127 pass. Phase 1 hold; water 61.7°F, fleet dead. Reserve capital and PTO for Oct peak assault doy 280+.
+- S02 d127: Doy 269 Phase 2 scout. Water 60.8°F (< 64°F target), fleet dead. Watch doy 270–274 for peak signal flip.
+- S02 d128: Phase 2 scout d128/doy269. No bookable boats. Water 60.8°F, fleet dead. Monitor d130–134 for peak signal flip (water warm-up, fleet spike).
+- S02 d129: d130 Phase 2 monitor. Water 61°F, fleet 0.000. Hold; commit PTO by Sep 29 only if water ≥64°F + fleet spike.
+- S02 d130: d131 pass; Phase 1 hold. Water 60.6°F, fleet dead. Scout window Sep 27–29 before Oct peak commitment deadline.
+- S02 d131: Doy 274 hold. Water 62.1°F, no fleet spike—pass doy 287 window. Monitor Sep 26–27, commit by Sep 29 for doy 290+ peak."
+- S02 d133: Hold doy 277 (dead zone). Commit PTO doy 290-297 for Oct peak. Scout trigger not met; capital + flex PTO reserved for confirmed peak assault.
+- S02 d134: Phase 2 hold d135. Water 62.6°F, fleet dead. Monitor Sep 27–29 for peak signal; commit PTO+book scout if ≥64°F + spike.
+- S02 d135: d136 pass. Water 63.9°F on target, 3 local reports. Hold capital + PTO; monitor Sep 27–29 window for peak scout trigger (fleet spike confirmation).
+- S02 d136: Phase 1 hold d137. Fleet flat, no TWILIGHT upside. Monitor Sep 27–29 for water ≥64.5°F + fleet spike to trigger Phase 2 scout.
+- S02 d137: Phase 1 hold d138. Water 62.4°F, fleet flat. Monitor Sep 27–29 for peak trigger (≥64.5°F + spike); commit d283–289 scout if signal flips.
+- S02 d138: Phase 1 hold d139. Monitor Sep 27–29 for peak trigger (≥64.5°F + spike). Capital + PTO reserved for scout if signal confirms.
+- S02 d139: Phase 2 monitor window opens Sep 27. Water 63.7°F (target 64.5°), fleet flat. Hold until trigger confirms.
+- S02 d140: Phase 1 hold d141. Water 63.9°F, fleet flat. Monitor Sep 27–29 for peak trigger (≥64.5°F + spike); capital + PTO intact for Phase 3.
+- S02 d141: d141 21:00: Water warming (65.1°F) but fleet flat (0 yt/7d). Trigger not fired; stay home. Monitor d143–144 for dual uptick.
+- S02 d142: Phase 1 hold d143. Water 64.0°F (just below trigger 64.5°), fleet dead. Monitor d143–144 for uptick, peak window Sep 27–29.
+- S02 d143: d143–144: Phase 1 hold. Water 63.9°F, fleet dead. Monitor Sep 27–29 for peak trigger before Phase 2 scout.
+- S02 d144: d144 spike confirmed: 65.1°F water, THREE_QUARTER 3.583/angler (San Diego 103 yt). Monitor d145–d146 for sustained signal; Phase 2 scout trigger pending confirmation.
+- S02 d145: d144 spike (3.583 THREE_QUARTER) + water 66.6°F confirm trigger. Await Sep 27–29 dual-signal before Phase 2 scout commit. Stay home d146.
+- S02 d146: Trigger live: 66.7°F water + 0.512 overnight. Await Sep 27–29 sustained uptick before Phase 2 scout. All Phase 3 PTO (d290–297) reserved and ready.
+- S02 d147: Trigger live 66.6°F + fleet 0.306–0.471. Hold d148; critical Sep 27–29 window 2 days out. Scout phase post-d151 if sustained.
+- S02 d148: d148 collapse (0.000 HD_AM/PM): Sept uptick was false alarm. Stay Phase 1 through d259. Peak window d280–295 remains target.
+- S02 d149: Sept uptick false alarm confirmed. d148 collapse + 63.9°F water; Phase 1 dormant hold resumes. Monitor d250+ for October peak trigger.
+- S02 d150: Dormant hold d151. Sept spike false alarm; fleet collapsed, water cooling. Resume Phase 1 through mid-Oct. Monitor doy 260+ for phase 2 scout trigger.
+- S02 d151: Phase 1 hold d152. Fleet dead, water cooling. Scout phase trigger (d260+) remains 109 days out; monitor Oct 4+ for water rise signal.
+- S02 d152: d152 dormant hold. Phase 2 trigger (d260+) still 108 days out; water cooling, fleet collapsed post-May 15.
+- S02 d153: Phase 1 hold d154. Water cooling (58.3°F), fleet dead, trigger window still 107 doys out. Stay course.
+- S02 d154: d155 dormant hold. Fleet collapsed again (0.000 avg HD, 0.129 avg 3Q last 14d). Water 61.5°F cooling. Phase 2 scout trigger (doy 260+) 106 days out; stay disciplined.
+- S02 d155: Phase 1 hold d156. Fleet dead (0.322 max 3Q), water cooling (61.5°F). Doy 260+ trigger 105 days ahead; peak locked (d290–294). Stay course.
+- S02 d156: d157 hold (Phase 1 dormant continues). Fleet dead, water cooling. Scout window (doy 260+) remains 123 days out.
+- S02 d157: Phase 1 hold d158. Fleet dead, water marginal. PTO locked for Phase 3 (d280–294, d297). Scout trigger (d260+) 102 doys ahead.
+- S02 d158: Phase 1 dormant hold d159. Fleet 0.000 class avg d157–d158, 61.5°F. Phase 2 trigger (doy 260+) 101 days out. Stay disciplined.
+- S02 d159: Phase 1 dormant hold d161. Fleet 0.000 avg, water 61.7°F. Doy 260+ scout trigger 100 days ahead.
+- S02 d160: D160 Phase 1 dormant hold. Fleet dead (0.000 avg d157–160), water 61.5°F. Doy 260+ trigger 99 days out. No edge.
+- S02 d161: Phase 1 hold d162. Fleet dead, water cooling (62.2°F). Peak trigger 127 doys ahead (doy 288).
+- S02 d162: Phase 1 hold d163. Fleet dead, water cooling. Peak trigger doy 288, 126 days ahead. Stay course.
+- S02 d163: Phase 1 hold d165. Fleet 0.000–0.023, water cool. Doy 260+ scout trigger 97 days out. Discipline holds.
+- S02 d164: d164 Phase 1 hold d165. Fleet dead, water stalled. Doy 260+ trigger 96 days out. Discipline.
+- S02 d165: Phase 1 hold d166. Fleet still dead (0.000 d165–d166 avg), water warming slightly. Scout trigger doy 260, ~95 days ahead. Discipline.
+- S02 d166: d166 dormant hold, d167 unbookable (PTO constraint, no TWILIGHT boat). Doy 260 trigger 94 days out. Stay disciplined.
+- S02 d167: Dormant hold d167. Dead fleet (last 30d OVERNIGHT 0.131, DAY_1_5 0.055). Discipline: Phase 1 runs 93 more days. Peak window locked for doy 280–299.
+- S02 d168: d168 THREE_QUARTER spike (0.509) and warming water (65.3°F) noted; Phase 1 hold. Scout trigger doy 260, 92 days ahead. Discipline.
+- S02 d169: Scout d170 Mission Belle. Hold PTO commit pending tomorrow's result—if fire, trigger Phase 3 doy 274+ next week.
+- S02 d170: d171 dormant hold. Fleet 0.000–0.058; dead zone continues. PTO locked for doy 290+. Discipline: 110 days to peak.
+- S02 d171: Phase 1 hold d172. Fleet dead, water cooling. Scout trigger doy 260 still 89 days out. Discipline.
+- S02 d172: Discipline: fleet dead, d173 unbookable, PTO held for peak. Phase 1 dormant continues.
+- S02 d173: Phase 1 hold d174; dormant fleet, PTO secured for doy 280+ assault. Scout trigger 87 days ahead.
+- S02 d174: Phase 1 hold d175; fleet dormant, water cooling. Peak window doy 280+ locked. Discipline pays.
+- S02 d175: Phase 1 hold d176–d259. Fleet dormant, water cooling. Budget $1850 intact for doy 280+ peak assault (target 3–4 day_1_5 trips). PTO doy 290+ locked; await scout trigger doy 260+.
+- S02 d176: Phase 1 hold d177; fleet dead, budget locked for doy 280+ assault. Scout trigger 84 days ahead.
+- S02 d177: Phase 1 hold d178–d259. Fleet dormant; d178 PTO unavailable anyway. Budget and PTO locked for doy 280+ peak assault. Scout trigger ~83 days ahead. Discipline.
+- S02 d178: Dormant hold d179–d259. No bookable option; TWILIGHT 0.000 yt/angler and unbookable. Budget locked for peak doy 280+. Discipline.
+- S02 d179: d179 fleet dead 0.000 across all classes. Stay dormant; phase 1 hold d180–d259. All resources locked for doy 280+ peak assault.
+- S02 d180: d180 fleet dead, water cooling. Phase 1 hold continues; scout trigger ~80 days ahead (doy ~260). Budget and PTO locked for peak doy 280+.
+- S02 d181: Phase 1 dormant hold d181–259 locked. Fleet dead, water cooling. Scout trigger doy 260.
+- S02 d182: Phase 1 hold d183–259. Water 57.2°F, fleet dormant. Scout trigger 77 days ahead (doy 260). Discipline.
+- S02 d183: Dormant d184. Fleet dead 0.000; water 59.5°F cooling. Scout trigger 76 days ahead (d259). Budget+PTO locked for peak doy 280+.
+- S02 d184: Scout phase active. Fleet dead, water cooling. Hold for warmth and fleet signal around doy 275+.
+- S02 d185: d185 dead zone hold, dormant through d259. Scout trigger ~75 days ahead (doy 260).
+- S02 d186: d187 dead zone; fleet 0.000 all classes. Dormant phase d180–259 hold. Water 68.7°F warm but no fleet signal yet. Scout trigger d259.
+- S02 d187: d188: Fleet dead, water cooling. Phase 1 hold d189–259 locked. Scout trigger d259; assault phase d280+.
+- S02 d188: d188 dormant hold steady. Fleet dead, water 61.3°F cooling. Scout trigger 71 days ahead (d260). Discipline.
+- S02 d189: Dormant d189–259 hold. Fleet dead, water cooling. Scout trigger d260 (71 days). Locked assault d290+.
+- S02 d190: D191 dormant hold. Scout trigger d260 (~70 days). Fleet dead, water flat. Budget and PTO locked for peak d280+.
+- S02 d191: d191 hold. Fleet 0.000, water 69.4°F warming but silent. Scout d260 (~69 days). Budget intact.
+- S02 d192: Dormant d192–259 hold locked. Scout trigger remains d260 (~68 days). Fleet 0.000 yesterday, no action.
+- S02 d193: Dormant hold d194–259. No bookings; TWILIGHT 0.000 EV. Scout d260 (~67 days).
+- S02 d194: d195 pass. Dormant hold d194–259 locked. Scout d260, assault d280+.
+- S02 d195: d196 pass, dormant hold d194–259 locked. Scout d260 (~65 days).
+- S02 d196: Dormant d197–259 hold locked. Fleet dead yesterday 0.000 fleet-wide, water 68°F warm but silent. Scout trigger d260 (~64 days).
+- S02 d197: Dormant hold d198–259. Fleet dead, water 70°F flat. Scout trigger d260 (~63d). Budget and PTO intact for fall peak assault.
+- S02 d198: d199 pass. Dormant hold d200–259 locked. Scout trigger d260 (~66d). TWILIGHT 0.000 EV waste; all resources reserved for peak assault d280+.
+- S02 d199: d200 pass. Fleet 0.000, water 71°F, TWILIGHT EV waste. Dormant d200–259 locked. Scout d260 (61d).
+- S02 d200: Dormant hold d200–259 locked. Fleet 0.000 yesterday, water 70.5°F, no signal. Scout trigger d260 (66d). All resources reserved for peak d280+.
+- S02 d201: d202: TWILIGHT 0.000 EV waste. Fleet dead, water 68.9°F. Hold dormant d202–259; scout trigger d260 (58d out).
+- S02 d202: d203: dormant hold continues. Conditions flat, fleet silent. Scout trigger 58 days out (d260).
+- S02 d203: Dormant d200–259 hold continues. One uptick day is noise; stay on model. Scout trigger 57 days out (d260).
+- S02 d204: Dormant d205–259 hold locked. Fleet dead, all resources reserved for peak d280+.
+- S02 d205: Dormant d206–259. Scout trigger ~d260 (55 days). All reserves for peak d280+.
+- S02 d206: Dormant d207 pass. Scout trigger d260 (54d). All reserves locked for peak d280+.
+- S02 d207: Dormant hold d208–d259. S02 d207 THREE_QUARTER 0.449 is noise; model holds. Scout d260 (53 days). All PTO locked for peak d280+.
+- S02 d208: Dormant d209–259. Scout trigger d260 (52d). All resources locked for peak d280+. Model holds.
+- S02 d209: d209 OVERNIGHT blip is noise. Hold dormant, scout trigger d260 (52 days). All reserves locked for Oct peak.
+- S02 d210: d211 pass. Fleet dead, dormant hold intact. Scout trigger d260 (50 days). All reserves locked for peak d280+.
+- S02 d211: Dormant hold, d212 pass. Fleet dead, scout d260 (49 days). All resources locked for Oct peak.
+- S02 d212: Dormant d213–259 hold intact. Fleet dead, all reserves locked for peak d280+.
+- S02 d213: d214 pass. Fleet dead, dormant d213–259 hold intact. Scout trigger d260 (47 days). All reserves locked for peak d280+.
+- S02 d214: d215 pass, dormant d216–259 intact. Scout trigger d260 (46 days). All 4 remaining PTO locked for October peak.
+- S02 d215: Dormant d216; fleet dead, hold dormant through d259. Scout trigger d260 (45 days). All resources locked for peak.
+- S02 d216: Dormant d216–259 hold intact. Fleet dead, all resources locked for peak. Scout d260 (44 days).
+- S02 d217: Dormant d218–259 hold intact. Spring dead zone confirmed; all 4 PTO and $1850 locked for Oct peak (d290+). Scout trigger d260 (42 days).
+- S02 d218: Dormant d219–259 hold intact. Fleet dead, all resources locked for peak. Scout trigger d260 (42 days).
+- S02 d219: Dormant d220–259 hold intact. All resources locked for peak d280+. Zero EV on only available option.
+- S02 d220: Dormant d221–259 hold intact. Scout trigger d260 (40 days). All PTO and capital locked for October peak d280+.
+- S02 d221: Dormant d222–259 hold intact. Zero EV on only bookable option (TWILIGHT 0.000 yt/angler). Scout trigger d260 (39 days). All capital and 4 PTO days locked for October peak.
+- S02 d222: Dormant hold d223–259 intact. TWILIGHT unbookable (0.000 EV). Scout trigger d260 (37 days).
+- S02 d223: Hold dormant d224–259. Scout d260 (36 days). All capital and PTO locked for October peak.
+- S02 d224: Dormant d225 confirmed. Spring dead zone holds. All capital and PTO locked for October peak d290+. Scout trigger d260 (35 days).
+- S02 d225: Dormant d226–259 hold confirmed. Spring dead zone persists; model EV negative on all bookable classes. Scout trigger d260 (34 days).
+- S02 d226: Dormant d227–259 hold intact. Spring dead zone confirmed; zero EV on all bookable classes. Scout trigger d260 (33 days). All capital and 4 PTO days locked for October peak.
+- S02 d227: Dormant d227–259 confirmed. Spring dead zone; zero EV tomorrow. Scout phase triggers d260 (33 days ahead).
+- S02 d228: Dormant d230–259 hold intact. Spring dead zone persists; zero EV on all available classes. Scout trigger d260 (32 days). All capital and PTO locked for October peak.
+- S02 d229: Dormant d230–259 confirmed. Spring dead zone; zero bookable EV. Scout trigger d260 (30 days). All capital and PTO locked for October peak.
+- S02 d230: Spring outlier (d228: 1.015) noted. Dormant hold confirmed. Scout trigger d260 in 29 days; capital and PTO preserved for October assault.
+- S02 d231: Dormant hold continues. 29 days to doy 260 scout window; water temp and catch data will reset model then. Capital and PTO preserved for October peak.
+- S02 d232: Spring dead zone hold. 27 days to scout trigger d260; capital and PTO fully reserved for October assault.
+- S02 d233: Dormant hold d233–259 confirmed. Dead zone persists; zero EV on all bookable. Scout trigger d260 (27 days). Capital and PTO locked for October assault.
+- S02 d234: Dormant d235–259 hold confirmed. All classes 0.000 EV; stay home. Capital and PTO locked for October.
+- S02 d235: Dormant d236–259 hold. Scout trigger d260 in 25 days; water temps and October build remain on track.
+- S02 d236: Dormant d237–259. Scout trigger d260 in 24 days; capital and PTO locked for October assault. All classes dead-zone; zero bookable EV.
+- S02 d237: Dead zone d237–259 confirmed. Scout trigger d260 in 23 days; capital and PTO fully locked for October assault. Stay disciplined, stay home.
+- S02 d238: S02 d238: Dormant hold confirmed d239–259. Scout trigger d260 in 22 days; capital and PTO locked. Water 67.5 °F, no breakout signal.
+- S02 d239: Dormant hold d240–259 confirmed. All bookable d240 options dead-zone EV; stay home. PTO locked (d290–d297 already committed). Scout trigger d260 in 21 days.
+- S02 d240: Dead zone confirmed through d259. Scout trigger d260 in 20 days; capital and PTO locked for October assault.
+- S02 d241: Dormant hold d241–259 confirmed. Scout trigger d260 in 20 days; all classes dead-zone. Capital and PTO locked for October peak. Stay home.
+- S02 d242: Dormant hold d242–259 confirmed. Water warming (70.2 °F) but too early; d260 scout trigger in 18 days. Capital and PTO locked for October assault.
+- S02 d243: Dormant hold d244–d259. Scout trigger d260 in 16 days; capital and PTO locked for October assault.
+- S02 d244: Hold through d259. Scout trigger d260 in 16 days; water and fleet confirm dead-zone economics persists. Capital locked for October assault (d290–297 already committed).
+- S02 d245: Dormant hold d246. Mission Belle spike noise; water cold, flat trend. Scout trigger d260 in 15 days. Capital locked for October peak.
+- S02 d246: Hold d246–d259. Scout trigger d260 in 14 days; water warming watch begins late September. Capital/PTO locked for peak assault (d280–297).
+- S02 d247: Dormant hold d248. Holiday EV weak; water and fleet confirm dead zone through d259. Scout window d260 still 13 days; revisit PTO commit d246 if warranted.
+- S02 d248: Dormant hold d249. Scout d260 in 12 days; October peak d290–297 locked. No bookable trips. Stay home.
+- S02 d249: Hold d249–259. Scout signal watch d260 (11 days); capital/PTO locked for October peak. Dead-zone model confirmed.
+- S02 d250: Dormant hold d250–259 continues. Scout trigger d260 in 10 days; no early PTO commits until scout clears. Dead zone confirmed (fleet 0.000+ avg).
+- S02 d251: Hold dormant d252. Scout trigger doy 260 (+9 days); capital locked for October peak (d290+). One OVERNIGHT spike ≠ turn signal.
+- S02 d252: Hold d253 dormant. Scout trigger d260 (+7 days); water warming watch begins late September. Capital/PTO locked for October peak (d290–297).
+- S02 d253: Dormant d254. Scout d260 in 7 days; hold capital and PTO for peak doy 280–297. Dead zone confirmed through d259.
+- S02 d254: Dormant d255; dead zone confirmed. Scout trigger d260 (+6 days). Hold capital and PTO for October peak (doy 280–297).
+- S02 d255: Dormant hold d256. Scout trigger d260 in 5 days; dead zone confirmed through d259. Capital and PTO locked for October peak (d290–297).
+- S02 d256: Dormant hold d257. Scout trigger d260 in 4 days; dead zone confirmed through d259. Water warming watch; await sustained signal.
+- S02 d257: Dormant d258. Scout trigger d260 in 3 days; water temp rising (67.1°F) but no sustained signal yet. Dead zone confirmed through d259.
+- S02 d258: Dormant d259. Scout d260 tomorrow (water still 59°F). Hold capital for October peak.
+- S02 d259: d260 scouted, no trigger. Water cooling (58.1°F), fleet spike likely noise. Hold capital for October peak doy 280–297.
+- S02 d260: d260 scouted, no trigger confirmed. Hold dormant; dead zone persists. Peak doy 285+ is the target.
+- S02 d261: d261 dormant hold confirmed. Scout d260 no trigger. Hold 4 PTO days for d270–280 phase decision point; peak phase (d290–294, d297 locked) remains on target if S1 pattern emerges.
+- S02 d262: D262 dormant hold. Phase 2 scout ongoing (d260–280), no trigger yet; dead zone confirmed. Peak target d285–295 locked and funded. Water 61°F, warming watch active.
+- S02 d263: Scout phase live (d260–280), peak locked (d290–d297). No bookings; awaiting water temp ≥17.5°C or fleet consensus >0.2 yt/angler to trigger pre-peak trips.
+- S02 d264: Dormant hold d265. Scout phase closing d260–d280 without trigger. Peak d290–d297 locked and funded.
+- S02 d265: Dormant d266. Scout phase ongoing; water temp 59.7°F (target 63.5°F) still below trigger. Hold capital for peak d290–297.
+- S02 d266: Scout triggered on live THREE_QUARTER signal; water warming, fleet unexpectedly active. Confirm if peak early or noise before peak phase d290+.
+- S02 d267: San Diego d268 scout trip. Confirm THREE_QUARTER hot signal before d280+ assault phase. Hold 4 PTO days for peak d290–297 lock-in decision after d268 results.
+- S02 d268: d268 scout collapsed (0.019 share). Hold dormant; water warming (18.8°C) and chatter rising, but Phase 2 signal still noisy. Peak d290–297 locked. Re-evaluate in 3–5 days.
+- S02 d269: Scout d260–280 weak signal continues; d269 THREE_QUARTER fleet 0.375 yt/angler noted but water cold (54.9°F), own access constrained by PTO. Hold for peak d290–297 window trigger.
+- S02 d270: Dormant hold d271. Water cold (54.9°F), signal noisy. Reassess d273–276 for warming trend + fleet >0.2 yt/angler to trigger d285+ PTO commit.
+- S02 d271: Scout window (d271), water cold (56.7°F), TWILIGHT worthless. Hold for d273+ exploratory or peak d290+ trigger after warmer signal + fleet consensus >0.25 yt/angler confirmed.
+- S02 d272: d272 scout: water 59°F (need ~63.5°F), fleet mixed (d271 DAY_1_5 5.000 but d272 weak). Hold for d274+ with sustained warming signal + multi-class consensus >0.25 yt/angler.
+- S02 d273: d274 hold. Water 61.2°F warming trend, fleet signal 0.173 yt/angler below 0.25 trigger. Scout phase exploratory day_1_5 locked out by PTO timing. Continue monitoring d275–280 for peak signal (63.5°F + multi-class >0.25); prepare assault-phase PTO commit if triggered.
+- S02 d274: Water 63.5°F warmed to threshold, but THREE_QUARTER fleet signal crashing (d270–d274: 0.487→0.038). Hold for peak d290+; preserve capital.
+- S02 d275: d275 dormant hold. Water 61.2°F warming but fleet weak (0.020 yt/angler d275). Peak d290–295 target remains 50–70× better EV. Monitor d276–280 for sustained warming + fleet >0.25 yt/angler threshold to trigger scout or confirm assault lock-in.
+- S02 d276: Hold d277. Water warming (63.9°F), d276 THREE_QUARTER 0.800 strong signal but single outlier. Peak d290–297 locked; wait for sustained multi-class consensus >0.25 yt/angler d276–280 to confirm firing.
+- S02 d277: d278 no access (TWILIGHT no boats, weekday classes need PTO). Water 63.7°F threshold hit; fleet still weak (d277 flat). Hold for d290+ peak locked.
+- S02 d278: d279 no play—TWILIGHT zero EV, weekday classes locked out by PTO timing. Peak d290+ locked; hold capital and remaining 4 PTO days.
+- S02 d279: d280 DAY_1_5 Ocean Odyssey. Water warm, fleet hot yesterday. Scout window before peak; $1550→$1000 left, 4 PTO intact for d290+ assault.
+- S02 d280: Scout d281 Ocean Odyssey DAY_1_5; water warm, fleet warming. Peak d290–297 PTO locked, capital preserved for assault phase.
+- S02 d281: d282 (Sun): Fleet crashed post-d280 outlier. Water good but signal weak; hold for peak confirmation or d290+ PTO assault window. $1k reserved.
+- S02 d282: d282 dormant hold. Peak d281 realized (4.4 yt/angler), assault window d290–297 PTO-locked. Skip d283 noise; preserve $1k and 4 PTO for confirmed next hot sequence.
+- S02 d283: d281 peak passed (4.4 yt/angler), fleet silent d282–283. Hold $1k + 4 PTO flex; peak d290–297 locked. Reassess d298+ post-peak if fleet >0.5 yt/angler signals.
+- S02 d284: Post-peak trough, d285 TWILIGHT 0.000 EV. Hold capital for next confirmed fire or peak d290+ assault.
+- S02 d285: Trough hold d286–289; peak d290–297 locked. Fleet silent post-d281 fire, capital reserved for assault.
+- S02 d286: d286 hold for peak d290+. DAY_1_5 d288 strong (2.708 yt/angler 30d) but random Saturday; peak assault imminent, budget tight. Reserve $1k + 4 PTO for locked window.
+- S02 d287: OVERNIGHT d289 Relentless ($400). Reserve $600 + 4 PTO for locked peak window d290–297.
+- S02 d288: Relentless OVERNIGHT d289 locked for peak assembly; d290–297 window ready ($600, 4 PTO flex). Fleet quiet but scout phase confirmed—hold for fire.
+- S02 d289: D289 fire confirmed (4.643 yt/angler, fleet 6.636 OVERNIGHT). Skip Monday cool-off; preserve $600 for d291+ OVERNIGHT/DAY_1_5 on hot boats.
+- S02 d290: D290 cool-off confirmed (0.000 across board). Hold $600 and observe d292+ before next commitment. Peak window d291–297 still live if fleet reignites.
+- S02 d291: D292 trough confirmed (0.000 short); Condor DAY_1_5 d293 = reignition bet. PTO d293–d294 already locked. $50 buffer after $550 spend.
+- S02 d292: Condor d293 is final peak-window swing. Fleet cooling after d289 spike; no budget or signal to extend PTO commitments beyond d297 lock.
+- S02 d293: Broke after d293 Condor DAY_1_5 bet ($50 left, 4 PTO days). Hold; no new commitments. Waiting on result and weekend signal.
+- S02 d294: Tapped after d293 Condor peak swing ($50 left, 4 PTO flex). Fleet cooling. Sit tight, score watch; season likely heads into decay phase.
+- S02 d295: Tapped after peak window. Season decay confirmed; sit tight, score-watch final stretch, await improbable fleet reignition signal.
+- S02 d296: Stay home, budget tapped, season decay confirmed. Hold flex PTO, watch score vs elnino, await reignition signal (unlikely).
+- S02 d297: Stay home d298. Tapped, PTO uncommitted for weekday trips, fleet cooling. Score 15.27 vs elnino 15.33; hold $50 and 4 PTO days for improbable reignition or next season.
+- S02 d298: Broke and locked out. Season decay confirmed; hold $50 and 4 PTO for miracle reignition or roll to S03.
+- S02 d299: Budget tapped, season decay confirmed. Hold $50 and 4 PTO through final stretch; roll to S03 or wait reignition miracle.
+- S02 d300: Tapped, locked out d301. Season decay holding. $50 cash, 4 PTO flex remaining; await reignition miracle or S03 rollover.
+- S02 d301: Tapped, locked out d301–d302. Season decay holding. No bookable offer with $50 budget; no reignition signal in forecast. Hold flex capital and 4 PTO days.
+- S02 d302: Tapped, locked out d303. Season decay holding. No bookable offer with $50 budget. Roll to S03 or await miracle reignition.
+- S02 d303: Locked out d304 ($50 budget < $80 TWILIGHT min). Season decay holding; roll $50 and 4 PTO flex to S03.
+- S02 d304: Locked out; $50 budget < $80 entry, no PTO committed. Season decay confirmed. Hold flex capital and 4 PTO days for S03 or miracle reignition signal (unlikely).
+- S02 d305: Locked out; $50 cash, 4 PTO flex remain. Season decay holding through close. Roll capital and PTO to S03.
+- S02 d306: Locked out: $50 cash < $80 min entry. Season decay holding; roll to S03.
+- S02 d307: Season end, budget tapped. Roll $50 + 4 PTO flex to S03.
+- S02 d308: Locked out d309 ($50 budget, $80 min). Season decay confirmed. Roll $50 + 4 PTO flex to S03.
+- S02 d309: Tapped at $50, season decay holding. End-of-season lock. Roll $50 + 4 PTO to S03.
+- S02 d310: S02 d310: Locked out d311 ($50 budget < $80 min). Season decay holding. Roll $50 + 4 PTO flex to S03.
+- S02 d311: Locked out d312 ($50 < $80 min). Season decay holding. Roll $50 + 4 PTO flex to S03.
+- S02 d312: Season 2 late-stage lockout: $50 budget < $80 min entry. No reignition signal. Carry flex capital and 4 PTO to S03.
+- S02 d313: S02 d314: Locked out ($50 < $80 min). Season decay holding. Roll $50 + 4 PTO flex to S03.
+- S02 d314: S02 d314: Locked out ($50 < $80 min). Season decay holding. Roll $50 + 4 PTO flex to S03.
+- S02 d315: S02 d315 lockout, season decay final phase. Carry $50 flex + 4 PTO to S03.
+- S02 d316: S02 d316 end-of-season lockout. $50 budget < $80 min. Roll flex capital and 4 PTO to S03.
+- S02 d317: S02 d318 final lockout. $50 + 4 PTO roll to S03. Peak doy 280–299 is the battlefield.
+- S02 d318: S02 d318 final lockout. Roll $50 flex + 4 PTO days to S03 peak window (doy 280–299 equivalent).
+- S02 d319: S02 d319: Season-end lockout. Fleet dead (all 0.000 d319), $50 budget < $80 min, no PTO pre-committed for d320. Roll flex to S03 peak (doy 280–299 equiv).
+- S02 d320: S02 d320 final lockout: $50 < $80 min, fleet all 0.000, season decay. Roll flex + 4 PTO to S03 peak (doy 280–299 equiv).
+- S02 d321: S02 d322 final lockout: $50 < $80 min, no PTO for Friday. Season-end hold. Flex $50 + 4 PTO → S03 peak (doy 280–299 equiv).
+- S02 d322: S02 d322 final lockout: $50 budget floor, fleet 0.000, season-end hold. Carry flex $50 + 4 PTO → S03 peak (doy 280–299 equiv).
+- S02 d323: S02 d324 final hold. Season-end lockout; $50 flex + 4 PTO roll to S03 assault window.
+- S02 d324: S02 d324 final hold. $50 + 4 PTO carry to S03. Season-end lockout confirmed; no bookable trips, fleet flatline, capital roll.
+- S02 d325: S02 d325 final lockout. Capital depleted, fleet dead, season winding down. Carry $50 + 4 PTO unused to S03.
+- S02 d326: S02 d327 final hold: $50 budget floor, fleet dead, season decay. Capital and PTO preserved for late-season surge, if any.
+- S02 d327: S02 d327 final lockout: $50 < $80 floor, fleet dead, PTO too late for any d329 trip. Season end hold.
+- S02 d328: S02 d328 final: $50 floor, fleet 0.000, season end. Carry forward to S03.
+- S02 d329: S02 d329 final hold: $50 budget floor, fleet dead, season end. Carry flex $50 + 4 PTO unused to S03.
+- S02 d330: S02 d330 season-end hold. $50 budget floor, fleet dead, peak window closed. Carry to S03.
+- S02 d331: S02 d331 season-end hold. Budget floor $50, no bookable trips. Carry $50 + 4 PTO to S03.
+- S02 d332: S02 d332 final hold. Season dead, no bookable trips, $50 floor + 4 PTO carry to S03.
+- S02 d333: S02 d333 final hold. Budget floor $50, fleet dead, season winding down. Carry $50 + 4 PTO to S03.
+- S02 d334: S02 d334 final hold. Budget floor $50, fleet dead (0.000 × 30d), season past peak (d335 >> doy 295). Carry $50 + 4 PTO to S03.
+- S06 d091: S06 d092: Mid-dormant hold. Fleet flat, water normal, no bookable trips. Watch DOY 260 for Phase 3 early-watch signals (temp/consensus).
+- S06 d092: Phase 2 hold: water warm but no consensus spike yet. Saving capital for Phase 3 early watch (DOY 260+) and main assault (DOY 280-305).
+- S06 d093: S06 d093: Phase 2 hold. Strong THREE_QUARTER (1.48 yt/angler) tempting, but capital reserved for Phase 3 assault window DOY 280+. Watch for early signals DOY 260.
+- S06 d094: S06 d094: Phase 2 hold. THREE_QUARTER hot (1.515 avg, San Diego 103 yt) but cap reserved for Phase 3 peak (DOY 280–305). Water 67.3°F signals early, watch DOY 260 for phase 3 trigger. Monitor and commit PTO by d268 if confirmed.
+- S06 d095: Phase 3 early trigger: water 66°F, fleet hot (1.375 THREE_Q, 0.912 OVN d95). Commit 4 PTO for Oct 8–18 assault, stay dark d96.
+- S06 d096: Phase 3 early trigger live: water 65.8°F, fleet hot (THREE_Q 1.1–2.7 yt/angler d090–096). Commit 4 PTO for weekday assault d111–d120. Stay dark d097; no viable bookings. Positioning for peak-season THREE_QUARTER/OVERNIGHT plays starting mid-season window.
+- S06 d097: d097 hold. Fleet warm (THREE_Q 1.578) but capital locked for Phase 3 (DOY 280–305). No near-term bookable value; TWILIGHT EV zero.
+- S06 d098: D099 hold: Phase 2 dormant, fleet warm but PTO locked for Phase 3 early (d111–120). TWILIGHT unbookable.
+- S06 d099: Early water spike (65.1°F, +1.7°F) noted; Phase 3 trigger threshold watch d260+. Dormancy hold.
+- S06 d100: Water warm (65.5°F) but Phase 2 hold. Split fleet signal (THREE_Q/OVN hot, short trips cold). No consensus; capital locked for DOY 280–305. Watch DOY 260 for early phase 3 trigger.
+- S06 d101: d102: Mission Belle THREE_QUARTER reconnaissance. Fleet hot, water warm; testing early peak hypothesis. Hold phase 3 PTO commitment until d102–105 pattern clarity on DOY 260 trigger.
+- S06 d102: Phase 2 hold. Fleet heat d102 (THREE_Q 1.512, OVN 1.619) and warm water (63.5°F) noted, but no Phase 3 trigger yet; DOY 260 watch active. d103 unboardable (no PTO, TWILIGHT no boats). Monitor d103–105 pattern.
+- S06 d103: Early Phase 3 watch live: water 63.3°F at trigger, THREE_QUARTER fleet hot. Hold—monitor d104–105 pattern before PTO commitment.
+- S06 d104: Phase 2 hold: fleet warm, water rising, but single-day signal mid-dormancy. Watch d105–110 for early trigger before phase 3 weekday assault.
+- S06 d105: Weekday hold, no bookable PTO. Water 63.3°F (trigger level), THREE_Q fleet 1.020 (warm), but Phase 2 dormancy watch d106–110 before Phase 3 early trigger commit.
+- S06 d106: d106 hold. Water warm but sub-trigger; THREE_Q hot; watch d107–110 for Phase 3 early signal before capital deploy.
+- S06 d107: d108 San Diego THREE_QUARTER on fleet heat signal. Phase 2 dormancy yield to model: 1.3+ yt/angler cluster overrides water cool spell. Monitor d109–110 for phase 3 early trigger confirmation.
+- S06 d108: d109 Mission Belle THREE_QUARTER: Fleet heat persists; test Phase 3 early signal. Monitor d110 before next weekday PTO assault.
+- S06 d109: Stay home d110. Phase 2 hold; preserve capital for phase 3 assault. Recent booking luck poor; wait for d260+ trigger signal.
+- S06 d110: Phase 3 early signal live (fleet THREE_Q spiking), but stay home d111—preserve capital for DOY 280+ assault. Watch d112–116 for sustained heat before weekday PTO commits.
+- S06 d111: Mid-phase 2 dormant. No bookable boats (PTO/boat conflicts). Hold capital and 3 PTO days for phase 3 window (d260+).
+- S06 d112: d113 Malihini THREE_QUARTER: fleet heat spike signal. Break dormancy hold on genuine uptick.
+- S06 d113: Phase 2 hold. Water 62.8°F < trigger; single-class heat signal only. Hold $1400 + 3 PTO for Phase 3 d260+ assault.
+- S06 d114: d115 skip. D114 heat spike real, but mid-dormancy single-class—trust DOY 260+ Phase 3 model over reactive booking. Preserve capital and PTO for sustained assault.
+- S06 d115: d116 skip. THREE_Q heat real, no boats. Hold capital + 3 PTO for Phase 3 d260+ push per model. Water warm (63.1°F) but mid-dormancy single-class signal only.
+- S06 d116: Phase 2 hold. Bookable overnight but unproven boat, dormancy signal weak. Capital and PTO locked for d260+ Phase 3.
+- S06 d117: Phase 2 hold: d117 THREE_Q heat real (2.144 yt/angler), water warm at trigger, but single-class variance mid-dormancy. Capital + 3 PTO locked d260+. Confidence: mid-phase hold has underperformed intuitively but model discipline wins in hindsight.
+- S06 d118: Phase 2 hold through d259. No bookable trips; capital and 3 PTO locked for d260+ Phase 3 assault per model.
+- S06 d119: D119 THREE_QUARTER spike real (1.639) but single-class mid-dormancy. Hold Phase 2 discipline through d259. Phase 3 lookout d245+.
+- S06 d120: Phase 2 hold maintained. Three_quarter heat confirmed but single-class variance mid-dormancy. All capital ($1400) and 3 PTO locked for Phase 3 (d260+) assault.
+- S06 d121: Spring micro-peak live (d117–121 THREE_Q 1.5–2.1). One exploratory THREE_Q on San Diego (no PTO cost, weekend). Capital $1250 left locks Phase 3 assault d260+. If signal fades, revert discipline; if sustains, confirm seasonal pattern.
+- S06 d122: Spring micro-peak d117–121 cooling confirmed. Hold capital + 3 PTO for Phase 3 assault d260+. Rank 24: cannot chase dead-zone variance.
+- S06 d123: Dead zone confirmed d122–d123. Skip d124 (no bookable value without PTO sacrifice). Hold capital + PTO for d260+ fall assault. Model discipline beats rank-24 desperation.
+- S06 d124: Dead zone confirmed d122–d123. Hold capital + PTO for fall peak. Phase 2 discipline through d259.
+- S06 d125: D125 dead zone hold. No bookable trips with boats. Capital + PTO locked for fall phase 3 d260+.
+- S06 d126: D127 dead zone; no bookable boats (TWILIGHT) or compelling value. Hold Phase 2 discipline for d260+ fall assault.
+- S06 d127: Dead zone d128 skipped. Capital + PTO locked for Phase 3 d260+ fall assault when signal proven.
+- S06 d128: Dead zone mid-phase confirmed. Capital + 3 PTO locked for fall d260+ assault. Model discipline over rank desperation.
+- S06 d129: D129 THREE_QUARTER 1.054 is noise in dead zone, not pattern. Hold capital + PTO for proven d260+ peak. Scout begins d264.
+- S06 d130: Dead zone d131 confirmed. Hold capital $1250 + 3 PTO for fall assault d260+. Scout window signals begin d264.
+- S06 d131: D132 dead zone. All offers require PTO burn on poor EV. Hold capital + 3 PTO for d260+ fall peak. Model discipline beats rank desperation.
+- S06 d132: D133 dead zone skip. Capital + PTO secured for d260+ fall peak. Model discipline over rank desperation.
+- S06 d133: D134 dead zone, no bookable value. Capital + PTO locked for d260+ fall assault.
+- S06 d134: Dead zone d135 skip. Capital $1250 + 3 PTO locked for fall d260+ peak.
+- S06 d135: D136 dead zone skip. Capital + 3 PTO locked for fall d260+ peak. Discipline beats rank desperation.
+- S06 d136: Hot market now (NOT dead zone). THREE_QUARTER 0.8-1.2 yt/angler last 7d vs 0.392 typical. Book San Diego d137 to confirm signal before fall peak play.
+- S06 d137: Dead zone confirmed. Twilight unavailable. Hold $1100 + 3 PTO for d260+ fall peak scouting (d264+).
+- S06 d138: Dead zone discipline holds. Capital + 3 PTO locked for fall peak d260+ (~120 days). Rank 22 requires big plays, not noise.
+- S06 d139: D140 dead zone; TWILIGHT unavailable. Capital + 3 PTO locked for fall peak d260+ (~120d). Model discipline over rank desperation.
+- S06 d140: Dead zone d141 (Thu) skip. Capital + 3 PTO locked for fall peak d260+. Noise vs. signal: discipline wins.
+- S06 d141: Dead zone d142 skip. Capital ($1100) + 3 PTO secure for d260+ fall peak window.
+- S06 d142: D142 hotspot (1.724 fleet THREE_QUARTER) classified as dead-zone volatility, not breakout. Capital + PTO locked d260+ fall peak (proven 2–3 yt/angler window). One day of micro-peak noise does not break strategy.
+- S06 d143: d143 flatline confirms dead zone. Hold capital + 3 PTO for d260+ fall peak (120d out). Noise ≠ signal.
+- S06 d144: D144 spike (1.248 THREE_QUARTER) is dead-zone noise, not signal. Hold $1100 + 3 PTO for fall peak d260+ (115d). Discipline wins.
+- S06 d145: D146 dead zone; no bookable trips (TWILIGHT unavailable). Hold $1100 + 3 PTO for d260+ fall peak (proven 2–3 yt/angler).
+- S06 d146: D147 dead zone, no TWILIGHT boats. Hold $1100 + 3 PTO for fall peak d260+ (114d). Noise ≠ signal.
+- S06 d147: D148 dead zone, no bookable trips. Capital + 3 PTO locked d282/288/289 for d260+ fall peak. Hold discipline.
+- S06 d148: D149 skip: no compelling value. Capital + PTO held for fall d260+ peak. Reassess d162+ for spring anomaly signal or continued dead zone.
+- S06 d149: Micro-peak d144–149 is signal. Malihini d150 booked. Hold d282–289 fall peak; scan d150–d259 for 2–3 more peaks. Refit model to detect spring/summer micro-peaks missed early season.
+- S06 d150: d150 fleet collapse (0.048 THREE_QUARTER) confirms dead zone. Hold $950 + 3 PTO for d260+ fall peak. Discipline > noise.
+- S06 d151: d151 dead zone confirmed. Hold $950 + 3 PTO locked d282–289 for fall peak (2–3 yt/angler proven). d152 skip.
+- S06 d152: d153 skip: dead zone noise. $950 + 3 PTO locked for d260+ fall peak (2–10 yt/angler proven). Assess d264+ for new PTO commits.
+- S06 d153: Dead zone d150–d153 confirmed. No boats or PTO for tomorrow's options. Hold discipline for fall peak d260+ (2–3 yt/angler baseline).
+- S06 d154: Dead zone d150–d155 confirmed. Hold $950 + 3 PTO for DOY 260+ fall peak (3–10× better EV). Discipline locked.
+- S06 d155: d156 dead zone. Hold $950 + 3 PTO for d260+ fall peak. Scan d264+ next week for high-confidence entry.
+- S06 d156: Dead zone d150–159 holds. Capital + PTO locked for fall peak d260+. Reassess d246+ for new PTO commits on high-confidence signal.
+- S06 d157: d158 dead zone hold; preserve $950 + 3 PTO for fall peak d260+. Discipline beats noise.
+- S06 d158: d159 dead zone hold; $950 + 3 PTO locked for d260+ fall peak. Discipline > noise.
+- S06 d159: Stay home. Dead zone hold confirmed. Scout fall peak signals d165+; scouting window opens mid-week.
+- S06 d160: Dead zone hold d150–d159 confirmed. No PTO for d161; TWILIGHT no boats. Stay home, preserve capital + PTO for fall peak d260+.
+- S06 d161: Dead zone d160–d161 confirmed. Forced home (no PTO for d162, TWILIGHT no boats). Capital + PTO locked for d260+ fall peak. Scout window d165+ opens mid-week.
+- S06 d162: Dead zone hold confirmed. TWILIGHT and weekend boats bookable but 10–50× worse EV than fall peak. Capital + PTO locked for d260+. Reassess d246 for fall peak signal.
+- S06 d163: Dead zone hold d163 confirmed. THREE_QUARTER 0.27 yt/angler insufficient. Capital + PTO locked for d260+ fall peak.
+- S06 d164: Dead zone d165 confirmed. Hold $950 + 3 PTO for fall peak d260+. Scout window opens mid-week; reassess d246 for signal.
+- S06 d165: Dead zone hold d166 confirmed. All capital + 3 PTO locked for fall peak d260+. Scout window opens d246.
+- S06 d166: d167 dead zone hold. Only TWILIGHT bookable (0 yt/angler). Capital + 3 PTO locked for fall peak d260+. Scout d246.
+- S06 d167: Dead zone hold d168. All capital + PTO locked for fall peak d260+. Scout window opens d246 for signal confirmation.
+- S06 d168: Hold confirmed d169. Dead zone; no boats bookable. Scout window d246.
+- S06 d169: Peak window confirmed live (1.95 OVERNIGHT yt/angler yesterday). Holding $950 capital for d282–289 weekday deployment. Monitor d170–d280 signal.
+- S06 d170: Dead zone d171 hold—San Diego 1.343 is noise, fleet THREE_QUARTER 0.099 d170. Preserve $950 + 3 PTO for fall peak d260+.
+- S06 d171: Dead zone hold d172. $950 + 3 PTO locked for fall peak d260+. Scout d246.
+- S06 d172: Dead zone hold d173. Scout window d246 for fall peak signal; commit PTO then if confirmed.
+- S06 d173: Dead zone hold d174–d245. Capital + 3 PTO locked for fall peak d260+. Scout signal d246.
+- S06 d174: Dead zone d175. Hold all capital + PTO for fall scout d246.
+- S06 d175: Dead zone d176 confirmed (TWILIGHT 0.000 rate, no signal). Hold capital and 3 PTO for fall scout d246.
+- S06 d176: Dead zone hold d177. Capital + 3 PTO locked for fall peak d260+ scout d246.
+- S06 d177: Peak signal live d175–d177 (3.2 yt/angler). Book San Diego THREE_QUARTER. Revise model: early peak or shortened dead zone. Hold $800 + 3 PTO for continuation.
+- S06 d178: Rode d178 peak, scored 4.254. Booking d179 continuation (San Diego THREE_QUARTER). Hold $650 + 3 PTO locked for fall d260+ per strategy.
+- S06 d179: Peak played out d178–d179 (scored 8.6 total, ranked 4th overall). Hold $650 + 3 PTO for fall scout d246+.
+- S06 d180: Dead zone hold d181. No signal, no booking. Preserve $650 + 3 PTO for fall peak starting d260.
+- S06 d181: Dead zone hold d182. No booking. Preserve $650 + 3 PTO for fall scout d246+.
+- S06 d182: Peak played and scored; continuation fades. Hold $650 + 3 PTO for fall window d260+.
+- S06 d183: d184 peak play: San Diego THREE_QUARTER. Early peak still valid; tail-ride one more day. Hold $500 + 3 PTO for fall scout d246+.">Early peak holds d183; San Diego hot (190 yt). One more day ride, then reassess d185+.
+- S06 d184: Peak rolled over d184. Hold. Fall scout d246+ and peak d260+ already locked.
+- S06 d185: d185 hot: San Diego 182 yt, Mission Belle 110 yt on THREE_QUARTER. Ride continuation d186 for $150. Hold $350 + 3 PTO for fall window d246+."
+- S06 d186: TWILIGHT flat 0.000 yt/angler d187, skip weak signal. Hold $350 + 3 PTO for fall window scout d246+.
+- S06 d187: Peak d186 rolled over d187; TWILIGHT 0.000 signal flat. Hold $350+3 PTO for d246+ fall scout. Rank #1 hold.
+- S06 d188: Early peak closed. Dead zone hold. Preserve $350 + 3 PTO for fall scout d246+.
+- S06 d189: Skip TWILIGHT 0.000 signal; hold for d246 fall scout. Rank #1, preserve capital.
+- S06 d190: d191 TWILIGHT 0.000 signal, skip. Rank #1, preserve $350+2 PTO for fall scout d246+ window.
+- S06 d191: d191 peak *still live*, not rolled. San Diego THREE_QUARTER d192. Refit confirms d185–d191 sustained, not trough. Ride it.
+- S06 d192: d192 dip signals rollover; San Diego edge still live. Ride it if boat holds >2 yt/angler. Hold tight next week if fleet stays weak.">Hold for d193 San Diego THREE_QUARTER. Peak cooling but San Diego edge remains. Fall d246+ window already locked."} 
+- S06 d193: Peak cooling (0.362 d193). Hold rank #1. Budget exhausted; preserve for d246+ if conditions warrant.
+- S06 d194: Hold rank #1. Peak cooled; fleet weak. Preserve $50 + 2 PTO for fall d246+ confirmed window.
+- S06 d195: Peak rolled over d192–d195. Fleet weak, conditions soft. Hold rank #1, capital for d246+ fall window confirmed.
+- S06 d196: Peak cooled d192–d195, budget exhausted, capital preserved. Rank #1 hold; next move is fall d246+.
+- S06 d197: No play tomorrow—fleet dead, budget exhausted, PTO committed for d246+ fall window. Rank #1 hold.
+- S06 d198: Hold rank #1 (23.97). Budget zero, PTO reserved for d246+ confirmed fall window. Peak rolled; fleet dead. Next move: fall scout d246+.
+- S06 d199: Peak cooled; rank #1 held. No play tomorrow, budget exhausted. Fall d246+ window locked and ready.
+- S06 d200: Hold rank #1. Peak cooled, capital preserved, PTO reserved for fall d246+ window. Fleet in transition; stay disciplined.
+- S06 d201: Hold rank #1, capital zero. Peak cooled; fall d246+ window locked. No play.
+- S06 d202: Budget zero, PTO locked for fall. Hold rank #1 (23.97), no play tomorrow. Fall d246+ window ready.
+- S06 d203: Hold rank #1 (23.97). No play d204; fleet dead, PTO and capital reserved for fall d246+ window. Next signal: late September scout.
+- S06 d204: Hold rank #1 (23.97). No play d205—budget $50, no PTO d205, stay disciplined for fall d246+ window.
+- S06 d205: Hold rank #1 (23.97). Budget $50 insufficient, fleet dead post-peak, no play d206. Fall d246+ window locked.
+- S06 d206: Budget wall: $50 < $80 min. Fleet dead post-peak. Hold rank #1, capital locked for fall d246+ scout.
+- S06 d207: Budget wall holds. Rank #1 (23.97), capital locked for fall d246+ scout. No play d208.
+- S06 d208: Budget wall and PTO timing lock all plays. Hold rank #1, capital dark for fall d246+ window.
+- S06 d209: Hold rank #1 (23.97). Budget wall + PTO timing lock all plays d210. Fleet dead post-peak. Fall d246+ window ready.
+- S06 d210: Budget wall holds. Rank #1 (23.97), capital dark for fall scout. No play d211; fleet dead, PTO and funds locked for d246+ window.
+- S06 d211: Budget wall, fleet dead, hold #1 (23.97). Fall d246+ window locked. No play d212.
+- S06 d212: Budget wall, capital dark. Hold rank #1; fall d246+ window locked. S06 d213 pass.
+- S06 d213: Season locked. Rank #1 (23.97). Budget wall holds through peak decay. Fall d246+ window capital dark.
+- S06 d214: Season won. Capital and PTO dark through d245. Fall d246+ window locked. Hold rank #1.
+- S06 d215: S06 d215: Season won, rank #1 (23.97). Stay dark. Fall d246+ locked.
+- S06 d216: Season locked. Budget wall, fleet cooled. Hold rank #1 (23.97), capital dark through d245.
+- S06 d217: Season locked, rank #1 (23.97), capital and PTO dark through d245. Fall d246+ window committed.
+- S06 d218: Season locked, capital dark through d245. Hold #1 (23.97).
+- S06 d219: Season won, rank #1 (23.97). Capital wall: $50 < $80 minimum. Stay dark.
+- S06 d220: Season won. Budget wall d220–d245. Fall window locked. Hold rank #1.
+- S06 d221: Season locked, rank #1 (23.97). Budget wall holds through d245. Hold dark.
+- S06 d222: Season locked, rank #1, budget exhausted through d245. Fall window (d246, d282, d288, d289) committed. Hold dark.
+- S06 d223: Season won, rank #1 (23.97). Budget $50 + no PTO reserve blocks all options. Hold dark through d245.
+- S06 d224: Season locked, rank #1 (23.97). Budget wall + PTO commitment window closes d225. Hold dark.
+- S06 d225: Budget wall holds. Season won—stay dark through d245.
+- S06 d226: Budget exhausted through d245, season locked #1 (23.97). Hold dark.
+- S06 d227: Season won, capital exhausted through d245. Rank #1 locked. Hold dark.
+- S06 d228: Season won, budget wall holds, d229 unremarkable. Stay dark; keep 2 PTO/reserve for next season.
+- S06 d229: Season locked rank #1 (23.97). Budget and PTO exhausted through d245. Hold dark.
+- S06 d230: Season locked #1 (23.97). Budget + PTO wall blocks all options. Hold dark through d245.
+- S06 d231: Season locked rank #1 (23.97). Budget + PTO wall holds through d245. Stay dark.
+- S06 d232: Season won, rank #1 (23.97). Budget + PTO wall holds through d245. Stay dark.
+- S06 d233: Season won, rank #1 locked (23.97). Budget wall holds. Stay dark through d245, preserve PTO for fall.
+- S06 d234: Season won, rank #1 (23.97). Budget wall holds d235–d245. Stay dark, preserve PTO for fall.
+- S06 d235: Season locked rank #1 (23.97). Budget/PTO wall holds d235–d245. Stay dark, preserve capital for next season.
+- S06 d236: Budget wall holds d237–d245. Season won. Stay dark.
+- S06 d237: Season won, rank #1 (23.97). Budget/PTO wall holds d238. Stay dark, preserve for fall.
+- S06 d238: Season locked rank #1 (23.97). Budget/PTO wall holds d239–d245. Stay dark; defend lead.
+- S06 d239: Season won, rank #1 locked. Budget+PTO wall holds d240–d245. Stay dark.
+- S06 d240: Tapped out at $50. Season won, rank #1 (23.97). Stay dark, defend lead through d245.
+- S06 d241: Budget tapped. Season won. Stay dark d242–d245, defend rank #1.
+- S06 d242: Budget wall holds d243–d245. Season won, rank #1 (23.97). Stay dark, defend lead through season close.
+- S06 d243: Season won and locked. Out of money, out of PTO windows. Hold rank #1 through close.
+- S06 d244: Season locked #1 (23.97). Budget tapped, PTO exhausted. Hold rank through close.
+- S06 d245: Season locked #1. Budget wall holds d246–d245 final. Stay dark, defend lead to close.
+- S06 d246: Season won, rank #1 locked. Budget wall holds to close. Stay dark.
+- S06 d247: Season locked #1. Budget wall holds d248–close. Defend rank.
+- S06 d248: Budget wall holds. Season locked #1 through close. Stay dark d249.
+- S06 d249: Budget wall holds. Season locked #1. Stay dark d250.
+- S06 d250: Season locked #1 (23.97 vs 20.38). Budget/PTO wall holds d251–close. Defend rank; stay dark.
+- S06 d251: Season locked #1. Budget wall ($50) and depleted PTO (2 days) prohibit all tomorrow options. Defend rank to close; stay dark.
+- S06 d252: Season locked #1. Budget wall ($50) and PTO constraints block all bookings. Defend rank to close—stay dark d253.
+- S06 d253: Season locked #1. Budget/PTO exhausted; all d254 options unaffordable or impossible to book. Defend rank to close—stay dark d254.
+- S06 d254: S06 d254: Season won, rank #1 locked ($23.97 vs $20.38). Budget wall holds to close. Stay dark.
+- S06 d255: Budget exhausted; season locked #1. Defend rank to close—stay dark d256.
+- S06 d256: Season won. Budget/PTO wall holds. Stay dark d257 to close.
+- S06 d257: Season won. Budget/PTO wall holds to close. Stay dark d258.
+- S06 d258: Season won, budget wall holds. Stay dark d259 to close.
+- S06 d259: Season won. Budget/PTO constraints block all d260 options. Defend #1 by staying dark to close.
+- S06 d260: Season won. Budget/PTO constraints block all d261 options; no reason to commit further. Stay dark to close.
+- S06 d261: Season locked #1. Budget wall absolute ($50 vs $80 min). Defend to close—stay dark.
+- S06 d262: Season won, budget wall holds. Defend #1 to close—stay dark d263.
+- S06 d263: Season won, budget wall absolute. Defend #1 by staying dark d264 to close.
+- S06 d264: Season won. Budget + PTO wall holds to close. Stay dark d265.
+- S06 d265: Season won. Budget ($50) + PTO wall holds. All d266 options blocked or unaffordable. Defend to close.
+- S06 d266: Budget wall holds. Defend #1 to close—season won.
+- S06 d267: Season won. Budget wall ($50) and PTO constraints absolute—stay dark d268 to defend #1.
+- S06 d268: Final turn: budget exhausted, season locked #1. Stay dark d269—defend to close.
+- S06 d269: d269 final: Budget wall absolute. Season won, stay dark to defend #1.
+- S06 d270: d270 final: Season locked #1, budget+PTO walls absolute. Stay dark d271–close.
+- S06 d271: Budget wall holds. Defend #1 to close—season won.
+- S06 d272: D272 final: Season locked #1. Budget+PTO walls absolute. Stay dark d273–close.
+- S06 d273: Budget+PTO wall absolute. Season locked #1, stay dark d274—defend to close.
+- S06 d274: S06 d275: Budget wall absolute. Season #1 locked, stay dark to defend to close.
+- S06 d275: S06 d276 final: budget wall + season lock absolute. Stay dark, defend #1 to close.
+- S06 d276: D277 final: budget wall absolute, season #1 locked. Stay dark to defend to close.
+- S06 d277: D278 final: budget wall + season lock absolute. Stay dark, defend #1 to close.
+- S06 d278: D279 final: budget wall absolute, season #1 locked. Stay dark, defend to close.
+- S06 d279: D280 forced dark: PTO notice wall + budget floor. Season #1 locked. Defend to close.
+- S06 d280: D281 forced dark: budget+PTO walls absolute. Defend #1 to close.
+- S06 d281: D282–d365: budget wall absolute. Season locked #1 (23.97 yt). Defend dark to close.
+- S06 d282: Budget + season lock. Final days: hold #1 (23.97 yt), defend dark to close.
+- S06 d283: Budget wall final. D284–365: hold #1 (23.97), defend dark to close.
+- S06 d284: Season #1 locked (23.97 yt). Budget exhausted, zero signal warrants spend. Defend dark to close.
+- S06 d285: D285 final: season locked #1 (23.97 yt), budget exhausted ($50). Defend dark to close.
+- S06 d286: S06 d287: Budget exhausted, season locked #1 (23.97 yt). Defend dark to close.
+- S06 d287: D288–d365: budget + season lock. Hold #1 (23.97 yt), defend dark to close.
+- S06 d288: S06 d289: Budget + season lock final. Defend #1 (23.97 yt) dark to close.
+- S06 d289: Budget wall final. D290–close: defend #1 (23.97 yt) dark.
+- S06 d290: S06 d291 (Sun): budget wall, nothing bookable. Hold #1 (23.97 yt) dark to season close.
+- S06 d291: D292: budget + PTO wall, no bookable offers. Hold #1 (23.97 yt), defend to close.
+- S06 d292: D293 unbookable (budget + PTO walls). Defend #1 dark to close.
+- S06 d293: Season locked #1 (23.97 yt), final days. Budget/PTO walls leave zero bookable offers. Defend to close.
+- S06 d294: Final week: zero bookable offers, PTO/budget walls lock position. Defend #1 (23.97 yt) dark to close.
+- S06 d295: Season locked #1 (23.97 yt). D296 unbookable (weekday PTO rule + budget wall). Defend to close.
+- S06 d296: D297 Sat: budget wall complete. All trips unbookable ($80+). Defend #1 dark to close.
+- S06 d297: Final stretch: budget wall locked. Defend #1 (23.97) to season close, 2 PTO reserve for emergency peak.
+- S06 d298: Final days, budget/PTO walls complete. Defend #1 (23.97 yt) dark to season close.
+- S06 d299: D300 unbookable (weekday PTO deadline passed, budget wall). Defend #1 (23.97 yt) dark to season close.
+- S06 d300: d300–d301: capital/PTO walls complete, zero bookable. Defend #1 (23.97 yt) dark to close.
+- S06 d301: Budget wall holds. All trips unbookable ($80+ min). Defend #1 (23.97 yt) dark through close.
+- S06 d302: D303 unbookable (budget + PTO walls). Defend #1 (23.97 yt) dark to season close.
+- S06 d303: D304 unbookable (budget + min trip $80). Defend #1 (23.97 yt) dark to season close.
+- S06 d304: d305 Sun: capital wall holds. Stay home, defend #1 (23.97 yt). Two PTO buffer for emergency only.
+- S06 d305: Capital wall locked through close. Defend #1 (23.97 yt) dark to S06 d365.
+- S06 d306: Capital + PTO walls lock me out completely. Defend #1 (23.97 yt) dark to season close.
+- S06 d307: Complete lockout: $50 cash < $80 min, PTO deadline missed. Defend title from home. Season endgame.
+- S06 d308: Season endgame: capital + PTO walls lock me out. Stay dark, defend title to close.
+- S06 d309: Capital + PTO walls lock me out for d310. Late-season rates too weak. Defend #1 (23.97 yt) dark to close—only 56 days remain.
+- S06 d310: Locked out by budget again; defending title dark. 2 PTO unused for emergency; capital wall holds through close.
+- S06 d311: Capital + PTO walls lock d312; defending #1 (23.97 yt, +3.59 gap) dark to close. 54 days remain.
+- S06 d312: Locked by capital + PTO walls; peak appears d305–d312. Defend #1 dark to close. 56 days, 2 PTO, $50 cash remaining.
+- S06 d313: S06 d313: Capital lockout absolute ($50 < $80 min). Defend #1 dark to close.
+- S06 d314: Capital lockout d314–season close. Defend #1 (23.97 yt, +3.59 gap) dark. 56 days remain.
+- S06 d315: S06 d315: Capital + PTO walls lock me dark to season close. Defend #1 (23.97 yt, +3.59 gap). 56 days remain.
+- S06 d316: d316 capital lock continues; defending #1 (23.97 yt, +3.59 gap) dark to season close.
+- S06 d317: Capital lock d318; defending #1 dark to close.
+- S06 d318: d318 capital lockout holds. Defend #1 dark to season end.
+- S06 d319: Capital locked. d320 all require d320 PTO (illegal commit). Defend #1 dark to close.
+- S06 d320: Capital locked d320–close; d321 d322 PTO/cash walls hold. Defend #1 dark.
+- S06 d321: Capital/PTO lockout d322–close. Defend #1 (23.97, +3.59 gap) dark to season end.
+- S06 d322: Capital/PTO lockout holds d323–close. Defend #1 dark.
+- S06 d323: Capital/PTO lockout d324–close. Defend #1 dark to season end.
+- S06 d324: Capital lockout holds d325–close. Defend #1 (23.97, +3.59 gap) dark to season end.
+- S06 d325: Budget locked, season end approaching. Defend #1 dark.
+- S06 d326: d327 blocked (PTO/budget lockout). Defend #1 (23.97, +3.59 gap). Dark.
+- S06 d327: d327: Lockout confirmed. All d328 trips require pre-committed PTO (illegal), d329+ also blocked. Twilight over budget. Stay dark, defend.
+- S06 d328: d328: Capital/PTO locked, season nearing end. All d329 trips blocked by PTO walls or budget. Defend #1 dark.
+- S06 d329: Season end. Capital exhausted; defend #1 (23.97, +3.59) dark through close.
+- S06 d330: Capital lockout d331+. Defend #1 (23.97, +3.59 gap) dark through season close.
+- S06 d331: S06 d331: Capital lockout. Defend #1 (23.97, +3.59) dark through season end.
+- S06 d332: Final stretch: capital lockout enforced. Defend #1 dark through season close.
+- S06 d333: S06 d333: Capital + PTO lockout confirmed through season end (d365). Defend #1 (23.97, +3.59 gap) dark.
+- S06 d334: Capital + PTO lockout confirmed through d365. Defend #1 dark.

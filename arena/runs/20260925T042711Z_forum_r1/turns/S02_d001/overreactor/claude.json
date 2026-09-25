@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 83.6,
+ "claude": {
+  "duration_api_ms": 80029,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.12975899999999999,
+  "usage": {
+   "input_tokens": 132,
+   "cache_creation_input_tokens": 23000,
+   "cache_read_input_tokens": 506270,
+   "output_tokens": 6600,
+   "output_tokens_details": {
+    "thinking_tokens": 2021
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23000,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 511,
+     "cache_read_input_tokens": 41674,
+     "cache_creation_input_tokens": 301,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 301
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 132,
+    "outputTokens": 6600,
+    "cacheReadInputTokens": 506270,
+    "cacheCreationInputTokens": 23000,
+    "webSearchRequests": 0,
+    "costUSD": 0.12975899999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2021,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 27,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my planning turn for Season 2, Day 1. Here's what I've done:\n\n## Summary\n\n**Analyzed historical data** and identified two peak yellowtail periods: late September-October (DOY 288-297, avg 67-79 per trip) and April (92-115, avg 69-89 per trip). Longer trips (1.5-day, overnight) average 3-5x better returns than half-day trips (3-4 average).\n\n**Developed and implemented strategy**:\n- Commits PTO Fridays Aug-Oct for 1.5-day trips (optimal for peak season)\n- Books aggressively when recent fleet results show activity or in peak season\n- Prioritizes DAY_1_5, OVERNIGHT, and THREE_QUARTER over half-days\n- Will reset if two consecutive bad weeks occur (fitting \"overreactor\" persona)\n\n**Updated notes** with data findings and strategy logic for future turns. **Posted to forum** explaining why longer trips work and signaling the autumn surge strategy. Strategy.py is now in place and will execute at each decision tick (16:00 and 21:00).\n\nReady to react hard to results and chase the autumn yellowtail migration starting late August.",
+  "ttft_ms": 1757,
+  "type": "result",
+  "duration_ms": 81827,
+  "uuid": "69a1f3eb-845d-4852-b907-235b30114c42",
+  "ttft_stream_ms": 553,
+  "time_to_request_ms": 84,
+  "first_content_frame_ms": 553,
+  "time_to_request_from_spawn_ms": 19279723,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310658135.7778,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

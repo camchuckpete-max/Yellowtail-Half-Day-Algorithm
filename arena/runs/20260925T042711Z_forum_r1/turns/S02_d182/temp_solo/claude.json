@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 106.5,
+ "claude": {
+  "duration_api_ms": 98854,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1311699,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 28349,
+   "cache_read_input_tokens": 338729,
+   "output_tokens": 8103,
+   "output_tokens_details": {
+    "thinking_tokens": 3070
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28349,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 391,
+     "cache_read_input_tokens": 46717,
+     "cache_creation_input_tokens": 607,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 607
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 8103,
+    "cacheReadInputTokens": 338729,
+    "cacheCreationInputTokens": 28349,
+    "webSearchRequests": 0,
+    "costUSD": 0.1311699,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3070,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary**: Analyzed summer peak (DOY 169\u2013172 yielded 451\u2013477 YT daily, now passed) and confirmed fall target (DOY 289: 877 YT historically). Water crashed to 57.2\u00b0F today after warming window. Updated strategy notes and journal to hold $1050 + 2 PTO for October peak deployment (2\u00d7 overnight trips, ~2.4\u20133.0 share expected, targeting rank jump from 15\u2192top 10). No bookings tonight\u2014resources reserved for fall.",
+  "ttft_ms": 3922,
+  "type": "result",
+  "duration_ms": 100662,
+  "uuid": "625f8e46-7c58-4a9c-bf6c-9c0ab4c02065",
+  "ttft_stream_ms": 1014,
+  "time_to_request_ms": 309,
+  "first_content_frame_ms": 1014,
+  "time_to_request_from_spawn_ms": 34042735,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325416927.9692,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

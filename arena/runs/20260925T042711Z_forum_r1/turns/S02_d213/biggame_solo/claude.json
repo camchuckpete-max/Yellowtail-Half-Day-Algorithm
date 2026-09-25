@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 77.4,
+ "claude": {
+  "duration_api_ms": 69631,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.11601470000000001,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 29728,
+   "cache_read_input_tokens": 276957,
+   "output_tokens": 5759,
+   "output_tokens_details": {
+    "thinking_tokens": 2281
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29728,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 453,
+     "cache_read_input_tokens": 47362,
+     "cache_creation_input_tokens": 1341,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1341
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 5759,
+    "cacheReadInputTokens": 276957,
+    "cacheCreationInputTokens": 29728,
+    "webSearchRequests": 0,
+    "costUSD": 0.11601470000000001,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2281,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of d213 Turn:**\n\n**Data & Signal Status:**\n- Fleet multi-day (overnight + day_1_5) performance last 10 days: 0.017 yt/angler average\u2014classic boom-bust noise, no days above 0.2\n- Water temp: 65.4\u00b0F, stable (no warming trend)\n- Fishdope: 0 local yellowtail catch reports, 0 sights (d212\u2013d213)\n- Gate Status: **LOCKED** \u2014 Phase 1 trigger (3+ days >1.5 yt/angler sustained) not met\n\n**Decision:**\nHold $2,000 budget + 8 PTO intact. Your strategy requires a clear sustained signal before deployment. The season is still terminal; no long boats worth booking. This disciplined hold preserves your full toolkit for when the signal emerges\u2014likely late summer / early fall if history repeats.\n\n**Next Watch (d214+):**\nMonitor fishdope yt_local for catch reports, water temperature trend, and multi-day fleet average. Deploy Phase 1 exploration trip ONLY when all three align: sustained >1.5 fleet avg + rising temp + local sightings.",
+  "ttft_ms": 2002,
+  "type": "result",
+  "duration_ms": 71878,
+  "uuid": "1cc0042a-c53a-479a-8acd-f464d770d708",
+  "ttft_stream_ms": 991,
+  "time_to_request_ms": 483,
+  "first_content_frame_ms": 991,
+  "time_to_request_from_spawn_ms": 36376036,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327750417.737,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

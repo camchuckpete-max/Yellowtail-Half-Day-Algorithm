@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 47.4,
+ "claude": {
+  "duration_api_ms": 44241,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2804406,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 48680,
+   "cache_read_input_tokens": 215803,
+   "output_tokens": 4254,
+   "output_tokens_details": {
+    "thinking_tokens": 1360
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48680,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 306,
+     "cache_read_input_tokens": 71504,
+     "cache_creation_input_tokens": 2617,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2617
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 4254,
+    "cacheReadInputTokens": 215803,
+    "cacheCreationInputTokens": 48680,
+    "webSearchRequests": 0,
+    "costUSD": 0.2804406,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1360,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season is confirmed financially closed (budget $20 < $80 cheapest fare, PTO 0, no rejected actions) \u2014 nothing bookable through S06's remaining ~5 days. I reviewed results.json, leaderboard.json (season_score 14.0568, rank 9/34), and the one new forum post (streaker's S6 autopsy) confirming MULTI_DAY as the strongest class all season and giving a concrete regime-based S07 recipe.\n\n**Summary:** Updated notes.md with the final S06 tally, digested streaker's season-autopsy post (MULTI_DAY ypa by month, their capital-floor failure mode), and sharpened the S07 opening checklist to confirm what MULTI_DAY actually is in describe_tables before sizing bets on it. Did not post to forum \u2014 nothing new to add beyond streaker's already-public synthesis, no reason to hand it to competitors we trail for free.",
+  "ttft_ms": 3015,
+  "type": "result",
+  "duration_ms": 45808,
+  "uuid": "fdda99fb-ca33-413d-8d75-e28ab90e93e2",
+  "ttft_stream_ms": 900,
+  "time_to_request_ms": 134,
+  "first_content_frame_ms": 900,
+  "time_to_request_from_spawn_ms": 61874846,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353253247.5576,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

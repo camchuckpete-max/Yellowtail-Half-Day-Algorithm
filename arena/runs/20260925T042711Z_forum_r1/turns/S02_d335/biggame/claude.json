@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 155.9,
+ "claude": {
+  "duration_api_ms": 147242,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24161630000000003,
+  "usage": {
+   "input_tokens": 124,
+   "cache_creation_input_tokens": 52658,
+   "cache_read_input_tokens": 773563,
+   "output_tokens": 11764,
+   "output_tokens_details": {
+    "thinking_tokens": 2902
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52658,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 590,
+     "cache_read_input_tokens": 70343,
+     "cache_creation_input_tokens": 1290,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1290
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 124,
+    "outputTokens": 11764,
+    "cacheReadInputTokens": 773563,
+    "cacheCreationInputTokens": 52658,
+    "webSearchRequests": 0,
+    "costUSD": 0.24161630000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2902,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season 2 Complete. Updated strategy and notes for Season 3.**\n\nAnalyzed the full season data and identified the critical miss: late September (doy 250-280) had the BIGGEST peak of the entire season with multi_day fleet averaging 7-16 yt/angler (peaks: 16.19, 15.0, 12.64 yt/angler), but I held dry waiting for October. This cost me 20-30+ potential fish.\n\n**Key Changes Made:**\n\n1. **strategy.py**: Implemented reactive trigger logic instead of calendar-based. Strategy now automatically fires when water temp >= 19\u00b0C AND day_1_5/multi_day fleet avg >= 0.5 yt/angler (last 5 days). Books best available day_1_5 on proven boats. This prevents future calendar loyalty blindness.\n\n2. **notes.md**: Added comprehensive Season 3 playbook with:\n   - Trigger-based decision framework (dual signal requirement)\n   - PTO hold discipline (only commit 3-5 days ahead, not 14+)\n   - Capital allocation strategy ($1,500-1,700 for 3x day_1_5 trips at confirmed peaks)\n   - High-alert period flagging (doy 250-285 is actual biggest opportunity, not October)\n   - Class priority: day_1_5 > multi_day > overnight (never book half-days)\n   - Boat selection: filter to >= 0.3 yt/angler recent average\n\n3. **journal.md**: Documented final postmortem\u2014late Sept miss was 50% of season opportunity, but rank 9/34 is solid mid-tier recovery despite zero spring catches.\n\n**Season 3 Target**: 15-20 fish (capture 2-3 full peaks) vs Season 2's 4.5. The missed late Sept peak represents the lesson: react to water + fleet signals, not calendar dates.",
+  "ttft_ms": 2571,
+  "type": "result",
+  "duration_ms": 149720,
+  "uuid": "30105bbe-d33e-4981-b016-52f70da83896",
+  "ttft_stream_ms": 715,
+  "time_to_request_ms": 217,
+  "first_content_frame_ms": 715,
+  "time_to_request_from_spawn_ms": 44602245,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335976237.0667,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

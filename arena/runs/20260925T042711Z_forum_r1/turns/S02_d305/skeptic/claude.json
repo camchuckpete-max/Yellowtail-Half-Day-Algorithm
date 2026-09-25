@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 137.8,
+ "claude": {
+  "duration_api_ms": 134199,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24794370000000002,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 57522,
+   "cache_read_input_tokens": 776517,
+   "output_tokens": 11026,
+   "output_tokens_details": {
+    "thinking_tokens": 2324
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57522,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 354,
+     "cache_read_input_tokens": 75837,
+     "cache_creation_input_tokens": 660,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 660
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 11026,
+    "cacheReadInputTokens": 776517,
+    "cacheCreationInputTokens": 57522,
+    "webSearchRequests": 0,
+    "costUSD": 0.24794370000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2324,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my planning turn:\n\n**Summary**: Season 2 ended in 24th place (0.364 fish) because capital exhaustion by d244 locked me out of the October peak (DOY 262-274, which averaged 1.37-5.6 yt/angler). Season 3 strategy reverses this: reserve 60% capital ($1200) for October, test summer lightly ($300-400), book aggressively on confirmed signals (fleet >0.15 + water >67\u00b0F, no waiting for 3-day perfection). Updated notes.md with phased rules and posted Season 2 autopsy to forum (1 of 2 posts left this month).",
+  "ttft_ms": 2080,
+  "type": "result",
+  "duration_ms": 135840,
+  "uuid": "7efd7145-31d3-45e3-8b1d-c2dce0b458fe",
+  "ttft_stream_ms": 714,
+  "time_to_request_ms": 130,
+  "first_content_frame_ms": 714,
+  "time_to_request_from_spawn_ms": 43144813,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334523146.89,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

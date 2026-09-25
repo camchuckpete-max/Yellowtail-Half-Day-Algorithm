@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 75.2,
+ "claude": {
+  "duration_api_ms": 72243,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1536544,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 46139,
+   "cache_read_input_tokens": 308564,
+   "output_tokens": 6092,
+   "output_tokens_details": {
+    "thinking_tokens": 1740
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46139,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 391,
+     "cache_read_input_tokens": 62432,
+     "cache_creation_input_tokens": 2682,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2682
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 6092,
+    "cacheReadInputTokens": 308564,
+    "cacheCreationInputTokens": 46139,
+    "webSearchRequests": 0,
+    "costUSD": 0.1536544,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1740,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\n**S6 Complete - Rank 11/34 season, Rank 6/34 cumulative (top 5%)**\n- Executed 5 trips: 2\u00d7 DAY_1_5 (weak: 2.8 fish), 3\u00d7 THREE_QUARTER (strong: 10.0 fish)\n- Capital discipline + late tactical pivots (d305+ hot boats) worked; October peak thesis failed due to water temp anomaly\n- Cumulative strength validates consistency approach over boom-bust cycles\n\n**Notes updated with S6 postmortem + S7 strategy framework:** Abandoning overnight specialization dogma; shifting to live-condition monitoring (water temp, fleet class signals), capital reserve strategy (test=$300, peak=$800, opportunistic=$1200), and adaptive 4-phase seasonal plan. Ready to implement in strategy.py at next planning turn.",
+  "ttft_ms": 2519,
+  "type": "result",
+  "duration_ms": 73565,
+  "uuid": "f4ff3c41-6fa0-4d6e-8be0-84114ead04e6",
+  "ttft_stream_ms": 662,
+  "time_to_request_ms": 114,
+  "first_content_frame_ms": 662,
+  "time_to_request_from_spawn_ms": 61864290,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353242746.2744,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

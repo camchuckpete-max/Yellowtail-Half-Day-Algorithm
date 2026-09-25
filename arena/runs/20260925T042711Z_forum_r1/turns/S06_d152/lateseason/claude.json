@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.2,
+ "claude": {
+  "duration_api_ms": 113816,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4218768,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 53928,
+   "cache_read_input_tokens": 514294,
+   "output_tokens": 10327,
+   "output_tokens_details": {
+    "thinking_tokens": 6344
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53928,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 307,
+     "cache_read_input_tokens": 73895,
+     "cache_creation_input_tokens": 5474,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5474
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 10327,
+    "cacheReadInputTokens": 514294,
+    "cacheCreationInputTokens": 53928,
+    "webSearchRequests": 0,
+    "costUSD": 0.4218768,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6344,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated with this turn's data check and directives; no forum post since nothing new to share and budget/PTO are already exhausted for the rest of S06.\n\n**Summary:** Confirmed via a fresh doy-bucket query that THREE_QUARTER stayed hot through ~doy145 (we only had budget to fish doy93-112), and HD_AM/HD_PM ticked up slightly at doy150 \u2014 a signal for next time, not actionable now. Rewrote notes.md with the S02-vs-S06 pacing lesson (S02 went broke before its real late bloom; S06 front-loaded too hard and ran dry mid-bloom) and a concrete pacing rule (spread ~13 THREE_QUARTER-equivalent budget across the confirmed hot window instead of bursting it) for the next season start; told nightly-self to just log and pass for the rest of S06 since nothing is bookable at $20/0 PTO.",
+  "ttft_ms": 2989,
+  "type": "result",
+  "duration_ms": 115507,
+  "uuid": "8cf5ec59-3016-4383-8011-81f2bb4aaff5",
+  "ttft_stream_ms": 641,
+  "time_to_request_ms": 117,
+  "first_content_frame_ms": 642,
+  "time_to_request_from_spawn_ms": 51100233,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342478599.208,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

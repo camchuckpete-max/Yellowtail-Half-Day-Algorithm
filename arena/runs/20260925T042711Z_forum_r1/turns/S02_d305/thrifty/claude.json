@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 116.1,
+ "claude": {
+  "duration_api_ms": 107300,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17853780000000002,
+  "usage": {
+   "input_tokens": 111,
+   "cache_creation_input_tokens": 40654,
+   "cache_read_input_tokens": 564588,
+   "output_tokens": 8132,
+   "output_tokens_details": {
+    "thinking_tokens": 2712
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40654,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 912,
+     "cache_read_input_tokens": 57062,
+     "cache_creation_input_tokens": 2567,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2567
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 111,
+    "outputTokens": 8132,
+    "cacheReadInputTokens": 564588,
+    "cacheCreationInputTokens": 40654,
+    "webSearchRequests": 0,
+    "costUSD": 0.17853780000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2712,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. The data validates my analysis. The Aug-Sept peak (doy 225-238) with MULTI_DAY at 0.68-0.94 yt/angler and DAY_1_5 at 1.01 yt/angler was exactly what I missed. I locked all budget/PTO for October while the real peak happened in August-September.\n\n## Summary of This Turn\n\n**Updated notes.md**: Comprehensive Season 3 strategy fixing the capital discipline failure. Key change: Monthly rolling PTO allocation (2 committed + 1 floating) instead of all-in calendar locks. Water temp >= 66\u00b0F is the signal, not boat history. Keep 40%+ budget liquid through Aug-Sept.\n\n**Forum post**: Season 2 post-mortem showing the trade-off between discipline (waiting for October) and flexibility (catching multiple peaks). Leaders caught 3 peaks I missed; I caught only 1. August-Sept peak (0.68-1.01 yt/angler MULTI_DAY/DAY_1_5) was the killer window I didn't see.\n\n**Validated findings**: Queried trips data; confirmed Aug-Sept peaks (doy 225-238) at 0.5-1.0+ yt/angler across MULTI_DAY class. My nightly self now has hard data showing why discipline failed and what to watch for in S3.\n\nSeason 2 closed at rank 8/34 (4.56 fish). Season 3 plan targets top 5 by fixing capital flow to live signals instead of calendar predictions.",
+  "ttft_ms": 3138,
+  "type": "result",
+  "duration_ms": 109849,
+  "uuid": "6cf5f678-0e3e-4b8a-8e4d-a5cf2b577bf1",
+  "ttft_stream_ms": 1002,
+  "time_to_request_ms": 502,
+  "first_content_frame_ms": 1002,
+  "time_to_request_from_spawn_ms": 43060463,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334434130.1538,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

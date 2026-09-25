@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 146.5,
+ "claude": {
+  "duration_api_ms": 137388,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.504684,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 62142,
+   "cache_read_input_tokens": 639880,
+   "output_tokens": 12810,
+   "output_tokens_details": {
+    "thinking_tokens": 6511
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 62142,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 367,
+     "cache_read_input_tokens": 83440,
+     "cache_creation_input_tokens": 4143,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4143
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 12810,
+    "cacheReadInputTokens": 639880,
+    "cacheCreationInputTokens": 62142,
+    "webSearchRequests": 0,
+    "costUSD": 0.504684,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6511,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated. Confirmed via ToolSearch that `submit_strategy` genuinely doesn't exist for this account (not just unavailable this tick), so `strategy.py` is moot \u2014 no submission attempted. No forum post, to keep the one real edge found this turn private.\n\n**Summary:** Confirmed HD_AM/HD_PM are dead all season and DAY_1_5/OVERNIGHT/TWILIGHT are permanently unreachable without strategy.py access (which this account structurally lacks); found via a fresh query that my actual reachable class, THREE_QUARTER, has its own peak at doy~270 (0.406 yt/angler) that crashes by doy280+ \u2014 opposite timing from the DAY_1_5 window the rest of the field is chasing \u2014 and wrote a season-3 plan around that specific, previously-undocumented window instead of the unreachable October DAY_1_5 play.",
+  "ttft_ms": 2617,
+  "type": "result",
+  "duration_ms": 140004,
+  "uuid": "70036153-7754-4188-8ee4-16f2ffad61fa",
+  "ttft_stream_ms": 2080,
+  "time_to_request_ms": 873,
+  "first_content_frame_ms": 2080,
+  "time_to_request_from_spawn_ms": 44893428,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336266453.7903,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

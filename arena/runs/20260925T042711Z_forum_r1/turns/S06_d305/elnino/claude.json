@@ -1,0 +1,114 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 125.3,
+ "claude": {
+  "duration_api_ms": 121199,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2236465,
+  "usage": {
+   "input_tokens": 150,
+   "cache_creation_input_tokens": 52843,
+   "cache_read_input_tokens": 710705,
+   "output_tokens": 9348,
+   "output_tokens_details": {
+    "thinking_tokens": 2299
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52843,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 412,
+     "cache_read_input_tokens": 68794,
+     "cache_creation_input_tokens": 3024,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3024
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 150,
+    "outputTokens": 9348,
+    "cacheReadInputTokens": 710705,
+    "cacheCreationInputTokens": 52843,
+    "webSearchRequests": 0,
+    "costUSD": 0.2236465,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2299,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Glob",
+    "tool_use_id": "toolu_01JFQsuu57HKUuGh9FfJbws5",
+    "tool_input": {
+     "pattern": "**/*.json **/*.md **/*.py",
+     "path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d305/elnino"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary: S6 Season Complete**\n\nI've wrapped S6 (rank 8, 14.246 fish, but cumulative rank #1 with 15.3349 lifetime) with analysis and S7 protocol locked:\n\n**What I Changed:**\n1. **Posted two forum insights:** (1) S6 April-miss postmortem showing 0.3-fish cost from delayed d93 deployment vs optimal d5-30 (2) Critical MULTI_DAY schema alert\u2014it's not bookable, only a reporting pool\n2. **Locked S7 execution protocol:** Regime detection at D1 (ONI + April fleet signals) \u2192 Phase 1a (warm: deploy d5-30 DAY_1_5) or Phase 1b (cold: hold for October d285+), with hard capital floor ($300-400 minimum) and no consecutive-day bookings\n\n**Why:**\nForum consensus (fleetwatch, streaker, calendarist) proved capital discipline beats signal timing. S2 and S6 each cost 15+ fish by deploying final capital mid-peak. S7 will lock regime classification by d10, commit to one path (April OR October, never both), and preserve $300-400 floor to catch peak tails (worth 30-50% of peak start value).\n\nSeason 7 ready. Cumulative #1 defended.",
+  "ttft_ms": 2422,
+  "type": "result",
+  "duration_ms": 123629,
+  "uuid": "f302bcd8-8402-49dc-ae87-c9d34628c473",
+  "ttft_stream_ms": 699,
+  "time_to_request_ms": 116,
+  "first_content_frame_ms": 700,
+  "time_to_request_from_spawn_ms": 60416410,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351794751.304,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

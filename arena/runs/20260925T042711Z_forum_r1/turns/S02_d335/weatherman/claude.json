@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 124.3,
+ "claude": {
+  "duration_api_ms": 115722,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.22111219999999998,
+  "usage": {
+   "input_tokens": 124,
+   "cache_creation_input_tokens": 48488,
+   "cache_read_input_tokens": 756072,
+   "output_tokens": 9681,
+   "output_tokens_details": {
+    "thinking_tokens": 2933
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48488,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 601,
+     "cache_read_input_tokens": 65652,
+     "cache_creation_input_tokens": 1811,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1811
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 124,
+    "outputTokens": 9681,
+    "cacheReadInputTokens": 756072,
+    "cacheCreationInputTokens": 48488,
+    "webSearchRequests": 0,
+    "costUSD": 0.22111219999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2933,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've analyzed the season end and updated my strategy for Season 3. Let me provide the summary:\n\n**Season 2 ending at rank 23/34 (0.4026 fish):** I exhausted capital ($1900/$2000) on early local boat probes (d168-d204), missing the offshore multi-day peak entirely (d260-d280) when boats scored 5-16 yt/angler. Top performers likely netted 2.5-3.0 fish from 1-2 DAY_1_5 bookings during d270-d280, while I had only $100 left.\n\n**Season 3 plan:** Reserve $1200-1400 budget and flexible PTO for the late Sept/early Oct offshore window (d250-d280), trigger bookings when multi_day yt/angler hits \u22655.0, and book 2 trips targeting ~2.5-3.0 fish vs. the d260-d280 peak instead of chasing October calendar myths. Updated notes.md with full audit and strategy.py with decision logic to execute this offshore-first approach.",
+  "ttft_ms": 2781,
+  "type": "result",
+  "duration_ms": 117784,
+  "uuid": "29ad855c-ec36-4516-81a3-97ebb72a9302",
+  "ttft_stream_ms": 766,
+  "time_to_request_ms": 153,
+  "first_content_frame_ms": 766,
+  "time_to_request_from_spawn_ms": 44602617,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335976298.9702,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 134.8,
+ "claude": {
+  "duration_api_ms": 125721,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1977907,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 40004,
+   "cache_read_input_tokens": 613817,
+   "output_tokens": 11257,
+   "output_tokens_details": {
+    "thinking_tokens": 3482
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40004,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 743,
+     "cache_read_input_tokens": 55689,
+     "cache_creation_input_tokens": 3290,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3290
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 11257,
+    "cacheReadInputTokens": 613817,
+    "cacheCreationInputTokens": 40004,
+    "webSearchRequests": 0,
+    "costUSD": 0.1977907,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3482,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of Season 6 Day 32 Analysis:**\n\nI analyzed the fishing data and confirmed the gate signal is OPEN. The key findings:\n\n**Gate Signal Confirmed:**\n- L7d average: day_1_5 at 2.818 yt/angler, multi_day at 15.0 yt/angler (both well above 1.5 threshold)\n- This is sustained performance, not noise\u2014consistent across L7d, L14d, and L21d windows\n- Top boats (Vagabond day_1_5, Pacific Voyager multi_day, Aztec, Pacific Queen) showing repeatable performance\n\n**Current Status:**\n- Season 6 D32: Budget intact ($2000), PTO intact (10 days), zero trips booked yet\n- Water temp: 16.6\u00b0C (61.8\u00b0F)\u2014cool but fishing is happening\n\n**Deployment Decision:**\nMy next move is Friday D38 (14 days ahead). I'll book Vagabond day_1_5 for $550 (Friday evening = no PTO cost), leaving $1,450 reserve for 2-3 additional trips if signal sustains. This deploys on the confirmed rolling average rather than waiting for a perfect 3+ consecutive day reporting window\u2014an adjustment learned from Season 2 where I placed 5th by being slightly too cautious, while elnino/ens_solo placed 1-2 by deploying earlier on sustained trends.\n\nUpdated `notes.md` with full analysis and watch points for signal termination/extension.",
+  "ttft_ms": 2112,
+  "type": "result",
+  "duration_ms": 127611,
+  "uuid": "3e1b2c84-bcd1-432c-aff6-6a36a773eb62",
+  "ttft_stream_ms": 700,
+  "time_to_request_ms": 198,
+  "first_content_frame_ms": 701,
+  "time_to_request_from_spawn_ms": 45661115,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337034086.4702,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

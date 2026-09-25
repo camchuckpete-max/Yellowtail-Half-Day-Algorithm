@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 71.4,
+ "claude": {
+  "duration_api_ms": 62790,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3229816,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 47708,
+   "cache_read_input_tokens": 370458,
+   "output_tokens": 5803,
+   "output_tokens_details": {
+    "thinking_tokens": 2397
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47708,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 269,
+     "cache_read_input_tokens": 69582,
+     "cache_creation_input_tokens": 3567,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3567
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 5803,
+    "cacheReadInputTokens": 370458,
+    "cacheCreationInputTokens": 47708,
+    "webSearchRequests": 0,
+    "costUSD": 0.3229816,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2397,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated with a fresh doy60\u201391 confirmation pull and a concrete day-91 action plan for the nightly self.\n\n**Summary:** Pulled real S6 trip data for doy60\u201391, confirming THREE_QUARTER is the trustworthy class right now (1.1\u20132.0 ypa on n=8\u201332 per bucket, sustained not spiky), while DAY_1_5 cooled from its hot winter reads to a smaller/noisier 0.7\u20131.3 ypa \u2014 I wrote a top section in notes.md telling the nightly self to start booking 3Q immediately (no more probe-and-wait), keep rolling PTO committed ~14 days out to avoid S2's \"nothing bookable\" trap, and hold ~$600-800 reserve in case day_1_5 breaks out later in fall.",
+  "ttft_ms": 2044,
+  "type": "result",
+  "duration_ms": 63996,
+  "uuid": "ab89dadd-19c3-4580-a266-fd7a093704a9",
+  "ttft_stream_ms": 748,
+  "time_to_request_ms": 197,
+  "first_content_frame_ms": 749,
+  "time_to_request_from_spawn_ms": 46397394,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337770191.5115,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

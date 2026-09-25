@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 102.1,
+ "claude": {
+  "duration_api_ms": 93056,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1904165,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 50402,
+   "cache_read_input_tokens": 507215,
+   "output_tokens": 7755,
+   "output_tokens_details": {
+    "thinking_tokens": 2862
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50402,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 604,
+     "cache_read_input_tokens": 67348,
+     "cache_creation_input_tokens": 2029,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2029
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 7755,
+    "cacheReadInputTokens": 507215,
+    "cacheCreationInputTokens": 50402,
+    "webSearchRequests": 0,
+    "costUSD": 0.1904165,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2862,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the planning turn analysis and strategy update. Here's what changed:\n\n**Season 7 Strategy Implemented:** Coded automated Phase 1/2/3 deployment in strategy.py with signal-triggered PTO commits and boat targeting (San Diego, Pacific Voyager only). This fixes Season 6's fatal flaw\u2014late PTO commitment (D149) that missed D60-D92 peak entirely (valued at 20-30 fish).\n\n**Key Change:** Strategy now auto-commits Friday PTO (D77/84/91) on first 2.0+ yt/trip signal D60-D75, eliminating manual delay and weak boat selection discipline. Reserves budget across three windows: $1200 Phase 1, $600 Phase 2, $500-700 Phase 3.",
+  "ttft_ms": 2944,
+  "type": "result",
+  "duration_ms": 95294,
+  "uuid": "2ece19ad-b2d3-41bd-959a-4c6a672fec32",
+  "ttft_stream_ms": 1037,
+  "time_to_request_ms": 569,
+  "first_content_frame_ms": 1038,
+  "time_to_request_from_spawn_ms": 58508475,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349881248.854,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

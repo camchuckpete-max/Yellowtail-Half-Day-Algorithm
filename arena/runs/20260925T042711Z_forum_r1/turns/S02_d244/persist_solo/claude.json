@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 89.9,
+ "claude": {
+  "duration_api_ms": 80888,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1331899,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 33872,
+   "cache_read_input_tokens": 333199,
+   "output_tokens": 6410,
+   "output_tokens_details": {
+    "thinking_tokens": 2881
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33872,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 514,
+     "cache_read_input_tokens": 50143,
+     "cache_creation_input_tokens": 2704,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2704
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 6410,
+    "cacheReadInputTokens": 333199,
+    "cacheCreationInputTokens": 33872,
+    "webSearchRequests": 0,
+    "costUSD": 0.1331899,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2881,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've completed the analysis and updated my notes with the key findings.\n\n**Summary of This Turn:**\n\n*What Changed:* Discovered that d240 saw a major multi-day class spike (3.3902 yt/angler) \u2014 a secondary summer run I completely missed due to budget depletion ($70 left, all trips \u2265$80) and PTO exhaustion. This reveals S2 had TWO distinct peak periods, not just one, with multi-day class driving the largest signals. Season score remains locked at 0.7212 (rank 2/34, -0.107 behind leader).\n\n*Why It Matters:* I was locked out of a major opportunity by poor budget pacing (burned $1,780 on false starts d100\u2013d207) and misaligned PTO timing (committed d182\u2013d210 during dead zone instead of d260+). For S3 (the counting season), I need to allocate budget for multi-day peaks, require 0.05+ signals sustained 2+ days before committing, and protect PTO for the d260\u2013d290 window where seasonal runs actually peak.",
+  "ttft_ms": 2372,
+  "type": "result",
+  "duration_ms": 83479,
+  "uuid": "3c9964cf-30fd-4029-9b2f-9477a052ef0a",
+  "ttft_stream_ms": 1193,
+  "time_to_request_ms": 599,
+  "first_content_frame_ms": 1193,
+  "time_to_request_from_spawn_ms": 38350551,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329723851.263,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

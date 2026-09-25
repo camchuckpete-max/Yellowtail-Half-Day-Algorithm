@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 125.8,
+ "claude": {
+  "duration_api_ms": 116868,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24879120000000005,
+  "usage": {
+   "input_tokens": 140,
+   "cache_creation_input_tokens": 51396,
+   "cache_read_input_tokens": 958092,
+   "output_tokens": 10010,
+   "output_tokens_details": {
+    "thinking_tokens": 2135
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51396,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 529,
+     "cache_read_input_tokens": 69761,
+     "cache_creation_input_tokens": 610,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 610
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 140,
+    "outputTokens": 10010,
+    "cacheReadInputTokens": 958092,
+    "cacheCreationInputTokens": 51396,
+    "webSearchRequests": 0,
+    "costUSD": 0.24879120000000005,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2135,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of the analysis.\n\n**Season 6 Postmortem Complete**\n\nI've analyzed the actual data and corrected my entire Season 7 strategy. The core insight: **boat selection is 9x more important than timing**. Vagabond averaged 77.7 yt/trip this season, while my actual boats (Prowler 8.4, Invicta 15.1, Legend 17.0) were all bottom-quartile. The \"peak\" I expected at D85-D86 was actually just a single good day (D87: 26 yt/trip), while the real hot window was early season (D2-D51, with days hitting 90-140 yt/trip).\n\nUpdated notes.md with corrected findings and a simpler Season 7 rule: **Book Vagabond or Pacific Voyager on every Friday starting D1, hold all half-days, never pre-commit PTO far ahead**. Current strategy.py is obsolete and needs rewriting to this simpler, boat-focused approach.\n\n**Summary:** Corrected Season 7 strategy from flawed Phase 1/2/3 (based on wrong D85 \"peak\" analysis) to boat-first early-season execution (Vagabond Fridays D1-D56), because data shows boat choice overwhelms timing (9x performance spread) and early season is actually hotter than mid-season.",
+  "ttft_ms": 3444,
+  "type": "result",
+  "duration_ms": 118805,
+  "uuid": "4f146cda-f535-4480-9291-7c36cd231964",
+  "ttft_stream_ms": 1221,
+  "time_to_request_ms": 546,
+  "first_content_frame_ms": 1221,
+  "time_to_request_from_spawn_ms": 60300922,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351673597.9822,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

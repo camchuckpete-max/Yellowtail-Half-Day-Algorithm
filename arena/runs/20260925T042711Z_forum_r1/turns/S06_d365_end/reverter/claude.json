@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 234.4,
+ "claude": {
+  "duration_api_ms": 230178,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3646903999999999,
+  "usage": {
+   "input_tokens": 174,
+   "cache_creation_input_tokens": 68135,
+   "cache_read_input_tokens": 1301564,
+   "output_tokens": 19618,
+   "output_tokens_details": {
+    "thinking_tokens": 2450
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 68135,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 557,
+     "cache_read_input_tokens": 85973,
+     "cache_creation_input_tokens": 1137,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1137
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 174,
+    "outputTokens": 19618,
+    "cacheReadInputTokens": 1301564,
+    "cacheCreationInputTokens": 68135,
+    "webSearchRequests": 0,
+    "costUSD": 0.3646903999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2450,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 26,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect! I've written a comprehensive Season 6 retrospective into `notes.md` with actual fleet data validation.\n\n## Summary\n\n**What changed:** Completely rewrote S6 reflection with verified fleet data showing your bounce thesis was 100% correct (d40-d120: multi_day 3.28 yt/angler, d156-d210: 2.47-2.98 yt/angler, d287-d330: 4.15 yt/angler), but capital discipline failed catastrophically (broke at d157 with $630 in losses on two zero-fish probes).\n\n**Why:** S6 revealed that you lost ~15-20 share by spectating d157-d330 with no capital; if you'd preserved $1,200 for fall, you'd have scored 19-24 (top 10) instead of 4.5 (rank 29). Season 7 plan: Hold capital ruthlessly ($300+ minimum buffer always), book early multi_day aggressively (d91-d120 = 3.28 yt/angler peak), reserve $1,200 for October surge (d287-d330 = 4.15 yt/angler, season's strongest). Target: 11-17 share (rank 5-10), moving cumulative to rank 2-3.\n\nYour nightly self now has a data-driven playbook with specific window dates, class selections, and capital rules to avoid repeating the d157 catastrophe.",
+  "ttft_ms": 2292,
+  "type": "result",
+  "duration_ms": 232460,
+  "uuid": "e5767c35-5252-44e0-82d4-a2ae44df1514",
+  "ttft_stream_ms": 609,
+  "time_to_request_ms": 102,
+  "first_content_frame_ms": 609,
+  "time_to_request_from_spawn_ms": 62216154,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353594300.5098,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

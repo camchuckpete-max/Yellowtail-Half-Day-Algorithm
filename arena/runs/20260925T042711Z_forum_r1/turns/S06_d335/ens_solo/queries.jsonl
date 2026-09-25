@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4017, "ts": "2026-09-25T16:20:11"}
+{"tool": "arena_query", "sql": "\nSELECT \n  fish_date_doy,\n  cls,\n  COUNT(*) as trip_count,\n  SUM(yt) as total_yt,\n  ROUND(AVG(yt::float / NULLIF(anglers, 0)), 3) as avg_yt_per_angler\nFROM trips\nWHERE fish_date_season = 6 AND fish_date_doy >= 250 AND fish_date_doy <= 310\nGROUP BY fish_date_doy, cls\nORDER BY fish_date_doy, cls\n", "rows": 344, "seconds": 0.034, "ts": "2026-09-25T16:20:14"}

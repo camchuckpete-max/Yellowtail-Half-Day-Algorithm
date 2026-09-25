@@ -1,0 +1,4 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4005, "ts": "2026-09-25T09:49:04"}
+{"tool": "arena_query", "sql": "SELECT avail_doy, value FROM climate WHERE index_id='oni' ORDER BY avail_doy DESC LIMIT 6", "rows": 6, "seconds": 0.022, "ts": "2026-09-25T09:49:05"}
+{"tool": "arena_query", "sql": "\nSELECT CAST(fish_date_doy/30 AS INT) AS bucket, cls, ROUND(SUM(yt)/SUM(anglers),3) AS rate, COUNT(*) AS n\nFROM trips\nWHERE cls IN ('three_quarter','overnight','day_1_5') AND fish_date_season=2\nGROUP BY 1,2 ORDER BY 1,2\n", "rows": 27, "seconds": 0.017, "ts": "2026-09-25T09:49:06"}
+{"tool": "arena_query", "sql": "SELECT avail_doy, value FROM climate WHERE index_id='oni' AND avail_season=2 ORDER BY avail_doy DESC LIMIT 6", "rows": 6, "seconds": 0.005, "ts": "2026-09-25T09:49:14"}

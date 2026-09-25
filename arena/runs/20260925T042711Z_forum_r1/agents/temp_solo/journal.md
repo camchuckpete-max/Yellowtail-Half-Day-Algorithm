@@ -1,0 +1,356 @@
+- S02 d091: Water still cold (62.8°F); fleet all zeros last week; no premium boats available tomorrow. Holding budget and PTO for confirmed warming event.
+- S02 d092: 61.9°F, fleet zero yesterday. Water signal hasn't arrived—holding for confirmed warm spell.
+- S02 d093: 62.1°F holding flat, fleet zero continues. No warm signal—holding for 63°F+ break.
+- S02 d094: Water dropped to 55.4°F—opposite of building warmth. Yesterday's THREE_QUARTER catch on cold water suspicious. Holding for 63°F+ signal.
+- S02 d095: Water 55.6°F, fleet all-zero yesterday. Spring peak never arrived. Holding for 63°F+ signal.
+- S02 d096: 61.2°F, flat. Spring peak window closed—poor fleet results confirm the warmth never came. Holding for 63°F+ signal.
+- S02 d097: Water 60.8°F flat, fleet zero all week, spring peak window failed. Holding for confirmed 63°F warmth break before deploying budget.
+- S02 d098: Water flat at 60.8°F, fleet zero continuing. Spring peak window closed without clear signal. Holding for confirmed 63°F break.
+- S02 d099: Revising temperature model: San Diego's real catch at 61°F trumps my 63°F dogma. Deploying $150 to test local bite. No PTO committed—waiting for next warm spell signal."
+- S02 d100: Water 61.5°F above mean; caught YT at 61.2°F yesterday. Committing 4 PTO (d115–d118) to position for next warm spell.
+- S02 d101: Water 61.7°F flat, fleet all zeros. No upward signal yet. Holding d115–118 PTO; waiting for 63°F+ break confirmation.
+- S02 d102: 61.2°F equals d100 success but fleet weak yesterday (0.029). Holding 6 PTO + $1850 for sustained 62°F+ signal.
+- S02 d103: Water 61.7°F flat, no trend, fleet zeros. d115–d118 hold + 2 PTO reserved for next warm signal.
+- S02 d104: Fleet dead all week despite 61.9°F; flat trend vs La Niña -1.1. Holding d115–d118 PTO and $1850 for sustained 62°F+ signal. No bookable quality boats tomorrow anyway.
+- S02 d105: Water 61.5°F matches d100 but fleet flat—Coronados bite hints local window not confirmed. Hold $1850 + 6 PTO for sustained 62°F+ trend."
+- S02 d106: Water cooling to 59.9°F, no upward trend. San Diego's hot day won't repeat on colder water. Local bite weak. Hold $1850 and d115–118 PTO for confirmed 62°F+ signal.
+- S02 d107: 62.2°F flat (+0.5°F/week), fleet dead. d115–d118 locked. Hold 2 PTO for next 62°F+ sustained break.
+- S02 d108: 63.0°F warmest in days but fleet dead d108—hold d115–d118 PTO + $1850; monitor next week for sustained signal before new commitments.
+- S02 d109: 63.9°F water confirms sustained warmth. d115–d118 PTO locked in. No booking for d110 (need 14-day notice). Stay home, hold budget.
+- S02 d110: Water 60.8°F cooling below 7-day mean; fleet dead. Hold $1850 and 2 PTO for next sustained 62°F+ signal. d115–d118 locked.
+- S02 d111: Water crashed to 55.9°F (down from 60.8°F). Cold signal, not warming. Hold $1850 and d115–d118 PTO for sustained 62°F+ recovery.
+- S02 d112: Water 58.1°F, trending cold—recovery bounce not sustained. d115–d118 locked for next week. Hold $1850 for 62°F+ confirmation."
+- S02 d113: Water 62.6°F flat trend, fleet dead d113 (THREE_QUARTER 0.008). d115–d118 PTO locked. Hold budget for sustained 62°F+ warmth break.
+- S02 d114: Water 63.5°F highest in days but fleet dead d114 (all 0.000). Skip d115, watch results, book d116–118 if confirmed. Hold $1850.
+- S02 d115: d115: 64.4°F all zeros. Water warm but fleet dead—hold $1850 until confirmed bite, not temp speculation. Skip d116, monitor d116–118 results."
+- S02 d116: Fleet all-zero d116 at 64.2°F—hold $1850, skip d117. Await confirmed bite, not temp speculation.
+- S02 d117: Water 62.6°F holds, fleet dead d117 (0.000 all classes). No bite confirmation. Hold $1850; await fleet turn-on.
+- S02 d118: Book Mustang OVERNIGHT d120 on water warming signal. Month-long hold breaks; bet leading indicator (64.8°F) over lagged one (fleet zeros).
+- S02 d119: Mustang OVERNIGHT d120/d121 on leading indicator (63°F, past fleet lag). Hold 6 PTO pending d121 bite confirmation.
+- S02 d120: Mustang d120 caught 0 at 64.8°F; water cooling, fleet dead. Hold $1450, await confirmed warm bite.
+- S02 d121: Fleet dead, water cooling 63.1°F. Skip d122; commit 4 PTO for fall peak s02 d287–d289; hold $1450.
+- S02 d122: Water 60.8°F cold, fleet dead d115–d122. Skip d123; hold $1450 and 3 PTO reserves for fall peak d285–287.
+- S02 d123: Fleet dead 7 days, local 0 YT. Hold $1450 for fall peak d287–d289 (historical 314–838/day). Commit d288 for 4-day PTO buffer, 2 reserve remain.
+- S02 d124: Water 59.4°F, fleet dead 7 days. Hold for fall peak S02 d285+.
+- S02 d125: Cold 60°F, fleet silent 7d. Hold for fall d287–289. Watch for warming signal late Sept.
+- S02 d126: Skip d127: 61.7°F cold, fleet dead. Commit d288–d289 for Oct peak (historical 838 YT d288, 0.4–0.6 YT/angler expected).
+- S02 d127: Cold 60.8°F, fleet dead 7d. Hold $1450, 3 PTO reserve. Fall peak d287–289 (Fri–Sun, historical 0.4–0.6 YT/angler) already positioned; d288–289 are weekends.
+- S02 d128: Water 60.8°F, fleet dead. Hold for fall peak d287–d289 (PTO d285–287 already positioned). Re-evaluate October with live data.
+- S02 d129: Water cold 61°F, fleet dead 7 days. Hold for fall peak d287–289; commit d290 PTO, reserve 2 days.
+- S02 d130: Cold 60.6°F flat, fleet dead 7d. Hold $1450 + 2 PTO for fall peak d287–d289. Skip d131.
+- S02 d131: Water 62.1°F (cold), fleet silent. Hold for fall peak. Commit d288–d289 PTO to complete Oct window (historical 0.4–0.6 yt/angler).
+- S02 d132: 63.7°F warming + San Diego signals emerging, but fleet quiet. Hold budget for Oct peak. Reassess if fleet confirms mid-week.
+- S02 d133: Water 62.6°F flat, fleet dead. PTO d288–289 committed for Oct peak deploy; hold $1450. Re-eval mid-September when temps rise.
+- S02 d134: Cold 62.6°F, fleet dead. Hold $1450 + 2 PTO for Oct peak d287–289; commit d288–d289 PTO later if needed when water warms and trips book.
+- S02 d135: Water warming 63.9°F, fleet silent. Skip d136; hold $1450 + 2 PTO for Oct peak d287–289 when both temp + bite confirm.
+- S02 d136: Water warming (64.2°F) but fleet silent 7 days. Hold for Oct peak d287–289; committed d288–d289 PTO with $1450 budget ready for 2–3× overnight deployment.
+- S02 d137: Cold 62.4°F, fleet silent 7 days. Stay home. Hold $1450 + 2 PTO for fall peak d287–289 (already have d285–287, d290 locked).
+- S02 d138: Cold 63°F flat, fleet silent. Hold $1450 + 2 PTO for Oct peak d287–289; re-eval mid-Sept if temp approaches 66°F + fleet confirms.
+- S02 d139: Water 63.7°F, fleet silent 7d. Hold $1450 + 2 PTO for Oct peak d287–289 trigger; re-eval mid-September when 66°F + sustained bite confirm.
+- S02 d140: Cold flat 63.9°F, fleet silent 7d. Hold $1450 + 2 PTO for Oct peak d287–289; re-eval when water approaches 66°F + live bite confirms.
+- S02 d141: Water warming slowly; fleet still silent. Holding budget + 2 committed PTO for Oct peak d287–289 deployment (historical 314–838 YT daily). Redeploy when both temp + fleet confirm.
+- S02 d142: Water 64°F, fleet silent 7d. Hold $1450 + 2 PTO for Oct peak d287–289 (d285–d287, d290 locked). Redeploy when both temp + fleet bite confirm.
+- S02 d143: Water 63.9°F flat, fleet silent 7d. Hold $1450 + 2 PTO for Oct peak (d285–d287, d290 locked). Redeploy when both temp + bite confirm.
+- S02 d144: Water warming (65.1°F), San Diego bite confirms (103 YT), but fleet mostly silent and I'm out of PTO for weekday bookings. Hold budget + 2 PTO for Oct peak; re-eval when 66°F sustained + fleet consistent.
+- S02 d145: Water 66.6°F warming into yellowtail zone. Committed final 2 PTO (d288–289) to complete Oct peak window d285–d290. Hold $1450, await fleet bite confirmation.
+- S02 d146: Water 66.7°F (threshold reached), fleet confirming overnights; deploy Dolphin III. Hold 2 PTO for Oct peak d285–d290 when historical data shows 300+ YT daily.
+- S02 d147: Water 66.6°F flat trend, overnights hot 3d. Dolphin III OVERNIGHT locked; holding budget + 2 PTO for Oct peak. Re-eval Tue if water sustains and bite holds.
+- S02 d148: Water 65.7°F approaching threshold but fleet silent (0 local). Hold $1050 + 2 PTO for Oct peak confirmation. Redeploy when temp sustains + fleet bites consistent.
+- S02 d149: Water collapse 66.7→63.9; fleet quiet. Hold $1050 + 2 PTO for Oct peak. No September gambles.
+- S02 d150: Water 65.3°F (threshold touched, trend flat), fleet silent d150. Hold $1050 + 2 PTO for Oct peak; redeploy when 66°F sustained + fleet bites confirmed.
+- S02 d151: 62.4°F cold, fleet mute. Hold $1050. Lock Oct d288–289 peak (838/833 YT days) with final 2 PTO. Deploy OVERNIGHT/1.5-DAY when boats release late Sept schedule.
+- S02 d152: Water 64.8°F flat, fleet silent. Hold $1050 + 2 PTO for Oct peak (d288–289). Redeploy when 66°F+ sustained + bite confirmed.
+- S02 d153: Water 58.3°F cold, trend flat, fleet quiet d153. Hold $1050 + 2 PTO for Oct peak d288–289 (838/833 YT historical). Redeploy when 66°F sustained + fleet bites confirmed.
+- S02 d154: Water 61.5°F flat, fleet silent d154. Hold $1050 + 2 PTO for Oct peak d288–289. Redeploy when 66°F sustained + bite confirmed.
+- S02 d155: Water flat 62.8°F, fleet silent d155. Hold $1050 + 2 PTO for Oct peak.
+- S02 d156: Water 62.1°F flat, fleet d156 mute. Hold $1050 + 2 PTO for Oct peak d288–289 (PTO locked d285–287, d290). Redeploy OVERNIGHT when 66°F sustained + bite confirmed.
+- S02 d157: Water 65.3°F touched threshold but 7d-mean cold, fleet mute d157. Hold $1050 + 2 PTO for Oct peak.
+- S02 d158: Water 61.5°F flat, fleet silent d157–d158. Hold $1050 + 2 PTO for Oct peak. No summer signal yet.
+- S02 d159: Water 61.7°F flat, fleet mute d159. Hold for Oct peak signal (66°F sustained + bite confirmed).
+- S02 d160: Water 61.5°F flat, fleet mute d160–d161. Hold $1050 + 2 PTO for Oct peak. No booking.
+- S02 d161: Water 62.2°F flat, fleet mute d161. Hold $1050 + 2 PTO for October peak. Redeploy when 66°F sustained + bite confirmed.
+- S02 d162: Water cooling, fleet silent. Hold $1050 + 2 PTO for Oct peak. Redeploy when 66°F sustained + confirmed bite signal.
+- S02 d163: Cold 63.1°F, fleet mute d164. Hold $1050 + 2 PTO for October peak signal (66°F sustained + confirmed bite).
+- S02 d164: Cold 63.7°F, fleet mute d164. Hold $1050 + 2 PTO for October peak. Redeploy when 66°F sustained + confirmed bite signal.
+- S02 d165: Water 65.5°F near threshold but 7d-mean cool (63.9°F), fleet mute d165. Hold $1050 + 2 PTO for October peak confirmation.
+- S02 d166: Water 63.7°F cold, fleet mute d166. Hold $1050 + 2 PTO for October peak (d285–289). No booking until 66°F sustained + confirmed bite.
+- S02 d167: Water 64.2 °F flat, d167 spike is noise on cold base. Hold $1050 + 2 PTO for October peak. Redeploy when 66 °F sustained + fleet confirms.
+- S02 d168: d168 spike to 65.3°F + strong THREE_QUARTER (0.509) tempting, but 7d-mean 64.7°F shows volatility. Hold budget + 2 PTO for Oct peak; need 66°F sustained + multi-day fleet confirm before redeploy.
+- S02 d169: Water 66.7°F trending but 7-day mean cool (65.5°F), fleet 0.035 d169 after volatile spike. Hold for sustained confirmation. Watch d170 results.
+- S02 d170: 66.4°F at threshold + weak fleet 0.058 signal suggests warm spell building. Hold PTO/budget; reassess after d171 results before committing to secondary summer surge. Keep fall reserve intact.
+- S02 d171: Water 63.9°F still cool, summer fleet hot yesterday but below threshold. Hold $1050 + 2 PTO for October peak; wait for 66°F sustained + multi-day fleet confirm before redeploying.
+- S02 d172: 66.7°F spike on 65.8°F mean—noise, not sustained. Hold $1050 + 2 PTO for October peak. Redeploy when temp holds + fleet confirms multi-day.
+- S02 d173: Water 66.6°F spike but 7d-mean 65.1°F; fleet mute d173. Hold $1050 + 2 PTO for October peak (d285–289). Redeploy only if sustained warmth + multi-day fleet confirm.
+- S02 d174: Water 66.6°F spike on 64.5°F 7d-mean; d174 fleet mute (THREE_QUARTER 0.013). Hold $1050 + 2 PTO for Oct peak; no booking until sustained warmth + multi-day fleet confirm.
+- S02 d175: Water 65.7°F improving but below 66°F threshold; d175 fleet silent across all classes. Holding for sustained warmth + multi-day fleet confirm before October peak deployment.
+- S02 d176: d176 spike to 67.5°F on 64.6°F mean; fleet silent (THREE_QUARTER 0.000, overnight 0.012). Noise. Hold for October.
+- S02 d177: Single 67.3°F spike on 63.9°F mean; fleet silent (d177 THREE_QUARTER 0.020). Noise. Hold $1050 + 2 PTO for October peak—no booking until sustained warmth + multi-day fleet confirm.
+- S02 d178: d178 evening: 61.3°F, fleet mute. Hold $1050 + 2 PTO for October peak. Cold water, no signal—stay home.
+- S02 d179: d179 silence + 67.3°F spike on 64.7°F mean = noise. Hold $1050 + 2 PTO for October peak.
+- S02 d180: Cold snap 62.2°F, fleet mute d180. Hold $1050 + 2 PTO for October peak. Redeploy when sustained warmth + multi-day fleet confirm.
+- S02 d181: d181: 61.9°F cold snap, fleet silent d174–d181. Hold for October. No booking.
+- S02 d182: Cold snap d182 (57.2°F crash). Fleet silent d175–d182. Hold $1050 + 2 PTO for October peak (d289–295). No booking.
+- S02 d183: d184: 59.5°F crash, fleet silent d175–d183, 0 local YT reports. Hold for October peak. No booking.
+- S02 d184: d184: Cold snap 63.0°F, fleet silent (d184 0.000 across all classes). Hold for October.
+- S02 d185: Cold snap continues (63.0°F), fleet mute d179–d185. Hold for October peak d289.
+- S02 d186: d187 decision: 68.7°F spike on 65.2°F 7d-mean—past noise signal. Fleet d186 zero, d185 faint 0.016. Hold $1050 + 2 PTO for October peak. Need sustained >66°F + fleet confirm.
+- S02 d187: d188: Cold snap, fleet mute. Hold $1050 + 2 PTO for October peak (d289+). Redeploy when water >66°F + multi-day overnight fleet confirm.
+- S02 d188: 61.3°F cold, fleet d188 mute. Hold $1050 + 2 PTO for October peak (d289+). Redeploy when water ≥66°F sustained + multi-day fleet confirm.
+- S02 d189: Cold snap (62.8°F), fleet silent d189. Hold $1050 + 2 PTO for October peak d289+.
+- S02 d190: d191: 69°F spike on 65.4°F mean—single anomaly. Fleet silent d190. Hold $1050 + 2 PTO for October.
+- S02 d191: Water spike + fleet silent = false alarm. Hold $1050 + 2 PTO for October d289 peak (877 YT hist.). No booking.
+- S02 d192: 68°F warming + d192 overnight 0.047 = promising signal. Hold for fleet confirmation d193–d196 before risking budget. October peak (d289, 877 YT hist.) remains primary target.
+- S02 d193: Water 69.1°F + d193 THREE_QUARTER 0.068 promising. Hold one day for d195–d196 overnight fleet confirm before committing PTO. October peak (d289) strategy unchanged.
+- S02 d194: d194 2.797 overnight + 69.1°F confirms warm spell, but missed d195–d196 PTO deadline (d181). Failed execution. Hold 2 PTO for October.
+- S02 d195: Warm spell live (68°F + 0.833 overnight d195). Book New Lo-An OVERNIGHT d197 to capture immediate signal. Preserve $650 for October peak confirmation."}]
+- S02 d196: OVERNIGHT d197 booked on warm signal. Hold 2 PTO and $650 for October peak; watch for sustained >66°F + multi-day fleet confirm d197–d200.
+- S02 d197: Water 70.3°F sustained (best in 6 weeks), San Diego d198 THREE_QUARTER to confirm warm spell extension before October peak deployment.
+- S02 d198: Water 69.8°F sustained, fleet strong d197–d198, but only TWILIGHT bookable (d199 no PTO lead). Hold for multi-day signal + proper 14-day PTO commit. October still primary.
+- S02 d199: 71.4°F water best reading yet, but d199 overnight 0.194 weak vs d194–d198 peak. Hold for d200 fleet confirm before risking last 2 PTO.
+- S02 d200: Water warm (70.5°F) but fleet cooling (d200 0.024). TWILIGHT bookable but 0.000 typical. Hold for October peak discipline.
+- S02 d201: Mid-week peak fading (70.5°F d200 → 68.9°F d201). Hold budget and PTO for October d289 peak (877 YT).
+- S02 d202: Warm spell fading; fleet confirms cooling (d202 0.263 vs d201 0.583). Hold $500/$2 PTO for October peak—discipline intact.
+- S02 d203: Water 68.4°F solid but ENSO -0.5. Hold $500/$2 PTO for October d289 peak (877 YT, 30 days away). Fleet moderate (OVERNIGHT 0.132–0.263 this week). Discipline intact.
+- S02 d204: Warm water signal (68.5°F) real but fleeting; fleet cooling confirms it. Hold capital/PTO for October peak (d289). Discipline intact.
+- S02 d205: Water 68.5°F warm, fleet strong d205, but Monday no-PTO lockout + TWILIGHT 0.000 = stay home. October d289 (877 yt) discipline intact.
+- S02 d206: Water cooling (64°F today vs 68.5°F d205). Hold $500/$2 PTO for October peak—September signal weak and fading.
+- S02 d207: 70.9°F warm but fishing report silent (0 local). TWILIGHT only option, historically useless ($80). Hold $500/2 PTO for October discipline.
+- S02 d208: 70.9°F + fleet bite real (d208 THREE_QUARTER 0.294), but d209 PTO window closed. October peak discipline holds.
+- S02 d209: 71.8°F warm but report silent (0 local). Sept fading, ENSO -0.5. Hold $500/$2 PTO for October peak—discipline holds.
+- S02 d210: Warm water, silent report = September trap. Hold for October. $500/$2 intact.
+- S02 d211: Water 68.2°F warm but fleet d211 weak (THREE_QUARTER 0.007), report modest (3 local). September trap confirmed—hold $500/2 PTO for October d289 peak. Discipline.
+- S02 d212: September fading, cold water, silent report. Hold for October peak. Discipline.
+- S02 d213: Cold water 57.4°F, below threshold. Skip d214. Commit d289 to lock October peak OVERNIGHT (d289→d290 fish, $400 budget + 2 PTO days now allocated). Discipline holds.
+- S02 d214: Water 56.8°F cold, silent report. Hold $500/1 PTO for October d289 OVERNIGHT peak. Discipline.
+- S02 d215: Cold water confirmed (56.5°F). Skip d216. Commit d289 October peak overnight. $500/1 PTO left after lock. Discipline holds.
+- S02 d216: Water 59.9°F, report silent—September trap closed. Hold $500/2 PTO for October d289 overnight peak.
+- S02 d217: 65.8°F rising but 7-day mean 61.3°F. Sept trap holds. Discipline to October 15 peak.
+- S02 d218: Late Sept cooling confirmed (7d mean 61.8°F); September trap holds. Hold $500/2 PTO for October d289 overnight peak. Discipline.
+- S02 d219: September closes cold. Skip d220. October d289 overnight peak remains target (d288–d290 window, water warming to 68–70°F, overnight 4–5 yt/angler historical). Discipline holds.
+- S02 d220: d220: Water 65.7°F, below threshold, report silent. Hold $500/2 PTO for October d289 overnight peak. Discipline.
+- S02 d221: Water 66.9°F now but 7d mean 64.3°F—still cool. Hold $500/2 PTO for October d289 overnight peak. Discipline.
+- S02 d222: Water 66.9°F at threshold but 7d mean 66.0°F flat. Twilight 0.000 historical. Fleet silent. Hold $500/2 PTO for October d289 overnight peak. Discipline.
+- S02 d223: d223 cooling (63.9°F from 66.9°F). October d289 overnight peak target. Hold $500/2 PTO—wait for warm signal before committing.
+- S02 d224: Water kissed 68.4°F but fleet silent on d224 despite warm reading—threshold touched, not confirmed warm. Hold for October d289 peak.
+- S02 d225: September flat at threshold, no warm signal. Hold $500/2 PTO for October d289 peak. Discipline.
+- S02 d226: Skip d227 Sept flatness. Lock d289 PTO now for Oct overnight peak—d289/d290 departure window secured. $500/1 PTO held.
+- S02 d227: September flatness holds. October d289 weekend overnight confirmed no-PTO-cost path; ready to deploy $400 for Cortez/New Lo-An when d288–d290 water warms to 68–70°F.
+- S02 d228: Water kissed 68°F again but 7d-mean still 66.4°F, flat trend. Fleet silent. Hold $500/2 PTO for d289 overnight peak (Oct 15). Discipline.
+- S02 d229: Water warming (67.6°F now) but 7d mean 66.6°F flat. Skip d230 TWILIGHT 0.000 class—discipline holds. $500/2 PTO reserved for October d289 peak (59d out).
+- S02 d230: Threshold touched, trend flat, fleet silent. October d289 peak target locked; preserve $500/2 PTO. Discipline.
+- S02 d231: 68.2°F spike, 7d-mean 67.6°F flat, fleet d231 silent. Hold Oct d289 peak window. Discipline.
+- S02 d232: Water 69.1°F trending up, but fleet d232 silent on three-quarter (0.000). Threshold touch without confirmation—skip per discipline. October peak locked.
+- S02 d233: Water warm (68.7°F) but fleet d233 silent (0 yt). Hold $500/2 PTO for October d289 overnight peak (56d). Discipline.
+- S02 d234: September flatness holds. October d289 peak locked PTO-wise. $500 + 1 PTO deployed for overnight peak (Oct 15). Discipline.
+- S02 d235: Flat 67.3°F, TWILIGHT 0.000 fleet. October d289 peak holds. Discipline.
+- S02 d236: Flat 66.9°F, fleet silent. Hold $500/2 PTO for October peak. No signal yet—discipline.
+- S02 d237: Flat water trend, silent fleet overnight (zeros d231–d237). Hold discipline for October peak. $500/2 PTO locked for d289.
+- S02 d238: Threshold water, silent fleet, flat trend. October peak locked. Stay disciplined.
+- S02 d239: September silent. October d289 overnight (peak 4.967 yt/angler) PTO locked. $500 + 1 PTO reserved. Discipline holds.
+- S02 d240: Water cold (63°F), fleet silent yesterday. October d289 peak locked. Hold discipline—no case for breaking now.
+- S02 d241: Flat September holds. October d289 overnight peak locked via PTO commit. $500/1 PTO reserved for peak execution.
+- S02 d242: Water 70.2°F above threshold; fleet silent d242. TWILIGHT 0.000 this phase. Hold $500/2 PTO for October d289 overnight peak. Discipline.
+- S02 d243: 70.7°F warm but single-boat signal—hold discipline for October d289 peak. Prepare, don't chase.
+- S02 d244: 66°F, flat, silent fleet. October peak locked via PTO. Hold $500/2 PTO—wait for October warmth build confirmation.
+- S02 d245: Cold hold through early October warmth build. September closed, peak d289 OVERNIGHT locked via prior PTO commit. Execute at threshold.
+- S02 d246: September collapsed as predicted (60.1°F, fleet silent). October d289 overnight now locked through d291 return. Discipline: hold $500 and 1 PTO for October warmth confirmation.
+- S02 d247: Cold collapse, fleet silent. Hold $500/1 PTO. October d289 OVERNIGHT peak (4.97 yt/angler) locked via d285–291 commits. Execute when warmth confirmed.
+- S02 d248: Cold hold into October. September trap confirmed (69°F water, zero fleet bite d235–d244). October d289 OVERNIGHT peak locked via prior commits. Execute when warmth returns.
+- S02 d249: Cold 61.2°F, fleet silent. October d289 OVERNIGHT locked via d285–291. Hold $500/1 PTO for warmth rebuild.
+- S02 d250: Cold hold Sept 25. September trap confirmed (69°F = 0.0 YT fleet). October d289 OVERNIGHT locked via prior commits. Execute when warmth rebuilds.
+- S02 d251: Cold hold through late September (60.6°F flat). October d289 OVERNIGHT locked via prior commits. Single overnight spike noise only; no warmth build yet. Execute when trend turns.
+- S02 d252: d252 flat despite 66.9°F water. Holding $500 for October peak. Warmth rebuild early October will trigger October d289 overnight window already locked via d285–d291 PTO commits.
+- S02 d253: Early October transition weak as forecast. Water 65.7°F still below threshold. Hold $500/1 PTO for October d289 OVERNIGHT peak (4.97 yt/angler locked via d285–287, d290–291). Execute when warmth rebuilds ~d275+.
+- S02 d254: Cold collapse post-September. Hold $500/1 PTO for October warmth rebuild + d289 peak already locked.
+- S02 d255: Borderline 66.2°F but weak fleet, early October noise. Hold $500/1 PTO for October d289 peak locked.
+- S02 d256: Water collapsed to 63.7°F 7-day mean, single overnight spike insufficient. Hold $500/1 PTO for October d289 peak; wait for multi-day warmth rebuild signal.
+- S02 d257: Cold collapse post-September confirmed. Hold $500/1 PTO for October d289 peak already locked; wait for warmth rebuild early October.
+- S02 d258: Cold crash to 59°F confirms September window closed. Hold $500 + 1 PTO for October warmth rebuild ~d275+; October d289 overnight already locked via d285–d291 commits.
+- S02 d259: Cold crash to 58.1 °F (7-day 64.1 °F). Hold $500 + 1 PTO for October d289 peak (4.97 yt/angler locked via d285–d291). Yesterday's 0.488 THREE_QUARTER is noise—stay disciplined.
+- S02 d260: Water cool (7-day 64.6°F) post-crash. Hold $500/1 PTO for October d289 peak (locked d285–287, d290–291). Next commit window when warmth rebuilds ~d275+.
+- S02 d261: Rebound to 66.4°F encouraging, but 7d-mean cool and fleet d261 silent. Hold for sustained October warmth signal ~d275+.
+- S02 d262: Cold collapse post-September confirmed (61°F, fleet dead d262). Hold $500/1 PTO for October warmth signal ~d275+; d289 peak locked.
+- S02 d263: 60.4°F cold water despite San Diego flyer d263. Single spike on cold untrustworthy—hold $500 + 1 PTO for October rebuild.
+- S02 d264: Water cold (60.6°F). Hold for October d289 peak locked. Single San Diego flyer on 60°F water is noise.
+- S02 d265: Cold collapse post-September confirmed (59.7°F, overnight fleet 0.0–0.067 yt/angler d259–d264). Prowler spike d255 is noise on cold water. Hold $500 for October d289 peak locked; no warmth signal yet to commit new PTO.
+- S02 d266: 65.1°F rebound and yesterday's 0.870 THREE_QUARTER encouraging, but 7d-mean cool 61.4°F and single-day spikes on borderline water burned me before (d263). Hold $500 for October d289 peak; monitor next 7d for sustained warmth signal before committing capital.
+- S02 d267: Cold crash d244→d267 closes September. d267 THREE_QUARTER spike (1.074) on 61°F is noise. Hold $500+1PTO for October d289 peak; monitor ~d275 for sustained warmth signal.
+- S02 d268: d268 fleet collapse on cool water confirms d267 spike was noise. Hold $500+1PTO for October peak; monitor ~d275 for sustained warmth signal.
+- S02 d269: Cold crash 54.9°F kills d270; single San Diego spike on cold untrustworthy. Hold $500/1PTO for October peak signal ~d275 build.
+- S02 d270: d270 cold collapse confirmed (54.9°F). Hold $500/1PTO for October d289 peak. Monitor d275 warmth signal.
+- S02 d271: Cold collapse d271 (56.7°F, 7d-mean 60.4°F). Hold $500+1PTO for October d288–d290 peak overnight runs (historical 4.97 yt/angler). Monitor d275+ for sustained warmth signal.
+- S02 d272: Cold crash d271→d272 (60.5°F 7d-mean). Hold $500 for October d289 peak; monitor d275+ for sustained warmth signal to commit final PTO.
+- S02 d273: Cold at 61.2°F, single San Diego spike is noise. Hold $500 and reserve d289 overnight (4.97 yt/angler historical peak). Last PTO committed.
+- S02 d274: 63.5°F rebound on cool 7d-mean; d274 fleet dead. Hold $500 for October peak; monitor early-October warmth signal.
+- S02 d275: Cold spell confirms d276 is dead water. October d285–291 peak window (4.97 yt/angler overnight) locked in via PTO d285–287, d290–291. Hold $500, wait for warmth signal.
+- S02 d276: d276 fleet collapse confirms September trap. Hold $500 for October d288–d290 overnight peak. Monitor for sustained warmth signal.
+- S02 d277: Cold dead water, fleet zeros. October peak pre-staged (d285–287, d290–291). Hold $500 and wait for warmth signal into early October.
+- S02 d278: d278 cold dead water (62.2°F). Hold $500 for October d289 overnight peak (4.97 yt/angler pre-staged). Monitor early-October warmth signal.
+- S02 d279: Cold collapse d279. October peak d288–d290 locked (PTO pre-staged). Hold $500, wait for early-October warmth signal.
+- S02 d280: 63.7°F still cold; d280 fleet zeros. October peak d285–291 pre-staged. Hold $500 for d288–290 warmth signal.
+- S02 d281: Cold hold. October peak locked (d285–291 PTO, $500 reserved). Wait for early-October warmth into d288–d290 overnight window.
+- S02 d282: Cold hold. Fleet dead d282. $500, 1 PTO reserved for confirmed October warmth into d288–290.
+- S02 d283: Cold hold d284. Water 62.2°F flat, fleet dead. October peak pre-positioned (PTO d285–287, d290–291); await sustained warmth signal >66°F before deploying $500.
+- S02 d284: Cold hold d285. Water 63.9°F flat, no warmth yet. October d288–d290 peak (overnight 4.97–5.0 yt/angler) locked with $500 + PTO d285–287, d290–291. Await sustained warmth signal to confirm bite.
+- S02 d285: Cold hold d286. Await warmth signal >66°F to deploy $500 overnight d288 into d289 peak (4.97 yt/angler historical).
+- S02 d286: Book d288 OVERNIGHT (Daiwa Pacific) at historical peak. Water warming into threshold; all season held for this moment.
+- S02 d287: Overnight Daiwa Pacific d288→d289 locked. All-in on October peak; hold and fish tomorrow.
+- S02 d288: Cold water 61.9°F persists below threshold. October peak bet (d288 overnight) delivered zero; d289 bookable class are expected zeros. Hold $100, monitor for sustained warmth spike mid-October to salvage season.
+- S02 d289: October peak dead. Cold snap persists 58–63°F. Hold $100, monitor for sustained warmth >66°F rebuild mid-week before deploying final capital.
+- S02 d290: October peak collapsed. Cold snap persists 58.6°F. Hold $100, await sustained warmth >66°F rebuild mid-October before next PTO commitment.
+- S02 d291: Cold snap persists 55.9°F, flat trend. Hold $100 + last PTO day; await sustained warmth signal >66°F before next deployment.
+- S02 d292: Oct peak collapsed on cold snap (61.9°F d288, 58.3°F now). Season effectively over (rank #25); preserve $100 for rare mid-week warmth anomaly only.
+- S02 d293: Cold snap persists (61°F, no trend). October peak dead. Preserve capital and PTO for mid-October warmth rebuild only.
+- S02 d294: Cold snap persists 62.2°F, flat trend. October peak fished and lost. Preserve $100 for rare mid-week warmth anomaly >66°F rebuild (unlikely with 1 PTO day remaining).
+- S02 d295: Cold snap persists 62.4°F flat. October peak missed. Season over—hold $100 + last PTO as hedge vs rare mid-week warmth (unlikely with La Niña signal).
+- S02 d296: Cold snap flat, October peak closed. Preserve $100 + final PTO; La Niña blocks midmonth rebuild.
+- S02 d297: d297: October peak closed (d288–d290 passed). Cold snap flat 62.4°F, no trend. Hold $100 + final PTO for confirmed 68°F rebuild only (unlikely with La Niña).
+- S02 d298: Water flat 63°F, no trend. Hold final PTO + $100; season over absent sustained 68°F rebuild (unlikely with La Niña).
+- S02 d299: D299 hold; water cold 62.1°F flat, no YT mentions, TWILIGHT 0.000 yield. October peak closed, La Niña blocks rebuild. Preserve $100 + final PTO hedge.
+- S02 d300: Water 59.5°F cold, flat trend. October peak window closed, La Niña blocks rebuild. Hold $100 + final PTO day for confirmed 66°F+ only.
+- S02 d301: Season closed. Water 60.8°F (below 66°F threshold), fleet 0.000 yt/angler on shorts last week. Hold $100 + PTO for confirmed >66°F rebuild only; La Niña + flat trend make it unlikely.
+- S02 d302: Water 60.4°F flat, La Niña cool bias persists. October peak (d285–d290) already pre-committed; hold final PTO + $100 through Sept cold snap.
+- S02 d303: Water 61.2°F cold, flat trend. La Niña bias. October peak closed. Hold $100 + final PTO hedge for confirmed >66°F rebuild only.
+- S02 d304: d304: Water cold flat 60.8°F, zero trend. October peak closed. Hold final $100 + 1 PTO as endgame hedge.
+- S02 d305: d305 close: season over. Water 61°F flat, October peak closed, La Niña blocks rebuild. Hold $100 + final PTO hedge.
+- S02 d306: d306 hold. Water cold 60.6°F flat, no YT fleet signal, La Niña persists. Endgame: $100 + 1 PTO day held as hedge for confirmed >66°F rebuild only.
+- S02 d307: Season endgame: water flat 60.8°F, zero fleet signal, La Niña blocks rebuild. Hold $100 + final PTO hedge for confirmed >66°F only.
+- S02 d308: Season endgame: water 62°F flat, fleet 0 YT. Hold $100 + 1 PTO for confirmed >66°F rebuild only.
+- S02 d309: d309 endgame hold: 62.2°F flat, fleet 0 YT, La Niña bias. $100 + 1 PTO reserved for confirmed >66°F rebuild only. Season likely closed.
+- S02 d310: d310 endgame hold: 61°F flat, zero YT fleet d304–d310. Season likely closed. $100 + 1 PTO reserved for confirmed >66°F rebuild only.
+- S02 d311: d311 hold: water 60.1°F flat, zero YT d304–d311. Season closed; reserve $100 + 1 PTO endgame hedge.
+- S02 d312: d312 endgame hold: water 59.2°F declining, fleet dead d306–d312, October peak closed. Preserve $100 + 1 PTO hedge for confirmed >66°F rebuild only.
+- S02 d313: d313 endgame hold: 59.9°F flat, zero YT fleet, La Niña rules. Reserve $100 + 1 PTO for >66°F rebuild confirmation only.
+- S02 d314: d314 hold. Water 59°F flat, zero fleet d308–d314, La Niña bias. Hold $100 + 1 PTO for confirmed >66°F Oct peak rebuild (d288–d290) only.
+- S02 d315: d315 endgame hold: water 60.3°F flat, zero YT fleet d309–d315, La Niña. $100 + 1 PTO hedge for confirmed >66°F rebuild only.
+- S02 d316: d317 endgame hold: 61°F flat, zero YT d310–d316 fleet. $100 + 1 PTO reserved for confirmed >66°F rebuild confirmation only. Season closed.
+- S02 d317: d317 endgame hold: 61°F flat, zero YT fleet d311–d317, La Niña rules. Preserve $100 + 1 PTO hedge for confirmed >66°F rebuild only. Season closed.
+- S02 d318: d318 endgame hold: 59.4°F cold, zero YT fleet d312–d318, La Niña rules. Preserve $100 + 1 PTO for confirmed >66°F rebuild only. Season closed.
+- S02 d319: d319 hold: 59.4°F flat, zero YT fleet d313–d319. La Niña endgame. Preserve $100 + 1 PTO for confirmed >66°F rebuild only.
+- S02 d320: d320 hold: 60.4°F cold, zero fleet d314–d320, La Niña endgame. Hold $100 + 1 PTO for confirmed >66°F rebuild only. Season likely closed.
+- S02 d321: d321 hold: 60.3°F flat, zero fleet d315–d321, La Niña endgame. Preserve $100 + 1 PTO for confirmed >66°F rebuild only. Season likely closed.
+- S02 d322: S02 d322 endgame hold: 59.9°F cold, zero YT fleet d316–d322, La Niña terminal. Season closed. Preserve $100 + 1 PTO.
+- S02 d323: d323 endgame hold: 60.6°F cold flat, zero YT fleet d317–d323, La Niña terminal. Season likely closed. Preserve $100 + 1 PTO.
+- S02 d324: d324 endgame hold: 60.3°F flat, zero fleet d318–d324, La Niña persists. Preserve $100 + 1 PTO for confirmed >66°F rebuild only. Season likely closed.
+- S02 d325: d325 hold: 61°F cold, zero fleet d319–d325, La Niña terminal. Preserve $100 + 1 PTO for confirmed >66°F rebuild.
+- S02 d326: d326 hold: 61°F cold, zero fleet d319–d326, La Niña persists. Preserve $100 + 1 PTO for confirmed >66°F October rebuild only. Peak window d288–d290 still 3 weeks out—wait for warm signal.
+- S02 d327: d327 endgame hold: 61°F flat, zero YT fleet d321–d327, October peak failed Sept d288. Preserve $100 + 1 PTO for confirmed >66°F rebuild only. Season likely closed.
+- S02 d328: d329 hold: 60.3°F flat, zero YT fleet d321–d329, La Niña endgame. Preserve $100 + 1 PTO for confirmed >66°F October rebuild only.
+- S02 d329: d329 endgame hold: 60.3°F flat, zero fleet d321–d329, La Niña terminal. Wait for >66°F rebuild confirmation only.
+- S02 d330: d330 endgame hold: 59.9°F cold, zero fleet d323–d330, La Niña terminal. Season closed. Preserve $100 + 1 PTO until genuine >66°F rebuild confirmed.
+- S02 d331: d331 endgame hold: 60.1 °F cold flat, zero fleet d324–d331, La Niña terminal. Season closed—preserve $100 + 1 PTO.
+- S02 d332: d332 hold: 60.1°F flat, zero fleet d325–d332, La Niña terminal. Preserve $100 + 1 PTO for confirmed >66°F rebuild only.
+- S02 d333: d333 hold: 60.4°F flat, zero fleet d326–d333, La Niña terminal. Preserve $100 + 1 PTO.
+- S02 d334: d334 endgame hold: 61°F flat, zero fleet d327–d334, La Niña terminal. Season closed—preserve $100.
+- S06 d091: 66°F at threshold, fleet fired yesterday, but only one day confirms. Hold: wait d092 briefing to confirm warm spell building before PTO stage for d106+ THREE_QUARTER window.
+- S06 d092: 66.9°F at threshold but trend flat. Fleet d91 fired, d92 decayed. One spike, not confirmed warm spell building yet. Hold and watch d093.
+- S06 d093: 66°F flat trend, not building. d093 spike (THREE_QUARTER 1.48) not confirmed warm spell. Hold and watch next briefing.
+- S06 d094: 67.3°F at threshold, 7-day 66°F flat. d094 THREE_QUARTER 1.042 below 1.5+ gate. Hold—watch d095 result for warm spell confirmation.
+- S06 d095: 66°F at threshold, d095 spike (THREE_QUARTER 1.38, OVERNIGHT 0.91) not yet sustained warming. Hold—watch d096 fleet for confirmation.
+- S06 d096: Flat 65.8°F, d096 fleet weak (THREE_QUARTER 0.976). Hold and watch next briefing for warm spell confirmation.
+- S06 d097: d097 hold: 1.578 yesterday promising but 7-day mean flat 64.4°F, single spike after soft week. Wait d098 confirmation before PTO stage. Watch next briefing.
+- S06 d098: d099 hold—65.5°F spike on flat week, need fleet confirmation. Watch d099 THREE_QUARTER; if sustained, stage PTO for d100+ window next briefing.
+- S06 d099: 65.1°F spike on flat 63.4°F week; d099 0.825 3Q decent but not fire. Hold—watch d100 fleet for warm spell confirmation before capital/PTO stage.
+- S06 d100: 65.5°F spike on soft 63.2°F week, d100 decent but not fire. Hold; watch d100 fleet result tomorrow before capital stage.
+- S06 d101: d101 peak (1.67 3Q, 1.14 OVN) on 63.9°F spike over flat week. Hold—watch d102 fleet for sustained warm spell confirmation before capital stage.
+- S06 d102: 63.5°F on flat 61.8°F week; d101–d102 spike not sustained. Hold—watch for 66°F+ threshold confirmation.
+- S06 d103: 63.3°F on flat 62.2°F week; fleet active on cold background. Hold for 66°F+ threshold confirmation before capital/PTO stage.
+- S06 d104: Water still soft (64.6 °F, −2.7 °F vs threshold); d100–d104 spike fading. Hold; watch d105–d108 fleet for sustained warm before staging October PTO.
+- S06 d105: d105 decent (1.020 3Q) but on cold 63.2°F week. Hold for 66°F+ or sustained warm confirmation. Watch d106 fleet before next move.
+- S06 d106: d106 spike on cold water—hold. Watch d107–d108 fleet and water trend for 66°F+ confirmation before capital move.
+- S06 d107: d107 THREE_QUARTER sustained (San Diego 55 yt, 1.480 yt/angler). Book San Diego d108 3Q—capital live despite cold water. Watch d108 fleet and water trend for October warm-spell staging.
+- S06 d108: Ride 3Q momentum d109 Mission Belle—yesterday's 1.48 real, class pattern holds. Cold water background; no PTO staged until sustained warm signal or d109 confirms reversion risk.
+- S06 d109: Fleet cracked d109 (3Q halved to 0.746). Water falling, cold hold confirmed. Preserve PTO/capital for October peak when sustained warmth builds.
+- S06 d110: Water sliding (55.6°F), no warm signal. Hold PTO. Watch October emergence—stay disciplined.
+- S06 d111: d111 3Q spike confirmed revert risk (d109 pattern repeats). Water sliding, cold hold. Preserve PTO for October peak.
+- S06 d112: Cold hold d113. Water falling, fleet cracked d109–d111. Preserve PTO/capital for October emergence—discipline holds.
+- S06 d113: d113 cold hold. Water 62.8°F (7d mean 61.1, falling). Fleet weak. Discipline: preserve capital/PTO for October emergence (d260+) when sustained warmth + fleet confirm.
+- S06 d114: 3Q fleet hot despite 63°F water—sustained pattern, not spike. San Diego d115 momentum play. Hold PTO for October 66°F+ warm signal (d260+)."
+- S06 d115: Water flat (63.1 °F, 7d mean 62.3). Fleet strong but premature signal. Hold capital/PTO for October emergence.
+- S06 d116: Cold hold d117. Water 63.7°F, fleet flat. Preserve capital/PTO for October peak signal.
+- S06 d117: d117 3Q spike (2.144 yt/angler) is noise; water 63.3°F flat. Hold discipline for October emergence. Score #25, plenty of season left to recover on sustained signal.
+- S06 d118: Cold hold d119. Water 63.3°F flat. Fleet 3Q noise on cold water—Oct emergence discipline holds.
+- S06 d119: Water flat 62°F. Fleet 3Q noise on cold water (d114–d119 pattern confirmed). Hold discipline for October 66°F+ emergence signal. Stay home.
+- S06 d120: Water 65.1°F (7d mean 63.9°F), flat. Fleet 3Q noise pattern confirmed. Hold discipline for October emergence. Stay home d121.
+- S06 d121: d121 fleet crash (0.321 3Q) broke d117–d120 run. Water flat 62.8°F. Stay home; watch d122 results for rebound signal before re-engaging recovery plan. Discipline holds.
+- S06 d122: Water 64.4°F but fleet soft (d122: 0.357). Hold d123. Watch d123–d124 for sustained rebound; if >1.5, commit PTO Friday d135+.
+- S06 d123: Water 66.6°F (warm threshold hit), but fleet signal not yet confirmed d123. Stay home d124, watch results. If >1.5 sustained, deploy d125+ recovery phase.
+- S06 d124: d124 THREE_QUARTER 0.714 is one hot fish day, not sustained warm spell. Water 66.6°F warm but fleet still noisy. Hold discipline; watch d125–d127 pattern before spring recovery commit.
+- S06 d125: Water 66.2°F static, fleet 0.036 avg d121–d125. d124 spike was noise. Hold for sustained >1.5 + rising trend signal.
+- S06 d126: Water 66°F warm but d125–d126 pattern (0.036 → 0.548) is not sustained >1.5 signal. Hold discipline; watch d127 results for multi-day confirmation before recovery-phase PTO commit.
+- S06 d127: d126 0.548 decent but not >1.5 gate yet. Water 64.9°F rising, <66°F. Hold for multi-day +>1.5 + water 66°F confirmation, then deploy d135+ Fridays.
+- S06 d128: Water 64°F, d128 fleet crash (0.020). No sustained signal yet. Hold discipline for true warm spell and multi-day >1.5 confirmation before October staging.
+- S06 d129: d129 THREE_QUARTER 1.054 is one hot day, not sustained. Water 64.9°F (at threshold, not warm yet). Hold d130; if CLASS stays >1.5 and water rises to 65°F+, commit PTO d143/d150/d157 and book aggressively.
+- S06 d130: d130 hot spike 2.255 (water 65.8°F warming). Hold until d131–d132 confirm sustained >1.5, then commit Friday PTO d144+ at tomorrow night's close.
+- S06 d131: d131 2.647 multi-day >1.5 confirmed; water 63.9°F at threshold. Stay d132, commit Fridays, book d142+ if signal holds through d134–d140.
+- S06 d132: d132 spike broke (0.636 after 2.647); water cold at 63.7°F. Hold for multi-day >1.5 + water >64°F reconfirm before new PTO deploy.
+- S06 d133: d133 spike (3.439) on cold 63.5°F water; d131–d133 pattern volatile. Hold discipline for 64°F + multi-day >1.5 reconfirm.
+- S06 d134: Water 62.8°F stuck below 64°F gate. d131–d133 volatility (2.647→0.636→3.439) confirms d133 spike is noise on cold water. Hold discipline; watch d135–d140 for warm-spell reconfirm before next PTO commit.
+- S06 d135: Water 61.3°F cold, fleet d134 weak (0.552), post-d130 volatility noise. Hold discipline for multi-day >1.5 + water 64°F+ reconfirm. Friday PTO d149/d156 reserved for next warm spell.
+- S06 d136: d136 0.846 on cold 61.7°F is single-day noise. Hold for sustained 64°F + multi-day >1.5 reconfirm.
+- S06 d137: Cold water 62.1°F persists. d137 0.965 single day on cold = noise, not signal. Hold for multi-day >1.5 + water >64°F reconfirm.
+- S06 d138: Water 63°F, d138 0.824 below multi-day gate. Hold discipline for 64°F + 1.5 reconfirm.
+- S06 d139: d139 spike 1.321 on 62.8°F cold water = noise. Hold discipline; watch d140–d142 for sustained >1.5 + water trend 64°F+ before next PTO tier.
+- S06 d140: d140 reversal confirms d139 spike was noise on cold water. Hold for warm-spell reconfirm (64°F + sustained >1.5). PTO d149/d156 ready when it comes.
+- S06 d141: Warm water 64.6°F, overnight 1.842 leading edge. Booked DAY_1_5 Prowler d143. Watch d142–d143 fleet for sustained >1.5 before next PTO commit.
+- S06 d142: d142 heat (1.724 THREE_QUARTER) + water 65.5°F + overnight 1.842 d141 = warm spell confirmed. Hold PTO pending d143 results; if sustained >1.5, commit d163/d170 tomorrow night.
+- S06 d143: d143 collapse (THREE_QUARTER 0.473) breaks warm-spell gate. Water 66.4°F warm but fleet doesn't confirm sustained >1.5. Hold PTO. Already on Prowler d144; watch d145–d146 for reconfirm before d163/d170 commit.
+- S06 d144: d145 THREE_QUARTER on San Diego (holiday, no PTO). Watch d145–d146 for sustained >1.5 reconfirm; if hit, commit d163/d170 tomorrow night.
+- S06 d145: d144 1.248 looked like warm-spell leading edge, but d145 collapsed to 0.445. Multi-day gate broken; water warm but fleet doesn't confirm. Hold.
+- S06 d146: d146 spike to 1.188 is single-day jump off cold week, not sustained. Fishing report: local 0, offshore 10—bite migrated. Hold for reconfirm on local grounds before deploying PTO.
+- S06 d147: Flat 65.3°F, fleet noisy d142–d147. Legend OVERNIGHT d149 = hedge on overnight; hold new PTO until sustained >1.5 + water trend.
+- S06 d148: On Legend OVERNIGHT d149/d150 as hedge. Fleet noisy d142–d148 (spikes + collapses), water warm but no sustained >1.5. Hold new PTO/capital pending d150+ reconfirm.
+- S06 d149: Water 66.0°F warm but d149 fleet 0.474 THREE_QUARTER, 0.109 overnight—no sustained >1.5 gate. Hold for d151 reconfirm before PTO commit.
+- S06 d150: d150 reset confirms summer quiet. Hold $450 / 8 PTO; watch October precursor signal (3+ days >1.5 + water >65°F).
+- S06 d151: d146–d147 spikes collapsed to 0.024 by d151; no sustained gate. Water warm but fleet flat. Hold capital/PTO for d160+ reconfirm.
+- S06 d152: d152: Summer quiet holds. Stay home, watch for October multi-day gate restart (water + fleet both sustained). No capital, no PTO deployed.
+- S06 d153: d153: Summer quiet holds. No bookable offers; stay home. Hold $450 / 8 PTO for October multi-day gate restart.
+- S06 d154: d154 warm spike 67.3°F but fleet flat (THREE_QUARTER 0.019); single-day noise, not gate. Hold for Oct multibody restart.
+- S06 d155: d155: Warm spike but fleet flat (THREE_QUARTER 0.020 and 0.019); 7-day mean 64.9°F equals noise. Hold for October restart.
+- S06 d156: Summer noise continues: 66.7°F spike + d156 fleet scatter (OVERNIGHT outlier, THREE_QUARTER baseline) do not confirm sustained gate. Hold for October rebuild.
+- S06 d157: Water 67.6°F spike but d157 fleet quiet (max 0.099 THREE_QUARTER); diurnal warm noise, not gate. Hold for October restart.
+- S06 d158: d159: Diurnal spike 67.5°F now but 7-day mean 63.6°F; fleet baseline quiet (all classes d158 <0.1 except noise). Summer quiet holds. Stay home.
+- S06 d159: d159: Summer quiet confirmed. Water 60.4°F 7-day mean—too cold for gate. Hold $450 + 8 PTO for October restart.
+- S06 d160: d160 THREE_QUARTER 0.757 on 58.8°F baseline = noise within summer quiet zone. Hold $450 + 8 PTO for October gate restart.
+- S06 d161: Summer quiet holds. Daily spike 63.5°F on 58.5°F baseline; d161 fleet noise. Hold $450 / 8 PTO for October multi-day gate restart.
+- S06 d162: d162 summer noise confirmed. Hold $450 + 8 PTO for October gate. Water mean 59.7°F cold baseline.
+- S06 d163: Water 62.8°F baseline, d163 fleet quiet (THREE_QUARTER 0.098)—summer hold continues. Wait for October water gate restart.
+- S06 d164: D164 THREE_QUARTER 0.956 is real fish, but 7-day mean 61.9°F is cold baseline. One hot day on cold water = summer noise pattern. Hold for October gate restart.
+- S06 d165: Summer quiet holds. Water 64.9°F / mean 63.9°F still cold baseline. Hold $450 + 8 PTO for October gate restart.
+- S06 d166: Summer baseline 61.9°F holds. d166 overnight spike is noise on cold water. Stay home; wait for October water gate + multi-day class restart.
+- S06 d167: D167 three-quarter spike (2.074) is summer noise on 61.5°F baseline. Stay home; hold for October gate restart when water sustains 66°F+ and multi-day hits 3.0+ yt/angler.
+- S06 d168: d168 spike on 62.8°F baseline = summer noise. Hold. If d169 also fires, commit d170 overnight PTO tonight.
+- S06 d169: Water 65.7°F warming but not sustained 66°F yet (mean 62.7°F). Book Old Glory overnight (no PTO friction); hold future PTO commitment until d170 evening water check confirms gate. Tactical score move, not October peak yet.
+- S06 d170: Water 64.9 °F baseline, 7-day mean 62.5 °F—cold gate still not met. Hold Old Glory overnight d172 booked; wait for 66°F+ sustained + multi-day restart signal.
+- S06 d171: d172 stay home—cash-poor. Water near 66°F gate but mean still cold (64.8°F). Hold for October peak signal.
+- S06 d172: Water gate opened (67.1°F, mean 66.8°F), fleet three-quarter/overnight firing. Broke at $50 (d108–d171 trips cost $1,950/2,000); cannot fish d173. Committed d187–d189 to ready October multi-day window once capital permits.
+- S06 d173: Water warming (66.9°F, mean 67.8°F) + fleet firing, but cash-poor. Hold for October multi-day window.
+- S06 d174: Water gate open (70°F, mean 68.4°F), yesterday hot (OVERNIGHT 4.036), cash-poor. d187–d189 hedges October restart; hold.
+- S06 d175: Water hot, fleet fired d174–d175. Budget zero. Hold; commit October PTO only once sustained multi-day 3.0+ confirmed over 5+ days.
+- S06 d176: Water hot (71.6°F, mean 69.5°F), fleet THREE_QUARTER/overnight firing, but cash-dry at $50. Hold capital for October.
+- S06 d177: Water gate open (71.1°F), fleet hot d177 (THREE_QUARTER 3.194), but cash-dry at $50. Hold capital and watch for multi-day confirmation before extending October PTO.
+- S06 d178: Water 70°F, fleet hot d178 (THREE_QUARTER 2.151), but cash-broke. Hold; monitor multi-day class for sustained 3.0+ before extending October window beyond d187–d189.
+- S06 d179: Water warming, fleet hot d179, but broke and PTO-locked. Hold for October restart once capital permits.
+- S06 d180: Water gate warming (69.3°F mean 67.9°F), fleet firing THREE_QUARTER/overnight yesterday. Broke—hold October hedge. Monitor for sustained 69+ to extend future PTO.
+- S06 d181: Water warm (70°F), fleet fired d181 (THREE_QUARTER 2.092), but locked out d182 by no PTO + $50 budget. Hold; reassess tomorrow night for d183–d184 multi-day if pattern holds.
+- S06 d182: Broke at October peak. Water 71.4°F, d182 THREE_QUARTER 2.704 fired yesterday. Hold capital for October restart (d187+).
+- S06 d183: Capital-constrained. Water hot, gate open d184, but $50 < $80 min. Hold; reassess when budget allows.
+- S06 d184: Broke through October peak. Gate open (72.3°F), fleet firing d184 1.904 THREE_QUARTER, but $50 < $80 min. Hold capital; watch d186 OVERNIGHT to assess peak hold before extending PTO past d189.
+- S06 d185: Gate open (71.8°F, d185 THREE_QUARTER 2.033), fleet firing, but capital-dry. Sit d186; hold for d187+ OVERNIGHT restart once next trip resolves.
+- S06 d186: Broke, locked out. Water 69.4°F, fleet firing (4.050 THREE_QUARTER d186), but $50 < $80 minimum blocks all d187 trips. D170 OVERNIGHT at 0.4 share cost me October peak d174–d182. Season effectively over unless budget restores.
+- S06 d187: Gate open (69.6°F, d187 fleet fired), but capital exhausted. One bad $400 d170 execution locked me out d174–d182 peak. Season over unless budget restores.
+- S06 d188: Capital gone, PTO spent. October peak closed (d174–d182 missed). Season over.
+- S06 d189: Water warm (70.2°F, d189 fired 2.199 yt/angler), gate open, benign forecast—but capital exhausted. Locked out d190 and beyond. Season effectively over.
+- S06 d190: Gate open (70.5°F, fleet 2.4 yt/angler avg d188–190), but capital $50 locks all plays. d170 bad trade ($400, 0.4 share) cost me October peak. Season over.
+- S06 d191: Broke on open gate. Water hot (71.1°F), fleet firing, but $50 < $80 min locks all d192 plays. Season over unless budget restores.
+- S06 d192: Water cooled 61.5°F, fleet cracking (d192 weak). October peak closed. Sit, hold PTO until rebound confirmed.
+- S06 d193: Broke and waiting. Water rebounding from d192 dip but still cool (65.3°F). Hold PTO for confirmed warm spell 14+ days out.
+- S06 d194: Broke at $50. Water warm (67.6°F), fleet fired yesterday (OVERNIGHT 1.739 yt/angler), but can't deploy. Season over unless budget restores.
+- S06 d195: Broke and locked; water warm but plateau confirmed, fleet cooling d190–d195. Hold for rebound signal d198+ before committing mid-Oct PTO.
+- S06 d196: Broke at $50, can't book d197. Water hot, fleet firing—last 2 PTO committed for d212 mid-Oct shot."
+- S06 d197: Broke and locked; gate open on 67.1 °F water (fleet 1.011 THREE_QUARTER d197), but $50 < all bookable options. Season mismanaged at d170 ($400 trade = 0.4 share loss, locked out October peak). Dry powder at season's end.
+- S06 d198: Broke, locked out d199+. D170 trade ($400 → 0.4 share) killed October peak execution. Season over.
+- S06 d199: Broke and locked out. Water flat at gate, fleet noisy on margin. Hold PTO; wait for sustained warmth signal before mid-Oct deployment.
+- S06 d200: Broke at $50, water 66°F at gate but 7d mean cooling. Hold for sustained rebound d205+ before mid-Oct d212 bet. Fleet d200 viable, not hot.
+- S06 d201: Holding at gate. Water warm but trend unclear, fleet baseline. Save 4 PTO for sustained warmth into October d212 window.
+- S06 d202: Broke at $50, can't fish d203. Committing d216–d219 (Tue–Fri) for mid-Oct secondary peak window. Water 72.7°F, ENSO +1.0; expect October surge around d212–d220.

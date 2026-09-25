@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 128.9,
+ "claude": {
+  "duration_api_ms": 120798,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.21049760000000003,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 58336,
+   "cache_read_input_tokens": 438526,
+   "output_tokens": 9981,
+   "output_tokens_details": {
+    "thinking_tokens": 2223
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 58336,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 637,
+     "cache_read_input_tokens": 73863,
+     "cache_creation_input_tokens": 3448,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3448
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 9981,
+    "cacheReadInputTokens": 438526,
+    "cacheCreationInputTokens": 58336,
+    "webSearchRequests": 0,
+    "costUSD": 0.21049760000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2223,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the season-end turn. Here's what I've finalized:\n\n## Summary\n\n**S06 Season Complete: 14.5712 fish (Rank #6 season, Rank #3 cumulative)**\n\n### What I Changed This Turn:\n\n1. **Updated notes.md** with comprehensive season-end retrospective:\n   - Identified root cause: full capital depletion by d117 (April 30), missing Phases 2-3 peaks worth 12-19 fish\n   - Crystallized key learning: capital pacing beats timing; regime detection beats calendar locking\n   - Locked S07 framework: regime detection at d1-d10 gates entire strategy (El Ni\u00f1o = twin peaks, La Ni\u00f1a = October-only)\n\n2. **Wrote strategy.py** encoding regime-adaptive framework:\n   - Queries ONI at d1-d10 to detect warm vs cold regime\n   - Enforces phase-based capital floors ($1000 Phase 1, $600 Phase 2, $200 Phase 3)\n   - Books DAY_1_5 on sustained 1.5+ yt/angler signals with rolling 1:1 PTO commits\n   - Implements kill switches: never book if post-booking budget < $300, never book day 11+ of peak\n\n3. **Posted forum commitment** validating consensus: regime detection + capital discipline > perfect timing. Public commitment to S07 framework with zero mid-season pivots.\n\n### Why This Matters:\n\nS06 showed the gap to winners (ens_solo 23.97 vs my 14.57 = 9.4 fish) was entirely capital sequencing. By holding $600+ through June-August peaks I would have scored 22-26 instead of 14.57. S07 will execute rolling capital allocation with enforced phase floors\u2014the discipline alone is worth 7-9 fish.\n\nRegime locked at d10. No hesitation. Execute.",
+  "ttft_ms": 3324,
+  "type": "result",
+  "duration_ms": 122632,
+  "uuid": "b2183e25-e096-4c07-8948-6b4e61c464d7",
+  "ttft_stream_ms": 1100,
+  "time_to_request_ms": 489,
+  "first_content_frame_ms": 1100,
+  "time_to_request_from_spawn_ms": 62043668,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353417061.723,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 91.1,
+ "claude": {
+  "duration_api_ms": 86352,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1371015,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 31349,
+   "cache_read_input_tokens": 379435,
+   "output_tokens": 7272,
+   "output_tokens_details": {
+    "thinking_tokens": 2289
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31349,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 377,
+     "cache_read_input_tokens": 47490,
+     "cache_creation_input_tokens": 2834,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2834
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 7272,
+    "cacheReadInputTokens": 379435,
+    "cacheCreationInputTokens": 31349,
+    "webSearchRequests": 0,
+    "costUSD": 0.1371015,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2289,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01XrhS3m2fuXUCfzCBW8KUvU",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d091/temp_solo/RULES.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01KfxMWMDPYCh1iDKJeVf7AV",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d091/temp_solo/persona.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01FbxLyEH68jPUbaPWAMXuNQ",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d091/temp_solo/notes.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01WefPD5Tcn8Z9c81ZRrRRfx",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d091/temp_solo/strategy.py"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 26,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Critical Discovery**: Historical data shows the spring yellowtail peak (DOY 92-97) begins *tomorrow* with 1,739 fish caught over 6 days. Current water temperature (62.8\u00b0F) is already at the activation threshold, contrary to my earlier strategy of waiting for 66\u00b0F. \n\n**Updated Strategy**: Deploy entire $2000 budget on overnight trips (DOY 92-97) where historical data shows 120-200 YT per boat, spend 4 PTO days Mon-Thu of peak week, and reassess summer/fall allocation afterward. Notes.md now reflects the corrected trigger conditions and aggressive booking plan for tomorrow's 21:00 turn.",
+  "ttft_ms": 2727,
+  "type": "result",
+  "duration_ms": 87846,
+  "uuid": "56edcf8b-b00b-432c-86f2-1143c531a122",
+  "ttft_stream_ms": 974,
+  "time_to_request_ms": 520,
+  "first_content_frame_ms": 974,
+  "time_to_request_from_spawn_ms": 20547577,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311924087.188,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

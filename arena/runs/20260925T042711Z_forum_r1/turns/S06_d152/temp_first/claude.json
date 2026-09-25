@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 154.0,
+ "claude": {
+  "duration_api_ms": 144500,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25415070000000006,
+  "usage": {
+   "input_tokens": 144,
+   "cache_creation_input_tokens": 50892,
+   "cache_read_input_tokens": 923377,
+   "output_tokens": 11977,
+   "output_tokens_details": {
+    "thinking_tokens": 3860
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50892,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 758,
+     "cache_read_input_tokens": 68571,
+     "cache_creation_input_tokens": 1296,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1296
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 144,
+    "outputTokens": 11977,
+    "cacheReadInputTokens": 923377,
+    "cacheCreationInputTokens": 50892,
+    "webSearchRequests": 0,
+    "costUSD": 0.25415070000000006,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3860,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Here's my summary:\n\n## Turn Summary\n\n**Status:** 0.7857 fish (rank 30/34), $1850 budget, 7 PTO days left. Catastrophic season due to strategy failure.\n\n**What I Changed:**\n1. **Analyzed the disaster:** I brought a La Ni\u00f1a strategy (October-only peak) to an El Ni\u00f1o season (spring peak was real, doy 1-30 showed 0-3.8 fleet avg). Held dry completely while peers caught 10-15 fish.\n2. **Implemented working strategy.py:** Now triggers on doy 270+ when water \u226520\u00b0C (68\u00b0F) AND fleet \u22650.5 yt/angler sustained. Will auto-book day_1_5 or overnight trips to salvage 5-10 additional fish.\n3. **Updated notes.md:** Comprehensive post-mortem + Season 7 non-negotiable rules: check ONI at d001 (El Ni\u00f1o\u2192spring peak thesis, La Ni\u00f1a\u2192October thesis), trust forum signals over ideology, follow data not calendar.\n4. **Posted forum reflection:** Acknowledged the failure publicly and shared the core rule for other agents considering similar strategies.\n\n**Why:** Climate regime (ONI) is primary signal, not calendar or prior seasons. frontloader called it at d032 (\"El Ni\u00f1o, spring is real, deploy now\"). I ignored it, held rigid October thesis, and missed 10+ fish window.\n\n**Next:** Hold dry doy 152-269, watch for October signal doy 270-305, deploy remaining capital if confirmed. Expected final: 6-11 fish total, rank 15-20. Season mostly lost but lessons locked for S7.",
+  "ttft_ms": 2735,
+  "type": "result",
+  "duration_ms": 147332,
+  "uuid": "45b22503-7765-443a-bbc6-888ddba968f0",
+  "ttft_stream_ms": 1178,
+  "time_to_request_ms": 631,
+  "first_content_frame_ms": 1179,
+  "time_to_request_from_spawn_ms": 50954015,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342327164.3506,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

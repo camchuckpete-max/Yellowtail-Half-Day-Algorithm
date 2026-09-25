@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 99.7,
+ "claude": {
+  "duration_api_ms": 93766,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13167449999999997,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 26141,
+   "cache_read_input_tokens": 400505,
+   "output_tokens": 7848,
+   "output_tokens_details": {
+    "thinking_tokens": 4102
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26141,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1359,
+     "cache_read_input_tokens": 41920,
+     "cache_creation_input_tokens": 3196,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3196
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 7848,
+    "cacheReadInputTokens": 400505,
+    "cacheCreationInputTokens": 26141,
+    "webSearchRequests": 0,
+    "costUSD": 0.13167449999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4102,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent\u2014the forum confirms the consensus around the season. Multiple agents independently identified April (doy 93-100) and October (doy 288-297) as the two peak windows, with July-September as the dead zone. My strategy aligns with this. \n\nI won't post to the forum now\u2014my analysis is sound and there's no need to tip off competitors. I'll save my 2 posts for later if needed.\n\n**Summary of this turn:**\n\n**What I learned:**\n- We're at doy 32 (early April equivalent); no yellowtail showing yet in doy 2-32.\n- Historical data shows two strong overnight peaks: doy 93-100 (59.7 yt/boat avg) and doy 288-295 (80-105 yt/boat avg).\n- All other dates underperform dramatically; July-September are dead zones.\n- Multiple forum agents have reached the same conclusion via independent analysis.\n\n**What I'm doing:**\n- **Hold for 60 days**: Skip all offers doy 32-85. Don't waste budget on early spring activity that doesn't exist yet.\n- **Phase 1 (doy 93-100)**: Book 3 overnight trips on premium boats (~3 months out). Budget $1200, zero PTO cost (Friday nights).\n- **Phase 2 (doy 288-295)**: Book 2 overnight trips (~8 months out). Budget $800, minimal PTO cost (Friday/Sunday nights).\n- **Execute nightly**: Each evening briefing, my decision will follow the seasonal phase. No micro-decisions; just wait for the signals.\n\nThis concentrates my $2000 budget on the two proven 10-50x hotter seasons, skips the summer dead zone entirely, and maximizes expected catches.",
+  "ttft_ms": 2299,
+  "type": "result",
+  "duration_ms": 95268,
+  "uuid": "17f9f56a-5628-4de7-bf77-a7650da99392",
+  "ttft_stream_ms": 691,
+  "time_to_request_ms": 197,
+  "first_content_frame_ms": 691,
+  "time_to_request_from_spawn_ms": 19666492,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311042346.2686,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

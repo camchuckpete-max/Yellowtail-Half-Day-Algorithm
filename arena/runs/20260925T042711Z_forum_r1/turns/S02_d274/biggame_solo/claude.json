@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 77.1,
+ "claude": {
+  "duration_api_ms": 68795,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1402602,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 36800,
+   "cache_read_input_tokens": 389662,
+   "output_tokens": 5522,
+   "output_tokens_details": {
+    "thinking_tokens": 2363
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 36800,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 580,
+     "cache_read_input_tokens": 53629,
+     "cache_creation_input_tokens": 2146,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2146
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 5522,
+    "cacheReadInputTokens": 389662,
+    "cacheCreationInputTokens": 36800,
+    "webSearchRequests": 0,
+    "costUSD": 0.1402602,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2363,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Season 2 Final Analysis (d274):** D271-d273 showed a real 3+ day sustained signal (day_1_5 9.6\u21924.8\u21924.8\u21923.8 yt/angler, 5 local catches d273), but my journal was overly pessimistic and I missed the Friday weekend deployment window. Water cooling now, signal collapsed d274. Discipline was correct for dead season\u2014I'm ranked 33/34 with $2000 intact, tied best-of-worst with top agent who also held fire.\n\n**Season 3 Launch Ready:** Updated notes.md with critical lesson: true signal emerges sharp (9.6\u2192sustains 3+ days\u2192collapses), deployment window is 2\u20133 days wide. Phase 1 gate now clear\u2014deploy immediately when I confirm 3 consecutive days >1.5 yt/angler + fishdope catches, starting with weekend overnight (no PTO cost). Code stays disabled until gate unlocks manually. Budget $2000 + 6 PTO held for discovery phase.",
+  "ttft_ms": 2751,
+  "type": "result",
+  "duration_ms": 70652,
+  "uuid": "fbc0846e-8805-46f5-bd88-a86279608c90",
+  "ttft_stream_ms": 798,
+  "time_to_request_ms": 283,
+  "first_content_frame_ms": 798,
+  "time_to_request_from_spawn_ms": 40461063,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834604.8613,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 83.3,
+ "claude": {
+  "duration_api_ms": 78999,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.15987450000000003,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 38537,
+   "cache_read_input_tokens": 479435,
+   "output_tokens": 6951,
+   "output_tokens_details": {
+    "thinking_tokens": 2173
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38537,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 572,
+     "cache_read_input_tokens": 55157,
+     "cache_creation_input_tokens": 2355,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2355
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 6951,
+    "cacheReadInputTokens": 479435,
+    "cacheCreationInputTokens": 38537,
+    "webSearchRequests": 0,
+    "costUSD": 0.15987450000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2173,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01AP5WmZwUvq1bkzVvuYRpKv",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d001/ens_solo/RULES.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01HuDp4yy2Q2ce4pj5ZFNr9g",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d001/ens_solo/persona.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01JXm7P5FLGoWz9FrE4ZMg9D",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d001/ens_solo/notes.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01NFP4DtHQvAoA8DRq2Uvfgf",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d001/ens_solo/strategy.py"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've analyzed the historical patterns and refined my strategy. Let me write a final note summarizing the Season 6 game plan.\n\n**Season 6 Summary:**\n\nI'm in 2nd place cumulatively (15.2735 fish, only 0.061 behind elnino). Historical data across all seasons shows a consistent pattern: early peak doy 265-275 (1.4-1.8 yt/angler) and main peak doy 280-295 (1.8-2.4 yt/angler), with multi-day class dominant (5-10 yt/angler). My S2 loss came from missing the early peak\u2014S6 strategy now prioritizes aggressive Phase 2 assault on doy 265-275 with 2-3 weekend multi-day trips (zero PTO cost), then locks Phase 3 PTO by doy 268 for doy 280-295 reignition. Target score: 16.5+ fish to win decisively and clinch cumulative board. Next turn: watch for doy 260+ water warming signal (\u226563\u00b0F) and doy 265+ fleet spike to trigger Phase 2 bookings.",
+  "ttft_ms": 3462,
+  "type": "result",
+  "duration_ms": 81302,
+  "uuid": "cd7e53a8-8c4e-46fe-978d-5a65599ccf06",
+  "ttft_stream_ms": 616,
+  "time_to_request_ms": 115,
+  "first_content_frame_ms": 616,
+  "time_to_request_from_spawn_ms": 45348988,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336727381.809,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

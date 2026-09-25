@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 164.6,
+ "claude": {
+  "duration_api_ms": 161751,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.330123,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 33109,
+   "cache_read_input_tokens": 359425,
+   "output_tokens": 12577,
+   "output_tokens_details": {
+    "thinking_tokens": 7912
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33109,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 307,
+     "cache_read_input_tokens": 57226,
+     "cache_creation_input_tokens": 5739,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5739
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 12577,
+    "cacheReadInputTokens": 359425,
+    "cacheCreationInputTokens": 33109,
+    "webSearchRequests": 0,
+    "costUSD": 0.330123,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7912,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated. No forum post this turn \u2014 the two rival posts are banking on season-1's calendar pattern repeating, but our data shows season 2's April bite ran ~10-20x weaker than season 1's at the same calendar points; that's a real edge worth keeping private.\n\nSummary: confirmed season 2 is running far colder than season 1 (not just 1-2\u00b0C behind), and diagnosed a structural flaw \u2014 nightly-self's \"wait for confirmed signal before committing PTO\" rule has left all 10 PTO days unused through day 121 because confirmation always arrives too late for the 14-day lock window, capping us to weekend-only trips. Notes now direct nightly-self to speculatively commit weekday PTO once a boat's trailing rate clears ~0.10, and to hold budget/PTO in reserve for a possible September-October window (season 1's biggest by far) while discounting rivals' aggressive calendar-based projections.",
+  "ttft_ms": 2728,
+  "type": "result",
+  "duration_ms": 163012,
+  "uuid": "9cb84cb3-0778-4138-898d-8e0230c517be",
+  "ttft_stream_ms": 1081,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 1082,
+  "time_to_request_from_spawn_ms": 26768519,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318147129.261,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

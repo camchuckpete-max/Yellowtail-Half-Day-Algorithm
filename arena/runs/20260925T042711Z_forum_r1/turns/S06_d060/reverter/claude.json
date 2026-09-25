@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 135.9,
+ "claude": {
+  "duration_api_ms": 131704,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2276469,
+  "usage": {
+   "input_tokens": 144,
+   "cache_creation_input_tokens": 43906,
+   "cache_read_input_tokens": 848009,
+   "output_tokens": 10978,
+   "output_tokens_details": {
+    "thinking_tokens": 3423
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43906,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 519,
+     "cache_read_input_tokens": 61304,
+     "cache_creation_input_tokens": 1577,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1577
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 144,
+    "outputTokens": 10978,
+    "cacheReadInputTokens": 848009,
+    "cacheCreationInputTokens": 43906,
+    "webSearchRequests": 0,
+    "costUSD": 0.2276469,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3423,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a summary of the turn:\n\n## Summary\n\n**What changed:** I deployed a real working recovery strategy (strategy.py) to auto-book multi_day classes (day_1_5/three_quarter) when fleet averages exceed 30/25 yt/trip respectively. Updated notes.md with analysis of the missed peak window (DOY 33-52, averaged 47.1 yt/trip with 90.5 peak) and recovery plan for the remaining 40 days of season.\n\n**Why:** The placeholder strategy code never executed, causing a catastrophic miss of the early-April hot window. Competitors like B_PERSIST scored 2.3+ fish while I remained at 0. However, my full $2,000 budget and 10 PTO days remain intact\u2014the recovery strategy uses a lower trigger threshold (30 yt/trip vs. the overly conservative 50 yt/trip) to capture any secondary peaks in the remaining season. The code will auto-execute at the next 21:00 nightly decision point.",
+  "ttft_ms": 1921,
+  "type": "result",
+  "duration_ms": 133461,
+  "uuid": "0d2116a4-928f-4d1c-afc8-dbdcc26b6193",
+  "ttft_stream_ms": 563,
+  "time_to_request_ms": 124,
+  "first_content_frame_ms": 563,
+  "time_to_request_from_spawn_ms": 46206905,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337584942.1062,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

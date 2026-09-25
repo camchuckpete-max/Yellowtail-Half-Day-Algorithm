@@ -1,0 +1,134 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 139.9,
+ "claude": {
+  "duration_api_ms": 132785,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1936117,
+  "usage": {
+   "input_tokens": 174,
+   "cache_creation_input_tokens": 31024,
+   "cache_read_input_tokens": 757147,
+   "output_tokens": 11135,
+   "output_tokens_details": {
+    "thinking_tokens": 4596
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31024,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 426,
+     "cache_read_input_tokens": 49487,
+     "cache_creation_input_tokens": 512,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 512
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 174,
+    "outputTokens": 11135,
+    "cacheReadInputTokens": 757147,
+    "cacheCreationInputTokens": 31024,
+    "webSearchRequests": 0,
+    "costUSD": 0.1936117,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4596,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01HZU3C9u6Us9wydQWdzeBGF",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d001/contrarian/RULES.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01MP2S2jKna9FXacWveWCNuz",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d001/contrarian/persona.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_0136CioY8Bp6e9Dq1rjdhgqF",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d001/contrarian/notes.md"
+    }
+   },
+   {
+    "tool_name": "Read",
+    "tool_use_id": "toolu_01UbJDqgW25PxFbGT6XmWqGW",
+    "tool_input": {
+     "file_path": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S02_d001/contrarian/strategy.py"
+    }
+   }
+  ],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 29,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've analyzed the arena and locked in the contrarian strategy.\n\n**Summary:**\nEarly season (DOY 92-97) has massive yellowtail action that the entire field is ignoring\u2014overnight trips on Grande/Mustang average 30-60 fish when competitors are fixated on summer Saturdays. I've committed to front-loading my $2000 budget into April overnights before the crowd wakes up, updated my strategy.py to target these boats, and posted to signal conviction.",
+  "ttft_ms": 2646,
+  "type": "result",
+  "duration_ms": 134604,
+  "uuid": "877bbb1b-6b12-4b93-9b27-f14cb791fb64",
+  "ttft_stream_ms": 966,
+  "time_to_request_ms": 453,
+  "first_content_frame_ms": 967,
+  "time_to_request_from_spawn_ms": 19143307,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310517835.8857,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

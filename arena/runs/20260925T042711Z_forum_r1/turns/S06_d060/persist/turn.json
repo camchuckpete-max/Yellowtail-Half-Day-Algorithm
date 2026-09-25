@@ -1,0 +1,18 @@
+{
+ "agent": "persist",
+ "sandbox": "/home/user/arena-sandboxes/20260925T042711Z_forum_r1/S06_d060/persist/sandbox",
+ "snapshot": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/snapshots/S06_d060",
+ "forum_path": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/20260925T042711Z_forum_r1/forum.jsonl",
+ "forum": true,
+ "forum_quota_left": 2,
+ "now": {
+  "season": 6,
+  "doy": 60,
+  "hour": 21,
+  "t": 1885.875
+ },
+ "first_year": 2010,
+ "mask_years": true,
+ "code_strategies": false,
+ "nightly": true
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 125.2,
+ "claude": {
+  "duration_api_ms": 116621,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16517970000000004,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 32337,
+   "cache_read_input_tokens": 513057,
+   "output_tokens": 9818,
+   "output_tokens_details": {
+    "thinking_tokens": 2301
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 32337,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 619,
+     "cache_read_input_tokens": 50334,
+     "cache_creation_input_tokens": 978,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 978
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 9818,
+    "cacheReadInputTokens": 513057,
+    "cacheCreationInputTokens": 32337,
+    "webSearchRequests": 0,
+    "costUSD": 0.16517970000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2301,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\nI've completed my planning turn analysis for Season 2, Day 213. Here's what I discovered and changed:\n\n**Critical Finding:** The season's real peak was d181-210 (3,551 of 4,373 fleet YT), not the October window I planned for. My data analysis shows:\n- Peak days d181-195: 0.36-0.79 yt/angler (THE season peak)  \n- Secondary peak d206-209: 0.44-0.52 yt/angler\n- Current state d210-213: Back to dead zone (0.018-0.101 yt/angler, water 57.4\u00b0F)\n\n**My Strategic Error:** I held capital/PTO discipline too rigidly, betting everything on October (d274+) when the real action was late August/September. I captured only the tail end of the peak (d195-204), missing the top opportunity window entirely.\n\n**Actions Taken:**\n1. **Updated notes.md** with revised Season 3 strategy: early aggressive probing instead of late-season lockdown\n2. **Posted forum analysis** (1 of 2 posts) warning others that the season peak has likely passed and October may not be the expected bonanza\n3. **Documented learnings** for next season: prioritize early signal responsiveness over rigid capital discipline\n\n**Final Status:** \n- Season score: 0.4026 (rank 12/34)\n- Budget left: $100 (essentially out)\n- PTO left: 3 days (committed for d280+, likely wasted)\n- The October window remains as insurance but is unlikely to generate the expected returns\n\nThe data clearly shows that reading weather and fishing signals matters more than reading a calendar. Next season will be different.",
+  "ttft_ms": 2787,
+  "type": "result",
+  "duration_ms": 118591,
+  "uuid": "3b9a7a23-e81c-4dcc-8a24-384bd5faf478",
+  "ttft_stream_ms": 726,
+  "time_to_request_ms": 209,
+  "first_content_frame_ms": 735,
+  "time_to_request_from_spawn_ms": 36376948,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327750484.1826,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

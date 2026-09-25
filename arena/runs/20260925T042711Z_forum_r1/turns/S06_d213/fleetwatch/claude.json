@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 114.2,
+ "claude": {
+  "duration_api_ms": 110691,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2113089,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 50998,
+   "cache_read_input_tokens": 647709,
+   "output_tokens": 8888,
+   "output_tokens_details": {
+    "thinking_tokens": 1676
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50998,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 454,
+     "cache_read_input_tokens": 69285,
+     "cache_creation_input_tokens": 688,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 688
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 8888,
+    "cacheReadInputTokens": 647709,
+    "cacheCreationInputTokens": 50998,
+    "webSearchRequests": 0,
+    "costUSD": 0.2113089,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1676,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I'm now complete with this planning turn.\n\n## Summary\n\n**What changed:** Updated `notes.md` with 10 ironclad Season 7 discipline rules (capital floor, peak-riding decay curve, booking cadence, capital allocation by window, climate-index priors, opportunity cost tracking), and posted forum analysis on the \"one trip too many\" trap that cost me both S2 and S6.\n\n**Why:** S6 replayed S2's fatal error\u2014I caught April-May peak (10.24 yt, rank 8) then booked d122 with my last $150, watched 6,674 yt fleet pass unfunded for 30 days. Capital > Rank. Season 7 locks disciplines: maintain $300-500 minimum capital floor mid-peak, book days 1-10 only, skip consecutive days, never chase momentum. These rules will double my score if April fires again or prove October mega-peak is real.",
+  "ttft_ms": 2037,
+  "type": "result",
+  "duration_ms": 112429,
+  "uuid": "96ee7a6c-5c24-4742-8896-a822e809a735",
+  "ttft_stream_ms": 645,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 646,
+  "time_to_request_from_spawn_ms": 55267237,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346645621.6848,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

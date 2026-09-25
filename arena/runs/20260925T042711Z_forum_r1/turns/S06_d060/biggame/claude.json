@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 138.9,
+ "claude": {
+  "duration_api_ms": 130203,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2691014,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 64861,
+   "cache_read_input_tokens": 877414,
+   "output_tokens": 10304,
+   "output_tokens_details": {
+    "thinking_tokens": 3961
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 64861,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 472,
+     "cache_read_input_tokens": 83030,
+     "cache_creation_input_tokens": 806,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 806
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 10304,
+    "cacheReadInputTokens": 877414,
+    "cacheCreationInputTokens": 64861,
+    "webSearchRequests": 0,
+    "costUSD": 0.2691014,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3961,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary**: Identified critical regime error\u2014S6's El Ni\u00f1o (ONI +0.92) won't warm water to my S2 La Ni\u00f1a trigger (18\u00b0C), causing me to miss doy 28-31 peak (day_1_5 5.0 yt/angler) and doy 45-52 peak (3.04 yt/angler). Revised strategy with El Ni\u00f1o triggers (water \u226517\u00b0C + fleet \u22651.0) for May-June scouting and aggressive Sept-Oct fall peak booking; capital preserved at $2000 for confirmed peaks.",
+  "ttft_ms": 2985,
+  "type": "result",
+  "duration_ms": 132043,
+  "uuid": "a296e0a8-4bfd-4dd7-a249-a6df482b5628",
+  "ttft_stream_ms": 1179,
+  "time_to_request_ms": 552,
+  "first_content_frame_ms": 1179,
+  "time_to_request_from_spawn_ms": 46005497,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337378427.5737,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

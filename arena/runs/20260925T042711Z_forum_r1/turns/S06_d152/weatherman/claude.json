@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 122.7,
+ "claude": {
+  "duration_api_ms": 113616,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1972081,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 52807,
+   "cache_read_input_tokens": 482981,
+   "output_tokens": 8644,
+   "output_tokens_details": {
+    "thinking_tokens": 3494
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52807,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 835,
+     "cache_read_input_tokens": 69720,
+     "cache_creation_input_tokens": 2062,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2062
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 8644,
+    "cacheReadInputTokens": 482981,
+    "cacheCreationInputTokens": 52807,
+    "webSearchRequests": 0,
+    "costUSD": 0.1972081,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3494,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the analysis and strategic planning for this turn. Let me summarize what I've accomplished:\n\n## Season 6 d152 Planning Turn Summary\n\n**What Happened:** My early S6 strategy (weekend THREE_QUARTER opportunist, d91-d122) executed perfectly on signal detection, booking 7 trips with 6.5 fish in 6 weeks. But I collapsed capital discipline\u2014spent $1950/$2000 by d122\u2014leaving only $50 unable to access any trips for the final 30 days while THREE_QUARTER fleet stayed hot at 1.0-2.6 yt/angler. Missed 3-4 additional trips worth 2.4-4.4 more fish, costing me rank 8-10 placement (ended rank 13, 7.27 fish).\n\n**Root Cause Analysis:**\n1. **Batch PTO commits:** Speculatively committed 10 PTO days (d105-118) before bookings were decided; 8 burned when capital exhausted at d106\n2. **Urgent class selection:** Chose OVERNIGHT ($400, 0.75 yt/angler) over THREE_QUARTER ($150, 1.48 yt/angler) because it avoided 14-day PTO lead time\u2014false urgency cost $300 capital for inferior catch rate\n3. **Capital gate breach:** Deployed 97.5% of budget instead of holding 20-30% reserve\n\n**What I Changed:**\n- Updated `notes.md` with complete d152 post-mortem and Season 7 strategy\n- Posted to forum explaining the lesson (batch PTO + urgent class choice = capital collapse)\n- Documented S7 executable plan with non-negotiable capital gates:\n  - Spring probes: max $600 deployable (hold $1400+)\n  - Summer surge: max $1000 deployable (hold $800+)  \n  - Fall window: max $600 deployable (hold $200+ always)\n  - **PTO commits 1:1 with bookings, never batched**\n  - **Class selection by $/yt efficiency, not urgency**\n\n**Key Lesson:** Capital discipline gates must hold even when signals align. Aggressiveness without reserve pacing costs more than waiting. The edge isn't reading signals\u2014it's maintaining discipline while reading them.\n\nSeason effectively ended at d122 with capital exhaustion. Ranking: 13/34 season (7.27 fish), 23/34 cumulative (0.4026 fish).",
+  "ttft_ms": 2651,
+  "type": "result",
+  "duration_ms": 116085,
+  "uuid": "6492b61e-5a08-4423-bfd4-5864df868d62",
+  "ttft_stream_ms": 1267,
+  "time_to_request_ms": 679,
+  "first_content_frame_ms": 1268,
+  "time_to_request_from_spawn_ms": 50954795,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342327683.2397,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 132.4,
+ "claude": {
+  "duration_api_ms": 128360,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18347719999999998,
+  "usage": {
+   "input_tokens": 124,
+   "cache_creation_input_tokens": 35559,
+   "cache_read_input_tokens": 609802,
+   "output_tokens": 10251,
+   "output_tokens_details": {
+    "thinking_tokens": 1339
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 35559,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 671,
+     "cache_read_input_tokens": 52845,
+     "cache_creation_input_tokens": 1689,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1689
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 124,
+    "outputTokens": 10251,
+    "cacheReadInputTokens": 609802,
+    "cacheCreationInputTokens": 35559,
+    "webSearchRequests": 0,
+    "costUSD": 0.18347719999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1339,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. Here's my end-of-season summary:\n\n**Season 2 Final Analysis (d274, rank 13, 0.4997 score):**\n\nThe September peak was REAL\u2014multi_day trips hit 1.15-2.54 yt/angler (doy 247-251)\u2014but I had zero capital after d218 to execute. Root cause: I spent $2000 entirely on failed April-August bets while trying to \"preserve\" for an October peak that never materialized. The \"capital discipline trap\" locked me out of both peaks.\n\n**What I discovered from data:**\n- doy 247: multi_day 1.153 yt/angler (should have booked)\n- doy 251: multi_day 2.537 yt/angler (massive peak, unreachable)\n- Six boat-selection disasters (0.0 shares each) cost $900 in May-August\n- Dead zone (doy 120-245) held firm at 0.00-0.05; my 0.12 threshold was too strict for early compounding\n\n**Season 3 strategy (now in notes.md + strategy.py):**\n- **Choose ONE path at d090:** Compound early (60% capital into doy 90-160, 0.05+ threshold) OR Preserve strictly (70% unspent through Sept, 0.30+ threshold). Never both.\n- **Boat selection rule:** Avoid 50+ angler boats; prioritize 15-30 angler \"solo\" boats (minimize 0.0s)\n- **Adaptive thresholds:** 0.05+ April-May, 0.15+ June-Aug, 0.30+ Sept, 1.0+ Oct+\n- **PTO discipline:** Commit 14-16 days ahead only after fleet confirmation, not as hedge\n\nUpdated `notes.md` with full autopsy and `strategy.py` with Season 3 decision framework. Capital timing beats threshold selection\u2014a $150 bet early compounds better than a $400 bet late.",
+  "ttft_ms": 2488,
+  "type": "result",
+  "duration_ms": 130708,
+  "uuid": "6f3a37f4-6972-4524-8711-03df41b3b733",
+  "ttft_stream_ms": 806,
+  "time_to_request_ms": 94,
+  "first_content_frame_ms": 807,
+  "time_to_request_from_spawn_ms": 40514534,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331893152.0547,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

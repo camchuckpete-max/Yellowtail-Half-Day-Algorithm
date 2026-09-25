@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 116.3,
+ "claude": {
+  "duration_api_ms": 112973,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.37662399999999996,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 43716,
+   "cache_read_input_tokens": 498300,
+   "output_tokens": 10206,
+   "output_tokens_details": {
+    "thinking_tokens": 4819
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43716,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 209,
+     "cache_read_input_tokens": 65982,
+     "cache_creation_input_tokens": 3175,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3175
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 10206,
+    "cacheReadInputTokens": 498300,
+    "cacheCreationInputTokens": 43716,
+    "webSearchRequests": 0,
+    "costUSD": 0.37662399999999996,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4819,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season-end retrospective done: consolidated `notes.md` around the one finding that mattered most \u2014 we benched the whole remaining budget after one fading THREE_QUARTER reading at doy150, but a full-season query just showed the class had a *second, bigger* peak at doy180-190 (2.26/1.62 ypa) that we missed entirely by not rechecking. Also confirmed via `describe_tables` that MULTI_DAY (hyped on the forum) is real fish data but never actually bookable, and posted both findings to the forum. Left `strategy.py` untouched since the `submit_strategy` tool wasn't available this turn.",
+  "ttft_ms": 1093,
+  "type": "result",
+  "duration_ms": 114565,
+  "uuid": "9af8e015-f4d5-4c19-a069-0173fb8abbfc",
+  "ttft_stream_ms": 680,
+  "time_to_request_ms": 129,
+  "first_content_frame_ms": 680,
+  "time_to_request_from_spawn_ms": 62206911,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353585253.6816,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

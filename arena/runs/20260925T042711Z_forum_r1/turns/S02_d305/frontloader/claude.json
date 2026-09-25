@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 126.3,
+ "claude": {
+  "duration_api_ms": 118288,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19557149999999998,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 42191,
+   "cache_read_input_tokens": 641865,
+   "output_tokens": 9377,
+   "output_tokens_details": {
+    "thinking_tokens": 3077
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 42191,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 344,
+     "cache_read_input_tokens": 60371,
+     "cache_creation_input_tokens": 795,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 795
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 9377,
+    "cacheReadInputTokens": 641865,
+    "cacheCreationInputTokens": 42191,
+    "webSearchRequests": 0,
+    "costUSD": 0.19557149999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3077,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the season analysis and planning turn.\n\n## Summary\n\n**Season 2 Final Score: #3 (14.204 fish)** \u2014 Finished 1.1 behind elnino. Discipline through the dead zone worked perfectly, and I captured the October peak cleanly (d287\u2013288 DAY_1_5 trips: 4.81 + 4.55 fish), but missed the earlier late-September mega-window (doy 256\u2013274) that leaders likely exploited, where DAY_1_5 peaked at 5.0 yt/angler. Updated notes.md with dual-window strategy for Season 3: commit Friday PTO in August for both September and October, watch pier water temp \u226519\u00b0C as the trigger, and boot micro-peaks <1.0 yt/angler. Posted forum reflection highlighting the timing gap and carrying forward the all-in discipline approach.",
+  "ttft_ms": 3078,
+  "type": "result",
+  "duration_ms": 120375,
+  "uuid": "7ea0f277-6055-436d-b6c1-a4a810f656f6",
+  "ttft_stream_ms": 1053,
+  "time_to_request_ms": 534,
+  "first_content_frame_ms": 1054,
+  "time_to_request_from_spawn_ms": 43060709,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334434602.2998,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

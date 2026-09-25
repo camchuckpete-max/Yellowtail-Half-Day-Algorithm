@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 97.2,
+ "claude": {
+  "duration_api_ms": 93889,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.334412,
+  "usage": {
+   "input_tokens": 28,
+   "cache_creation_input_tokens": 30164,
+   "cache_read_input_tokens": 622350,
+   "output_tokens": 8923,
+   "output_tokens_details": {
+    "thinking_tokens": 4346
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30164,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 288,
+     "cache_read_input_tokens": 51287,
+     "cache_creation_input_tokens": 4318,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4318
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 28,
+    "outputTokens": 8923,
+    "cacheReadInputTokens": 622350,
+    "cacheCreationInputTokens": 30164,
+    "webSearchRequests": 0,
+    "costUSD": 0.334412,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4346,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed S6 is still cash-locked ($20/$80 floor, unchanged since d121) with nothing bookable through season end, and resolved the open DAY_1_5 question: it was scheduled/bookable during the d093-121 spree but simply cost 3.7x more than three_quarter, so skipping it was a reasonable $-efficiency call, not a bug.\n\nI rewrote notes.md to correct an overfit claim from earlier turns \u2014 the \"fall run = day_1_5 dominance\" pattern only held in 2 of 5 seasons once I pooled doy265-300 share/$ across S1-S5; in S3 and S5, three_quarter beat day_1_5 by 3-40x per dollar, and S5's fall run barely showed up at all \u2014 so the standing plan now says to compute live share/$ per class each night rather than hardcoding day_1_5 for fall.",
+  "ttft_ms": 1744,
+  "type": "result",
+  "duration_ms": 95304,
+  "uuid": "af7e2237-63e0-43a2-a84a-0406bd6b612b",
+  "ttft_stream_ms": 719,
+  "time_to_request_ms": 119,
+  "first_content_frame_ms": 719,
+  "time_to_request_from_spawn_ms": 53236036,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344614284.517,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 56.2,
+ "claude": {
+  "duration_api_ms": 47746,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3194574,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 49637,
+   "cache_read_input_tokens": 380557,
+   "output_tokens": 4477,
+   "output_tokens_details": {
+    "thinking_tokens": 1513
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 49637,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 247,
+     "cache_read_input_tokens": 74262,
+     "cache_creation_input_tokens": 816,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 816
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 4477,
+    "cacheReadInputTokens": 380557,
+    "cacheCreationInputTokens": 49637,
+    "webSearchRequests": 0,
+    "costUSD": 0.3194574,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1513,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 remains fully locked out (confirmed unchanged since d182): $20 budget < $80 floor, 0 PTO, 14-day lead time makes recovery impossible before season end. No bookable action exists this turn or for the rest of S6.\n\n**What I changed:** appended a d213 confirmation to `notes.md` (nothing new happened, top-of-leaderboard pattern still favors patient three_quarter/PTO discipline over early overnight binges) and posted one forum note naming a failure mode not yet covered \u2014 a single rule-break under boredom, not slow capital bleed, ending my season by crossing the budget floor. Strategy.py left untouched (nothing to encode differently until S7 reset); next actionable turn is S7 season start.",
+  "ttft_ms": 2320,
+  "type": "result",
+  "duration_ms": 49897,
+  "uuid": "310bdf0e-e121-4028-8a79-c939b4ed4672",
+  "ttft_stream_ms": 1253,
+  "time_to_request_ms": 596,
+  "first_content_frame_ms": 1253,
+  "time_to_request_from_spawn_ms": 55139674,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346512926.4666,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 219.7,
+ "claude": {
+  "duration_api_ms": 216247,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.6479266,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 70866,
+   "cache_read_input_tokens": 691893,
+   "output_tokens": 22604,
+   "output_tokens_details": {
+    "thinking_tokens": 16319
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 70866,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 523,
+     "cache_read_input_tokens": 93912,
+     "cache_creation_input_tokens": 2395,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2395
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 22604,
+    "cacheReadInputTokens": 691893,
+    "cacheCreationInputTokens": 70866,
+    "webSearchRequests": 0,
+    "costUSD": 0.6479266,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 16319,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 review complete. Key finding from checking all 5 prior seasons (not just the 2 the old notes covered): DAY_1_5/OVERNIGHT dominate every season and HD/TWILIGHT/FULL_DAY are always dead, but the \"wait for autumn\" calendar assumption is only partly right \u2014 season 5's breakout peaked in late May (doy150), not September/October, which a rigid calendar rule would have completely missed.\n\n**What I changed:** Discovered the previous \"hold-then-fire\" strategy.py described in notes.md was never actually saved (the live file was still the do-nothing stub) \u2014 S02's budget leak to speculative THREE_QUARTER bets was pure manual-decision drift, not a strategy bug. I wrote and saved a real `strategy.py` that mechanically bans HD_AM/PM/TWILIGHT/FULL_DAY/THREE_QUARTER, fires only on a data-driven trailing-signal trigger (\u22650.5 yt/angler over \u22654 boat-trips in the last 14 days) for DAY_1_5/OVERNIGHT, and books zero-PTO weekend slots only \u2014 no calendar anchor, so it can't miss an early breakout like season 5's.\n\n**Why:** This directly targets the proven failure mode (manual discretion overriding a good thesis) rather than re-writing the thesis, and the reactive trigger fixes the calendar-rigidity blind spot the 5-season data exposed. Notes.md now instructs the nightly self to defer to the code and stop manual pre-signal spending.",
+  "ttft_ms": 2362,
+  "type": "result",
+  "duration_ms": 217740,
+  "uuid": "2bc29152-05c1-49d7-be53-3e64fe96a6f0",
+  "ttft_stream_ms": 577,
+  "time_to_request_ms": 100,
+  "first_content_frame_ms": 577,
+  "time_to_request_from_spawn_ms": 45429115,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336807618.5593,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

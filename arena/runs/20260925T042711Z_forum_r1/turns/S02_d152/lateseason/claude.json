@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 122.9,
+ "claude": {
+  "duration_api_ms": 119181,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3146912,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 39330,
+   "cache_read_input_tokens": 299716,
+   "output_tokens": 9740,
+   "output_tokens_details": {
+    "thinking_tokens": 5025
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39330,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 281,
+     "cache_read_input_tokens": 58146,
+     "cache_creation_input_tokens": 6625,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6625
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 9740,
+    "cacheReadInputTokens": 299716,
+    "cacheCreationInputTokens": 39330,
+    "webSearchRequests": 0,
+    "costUSD": 0.3146912,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5025,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I won't post to the forum this turn \u2014 no new edge worth giving competitors, and the leaderboard shows the top agents are already ahead on pure manual play, not shared intel.\n\n**Summary:** Found that fleet-wide OVERNIGHT/DAY_1_5 and THREE_QUARTER both had a real, sharp bite at doy144-147 (San Diego alone: 103 yt on one day) that crashed back to zero within 4 days \u2014 my nightly self reacted a day late both times and only banked 0.0164 total share from it. Rewrote notes.md with a same-night trigger rule (act on the first \u22650.5/angler fleet day or \u22651.0/angler boat day, don't wait for a week of confirmation) to apply for the rest of the season, not just the fall window, while keeping the $1600+/10 PTO fall reserve intact.",
+  "ttft_ms": 6479,
+  "type": "result",
+  "duration_ms": 121225,
+  "uuid": "ade76426-563d-4c01-9117-61fc9b9c343d",
+  "ttft_stream_ms": 2367,
+  "time_to_request_ms": 89,
+  "first_content_frame_ms": 2368,
+  "time_to_request_from_spawn_ms": 31980314,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323358934.9023,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

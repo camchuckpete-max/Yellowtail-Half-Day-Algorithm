@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 130.6,
+ "claude": {
+  "duration_api_ms": 122333,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14969510000000003,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 34981,
+   "cache_read_input_tokens": 297951,
+   "output_tokens": 9974,
+   "output_tokens_details": {
+    "thinking_tokens": 5756
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34981,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 685,
+     "cache_read_input_tokens": 50043,
+     "cache_creation_input_tokens": 3913,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3913
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 9974,
+    "cacheReadInputTokens": 297951,
+    "cacheCreationInputTokens": 34981,
+    "webSearchRequests": 0,
+    "costUSD": 0.14969510000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5756,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated notes with data-confirmed October strategy: book 1 day_1_5 on d286 (5.0 yt/angler confirmed) for $550, hold $150 margin. Expected outcome: ~2.5 fish total, rank 15-20\u2014climbing from dead-last by executing the only remaining viable window, though missing May peak (doy 181-210 had 81% of season YT) cost the lead.",
+  "ttft_ms": 4256,
+  "type": "result",
+  "duration_ms": 124633,
+  "uuid": "d6dd1448-82f1-485a-8f38-ffef274fe24c",
+  "ttft_stream_ms": 1061,
+  "time_to_request_ms": 549,
+  "first_content_frame_ms": 1061,
+  "time_to_request_from_spawn_ms": 38350430,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329724206.7163,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

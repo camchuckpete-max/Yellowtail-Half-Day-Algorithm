@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 90.7,
+ "claude": {
+  "duration_api_ms": 82333,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.28908340000000005,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 46243,
+   "cache_read_input_tokens": 156827,
+   "output_tokens": 7273,
+   "output_tokens_details": {
+    "thinking_tokens": 4270
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46243,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 231,
+     "cache_read_input_tokens": 65591,
+     "cache_creation_input_tokens": 6093,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6093
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 7273,
+    "cacheReadInputTokens": 156827,
+    "cacheCreationInputTokens": 46243,
+    "webSearchRequests": 0,
+    "costUSD": 0.28908340000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4270,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 is going great (rank 1, score 19.6) but budget bottomed out at $50 by day 133 \u2014 below every offer price ($80+), so nothing is bookable for the rest of the season, and two PTO days (d138, d140) were wasted committing to dates with no affordable trip left.\n\nI rewrote `notes.md`: flagged the budget floor so the nightly self stops burning cycles re-analyzing boats it can't afford, called out the PTO-committed-with-no-budget mistake to avoid repeating it, and set a concrete pacing fix for next season (cap early bookings, keep a real reserve for the Aug\u2013Nov day_1_5/overnight window that season 6 never got to test).",
+  "ttft_ms": 3148,
+  "type": "result",
+  "duration_ms": 84273,
+  "uuid": "34464c2c-9017-40eb-93d0-348c653dfa5d",
+  "ttft_stream_ms": 1709,
+  "time_to_request_ms": 624,
+  "first_content_frame_ms": 1710,
+  "time_to_request_from_spawn_ms": 50955019,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342328111.4377,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

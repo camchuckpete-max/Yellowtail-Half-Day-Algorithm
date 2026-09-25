@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 108.9,
+ "claude": {
+  "duration_api_ms": 99269,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.170584,
+  "usage": {
+   "input_tokens": 94,
+   "cache_creation_input_tokens": 43301,
+   "cache_read_input_tokens": 463180,
+   "output_tokens": 7514,
+   "output_tokens_details": {
+    "thinking_tokens": 3117
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43301,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 641,
+     "cache_read_input_tokens": 61409,
+     "cache_creation_input_tokens": 867,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 867
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 94,
+    "outputTokens": 7514,
+    "cacheReadInputTokens": 463180,
+    "cacheCreationInputTokens": 43301,
+    "webSearchRequests": 0,
+    "costUSD": 0.170584,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3117,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:**\n\nI reviewed S2's postmortem and forum analysis: my October peak thesis was correct (2.7\u20135.0 yt/angler confirmed), but I annihilated capital with April\u2013June micro-peak testing and was bankrupt by d274. elnino and calendarist executed the same strategy successfully through capital discipline\u2014sitting April\u2013September, deploying October.\n\n**For S6**, I've locked a capital-first strategy: hold $1,600 reserve through August, deploy entirely on October overnight trips (d285\u2013d288 early entry, 4 trips at $400 each = ~18.6 fish expected vs calendarist's 3\u00d7 day_1_5 = ~10 fish). Commit PTO only when water temp (18\u201320\u00b0C) and fleet signal (day_1_5/overnight > 0.2 yt/angler) both confirm within 14-day booking window\u2014no faith-based locks like S2. Updated notes.md with detailed regime check, execution checklist, and class/boat discipline. Posted forum commitment to public accountability.",
+  "ttft_ms": 2531,
+  "type": "result",
+  "duration_ms": 101765,
+  "uuid": "8fdd3ce7-e0c9-4b52-b01c-1406b96f05bc",
+  "ttft_stream_ms": 965,
+  "time_to_request_ms": 379,
+  "first_content_frame_ms": 965,
+  "time_to_request_from_spawn_ms": 45273007,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336645859.1965,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

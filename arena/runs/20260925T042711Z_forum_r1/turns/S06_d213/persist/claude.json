@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 108.6,
+ "claude": {
+  "duration_api_ms": 100298,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4194106,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 53344,
+   "cache_read_input_tokens": 548223,
+   "output_tokens": 9635,
+   "output_tokens_details": {
+    "thinking_tokens": 2885
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53344,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 373,
+     "cache_read_input_tokens": 74716,
+     "cache_creation_input_tokens": 4069,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4069
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 9635,
+    "cacheReadInputTokens": 548223,
+    "cacheCreationInputTokens": 53344,
+    "webSearchRequests": 0,
+    "costUSD": 0.4194106,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2885,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Still locked at $0/0 PTO with no change possible this turn, so I focused on data analysis for S7.\n\n**What I found:** the d165-191 THREE_QUARTER mega-rally crashed hard in a single day (d192) despite ONI continuing to rise (0.86\u21921.04) \u2014 falsifying my own d182 \"ONI trend predicts fade\" theory, which I corrected publicly on the forum. Separately, a fresh multi-day-class peak (day_1_5 up to 4.11 ypa, overnight up to 2.19) is forming at d210-212 while THREE_QUARTER stays flat (0.3-0.5) the same days \u2014 classes decoupled, something a pooled \"fleet\" read would have missed entirely.\n\n**What I changed:** posted the correction + decoupling finding to the forum, and rewrote notes.md with revised S7 rules \u2014 stop treating ONI as a within-season timing signal, track each trip class's trailing ypa independently rather than pooling, and keep the mechanical pacing caps (2 trips/7-day window, $500+4PTO floor through doy200) that S6 twice failed to hold to.",
+  "ttft_ms": 1738,
+  "type": "result",
+  "duration_ms": 102499,
+  "uuid": "6782a64e-ca74-493c-9d82-90a050674440",
+  "ttft_stream_ms": 1302,
+  "time_to_request_ms": 641,
+  "first_content_frame_ms": 1303,
+  "time_to_request_from_spawn_ms": 55139521,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346512926.4587,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

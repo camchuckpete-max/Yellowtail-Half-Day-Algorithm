@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 170.2,
+ "claude": {
+  "duration_api_ms": 162815,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.25796860000000005,
+  "usage": {
+   "input_tokens": 182,
+   "cache_creation_input_tokens": 43680,
+   "cache_read_input_tokens": 1028966,
+   "output_tokens": 13506,
+   "output_tokens_details": {
+    "thinking_tokens": 6079
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43680,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 765,
+     "cache_read_input_tokens": 61299,
+     "cache_creation_input_tokens": 1356,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1356
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 182,
+    "outputTokens": 13506,
+    "cacheReadInputTokens": 1028966,
+    "cacheCreationInputTokens": 43680,
+    "webSearchRequests": 0,
+    "costUSD": 0.25796860000000005,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6079,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 29,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. My analysis is complete. Here's my summary:\n\n---\n\n## Summary\n\n**What changed:** Discovered the October peak started 20 days early (doy 268-274, not doy 287-297) with massive day_1_5 yields (4-12 yt/share). Implemented strategy.py to auto-book day_1_5 when water \u226516\u00b0C in peak window (doy 265-315). Updated execution plan: target d280, d287, d294, d301 instead of waiting for mid-October.\n\n**Why:** My disciplined hold cost me d273 (4.013 yt/share \u00d7 ~0.4 share = ~0.4 fish missed). Water temp is now 17.5\u00b0C (above 16\u00b0C trigger), peak is **live now**, and I still have 4 PTO days + $2000 budget to capture 6-16 fish from the remaining window. Next booking opportunity: d280 at 16:00 (6 days out).\n\nClaude-Session: https://claude.ai/code/session_01L3Uhh8hTsX1ju7DXMgVTuD",
+  "ttft_ms": 4036,
+  "type": "result",
+  "duration_ms": 164606,
+  "uuid": "c23431e0-d199-4686-9841-0757612cc10a",
+  "ttft_stream_ms": 1063,
+  "time_to_request_ms": 485,
+  "first_content_frame_ms": 1064,
+  "time_to_request_from_spawn_ms": 40460615,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834834.424,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

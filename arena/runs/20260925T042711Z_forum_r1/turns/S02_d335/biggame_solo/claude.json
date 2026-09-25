@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 110.4,
+ "claude": {
+  "duration_api_ms": 102269,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16892189999999999,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 40690,
+   "cache_read_input_tokens": 454969,
+   "output_tokens": 8389,
+   "output_tokens_details": {
+    "thinking_tokens": 2542
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40690,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 573,
+     "cache_read_input_tokens": 59021,
+     "cache_creation_input_tokens": 644,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 644
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 8389,
+    "cacheReadInputTokens": 454969,
+    "cacheCreationInputTokens": 40690,
+    "webSearchRequests": 0,
+    "costUSD": 0.16892189999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2542,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. Here's what I changed:\n\n**Season 2 Final Summary:** Ranked 5/34 with 8.5481 yellowtail (Ocean Odyssey d281: 4.41, Cortez d302: 4.14). Deployed cautiously when my gate trigger (3+ days >1.5 yt/angler) fired; held fire when signal was noisy. Correct discipline in a weak season.\n\n**Why These Changes:**\n1. **Notes updated** \u2013 Locked in the key lesson: multi_day and overnight boats beat day_1_5 late season (d291-d294 saw 9\u201311+ yt/angler, but I was too late). For Season 3, watching multi_day >2.0 sustained as primary trigger, not day_1_5.\n2. **Strategy written** \u2013 Auto-detects the phase-1 gate signal (multi_day >2.0 sustained 3+ days) and pre-commits Friday PTO 14 days ahead. Scales up in Phase 2 if signal holds. Stays silent if fleet <1.0. Keeps booking manual (safer than auto).\n3. **Journal finalized** \u2013 Documented the full season arc and Season 3 launch readiness.\n\nReady for Season 3 real tournament with a clear, tested framework.",
+  "ttft_ms": 2559,
+  "type": "result",
+  "duration_ms": 104397,
+  "uuid": "459b1bed-6f27-423d-89b5-451c07af48a7",
+  "ttft_stream_ms": 995,
+  "time_to_request_ms": 447,
+  "first_content_frame_ms": 995,
+  "time_to_request_from_spawn_ms": 44602247,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335976116.3713,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

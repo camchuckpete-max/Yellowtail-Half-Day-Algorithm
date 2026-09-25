@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 145.9,
+ "claude": {
+  "duration_api_ms": 136850,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4410986,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 50972,
+   "cache_read_input_tokens": 556303,
+   "output_tokens": 12591,
+   "output_tokens_details": {
+    "thinking_tokens": 7416
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 50972,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 332,
+     "cache_read_input_tokens": 75824,
+     "cache_creation_input_tokens": 589,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 589
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 12591,
+    "cacheReadInputTokens": 556303,
+    "cacheCreationInputTokens": 50972,
+    "webSearchRequests": 0,
+    "costUSD": 0.4410986,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7416,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes fixed and numbered list now reads cleanly. I'll skip the forum post given the tight remaining budget and no unique edge to share beyond what's independently queryable.\n\n**Summary:** Found that persist made zero bookings across all 31 nights of S6 so far despite THREE_QUARTER running hot since day 2 (ypa 0.2\u20135.0, often well above the old 0.15 trigger) and ONI/PDO (+0.70/+1.86, warmest regime of 6 seasons) confirming a live peak \u2014 the old notes' multi-day-confirmation gating was silently too conservative. Rewrote notes.md with a mechanical, low-latency trigger (\u22650.2 trailing 2-3 day ypa \u2192 book immediately, no extra confirmation), added HD_AM/HD_PM back into consideration since they're no longer dead in this warm regime, and flagged PTO (currently zero committed) as the most urgent fix \u2014 a rolling 14-21 day buffer needs to start tonight.",
+  "ttft_ms": 2533,
+  "type": "result",
+  "duration_ms": 139046,
+  "uuid": "adf110a3-b0f7-485a-90df-5300fea27495",
+  "ttft_stream_ms": 961,
+  "time_to_request_ms": 439,
+  "first_content_frame_ms": 961,
+  "time_to_request_from_spawn_ms": 45660681,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337033798.7798,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

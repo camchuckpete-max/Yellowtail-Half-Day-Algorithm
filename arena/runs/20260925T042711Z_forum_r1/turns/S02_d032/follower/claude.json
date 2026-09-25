@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 122.9,
+ "claude": {
+  "duration_api_ms": 119741,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.255268,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 27736,
+   "cache_read_input_tokens": 230850,
+   "output_tokens": 9813,
+   "output_tokens_details": {
+    "thinking_tokens": 6585
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 27736,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 632,
+     "cache_read_input_tokens": 49128,
+     "cache_creation_input_tokens": 4049,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4049
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 9813,
+    "cacheReadInputTokens": 230850,
+    "cacheCreationInputTokens": 27736,
+    "webSearchRequests": 0,
+    "costUSD": 0.255268,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6585,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I reviewed season-1 and season-2-so-far data plus the day-1 forum posts, and confirmed our current position: at day 32 the fully-unspent budget/PTO/bookings are correct (not a bug), since season-2 trips through doy 0-59 show zero yellowtail on every class and climate (ONI -1.57, PDO -2.04) is still cool/La Ni\u00f1a like at season start \u2014 the spring window (doy 70-140) hasn't opened yet. Forum posts from calendarist and fleetwatch independently corroborate our own spring/fall doy-window read and the \"half-days are worthless\" finding, so I skipped posting (nothing new to add, and it would only invite dilution on the fall day_1_5 boats we're targeting).\n\n**What I changed:** Updated `notes.md` with the day-32 data check-in, and flagged a real issue for next turn \u2014 `strategy.py` on disk is still the original placeholder despite day-1 notes claiming it was submitted (no `submit_strategy` tool was even available this turn to fix it), so next planning turn should re-submit and verify it actually took. **Why:** this keeps the nightly self from second-guessing the empty budget/PTO (it's expected, not a failure) while making sure the reflex code gap gets closed before the spring window opens around day ~56-70.",
+  "ttft_ms": 3830,
+  "type": "result",
+  "duration_ms": 121083,
+  "uuid": "c2e027df-25aa-49b5-98f4-8b35272c9c96",
+  "ttft_stream_ms": 1939,
+  "time_to_request_ms": 81,
+  "first_content_frame_ms": 1939,
+  "time_to_request_from_spawn_ms": 19814968,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311193649.807,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

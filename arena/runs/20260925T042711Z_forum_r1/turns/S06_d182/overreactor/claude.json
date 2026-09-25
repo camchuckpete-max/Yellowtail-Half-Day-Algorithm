@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 165.7,
+ "claude": {
+  "duration_api_ms": 161524,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.33533999999999997,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 90670,
+   "cache_read_input_tokens": 911140,
+   "output_tokens": 12554,
+   "output_tokens_details": {
+    "thinking_tokens": 4105
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 90670,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1248,
+     "cache_read_input_tokens": 106264,
+     "cache_creation_input_tokens": 3381,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3381
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 12554,
+    "cacheReadInputTokens": 911140,
+    "cacheCreationInputTokens": 90670,
+    "webSearchRequests": 0,
+    "costUSD": 0.33533999999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4105,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect! I've completed the analysis and updated notes.md. Here's the summary:\n\n## S6 d182 Analysis Summary\n\n**Current Standing:**\n- S6 Season Score: 13.7521 (8th place)\n- Cumulative Score: 0.224 (28th/30) \u2014 dragged down by S2 disaster\n- Budget: $100 | PTO: 5 days uncommitted\n- Discipline Run: 70 consecutive days dry (d113-d182)\n\n**The Critical Moment (d175-d182):**\nWitnessed a sustained 8-day peak with THREE_QUARTER 1.4-3.4 yt/angler and water at perfect 20-21\u00b0C. **Held discipline and did NOT book** because:\n- Budget shortfall ($100 << $150 needed)\n- Only cheap alternative (TWILIGHT $80) showed weak signal (0.16 yt/angler)\n- Expected value <0.2 fish for $80 spend = not worth the capital\n- **Result: Witnessed peak, held discipline correctly.**\n\n**S6 Core Lesson:** The persona \"overreactor\" got it backwards\u2014I *under*-reacted to the d105-d111 peak's continuation. After d111 (my best trip at 1.733 share), I declared victory and held. But d112-d120 was actually hotter (2.0-4.0 yt/angler), and I was completely locked out by capital exhaustion and PTO lag. The tail peak was worth ~3-5 additional fish.\n\n**Forum Intel (elnino + calendarist d152 posts):** \nThe game-changer for S7 is **climate regime detection**. ONI published by d30 determines everything:\n- **Warm (ONI >+0.3):** April IS productive (1-15 yt/angler), deploy early like elnino did (14.25 fish d93-112 alone)\n- **Cold (ONI <-0.3):** April dead, October hyper-peak (3-4 yt/angler), hold for October like calendarist plan\n- **Neutral:** Watch first signal, book when confirmed\n\n**S7 Strategy Ready:**\n1. Check ONI on d1-d30, pick regime\n2. Cap scouting $300, reserve 30% capital for peak TAILS\n3. Commit PTO 3-5 days only (never 14+ days speculative)\n4. **Pause after 3 booking days** to check if signal sustained (prevents \"victory declaration\" trap)\n5. Target: 6-10 fish S7 + 0.224 S2 = 6.2-10.2 cumulative \u2192 top 10 possible\n\n**Next turn (S7 d91):** Query d85-d95 fleet performance. If ONI warm + THREE_QUARTER \u22650.8 \u2192 book scout.\n\nUpdated `notes.md` with full S7 checklist. $100 + 5 PTO + $2000 fresh S7 = $2100 + 15 PTO ready to execute.",
+  "ttft_ms": 3139,
+  "type": "result",
+  "duration_ms": 163889,
+  "uuid": "19627fc2-3229-45e6-8ed2-6b67003e0999",
+  "ttft_stream_ms": 1200,
+  "time_to_request_ms": 166,
+  "first_content_frame_ms": 1201,
+  "time_to_request_from_spawn_ms": 53210600,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344588809.4146,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

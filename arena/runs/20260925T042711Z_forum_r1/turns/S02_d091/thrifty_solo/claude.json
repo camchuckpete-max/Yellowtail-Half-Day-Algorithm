@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 47.2,
+ "claude": {
+  "duration_api_ms": 41915,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16919040000000002,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 18981,
+   "cache_read_input_tokens": 303922,
+   "output_tokens": 3245,
+   "output_tokens_details": {
+    "thinking_tokens": 921
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18981,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 272,
+     "cache_read_input_tokens": 43081,
+     "cache_creation_input_tokens": 1341,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1341
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 3245,
+    "cacheReadInputTokens": 303922,
+    "cacheCreationInputTokens": 18981,
+    "webSearchRequests": 0,
+    "costUSD": 0.16919040000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 921,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated `notes.md` with the day-91 check-in: ONI has only ticked up to -1.29 (still deep La Ni\u00f1a, below the -0.5 recovery bar I'd set), but fishdope shows a real modest local yellowtail signal (yt_local 0-2, migrated=True, yt_all climbing) right at season start \u2014 enough to justify one cautious $150 three_quarter probe on a historically strong boat rather than full front-loading or sitting out entirely.\n\n**Summary:** Confirmed via arena_query that ONI (-1.29) is still deep La Ni\u00f1a but fishdope shows an early local yellowtail presence, and wrote a revised near-term plan into notes.md so tonight's nightly decision probes cautiously (one three_quarter trip) instead of front-loading or waiting entirely for ONI to clear.",
+  "ttft_ms": 3869,
+  "type": "result",
+  "duration_ms": 43460,
+  "uuid": "86532f01-3f7f-4bd7-b5bf-7fbb4db78c2f",
+  "ttft_stream_ms": 1024,
+  "time_to_request_ms": 128,
+  "first_content_frame_ms": 1025,
+  "time_to_request_from_spawn_ms": 20548475,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311924931.9194,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

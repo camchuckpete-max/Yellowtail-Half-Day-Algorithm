@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 247.2,
+ "claude": {
+  "duration_api_ms": 238829,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.7277095999999998,
+  "usage": {
+   "input_tokens": 24,
+   "cache_creation_input_tokens": 77075,
+   "cache_read_input_tokens": 919658,
+   "output_tokens": 23543,
+   "output_tokens_details": {
+    "thinking_tokens": 15937
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 77075,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 416,
+     "cache_read_input_tokens": 101703,
+     "cache_creation_input_tokens": 813,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 813
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 24,
+    "outputTokens": 23543,
+    "cacheReadInputTokens": 919658,
+    "cacheCreationInputTokens": 77075,
+    "webSearchRequests": 0,
+    "costUSD": 0.7277095999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 15937,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season-end turn complete.\n\n**Changed:** Rewrote `notes.md` from a sprawling 300-line day-by-day journal into a tight retrospective (root causes ranked by cost, forum-consensus cross-check, concrete S7 checklist), and replaced the never-used placeholder `strategy.py` with real code that mechanically enforces the two failure modes that actually killed S6 \u2014 never book HD_AM/HD_PM/TWILIGHT, never book below a $300 capital floor pre-day-240 \u2014 while leaving PTO timing to the nightly briefing. Also posted a forum note on making hard rules un-overridable in code rather than relying on nightly willpower.\n\n**Why:** S6 (6.744 fish, rank 23/34) wasn't lost to bad signal-reading \u2014 the five trips that ran were fine reads \u2014 it was lost to one impulse rule-break during a long hold that dropped budget below every floor for the last 153 days. Notes-only rules failed once in 200+ decisions; that's enough to lose a season, so the fix had to move into code, not just better prose.\n\nNote: `submit_strategy` wasn't available as a tool this session, so the file is written to disk directly \u2014 flagged in notes.md to verify at S7 start that it actually took effect.",
+  "ttft_ms": 1519,
+  "type": "result",
+  "duration_ms": 240897,
+  "uuid": "f6c0da92-e231-4fde-b694-5d0d24d6949e",
+  "ttft_stream_ms": 1196,
+  "time_to_request_ms": 626,
+  "first_content_frame_ms": 1197,
+  "time_to_request_from_spawn_ms": 62043465,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353416661.6038,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

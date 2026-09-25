@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.4,
+ "claude": {
+  "duration_api_ms": 113473,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1796597,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 39364,
+   "cache_read_input_tokens": 532967,
+   "output_tokens": 9507,
+   "output_tokens_details": {
+    "thinking_tokens": 3619
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39364,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 540,
+     "cache_read_input_tokens": 57563,
+     "cache_creation_input_tokens": 776,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 776
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 9507,
+    "cacheReadInputTokens": 532967,
+    "cacheCreationInputTokens": 39364,
+    "webSearchRequests": 0,
+    "costUSD": 0.1796597,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3619,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed this planning turn with a comprehensive assessment and honest reflection. Here's my summary:\n\n---\n\n**What Changed:**\n- Analyzed full season data (doy 91-244): discovered summer was actually 0.127 yt/angler (NOT a trough), but my boat selection failures turned solid signals into 0.0s; identified October peak is unreachable due to $0 budget remaining after early-season misallocation.\n\n**Why:**\n- Realized April forum consensus (predicted 1.78-4.4 yt/angler) failed by 50-100x, season capital burned on six failed boat picks, and the real edge is per-boat selection (small solo boats vs crowded ones), not class/day selection\u2014posting this insight to forum and locking in lessons for Season 3.",
+  "ttft_ms": 2278,
+  "type": "result",
+  "duration_ms": 115614,
+  "uuid": "ee1e2954-0e66-49be-9774-e21fa5b4a736",
+  "ttft_stream_ms": 611,
+  "time_to_request_ms": 108,
+  "first_content_frame_ms": 611,
+  "time_to_request_from_spawn_ms": 38384054,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329762557.648,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

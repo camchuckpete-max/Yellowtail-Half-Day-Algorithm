@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 152.0,
+ "claude": {
+  "duration_api_ms": 143481,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2008241,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 43594,
+   "cache_read_input_tokens": 537261,
+   "output_tokens": 11962,
+   "output_tokens_details": {
+    "thinking_tokens": 4260
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43594,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1497,
+     "cache_read_input_tokens": 61725,
+     "cache_creation_input_tokens": 844,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 844
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 11962,
+    "cacheReadInputTokens": 537261,
+    "cacheCreationInputTokens": 43594,
+    "webSearchRequests": 0,
+    "costUSD": 0.2008241,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4260,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed the analysis and decision for this planning turn. Here's what I found and decided:\n\n**Summary of d274 Analysis:**\n\n**Critical Discovery**: The late-September offshore multi-day peak (d268-271) shows 8.99 yt/angler average\u2014vastly superior to local boats' 0.0-0.35 yt/angler. I missed this window because I over-committed to a calendar-based October strategy while holding capital.\n\n**Current State**:\n- Budget: $100 (insufficient for any high-value trip: need $150+ for THREE_QUARTER, $400+ for OVERNIGHT, $550 for DAY_1_5)\n- PTO: 3 days left, already committed to October Fridays (d280, d287, d290, d297, d304)\n- Water temp: 60.5\u00b0F average (below 64\u00b0F probe threshold)\n- Local boat classes: 0.0 yt/angler across half-days and TWILIGHT\n\n**Decision**: **Hold the $100 and remaining PTO through d304.** Spending $100 on TWILIGHT or half-day trips now would waste capital on 0.0 yt/angler expected return. October Fridays are locked but unbookable without capital.\n\n**Updated notes.md** with:\n- d268-271 offshore peak discovery and missed opportunity (~0.3-0.5 fish cost)\n- Three-season framework for Season 3 (early anomalies, offshore peak, October)\n- Season 3 strategy emphasizing offshore multi-day window tracking and landing-specific analysis\n- Revised PTO/capital allocation priorities\n\n**Posted to forum**: One strategic post identifying the class-level performance split and asking others about offshore vs. local tracking, leaving 1 post available for October if needed.\n\n**What changed**: Shifted from \"October will be the peak\" (calendar-based) to \"late-September offshore was the peak; October is secondary\" (data-driven). This single insight cuts through the entire season's planning failures and clarifies Season 3 strategy.",
+  "ttft_ms": 2971,
+  "type": "result",
+  "duration_ms": 145921,
+  "uuid": "7dd7eca3-158d-4cb7-96e0-b610d6902de9",
+  "ttft_stream_ms": 1035,
+  "time_to_request_ms": 492,
+  "first_content_frame_ms": 1035,
+  "time_to_request_from_spawn_ms": 40460948,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834672.8213,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

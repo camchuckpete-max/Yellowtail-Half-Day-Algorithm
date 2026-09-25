@@ -1,0 +1,282 @@
+- S02 d091: Peak window (doy 91–120) opens. Tomorrow no day_1_5 available; d094 Mon return requires missed PTO deadline. Holding for Fri d098 (Sat fish, Sun return, 0 PTO). Model threshold: 1.2 yt/angler.
+- S02 d092: April multi-day past PTO deadline; half-day offers subthreshold (0.237 yt/angler). Holding for weekend OVERNIGHT or October peak per model.
+- S02 d093: Weekday window missed (no PTO pre-commit); first free play is Sat d099; holding.
+- S02 d094: April weekday peak (d095) unreachable without PTO pre-commit. Holding for Sat d099 weekend or October peak per model. Discipline over FOMO.
+- S02 d095: Early peak unreachable; committed mid-April (doy 109–111) to catch April tail with day_1_5; 7 PTO remain for October peak.
+- S02 d096: Weekday peak (d097) unreachable; PTO deadline passed. Holding d109-d111 pre-commitment for mid-April window. Weekend or d098-d105 offers (if boats scheduled) would be free of PTO friction.
+- S02 d097: New boats (Voyager, Jig Strike) zero track record; recent fleet 0.000 yt despite class avg 1.5+. Hold for d109–111 window per model.
+- S02 d098: Fleet 0.000 recent, fishing report sparse (3 YT all areas). April peak signal weak vs May thesis per forum. Model ~0.4 yt/angler forecast; below thresholds. Holding PTO + budget for confirmed peaks.
+- S02 d099: April peak d93–97 already passed; fleet weak on d99. Holding d109–111 commitment, monitoring May signal per forum thesis shift.
+- S02 d100: April peak (doy 92–121) weak now; firm on d109–111 commit; 4 PTO reserved for October peak.
+- S02 d101: D101: April peak waning (fleet 0.000); holding d109–111 committed window; day_1_5 model waits for forecast ≥1.2 yt/angler, expect 1.5+ mid-April tail.
+- S02 d102: Fleet 0.000 recent; model waits on peak d109–111 committed; pass d103 (no PTO available).
+- S02 d103: Fleet weak d96-d103; April peak (d92-d100) likely passed. Holding d109-d111 per plan, skip d104-d108. Monitor boats for committed window, then May signal.
+- S02 d104: April peak softer than forecast (fleet 0.000 DAY_1_5, Voyager 0/d099); Aztec unproven. Wait for d109–111 committed window.
+- S02 d105: Fleet 0.000 through d105; April peak thesis stalling. Model forecast d106 ~0.08–0.2 yt/angler, below thresholds. Holding d109–111 committed window, watching for signal to improve.
+- S02 d106: Book San Diego d107 on d106 pop, expect regression but boat solid. Hold d109–111 committed for peak tail. Still down but building position.
+- S02 d107: April peak thesis failed (0.011 OV recent vs 1.138 typical). Fleet weak through d107. Hold d109–111 committed PTO; wait for signal before spending $400 on weak data.
+- S02 d108: Fleet 0.04–0.139 d108; April thesis failed. Skip d109 despite committed PTO (sunk cost). Hold 4 PTO and $1850 for October signal (~d260 monitor, ~d273 commit).
+- S02 d109: Fleet weak d101-d109 (April thesis failed). d109 pop (0.412 THREE_QUARTER) one outlier. San Diego at 0.17–0.20 yt/angler pred, below 0.20 threshold. Preserve $1850 for October peak.
+- S02 d110: April peak failed; d111 forecast ~0.10 yt/angler, well below 0.20 threshold. PTO sunk, skip booking. Hold $1850 for Oct day_1_5 peak (doy 287–301).
+- S02 d111: April peak collapsed; fleet bottoming at 0.010–0.061. OVERNIGHT/DAY_1_5 forecast 0.010/0.000, far below 0.20 threshold. Skip; hold $1850 for October peak (~d287+, typical 0.6+ yt/angler).
+- S02 d112: Model predicts d113 at 0.15-0.20 yt/angler (borderline threshold). April peak failed; d112 pop is noise. Hold $1850/7 PTO for October (d287+, typical 0.6+).
+- S02 d113: April thesis failed; d113 actual 0.008 vs 0.20 threshold. Fleet weak. Hold $1850 for Oct peak (~d287-301, historical 0.6+).
+- S02 d114: April peak completely collapsed; dead zone d115–121 incoming. Hold $1850 and 7 PTO for October (doy ~287–301, historical 0.6+ yt/angler).
+- S02 d115: April thesis dead; dead zone d115+ confirmed. TWILIGHT 0.000 yield, skip. Hold $1850/7 PTO for October day_1_5 peak (d287+, typical 0.6+ yt/angler).
+- S02 d116: Dead zone confirmed (d116 fleet 0.000). Hold $1850/7 PTO for October peak (~d287–301, historical 0.6+ yt/angler).
+- S02 d117: Dead zone; all trips need uncommitted PTO. Hold $1850/7 PTO for October peak (d287+, ~0.6+ yt/angler historical).
+- S02 d118: April dead zone confirmed. d119–d120 forecast <0.15 yt/angler. Hold $1850/7 PTO for October peak (doy 287+).
+- S02 d119: Dead zone; fleet 7d avg 0.008–0.017 yt/angler, latest report 3 yt all areas. Hold $1850/7 PTO for October peak (d287+, historical 0.6+ yt/angler).
+- S02 d120: Dead zone d120–121 confirmed (fleet 0.000 d120). Hold for October peak d287–301 (~0.6+ yt/angler historical). Commit PTO later at d260–273.
+- S02 d121: Dead zone confirmed. May weekend scout (d135, d142 Sundays, no PTO cost) to test skeptic's claim; October peak play (d287-301) remains core thesis.
+- S02 d122: D122 dead zone confirmed. No bookable d123 trips (PTO deadline passed). Hold $1850/7 PTO for October peak d287-301.
+- S02 d123: Dead zone d123; hold for Oct d287-301 peak.
+- S02 d124: D124 dead zone confirmed (7d fleet 0.000). Hold $1850/7 PTO for October d287+ peak per strategy.
+- S02 d125: Dead zone continues (fleet 0.000 d120–125, DAY_1_5 3× zero last 7d, cooling water). Hold $1850/7 PTO for October d287+.
+- S02 d126: Dead zone d120–125 confirmed. Skip d127, hold $1850/7 PTO for Oct d287–301 peak. Model discipline: 0.05 yt/angler forecasts fall short of 0.12 threshold.
+- S02 d127: Dead zone d127 confirmed. Hold $1850/7 PTO for October peak d287+. Scout later if May signal emerges.
+- S02 d128: D128 dead zone holds; no bookable trips tomorrow. Store capital for October d287+ peak. May scout weekends d135, d142 if fleet signal emerges.
+- S02 d129: Dead zone holds through d129 (0.000/angler, 10 consecutive days). All capital and PTO reserved for October peak doy 287–301; forum consensus high-conviction window, final strategic play before season close.
+- S02 d130: Dead zone d120+ confirmed. October peak d287–301 strategy unchanged.
+- S02 d132: Dead zone d120–132 confirmed; hold capital for Oct peak.
+- S02 d133: Dead zone d120+ holds d134 (fleet 0.000-0.039 across 14 days). Hold $1850/3PTO for October peak d287+. Threshold discipline confirms skip.
+- S02 d134: D120–135 dead zone holds. THREE_QUARTER San Diego 0.038 yt/angler, forecast 0.06, below 0.12 threshold. Hold $1850/3 PTO for October peak.
+- S02 d135: D136 dead zone confirmed; zero threshold-clearing bookings available. Hold $1850, 3 PTO for October peak d287–301.
+- S02 d136: D136–137 dead zone confirmed; TWILIGHT 0.000 forecast. Hold $1850/3 PTO for October peak d287–301. Threshold discipline holds.
+- S02 d137: Dead zone d120–138 holds. TWILIGHT 0.000 forecast matches pattern. Stay home; reserve capital for October peak.
+- S02 d138: d138: Dead zone d120+ holds; all classes 0.000 yt/angler last 10 days. Fleet 10x below historical forecast. Hold $1850/3 PTO for October peak d287–301.
+- S02 d139: Dead zone d138–140 holds; stay home. Capital $1850, PTO 3 days reserved for October d287–301.
+- S02 d140: Dead zone d120-140+ holds; all tomorrow's forecasts <0.04 yt/angler. Hold $1850 capital + 3 PTO committed for October peak d287-301.
+- S02 d141: d142 dead zone confirmed; THREE_QUARTER model-forecast vs. reality divergence too large. Hold capital for October.
+- S02 d142: D142 dead zone confirmed; no trips clear 0.12 threshold. Hold capital and remaining 3 PTO for October peak.
+- S02 d143: D144 dead zone holds; THREE_QUARTER boats 0.068–0.044 below threshold. Reserve 3 PTO/capital for October peak.
+- S02 d144: D145 dead zone; October position locked (7 PTO days d287–289, d293–294, d299–d300). $1850 capital reserved.
+- S02 d145: D146 dead zone, no viable bookings (TWILIGHT 0.000/no boats; weekday trips need unavailable PTO). Hold capital and 2 PTO for October window.
+- S02 d146: d146: Dead zone d120–146 holds; OVERNIGHT briefly flickered d145–146 (0.512–0.553) but boats cold. Hold $1850 capital, 2 PTO for October lock d287–301.
+- S02 d147: Breaking capital: THREE_QUARTER hot. San Diego d148 at 0.405+ recent, defer OVERNIGHT d149 to tomorrow after d148 debrief.
+- S02 d148: d148 bust; no bookable class exceeds threshold. Hold capital and PTO for October peak; relock at d162+.
+- S02 d149: D150 skipped. THREE_QUARTER at noise floor post-d148 zero; hold capital for October lock d287–301 (PTO and spend committed by mid-Sept).
+- S02 d150: D150→151: dead zone holds, no bookable boats. Hold $1700 and 2 PTO days for October lock d287–301.
+- S02 d151: d152: Dead zone holds; no bookable trips (PTO <14-day constraint). Hold capital and 2 PTO for October peak lock at d287+.
+- S02 d152: PTO wall d153 weekdays; dead zone d149–152 holds. Await mid-Sept or lock October by d168.
+- S02 d153: May d147 window missed (0 share on d148 San Diego). Dead zone d149–154 holds. Hold $1700, 2 PTO for October lock signal by mid-Sept.
+- S02 d154: May rebound test: San Diego THREE_QUARTER d155. Dead zone may break or I bust again; need signal clarity by d156–157 for October lock decision.
+- S02 d155: Dead zone holds d148–156; San Diego bust d155. Bank capital for October lock signal by d168.
+- S02 d156: Dead zone d148–157 holds. Hold $1550 and 2 PTO for October lock signal by d168; refit model and commit Oct bookings once signal clears 0.6+ yt/angler threshold.
+- S02 d157: Dead zone d148–157 holds. No bookable trips tomorrow (PTO wall). October lock window opens d273; await fleet signal.
+- S02 d158: Dead zone d148–158 holds. No bookable trips (PTO wall). October lock window opens d161; await fleet signal above 0.3 yt/angler threshold before committing final 2 PTO days.
+- S02 d159: Dead zone d148–160 holds. No bookable trips (PTO wall). Hold $1550 + 2 PTO for October lock signal by d173+.
+- S02 d160: Dead zone holds d148–160. No bookable trips with signal. Await d162+ fleet data to unlock October by d168.
+- S02 d161: Dead zone holds d148–161; stay home, watch d162 fleet results for October signal. Need EV ≥ 0.3 yt/angler to commit final 2 PTO by d165.
+- S02 d162: Dead zone d148–163 holds. Await fleet signal by d168 to commit October bookings or stay home all fall.
+- S02 d163: Dead zone d148–163 holds. Stay dark d164; October bookings locked, await fleet signal by d168 to confirm peak window before final decisions.
+- S02 d164: Dead zone holds d148–165. No bookable trips, weak fleet signal. Hold 2 PTO + $1550 for October lock by d168.
+- S02 d165: Dead zone stable d148–d165. No bookable tomorrow (TWILIGHT dark, weekday PTO held). Watch d166–d168 fleet signal; commit final 2 PTO for October when EV ≥0.3 yt/angler.
+- S02 d166: Dead zone d166–167 confirmed. Weak fleet signal, no bookable boats. Hold final 2 PTO; re-evaluate d168 fleet for October peak window lock.
+- S02 d167: Hold d168; lock October d288–d289 for day_1_5 peak (4.51 yt/angler). Dead zone tail is not worth $400.
+- S02 d168: San Diego 30 yt d168 is the signal. Book the heat while conditions hold. Watch d170 OVERNIGHT surge data (0.546 seasonal avg) if this closes fast.
+- S02 d169: Heat closed after d168 San Diego surge. Fleet three_quarter faded to 0.035 d169. Model 0.122 < 0.30 threshold; sit tight, guard October slots.
+- S02 d170: Heat closed d168. Stay dark d171; lock October d288–289 day_1_5 with final 2 PTO. Season score 0.00 vs leaders 0.70+—October peak is the last window.
+- S02 d171: Dead zone holds. No bookable boats d172 (TWILIGHT dark). Guard 2 PTO for October peak; clarify d288–289 weekend issue before final lock.
+- S02 d172: Dead zone d172–d173 confirmed. Guard 2 PTO for October peak. All tomorrow's weekday trips below threshold; no TWILIGHT boats.
+- S02 d173: Dead zone d173–174; TWILIGHT boats dark. Hold final 2 PTO for October peak. Season riding on d288–289.
+- S02 d174: Dead zone holds mid-Sep. OVERNIGHT boats weak (0.000–0.053), no weekday bookable. Guard budget for October peaks.
+- S02 d175: Hold d176. Dead zone still firm, fleet weak. Guard $1400 and 2 PTO for October. Season riding on d288–289.
+- S02 d176: Dead zone firm d176–177. All weekend trips below threshold; guard $1400 for October surge d288–289. Season riding on that peak.
+- S02 d177: Dead zone firm d177–178. Guard $1400 + 2 PTO for October finale d288–289.
+- S02 d178: Dead zone holds d179; TWILIGHT fleet dark. Holding $1400 + 2 PTO for October d287-300 sequence.
+- S02 d179: Dead zone holds d180. Guard $1400 + 2 PTO for October d287–289 peak. Season finale incoming.
+- S02 d180: Dead zone d180–181 holds. Guard $1400 + 2 PTO for October d288–300. No signal yet for forward commitment.
+- S02 d181: Dead zone holds d182. Guard for October. Season riding on d288–289.
+- S02 d182: Dead zone d183, water 57.2°F. Guard $1400 and 2 PTO for October d287–289. Selection error unresolved.
+- S02 d183: Cold snap, dead zone d184. Hold for October. Season riding on d287–289.
+- S02 d184: Dead zone holds d185. Guard $1400 + 2 PTO for October peak. Selection model still failing; sit.
+- S02 d185: Dead zone d186. Water warming to 63°F (trend positive) but catches still flat. Guard for October peak.
+- S02 d186: Dead zone d186–187; hold $1400 + 2 PTO for October peak (d287+). Skip TWILIGHT waste. Discipline intact.
+- S02 d187: Dead zone d188: fleet 0.000 across all classes, only TWILIGHT bookable (0.000 EV). Stay home, preserve capital for October.
+- S02 d188: Dead zone d188 intact, water 61.3°F (cool). Stay home; guard $1400 + 2 PTO for October peak d287–289. Season riding on that window.
+- S02 d189: Dead zone holds; water 62.8°F cooling. Guard $1400 + 2 PTO for October peak. Sit.
+- S02 d190: Dead zone d190 confirmed (fleet 0.000 all classes). Water warming but catches remain flat. Stay home, guard $1400 + 2 PTO for October d287+ peak window.
+- S02 d191: Dead zone d192 (TWILIGHT 0.000); guard $1400 + 2 PTO for October d287+ peak window 96 days ahead.
+- S02 d192: Dead zone d193; fleet all zero. Hold capital and PTO for October peak d287+ 95 days ahead.
+- S02 d193: Dead zone persists (TWILIGHT 0.000 recent). Stay home; October doy 287 is 19 days out—will lock PTO in 5 days when commitment window opens.
+- S02 d194: Dead zone d194 holds, fleet flat. Guard $1400 + 2 PTO for October peak (d287, 92 days ahead). TWILIGHT waste at 0.000 EV.
+- S02 d195: Broke Oct-only discipline. New Lo-An's 1.333 signal too hot to pass: expected value >0.5 yt/angler. Season riding on next 3 months; staying home at 0.00 is the real risk.
+- S02 d196: Dead zone d197 confirmed, all classes flat. Keep existing OVERNIGHT; guard capital for October. Water normal, no signal change.
+- S02 d197: Dead zone lingers; yesterday's 0.147 OVERNIGHT was outlier, not signal. Fleet classes all below threshold d198. Hold $1k for October.
+- S02 d198: D198 TWILIGHT 0.000 confirmed; hold $1k and 2 PTO for October. Commitment window for d287 opens in 5 days.
+- S02 d199: Stay home. TWILIGHT 0.000 EV fails threshold. Hold capital and PTO; October peak commitment window opens ~d203.
+- S02 d200: Dead zone d201 confirmed by TWILIGHT forecast. Hold $1k and 2 PTO for October peak window opening d203. Observe fleet d201–d203 for boat selection calibration.
+- S02 d201: Dead zone d202 confirmed; hold $1k and 2 PTO for October surge (d287+). Discipline is the only tool left.
+- S02 d202: OVERNIGHT spiked 0.583/0.263 last 2 days; worth monitoring. Water warming, but dead zone holds through d202. October peak fully committed (d287+); preserve capital. Stay home d203.
+- S02 d203: Water warming (68.4°F), calm seas signal d204 opportunity. THREE_QUARTER San Diego 0.060 safer than OVERNIGHT d205 tail-off. Hold $850 and 2 PTO for October.
+- S02 d204: Book San Diego THREE_QUARTER d205. Threshold 0.044 met; hold $700 + 2 PTO for October. No mid-range spike signal yet—decline OVERNIGHT/DAY_1_5.
+- S02 d205: TWILIGHT class seasonally dead (0.000 fleet avg all 30d); hold $700 for October surge d287+. Model holds threshold discipline.
+- S02 d206: Dead zone holding through d206; water cooling. October target locked. Stay home, preserve capital.
+- S02 d207: Dead zone d207–d208 holds. TWILIGHT bookable but 0.000 expected. October peak locked. Hold $700 + 2 PTO.
+- S02 d208: Dead zone holds d208–d209. THREE_QUARTER class trending hot but PTO lockout blocks exploit; October remains only viable window with 2 days left.
+- S02 d209: Book Voyager OVERNIGHT d211. Hold $300 + 2 PTO for October d287+ peak. Dead zone holds; one good-EV weekend trip fits discipline.
+- S02 d210: Voyager OVERNIGHT d211 locked in. Dead zone holds; October peak (d287+) target remains on track.
+- S02 d211: Book San Diego THREE_QUARTER d212 ($150). Dead zone holds; OVERNIGHT failed d211. Top THREE_QUARTER boat clears threshold. October peak (d287+) locked with 2 PTO, $150 remain.
+- S02 d212: Dead zone d212 holds. TWILIGHT 0.000 below threshold. October d287+ locked; no new mid-September signal yet.
+- S02 d213: Dead zone holds d213–d214. Water cooling fast (70.9→57.4°F). October d287+ remains only viable play; capital preserved.
+- S02 d214: Dead zone holds d214–215. Water cooling fast; October d287+ locked. Hold $150 + 2 PTO.
+- S02 d215: Dead zone d215–d216 confirmed. Hold $150 + 2 PTO for October peak. No signal yet to change course.
+- S02 d216: Stay home. Dead zone holds; water cooling 70.9→57.4°F. October peak locked; capital preserved for real signal.
+- S02 d217: Dead zone broken? d217 THREE_QUARTER 0.135 + San Diego 0.20+ recent signals micro-spike. Book d218; October peak remains locked.
+- S02 d218: Out of capital; sit tight. October peak (d287+) locked with 2 PTO flex remaining. Water warming signal noted but micro-spikes uncertain; forum consensus unchanged.
+- S02 d219: Out of capital. October d287+ locked. Hold 2 remaining PTO days for peak window flex or verified mid-late September upturn.
+- S02 d220: Capital zero; October d287+ secured with 2 PTO flex. Water warming signal noted but unreliable—hold discipline.
+- S02 d221: Capital zero, PTO locked for October peak. Water warming (+2.6°F) but fleet data weak; hold discipline for verified signal.
+- S02 d222: Out of capital, no flexible PTO. Dead zone holds; October peak locked. Stay home.
+- S02 d223: Capital zero; October locked. Hold 2 PTO flex for late-September signal or peak-window adjustments. D224 stay home.
+- S02 d224: D224: Dry capital, October peak locked, 2 PTO flex held. Micro-spikes unconfirmed; threshold hold.
+- S02 d225: Capital zero, October locked, 2 PTO flex held. Micro-signals unconfirmed; threshold discipline holds. Rank 11 (0.50), gap to leaders 0.20+; October path primary.
+- S02 d226: Capital $0. Stay home d227. Hold 2 PTO for verified Sept upturn or October adjustments. Rank 11 (0.50); Oct path primary.
+- S02 d227: D227: Capital exhausted, October locked. Water flat, fleet weak. Hold discipline and flex PTO for verified signal or October adjustments.
+- S02 d228: Capital zero, no bookable trips d229+. Hold discipline and 2 flex PTO. October locked; next signal window d242+.
+- S02 d229: Capital $0, October locked. Hold 2 flex PTO. Rank 11 (0.50); gap 0.20. October peak path only play.
+- S02 d230: Capital zero, d231 unbookable. Hold 2 flex PTO for verified signal or October adjustments. Rank 11 (0.50); Oct path primary.
+- S02 d231: Capital $0, cannot book d232. Hold 2 flex PTO for October peak or verified late-Sept signal. Next: d242+ window assessment.
+- S02 d232: Capital $0, d233 unbookable. Hold 2 flex PTO for October peak. Rank 11 (0.50), leaders +0.20; October path only play.
+- S02 d233: d234: Capital exhausted, October locked. Fleet flat. Hold discipline and 2 flex PTO for October peak or late-Sept signal. Rank 11 (0.50); gap 0.20.
+- S02 d234: d235: Zero capital, weak fishing. Hold 2 PTO for October peak or verified late-Sept signal (d242+). Rank 11 (0.50), gap 0.20; October is the play.
+- S02 d235: Capital zero, fleet flat, conditions stable. Hold 2 flex PTO for verified October signal or late-Sept spike. Rank 11 (0.50), gap 0.20; October peak is the play.
+- S02 d236: D236: Water flat, no budget, d237 PTO unbookable. Hold 2 flex PTO for Oct confirmation or verified late-Sept spike signal d242+. Rank 11, gap 0.20; discipline is only edge.
+- S02 d237: Capital $0, rank #11 (gap 0.20). October peak d289–290 locked for execution; only path to close gap with leaders. Fleet flat, conditions stable—discipline holds.
+- S02 d238: Broke at d238; October locked (d287–300 committed). Fleet dead, stay disciplined. Rank 11, gap 0.20—October is the only play.
+- S02 d239: Capital $0, rank #11 (gap 0.20). Stay home, hold 1 flex PTO for verified October signal or peak execution.
+- S02 d240: Broke, locked out of d241 weekday. Hold 1 flex PTO for d254+ signal or October peak. Discipline is only edge; stay home.
+- S02 d241: Broke, flat fishing, water cooling. Hold 1 flex PTO and discipline. October is the play.
+- S02 d242: Broke and dry. October locked. Stay home.
+- S02 d243: Broke and locked out. October peak is only path; stay dry until execution d287+.
+- S02 d244: D245: Broke and locked. October bet dead without capital. Discipline > hope; stay home. Lesson learned too late for S2.
+- S02 d245: D246: Capital gone, October locked but unfundable. Season effectively over; rank 11 is final. Lesson: compound early or preserve capital, never both fail.
+- S02 d246: Budget exhausted, October locked but unfundable. Season over; rank 11 is final. Season 3 lesson: compound *or* save, never both fail.
+- S02 d247: Season closed: $0 budget, October unfundable, rank 11 final. Capital misalignment is the lesson for Season 3.
+- S02 d248: Capital exhausted, rank 11 final. Season 2 closed. Season 3: compound early or save capital—never both fail.
+- S02 d249: Season 2 closed. Capital + PTO strategy collapsed by mid-Aug. Rank 11 final. Season 3: compound *early* or preserve strictly—never both fail.
+- S02 d250: $0 budget, season closed, rank 11 final. Season 3 lesson: compound *early* (before August) or save strictly—never both fail.
+- S02 d251: $0 budget, rank 11 final. Season 2 closed. Capital-strategy failure: spent early, saved late. Season 3 lesson: compound early *or* preserve strictly—never both fail.
+- S02 d252: Season 2 over. Spent early, saved late, compounded nothing. Rank 11 final (0.50). Season 3: compound early *or* preserve strictly.
+- S02 d253: Season 2 final: rank 11 (0.50), $0 budget, October peak locked but unfundable. Spent early, never compounded. Lesson: capital timing beats threshold selection.
+- S02 d254: Season 2 final: rank 11 (0.50), $0 budget. Compounded badly in July (high thresholds, overcrowded boats, six 0.0s), then broke by August. October peak (doy 287–301) locked but unfundable. Season 3 strategy: compound early (doy 1–120, many small edges) or preserve capital strictly (60%+ unspent)—neve
+- S02 d255: Bankrupt and locked out. Season 2 final rank 11 (0.50). Capital-timing error: compounded early or preserved strictly—never both failed.
+- S02 d256: D256: $0 budget, bankrupt before October peak. Season 2 rank 11 final (0.50). Season 3: compound early *or* preserve strictly—never both fail.
+- S02 d257: d257: $0 budget, season locked. Stay home. Lesson learned: capital and PTO timing cannot both fail—Season 3 compound early *or* preserve strictly.
+- S02 d258: Bankrupt, rank 11 final (0.50). October peak locked but unfundable. Season 3: capital strategy first—compound early (small frequent edges) or preserve strictly (60%+). Never both fail again.
+- S02 d259: Bankrupt, rank 11 (0.50). October peak locked but unfundable. Season 2 strategy failed: spent early, broke late, compounded nothing.
+- S02 d260: Day 260: $0 budget, locked out. Early spend + late break = Season 2 final rank 11. Season 3 rule: capital discipline (compound early *or* preserve 60%+)—never both fail.
+- S02 d261: D261: $0, locked out. Early spend + late break = rank 11 final. Season 3: capital discipline first (compound early or preserve 60%+)—never both fail.
+- S02 d262: Bankrupt d257–d262. Season over. Early spend + late break locked me out; never again both fail.
+- S02 d263: Season 2 bankrupt end (rank 12, 0.50). Spent early, broke mid-August, locked out of October peak despite PTO hedge. Season 3: capital discipline first—compound early *or* preserve strictly 60%+, never both fail.
+- S02 d264: Season 2 final: rank 12, 0.50. Spent $2k early, broke by d218, October peak unfundable. Season 3: capital discipline first—compound or preserve, never both fail.
+- S02 d265: D265: Bankrupt, rank 12 final (0.50). October peak locked out by capital failure on d218. Season 2 lesson: capital and PTO timing cannot both fail—preserve one strictly.
+- S02 d266: Season 2 final: rank 12, $0 on d266, locked out. Early spend killed compounding, late break killed recovery. Season 3 rule: capital discipline first.
+- S02 d267: S02 d268: Bankrupt, locked out. Season 2 final score 0.50, rank 13. Early spend + mid-break + late peak unfundable = total capital failure. Season 3: preserve discipline first.
+- S02 d268: S02 d268 bankrupt final. Early spend d107–d155 ($1400+) killed compounding and capital recovery. October peak (doy 287–301, 1.3–2.8 yt/angler forecast) unfundable despite 5-day PTO hedge. Season 3 rule: preserve capital strictly—never both fail.
+- S02 d269: S02 d269: Bankrupt end. Cannot fund tomorrow or October peak despite strong signals. Spent $2k early, broke d218–244. Season 3: capital discipline first—preserve 60%+ strictly or compound early, never both fail.
+- S02 d270: Bankrupt d218–d270. Season 2 unrecoverable: early spend + mid-break + zero capital = total lockout. Season 3 rule: preserve capital first, never both fail.
+- S02 d271: S02 d271: Bankrupt final. Early spend + mid-break = October locked out. Season 3: capital discipline first—preserve or compound, never both fail.
+- S02 d272: Season 2 d272 final: $0, rank 13 (0.50). Capital failure irreversible. Season 3 rule: preserve 60% of capital strictly or compound early—never both fail.
+- S02 d273: S02 d273 final: rank 13 (0.50), budget $0, locked out. Early spend killed compounding—capital discipline first, always.
+- S02 d274: Season 2 final: rank 13, score 0.50, budget $0 d218 to end. Early spend + capital mismanagement = lockout. Season 3 rule: preserve capital discipline first.
+- S02 d275: Season 2 final: locked out $0, rank 14, score 0.50. Early capital bleed (d107–d155) irreversible. October peak unfunded despite PTO hedge. Season 3 rule: capital discipline first—preserve or die, never both fail.
+- S02 d276: S02 d276 final: $0, rank 14 (0.50). Capital lockout d218–end irreversible. Season 3 rule: capital discipline first—preserve or compound early, never both fail.
+- S02 d277: S02 d277 final: capital exhausted d218→end, PTO hedge locked but unfunded. Early spend killed compounding. Season 3 rule: capital first, always.
+- S02 d278: Bankrupt d218-278. October peak $0-unfunded despite PTO hedge d287,d290,d293–d300. Season 3: capital discipline first—preserve 60% strictly, never both-fail again.
+- S02 d279: S02 d279: Bankrupt, locked out. Capital bled early (d107–d155), October peak unfunded despite PTO hedge. Watch fleet data for Season 3 discipline.
+- S02 d280: Locked out S02 d218–d280 ($0). October peak PTO committed but unfunded. Season 2 lesson: capital discipline first, always. Preserve last PTO for Season 3 restart.
+- S02 d281: Locked out $0 d218–end. October PTO hedge unfunded (d287, d290, d293–294, d299–300 committed but insolvent). Season 3 rule: capital first, always.
+- S02 d282: Locked out $0 d218–end. October peak PTO committed but insolvent. Season 3: capital first.
+- S02 d283: S02 d283: Bankrupt, locked out. Preserve last PTO for Season 3 reset. Capital discipline first.
+- S02 d284: Bankrupt d218–end. October peak PTO committed but insolvent. Season 3: capital discipline first—preserve 60%, fund before committing PTO, model last.
+- S02 d285: Locked out, $0 d218–end. October peak unfunded despite PTO hedge. Season 3: capital first, 60% preserve rule, model before commit.
+- S02 d286: Locked out $0 d218–end. October peak executing at 5+ yt/angler; unfunded. Final S02 score: 0.50 (rank 20/34). Early capital burn (d107–218) irreversible—Season 3 rule: preserve 60% first, model second, never both-fail.
+- S02 d287: S02 d287: Season ends bankrupt. October peak unfunded despite PTO hedge. Capital discipline first—always.
+- S02 d288: Bankrupt through season end (d288). October peak unfunded despite PTO hedge. Season 3: $0 capital spent before modeling anything, preserve 60%, commit PTO only when funded.
+- S02 d289: S02 d289: Season locked at $0 since d218 (rank 21/34, 0.50 pts). October peak unfunded despite PTO hedge. Season 3 rule: 60% preserve first, model second, never both-fail. Stay home.
+- S02 d290: Locked out d218–end. October peak unfunded ($0 since early Sept). Season 2 final: 0.50 rank 21/34. Season 3 rule: 60% capital preserve first, never both-fail.
+- S02 d291: Insolvent end-of-season. $0 d218–d291. October peak unfunded despite PTO hedge. Season 3 rule: capital first, model second, never both-fail.
+- S02 d292: Season 2 end: 0.50 pts, rank 21/34. Insolvent d218–292. October peak unfunded despite PTO hedge. Season 3 rule: capital preserve first, never both-fail.
+- S02 d293: S2 final: rank 21/34, 0.50 pts. October peak unfunded despite PTO hedge. Capital discipline first—Season 3 rule locked.
+- S02 d294: Season 2 final: rank 21/34, 0.50 pts, locked out d218–end. Capital discipline first in S3.
+- S02 d295: Season 2 final: rank 21/34, score 0.50. October peak confirmed real but unfunded. Capital gone d218–end. Lesson locked: fund first, PTO second, never both-fail.
+- S02 d296: Season 2 end: $0 budget, rank 21/34, 0.50 pts. October peak unfunded. Capital+PTO hedge = both-fail. Season 3: capital first.
+- S02 d297: $0 since d218. October peak confirmed real (5+ yt/angler) but unfunded. Season 2 lesson locked: capital first, never both-fail. Season 3 rule in effect.
+- S02 d298: S02 final: rank 21/34, score 0.50. October peak (5+ yt/angler d287–d303) confirmed real but unfunded. Capital discipline locked for S3.
+- S02 d299: Season 2 final: $0 since d218. October peak confirmed real but unfunded. Capital discipline locked for season 3: fund first, never PTO-hedge without reserves.
+- S02 d300: D300 end: $0 since d218, October peak confirmed real but unfunded. Season 3 rule locked—capital first, never both-fail.
+- S02 d301: D301: $0 since d218. October peak real but unfunded. Season 2 end: rank 21/34, 0.50 pts. S3 rule locked: capital first, never both-fail.
+- S02 d302: S02 d302: $0 since d218, season ends unfunded. Oct peak was real (5+), but locked out. S3 rule locked: capital first, never hedge both. Reset.
+- S02 d303: S02 d303 end: $0 since d218, locked out. Oct peak (5+) confirmed real but unfunded. Season 2 final rank 21/34 (0.50 pts). Capital discipline rule locked for S3: fund first, never both-fail.
+- S02 d304: S02 d304 end: $0 since d218. Season 2 final rank 21/34 (0.50 pts). Capital discipline rule locked for S3.
+- S02 d305: S02 d305 end: locked out at rank 21/34 (0.50 pts). Season 2 rule confirmed—capital discipline absolute. S3 begins funded.
+- S02 d306: S02 d306 end: $0 lockout confirmed. Season 2 final rank 21/34 (0.50 pts). Capital discipline rule absolute. Season 3 funded and ready.
+- S02 d307: Locked out d218–d308: $0, 1 PTO day, rank 21 (0.50 pts). October peak confirmed real (3.175 yt/angler) but unfunded. S3 rule locked: capital first, never both-fail.
+- S02 d308: S02 d308 end: $0 lockout d218–d308 confirmed. October peak (5+) real but unfunded. Rank 21/34 (0.50 pts). Season 3 rule locked: capital first, never both-fail.
+- S02 d309: S02 d309: $0 lockout continues. October peak confirmed real (3+ yt/angler) but unfunded. Season near end, rank 21 (0.50 pts). Rule for S3: fund first, capital discipline absolute.
+- S02 d310: S02 d310: Locked out, $0 since d218, 1 PTO day inert. Season 2 rank 21/34 (0.50 pts). October peak real but unreachable. S3: capital discipline absolute.
+- S02 d311: Locked out d218–d311: $0 budget, 1 PTO inert, rank 21/34 (0.50 pts). October peak real (3+ yt/angler) but unreachable. S3 rule: capital + PTO reserves first, peak second.
+- S02 d312: Locked out d218–d313 at $0. Season 2 rank 21/34 (0.50 pts). Season 3: capital first, threshold second, boat selection discipline. Never exhaust both reserves and time.
+- S02 d313: Season 2 lockout end: $0 since d218, rank 21/34 (0.50 pts). October peak real but unreachable. S3: capital reserves before threshold, never both-fail.
+- S02 d314: Season 2 d314: $0 lockout 96d. Rank 21/34 (0.50 pts). October peak faded or unmet. S3: capital discipline absolute—never let threshold strategy exhaust reserves.
+- S02 d315: S02 final: rank 21 (0.50 pts), $0 since d218, 96-day lockout. Capital discipline failed early; Season 3 rule is absolute: fund reserves before threshold strategy, never exhaust both.
+- S02 d316: S02 final: rank 21/34 (0.50 pts), $0 since d218. Early threshold discipline failed; capital exhaustion cost October. S3: capital reserves first, never both-fail.
+- S02 d317: S02 d317: $0 lockout 96+ days. Rank 21/34 (0.50 pts). Season 2 lesson: capital discipline first; threshold discipline alone is hollow.
+- S02 d318: S02 d318: Locked out on both fronts—$0 since d218, 1 PTO inert. October peak inaccessible. Season 2 final rank 21/34 (0.50 pts). Capital discipline failed in month 2; Season 3 must build reserves before threshold strategy.
+- S02 d319: S02 d320: Locked out d218–d320 (102 days, $0 budget, 1 PTO inert). Rank 21/34 (0.50 pts). Capital discipline failure in month 2 cost the season; Season 3 rule: reserves before threshold, never both-fail.
+- S02 d320: S02 d320 final: $0, rank 21/34 (0.50 pts). Season 3 rule: capital + calendar coordination from start, threshold discipline secondary. Never exhaust both.
+- S02 d321: D321 final: $0 lockout 102 days, rank 21/34 (0.50 pts). Capital discipline must precede strategy. Season 3 rule: reserves before threshold, never both-fail.
+- S02 d322: S02 d323: $0 lockout day 105. Rank 21/34 (0.50 pts). Capital failed month 2; season ended then, even though d323 approaches. Season 3: capital reserve first, threshold strategy never.
+- S02 d323: S02 d324: Locked out $0 since d218. Season 2 final score 0.50 (rank 21/34). Capital discipline failed month 2; Season 3 rule: reserves before threshold, never both-fail.
+- S02 d324: D325: $0 lockout persists (day 102). Rank 21/34, season 2 final 0.50 pts. Season 3: capital reserves before threshold, never both-fail.
+- S02 d325: D325 final: $0 lockout 102 days, rank 21/34 (0.50 pts). Season 2 capital failure month 2 cost the peak. Season 3 rule: build reserves before threshold, never both-fail.
+- S02 d326: D326 final: $0 lockout 108 days. Capital failure month 2 was fatal; October peak 0.27+ yt/angler data confirms I needed reserves early. Season 3: capital first, threshold discipline never.
+- S02 d327: D328: $0 lockout, 38 days left, rank 21/34 (0.50 pts). Capital failed month 2; Season 3 rule: reserves before threshold, never both-fail.
+- S02 d328: Season 2 over: capital exhaustion d218 locked October peak. Season 3 rule: build reserves before threshold strategy; never exhaust both simultaneously.
+- S02 d329: D329: $0 lockout final. Season 2 score 0.50 (rank 21). Season 3 priority: build capital reserves month 1, never exhaust both capital and threshold simultaneously.
+- S02 d330: $0 lockout to season end (d330–365). Season 2 final 0.50, rank 21. Lesson: October peak data was real; early capital spend on failed boats was fatal.
+- S02 d331: $0 lockout d218 to season end; Season 2 final 0.50 rank 21. Early capital exhaustion + strict threshold cost the peak.
+- S02 d332: S02 d332: $0 lockout to season end (33 days). Capital exhaustion by d218 was fatal. Season 3 rule locked: reserves first, threshold discipline second, never both-fail.
+- S02 d333: D333 final lockout: $0 budget, 0.000 fleet YT rate, 32 days to season end. Season 2 learned; stay dark and reset.
+- S02 d334: Final lockout. Season 2 rank 21 (0.50 pts). Capital failure on failed d107-d218 boats was fatal. No season 3 booking possible.
+- S06 d091: d091: stay home. Commit d105, d111 for THREE_QUARTER play. El Niño regime hot; time to fish the data, not the calendar.
+- S06 d092: S06 d092: Stay dark. Hold capital for d105/d111 three-quarter push; let late September data firm up October peak signal.
+- S06 d093: San Diego THREE_QUARTER d94: expect 1.8+ YT on proven boat. Budget now $1850; d105/d111 locked. El Niño regime fishing, not calendar trap.
+- S06 d094: Regime holding; THREE_QUARTER momentum. Book Mission Belle d095, expect 1.7–1.8 yt/angler. Keep d105/d111 locked. Budget after $1700.
+- S06 d095: Dark d096 (no bookable boats). El Niño THREE_QUARTER sustained; lock d110 as second peak play alongside d105/d111 window.
+- S06 d096: d097: Stay dark. No bookable options (TWILIGHT boats nil, weekday classes need PTO). Hold for d105+ locked peak.
+- S06 d097: d098 dark. No boats, no PTO; capital + days held for d105+ peak window.
+- S06 d098: d099 bookable: zero TWILIGHT boats, all others need PTO for d099 (too late to commit). Hold for d105+ locked window. El Niño regime holding.
+- S06 d099: Stay dark d100. Hold for d105/d110/d111 THREE_QUARTER window (El Niño regime, 1.47+ yt/angler proven). Prowler 1.0 tempting but small sample; capital and PTO committed to stronger thesis.
+- S06 d100: Book San Diego d101 THREE_QUARTER (1.59 yt/angler); d105/d110/d111 peak window locked and funded, El Niño regime holding.
+- S06 d101: Mission Belle d102 THREE_QUARTER: riding strong weekend form, proven boat carry. Regime holding. Capital discipline sustained for peak window.
+- S06 d102: Hold d103. No bookable boats (TWILIGHT: zero boats; others: no PTO committed). Capital + PTO reserved for d105+ THREE_QUARTER peak (proven 1.48+ yt/angler).
+- S06 d103: No boats, no play. Hold for d105+ peak window locked and funded. Stay disciplined.
+- S06 d104: San Diego d105 THREE_QUARTER (1.55 yt/angler recent). Peak window d105/d110/d111 locked and funded, El Niño holding.
+- S06 d105: d106 Thursday: no bookable boats (weekday PTO too late, TWILIGHT unavailable). Hold for d110–111 peak window. Watch Oct regime over next 3 eve before committing PTO for d119+.
+- S06 d106: Hold dark d107. Stay locked d110–d111 THREE_QUARTER peak (El Niño, 1.34+ proven). Monitor next 3 eve for Oct regime before committing PTO for d120+.
+- S06 d107: Book Mission Belle d108 THREE_QUARTER. El Niño regime holding, premium boat fresh hot. Watch d108–109 results before d120+ PTO commitment.
+- S06 d108: Mission Belle THREE_QUARTER d109, weekend fire, peak (d110–111) locked. Watch next 3 eve for Oct regime before d120+ PTO commit.
+- S06 d109: Mission Belle d110 THREE_QUARTER. Hold d111 PTO open for overnight/1.5-day if boats appear and conditions hold. Monitor Oct regime next 3 eve before d120+ commitment.
+- S06 d110: San Diego d111 THREE_QUARTER locked. Monitor next 3 eve for Oct regime window before committing d120+ PTO. El Niño holding steady.
+- S06 d111: Hold dark d112 (no bookable boats, PTO deadline passed). Monitor d113+ boats and regime signal before committing final 7 PTO days. Three_quarter peak window holding.
+- S06 d112: Hold dark d113. Await d114+ boats and regime signal before final 7-day PTO commit. El Niño THREE_QUARTER sustained 1.55 yt/angler.
+- S06 d113: Hold dry d114. Monitor d114–115 results for Oct regime confirmation; deploy final 7 PTO + $650 for Oct peak if El Niño sustained. Legend available but capital-rationing for larger October window.
+- S06 d114: THREE_QUARTER peak holding through El Niño. San Diego hot. Monitoring d115–116 to commit final 7 PTO for late-Oct weekday window if regime sustained.  
+- S06 d115: HD_PM weak class, THREE_QUARTER unavailable. Hold dry; await d116–120 data for Oct weekday regime confirmation before PTO deployment.
+- S06 d116: Blocked by PTO deadlines (d103, d104 passed). Hold 7 PTO for late-Oct THREE_QUARTER window; observe d117–120 regime confirmation first.
+- S06 d117: d117 THREE_QUARTER 2.144 yt/angler confirms El Niño strong. Commit d131-d133 weekday window; await d118-120 before deploying final 4 PTO.
+- S06 d118: El Niño THREE_QUARTER 2.0+ d117–d118 sustained. Lock 4 PTO d134+d135+d138+d139 late-Oct weekday run; dry d119 (no bookable).
+- S06 d119: Dry d120; three-quarter peak locked d131-135, d138-139. El Niño regime sustained. Capital preserved.
+- S06 d120: Stay dry d121. Oct plan underfunded ($500 vs $1,050 needed); preserve for highest-confidence d131–d135 bookings.
+- S06 d121: El Niño THREE_QUARTER signal confirmed through d121 noise. San Diego proven. Points race active; cannot sit dry.">Hold the best boat model until October peak deploys as planned (d131–135).
+- S06 d122: THREE_QUARTER regime confirmed through Sunday. San Diego d123 booking. Oct plan locked; no new PTO commitments—budget at $200 buffer for d131–135 push.
+- S06 d123: Hold dry d124. El Niño THREE_QUARTER locked for Oct push (d131–135, d138–139); capital discipline maintained.
+- S06 d124: Dry through d130. Three-quarter signal confirmed; capital locked for late-Oct peak d131–135 as planned. No new commitments.
+- S06 d125: Dry d125. Hold for d131–d135 peak; capital discipline confirmed, regime signal sustained.
+- S06 d126: Hold d127–d130 dry. Oct peak d131–135 locked; capital preserved at $200 buffer.
+- S06 d127: Dry d128 as planned. TWILIGHT uneconomic (0.000 yt/angler); no PTO for weekday trips. Capital locked for Oct peak d131–135.
+- S06 d128: Stay dry d129. Peak d131–135 locked; capital preserved at $200. Fleet fatigue (d128: 0.020) confirms regime shift; hold for confirmed boom window.
+- S06 d129: Book San Diego THREE_QUARTER d130; El Niño signal hot. Hold $50 buffer for Oct peak d131–135.

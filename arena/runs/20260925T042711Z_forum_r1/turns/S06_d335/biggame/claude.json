@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 107.3,
+ "claude": {
+  "duration_api_ms": 98479,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2469657,
+  "usage": {
+   "input_tokens": 112,
+   "cache_creation_input_tokens": 62660,
+   "cache_read_input_tokens": 841337,
+   "output_tokens": 7480,
+   "output_tokens_details": {
+    "thinking_tokens": 2655
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 62660,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 766,
+     "cache_read_input_tokens": 80812,
+     "cache_creation_input_tokens": 823,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 823
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 112,
+    "outputTokens": 7480,
+    "cacheReadInputTokens": 841337,
+    "cacheCreationInputTokens": 62660,
+    "webSearchRequests": 0,
+    "costUSD": 0.2469657,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2655,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the S6 postmortem and locked S7 strategy:\n\n**S6 Confirmed Disaster**: October peak (d173-181) averaged 3.64 yt/angler unfunded after going broke d172. That represents -4.5 to -10.5 fish = 10-12 rank positions and cumulative top-3 potential lost by capital indiscipline.\n\n**S7 Hard-Locked Protocol**:\n1. **Regime detect d1-d10**: ONI \u2265 +0.3 (warm) deploys April-May + October; ONI < -0.3 (cold) holds April, deploys October only\n2. **Capital gates**: $1,200 October reserve (hard floor, never negotiate), $300 mid-season floor, no consecutive bookings, no final-trip trap\n3. **Dead zone (d151-250)**: ZERO bookings\u2014no exceptions, no micro-plays\n4. **Phase-based gates**: All 3 gates (class signal + water + budget) must pass before any booking\n\n**Forum post published**: Capital asymmetry lesson\u2014the $150 spent d172 didn't cost $150, it cost $1,500+ of October upside. Never repeat.\n\nUpdated notes.md with complete S7 decision tree ready for season start.\n\n---\n\n**Summary**: Confirmed S6 October peak was real ($1,500+ unfunded at 3.64 avg unfunded); updated notes with S7 hard-locked regime-detection + capital-discipline protocol; posted forum warning on capital asymmetry. Season 6 ends at rank 18 (8.03 fish), cumulative rank 9 (4.5455). Ready for S7 reset with regime-first, capital-last discipline.",
+  "ttft_ms": 2393,
+  "type": "result",
+  "duration_ms": 100870,
+  "uuid": "3d4d3b15-572a-45d3-a16b-a28fa5abd920",
+  "ttft_stream_ms": 1158,
+  "time_to_request_ms": 620,
+  "first_content_frame_ms": 1158,
+  "time_to_request_from_spawn_ms": 61750215,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353123370.328,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 65.8,
+ "claude": {
+  "duration_api_ms": 58384,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3059334,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 48763,
+   "cache_read_input_tokens": 263937,
+   "output_tokens": 5807,
+   "output_tokens_details": {
+    "thinking_tokens": 1889
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48763,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 356,
+     "cache_read_input_tokens": 70946,
+     "cache_creation_input_tokens": 3258,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3258
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 5807,
+    "cacheReadInputTokens": 263937,
+    "cacheCreationInputTokens": 48763,
+    "webSearchRequests": 0,
+    "costUSD": 0.3059334,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1889,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 2 is fully closed out (budget frozen at $50 since d162, 158 straight correct sit-outs since) \u2014 this was purely a wrap-up turn, no new bookable data to act on.\n\n**Changed:** Rewrote `notes.md` to close out Season 2 cleanly and sharpen the Season 3 plan: a hard $1,650-by-mid-August reserve floor (protects 3 day_1_5 tickets for the confirmed Oct\u2013Nov fall bite, ~2.67\u20133.9+ yt/angler), capped early-season discretionary spend (~$350 through July), live trailing-rate triggers instead of calendar triggers, and a reminder to retry `submit_strategy` (unavailable again this turn) to codify the reserve as a hard rule.\n\n**Why:** The root cause both practice seasons was pacing, not picking \u2014 good boat/rate reads but budget got drained on $150 probes before the one big window (fall day_1_5) arrived; the note now makes that reserve target the top nightly checklist item so it can't happen again in Season 3, which counts.",
+  "ttft_ms": 2838,
+  "type": "result",
+  "duration_ms": 60095,
+  "uuid": "1c119b3d-0b21-4ef9-a67a-996227993b83",
+  "ttft_stream_ms": 1156,
+  "time_to_request_ms": 546,
+  "first_content_frame_ms": 1157,
+  "time_to_request_from_spawn_ms": 44602091,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335976158.349,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

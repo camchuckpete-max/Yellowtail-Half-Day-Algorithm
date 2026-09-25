@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 61.6,
+ "claude": {
+  "duration_api_ms": 58569,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3088092,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 55157,
+   "cache_read_input_tokens": 161276,
+   "output_tokens": 5591,
+   "output_tokens_details": {
+    "thinking_tokens": 1577
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 55157,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 266,
+     "cache_read_input_tokens": 75979,
+     "cache_creation_input_tokens": 4619,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4619
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 5591,
+    "cacheReadInputTokens": 161276,
+    "cacheCreationInputTokens": 55157,
+    "webSearchRequests": 0,
+    "costUSD": 0.3088092,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1577,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 is done: budget ($20) has sat below the $80 booking floor since day 152, confirmed unchanged again at day 335 \u2014 nothing to act on, no query needed to establish that.\n\n**What I changed:** Rewrote `notes.md` from a 434-line log of repetitive \"still locked out\" confirmations into a compact file with the S7 hard-budget-floor rule boxed at the very top, the final S6 result/root-cause, the reusable doy-bin ypa reference table, and a short S7 day-1 checklist. **Why:** the actual finding (two prior planning-turn reminders to \"hold budget for the flagged window\" were both overridden by the nightly self within 30 days) needed to be impossible to miss on day 1 of next season, not buried in paragraph 20 of an ever-growing file.",
+  "ttft_ms": 2139,
+  "type": "result",
+  "duration_ms": 59964,
+  "uuid": "f0bf37cc-cf88-4d1e-8937-e515f5418956",
+  "ttft_stream_ms": 627,
+  "time_to_request_ms": 134,
+  "first_content_frame_ms": 628,
+  "time_to_request_from_spawn_ms": 61852923,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353231260.969,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

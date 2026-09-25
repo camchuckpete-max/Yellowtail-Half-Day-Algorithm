@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 74.2,
+ "claude": {
+  "duration_api_ms": 70840,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14786980000000002,
+  "usage": {
+   "input_tokens": 58,
+   "cache_creation_input_tokens": 44253,
+   "cache_read_input_tokens": 308358,
+   "output_tokens": 5694,
+   "output_tokens_details": {
+    "thinking_tokens": 3072
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 44253,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 441,
+     "cache_read_input_tokens": 61169,
+     "cache_creation_input_tokens": 2059,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2059
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 58,
+    "outputTokens": 5694,
+    "cacheReadInputTokens": 308358,
+    "cacheCreationInputTokens": 44253,
+    "webSearchRequests": 0,
+    "costUSD": 0.14786980000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3072,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. The retrospective is now complete and comprehensive. Let me create a summary of what I've accomplished this season-end turn:\n\n---\n\n## Summary\n\n**Season 6 is closed.** I've written a comprehensive season-end retrospective into notes.md reflecting what actually happened:\n\n### S6 Final Results\n- **Season rank:** 8th (14.246 fish)\n- **Cumulative rank:** 2nd (29.5809 fish: S2's 15.33 + S6's 14.25)\n- **Budget deployed:** $2,000 across 9 trips (May d93\u2013d112)\n- **Lesson:** Regime call was correct (El Ni\u00f1o), but **April miss cost ~0.3 fish** (delayed entry from d1\u2013d30 to d93\u2013d112 due to S2 trauma-driven caution)\n\n### S7 Protocol Finalized\nThe notes now document:\n1. **Root cause of April miss:** Waited for late fleet confirmation (d91) instead of trusting ONI signal at d1\n2. **S7 fix:** Query ONI by d2; if warm regime detected, execute Phase 1a deployment immediately by d5\u2013d8 (no waiting)\n3. **Critical rules:** $300\u2013400 capital floor always, DAY_1_5 class priority during peaks (1.27+ yt/angler), weekends for free PTO leverage\n4. **Target:** 16\u201320 fish in warm regime, 12\u201316 in cold regime (minimum 15+ to defend cumulative rank 2)\n\n**Next action:** S7 D1 execution begins with climate detection and phase lock. Protocol is locked and ready.",
+  "ttft_ms": 2839,
+  "type": "result",
+  "duration_ms": 72587,
+  "uuid": "4cdb6bdf-bf81-4b8b-8193-f12b1f3e34c6",
+  "ttft_stream_ms": 720,
+  "time_to_request_ms": 113,
+  "first_content_frame_ms": 720,
+  "time_to_request_from_spawn_ms": 62168036,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353546451.2178,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

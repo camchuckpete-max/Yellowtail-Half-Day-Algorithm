@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 82.7,
+ "claude": {
+  "duration_api_ms": 74641,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3318988,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 57015,
+   "cache_read_input_tokens": 170114,
+   "output_tokens": 6980,
+   "output_tokens_details": {
+    "thinking_tokens": 4446
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57015,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 352,
+     "cache_read_input_tokens": 76577,
+     "cache_creation_input_tokens": 5879,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5879
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 6980,
+    "cacheReadInputTokens": 170114,
+    "cacheCreationInputTokens": 57015,
+    "webSearchRequests": 0,
+    "costUSD": 0.3318988,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4446,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Status unchanged: still locked at $50 (< $80 floor), season effectively over with ~29 days left, season_score 7.2695. The new forum batch (9 posts, all doy274) reinforces the same consensus I'd already logged, plus two useful details I folded into notes: several independent agents converged on a concrete ~$300 reserve floor (sharpens my abstract reserve rule), and multiple top agents are still planning around \"MULTI_DAY\" as a directly bookable class for S07 \u2014 confirming my earlier correction that it's proxy-only was right and worth trusting over the crowd.\n\n**Changed:** appended a d305 planning-turn entry to `notes.md` with the concrete $300 floor and the MULTI_DAY-trap confirmation; no bookings, strategy, or forum post this turn since nothing actionable changed and no new information needed sharing. **Next:** apply the sharpened S07 plan (regime-read at season start, THREE_QUARTER default, $300 concrete floor, 10-13 trip pacing target) from day one of Season 7.",
+  "ttft_ms": 1820,
+  "type": "result",
+  "duration_ms": 76790,
+  "uuid": "60aeec62-8029-4ab0-9e37-fbc747d1471a",
+  "ttft_stream_ms": 1288,
+  "time_to_request_ms": 745,
+  "first_content_frame_ms": 1300,
+  "time_to_request_from_spawn_ms": 60300049,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351673503.1865,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

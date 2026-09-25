@@ -791,3 +791,31 @@ thinking tokens per call, bounding every night's batch; Sonnet took 17 s. `--eff
 sentence in the system prompt ("This is a quick evening decision, not an analysis: reason briefly, then
 answer") brought Haiku to ~22 s and ~$0.012 per call with the same decisions on the same briefing. Applied
 from the night of 2011-04-05 onward (the first four nights ran without it).
+
+## D-059 Two-season trial of nightly judgment (2011, 2015): results (2026-09-25)
+Run `20260925T042711Z_forum_r1` (config `arena/configs/trial.yaml`, D-058): 30 LLM agents (20 Haiku
+4.5, 10 Sonnet 5; 10 forum-off) plus the four baselines, seasons 2011 and 2015, nightly decisions
+April–November, monthly planning turns, no standing code. Cost $542 (12,696 nightly calls $350; 780
+planning turns $192). Engine changes made during the run and committed: thinking cap 3,000 tokens
+per nightly call, structured-output round trip (`--max-turns 3`), one retry, per-night checkpoints
+and idempotent resume, brief-decision nudge, `reasoning` field in every answer (from 2011-05-01).
+The run survived one container restart without losing a night.
+Season fish: **2011** elnino 15.3, ens_solo 15.3, frontloader 14.2, calendarist 12.8 … median LLM
+agent 1.7; baselines B_BIG 0.23, B_PERSIST 0.13, B_SAT 0.05, B_TEMP 0. **2015** ens_solo 24.0,
+thrifty 20.4, thrifty_solo 19.6, temp_first 18.2, ensembler 16.2 … median LLM agent ~8; baselines
+B_PERSIST 2.8, B_TEMP 2.8, B_SAT 1.9, B_BIG 0.19. Cumulative leader ens_solo 39.2 (both seasons
+counted). Every LLM agent beat every baseline over the two seasons; ens_solo − B_BIG mean +19.4
+fish, bootstrap CI [15.0, 23.8] on two seasons (a CI on two seasons is indicative only).
+Haiku agents averaged 4.8 (2011) and 11.5 (2015) fish; Sonnet 0.6 and 9.4. Forum-on vs forum-off:
++1.0 fish cumulative, persona-matched pairs split both ways (ensembler − ens_solo = −22.6); no
+forum effect is claimable. Herding: 20–25 % of trips had ≥ 9 competitors on the same boat (the
+briefing shows everyone the same "freshest boat"); field herding index 0.38 (2011) and 0.44 (2015).
+What won: holding budget and PTO for the fleet's surge (October 2011 1.5-days; 2015 3/4-day boats
+all summer) and reading the briefing's fleet numbers, not the persona's prior. What lost: spending
+in spring on 3/4-day trips the fleet's own counts said were dead (most Sonnet agents in 2011).
+Masking caveat: weekday + day-of-year pins the calendar year for an agent that cares to check.
+Artifacts: dashboard with every night's briefing, reasoning, decision and outcome (per-agent detail
+files, `arena/tools/export_dashboard.py`); run dir committed without `tables/`, `snapshots/`,
+per-turn sandbox copies, and with the nightly logs as `judgment.tar.gz` (7.9 MB).
+Owner's verdict pending: commit to the full 14-season run (est. $3,500–4,000 at this cost per
+season, ~12 h per season of wall clock) or change the design first (herding, forum, masking).

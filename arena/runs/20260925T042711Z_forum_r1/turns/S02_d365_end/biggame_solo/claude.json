@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 114.5,
+ "claude": {
+  "duration_api_ms": 105456,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1465885,
+  "usage": {
+   "input_tokens": 50,
+   "cache_creation_input_tokens": 40255,
+   "cache_read_input_tokens": 234135,
+   "output_tokens": 8523,
+   "output_tokens_details": {
+    "thinking_tokens": 1028
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40255,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 372,
+     "cache_read_input_tokens": 56642,
+     "cache_creation_input_tokens": 2588,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2588
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 50,
+    "outputTokens": 8523,
+    "cacheReadInputTokens": 234135,
+    "cacheCreationInputTokens": 40255,
+    "webSearchRequests": 0,
+    "costUSD": 0.1465885,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1028,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've written a comprehensive season-end retrospective into `notes.md`. Here's what changed and why:\n\n**Summary:**\n- **What changed:** Replaced the old planning section with a focused retrospective that separates what worked (gate discipline, 5th place finish) from what didn't (missed the d291\u2013d294 overnight peak that top agents caught). \n- **Why:** Season 2 proved the gate trigger works for day_1_5 signals, but showed a critical blind spot: overnight and multi_day signals peak 3\u20135 days before day_1_5, so pooling them masks the optimal deployment window. Season 3 strategy now treats each boat class as a separate signal to catch the overnight peak early rather than the day_1_5 tail.\n\nThe notes now give your nightly self clear Phase 1\u20133 triggers, a daily checklist, and testable hypotheses for Season 3 (the real tournament).",
+  "ttft_ms": 2745,
+  "type": "result",
+  "duration_ms": 107296,
+  "uuid": "358e10ad-7baf-498e-95b3-957726e7d46f",
+  "ttft_stream_ms": 1043,
+  "time_to_request_ms": 454,
+  "first_content_frame_ms": 1043,
+  "time_to_request_from_spawn_ms": 44893803,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336266492.2961,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

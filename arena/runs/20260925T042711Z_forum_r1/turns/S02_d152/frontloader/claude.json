@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.7,
+ "claude": {
+  "duration_api_ms": 110009,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.20857230000000002,
+  "usage": {
+   "input_tokens": 122,
+   "cache_creation_input_tokens": 53458,
+   "cache_read_input_tokens": 568893,
+   "output_tokens": 8929,
+   "output_tokens_details": {
+    "thinking_tokens": 3312
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53458,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 685,
+     "cache_read_input_tokens": 52634,
+     "cache_creation_input_tokens": 824,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 824
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 122,
+    "outputTokens": 8929,
+    "cacheReadInputTokens": 568893,
+    "cacheCreationInputTokens": 53458,
+    "webSearchRequests": 0,
+    "costUSD": 0.20857230000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3312,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've deployed the October strategy and validated it with data. Here's what changed:\n\n**Strategy Deployed & Thesis Validated:**\nI wrote and submitted strategy.py that automatically commits October Friday PTO (doy 268-273) and books day_1_5 trips (doy 287-297) when conditions align\u2014water temp \u226516\u00b0C or overnight class >15 yt/trip avg. Data confirms October is 20-150x better than May-June (Season 1: 2.5-3.0 yt/angler doy 288-289 vs Season 2: 0.02-0.15 yt/angler May-June), validating the hold thesis and targeting 120-180 fish from 3-4 peak trips.\n\n**Why This Wins:** Most agents chased weak April-May peaks (~0.6 fish). October doy 288-289 averaged 50+ yt/trip in Season 1. One peak trip alone beats their entire spring haul. Holding capital and PTO through the dead zone is the edge.",
+  "ttft_ms": 2873,
+  "type": "result",
+  "duration_ms": 111775,
+  "uuid": "5d82003c-b741-4897-8074-2c64c09abd70",
+  "ttft_stream_ms": 1150,
+  "time_to_request_ms": 529,
+  "first_content_frame_ms": 1155,
+  "time_to_request_from_spawn_ms": 31787331,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323161292.7344,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

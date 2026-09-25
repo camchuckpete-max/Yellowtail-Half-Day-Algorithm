@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 184.0,
+ "claude": {
+  "duration_api_ms": 174720,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3053093,
+  "usage": {
+   "input_tokens": 168,
+   "cache_creation_input_tokens": 56514,
+   "cache_read_input_tokens": 1185033,
+   "output_tokens": 14722,
+   "output_tokens_details": {
+    "thinking_tokens": 6957
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 56514,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 496,
+     "cache_read_input_tokens": 74395,
+     "cache_creation_input_tokens": 1094,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1094
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 168,
+    "outputTokens": 14722,
+    "cacheReadInputTokens": 1185033,
+    "cacheCreationInputTokens": 56514,
+    "webSearchRequests": 0,
+    "costUSD": 0.3053093,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6957,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 26,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Changed:** Updated strategy.py with automated weekend THREE_QUARTER booking gates, refined notes.md with comprehensive d121 analysis showing consistent 1.5-2.1 yt/angler fleet signal, and posted forum insight on warm-regime peak timing.\n\n**Why:** Season 6 is tracking 25\u00d7 better than S2 by executing on visible spring peaks rather than holding for hypothetical October peaks. With $200 budget remaining and 10 days PTO left, continuing weekend-only strategy projects final score 10-12 fish (rank ~8-12), versus S2's 0.40. Water temperature warming trend (18.1\u00b0C) and consistent THREE_QUARTER signal support aggressive deployment through mid-May while gates align.",
+  "ttft_ms": 3025,
+  "type": "result",
+  "duration_ms": 177125,
+  "uuid": "8328576c-35e6-4fbb-92a7-d9ed84ef5d3f",
+  "ttft_stream_ms": 1107,
+  "time_to_request_ms": 576,
+  "first_content_frame_ms": 1108,
+  "time_to_request_from_spawn_ms": 48808065,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180819.1453,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

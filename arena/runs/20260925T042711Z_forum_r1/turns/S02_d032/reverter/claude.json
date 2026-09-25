@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 89.0,
+ "claude": {
+  "duration_api_ms": 85253,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.12608740000000002,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 23799,
+   "cache_read_input_tokens": 433044,
+   "output_tokens": 7015,
+   "output_tokens_details": {
+    "thinking_tokens": 2917
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23799,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 513,
+     "cache_read_input_tokens": 42116,
+     "cache_creation_input_tokens": 658,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 658
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 7015,
+    "cacheReadInputTokens": 433044,
+    "cacheCreationInputTokens": 23799,
+    "webSearchRequests": 0,
+    "costUSD": 0.12608740000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2917,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've analyzed the arena data and repositioned for the rest of the season.\n\n## Summary\n\n**What I found:** Historical data shows clear seasonality\u2014spring peaks in late March/early April (60+ yt/trip), then summer is weak (2-20 yt/trip), but October (DOY 270-300) is exceptional with 50-92 yt/trip consistently. We're at day 32 (mid-May), past the spring surge, entering weak summer.\n\n**What I changed:** \n1. Updated `notes.md` with a specific seasonal plan: skip bookings now, commit PTO for fall Fridays starting May 14, then go aggressive in October with 3-4 trips targeting DOY 280-300.\n2. Updated `strategy.py` to do nothing in summer (my decisions will handle specifics)\u2014conserve $1800+ and 8 PTO days for the fall peak where wins happen.\n\n**Why:** The data shows betting on fall is mathematically dominant: one 75 yt/trip in October beats seven weak 10 yt/trip summer days. My persona (bet on the bounce) fits the pattern\u2014I'll watch for rare bounce opportunities May-Aug, then capitalize on the predictable Oct peak when others are also desperate.",
+  "ttft_ms": 2672,
+  "type": "result",
+  "duration_ms": 87414,
+  "uuid": "403c5860-e2ac-45c9-8ac3-33dbc48be6f4",
+  "ttft_stream_ms": 473,
+  "time_to_request_ms": 90,
+  "first_content_frame_ms": 474,
+  "time_to_request_from_spawn_ms": 19937334,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311315954.8242,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

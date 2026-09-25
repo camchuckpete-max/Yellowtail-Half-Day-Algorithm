@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 133.9,
+ "claude": {
+  "duration_api_ms": 125994,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.30072760000000004,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 32011,
+   "cache_read_input_tokens": 348508,
+   "output_tokens": 10295,
+   "output_tokens_details": {
+    "thinking_tokens": 4534
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 32011,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 231,
+     "cache_read_input_tokens": 56788,
+     "cache_creation_input_tokens": 5000,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5000
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 10295,
+    "cacheReadInputTokens": 348508,
+    "cacheCreationInputTokens": 32011,
+    "webSearchRequests": 0,
+    "costUSD": 0.30072760000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4534,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated `notes.md` with a key finding: season-1 data shows doy120-180 (the window we're in now) was actually the second-best window of the year \u2014 overnight ypa 0.496, three_quarter 0.467 \u2014 not the \"trough\" my old notes labeled it, and both water temp and ONI have now caught up to/exceeded season-1's pace after starting much colder. Season 2's actual counts haven't confirmed a bite yet though, so I refined the nightly trigger to require multi-boat/multi-day confirmation (not single-trip spikes, which reverted 3 times already) and told the nightly self to start watching overnight class as closely as three_quarter, since it outperformed 3Q in this window last season.",
+  "ttft_ms": 2945,
+  "type": "result",
+  "duration_ms": 127526,
+  "uuid": "0ad8ccfe-c284-4db5-a5f9-00fd710fb695",
+  "ttft_stream_ms": 1175,
+  "time_to_request_ms": 168,
+  "first_content_frame_ms": 1176,
+  "time_to_request_from_spawn_ms": 26635307,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318009160.9614,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

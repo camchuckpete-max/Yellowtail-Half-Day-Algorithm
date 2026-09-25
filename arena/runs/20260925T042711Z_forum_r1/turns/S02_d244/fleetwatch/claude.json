@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 103.4,
+ "claude": {
+  "duration_api_ms": 100538,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1661477,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 31027,
+   "cache_read_input_tokens": 611397,
+   "output_tokens": 8564,
+   "output_tokens_details": {
+    "thinking_tokens": 3365
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31027,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 450,
+     "cache_read_input_tokens": 49285,
+     "cache_creation_input_tokens": 717,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 717
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 8564,
+    "cacheReadInputTokens": 611397,
+    "cacheCreationInputTokens": 31027,
+    "webSearchRequests": 0,
+    "costUSD": 0.1661477,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3365,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\nI've confirmed my October strategy is sound. Early October signals are emerging (day_1_5 class showing 0.044-0.464 yt/angler d237-244), and water temperature is optimal (17-19\u00b0C). However, these are modest pre-peak returns compared to the historical peak (5.0 yt/angler d284-301). \n\n**Updated my notes and journal:** I'll hold dry through d272, then execute ONE day_1_5 booking at the d273 16:00 gate for whichever peak day (d291, d297, or d301) shows the strongest boat schedule. Expected 3-4 yt score beats the current leader (0.828 yt). Budget ($600) and PTO (3 committed days) remain allocated for October.",
+  "ttft_ms": 1964,
+  "type": "result",
+  "duration_ms": 101727,
+  "uuid": "c30098bd-cfc2-4942-a66f-5299efbd6894",
+  "ttft_stream_ms": 577,
+  "time_to_request_ms": 88,
+  "first_content_frame_ms": 577,
+  "time_to_request_from_spawn_ms": 38483013,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329861613.423,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

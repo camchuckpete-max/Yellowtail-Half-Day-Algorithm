@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 82.4,
+ "claude": {
+  "duration_api_ms": 74082,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.11576959999999997,
+  "usage": {
+   "input_tokens": 60,
+   "cache_creation_input_tokens": 30635,
+   "cache_read_input_tokens": 246846,
+   "output_tokens": 5951,
+   "output_tokens_details": {
+    "thinking_tokens": 3117
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30635,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 706,
+     "cache_read_input_tokens": 46993,
+     "cache_creation_input_tokens": 2617,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2617
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 60,
+    "outputTokens": 5951,
+    "cacheReadInputTokens": 246846,
+    "cacheCreationInputTokens": 30635,
+    "webSearchRequests": 0,
+    "costUSD": 0.11576959999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3117,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of findings and strategic update:**\n\nI'm in 2nd place (0.7212 fish, rank 2/34) with leader skeptic_solo at 0.8281 \u2014 13% behind but strong position going into potential fall run. The data shows I hit a secondary summer run d206-d208: I booked THREE_QUARTER on d208 (the peak) and caught 19 YT = 0.404 fish, my best trip. However, the run collapsed d209-d213 back to noise, and I'm now effectively spent: $70 budget left (all trips are \u2265$80) and 0 PTO days remaining.\n\n**Key learning:** I burned $1,780 on 7-8 failed \"first non-zero\" plays d100-d182 (false-start cycle where micro-signals 0.01-0.05 would spike then collapse). Only when d207 hit 0.319 THREE_QUARTER and 2.343 MULTI_DAY did I catch the real entry. The false-start threshold should have been 0.05+ yt/angler sustained 2+ days, not every bounce.\n\nUpdated notes.md with realistic endgame strategy: watch d213-d249 (dead zone expected) for any 0.05+ sustained signal, book only weekend/holiday trips if it appears (free PTO). If nothing shows, hold $70 and observe d250+ for potential fall run like Season 1's DOY 270 window. Season 2 has different timing than Season 1, so can't assume same patterns year-to-year.\n\n**Finished:** Season 2 is nearly over for me\u2014notes updated with complete post-mortem and plan for final month.",
+  "ttft_ms": 3668,
+  "type": "result",
+  "duration_ms": 75828,
+  "uuid": "9fbfcff9-2fde-4088-921e-0f26019c850a",
+  "ttft_stream_ms": 856,
+  "time_to_request_ms": 243,
+  "first_content_frame_ms": 856,
+  "time_to_request_from_spawn_ms": 36376496,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327749950.1052,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

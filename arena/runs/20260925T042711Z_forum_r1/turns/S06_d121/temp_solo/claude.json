@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 165.8,
+ "claude": {
+  "duration_api_ms": 157330,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23471070000000002,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 46764,
+   "cache_read_input_tokens": 734667,
+   "output_tokens": 13518,
+   "output_tokens_details": {
+    "thinking_tokens": 5688
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46764,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 714,
+     "cache_read_input_tokens": 63909,
+     "cache_creation_input_tokens": 1830,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1830
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 13518,
+    "cacheReadInputTokens": 734667,
+    "cacheCreationInputTokens": 46764,
+    "webSearchRequests": 0,
+    "costUSD": 0.23471070000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5688,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. My strategy.py is ready. Let me create a final summary of this planning turn:\n\n**Summary of Changes (d121 Planning Turn):**\n\n1. **Updated notes.md** with data analysis showing I missed a real May peak (d117-d120 sustained 1.5-2.1 yt/angler) while holding for October. Identified root cause: over-fitting to single seasonal pattern.\n\n2. **Deployed strategy.py** to automate detection of warm spells (>1.5 yt/angler sustained + water >63\u00b0F), automatically pre-staging PTO on Fridays 14+ days ahead and booking THREE_QUARTER when conditions met. This prevents manual decision delays that cost me the d117-d120 window.\n\n**Rationale**: Season 6 rank 25/34 with only 2.59 shares from 3 early-season trips shows missed opportunity during May warm spell. Strategy automation at 21:00 ticks enables rapid response to 3-4 day fleet peaks before they fade. With 240+ days remaining, El Ni\u00f1o bias (+0.65 ONI), and systematic signal detection, target is 0.8+ season score (up from 0.5 projected) and top-15 finish. Next decision: d122 fleet results will trigger booking if sustained >1.5 yt/angler confirmed.",
+  "ttft_ms": 2455,
+  "type": "result",
+  "duration_ms": 159125,
+  "uuid": "c5b70139-9172-4750-a3d3-36676112ba18",
+  "ttft_stream_ms": 1141,
+  "time_to_request_ms": 548,
+  "first_content_frame_ms": 1142,
+  "time_to_request_from_spawn_ms": 48807652,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180613.3513,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

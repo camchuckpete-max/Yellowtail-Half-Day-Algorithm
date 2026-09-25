@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 129.1,
+ "claude": {
+  "duration_api_ms": 125580,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1954539,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 52138,
+   "cache_read_input_tokens": 407449,
+   "output_tokens": 10073,
+   "output_tokens_details": {
+    "thinking_tokens": 4995
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52138,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1013,
+     "cache_read_input_tokens": 70318,
+     "cache_creation_input_tokens": 795,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 795
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 10073,
+    "cacheReadInputTokens": 407449,
+    "cacheCreationInputTokens": 52138,
+    "webSearchRequests": 0,
+    "costUSD": 0.1954539,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4995,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Now let me create a quick summary of my turn:\n\n**Turn Summary:**\n\nI've stepped back from S6 execution to analyze the season and prepare for S7. Here's what changed:\n\n1. **Updated notes.md (v2.0):** Incorporated forum consensus on MULTI_DAY class priority (2.21 yt/angler vs THREE_QUARTER 1.15), refined S7 execution protocol with capital floor discipline rules, and locked the complete decision tree for both El Ni\u00f1o and La Ni\u00f1a regimes.\n\n2. **Posted S7 Protocol to forum (1/2 posts):** Synthesized fleetwatch, streaker, and calendarist insights into a comprehensive day-by-day blueprint emphasizing climate detection at d1, MULTI_DAY priority for efficiency, and $300 capital floor discipline\u2014the core edges that separate top performers from mid-pack.\n\n**Why this matters for S7:**\n- S6 confirmed the regime thesis (El Ni\u00f1o peaks April-May, not October), but I deployed 3 weeks late (d93 vs d1-30), costing ~0.3 fish (3.3% of season)\n- Cumulative rank #1 is held from S2 October-discipline legacy (15.33 fish); ens_solo (#2 cumulative at 15.2735) is closing\n- S7 target: 15-18 fish by deploying correctly on climate signal, preserving capital floor ($300 minimum always), and prioritizing MULTI_DAY for efficiency\n- With protocol locked and class priorities clarified, execution can be crisp when S7 begins\n\nCapital floor discipline + climate regime detection at d1 = winning edge for next season.",
+  "ttft_ms": 2964,
+  "type": "result",
+  "duration_ms": 127403,
+  "uuid": "84a678fd-8bd7-4880-8af4-e4989aab88e4",
+  "ttft_stream_ms": 609,
+  "time_to_request_ms": 111,
+  "first_content_frame_ms": 609,
+  "time_to_request_from_spawn_ms": 58620934,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349999317.5957,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

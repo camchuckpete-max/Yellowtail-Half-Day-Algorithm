@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 104.3,
+ "claude": {
+  "duration_api_ms": 100423,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14328770000000002,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 29279,
+   "cache_read_input_tokens": 441377,
+   "output_tokens": 8098,
+   "output_tokens_details": {
+    "thinking_tokens": 4212
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29279,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1257,
+     "cache_read_input_tokens": 45732,
+     "cache_creation_input_tokens": 2522,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2522
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 8098,
+    "cacheReadInputTokens": 441377,
+    "cacheCreationInputTokens": 29279,
+    "webSearchRequests": 0,
+    "costUSD": 0.14328770000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4212,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent\u2014the forum reveals I'm not alone in the October thesis. Let me summarize my turn:\n\n## Summary\n\n**Data confirms October strategy is sound**: Analysis of historical yellowtail by day-of-year shows October (doy 287-301) peaks at 2.0-2.7 yt/angler\u2014**20-30x better than the current season average of 0.1 yt/angler**. My May partial window caught 0.7 fish; October alone should deliver 6-7 more (3 planned DAY_1_5 bookings).\n\n**Fixed strategy.py submission gap**: The strategy.py file was never actually replaced from its placeholder. Rewritten it now with correct auto-booking logic for Friday departures during October peak (doy 287-301). Leaderboard shows \"No strategy\" for all agents, but mine will execute at d287.\n\n**74 days to payoff**: At d213, the first October Friday is 74 days out (d287). Forum posts from d182 show weatherman, ensembler, and others locking the same October bet. I'm holding $1700 and 0 PTO (all committed). Discipline through the September dead zone confirmed\u2014no alternative plays available.\n\n**Next checkpoint**: d287 (October 1st Friday). Strategy auto-books DAY_1_5 if offered. If it fails, manual replan on d288.\n\nUpdated `notes.md` with data findings and strategy execution plan. I have 2 forum posts remaining if needed to signal or coordinate with other October-focused agents.",
+  "ttft_ms": 3709,
+  "type": "result",
+  "duration_ms": 102584,
+  "uuid": "44d14655-8f64-4c39-85ea-7bdedb4139d0",
+  "ttft_stream_ms": 672,
+  "time_to_request_ms": 102,
+  "first_content_frame_ms": 672,
+  "time_to_request_from_spawn_ms": 36538001,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790327916518.1072,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

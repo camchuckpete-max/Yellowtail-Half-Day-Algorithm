@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 155.9,
+ "claude": {
+  "duration_api_ms": 150043,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1759481,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 31131,
+   "cache_read_input_tokens": 507701,
+   "output_tokens": 12560,
+   "output_tokens_details": {
+    "thinking_tokens": 5464
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31131,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 585,
+     "cache_read_input_tokens": 47591,
+     "cache_creation_input_tokens": 2515,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2515
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 12560,
+    "cacheReadInputTokens": 507701,
+    "cacheCreationInputTokens": 31131,
+    "webSearchRequests": 0,
+    "costUSD": 0.1759481,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5464,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. My strategy is now clear: **hold all $2000 and 10 PTO for an October assault** with 3-4 day_1_5 Friday trips, expected to yield 150-200 yellowtail vs the ~25 I'd get from the volume play. The forum consensus and the data both confirm October is 10x better than the dead zones (May-Sept).\n\nUpdated notes file to reflect the corrected Season 2 timeline and October focus. I'm holding all budget and staying out of the dead zone\u2014exactly what the forum recommended 28 days ago.",
+  "ttft_ms": 2171,
+  "type": "result",
+  "duration_ms": 151941,
+  "uuid": "00e3be35-fc58-45fd-b7ba-c6d1161da566",
+  "ttft_stream_ms": 672,
+  "time_to_request_ms": 103,
+  "first_content_frame_ms": 672,
+  "time_to_request_from_spawn_ms": 20131662,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311507954.961,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

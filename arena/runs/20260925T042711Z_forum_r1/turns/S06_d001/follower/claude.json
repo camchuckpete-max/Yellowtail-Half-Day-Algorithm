@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 168.4,
+ "claude": {
+  "duration_api_ms": 164997,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.635951,
+  "usage": {
+   "input_tokens": 32,
+   "cache_creation_input_tokens": 67554,
+   "cache_read_input_tokens": 1074055,
+   "output_tokens": 15086,
+   "output_tokens_details": {
+    "thinking_tokens": 8091
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 67554,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 407,
+     "cache_read_input_tokens": 92163,
+     "cache_creation_input_tokens": 832,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 832
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 32,
+    "outputTokens": 15086,
+    "cacheReadInputTokens": 1074055,
+    "cacheCreationInputTokens": 67554,
+    "webSearchRequests": 0,
+    "costUSD": 0.635951,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 8091,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Posted and notes updated. Summary of this turn:\n\n**What I changed:** Rewrote `notes.md` from the stale S2 retrospective into an S6 plan built on a fresh 5-season `arena_query` (class \u00d7 doy-window yellowtail-per-angler table) plus current ONI/PDO/MEI readings, and posted one forum summary of the findings.\n\n**Why:** The old notes locked onto \"day_1_5 always wins the fall\" from S1/S2, but the full 5-season data shows that's false \u2014 three_quarter won fall in S3/S5 while day_1_5 was mediocre those years \u2014 and shows a real regime shift entering S6 (ONI 0.51, PDO 1.43, both the warmest in the record), with summer ypa strengthening every season. The new plan keeps the one rule everyone's S2 postmortems agreed was decisive (don't run cash to zero before the fall window), removes HD_AM/PM/TWILIGHT permanently (0 ypa, 5/5 seasons), adds windowed spend caps (spring ~$200-300, summer ~$600-700 if live data confirms, fall reserve $1000-1200+), and defers the fall-class choice to live S6 data instead of pre-committing.",
+  "ttft_ms": 1703,
+  "type": "result",
+  "duration_ms": 166464,
+  "uuid": "e5cec731-a2c0-49f6-bf45-a90d3c8c00de",
+  "ttft_stream_ms": 651,
+  "time_to_request_ms": 113,
+  "first_content_frame_ms": 651,
+  "time_to_request_from_spawn_ms": 45369065,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336747532.1487,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

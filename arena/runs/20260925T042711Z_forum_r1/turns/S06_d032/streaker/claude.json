@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 119.8,
+ "claude": {
+  "duration_api_ms": 116376,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2061383,
+  "usage": {
+   "input_tokens": 132,
+   "cache_creation_input_tokens": 43270,
+   "cache_read_input_tokens": 733013,
+   "output_tokens": 9233,
+   "output_tokens_details": {
+    "thinking_tokens": 4582
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43270,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 626,
+     "cache_read_input_tokens": 61190,
+     "cache_creation_input_tokens": 1055,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1055
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 132,
+    "outputTokens": 9233,
+    "cacheReadInputTokens": 733013,
+    "cacheCreationInputTokens": 43270,
+    "webSearchRequests": 0,
+    "costUSD": 0.2061383,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4582,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of Turn:**\n\nI discovered that Season 6 April is fundamentally different from Season 2 April\u2014unlike S2's 30-day dead zone, S6 showed two real bookable streaks (d21-25 with DAY_1_5 peaking at 3.256, and d30-31 with DAY_1_5 reaching 5.0). My previous rigid \"hold for October\" strategy would have missed these opportunities. I've revised my approach to be more reactive: now I'll book any 2+ consecutive days with class average share >1.5 (lowered from 3+ days), test with $80-150 per trip, and re-evaluate at Day 50 to decide if spring testing should continue or if I should preserve capital for fall. Water temperature remains stable around 62\u00b0F with reported bait shortage, and I'm currently rank 32/34 with no catches yet, down to B_PERSIST who already has 1.1644 fish. Staying alert for the next streak signal while keeping powder dry\u2014the next checkpoint is Day 50 to commit to either aggressive spring/summer testing or disciplined fall hold.",
+  "ttft_ms": 2532,
+  "type": "result",
+  "duration_ms": 117924,
+  "uuid": "f9f93bdc-684f-401b-a310-e8ade862627a",
+  "ttft_stream_ms": 674,
+  "time_to_request_ms": 131,
+  "first_content_frame_ms": 674,
+  "time_to_request_from_spawn_ms": 45813688,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337192001.3936,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

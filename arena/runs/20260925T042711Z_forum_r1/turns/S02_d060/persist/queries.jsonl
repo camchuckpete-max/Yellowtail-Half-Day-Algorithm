@@ -1,0 +1,9 @@
+{"tool": "arena_query", "sql": "SELECT cls, count(*) n_trips, sum(yt) sum_yt, sum(anglers) sum_ang, sum(yt)*1.0/nullif(sum(anglers),0) yt_per_ang, sum(case when yt>0 then 1 else 0 end)*1.0/count(*) frac_nonzero FROM trips WHERE fish_date_season=2 GROUP BY cls ORDER BY yt_per_ang DESC", "rows": 8, "seconds": 0.03, "ts": "2026-09-25T04:45:45"}
+{"tool": "arena_query", "sql": "SELECT fish_date_doy, cls, sum(yt) yt, sum(anglers) ang FROM trips WHERE fish_date_season=2 AND fish_date_doy>=33 GROUP BY fish_date_doy, cls HAVING sum(yt)>0 ORDER BY fish_date_doy", "rows": 0, "seconds": 0.005, "ts": "2026-09-25T04:45:46"}
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4002, "ts": "2026-09-25T04:45:52"}
+{"tool": "arena_query", "sql": "SELECT index_id, value, avail_doy FROM climate ORDER BY avail_t DESC LIMIT 8", "rows": 8, "seconds": 0.005, "ts": "2026-09-25T04:45:57"}
+{"tool": "arena_query", "sql": "SELECT ts_doy, avg(wtmp_c) avg_c FROM pier WHERE ts_season=2 AND ts_doy>=45 GROUP BY ts_doy ORDER BY ts_doy", "rows": 16, "seconds": 0.004, "ts": "2026-09-25T04:45:58"}
+{"tool": "arena_query", "sql": "SELECT cls, count(*) n, sum(yt) yt, sum(anglers) ang, sum(yt)*1.0/nullif(sum(anglers),0) yt_per_ang FROM trips WHERE fish_date_season=1 AND fish_date_doy<=60 GROUP BY cls ORDER BY yt_per_ang DESC", "rows": 0, "seconds": 0.005, "ts": "2026-09-25T04:45:59"}
+{"tool": "arena_query", "sql": "SELECT fish_date_season, min(fish_date_doy) mn, max(fish_date_doy) mx, count(*) n FROM trips GROUP BY fish_date_season", "rows": 2, "seconds": 0.004, "ts": "2026-09-25T04:46:04"}
+{"tool": "forum_read", "args": {"limit": 15}, "error": false, "result_chars": 15457, "ts": "2026-09-25T04:46:51"}
+{"tool": "arena_query", "sql": "SELECT report_date_doy, wt_all, yt_local, yt_all FROM fishdope WHERE report_date_season=2 ORDER BY report_date_doy DESC LIMIT 10", "rows": 10, "seconds": 0.006, "ts": "2026-09-25T04:46:52"}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 174.5,
+ "claude": {
+  "duration_api_ms": 168764,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.23686529999999997,
+  "usage": {
+   "input_tokens": 180,
+   "cache_creation_input_tokens": 40086,
+   "cache_read_input_tokens": 860533,
+   "output_tokens": 14092,
+   "output_tokens_details": {
+    "thinking_tokens": 5157
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40086,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1092,
+     "cache_read_input_tokens": 58237,
+     "cache_creation_input_tokens": 824,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 824
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 180,
+    "outputTokens": 14092,
+    "cacheReadInputTokens": 860533,
+    "cacheCreationInputTokens": 40086,
+    "webSearchRequests": 0,
+    "costUSD": 0.23686529999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5157,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 26,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've analyzed the data, recognized that April failed this year (cold water, La Ni\u00f1a regime), and committed to an October-only strategy. Here's what changed:\n\n**Analysis revealed**: May-June historically strong (13+ avg/trip), but Season 2 tracking colder and showing 0 YT by day 60. October (DOY 270-310) is the only reliable peak: day_1_5 trips average 43.37 YT at 0.0789 yt/dollar ROI.\n\n**Execution**: Updated strategy.py to auto-commit October Fridays starting mid-July and book day_1_5 trips when water temp confirms the run; posted forum summary; updated notes.md with corrected plan targeting 3-4 Friday October trips (~$1650-2200, 40-50 expected YT).",
+  "ttft_ms": 2347,
+  "type": "result",
+  "duration_ms": 170519,
+  "uuid": "2a99d852-c4e3-49bc-bc24-4f01169dee50",
+  "ttft_stream_ms": 621,
+  "time_to_request_ms": 138,
+  "first_content_frame_ms": 622,
+  "time_to_request_from_spawn_ms": 20131668,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311508025.665,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

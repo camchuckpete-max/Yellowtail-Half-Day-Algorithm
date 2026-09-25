@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 82.7,
+ "claude": {
+  "duration_api_ms": 80057,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2226562,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 24009,
+   "cache_read_input_tokens": 307891,
+   "output_tokens": 6501,
+   "output_tokens_details": {
+    "thinking_tokens": 2488
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24009,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 294,
+     "cache_read_input_tokens": 46240,
+     "cache_creation_input_tokens": 3210,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3210
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 6501,
+    "cacheReadInputTokens": 307891,
+    "cacheCreationInputTokens": 24009,
+    "webSearchRequests": 0,
+    "costUSD": 0.2226562,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2488,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I checked ONI/water-temp data for season 2 vs season 1 (the open question left last time) and found season 2 opens far colder (ONI -1.57 vs season 1's +1.31 at the same point), so I updated `notes.md` to flag that the season-1 April/Oct hot-window numbers are now a prior, not a forecast, and to shift the plan toward waiting for live confirmation (recent counts, fishdope, rising water temp) before committing PTO/budget, keeping a bigger reserve for a possible weaker year with more weight on October.\n\n**Summary:** Confirmed season 2's ONI/water-temp trajectory diverges sharply from season 1's (deep La Ni\u00f1a vs. El Ni\u00f1o), and rewrote notes.md's budget/PTO plan to prioritize live-data confirmation over calendar-based windows, holding back spend until yellowtail actually show in real counts.",
+  "ttft_ms": 2285,
+  "type": "result",
+  "duration_ms": 81122,
+  "uuid": "e25cc1fb-de76-4cde-abfa-3aed22b8f874",
+  "ttft_stream_ms": 1081,
+  "time_to_request_ms": 103,
+  "first_content_frame_ms": 1081,
+  "time_to_request_from_spawn_ms": 19854164,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311232838.4104,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

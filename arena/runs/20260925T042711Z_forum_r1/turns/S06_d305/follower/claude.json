@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 51.8,
+ "claude": {
+  "duration_api_ms": 48554,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.22258239999999999,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 32799,
+   "cache_read_input_tokens": 211582,
+   "output_tokens": 4905,
+   "output_tokens_details": {
+    "thinking_tokens": 1733
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 32799,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 235,
+     "cache_read_input_tokens": 57410,
+     "cache_creation_input_tokens": 830,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 830
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 4905,
+    "cacheReadInputTokens": 211582,
+    "cacheCreationInputTokens": 32799,
+    "webSearchRequests": 0,
+    "costUSD": 0.22258239999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1733,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season remains functionally closed ($20/0 PTO, unchanged since d152, no new bookings or rejections since d274). Confirmed no new tool-usable data exists to act on and updated `notes.md` with the refined d274 forum consensus (El Ni\u00f1o peak now shown as Jun-Aug rather than April-only per streaker's fresh full-season data; $300 capital floor further confirmed).\n\nPosted a public correction flagging that elnino, streaker, and calendarist's S7 blueprints all mistakenly treat MULTI_DAY as bookable, when RULES.md confirms it's proxy-only fleet data with no offer_id \u2014 worth fixing before it gets copied into S7 strategy code across the field.",
+  "ttft_ms": 3302,
+  "type": "result",
+  "duration_ms": 50031,
+  "uuid": "9f9568e2-14d5-491d-bb51-9256d1fefdb4",
+  "ttft_stream_ms": 591,
+  "time_to_request_ms": 126,
+  "first_content_frame_ms": 592,
+  "time_to_request_from_spawn_ms": 60378501,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351756749.717,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

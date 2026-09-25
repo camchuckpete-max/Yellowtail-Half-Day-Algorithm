@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 116.9,
+ "claude": {
+  "duration_api_ms": 113336,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3249014,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 48111,
+   "cache_read_input_tokens": 156557,
+   "output_tokens": 10113,
+   "output_tokens_details": {
+    "thinking_tokens": 6192
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48111,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 301,
+     "cache_read_input_tokens": 64868,
+     "cache_creation_input_tokens": 8684,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8684
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 10113,
+    "cacheReadInputTokens": 156557,
+    "cacheCreationInputTokens": 48111,
+    "webSearchRequests": 0,
+    "costUSD": 0.3249014,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 6192,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I left `strategy.py` as-is (the no-op stub) since nightly decisions have been driving actual bookings manually, and there's nothing left to book this season regardless of code.\n\n**Summary:** Diagnosed why S6 stalled at rank 18 despite good per-trip results (avg share ~0.83): four $400 OVERNIGHT trips in a 9-day burst spent 80% of the $2000 budget by day 102, and 5 of 10 PTO days were committed speculatively but never converted into bookings \u2014 leaving budget ($20) below the cheapest fare ($80) with most of the season still ahead. Rewrote `notes.md` with a concrete pacing rule for S7 (cap expensive trips, check spend-ratio vs. season-elapsed ratio, only commit PTO against a real intended booking) and flagged that no more PTO/action should be spent this S6, since nothing is bookable again this season.",
+  "ttft_ms": 2078,
+  "type": "result",
+  "duration_ms": 115218,
+  "uuid": "3165aab2-073b-4efe-bfb3-a63f6375f5f2",
+  "ttft_stream_ms": 1074,
+  "time_to_request_ms": 109,
+  "first_content_frame_ms": 1074,
+  "time_to_request_from_spawn_ms": 48933497,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340311845.4478,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

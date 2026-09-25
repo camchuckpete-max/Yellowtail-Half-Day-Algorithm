@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 95.7,
+ "claude": {
+  "duration_api_ms": 87438,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1285629,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 28522,
+   "cache_read_input_tokens": 313179,
+   "output_tokens": 8025,
+   "output_tokens_details": {
+    "thinking_tokens": 2152
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 28522,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 296,
+     "cache_read_input_tokens": 45930,
+     "cache_creation_input_tokens": 1567,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1567
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 8025,
+    "cacheReadInputTokens": 313179,
+    "cacheCreationInputTokens": 28522,
+    "webSearchRequests": 0,
+    "costUSD": 0.1285629,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2152,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Updated strategy.py with active early-peak monitoring (DOY 14-60) and spring-tail fallback, learning from S6 (missed 10+ yt/angler peaks) and S2 comparison (seasons vary). Documented resource allocation ($1.2k early, $500 tail) and monitoring checklist in notes.md for S7+.",
+  "ttft_ms": 1964,
+  "type": "result",
+  "duration_ms": 89226,
+  "uuid": "6bbbc60b-e439-4fba-b77d-a88b5a90631d",
+  "ttft_stream_ms": 995,
+  "time_to_request_ms": 484,
+  "first_content_frame_ms": 995,
+  "time_to_request_from_spawn_ms": 53144868,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344518085.9658,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

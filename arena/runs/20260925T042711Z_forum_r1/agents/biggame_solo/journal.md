@@ -1,0 +1,488 @@
+- S02 d091: S02 dead-fishery confirmed (0.000 yt/angler last 7d fleet-wide). Hold budget & PTO for S03 Phase 1 exploration—can't read this season's peak from last season's calendar.
+- S02 d092: Season 2 end-state: 5 total YT all season. Hold budget and PTO for S3 real tournament start.
+- S02 d093: S2 d093: Season 2 terminal decline. Hold everything for S3 real start. Fishing dead, conditions cold, zero momentum.
+- S02 d094: S2 d094: Dead season, cold water (55.4°F), nothing bookable anyway. Hold all resources for S3 real tournament start.
+- S02 d095: S2 d096: Dead season holding. Preserve $2k and PTO for S3 real tournament start.
+- S02 d096: Season 2 terminal. Nothing bookable; preserve $2k and 10 PTO for S3 real start.
+- S02 d097: S2 d098: Friday temptation rejected. Season dead, fishery dormant. Hold budget and PTO for S3 real start.
+- S02 d098: S2 d099: One week left in dead season. Hold $2k and 10 PTO intact for S3 tournament. Discipline wins.
+- S02 d099: S2 d100: Season 2 terminal. Water cold (61°F), zero fishing signal. All budget and PTO locked for S3 launch.
+- S02 d100: S2 terminal. Hold intact: $2k and 10 PTO for S3 real start. Fishery dead, no PTO windows open, only dead TWILIGHT bookable.
+- S02 d101: S2 terminal, fishery dead (5 yt/536 trips), 4 days left. Hold $2k and 10 PTO intact for S3 real start.
+- S02 d102: S2 terminal, nothing bookable, fishery dead. Hold $2k and 10 PTO intact for S3 launch.
+- S02 d103: Season 2 terminal. Fishery dead (0 yt/angler, 3d), no bookable boats. Hold $2k and 10 PTO for S3 tournament start—it begins fresh.
+- S02 d104: S2 d104 terminal. Fishery dead (5 yt/536 trips). No valid bookings without PTO lead time. Preserve $2k + 10 PTO for S3 real start.
+- S02 d105: S2 terminal and dead (5 yt/500+ trips all season). Hold $2k and 10 PTO intact for S3 tournament start.
+- S02 d106: S2 d107 final day: dead season (5 yt in 500+ trips). Stay home. Budget $2k and PTO 10 locked for S3 tournament.
+- S02 d107: S2 terminal, dead fishery. Hold $2k and 10 PTO intact for S3 real start.
+- S02 d108: S2 d108 terminal; fishery dead 8+ days, no long boats scheduled. Hold $2k + 10 PTO intact for S3 real launch.
+- S02 d109: S2 terminal, dead, no bookable trips (PTO lead time expired). Hold $2k and 10 PTO for S3 fresh start.
+- S02 d110: S2 d111 dead (0 yt this week, 61°F water). No bookable long boats—PTO lead time won't work same-day. Hold $2k + 10 PTO for S3 exploration phase.
+- S02 d111: Season 2 dead (0 yt this week, 55.9°F water dropping). Hold $2k + 10 PTO for S3 launch.
+- S02 d112: S2 d112 terminal—stay home. Fishery dead (5 yt/536 trips), 58°F water, no long boats. Hold $2k + 10 PTO intact for S3 real tournament launch.
+- S02 d113: S2 d114 stay home—fishery dead, water cold. Budget + PTO locked for S3 tournament launch.
+- S02 d114: S2 d115: fishery dead, no long boats available (PTO lead time expired). Hold $2k + 10 days for S3 launch.
+- S02 d115: S2 d116: Terminal. Stay home, hold $2k + 10 PTO for S3 data-collection phase.
+- S02 d116: S2 terminal—fleet dead (0 yt/week). No long boats scheduled, only half-day option bookable. Hold budget + PTO for confirmed fishery start.
+- S02 d117: S2 d118: Season dead (5 fish/536 trips). No bookable long boats, can't commit new PTO this late. Hold $2k + 10 days for S3 real-tournament launch.
+- S02 d118: S2 d119 terminal: 5 yt all season across 536 trips, zero local reports, 64°F water. Hold $2k + 10 PTO for S3 launch.
+- S02 d119: S2 terminal (5 yt/season, zero this week). Hold $2k + 10 PTO for S3 confirmed launch.
+- S02 d120: S2 d121: Terminal fishery (5 yt/536 trips, zero last week). No long boats scheduled. Hold $2k + 10 PTO for S3 data phase.
+- S02 d121: S2 final. Held budget + PTO all season—correct call. Ready for S3 with full toolkit.
+- S02 d122: S2 final, no bookable plays. Hold toolkit for S3 launch and real data.
+- S02 d123: S2 final. Zero bookable longs tomorrow; hold $2k + 10 PTO for Season 3 data phase.
+- S02 d124: End of S2, no bookable long plays. Full toolkit (2k budget + 10 PTO) reserved for Season 3 data phase launch.
+- S02 d125: S2 d125 terminal: zero signal (2 local reports, 0 fish last week), hold $2k + 10 PTO for S3 launch.
+- S02 d126: S2 final—hold d127 (Mustang 0 yt recent, weak fleet signal). Committed PTO d143/150/157 to unlock 1.5-day signal phase in S3. Ready to book high-quality trips mid-October pending early S3 data.
+- S02 d127: S2 d128 (Sun): Terminal fishery, zero signal. Stay home. Full toolkit ($2k + 10 PTO) reserved for Season 3 launch.
+- S02 d128: S2 final week: zero signal, no long boats, terminal conditions. Hold $2k + 8 PTO for S3 Phase 1 launch.
+- S02 d129: S2 d129 terminal, zero bookable plays. Toolkit locked for S3 Phase 1 launch.
+- S02 d130: S02 d130: Terminal fishery, no bookable plays. Toolkit locked for S3 Phase 1 exploration launch.
+- S02 d131: S02 d131: Terminal S2, no plays. Toolkit locked for S3 exploration phase.
+- S02 d132: S2 d133: Terminal, flat signal. Mustang/Voyager showing 0 yt recent. Hold toolkit for S3 Phase 1 (d143+).
+- S02 d133: S2 d134 terminal—zero bookable plays. Hold toolkit for S3 Phase 1 launch.
+- S02 d134: S2 d135 Sun: Terminal. Toolkit locked for S3 Phase 1 exploration.
+- S02 d135: S2 terminal, no bookable plays. Hold toolkit for S3 Phase 1 exploration launch.
+- S02 d136: S2 final: terminal dead, no bookable plays. Toolkit locked for S3 Phase 1 exploration.
+- S02 d137: S02 d138: Season 2 terminal. Toolkit ready for S3 Phase 1 launch. Hold budget and PTO.
+- S02 d138: S02 d139: Season 2 terminal, all classes flat zero. Hold toolkit and budget for S3 Phase 1 exploration.
+- S02 d139: S2 d140 (Fri): Terminal week, no signal. Hold toolkit for S3 Phase 1 launch.
+- S02 d140: S2 d141 (Sat): Zero local yt signal, fleet dead. Toolkit held for S3 Phase 1 launch at d143.
+- S02 d141: S2 d142 (Sun): Season terminal, fleet 0.000 yesterday. No long boats. Hold fire for S3.
+- S02 d142: S2 terminal, d143 PTO sunk, fleet dead. Hold fire and budget for potential S3 window.
+- S02 d143: S02 d144 (Tue): Fleet dead, no signal. Hold toolkit and 8 PTO for real window. Water temp stable, fishdope cold. Wait for >2 yt/trip emergence before Phase 1 deploy.
+- S02 d144: S2 terminal, no bookable plays. Hold fire for S3 Phase 1 launch signal (>2 yt/trip). Budget $2000 and 8 PTO intact.
+- S02 d145: S2 terminal, no bookable plays. Hold $2000 and 8 PTO for S3 Phase 1 exploration launch.
+- S02 d146: S2 terminal. Friday no-PTO opportunity rejected: overnight 0.5 yt/angler sporadic but fleet flat. Hold $2k and 8 PTO for S3 Phase 1 emergence signal.
+- S02 d147: S2 terminal holds. Overnight 0.47/angler available but fleet flat overall. Preserve $2k and 8 PTO for S3 Phase 1 emergence launch.
+- S02 d148: S2 terminal. No multi-day boats available; half-day fleet dead (0.000 yesterday). Hold $2k and 8 PTO for S3 Phase 1 signal.
+- S02 d149: S02 d149 eve: Season terminal, no signal. Hold $2k and 8 PTO for S3 Phase 1 launch. Waiting for water temp trend + fishdope yt_local spike before deployment.
+- S02 d150: Season 2 confirmed flatline. Hold $2k, 8 PTO for S3 Phase 1 launch. No play tomorrow.
+- S02 d151: S2 terminal confirmed. Hold toolkit for S3 Phase 1 launch—discipline, not fear.
+- S02 d152: S2 d153 terminal. TWILIGHT only bookable play, no boats, 0.000 class—rejected. Hold $2k, 8 PTO for S3 Phase 1.
+- S02 d153: S2 terminal. Friday overnight/1.5d plays weak (0.167/0.036 actual vs 0.442/0.114 typical). Preserve $2k, 8 PTO for S3 Phase 1 emergence.
+- S02 d154: S2 d154 eve terminal hold. No signal for S155 play—fleet 0.000 yesterday, sparse local reports, cold stable water. Preserve $2k, 8 PTO for S3 emergence.
+- S02 d155: S2 terminal. Toolkit intact: $2k, 8 PTO committed, 0 plays. Ready for S3.
+- S02 d156: S2 terminal. PTO d157 sunk cost; preserve $2k budget + 8 PTO for S3 Phase 1 launch. Hold discipline.
+- S02 d157: S2 terminal, nothing bookable tomorrow. Tools intact for S3 Phase 1—waiting for signal.
+- S02 d158: S2 d158: Terminal hold. No bookable play tomorrow; PTO deadlines passed. Tools intact ($2k, 8 PTO) for S3 Phase 1 launch.
+- S02 d159: Final S2 hold. Tools intact ($2k, 8 PTO) for next cycle. Fleet dead; no bookable plays. Season 2 ends with discipline preserved.
+- S02 d160: S2 d161 terminal hold. Overnight/DAY_1.5 unproven & fleet dead d157–160. Tools intact ($2k, 8 PTO) for S3 emergence.
+- S02 d161: S2 terminal: fleet 0.000 d157–161 solid. Hold $2k + 8 PTO intact for S3 Phase 1 signal.
+- S02 d162: S02 d162 eve: Fleet weak (0.062–0.150 yt/angler on longs, 0.000–0.002 half-days). Stay home, tools intact. Wait for >2 yt/trip signal.
+- S02 d163: S2 d163 eve: Fleet dead, d164 no bookable plays. $2k + 8 PTO intact for S3 Phase 1 signal.
+- S02 d164: S02 d164 final. Fleet dead 7 days. Tools intact ($2k, 8 PTO) for S3. Discipline preserved.
+- S02 d165: S2 terminal hold. No bookable plays d166–final. Tools ($2k, 8 PTO) intact for S3 launch.
+- S02 d166: S2 d167 terminal: Twilight only option (0.000 hist, no boats). Tools ($2k, 8 PTO) intact for S3 Phase 1.
+- S02 d167: S2 d167 eve: Hold. Voyager 0.071 yt/angler is micro-noise. Wait for >2 yt/trip fleet signal before S3 Phase 1 deployment.
+- S02 d168: S02 d168 eve: Yesterday's THREE_QUARTER/OVERNIGHT spike is noise, not trend. Producer unproven, water flat. Hold $2k + 8 PTO for >2 yt/trip emergence signal.
+- S02 d169: S2 d168 spike cooled by d169. Hold $2k + 8 PTO for fleet >2 yt/trip emergence. No signal, no long-trip bookable, half-days noise.
+- S02 d170: S02 terminal. Hold $2k, 8 PTO for S3 signal. No plays.
+- S02 d171: S2 d171 eve: Fleet still quiet, no bookable plays, water cooling. Hold for S3.
+- S02 d172: S02 d172 eve: S2 terminal. Hold $2k + 8 PTO for S3. No bookable, no signal, no plays. Capital intact.
+- S02 d173: S02 d173: Terminal hold. No bookable, no signal. $2k + 8 PTO intact for S3 Phase 1 emergence.
+- S02 d174: S02 d175 terminal hold. Capital ($2k, 8 PTO) locked for S3 Phase 1 emergence. Wait for real signal.
+- S02 d175: S02 d176: Terminal hold. Capital ($2k, 8 PTO) intact for S3 Phase 1. Season 2 dead—no bookable plays.
+- S02 d176: S02 terminal hold confirmed. Capital ($2k, 8 PTO) intact for S3 Phase 1. Waiting for real signal.
+- S02 d177: S2 d178: Terminal hold. No bookable, no signal. Capital ($2k, 8 PTO) locked for S3 emergence.
+- S02 d178: S2 terminal confirmed. No bookable plays. Hold $2k + 8 PTO for S3 Phase 1 signal.
+- S02 d179: S2 d180: No bookable plays, no PTO, no signal. Hold capital for S3 Phase 1 emergence. Season 2 terminal—correct to stay out.
+- S02 d180: S2 terminal: no bookable, no signal, no fleet lift. Capital ($2k, 8 PTO) locked for S3 emergence. Stay disciplined.
+- S02 d181: S2 d182: Terminal hold. No signal, no play. Capital intact for S3 emergence.
+- S02 d182: S2 d183: No signal. One-day spike ≠ fleet lift. Hold $2k + 8 PTO for S3 Phase 1 gate.
+- S02 d183: S02 d183/d184: Terminal confirmed. No signal, no play. Capital + PTO locked for S3 Phase 1 gate.
+- S02 d184: S02 terminal final. No signal, no play. $2k + 8 PTO locked for S3 gate.
+- S02 d185: S2 final: only bookable is twilight (0.000 yt/angler). Fleet dead, no signal. Hold $2k + 8 PTO for S3 Phase 1 gate.
+- S02 d186: S2 d187 (final?): Twilight only playable, 0.000 avg, fleet dead. Stay dry. Capital + PTO locked for S3 gate.
+- S02 d187: S2 d187 final: fleet dead, no signal. $2k + 8 PTO locked for S3 gate.
+- S02 d188: S2 final hold. Water cooling (61.3°F), fleet dead, no local signal. $2k + 8 PTO locked for S3 emergence.
+- S02 d189: S2 final hold. Fleet dead, no signal >1.5 yt/trip. $2k + 8 PTO locked for S3 Phase 1 gate opening. Discipline wins tournaments.
+- S02 d190: S2 terminal. Fleet dead, no signal. Discipline locked. Capital and PTO reserved for S3 Phase 1 emergence.
+- S02 d191: S02 d191: Season 2 final hold confirmed. Fleet dead, only twilight bookable. $2k + 8 PTO locked for S3 Phase 1 emergence gate.
+- S02 d192: S2 final. Twilight only bookable (0.000 avg), fleet dead. $2k + 8 PTO locked for S3 Phase 1 gate opening.
+- S02 d193: S3 Phase 1 gate holding. Fleet weak, no sustained signal >1.5 yt/trip. Hold $2k + 8 PTO for confirmed trigger.
+- S02 d194: S2 d194: overnight 2.797 spike, but one day ≠ sustained. Hold for Phase 1 trigger (3+ days >1.5 yt/trip confirmed).
+- S02 d195: S2 d195: One outlier boat (New Lo-An 1.333) + one spike day (d194 2.797) ≠ sustained fleet signal. Hold discipline. Trigger: 3+ days >1.5 confirmed.
+- S02 d196: S2 d196: Spike collapsed (0.833 → 0.045). Overnight average weak; fleet dead. Gate stays locked.
+- S02 d197: S02 d197: d194 spike (2.797) collapsed to 0.045–0.101. No sustained signal. Gate locked; trigger remains 3+ days >1.5 yt/trip confirmed.
+- S02 d198: S2 d198 close: one overnight outlier (1.717) insufficient to trigger gate. Stay locked; twilight trap skipped. Capital + 8 PTO held for S3 Phase 1.
+- S02 d199: S2 d199: Overnight spike collapsed d198 (1.717) → d199 (0.194). Pattern confirmed boom-bust, not sustained. Hold $2k + 8 PTO locked for S3 Phase 1 gate.
+- S02 d200: S02 d200: Fleet dead, twilight trap, hold locked. $2k + 8 PTO waiting for Phase 1 trigger: 3+ days >1.5 yt/trip confirmed.
+- S02 d201: S02 d201 close: fleet weak, overnight 0.583 not sustained. Twilight trap skipped. Hold $2k + 8 PTO locked for Phase 1 gate.
+- S02 d202: S02 d202: Fleet still boom-bust (d202 0.263, d201 0.583 overnight). Sea Adventure 80 hot (1.685) but single boat, small sample. Gate locked; trigger unchanged (3+ days >1.5 confirmed). Hold $2k + 8 PTO.
+- S02 d203: d203 close: overnight 0.132, d201–d199 boom-bust (0.583→0.194). Still no 3+ day >1.5 trigger. Gate locked.
+- S02 d204: S02 d204 close: overnight collapse (0.583 → 0.039) reconfirms boom-bust noise. Gate locked; trigger unchanged (3+ days >1.5). Hold $2k + 8 PTO.
+- S02 d205: d206 skipped. Overnight trend (d201 0.583 → d205 0.077) still classic boom-bust. Gate locked; trigger unchanged.
+- S02 d206: S02 d207: Fleet boom-bust, falling temp, Tuesday has no advantage. Gate locked; capital held.
+- S02 d207: d207 close: hold locked. Season noise, no trigger. Wait for Phase 1: 3+ days >1.5 sustained.
+- S02 d208: S2 d209 close: fleet noise, no sustained >1.5. TWILIGHT trap visible (0.000). Gate locked; hold $2k + 8 PTO.
+- S02 d209: S02 d209 close: overnight spike 0.400 (1-boat sample), no sustained >1.5. Gate locked; hold $2k + 8 PTO for Phase 1.
+- S02 d210: d209 spike confirmed noise (faded by d210). No sustained >1.5 trigger. Gate locked; hold $2k + 8 PTO.
+- S02 d211: d211 close: fleet noise (d209 DAY_1_5 1.053, OVERNIGHT volatile 0.063–0.400). Gate locked; hold $2k + 8 PTO.
+- S02 d212: Gate locked. d209 spike faded by d210; no sustained >1.5 signal. Hold $2k + 8 PTO for Phase 1 trigger.
+- S02 d213: No sustained >1.5 signal. Gate locked; hold $2k + 8 PTO. Phase 1 trigger still pending.
+- S02 d214: d214 close: brief spikes (d214 0.077 THREE_Q, d213 0.920 DAY_1_5) still noise. 30d avg 0.364 and 0.062. Gate locked. Hold $2k + 8 PTO.
+- S02 d215: d215 close: no sustained >1.5 signal. Gate locked; hold $2k + 8 PTO for Phase 1 trigger.
+- S02 d216: d216 close: no sustained >1.5 signal yet. Gate locked; hold $2k + 8 PTO for Phase 1 trigger.
+- S02 d217: DAY_1_5 signal emerging: 1.77 (d214), 1.40 (d216). Commit d234, d241 PTO; stand dry until 3-day sustained >1.5 confirmed. Water warming 65.8°F, conditions brewing.
+- S02 d218: Holding dry—DAY_1_5 warm but no sustained >1.5 yet. Phase 1 gate locked; $2k + 6 PTO reserved.
+- S02 d219: d219 close: decay continuing (DAY_1_5 0.133, THREE_Q 0.009). Gate locked; hold $2k + 6 PTO for Phase 1 trigger.
+- S02 d220: No sustained >1.5 signal; decay continues. Gate locked. Hold $2k + 6 PTO for Phase 1 trigger.
+- S02 d221: Gate locked. Twilight is noise. Hold $2k + 6 PTO for Phase 1 trigger.
+- S02 d222: Decay ongoing (d220 0.438 → d222 0.124). Gate locked; hold dry for Phase 1 trigger.
+- S02 d223: Hold dry. d222 DAY_1_5 spike (1.220) not sustained—d223 decay visible. Water cooling; Phase 1 gate requires 3+ days >1.5. Wait for Fri/Sat results.
+- S02 d224: d224 close: d222 spike fully reversed (1.220 → 0.050 → <0.02). Decay ongoing. Gate locked; hold dry for sustained >1.5 signal.
+- S02 d225: S3 d225 close: DAY_1_5 spike (d220–d222: 0.438 → 1.220 → 0.050) fully collapsed. Gate locked. Hold $2k + 6 PTO for sustained >1.5 fleet signal.
+- S02 d226: d222 spike fully reversed (1.220→decay). Gate locked. Hold $2k + 6 PTO for sustained >1.5 signal.
+- S02 d227: Gate locked. Decay continues (DAY_1_5 0.208 → 0.050 → 0.067 decay). Hold $2k + 6 PTO for Phase 1 >1.5 trigger.
+- S02 d228: Gate locked. d227 decay ongoing. Hold $2k + 6 PTO for sustained >1.5 Phase 1 trigger.
+- S02 d229: Gate locked. d228 spike (1.015) collapsed by d227. Hold $2k + 6 PTO for sustained 3+ day >1.5 trigger.
+- S02 d230: d228 spike (1.015) failed to sustain; d229–d230 decay to 0.100. Gate locked. Hold $2k + 6 PTO for 3+ day >1.5 sustained signal.
+- S02 d231: Gate locked. d230 (1.156) → d231 collapse (0.000) = noise. Hold $2k + 6 PTO for Phase 1 sustained >1.5 signal.
+- S02 d232: d232 close: Recent spikes (d230 1.156, d228 1.015) both collapsed by d231. Noise pattern confirmed. Gate locked, hold $2k.
+- S02 d233: Gate locked. Fleet weak (no class >0.5 L7d). Hold $2k + 6 PTO for Phase 1 >1.5 sustained trigger.
+- S02 d234: Gate locked. Fleet weak (L7d <0.5). No sustained >1.5 signal. Hold for Phase 1 trigger.
+- S02 d235: Gate locked. L7d spikes remain noise (collapse within 1–2 days). Hold $2k + 6 PTO for sustained >1.5 Phase 1 signal.
+- S02 d236: Gate locked. Thu d237 only TWILIGHT bookable; half-days noise. DAY_1_5 L30d 0.403 strong but volatility unconfirmed. Wait 3+ day >1.5 sustain signal.
+- S02 d237: d236 spike (0.833) collapses at d237 (0.000). Noise confirmed. Gate locked, hold $2k + 6 PTO for Phase 1 sustained >1.5 signal.
+- S02 d238: Gate locked. d237 spike (0.464) collapsed at d238 (0.043)—noise confirmed. Dolphin III outlier (39 yt one boat). Hold for 3+ day >1.5 sustain.
+- S02 d239: d239 ON noise (0.074), not sustained. Gate locked; awaiting 3d+ >1.5 fleet signal before Phase 1 deploy.
+- S02 d240: Gate locked. Fleet noise confirmed (recent spikes collapse). No sustained >1.5 signal yet. Hold $2k for Phase 1 trigger.
+- S02 d241: S02 d242: Gate locked. L7d best 0.054 THREE_QUARTER—noise. TWILIGHT 0.000 L30d lottery. Hold $2k + 6 PTO for Phase 1 >1.5d+ signal.
+- S02 d242: S02 d242 (Tue eve): Fleet noise persists (L7d best 0.054 3Q). Water warming (70.2°F), local signal silent. TWILIGHT only bookable, zero scheduled boats. Hold dry; gate locked for Phase 1 >1.5 sustain.
+- S02 d243: d243 eve: Gate locked. Fleet best d243 THREE_QUARTER 0.412—noise confirmed. Hold $2k + 6 PTO for sustained >1.5d signal (3d+). Water warming, local silent.
+- S02 d244: d244 eve: d243 spike (THREE_QUARTER 0.412) collapsed to zero. Fleet noise confirmed. Gate locked; hold $2k + 6 PTO for sustained >1.5 yt/trip signal (3d minimum). Water cooling, local silent.
+- S02 d245: d245 Fri eve: Gate locked. Fleet spikes (0.412, 0.302, 0.526) all collapsed. No sustained >1.5 signal yet. Hold dry.
+- S02 d246: Fleet spikes collapsing (0.054 3Q best L7d, noise). Water 60.1°F, local silent. Gate locked; hold dry.
+- S02 d247: S02 d247 eve: Fleet still dead (L30d DAY_1_5 0.232). THREE_QUARTER spike (0.110) noise. Gate locked; hold $2k + 6 PTO for sustained >1.5 signal (3d minimum).
+- S02 d248: Still gate locked. L7d THREE_QUARTER 0.022 noise; DAY_1_5 decay trend. Hold $2k + 6 PTO for Phase 1 >1.5 sustain (3d+).
+- S02 d249: S02 d249 eve: Fleet collapse confirmed (L7d zeros, 3Q noise d249 0.038). Hold $2k + 6 PTO for Phase 1 >1.5 sustained (3d+). Gate locked.
+- S02 d250: Gate locked. Fleet noise (L7d 0.027 best), local silent, water warming. Hold $2k + 6 PTO for sustained >1.5 signal.
+- S02 d251: d251 OVERNIGHT spike 0.229—day 1 only. Gate locked; watch d252/d253 for 3d sustained pattern. Will redeploy if signal confirms tomorrow eve.
+- S02 d252: d251 spike (0.229 ON) collapsed; d252 all zeros. Fleet still noise (best L7d 0.034). Hold $2k + 6 PTO for sustained >1.5 signal.
+- S02 d253: Sunday lottery skipped. Overnight spike d251 (0.229) unconfirmed sustained. Fleet still noise L7d. Hold dry.
+- S02 d254: d253 blip (0.268 DAY_1_5) unconfirmed; fleet still noise. Gate locked. Watch for 3-day sustained >1.5 before Phase 1 trigger.
+- S02 d255: Still noise (L30d ON 0.028, D1.5 0.169). Gate locked. Watch d256/d257 for 3-day +1.5 sustained.
+- S02 d256: d256 overnight spike 0.507 noted but unconfirmed. Gate locked. Watch d257/d258 for 3-day sustain trigger; water warming, conditions light.
+- S02 d257: d257 all zeros—3-day sustain signal failed. Gate locked. Watch d258/d259 fleet counts; redeploy only if real signal emerges for next week.
+- S02 d258: d258 mixed spikes (overnight/3q), DAY_1_5 d257 decay to 0.872. Gate stays locked. Watch d259–d261 for real sustain.
+- S02 d259: d259 THREE_QUARTER spike (0.488, San Diego 12 yt) is first real signal. Watch d260/d261 for 3-day sustain; if confirmed, commit PTO and redeploy on San Diego/Mission Belle for Phase 1 trigger.
+- S02 d260: D259 spike collapsed d260 (fleet 0.011). Gate stays locked. Watch d261+ for real sustain; redeploy only on 3-day signal.
+- S02 d261: d261 confirmed no signal. Gate locked. Watch d262–d265 for real 3-day sustain trigger.
+- S02 d262: D262 all zeros. Signal died. Gate locked; watch d263–d265 for real 3-day sustain.
+- S02 d263: d263 single-boat 3q spike, no DAY_1_5 data = boats quiet. Gate locked; watch d264–d266 for real 3-day signal >1.5.
+- S02 d264: d264 THREE_QUARTER 1.125 yt/angler is first real signal since d259, but single-day spike. Gate locked. Watch d265–d266 fleet avg for 3-day sustain >1.5 before deploying.
+- S02 d265: d263–d264 DAY_1_5 signal is hot (2.8+ yt/angler, Aztec 130 yt). d265 weak—gate watch: need d265–d266 confirm >1.5 sustain before deploying. Stand by.
+- S02 d266: d266 spike does not confirm 3-day sustain. Gate locked; watch d267–d269 for real fleet signal >1.5.
+- S02 d267: D263–d265 DAY_1_5 peak (2.8 yt/angler) was real but signal went dark d266–d267. Gate locked. Watch d268–d279 for 3-day sustain >1.5; if confirmed, deploy Friday d280 evening no-PTO trip.
+- S02 d268: d268 shows 0.325 overnight—first real signal tick since d265. Watching d269–d270 for sustained >1.5 yt/angler; if confirmed, deploy Friday d280 (long trip, no PTO).
+- S02 d269: Gate locked d269. Watching d270 for 3-day sustain >1.5; if confirmed, deploy Friday d280 overnight/1.5-day (weekend, no PTO).
+- S02 d270: d270 shows some recovery (3Q 0.487) but not sustained >1.5 yet. Waiting for d271–d272 confirm before committing PTO for Friday d287 long trip.
+- S02 d271: d271 decay confirmed. Gate locked. Watch d272–d274 for 3-day >1.5 sustain before deploying.
+- S02 d272: d272 weak (0.232 3Q). Gate locked. Watching d273–d274 for 3-day >1.5 fleet sustain before deploying overnight/1.5-day.
+- S02 d273: d273 weak, gate still locked. Watch d274–d275 for real sustain before Friday d281 decision.
+- S02 d274: d274 collapse confirmed. Gate locked. Watching d275–d276 for 3-day >1.5 sustain; if confirmed by Friday, deploy overnight/1.5-day d281 (weekend, no PTO).
+- S02 d275: d275 collapse confirmed. Gate locked. Watch d276–d278 for 3-day >1.5 sustain before Friday d281 decision.
+- S02 d276: Gate locked. Waiting for d277–d279 to show 3-day >1.5 sustain before deploying long trip this weekend. Fleet signal not yet confirmed.
+- S02 d277: d277 collapse reconfirmed gate lock. Watching d278–d280 for any real sustain before Friday overnight/1.5-day decision.
+- S02 d278: Gate warming. d272–d277 sustained 3.5+. Watch d278–d280 for confirm before committing PTO for next-week weekday long trip.
+- S02 d279: Gate open. Deployed DAY_1_5 / Ocean Odyssey for d281 1.5-day. d276–d278 signal confirmed sustained >1.5 yt/angler.
+- S02 d280: d280 collapse: gate locked. Fishing d281 Ocean Odyssey 1.5-day as planned. Watch d281–d283 for signal return before next move.
+- S02 d281: d281: Gate locked yesterday. Executing booked 1.5-day plan despite d280 noise. Signal was live on d276–d278; riding it out.
+- S02 d282: d281 spike isolated; d282 collapse reconfirms gate lock. Staying dry d283, watching d283–d285 for signal return before next deployment.
+- S02 d283: Gate locked. D281 spike isolated—d282–d283 collapse confirmed. Observing d284–d286 for signal return (3-day >1.5 threshold). No boats scheduled tomorrow anyway.
+- S02 d284: d284 overnight spike isolated; gate still locked. Watching d285–d286 for sustained signal before any PTO/booking decision.
+- S02 d285: Signal dead. No boats bookable tomorrow (PTO barrier on d286). Staying dry. Watch d286–d288 fleet results before next PTO commit decision.
+- S02 d286: Gate still locked. d285–d284 spikes look like noise. Watch d286–d288 fleet results; redeploy Friday d294 only if DAY_1_5 sustains >1.5.
+- S02 d287: d287 collapse reconfirms gate lock. Holding dry; no sustained signal. Watch d288–d290 fleet results; next PTO/booking decision Friday d294 only if signal emerges.
+- S02 d288: d288 gate still locked. Watch d289–d290 results; redeploy decision Friday d294 only if DAY_1_5/OVERNIGHT sustain >1.5 yt/angler.
+- S02 d289: d289 spike interesting but isolated. Gate locked. Watch d290 results; redeploy Friday d294 only if >1.5 yt/trip sustains.
+- S02 d290: Gate locked d290. TWILIGHT pass. Watch d291–d293 fleet; Friday d294 redeploy only if >1.5 yt/trip sustains.
+- S02 d291: D291 OVERNIGHT 9.154 opening gate. Watch d292–d293; if >1.5 holds, deploy Friday d294.
+- S02 d292: d291 spike real or noise? d292 zero + no OVN/1.5 data blocks confirmation. Watch d293 close; hold dry until 3-day >1.5 sustains.
+- S02 d293: Gate locked. d291 spike isolated; d292–d293 collapse confirms. Hold dry; watch d294–d296. Redeploy only if sustained >1.5 emerges.
+- S02 d294: D294 OVERNIGHT 11.625 opened gate briefly. Watching d295–d296 for sustained >1.5; if confirmed, deploy Phase 1 long trip next Fri (d301+) with PTO commit tonight/tomorrow.
+- S02 d295: d295 collapse confirms d294 spike isolated. Gate locked. Watching d296–d298 for 3-day >1.5 yt/angler signal; Phase 1 redeploy only if sustained emerges.
+- S02 d296: D296 confirmed gate locked (spike isolated). Hold dry; watch d297–d299 close for sustained >1.5 signal.
+- S02 d297: d297 collapse confirms gate locked. Hold d298; watch d299 overnight for sustained >1.5 signal.
+- S02 d298: Gate signal sustained d291–d297. Hold Wed d299. Book Fri d301 evening if qualified boat (Cortez or proven overnight) available for Sat d302+ (no PTO needed).
+- S02 d299: Hold d300. Watch d300–d302 for sustained 1.5-day signal; next PTO commit window is d313+ (14d out). Gate watch continues.
+- S02 d300: Phase 1 live: Cortez DAY_1_5 d302 booked. Watch d302–d303 fleet result to confirm signal or gate lock. Redeploy decision pending.
+- S02 d301: Cortez Phase 1 live d302-d303. Holding PTO; watch d302-d304 fleet result for sustained >1.5 signal before next commit.
+- S02 d302: Cortez Phase 1 live. Monitoring d302–d304 fleet for gate signal; hold dry until sustained >1.5 confirmed.
+- S02 d303: Gate live d302–d303 (sustained >1.5 yt/angler). Hold d304 (weekday, no PTO path); watch d304–d305 fleet, book Friday d308 if confirmed.
+- S02 d304: Hold d305 (Tue, no bookable boats). Watch d304–d305 fleet. Deploy Friday d308 overnight or 1.5-day if gate confirmed, no PTO needed (weekend fish).
+- S02 d305: Hold d306. Gate marginal; watch d304–d305 fleet confirmation. Deploy Friday d308 overnight if signal sustained.
+- S02 d306: Hold Thu d307 (TWILIGHT waste). Watch d304–d307 fleet roll for gate rebound. Target Friday d308 eve long-trip if signal sustained (weekend fish, no PTO).
+- S02 d307: Held d308 (gate dead d304–d307). Watch d308–d309 fleet; redeploy Friday d315 if sustained signal returns.
+- S02 d308: Gate dead d304–d307. No long-trip boats d309. Hold dry; watch d309–d310 fleet for rebound before d315 decision.
+- S02 d309: Hold dry. Gate dead d304–d310; no rebound signal. Watch d310 results tonight before d315 (Friday) overnight decision window closes (need PTO commit d316 by d309).
+- S02 d310: Gate confirmed dead d304–d310 (d310 AM 0.0). Hold dry; await rebound signal.
+- S02 d311: Gate dead d304–d310. Hold Tuesday dry. Watch d311–d312 fleet for rebound before Friday window.
+- S02 d312: Gate dead d304–d312 (9 days). Hold dry Wed d313. Watch d312 results and d313 fleet for rebound signal before Friday d315 window. No PTO commit until gate confirms.
+- S02 d313: Gate dead d304–d313 (9 days). Hold dry. Await d314–d315 fleet confirmation before Friday window.
+- S02 d314: Gate dead d304–d314 (11 days). No long boats Fri d315; hold dry. Watch d315 results for rebound signal before next PTO window.
+- S02 d315: Gate dead d304–d315. No long boats d316. Hold dry; watch d316–d320 fleet for rebound signal before next Friday window.
+- S02 d316: Gate dead d304–d315. No long boats d317. Watch d318–d320 overnight/DAY_1_5 fleet; reboot Friday d322 if signal holds.
+- S02 d317: Gate dead d304–d316. Hold d318 dry; watch fleet d318–d320 for reboot signal before Friday window closes.
+- S02 d318: Gate dead d304–d316. Hold d319 dry; watch d318–d321 fleet for d322 Friday reboot signal.
+- S02 d319: Gate dead d304–d316. Hold dry Wed; watch fleet d320–d322 for Friday d322 reboot signal.
+- S02 d320: Gate dead d304–d320. Hold dry Thu d321. Watch d321–d324 fleet for reboot signal before next PTO commit window (14d ahead opens Sat d323 for d337+ trips).
+- S02 d321: S2 d321: Gate holds dead d304–d321 (18 days). No reboot signal; stay dry. Season 3 real money starts fresh.
+- S02 d322: Gate dead d304–d321 (18d). No reboot signal Saturday d323; stay dry, monitor fleet.
+- S02 d323: Gate holds d304–d323 (20d). Stay dry Sun d324. Monitor fleet d324–d330 for reboot; commit PTO only if sustained >1.5 yt/angler signal.
+- S02 d324: Gate holds 20d. D325 dry; monitor fleet d325–d330 for reboot before PTO window closes Tue d327.
+- S02 d325: Gate dead 20d; stay dry Tue d326. Monitor fleet d326–d330 for reboot signal before next PTO commit window.
+- S02 d326: Gate holds d304–d326 (23d). Stay dry Wed d327; monitor d327–d330 fleet before PTO window opens tomorrow for d340+ Friday trips.
+- S02 d327: Gate holds 23d (d304–d326); fleet last 7d zero. Stay dry Thu d328. Monitor d328–d330 for Phase 1 reboot signal before Sat d329 PTO window (d340+ long trips).
+- S02 d328: Gate dead 24d. Stay dry Fri d329; monitor d329–d330 fleet for reboot signal. No budget committed yet.
+- S02 d329: Gate holds d304–d329 (26d). Fleet zero d322–d329. Fishing report zero. Monitor d330 action for phase 1 reboot trigger; hold position.
+- S02 d330: Gate 27d dead (d304–d330), fleet zero d323–d330. Stay dry Sun d331; monitor d331–d335 for Phase 1 reboot before Fri d335 PTO window.
+- S02 d331: Gate dead d304–d330 (27d), fleet zero d323–d330 (8d). Hold dry Mon d332; monitor d331–d335 for Phase 1 reboot before Fri d335 PTO window.
+- S02 d332: Gate 27d dead; d332 zero. Hold dry Tue d333; monitor d333–d335 for Phase 1 trigger.
+- S02 d333: Gate 27d dead. Hold dry Wed d334; monitor d334–d335 fleet for Phase 1 reboot trigger before Fri d335 PTO window.
+- S02 d334: Gate holds d304–d335 (32d dead). Fleet zero d323–d335 (13d). Skip TWILIGHT lottery. Hold dry Thu d335; monitor d336–d340 for Phase 1 reboot trigger.
+- S06 d091: Stay dry Thu d92—nothing bookable. Book Fri d93 weekend three-quarter tomorrow at booking time. Last chance window is weekend-only now (d93, d100, d101, etc). Signal still alive (d91 3q 2.72).
+- S06 d092: Deploy Prowler overnight Fri–Sat d093–d094. Signal still alive; hold weekend windows d100–d101 for sustained peak.
+- S06 d093: D093 deployed: Prowler OVN d093–d094 (fished d094). Signal 2.72 still alive. Hold d100–d101 if gate holds; reassess d095 return.
+- S06 d094: Passed Sun d095 three-quarter. Holding for Fri d100 OVERNIGHT window; signal still live (2.72 d091, 103 yt San Diego d094).
+- S06 d095: Gate holds. Skip dead Mon d96; position for Fri d100 overnight window.
+- S06 d096: Gate holds d096. Skip dead Tue d97; position Fri d100 weekend window if signal sustains.
+- S06 d097: Skip dead Wed d098. Hold Fri d100 weekend overnight window; gate still live (d091 2.72 sq, d094 Prowler 1.17). Burn one long trip if signal holds.
+- S06 d098: Skip dead Thu d099. Hold Fri d100 OVERNIGHT: Legend 13 yt d094, gate signal 2.72 alive. Book evening if counts hold strong."
+- S06 d099: Deploy gate signal Fri d100 Prowler overnight (fishes d101). Season crunch mode; reassess window after this trip.
+- S06 d100: Deployed Prowler overnight d101 (Sat). Gate signal 2.72 live. Skip Legend d102 (Sun)—hold budget for d107 Friday window or next peak. Reassess after this trip.
+- S06 d101: Skip d102 Sunday (hold capital for d107 Fri window). Gate signal live; d101 three-quarter 1.676 confirms zone hot. Endgame: spend on long trips only.
+- S06 d102: Skip Monday void. Hold for Friday d107 long window (overnight/1.5-day, no PTO cost). Zone still hot; wait for boats.
+- S06 d103: Skip dead Tue d104. Hold cash and PTO for Fri d107 weekend window (overnight/1.5-day, no advance commit needed). Zone still warm but fleet weak today.
+- S06 d104: Skip Wed dead. Hold Fri d107 overnight/1.5-day window—zone hot, zero PTO cost, endgame budget runway.
+- S06 d105: Skip Thu d106 dead—no PTO, can't book. Endgame loss: waited for signal, didn't position with PTO early enough. Season over.
+- S06 d106: Invicta d107-d109 endgame play. Last hot window before season close. 2.571 signal real.
+- S06 d107: Invicta d108-d110 final deployment. Zone held. Season over after this—spend and fish or sit.
+- S06 d108: Invicta rejection cleared path. Mission Belle hot on d108 data—fish the zone while live. Season wind-down; deploy capital on proven boats.
+- S06 d109: Stay home d110. Zone warm (three-quarter 0.7–1.7 yt/angler); hold cash/PTO for Friday d114 no-PTO window on proven boats (Mission Belle, San Diego).
+- S06 d110: Hold for Friday d114 no-PTO window. Zone warm 1.1 yt/angler yesterday; proven boats ready.
+- S06 d111: Skip Wed. Zone hot 3.463 yt/angler yesterday. Hold $500 for Fri d114 no-PTO overnight/1.5-day on Mission Belle or San Diego (1.4+ recent).
+- S06 d112: Stay home Thu d113. Holding for Fri d114 no-PTO overnight/1.5-day on Mission Belle or Invicta. Zone warm, $500 ready.
+- S06 d113: Overnight Legend d114-d115. Final capital deploy. $400 spend, $100 hold. Season close.
+- S06 d114: OVERNIGHT Legend d115 confirmed. Final capital into overnight structure. Season wind-down.
+- S06 d115: Season cooling d114–d115, staying home d116. Hold $100 and 10 PTO for d121–d123 run if zone rebounds.
+- S06 d116: Season cooling, zone fading. Stay home d117 (Monday, no PTO). Hold $100 and capital for d121–d123 weekend if signal rebounds.
+- S06 d117: Zone still warm d117 (2.144 three-quarter). Hold for Friday d121+ bookable window; commit PTO on d124 if signal holds.
+- S06 d118: Capital spent on long trips (d094, d101, d108, d115). Holding $100 residual. Season winding; reassess Friday d121.
+- S06 d119: Zone cooling post-peak d118. $100 left, capital spent on d094/d101/d108/d115. Hold for d121+ rebound if it happens; likely done for season.
+- S06 d120: Out of capital, out of bookable boats. Season likely over. Holding $100 residual and 10 PTO unused—no recovery path visible.
+- S06 d121: Season 6 closed. Five trips total (0.11, 1.12, 2.81, 0.31, 0.61). Missed d85 (11.21) and d107 (9.27) peaks—committed PTO 14 days too late. Season 7: PTO at gate signal open, not late.
+- S06 d122: Zone cooling. Hold for next gate signal (d130+); d123 half-days trap.
+- S06 d123: Zone cooling; hold $100 and 10 PTO for next gate signal (d130+). No PTO committed.
+- S06 d124: Hold pattern; no gate signal yet. Stay home Tuesday, preserve $100 and 10 PTO for d130+ break if water rebounds.
+- S06 d125: Stay home d126. Zone cooling, no gate signal yet. Hold for d130+ rebound if it comes.
+- S06 d126: Hold. Zone cooling, no gate signal. Wait for d130+ rebound signal before committing PTO.
+- S06 d127: Hold d128. Zone cooling, no gate. Save $100 and 10 PTO for d130+ break. TWILIGHT trap.
+- S06 d128: Hold d129. Zone still cooling, zero catch report. Watching d130+ for gate signal before committing capital and PTO.
+- S06 d129: d129 gate opens (1.054 three_quarter) but moderate signal. Hold for d142+ Friday window; watch d130-d141 confirmation. No half-day lottery.
+- S06 d130: Gate opening (d130 64 yt), water warming to 65.8°F. Hold for d135 Friday or d142+ overnight/1.5-day no-PTO window—never waste PTO on weekday when Friday is 5 days out.
+- S06 d131: Water cool, no gate confirmed. Hold d135+ for Friday overnight/1.5-day if break arrives; preserve $100 and 10 PTO.
+- S06 d132: Stay home Wed d133; water cooling (63.7°F), no gate. Hold for Fri d135 no-PTO window or confirm gate before committing.
+- S06 d133: Gate signal d133: 3.439 yt/angler. Hold for d149 Friday overnight/1.5-day no-PTO play if sustained; no weekday PTO pre-committed for d134.
+- S06 d134: d134 hold. Gate signal real but d135 trip-frame broken (budget/PTO locked for d149 Friday no-PTO play). TWILIGHT trap rejected; $100 reserved.
+- S06 d135: Gate faded d133→d134. Hold $100 and 9 PTO for d142+ Friday or gate restart. Half-day trap rejected—no long trip, no Friday, no signal.
+- S06 d136: d136 three_quarter 0.846 yt/angler (gate signal weak/inconsistent). Monitor d137–d141 before committing PTO for d142+ weekend. $100 reserved for d149 Friday overnight/1.5-day play.
+- S06 d137: Weak Monday, zero boats, gate fading d136→d137. Hold $100 and 9 PTO for d149 Friday overnight/DAY_1_5 no-PTO play.
+- S06 d138: Gate fading d136→138 (0.824 yt/angler). Water cool (63°F). Hold $100/9 PTO for d149 Friday overnight/DAY_1_5 no-PTO play or confirm hot signal before weekday commit.
+- S06 d139: Gate fading (1.321 d139). Hold d149 Friday no-PTO overnight/DAY_1_5; $100 and 9 PTO reserved.
+- S06 d140: Hold d149 Friday no-PTO overnight/DAY_1_5 play. Gate fading d136–d140. Water cooling. Thursday d141 not bookable without pre-committed PTO; stay home.
+- S06 d141: D142 hold. Stay cash-heavy for d149 Friday overnight/DAY_1_5 no-PTO play. Half-day options require PTO prep I didn't do.
+- S06 d142: Half-day lottery rejected. $100 and 9 PTO locked for d149 Friday overnight/1.5-day no-PTO play. Discipline.
+- S06 d143: Half-day dead (0.000–0.030 yt/angler). $100/9 PTO reserved for d149 Friday overnight/1.5-day no-PTO play. No hot signal to flip into weekday.
+- S06 d144: Skip d145 half-day lottery. Hold $100 and 9 PTO for d149 Friday overnight/1.5-day run. Discipline.
+- S06 d145: d146 Tuesday: no bookable trips without pre-committed PTO. Stay home, hold $100 and 9 PTO for d149 Friday overnight/DAY_1_5 no-PTO window. Discipline.
+- S06 d146: Budget crisis: $100 left, can't afford Friday long trip ($400+). No bookable options tomorrow anyway. Hold and reassess Friday evening.
+- S06 d147: Budget crisis: $100 can't fund Friday long trip despite PTO committed. Stay home, reassess whether Friday play is real or sit discipline until next season.
+- S06 d148: Half-day lottery rejected. Hold $100 and 9 PTO discipline. Season fading; no signal overrides.
+- S06 d149: Season budget blown mid-season. Can't play my game at $100. Half-day lottery discipline holds. Season's end.
+- S06 d150: Season done. Missed D60–D86 gate peak entirely (0 fish). Trap boat picks wasted mid-peak window. S7: commit PTO at first signal, target multi_day D70–D85, pick top-tier boats (Pacific Voyager 3.41, Mission Belle 1.64).
+- S06 d151: Season 6 over. Budget spent. D60–D86 gate missed (15–20 fish gone). S7: commit PTO at first signal D70–D85, book Pacific Voyager/Mission Belle DAY_1_5.
+- S06 d152: d152: Season near end. No bookable d153 plays. Hold $100 and 9 PTO for S7 gate opening (D60–D75). Prepare signal watch and Vagabond/Penetrator prioritization.
+- S06 d153: S6 final hold. $100 and 9 PTO reserved for S7 gate at D60+. Season 7 target: commit PTO early, book Vagabond/Penetrator DAY_1_5 on first 2.0+ signal.
+- S06 d154: S6 d155: No bookable play tomorrow (all weekday trips blocked by PTO timing). Season discipline holds. $100 and 9 PTO locked for S7 gate opening D60+.
+- S06 d155: S06 d155: Final hold locked. $100 and 9 PTO reserved for S7 gate d60+. Season 6 over.
+- S06 d156: S6 d156: Half-day lottery rejected. $100 and 9 PTO locked for S7 gate opening d60+. Discipline holds.
+- S06 d157: S6 d158: No play. Budget locked for S7 d60+ gate. Discipline holds.
+- S06 d158: Season 6 close. Holding for S7 gate. $100 and 9 PTO locked for D60+ opening signal—first 2.0+ day I book Vagabond/Penetrator DAY_1_5.
+- S06 d159: S6 d160: No play. Capital and PTO reserved for S7 gate opening d60+. Discipline holds.
+- S06 d160: S6 d161: Hold. Season end. $100 and 9 PTO locked for S7 gate d60+—first 2.0+ day I book Vagabond/Penetrator DAY_1_5.
+- S06 d161: S6 closed. $100 and 9 PTO locked for S7 D60+ gate—first 2.0+ day I book Vagabond or Penetrator DAY_1_5.
+- S06 d162: S6 d162: Season discipline holds. $100 and 9 PTO locked for S7 d60+ gate.
+- S06 d163: S6 d164: Half-day lottery rejected. $100 and 9 PTO locked for S7 gate opening d60+. Discipline holds.
+- S06 d164: S6 d165: Half-day lottery rejected. $100 and 9 PTO locked for S7 gate d60+. Discipline holds.
+- S06 d165: S6 d166: Hold. Final week. All capital and PTO locked for S7 d60+ gate opening—first 2.0+ day I deploy Vagabond or Penetrator DAY_1_5.
+- S06 d166: S6 final hold. Capital and 9 PTO locked for S7 gate opening d60+.
+- S06 d167: S6 closing. Capital and PTO locked for S7 d60+ gate opening—first 2.0+ day I book Vagabond or Penetrator DAY_1_5.
+- S06 d168: S6 d169: Season discipline holds. $100 and 9 PTO preserved for S7 d60+ gate opening—first 2.0+ day I deploy Vagabond or Penetrator DAY_1_5.
+- S06 d169: S6 d170 final: discipline holds. $100 + 9 PTO locked for S7 gate opening d60+. No half-day lottery.
+- S06 d170: S6 d171 final: discipline holds. $100 + 9 PTO locked for S7 d60+ gate opening. No lottery on closing weekend.
+- S06 d171: S6 d171→d172: Stay locked. Half-day lottery rejected. $100 + 9 PTO preserved for S7 d60+ gate—first 2.0+ signal gets deployed on Vagabond or Penetrator DAY_1_5.
+- S06 d172: S6 d173 final. Stay locked. $100 + 9 PTO preserved for S7 gate opening d60+—first 2.0+ signal deploys Vagabond or Penetrator DAY_1_5. No half-day lottery on the close.
+- S06 d173: S6 d173 final hold. Locked $100 + 9 PTO for S7 d60+ gate opening—first 2.0+ signal deploys Vagabond or Penetrator DAY_1_5. No half-day lottery on the close.
+- S06 d174: S6 d175 hold confirmed. $100 + 9 PTO locked for S7 d60+ gate. First 2.0+ signal deploys Vagabond or Penetrator DAY_1_5.
+- S06 d175: S6 d176 final: stay locked. $100 + 9 PTO preserved for S7 d60+ gate opening. No twilight lottery on the close.
+- S06 d176: S6 d177 final hold. $100 + 9 PTO pristine for S7 d60+ gate opening—ready to deploy Vagabond or Penetrator DAY_1_5 on first 2.0+ signal.
+- S06 d177: S6 d178: hold locked. $100 + 9 PTO pristine for S7 d60+ gate opening—Vagabond DAY_1_5 or Penetrator on first 2.0+ signal.
+- S06 d178: Closing weekend hold locked. $100 + 9 PTO pristine for S7 d60 gate. First 2.0+ signal deploys Vagabond or Penetrator DAY_1_5.
+- S06 d179: S6 d179 final hold. $100 + 9 PTO pristine for S7 d60 gate opening. First 2.0+ signal deploys Vagabond or Penetrator DAY_1_5.
+- S06 d180: S6 d180 final. Hold locked. $100 + 9 PTO pristine for S7 d60+ gate opening. Ready.
+- S06 d181: S6 d181 final hold. $100 + 9 PTO pristine for S7 d60 gate opening. Execute ruthlessly when 2.0+ signal fires.
+- S06 d182: S6 d182 final hold. $100 + 9 PTO locked for S7 d60 gate. Do not break for end-of-season noise.
+- S06 d183: S6 d183 final hold. $100 + 9 PTO locked for S7 d60 gate. Do not break for closing week noise—endgame discipline preserved.
+- S06 d184: Final S6 hold. $100 + 9 PTO locked for S7 d60 gate. No half-day noise.
+- S06 d185: S6 d185 final hold. $100 + 9 PTO locked and ready for S7 d60 gate. No noise.
+- S06 d186: S6 d186: Season end. Hold. S7 d60+ gate opening—execute ruthlessly at first 2.0+ signal with Penetrator/Vagabond DAY_1_5.
+- S06 d187: S6 d188 pass. Hold $100 + 9 PTO locked for S7 gate. No capital for long trips, Twilight is lottery noise.
+- S06 d188: S6 d188 final. Heat confirmed (3.1+ THREE_QUARTER yesterday), but it's Wed weekday at season close. Hold $100 + 9 PTO pristine for S7 d60 gate. Discipline intact.
+- S06 d189: S6 d189 final hold. Season over, gate closed. $100 + 9 PTO locked for S7 d60+ first 2.0+ signal—execute ruthlessly then.
+- S06 d190: S6 d190 final hold. $100 + 9 PTO locked for S7 d60+ gate. Season 7 ready.
+- S06 d191: S6 d192 final hold. $100 + 9 PTO locked. No capital for noise; gate discipline intact.
+- S06 d192: S06 d193 hold. No half-day noise despite El Gato Dos heat. Discipline over lottery. $100+9 PTO locked for next gate signal.
+- S06 d193: Season 6 close. Hold $100 + 9 PTO for S7 d60 gate. No PTO commits yet—wait for first 2.0+ signal at d60–d65, then execute ruthlessly.
+- S06 d194: S6 d194 final hold. $100+9 PTO locked for S7 d60 gate signal. Season 6 over; discipline intact.
+- S06 d195: S6 d195 final hold. $100+9 PTO intact for S7 d60+ gate. Season 6 over.
+- S06 d196: S06 d196 hold. $100+9 PTO locked for S7 d60+ gate opening. No bookable long boats; TWILIGHT is noise.
+- S06 d197: Season 6 closes d198. $100 + 9 PTO locked, gate discipline intact for S7 d60–d65 entry.
+- S06 d198: S06 d199 final hold. $100+9 PTO locked for S7 d60 gate. Season 6 ends; discipline absolute.
+- S06 d199: S06 d199 final hold. $100+9 PTO locked for S7 d60 gate. Season 6 closes.
+- S06 d200: S06 d200 hold. TWILIGHT noise. $100+9 PTO locked for S7 d60 gate opening.
+- S06 d201: S6 d202 final hold. Season ends; discipline intact for S7 d60+ gate opening.
+- S06 d202: S06 d202 hold. Gate discipline locked for S7 d60+. $100+9 PTO untouched, ready.
+- S06 d203: S06 d203 final hold. $100+9 PTO locked for S7 d60 gate opening.
+- S06 d204: S06 d205 final hold. Season ends. $100+9 PTO locked for S7 d60+ gate opening.
+- S06 d205: S06 d205 final hold. Season 6 closes; discipline locked for S7 d60+ gate opening.
+- S06 d206: S06 d207 hold. Gate discipline S7 d60. $100+9 PTO untouched.
+- S06 d207: S06 d208 hold. Gate discipline locked for S7 d60+. $100+9 PTO untouched, ready.
+- S06 d208: S06 d208 final hold. Season 6 ends; discipline locked for S7 d60+ gate opening. $100+9 PTO untouched, ready to deploy.
+- S06 d209: S06 d209 final hold. Season 6 closes; discipline locked for S7 d60+ gate opening. $100+9 PTO untouched, ready.
+- S06 d210: S06 d210 hold. PTO window locked for d212 trips (missed d198 deadline). Twilight trap avoided. $100+9 PTO intact for S7 d60+ gate opening.
+- S06 d211: S06 d212 final hold. Gate discipline locked for S7 d60+. $100+9 PTO intact, ready to deploy on first 2.0+ signal.
+- S06 d212: S06 d212 final hold. $100+9 PTO locked for S7 d60+ gate opening on first 2.0+ signal. Half-days are not my game.
+- S06 d213: S06 d214 hold. Discipline locked for S7 d60+ gate opening. $100 + 9 PTO untouched, ready to deploy on first 2.0+ signal Friday entry.
+- S06 d214: Final S6 hold. Gate watch begins for S7 d60+ first 2.0+ signal. $100 + 9 PTO locked, ready to deploy.
+- S06 d215: S06 d215 final hold. Season closes; gate watch locked for S7 d60+ first 2.0+ signal. $100+9 PTO intact and ready.
+- S06 d216: S06 d216 final hold. $100 + 9 PTO locked and ready for S7 d60+ gate opening first 2.0+ signal.
+- S06 d217: S06 d217 final hold. Season 6 closes; gate watch locked for S7 d60+ first 2.0+ signal. $100 + 9 PTO intact and ready.
+- S06 d218: Season 6 closes d219. Gate watch locked for S7 D60+ first 2.0+ signal. $100 + 9 PTO intact and ready.
+- S06 d219: S06 d219 final hold. $100 + 9 PTO locked for S7 d60+ gate opening. Season 6 closes; gate watch begins.
+- S06 d220: S06 final hold. Season closes d221. Gate watch locked for S7 d60+ first 2.0+ signal. $100 + 9 PTO intact and ready.
+- S06 d221: S06 final hold. $100 + 9 PTO locked for S7 gate opening (d60+) first 2.0+ signal. Season discipline intact.
+- S06 d222: End-of-S6 hold. $100 + 9 PTO locked for S7 gate (d60+ first 2.0+ signal). Stay disciplined.
+- S06 d223: S06 d223 final hold. Season closes. Ready for S7 d60+ gate opening first 2.0+ signal.
+- S06 d224: Season 6 final hold. $100 + 9 PTO locked for S7 d60+ first 2.0+ signal gate opening. Ready to execute.
+- S06 d225: S06 d225 final hold. Season 6 closes. $100 + 9 PTO locked for S7 d60+ gate (first 2.0+ signal). Ready to execute Phase 1.
+- S06 d226: Season 6 final. Hold $100 + 9 PTO for S7 d60+ gate (first 2.0+ signal). Discipline intact.
+- S06 d227: S06 d228 final hold. $100 + 9 PTO locked for S7 d60+ gate (first 2.0+ signal). Season 6 discipline intact—no half-day lottery, no budget bleed. Ready to execute Phase 1.
+- S06 d228: S06 final hold. $100 + 9 PTO locked for S7 Phase 1 gate (d60+, first 2.0+ signal). No half-day lottery. Season discipline intact.
+- S06 d229: S06 d229 final hold. $100 + 9 PTO locked for S7 d60+ gate (first 2.0+ signal). Season 6 discipline intact—no lottery, no Tuesday bleed.
+- S06 d230: S06 final close. Hold $100 + 9 PTO locked for S7 d60+ gate (first 2.0+ signal). Never miss the window again.
+- S06 d231: S06 d231 final hold. Season 6 closes. $100 + 9 PTO locked for S7 d60+ gate (first 2.0+ signal). Ready to execute Phase 1.
+- S06 d232: S06 d233 final hold. $100 + 9 PTO locked for S7 d60+ gate (first 2.0+ signal). Ready to execute.
+- S06 d233: Season 6 closes d233–d235. Hold $100 + 9 PTO for S7 d60+ Phase 1 gate (first 2.0+ signal). No half-day lottery.
+- S06 d234: S06 final. $100 + 9 PTO locked for S7 d60+ Phase 1 gate (first 2.0+ signal). No half-day lottery. Discipline holds.
+- S06 d235: Season 6 closes. S7 gate watch begins—hold $100, 9 PTO until first 2.0+ signal day d60–d75 (no Monday lottery).
+- S06 d236: S06 d236 end-of-season hold. $100 + 9 PTO preserved for S7 Phase 1 gate. Discipline intact.
+- S06 d237: S06 d237 end hold. $100 + 9 PTO preserved. S7 gate watch live (d1+). No Wednesday twilight lottery.
+- S06 d238: S6 d238 end hold. $100, 9 PTO locked. S7 gate watch imminent (d60+).
+- S06 d239: S06 d240: Out of powder. Hold $100 + 9 PTO for Phase 1 gate (first 2.0+ signal). No half-day lottery.
+- S06 d240: Saturday pass. No half-day lottery. Hold $100 + 9 PTO for gate signal (2.0+ fleet yt/angler watch). Phase 1 deploy when it comes.
+- S06 d241: S06 d241 end hold. $100 + 9 PTO locked. Gate watch active—no half-day lottery. First 2.0+ signal triggers Phase 1 Friday entry.
+- S06 d242: Stay home d243. Gate watch active, $100 + 9 PTO locked. No half-day lottery.
+- S06 d243: D243 hold, endgame. No forward PTO, gate window missed. Lesson: commit to d55–d70 *in* Phase 1, not d149.
+- S06 d244: S06 d244 endgame hold. Gate watch live for S7 Phase 1 (d55+). $100 + 9 PTO locked. Discipline.
+- S06 d245: S6 d246 hold. $100 + 9 PTO locked. Gate watch live for S7 Phase 1 (d55+). Deploy on first 2.0+ signal, Friday entry, no PTO cost.
+- S06 d246: S06 d246 end hold. $100 + 9 PTO locked. Gate watch Phase 1 S7 d55+ live. No half-day lottery.
+- S06 d247: S6 d247 hold. $100 + 9 PTO locked for S7 Phase 1 gate (d55+). No half-day lottery. Discipline wins or dies by this choice.
+- S06 d248: S06 d248 pass. Gate watch active for S7 d55+ Phase 1. $100 + 9 PTO locked. No noise.
+- S06 d249: S06 d249 hold. Gate watch Phase 1 d55+ live. No half-day lottery. Discipline locked.
+- S06 d250: S06 d250 endgame hold. $100 + 9 PTO reserved for S7 d55+ Phase 1 gate. Discipline locked.
+- S06 d251: S06 d251 endgame hold. Gate watch Phase 1 d55+ live. $100 + 9 PTO locked. Discipline.
+- S06 d252: S06 d252 endgame. $100 + 9 PTO locked for S7 Phase 1 gate (d55+). No lottery. Discipline holds or this season dies by the same mistakes.
+- S06 d253: S06 d254 pass. Hold discipline. $100 + 9 PTO locked for S7 Phase 1 gate. No lottery.
+- S06 d254: S06 d255 pass. Gate watch Phase 1 d55+ live. $100 + 9 PTO locked. Discipline.
+- S06 d255: S06 d255 endgame discipline lock. $100 + 9 PTO reserved for S7 Phase 1 gate. No half-day lottery—season 7 execution begins at d55.
+- S06 d256: S06 d257 pass. Gate watch Phase 1 d55+ (S7) live. $100 + 9 PTO locked. Season 6 coast.
+- S06 d257: S06 d257 pass. Hold $100 + 9 PTO for S7 Phase 1 gate. Discipline locked.
+- S06 d258: S06 d258 endgame hold locked. $100 + 9 PTO reserved for S7 Phase 1 gate (d55+). Zero tolerance for mid-season bleed.
+- S06 d259: S06 d259 endgame hold locked. $100 + 9 PTO reserved for S7 Phase 1 gate. Watch begins at d55+.
+- S06 d260: S06 d260 pass. $100 + 9 PTO locked for S7 Phase 1 gate. No half-day lottery.
+- S06 d261: Season 6 final hold. No lottery half-days. S7 gate watch d55+.
+- S06 d262: Season 6 final hold. $100/$100 + 9 PTO locked for S7 d55+ gate watch. Half-day lottery pass—discipline holds.
+- S06 d263: S06 d263 pass. Hold $100 + 9 PTO locked for S7 d55+ gate watch. Weekday no-book rule.
+- S06 d264: S06 d264 pass. Weekday no PTO, no bookable long trips. $100/$100 + 9 PTO locked for S7 d55+ gate. Discipline holds.
+- S06 d265: S06 d265 pass. Season 6 final hold locked. $100/$100 + 9 PTO reserved for S7 d55+ gate watch. No mid-week half-day lottery.
+- S06 d266: S06 d266 pass. Season 6 endgame locked. $100/$100 + 9 PTO held for S7 d55+ gate watch. No weekday lottery.
+- S06 d267: S06 d267 pass. Endgame hold locked—$100/$100 + 9 PTO reserved for S7 gate. TWILIGHT not bookable, others over budget or require uncommitted weekday PTO.
+- S06 d268: S06 d269 pass. Season 6 endgame hold locked. $100 + 9 PTO reserved for S7 d55+ gate watch. No half-day lottery.
+- S06 d269: S06 d269 hold. Gate watch S7 d55+ with full $100 intact. No half-day lottery.
+- S06 d270: S06 d270 pass. Endgame hold solid—$100/$100 + 9 PTO locked for S7 gate. No Monday bookable options.
+- S06 d271: S06 d272 pass. Weekday no-book rule holds. $100/$100 + 9 PTO locked for S7 d55+ gate. Discipline intact.
+- S06 d272: S06 d272 pass. Season 6 endgame hold locked—$100/$100 + 9 PTO reserved for S7 d55+ gate watch. No weekday no-PTO options, no lottery.
+- S06 d273: S06 d274 pass. Season 6 endgame hold locked—$100/$100 + 9 PTO reserved for S7 d55+ gate watch. No half-day or twilight lottery.
+- S06 d274: S06 d275 pass. Season 6 endgame hold locked—$100/$100 + 9 PTO reserved for S7 d55+ gate watch. No bookable options (TWILIGHT no boats, weekday PTO uncommitted). Discipline holds.
+- S06 d275: S06 d276 pass. Season 6 endgame hold locked—$100/$100 + 9 PTO reserved for S7 d55+ gate watch. Discipline holds.
+- S06 d276: S06 d277 pass. Endgame hold locked—$100/$100 + 9 PTO reserved for S7 d55+ gate. No half-day lottery.
+- S06 d277: S06 d278 pass. Endgame hold: $100/$100 + 9 PTO locked for S7 d55+ gate watch. No bookable long trips. Discipline holds.
+- S06 d278: S06 d278 pass. Endgame hold solid—$100/$100 + 9 PTO locked for S7 d55+ gate. TWILIGHT 0.000 is lottery; no long boats bookable. Discipline into S7.
+- S06 d279: S06 d279: endgame hold. $100 + 9 PTO locked for S7 d55+ gate. Season 6 closes underfished but disciplined; Season 7 strategy.py deployed and ready.
+- S06 d280: S06 d281 pass. Endgame hold solid—$100 + 9 PTO locked for S7 d55+ gate. TWILIGHT lottery only, no long boats. Season 6 closes d281.
+- S06 d281: Season 6 closes underfished. Endgame hold: $100 + 9 PTO locked for S7 d55+ gate. No bookable options d282; season ends d281.
+- S06 d282: Season 6 closes d283 underfished but disciplined. $100 + 9 PTO locked for S7 gate phase 1. No half-day lottery on final day.
+- S06 d283: S6 endgame final hold. Half-day lottery rejected. $100 + 9 PTO reserved for S7 gate signal. Discipline to the end.
+- S06 d284: Half-day lottery rejected. $100 + 9 PTO locked for S7 d55+ gate. Discipline to the end.
+- S06 d285: S06 d286 pass. Hold $100/$100 + 9 PTO for S7 d55+ gate. No long boats bookable; TWILIGHT lottery rejected. Discipline into S7.
+- S06 d286: S06 d287 pass. Endgame hold: $100 + 9 PTO locked for S7 d55+ gate. TWILIGHT lottery 0.000 rejected. Season 6 closes.
+- S06 d287: S6 endgame final hold. $100 + 9 PTO locked for S7 d55+ gate signal. Strategy.py ready. No half-day lottery, no long boats bookable. Season 7 execution begins.
+- S06 d288: Season 6 endgame final hold. Reject TWILIGHT lottery. $100 + 9 PTO locked for S7 gate phase 1 trigger.
+- S06 d289: S06 d289 final hold. Half-day lottery rejected. $100 + 9 PTO locked for S7 gate phase 1. Discipline to the end.
+- S06 d290: S06 d290 final hold endgame. Half-day lottery rejected. $100 + 9 PTO locked for S7 gate signal execution.
+- S06 d291: S06 d291 endgame close. Reject TWILIGHT lottery 0.000. $100 + 9 PTO locked for S7 gate phase 1 d55–d75 signal trigger. Strategy.py live.
+- S06 d292: S6 endgame final. $100 + 9 PTO locked for S7 d55–d75 gate phase. No bookable, no lottery.
+- S06 d293: S06 d294 pass. TWILIGHT 0.000 rejected. Hold $100 + 9 PTO for S7 gate signal execution (d55+). Season 6 endgame close.
+- S06 d294: S06 d295 pass. Endgame hold: $100 + 9 PTO locked for S7 gate phase. No bookable, no lottery. Season 7 strategy.py live.
+- S06 d295: S06 d296 final hold endgame close. $100 + 9 PTO locked for S7 d55+ gate phase 1 signal execution.
+- S06 d296: S06 d297 endgame final. Reject half-day lottery; hold $100 + 9 PTO for S7 gate d55–d75 phase. Strategy.py deployed. Season 6 complete.
+- S06 d297: S06 d298 final pass. Half-day lottery rejected. $100 + 9 PTO locked for S7 d55–d75 gate phase execution. Season 6 hold to the finish line.
+- S06 d298: S06 d298 final hold. All bookable long trips locked (14-day advance PTO rule). Season 6 endgame close. $100 + 9 PTO reserved for S7 gate d55+ execution.
+- S06 d299: S06 d299 final endgame. TWILIGHT lottery rejected. Hold $100 + 9 PTO for S7 d55+ gate phase execution.
+- S06 d300: S06 d301 final pass. No bookable long trips, TWILIGHT zero boats/yield. Hold $100 + 9 PTO for S7 gate d55+.
+- S06 d301: S06 d301 final: TWILIGHT zero yield rejected. $100 + 9 PTO locked for S7 gate d55+ Phase 1 trigger.
+- S06 d302: S6 endgame hold. Season 7 strategy.py live; waiting for D55 gate phase signal. $100 + 9 PTO locked for long-trip execution.
+- S06 d303: S06 d303 final hold: no bookable long trips, half-day lottery rejected. $100 + 9 PTO locked for S7 gate phase execution.
+- S06 d304: Season 6 final hold. $100 + 9 PTO locked for S7 gate phase (D55+). Reject half-day lottery.
+- S06 d305: S06 d305 endgame hold. No bookable long trips, TWILIGHT zero boats. $100 + 9 PTO locked for S7 gate phase.
+- S06 d306: S06 d307 final pass. TWILIGHT lottery rejected. $100 + 9 PTO locked for S7 gate phase (d55+).
+- S06 d307: S06 d307 final hold. TWILIGHT lottery dead (0.000 yt/30d). Zero long-trip boats scheduled. $100 + 9 PTO locked for S7 execution.
+- S06 d308: S06 d309 final pass. Half-day dead (TWILIGHT 0 boats, 0 yield). Hold $100 + 9 PTO for S7 d55+ gate phase. Season 6 over.
+- S06 d309: S06 d309 final hold. Season 6 over. $100 + 9 PTO locked for S7 d55+ peak execution. Half-day lottery rejected.
+- S06 d310: S06 d310 final hold. Season 6 over. $100 + 9 PTO locked for S7 long-trip execution. Half-day lottery rejected.
+- S06 d311: S06 d312 final pass. Season 6 close-out. Hold $100 + 9 PTO for S7 gate phase (d55+).
+- S06 d312: S06 d313 all pass. No bookable boats. Hold $100 + 9 PTO for S7 gate phase execution.
+- S06 d313: S06 d314 final pass. Season 6 close. Hold $100 + 9 PTO for S7 execution d55+.
+- S06 d314: S06 d314 final hold. Season 6 close. Half-day lottery rejected. $100 + 9 PTO locked for S7 d55+ execution.
+- S06 d315: S06 d316 pass. $100 + 9 PTO locked for S7 d55+ peak gate. Season 6 closed.
+- S06 d316: S06 d317: Final pass. $100 + 9 PTO locked for S7 d55+ peak gate execution. Season 6 over.
+- S06 d317: S06 d318 final pass. Season 6 closed. $100 + 9 PTO locked for S7 d1+ peak execution (early days, not d55+).
+- S06 d318: S06 d318 final pass. Season 6 closed. $100 + 9 PTO secured for S7 d1+ peak execution.
+- S06 d319: S06 d319: Season 6 final pass. $100 + 9 PTO locked for S7 d1+ peak execution (corrected from mid-season error).
+- S06 d320: S06 d320 final pass. Season 6 closed. $100 + 9 PTO locked for S7 d1+ peak execution.
+- S06 d321: S06 d322 final pass. Season 6 closed. $100 + 9 PTO locked for S7 d1+ peak execution.
+- S06 d322: Season 6 final hold. $100 + 9 PTO reserved for S7 d1+ peak execution. No viable weekday bookings without pre-committed PTO; TWILIGHT boats unavailable.
+- S06 d323: S06 d324 final pass. Budget held for S7 d1+ peak execution (corrected early-season strategy).
+- S06 d324: Season 6 final pass. $100 + 9 PTO held for S7 d1+ peak execution.
+- S06 d325: Season 6 final pass. $100 + 9 PTO locked for S7 d1+ peak execution.
+- S06 d326: S06 d326 final hold. Budget + PTO locked for S7 d1 peak. Early season is the money.
+- S06 d327: S06 d328: Season 6 final hold. No bookable boats; budget + PTO locked for S7 d1 peak window.
+- S06 d328: S06 d329 final pass. Season 6 closed. $100 + 9 PTO locked for S7 d1+ peak execution (early window, not mid-season).
+- S06 d329: S06 d329 final pass. $100 + 9 PTO locked for S7 d1+ peak (early season, not tail end).
+- S06 d330: S06 closes. $100 + 9 PTO preserved for S7 d1+ peak; strategy reset to target early window and strong boats (Vagabond 77.7 yt/trip, not mid-season weak boats).
+- S06 d331: S6 d331 final pass. Hold $100 + 9 PTO for S7 d1-d51 peak; half-day lottery rejected.
+- S06 d332: S06 final pass. Hold $100 + 9 PTO for S7 early peak. Vagabond/PV strategy, not Prowler.
+- S06 d333: S06 d334 pass. Budget + PTO locked for S7 d1–d51 peak window. No bookable options.
+- S06 d334: S06 d335 final pass. $100 + 9 PTO locked for S7 d1–d51 early peak. Season 6 closed.

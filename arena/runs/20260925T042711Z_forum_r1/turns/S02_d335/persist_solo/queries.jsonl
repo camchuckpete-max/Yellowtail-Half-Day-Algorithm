@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4007, "ts": "2026-09-25T11:33:36"}
+{"tool": "arena_query", "sql": "SELECT cls, fish_date_doy, AVG(CAST(yt AS FLOAT) / CAST(anglers AS FLOAT)) as yt_per_angler, COUNT(*) as day_count, SUM(CAST(yt AS INT)) as total_yt FROM trips WHERE fish_date_season = 2 AND fish_date_doy BETWEEN 260 AND 305 GROUP BY cls, fish_date_doy ORDER BY fish_date_doy, yt_per_angler DESC LIMIT 50", "rows": 50, "seconds": 0.032, "ts": "2026-09-25T11:33:40"}

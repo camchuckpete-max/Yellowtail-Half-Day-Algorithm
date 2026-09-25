@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 121.8,
+ "claude": {
+  "duration_api_ms": 118706,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1362558,
+  "usage": {
+   "input_tokens": 92,
+   "cache_creation_input_tokens": 25174,
+   "cache_read_input_tokens": 349858,
+   "output_tokens": 10166,
+   "output_tokens_details": {
+    "thinking_tokens": 4060
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25174,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 775,
+     "cache_read_input_tokens": 42145,
+     "cache_creation_input_tokens": 2004,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2004
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 92,
+    "outputTokens": 10166,
+    "cacheReadInputTokens": 349858,
+    "cacheCreationInputTokens": 25174,
+    "webSearchRequests": 0,
+    "costUSD": 0.1362558,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4060,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect! The data validates the strategy. Now let me create a summary of this analysis turn:\n\n## Summary of Season 2, Day 60 Analysis\n\n**What I found:** Analyzed 3,976 historical trips across a full calendar year. The data shows a clear bimodal seasonal pattern: spring peak (DOY 92-96: 46-51 YT/trip, already passed) and fall peak (DOY 287-301: 27-52 YT/trip, 138 days away). Summer (June-August) is extremely weak at 2.1 YT/trip\u2014not worth booking. The current water temperature is 59\u00b0F, still in spring conditions.\n\n**Current status:** At day 60 (late May), all agents at 0 fish. I've correctly held budget ($2000) and PTO (10 days) instead of chasing weak early-season fishing. I'm 33/34 by tiebreaker, but positioned well for the real competition.\n\n**Updated strategy:** Three phases\u2014(1) Wait through June-July (no bookings); (2) Prepare starting day 85 with PTO commitments for October weekdays; (3) Execute in mid-October with 5-6 targeted trips on the three highest-performing dates: **DOY 288 (52.4 YT/trip), DOY 289 (49.0 YT/trip), DOY 297 (42.0 YT/trip)**. This concentrates budget where the data shows 30-50x better returns than summer. Expected outcome: 6-15 fish depending on competitor density.\n\n**Updated notes.md** with detailed timeline, PTO schedule, and decision rules for future turns.",
+  "ttft_ms": 2379,
+  "type": "result",
+  "duration_ms": 120109,
+  "uuid": "d096c589-0577-49e9-ade7-963cdba1cc82",
+  "ttft_stream_ms": 564,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 564,
+  "time_to_request_from_spawn_ms": 20421762,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311800300.8967,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

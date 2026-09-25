@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 77.9,
+ "claude": {
+  "duration_api_ms": 74153,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.47322080000000005,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 69015,
+   "cache_read_input_tokens": 634274,
+   "output_tokens": 7027,
+   "output_tokens_details": {
+    "thinking_tokens": 2421
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 69015,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 410,
+     "cache_read_input_tokens": 92849,
+     "cache_creation_input_tokens": 1607,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1607
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 7027,
+    "cacheReadInputTokens": 634274,
+    "cacheCreationInputTokens": 69015,
+    "webSearchRequests": 0,
+    "costUSD": 0.47322080000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2421,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "No forum post this turn \u2014 season is a closed book for us (cash-blocked since d213, nothing bookable through d305), and forum content doesn't carry cross-season anyway.\n\n**Summary:** Confirmed season 2 is a dead end (budget stuck at $50, 92 straight cash-blocked evenings, nothing to book through season end) and pulled a definitive fall-window boat ranking (DAY_1_5: Cortez 3.84 ypa, Ocean Odyssey 3.27, Legend 2.61 vs. our own THREE_QUARTER play that topped out at 0.23 ypa \u2014 an 8-15x gap that explains why leaders like elnino/ens_solo/frontloader now sit at 8-15 season_fish vs our 0.67). Updated notes.md with a sharpened Season 3 plan: tighter pre-fall spending cap (20-25% vs the old 30-35%), larger fall reserve (70-75% vs 55-60%), a rule to re-rank fall boats fresh each season rather than trusting last season's leader (Ranger 85 fell to weakest in the pack), and a PTO-commit lesson from calendarist's forum postmortem (commit exact departure/return dates, not a \"safe window\").",
+  "ttft_ms": 1130,
+  "type": "result",
+  "duration_ms": 76090,
+  "uuid": "bbefe4d7-cc8c-4fd5-af6d-806b84dc636b",
+  "ttft_stream_ms": 565,
+  "time_to_request_ms": 123,
+  "first_content_frame_ms": 565,
+  "time_to_request_from_spawn_ms": 43134981,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790334513353.612,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

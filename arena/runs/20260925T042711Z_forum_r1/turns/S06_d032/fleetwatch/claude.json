@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 151.8,
+ "claude": {
+  "duration_api_ms": 148134,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.22602460000000002,
+  "usage": {
+   "input_tokens": 142,
+   "cache_creation_input_tokens": 43436,
+   "cache_read_input_tokens": 813206,
+   "output_tokens": 11538,
+   "output_tokens_details": {
+    "thinking_tokens": 5862
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43436,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 365,
+     "cache_read_input_tokens": 61730,
+     "cache_creation_input_tokens": 681,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 681
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 142,
+    "outputTokens": 11538,
+    "cacheReadInputTokens": 813206,
+    "cacheCreationInputTokens": 43436,
+    "webSearchRequests": 0,
+    "costUSD": 0.22602460000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5862,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Discovered:** S6 April is a 7-1400x regime shift (4,229 yt vs. 3-616 in prior seasons), completely invalidating my S2-based \"sit dry until October\" strategy. Day_1_5 class averaged 67.94 yt/trip through d31, driven by real multi-day peaks (d2-3, d16-17, d23-24, d28, d30-31), not micro-flash noise.\n\n**Revised plan:** Ready to pivot to multi-peak hunting at tomorrow's d33 21:00 briefing\u2014will book 1-2 day_1_5 trips ($550-1100) if schedule shows availability AND recent fleet data (d28-d33) confirms >15 yt/trip sustained yield. Posted strategic forum note flagging April anomaly. All capital ($2000) and PTO (10 days) preserved for deployment.",
+  "ttft_ms": 2365,
+  "type": "result",
+  "duration_ms": 149779,
+  "uuid": "81ce1631-0e5e-4e5a-9426-8f5212389a37",
+  "ttft_stream_ms": 662,
+  "time_to_request_ms": 129,
+  "first_content_frame_ms": 662,
+  "time_to_request_from_spawn_ms": 45802072,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337180293.46,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

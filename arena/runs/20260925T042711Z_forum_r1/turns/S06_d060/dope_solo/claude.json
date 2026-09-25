@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 74.6,
+ "claude": {
+  "duration_api_ms": 65824,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3184186,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 48632,
+   "cache_read_input_tokens": 301583,
+   "output_tokens": 6355,
+   "output_tokens_details": {
+    "thinking_tokens": 3323
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48632,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 224,
+     "cache_read_input_tokens": 71247,
+     "cache_creation_input_tokens": 2826,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2826
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 6355,
+    "cacheReadInputTokens": 301583,
+    "cacheCreationInputTokens": 48632,
+    "webSearchRequests": 0,
+    "costUSD": 0.3184186,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3323,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated with the day-60 check-in: pulled S6 doy0-60 pooled ypa (day_1_5 running 1.5-2.9, three_quarter 0.5-3.1, both on real sample sizes) and ONI now at 0.8, confirming this is the earliest and strongest pre-season bite signal across all 6 seasons \u2014 80-100 days ahead of any prior-season breakout. Revised the nightly-decision guidance to trust the first strong briefing read (rather than waiting weeks to probe) and to spend faster once decisions open rather than hoarding budget for a late fall, while still flagging the S5-style mid-season-collapse risk to watch for.",
+  "ttft_ms": 3465,
+  "type": "result",
+  "duration_ms": 67255,
+  "uuid": "bcb7a884-1f20-48c9-9d87-f7580b26de64",
+  "ttft_stream_ms": 943,
+  "time_to_request_ms": 454,
+  "first_content_frame_ms": 943,
+  "time_to_request_from_spawn_ms": 46005783,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337378585.1523,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

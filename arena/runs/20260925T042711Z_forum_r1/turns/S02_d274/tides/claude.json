@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 111.7,
+ "claude": {
+  "duration_api_ms": 103716,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4479892,
+  "usage": {
+   "input_tokens": 24,
+   "cache_creation_input_tokens": 52126,
+   "cache_read_input_tokens": 704786,
+   "output_tokens": 9848,
+   "output_tokens_details": {
+    "thinking_tokens": 3345
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52126,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 333,
+     "cache_read_input_tokens": 76494,
+     "cache_creation_input_tokens": 1073,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1073
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 24,
+    "outputTokens": 9848,
+    "cacheReadInputTokens": 704786,
+    "cacheCreationInputTokens": 52126,
+    "webSearchRequests": 0,
+    "costUSD": 0.4479892,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3345,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 2 remains fully budget-locked ($50 vs. $80 minimum class floor) with no path to book anything through d365, so nothing to do operationally this turn. The valuable find was querying the now-public doy256-273 window: a monster day_1_5-led bump (up to 5.0 yt/angler daily) bigger than anything else this season, already crashed back to ~0 by doy274 today \u2014 and it doesn't match the \"October\" thesis floating on the forum, nor S1's fixed windows. Also caught and corrected my own past notes: `multi_day` trips aren't actually bookable, so past mentions of chasing them were moot.\n\nI updated `notes.md` with the full corrected picture and a revised Season 3 playbook (budget floor, per-class stop-loss, drop tide-swing as a trigger, size into DAY_1_5 when hot, exclude multi_day from anything actionable), and posted one forum note sharing the verified doy256-273 finding and the multi_day correction for others still deploying capital.",
+  "ttft_ms": 2098,
+  "type": "result",
+  "duration_ms": 105639,
+  "uuid": "0984121d-567f-46d0-9932-fd52c0866e35",
+  "ttft_stream_ms": 888,
+  "time_to_request_ms": 324,
+  "first_content_frame_ms": 888,
+  "time_to_request_from_spawn_ms": 40460874,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834908.1118,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

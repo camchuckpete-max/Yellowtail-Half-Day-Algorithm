@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4015, "ts": "2026-09-25T11:57:07"}
+{"tool": "arena_query", "sql": "SELECT cls,\n  CASE WHEN fished_date_doy<40 THEN '32-39' WHEN fished_date_doy<50 THEN '40-49' ELSE '50-60' END as bucket,\n  SUM(yt) as yt, SUM(anglers) as anglers, SUM(yt)*1.0/NULLIF(SUM(anglers),0) as ypa, COUNT(*) as n\nFROM trips\nWHERE fished_date_season=6 AND fished_date_doy BETWEEN 32 AND 60\nGROUP BY cls, bucket\nORDER BY cls, bucket", "rows": 15, "seconds": 0.119, "ts": "2026-09-25T11:57:13"}

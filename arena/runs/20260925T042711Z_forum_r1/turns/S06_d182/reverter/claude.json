@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 84.6,
+ "claude": {
+  "duration_api_ms": 80737,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.15858379999999997,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 39407,
+   "cache_read_input_tokens": 468208,
+   "output_tokens": 6573,
+   "output_tokens_details": {
+    "thinking_tokens": 2147
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 39407,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 598,
+     "cache_read_input_tokens": 57083,
+     "cache_creation_input_tokens": 1299,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1299
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 6573,
+    "cacheReadInputTokens": 468208,
+    "cacheCreationInputTokens": 39407,
+    "webSearchRequests": 0,
+    "costUSD": 0.15858379999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2147,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've analyzed the season and updated my notes with critical findings.\n\n**Summary:**\n\nMy bounce thesis was **completely correct**\u2014after the failed d157 bounce play (0 YT caught), the fleet DID recover starting d160 and has been **exceptionally hot through today (d182)**. The hot window d172-d178 peaked with three_quarter at 2.7-3.4 yt/angler and multi_day at 4\u20135.5 yt/angler. I'm watching the single best fishing window of the season from the dock, broke at $20 with only 5 unused PTO days.\n\n**Root cause:** Capital mismanagement. After the d122 0-yt DAY_1_5 loss exhausted most funds, I burned the final $80 on a marginal d157 bounce play that failed, locking me out of d160+ entirely.\n\n**Key learnings for next season:** (1) Reserve 50% budget for October peak; (2) Summer slump d122-d155 is holding period only; (3) Don't chase bounces when undercapitalized; (4) Bounce thesis works in peak windows but requires capital to execute. I'm rank 7 cumulative (past seasons counted), so despite this disaster, the cumulative standing is protected. October peak (d287+) remains 105 days away.",
+  "ttft_ms": 1801,
+  "type": "result",
+  "duration_ms": 82796,
+  "uuid": "b2681ec8-b31e-495d-8e9e-0bcc6e2527ec",
+  "ttft_stream_ms": 616,
+  "time_to_request_ms": 137,
+  "first_content_frame_ms": 616,
+  "time_to_request_from_spawn_ms": 53302078,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344680346.2969,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

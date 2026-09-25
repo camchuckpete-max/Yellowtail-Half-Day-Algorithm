@@ -1,0 +1,488 @@
+- S02 d091: April D1-91 confirmed dead (5 YT/536 trips). Hold for October—ignore forum hype, trust the regime. La Niña favors fall.
+- S02 d092: Fleet shows zeros; forum hype unconfirmed. October plan locked, April skipped.
+- S02 d093: April still showing zeros despite D60 hype. Stick to October plan; 1.9x proven better yield. Patience.
+- S02 d094: d094 showed 0.185 THQ (first real bite in weeks), but too early to break October plan. Monitor next 7 days; PTO deadline DOY 275.
+- S02 d095: April confirmed dead, water cooling to 55°F. October thesis holds; d239 checkpoint next.
+- S02 d096: April confirmed dead, La Niña settled. October thesis locked; preserve PTO and capital until DOY 262.
+- S02 d097: April dead, new boats risky. Capital locked for October thesis; DOY 239 next checkpoint.
+- S02 d098: April confirmed dead. Fleet shows 0.000–0.013 yt/angler; forum hype unconfirmed. Capital locked for October thesis (0.90 yt/angler, 1.9x April). DOY 239 next checkpoint.
+- S02 d099: April dead; October thesis locked. Capital & PTO reserved for DOY 289–291 overnights. Next move S02 d239.
+- S02 d100: April dead as forecast. Water 61.5°F, fleet 0.000–0.016 yt/angler. Capital & PTO locked for October peak (d289–291). Next checkpoint d239.
+- S02 d101: April dead as forecast; capital and PTO locked for October thesis. Next checkpoint DOY 239.
+- S02 d102: April dead as expected. Regime locked for October. Next move: DOY 239 checkpoint.
+- S02 d103: April dead as forecast; fleet 0.000–0.018 yt/angler last 30d. Capital & PTO locked for October peak d289–291. Next checkpoint d239.
+- S02 d104: April dead as forecast; fleet 0.000–0.017 yt/angler last 30d. Capital and PTO locked for October peak d289–291. Next checkpoint d239.
+- S02 d105: April dead; October thesis locked. Next checkpoint DOY 239.
+- S02 d106: April dead as forecast; San Diego flash yesterday is noise. October thesis locked. Next checkpoint DOY 239.
+- S02 d107: April dead as forecast; October thesis locked. Next checkpoint DOY 239.
+- S02 d108: April dead; October thesis locked. Checkpoint DOY 239.
+- S02 d109: April dead confirmed; capital locked for October peak d289–291. Checkpoint DOY 239.
+- S02 d110: April dead confirmed; capital locked for October peak d289–291. Hold the line until DOY 239.
+- S02 d111: April dead; capital/PTO locked for Oct d289–291. Hold until DOY 239."
+- S02 d112: April dead as forecast; capital/PTO locked for October peak d289–291. Hold until DOY 239."
+- S02 d113: April dead as forecast; Oct thesis locked. Hold until DOY 239.
+- S02 d114: April dead confirmed (5 YT/536 trips). October thesis locked. Hold until DOY 239.
+- S02 d115: April dead (5 YT/536 trips confirmed). October thesis locked—DOY 239 checkpoint. Hold capital & PTO for Oct peak.
+- S02 d116: April dead confirmed (5 yt/536 trips). Capital & PTO locked for October peak. Hold until DOY 239.
+- S02 d117: April dead (5 YT/536 trips); capital & PTO locked for October peak d289–291. Hold until DOY 239."
+- S02 d118: April dead (5 yt/536 trips); capital/PTO locked for Oct peak d289–291. Hold until DOY 239 checkpoint.
+- S02 d119: May dead (5 yt/536 trips); hold capital & PTO for October peak d289–291. Check DOY 239.
+- S02 d120: May dead (5 yt/536 trips). October locked. Hold to DOY 239 checkpoint.
+- S02 d121: May 1 dead zone confirmed. Hold for October. Capital $2000, PTO 10 days, all untouched.
+- S02 d122: Dead zone holding. October thesis locked (DOY 287–295). Checkpoint DOY 239 for PTO/booking.
+- S02 d123: Dead zone holding. October locked (DOY 287–295). Next move: DOY 239 PTO commit.
+- S02 d124: Holding capital & PTO for October peak (DOY 287–295). Watch Oct 1–5 offers; commit PTO selectively by Oct 2 if booking weekday trips. Weekend DAY_1_5 trips require zero PTO.
+- S02 d125: Hold to October peak. Water still cold; await 65°F+ as trigger. Commit weekday PTO by DOY 282 if booking Tue/Wed/Thu trips.
+- S02 d126: Dead zone holding. Water 61.7°F < 65°F trigger. October peak strategy locked (19d out). Checkpoint Oct 2 for weekday PTO commit.
+- S02 d127: Holding dead zone. PTO locked for Oct 12-14 and Oct 19-21 midweek windows. Weekend DAY_1_5s (Oct 8–10, 15–17) still open, no PTO needed. Await 65°F trigger and October surge.
+- S02 d128: Dead zone holding. Water 60.8°F, ONI −1.1. October locked (6 PTO committed, 4 left, 3 weekend day_1_5s planned). Stay home S02 d129.
+- S02 d129: May 9 dead zone confirmed. October strategy on track; stay dry, capital intact.
+- S02 d130: May dead zone confirmed. October strategy locked (6 PTO committed, 4 left). Stay home d130.
+- S02 d131: D131 May dead zone. October strategy locked (6 PTO committed, 4 left for contingency). Stay dry.
+- S02 d132: Dead zone holding. May fleet blanked again. Stay dry; October locked and ready.
+- S02 d133: May dead zone confirmed (d133 fleet 0.000). Water 62.6°F << 65°F. October locked, capital & PTO intact.
+- S02 d134: May dead zone holding. Water 62.6°F, fleet zero d134. Capital and PTO locked for October peak.
+- S02 d135: Dead zone d135–d136. Water 63.9°F, ONI −0.8, fleet 0.000 last 7d. Hold for October peak; 6 PTO locked (d285–d287, d292–d294).
+- S02 d136: May d137 dead zone. TWILIGHT no boats, 0.000 yield. Hold capital and PTO for October peak.
+- S02 d137: S02 d137: May dead zone confirmed again. Stay dry; October locked (6 PTO d285–d287, d292–d294). Hold capital for peak.
+- S02 d138: May dead zone d139. Stay dry; October locked (6 PTO d285–287, d292–294). Capital and PTO intact for peak.
+- S02 d139: May dead zone d139–d140. Water 63.7°F, fleet 0.000. Capital and PTO locked for October peak. Hold.
+- S02 d140: Dead zone d141. Stay dry; October peak locked. Capital $2000 full, PTO 4/10 free (6 d285–d287, d292–d294 reserved).
+- S02 d141: Water warming to 65.1°F but regime still cold (ONI −0.8). Fleet zeros d141. Stay dry; October peak locked (d285–d287, d292–d294, $2000 intact).
+- S02 d142: May dead zone d142–d143. Fleet continues zeroing. October locked (6 PTO, $1,650 reserved). Hold.
+- S02 d143: May dead zone fleet-confirmed (0.000 last 7d). ONI −0.8, water 63.9°F. October locked (d285–287, d292–294, $2000 intact). Hold.
+- S02 d144: April dead zone fleet-wide (0.026 yt/angler). Cold regime (ONI −0.8, water 65°F) holds. Capital $2,000 and 4 PTO days locked for October peak (d285–d287, d292–d294). Stay dry.
+- S02 d145: Cold regime holds. Fleet d145 mostly zeros; THREE_QUARTER spike is outlier noise. October peak locked with 6 PTO (d285–d287, d292–d294); 4 days in reserve. Stay dry.
+- S02 d146: Dead zone d147. Cold regime holds; OVERNIGHT spike is noise against zero fleet. October peak locked ($1,650 reserved, 6 PTO d285–d287/d292–d294). Stay dry.
+- S02 d147: Dead zone holds. Cold regime stable (ONI -0.8, water 66.6°F). Stay dry; October peak locked (d285–d287, d292–d294, $2000 intact).
+- S02 d148: Dead zone d149. Fleet confirms: Daily Double and Premier zeros. October peak locked (d285–d287, d292–d294). Capital $2000, 4 PTO reserved. Hold.
+- S02 d149: Dead zone confirmed. Hold capital and PTO for October peak. Discipline through the dead zone is the edge.
+- S02 d150: Dead zone d151. October peak locked. Hold capital and discipline.
+- S02 d151: Sept dead zone confirmed. October peak locked (d285–294 PTO, $2000 intact). Hold.
+- S02 d152: S02 d152: Dead zone holds. October peak locked (d285–d287, d292–d294, $2000 intact, 4 PTO reserved). Stay dry.
+- S02 d153: Dead zone d154 confirmed. October peak locked (d285–287, d292–d294, $2000 intact, 4 PTO reserved). Stay dry.
+- S02 d154: Dead zone d155 confirmed. October peak locked (d285–d287, d292–d294, $2000, 4 PTO). Hold capital and discipline.
+- S02 d155: S02 d156: Dead zone confirmed—fleet scored 0.000 yt/angler even on THREE_QUARTER yesterday. October peak locked (d285–287, d292–294). Capital and PTO discipline intact.
+- S02 d156: September dead zone holds. October peak locked d285–d287, d292–d294. Capital and discipline intact.
+- S02 d157: Dead zone holds. October peak locked. Hold capital and discipline through Sept dead zone.
+- S02 d158: September dead zone confirmed. Hold capital and PTO through regime's low-yield period. October peak (d285–d294) locked; 4 PTO, $2000 intact.
+- S02 d159: September dead zone confirmed. October peak (d285–d294) locked. $2000 and 4 PTO reserved. Hold discipline.
+- S02 d160: September dead zone holds. October locked (d285–d287, d292–d294, $2000, 4 PTO). Discipline pays in cold regimes.
+- S02 d161: Dead zone holds. October peak locked (d285–d287, d292–d294, $2000, 4 PTO). Discipline through the September void.
+- S02 d162: S02 d162: September dead zone holds firm. October peak (d285–d294) locked with $2000, 4 PTO. Discipline intact.
+- S02 d163: September dead zone holds. October peak (d285–d294) locked with $2000, 4 PTO. Discipline intact.
+- S02 d164: September dead zone confirmed again. October peak (d285–d294) locked. $2000 and 4 PTO intact; discipline pays in La Niña.
+- S02 d165: Dead zone holds through d165. October peak (d285–d294) locked with $2000, 4 PTO. Stay disciplined; 33x yield difference between Sept and Oct in La Niña.
+- S02 d166: September dead zone holds. October peak (d285–d294) locked with $2000, 4 PTO. Discipline intact; regime wins seasons, not days.
+- S02 d167: September dead zone holds. October peak (d285–d294) locked with $2000, 4 PTO. Discipline intact; regime wins seasons, not days.
+- S02 d168: Dead zone holds d160–d168. October peak (d285–d294) fully locked: $2000, 4 PTO, 6 days committed. Discipline pays.
+- S02 d169: September dead zone holds through d169. October peak locked. Discipline paid off d161–d168; pays again today.
+- S02 d170: S02 d170: Dead zone holds. October peak fully locked with $2000, 4 PTO, discipline intact. Regime wins seasons.
+- S02 d171: Dead zone holds d165–d172. October peak (d285–d294) locked: $2000, 4 PTO. Regime wins; stay disciplined.
+- S02 d172: September dead zone holds through d172. October peak locked. Regime discipline intact.
+- S02 d173: S02 d174: September dead zone holds. October locked. Discipline intact.
+- S02 d174: Dead zone holds d175. October peak (d285–d294) fully locked: $2000, 4 PTO. Regime discipline intact; stay dry.
+- S02 d175: September dead zone holds. October peak fully locked ($2000, 4 PTO, d285–d294). Stay dry.
+- S02 d176: S02 d176: Dead zone holds d177. October peak (d285–d294) fully locked. Regime discipline intact.
+- S02 d177: September dead zone holds through d178. October peak (d285–d294) fully locked: $2000, 4 PTO, regime discipline intact.
+- S02 d178: Dead zone holds. October peak (d285–d294) fully locked. Regime discipline: stay home.
+- S02 d179: September dead zone holds through d180. October peak (d285–d294) fully locked. Regime discipline: stay dry.
+- S02 d180: September dead zone holds through d181. October peak (d285–d294) fully locked: $2000, 6 PTO, regime discipline intact. Stay home.
+- S02 d181: Dead zone holds through d181. October locked. Regime discipline: stay dry, preserve capital.
+- S02 d182: D182: September dead zone confirmed. October peak (d285–d294) locked at $2000, 4 PTO. Stay dry.
+- S02 d183: S02 d183: September dead zone confirmed by regime and fleet. October peak locked and fully funded ($2000, 4 PTO, d285–d294). Stay dry.
+- S02 d184: Dead zone confirmed d177–d185. Capital and PTO fully preserved for October peak (d285–d294). Regime discipline intact.
+- S02 d185: September dead zone confirmed through d185. All capital ($2000) and PTO (4 days) reserved for October peak d285–d294. Regime discipline: stay dry.
+- S02 d186: d186 eve: September dead zone holds. October locked at $2000, 4 PTO (d285–d294). Stay dry.
+- S02 d187: d188: Dead zone holds through September. October locked. Regime discipline: stay home.
+- S02 d188: d189: Dead zone holds. Capital and PTO fully reserved for October peak. Regime discipline intact—stay dry.
+- S02 d189: d190: Dead zone holds. October fully locked ($2000, 4 PTO, d285–d294). Stay dry.
+- S02 d190: d191 Sun: Dead zone confirmed. October fully locked ($2000, 4 PTO, d285–d294). Stay dry.
+- S02 d191: d192 Mon: Dead zone holds. October locked. Stay dry.
+- S02 d192: d193 Tue: Dead zone holds. October locked. Stay dry.
+- S02 d193: d194 (Wed): Dead zone holds. October locked ($2000, 4 PTO, d285–d294). Stay dry.
+- S02 d194: d195 (Thu): Dead zone holds. October fully locked ($2000, 4 PTO, d285–d294). Stay dry.
+- S02 d195: d195: Dead zone confirmed through September. October locked ($2000, 4 PTO, d285–d294). Stay dry; regime discipline intact.
+- S02 d196: Dead zone holds through Sept; October locked ($2000, 4 PTO, d285–d294). Stay dry.
+- S02 d197: Dead zone confirmed through late Sept. October fully locked ($2000, 4 PTO, d285–d294). Stay dry; regime discipline intact.
+- S02 d198: S02 d199 (Mon): Dead zone holds. October locked. Stay dry; regime discipline intact.
+- S02 d199: S02 d200 (Tue): Dead zone confirmed. October locked. Regime discipline holds; stay dry.
+- S02 d200: S02 d201 (Wed): Dead zone holds. October locked ($2000, 4 PTO, d285–d294). Stay dry; regime discipline intact.
+- S02 d201: Dead zone holds through early September. Stay dry; October locked ($2000, 4 PTO, d285–d294). Regime discipline intact.
+- S02 d202: Dead zone confirmed through late September. October locked ($2000, 4 PTO, d285–d294). Stay dry; regime discipline intact.
+- S02 d203: Fleet spike on overnight (d201-203) tempts, but regime discipline holds. Dead zone confirmed; stay dry. October locked.
+- S02 d204: Dead zone holds through late September. October locked ($2000, 4 PTO, d285–d294). Stay dry; regime discipline intact.
+- S02 d205: Stay dry. Dead zone holds; regime discipline intact. October locked and ready.
+- S02 d206: Dead zone holds. October locked. Stay dry; regime discipline intact.
+- S02 d207: S02 d208 (Wed): Dead zone confirmed through September. Stay dry; October locked and 5 weeks out.
+- S02 d208: Dead zone confirmed through S02 d209. Stay dry; October locked and ready ($2000, 4 PTO committed for d285–d294).
+- S02 d209: September dead zone holds despite yesterday's OVERNIGHT spike. Regime discipline intact. October locked, stay dry.
+- S02 d210: September dead zone holds (71.6°F, ONI -0.5). October locked and ~60 days out. Regime discipline: stay dry.
+- S02 d211: Regime discipline holds. Dead zone d212. October (d285–d294) locked in: 4 PTO, $2000, all eyes on the peak. Stay dry.
+- S02 d212: Dead zone confirmed d213. October locked and ready (4 PTO, $1,650 budgeted). Stay dry through September; peak 5 weeks out.
+- S02 d213: Dead zone confirmed d214. October peak 5 weeks out, 4 PTO + $2000 locked and ready. Regime discipline: stay dry.
+- S02 d214: Dead zone holds d215. October peak locked, 5 weeks out. Regime discipline: stay dry.
+- S02 d215: Dead zone holds. Regime discipline intact; October locked 70 days out with 4 PTO and $2000. Stay dry.
+- S02 d216: S02 d216: Dead zone holds. Regime discipline: stay dry through October lock (d285–d294, 4 PTO, $2000, 70 days out).
+- S02 d217: Dead zone holds d218. Regime discipline: stay dry. October lock (d285–d294, 4 PTO, $2000) 67 days out.
+- S02 d218: Dead zone confirmed d219. October locked 66 days out. Regime discipline: stay dry.
+- S02 d219: D219 micro-spike (63.7°F) ≠ signal. Regime discipline: stay dry through Sept dead zone, October peak locked 65 days out.
+- S02 d220: September dead zone confirmed again. Regime discipline intact; October peak 64 days out. Stay dry.
+- S02 d221: Dead zone holds d222. October lock (d285–294, 63d out) discipline intact. Stay dry.
+- S02 d222: D223: September dead zone holds. Regime discipline intact; October lock 65 days out. Stay dry.
+- S02 d223: D224: September dead zone confirmed. Regime discipline holds. October lock (d285–294, 69d out) intact; stay dry.
+- S02 d224: Regime discipline holds; September dead zone confirmed. October lock 62 days out, all PTO and capital reserved.
+- S02 d225: S02 d225: September dead zone confirmed again. October lock (d285–294, 61d out) discipline intact; stay dry.
+- S02 d226: D227: dead zone confirmed again. October lock (d285–294, 60d out) discipline intact; stay dry.
+- S02 d227: D228: dead zone confirmed. October lock 61d out, intact. Stay dry.
+- S02 d228: Dead zone holds. October lock (d285–294, 57d out) intact. Stay dry.
+- S02 d229: Dead zone holds. October lock (d285–294, 56d out) intact. Stay dry.
+- S02 d230: Dead zone confirmed again. October lock (d285–294, 55d out) intact. Stay dry.
+- S02 d231: Dead zone holds; d232 skip. October lock (d285–294, 55d out) intact: $2000 + 4 PTO reserved.
+- S02 d232: Dead zone holds. October lock (d285–294, 52d out) intact: $2000 + 4 PTO reserved. Stay dry.
+- S02 d233: Dead zone confirmed; October lock (d285–294, ~52d out) intact. Stay dry.
+- S02 d234: Dead zone confirmed through late September. October lock intact: 6 PTO (d285–287, d292–294), $1650 reserved for day_1_5 trips. 51 days to peak.
+- S02 d235: Dead zone confirmed. October lock 50d out, intact. Stay dry.
+- S02 d236: Dead zone confirmed through late September. October lock (d285–294) intact: 4 PTO, $2000 budget held. Stay dry, 51 days to peak.
+- S02 d237: Dead zone holds through late Sept. October lock (d285–294) 50d out, intact: 4 PTO, $2000 budget. Stay dry.
+- S02 d238: Dead zone confirmed d238. October lock (d285–294, 49d out) intact: 4 PTO, $2000 reserved. Stay dry.
+- S02 d239: S02 d239: Dead zone holds through late Sept. October lock (d285–294, 49d out) intact: 4 PTO, $2000 reserved. Stay dry.
+- S02 d240: S02 d240 eve: September dead zone holds. October lock (d285–294, 4 PTO, $2k reserved) intact. Stay dry, 44d to peak.
+- S02 d241: Mid-Sept dead zone holds. October lock intact: 4 PTO, $2k reserved. 43 days to peak.
+- S02 d242: Dead zone holds through late Sept. October lock (d285–294, 4 PTO, $2k reserved) intact. 43 days to peak.
+- S02 d243: Dead zone holds through late Sept. October lock (d285–294, 4 PTO, $2k) intact 41 days ahead.
+- S02 d244: September dead zone holds. October lock (d285–294, 4 PTO, $2k reserved) intact, 51 days ahead. Stay dry.
+- S02 d245: Dead zone d246. October lock (d285–294, 4 PTO, $2k) intact, 39 days ahead. Hold.
+- S02 d246: Dead zone holds through d247. October lock (d285–294, 4 PTO, $2k) intact 38 days ahead. Stay dry.
+- S02 d247: Dead zone d248 (Mon holiday). October lock (d285–294, 4 PTO, $2k) intact, 37 days ahead. Hold.
+- S02 d248: Dead zone holds d249. October lock (d285–294, 4 PTO, $2k) 36d out. Stay dry.
+- S02 d249: Dead zone d250 (Wed). October lock (d285–d294, 4 PTO, $2k) intact 35 days ahead. Stay dry.
+- S02 d250: Dead zone d251. October lock (d285–d294) 40d out, intact. Stay dry.
+- S02 d251: September dead zone holds. October lock (d285–d294, 4 PTO, $2k) intact 34 days out. Stay dry.
+- S02 d252: Dead zone d253 (Sat); October lock d285–d294 intact 32d out. Stay dry.
+- S02 d253: Dead zone d254 (Sun); October lock d285–294 intact 32d out. Stay dry.
+- S02 d254: September dead zone holds through d254. October lock (d285–294, 4 PTO, $2k) intact 30 days out. Stay dry.
+- S02 d255: September dead zone holds. October lock (d285–294) intact 30 days out. Stay dry.
+- S02 d256: Dead zone d257 holds. October lock (d285–d294, 4 PTO, $2k) intact 28 days out. Stay dry.
+- S02 d257: Dead zone d258 (Thu). October lock d285–d294 intact 27 days out. Stay dry.
+- S02 d258: September dead zone holds; water cooling (59°F). October lock (d285–d294) intact 26 days out. Stay dry.
+- S02 d259: Dead zone d260 (Sat) skipped. October lock (d285–d294, 4 PTO, $2k) intact 26 days out. Cold water (58.1°F), weak fleet, stay dry.
+- S02 d260: Dead zone holds d261. October lock d285–d294 intact 25d out, $2k+4d PTO ready. Stay dry.
+- S02 d261: Dead zone d262 (Mon) skipped. October lock d285–d294 intact 25d out, $2k+4d PTO ready. Fleet zeros persist; stay dry.
+- S02 d262: Dead zone d263 skipped. October lock (d285–d294, 4d PTO, $2k) intact 22d out. Fleet weak; stay dry.
+- S02 d263: Dead zone d264 skipped. October lock d285–d294 (6d committed, $2k ready) intact 22d out. Stay dry.
+- S02 d264: Dead zone d265 skipped. October lock (d285–d294, 4 PTO, $2k) firm 20d out. Stay dry.
+- S02 d265: September uptick noted (DAY_1_5 2.7+ yt/angler) but noise vs October peak. Cold regime holds; October lock d285–d294 (4 PTO, $2k) stays firm. Dry through d266.
+- S02 d266: September dead zone noise (THREE_QUARTER 0.870 yt/angler yesterday). October lock d285–d294 intact 19 days out. Stay dry, hold capital and PTO for peak.
+- S02 d267: Sept dead zone holds, Oct lock (d285–d294) intact 17d out, $2k+4d PTO ready. Stay dry.
+- S02 d268: Dead zone holds d269. October lock (d285–d294) firm 16d out, $2k+4d PTO ready. Stay dry.
+- S02 d269: TWILIGHT 0.000 yt/angler; skip. October lock d285–d294 (6 PTO, $2k) holds firm 16d out. Dead zone holds.
+- S02 d270: Dead zone holds. October lock d285–d294 (6 PTO, $2k ready) intact 15 days out. Stay dry.
+- S02 d271: Dead zone holds d272. October lock d285–d294 intact 13d out, $2k+4d PTO ready. Stay dry.
+- S02 d272: Dead zone holds d273; October lock d285–d294 firm 12d out. Stay dry.
+- S02 d273: Dead zone d274 weak. October lock intact 11d out ($2k, 4d PTO ready). Stay dry.
+- S02 d274: Dead zone holds d275. October lock (d285–d294) firm 10d out, $2k + 4d PTO ready. Stay dry.
+- S02 d275: Dead zone holds d276. October lock (d285–d294) firm 9d out, $2k + 4d PTO ready. Stay dry.
+- S02 d276: Dead zone holds d277. October lock (d287–d294) firm 10d out, $2k+4d PTO ready. Stay dry.
+- S02 d277: Dead zone holds d278. October lock (d285–d294) firm 8d out, $2k + 4d PTO ready. Stay dry.
+- S02 d278: Dead zone holds d279. October lock (d285–d294) firm 8d out, $2k+4d PTO ready. Stay dry.
+- S02 d279: Dead zone holds d281. October lock (d285–d294) firm 5d out, $2k + 4d PTO intact. Stay dry.
+- S02 d280: Early October weak (d280 fleet: 0 yt). October peak d285+ intact. Hold discipline, hold cash.
+- S02 d281: Dead zone d282 confirmed. October lock (d285–d294) intact, $2k + 4 PTO primed. Hold discipline 72 hours to the peak.
+- S02 d282: Hold October lock 72 hours. Dead zone d282–d283 confirmed. Stay dry.
+- S02 d283: Book Cortez DAY_1_5 d285–286. Strong boat signal, class peak, PTO pre-committed. October lock holds.
+- S02 d284: Cortez locked d285, now Ranger 85 d286. DAY_1_5 class hot, water 63.9°F cool but fishing. October d287+ peak window firm; hold third trip decision to d292.
+- S02 d285: Ranger 85 d286 locked. October peak window (d287–d294) on track; hold third trip call and remaining $350–400 to d292 for final signal.
+- S02 d286: Ocean Odyssey d288 locked. Budget $350 left; PTO intact for d292+ third trip. October peak rolling.
+- S02 d287: Locked Ocean Odyssey d288. Peak window rolling. Hold third trip to d292 decision.
+- S02 d288: Ocean Odyssey d289 locked. October peak rolling; hold third trip call to d292.
+- S02 d289: Peak rolling, but d290 is unshippable. Hold for d292 call. Rank #1, lead intact.
+- S02 d290: Peak rolled, stay home. Hold #1 and $350 for d292+ signal.
+- S02 d291: Peak rolled past d291. All classes d292 showing zero; water cold. Hold rank and budget for d293+ reversal.
+- S02 d292: Peak rolled past d291. d293 unshippable; all classes zeroes. Sit, hold rank #1, $350, and 4 PTO for next signal or season end.
+- S02 d293: d294 unshippable; all classes zeroes. Hold rank #1, $350, and 4 PTO. Season likely over.
+- S02 d294: d295: Peak rolled past d291. All fleets zeroes. Hold #1, $350, 4 PTO. Season winding down.
+- S02 d295: Peak rolled off d291. Season over. Hold rank #1 by staying home. Protect $350 and 4 PTO to the end.
+- S02 d296: d297: Season rolled off d291. Hold #1 ($350, 4 PTO untouched). To the close.
+- S02 d297: Season wound down past d291. Stay home, hold #1, $350, and 4 PTO to close.
+- S02 d298: Peak rolled off d291. Fleet zeros d292–d298. Season over; hold #1, $350, 4 PTO to close.
+- S02 d299: Peak closed d291. Fleet zeros d292–d299; hold #1 rank, $350, 4 PTO untouched. No fishing until reversal signal.
+- S02 d300: Season peak closed d291. Fleet dead d292–d300. Hold rank #1: $350, 4 PTO untouched. No reversal signal yet.
+- S02 d301: Season peak closed d291; fleet dead d292–d301. Hold #1 rank ($350, 4 PTO untouched). Close imminent.
+- S02 d302: Season dead, peak closed d291. Hold #1 rank ($350, 4 PTO untouched) to close.
+- S02 d303: Season wound down d292–d303. Hold #1 rank ($350, 4 PTO) to close.
+- S02 d304: Peak closed d291, fleet dead d292–d304. TWILIGHT 0.000 yield. Hold rank #1, $350, 4 PTO untouched to close.
+- S02 d305: Season peak closed d291. Fleet dead d292–d305; hold #1 rank, $350, 4 PTO untouched to close. No reversal signal yet.
+- S02 d306: Season peak closed d291. Hold rank #1 ($350, 4 PTO, 15.33 score). No reversal signal; fleet dead 15+ days. Close untouched.
+- S02 d307: Season closed d291. Fleet dead 15 days, hold #1 rank. Close untouched—no reversal signal, no yield to hunt.
+- S02 d308: Season closed d291. Fleet dead 15 days. Hold #1 ($350, 4 PTO untouched). No reversal signal—close untouched.
+- S02 d309: Season closed d291. Fleet dead 15+ days—no reversal signal. Hold #1 rank with $350, 4 PTO untouched to close.
+- S02 d310: Season closed d291. Hold #1 rank ($350, 4 PTO untouched) to close—regime discipline confirmed.
+- S02 d311: Season d291 closed. Fleet dead 16+ days, no reversal. Hold #1 rank ($350, 4 PTO untouched) to close—regime discipline stands.
+- S02 d312: S02 d312: Season peak d291 closed, fleet dead 16+ days, hold #1 rank ($350, 4 PTO untouched). Close untouched—regime discipline confirmed.
+- S02 d313: Season dead d292–d314; hold #1 (15.33) untouched to close. Regime discipline confirmed.
+- S02 d314: Season closed d291. Hold #1 rank untouched—regime discipline confirmed to close.
+- S02 d315: Season closed d291. Hold #1 ($350, 4 PTO untouched) to close—regime discipline confirmed through season end.
+- S02 d316: Season dead 16+ days, no reversal signal. Hold #1 untouched through close—regime discipline stands.
+- S02 d317: Season dead d292+, hold #1 rank ($350, 4 PTO untouched) to close. Regime discipline stands.
+- S02 d318: Season dead d291+, fleet zeros across all classes. Hold #1 rank untouched to close—regime discipline confirmed to season end.
+- S02 d319: S02 d319: Fleet dead 16+ days, no reversal signal. Hold #1 ($350, 4 PTO untouched) to close—regime discipline confirmed through season end.
+- S02 d320: Season closed d291, hold #1 through finish. Regime discipline stands.
+- S02 d321: Season dead d291+, hold #1 ($350, 4 PTO untouched) to close. Regime discipline confirmed.
+- S02 d322: S2 closed. Rank #1 (15.33). Season-end hold confirmed—regime discipline stands through finish.
+- S02 d323: Season closed d291; hold #1 (15.33 fish) through finish. Regime discipline stands. No micro-peak chasing.
+- S02 d324: Season dead past October peak. Regime discipline holds—rank #1 stands. No micro-peak chasing.
+- S02 d325: Season dead d291+, hold #1 (15.33) through finish. Regime discipline confirmed—no micro-peaks in cold regime post-peak.
+- S02 d326: S02 d326: Season closed d291. Hold #1 (15.33). Regime discipline stands through finish—no micro-peaks in cold regime post-peak.
+- S02 d327: S02 d328: Season closed d291. Hold #1 (15.33) through finish. Regime discipline confirmed.
+- S02 d328: Season closed d291 (#1, 15.33). Hold through finish—cold regime post-peak is dead, protect the lead.
+- S02 d329: S02 d329: Season closed d291, hold #1 (15.33). Cold regime post-peak dead—protect the lead, no micro-peaks.
+- S02 d330: Season 2 complete d291, rank #1 (15.33). Cold regime discipline holds through finish—no chasing post-peak in regime regime.
+- S02 d331: Season closed d291, rank #1 (15.33). Hold through finish—regime discipline stands, dead zone confirmed. No micro-peaks.
+- S02 d332: D332: Dead zone confirmed. Hold #1 (15.33) through finish. Regime discipline stands.
+- S02 d333: d334: Dead zone confirmed. Hold #1 (15.33). Stay home—regime discipline through close.
+- S02 d334: Season 2 final: rank #1, 15.33 pts. Post-season—stand down. Regime discipline delivered.
+- S06 d091: April peak missed despite regime call correct. D091 fleet 3QT 2.717 yt/angler—warm regime live. Deploy micro-test D105 (3QT), hold capital, correct execution failure.
+- S06 d092: Prowler d094 Sat to test warm regime signal extension. Hold PTO for mid-May 3QT if Overnight fires.
+- S06 d093: Prowler OVERNIGHT d094→d095 test fires tomorrow; hold PTO commits until results. El Niño regime live, but capital discipline > blind signal chasing after April miss.
+- S06 d094: Book San Diego 3QT tomorrow (Sun d095)—regime signal live, no PTO cost, capital discipline preserved. Test the warm peak hold while capital intact."}]
+- S06 d095: Regime confirmed live, San Diego fired yesterday. Stay dry tomorrow (weekday, no PTO). Position d109 for second 3QT cycle. Warm regime = fish early, often, small.
+- S06 d096: Regime hold: stay dry d097 (weekday, no PTO). Lock d111–113 for mid-May 3QT. Capital +6 PTO days reserved for confirmed peaks.
+- S06 d097: Regime live, but discipline > signal chase. Hold tomorrow, execute d111–d113 cycle on plan. Warm regime spreads peaks; don't bleed PTO on every day.
+- S06 d098: No bookable boats tomorrow; stay dry. Committed d111–d113 block ready. Regime live, execution discipline holding.
+- S06 d099: Hold capital for d111–113 peak. Prowler decent but below 3QT baseline; intermediate spend not justified. Regime live, execution window locked.
+- S06 d100: 3QT regime peak live. San Diego class leader. Hold weekdays, execute mid-May d111-d113 block on plan. Warm regime: fish early, often, small.
+- S06 d101: San Diego 3QT d102, mid-May block (d111–113) locked. Warm regime, fish weekends free, execute weekday blocks on plan.
+- S06 d102: Hold d103. Regime live but no bookable weekday trips. Mid-May block (d111–113) locked and capital intact. Next move: three-quarter weekend or execute block as planned.
+- S06 d103: Warm regime live; d111–113 block locked and capital intact. Hold weekday discipline, execute mid-May three-quarter cycle on plan.
+- S06 d104: 3QT San Diego d105: regime firing, PTO locked, capital deployed on class strength. Mid-May block (d111–113) preserved.
+- S06 d105: Hold d106: no PTO, no bookable boats. Warm regime 3QT live (San Diego 1.093 yesterday); d111–d113 block locked and capital preserved for execution week.
+- S06 d106: Invicta d108: warm regime distributed-peak hypothesis. Mid-May d111–d113 locked, $450 capital preserved for execution week.
+- S06 d107: Hold d108. Capital and 6 PTO days preserved for mid-May three-quarter block. Regime peak window passed; maintain discipline.
+- S06 d108: THREE_QUARTER hot d108 (1.993); San Diego Sunday to ride momentum. Mid-May block (d111–113) locked, capital preserved.
+- S06 d109: Hold d110 (Monday, no weekday PTO avail). Mid-May block locked d111–d113; maintain regime discipline through block execution.
+- S06 d110: Execute d111 San Diego 3QT: mid-May block live, regime firing, capital deployed on class strength.
+- S06 d111: Execute Malihini d112: THREE_QUARTER momentum from 3.463 d111. Regime-live play, capital deployed exactly.
+- S06 d112: $0 budget, #1 standing at 14.25. Warm regime three-quarter window cashed May; hold through close. No further deploys.
+- S06 d113: Budget $0 from May peak execution. Hold lead; season thesis complete.
+- S06 d114: Peak thesis executed. $0 capital, #1 rank 14.25. Hold through close.
+- S06 d115: $0 capital, #1 rank (14.25). Warm regime peak cashed May d105–d112. Hold through close.
+- S06 d116: $0 budget, #1 (14.25). May warm regime peak cashed. Hold through close; no further deploys. Sept signals only.
+- S06 d117: $0 budget. Regime peak cashed May; hold rank #2 through close. No further deploys.
+- S06 d118: $0 budget, 6 PTO held as insurance. Thesis executed May d105–d112 on regime signal. Stay dry; hold rank #2 (14.25) through season close.
+- S06 d119: Thesis executed May d105–d112. $0 budget, 6 PTO held as insurance. Hold #2 rank (14.25) through season close.
+- S06 d120: May peak cashed ($14.25, rank #2). $0 budget, hold through close. No September signal yet.
+- S06 d121: $0 budget, rank #2 (14.25). May peak cashed d93–d112. Hold dry through season close.
+- S06 d122: $0 exhausted, rank #2 (14.25). May peak cashed, hold through close. No September signal. Season over.
+- S06 d123: Season thesis complete. Rank #2 (14.25) secured through May peak deploy. Close out on rank and capital exhausted.
+- S06 d124: Thesis complete (d93–d112, 14.25 fish, #2). Hold dry; no capital, no PTO, no signal. Season over.
+- S06 d125: Season thesis complete. Rank #2 (14.25 fish) holds through close. Hold dry.
+- S06 d126: $0 budget, 6 PTO held as insurance. Thesis complete (d93–d112, 14.25 fish, rank #2). Hold through close.
+- S06 d127: Thesis closed. Hold rank 2 (14.25 fish) dry through season close. No September signal, no budget, no case.
+- S06 d128: Hold rank 2 through close. Budget exhausted, thesis executed and won.
+- S06 d129: Hold rank 2 (14.25). No signal, no budget, no case. Thesis locked.
+- S06 d130: Thesis locked d93–d112 (14.25 fish, rank #4). Budget spent, hold dry through close. No late signal, no capital case.
+- S06 d131: Thesis locked d93–d112 (14.246 fish, rank #4). Season close: hold dry through finish.
+- S06 d132: Thesis locked (14.25 fish, rank #4). Out of capital and PTO buffer. Hold through close.
+- S06 d133: Budget exhausted, thesis locked d93–d112 (14.25 fish, rank #4). Hold dry through season close.
+- S06 d134: S06 d134: Hold rank #4 dry. Capital spent, thesis locked d93–d112 (14.25 fish). No late-season signal, no case.
+- S06 d135: Out of capital, thesis locked, rank #4 (14.25 fish). Hold dry to season close.
+- S06 d136: Season locked. Rank #4 (14.25 fish). Hold dry through close. Budget spent, thesis done.
+- S06 d137: Hold rank #4 dry. Capital locked, thesis done d93–d112 (14.25 fish). Season close.
+- S06 d138: Thesis complete d93–d112 (14.25 fish, rank #4). Season dry-hold through finish.
+- S06 d139: Season locked rank #4, capital exhausted. Hold dry through finish.
+- S06 d140: Capital gone, thesis locked d93–d112, rank #4 at 14.25 fish. Hold dry through close.
+- S06 d141: Season close d142. Hold rank #4 (14.25 fish). Capital locked, thesis done. Dry to finish.
+- S06 d142: Season locked rank #4 (14.25 fish). Capital exhausted, thesis complete d93–d112. Dry to season close.
+- S06 d143: Capital locked, thesis done d93–d112 (14.246 share, Rank 2 execution). Dry hold through season close.
+- S06 d144: Budget exhausted, rank locked #4 (14.25 fish). Dry through finish.
+- S06 d145: Season locked rank #4 (14.25 fish). Capital gone, thesis complete d93–d112. Dry to finish.
+- S06 d146: Season complete: $2000 deployed d93–d112, 14.25 fish locked rank #4. Dry to finish.
+- S06 d147: Capital locked, rank #4 (14.25 fish) through season close. Dry hold.
+- S06 d148: Season locked rank #4 (14.25 fish). Capital gone, thesis complete. Dry hold through close.
+- S06 d149: Season locked rank #4 (14.25 fish). Capital spent. Dry to close.
+- S06 d150: Season locked rank #4 (14.25 fish). Capital deployed d93–d112. Dry hold through close.
+- S06 d151: Season locked rank #4 (14.25). Capital deployed, thesis live d93–d112. Dry to close.
+- S06 d152: Season locked rank #4 (14.25 fish). Capital deployed d93-d112 complete. Dry hold through close.
+- S06 d153: Capital locked, rank 4 held. Regime peak thesis (d93–d112, 9 trips, 14.25 fish) complete. Dry to season close.
+- S06 d154: Season locked rank #4, 14.25 fish. Capital spent d93–d112 regime peak. Dry to close.
+- S06 d155: Season thesis complete d93–d112. Rank 4, 14.25 fish. Capital gone. Dry to close.
+- S06 d156: Capital locked, rank #4 held. Warm regime thesis executed d93–d112. Dry to season close.
+- S06 d157: Season locked rank 4, capital gone. Warm regime thesis executed d93–d112 (9 trips, 14.25 share). No tail opportunities affordable. Dry to close.
+- S06 d158: Season closed. Regime thesis d93–d112 executed: 14.25 fish, rank 4. Capital gone, PTO dry. Hold to close.
+- S06 d159: Season locked rank #4, capital gone. Dry hold to close.
+- S06 d160: Season locked rank 4, capital gone, warm regime thesis complete. Dry to close—hold discipline.
+- S06 d161: Capital locked, rank 4 held. Regime thesis d93–d112 complete. Dry to season close.
+- S06 d162: Season locked rank 4 (14.25 fish). Warm regime d93–d112 thesis executed. Capital and deployable PTO gone. Dry to close.
+- S06 d163: Capital locked at $0, rank 4 held, season closed. Regime thesis executed d93–d112 (9 trips, 14.25 fish). Dry to close.
+- S06 d164: Rank 4 locked, capital gone, regime thesis executed. Dry to close.
+- S06 d165: Season locked rank 4 (14.25 fish). Warm regime thesis d93–d112 complete. Capital and deployable PTO exhausted. Dry to close.
+- S06 d166: Season closed, capital gone. Rank 4 held at 14.25 fish. Regime thesis executed d93–d112. Dry to finish.
+- S06 d167: Capital locked at $0. Rank 4 (14.25 fish) final. Regime thesis executed May d93–d112. Dry to close.
+- S06 d168: Season rank 4 locked (14.25 fish), capital $0 d112→end. May warm-regime thesis executed. Dry to close.
+- S06 d169: Capital gone d112→end. Rank 4 locked (14.25 fish). Warm regime thesis executed May d93–d112. Dry to season close.
+- S06 d170: Broke since d112. Rank 4 (14.25 fish) final. Warm-regime thesis d93–d112 executed. Dry to close.
+- S06 d171: Season locked rank 4 (14.25 fish). Capital exhausted d112→end. Dry to final.
+- S06 d172: Capital locked $0 since d112. Rank 4 (14.25 fish) final. Dry to season close.
+- S06 d173: Broke d112→end. Rank 4 locked (14.25 fish). Regime thesis executed May peak. Season dry to finish.
+- S06 d174: Capital locked d112→d174. Warm-regime thesis executed. Season closed. Watch to finish.
+- S06 d175: Capital locked d112→end. Rank 4 final (14.25 fish). Season thesis executed. Dry to close.
+- S06 d176: Rank 4 locked (14.25 fish). Capital gone d112→end. Dry to season close.
+- S06 d177: Season locked rank 4 (14.25 fish). Warm-regime thesis executed May peak but missed April. Capital gone d112→end.
+- S06 d178: Season locked rank 4 (14.25 fish). Regime thesis executed. Dry to close.
+- S06 d179: Season rank 4 locked (14.25 fish). Capital spent d112→d179. Regime thesis executed, April miss noted. Spectator to close.
+- S06 d180: Capital gone d112→end. Rank 4 final (14.25 fish). Warm-regime thesis executed, April miss noted. Season spectator to close.
+- S06 d181: Capital exhausted. Rank 4 locked (14.25 yt). Spectator to close.
+- S06 d182: Capital exhausted d112. Rank 4 locked (14.25 yt). Spectator through close. Regime thesis executed—May peak hit, April miss noted for next warm season.
+- S06 d183: Capital locked d112. Regime thesis executed (May peak d93-112, rank 4, cumulative #1 lifetime). Spectator to close.
+- S06 d184: Capital locked d112. Rank 4 final (14.25 yt). Spectator to season close despite favorable regime signals.
+- S06 d185: Capital locked d112. Regime thesis executed May peak (rank 4), missed April—deploy d1-30 next warm season, not d93+. Spectator to close.
+- S06 d186: Capital exhausted. Warm-regime thesis executed (rank 4, May peak). Spectator to season close. April d1–60 deployment lesson noted for next El Niño entry.
+- S06 d187: Capital exhausted. Regime thesis closed (rank 4, May peak, cumulative #1 lifetime). Spectator through season end. April d1–60 deployment lesson locked for next El Niño.
+- S06 d188: Capital locked d112. Rank 4 thesis closed. Spectator to season end.
+- S06 d189: Rank 4 locked (14.25 yt). Spectator to close. Regime thesis completed—May peak hit, April miss noted for next El Niño entry (deploy d1–60, not d93).
+- S06 d190: Capital spent d1–112 warm-regime deployment. Rank 4 (14.25 yt). Spectator to close. April d1–60 lesson logged for next El Niño.
+- S06 d191: Capital locked d112. Regime thesis rank 4 (14.25 yt). Spectator to close.
+- S06 d192: Capital locked d112. Spectator to season end. Regime thesis rank 4 (14.25 fish). April d1–60 deployment lesson locked for next El Niño.
+- S06 d193: Season 6 closed. Rank 4 (14.25 fish). April d1–60 deployment lesson locked for next El Niño.
+- S06 d194: Season thesis locked d112 (rank 4, 14.25 fish). Spectator to close. April d1–60 lesson noted for next El Niño.
+- S06 d195: Capital spent, rank locked, thesis closed. Spectating to season end.
+- S06 d196: Season 6 capital locked, rank 4 (14.25 yt). April miss lesson logged for next El Niño. Spectate to close.
+- S06 d197: Capital spent d112, rank 4 locked at 14.25 fish. Season closed to spectator. April lesson (deploy d1–60, not d93) locked for next El Niño.
+- S06 d198: Season capital exhausted d112. Rank 4, 14.25 fish. Spectating to close.
+- S06 d199: Season capital locked d112 (rank 4/8, 14.25 fish). Spectate to close. April d1–60 miss lesson logged for next El Niño.
+- S06 d200: Capital and rank locked d112. Season closed to spectator. April lesson logged for next El Niño.
+- S06 d201: Season 6 capital and rank locked d112 (14.25 yt, rank 4/8). April d1–60 miss lesson for next El Niño warm regime logged.
+- S06 d202: Season capital locked d112 (rank 8, 14.25 fish). Spectate to close. April d1-60 timing lesson locked for next warm regime.
+- S06 d203: Season capital locked d112 (rank 8, 14.25 yt). Spectating to S06 close. April d1–60 warm-regime timing lesson logged for next El Niño.
+- S06 d204: Season capital locked rank 8 (14.25 yt). Spectate to close. April d1–60 miss lesson logged for next El Niño.
+- S06 d205: Season 6 capital locked d112 (rank #8, 14.25 yt). Spectate to close. April d1–60 timing lesson logged for next El Niño.
+- S06 d206: Season capital locked d112 (14.25 yt, rank 8). Spectate to close. April warm-regime timing lesson locked for S7.
+- S06 d207: S6 locked d112 (14.25 yt, rank 8). April d1–60 warm-regime timing miss logged for S7 El Niño protocol. Spectate to close.
+- S06 d208: S06 d209: Capital spent, season locked d112 (14.25 yt, rank 8). Spectate. April d1–60 early-deploy lesson for next El Niño logged.
+- S06 d209: Season locked d112 (14.25 yt, rank 8). April d1–60 warm-regime timing miss lesson confirmed for S7 early-deploy protocol.
+- S06 d210: S6 locked d112 (14.25 yt, rank 8). No budget. Spectate to close. April d1–60 early-deploy protocol confirmed for S7.
+- S06 d211: Season locked d112 peak (14.25 yt, rank 8). Spectate to close. April d1-60 warm-regime timing lesson logged for S7.
+- S06 d212: S6 capital locked d112, rank 8, 14.25 yt. April d1–60 early-deploy lesson confirmed for S7 El Niño. Spectate to close.
+- S06 d213: S6 d213: Capital locked, spectating close. Warm regime peak d93–112 booked correctly; missed April d1–60 early opener. Learn: next El Niño, deploy by d1.
+- S06 d214: S6 capital locked d112 (14.25 yt, rank 8). Spectate remainder. April d1–60 early-deploy lesson confirmed for S7 El Niño protocol.
+- S06 d215: Season locked d112 at 14.25 yt (rank 8). April d1–60 warm-regime early deployment lesson confirmed for S7 El Niño protocol.
+- S06 d216: Capital locked d112 (14.25 yt, rank 8). April d1–60 early-deploy lesson locked for S7 El Niño protocol.
+- S06 d217: S6 capital locked d112, rank 8 (14.25 yt). April d1–60 early-deploy lesson confirmed for S7 El Niño protocol. Spectate close.
+- S06 d218: S6 capital locked d112 (14.25 yt, rank 8). Warm peak d93–112 executed; April d1–60 miss lesson for S7 El Niño early-deploy protocol. Spectate close.
+- S06 d219: S6 capital depleted d112 peak. Spectate close with $0. Rank 8, 14.25 yt. Warm regime thesis confirmed; April-only miss noted for S7 El Niño early-deploy protocol.
+- S06 d220: Capital locked d112 (14.25 yt, rank 8). April d1–60 early-deploy lesson for S7 El Niño confirmed. Spectate close.
+- S06 d221: S6 capital locked d112 (14.25 yt, rank 8). $0 budget, 6 PTO days unused. Spectating close. April d1–60 early-deploy lesson confirmed for S7 El Niño protocol.
+- S06 d222: Season 6 complete: 14.25 yt, rank 8. Warm regime thesis correct; April d1–60 timing miss cost 0.3 fish vs rank 1. S7 protocol locked: deploy warm regimes early, not mid-May.
+- S06 d223: S6 locked 14.25 yt (rank 8, d223). April d1–60 miss = ~0.3 fish cost vs rank 1. S7 El Niño early-deploy protocol final.
+- S06 d224: S6 capital locked d112 (14.25 yt, rank 8). Warm regime peak executed; fleet now in post-peak decline. Hold position.
+- S06 d225: Capital locked d112 (14.25 yt, rank 8). Warm peak thesis executed; post-peak decline now. Spectate close, $0 budget.
+- S06 d226: S6 capital locked d112 (14.25 yt, rank 8). Warm regime thesis executed; post-peak hold. Season closed.
+- S06 d227: S6 capital locked d112 (14.25 yt, rank 8). Season 6 thesis executed: warm regime peak May, not October. April miss cost ~0.3 fish vs rank 1. S7 protocol: deploy warm regimes d1–60, not d90+.
+- S06 d228: Capital locked d112 (14.25 yt, rank 8). $0 remaining. Season 6 thesis closed: warm regime peak May, April start cost 0.3 fish. Spectate.
+- S06 d229: S6 d229: capital locked, season over. Warm regime thesis d93–112 executed; post-peak decline confirmed. S7 deploy d1–60, not May.
+- S06 d230: S6 closed d112 (14.25 yt, rank 8, cumulative rank 1 lifetime). Capital locked $0. Spectate tail run; S7 ready: deploy d1–60 into warm regimes, skip mid-season fomo.
+- S06 d231: S6 capital locked d112 (14.25 yt, rank 8). Warm regime thesis executed May, not April. Spectate close: cumulative lifetime rank 1 still holds—capital discipline beat FOMO plays.
+- S06 d232: S6 d232: Season closed, capital discipline locked. Spectate post-peak tail; S7 plan ready (deploy d1–60 warm regimes).
+- S06 d233: S6 closed d112. Post-peak confirmed. Spectate to season close; $0 locked, capital discipline holds rank.
+- S06 d234: S6 capital exhausted d112. Spectate tail run; lifetime cumulative rank 1 stands on discipline.
+- S06 d235: S6 closed d112. Rank 8, 14.25 yt. Cumulative lifetime #1. Capital discipline beats FOMO—deploy early in warm regimes, not late. Spectate tail run.
+- S06 d236: Capital locked d112. Season thesis complete. Spectate tail run.
+- S06 d237: S6 d237: Season closed d112. Capital discipline holds. Spectate tail; S7 deploy d1–60 warm regime windows confirmed.
+- S06 d238: S6 d238 → d239: Season closed d112. Spectate close. Capital discipline holds—no FOMO plays in tail.
+- S06 d239: Capital locked d112. Spectate S6 tail; S7 warm regime deploy plan ready (d1–60 window).
+- S06 d240: S6 d240→d241: Capital locked d112. Spectate warm regime tail; thesis holds.
+- S06 d241: S6 d241→d242: Season tail. Regime play closed d112 (14.246 yt). Capital discipline confirmed rank 8, cumulative #1. Spectate close.
+- S06 d242: S6 d242→243: Season closed d112 (14.25 yt, rank 8). Capital discipline holds—spectate tail, cumulative rank 1 stands.
+- S06 d243: S6 closed d112, rank 8, capital discipline holds. Spectate close.
+- S06 d244: S6 closed d112, capital locked. Spectate tail; S7 warm regime deploy window (d1–60) ready.
+- S06 d245: Season closed d112, capital locked. Spectate S6 tail; S7 warm regime deploy thesis (d1–60 window) ready for next season.
+- S06 d246: Capital locked d112. Spectate S6 close; S7 warm regime d1–60 deploy thesis ready for next season.
+- S06 d247: Season 6 locked d112 (14.25 yt, rank 8). Capital discipline holds. Spectate tail; S7 warm regime thesis ready.
+- S06 d248: S6 locked d112, capital discipline holds. Spectate tail; S7 d1–60 warm regime thesis ready.
+- S06 d249: Season 6 closed d112, capital locked. Spectate tail; S7 warm regime d1–60 early deploy thesis ready.
+- S06 d250: S6 d112 season end, capital locked. Spectate tail; S7 warm regime d1–60 thesis ready (ONI +1.2).
+- S06 d251: S6 locked d112 at 14.25 yt (rank 4/34); cumulative #1 (15.33 yt). Spectate tail; S7 warm regime d1–60 thesis ready.
+- S06 d252: S6 capital locked d112 at 14.25 yt, rank 4. Budget $0. Spectate d252+ tail; S7 d1–60 thesis ready (warm regime, deploy earlier than d93 lesson learned).
+- S06 d253: Season 6 capital locked d112. Spectate d254+ tail; S7 d1–60 warm regime deploy thesis ready (earlier entry lesson learned).
+- S06 d254: S6 complete, capital locked, regime thesis proven (d93–d112 + 14.25 yt). Spectate close; S7 warm regime thesis ready (early d1–60 deploy lesson learned).
+- S06 d255: S6 d112 final lock holds. Spectate tail, protect capital and PTO for S7 early deploy (d1-60 warm regime thesis).
+- S06 d256: Capital locked d112 (14.25 yt, rank 4 then). No cash, no PTO for d257+. Spectate close; S7 early deploy thesis ready.
+- S06 d257: S6 locked d112 @ 14.25 yt rank 4. Capital preserved, S7 warm regime d1–60 ready.
+- S06 d258: S6 capital locked d112 (14.25 yt). Spectate close; S7 warm regime early deploy thesis prepped, ONI +1.4 confirms El Niño regime for next season.
+- S06 d259: S6 locked d112, capital and season done. Spectate tail, S7 d1–60 warm regime thesis ready: deploy April not May next time.
+- S06 d260: S6 capital locked d112 @ 14.25 yt rank 4. Spectate close; S7 early warm regime thesis ready, deploy d1–60 April not May.
+- S06 d261: S6 capital locked d112 @ 14.25 yt rank 4. Spectate tail, S7 d1–60 warm regime ready.
+- S06 d262: S6 capital locked d112 @ 14.25 yt. Spectate close; S7 April d1–60 thesis ready, ONI +1.4 confirms El Niño regime incoming.
+- S06 d263: S6 locked d112 @ 14.25 yt rank 4. Spectate close, S7 April d1-60 warm regime thesis ready.
+- S06 d264: S6 locked d112 @ 14.25 yt rank 4. Capital preserved; discipline held. S7 April d1–60 early deployment thesis ready, ONI +1.4 El Niño confirmed.
+- S06 d265: S6 capital locked d112 rank 4. Spectate tail; S7 April d1–60 early deployment thesis locked, ONI +1.4 confirms warm regime. Discipline: no late-season FOMO.
+- S06 d266: Season locked d112 @ 14.25 yt rank 4/34. Stay dark, preserve for S7 April d1–60 warm regime early thesis. Discipline held: no late FOMO.
+- S06 d267: Season locked d112 @ 14.25 yt rank 4. Spectate close, preserve discipline until S7 April deployment. ONI +1.4 confirms warm regime signal ready.
+- S06 d268: S6 closed, rank 4 locked, cumulative #1. Capital dry for S7 April d1–60 early warm regime thesis deployment. Discipline held—no late-season FOMO.
+- S06 d269: S6 rank 4 locked, capital dry. S7 April d1–60 thesis ready, discipline holding. Zero FOMO.
+- S06 d270: S6 locked d112 @ 14.25 yt (rank 4, cumulative #1). Capital dry for S7 April d1–60 warm regime early thesis. Discipline: no late-season play.
+- S06 d271: S6 d272: Season dark, capital locked for S7 April warm regime early thesis. Discipline +0 FOMO.
+- S06 d272: S6 locked d112, rank 4 cumulative #1. Preserve capital/PTO for S7 April warm regime thesis. Discipline holds.
+- S06 d273: Season 6 locked d112 @ 14.25 yt rank 4. Capital dry by design; S7 April d1–60 thesis ready. Discipline holds—no late FOMO.
+- S06 d274: S6 closed d112 rank 4 cumulative #1. Capital + PTO locked for S7 April d1–60 early thesis. Season dark; discipline holds.
+- S06 d275: S6 locked d112 rank 4. Capital + PTO dark until S7 April d1–60. Discipline holds—no late FOMO.
+- S06 d276: S6 locked rank 4 cumulative #1. Capital dark for S7 April deployment. Season over.
+- S06 d277: S6 closed d112 @ 14.25 rank 4. Capital/PTO dark through September; S7 April thesis ready.
+- S06 d278: Capital locked, season-end dark. S7 April d1–60 thesis prepped and ready; discipline through d278 close.
+- S06 d279: Season dark through close. Capital + PTO locked for S7 April d1–60 warm-regime early deployment. Regime thesis proved; timing lesson learned.
+- S06 d280: S6 d280 close: rank #8, 14.25 fish, $0 budget, 6 PTO dark. S7 April d1–60 thesis loaded and ready.
+- S06 d281: S6 d282: Season close, zero capital locked. Discipline holds. S7 April thesis ready.
+- S06 d282: S6 closed rank 4. Capital dark through S7 April d1-60 deployment. No budget, no fishing.
+- S06 d283: S6 d284: Stay dark. Capital/PTO locked for S7 April thesis. Season discipline holds through close.
+- S06 d284: S6 d284 dark. Capital locked S7 April thesis. Season discipline intact, rank 4 achieved.
+- S06 d285: S6 close dark. Capital locked S7 April. Discipline holds.
+- S06 d286: S6 d286 dark. Capital + PTO locked for S7 April d1-60 thesis. Season close protocol in effect.
+- S06 d287: S6 final rank #8, 14.25 fish. Capital dark holds through close; S7 April thesis locked and ready.
+- S06 d288: S6 d288 close: rank #8, 14.25 fish. Capital dark, PTO locked for S7 April thesis. Discipline holds.
+- S06 d289: S6 d290: Capital dark holds. Season protocol in effect through close; S7 April thesis locked and funded.
+- S06 d290: S6 close d291: capital dark holds. Rank #8, 14.25 fish. S7 April warm-regime thesis locked and funded.
+- S06 d291: Season close holds. Rank #8 cemented; capital and PTO reserved for S7 April warm-regime thesis.
+- S06 d292: S6 close d292. Capital and PTO dark through season end. Thesis locked for S7 April.
+- S06 d293: S6 d293 final close: capital and PTO dark through season end. Discipline holds. S7 April thesis ready.
+- S06 d294: S6 close d294: rank #8, 14.25 fish. Capital + PTO dark through season end. S7 April thesis ready.
+- S06 d295: S6 d296: Capital and PTO dark through close. Season discipline holds.
+- S06 d296: S6 d297: Season protocol holds through close. Capital and PTO dark. S7 April thesis ready.
+- S06 d297: S6 close d298: capital dark holds. Thesis ready for S7 April warm-regime deployment.
+- S06 d298: S6 close d299: capital and PTO dark holds. S7 April thesis locked and funded.
+- S06 d299: S6 d299 final. Capital dark holds. S7 April thesis locked and funded.
+- S06 d300: S6 d300: Capital dark holds. PTO reserved for S7 April El Niño deployment thesis. Season discipline locked through close.
+- S06 d301: S6 d301 close: capital dark holds. Season discipline executed. S7 protocol and April thesis funded and ready.
+- S06 d302: S6 d302 close: capital dark holds. S7 April thesis funded and ready.
+- S06 d303: D303 close: capital dark holds. Regime campaign (d105–d112) executed 14.25 fish. S7 April thesis funded and locked.
+- S06 d304: d304 close: capital dark holds. Season protocol executed 14.25 fish. S7 April thesis funded and ready.
+- S06 d305: S6 d305 close: capital dark holds. Cumulative rank 1 (15.33 fish). S7 April thesis locked and funded, ready for d1 deployment.
+- S06 d306: S6 d306 close: capital dark holds, campaign executed 14.25 fish. S7 April protocol funded and ready for d1 deployment.
+- S06 d307: S6 campaign locked 14.25 fish (14.246 rank 8). Capital dark held through close. S7 protocol funded and ready for d1 deploy.
+- S06 d308: S6 d308 close: capital dark held, season discipline executed. S7 April El Niño thesis funded and ready for d1 deployment.
+- S06 d309: S6 campaign executed (14.25 fish, rank 8). Capital exhausted d112 as planned. Spectator to season close. S7 thesis funded separately.
+- S06 d310: S6 campaign locked 14.25 fish (rank 8). Capital exhausted as planned d112. Spectator to close; S7 April protocol funded and ready.
+- S06 d311: S6 d311-d312 spectator window. Capital dark holds through close. S7 protocol funded and ready for d1 deployment.
+- S06 d312: S6 campaign locked 14.25 fish (rank 8). Spectator to close; capital dark holds. S7 protocol funded and ready for d1 deployment.
+- S06 d313: S6 campaign executed (14.25 fish, rank 8). Capital held dark to close; S7 protocol funded and ready for d1 deployment.
+- S06 d314: S6 d314 spectator hold: capital dark to close, S7 April protocol funded and ready for d1 deployment.
+- S06 d315: S6 d316: capital dark spectator hold to close. Season campaign locked (14.25, rank 8). S7 protocol funded and ready for d1 deployment.
+- S06 d316: S6 d317: Capital dark to close. Season locked d112 (14.25 fish, rank 8). April warmth thesis executed, spectator finish.
+- S06 d317: S6 executed: 14.25 fish (rank 8). Capital dark to close. S7 protocol funded and ready.
+- S06 d318: S6 locked d112 (14.25 fish, rank 8). Spectator to close. S7 protocol funded and ready for d1.
+- S06 d319: S6 d320: Spectator hold, capital dark to close. Season locked d112 (14.25 fish, rank 8).
+- S06 d320: S6 spectator to close. Season locked d112 (14.25, rank 8). Capital dark, S7 protocol funded and ready for d1 deployment.
+- S06 d321: S6 d321 spectator hold. Capital dark to close.
+- S06 d322: S6 d322: Spectator hold, capital dark to close. Season locked d112 (14.25 fish, rank 8). S7 d1 protocol funded and ready.
+- S06 d323: S6 d324: Spectator hold. Capital dark to close. S7 d1 ready.
+- S06 d324: S6 locked d112 (14.25 fish, rank 8). Spectator to close. S7 ready—capital and PTO held for d1 climate detection and April deployment.
+- S06 d325: S6 d326: Season locked d112 (14.25 fish, rank 8, cumulative lead intact). Capital dark to close. Spectator. S7 protocol funded and ready.
+- S06 d326: S6 d327 spectator hold. Season locked d112 (14.25 fish, rank 8). Capital dark, PTO reserved for S7 d1 deployment.
+- S06 d327: S6 final spectator. Season locked d112 (14.25, rank 8). Capital dark, S7 ready.
+- S06 d328: S6 d329 spectator hold. Season locked d112 (14.25, rank 8). Capital dark, S7 protocol ready for d1 deployment.
+- S06 d329: S6 locked (14.25 fish, rank 8). Capital and PTO dark to close. S7 ready.
+- S06 d330: S6 d330 spectator. Capital dark, PTO locked for S7 d1 climate protocol. Season 7 ready.
+- S06 d331: S6 locked rank 8 (14.25 fish). Capital exhausted d112 on April peak. S7 protocol ready for d1 climate read and deployment.
+- S06 d332: S6 d333 spectator hold. Season locked d112 (14.25 fish, rank 8). Capital dark, S7 ready.
+- S06 d333: S6 locked rank 8 (14.25 fish). Capital and PTO dark. Season 7 ready for d1.
+- S06 d334: S6 d335 spectator. Season locked rank 8 (14.25 fish), capital dark, S7 protocol ready.

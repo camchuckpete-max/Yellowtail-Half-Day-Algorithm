@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 122.2,
+ "claude": {
+  "duration_api_ms": 118884,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2150741,
+  "usage": {
+   "input_tokens": 110,
+   "cache_creation_input_tokens": 48660,
+   "cache_read_input_tokens": 662791,
+   "output_tokens": 10273,
+   "output_tokens_details": {
+    "thinking_tokens": 2817
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48660,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 579,
+     "cache_read_input_tokens": 66287,
+     "cache_creation_input_tokens": 1348,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1348
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 110,
+    "outputTokens": 10273,
+    "cacheReadInputTokens": 662791,
+    "cacheCreationInputTokens": 48660,
+    "webSearchRequests": 0,
+    "costUSD": 0.2150741,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2817,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 27,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated notes.md with discovery of early peak at DOY 175-182 (already scored 8.6 fish), now continuing at d181-d182 (0.53-0.59 yt/angler). Original DOY 260+ strategy needs pivot: extend early peak with 1 weekend DAY_1_5 if fleet holds \u22650.4 yt/angler through d190, then return to fall peak plan. Watch list set for d183-d190 trigger decision.\n\n**Two-line summary:**\nDiscovered early peak outperforming historical model (DOY 175-182 live at 0.53-0.59 yt/angler, already +8.6 fish). Revised to extend early peak 1 trip if conditions hold through d190, then fall back to DOY 260+ secondary window for cumulative board potential.",
+  "ttft_ms": 2296,
+  "type": "result",
+  "duration_ms": 120550,
+  "uuid": "7f7268bf-34e3-4b99-b1d8-d12eab2ad359",
+  "ttft_stream_ms": 598,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 598,
+  "time_to_request_from_spawn_ms": 53207884,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790344586276.7285,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

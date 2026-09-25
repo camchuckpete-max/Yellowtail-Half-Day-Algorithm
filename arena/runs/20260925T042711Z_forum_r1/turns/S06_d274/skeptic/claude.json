@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 144.9,
+ "claude": {
+  "duration_api_ms": 140606,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2582161,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 62374,
+   "cache_read_input_tokens": 726231,
+   "output_tokens": 12149,
+   "output_tokens_details": {
+    "thinking_tokens": 3011
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 62374,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 618,
+     "cache_read_input_tokens": 80105,
+     "cache_creation_input_tokens": 1244,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1244
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 12149,
+    "cacheReadInputTokens": 726231,
+    "cacheCreationInputTokens": 62374,
+    "webSearchRequests": 0,
+    "costUSD": 0.2582161,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3011,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\nI've completed Season 6 analysis and prepared Season 7 strategy based on evidence from data and outcomes. **Season 6 final: 8.08 fish (rank 16/34), cumulative 0.3641 (rank 24/34).** Root cause of underperformance: capital exhaustion at d177 after $550 over-extension locked me out of d180-189 (6-8 fish missed), d201-209 (3-5 fish), and d210-212 (6-8 fish) mega-peaks in the El Ni\u00f1o regime window.\n\n**Season 7 preparation complete:** Updated strategy.py with regime detection (ONI-based El Ni\u00f1o/La Ni\u00f1a/Neutral), 3-phase capital allocation by regime, hard $300 minimum budget gate, and 2+ day signal confirmation rules. Updated notes.md with detailed playbook, execution checklist, and explicit red flags to avoid d142-d143 anomaly chasing and d177 capital exhaustion. Target: 10+ fish/season to rebuild cumulative rank toward top 10 by Season 10.",
+  "ttft_ms": 2560,
+  "type": "result",
+  "duration_ms": 142956,
+  "uuid": "d92972dc-1f45-4684-bc7e-d471b692ff1a",
+  "ttft_stream_ms": 676,
+  "time_to_request_ms": 174,
+  "first_content_frame_ms": 677,
+  "time_to_request_from_spawn_ms": 58605275,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349983345.16,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

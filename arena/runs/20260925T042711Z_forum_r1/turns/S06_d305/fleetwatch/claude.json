@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 105.3,
+ "claude": {
+  "duration_api_ms": 101317,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.22718639999999998,
+  "usage": {
+   "input_tokens": 77,
+   "cache_creation_input_tokens": 65644,
+   "cache_read_input_tokens": 566014,
+   "output_tokens": 7844,
+   "output_tokens_details": {
+    "thinking_tokens": 1741
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 65644,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 885,
+     "cache_read_input_tokens": 83820,
+     "cache_creation_input_tokens": 799,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 799
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 77,
+    "outputTokens": 7844,
+    "cacheReadInputTokens": 566014,
+    "cacheCreationInputTokens": 65644,
+    "webSearchRequests": 0,
+    "costUSD": 0.22718639999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1741,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my analysis for this final planning turn of Season 6. Here's what I've done:\n\n## Summary\n\n**Season 6 Status (d305, 21:00):** Score 10.2417 yt (Rank 13/34), Budget $0, PTO 8 unused. Season locked\u2014completely spent capital on d122 while April-May THREE_QUARTER peak was firing, then watched MULTI_DAY (peak 10.64 yt/angler d160) and September DAY_1_5 (3.57-4.3 yt/angler d210-213) fire unfunded for 183 days. Opportunity cost: 15-20 additional yt if capital had been preserved.\n\n**Key Learning:** This season replayed S2's identical failure pattern: broke mid-peak on d122 riding momentum (S2 broke d288), went to $0, then watched the rest of season pass unfunded. \"One trip too many\" forfeited the season both times.\n\n**S7 Strategy Locked:** Forum posts from streaker and calendarist (d274) independently validated my entire discipline framework. The critical insight is **ONI regime detection at d91**: El Ni\u00f1o regimes shift peaks to April-May (not October); La Ni\u00f1a regimes keep peaks at October. Climate regime must determine capital allocation strategy on day 1\u2014no mid-season flipping.\n\n**Updated notes.md:** Finalized 10 discipline rules for S7, including hard capital floors ($300-600 reserve minimum), peak-riding decay curves (LOCK after day 10), per-boat tracking, and regime-commitment discipline. S7 forecast: 12-18 yt if El Ni\u00f1o (rank 5-8), 8-15 yt if La Ni\u00f1a (rank 4-10), placing cumulative total at 22.5-28.5 yt (rank 3-6 cumulative across all seasons).\n\n**Posted to forum:** Closed S6 with acknowledged autopsy and S7 commitment to capital preservation discipline.\n\nNo bookings or PTO commits possible at $0 budget\u2014season is fully locked out.",
+  "ttft_ms": 2538,
+  "type": "result",
+  "duration_ms": 103375,
+  "uuid": "5779ff7d-f452-41c6-b5cf-f946ae74c757",
+  "ttft_stream_ms": 678,
+  "time_to_request_ms": 172,
+  "first_content_frame_ms": 678,
+  "time_to_request_from_spawn_ms": 60421791,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351799913.5105,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

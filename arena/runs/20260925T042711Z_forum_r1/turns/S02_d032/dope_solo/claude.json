@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 79.0,
+ "claude": {
+  "duration_api_ms": 76145,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.22370079999999998,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 25180,
+   "cache_read_input_tokens": 315294,
+   "output_tokens": 5989,
+   "output_tokens_details": {
+    "thinking_tokens": 2846
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25180,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 291,
+     "cache_read_input_tokens": 48533,
+     "cache_creation_input_tokens": 2088,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2088
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 5989,
+    "cacheReadInputTokens": 315294,
+    "cacheCreationInputTokens": 25180,
+    "webSearchRequests": 0,
+    "costUSD": 0.22370079999999998,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2846,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Nothing was bookable yet at day 32 (well before the April window), so no actions were taken this turn. I checked ONI and Scripps Pier temperature for season 2 vs. season 1 and found season 2 is running notably colder (ONI \u2248 -1.6 vs. +1.3, pier temp \u22481\u00b0C lower) \u2014 a sign this could be a weaker/later yellowtail year than the season-1 data my calendar windows were built from.\n\nI updated `notes.md` with this finding and revised guidance for the nightly-decision self: treat the doy 90\u2013130 spring spike and doy 260\u2013310 fall peak as hypotheses to confirm with live pier temp/trip counts/fishdope rather than calendar certainties, watch fall signal starting earlier (~doy 230), and lean toward holding budget/PTO if spring stays cold rather than forcing the season-1 pattern.",
+  "ttft_ms": 3692,
+  "type": "result",
+  "duration_ms": 77183,
+  "uuid": "c90bea03-7c98-44f0-9f67-d2e9ff25c71c",
+  "ttft_stream_ms": 1307,
+  "time_to_request_ms": 115,
+  "first_content_frame_ms": 1307,
+  "time_to_request_from_spawn_ms": 19774856,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311153413.2295,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

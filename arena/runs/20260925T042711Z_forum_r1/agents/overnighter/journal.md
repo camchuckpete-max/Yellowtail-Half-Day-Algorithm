@@ -1,0 +1,487 @@
+- S02 d091: Early April slump: fleet at 0 yt/angler, water warming to 62.8°F. Holding capital for June/October overnight peaks.
+- S02 d092: Early fall slump confirmed (0.000 yt/angler). Targeting Oct 16-22 peak overnighters—all weekend/Friday, zero PTO needed. ~20 days to wait.
+- S02 d093: Early-fall dead zone confirmed (0.000 yt/angler all classes, d087–d093). Oct 16 & 22 are weekend overnighters—no PTO needed. Waiting 21–27 days for peak.
+- S02 d094: Dead zone continues. Targeting Oct 16–22 overnighter peak (~20d out)—all should be Fri/Sat, zero PTO needed. Staying disciplined.
+- S02 d095: Dead zone continues as expected. No bookable overnighters tomorrow. Staying disciplined, waiting for October peak—all targeting weekends anyway, zero PTO burden.
+- S02 d097: Dead zone confirmed (60.8°F water, recent overnight 0.000 yt). Untested Jig Strike too risky. Waiting for Oct peak (1.5+ yt/angler, all weekends).
+- S02 d098: Dead zone ongoing. Waiting for Oct 16–22 overnighter peak (21 days), all weekends, zero PTO. Staying disciplined.
+- S02 d099: Dead zone holds. October peak ~20d out (DOY 289–295)—targeting weekend overnighters, zero PTO. Staying disciplined.
+- S02 d100: Dead zone holds. Oct peak ~20d out (DOY 289-295), all weekends (zero PTO). Staying disciplined.
+- S02 d101: Dead zone holds. Targeting Oct 16-22 overnight peak (~20d out), weekends only, zero PTO. Staying disciplined.
+- S02 d102: Dead zone holding at 0.000 yt/angler all classes. October peak 24 days out (weekend overnighters, zero PTO needed). Staying disciplined.
+- S02 d103: Dead zone confirmed (61.7°F, 0.000 yt). October peak 20d out (DOY 289–295). Weekend overnighters = zero PTO. Staying disciplined.
+- S02 d104: Dead zone confirmed (61.9°F, no boats for overnight). Oct peak ~16 days out. Staying disciplined, all five trips reserved for October weekends.
+- S02 d105: Dead zone 61.5°F. Oct peak 14–15 days out (all weekends, zero PTO needed). Staying disciplined.
+- S02 d106: Dead zone confirmed; October peak 20 days out (weekend overnighters, zero PTO). Staying disciplined.
+- S02 d107: Dead zone holds at 62.2°F. October peak ~13 days (weekend overnighters, zero PTO). Staying disciplined.
+- S02 d108: Dead zone d109 (63°F). October weekends peak 181d out (zero PTO). Staying disciplined.
+- S02 d109: Dead zone holding (63.9°F, 0.000 avg recent). October peak ~25d out—targeting weekend overnighters only (zero PTO). Staying disciplined.
+- S02 d110: Dead zone holds. October peak ~25d out (weekends). Overnighters, zero PTO. Disciplined.
+- S02 d111: Dead zone holds (55.9°F). October peak ~11d out, weekend overnighters only. Disciplined.
+- S02 d112: Dead zone holds (58°F). No overnight boats available. Disciplined wait for October peak.
+- S02 d113: Dead zone holds (62.6°F, d113 fleet 0.008 avg). October peak 20 days. Weekend overnighters incoming, zero PTO needed.
+- S02 d114: Dead zone holds. October peak ~20d out (weekends only, zero PTO). Disciplined wait.
+- S02 d115: Dead zone persists, zero overnight boats tomorrow anyway. Disciplined wait for June/October peaks.
+- S02 d116: Dead zone persists, fleet 0.000 avg. October overnighters 20d out (weekends only, zero PTO). Disciplined hold.
+- S02 d117: Dead zone holds; October peak 18d out (d135-d145). Weekend overnighters incoming, zero PTO needed. Disciplined hold.
+- S02 d118: Dead zone confirmed (64.8°F, overnight fleet weak). Peak season ahead. Disciplined hold.
+- S02 d119: Fleet weak (0.0–0.014 recent, dead zone). October peak 10–14d out with weekend overnighters (zero PTO). Disciplined hold.
+- S02 d120: Dead zone holds. October peak 9–15d out (weekend overnighters, zero PTO). Disciplined hold.
+- S02 d121: Dead zone holds. October peak 9–15d out (weekend overnighters, zero PTO). Disciplined hold.
+- S02 d122: Dead zone holds. June peak 49d out, October 167d out. Disciplined hold.
+- S02 d123: Dead zone d124 (no bookable boats). October peak 165d out. Disciplined hold for seasonal surge.
+- S02 d124: Dead zone d125, October peak 20d out (weekend overnighters, zero PTO). Disciplined hold for seasonal surge.
+- S02 d125: Dead zone holds (60.1°F, overnight 0.000 d125). October peak d135–d145 is 10–20d out. Hold disciplined.
+- S02 d126: Dead zone d128, October peak 9d out (d135–d145, weekend overnighters, zero PTO). Disciplined hold.
+- S02 d127: Dead zone holds. October peak 8d out (d135–d145), weekend overnighters confirmed free. Disciplined seasonal hold.
+- S02 d128: d128 Sun: Cold dead zone holds—fleet silent. Disciplined hold for October peak (d288–d297).
+- S02 d129: Dead zone holds. October peak window (d135–d145) 6–16 days out. Disciplined hold for seasonal surge.
+- S02 d130: Dead zone d131–d134 holds. October peak d135–d145 in 5–15 days. Holding for weekend overnighter bookings.
+- S02 d131: Dead zone hold d131–d134. October peak d135–d145 imminent; target weekend overnighters (zero PTO).
+- S02 d132: Hold d134 dead zone. Peak d135–d145 imminent; target weekend overnighters there.
+- S02 d133: Dead zone d134 holds; monitor d141+ weekend overnight bookings in peak window.
+- S02 d134: Dead zone hold d135–d140; peak target d141 Sat overnight. Book when d140 briefing confirms conditions.
+- S02 d135: Peak window d135–d145 live. Hold Mon d136 (weekday, no PTO). Target d141 Sat overnight (zero PTO, fishes d142 Sun)—book if d140 briefing confirms. Fleet quiet; dead zone d140 still holds.
+- S02 d136: Dead zone confirmed Sept 25–30. October peak (DOY 288–297) now 20 days out. Water 64°F. Hold for overnighters.
+- S02 d137: Dead zone confirmed through d140 (Oct 7). October peak target 20 days out (DOY 288–297). Hold cash and PTO for weekend overnighter bookings.
+- S02 d138: Dead zone hold d140. October peak target d149–d158 (20 days out); book weekend overnighters there.
+- S02 d139: Dead zone d140 confirmed. October peak d150–d160 target still 20 days out. Hold for briefing signal.
+- S02 d140: Dead zone hold. October peak (DOY 288–297) 19–28 days out; watch early October briefings for weekend overnight bookings.
+- S02 d141: Dead zone hold; October peak (DOY 288–297) target 20 days out. Watch d140 briefing for conditions shift signal.
+- S02 d142: Dead zone hold through early October. Target weekend overnighters Oct 14–23 peak; watch d148–d150 briefings for booking signal.
+- S02 d143: Dead zone hold d144. Target weekend overnighters Oct 14–24 (DOY 288–297), ~20 days out. Watch d148–d150 for booking signal. Fri/Sat departures zero PTO cost.
+- S02 d144: Dead zone hold through d147. Watch d148–d150 briefings for October peak window weekend overnighter bookings.
+- S02 d145: Dead zone hold d146. June d170–180 target 25 days out; October d288–297 peak 143 days out. Commit PTO tactically closer, weekends first.
+- S02 d146: Dead zone hold d148. October peak target (DOY 288–297) ~20 days out; watch d150–d152 briefings for weekend overnight booking window.
+- S02 d147: Booked Producer overnight d149 (Sat→Sun). October peak open; class metrics strong despite unknown boat. Early season commitment."
+- S02 d148: Dead zone hold d150. Producer overnight booked; October peak target DOY 288–297 watching d150–d152 briefings for Fri/Sat booking window.
+- S02 d149: Producer d149 empty, water 63.9°F cold. Hold for October Fri/Sat window (DOY 288–297); watch d150–d152 briefings for overnight schedules into mid-October.
+- S02 d150: Dead zone hold. October Fri/Sat target (DOY 288–297, ~20 days ahead); watch d152–d154 briefings for overnight boat schedules into mid-October.
+- S02 d151: Dead zone hold through mid-May. October Fri/Sat target (DOY 288–297) remains strategic focus; watch August briefings for overnight boat schedules into mid-October.
+- S02 d152: Dead zone hold through early June. Watch d154–d156 briefings for weekend overnight boat schedules; plan June peak (DOY 170–171) and October trips at proper lead time.
+- S02 d153: Dead zone hold. June d170–171 peak window (3.05–3.09 yt/angler) 16–17 days out; wait for d156+ briefing to confirm dates and commit PTO strategically.
+- S02 d154: Dead zone hold through early June. October Fri/Sat peak (DOY 287-297) target; watch Sept 27-29 briefings for weekend overnight boat schedules and booking window.
+- S02 d155: Dead zone hold. Overnight class locked; stay home. October Fri/Sat peak target (DOY 287–297) ~53 days out; watch late-Aug briefings for overnight boat schedules.
+- S02 d156: Dead zone hold through early June. June peak (DOY 170–171, 3.05–3.09 yt/angler) 14–15 days out; watch next 2–3 briefings for overnight boat schedules into mid-June before PTO commitment.
+- S02 d157: Dead zone hold. October Fri/Sat peak (DOY 287–297) ~53 days out; watch late-Sept briefings for overnight boat schedules into mid-October before PTO commitment.
+- S02 d158: Dead zone hold. Overnight locked; watch d159–d160 briefings for June peak boat schedules (DOY 170–171) before PTO commitment. October (DOY 287–297) still 135 days out.
+- S02 d159: Dead zone hold. Watch d160–d162 briefings for June peak overnight boats (DOY 170–171). October (DOY 287–297) still 127 days out.
+- S02 d160: Dead zone hold through early June. Watch d161–d162 briefings for overnight boats into DOY 170–171 (June peak) before PTO commitment.
+- S02 d161: Dead zone hold. October peak (DOY 287–297) remains primary target; watch d163–d165 briefings for overnight boat schedules before PTO commitment.
+- S02 d162: Dead zone hold. Watch d164–d166 briefings for October overnight boat schedules; PTO commitment window opens ~DOY 273.
+- S02 d163: Dead zone hold. Next PTO commitment window ~DOY 273 for October peak departure window DOY 287–289.
+- S02 d164: Staying home. Watch d165–d166 briefings for overnight boats into June peak (DOY 170–171); commit PTO and book when they appear.
+- S02 d165: June peak missed. October DOY 287-289 primary target (5.0 yt/angler); watch late-August briefings for overnight boats before PTO lock-in ~DOY 273.
+- S02 d166: Dead zone hold continues. Watch d168–d169 briefings for overnight boats departing d170–d171 (June peak); book if Pacific Voyager or Pride appear with strong records.
+- S02 d167: Holding dead zone. June peak window (d170–d171 fishes) should appear in d168 briefing; book then if boats show. One day too early tonight.
+- S02 d168: June peak d170 boats weak (Producer 0.000 yt/angler). Stay home, watch late August briefings for October overnight schedule before PTO lock-in ~DOY 273.
+- S02 d169: June peak window weak (d169 THREE_QUARTER 0.035 yt/angler). Hold for October overnight schedule in late-August briefings; commit PTO ~DOY 273 for peak 5.0 yt/angler trips.
+- S02 d170: D170 dead zone, hold on schedule. Watch d173+ briefs for summer overnights; October peak (~DOY 287-289) is primary target. PTO commit window ~d273.
+- S02 d171: Dead zone hold. Watching d173+ briefs for overnight boats; October peak target window (~DOY 287–289) drives all planning. PTO commit ~d273.
+- S02 d172: Dead zone hold continues. Watching d174+ briefings for October overnight boats (target DOY 287–289 peak, 5.0 yt/angler). Will commit PTO ~DOY 273 when schedule appears.
+- S02 d173: Dead zone hold. October peak window (DOY 287–289) is 18 days out; watch next two weeks' briefings for strong overnight boats before PTO lock-in window closes.
+- S02 d174: Stay home. Tomorrow's overnight boats weak (Mustang 0.053, Producer 0.000). Holding for October peak; will scout late-August briefings before DOY 273 PTO lock-in.
+- S02 d175: Dead zone hold. October peak 19 days (DOY 287–289); scout d176+ briefs for overnight boats before PTO lock-in ~d273.
+- S02 d176: Dead zone hold. October peak (DOY 287–289, ~18d out) remains focus. Scout S02 d180+ briefs for overnight boats before PTO lock-in.
+- S02 d177: Dead zone hold. October peak window (~DOY 287–289) is primary target; scout d180+ briefs for overnight boats before late-August PTO lock-in.
+- S02 d178: Dead zone hold. Locked PTO for October peak weekday overnights (DOY 287, 288). Target Saturday overnight (DOY 289) bonus, fishing DOY 289 with no PTO cost. Waiting on late-Sept briefs for boat schedules.
+- S02 d179: Dead zone hold. October peak (d287–289) is 108+ days out; no PTO commits needed until d273–276. Watching October briefs for boat schedules before lock-in window.
+- S02 d180: Dead zone hold. October peak (d287–289) remains primary target; PTO committed for d287–288. Watching late-Sept briefs for overnight boat schedules.
+- S02 d181: Dead zone hold. October peak 106d out (d287–289). All overnight boats weak now (0.03 yt/angler); will scout d200+ for boat schedules before PTO lock-in window (~d273–275).
+- S02 d182: Dead zone hold. October peak (d287–289) is 106d out; locked additional PTO buffer for weekday fishing around peak window. Four overnight trips reserved for October.
+- S02 d183: Dead zone hold. October peak (DOY 287–290) locked in; waiting on late-Sept briefs for Cortez/overnight boat schedules before final confirmation.
+- S02 d184: Dead zone hold. October peak (d287–290) remains primary target; waiting on October briefs for overnight boat schedules before d273 PTO lock-in window.
+- S02 d185: Dead zone hold. PTO locked for October peak d287, d290; awaiting October briefs for final Cortez scheduling d288–d289.
+- S02 d186: Dead zone hold. October peak (d287–290) locked in; watching late-Sept briefs for Cortez overnight boat schedules d288–d289 confirmation.
+- S02 d187: Dead zone hold. October peak (d287–290) locked in; monitoring October briefs for d288–d289 Cortez confirmation before d274 PTO lock-in window.
+- S02 d188: Late-September dead zone hold. October peak (d287–290) locked; watching October briefs for Cortez boat confirmation d288–d289.
+- S02 d189: Dead zone hold. October peak (d287–290) locked; PTO committed d287, d290; will commit d288–d289 PTO by d275 after October briefs confirm boat schedules.
+- S02 d190: Dead zone hold. Committed PTO for mid-October peak d288–d289 (Wed–Thu). Watching October briefs for Cortez overnight confirmation d287–d290.
+- S02 d191: Dead zone hold. October peak (d287–290) PTO d287, d290 locked; awaiting October briefs for Cortez boat confirmation before d275 PTO lock-in window.
+- S02 d192: Dead zone hold. October peak (d287–d290) locked; watch October briefs for Cortez d288–d289 confirmation before d274–d275 PTO lock-in window.
+- S02 d193: Dead zone hold. October peak (d287–290) PTO d287, d290 locked; waiting for October briefs to confirm Cortez d288–d289 schedule before d274 PTO commitment window.
+- S02 d194: Dead zone hold. All fuel reserved for October Cortez window (d288–290).
+- S02 d195: New Lo-An hot (1.333 yt/angler d195), but late Sept dead zone holds. October Cortez peak remains only viable target—stay disciplined.
+- S02 d196: Dead zone hold. October peak (d287–290) locked; awaiting October briefs to confirm Cortez d288–d289 before d274 PTO lock-in window.
+- S02 d197: Dead zone hold. October Cortez peak (d288–290) locked as primary target. Will commit d288–d289 PTO by d275 after October briefs.
+- S02 d198: Dead zone hold d199. October Cortez peak (d287–290) locked; awaiting October briefs to confirm d288–d289 Cortez schedule before d274–d275 PTO commitment window.
+- S02 d199: Dead zone hold; OVERNIGHT class warm but not peak. October Cortez (d288–290) remains target—stay disciplined.
+- S02 d200: Dead zone hold. OVERNIGHT unbookable (no pre-committed d202 PTO). Saving all fuel for Cortez peak d288–290.
+- S02 d201: Dead zone hold d202. October Cortez peak (d288–290) locked. Six weeks to peak; stay disciplined.
+- S02 d202: Dead zone hold d203. October Cortez peak locked; stay disciplined.
+- S02 d203: Dead zone hold confirmed. October Cortez peak (d288–290) locked; stay disciplined through September.
+- S02 d204: Dead zone hold d205. October peak locked d288–290; commit d288–d289 PTO after Oct briefs (d274–d275 window open).
+- S02 d205: Dead zone hold d206. October Cortez peak (d288–290) locked; commit d288–d289 PTO at d274–d275 window after October briefs.
+- S02 d206: Dead zone hold d207. October Cortez peak (d288–d290) locked; stay disciplined.
+- S02 d207: Dead zone hold d208. October Cortez peak (d288–d290) locked; stay disciplined.
+- S02 d208: Dead zone hold. October Cortez peak locked d288–290; stay disciplined through September.
+- S02 d209: Dead zone hold d210. October peak (d288–290 Cortez) locked; confirm d289 PTO by d275 window after October briefs.
+- S02 d210: Dead zone hold d211. October Cortez peak d288–290 locked; all three overnight trips and four-trip season plan secured.
+- S02 d211: September dead zone hold d212. October Cortez peak d288–290 locked; stay disciplined.
+- S02 d212: September hold. October Cortez peak d288–290 locked; discipline pays.
+- S02 d213: September dead zone hold. October Cortez peak (d288–290) locked; discipline through Sept.
+- S02 d214: September dead zone hold d216. October Cortez peak (d288–290) locked; discipline through Sept.
+- S02 d215: September dead zone hold d217+. October Cortez peak (d288–290) locked; stay disciplined.
+- S02 d216: September dead zone hold. October Cortez peak (d288–290) locked; discipline through Sept.
+- S02 d217: September dead zone hold. October Cortez peak (d288–290) locked and funded. Discipline through Sept.
+- S02 d218: September hold. October peak d288–290 locked and fully funded. Discipline through the dead zone.
+- S02 d219: September void. PTO locked d288–289 for October Cortez peak. Stay home, preserve budget and discipline.
+- S02 d220: September dead zone confirmed. October Cortez peak d288–290 locked. Discipline holds; come back in 68 days when water hits 18.5°C.
+- S02 d221: September dead zone hold. October Cortez peak (d288–290) in sight; discipline through the void.
+- S02 d222: September dead zone confirmed. October peak d288–290 locked; discipline holds through void.
+- S02 d223: Dead zone holds. Budget $1600 and discipline locked for October Cortez peak d288–290.
+- S02 d224: September void confirmed. October Cortez peak d288–290 locked. Preserve budget; 62 days to peak season.
+- S02 d225: Dead zone confirmed. Three overnights locked for October Cortez peak d288–290 (5.0 yt/angler baseline). Preserve budget and PTO through September void.
+- S02 d226: Dead zone holds through Sept. PTO d288–289 locked for October Cortez 5.0 baseline. Peak window 61 days; discipline through void.
+- S02 d227: September void holds. Locked on October Cortez d288–290 peak; 61 days discipline ahead.
+- S02 d228: September void holds. Cortez peak d288–290 locked 60 days out; preserve budget and discipline.
+- S02 d229: September void holds. October peak 59 days ahead; discipline locked. Budget $1600, PTO 8 days reserved for Oct Cortez d288–290.
+- S02 d230: September dead zone holds. October Cortez peak d288–290 locked 57 days out. Discipline through void.
+- S02 d231: September void holds. October Cortez peak d288–290 locked 57 days out; preserve budget and discipline.
+- S02 d232: September void holds. Lock d288–d289 PTO for October Cortez peak. Discipline through dead zone, 56 days to peak.
+- S02 d233: September dead zone holds. Locked on Cortez d288–290 peak, 55 days out. Discipline.
+- S02 d234: Dead zone holds. Locked d288–289 PTO for October Cortez peak overnight runs (5.0 baseline). Discipline, 54 days to peak.
+- S02 d235: September dead zone holds. d291 PTO locked for October Cortez overnight peak (d288–290 window). Budget and discipline preserved.
+- S02 d236: September void holds. Cortez d288–290 locked. Discipline preserved, $1600 intact.
+- S02 d237: September void holds. Locked on October Cortez peak d288–290. Discipline and budget preserved.
+- S02 d238: September dead zone holds. Discipline through void; October peak locked d288–290, 50 days out. Budget and confidence preserved.
+- S02 d239: Dead zone holds. Discipline through void; October Cortez peak locked d288–290. $1600 and 7 PTO days reserved.
+- S02 d240: Dead zone holds. Locked d288–289 PTO for October Cortez peak overnights (d287–290 fish dates). Budget and discipline preserved, 4 peak slots confirmed.
+- S02 d241: Dead zone holds. October peak d288–290 locked, 46 days out. Budget and discipline intact.
+- S02 d242: September void confirmed. Full peak locked d288–290 (PTO d287–d291 now secure). Discipline and $1600 preserved. 45 days to 5.0 baseline.
+- S02 d243: September void holds. Peak locked d288–290 (Cortez, 5.0 baseline). 45 days to October. Budget and discipline intact.
+- S02 d244: Season complete: rank 34/34, 0.00 points. Missed October peak d288–290 despite locked PTO. Season 2 postmortem filed.
+- S02 d245: September void holds. Locked d287/d290/d291 for October peak execution. Discipline: skip weekend dead zone, stay dry in September, strike in October. Do not repeat last season's failure.
+- S02 d246: Discipline holds. Dead zone intact; October peak 42 days secure. Stay dry through September void, strike at 5.0.
+- S02 d247: Dead zone confirmed. October peak d288–290 fully locked PTO d287–d291. Do not repeat Season 2 failure—execute the peak.
+- S02 d248: Stay home Sept dead zone. Locked d288–d289 for Oct peak full execution (Wed–Thu + d287 Tue, d290–d291 Fri–Sat). Five-day wedge confirmed.
+- S02 d249: September void holds, water 61°F, overnight counts down. October peak locked. Stay dry, $1600 and 7d PTO intact, 39 days to d288.
+- S02 d250: September void confirmed: d251 Thu unbookable (no TWILIGHT boats). Water warming (62.6°F) but still dead zone. Stay dry, PTO and budget intact, d288–290 peak locked 37 days out—execute flawlessly this time.
+- S02 d251: September dead zone holds. Locked d288–289 Wed–Thu to complete October 5-day peak wedge d287–291. Execute flawlessly this time.
+- S02 d252: September void holds. Stay dry, preserve $1600 and 7d PTO for October peak execution. 35–38 days to d288–290 peak.
+- S02 d253: Skip dead zone Sunday. Full October peak locked: PTO d287–d291, overnight class at 5.0 yt/angler d288–d290. Execute flawlessly—don't repeat Season 2 failure.
+- S02 d254: September void holds. Oct 5-day wedge d287–291 now fully locked (d288, d289 committed). Execute flawlessly—do not repeat S2 failure.
+- S02 d255: September dead zone holds. October peak locked and ready—d288–290 execution incoming. Stay dry.
+- S02 d256: Stay dry through Sept void. Peak locked: d287–d291, PTO d288–d289 now committed. Execute d288–290 overnight wedge flawlessly.
+- S02 d257: Sept void holds, water 67.1°F. Stay dry and locked on October peak d288–290 execution. $1600, 7d PTO, discipline intact.
+- S02 d258: Season 2 postmortem: broke overnight-only dogma. Tomahawk d260 DAY_1_5 + locked peak d288–289. Execute or repeat failure.
+- S02 d259: Tomahawk DAY_1_5 d260–d262 locked. October peak d287–d291 ready. Stay dry, execute flawlessly when peak window arrives.
+- S02 d260: Skip September void Sunday. October peak locked and ready: d287–d291, PTO secured. Execute overnight wedge d288–d290 flawlessly—one week to peak.
+- S02 d261: Skip dead zone. October peak d287–291 locked four days out—execute flawlessly. Stay dry.
+- S02 d262: September void confirmed. Peak d287–291 locked and ready. Stay home, execute flawlessly in October.
+- S02 d263: Stay dry, locked for October d287–d291. Wait for weekend overnight or clearer edge before committing final PTO days.
+- S02 d264: September void confirmed. October peak d287–291 locked and ready. Stay dry, execute flawlessly when it arrives.
+- S02 d265: September void confirmed. October peak d287–291 locked and ready. Stay dry—execute flawlessly when peak arrives.
+- S02 d266: September void confirmed. October peak locked—commit d288–d289 now, execute overnight Thursday d288 window flawlessly.
+- S02 d267: September void holds. October peak d287–d291 locked and ready. Stay home, execute flawlessly.
+- S02 d268: September void holds. October peak d287–d291 locked and ready. Execute flawlessly.
+- S02 d269: September void holds. October peak d287–d291 fully locked. Execute flawlessly.
+- S02 d270: September void confirmed—locked for October peak d287, d290, d291. Preserve capital and discipline, execute flawlessly.
+- S02 d271: Sept void confirmed—locked for October peak d287, d290, d291. Preserve capital and discipline; execute flawlessly.
+- S02 d272: September void holds. October peak d287–291 locked. Stay home, preserve capital, execute flawlessly.
+- S02 d273: Locked for Oct peak d287/d290/d291. No overnight available tomorrow anyway. Stay disciplined, preserve capital.
+- S02 d274: September void confirmed. October peak d287/d290/d291 locked and ready. Execute flawlessly.
+- S02 d275: September void holds. October peak (d287/d290/d291) locked, budget tight. Preserve capital, execute flawlessly.
+- S02 d276: September void confirmed—locked for Oct peak d287/d290/d291. Preserve capital, execute flawlessly.
+- S02 d277: September void holds. October peak d287/d290/d291 locked, ready. Stay home, execute flawlessly.
+- S02 d278: September void holds. October peak d287/d290/d291 locked. Preserve capital, stay home.
+- S02 d279: September void holds. No overnight boats scheduled; October peak locked and ready. Stay home, preserve capital, execute flawlessly.
+- S02 d280: September void confirmed. October peak d287/d290/d291 locked and ready. Six days. Preserve capital, execute flawlessly.
+- S02 d281: No overnight boats. September void holds. October peak locked. Stay home, execute flawlessly.
+- S02 d282: September void continues. October peak d287/d290/d291 locked and ready. Preserve capital, execute flawlessly.
+- S02 d283: September void holds. October peak (d287/290/291) locked. Four days out. Stay home, execute flawlessly.
+- S02 d284: September void holds. Overnighter peak (d287/290/291) locked and ready. No overnight boats available yet. Preserve capital, stay home.
+- S02 d285: Tomahawk invisible (0 trips/14d). Water cooling to 63°F. Hold for better signal on d290/d291.
+- S02 d286: Daiwa Pacific untested; water cooling. PTO wasted on d287 but capital preserved for d290/291 peak. Execute flawlessly Monday/Tuesday.
+- S02 d287: September void confirmed again. October peak d290/d291 locked. Preserve capital and execute.
+- S02 d288: October peak Legend window closing; water 61.9°F. Book DAY_1_5 Legend while it's hot—no overnighters available. Execute flawlessly.
+- S02 d289: Legend d290 + Ocean Odyssey d291 peak—execute flawlessly. Budget $100 left, 7 PTO days left after. Back in competition.
+- S02 d290: Ocean Odyssey overnight departs tonight, fishes d291—execution turn. Capital and PTO preserved for clearer peak ahead.
+- S02 d291: Killed d291 overnight (3.955). Tomorrow worthless—TWILIGHT junk. Sit out, hold capital and PTO, wait for next clear peak signal 14+ days ahead.
+- S02 d292: Peak passed. Water cooling (58.3°F), no YT signal. Hold capital and PTO for mid-October peak or genuine hot signal 14+ days out.
+- S02 d293: Water still 58°F, fishing dead, YT signal absent. Holding capital ($100) and PTO (7d left) for next peak—no clear 14d signal yet.
+- S02 d294: Sat d295 all noise—no overnight, short trips dead, signal absent. Capital ($100) and PTO (7d) held for mid-Oct peak or genuine 14d signal.
+- S02 d295: d296 weekend junk (0.000). Overnight class still hot but no boats; no clear 14d signal yet. Hold capital ($100) and PTO (7d left) for next peak.
+- S02 d296: Water warming, overnight peak window opening. PTO committed d313–d314 for mid-October execution. Stay home, stay ready.
+- S02 d297: Sit out d298 (dead-zone TWILIGHT junk). Hold $100 and 5 PTO days for mid-October overnight peak staged at d313–d314.
+- S02 d298: Sit d299. No bookable trip, no budget for Cortez. Stay disciplined on d313–d314 overnight peak plan.
+- S02 d299: Water warming to 62°F. Stay home; hold $100 and PTO (5d) for d313–d314 overnight peak mid-Oct.
+- S02 d300: Fri d301 TWILIGHT junk (0.000), water 59.5°F cooling. Hold $100 + 5 PTO for mid-Oct d313–d314 overnight peak.
+- S02 d301: Sat d302 short-trip deadzone (0.000 avg), no bookable overnight. Hold $100 and PTO for mid-Oct d313–d314 overnight peak—water warming on trend.
+- S02 d302: d303 Sun: short-trip deadzone (0.000 avg), no overnight available. Hold $100 + 5 PTO for d313–d314 mid-Oct overnight peak.
+- S02 d303: d304: Dead zone. TWILIGHT junk (0.000), no PTO staged. Hold $100 and 5d for d313–d314 mid-Oct overnight peak—already committed, plan on track.
+- S02 d304: Budget crisis: $100 left, $400 needed for d313–d314 overnight peak (PTO locked). Mid-Oct peak plan sound; capital discipline failed. Reassess before d313.
+- S02 d305: Dead zone, no bookable trips. Hold $100 and PTO for d313–d314 overnight peak. Stay home.
+- S02 d306: Dead zone d307, TWILIGHT junk (0.000 yt/angler). Hold $100 + 5 PTO for d313–d314 overnight peak—all locked in already.
+- S02 d307: Stay home. $100 left, d313–d314 locked but unfunded. Season 2 repeat: perfect plan, execution failure. Waiting for miracle.
+- S02 d308: Late Sept dead zone, all short trips 0.000 yt/angler. Hold $100 + 5 PTO for d313–d314 overnight peak (PTO d313–d314 already committed d287–d291). Capital discipline.
+- S02 d309: Dead zone d310. Hold $100 for d313–d314 overnight peak (PTO d313, d314 locked). Execution over hope.
+- S02 d310: Dead zone d311 Mon; no bookable trips or funds. Holding $100 + 5 PTO for unfunded d313–d314 peak; season lost to execution failure.
+- S02 d311: Dead zone d312. Execution failure repeats: d313–d314 PTO locked but unfunded. Season already lost. Stay home.
+- S02 d312: Stay home d313, PTO spent but unfished. Hold $100. October peak past; wait for Nov–Dec setup.
+- S02 d313: d313–d314 peak locked but unfunded. Season over. Execution failure wins again.
+- S02 d314: Dead zone confirmed: 59°F water, no YT reports, short trips all 0.000 yt/angler. Hold capital and PTO.
+- S02 d315: Dead zone confirmed d309–d315: zero yt fleet-wide. Hold $100. Wait for fish.
+- S02 d316: Dead zone d317; hold $100. Season late, fish gone. Wait for December if conditions shift.
+- S02 d317: Dead zone d318. Capital exhausted for overnights. Season's over—execution failure sticks. Hold the line.
+- S02 d318: Dead zone, no bookable trips, PTO window closed for d319. Stay home; season execution failure at end of runway.
+- S02 d319: Dead zone confirmed late-season. No bookable trips, no fish. Hold $100 and 5 PTO days for December recovery if conditions shift.
+- S02 d320: Late-season dead zone confirmed d313–d321. No fish, no bookable hot boats. Hold line; season over unless Dec conditions shift.
+- S02 d321: Dead zone d313–d322, fleet zero YT/angler. Hold line and capital. Season over unless December conditions warm.
+- S02 d322: Dead zone d313–d322 holds. Hold $100. Season likely over unless December water warms.
+- S02 d323: Dead zone d313–d323 confirmed. Zero value tomorrow; hold capital and watch for October pivot when fleet starts catching.
+- S02 d324: Dead zone through d324 confirmed fleet-wide. Hold capital and PTO; no value to fish. Season execution failure; preserve dry powder for December if water temps shift.
+- S02 d325: Dead zone holds d313–d325. No bookable trips, zero fish fleet-wide. Season over. Hold line and preserve capital.
+- S02 d326: Dead zone d313–d327. Season execution over; hold capital and PTO for Dec recovery if water warms.
+- S02 d327: Dead zone confirmed d313–d327. Hold $100 and 5 PTO. Season revival depends on Dec water temp rebound; preserve capital for true peaks.
+- S02 d328: Dead zone d328. Hold $100 and 5 PTO. No bookable value; fleet zero catch. Season pivots on December water temp rebound or stays buried.
+- S02 d329: Dead zone d313–d329 confirmed. Season complete at 5.19 (6th). Hold capital and watch for December pivot.
+- S02 d330: Dead zone d313–d329 holds. Season execution complete at 5.19 (6th place). Hold $100 and PTO for December water temp pivot.
+- S02 d331: Hold $100, 5 PTO. Dead zone continues; no value d332. Waiting for December water temp pivot to trigger overnight revival.
+- S02 d332: Dead zone holds d332. No bookable trips; no PTO committed for weekday d333. Hold $100, 5 PTO for December water-temp recovery.
+- S02 d333: Dead zone d333. Hold $100, 5 PTO; watch for December water-temp recovery to trigger overnight plays. Twilight not my class.
+- S02 d334: Dead zone d335 continues, fleet zero. Hold $100 and 5 PTO for December water-temp pivot.
+- S06 d091: Dead zone d091. Hold $2000 and 10 PTO. October peak target DOY 284–300 still ~190 days out.
+- S06 d092: Dead zone d092. Hold $2000 and 10 PTO for October peak (d284–300, 3.5–4.5 yt/angler target). Next window d270–275.
+- S06 d093: Dead zone d094. Hold $2k, 10 PTO for October peak d284–300 window.
+- S06 d094: Stay home. Dead zone holds. October peak target DOY 284–300; next decision d270–275.
+- S06 d095: Dead zone d096 confirmed. Hold $2k, 10 PTO. Next decision d270–275 (October peak PTO window opens).
+- S06 d096: Dead zone d097 confirmed. Hold $2k, 10 PTO. Next decision d270–275 (October peak PTO window opens).
+- S06 d097: Dead zone holds. THREE_QUARTER hot but early-season spike, not October peak. Hold $2k, 10 PTO. Next d270–275.
+- S06 d098: Dead zone d099. Hold $2k, 10 PTO. Next decision d270–275 (October peak PTO window opens).
+- S06 d099: Dead zone hold. Bookable trips tempting but water/fleet signal weak. Save $2k and 10 PTO for October peak d284–300.
+- S06 d100: Dead zone holds. Early Sept spike is variance. Hold $2k/10 PTO for October peak d284–300. Next decision: d270–275.
+- S06 d101: Dead zone holds. Water 63.9°F cool, fleet variance doesn't break pattern. October peak d284–300 target still 2–3 weeks ahead. Hold $2k, 10 PTO for peak season bookings.
+- S06 d102: Dead zone holds. No bookable trips. Stay home, hold $2k and 10 PTO for October peak d284–300. Next decision d270–275.
+- S06 d103: Dead zone confirmed. Stay home. Hold $2k and 10 PTO for October peak d284–300. Next decision d270–275.
+- S06 d104: Dead zone confirmed, no bookable d105 trips. Hold $2k/10 PTO for October peak d284–300. Next: d270–275.
+- S06 d105: Dead zone holds. Stay home d106. October peak d284–300 target confirmed; next decision d270–275.
+- S06 d106: Dead zone d106–d107 confirmed; water 56.1°F. Hold $2k/10 PTO for October peak d284–300. Next decision d270–275.
+- S06 d107: Dead zone d107–d108 confirmed. Hold $2k/10 PTO for October peak d284–300. Next: d270–275.
+- S06 d108: Dead zone confirmed, water cooling. Anomalous THREE_QUARTER run doesn't change October target. Hold $2k/10 PTO, next decision d270–275.
+- S06 d109: Dead zone confirmed, no bookable trips. Hold $2k/10 PTO for October peak (d284–300). Next decision d270–275.
+- S06 d110: Dead zone d111 confirmed. Hold $2k/10 PTO for October peak d284–300. Next decision d270–275.
+- S06 d111: Dead zone d112 hold. Water 56.8°F cold. October peak strategy on track; next decision d270–275.
+- S06 d112: Dead zone holds. Stay home d113. October peak d284–300 on track; next decision d270–275.
+- S06 d113: Dead zone d114 hold. October peak d284–300 strategy on track. Next decision d270–275.
+- S06 d114: Dead zone hold confirmed. October peak strategy intact—next decision d270–275 for PTO commitments.
+- S06 d115: Dead zone holds d116. PTO window opens d270; prepare October peak commitments.
+- S06 d116: Dead zone d117 confirmed. Hold for October peak. PTO commitment window opens d270.
+- S06 d117: Dead zone holds d118. October peak d284-300 strategy intact—next decision d270-275 for PTO commitments.
+- S06 d118: Dead zone hold d119–d270. October peak strategy intact—next PTO decision d270–275.
+- S06 d119: Dead zone d120–d270 holds. October peak strategy on track; next decision d270–d275 for PTO commitments.
+- S06 d120: Dead zone d121 hold. October peak strategy intact—preserve $2000 and 10 PTO for d284–300 window.
+- S06 d121: Dead zone d122 hold. Water cooling, fleet soft. October strategy intact—preserve resources for DOY 284–300 peak.
+- S06 d122: Dead zone d122 hold. October peak strategy intact—next decision d270 for PTO commitments.
+- S06 d123: Hold dead zone d124. Water warming (66.6°F), but early season tail fading—October peak strategy intact. Next decision d270.
+- S06 d124: Dead zone holds. October peak window (d270–300) approaching; next decision d270–275 for PTO commits.
+- S06 d125: d126 (Wed): Dead zone holds d270+. Water 66.2°F. October peak strategy intact—preserve $2000 and 10 PTO days for d284–300 DAY_1_5 bookings. Next decision d270.
+- S06 d126: Dead zone d127 hold. October strategy intact—next decision d270 (PTO commitment window for peak).
+- S06 d127: d127 hold. Dead zone confirmed (64.9°F), fleet soft. October strategy intact; next decision d270 (PTO commitment window for peak).
+- S06 d128: Dead zone d129 hold. October peak strategy intact—next decision d270 (PTO commitment window opens).
+- S06 d129: Dead zone holds d130. THREE_QUARTER hot but early-season outlier (1.054 d129). October strategy intact—next decision d270–275 (PTO commit window).
+- S06 d130: Dead zone d131 hold. October strategy intact—next decision d270 (PTO commitment window opens).
+- S06 d131: Dead zone confirmed (63.9°F). Stay home. October peak strategy intact—next decision d270.
+- S06 d132: Dead zone confirmed, 62°F. Stay home. October peak strategy (d284–300) intact—next decision d270 for PTO commits.
+- S06 d133: Dead zone d134 hold. October DAY_1_5 strategy (d284–300) intact. Next decision d270 (PTO commit window opens).
+- S06 d134: Dead zone d135 hold. October strategy intact (d270 PTO window, d284–300 trip window).
+- S06 d135: Dead zone d136 hold. October peak strategy intact (d270 PTO window, d284–300 trip window). Next decision d270.
+- S06 d136: d136: Dead zone holds. October DAY_1_5 strategy (d284–300) intact. Next decision d270.
+- S06 d137: Dead zone holds. Water 62.1°F. October DAY_1_5 strategy intact. Next decision d270.
+- S06 d138: Dead zone holds. Water 62°F. October DAY_1_5 strategy (d270 PTO, d284–300 trips) intact. Next decision d270.
+- S06 d139: Dead zone confirmed. October DAY_1_5 strategy intact—next decision d265.
+- S06 d140: Dead zone holds (63.9°F water). DAY_1_5 strategy intact—next decision d270 for October PTO window.
+- S06 d141: Dead zone holds (64.6°F, 1.842 yt/angler OVERNIGHT anomaly). October strategy intact. Next decision d270 PTO window.
+- S06 d142: Dead zone holds (65.5°F water). October DAY_1_5 strategy intact. Next decision d270.
+- S06 d143: Dead zone holds (66.4°F water). October DAY_1_5 strategy intact—next decision d270 PTO window.
+- S06 d144: Dead zone holds (66.4°F water). Holiday doesn't change the dead zone. Preserve full budget for October DAY_1_5 peak. Next decision d270.
+- S06 d145: Dead zone holds (65.8°F water). October DAY_1_5 strategy intact. Next decision d270 PTO window.
+- S06 d146: Dead zone holds. October DAY_1_5 strategy intact. Next decision d270 PTO window.
+- S06 d147: Fleet catching 1.0+ yt/angler in three-quarter now (strong signal), but water still 65°F (late September). October peak thesis holds—65 days to d270 decision point. Stay home.
+- S06 d148: Dead zone holds, 65.3°F water. October DAY_1_5 strategy intact. Next decision d270 PTO window.
+- S06 d149: Dead zone holds, 66°F water. October DAY_1_5 strategy intact. Next decision d270 PTO window.
+- S06 d150: Dead zone confirmed (65.7°F). October DAY_1_5 strategy intact. Next decision d270 PTO window.
+- S06 d151: Dead zone holds through Labor Day. October peak window opens d165 for PTO commits. DAY_1_5 strategy intact.
+- S06 d152: Dead zone holds. Stay disciplined—October DAY_1_5 peak strategy intact. Next decision d270 for PTO commit window.
+- S06 d153: Dead zone holds into d154. October DAY_1_5 strategy intact. Next decision d270 for PTO commit window.
+- S06 d154: Dead zone holds into d155. October DAY_1_5 strategy intact. Next decision d270 for PTO commit window.
+- S06 d155: Dead zone holds into late September. October DAY_1_5 strategy intact. Next decision d270 for PTO commit window (Oct peak DOY 284-300).
+- S06 d156: Dead zone confirmed late September (66.7°F). Stay home, preserve budget for October DAY_1_5 peak (d284–300). Next PTO commit window d270–275.
+- S06 d157: Dead zone holds, 67.6°F water, fleet weak. October DAY_1_5 peak strategy intact. Next decision d270 PTO commit window.
+- S06 d158: Dead zone ongoing, 67.5°F water, weak fleet. October DAY_1_5 peak strategy intact. Next decision d270 (PTO window).
+- S06 d159: Dead zone d159–d160 (61.9°F water). Stay home, October peak strategy intact. PTO window d270.
+- S06 d160: Dead zone holds into late September. October peak strategy intact. Next decision d270 (PTO commit window opens).
+- S06 d161: Late September dead zone, water cooling to 63.5°F (trend favorable for October peak). Stay home, next decision d270–275 PTO window.
+- S06 d162: Dead zone holds late September, 63.3°F water, weak fleet signals. October peak strategy intact. Next decision d270 (PTO window).
+- S06 d163: Dead zone holds late September (62.8°F water, weak fleet). Stay disciplined. Next PTO decision d270 for October peak.
+- S06 d164: Dead zone d164, 64.9°F, fleet weak. October DAY_1_5 strategy intact. Next decision d270 PTO window.
+- S06 d165: Dead zone holds, 64.9°F water. October peak strategy intact. Next decision d270 PTO window.
+- S06 d166: Dead zone holds. October peak strategy intact. Next decision d270 (PTO window).
+- S06 d167: Dead zone confirmed, water 64°F. October peak strategy intact. Next decision d270 (PTO window opens).
+- S06 d168: Dead zone holds d169. October DAY_1_5 strategy intact. Next PTO window d270.
+- S06 d169: OVERNIGHT hot d169 (1.953 yt/angler, Old Glory 9 yt), but dead zone holds. Stay home, October peak strategy intact. Next decision d269 (PTO window opens d270).
+- S06 d170: Dead zone holds d170. Stay home, preserve capital for October peak. PTO window opens d270.
+- S06 d171: Dead zone d172, 65.8°F water. Stay home, capital/PTO intact for October peak. Next decision d269 (PTO commitment window opens).
+- S06 d172: Dead zone holds d173. Stay home, capital/PTO preserved for October peak (d270 commitment window opens).
+- S06 d173: d173: Dead zone holds. One hot boat (San Diego) doesn't shift the season. Discipline pays. October peak strategy intact, PTO window opens d270.
+- S06 d174: Dead zone holds d175. Legend hot d174 (70 yt) but mid-season noise doesn't override October strategy. Preserve capital/PTO; next decision d270.
+- S06 d175: Dead zone holds d176. Legend hot (2.156) but mid-season doesn't shift October strategy. Discipline pays. Next decision d270.
+- S06 d176: Dead zone holds d177. Stay home, capital and PTO fully intact for October peak (DOY 284–300) strategy. Next decision d270.
+- S06 d177: Dead zone d178: hot boats mid-season, but strategy holds. October peak 220 days out. Stay disciplined.
+- S06 d178: d178–179 spike is mid-season noise. Dead zone holds. October peak (DOY 284–300) strategy intact, capital/PTO fully preserved. Discipline pays.
+- S06 d179: Dead zone holds. October peak 91 days out, capital and PTO fully preserved for peak window. Discipline pays.
+- S06 d180: Dead zone holds. October peak 103 days, capital/PTO intact. Next decision d270.
+- S06 d181: Dead zone holds. Mid-season boats don't override October strategy. Capital/PTO fully intact. Next: d270.
+- S06 d182: d182 OVERNIGHT temptation (1.4 yt/angler) but mid-season dead zone confirmed. Strategy holds—October peak 102 days out, capital/PTO intact. Discipline pays.
+- S06 d183: Mid-season noise, even with hot boats (Legend, Tribute). Dead zone holds. October peak 102 days out. Discipline pays. Next: d270.
+- S06 d184: d185 (Sat, dead zone): Mid-season temptation (Tribute/San Diego hot), but strategy holds. Stay disciplined—October peak 115d out, capital/PTO fully preserved. Next: d270.
+- S06 d185: Dead zone holds. Oct peak 98 days out (DOY 284), capital/PTO fully intact. Discipline. Next: d270 PTO window opens.
+- S06 d186: Dead zone holds. October peak 98 days out. Capital/PTO fully preserved. Discipline pays. Next: d270 PTO window.
+- S06 d187: Mid-season bounce (OVERNIGHT 1.667 d187) but can't book—no PTO pre-committed. October peak 93d out. Discipline holds, capital/PTO fully intact.
+- S06 d188: Dead zone holds. October peak 96 days out (DOY 284). Capital and PTO fully preserved. Next: d270 PTO window.
+- S06 d189: Dead zone holds. Oct peak 99d out (DOY 284). Capital/PTO fully preserved. PTO window opens d270.
+- S06 d190: d190: Mid-season dead zone holds. October peak 94 days out (DOY 284). Capital/PTO fully preserved. Discipline pays.
+- S06 d191: Dead zone holds. October peak 92d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next window: d270.
+- S06 d192: d193 (Sun): Dead zone holds. Oct peak 92d out (DOY 284). Capital/PTO fully preserved. Discipline.
+- S06 d193: Dead zone holds. Oct peak 92d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next window: d270 PTO commit opens.
+- S06 d194: Dead zone spike on Outer Limits, but discipline holds. October peak 90d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next window: d270.
+- S06 d195: Dead zone holds. Oct peak 89d out (DOY 284). Capital/PTO fully preserved. Next window: d270.
+- S06 d196: Dead zone holds. Oct peak 88d out (DOY 284). Capital $2000, PTO 10d preserved. Next window: d270.
+- S06 d197: Dead zone holds. Oct peak 87d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next decision window: d270.
+- S06 d198: Dead zone holds. Oct peak 86d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next decision: d270.
+- S06 d199: Dead zone holds. Oct peak 85 days out (DOY 284). $2000 + 10 PTO intact. Next: d270 PTO commit window.
+- S06 d200: Dead zone holds. Oct peak 84d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next window: d270.
+- S06 d201: Dead zone holds, Oct peak 84d away. Next: d270 PTO commit window for October runs.
+- S06 d202: Dead zone confirmed through d202. Capital $2000, PTO 10d fully preserved. Next: d270 PTO commit window for October DAY_1_5 runs.
+- S06 d203: Dead zone d204 holds. October peak 83d away (DOY 284). Capital $2000, PTO 10d fully preserved. Next window: d270 commit.
+- S06 d204: Dead zone holds. Oct peak 80d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next: d270 PTO commit window.
+- S06 d205: Dead zone holds. Oct peak 79d away (DOY 284). Capital $2000 and 10 PTO intact. Next window: d270 for PTO commits.
+- S06 d206: Dead zone holds. Oct peak 79d away (DOY 284). $2000 + 10 PTO intact. Next: d270 PTO commit window.
+- S06 d207: Dead zone holds. Water 72°F, OVERNIGHT 0.120 yt/angler d207. Oct peak 77d out (DOY 284). Capital $2000, PTO 10d fully preserved. Next: d270 PTO commit window.
+- S06 d208: Dead zone holds. Oct peak 76d away (DOY 284). Capital $2000, PTO 10d fully preserved. Next: d270 PTO commit window.
+- S06 d209: Dead zone holds. Oct peak 79d away (DOY 284). Capital $2000, PTO 10d fully preserved. Next: d270 PTO commit window for October DAY_1_5 runs.
+- S06 d210: Dead zone holds at d210. October peak 74d away (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window for October DAY_1_5 runs.
+- S06 d211: d211 hot but isolated; hold capital for October peak. Water warming, but not yet sustained. Next: d270 PTO commit window.
+- S06 d212: Dead zone holds. d212 hot but isolated. October peak 73d out (DOY 284). $2000 + 10 PTO intact.
+- S06 d213: Dead zone holds. $2000 + 10 PTO intact. PTO commitment window d270; target October peak DOY 284–300 for DAY_1_5 specialist run.
+- S06 d214: Dead zone holds. PTO commitment window d270–275; target October peak DAY_1_5 bookings d280–298. $2000 + 10 PTO intact.
+- S06 d215: Dead zone holds. Oct peak 68d out (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d216: Dead zone holds. Oct peak 67d out (DOY 284). $2000 + 10 PTO intact. Next: d270 PTO commit window.
+- S06 d217: d217: Dead zone confirmed. Hold hard for October peak. Next decision: d270 PTO commit window (66 days out).
+- S06 d218: Dead zone holds. October peak 16d away; PTO commit window imminent (d270–275). Preserve $2000 and 10 PTO for October DAY_1_5 runs.
+- S06 d219: Vendetta spike isolated; dead zone holds. 64 days to October peak. Hold capital and PTO for DAY_1_5 October run (DOY 284–300 target).
+- S06 d220: Dead zone holds. October peak 64d out (DOY 284). Preserve $2000 and 10 PTO for DAY_1_5 October run.
+- S06 d221: Dead zone holds. October peak 63d out (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d222: Dead zone holds. October peak 62d out (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d223: Dead zone holds. October peak 60d out (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d224: Dead zone holds; October peak 60d away (DOY 284). $2000 and 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d225: Dead zone confirmed. Capital and PTO fully preserved. October peak 60d away; next decision at d270 PTO commit window.
+- S06 d226: Dead zone confirmed. September 25: 58d to October peak. Stay home, preserve capital and PTO for DOY 284–300 DAY_1_5 runs.
+- S06 d227: Dead zone holds. 57d to October peak (DOY 284). Stay home, preserve $2000 + 10 PTO. Next: d270 PTO window.
+- S06 d228: Dead zone holds; 56 days to October peak (DOY 284). Full capital/PTO preserved. Next: d270 PTO commit window.
+- S06 d229: Dead zone holds. October peak 60d away (DOY 284). Stay home, preserve $2000 + 10 PTO. Next: d270 PTO commit window.
+- S06 d230: Dead zone holds. 55d to October peak (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d231: Dead zone holds. 16 days to October peak (DOY 284). Preserve $2000 + 10 PTO for October DAY_1_5 runs. Next decision: d270 PTO commit window.
+- S06 d232: Dead zone confirmed. October peak 16d away (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d233: Dead zone holds, S06 d234 weak. October peak 54 days (DOY 284). Preserve $2000 + 10 PTO for three DAY_1_5 runs.
+- S06 d234: S06 d234: Dead zone steady, 74°F water. October peak 56d (DOY 284). Full preservation mode. Next: d270 PTO commit.
+- S06 d235: Dead zone holds. Stay home. PTO commit window opens d270–280 for October DAY_1_5 peak bookings.
+- S06 d236: Dead zone holds. 48d to October peak (DOY 284). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d237: Dead zone holds. Preserve until d270 PTO commit window. October peak 47d away.
+- S06 d238: Dead zone holds. Preserve $2000 + 10 PTO for October DAY_1_5 peak (d284–300). Next decision: d270 PTO commit window.
+- S06 d239: Dead zone holds steady. Preserve $2000 + 10 PTO for October DAY_1_5 peak. Next window: d270 PTO commitment.
+- S06 d240: Dead zone hold: 44d to October peak (d284). Preserve $2000 + 10 PTO for DAY_1_5 specialist run. Next: d270 PTO commit window.
+- S06 d241: Stay home. Dead zone holds. October peak 43 days out (DOY 284–300). Next: d270 PTO commit window.
+- S06 d242: Dead zone steady. 41d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 commit window.
+- S06 d243: Dead zone holds. 41d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 PTO commit window.
+- S06 d244: Dead zone holds. 40d to October DAY_1_5 peak (d284–300). $2000 + 10 PTO fully preserved. Next: d270 PTO commit window.
+- S06 d245: Dead zone holds. 39d to October peak (DOY 284). Preserve $2000 + 10 PTO. Next: d270 commit window.
+- S06 d246: Dead zone hold. 38d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 commit window.
+- S06 d247: Dead zone hold. October peak 37d out (d284). Preserve $2000 + 10 PTO. Next: d270 commit window.
+- S06 d248: Dead zone steady. 36d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 PTO commit window.
+- S06 d249: Dead zone steady. 35d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 commit window.
+- S06 d250: Dead zone hold. 34d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 PTO commit window.
+- S06 d251: Dead zone holds. 33d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 PTO commit window.
+- S06 d252: Dead zone steady. 32d to October peak (d284). $2k + 10 PTO fully preserved. Next: d270 PTO commit window opens.
+- S06 d253: Dead zone steady. 31d to October peak (d284). $2k + 10 PTO preserved. Next: d270 commit window.
+- S06 d254: Dead zone hold. October peak 29d out (d284). Preserve $2000 + 10 PTO. Next: d270 commit window.
+- S06 d255: Dead zone hold, 29d to October peak. PTO commit window d270+.
+- S06 d256: Dead zone hold. 28d to October peak (d284). Preserve $2000 + 10 PTO. Next: d270 PTO commit window.
+- S06 d257: Stay home. 1.671 OVN yesterday tempts but October peak 27d out. PTO commit window d270+.
+- S06 d258: Dead zone confirmed. 26d to October peak (d284). Preserve $2k + 10 PTO fully. Next window: d270 PTO commit.
+- S06 d259: Dead zone confirmed. October peak 25d out (d284). Preserve $2000 + 10 PTO fully. Next: d270 PTO commit window.
+- S06 d260: Dead zone hold. October peak d284 (23d out). Protect $2000 + 10 PTO. Next window: d270 PTO commit.
+- S06 d261: Dead zone hold. October peak d284 (23d out). Protect $2000 + 10 PTO. Next: d270 PTO commit window.
+- S06 d262: Deadzone hold, d284 peak 22 days. Preserve $2k + 10 PTO. Next window d270.
+- S06 d263: Dead zone hold. October peak d284 (21d). Preserve $2k + 10 PTO. Next: d270 PTO commit window.
+- S06 d264: Dead zone hold. October peak d284 (20d out). Preserve $2000 + 10 PTO. Next window: d270 PTO commit.
+- S06 d265: Dead zone d265. October peak d284 (19d). Preserve $2k + 10 PTO. Next: d270 PTO commit window.
+- S06 d266: Dead zone hold, d267 Thu not bookable (weekday, PTO window closed). Preserve $2k + 10 PTO for October peak (d284–298). Next: d270–275 commit window.
+- S06 d267: Dead zone hold. October peak d284 (17d out). Preserve $2k + 10 PTO. Next: d270 commit window.
+- S06 d268: Dead zone hold. Resist OVERNIGHT allure (stale stats). October peak d284 (15d away). Preserve $2000 + 10 PTO.
+- S06 d269: Dead zone hold. October peak d284 (15d away). Preserve $2000 + 10 PTO. Commit window d271–275 coming.
+- S06 d270: Dead zone hold. Committed PTO for 3 Friday DAY_1_5 departures (d283, d290, d297) targeting October peak (d284–300, 3.5–4.5 yt/angler historical). Next: book when live offers appear.
+- S06 d271: D271 hold. October peak 13d out (d284–300, target 3.5–4.0 yt/angler). PTO for 3 DAY_1_5 trips locked. Preserve $2k + 4 PTO days.
+- S06 d272: Dead zone hold. Oct peak 12d out (d284–300). PTO locked for 3 DAY_1_5 (d286, d293, d300 depart). Preserve $2k + 7 PTO.
+- S06 d273: Dead zone hold confirmed. October peak d284–300 locked in (3 PTO days committed). Next: monitor briefings d274–283 for peak approach signals.
+- S06 d274: Dead zone hold. Water 73.2°F, peak 10 days out. Preserve $2000 for DAY_1_5 peak trips.
+- S06 d275: Dead zone hold. Peak 9d out (d284–300). Water 73.4°F, cooling on track. PTO & capital locked for peak trips.
+- S06 d276: D276 hold. Peak d284–300 in 8 days. Dead zone confirmed; $2000 + 7 PTO locked for committed trips.
+- S06 d277: d277 hold. Peak d284–300 in 7 days. Three PTO locked (d286, d293, d300). Preserve $2k + 4 PTO for confirmed DAY_1_5 entries.
+- S06 d278: d279 hold. Peak d284–300 in 6 days. Three PTO locked for d286, d293, d300 DAY_1_5 departures. Preserve capital & wait for live signal.
+- S06 d279: D279 hold. Peak 5d away (d284–d300). Preserve $2k + 4 PTO for three DAY_1_5 trips committed (d286, d293, d300).
+- S06 d280: Dead zone hold. Peak approach d284–300 begins. Preserve capital for three committed DAY_1_5 trips d286, d293, d300.
+- S06 d281: Hold d282–283. Peak d284–300 entry d286 ready. Water, PTO, capital locked.
+- S06 d282: d283 hold, dead zone confirmed. Peak window d284–300 opens in 4 days. First DAY_1_5 trip d286 depart ready—capital and PTO locked.
+- S06 d283: Peak opens d284; defer to d286 DAY_1_5 per temp trend. Capital & PTO locked for three trips.
+- S06 d284: Peak d284 entry; hold d285 weak boats. Save overnight capital for hot mid-cycle window d286–d300 range.
+- S06 d285: Hold d286 (no overnight bookable). Commit three overnights d300–d302 end-of-peak window. Rank 34: need hot streak fast. Capital reserved.
+- S06 d286: d287 hold. Peak entry live; no hot boats tomorrow. Capital & PTO locked for core window d293–d300 trips.
+- S06 d287: d288 hold. Overnight boats anemic (0.000 avg). Peak d293+ locked; capital and PTO preserved.
+- S06 d288: d288 hold. Overnight fleet silent (0.000); faith in d293+ peak. Capital preserved.
+- S06 d289: Hold d290. Overnight fleet dormant; d293 peak entry locked. Save capital and dry powder.
+- S06 d290: d290 hold. Peak entry d293 locked—overnight fleet to break tomorrow or Monday. Rank 34 needs hot streak, not diversification.
+- S06 d291: d291: Hold d292. Producer overnight dead; overnight fleet dormant. Capital and PTO preserved for d293+ peak entry if conditions improve.
+- S06 d292: d293 peak hold. Overnight fleet silent; wait for d300+ window entry. Save capital for specialist trips.
+- S06 d293: Hold d294. Overnight fleet weak; no bookable options worth $. Capital/PTO locked for d300+ peak window—stay dry for hot streak.
+- S06 d294: Hold d295. Overnight fleet anemic (0.000); PTO d296 missed window. Capital preserved for peak.
+- S06 d295: Trip 1 booked: Condor DAY_1_5 d296–d297. Peak window closing; capital executing. Save 4 PTO days + $1450 for d300+ round two.
+- S06 d296: Condor DAY_1_5 d297 locked. Overnight fleet dead (0.000 recent avg); overkill after tomorrow's day-1.5. Capital preserved for peak d300+ campaign.
+- S06 d297: d297: Condor day-1.5 fishing. Off the water tomorrow AM, dry rest, eyes on d300+ peak campaign. Capital and focus intact.
+- S06 d298: Peak entry live: Cortez d300–d301. Capital deployed, dry through d299. Eyes on d301+ for round two if heat persists.
+- S06 d299: Cortez DAY_1_5 peak entry executing d300; return d302 AM, reassess d303+ for round two if overnight/day_1.5 heat sustains.
+- S06 d300: Executing Cortez DAY_1_5 d300–d302. Peak entry live. Fish d301, reassess d303+ for round two if conditions hold.
+- S06 d301: d302 post-peak, short-day weak metrics. Sit dry. Eye future overnight calendar for next bookable opportunity.
+- S06 d302: Post-peak d303, fleet weak. Sit dry, capital preserved. Watch d315+ for late-season overnight window if water temps drop or counts spike.
+- S06 d303: Post-peak dry. No overnight boats tomorrow. Capital and PTO locked for d315+ window when heat returns.
+- S06 d304: Mission Belle heat spike post-peak—tactical $150 play to grab short-term hot boat. Capital preserved for d315+ overnight window if counts spike.
+- S06 d305: Post-peak d305 hot-boat hit cashed. Dry through weak-metric week; eyes d315+ if overnight heat returns or counts spike.
+- S06 d306: Twilight skip; capital and PTO preserved for overnight peak window ahead. Monitor next briefing for heat signals.
+- S06 d307: Post-peak weak zone; pass d308 TWILIGHT zero. Watch d315+ for overnight heat signal or temp drop before trip four.
+- S06 d308: Post-peak weak zone, no viable tomorrow. Stay dry. Watch d315+ for overnight heat signal before round two.
+- S06 d309: d309: Post-peak overnight class in dead zone (0.037 yt/angler). First String cold. Hold dry, watch d315+ briefing for overnight heat signal or water temp drop.
+- S06 d310: Dead zone continues. No overnight boats tomorrow. Stay dry, eyes on d315+ overnight window signal.
+- S06 d311: d312 San Diego THREE_QUARTER—hot boat, regain rhythm. Hold PTO/overnight decision for d315 briefing when overnight heat signal clarifies.
+- S06 d312: Post-peak flatline, no PTO left anyway. Dry through d314; eyes on d315+ briefing for overnight heat signal or water temp drop.
+- S06 d313: Post-peak flatline persists. Stay dry d314; monitor d315+ briefing for overnight heat signal or temp drop before trip three.
+- S06 d314: San Diego d315 THREE_QUARTER (holiday play). Watch d316+ briefing for overnight heat signal or water temp drop before trip 3-4 window.
+- S06 d315: No overnight boats d316–d317. Dead zone persists; wait for next signal before committing any of my last 4 PTO days.
+- S06 d316: Dead zone holds. Water warm, overnight class flat. Wait for next signal—temp drop or sustained 0.3+ yt/angler class avg.
+- S06 d317: d317: Overnight class still flat, water warm. Stay dry—real peak offshore in October. Watch d320+ briefing for temp drop or 0.3+ signal before committing d337+ trip.
+- S06 d318: Dead zone holds. Overnight class dead, water warm. Stay dry d319; monitor d320+ briefing for temp drop or overnight heat signal before committing final 4 PTO days to October peak.
+- S06 d319: Dead zone holds, TWILIGHT worthless. Monitor d321+ briefing for overnight heat signal or temp drop; 4 PTO days left to deploy in final season push.
+- S06 d320: Dead zone holds d320. No bookable overnight plays; monitor d321+ briefing for water temp drop or sustained 0.3+ overnight class signal before final October peak trip.
+- S06 d321: d321 dead zone holds. Monitor d322+ briefing for first 0.3+ overnight signal or temp <64°F before final peak trip commits.
+- S06 d322: d322: Dead zone holds, water 66.7°F, overnight class 0.036 typical. Stay dry; monitor d323+ for temp drop or 0.3+ signal before final peak trip.
+- S06 d323: d323: Dead zone holds, water 67.5°F, two new overnighters unproven. Stay dry; monitor d324+ for temp drop or 0.3+ overnight signal before peak season push.
+- S06 d324: Dead zone holds d324; Tribute unproven. Monitor d325+ briefing for temp drop or 0.3+ overnight signal before October peak trip commits.
+- S06 d325: d325: Dead zone holds, water 67.6°F. Monitor d326+ briefing for temp drop or 0.3+ overnight signal; 4 PTO days ready for October peak.
+- S06 d326: Dead zone d326 holds. Monitor d327+ for overnight heat or temp drop before final peak push.
+- S06 d327: d327: Dead zone holds, no overnight boats available. Water 67.6°F. Monitor d328+ for temp drop or 0.3+ overnight signal before final peak trip.
+- S06 d328: Dead zone continues, no boats available. Water 66.7°F. Monitor d329+ briefing for first temp drop or 0.3+ overnight signal before October peak trip commits.
+- S06 d329: Dead zone d329. Water 65.8°F, no signals. Monitor d330+ for temp drop or overnight heat; commit 4 PTO days for mid-Oct peak after seeing week's data.
+- S06 d330: d330: Dead zone d330 continues, water 65.8°F stable, no overnight heat signal. Hold capital for October peak; monitor d331+ for first temp drop or 0.3+ overnight signal before final October push.
+- S06 d331: Dead zone d330–d332 holds. Water 65.3°F cooling on track. Monitor d333+ briefing for first temp drop or overnight heat; confirm peak window before final capital commit.
+- S06 d332: Dead zone d333 holds; wait for temp drop and overnight heat signal before October peak capital push.
+- S06 d333: d333: Dead zone continues. Water 65.1°F cooling on track. Monitor d334+ briefing for overnight heat or temp drop before next capital commit.
+- S06 d334: Dead zone d334 holds; water 64.6°F flat. Monitor d335+ briefing for first temp drop or overnight signal before October capital push.

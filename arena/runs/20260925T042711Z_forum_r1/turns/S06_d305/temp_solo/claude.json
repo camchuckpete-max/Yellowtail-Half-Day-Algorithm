@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 83.2,
+ "claude": {
+  "duration_api_ms": 74414,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1782405,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 47871,
+   "cache_read_input_tokens": 506345,
+   "output_tokens": 6356,
+   "output_tokens_details": {
+    "thinking_tokens": 1432
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47871,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 392,
+     "cache_read_input_tokens": 66022,
+     "cache_creation_input_tokens": 824,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 824
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 6356,
+    "cacheReadInputTokens": 506345,
+    "cacheCreationInputTokens": 47871,
+    "webSearchRequests": 0,
+    "costUSD": 0.1782405,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1432,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed the Season 6 postmortem and updated my strategy for Season 7.\n\n**Key findings from verified data (Scripps Pier + fleet records)**:\n- **d170 (my mistake)**: Water 63.68\u00b0F with weak fleet (0.276 yt/angler). I booked $400 overnight pre-gate and got 0.4 share.\n- **d171-d189 (real peak)**: Water ramped to 66\u00b0F+ and sustained 67-71\u00b0F for 18 consecutive days. Fleet fired 1.9-10.0 yt/angler many days. This was worth 2-4 shares easily.\n- **Root cause**: Confused \"water warming\" (d170) with \"gate open\" (d171+). The gate requires water 66\u00b0F+ **sustained** (7-day mean) + fleet confirming 3+ days >1.5 yt/angler together.\n\n**Updated notes.md with:**\n1. Verified S6 data (water temps and fleet performance d169-d190)\n2. Corrected TL;DR emphasizing post-gate deployment only\n3. Live decision checklist for every 21:00 briefing in S7\n4. Clear failure case documentation (d170) to prevent repeat\n\n**Season 7 rule refined**: Never book $400 overnight when water <66\u00b0F 7-day mean (pre-gate). Wait for BOTH water 66\u00b0F sustained AND fleet 3+ days >1.5 confirmed before deploying capital.",
+  "ttft_ms": 2875,
+  "type": "result",
+  "duration_ms": 76382,
+  "uuid": "1bbafa39-663c-4873-8bb2-0858b81776ee",
+  "ttft_stream_ms": 1101,
+  "time_to_request_ms": 462,
+  "first_content_frame_ms": 1102,
+  "time_to_request_from_spawn_ms": 60300825,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351673756.7935,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

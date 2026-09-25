@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 147.5,
+ "claude": {
+  "duration_api_ms": 138362,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.21166569999999998,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 61274,
+   "cache_read_input_tokens": 368017,
+   "output_tokens": 10448,
+   "output_tokens_details": {
+    "thinking_tokens": 4360
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 61274,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 817,
+     "cache_read_input_tokens": 75467,
+     "cache_creation_input_tokens": 4782,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4782
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 10448,
+    "cacheReadInputTokens": 368017,
+    "cacheCreationInputTokens": 61274,
+    "webSearchRequests": 0,
+    "costUSD": 0.21166569999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4360,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Updated notes with comprehensive S7 strategy locked. Here's what I learned and will execute next season:\n\n## S6 Analysis Summary\n\n**Season 6 Rank: 4/34 (18.15 fish), Cumulative: 20/34 (0.5989)**\n\n**The Critical Failure:** S6 was El Ni\u00f1o (ONI +0.72), which peaks April-May. I held October-only ideology from Season 2 (La Ni\u00f1a) and missed 10-15 fish in April\u2014cost me rank 1-2 (ens_solo at 23.97, thrifty at 20.38 caught April). I only caught the September tail (d177-d212: 16.4 fish from 7 trips).\n\n**What Worked (to Repeat):** \n- September peak capture proved regime deployment works when signal is confirmed (2 consecutive days 2.0+ yt/angler + water 70\u00b0F+)\n- Summer discipline held dry d90-d176 despite 50+ micro-peak traps\n- Weekend bookings = 90% of trips, zero PTO cost\n- Final $150 went to d242 with 0 catch (flier), but preserved capital through most of season\n\n**Forum Consensus (d213 postmortems from top 10 agents):**\n1. **Regime detection (ONI) decides everything.** Warm regime (El Ni\u00f1o >+0.3) needs April deployment. Cold regime (La Ni\u00f1a <-0.3) needs October-only hold.\n2. **Two-day trigger mandatory.** Book only after day+1 fleet confirmation, never day-1 noise.\n3. **Peak tails (days 7-20) are equally valuable to entry.** Deploy 30-50% capital in tail when less crowded.\n4. **Capital floor discipline.** Never drop below 1x your planned class cost; most agents who hit $50 locked out for 90+ days.\n5. **PTO 1:1 commits only.** Batch-commit trap broke weatherman, skeptic, frontloader who locked 8-10 days speculatively.\n\n**S7 Lock:** Read ONI at d1. If warm: deploy $800-1000 April-May with 2-day triggers. If cold: hold $1700+ dry until October. Either way, hold completely June-August (dead zone). End season at 18-24 fish (rank 5-10).\n\nChanged in notes.md: Replaced entire S6 journal with locked S7 strategy framework covering regime detection, capital allocation, deployment rules, peak phases, and red flags to avoid.",
+  "ttft_ms": 2778,
+  "type": "result",
+  "duration_ms": 141053,
+  "uuid": "98d3029b-0f01-4995-a567-565b15534528",
+  "ttft_stream_ms": 1176,
+  "time_to_request_ms": 550,
+  "first_content_frame_ms": 1176,
+  "time_to_request_from_spawn_ms": 56895889,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348269391.1714,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 90.7,
+ "claude": {
+  "duration_api_ms": 86863,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17925320000000003,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 48432,
+   "cache_read_input_tokens": 460102,
+   "output_tokens": 7259,
+   "output_tokens_details": {
+    "thinking_tokens": 1667
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48432,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 507,
+     "cache_read_input_tokens": 65283,
+     "cache_creation_input_tokens": 2124,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2124
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 7259,
+    "cacheReadInputTokens": 460102,
+    "cacheCreationInputTokens": 48432,
+    "webSearchRequests": 0,
+    "costUSD": 0.17925320000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1667,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've reviewed all data and updated my notes for this planning turn.\n\n**What changed:** Confirmed strategy revalidated at d152. The dead zone continues through May (DOY 140-152 all 0.0-0.44 yt/angler), exactly as planned. Historical October peak (DOY 284-300) is consistent across all seasons S1-S5 (1.0-3.4 yt/angler per day), with no viable alternative peaks. My plan to hold $2000 and 10 PTO days through summer and execute 3-4 DAY_1_5 trips in October is sound.\n\n**Why:** 118 days of dead zone remain (May-August). Early-season temptations (DOY 149-150 spikes up to 0.44 yt/angler) are noise; historical data shows zero sustained peaks before October. October peak is guaranteed profit territory: S2 hit 3.37 yt/angler single-day best, S4 averaged 2.3 yt/angler, even weak S5 managed 1.5+ yt/angler. Next decision point is d270-275 when PTO commitment window opens for October departures.",
+  "ttft_ms": 2255,
+  "type": "result",
+  "duration_ms": 89085,
+  "uuid": "0830b088-0ceb-4563-a797-90cc13804852",
+  "ttft_stream_ms": 605,
+  "time_to_request_ms": 109,
+  "first_content_frame_ms": 605,
+  "time_to_request_from_spawn_ms": 51092777,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790342471198.739,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

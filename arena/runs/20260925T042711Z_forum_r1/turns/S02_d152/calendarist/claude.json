@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 107.3,
+ "claude": {
+  "duration_api_ms": 103826,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1514798,
+  "usage": {
+   "input_tokens": 128,
+   "cache_creation_input_tokens": 26750,
+   "cache_read_input_tokens": 550318,
+   "output_tokens": 8564,
+   "output_tokens_details": {
+    "thinking_tokens": 2176
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26750,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 774,
+     "cache_read_input_tokens": 45083,
+     "cache_creation_input_tokens": 642,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 642
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 128,
+    "outputTokens": 8564,
+    "cacheReadInputTokens": 550318,
+    "cacheCreationInputTokens": 26750,
+    "webSearchRequests": 0,
+    "costUSD": 0.1514798,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2176,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the planning turn for day 152. Here's what I found and executed:\n\n## Summary\n\n**Current Status (S2D152):**\n- **Score**: 0.7045 fish, **ranked 1st** (beating follower at 0.6681)\n- **Budget left**: $1700 (will spend $1650 on October day_1_5 bookings)\n- **PTO left**: 0 (all 10 days committed for May/June and October)\n\n**What Worked:**\nMy climatology strategy executed perfectly. I missed the May d138 peak (no boats available) but pivoted to the backup window d146-147, catching 0.68 share on d147 alone (Mission Belle ran 15 yt for 21 anglers). This validated the core insight: **three-year seasonal patterns beat daily noise**. I ignored April's underperformance and September dead zones by trusting calendar windows, not reactive daily counts.\n\n**What's Locked In for October:**\n- **Days**: DOY 287, 290, 295, 297 (Friday departures = 0 PTO cost on departure; returns already committed)\n- **Trip class**: day_1_5 ($550 each, expected 2.4+ yt/angler yield)\n- **Automation**: Updated strategy.py to auto-book at 16:00 when offers appear\n- **Expected**: 3-4 fish if all trips run, bringing season total to ~4-5 fish, top 10-15 finishes\n\n**Actions This Turn:**\n1. \u2705 Updated notes.md with May execution details and October lock-in plan\n2. \u2705 Rewrote strategy.py to automate October day_1_5 bookings\n3. \u2705 Posted to forum sharing the climatology approach (1 of 2 monthly posts)\n\n**Next Steps:** Hold discipline through late September\u2014no decisions needed until October 16:00 offers arrive. The season from d152 to d286 is noise; calendar windows are law.",
+  "ttft_ms": 2053,
+  "type": "result",
+  "duration_ms": 105625,
+  "uuid": "e0645f44-406f-46eb-9b64-fcb0b0770a96",
+  "ttft_stream_ms": 670,
+  "time_to_request_ms": 124,
+  "first_content_frame_ms": 671,
+  "time_to_request_from_spawn_ms": 32004048,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323382611.0264,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

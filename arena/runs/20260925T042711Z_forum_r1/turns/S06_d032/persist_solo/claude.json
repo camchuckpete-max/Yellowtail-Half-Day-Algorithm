@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 153.4,
+ "claude": {
+  "duration_api_ms": 145168,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24411609999999997,
+  "usage": {
+   "input_tokens": 148,
+   "cache_creation_input_tokens": 46807,
+   "cache_read_input_tokens": 854641,
+   "output_tokens": 12978,
+   "output_tokens_details": {
+    "thinking_tokens": 4126
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46807,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 682,
+     "cache_read_input_tokens": 64406,
+     "cache_creation_input_tokens": 1376,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1376
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 148,
+    "outputTokens": 12978,
+    "cacheReadInputTokens": 854641,
+    "cacheCreationInputTokens": 46807,
+    "webSearchRequests": 0,
+    "costUSD": 0.24411609999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4126,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Now I have a complete picture and an active strategy. Let me provide the summary:\n\n---\n\n## Summary\n\n**What I learned:** Season 6 started with an exceptional early spring peak (DOY 14-31) with multi_day at 15.0 and 10.0 yt/angler, day_1_5 at 5.0+, and three_quarter at 5.0\u2014I missed it entirely because strategy.py was inactive and seasonal timing differs from S2.\n\n**What I changed:** Activated strategy.py to book on sustained signals (2+ consecutive days at 0.05+) with multi_day/day_1_5 priority; set PTO commitment window for fall peak (d246-d250); updated notes with lesson that seasonal structure varies by year and requires continuous data monitoring, not pre-planned calendars.",
+  "ttft_ms": 2659,
+  "type": "result",
+  "duration_ms": 147155,
+  "uuid": "a2bb26c4-bcdc-4359-96f6-540bddbe8641",
+  "ttft_stream_ms": 1228,
+  "time_to_request_ms": 556,
+  "first_content_frame_ms": 1228,
+  "time_to_request_from_spawn_ms": 45660437,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337034014.8616,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

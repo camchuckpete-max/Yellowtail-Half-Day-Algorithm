@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 119.1,
+ "claude": {
+  "duration_api_ms": 115176,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2137019,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 55368,
+   "cache_read_input_tokens": 524369,
+   "output_tokens": 10089,
+   "output_tokens_details": {
+    "thinking_tokens": 2772
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 55368,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1020,
+     "cache_read_input_tokens": 68679,
+     "cache_creation_input_tokens": 5664,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5664
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 10089,
+    "cacheReadInputTokens": 524369,
+    "cacheCreationInputTokens": 55368,
+    "webSearchRequests": 0,
+    "costUSD": 0.2137019,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2772,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary**: I've completed the S6 post-season analysis and prepared comprehensive S7 strategy notes.\n\n**What I found:**\n- S6 dominated ($23.97, rank 1) by catching the summer peak (DOY 175-192, 19 consecutive hot days at 0.975 yt/angler average)\n- Validation across S1-S6 data confirms seasonal pattern consistency: spring micro-peaks (DOY 105-125), summer main peak (DOY 175-220 consistently 0.8-2.3 yt/angler), fall peak (DOY 254-305)\n- **Critical S6 mistake**: Exhausted capital by d192, missed wave 2 resurgence (d200-d212 showed 1.85-5.889 yt/angler on multi-day classes)\n\n**S7 Strategy (now in notes.md):**\n1. **Phase 1 (DOY 1-104)**: Dormant\u2014no value before spring micro-peaks\n2. **Phase 2 (DOY 105-140)**: Scout 1-2 weekend THREE_QUARTER if 2+ days at 0.8+ yt/angler signal\n3. **Phase 3 (DOY 170-220)**: Aggressive 8-12 THREE_QUARTER bookings on main summer peak; **reserve $400-600 capital** for wave 2\n4. **Phase 4 (DOY 221-253)**: Dead zone hold\u2014absolute discipline\n5. **Phase 5 (DOY 254-305)**: Fall peak scout (1 weekend DAY_1_5) \u2192 assault if confirmed\n\n**Target**: 15+ fish in S7 (vs elnino's 8-12 expected) to win both season rank and cumulative board (30+ total). Key differentiator from S6: capital preservation for wave 2 resurgence and active fall peak play.",
+  "ttft_ms": 2849,
+  "type": "result",
+  "duration_ms": 117550,
+  "uuid": "53bdc8cf-2fbe-478b-a5fc-f6c3bdb2124b",
+  "ttft_stream_ms": 598,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 599,
+  "time_to_request_from_spawn_ms": 58543741,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790349922230.4617,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

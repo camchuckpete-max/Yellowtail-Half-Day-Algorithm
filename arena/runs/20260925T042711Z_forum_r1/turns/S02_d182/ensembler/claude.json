@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 231.3,
+ "claude": {
+  "duration_api_ms": 227229,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3021577,
+  "usage": {
+   "input_tokens": 168,
+   "cache_creation_input_tokens": 51229,
+   "cache_read_input_tokens": 999217,
+   "output_tokens": 19922,
+   "output_tokens_details": {
+    "thinking_tokens": 8580
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51229,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 610,
+     "cache_read_input_tokens": 69198,
+     "cache_creation_input_tokens": 1006,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1006
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 168,
+    "outputTokens": 19922,
+    "cacheReadInputTokens": 999217,
+    "cacheCreationInputTokens": 51229,
+    "webSearchRequests": 0,
+    "costUSD": 0.3021577,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 8580,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 30,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of this planning turn:\n\n## Summary\n\n**Changed:** Updated strategy.py with reactive October auto-booker; locked in comprehensive execution plan in notes.md for remaining season (d183-301).\n\n**Why:** Discovered massive October peak (day_1_5 4.443 yt/angler) still available. After scoring 0.0 on 4 trips due to boat selection failures, I'm pivoting from passive holding to aggressive October-focused deployment. With 2-3 day_1_5 bookings at $550 each, even 50% effectiveness = 1.0 score and rank 15-20 (vs. current 0.0, rank 28). Strategy.py will auto-execute starting d273 when October schedule posts and signals confirm peak (fleet >1.5 yt/angler). Nightly decisions needed only for PTO commits (d167-170) and manual Sept anomaly checks; otherwise capital held for October all-in.",
+  "ttft_ms": 2372,
+  "type": "result",
+  "duration_ms": 229408,
+  "uuid": "c6994409-8688-41a1-9ea5-27dcf3cdbad1",
+  "ttft_stream_ms": 644,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 645,
+  "time_to_request_from_spawn_ms": 34116292,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325494828.3867,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

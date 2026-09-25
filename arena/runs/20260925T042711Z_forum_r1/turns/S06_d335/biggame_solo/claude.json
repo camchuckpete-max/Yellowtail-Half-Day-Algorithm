@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 164.9,
+ "claude": {
+  "duration_api_ms": 156503,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26268969999999997,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 55568,
+   "cache_read_input_tokens": 812207,
+   "output_tokens": 14043,
+   "output_tokens_details": {
+    "thinking_tokens": 3641
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 55568,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 740,
+     "cache_read_input_tokens": 73744,
+     "cache_creation_input_tokens": 799,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 799
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 14043,
+    "cacheReadInputTokens": 812207,
+    "cacheCreationInputTokens": 55568,
+    "webSearchRequests": 0,
+    "costUSD": 0.26268969999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3641,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me write a concise summary of the analysis and changes:\n\n**Season 6 Final Analysis: The Real Lesson**\n\n**Data showed the hard truth:** You didn't miss the peak\u2014you fished it at the wrong boats. During D93-D115 (July 29-Aug 3), Top Gun 80 hit 91.62 yt/trip and Pacific Voyager 85.77 yt/trip. You picked Mission Belle (42.34), Prowler (~38), and Legend instead. Boat selection cost you 8\u201312 fish\u2014**4-5x more impactful than timing.**\n\nEarly season (DOY < 100): Vagabond dominated at **116 yt/trip** vs. your Prowler at 26.67.\n\n**Season 7 Reset:**\n- **Updated notes.md** with data-driven findings (corrected the \"D2-D51 peak\" misconception)\n- **Deployed strategy.py**: Three-phase approach targeting Top Gun 80, Pacific Voyager, Vagabond, Chief on every available Friday with no-PTO weekends\n- **Success path:** 6-8 long trips on proven top-tier boats \u2192 15-25 fish expected (vs. S6's 4.95)\n\nThe strategy is ready for Season 7 D1. First decision: commit PTO for the first Friday, then book Top Gun/Pacific Voyager/Vagabond relentlessly through Phase 1.",
+  "ttft_ms": 3397,
+  "type": "result",
+  "duration_ms": 158633,
+  "uuid": "4e665845-4094-4688-9586-404acbc119ee",
+  "ttft_stream_ms": 1279,
+  "time_to_request_ms": 741,
+  "first_content_frame_ms": 1280,
+  "time_to_request_from_spawn_ms": 61749870,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353123024.8572,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

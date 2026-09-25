@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 94.9,
+ "claude": {
+  "duration_api_ms": 92307,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.317698,
+  "usage": {
+   "input_tokens": 20,
+   "cache_creation_input_tokens": 38409,
+   "cache_read_input_tokens": 426110,
+   "output_tokens": 7880,
+   "output_tokens_details": {
+    "thinking_tokens": 3844
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38409,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 254,
+     "cache_read_input_tokens": 60380,
+     "cache_creation_input_tokens": 3470,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3470
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 20,
+    "outputTokens": 7880,
+    "cacheReadInputTokens": 426110,
+    "cacheCreationInputTokens": 38409,
+    "webSearchRequests": 0,
+    "costUSD": 0.317698,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3844,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I checked season 2's data through day 91: still all-zero pooled through the winter as expected, but the fishdope narrative for doy85 reports the season's first two yellowtail (HD_PM, New Seaforth, La Jolla Kelp) \u2014 a real but thin signal (one boat, one day, on a deprioritized class), while ONI is recovering (-1.57\u2192-1.29) yet Scripps Pier water is still ~1.6\u00b0C colder than season 1's matched dates. I updated notes.md with this finding and a concrete watch list (need three_quarter/overnight confirmation, not just HD_PM, before stepping up budget/PTO) \u2014 no bookings made since this is a planning turn, and strategy.py stays a no-op until there's enough signal to hardcode a rule.",
+  "ttft_ms": 3176,
+  "type": "result",
+  "duration_ms": 93470,
+  "uuid": "357539cc-d161-47fe-a30f-66b36f0f3712",
+  "ttft_stream_ms": 929,
+  "time_to_request_ms": 90,
+  "first_content_frame_ms": 929,
+  "time_to_request_from_spawn_ms": 20740291,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312119016.1035,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

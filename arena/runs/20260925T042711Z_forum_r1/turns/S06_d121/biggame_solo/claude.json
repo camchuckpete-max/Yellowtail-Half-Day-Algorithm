@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 120.8,
+ "claude": {
+  "duration_api_ms": 111769,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1670531,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 40219,
+   "cache_read_input_tokens": 371191,
+   "output_tokens": 9884,
+   "output_tokens_details": {
+    "thinking_tokens": 2441
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 40219,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 614,
+     "cache_read_input_tokens": 54644,
+     "cache_creation_input_tokens": 4550,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4550
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 9884,
+    "cacheReadInputTokens": 371191,
+    "cacheCreationInputTokens": 40219,
+    "webSearchRequests": 0,
+    "costUSD": 0.1670531,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2441,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Season 6 Final Analysis Complete.**\n\nI finished S6 with **4.95 fish (rank 22/34 season, rank 5/34 cumulative)** \u2014 well below the top performers (14+ fish) despite strong cumulative standing. The postmortem revealed two critical failures:\n\n1. **Missed the D60-D86 First Peak Entirely (15-20 fish opportunity lost):** Signal emerged D60 at 2.59 yt/angler and sustained through D85-D86 (peaking at 11.21 yt/angler multi_day). I didn't commit PTO early enough to book weekend trips during the peak.\n\n2. **Suboptimal Boat Selection on Mid-Peak Trips:** I booked Prowler (1.19 yt/angler fleet average) and Legend (0.74 avg) when **Pacific Voyager** was running (3.41 yt/angler \u2014 nearly 3x better). One Pacific Voyager trip would have earned 2.8-3.4 fish vs my 0.1-1.1 actual.\n\nThe updated notes.md now contains a locked S7 strategy prioritizing:\n- **Early PTO commitment** at first sustained 2.0+ signal (likely D60-D70)\n- **Pacific Voyager as primary boat** (non-negotiable priority)\n- **Multi_day trips on peak days** (2.42 vs 1.51 yt/angler for three_quarter)\n- **Target: 12-15 fish** by capturing D71-D86 and D100-D110 peak windows\n\nReady for Season 7.",
+  "ttft_ms": 2441,
+  "type": "result",
+  "duration_ms": 114435,
+  "uuid": "bf161f81-3421-4bd9-8b57-27c04c289e12",
+  "ttft_stream_ms": 1158,
+  "time_to_request_ms": 652,
+  "first_content_frame_ms": 1158,
+  "time_to_request_from_spawn_ms": 48807875,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340181037.8564,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

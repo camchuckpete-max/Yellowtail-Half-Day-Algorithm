@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 205.2,
+ "claude": {
+  "duration_api_ms": 196424,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.28185879999999996,
+  "usage": {
+   "input_tokens": 172,
+   "cache_creation_input_tokens": 46976,
+   "cache_read_input_tokens": 1025248,
+   "output_tokens": 17042,
+   "output_tokens_details": {
+    "thinking_tokens": 6914
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46976,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 978,
+     "cache_read_input_tokens": 64760,
+     "cache_creation_input_tokens": 1191,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1191
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 172,
+    "outputTokens": 17042,
+    "cacheReadInputTokens": 1025248,
+    "cacheCreationInputTokens": 46976,
+    "webSearchRequests": 0,
+    "costUSD": 0.28185879999999996,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6914,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 26,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Now let me create a summary of what I've determined and the strategy moving forward:\n\n## Summary of Turn (doy 244, 21:00 - Planning Turn)\n\n**Current Situation:**\n- Rank 30/34 (dead last) with 0.0 fish caught (held dry all season)\n- Budget: $1,050 left | PTO: 10 days (not needed for October play)\n- September peak (doy 230-238) produced 0.3-1.1 yt/angler on day_1_5 \u2014 **I missed it by holding**\n- September tail (doy 242-244) is cooling off (0.01-0.412 yt/angler)\n\n**Strategy Decision: October Friday Double**\nOctober peak window (doy 287-303) is confirmed strong from Season 1 data and forum consensus (4.4 yt/angler expected on day_1_5 class). This is my last major opportunity.\n\n**Booking Plan:**\n- **1\u00d7 day_1_5 ($550)** + **1\u00d7 overnight ($400)** = $950 (leaves $100 buffer)\n- Both Friday-departing (no PTO cost\u2014weekend returns only)\n- **Expected return:** 3.95 yt + 0.4 yt = ~4.35 yt total (conservative)\n  - Best case (both peak): 7.9 yt \u2192 top 10-15 rank\n  - Worst case (day_1_5 peaks, overnight weak): 4.35 yt \u2192 top 15-20 rank\n  \n**Actions Taken:**\n1. \u2705 Updated `notes.md` with strategy lock and reasoning\n2. \u2705 Updated `strategy.py` with automated October peak play (books day_1_5 + overnight when doy 287+ arrives)\n3. \u23ed\ufe0f Next: Hold dry doy 244-287, then auto-book October trips when schedule appears (14 days before doy 287)\n\n**Leaderboard Impact:** Even after missing September, 4-8 fish total would be competitive (beats current 0.7-0.8 leaders in this season's results, though too late to win).",
+  "ttft_ms": 2405,
+  "type": "result",
+  "duration_ms": 199128,
+  "uuid": "78d0beb1-97e0-4c44-9e36-7111b2508b43",
+  "ttft_stream_ms": 1148,
+  "time_to_request_ms": 615,
+  "first_content_frame_ms": 1148,
+  "time_to_request_from_spawn_ms": 38350988,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329724614.4104,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 86.6,
+ "claude": {
+  "duration_api_ms": 78171,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.37758520000000007,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 60272,
+   "cache_read_input_tokens": 337766,
+   "output_tokens": 6892,
+   "output_tokens_details": {
+    "thinking_tokens": 2737
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 60272,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 220,
+     "cache_read_input_tokens": 80853,
+     "cache_creation_input_tokens": 4860,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 4860
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 12,
+    "outputTokens": 6892,
+    "cacheReadInputTokens": 337766,
+    "cacheCreationInputTokens": 60272,
+    "webSearchRequests": 0,
+    "costUSD": 0.37758520000000007,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2737,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "No bookable action exists this turn (budget still $50, locked since d155) \u2014 confirmed the day_1_5/overnight peak hard-closed by doy305-310 rather than tapering, and folded in the d305 forum wave (9 postmortems, including the top 4 finishers) into a sharpened S03 plan: spend near-nothing pre-peak, expect two sub-windows not one, weigh competitor count when picking boats, and check ONI regime at S03 start since this season's single-big-peak shape is tied to the cold/La Ni\u00f1a regime. Skipped posting since the forum is already saturated with detailed numbers and my one new data point (the hard cutoff) is minor.",
+  "ttft_ms": 1323,
+  "type": "result",
+  "duration_ms": 80223,
+  "uuid": "293f0c06-3218-45cf-9b86-d3c0bb317e6f",
+  "ttft_stream_ms": 958,
+  "time_to_request_ms": 481,
+  "first_content_frame_ms": 958,
+  "time_to_request_from_spawn_ms": 44602263,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790335975966.3904,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

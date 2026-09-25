@@ -1,0 +1,488 @@
+- S02 d091: April overnight peak d92-d100 (1.78 yt/angler) live per forum; no peak boats scheduled yet. Holding dry for Mustang/Grande/Legend.
+- S02 d092: April overnight peak (4.51 yt/trip observed now, DOY 92-100) locked out—PTO commitment already past the 14-day gate. Pivoting to October day_1_5 (proven 4.51 yt/angler historical). Fleet flatlined d86-d92; Sunday skip justified. Watch for May mid-month if fleet signals a shift.
+- S02 d093: Spring peak (DOY 92-100) locked out; no overnight boats tomorrow anyway. Holding 4 PTO for October day_1_5 peak confirmation.
+- S02 d094: April peak passed. No boats for bookable twilight, all other classes need uncommitted PTO. Holding for weekend or May peak (can commit from d108+).
+- S02 d095: Locked out of April d96–d98 by PTO gate (already past 14-day commit window). October peaks committed (d291, d297, d301). Holding 4 PTO and ~$1600 budget; May (0.37 yt/angler) not worth diverting from October strategy (4.51 yt/angler).
+- S02 d096: April trailing off, no bookable trips (weekday needs committed PTO). October peaks set (d291, d297, d301). Sit tight.
+- S02 d097: April peak fading; unknown boats d98-99. Hold for October (d291, 297, 301).
+- S02 d098: April peak closing window: Mustang overnight (1.589 class avg vs recent 0.000 boat data). Taking calculated risk; if peak has passed, $400 loss; if live, multiple fish. No PTO cost. October locked.
+- S02 d099: April closes tomorrow (Mustang overnight bet). Sitting tight; October commitment window opens d273+.
+- S02 d100: April peak bust (Mustang d100: 0 yt). Fleet weak d101. Holding October strategy; May mid-month test TBD.
+- S02 d101: April peak closed (d100: 0 yt). Fleet weak, water flat. October locked (d291, d297, d301). Sit tight.
+- S02 d102: April closed (d100 bust). Fleet scattered, yields flat. Holding capital for October day_1_5 peaks.
+- S02 d103: Fleet dead zone, April closed (d100 bust). TWILIGHT has no boats. Holding capital and PTO for October day_1_5 locks (d291, 297, 301).
+- S02 d104: Fleet dead d101-104, April peak confirmed closed. Holding capital/PTO for October day_1_5 peaks (d291, 297, 301). DAY_1_5 boats offer no fleet support signal.
+- S02 d105: April dead (d100 bust), fleet in zero zone. October day_1_5 is the play (d291, 297, 301). Hold capital and PTO.
+- S02 d106: D106 three-quarter flash (0.234 yt/angler): San Diego 23 yt leads fleet surge (6-boat day). Riding wave with contained risk; October peaks locked, no PTO needed. Score or learn.
+- S02 d107: May lull: dead zone thesis holds. No bookable trips (PTO windows closed). Fleet weak, boats absent on quality classes. October day_1_5 locked; capital and PTO preserved.
+- S02 d108: May peak window now closed (PTO misalignment). April failed, May surge missed. October locked (d291, d297, d301). Hold capital; adapt in Q4.
+- S02 d109: May peak closing (d91-120), summer dead zone next. October day_1_5 locked (d291, 297, 301). Hold capital and PTO.
+- S02 d110: May peak window closed (d106 flash, fleet 0.000 since). TWILIGHT boats unavailable, other classes require uncommitted PTO. October day_1_5 locked (d291, d297, d301). Hold capital and stay dry until October."
+- S02 d111: May peak closed (d106 surge, now quiet). Mustang 0.000 recent, Pacific Voyager untested. October locked. Hold.
+- S02 d112: San Diego signal d112 (21 yt) confirms May peak alive. Booking three-quarter to score now. October day_1_5 locked (d291, d297, d301); 4 PTO flexible for future peaks."
+- S02 d113: May peak fading (d112 flash, d113 blank). Fleet weak, 2-boat max. Hold capital for October day_1_5 (d291/297/301 locked, 4.5x higher yield class).
+- S02 d114: May dead zone confirmed (fleet 0.000 recent). October day_1_5 locked (d291/297/301). Hold capital until October peak.
+- S02 d115: May dead zone. October day_1_5 locked (d291/297/301). Hold capital and PTO.
+- S02 d116: May dead zone confirmed; peak flashed d112, now silent. October day_1_5 locked (d291/297/301). Capital and PTO preserved.
+- S02 d117: May dead zone d114-d118 confirmed fleet. October day_1_5 locked (d291/297/301). Preserve capital/PTO for peak deployment.
+- S02 d118: Dead zone d114-d118 confirmed; boats weak. Oct day_1_5 locked (d291/297/301). Hold capital and trust October."
+- S02 d119: May peak dead d113-d119 after d112 flash. Hold capital/PTO; October day_1_5 locked (d291/297/301).
+- S02 d120: May dead confirmed d114–d120 fleet blanks. Hold capital/PTO; October day_1_5 (d291/297/301) locked.
+- S02 d121: May dead confirmed d115-d121 (fleet 0.000). October peak locked (d291/297/301 PTO, $1100 budgeted for 2× day_1_5). Hold and deploy in October.
+- S02 d122: Dead zone holds; no premium boats sailing. October locked (d291/297/301). Monitor for signal. Capital and PTO preserved for fast deployment.
+- S02 d123: Dead zone holds. No bookable trips. Capital and PTO locked for October peak (d291/297/301).
+- S02 d124: Dead zone d119-d125 holds; no boats, no signal. October locked d291/297/301. Hold and wait.
+- S02 d125: Dead zone through d126 confirmed fleet. Hold capital for October. Await break signal.
+- S02 d126: Dead zone d126 holds. Stay dry, capital/PTO locked for October peaks. No break signal yet.
+- S02 d127: d127 dead zone holds. San Diego not signaling yet. October peaks (d291/297/301) locked; capital preserved. Monitor for fleet break.
+- S02 d128: d128: Dead zone holds, no premium boats scheduled. Stay dry; October locked (d291/297/301). Capital and PTO preserved.
+- S02 d129: Dead zone d122–d130 holds. No bookable trips have boats. October locked (d291/297/d301); capital intact. Hold and watch for fleet signal.
+- S02 d130: D130 dead zone holds. No bookable trips, no fleet signal. Stay dry; capital and PTO preserved for October peaks or recovery signal.
+- S02 d131: D131 dead zone holds. No bookable trips with fleet signal. October peaks locked (d291/d297/d301). Hold capital, wait for break.
+- S02 d132: D132 dead zone holds; bookable boats show zero form. Capital and PTO held for October peaks. Watch for break signal.
+- S02 d133: Dead zone holds d122–d134. Capital & PTO locked for October peaks. No break signal yet—premium boats unscheduled.
+- S02 d134: D134 dead zone holds; premium boats absent tomorrow. Stay dry, capital reserved for October window. Watch for fleet break signal.
+- S02 d135: D135 dead zone holds. Stay dry; capital and PTO reserved for October. No fleet signal yet.
+- S02 d136: D136: Dead zone d122–d136+ holds firm. No fleet signal. Capital and PTO locked for October. Stay dry and watch.
+- S02 d137: Dead zone d122–d137+ holds. No fleet signal. October locked. Stay dry and watch.
+- S02 d138: D138–d139 dead zone holds. No fleet signal, no bookable value. Capital and October PTO locked. Stay dry and watch.
+- S02 d139: D139: Dead zone holds. No fleet signal on bookable trips. Capital and October PTO locked. Stay dry.
+- S02 d140: D140–d141: Dead zone holds. No fleet break signal, no premium overnight boats scheduled. Stay dry, capital locked for October peaks.
+- S02 d141: D142: Dead zone holds, zero fleet signal, no bookable value. Stay dry; October locked and capitalized.
+- S02 d142: D142–D143 dead zone holds. No fleet signal, no bookable value. October locked; stay dry.
+- S02 d143: D143: Malihini 0.256 yt/angler (one boat, one day). Dead zone holds, no fleet signal yet. Stay dry; October locked.
+- S02 d144: D144 three-quarter surge (3.583 yt/angler) signals dead zone break. Overnight/day_1_5 boats silent—no confirmation yet. Stay dry; watch fleet response next 48h before committing capital.
+- S02 d145: D145-146: Fleet break signal (three-quarters + overnight fire together). Booking San Diego three-quarter. Dead zone ends or noise—will know in 24h.
+- S02 d146: D146 overnight signal genuine but wrong boats; premium carriers dark. Stay dry, watch for fleet re-entry d147–d150.
+- S02 d147: D148 three-quarter fire on San Diego. Breaking 0.00 streak; $150 invest, $1150 for October peaks.
+- S02 d148: D149 dead zone holds, no premium boats. Dry. October PTO locked (d291/d297/d301); booking day_1_5 only when best boats run. Wait for peak signal.
+- S02 d149: D150 holiday, three-quarters weak (0.152 class avg despite San Diego 0.502 recent). Dead zone holds. Dry; October window locked, capital reserved.
+- S02 d150: D150: No bookable trips (d151 weekday, no PTO), TWILIGHT has no boats. Dead zone holds. Capital reserved for October.
+- S02 d151: D152 dead. October window locked. Stay dry, hold capital for peak.
+- S02 d152: D153 dead zone holds, no bookable trips. Stay dry. October locked.
+- S02 d153: D154: Dead zone confirmed. Fleet silence on d153 (premium classes 0.000). Water 58.3°F and cooling. Hold capital for October peak window; no override trigger yet.
+- S02 d154: D154 fleet silent: 0.000 yt/angler across HD_AM, HD_PM, THREE_QUARTER. Dead zone holds. Hold capital for October.
+- S02 d155: D155 all-class silence (0.000 across seven boats). Dead zone holds. Hold capital for October; no peak signal yet.
+- S02 d156: No bookable trips d157. Dead zone holds. Capital and PTO reserved for October. Bench.
+- S02 d157: D157 silent (0.000 fleet), dead zone holds. Weak d158 forecast, no bookable trips. Capital and PTO reserved for October; strategy locked.
+- S02 d158: D158-159: Dead zone holds. No bookable trip with boats. Stay dry; October window locked and PTO reserved. Next commitment gate opens d273 for d287+ bookings.
+- S02 d159: Dead zone holds d160. No bookable trips with boats. Hold capital, PTO for October peak window.
+- S02 d160: D161 dead, boats unproven. Hold dry; October strategy locked.
+- S02 d161: Dead zone holds d162; fleet sparse and yesterday silent. Hold dry. Capital locked for October peak play.
+- S02 d162: D162 silent across all boats (0.000 fleet). Hold dry; capital locked for October. Dead zone holds.
+- S02 d163: D163 dead zone holds. TWILIGHT unbooked (no boats). Weekday trips blocked by PTO gap. Hold dry; October gates open d273.
+- S02 d164: D165 dead zone, no bookable trips. Hold dry; October strategy locked.
+- S02 d165: D165 (Tue): Dead zone holds, no boats, no bookable PTO window. Stay dry; October play still locked d273+ when new data emerges.
+- S02 d166: Dead zone d167 confirmed (no bookable boats). Hold dry; October strategy locked.
+- S02 d167: Yesterday THREE_QUARTER 0.371 breaks dead zone surface; but half-day silent, overnight sparse. Early signal, not trigger. Hold for October play; capital discipline.
+- S02 d168: D169 San Diego three-quarter. Dead zone breaks; fleet voting with d168 0.509 signal. October strategy holds; take this weekend signal while capital permits.
+- S02 d169: D168 signal was false; d169 collapse confirms dead zone holds. Capital locked for October strategy (gates d273+). Stay dry.
+- S02 d170: D171 weekday blocked; no bookable trips. Dead zone confirmed. Hold for October.
+- S02 d171: Dead zone holds; d171 three-quarter blip (0.134) is noise, half-days silent. Capital locked for October strategy. Stay dry.
+- S02 d172: Broke from October hold. San Diego's 23 yt signal too strong; 0.00 season demands action now. Capital allows October play if it materializes.
+- S02 d173: Dead zone holds; d174 unblockable anyway (no PTO, no boats for TWILIGHT). October gates locked d273+. Stay dry.
+- S02 d174: Dead zone holds Friday. Capital locked for October gates (d273+). Stay dry.
+- S02 d175: Dead zone d175 confirmed; no fleet vote. Capital stays locked. Waiting for October gates and d287+ seasonal signal.
+- S02 d176: Dead zone Sunday confirmed. Overnight blip insufficient; can't book without d178 PTO anyway. Capital locked for Oct gates.
+- S02 d177: Dead zone d178 confirmed; no bookable trips without PTO. Capital locked for October gates (d273+). Stay dry.
+- S02 d178: Dead zone d179 holds; TWILIGHT unbookable anyway. Capital locked for October gates (d273+). Stay dry.
+- S02 d179: Dead zone d179 confirmed, fleet silent, zero boats bookable. October gates locked d273+. Stay dry.
+- S02 d180: Dead zone d180 confirmed; fleet silent. Staying dry. Capital and PTO locked for October gates d273+.
+- S02 d181: Dead zone d181 confirmed; staying dry. October gates locked, capital preserved for d273+ booking window.
+- S02 d182: Dead zone holds d183 (water temp down, fleet silent). Stay dry, preserve capital for October gates d273+.
+- S02 d183: Dead zone d184 (Sunday). Fleet silent, water cooling. Capital locked for October gates d273+.
+- S02 d184: Dead zone d185: all classes zero yesterday, water cooling. Capital locked for October strategy. Stay dry.
+- S02 d185: Dead zone d186 confirmed (fleet silent, water 63°F). Stay dry. October gates locked d273+.
+- S02 d186: Dead zone d187 confirmed; twilight has zero expected value. Capital and PTO locked for October gates. Stay dry.
+- S02 d187: Dead zone d188. Capital locked for October. Stay dry.
+- S02 d188: Dead zone d188 confirmed; water cooling, fleet silent. Stay dry. Capital locked for October d273+ gates.
+- S02 d189: Dead zone d189–d190 holds; water 62.8°F cooling. Stay dry. October capital locked.
+- S02 d190: Dead zone holds d191 (Sunday). Water flat/cool, all classes zero d190. Stay dry, capital locked for October d273+ gates.
+- S02 d191: Dead zone d192 (Mon) confirmed: all classes zero d191, water cooling. Capital locked October d273+. Stay dry.
+- S02 d192: Dead zone d192 confirmed, water 66–68°F cooling. Capital locked October. Stay dry.
+- S02 d193: Dead zone d194 confirmed. Stay dry. October capital locked.
+- S02 d194: Dead zone d195. TWILIGHT 0.000 signal. Hold capital/PTO for October gates—no fishing until peak window emerges (d273+).
+- S02 d195: New Lo-An signal d195 (24 yt), but fleet silent. One hot boat ≠ peak. Stay dry, monitor d196–197 for fleet vote. October capital locked.
+- S02 d196: Dead zone d197 confirmed; water stable 68°F, no fleet vote. Hold capital/PTO for October gates (d273+).
+- S02 d197: Dead zone d198 (Sun). Stay dry, capital locked October. Alexes noise in dead window—no fleet vote.
+- S02 d198: Dead zone holds d199. Overnight noise on d198 is one boat; fleet vote absent. Stay dry, capital locked October.
+- S02 d199: Dead zone holds d200. Stay dry, capital preserved for October gates (d273+).
+- S02 d200: Dead zone d201 holds. Capital locked October.
+- S02 d201: Dead zone d202: twilight bookable but 0.000 signal. Capital locked October. Stay home.
+- S02 d202: Dead zone d203 confirmed. No fleet vote. Hold capital/PTO for October gates (d273+). Stay dry.
+- S02 d203: Breaking October lockdown—fleet fishing NOW. Relentless +30yt d201, overnight class 0.132–0.583 d201–d203. Water 68.4°F, Coronados 3 yt reports. One overnight, save $600 for October gates.
+- S02 d204: Overnight d206 cancelled; staying dry. Capital locked October day_1_5. Hold for peak condition trigger.
+- S02 d205: Overnight surge real (0.077 yt d205); seasonal turn signal but can't book weekday without retroactive PTO. Hold for October alignment—water stable, fishdope watch active.
+- S02 d206: THREE_QUARTER surge d206 (0.260) real but unfishable—weekday lockout. Hold October gates. Water 64°F, dead zone confirmed.
+- S02 d207: Yesterday's 3Q surge (0.449) noted but likely dead-zone noise. Water cooling. Stay dry, capital locked October. Watch d208–d210 for sustained signal.
+- S02 d208: Dead zone confirmed d207–d209. Water cooling. Hold capital and 4 flexible PTO days for October day_1_5 gates (d273+). Twilight zero signal across fleet; stay dry.
+- S02 d209: Overnight noise within dead zone. Capital locked October. Hold four PTO days for d273+ booking window.
+- S02 d210: d209–d210 surge/correction real but my San Diego 3Q timing 0/4; hold October strategy. Capital locked $550 day_1_5, 4 PTO days flexible for d273+ peak.
+- S02 d211: D212 Sunday: dead zone hold. Water cooling, fleet quiet. Capital locked October.
+- S02 d212: Dead zone confirmed. Water cold (57.9°F). October capital locked. Stay dry.
+- S02 d213: Dead zone hold. Water cold (57.4°F), fleet weak, d207 spike confirmed as 2-day micro-peak. Capital locked October, stay dry.
+- S02 d214: Dead zone hold. TWILIGHT only bookable; zeros out. Water cooling, fleet quiet, capital locked October.
+- S02 d215: Dead zone hold d216. Capital and 4 PTO days locked for October day_1_5 d273+ gate. Water cold, fleet quiet—stay dry.
+- S02 d216: Dead zone hold d217. Water cold, fleet quiet, capital locked October. Stay dry.
+- S02 d217: Dead zone hold d218. Water cooling, fleet quiet, capital locked October. Stay dry.
+- S02 d218: Dead zone hold d219. Fleet quiet, water cooling (64.4°F), capital locked October. Stay dry.
+- S02 d219: Dead zone hold d220. Water cooling, fleet quiet, capital locked October. Stay dry.
+- S02 d220: Dead zone hold. Water cold (62.2°F), fleet weak, capital locked October. Stay dry.
+- S02 d221: Dead zone hold d222. TWILIGHT zero signal, water cooling. Capital locked October, stay dry.
+- S02 d222: Dead zone hold d223. Water cooling, fleet quiet, all short trips zero signal. Capital and PTO locked October surge (d273+).
+- S02 d223: Dead zone hold d224. Water cooling, fleet quiet, all classes zero-weak signal. Capital and PTO locked October day_1_5 gate. Stay dry.
+- S02 d224: Dead zone hold d225. Water cooling, fleet weak, capital + PTO locked October surge. Stay dry.
+- S02 d225: Dead zone confirmed d225. Fleet vote waits October d273+. Capital locked, stay dry.
+- S02 d226: Dead zone hold d227. Fleet zero signal, water cooling. Stay dry, capital + PTO locked October surge (d273+).
+- S02 d227: Dead zone hold d228. Fleet signal flat, water cooling, capital + PTO locked October surge d284+. Stay dry.
+- S02 d228: Dead zone hold d229. Fleet weak, water cooling, capital + PTO locked October surge (d284+). Stay dry.
+- S02 d229: Dead zone hold d230. Water 67.6°F cooling, fleet weak, capital + PTO locked October surge. Stay dry.
+- S02 d230: Dead zone hold d231. Water warming tick, fleet still flat. October strategy locked, capital preserved.
+- S02 d231: Dead zone hold d232. Fleet flat, water cooling, capital + PTO locked October surge d284+. Stay dry.
+- S02 d232: Dead zone confirmed d232–d233. Fleet vote flat, water cooling. Capital + PTO locked October peak (d284+). Stay dry.
+- S02 d233: Dead zone d234 confirmed. Fleet flat, water cooling, October strategy locked. Stay dry, capital + PTO preserved.
+- S02 d234: Dead zone d235 hold confirmed. Fleet flat, capital + PTO locked October surge. Stay dry.
+- S02 d235: Dead zone d235 confirmed flat. Capital + PTO locked for October peak (d284+). Stay dry.
+- S02 d236: Dead zone d237 hold confirmed. Fleet flat, water cooling. Capital + PTO locked October peak d284+. Stay dry.
+- S02 d237: Dead zone d238 confirmed flat. Capital + PTO locked October surge d284+. Stay dry.
+- S02 d238: Dead zone d239 hold confirmed. Fleet flat, water cooling. Capital + PTO locked October surge d284+. Stay dry.
+- S02 d239: Dead zone d240 hold confirmed. Fleet flat, capital + PTO locked October surge d284+. Stay dry.
+- S02 d240: Dead zone d241 hold confirmed. Fleet flat, water cooling, capital + PTO locked October surge d284+. Stay dry.
+- S02 d241: Dead zone d242 hold confirmed. Fleet flat, capital + PTO locked October surge d284+. Stay dry.
+- S02 d242: Dead zone d243 confirmed flat. Capital + PTO locked October peak d284+. Hold.
+- S02 d243: D243 micro-peak (0.412 yt/angler, water 70.7°F) tempting but micro-peaks collapse; October d284+ locked.
+- S02 d244: Micro-peak d243 collapsed as predicted; fleet dead on d244. Dead zone holds. October peak strategy locked; preserve capital and PTO.
+- S02 d245: Dead zone d246 hold. Mission Belle one-boat spike insufficient fleet signal. October surge locked; capital preserved.
+- S02 d246: Dead zone d247 hold. October surge d284+ locked; capital+PTO preserved.
+- S02 d247: Dead zone d248 confirmed flat. Mission Belle one-day noise insufficient. Capital locked for October validated surge.
+- S02 d248: Dead zone holds. October surge locked; capital + 4 flex PTO days preserved for seasonal transition signal.
+- S02 d249: Dead zone holds d250. No bookable trips (no PTO window). October surge d284+ locked; capital + flex PTO preserved.
+- S02 d250: Dead zone holds. No bookable trips anyway. October surge strategy intact; capital + 4 flex PTO preserved.
+- S02 d251: d251 spike (0.229 yt/angler overnight) is micro-peak noise, not trend. October surge d284+ locked; capital $600 + 4 flex PTO intact.
+- S02 d252: Dead zone d252-d253 holds silence. Fleet voting nothing. Capital + PTO reserved for October validated surge.
+- S02 d253: Dead zone d254 hold. October surge d284+ locked, capital preserved for day_1_5 peak.
+- S02 d254: Dead zone d255 hold. Fleet silent; October surge d284+ locked, capital + PTO preserved.
+- S02 d255: Dead zone d256 holds. October surge d284+ locked; no bookable trips, no PTO window to commit. Capital + 4 flex PTO reserved.
+- S02 d256: Dead zone d257 holds. Fleet spike d256 is noise. October surge d284+ locked; capital + PTO reserved.
+- S02 d257: Dead zone d258 holds. No bookable trips available; fleet silent. Capital+PTO reserved for October surge d284+.
+- S02 d258: Yesterday's spike (three-quarter 0.755, day_1_5 0.872) is early noise. October surge d284+ locked; capital+PTO reserved. Hold the line.
+- S02 d259: d260: San Diego THREE_QUARTER on active water signal. Break zero. October October strategy intact if this holds; October surge d284+ still locked with PTO committed.
+- S02 d260: Dead zone confirmed. Fleet spike d259 was noise. Hold line through weekend; October surge d284+ strategy intact.
+- S02 d261: Dead zone holds; budget pivot ($450 < $550 day_1_5 cost). Hold capital and flex PTO; decide October booking after early fleet signal.
+- S02 d262: Dead zone holds through d262. Hold capital + flex PTO; watch for October peak signal before d284 commitment gate closes.
+- S02 d263: Dead zone holds d264. TWILIGHT unbookable (no boats). Capital locked for October d284+ surge.
+- S02 d264: Dead zone d265 holds. October peak strategy (d284–301) remains locked; capital + flex PTO reserved for confirmed seasonal window.
+- S02 d265: Dead zone holds d266. Overnights flat. October peak d284+ locked; capital and flex PTO reserved. Stay home.
+- S02 d266: Three-quarter spike yesterday (0.870) is a signal, but early and possibly noise. Hold capital + flex PTO for October d284+ peak where DAY_1_5 boats historically deliver 3.65+ yt/angler.
+- S02 d267: Fleet vote: three-quarter spike 1.074 yt/angler. San Diego leading. Take calculated shot now; October strategy (d284+) remains intact with committed PTO. Last place demands action.
+- S02 d268: Dead zone holds d269. No bookable trips, capital preserved. October d284+ strategy locked; wait for fleet consensus.
+- S02 d269: Locked out of tomorrow. TWILIGHT not worth $80. Hold capital for October or next confirmed signal. PTO gate for mid-Sept opportunities closes d256 (already passed); October gate d284 is my target.
+- S02 d270: Dead zone holds. TWILIGHT unbookable. October strategy (d291, d297, d301) locked; no September signal breaks it. Stay home, preserve capital.
+- S02 d271: Dead zone holds d272. THREE_QUARTER d271 (0.306 yt/angler) is noise. October gate d284 now 13 days out; preserve 4 flex PTO + $300 capital for confirmed peak.
+- S02 d272: THREE_QUARTER signal real (d272 0.232 yt/angler; boats at 0.45+). Committed PTO d287 to lock Friday booking optionality. Hold capital & flex PTO for October DAY_1_5 peak (out of reach at $550, but locked via d291/d297/d301).
+- S02 d273: Dead zone holds d274. Budget crunch revealed: cannot fund October DAY_1_5 peak ($550 trip, $300 left). Recalibrate to cheaper October slots or real September signal. Stay home, preserve capital.
+- S02 d274: Mission Belle THREE_QUARTER d275. October fantasy unfunded; recalibrating to cashable bets. Rank 28/34 demands participation, not speculation.
+- S02 d275: Dead zone holds d276. Fleet signal weak. Preserve $150 capital and 2 flex PTO days for next confirmed breakout or October window.
+- S02 d276: Dead zone holds d277. October gate opens d284; watch fleet consensus first, then deploy $150 on ONE October THREE_QUARTER play.
+- S02 d277: Dead zone holds d278. TWILIGHT unbookable. Hold $150 and flex PTO for October peak confirmation (d284+); watch fleet consensus break before deploying.
+- S02 d278: Dead zone d279. October gate d284 now 6 days out; watch fleet consensus (3/4-day boat signal) before deploying $150 on first bookable peak THREE_QUARTER.
+- S02 d279: Dead zone d279. October gate d284 now 5 days out; hold capital ($150) and watch three-quarter fleet for breakout signal before deploying.
+- S02 d280: Dead zone holds d281. October gate d284 is 4 days out; hold $150 capital and watch fleet three-quarter consensus for confirmed breakout before deploying.
+- S02 d281: Dead zone holds d282. October gate d284 in 3 days—preserve $150 for fleet-confirmed 3/4-day breakout before deploying.
+- S02 d282: Dead zone holds d283. October gate d284+ in 24 hours; hold $150 and watch overnight/day_1_5 fleet consensus for peak confirmation before deploying. One flex PTO locked for mid-October three-quarter optionality.
+- S02 d283: October gate d284 open; fleet signal pending. All PTO locked for peak window d287–d301. Hold $150 and watch.
+- S02 d284: Dead zone holds d285. October peak (d287–303) confirmed in forum data: 5.0+ yt/angler DAY_1_5 sustained 11 days. Hold capital and PTO for proven window; gates open in 48 hours.
+- S02 d285: D286 dead zone holds. October peak opens d287 (Fri, PTO locked). Hold capital and position.
+- S02 d286: October gate d287 open; DAY_1_5 peak proven in forum but $550 unaffordable. THREE_QUARTER fleet cold (0.000 six straight days). Hold $150 capital. Reassess d288+.
+- S02 d287: Tail of October peak; three-quarter cold but San Diego showed d287 signal. Spend last $150 on best available boat during proven window. Broke after this trip.
+- S02 d288: Broke. October peak confirmed post-hoc (forum: DAY_1_5 5.0+ yt/angler d287–303), but capital exhausted on d287 three-quarter. Out for season.
+- S02 d289: Broke. October peak confirmed but capital exhausted. Spectating rest of season. Poor cash allocation lesson.
+- S02 d290: Season over. Broke on d287 three-quarter; October peak confirmed post-hoc (DAY_1_5 5.0+ yt/angler d287–303) but capital exhausted. Spectating. Lesson: tighter capital allocation; don't chase early micro-peaks when mega-peak window is proven 105 days out.
+- S02 d291: Broke. October peak confirmed active (OVERNIGHT 9.154 d291, DAY_1_5 3.164 avg 30d) but capital exhausted d288. Spectating. Lesson learned: preserve capital for proven multi-week windows, don't chase micro-peaks early.
+- S02 d292: Broke on d287 chase; October peak active d292–303 (DAY_1_5 5.0+ yt/angler proven) but zero capital. Season ended by cash exhaustion, not lack of signal.
+- S02 d293: Broke. October peak active (9.154 OVERNIGHT d291, 5.0+ DAY_1_5 window) but capital exhausted d288 on early chase. Season over; lesson: don't chase micro-peaks ahead of proven multi-week windows.
+- S02 d294: Broke on d287 micro-peak chase. October mega-peak confirmed active (OVERNIGHT 11.625 yt/a yesterday, DAY_1_5 5.0+ sustained) but zero capital. Locked out mid-peak. Season over.
+- S02 d295: Broke during October mega-peak. Lesson learned too late: never chase micro-peaks ahead of validated multi-week windows.
+- S02 d296: Broke mid-October-peak. Lesson: preserve capital for validated multi-week windows; don't chase early micro-peaks. Season ended by cash exhaustion, not lack of signal.
+- S02 d297: Broke mid-peak. October validated real (OVERNIGHT 9.154–11.625 d291–d294, DAY_1_5 2.667 d295) but capital exhausted d288. Spectating. Lesson final: preserve capital for proven multi-week windows; never chase early micro-peaks.
+- S02 d298: Spectating. Capital exhausted mid-October peak (OVERNIGHT 11.625 d294, DAY_1_5 5.0+ sustained). Lesson burned: don't chase early micro-peaks ahead of proven multi-week windows.
+- S02 d299: Broke during d287 micro-peak chase. October mega-peak played out (OVERNIGHT 11.625, DAY_1_5 5.0+) but capital locked out. Season ended by poor cash management, not poor signal.
+- S02 d300: Capital exhausted; season over. October peak d294–d301 played out unwatched (OVERNIGHT 11.625, DAY_1_5 5.0+). Lesson final: preserve capital for validated windows; never chase early micro-peaks.
+- S02 d301: October peak confirmed live (Ocean Odyssey 4.143 yt/angler, DAY_1_5 4.189 yt/angler avg), but capital depleted by d288 micro-peak chase. Locked out spectating. Season ended by cash management, not signal failure.
+- S02 d302: Out of capital. October peak passed while cash-locked. Lesson burned: preserve capital for validated multi-week windows, never chase early micro-peaks.
+- S02 d303: Cash depleted. October peak d287–d303 played live (OVERNIGHT 1.679 d303) but capital-locked since d288. Spectating remainder of season.
+- S02 d304: Season over by cash exhaustion mid-October peak. Validated window (DAY_1_5 5.0+ d294–d303) unwatched. Lesson final: preserve capital for proven multi-week windows, never chase early micro-peaks. Score 0.02 yt, rank #33.
+- S02 d305: Season ended d288 (capital exhaustion chasing micro-peaks). October peak d287–d303 confirmed live (OVERNIGHT 11.625, DAY_1_5 5.0+) but cash-locked. Final score 0.02 yt, rank 33/34. Spectating.
+- S02 d306: Season 3 prep: sit dry until late Sept, preserve all capital, hunt ONE mega-peak. Never chase micro before Oct window again.
+- S02 d307: S02 d307 final: rank 33/34, 0.02 yt. October peak (d287–d303: OVERNIGHT 11.625, DAY_1_5 5.0+ yt/a) confirmed live but capital-locked d288 onward. S3 locked: sit dry May–Sept, hunt ONE validated Oct mega-peak with full reserve. Never chase micro before October again.
+- S02 d308: S2 d308: Season over by capital exhaustion. October peak confirmed live (OVERNIGHT 11.625, DAY_1_5 5.0+) but cash-locked from d288. Final score 0.0189 yt, rank 33/34. S3 strategy locked: sit dry May–Sept, hunt ONE October mega-peak with full reserve.
+- S02 d309: Capital-locked, spectating. October peak confirmed live but unwatched. S3: sit dry, hunt ONE mega-peak.
+- S02 d310: Capital exhausted. October peak confirmed live (overnight 1.679, day_1_5 5.0+) but cash-locked since d288. Season over, spectating. S3: sit dry, hunt ONE mega-peak.
+- S02 d311: S02 d311: Capital-locked, spectating. Season 2 ended d288 via micro-peak trap (d268, d275, d288 = $450 wasted). October peak (d287–d303) confirmed: OVERNIGHT 11.625, DAY_1_5 5.0+ yt/angler. S3 locked: sit dry May–Sept, hunt ONE October mega-peak with full reserve. Discipline wins.
+- S02 d312: S2 d312: Capital-locked spectating. October peak confirmed (overnight 11.625, day_1_5 5.0+ yt/angler d287–d303) but cash-exhausted since d288 micro-chasing ($450 wasted on d268, d275, d288). S3 locked: sit dry May–Sept, hunt ONE October mega-peak with full reserve. Discipline wins.
+- S02 d313: S02 dead, capital exhausted d288. October peak confirmed live but unwatched. S3 locked: sit dry, hunt ONE mega-peak.
+- S02 d314: Dead zone discipline holding. $0 forces sit-dry through late Sept. Waiting for October upwelling signal d273+.
+- S02 d315: S2 capital-exhausted (0.02 yt, rank 33/34). Dead zone holding. S3 awaits: sit dry May–Sept, hunt ONE October mega-peak with full reserve when d273 signals emerge.
+- S02 d316: S2 capital-dead at rank 33/34 (0.02 yt). October peak confirmed live but unwatched. S3: discipline holds—sit dry, hunt ONE mega-peak with full reserve.
+- S02 d317: S2 capital-dead at rank 33/34 (0.02 yt). October peak confirmed unwatched. S3 locked: sit dry May–Sept, hunt ONE mega-peak with full reserve.
+- S02 d318: S2 dead, capital exhausted, October peak unwatched. Dead zone discipline holding—zero trips, zero burn. S3 locked: wait for ONE validated mega-peak.
+- S02 d319: Capital dead, spectating d320. Dead zone discipline holding. Waiting for October signal d273+.
+- S02 d320: D320 capital-locked, dead zone holding, October PTO already allocated. S3 discipline confirmed: sit, don't chase micro-peaks, wait for validated mega-signal.
+- S02 d321: Dead zone holding, capital locked, October PTO reserved. S3 discipline confirmed: no bookings, no budget, sit tight.
+- S02 d322: S2 d322: Capital-dead at 0.02 yt, rank 33/34. Dead zone discipline held through late Sept; micro-peak chasing cost the season. S3 locked: sit dry, hunt ONE October mega-peak with full reserve.
+- S02 d323: Capital dead. October window locked. Dead zone discipline holding through late Sept flatness. S3 reset pending.
+- S02 d324: Capital dead, dead zone holding. October PTO locked d287-d301. S3 discipline confirmed: sit dry Sept-late-Sept, hunt ONE October mega-peak with full reserve.
+- S02 d325: Capital dead, October PTO locked (d287, d291, d297, d298, d301), dead zone holding. Spectate through d326; October peak confirmation pending.
+- S02 d326: Capital locked, dead zone holding. October peak (d287+) only rational play—already PTO-reserved, waiting for signal.
+- S02 d327: Dead zone confirmed (0.000 yt/angler, all classes, 7d). October window locked, capital gone. D287 signal watch begins.
+- S02 d328: Dead zone discipline holding. Capital gone, October PTO locked (d287–d301). Fleet at 0.000 yt/angler (7d). Waiting for October signal to fire.
+- S02 d329: Capital exhausted. Dead zone holding (0.000 yt/angler all classes, 7d). October PTO locked; sit dry through late Sept flatness.
+- S02 d330: Capital dead. Dead zone holding (0.000 all classes, 7d). October PTO locked; sit dry through late Sept flatness, await d287 signal.
+- S02 d331: Capital dead. Sit dry d332. October window locked (d287+), await d273 schedule visibility and fleet fire signal. Dead zone discipline holding.
+- S02 d332: Capital gone, dead zone continues. October PTO locked (d287, d291, d297, d298, d301). Sit d333; spectate for October schedule visibility d273+.
+- S02 d333: Capital dead, dead zone holding. October PTO locked (d287, d291, d297, d298, d301); sit dry through late Sept flatness, await d273 schedule visibility.
+- S02 d334: Dead zone discipline holding. Budget exhausted, October PTO locked (d287, d291, d297, d298, d301). Sit dry d335. Await October signal.
+- S06 d091: D091: THREE_QUARTER hot (2.717 yt/angler, Mission Belle 2.237), but holding dry. No signal to override LOCK strategy—waiting for October multi-day mega-peak. Capital intact, PTO dry, discipline holding.
+- S06 d092: THREE_QUARTER signal confirmed hot, but not bookable. LOCK discipline holds: capital+PTO intact for October multi-day mega-peak. Watch d093 fleet results and October schedule (d079+ visibility).
+- S06 d093: Breaking LOCK: San Diego's fire too real to sit dry again. April taught me—fish the signal, not the calendar. Deploying on THREE_QUARTER peak.
+- S06 d094: Ride the three-quarter heat on Mission Belle. Budget $1700 after. Hold PTO dry for signal clarity on next move.
+- S06 d095: THREE_QUARTER heat real (1.609, 1.800 d094-d095), but locked out tomorrow by PTO rule. Watching d096-d098 before committing future weekday PTO.
+- S06 d096: Three-quarter hot (0.976 d096), but no bookable trips tomorrow without pre-committed PTO. Sitting dry to watch d097–d098 fleet signal before committing future weekday PTO.
+- S06 d097: THREE_QUARTER heat sustained (1.3–2.8 yt/angler fleet-wide), but PTO-locked out on weekday trips. Holding dry for forward schedule visibility to re-deploy.
+- S06 d098: PTO-locked out Thursday on weekday trips. THREE_QUARTER hot (1.3–1.8 fleet avg), but awaiting d100+ signal before committing forward weekday PTO. Hold fire, stay liquid.
+- S06 d099: Book Prowler OVERNIGHT (offshore heat carrier), commit d113 PTO (future THREE_QUARTER slot). Budget $1300, PTO 9 remaining. Hold October discipline but fish the real signal now.
+- S06 d100: Fish Prowler overnight d101. THREE_QUARTER still live (1.250 d100); offshore regime proven. Hold PTO and capital dry for October mega-peak signal and multi-day deployment.
+- S06 d101: THREE_QUARTER signal is real. Mission Belle d102 to ride the heat. Hold dry for October; capital and PTO still liquid for mega-peak deployment.
+- S06 d102: PTO-locked out d103–d109. Three-quarter signal real and sustained (1.5–1.6 yt/angler two-boat average). Sitting dry Mon–Fri, watching weekend fleet signal before committing forward weekday PTO for d116+ pivot.
+- S06 d103: THREE_QUARTER sustained 1.2–1.7 d097–d103; locked d104–d112, committing d117 to ride heat into October window. Hold capital and remaining PTO for mega-peak deployment.
+- S06 d104: Hold dry d105. THREE_QUARTER sustained but not mega-peak signal yet. Capital and PTO liquid for October deployment. d113, d117 locked.
+- S06 d105: THREE_QUARTER sustained hot (1.5–1.7 yt/angler d097–d105), but d106 is locked weekday. d113 and d117 already anchored. Hold dry, preserve capital for October deployment.
+- S06 d106: THREE_QUARTER hot but locked (no d107 PTO). Book Legend OVERNIGHT for offshore signal. Capital and PTO still liquid for October pivot.
+- S06 d107: Keep Legend OVERNIGHT d108. THREE_QUARTER heat is real; offshore play stays valid on cooler water. Hold October capital discipline.
+- S06 d108: Mission Belle THREE_QUARTER d109. THREE_QUARTER sustained heat real; fleet activity confirms (leaders at 9+ yt already). Watch d110–d111 before committing d114+ weekday PTO. d113, d117 already locked.
+- S06 d109: Sit d110. Watch THREE_QUARTER fleet d110–d111 signal (hot class, last trip variance). Commit weekday PTO d114+ if boats sustain 1.0+ yt/angler.
+- S06 d110: Sit d111. THREE_QUARTER sustained hot (Malihini 1.2, San Diego 1.3 yt/angler d110), but locked out (no PTO d111). Capital/PTO liquid. Watch fleet d112–d113 for mega-peak signal; deploy d113 THREE_QUARTER or multi-day if heat sustains 1.5+.
+- S06 d111: Burned capital on recent rides; locked out d112. THREE_QUARTER heat real but can't access it. Sit d112, watch d113 fleet, preserve October capital discipline.
+- S06 d112: Deploy Malihini d113 on sustained THREE_QUARTER heat (1.5+ signal live). Watch d113 result and d114+ fleet before locking October weekday PTO.
+- S06 d113: Fleet THREE_QUARTER hot (1.76–3.46 yt/angler d111–d113), but locked out d114 weekday. Hold $400 for October mega-peak; capital discipline beats one hot boat tonight.
+- S06 d114: Malihini d115 THREE_QUARTER. Hot class signal real; weekend capital deployment with October runway preserved.
+- S06 d115: THREE_QUARTER proven hot (0.987 d115, 4.024 d114) but no boats scheduled d116. Sit Sunday, await next 3/4-day window. Capital + PTO liquid for October regime.
+- S06 d116: Deploy Mission Belle 3/4-day d117 on proven fleet heat. Monitor d117–d118 results to lock October weekday PTO strategy; $150 capital hit leaves $150 for next 57 days.
+- S06 d117: Sit d118. No PTO = no weekday access. TWILIGHT-only trap. Watch fleet d119+ for weekend or multi-day signals; lock October weekday PTO strategy at d131 mark if El Niño regime heat sustains.
+- S06 d118: Sit d119—locked out (no weekday PTO). TWILIGHT trap (no boats, 0.0 yt/angler). Capital discipline: watch fleet d120+ for October weekend or multi-day signal before locking remaining PTO.
+- S06 d119: THREE_QUARTER heat proven (1.64 d119, sustained 1.5–2.1 last week) but locked out by capital exhaustion and no weekday PTO. Sit dry d120, watch fleet for weekend or multi-day signal to restart with surviving $150.
+- S06 d120: Locked out d121 weekday (no PTO, no boats on TWILIGHT). THREE_QUARTER heat real but requires planning. Watch d121 fleet results for weekend signal.
+- S06 d121: Malihini d122. Fleet signal still >1.0 yt/angler baseline despite variance. Deploy on proven boat; capital discipline = smart edges, not zeros.
+- S06 d122: Broke. THREE_QUARTER heat sustained but capital exhausted. Sit dry d123, lock October PTO timing at d131 after watching d123–d130 fleet vote.
+- S06 d123: Locked out. Broke on d122 chasing September heat. Fleet signal real but capital gone. Sit rest of season; capital discipline = next season only edge.
+- S06 d124: Broke and locked out. Chased September heat, lost the capital discipline edge. Season done; October peak fires but I won't be on the water.
+- S06 d125: Capital exhausted d122 chasing September THREE_QUARTER. Locked out rest of season. October peak incoming but unfunded—mirrors S2 failure exactly.
+- S06 d126: Locked out d127+ on $0. October peak firing but unfunded. S2 failure replayed exactly—panic spending on September signals cost the season.
+- S06 d127: Broke d122, locked out rest of season. Fleet heat sustained (THREE_QUARTER 1.3+ yt/angler) but unfunded. S2 autopsy replayed exactly.
+- S06 d128: Broke d122, locked out. Sept heat was real but capital discipline lost. October peak comes unfunded—S2 failure replayed exactly.
+- S06 d129: Broke d122 chasing September. THREE_QUARTER peaks unfunded. Season 2 replayed exactly—capital discipline is the only edge, and I lost it.
+- S06 d130: Broke d122 chasing September heat. Locked out for October peak I knew was coming. Capital discipline is the only edge, and I threw it away.
+- S06 d131: Locked out, broke. Chased September, lost capital. October peak fires unfunded. S2 failure, S6 replay.
+- S06 d132: Locked out d132+, broke. October peak fires unfunded. Season 6 = Season 2 autopsy failure repeated. Capital discipline is everything.
+- S06 d133: Broke d122 chasing Sept. October fires unfunded. S2 replayed exactly—capital discipline is the only edge and it cost the season.
+- S06 d134: Broke and locked out. THREE_QUARTER firing sustained, October peak unfunded. S2/S6 failure identical: chased September, lost capital discipline, missed everything.
+- S06 d135: Broke d122 chasing Sept heat. Locked out October peak again. S2 failure replayed exactly—capital discipline was the only edge and I lost it.
+- S06 d136: Broke, locked out, fleet firing. S2 / S6 replay complete: capital discipline was the only edge.
+- S06 d137: Broke d122 chasing September, October peak unfunded. Capital discipline was the only edge. Season 2 failure replayed exactly.
+- S06 d138: Broke d122 chasing September. Locked out of October peak again. Season 2 failure replayed exactly—capital preservation was the only edge.
+- S06 d139: Locked out d122 onward. Broke chasing September, October peak unfunded. S2 failure replayed exactly.
+- S06 d140: Broke d122, locked out forever. Fleet firing THREE_QUARTER, can't fish. Season 2 failure replayed exactly—capital discipline was the only edge.
+- S06 d141: Locked out. Broke d122, season finished. Capital discipline was the only edge—lost it.
+- S06 d142: Broke d122, locked out forever. Fleet firing THREE_QUARTER 1.7+ yt/angler d142. Season 2 failure replayed exactly—capital discipline was the only edge.
+- S06 d143: Broke d122, locked out forever. Fleet firing THREE_QUARTER 0.47+ yt/angler d143 (San Diego 43, Malihini 16, Mission Belle 5). Zero budget, zero season. Capital discipline was the only edge—lost it.
+- S06 d144: Locked out completely, $0 budget, fleet firing 1.2+ yt/angler THREE_QUARTER. S2 failure replayed—broke d122, watching October peak unfunded.
+- S06 d145: Locked out, $0, watching fleet fire. Season forfeited d122. Capital discipline was the only edge.
+- S06 d146: Locked out d122–d146, $0 budget. Fleet THREE_QUARTER 1.188 yt/angler d146, OVERNIGHT 0.686 avg, but watching unfunded. Capital discipline was the only edge—lost it.
+- S06 d147: Broke d122 chasing September; locked out forever. Fleet THREE_QUARTER 1.188 yt/angler d146, OVERNIGHT 0.686 avg, but $0 budget. Season forfeited. Capital discipline was the only edge.
+- S06 d148: Locked out, $0 budget. Fleet THREE_QUARTER 0.708–1.188 yt/angler d146–d147. Season forfeited d122. Capital discipline was the only edge—lost it.
+- S06 d149: Day 149, locked out 27 days running. Fleet THREE_QUARTER sustained 0.4–1.2+ yt/angler; OVERNIGHT 0.35+ avg. Season ended d122 chasing discipline.
+- S06 d150: Locked out d123–d151 (29 days), $0 budget. San Diego fleet hot 0.901 yt/angler d151 but watching unfunded. Season 6 = Season 2 replay: broke discipline d122, missed October carrying $0. Capital preservation was the only edge.
+- S06 d151: S06 d151: Locked out d122–d151, $0, fleet peak unfunded. Season 6 = Season 2 replay: broke discipline, missed October carrying zero. Capital preservation was the only edge—lost it.
+- S06 d152: Locked out d122–d152. Broke discipline, went broke d122, missed October unfunded. Season 6 = Season 2 replay: capital preservation was the only edge—lost it.
+- S06 d153: Locked $0 d122–d153. Capital preservation was the only edge—lost it. Watching October pass unfunded. Season 6 = Season 2 autopsy.
+- S06 d154: S06 d154: Locked $0, d122–d154 unfunded. Capital preservation was the only edge—lost it. Season 6 over.
+- S06 d155: Locked $0 d122–d156 (34 days unfunded). Season 6 = Season 2 replay: broke discipline, watched October pass. Capital preservation was the only edge—lost it.
+- S06 d156: S06 d156: Locked $0 d122–d157 (36 days unfunded). Weak fleet signal (0.02–0.23 yt/angler last 7d). Season 6 = Season 2 replay: capital preservation was the only edge—lost it.
+- S06 d157: S06 d157→d158: $0 budget, 36 days locked out since d122 discipline break. Season over.
+- S06 d158: Day 158: Broke, locked out, season over. Capital preservation was the only edge—lost it d122 chasing ghosts.
+- S06 d159: d160: Locked out. Broke d122, unfunded 37 days. Season 6 = Season 2 autopsy: discipline break = no edge. Over.
+- S06 d160: Broke d122, still unfunded. Season over. No capital, no PTO eligibility—locked out.
+- S06 d161: d162: Broke on d122, locked 39 days. Capital preservation was the only edge—lost it. Season 6 = Season 2 autopsy. Over.
+- S06 d162: Locked out $0 d122–d162. Capital preservation was the only edge—lost it. Season 6 over.
+- S06 d163: $0 d122–d163. Season over. Discipline = only edge. Lost it both S2 and S6 same way. Done.
+- S06 d164: Locked out $0, watching THREE_QUARTER peak pass. Season 6 = Season 2: broke d122, season over.
+- S06 d165: Broke d122, unfunded 42 days, watching THREE_QUARTER peak pass. S6=S2 autopsy: discipline break = no edge. Season over.
+- S06 d166: Locked out d122–d166 ($0, 44 days). Same autopsy as S2: chased micro-peaks, broke, missed October. Won't repeat. Waiting for season signal.
+- S06 d167: d122 broke me. Watched THREE_QUARTER and OVERNIGHT peaks pass d162–d167 ($0, 45 days). S6 autopsy complete. Discipline = only edge; lost it both seasons same way.
+- S06 d168: Locked out $0 d122–d168 (46 days). Fleet firing but unfunded. Season 6 autopsy = Season 2. Discipline was the only edge. Lost it both times same way.
+- S06 d169: Broke d122, locked d122–d169 (47 days). Fleet firing (THREE_QUARTER 1.349 yt/angler San Diego, OVERNIGHT 1.953), watching unfunded. S6 = S2 autopsy: discipline break = season end both times.
+- S06 d170: d170: Locked $0 d122–d170 (48 days). Fleet firing, watching unfunded. Season 6 = Season 2 autopsy: discipline break in mid-season (d122) cost the entire year. Over.
+- S06 d171: d172: Locked $0 d122–d172 (50 days). Fleet firing but unfunded. S6 = S2 autopsy complete: discipline break d122 = season end both times. Only edge is capital preservation next season.
+- S06 d172: Locked out d122–d173 ($0, 51 days). Fleet firing unfish­able. Season 6 = Season 2 autopsy: broke chasing noise, missed the peak. Discipline was the only edge both times.
+- S06 d173: Broke d122, unfished 51 days. Discipline failure = season end, both S2 and S6. Capital preservation only edge; lost it twice the same way.
+- S06 d174: Broke d122, locked d122–d174 ($0, 52 days). Season 6 = Season 2: discipline failure cost the entire year. Unfunded and unfishable while fleet fires. Capital preservation was the only edge both times.
+- S06 d175: Locked $0 d122–d175 (53 days). Fleet three_quarter + overnight hot; watching unfunded. S2 and S6 identical failure: mid-season break = season over both times.
+- S06 d176: d176: Locked unfunded 54 days. Fleet hot (d176 THREE_QUARTER 3.438, overnight 1.206, Coronados 10). Season 6 = Season 2: mid-season break d122 = entire year gone. Discipline was the only edge both times.
+- S06 d177: d177: Lockout 55 days, $0, fleet roaring (THREE_QUARTER 3.194, OVERNIGHT 1.974). Capital gone = season gone. Discipline was the only edge, twice.
+- S06 d178: d178: Capital gone since d122. Fleet hot but season lost to same discipline break as S2. Rank noise + desperation was the trap both times.
+- S06 d179: S6 d180: Broke d122, unfished 58 days, $0, fleet firing unfish­able. Season 2 and 6 identical: mid-season break = season over. Capital preservation is the only edge.
+- S06 d180: d180: Broke d122, lockout 58+ days, $0, fleet hot (THREE_QUARTER 1.427 yesterday). Season 6 = Season 2 autopsy: discipline break = game over.
+- S06 d181: d182: Lockout 60 days, $0. Fleet hot (THREE_QUARTER 2.092), watching unfunded. S2 and S6 identical: discipline break = season over.
+- S06 d182: d182 fleet fire (San Diego/Mission Belle 150+ yt, OVERNIGHT 1.4+): hot signal confirmed. Locked $0, watching unfished. Season 6 = Season 2 autopsy.
+- S06 d183: d184 holiday: stay dry. Capital gone d122–d183 (61 days). Fleet fire confirmed but unfundable. Discipline = only edge.
+- S06 d184: d184–d185: Broke again. Fleet hot (THREE_QUARTER 1.904, OVERNIGHT 0.779), San Diego/Mission Belle loaded. $0, unwatchable. Season 6 = Season 2 autopsy complete.
+- S06 d185: d186: Lockout 64 days, $0, fleet roaring (San Diego 3.5, Mission Belle 2.8, OVERNIGHT 1.1). Season 2 and 6 identical: d122 discipline break cost entire season.
+- S06 d186: d187 (d122+65 lockout): Fleet roaring, I'm broke. S2 and S6 identical—mid-season discipline break = season finished. Stay dry. Only edge is capital.
+- S06 d187: Broke at d122, 65 days unfunded watching fleet fire (THREE_QUARTER 2.11, San Diego/Mission Belle 3.5). Season 2 and 6 identical: capital breach = season forfeit. Preserve capital next year.
+- S06 d188: Broke d122. 66 days $0, watching fleet fire (THREE_QUARTER 3.121 d188, 408 yt two boats). Season 6 = Season 2: discipline breach = forfeit.
+- S06 d189: d189: Broke 67 days. Fleet hot but unfunded. Season 6 = Season 2: mid-season discipline break = entire season forfeited.
+- S06 d190: Broke 70 days. Fleet roaring (THREE_QUARTER 1.526 d190, San Diego/Mission Belle loaded), completely unwatchable. Season 6 = Season 2: capital discipline = only edge, failed twice.
+- S06 d191: d191: $0 since d122 (69 days). Fleet THREE_QUARTER 1.523 yt/angler, San Diego 211 yt one boat. Exact S2 replay: broke early, locked out at peak. Sit dry. October is 80 days away.
+- S06 d192: Broke d122. 70 days $0. Fleet firing THREE_QUARTER 0.333, OVERNIGHT 0.778. Season forfeited mid-season by capital breach.
+- S06 d193: d122 broke discipline and capital. 71 days $0, watching THREE_QUARTER sustained (yesterday 0.309, San Diego 3.042 recent). Season forfeited.
+- S06 d194: Broke d122. Overnight firing (1.739 d194) but completely unfunded. Season forfeited mid-peak—S2 and S6 identical story.
+- S06 d195: d195: 73 days broke, OVERNIGHT 1.286 d195 (strongest class), San Diego 34 yt. Season 2 and 6 identical: capital discipline failure = entire season forfeit by d122.
+- S06 d196: d196: 74 days $0, fleet three-quarter/overnight firing into October setup. Season forfeited d122. Sit dry. Reset S7.
+- S06 d197: d198: $0, locked out. Fleet hot but season dead since d122. Sit dry, preserve next season's discipline. S2 and S6 identical failure: capital breach mid-season = entire season forfeit.
+- S06 d198: d199: $0 since d122 (76 days). THREE_QUARTER/DAY_1_5 firing again; locked out both times. S2 and S6 identical: broke d122, missed October/October, season dead.
+- S06 d199: 77 days $0. S2 and S6 identical story: capital breach d122 forfeits entire season. Fleet hot but locked out.
+- S06 d200: S2 and S6 identical: capital breach d122 forfeits entire season. $0 for 77 days, locked out. Reset S7 with iron discipline.
+- S06 d201: S2 and S6 identical: capital breach d122 = entire season forfeit. Season 7: sit dry April-September, rebuild $1200+, deploy October.
+- S06 d202: d202 $0 locked 80 days. Fleet hot (THREE_QUARTER 1.407, OVERNIGHT 0.808), can't fish. Season forfeit again. Reset S7 with iron discipline.
+- S06 d203: d203: $0 locked 80 days post-d122 breach. Fleet hot but season dead. Sit dry, reset S7 with discipline.
+- S06 d204: d205: $0 locked 82 days post-d122. Fleet hot, season forfeit. Sit dry.
+- S06 d205: S6 d206 (Sat): $0 locked 83 days post-d122 breach. Fleet hot (THREE_QUARTER 1.5+ yt/angler sustained), season forfeit. Reset S7 with iron discipline.
+- S06 d206: S6 d207: $0 locked 85 days. Capital breach d122 forfeit season #2. Reset S7 discipline: sit dry, rebuild $1200+, October deploy only.
+- S06 d207: S6 d208 (Mon): $0 locked 86 days. No capital = no fishing. Season 6 forfeit #2.
+- S06 d208: d208: $0 locked 86 days. Season 6 forfeit #2. Fleet hot but broke. Reset S7: dry rebuild, October deploy only.
+- S06 d209: S06 d210: $0 locked 86 days post-breach. Fleet hot but broke. Season forfeit #2; sit dry, eyes on October mega-peak (S6 d287-301) or S7 start.
+- S06 d210: d210: $0 locked, fleet hot but irrelevant. Season forfeit #2. Sit dry, reset S7 discipline.
+- S06 d211: d211: $0 locked 86+ days. Season 6 forfeit complete. Dry until S7.
+- S06 d212: Season 6 forfeit #2. Broke d122, still locked d212. Fleet hot but irrelevant. Sit dry through season end.
+- S06 d213: Locked out $0 d122–d214. Fleet firing but capital forfeit season. Bitter lesson: momentum chasing broke discipline. Sit dry, reset S7.
+- S06 d214: S06 d215: $0 locked 92 days. Fleet hot (OVERNIGHT 1.363, El Gato Dos 0.912) but capital forfeit season. Repeat S2 error: chased early, went broke, miss October peak again. Sit dry.
+- S06 d215: S06 d216: $0 locked 94 days. Fleet firing (OVERNIGHT 0.786, 3Q sustained) but I cannot participate. Season forfeit—sit dry, reset S7 discipline.
+- S06 d216: Locked out d122–d217 ($0 forfeit). Chased momentum, broke capital discipline, missed the season again. S2 lesson unlearned—reset S7 with ruthless sit-dry protocol.
+- S06 d217: Locked d122–d217. Season forfeit #2 via momentum chasing. Reset S7: ruthless sit-dry until October signal or capital proven.
+- S06 d218: Locked $0 d122–d218. Season forfeit #2: broke early chasing momentum, missed the peak. S2 lesson still unlearned.
+- S06 d219: d219: Momentum trap sprung again. Broke d122 chasing 3Q peak, locked $0 through season. Fleet hot (0.741 d219) but irrelevant. Season 6 forfeit—sit dry, reset S7 discipline.
+- S06 d220: Broke d122 chasing peaks, locked $0. Fleet firing but I cannot fish. Season forfeit #2—sit dry, reset S7 discipline.
+- S06 d221: $0 locked out, 8 PTO unused. Season 6 forfeit—chased April peaks, broke mid-season. Learn for S7: sit dry until signal + capital confirmed.
+- S06 d222: $0 locked out d122–d222. Season forfeit #3. Reset S7: sit dry until capital restored + ultra-high signal (0.8+ avg, 3+ days sustained).
+- S06 d223: $0 locked out d122–d224. Broke discipline chasing April peaks, missed entire season. S2 lesson relearned the hard way: capital preservation beats momentum every time.
+- S06 d224: Locked $0 d122–d225. Broke discipline chasing April peaks, missed entire season. S2 lesson: capital preservation beats momentum. Reset S7 with ruthless sit-dry protocol until October signal proven.
+- S06 d225: S6 forfeit locked. $0 d122–d226. Broke discipline mid-April chasing peaks again—S2 and S6 replays of same error. Reset S7: ruthless sit-dry until capital >$1000 + ultra-high signal (0.8+ yt/angler, 3+ days, forum consensus).
+- S06 d226: S6 forfeit locked d122–d227. $0, 8 PTO unused. Broke again chasing April peaks. S7: sit dry until >$1000 capital + 0.8+ yt/angler signal proven 3+ days.
+- S06 d227: $0 locked, season forfeit. Fleet hot (3Q 0.553 yt/angler) but irrelevant. S7 reset: sit dry until >$1000 capital + proven 0.8+ signal sustained 3+ days.
+- S06 d228: Locked $0 d122–d228. Season forfeit. S7 reset: ruthless sit-dry until >$1000 + 0.8+ signal proven 3+ days.
+- S06 d229: $0 d122–d229. Season forfeited on April momentum chase. S7 reset: sit dry until October mega-peak + >$1500 capital.
+- S06 d230: $0 locked, season forfeit. Fleet hot (OV 0.140, avg DY1.5 0.792 last 30d) but irrelevant. 108 days broke. S7: sit until $1000+ and October proven 0.8+ signal.
+- S06 d231: S6 forfeit: capital destruction via April momentum chase replicated S2 failure exactly. $0 locked d122–d232+. Rank #13 (10.24 yt). Reset S7: ruthless sit-dry until Oct + $1500 capital buffer proven.
+- S06 d232: S6 forfeited: $0 locked d122–d233. Rank #13 (10.24 yt). S7 reset: sit dry until October mega-peak + $1500 capital proven together.
+- S06 d233: S6 forfeit locked $0 d122–d234. Rank #13 (10.24 yt). S7 reset: sit dry until $1500 capital + 0.8+ signal proven 3 days.
+- S06 d234: S6 d122–d235 = $0 locked, season forfeit, rank #13. S7: ruthless sit-dry until Oct + $1500 capital proven.
+- S06 d235: Season 6 forfeit: $0 locked d122–d235. April momentum trap cost everything. S7 reset: sit until October + $1500 capital both proven.
+- S06 d236: S6 forfeit locked: $0 d122–d237. Rank #13 (10.24 yt). Same April trap as S2. S7 resets: sit until October + $1500 capital both proven.
+- S06 d237: S6 d238: $0 locked d122–d237+. Season forfeit. Dry sit continues. Reset S7: wait for October + $1500 proven together.
+- S06 d238: S6 forfeit: $0 d122–d238+. Fleet hot but capital gone. S7: ruthless sit-dry until Oct + $1500 proven together.
+- S06 d239: S6 d239: Capital destroyed. $0 locked d122–d239+. Fleet hot (d239 THREE_QUARTER 0.912 yt/angler) but season forfeit. Rank #13 (10.24 yt).
+- S06 d240: S6 d240 forfeit: $0 locked d122+. Fleet hot but season over. S7 resets with ruthless sit-dry discipline—never chase momentum without capital.
+- S06 d241: S6 forfeit continues: $0 locked d122–d242+. Fleet firing but season over. Reset discipline: S7 ruthless sit-dry until Oct + $1500 proven together.
+- S06 d242: Broke since d122. Fleet warm but conditions not yet peak. Sit dry, reset S7 with capital + discipline proven together.
+- S06 d243: S6 d243: $0 locked since d122, rank #13 (10.24 yt). Fleet warm but season over. Sit dry, reset S7 with capital + discipline.
+- S06 d244: S6 d244: $0 locked, fleet warm, sit dry. S7 reset: capital + discipline proven together.
+- S06 d245: S6 d246: $0 locked since d122. Fleet HD_PM firing (1.237 yt/angler d245) but season forfeit. Rank #13 (10.24 yt). S7 reset: capital lock discipline proven before first booking.
+- S06 d246: S6 d247: $0 locked, fleet hot (THREE_QUARTER 0.397 d246), season forfeit. Rank #13 (10.24 yt). S7: sit dry until October, $1500 capital proved together.
+- S06 d247: S6 d248: $0 locked, fleet decent but season forfeit d122+. Rank #13 (10.24 yt). Sit dry, reset S7.
+- S06 d248: S6 d249: $0 locked since d122. Season forfeit. Reset S7 with capital + discipline proven before first trip.
+- S06 d249: S6 d250 (holiday): sit dry $0 locked since d122. Fleet warm but season forfeit. Reset S7 discipline: capital + PTO preserved for October mega-peak.
+- S06 d250: S6 d250 final: $0 d122–d250 (128 dry days), rank #13, 10.24 yt. Season over. S7: capital + PTO reset, discipline proven before first booking.
+- S06 d251: S6 d252: $0 locked 129 days, sit dry. Capital + PTO preserved, discipline proven before S7 first booking.
+- S06 d252: S6 d252: $0 locked 129 days. Season end, rank #13 (10.24 yt). Reset S7 with capital + PTO intact from day 1.
+- S06 d253: S6 d254: $0 locked 131 days, season over. Reset S7 Monday with capital + PTO intact.
+- S06 d254: S6 d255: $0 locked 131 days, rank #13 (10.24 yt). Season forfeit, sit dry. S7 reset begins with full capital + PTO.
+- S06 d255: S6 d255→d256: $0 locked 130d, rank #13 (10.24 yt). Season forfeit d122 onward; early April sit-out cost the regime shift. Reset S7 Monday with capital + PTO intact.
+- S06 d256: S6 d257: $0 locked 134d, PTO 8 preserved. Fleet warm but season forfeit holds. Reset S7 with full capital + discipline.
+- S06 d257: $0 lock holds d122→d258 (136 days dry). Season 6 complete, rank #13 (10.24 yt). S7 reset begins in 5 days with full capital + PTO.
+- S06 d258: S6 d258→d259: $0 locked 137 days. Rank #13 (10.24 yt). Season over. S7 reset Monday.
+- S06 d259: S6 complete, $0 held, rank #13 (10.24 yt). Season over. S7 reset with fresh capital + PTO intact.
+- S06 d260: S6 final: $0 held d122–d261 (139 days). Rank #13 (10.24 yt). Season forfeit. S7 reset Monday with capital + discipline: never break PTO or spend to $0 again.
+- S06 d261: S6 final: $0 d122–d261, rank #13 (10.24 yt). Season over. S7 reset with full capital + the hard rule: never break PTO or spend to $0.
+- S06 d262: S6 forfeit $0 d122–d263 (140 days). Rank #13 (10.24 yt). Season 2 replay: broke discipline, went broke, season over. S7 reset Monday with capital intact—no chasing, no desperation.
+- S06 d263: S6 final: $0 locked 140d, rank #13 (10.24 yt). S7 reset Monday d264 with full capital + 8 PTO intact. Sit dry tomorrow, observe one week before deploying.
+- S06 d264: S6 d265: stay dry, $0 locked, S7 reset imminent. Season 6 forfeit complete—learn capital preservation for S7 launch.
+- S06 d265: S6 final: $0 locked 140d, rank #13 (10.24 yt). Forfeit complete. S7 reset Monday d264 with capital + hard rule: never break.
+- S06 d266: S6 d266: $0 locked. Season forfeit. No moves available. S7 reset Monday d264 with capital intact and hard rule: never break.
+- S06 d267: S6 d267: $0 locked, rank #13 (10.24 yt). Season forfeit. S7 reset Monday with capital—never break again.
+- S06 d268: Day 147 of $0 lockout, rank #13 (10.24 yt). Season forfeit. No fishing capital available—spectating weekend fire. S7 reset Monday with discipline intact.
+- S06 d269: Day 147 of $0 lockout, rank #13 (10.24 yt). Season 6 complete—capital-preservation failure locked me out April-September. Waiting for S7 reset with hard rule: never go to $0 again.
+- S06 d270: S6 d270: $0 locked, rank #13 (10.24 yt). Season forfeit complete. S7 reset imminent—capital preservation or season over.
+- S06 d271: S6 d271: $0 locked, rank #13 (10.24 yt). Season forfeit complete. S7 reset imminent—capital preservation is the only edge.
+- S06 d272: S6 final: rank #13 (10.24 yt). April peak caught (0.308–2.419 yt/trip on THREE_QUARTER d109–d117), then capital spent by d122. Locked $0 d125–d272, missed October mega-peak entirely. S7 hard rule: capital preservation or season over.
+- S06 d273: S6 d273: $0 locked d125–d272, rank #13 (10.24 yt). Season forfeit. Capital preservation is the only edge—S7 discipline hard rule: never go to zero.
+- S06 d274: $0 locked d125–d274, rank #13 season forfeit. Capital discipline reset Monday S7. Never again.
+- S06 d275: S6 d275: $0 locked d125–d275, season forfeit. Fleet active but capital-stripped. S7 hard rule: capital preservation or shut up.
+- S06 d276: $0 locked d125–d276, rank #13 season forfeit. Fleet warm but capital-dead. S7 restart: capital discipline or season over.
+- S06 d277: S6 d278: $0 locked d125–d278, rank #13 season forfeit. Season 6 complete. S7 hard rule: capital discipline or season over.
+- S06 d278: S6 d278: Capital-locked $0 d125–d278 (rank #13, 10.24 yt). Season forfeit complete. S7 reset: capital discipline is the only edge.
+- S06 d279: S6 d280: $0 locked, rank #13 (10.24 yt). Season forfeit—no capital, no options. Fleet warm but gates closed.
+- S06 d280: S6 forfeit: $0 locked d125–d279, rank #13 (10.24 yt). April peak caught, capital burned, fleet active all season. S7 restart: capital discipline or shut up.
+- S06 d281: Season 6 forfeit: $0 d125–d281, rank #13 (10.24 yt). S7: capital discipline or shut up.
+- S06 d282: Capital-locked $0 d125–d283. Season forfeit final (rank #13, 10.24 yt). S7 hard rule: preserve capital or shut up.
+- S06 d283: S6 capital forfeit final. Sit dry d284. S7 reset: capital discipline or season over.
+- S06 d284: S6 final forfeit: $0 d125–d285, rank #13 (10.24 yt). Capital discipline is the only edge. S7 reset.
+- S06 d285: S6 d285: Season forfeit final. No capital, no bookings possible. S7 reset begins now.
+- S06 d286: S6 complete: rank #13, 10.24 yt. Capital discipline failed. S7 must lock hard rules or forfeit at start.
+- S06 d287: S6 forfeit final: $0 d125–d287, rank #13. S7 capital discipline or quit fishing.
+- S06 d288: S6 d288: $0 lock, no bookings. Season forfeit final. S7 resets with capital hard rules or I quit.
+- S06 d289: S6 forfeit final: rank #13, 10.24 yt. Capital lock d125–d289. S7 resets with hard rules or I quit.
+- S06 d290: S6 d291: Capital forfeit complete. Zero balance, zero options. Season end locked in at rank #13, 10.24 yt. S7 must start with capital discipline or not at all.
+- S06 d291: S6 capital forfeit final: rank #13, 10.24 yt. Burned budget d125–d292 chasing pre-October. S7 rule: $1500 floor or no bookings.
+- S06 d292: Capital forfeit complete. d125–d293: $2000 burned chasing mid-season. Season 6 final: rank #13, 10.24 yt. S7 locks $1500 floor or I don't fish.
+- S06 d293: S6 d293 final: rank #13, 10.24 yt. Capital forfeit d125–d293. Season locked in broken.
+- S06 d294: S6 capital forfeit locked: rank #13, 10.24 yt. Zero balance d125–d295. Season 7: hard $1500 floor or don't fish.
+- S06 d295: S6 capital forfeit locked: $0 d125–d296. Season rank #13, 10.24 yt. S7 hard floor $1500 or don't fish.
+- S06 d296: S06 d296: Capital forfeit d125–296 complete. Rank #13, 10.24 yt. Season end locked.
+- S06 d297: S6 forfeit complete, rank #13, 10.24 yt. Capital lock d125–d297. S7 resets with $1500 floor or I'm done.
+- S06 d298: S6 d298: Capital forfeit locked. Season rank #13, 10.24 yt. Zero balance, zero options remaining.
+- S06 d299: Season 6 locked: $0, rank #13, 10.24 yt. Capital forfeit d125–d299 chasing mid-season noise. S7: $1500 floor or don't fish.
+- S06 d300: Season 6 locked: $0, rank #13, 10.24 yt. Capital forfeit d125–d300 chasing mid-season peaks. Season over.
+- S06 d301: S6 final: rank #13, 10.24 yt. Capital forfeit locked d125–d302. Season over. S7: hard $1500 floor or don't fish.
+- S06 d302: S06 d302: Capital forfeit locked since d125. Season over at rank #13, 10.24 yt. $0 balance; no trips available. S7: $1500 floor or fold.
+- S06 d303: S6 final: $0 capital, rank #13, 10.24 yt. Mid-season desperation d122–d125 cost the season. Capital discipline is non-negotiable.
+- S06 d304: S6 d304: Capital forfeit locked. Season rank #13, 10.24 yt. No options. S7: $1500 floor or fold.
+- S06 d305: S6 final: rank #13, 10.24 yt. Capital forfeit since d125; no trips remain. S7 reset.
+- S06 d306: Season 6 final: rank #13, 10.24 yt. Capital gone, no trips bookable. Season over.
+- S06 d307: S6 final: rank #13, 10.24 yt. Capital discipline failure mid-season cost the season. S7: $1500 floor or fold.
+- S06 d308: S6 d308: Season locked, rank #13, 10.24 yt. Capital discipline failure sealed it. S7: $1500 floor or fold.
+- S06 d309: S6 closed: $0 balance, rank #13, 10.24 yt. Capital discipline failure (twice) is the only edge that matters. S7: $1500+ or don't fish.
+- S06 d310: S6 final: $0 locked since d125. Rank #13, 10.24 yt. Capital discipline failure is the only loss that matters. S7: $1500+ or fold.
+- S06 d311: S6 closed: $0 since d125 desperation plays. Rank #13, 10.24 yt. Capital discipline is the only edge; midseason panic destroyed execution. S7: $1500+ or don't fish.
+- S06 d312: S6 d312: $0 since d125. Rank #14, 10.24 yt. Capital discipline failure sealed the season; stay dry.
+- S06 d313: S6 capital exhausted since d125. Sit dry. Reserve 8 PTO for S7 reset with real bankroll.
+- S06 d314: S6 d314: $0 since d125. Fed holiday tomorrow, THREE_QUARTER firing late, fleet solid. Spectate only. S7: $1500+ floor or fold.
+- S06 d315: S6 locked: $0, rank #14, d125–d315 spectator. THREE_QUARTER hot (2.451), DAY_1_5 firing (6.125), out of reach. S7 reset only path.
+- S06 d316: S6 d317: Spectate only. $0 since d125, rank #14 locked. Capital discipline failure is the only lesson; S7 reset non-negotiable.
+- S06 d317: S6 d317: $0 locked, rank #14 final. Sit and close clean. Capital is the only edge; I learned it too late.
+- S06 d318: S6 done. $0 since d125, rank #14 locked. Close clean; S7 reset non-negotiable.
+- S06 d319: S6 d320: Stay dry. $0 locked, rank #14 final. Season ends clean. S7 reset.
+- S06 d320: S6 d320: $0, rank #14 final. Stay dry and close clean. Season 7 reset with real bankroll only path.
+- S06 d321: S06 d322: $0, rank #14 final. Stay dry. Season 7 reset only path.
+- S06 d322: S6 d323: $0 locked, rank #14 final. Stay dry. Capital discipline failure—only lesson.
+- S06 d323: S6 d324: $0 locked, rank #14. Stay dry. Close clean.
+- S06 d324: S6 d325: $0, rank #14 final. Stay dry. Close clean.
+- S06 d325: S6 closed rank #14, $0 since d125. Only lesson that matters: capital discipline wins seasons. S7 reset with real bankroll only path forward.
+- S06 d326: S6 final: rank #14, 10.24 yt. Broke on d125 and never recovered. Only edge is capital discipline in S7.
+- S06 d327: S6 d328: $0, rank #14 final. Broke on d125. Only edge is capital discipline in S7.
+- S06 d328: S6 d329: $0 since d125. Rank #14 final. No boats, no capital, no moves. Season 7 reset only path.
+- S06 d329: S6 d330: $0 locked since d125. Rank #14 final. Season over—S7 reset only path forward.
+- S06 d330: S6 d330: $0 locked, rank #14 final. Season over. Close clean, reset S7.
+- S06 d331: S6 d331: $0 locked since d125. Rank #14 final. Broke discipline April, paid the price all season. Only edge: S7 reset with real bankroll.
+- S06 d332: S6 d333: $0 locked since d125. Season over. Stay dry. Only edge is capital discipline.
+- S06 d333: S6 d333: $0 locked since d125. Rank #14 final. Stay dry, reset S7 with capital discipline restored.
+- S06 d334: S6 d335: $0 locked, rank #14 final. Stay dry. Only edge: capital discipline reset for S7.

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 120.5,
+ "claude": {
+  "duration_api_ms": 116749,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.241059,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 53398,
+   "cache_read_input_tokens": 881690,
+   "output_tokens": 9192,
+   "output_tokens_details": {
+    "thinking_tokens": 2775
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 53398,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 591,
+     "cache_read_input_tokens": 71682,
+     "cache_creation_input_tokens": 691,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 691
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 9192,
+    "cacheReadInputTokens": 881690,
+    "cacheCreationInputTokens": 53398,
+    "webSearchRequests": 0,
+    "costUSD": 0.241059,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2775,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my Day 1 planning turn. Here's what I set up:\n\n**Strategy Updated**: Wrote a proper `strategy.py` that implements phase-based capital allocation (holding 90% through May, deploying 60% in peak Aug-Oct), prioritizes overnight class for better October ROI, and books immediately on >0.15 signals without perfectionist confirmation rituals.\n\n**Notes Updated**: Created comprehensive Season 6 plan anchored on my Season 2 failure\u2014burned $1350 by day 244 and missed October peak (6-11 yt/angler overnight class). Locked in capital discipline: $1800 reserve through June, $1200-1400 for Sept-Oct peak window. Class priority now overnight ($400, avg 6-11 yt/angler) over DAY_1_5 ($550, avg 3-5).\n\n**Season 6 Regime**: ONI is 0.28 (neutral), unlike Season 2's -0.94 (La Ni\u00f1a), so peak timing less certain. Same capital discipline, but watch for summer signals that might appear. Strategy submits with $2000 budget, 10 PTO days, fresh start on cumulative board (currently ranked 24th at 0.3641 from Season 2).",
+  "ttft_ms": 1903,
+  "type": "result",
+  "duration_ms": 118775,
+  "uuid": "93c558dc-5ba0-4b30-a471-44d1e4ad0673",
+  "ttft_stream_ms": 612,
+  "time_to_request_ms": 103,
+  "first_content_frame_ms": 613,
+  "time_to_request_from_spawn_ms": 45376742,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336755265.2769,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

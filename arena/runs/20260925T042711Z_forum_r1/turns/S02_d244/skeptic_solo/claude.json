@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 31.5,
+ "claude": {
+  "duration_api_ms": 28352,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2162516,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 38930,
+   "cache_read_input_tokens": 155678,
+   "output_tokens": 2938,
+   "output_tokens_details": {
+    "thinking_tokens": 931
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38930,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 222,
+     "cache_read_input_tokens": 62493,
+     "cache_creation_input_tokens": 1878,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1878
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 2938,
+    "cacheReadInputTokens": 155678,
+    "cacheCreationInputTokens": 38930,
+    "webSearchRequests": 0,
+    "costUSD": 0.2162516,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 931,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Notes updated to reflect day 244: confirmed the $50-budget floor has held for 62 straight nights with zero missed signals, rank 1 unchanged, and the season-3 plan (fall-window doy280-309 table, budget-pacing cap, boat list) carried forward unmodified since it's already the actionable output of this analysis.\n\n**Summary:** Reconfirmed day-213 status (rank 1, $50 stuck under the $80 booking floor, nothing left to do in S2) without spending on fresh queries since the situation is fully determined and unchanged; tightened notes.md's status header for day 244 so the season-3 plan stays the clear focus for next turn.",
+  "ttft_ms": 2072,
+  "type": "result",
+  "duration_ms": 29821,
+  "uuid": "a054b0cc-cea1-4755-be1e-2f077203f1f0",
+  "ttft_stream_ms": 685,
+  "time_to_request_ms": 111,
+  "first_content_frame_ms": 685,
+  "time_to_request_from_spawn_ms": 38454691,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329833196.7559,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

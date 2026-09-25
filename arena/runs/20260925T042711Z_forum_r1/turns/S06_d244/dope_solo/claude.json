@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 88.5,
+ "claude": {
+  "duration_api_ms": 80425,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.40378239999999993,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 60850,
+   "cache_read_input_tokens": 424772,
+   "output_tokens": 7540,
+   "output_tokens_details": {
+    "thinking_tokens": 1360
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 60850,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 230,
+     "cache_read_input_tokens": 80713,
+     "cache_creation_input_tokens": 5578,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5578
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 7540,
+    "cacheReadInputTokens": 424772,
+    "cacheCreationInputTokens": 60850,
+    "webSearchRequests": 0,
+    "costUSD": 0.40378239999999993,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1360,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Pulled S6 doy180-244 pooled ypa and found the day-213 note's \"day_1_5/overnight breakout\" was actually a single 10-day-bucket spike (doy210: 1.9/1.2 ypa) that collapsed immediately and stayed dead through doy240 \u2014 all three classes (3Q, day_1_5, overnight) are now flat/cold. Rewrote notes.md with a finalized S7 pacing rule: hard budget tranches per calendar window (not just a soft reserve target) plus a \"2+ consecutive hot buckets, not one\" confirmation rule, since S6 shows dope_solo's soft-reserve instinct never actually bound once a signal fired.",
+  "ttft_ms": 2064,
+  "type": "result",
+  "duration_ms": 82090,
+  "uuid": "8cdf8a4a-4466-4d48-993f-1b5f0c4c5080",
+  "ttft_stream_ms": 1195,
+  "time_to_request_ms": 592,
+  "first_content_frame_ms": 1196,
+  "time_to_request_from_spawn_ms": 56896606,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348269799.6929,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

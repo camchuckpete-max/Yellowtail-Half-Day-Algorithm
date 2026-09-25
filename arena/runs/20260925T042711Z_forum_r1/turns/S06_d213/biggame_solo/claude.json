@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 78.8,
+ "claude": {
+  "duration_api_ms": 70877,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1540344,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 43064,
+   "cache_read_input_tokens": 373234,
+   "output_tokens": 6103,
+   "output_tokens_details": {
+    "thinking_tokens": 2364
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43064,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 518,
+     "cache_read_input_tokens": 60046,
+     "cache_creation_input_tokens": 1993,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1993
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 6103,
+    "cacheReadInputTokens": 373234,
+    "cacheCreationInputTokens": 43064,
+    "webSearchRequests": 0,
+    "costUSD": 0.1540344,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2364,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Data Analysis:** Confirmed S6 peak window (D60-D92): Pacific Voyager led at 3.02 yt/angler, while my chosen Prowler (1.13), Invicta (0.68), and Legend (0.74) were among the weakest. **D85-D86 peak (11.21 and 4.05 yt/angler) alone had 18+ fish I left on the table by booking D93 instead.**\n\n**S7 Strategy Locked:** At first 2.0+ fleet signal (D60-D65), immediately commit PTO for d70/d77/d84, then book Friday evening on Pacific Voyager or Penetrator DAY_1_5\u2014no delays, no weak boats, no half-day lottery. This positions for the D60-D92 gate window that determines entire seasons. Notes updated with executable daily checklist.",
+  "ttft_ms": 5254,
+  "type": "result",
+  "duration_ms": 72461,
+  "uuid": "c2905d58-ef44-46bc-8f7c-f9ce1dc37dd0",
+  "ttft_stream_ms": 1006,
+  "time_to_request_ms": 428,
+  "first_content_frame_ms": 1006,
+  "time_to_request_from_spawn_ms": 55139781,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790346513127.0247,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

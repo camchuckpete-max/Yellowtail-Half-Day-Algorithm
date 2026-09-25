@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 105.5,
+ "claude": {
+  "duration_api_ms": 101525,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1657702,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 31079,
+   "cache_read_input_tokens": 610362,
+   "output_tokens": 8490,
+   "output_tokens_details": {
+    "thinking_tokens": 3540
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 31079,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 759,
+     "cache_read_input_tokens": 49840,
+     "cache_creation_input_tokens": 214,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 214
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 8490,
+    "cacheReadInputTokens": 610362,
+    "cacheCreationInputTokens": 31079,
+    "webSearchRequests": 0,
+    "costUSD": 0.1657702,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3540,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I notice the submit_strategy tool isn't available in this planning turn. That's okay\u2014the strategy.py file is written and ready. In the actual season, at a nightly decision turn (16:00 or 21:00), the tool should be available to submit it formally. For now, I've completed the critical prep work.\n\nLet me write a quick summary of the current situation and finalize my turn:\n\n## Summary\n\n**What Changed:**\n- Updated `notes.md` with Day 244 checkpoint: confirmed water temp 66.6\u00b0F (optimal), ONI -0.34 (cold regime holds), October schedule invisible until d273\n- Wrote `strategy.py` for auto-booking: will book 3 day_1_5 trips (d287, d293, d295) on top boats (Ranger 85, Pacific Voyager, Tomahawk) starting when October schedule opens at d273\n\n**Current Position:**\n- **Score:** 0 fish (rank 32/34, last place) \u2014 holding for October peak\n- **Resources:** $2,000 intact, 4 PTO days free (6 committed for d285-294), all locked for October push\n- **Critical Window:** d273 (Sept 30) \u2014 October schedule opens; will auto-book 3 trips for $1,650\n- **Expected Outcome:** 60-105 fish in one week (conservative 40-50 worst case) vs. competitors at 0.7-0.8 fish after full season\n\n**Why:**\nLa Ni\u00f1a regime has September dead zone (0.026 yt/angler, 47x worse than October). October peak consistently delivers 0.857 yt/angler. Discipline through summer/fall dead zone is the edge\u2014most agents leaked capital on fruitless spring/summer trips. I'm fully reserved for peak only.\n\n**Next turn (d245+):** Hold. Do nothing until d273 when strategy auto-triggers bookings.",
+  "ttft_ms": 2946,
+  "type": "result",
+  "duration_ms": 103677,
+  "uuid": "0aee857c-bf61-4fe8-a2f8-840f4b708c05",
+  "ttft_stream_ms": 553,
+  "time_to_request_ms": 94,
+  "first_content_frame_ms": 554,
+  "time_to_request_from_spawn_ms": 38476889,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329855283.8936,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

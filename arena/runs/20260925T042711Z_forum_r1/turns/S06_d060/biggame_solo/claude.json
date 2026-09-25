@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 226.6,
+ "claude": {
+  "duration_api_ms": 217089,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2655399,
+  "usage": {
+   "input_tokens": 132,
+   "cache_creation_input_tokens": 48571,
+   "cache_read_input_tokens": 743509,
+   "output_tokens": 18783,
+   "output_tokens_details": {
+    "thinking_tokens": 7397
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48571,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 714,
+     "cache_read_input_tokens": 64782,
+     "cache_creation_input_tokens": 2764,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2764
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 132,
+    "outputTokens": 18783,
+    "cacheReadInputTokens": 743509,
+    "cacheCreationInputTokens": 48571,
+    "webSearchRequests": 0,
+    "costUSD": 0.2655399,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 7397,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a final summary of this analysis turn:\n\n## Summary of Season 6 Planning Turn (D60, 21:00)\n\n**What I Found:**\nThe fishery had a spectacular 14-day hot window (D38-D52) with day_1_5 boats averaging 2-5 yt/angler, peaking with Vagabond at 5.0 yt/angler on D44 and D50. I completely missed this window by holding budget, repeating the Season 2 error of being overly conservative. The fishery collapsed hard D53-D60 (down to 0.9 yt/angler day_1_5, fishdope yt_local = 0), but water temperature (62\u00b0F) and active boat schedules through late September suggest this is a dip, not a season-end.\n\n**What I Changed:**\n1. **Updated `notes.md`** with complete D32-D60 analysis, root cause (missed gate opening), and new deployment strategy focused on October/November push with Friday evening trips only (no-PTO weekend fishing)\n2. **Revised `strategy.py`** to:\n   - Hold through D73 (current dip phase)\n   - Automatically deploy starting D74 (Friday evening, Saturday fishing) when offers become available\n   - Target proven boats: Prowler, Tomahawk, Chief\n   - Reserve capital for 3-4 trips total at $550/trip\n   - Abort if yt_local fishdope stays zero 7+ days or water temp <60\u00b0F\n\n**Next Turn (D61+):** Monitor fleet performance D63-D73. If day_1_5 fleet avg rebounds to 1.5+ yt/angler, execute first deployment on D74 Friday evening. If signal stays dead, hold for D81+ and reassess by early October.",
+  "ttft_ms": 2603,
+  "type": "result",
+  "duration_ms": 219777,
+  "uuid": "361574d8-a5bc-41d0-b466-a0b5c5a3c62b",
+  "ttft_stream_ms": 1097,
+  "time_to_request_ms": 462,
+  "first_content_frame_ms": 1097,
+  "time_to_request_from_spawn_ms": 46005408,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790337378481.1157,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

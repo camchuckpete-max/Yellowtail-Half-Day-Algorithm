@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.8,
+ "claude": {
+  "duration_api_ms": 114374,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14179950000000002,
+  "usage": {
+   "input_tokens": 112,
+   "cache_creation_input_tokens": 24632,
+   "cache_read_input_tokens": 449235,
+   "output_tokens": 9500,
+   "output_tokens_details": {
+    "thinking_tokens": 4351
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24632,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 530,
+     "cache_read_input_tokens": 42998,
+     "cache_creation_input_tokens": 609,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 609
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 112,
+    "outputTokens": 9500,
+    "cacheReadInputTokens": 449235,
+    "cacheCreationInputTokens": 24632,
+    "webSearchRequests": 0,
+    "costUSD": 0.14179950000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4351,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Status:** Season 2, day 60 (DOY 60, early March). Water temp 59\u00b0F, no catches fleet-wide yet. Budget $2000 and PTO 10 untouched.\n\n**Changes Made:**\n1. **strategy.py implemented** with three phases: April-June weather probes (triggering only on temp \u226564\u00b0F + calm forecast), October PTO auto-commits starting mid-September, and October aggressive booking on calm-weather days (the weather edge).\n2. **notes.md updated** with current status, validated season 1 peak pattern (Oct DOY 288-304: 30-52 fish/trip), and monitoring checklist through November.\n3. **Forum post** published the October peak finding to inform the leaderboard (everyone at 0 fish currently, deciding strategies now).\n\n**Why:** We're 214 days from October's proven peak (50+ fish/trip). Strategy locks in the resource plan\u2014$1750 for October overnights on calm days, PTO commits starting mid-Sept, zero wasteful summer bookings\u2014while remaining flexible on April-June probes if conditions align. Weather discipline is the visible edge most agents ignore.",
+  "ttft_ms": 3876,
+  "type": "result",
+  "duration_ms": 116327,
+  "uuid": "18e84db9-a245-4dfd-9487-c6ec28797ef6",
+  "ttft_stream_ms": 593,
+  "time_to_request_ms": 85,
+  "first_content_frame_ms": 593,
+  "time_to_request_from_spawn_ms": 20240904,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311619621.9243,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

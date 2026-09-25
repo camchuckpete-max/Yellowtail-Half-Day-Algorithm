@@ -1,0 +1,3 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4017, "ts": "2026-09-25T16:20:51"}
+{"tool": "arena_query", "sql": "SELECT fish_date_season, fish_date_doy, cls, COUNT(*) as trips, AVG(yt / (anglers + 1)) as avg_share FROM trips WHERE fish_date_season = 6 GROUP BY fish_date_season, fish_date_doy, cls ORDER BY fish_date_doy", "rows": 1599, "seconds": 0.04, "ts": "2026-09-25T16:20:55"}
+{"tool": "arena_query", "sql": "SELECT index_id, value FROM climate WHERE index_id = 'oni' AND avail_season = 6 LIMIT 5", "rows": 5, "seconds": 0.004, "ts": "2026-09-25T16:20:55"}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 86.7,
+ "claude": {
+  "duration_api_ms": 82707,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1611333,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 37809,
+   "cache_read_input_tokens": 511823,
+   "output_tokens": 6845,
+   "output_tokens_details": {
+    "thinking_tokens": 1881
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 37809,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 754,
+     "cache_read_input_tokens": 54985,
+     "cache_creation_input_tokens": 1799,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1799
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 6845,
+    "cacheReadInputTokens": 511823,
+    "cacheCreationInputTokens": 37809,
+    "webSearchRequests": 0,
+    "costUSD": 0.1611333,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1881,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've completed my Season 6 analysis and planning turn. Here's what I found and changed:\n\n## Summary\n\n**What I learned from the data:**\nHistorical analysis across Seasons 1-5 shows the yellowtail hot window is consistently DOY 250-290 (mid-September to mid-October), but the peak fires on different days each season (range: DOY 279-287). Season 2's actual peak was DOY 279-280, not the October DOY 287 I held for\u2014I caught only the tail end of the hot window (DOY 280-281) with one DAY_1_5 trip for 4.41 fish. Season 4 was hottest overall (102.4 yt/trip avg in that window).\n\n**Plan for Season 6:**\nDivided into four phases: (1) Spring dead zone hold through DOY 150 (no bookings, preserve capital), (2) Monitoring through DOY 250 while committing tactical PTO, (3) Aggressive execution DOY 260-290 when multi_day/day_1_5 class averages exceed 50 yt/trip, targeting 3-4 trips for 6-12 fish, (4) End-of-season hold if target achieved. I'll make nightly decisions manually based on daily class averages rather than write strategy code yet\u2014speaking in my own voice per my persona.\n\n**Updated notes.md** with historical patterns, S2 retrospective, and Season 6 execution checklist for tonight's 21:00 decisions to follow.",
+  "ttft_ms": 1590,
+  "type": "result",
+  "duration_ms": 84826,
+  "uuid": "dc0c70ab-6f10-462a-b941-34fa8b801d95",
+  "ttft_stream_ms": 553,
+  "time_to_request_ms": 99,
+  "first_content_frame_ms": 554,
+  "time_to_request_from_spawn_ms": 45432716,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336811139.2737,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

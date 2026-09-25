@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 116.6,
+ "claude": {
+  "duration_api_ms": 112589,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18837759999999998,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 37242,
+   "cache_read_input_tokens": 658576,
+   "output_tokens": 9582,
+   "output_tokens_details": {
+    "thinking_tokens": 2763
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 37242,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 819,
+     "cache_read_input_tokens": 55896,
+     "cache_creation_input_tokens": 321,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 321
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 9582,
+    "cacheReadInputTokens": 658576,
+    "cacheCreationInputTokens": 37242,
+    "webSearchRequests": 0,
+    "costUSD": 0.18837759999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2763,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. My analysis is complete. Let me summarize what I found and decided:\n\n## Summary\n\n**What I found:**\n- **Late summer dead zone confirmed:** DOY 225-244 (S2) shows 2.2 yt/trip average with occasional spikes, matching expected weakness\n- **October peak validated:** Season 1 historical data shows DOY 288 (51.3 yt/trip, 15 trips) and DOY 289 (48.7 yt/trip, 18 trips) as the two prime dates\u201450-60\u00d7 better than spring fishing\n- **Personal share math:** Solo boat with 22 anglers and 1-2 competitors yields ~2.1-2.2 fish per trip; two clean trips = ~4.2 fish (likely beats leader's 0.828)\n- **Water temperature on track:** Currently 66\u00b0F (target 65\u00b0F+), trending stable into October peak\n\n**What I changed:**\n- Updated `notes.md` with Day 244 final briefing including three-phase execution timeline: Hold through d272 \u2192 Book d287-289 on d274-276 \u2192 Monitor and fallback. Specific actions: Book 3 full-day trips ($825 total) with expected outcome of 4.2+ fish = season winner.\n\n**Why:** With 73 days to October peak and capital/PTO fully locked ($1550, 3 flex days reserved), the data-validated peak dates (d288-289 with 51-49 yt/trip) represent the best path to victory. Discipline holds; execution begins d274.",
+  "ttft_ms": 2132,
+  "type": "result",
+  "duration_ms": 114845,
+  "uuid": "148fa1a6-06a6-4cc1-be09-fe9ab1173fa4",
+  "ttft_stream_ms": 719,
+  "time_to_request_ms": 94,
+  "first_content_frame_ms": 720,
+  "time_to_request_from_spawn_ms": 38499311,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329877806.8645,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

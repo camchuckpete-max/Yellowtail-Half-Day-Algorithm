@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 201.7,
+ "claude": {
+  "duration_api_ms": 198663,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2755318,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 57789,
+   "cache_read_input_tokens": 731378,
+   "output_tokens": 17340,
+   "output_tokens_details": {
+    "thinking_tokens": 8940
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 57789,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 231,
+     "cache_read_input_tokens": 74489,
+     "cache_creation_input_tokens": 2275,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2275
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 17340,
+    "cacheReadInputTokens": 731378,
+    "cacheCreationInputTokens": 57789,
+    "webSearchRequests": 0,
+    "costUSD": 0.2755318,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 8940,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect! I've analyzed the season state and updated my strategy. Here's the summary:\n\n---\n\n**Season 2 Status: Ranked 3/34 (0.8077 fish) after breaking overnight-specialist discipline and booking one successful Tomahawk day_1_5 trip (d259-d260, share 0.807).** \n\n**Plan: Hold today, monitor competitor moves at d275-d277, then execute tail peak strategy at d278-d281 briefings to book 1-2 day_1_5/overnight trips for DOY 292-295 (lighter competition, 5.0 yt/angler baseline) and potentially move to 1st place with 1.2-2.0 total fish.**",
+  "ttft_ms": 2393,
+  "type": "result",
+  "duration_ms": 199904,
+  "uuid": "c24bf0ad-1d2b-404c-a8af-082f8595d3fe",
+  "ttft_stream_ms": 627,
+  "time_to_request_ms": 93,
+  "first_content_frame_ms": 628,
+  "time_to_request_from_spawn_ms": 40581548,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331960161.3047,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

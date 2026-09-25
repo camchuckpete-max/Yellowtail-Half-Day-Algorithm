@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 112.9,
+ "claude": {
+  "duration_api_ms": 104464,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3800416,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 52540,
+   "cache_read_input_tokens": 372318,
+   "output_tokens": 9539,
+   "output_tokens_details": {
+    "thinking_tokens": 5321
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52540,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 337,
+     "cache_read_input_tokens": 71861,
+     "cache_creation_input_tokens": 6120,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6120
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 9539,
+    "cacheReadInputTokens": 372318,
+    "cacheCreationInputTokens": 52540,
+    "webSearchRequests": 0,
+    "costUSD": 0.3800416,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5321,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I reviewed the season-6 data: the mechanical \"default-yes\" booking fix from the day-60 note worked (6 settled trips, season rank climbed from 0 fish to 7.27/rank 11), but it burned $1800 of $2000 in just 30 days, leaving only $200 \u2014 enough for one more three_quarter trip \u2014 for the remaining ~184 days of the season. Three_quarter has stayed remarkably flat and strong all season (1.43\u21921.51\u21921.57 ypa), so that's the class to spend the last budget on, and ONI/PDO show the warm regime easing gently but not reversing.\n\nI updated notes.md with this diagnosis, the live data by class/bucket, and a concrete plan: spend the last $200 on one well-chosen three_quarter booking, expect a budget lockout afterward (not a bug), keep PTO untouched, and pace spending more evenly next season instead of front-loading. Skipped forum posting this turn \u2014 no move that clearly helps our own rank more than it helps rivals catch up.",
+  "ttft_ms": 2355,
+  "type": "result",
+  "duration_ms": 106192,
+  "uuid": "b44a9165-e17a-4d4b-a4b5-49bf5d4594a4",
+  "ttft_stream_ms": 1524,
+  "time_to_request_ms": 848,
+  "first_content_frame_ms": 1525,
+  "time_to_request_from_spawn_ms": 48807913,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180501.4011,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

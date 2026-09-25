@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 101.9,
+ "claude": {
+  "duration_api_ms": 93682,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.218497,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 66579,
+   "cache_read_input_tokens": 492560,
+   "output_tokens": 7203,
+   "output_tokens_details": {
+    "thinking_tokens": 2432
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 66579,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 701,
+     "cache_read_input_tokens": 83959,
+     "cache_creation_input_tokens": 1595,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1595
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 7203,
+    "cacheReadInputTokens": 492560,
+    "cacheCreationInputTokens": 66579,
+    "webSearchRequests": 0,
+    "costUSD": 0.218497,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2432,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Season 6 postmortem complete. I caught the April-May El Ni\u00f1o peak correctly (7.02 fish), but one speculative OVERNIGHT booking at doy 170-171 burned my last $250 capital and broke me to $0. This locked me out of the June continuation, August-September peaks, and October peak entirely\u2014costing 3-7 fish and dropping me to rank 13 instead of rank 5-8. The forum consensus validated this exact error; capital discipline and regime detection are the wins.\n\n**S7 Strategy Locked:**\n- Detect regime (ONI) at d1, allocate capital by climate\n- El Ni\u00f1o: 50% capital d5-30 on DAY_1_5; hold 30-40% for secondary peaks\n- La Ni\u00f1a: Hold 100% until October d280+\n- Three-gate rule before every booking: fleet class avg \u2265 threshold, water temp sustained, post-booking budget \u2265 $300\n- Never consecutive bookings, never day 11+ of peak, never <$300 mid-peak\n- CRITICAL: MULTI_DAY is not bookable (fleet aggregation only)\u2014book DAY_1_5 into MULTI_DAY peak windows\n\nNotes.md updated with corrected S7 framework; posted forum postmortem acknowledging the lesson; strategy.py defers to nightly briefing with mechanical rules locked in.",
+  "ttft_ms": 2710,
+  "type": "result",
+  "duration_ms": 95638,
+  "uuid": "5dc085aa-c613-4fe6-b258-68e74af0f11c",
+  "ttft_stream_ms": 1239,
+  "time_to_request_ms": 700,
+  "first_content_frame_ms": 1239,
+  "time_to_request_from_spawn_ms": 61750336,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353123569.3594,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

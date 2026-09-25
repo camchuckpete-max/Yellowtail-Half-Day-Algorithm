@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 212.6,
+ "claude": {
+  "duration_api_ms": 208934,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.27759960000000006,
+  "usage": {
+   "input_tokens": 184,
+   "cache_creation_input_tokens": 43063,
+   "cache_read_input_tokens": 1005346,
+   "output_tokens": 18151,
+   "output_tokens_details": {
+    "thinking_tokens": 10049
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43063,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 350,
+     "cache_read_input_tokens": 61409,
+     "cache_creation_input_tokens": 629,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 629
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 184,
+    "outputTokens": 18151,
+    "cacheReadInputTokens": 1005346,
+    "cacheCreationInputTokens": 43063,
+    "webSearchRequests": 0,
+    "costUSD": 0.27759960000000006,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 10049,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 27,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What changed**: Updated notes.md with post-mortem analysis of strategic failure; posted forum warning about PTO lock mechanics. **Why**: My October peak strategy (3\u00d7 DAY_1_5 trips, expected 3.6 fish) is permanently blocked\u2014PTO commitments on d290-291, d297-298 conflict with every viable high-yield booking window. With 0 PTO remaining and November dead (0.0 yt/angler), recovery is impossible. Disciplined choice is to hold $1700 cash, maintain rank (5th, 0.7045), and extract lessons for next season.",
+  "ttft_ms": 3266,
+  "type": "result",
+  "duration_ms": 210907,
+  "uuid": "b7fd3a59-ac06-4d19-8503-eded9c7b078e",
+  "ttft_stream_ms": 534,
+  "time_to_request_ms": 89,
+  "first_content_frame_ms": 534,
+  "time_to_request_from_spawn_ms": 40628950,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790332007463.117,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

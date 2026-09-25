@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 114.5,
+ "claude": {
+  "duration_api_ms": 106149,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18661060000000002,
+  "usage": {
+   "input_tokens": 76,
+   "cache_creation_input_tokens": 47160,
+   "cache_read_input_tokens": 451846,
+   "output_tokens": 9406,
+   "output_tokens_details": {
+    "thinking_tokens": 2730
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 47160,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 397,
+     "cache_read_input_tokens": 63877,
+     "cache_creation_input_tokens": 2258,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2258
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 76,
+    "outputTokens": 9406,
+    "cacheReadInputTokens": 451846,
+    "cacheCreationInputTokens": 47160,
+    "webSearchRequests": 0,
+    "costUSD": 0.18661060000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2730,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Season 6 retrospective complete.** I've documented what worked (weekend signal capture, conservative bets on proven boats), what failed (capital depletion before peak, panic plays on weak signals), and encoded the root cause: spent $1,950 by d172 instead of holding $1,200+ for October peak that would have added 4.5-10.5 fish.\n\n**S7 hard-locked strategy written:**\n- Regime detection (ONI d1-10): El Ni\u00f1o deploys April+October; La Ni\u00f1a holds October-only\n- Phase 1 (d91-150): Max $600 April-May on 3-gate signals (class avg + water + budget floor)\n- Phase 2 (d151-250): Zero bookings (dead zone proven in S2/S6)\n- Phase 3 (d251-310): Deploy $1,200+ October on high-ROI class, hold d251-270 for confirmation\n- Capital guardrails: $1,200 October reserve, $300 mid-season floor, no consecutive bookings (3-5 day breaks)\n- Class priority: DAY_1_5 > THREE_QUARTER > OVERNIGHT; never half-day\n\nStrategy.py encodes all gates in code, ready for S7 d1 nightly decisions. Notes.md serves as nightly playbook for manual decisions if strategy isn't running.",
+  "ttft_ms": 4170,
+  "type": "result",
+  "duration_ms": 108174,
+  "uuid": "4997f704-8f2b-4892-9ef5-6cdeaa7297cd",
+  "ttft_stream_ms": 1051,
+  "time_to_request_ms": 485,
+  "first_content_frame_ms": 1051,
+  "time_to_request_from_spawn_ms": 62043631,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353416973.9346,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

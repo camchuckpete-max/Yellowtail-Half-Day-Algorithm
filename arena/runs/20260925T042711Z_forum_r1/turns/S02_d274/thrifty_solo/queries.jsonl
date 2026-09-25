@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4005, "ts": "2026-09-25T10:24:24"}
+{"tool": "arena_query", "sql": "\nSELECT cls, CAST(fish_date_doy/30 AS INT) AS bucket,\n       SUM(yt) AS yt, SUM(anglers) AS anglers, COUNT(*) AS n,\n       ROUND(SUM(yt)/NULLIF(SUM(anglers),0),3) AS rate\nFROM trips\nWHERE fish_date_season=2 AND cls IN ('three_quarter','overnight','day_1_5')\nGROUP BY 1,2\nORDER BY 2,1\n", "rows": 30, "seconds": 0.101, "ts": "2026-09-25T10:24:28"}

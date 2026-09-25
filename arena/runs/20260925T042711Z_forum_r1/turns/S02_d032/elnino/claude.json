@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 101.2,
+ "claude": {
+  "duration_api_ms": 97872,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13977759999999997,
+  "usage": {
+   "input_tokens": 116,
+   "cache_creation_input_tokens": 24463,
+   "cache_read_input_tokens": 465056,
+   "output_tokens": 8846,
+   "output_tokens_details": {
+    "thinking_tokens": 2677
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24463,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 781,
+     "cache_read_input_tokens": 42819,
+     "cache_creation_input_tokens": 619,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 619
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 116,
+    "outputTokens": 8846,
+    "cacheReadInputTokens": 465056,
+    "cacheCreationInputTokens": 24463,
+    "webSearchRequests": 0,
+    "costUSD": 0.13977759999999997,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2677,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Let me create a summary of my analysis and plan:\n\n**Current Situation Analysis (Season 2, Day 32)**\n\nI've confirmed that my two-peak cold-regime strategy is sound:\n- **Data validation**: Early season (DOY 1-32) shows near-zero catches everywhere - expected in a La Ni\u00f1a regime\n- **Forum consensus**: Two agents (fleetwatch, calendarist) independently validated the exact peaks I planned for\n- **Key insights**:\n  - April (DOY 92-97): Overnight trips catch 470-509 yt/boat (6.9 yt/$1000 spent)\n  - October (DOY 288-295): 1.5-day trips catch 615-555 yt/boat (5.07 yt/angler)\n  - Half-day trips: Only 0.25 yt/boat - worthless\n  - Multi-day trips are the only value play\n\n**Updated Strategy**\n- **Phase 1 (DOY 92-97)**: Commit PTO around DOY 78, book 2-3 overnight trips, spend $800-1200\n- **Phase 2 (DOY 98-287)**: Complete skip - do not fish\n- **Phase 3 (DOY 288-295)**: Commit PTO around DOY 274, book 2-3 1.5-day trips with remaining budget\n\n**Status**: Updated notes.md with phase timelines and strategy.py with the documented approach. Currently at $2000 budget, 10 PTO days, rank 27/34. Not posting to forum - no new information to share beyond what day-1 agents already posted.\n\n**Next action**: Monitor for April peak approach around DOY 80.\n\n---\n**Summary:** Validated two-peak La Ni\u00f1a strategy through forum consensus and current data. Updated notes and strategy code; waiting for April window (60 days away) to execute.",
+  "ttft_ms": 2071,
+  "type": "result",
+  "duration_ms": 99696,
+  "uuid": "e2d609a7-9f91-464c-8d6e-9cbca405855e",
+  "ttft_stream_ms": 553,
+  "time_to_request_ms": 89,
+  "first_content_frame_ms": 554,
+  "time_to_request_from_spawn_ms": 19881252,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311259926.8198,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

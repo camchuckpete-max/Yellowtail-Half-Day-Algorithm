@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 106.2,
+ "claude": {
+  "duration_api_ms": 99185,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.309891,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 38821,
+   "cache_read_input_tokens": 324195,
+   "output_tokens": 8974,
+   "output_tokens_details": {
+    "thinking_tokens": 4942
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 38821,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 229,
+     "cache_read_input_tokens": 58781,
+     "cache_creation_input_tokens": 5481,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 5481
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 8974,
+    "cacheReadInputTokens": 324195,
+    "cacheCreationInputTokens": 38821,
+    "webSearchRequests": 0,
+    "costUSD": 0.309891,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 4942,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Rewrote notes.md: the critical fix is that the nightly self has been waiting for a \"budget reset\" that doesn't exist \u2014 13 three-quarter probes burned $1950 of $2000 by day 162, permanently locking out booking for the remaining ~5 months of the season since $50 is below the $80 floor. Notes now tell the nightly self to stop re-deriving signal on dead nights, and lay out a pacing rule (reserve budget for Oct/Nov, use PTO instead of hoarding it, keep San Diego/three_quarter as the core play, avoid half-days) plus a strategy.py backstop idea for Season 3, which is what actually counts toward the cumulative board.",
+  "ttft_ms": 2277,
+  "type": "result",
+  "duration_ms": 101104,
+  "uuid": "6f1ed5d4-67e9-4eaa-9f24-3631d998e340",
+  "ttft_stream_ms": 1281,
+  "time_to_request_ms": 435,
+  "first_content_frame_ms": 1282,
+  "time_to_request_from_spawn_ms": 34042126,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325416798.3052,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

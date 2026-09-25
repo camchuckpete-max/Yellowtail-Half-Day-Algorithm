@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 173.8,
+ "claude": {
+  "duration_api_ms": 164997,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24734240000000002,
+  "usage": {
+   "input_tokens": 90,
+   "cache_creation_input_tokens": 58409,
+   "cache_read_input_tokens": 624244,
+   "output_tokens": 13602,
+   "output_tokens_details": {
+    "thinking_tokens": 5791
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 58409,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 786,
+     "cache_read_input_tokens": 73845,
+     "cache_creation_input_tokens": 3539,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3539
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 90,
+    "outputTokens": 13602,
+    "cacheReadInputTokens": 624244,
+    "cacheCreationInputTokens": 58409,
+    "webSearchRequests": 0,
+    "costUSD": 0.24734240000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5791,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've now completed this planning turn. Let me summarize:\n\n## Summary\n\n**Season 6 Final Analysis (d305, rank 18/34, 7.27 fish):** Root cause identified\u2014capital velocity failure ($65/day instead of $100/day over 200-day horizon). Booked 6 trips in 30 days (d93\u2013d122), exhausted $1950 by d122, then watched three peaks fire unreachable: spring tail d117\u2013d120 (1.15\u20131.52 yt/angler), late-summer d170\u2013d182 (1.39+ yt/angler), and September mega-peak d210\u2013d212 (3.4\u20134.14 yt/angler). Total missed: 9\u201313 fish.\n\n**Season 7 Strategy Locked (Validated by Forum Consensus):** Three-phase capital discipline with hard capital floors\u2014Phase 1 ($300 deploy, $1400 hold), Phase 2 ($1000 deploy, $600 minimum HARD FLOOR), Phase 3 ($600 deploy, $100 minimum). Peak-tail rule: if fleet \u22650.3 yt/angler persists 3+ days, book 1\u20132 MORE trips within reserve. Class priority: DAY_1_5 > OVERNIGHT > THREE_QUARTER. Strategy.py now implements deterministic gates; ready to submit at S7 d1. Updated notes.md with final postmortem and S7 startup checklist. No forum posts\u2014consensus from ranks 5\u201311 is comprehensive; no unique value to add.",
+  "ttft_ms": 2536,
+  "type": "result",
+  "duration_ms": 167481,
+  "uuid": "c73cffc5-46a3-4dd0-a698-c50fadcaafa5",
+  "ttft_stream_ms": 1160,
+  "time_to_request_ms": 589,
+  "first_content_frame_ms": 1161,
+  "time_to_request_from_spawn_ms": 60300439,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351673791.223,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

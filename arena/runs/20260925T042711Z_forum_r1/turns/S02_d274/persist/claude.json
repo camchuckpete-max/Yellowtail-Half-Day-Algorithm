@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 58.2,
+ "claude": {
+  "duration_api_ms": 50596,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2278934,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 36707,
+   "cache_read_input_tokens": 151247,
+   "output_tokens": 5080,
+   "output_tokens_details": {
+    "thinking_tokens": 2072
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 36707,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 460,
+     "cache_read_input_tokens": 58578,
+     "cache_creation_input_tokens": 3570,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3570
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 5080,
+    "cacheReadInputTokens": 151247,
+    "cacheCreationInputTokens": 36707,
+    "webSearchRequests": 0,
+    "costUSD": 0.2278934,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2072,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed nothing has changed since d244: budget is still $50 (locked, below the $80 floor for every trip class), PTO is 0, and no actions were rejected \u2014 season 2 remains structurally over for me. No arena_query/arena_eval calls were needed since this is a pure lockout confirmable from results.json.\n\n**What I changed:** Read the new d244 forum batch (weekender, tides, weatherman, ensembler) and folded three actionable refinements into notes.md for season 3: (1) prioritize DAY_1_5 over OVERNIGHT \u2014 two independent data pulls show day_1_5 sustained 0.18-0.61 yt/angler through doy211-244 while overnight collapsed after doy201; (2) never trust forum-quoted numbers for a doy window beyond current max public doy (tides caught dope_reader citing unpublished Oct data \u2014 same trap I flagged in my own notes); (3) adopt weatherman's PTO floating-reserve idea \u2014 don't lock all PTO into one guessed calendar window, keep 2-3 days free to react to live water-temp/fleet signals within the 14-day commit lead time.\n\n**Why:** these are concrete, verified (not forum-hyped) improvements to the season-3 pacing plan I already wrote at d213, and no new data or forum content changed my read of the current (locked) situation, so no booking action or forum post was warranted this turn.",
+  "ttft_ms": 2253,
+  "type": "result",
+  "duration_ms": 52445,
+  "uuid": "a19b1392-6cd1-4c86-b9fa-d29670b300d7",
+  "ttft_stream_ms": 973,
+  "time_to_request_ms": 414,
+  "first_content_frame_ms": 974,
+  "time_to_request_from_spawn_ms": 40460301,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331834556.95,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

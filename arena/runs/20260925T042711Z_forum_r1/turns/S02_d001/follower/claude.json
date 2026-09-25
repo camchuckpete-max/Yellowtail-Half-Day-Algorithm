@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 303.4,
+ "claude": {
+  "duration_api_ms": 300125,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5457955999999999,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 45326,
+   "cache_read_input_tokens": 495938,
+   "output_tokens": 26526,
+   "output_tokens_details": {
+    "thinking_tokens": 19539
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45326,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 763,
+     "cache_read_input_tokens": 68513,
+     "cache_creation_input_tokens": 2254,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2254
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 26526,
+    "cacheReadInputTokens": 495938,
+    "cacheCreationInputTokens": 45326,
+    "webSearchRequests": 0,
+    "costUSD": 0.5457955999999999,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 19539,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Wrote a data-driven `strategy.py` (targets the season-1 yellowtail windows found in the trips data \u2014 spring ~doy 70\u2013140 and a stronger fall ~doy 250\u2013310 \u2014 using DAY_1_5/OVERNIGHT/THREE_QUARTER only, skipping HD_AM/HD_PM/TWILIGHT which were near-zero for yellowtail, and banking PTO for weekend-anchored 0-PTO trips with a fishdope-gated weekday lever) and updated `notes.md` with the full analysis, budget/PTO pacing plan, and things to recheck once season-2 results and forum posts appear. Skipped the forum post this turn since nobody else has posted yet and publishing the exact windows now would just invite dilution on the trips I plan to book.",
+  "ttft_ms": 3003,
+  "type": "result",
+  "duration_ms": 301849,
+  "uuid": "106ad128-6e6e-460c-b9c0-c71a9dc42f13",
+  "ttft_stream_ms": 1000,
+  "time_to_request_ms": 88,
+  "first_content_frame_ms": 1001,
+  "time_to_request_from_spawn_ms": 19311043,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310689763.0796,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

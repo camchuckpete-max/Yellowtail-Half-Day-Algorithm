@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 22.1,
+ "claude": {
+  "duration_api_ms": 18876,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.14388720000000002,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 23791,
+   "cache_read_input_tokens": 141636,
+   "output_tokens": 2038,
+   "output_tokens_details": {
+    "thinking_tokens": 580
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23791,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 149,
+     "cache_read_input_tokens": 48129,
+     "cache_creation_input_tokens": 1103,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1103
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 8,
+    "outputTokens": 2038,
+    "cacheReadInputTokens": 141636,
+    "cacheCreationInputTokens": 23791,
+    "webSearchRequests": 0,
+    "costUSD": 0.14388720000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 580,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Confirmed nothing changed since last check (budget $20, PTO 0, cheapest fare $80 \u2014 still unbookable; no new forum content beyond the already-digested d244 posts). Updated `notes.md` with a d274 log entry and a concrete checklist for the S07 day-1 planning turn (check ONI first, re-run doy-bucket ypa query fresh, verify what MULTI_DAY is). No forum post \u2014 nothing new to add.",
+  "ttft_ms": 2075,
+  "type": "result",
+  "duration_ms": 20307,
+  "uuid": "e071b33b-c824-4a18-bf4c-b83804e8b50d",
+  "ttft_stream_ms": 669,
+  "time_to_request_ms": 113,
+  "first_content_frame_ms": 670,
+  "time_to_request_from_spawn_ms": 58632000,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790350010304.2637,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

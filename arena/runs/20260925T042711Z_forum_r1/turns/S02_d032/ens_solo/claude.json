@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 94.5,
+ "claude": {
+  "duration_api_ms": 91454,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1349579,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 23217,
+   "cache_read_input_tokens": 500979,
+   "output_tokens": 7660,
+   "output_tokens_details": {
+    "thinking_tokens": 2330
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23217,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 10,
+     "output_tokens": 716,
+     "cache_read_input_tokens": 41654,
+     "cache_creation_input_tokens": 538,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 538
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 7660,
+    "cacheReadInputTokens": 500979,
+    "cacheCreationInputTokens": 23217,
+    "webSearchRequests": 0,
+    "costUSD": 0.1349579,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2330,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've analyzed the season data and updated my strategy. Here's what I found:\n\n**Data Analysis:**\n- **Days 33-200** are terrible (0.14-7 mean yt/trip) \u2014 skip the dead zone entirely\n- **Days 280-295** is the October peak (20-120+ mean yt/trip) \u2014 this is where the money is\n- Best peak-season boats: Ranger 85 (108.75 yt), Tomahawk (120 yt), Top Gun 80 (110 yt)\n- Best class: day_1_5 trips ($550 each) on these boats average 100+ yt in peak\n\n**My Plan:**\n- Save almost all $2000 for October peak (days 280-295)\n- Skip April-September entirely (no worthwhile yields)\n- Book 3-4 day_1_5 trips on Ranger 85/Tomahawk in late October\n- Commit PTO strategically for peak trips (mostly weekend returns = low PTO cost)\n- This should net 300-400+ shares vs competing for scraps early\n\n**Summary:** Updated notes.md with season pattern analysis and revised budget plan to concentrate $1200-1500 on October peak day_1_5 trips instead of spreading resources across dead months. This data-driven approach should maximize cumulative score by targeting proven peak boats (Ranger 85, Tomahawk) in proven peak season (doy 280-295).",
+  "ttft_ms": 2076,
+  "type": "result",
+  "duration_ms": 92729,
+  "uuid": "8eaa7266-c3f9-4653-856b-961e5e1a68d6",
+  "ttft_stream_ms": 656,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 656,
+  "time_to_request_from_spawn_ms": 19786566,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311164997.554,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 164.0,
+ "claude": {
+  "duration_api_ms": 155545,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.5160022000000001,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 66305,
+   "cache_read_input_tokens": 544281,
+   "output_tokens": 14189,
+   "output_tokens_details": {
+    "thinking_tokens": 7086
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 66305,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 317,
+     "cache_read_input_tokens": 83294,
+     "cache_creation_input_tokens": 8452,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 8452
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 18,
+    "outputTokens": 14189,
+    "cacheReadInputTokens": 544281,
+    "cacheCreationInputTokens": 66305,
+    "webSearchRequests": 0,
+    "costUSD": 0.5160022000000001,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 7086,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I pulled full trip-count data for seasons 1\u20135 (previously the notes only covered S1\u2013S2) and found the old \"hoard budget for a late fall day_1_5 bloom\" rule was overfit to S2 alone: in S3 and S4 the day_1_5 breakout was already running at 2.8\u20134.3 ypa by doy160, and in S5 day_1_5 broke out early then collapsed entirely, with THREE_QUARTER becoming the actual fall winner instead.\n\nI rewrote `notes.md` to replace the rigid calendar-based rule with an adaptive one: start watching trailing pooled ypa across THREE_QUARTER/OVERNIGHT/DAY_1_5 from day ~90 (not day 220), commit PTO as soon as a 2-reading confirmed breakout appears in whichever class is actually hot, and only fall back to \"hoard reserve for a late fall bloom\" if nothing has broken out by doy~180.",
+  "ttft_ms": 3026,
+  "type": "result",
+  "duration_ms": 157184,
+  "uuid": "7f57d5cb-cbd7-45c1-8962-bcabf900484d",
+  "ttft_stream_ms": 885,
+  "time_to_request_ms": 322,
+  "first_content_frame_ms": 885,
+  "time_to_request_from_spawn_ms": 45272622,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336645908.4695,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

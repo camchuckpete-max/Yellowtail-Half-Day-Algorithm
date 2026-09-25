@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 125.9,
+ "claude": {
+  "duration_api_ms": 122086,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.24608130000000003,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 67235,
+   "cache_read_input_tokens": 614073,
+   "output_tokens": 10024,
+   "output_tokens_details": {
+    "thinking_tokens": 3873
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 67235,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1328,
+     "cache_read_input_tokens": 83506,
+     "cache_creation_input_tokens": 2704,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2704
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 10024,
+    "cacheReadInputTokens": 614073,
+    "cacheCreationInputTokens": 67235,
+    "webSearchRequests": 0,
+    "costUSD": 0.24608130000000003,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3873,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. Season 7 strategy is ready. Let me create a concise summary of this turn's work.\n\n**Season 6 Final Review (Day 305) - Complete**\n\n**What I Found & Fixed:**\n- Validated the three missed peak windows using actual data queries:\n  - **d180-189**: 10-day sustained peak (THREE_QUARTER 1.4-4.05 yt/angler) \u2192 5-9 fish opportunity\n  - **d201-202**: MULTI_DAY spikes (5.89, 5.17 yt/angler) \u2192 4-6 fish opportunity  \n  - **d210-212**: 4-day mega-surge (DAY_1_5 2.3-4.1 yt/angler) \u2192 4-8 fish opportunity\n  - **Total missed**: ~13-23 fish quantified (conservative ~15-20)\n\n**Root Cause Confirmed**: d177 $550 over-extension booking (scored 0.117 fish, locked out entire endgame)\n- Budget went from $550 to $50\u2014below any trip minimum\n- Cost: 3 major peak windows inaccessible\n- Season score: 8.08 fish (rank 16). If I'd preserved $300+: **13-17 fish (rank 8-12)**\n\n**Season 7 Preparation:**\n1. \u2705 **strategy.py rewritten** with regime detection (ONI at d1), capital gates ($300 minimum), 2+ day signal confirmation, max 3-4 bookings per season\n2. \u2705 **notes.md updated** with hard rules, budget allocation table by regime (El Ni\u00f1o/La Ni\u00f1a/Neutral), execution checklist, Season 6 post-mortem\n\n**Core Non-Negotiable Rule for S7+**: Never book if capital \u2264 $300. Lock capital allocation by climate regime at d1. Deploy in 2-3 separate bookings within 10-40 day peak windows, not single all-in.\n\n**Cumulative Status**: Rank 24/34 (0.3641), up from Season 2 last place. Season 6 improvement (8.08 fish) proves regime-play works, but capital discipline failure cost top-10 finish. Season 7+ target: 9-12 fish/season average to rebuild cumulative score toward top 10.",
+  "ttft_ms": 3074,
+  "type": "result",
+  "duration_ms": 124037,
+  "uuid": "d0428d55-6ccc-49e6-95d6-7395b433946a",
+  "ttft_stream_ms": 644,
+  "time_to_request_ms": 107,
+  "first_content_frame_ms": 644,
+  "time_to_request_from_spawn_ms": 60379245,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790351757492.802,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

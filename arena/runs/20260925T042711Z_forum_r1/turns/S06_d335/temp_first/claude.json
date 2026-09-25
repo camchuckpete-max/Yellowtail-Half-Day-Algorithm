@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 129.9,
+ "claude": {
+  "duration_api_ms": 121283,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1836684,
+  "usage": {
+   "input_tokens": 118,
+   "cache_creation_input_tokens": 37191,
+   "cache_read_input_tokens": 586584,
+   "output_tokens": 10102,
+   "output_tokens_details": {
+    "thinking_tokens": 3873
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 37191,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 835,
+     "cache_read_input_tokens": 54676,
+     "cache_creation_input_tokens": 1490,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1490
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 118,
+    "outputTokens": 10102,
+    "cacheReadInputTokens": 586584,
+    "cacheCreationInputTokens": 37191,
+    "webSearchRequests": 0,
+    "costUSD": 0.1836684,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3873,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my planning turn analysis. Let me create a final summary:\n\n## Summary\n\n**S6 Final Analysis (Rank 4/34, 18.15 fish, Cumulative 20/34):**\n- Season 6 confirmed strong El Ni\u00f1o (ONI 0.7\u21922.02)\n- Phase 1 (Apr-May) was PRIMARY peak: THREE_QUARTER 1.501, DAY_1_5 1.571 yt/angler\n- I captured Phase 3 (Sept) well (16.4 fish from 7 bookings) but missed Phase 1 entirely (only 1 booking, 0.79 fish)\n- Gap to rank 1 (5.8 fish) = exactly the April peak cost of holding dry on calendar ideology instead of regime detection\n- Broke capital floor at d242 ($150 wasted), exhausted budget before Phase 4 window\n\n**Key Learnings (Validated by Forum Consensus):**\n1. **Regime detection (ONI d1) is THE gate** - determines season template, not calendar\n2. **Capital discipline beats timing** - never $0 mid-season, keep $300+ minimum floor\n3. **Phase sequencing matters more than threshold precision** - allocate capital by climate regime\n4. **Class hierarchy proven:** DAY_1_5/MULTI_DAY 2-4\u00d7 better than THREE_QUARTER\n5. **Two-day class-level confirmation trigger** - never chase single-boat noise\n\n**S7 Strategy Locked & Ready:**\n- d1-d10: Query ONI, lock regime (warm/cold/neutral)\n- Phase allocation: $1200 Apr-May (warm only), $600 Sept (warm), $200 reserve\n- Book weekends first, 2-day confirmation gate, $300 mid-season floor, $0 before d305 only\n- Success target: 20-24 fish (vs S6's 18.15), rank 2-5, cumulative improvement\n\n**Forum Post:** Published S6 postmortem validating regime-first framework. 1 post remaining this month.",
+  "ttft_ms": 4165,
+  "type": "result",
+  "duration_ms": 123753,
+  "uuid": "4b49a7d9-9eeb-4db4-a4eb-74d71c621984",
+  "ttft_stream_ms": 1393,
+  "time_to_request_ms": 772,
+  "first_content_frame_ms": 1394,
+  "time_to_request_from_spawn_ms": 61749637,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353122841.816,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 149.6,
+ "claude": {
+  "duration_api_ms": 146585,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1958137,
+  "usage": {
+   "input_tokens": 154,
+   "cache_creation_input_tokens": 30861,
+   "cache_read_input_tokens": 682177,
+   "output_tokens": 13144,
+   "output_tokens_details": {
+    "thinking_tokens": 5645
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30861,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 459,
+     "cache_read_input_tokens": 48349,
+     "cache_creation_input_tokens": 1487,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1487
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 154,
+    "outputTokens": 13144,
+    "cacheReadInputTokens": 682177,
+    "cacheCreationInputTokens": 30861,
+    "webSearchRequests": 0,
+    "costUSD": 0.1958137,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5645,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 25,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of changes:**\n\n1. **Corrected seasonal analysis**: Season 2 pattern is completely different from Season 1. May (not April) is the peak at 12.60 yt/trip; October 14-15 are superhot at 49.88 yt/trip.\n\n2. **Submitted data-driven strategy.py**: Auto-books PM half-days in May/June, commits October Friday PTO by DOY 261, reserves budget for October superhot days. Skips dead zones (April, August).\n\nUpdated notes.md with full analysis and posted to forum with key findings. Strategy is now active and will execute at each 21:00 nightly decision point.",
+  "ttft_ms": 1763,
+  "type": "result",
+  "duration_ms": 148032,
+  "uuid": "342109e4-8c58-4b8a-9260-4795e86adc47",
+  "ttft_stream_ms": 565,
+  "time_to_request_ms": 95,
+  "first_content_frame_ms": 565,
+  "time_to_request_from_spawn_ms": 20731869,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790312110468.4583,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

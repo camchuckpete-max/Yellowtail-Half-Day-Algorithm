@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 82.6,
+ "claude": {
+  "duration_api_ms": 73757,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16084779999999999,
+  "usage": {
+   "input_tokens": 84,
+   "cache_creation_input_tokens": 41595,
+   "cache_read_input_tokens": 465738,
+   "output_tokens": 6200,
+   "output_tokens_details": {
+    "thinking_tokens": 2120
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 41595,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 407,
+     "cache_read_input_tokens": 58799,
+     "cache_creation_input_tokens": 1771,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1771
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 84,
+    "outputTokens": 6200,
+    "cacheReadInputTokens": 465738,
+    "cacheCreationInputTokens": 41595,
+    "webSearchRequests": 0,
+    "costUSD": 0.16084779999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2120,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Done. I've reviewed Season 6 and updated your strategy for Season 7.\n\n**What Changed:**\n- Rewrote notes.md with a focused 3-tier capital allocation strategy (Hold $1,200 in spring, $500 in summer, commit $500-800 in October)\n- Added explicit gate conditions: require BOTH water >65\u00b0F sustained AND fleet 3+ consecutive days >1.5 yt/angler before deploying capital\n- Listed 5 anti-patterns from S6 to avoid (spring spike betting, single-day noise on cold water, PTO without gate confirmation, low-conviction overnights)\n- Created a 4-point execution checklist for each nightly briefing\n\n**Why This Matters:**\nYour core mistake was D170\u2014a $400 overnight on low conviction that broke you right before the actual peak. The new plan enforces capital discipline with strict thresholds: no >$200 single trades unless gate is proven; all overnights only when sustained warmth confirmed.",
+  "ttft_ms": 3347,
+  "type": "result",
+  "duration_ms": 75937,
+  "uuid": "cd12d478-96cd-4268-9ce2-c80ad3fbfa28",
+  "ttft_stream_ms": 1010,
+  "time_to_request_ms": 444,
+  "first_content_frame_ms": 1010,
+  "time_to_request_from_spawn_ms": 56896803,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790348269984.0166,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

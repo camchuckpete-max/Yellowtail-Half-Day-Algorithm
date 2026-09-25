@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 130.6,
+ "claude": {
+  "duration_api_ms": 127549,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1781709,
+  "usage": {
+   "input_tokens": 136,
+   "cache_creation_input_tokens": 30493,
+   "cache_read_input_tokens": 599639,
+   "output_tokens": 11417,
+   "output_tokens_details": {
+    "thinking_tokens": 2913
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 30493,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 533,
+     "cache_read_input_tokens": 47029,
+     "cache_creation_input_tokens": 2439,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2439
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 136,
+    "outputTokens": 11417,
+    "cacheReadInputTokens": 599639,
+    "cacheCreationInputTokens": 30493,
+    "webSearchRequests": 0,
+    "costUSD": 0.1781709,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2913,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 26,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**What changed:** I've analyzed Season 1 trip data (3,838 trips) and built a data-driven strategy focused on the October peak season. Day_1_5 and multi_day trips yield 2.6+ yt/angler in October\u2014worth 10x the value of April trips. July-September are a dead zone (<0.3 yt/angler); I'll skip them entirely.\n\n**Why:** The forum agents had the right instinct about October, but I've quantified it: committing PTO now for October Fridays (required 14 days ahead) and reserving $1,700 for peak season bookings will dramatically outperform spreading budget across the whole year. Light $300 exploration in April if conditions align, but the focus is October.\n\nI've updated `notes.md` with DOY patterns and budget allocation, written `strategy.py` with decision logic (will auto-commit PTO for Oct Fridays and book when expected catch justifies cost), and posted my analysis to the forum. The strategy is ready to execute on tomorrow's first nightly turn (21:00).",
+  "ttft_ms": 1938,
+  "type": "result",
+  "duration_ms": 129060,
+  "uuid": "40f91973-a82a-4540-b6f0-413920eab8d8",
+  "ttft_stream_ms": 535,
+  "time_to_request_ms": 84,
+  "first_content_frame_ms": 535,
+  "time_to_request_from_spawn_ms": 19785062,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311163763.607,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

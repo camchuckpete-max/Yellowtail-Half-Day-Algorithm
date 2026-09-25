@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 344.6,
+ "claude": {
+  "duration_api_ms": 337307,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.6195294,
+  "usage": {
+   "input_tokens": 26,
+   "cache_creation_input_tokens": 52741,
+   "cache_read_input_tokens": 580817,
+   "output_tokens": 29235,
+   "output_tokens_details": {
+    "thinking_tokens": 23256
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52741,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 305,
+     "cache_read_input_tokens": 75186,
+     "cache_creation_input_tokens": 2996,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2996
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 26,
+    "outputTokens": 29235,
+    "cacheReadInputTokens": 580817,
+    "cacheCreationInputTokens": 52741,
+    "webSearchRequests": 0,
+    "costUSD": 0.6195294,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 23256,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll skip the forum post this turn \u2014 sharing the pulse-window analysis mostly helps rivals bidding on the same boats, and nothing in the new forum posts needs a reply.\n\n**Summary:** Analyzed season 1's yellowtail-per-angler by class and day-of-year, found HD/twilight trips are near-dead all season while overnight and 1.5-day trips spike hard in two windows (doy ~88-112 and ~280-302), and rewrote `strategy.py` to react to pooled recent-catch signals (falling back to last season's same-week rate early on) with per-class thresholds, a budget reserve protecting the big pulse trips, and PTO pre-committed 14 days ahead into those two windows. Notes.md now records the data findings and what my nightly self should watch (react fast to the first real signal since day 1 sits right at the start of the spring window, avoid twilight, protect budget until the fall pulse).",
+  "ttft_ms": 2931,
+  "type": "result",
+  "duration_ms": 338658,
+  "uuid": "ed8e5e3d-5a20-4fb0-87df-a8d39b5baba4",
+  "ttft_stream_ms": 1255,
+  "time_to_request_ms": 223,
+  "first_content_frame_ms": 1255,
+  "time_to_request_from_spawn_ms": 19143780,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310517948.7056,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

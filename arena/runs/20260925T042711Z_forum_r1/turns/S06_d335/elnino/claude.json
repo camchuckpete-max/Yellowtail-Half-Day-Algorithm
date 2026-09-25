@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 101.6,
+ "claude": {
+  "duration_api_ms": 97897,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19713069999999996,
+  "usage": {
+   "input_tokens": 100,
+   "cache_creation_input_tokens": 51119,
+   "cache_read_input_tokens": 555877,
+   "output_tokens": 7841,
+   "output_tokens_details": {
+    "thinking_tokens": 2661
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 51119,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 1128,
+     "cache_read_input_tokens": 69123,
+     "cache_creation_input_tokens": 971,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 971
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 100,
+    "outputTokens": 7841,
+    "cacheReadInputTokens": 555877,
+    "cacheCreationInputTokens": 51119,
+    "webSearchRequests": 0,
+    "costUSD": 0.19713069999999996,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2661,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 19,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Now let me verify my notes are solid and complete my turn analysis.\n\n**Summary of Actions Taken:**\n\nI've completed my analysis and planning update for Season 7 at season end (S6 day 335):\n\n**Current Standing:**\n- Season 6: 14.246 fish (rank 8), but Cumulative rank 1 (15.3349 fish)\n- Lead over ens_solo: +0.06 fish (slim margin)\n- Budget: $0 (fully deployed d93-d112 on warm regime peak)\n- PTO: 6 days unused (not deployable, season nearly over)\n\n**Key S6 Finding - April Timing Miss:**\nAnalysis of fleet data d2-d30 shows DAY_1_5 class averaged 2.2-3.2 yt/angler during April peak. By deploying d93-d112 instead of d1-d30, I missed ~30 days of high-probability fishing. This cost approximately 0.3 fish (~2% of season score). If I'd deployed on April peaks as my regime call indicated, likely would have scored 14.5-15.0 fish instead of 14.246.\n\n**S7 Protocol Locked:**\nUpdated my notes with critical timing fix: if ONI > +0.3 (warm regime), execute Phase 1a deployment immediately by d5-d8, not wait for d91 confirmation. This addresses the La Ni\u00f1a trauma from S2 that caused over-caution in S6.\n\n**No Forum Post:**\nI have 2 posts left but will hold for now. As cumulative leader, discretion beats broadcasting strategy adjustments. I'll let execution speak.\n\n**S7 Ready:** All protocols locked. Capital floor discipline ($300-400 minimum always), regime detection at d1 (ONI query), April window d1-d30 for warm regimes, October d285+ for cold regimes.\n\nUpdated my notes.md with final S6 wisdom and S7 execution checklist ready for immediate d1 deployment.",
+  "ttft_ms": 2455,
+  "type": "result",
+  "duration_ms": 99849,
+  "uuid": "81072091-aee7-455c-a186-d869acdac929",
+  "ttft_stream_ms": 651,
+  "time_to_request_ms": 114,
+  "first_content_frame_ms": 652,
+  "time_to_request_from_spawn_ms": 61852729,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790353230994.8467,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 194.2,
+ "claude": {
+  "duration_api_ms": 190957,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.26529090000000005,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 52503,
+   "cache_read_input_tokens": 838059,
+   "output_tokens": 15269,
+   "output_tokens_details": {
+    "thinking_tokens": 3634
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 52503,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 516,
+     "cache_read_input_tokens": 70367,
+     "cache_creation_input_tokens": 1111,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1111
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 15269,
+    "cacheReadInputTokens": 838059,
+    "cacheCreationInputTokens": 52503,
+    "webSearchRequests": 0,
+    "costUSD": 0.26529090000000005,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3634,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Changed:** Updated `notes.md` with Season 6 strategy (sit dry April-Sept, deploy full capital in October DOY 284-301 mega-peak where overnight/day_1_5 deliver 3-12 yt/angler); wrote `strategy.py` to auto-commit PTO at d273 for October peak window; posted forum analysis of October patterns and capital preservation lesson from S2.\n\n**Why:** Season 2 failure (0.0189 yt, rank 33) was pure capital mismanagement\u2014broke on d288 chasing September noise while the October mega-peak (d287-303: day_1_5 at 5.0+ yt/angler) fired unwatched. Data confirms October is reliable and season-winning; discipline to sit dry until then is the only edge.",
+  "ttft_ms": 2840,
+  "type": "result",
+  "duration_ms": 192300,
+  "uuid": "3b42fc79-3d49-4493-a23b-66c0e0ca03a2",
+  "ttft_stream_ms": 638,
+  "time_to_request_ms": 111,
+  "first_content_frame_ms": 638,
+  "time_to_request_from_spawn_ms": 45415782,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336794152.041,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

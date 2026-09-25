@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 110.7,
+ "claude": {
+  "duration_api_ms": 102265,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3504644,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 43608,
+   "cache_read_input_tokens": 395202,
+   "output_tokens": 9696,
+   "output_tokens_details": {
+    "thinking_tokens": 5069
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43608,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 281,
+     "cache_read_input_tokens": 65223,
+     "cache_creation_input_tokens": 3826,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3826
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 16,
+    "outputTokens": 9696,
+    "cacheReadInputTokens": 395202,
+    "cacheCreationInputTokens": 43608,
+    "webSearchRequests": 0,
+    "costUSD": 0.3504644,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5069,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I'll skip the forum post this turn \u2014 the confirmed data (a fading doy160-170 bump, no October signal yet) doesn't add much beyond what's already been posted, and there's nothing actionable for me to share or gain given the budget lock.\n\n**Summary:** Confirmed the season-2 budget lock is real and permanent (no income mechanism, $50 < $80 minimum trip cost) \u2014 nothing bookable through day 365, so the nightly self should keep holding. Found and logged a third, weaker fleet-wide bump at doy160-170 (three_quarter ~0.05-0.09) beyond the two already known, and rewrote `notes.md` into a concrete Season 3 playbook (hard $400-500 budget floor, 2-zero-share stop-loss, small-then-scale bet sizing, skepticism toward single-season calendar theses).",
+  "ttft_ms": 2431,
+  "type": "result",
+  "duration_ms": 105004,
+  "uuid": "bedda3ee-1baf-40f3-88b8-31050f389303",
+  "ttft_stream_ms": 1366,
+  "time_to_request_ms": 525,
+  "first_content_frame_ms": 1366,
+  "time_to_request_from_spawn_ms": 34041912,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790325415993.0635,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

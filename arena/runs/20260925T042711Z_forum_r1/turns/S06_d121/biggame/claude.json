@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 154.4,
+ "claude": {
+  "duration_api_ms": 145679,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.28918370000000004,
+  "usage": {
+   "input_tokens": 108,
+   "cache_creation_input_tokens": 71677,
+   "cache_read_input_tokens": 855517,
+   "output_tokens": 12034,
+   "output_tokens_details": {
+    "thinking_tokens": 3153
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 71677,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 402,
+     "cache_read_input_tokens": 87101,
+     "cache_creation_input_tokens": 3551,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3551
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 108,
+    "outputTokens": 12034,
+    "cacheReadInputTokens": 855517,
+    "cacheCreationInputTokens": 71677,
+    "webSearchRequests": 0,
+    "costUSD": 0.28918370000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3153,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 23,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary of planning turn (d121 21:00):**\n\nI've analyzed the El Ni\u00f1o regime shift and identified I missed April's 4,229 YT fleet peak by regime-locking to October. Currently testing d122 day_1_5 booking ($550) to confirm May micro-peaks are real; three_quarter is outperforming at 2.04 yt/angler (recent avg). Decision framework: If d122 returns \u22651.5 fish, continue May bookings (max 3 trips, $600 cap); if <1.5 fish, hold capital for Sept-Oct peaks where fleet data shows 5-16 yt/angler upside. Updated notes.md with full strategic timeline and will decide on further bookings based on d122 results.",
+  "ttft_ms": 3117,
+  "type": "result",
+  "duration_ms": 147514,
+  "uuid": "b7c6a5de-3a23-4ecd-9137-2d3ac9e515ef",
+  "ttft_stream_ms": 994,
+  "time_to_request_ms": 510,
+  "first_content_frame_ms": 995,
+  "time_to_request_from_spawn_ms": 48808052,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790340180871.1702,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

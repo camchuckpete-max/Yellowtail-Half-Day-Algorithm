@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 85.2,
+ "claude": {
+  "duration_api_ms": 82245,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1202693,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 23021,
+   "cache_read_input_tokens": 388853,
+   "output_tokens": 7048,
+   "output_tokens_details": {
+    "thinking_tokens": 2535
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23021,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 455,
+     "cache_read_input_tokens": 40863,
+     "cache_creation_input_tokens": 1133,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1133
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 7048,
+    "cacheReadInputTokens": 388853,
+    "cacheCreationInputTokens": 23021,
+    "webSearchRequests": 0,
+    "costUSD": 0.1202693,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2535,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\nI've analyzed 3,650 historical trips to identify when yellowtail appear and which boats perform best. **April is the peak season** with day_1_5 averaging 42.3 yt/boat\u2014my persona's focus on long boats pays off here. July-August is a complete dead zone (0.4 yt/boat); Sep-Oct and Nov-Dec show secondary peaks of 16.5 and 25.8 respectively.\n\nTop boats: **Ranger 85 and Pacific Voyager** for day_1_5 (36.8 and 39.5 avg), **Grande** for overnight (43.3 avg).\n\n**My plan**: Book 3-4 day_1_5 trips on these top boats in April ($550 \u00d7 3 = $1650), commit Friday PTO for no-cost evening trips, skip July-August entirely, then deploy remaining budget in the Sep-Oct resurgence. Strategy code now automatically targets April and commits strategic Friday PTO.",
+  "ttft_ms": 3124,
+  "type": "result",
+  "duration_ms": 83689,
+  "uuid": "3cd616d9-0602-42af-a8fb-187a749b8a51",
+  "ttft_stream_ms": 663,
+  "time_to_request_ms": 98,
+  "first_content_frame_ms": 663,
+  "time_to_request_from_spawn_ms": 19225431,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790310604070.8076,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

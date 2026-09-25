@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 102.2,
+ "claude": {
+  "duration_api_ms": 93882,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.13552029999999998,
+  "usage": {
+   "input_tokens": 102,
+   "cache_creation_input_tokens": 26187,
+   "cache_read_input_tokens": 449493,
+   "output_tokens": 7619,
+   "output_tokens_details": {
+    "thinking_tokens": 2247
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26187,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 446,
+     "cache_read_input_tokens": 47885,
+     "cache_creation_input_tokens": 925,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 925
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 102,
+    "outputTokens": 7619,
+    "cacheReadInputTokens": 449493,
+    "cacheCreationInputTokens": 26187,
+    "webSearchRequests": 0,
+    "costUSD": 0.13552029999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2247,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 18,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Confirmed strategy: October only. Holding $2000 budget and 10 PTO days untouched.**\n\nMay data validates the hold\u2014only 143 YT across 246 trips (0.58 avg). October Season 1 peak (DOY 288\u2013305) shows 2.6\u20133.8 yt/angler on day_1_5 Fridays. Posted forum analysis and updated notes.md with next milestones: mid-August reassess water temperature trend, late August commit 3 Friday PTO dates for October, October execute 3 \u00d7 $550 day_1_5 trips targeting DOY 295\u2013297.",
+  "ttft_ms": 3035,
+  "type": "result",
+  "duration_ms": 96381,
+  "uuid": "707650ff-ab5f-48dd-9fd0-2e7051c09a61",
+  "ttft_stream_ms": 1279,
+  "time_to_request_ms": 822,
+  "first_content_frame_ms": 1283,
+  "time_to_request_from_spawn_ms": 26634839,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790318008559.6462,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

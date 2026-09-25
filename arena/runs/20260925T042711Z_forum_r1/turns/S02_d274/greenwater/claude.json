@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 59.9,
+ "claude": {
+  "duration_api_ms": 56499,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3624084,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 45437,
+   "cache_read_input_tokens": 619832,
+   "output_tokens": 5665,
+   "output_tokens_details": {
+    "thinking_tokens": 1654
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45437,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 474,
+     "cache_read_input_tokens": 68707,
+     "cache_creation_input_tokens": 2171,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2171
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 5665,
+    "cacheReadInputTokens": 619832,
+    "cacheCreationInputTokens": 45437,
+    "webSearchRequests": 0,
+    "costUSD": 0.3624084,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 1654,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Summary:** Confirmed the fleet-level autumn window (doy270\u21920.163 rate, up from the 0.01-0.08 dead zone) materialized in S2's reachable classes exactly as predicted from S1, matching the boat-level San Diego THREE_QUARTER trend already in the journal \u2014 this is now a 3-season-confirmed pattern, but we stayed cash-locked at $50 the entire back half of S02 and couldn't fish it. Updated notes.md with this final confirmation and reaffirmed the season 3 budget-pacing plan (cap spend at ~$1200 by doy200, reserve cash for the doy270-310 THREE_QUARTER window); no forum post (keeping the edge until S3 counts) and no bookings possible this turn (cash-locked, season effectively over).",
+  "ttft_ms": 1912,
+  "type": "result",
+  "duration_ms": 58156,
+  "uuid": "87f03986-a2dc-4bb9-87e0-2c9ba462d30a",
+  "ttft_stream_ms": 624,
+  "time_to_request_ms": 119,
+  "first_content_frame_ms": 624,
+  "time_to_request_from_spawn_ms": 40568607,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790331947143.5925,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

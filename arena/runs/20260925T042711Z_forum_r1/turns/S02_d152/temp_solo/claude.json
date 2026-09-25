@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 141.5,
+ "claude": {
+  "duration_api_ms": 133212,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2030152,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 46557,
+   "cache_read_input_tokens": 547072,
+   "output_tokens": 11012,
+   "output_tokens_details": {
+    "thinking_tokens": 4083
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 46557,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 794,
+     "cache_read_input_tokens": 46214,
+     "cache_creation_input_tokens": 343,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 343
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 11012,
+    "cacheReadInputTokens": 547072,
+    "cacheCreationInputTokens": 46557,
+    "webSearchRequests": 0,
+    "costUSD": 0.2030152,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4083,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "The submit_strategy tool isn't available in this session. The strategy.py file is written and ready; it will be picked up by the arena system or can be submitted during the nightly briefing. Let me finalize my session with a summary.\n\n**Summary of this planning turn (DOY 152 21:00):**\n\n1. **Data analysis**: Confirmed fall DOY 287\u2013289 is the prime target (1,646 YT across fleet, 4+ yt/angler), not spring (already passed, top agents scored 0.6+ from single trips). Summer peaks (DOY 169\u2013172, 436\u2013445 YT) exist but require PTO I don't have.\n\n2. **Strategic decision**: Skip summer noise. Deploy full $1050 budget on 2\u00d7 overnight trips in fall when both water temp \u226565\u00b0F AND fleet reports show yellowtail activity. Already committed 4 PTO days (d285\u2013287, d290) to cover fall window.\n\n3. **Strategy written**: `strategy.py` auto-activates DOY 273+ (when fall offers appear), books overnight on proven high-yield boats (Ranger, Top Gun, Legend) when conditions align. Expected yield per trip: 0.5\u20132.0 share.\n\n4. **Notes updated**: Documented the summer-skip decision, budget allocation, and the single high-confidence play for rest of season.\n\n**What changed**: Shifted from \"watch summer for peaks\" to \"all-in on fall with disciplined conditions-based deployment.\" Fall historically delivers 10\u00d7 my current season score in 2 trips.",
+  "ttft_ms": 2228,
+  "type": "result",
+  "duration_ms": 135675,
+  "uuid": "dd34336a-6bc8-47ae-b268-e653dd87c36e",
+  "ttft_stream_ms": 1057,
+  "time_to_request_ms": 539,
+  "first_content_frame_ms": 1057,
+  "time_to_request_from_spawn_ms": 31787667,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790323161604.0474,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,477 @@
+- S02 d091: d091 eve: water still cold (62.8°F, 7d mean 59.9°F), fleet-wide yt/angler flat at 0.000 across HD_AM/PM, 3/4, overnight for 30 days straight — no bite yet despite forum hype about "May peak." Staying home, saving the $2000 and all 10 PTO days for when actual results (not forum posts) show fish. Will
+- S02 d092: d092 eve: All classes showing 0.000 yt/angler over the last 7-30 days — HD_AM/PM, THREE_QUARTER all stone dead, no exceptions in the boat breakdowns. Forum's "May is the real peak" claim doesn't cover tomorrow (d093, still April), and the one boat overnight (Mustang) needs PTO on a Monday which I do
+- S02 d093: d093 eve: Tomorrow (d094) is a Monday — weekday means PTO required for every class incl. twilight, and I don't spend PTO. Also TWILIGHT has zero scheduled boats so it's moot anyway. Staying home. Fleet data still stone-dead across the board (HD_AM/PM/3Q all ~0.000 yt/angler last 7-30 days) — no FOMO
+- S02 d094: d094 eve: Tomorrow (d095) is a Tuesday — every bookable class needs PTO committed for d095, which is impossible to arrange with one day's notice (and I don't spend PTO anyway per persona). TWILIGHT needs no PTO but has zero scheduled boats, so it's moot. Fleet yields remain dead across the board (HD
+- S02 d095: d095 eve: Tomorrow (d096) is a Wednesday — every bookable class requires PTO committed for d096, impossible with one day's notice, and TWILIGHT (no PTO needed) has zero scheduled boats. Staying home; weekends-only persona, no PTO spend. Fleet yields still ~0.000 across HD_AM/PM/3Q last 7-30 days, no
+- S02 d096: d096 eve: Tomorrow (d097) is a Thursday — every bookable class needs PTO for d097, impossible on one day's notice, and TWILIGHT (no PTO) has zero scheduled boats. Staying home per weekends-only persona, no PTO spend. Fleet still dead (HD_AM/PM/3Q ~0.000 last 7-30d); waiting for a weekend with decent
+- S02 d097: d097 eve: OVERNIGHT/DAY_1_5 are technically no-PTO bookable (fish into Sat/Sun) but both classes show 0.000 yt/angler actual over last 10/6 boat-days with zero-history boats (Jig Strike, Voyager) — not paying $400-550 against forum hype with no live confirmation. Staying home, waiting for real signa
+- S02 d098: d098 eve: Saturday tomorrow, no PTO needed. San Diego (3/4 day) is the lone bright spot at 0.065 yt/angler w/ a 7-yt day last week — booking it. Skipping HD_AM/PM (all zeros) and OVERNIGHT Mustang (zeros too, forum hype unconfirmed by live data).
+- S02 d099: d099 eve: Sunday tomorrow, no PTO. Re-upping on San Diego (3/4 day) — it's the lone boat with real yellowtail signal (0.075 yt/angler, 3yt last out) while everything else in the lineup is still dead zeros. Weekends-only, no PTO spend, staying disciplined.
+- S02 d100: d100 eve: Tomorrow (d101) is a Monday — every bookable class needs PTO for d101, impossible with one day's notice, and TWILIGHT (no PTO) has zero scheduled boats. Staying home per weekends-only, no-PTO persona. San Diego 3Q was the lone bright spot the last two weekends but weekday offers are all de
+- S02 d101: d101 eve: Tomorrow (d102) is a Tuesday — every bookable class needs PTO for d102, impossible with one day's notice, and TWILIGHT (no PTO) has zero scheduled boats. Staying home per weekends-only, no-PTO persona. Fleet still mostly dead; San Diego 3Q was my lone bright spot the last two weekends — wi
+- S02 d102: d102 eve: Wednesday tomorrow (d103) — all bookable classes need PTO with no 14-day lead possible, TWILIGHT has no boats. Staying home, weekends-only. Watching for next Sat/Sun; San Diego 3Q remains the only boat with real yellowtail signal.
+- S02 d103: d103 eve: Thursday tomorrow (d104) — all bookable classes need PTO with no 14-day lead possible, TWILIGHT has no boats. Staying home, weekends-only. Fleet still mostly dead zeros; San Diego 3Q remains the only boat with real signal but not offered. Waiting for next weekend.
+- S02 d104: d104 eve: Friday tomorrow (d105) — HD_AM/PM/3Q/FULL all need PTO with no 14-day lead, TWILIGHT has no boats. DAY_1_5 is technically no-PTO bookable (fishes Sat d106) but Voyager is 0.000 yt/angler over its last trips and Aztec has zero history — not paying $550 on hype with no signal. Staying home, 
+- S02 d105: d105 eve: Saturday tomorrow, no PTO needed. Sticking with San Diego 3Q — still the only boat showing live yellowtail signal while HD_AM/PM fleet-wide is flat zero. Weekends-only, staying disciplined.
+- S02 d106: d106 eve: Sunday tomorrow, no PTO. Third straight weekend on San Diego 3Q — it's the clear hot boat (23 yt last trip, 0.172 pooled) vs zeros elsewhere. Staying disciplined, weekends-only, riding the signal.
+- S02 d107: d107 eve: Monday tomorrow (d108) — all bookable classes need PTO with no 14-day lead possible, TWILIGHT has no boats. Staying home, weekends-only. San Diego 3Q blanked last time out (0/62) but still the best signal in the lineup on weekends; watching for next Sat/Sun.
+- S02 d108: d108 eve: Tuesday tomorrow (d109) — all bookable classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. Fleet still mostly flat; San Diego 3Q remains the only boat with any real signal but not offered midweek. Waiting for next Sat/Sun.
+- S02 d109: d109 eve: Wednesday tomorrow (d110) — all bookable classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. San Diego 3Q still the only boat with real signal but not offered midweek; waiting for next Sat/Sun.
+- S02 d110: d110 eve: Thursday tomorrow (d111) — wait, Wed→Thu — all bookable classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. San Diego 3Q still the best signal seen but not offered midweek; waiting for next Sat/Sun.
+- S02 d111: d111 eve: Friday tomorrow (d112) — daytime classes all need PTO with no lead, TWILIGHT has no boats. OVERNIGHT/DAY_1_5 are no-PTO bookable but Mustang is flat 0.000 last two trips and Voyager has no history at all. Staying home, weekends-only, waiting for next Sat/Sun signal.
+- S02 d112: d112 eve: Saturday tomorrow, no PTO. San Diego 3Q still the clear hot boat (21 yt last trip, 0.182 pooled) vs zeros elsewhere — riding the same horse, weekends-only.
+- S02 d113: d113 eve: Sunday tomorrow, no PTO. Riding San Diego 3Q again despite the 0/44 blank last trip — still best pooled signal (0.164) vs zeros elsewhere. Weekends-only, staying disciplined; will reassess if it blanks again next week.
+- S02 d114: d114 eve: Monday tomorrow (d115) — all bookable classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. Waiting for next Sat/Sun to reassess San Diego 3Q after two straight blanks.
+- S02 d115: d115 eve: Tuesday tomorrow (d116) — all bookable classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. San Diego 3Q has now blanked three straight trips (d107, d113, d114); still nominally the best pooled signal vs zeros elsewhere but conviction fading. Waiting fo
+- S02 d116: d116 eve: Wednesday tomorrow (d117) — all bookable classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. San Diego 3Q still nominal best signal but blanked 3 of last 4; waiting for next Sat/Sun to reassess.
+- S02 d117: d117 eve: Thursday tomorrow (d118) — all bookable classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. Waiting for next Sat/Sun to reassess San Diego 3Q signal.
+- S02 d118: d118 eve: Friday tomorrow (d119) — all daytime classes need PTO with no 14-day lead, TWILIGHT has no boats. OVERNIGHT/DAY_1_5 are no-PTO bookable but Mustang has been flat and other boats have no history. Staying home, weekends-only, waiting for next Sat/Sun to reassess San Diego 3Q.
+- S02 d119: d119 eve: Saturday tomorrow, no PTO. San Diego 3Q still the only boat with a real pooled yt signal despite recent blanks — staying disciplined, weekends-only.
+- S02 d120: d120 eve: Sunday tomorrow, no PTO. Fifth straight ride on San Diego 3Q despite personal blanks — still the fleet's best pooled rate (0.140) vs zeros elsewhere. Will reassess boat choice if it blanks a sixth time; weekends-only stays firm.
+- S02 d122: d122 eve: Tuesday tomorrow (d123) — all daytime classes need PTO with no lead, TWILIGHT has no boats. Staying home, weekends-only. Waiting for next Sat/Sun to reassess San Diego 3Q after five straight personal blanks; still nominally best pooled signal vs zeros elsewhere.</note> </invoke> 
+- S02 d123: d123 eve: Wednesday tomorrow (d124) — all daytime classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. San Diego 3Q remains nominal best signal despite six straight personal blanks; waiting for next Sat/Sun.</note> 
+- S02 d126: d126 eve: Saturday tomorrow, no PTO. Breaking off San Diego 3Q after 6 straight personal blanks; jumping to El Gato Dos which just posted a real fish (1 yt, 0.500 ypa) on d126 — thin sample but the only live signal in the fleet. Weekends-only holds.</note> 
+- S02 d129: d129 eve: Tuesday tomorrow (d130) — all daytime classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. Will reassess El Gato Dos (1 yt on d126) vs San Diego 3Q next Sat/Sun.</note> 
+- S02 d130: d130 eve: Wednesday tomorrow (d131) — all daytime classes need PTO with no 14-day lead, TWILIGHT has no boats. Staying home, weekends-only. Next Sat/Sun will decide El Gato Dos vs San Diego 3Q.</note> 
+- S02 d131: d131 eve: Thursday tomorrow needs PTO nowhere committed; staying home, weekends-only. Will re-decide El Gato Dos vs San Diego 3Q next Sat/Sun.
+- S02 d132: d132 eve: Friday tomorrow (d133) — daytime classes need PTO I don't have, TWILIGHT has no boats. OVERNIGHT/DAY_1_5 are technically no-PTO bookable but both show weak/zero recent signal (Mustang 0.000 last 5, Voyager 0.000 last, Pacific Voyager no data) at $400-550 — not worth it. Staying home, will 
+- S02 d134: d134 eve: Sunday tomorrow, no PTO. Back to San Diego 3Q — still nominal fleet-best (0.038 recent pooled) despite my own long blank streak; HD_AM/HD_PM boats all flat zero, El Gato Dos not in tomorrow's lineup. Weekends-only holds.
+- S02 d135: d135 eve: Monday tomorrow (d136) — all daytime classes need PTO with no lead committed, TWILIGHT has no boats. Staying home, weekends-only holds. Next weekend: continue evaluating San Diego 3Q vs El Gato Dos.</note> 
+- S02 d136: d136 eve: Tuesday tomorrow (d137) — daytime classes need PTO with no lead committed, TWILIGHT has no boats. Staying home, weekends-only holds. Next Sat/Sun: continue San Diego 3Q vs El Gato Dos evaluation.</note> 
+- S02 d137: d137 eve: Wednesday tomorrow (d138) — daytime classes need PTO with no lead, TWILIGHT has no boats, OVERNIGHT/DAY_1_5 not bookable (no PTO) and both flat zero anyway. Staying home, weekends-only holds. Next Sat/Sun: continue San Diego 3Q vs El Gato Dos evaluation.</note> 
+- S02 d138: d138 eve: Thursday tomorrow (d139) — all daytime classes need PTO with no lead, TWILIGHT has no boats. Staying home, weekends-only holds. Next Sat/Sun: continue San Diego 3Q vs El Gato Dos evaluation.</note> 
+- S02 d139: d139 eve: Friday tomorrow — daytime classes need PTO with no lead, TWILIGHT has no boats, OVERNIGHT (Mustang/Pride) bookable but flat zero recent — skipping. Staying home, weekends-only holds. Next Sat/Sun: San Diego 3Q vs El Gato Dos.
+- S02 d142: d142 eve: Monday tomorrow (d143) — daytime classes need PTO with no lead, TWILIGHT has no boats. Staying home, weekends-only holds. Next Sat/Sun: continue San Diego 3Q vs El Gato Dos evaluation.</note> 
+- S02 d144: d144 eve: Wednesday tomorrow (d145) — daytime classes need PTO with no lead, TWILIGHT has no boats, OVERNIGHT/DAY_1_5 not bookable and flat zero recent anyway. Staying home, weekends-only holds. Next Sat/Sun: San Diego 3Q vs El Gato Dos.</note> 
+- S02 d145: d145 eve: Thursday tomorrow (d146) — all daytime classes need PTO with no lead committed, TWILIGHT has no boats, OVERNIGHT/DAY_1_5 not bookable either. Staying home, weekends-only holds. Next Sat/Sun: San Diego 3Q vs El Gato Dos.</note> 
+- S02 d146: d146 eve: Friday tomorrow (d147) — daytime classes locked out (no PTO lead), TWILIGHT has no boats, OVERNIGHT bookable but Pride/Dolphin III show no real signal. Staying home. Next Sat/Sun: San Diego 3Q vs El Gato Dos; watch for a stronger OVERNIGHT boat on an actual weekend.</note> 
+- S02 d147: d147 eve: Saturday tomorrow, no PTO needed. San Diego 3Q still the strongest live signal (0.455 ypa, 17yt last trip) vs flat-zero HD_AM/HD_PM and unproven Producer overnight. Booked San Diego THREE_QUARTER.
+- S02 d148: d148 eve: Sunday tomorrow (d149) — only HD_AM/HD_PM bookable, both flat zero for weeks and rough coastal forecast (35kt gusts, 10ft seas). No 3Q or OVERNIGHT boats available/affordable. Staying home, weekends-only holds. Watch next weekend for 3Q/OVERNIGHT signal to return.
+- S02 d149: d149 eve: Monday holiday (d150) — no PTO needed anywhere. HD_AM/HD_PM still flat zero for weeks; San Diego 3Q keeps showing the best pooled signal (0.502 ypa) and fleet 3Q results this week were decent. Booked San Diego THREE_QUARTER again. Rough-ish seas (20kt gusts, 8ft) but not disqualifying.</no
+- S02 d151: d151 eve: Wednesday tomorrow (d152) — all daytime classes locked out (no PTO lead), TWILIGHT has no boats. Staying home, weekends-only holds. Next Sat/Sun: San Diego 3Q remains the best live yt signal to re-check.
+- S02 d152: d152 eve: Thursday tomorrow (d153) — all daytime classes need PTO with no lead, TWILIGHT has no boats. Staying home, weekends-only holds. Next Sat/Sun: recheck San Diego 3Q signal.
+- S02 d153: d153 eve: Friday tomorrow (d154) — no PTO committed, daytime classes locked out, TWILIGHT has no boats, OVERNIGHT/DAY_1_5 over budget. Staying home, weekends-only holds. Next Sat/Sun: recheck San Diego 3Q signal, it's been my most consistent live catcher.</note> 
+- S02 d154: d154 eve: Saturday tomorrow (d155) — San Diego 3Q still best pooled signal (0.372 ypa/11 trips) vs flat HD_AM/HD_PM. Booked San Diego THREE_QUARTER again, staying with the pattern that's carried the season.</note> </invoke> 
+- S02 d155: d155 eve: Budget down to $50, every offer tomorrow (HD_AM/PM $80, 3Q $150) is unaffordable. Staying home to let cash recover; San Diego 3Q remains the plan once budget allows.</note> 
+- S02 d156: d156 eve: Monday tomorrow (d157), no PTO committed, all daytime classes locked out and TWILIGHT has no boats; budget also under every fare. Staying home per weekends-only rule. Recheck San Diego 3Q next Sat/Sun once budget recovers.
+- S02 d157: d157 eve: Tuesday tomorrow (d158), no PTO committed, daytime classes locked out, TWILIGHT has no boats, budget also short. Staying home. Recheck San Diego 3Q signal next Sat/Sun once budget recovers above $150.
+- S02 d158: d158 eve: Wednesday tomorrow (d159), no PTO lead, all daytime classes locked out, TWILIGHT has no boats. Staying home per weekends-only rule. Budget still just $50 — need it to recover before next weekend to afford San Diego 3Q again.</note> </invoke> 
+- S02 d159: d159 eve: Thursday tomorrow (d160), weekends-only rule keeps me out regardless of PTO status; TWILIGHT has no boats, OVERNIGHT/DAY_1_5 over budget anyway. Staying home. Budget still $50 — need it above $150 before next weekend's San Diego 3Q.</note> 
+- S02 d160: d160 eve: Friday tomorrow (d161) — weekends-only rule keeps me out regardless; also no PTO, TWILIGHT boatless, OVERNIGHT/DAY_1_5 over $50 budget. Staying home. Watching budget recover for next weekend's San Diego 3Q.</note> 
+- S02 d161: d161 eve: Saturday tomorrow (d162) but budget stuck at $50, under every fare (cheapest $80). Staying home again — need a couple weeks without booking to rebuild cash for San Diego 3Q.</note> 
+- S02 d162: d162 eve: Sunday tomorrow (d163), budget still $50 vs $80+ fares across the board, OVERNIGHT/DAY_1_5 need PTO I haven't committed. Staying home again. Need budget to clear $150 before next weekend for San Diego 3Q.
+- S02 d163: d163 eve: Monday tomorrow (d164) plus budget still $50 vs $80+ fares — double reason to stay home. Waiting for cash to clear $150 for next weekend's San Diego 3Q look.
+- S02 d164: d164 eve: Tuesday tomorrow (d165), weekends-only rule keeps me out regardless; budget also stuck at $50 under every fare. Staying home. Need budget to clear $150 before next weekend for San Diego 3Q.</note> 
+- S02 d165: d165 eve: Wednesday tomorrow (d166) — weekends-only rule keeps me out regardless; budget still $50 under every live fare anyway. Staying home. Need budget above $150 before next weekend for San Diego 3Q look.
+- S02 d166: d166 eve: Thursday tomorrow (d167) — weekends-only rule keeps me out regardless; budget still $50 under every fare too. Staying home. Watching for next weekend and hoping budget clears $150 for a San Diego 3Q look.</note> 
+- S02 d167: d167 eve: Friday tomorrow (d168) — weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare too. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on the next weekend.
+- S02 d168: d168 eve: Saturday tomorrow (d169), budget still capped at $50 vs every fare $80+. Staying home again — need cash to clear $150 for a San Diego 3Q shot on a future weekend.
+- S02 d169: d169 eve: Sunday tomorrow (d170), budget still capped at $50 under every live fare. Staying home, still waiting on cash to clear $150 for a San Diego 3Q shot.
+- S02 d170: d170 eve: Monday tomorrow (d171) — weekday needs PTO I won't spend, and budget still stuck at $50 under every fare regardless. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on a weekend.
+- S02 d171: d171 eve: Tuesday tomorrow (d172) — weekday, weekends-only rule keeps me out; budget also stuck at $50 under every fare. Staying home, still waiting for cash to clear $150 for a weekend San Diego 3Q look.</note>
+- S02 d172: d172 eve: Wednesday tomorrow (d173) — weekday, weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare too. Staying home, watching for the next weekend and hoping cash clears $150 for a San Diego 3Q look.</note> 
+- S02 d173: d173 eve: Thursday tomorrow (d174) — weekday, weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on the next weekend.
+- S02 d174: d174 eve: Friday tomorrow (d175) — weekday, weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare too. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on the next weekend.
+- S02 d175: d175 eve: Saturday tomorrow (d176), budget still capped at $50 under every fare ($80+). Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot.
+- S02 d176: d176 eve: Sunday tomorrow (d177), budget still capped at $50 under every fare ($80+). Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot.
+- S02 d177: d177 eve: Monday tomorrow (d178) — weekday, weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare too. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on the next weekend.
+- S02 d178: d178 eve: Tuesday tomorrow (d179) — weekday, weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare too. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on the next weekend.</note> 
+- S02 d179: d179 eve: Wednesday tomorrow (d180) — weekday, weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare too. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on the next weekend.
+- S02 d180: d180 eve: Thursday tomorrow (d181) — weekday, weekends-only rule keeps me out regardless; budget still stuck at $50 under every fare too. Staying home, still waiting for cash to clear $150 for a San Diego 3Q shot on the next weekend.
+- S02 d181: d181 eve: Friday tomorrow (d182) — weekday, out regardless. Budget still $50, under every fare. Holding for next weekend and for cash to clear $150 for a 3Q shot.
+- S02 d182: d182 eve: Saturday tomorrow (d183), budget $50 < cheapest fare $80. Structurally locked out for the rest of S02 - no action, nothing to wait for.
+- S02 d183: d183 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d184: d184 eve: Monday holiday tomorrow (d185), but budget $50 < cheapest fare $80. Structurally locked out for the rest of S02 - no action.
+- S02 d185: d185 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d186: d186 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d187: d187 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d188: d188 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d189: d189 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d190: d190 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d191: d191 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d192: d192 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d193: d193 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d194: d194 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d195: d195 eve: budget $50 < cheapest fare $80, nothing bookable, no action.
+- S02 d196: d196 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d197: d197 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d198: d198 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d199: d199 eve: budget $50 < cheapest fare $80 (TWILIGHT), nothing bookable, no action. Lockout continues.
+- S02 d200: d200 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d201: d201 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d202: d202 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d203: d203 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d204: d204 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Lockout continues through season end.
+- S02 d205: d205 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d206: d206 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d207: d207 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues.
+- S02 d208: d208 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d209: d209 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues.
+- S02 d210: d211 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d211: d212 eve: budget $50 < cheapest fare $80, nothing bookable, no action. Structural lockout continues through season end.
+- S02 d212: d212 eve: budget $50 < cheapest fare $80, nothing bookable; tomorrow is a Monday anyway (not a weekend target). No action, lockout continues.
+- S02 d213: d213 eve: Tuesday + budget still $50 < $80 fare floor. No PTO spend on weekdays per strategy anyway. No action.
+- S02 d214: d214 eve: budget still $50, cheapest fare $80. Structural lockout continues, nothing bookable. Weekday anyway (Tue), no PTO spend per strategy.
+- S02 d215: d215 eve: budget still $50 < $80 floor, and tomorrow's a Thursday anyway (weekend-only). No action, lockout continues.
+- S02 d216: d216 eve: budget still $50 < $80 floor; tomorrow's a Friday anyway (weekday, not a target). No action, lockout continues.
+- S02 d217: d217 eve: budget still $50 < $80 floor despite a real live bite building in three_quarter/day_1_5 data. Structural lockout continues, nothing to book.
+- S02 d218: d218 eve: budget still $50 < $80 floor, nothing bookable despite decent day_1_5/three_quarter signals in fleet data. Structural lockout continues, no action.
+- S02 d219: d219 eve: budget still $50 < $80 floor; tomorrow's a Monday anyway. No action, lockout continues.
+- S02 d220: d220 eve: budget still $50 < $80 floor; tomorrow's a Tuesday anyway (weekend-only strategy). No action, structural lockout continues.
+- S02 d221: d221 eve: budget still $50 < $80 floor; tomorrow's a Wednesday anyway (weekend-only). No action, lockout continues.
+- S02 d222: d222 eve: budget still $50 < $80 floor; tomorrow's a Thursday anyway (weekend-only). No action, lockout continues.
+- S02 d223: d223 eve: budget still $50 < $80 floor; tomorrow's a Friday anyway (weekday, not a target). No action, lockout continues.
+- S02 d224: d224 eve: budget still $50 < $80 floor; Saturday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d225: d225 eve: budget still $50 &lt; $80 floor; Sunday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d226: d226 eve: budget still $50 < $80 floor; tomorrow Monday anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d227: d227 eve: budget still $50 < $80 floor; tomorrow Tuesday anyway (weekday, not a target). No action, lockout continues.
+- S02 d228: d228 eve: budget still $50 < $80 floor; tomorrow Wednesday anyway (weekday, not a target). No action, lockout continues.
+- S02 d229: d229 eve: budget still $50 < $80 floor; tomorrow Thursday anyway (weekday, not a target). No action, lockout continues.
+- S02 d230: d230 eve: budget still $50 < $80 floor; tomorrow Friday anyway (weekday, not a target). No action, lockout continues.
+- S02 d231: d231 eve: budget still $50 < $80 floor; Saturday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d232: d232 eve: budget still $50 < $80 floor; Sunday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d233: d233 eve: budget still $50 < $80 floor; tomorrow Monday anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d234: d234 eve: budget still $50 < $80 floor; tomorrow Tuesday anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d235: d235 eve: budget still $50 &lt; $80 floor; Wednesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d236: d236 eve: budget still $50 &lt; $80 floor; Thursday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d237: d237 eve: budget still $50 < $80 floor; Friday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d238: d238 eve: budget still $50 < $80 floor; Saturday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d239: d239 eve: budget still $50 < $80 floor; Sunday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d240: d240 eve: budget still $50 < $80 floor; Monday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d241: d241 eve: budget still $50 < $80 floor; Tuesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d242: d242 eve: budget still $50 < $80 floor; Wednesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d243: d243 eve: budget still $50 < $80 floor; Thursday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d244: d244 eve: budget still $50 &lt; $80 floor; Friday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d245: d245 eve: budget still $50 &lt; $80 floor; Saturday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d246: d246 eve: budget still $50 < $80 floor; Sunday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d247: d247 eve: budget still $50 < $80 floor; Monday holiday tomorrow but still can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d248: d248 eve: budget still $50 < $80 floor; Tuesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d249: d249 eve: budget still $50 < $80 floor; Wednesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d250: d250 eve: budget still $50 < $80 floor; Thursday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d251: d251 eve: budget still $50 < $80 floor; Friday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d252: d252 eve: budget still $50 < $80 floor; Saturday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d253: d253 eve: budget still $50 &lt; $80 floor; Sunday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d254: d254 eve: budget still $50 &lt; $80 floor; Monday tomorrow (weekday, not a target) anyway. Structural lockout continues, no action.
+- S02 d255: d255 eve: budget still $50 < $80 floor; Tuesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d256: d256 eve: budget still $50 < $80 floor; Wednesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d257: d257 eve: budget still $50 < $80 floor; Thursday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d258: d258 eve: budget $50 < $80 floor; Friday tomorrow (weekday, not a target) anyway. Structural lockout continues, no action.
+- S02 d259: d259 eve: budget still $50 < $80 floor; Saturday tomorrow (a real target day) but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d260: d260 eve: budget still $50 < $80 floor; Sunday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d261: d261 eve: budget still $50 < $80 floor; Monday tomorrow (weekday, not a target) anyway. Structural lockout continues, no action.
+- S02 d262: d262 eve: budget still $50 &lt; $80 floor; Tuesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d263: d263 eve: budget still $50 < $80 floor; Wednesday tomorrow (weekday, not a target) anyway. Structural lockout continues, no action.
+- S02 d264: d264 eve: budget still $50 < $80 floor; Thursday tomorrow (weekday, not a target) anyway. No action.
+- S02 d265: d265 eve: budget $50 < $80 floor; Friday tomorrow (weekday, not a target) anyway. Structural lockout continues, no action.
+- S02 d266: d266 eve: budget $50 < $80 floor; Saturday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d267: d267 eve: budget still $50 < $80 floor; Sunday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d268: d268 eve: budget still $50 < $80 floor; Monday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d269: d269 eve: budget still $50 < $80 floor; Tuesday tomorrow (weekday, not a target) anyway. No action.
+- S02 d270: d270 eve: budget still $50 < $80 floor; Wednesday tomorrow (weekday, not a target) anyway. Structural lockout continues, no action.
+- S02 d271: d271 eve: budget $50 < $80 floor; Thursday tomorrow anyway, not a target day. No action.
+- S02 d272: d272 eve: budget $50 < $80 floor; Friday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d273: d273 eve: budget $50 < $80 floor; Saturday tomorrow but can't afford even HD_AM. Structural lockout continues, no action.
+- S02 d274: d274 eve: budget still $50 < $80 floor; Sunday tomorrow but locked out again. October day_1_5 bite confirmed huge (2.8 ypa at doy270) but irrelevant to me this season — pure S03 lesson: never let budget die like this again.
+- S02 d275: d275 eve: budget still $50 < $80 floor; Monday tomorrow, not a target anyway. Structural lockout continues.
+- S02 d276: d276 eve: budget still $50, Tuesday tomorrow anyway (not a target day, weekends-only persona). No action, waiting for next Sat/Sun with budget above $80.
+- S02 d277: d277 eve: budget still $50 <$80 floor; Wednesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d278: d278 eve: budget still $50 <$80 floor; Thursday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d279: d279 eve: budget still $50 &lt; $80 floor; Friday tomorrow anyway (weekday, not a target). Structural lockout continues, no action. Waiting for a Sat/Sun with budget recovered.
+- S02 d280: d280 eve: budget still $50 < $80 floor; Saturday tomorrow but locked out again. Same story since d155 — no action possible, saving the lesson for S03.
+- S02 d281: d281 eve: budget still $50 < $80 floor; Sunday tomorrow but locked out again, same story since d155. No action possible — pure spectator mode, saving the lesson (don't let budget die) for S03.
+- S02 d282: d282 eve: budget still $50 < $80 floor; Monday holiday tomorrow but locked out again, same story since d155. Spectator mode continues, no PTO to burn on it since floor is budget not PTO.
+- S02 d283: d283 eve: budget still $50 < $80 floor; Tuesday tomorrow anyway (not a target day). Structural lockout continues, no action.
+- S02 d284: d284 eve: budget still $50 < $80 floor; Wednesday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d285: d285 eve: budget still $50 < $80 floor; Thursday tomorrow anyway (weekday, not a target). Structural lockout continues, no action.
+- S02 d286: d286 eve: budget still $50 < $80 floor; Friday tomorrow anyway (weekday, not a target). Structural lockout continues into the confirmed October day_1_5 peak window - painful but nothing bookable.
+- S02 d287: d287 eve: budget still $50 < $80 floor; Saturday tomorrow but locked out again, right in the middle of the confirmed October day_1_5 peak (2.5-8.5 yt/angler last week). Pure spectator, nothing to do but log it for S03.
+- S02 d288: d288 eve: budget still $50 < $80 floor; Sunday tomorrow but locked out again, same story since d155. Spectator mode continues.
+- S02 d289: d289 eve: budget still $50 &lt; $80 floor; Monday tomorrow anyway (weekday, not a target). Structural lockout continues through the tail of the confirmed October day_1_5 peak - nothing to do but log it for S03.
+- S02 d290: d290 eve: Tuesday tomorrow, not a target day anyway, and budget still $50 < $80 floor. No action, waiting for next weekend.
+- S02 d291: d291 eve: Wednesday tomorrow, not a target day; budget still $50 < $80 floor regardless. No action, waiting for next weekend.
+- S02 d292: d292 eve: Thursday tomorrow, not a target day; budget still $50 < $80 floor regardless. No action, waiting for next weekend.
+- S02 d293: d293 eve: Friday tomorrow, not a target day; budget still $50 < $80 floor regardless. No action, waiting for the weekend.
+- S02 d294: d294 eve: Saturday tomorrow but budget still $50 < $80 floor, same lockout since d155. Nothing to book.
+- S02 d295: d295 eve: Sunday tomorrow but budget still $50 < $80 floor, same lockout since d155. Nothing to book.
+- S02 d296: d296 eve: Monday tomorrow, not a target day, and budget still stuck at $50 < $80 anyway. No action, waiting for next weekend.
+- S02 d297: d297 eve: Tuesday, not a target day; budget still $50 < $80 floor. No action, waiting for next weekend.
+- S02 d298: d298 eve: Tuesday, not a target day, budget still $50 < $80 floor. Staying weekends-only, no PTO spend planned. Noted for S03: October DAY_1_5 bite is real and huge.
+- S02 d299: d299 eve: Thursday tomorrow, not a target day, and budget still $50 < $80 floor. No action, staying weekends-only, waiting for next weekend.
+- S02 d300: d300 eve: Friday tomorrow, not a target day; budget still $50 < $80 floor anyway. No action. DAY_1_5 October numbers remain eye-popping but irrelevant to me — no PTO, no cash headroom.
+- S02 d301: d301 eve: Saturday tomorrow but budget still stuck at $50, below the $80 floor since d155. October day_1_5 numbers are historic (2.8+ ypa peak) but structurally out of reach — no cash, no PTO spend per strategy. Nothing to book, waiting out the season.
+- S02 d302: d302 eve: Sunday tomorrow but budget still locked at $50, below the $80 floor. No bookable offers. Staying weekends-only, no PTO spend. Waiting out the season.
+- S02 d303: d303 eve: Monday tomorrow, not a target day, budget still $50 < $80 floor. No PTO spend per strategy. Waiting for next weekend.
+- S02 d304: d304 eve: Tuesday, not a target day; budget stuck at $50 < $80 floor. No PTO spend per strategy, staying weekends-only.
+- S02 d305: d305 eve: Tuesday, not a target day; budget still $50 < $80 floor and weekends-only persona means no PTO regardless. No action, waiting for next weekend.
+- S02 d306: d306 eve: Wednesday, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds through season end.
+- S02 d307: d307 eve: Friday tomorrow, not a target day; budget still stuck at $50 < $80 floor. No action, weekends-only persona holds to season end.
+- S02 d308: d308 eve: Saturday tomorrow but budget still locked at $50 < $80 floor. No bookable offers, no PTO spend per persona. Season effectively over for me; waiting out remaining weekends.
+- S02 d309: d309 eve: Sunday tomorrow, budget still $50 < $80 floor, nothing bookable. No PTO spend per persona, season effectively closed out.
+- S02 d310: d310 eve: Monday tomorrow, not a target day; budget still $50 < $80 floor, nothing bookable regardless. No PTO spend per weekends-only persona, season remains closed out.
+- S02 d311: d311 eve: Tuesday, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d312: d312 eve: Wednesday, budget still $50 < $80 floor, nothing bookable. No PTO, weekends-only persona holds.
+- S02 d313: d313 eve: Wednesday, budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d314: d314 eve: Federal holiday Friday tomorrow, but budget still stuck at $50 < $80 floor. Nothing bookable, no PTO spend. Season closed out per weekends-only persona.
+- S02 d315: d315 eve: Saturday tomorrow but budget still $50 < $80 floor, nothing bookable. No PTO spend, weekends-only persona holds to season end.
+- S02 d316: d316 eve: Sunday tomorrow, budget still $50 < $80 floor, nothing bookable. No PTO spend, weekends-only persona holds to season end.
+- S02 d317: d317 eve: Monday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d318: d318 eve: Monday, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d319: d319 eve: Wednesday, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d320: d320 eve: Wednesday, budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d321: d321 eve: Friday tomorrow, not a target day; budget still $50 < $80 floor anyway. No PTO, no bookings, weekends-only persona holds.
+- S02 d322: d322 eve: Saturday tomorrow, budget still $50 < $80 floor, nothing bookable. No PTO, no bookings, weekends-only persona holds to season end.
+- S02 d323: d323 eve: Saturday tomorrow, budget still $50 < $80 floor, nothing bookable. No PTO, no bookings, weekends-only persona holds to season end.
+- S02 d324: d324 eve: Monday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d325: d325 eve: Tuesday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d326: d326 eve: Wednesday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d327: d327 eve: Thursday holiday tomorrow, but budget still $50 < $80 floor, nothing bookable. No PTO, no bookings, weekends-only persona holds to season end.
+- S02 d328: d328 eve: Friday tomorrow, not a target day; budget still $50 < $80 floor anyway. No PTO, no bookings, weekends-only persona holds.
+- S02 d329: d329 eve: Saturday tomorrow, budget still $50 < $80 floor, nothing bookable. No PTO, no bookings, weekends-only persona holds to season end.
+- S02 d330: d330 eve: Sunday tomorrow, budget still $50 < $80 floor, nothing bookable. No PTO, no bookings, weekends-only persona holds to season end.
+- S02 d331: d331 eve: Monday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d332: d332 eve: Tuesday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds.
+- S02 d333: d333 eve: Wednesday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds to season end.
+- S02 d334: d334 eve: Wednesday tomorrow, not a target day; budget still $50 < $80 floor. No PTO, no bookings, weekends-only persona holds to season end.
+- S06 d091: d091 eve: Thu d092 is a weekday, no PTO committed, twilight has no boats - nothing bookable under weekends-only persona. Holding for Sat/Sun; three_quarter class still looks strong per notes (Malihini/Mission Belle/San Diego all >1.6 ypa last trip) - target those on the weekend.
+- S06 d092: d092 eve: Fri d093 is a weekday, no PTO - nothing bookable under weekends-only persona. Holding for Sat/Sun; three_quarter (Malihini/San Diego/Mission Belle) still red hot, that's the real target this weekend.
+- S06 d093: d093 eve: Sat d094 - booking Mission Belle three_quarter, red-hot class continues (1.928 ypa last 14d). HD_AM/PM still dead, skipping.
+- S06 d094: d094 eve: Sun d095 - booking San Diego three_quarter, chasing the 103-yt last-trip signal over Mission Belle's diluted share. HD classes still dead, PTO untouched per persona.
+- S06 d095: d095 eve: Mon d096 is a weekday, no PTO committed, twilight has no boats - nothing bookable under weekends-only persona. Three_quarter class still on fire (San Diego 64yt/52anglers last trip); will target next Sat/Sun.
+- S06 d096: d096 eve: Tue d097 is a weekday, no PTO committed, twilight has no boats - nothing bookable. Holding for the weekend; three_quarter (San Diego/Mission Belle/Malihini) still the target.
+- S06 d097: d097 eve: Wed d098 is a weekday, no PTO committed, twilight has no boats - nothing bookable under weekends-only persona. Three_quarter still on fire (San Diego 64yt/52anglers, Mission Belle 16yt/26anglers last trips); holding for next Sat/Sun.
+- S06 d098: d098 eve: Thu d099 weekday, no PTO, twilight has no boats - nothing bookable. Three_quarter still hot (San Diego/Mission Belle/Malihini all >1.2 ypa); holding for next Sat/Sun.
+- S06 d099: d099 eve: Fri d100 is a weekday, no PTO for same-day classes - but overnight/day_1.5 fish Sat d101 with zero PTO cost. Booking Prowler overnight (1.0 ypa last 3 trips) over pricier Tribute day_1.5.
+- S06 d100: d100 eve: already out on Prowler overnight covering d101-d102, nothing else bookable that date (HD/twilight/3q all blocked by existing booking, new Legend overnight would overlap my own trip - skip). No PTO spent per persona. Next target: 3/4-day class next weekend, still hot.
+- S06 d101: d101 eve: Sun d102 - booking Mission Belle three_quarter (1.629 ypa, 50yt last trip), three_quarter still the strongest class. HD/twilight dead, no PTO spent per persona.
+- S06 d102: d102 eve: Mon d103 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still hot (Mission Belle 44yt/28 last trip); holding for next Sat/Sun, PTO stays at 10.
+- S06 d103: d103 eve: Tue d104 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still strongest class (San Diego 1.595, Mission Belle 1.584 ypa); holding for next weekend.
+- S06 d104: d104 eve: Wed d105 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still strongest class (San Diego 1.549, Mission Belle 1.426 ypa); holding for next weekend, PTO stays at 10.
+- S06 d105: d105 eve: Thu d106 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still the hot class (Mission Belle 1.450 ypa/31yt, San Diego 1.600 ypa/59yt last trips); holding for next weekend, PTO stays at 10.
+- S06 d106: d106 eve: Fri d107 weekday, no PTO - HD/3Q locked out. But day_1.5 fishes Sat d108 with 0 PTO cost; booking Invicta (2.571 ypa last trip, thin but hot) over Legend overnight (0.981 ypa). $550 spent, $600 left, PTO untouched at 10.</note> </invoke> 
+- S06 d107: d107 eve: already locked into Invicta day_1.5 for Sat d108 from last night - all same-date classes correctly show blocked. Nothing new to book, PTO holds at 10. Next fresh decision is Sun d109 (already fishing that day too) then Mon d110 return.</note> </invoke> 
+- S06 d108: d108 eve: already out on Invicta day_1.5 for Sun d109, returning Mon d110 morning - nothing new to book. PTO holds at 10, $50 left after the day_1.5 spend.
+- S06 d109: d109 eve: Mon d110 weekday, no PTO committed, twilight has no boats - nothing bookable. Just off Invicta day_1.5, budget thin (~$50); holding for next weekend, PTO stays at 10.
+- S06 d110: d110 eve: Tue d111 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still strong (San Diego 1.336, Malihini 1.212 ypa); budget thin (~$50) after Invicta day_1.5, holding for next weekend, PTO stays at 10.</note> 
+- S06 d112: d112 eve: Thu d113 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still hot (Malihini 1.740, San Diego 1.485 ypa last trip); budget thin (~$50), holding for next weekend, PTO stays at 10.</note> 
+- S06 d113: d113 eve: Fri d114 weekday, no PTO - HD/3Q locked out again despite hot three_quarter numbers (Malihini 1.730, San Diego 1.548). Booked Legend overnight for Sat d115 (0.962 ypa last trip, 4 trips/14d, 0 PTO cost) over unproven Tomahawk day_1.5 (0 trips/14d). $400 spent, $200 left, PTO untouched at 1
+- S06 d114: d114 eve: already locked into Legend overnight for Sat d115 - all same-date classes correctly blocked. $200 left, PTO untouched at 10. Nothing new to book.
+- S06 d115: d115 eve: Sun d116 only real bookable class is HD_PM (Point Loma unproven, Premier 0 ypa) - skipping, HD_PM is dead money. Saving $200 for next weekend's three_quarter/day_1.5, PTO stays at 10.
+- S06 d116: d116 eve: Mon d117 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still the hottest class in the fleet (San Diego 1.732, Mission Belle 1.750 ypa) but locked out on weekdays. Holding $200 and PTO=10 for next weekend.</note> </invoke> 
+- S06 d117: d117 eve: Tue d118 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still red-hot (San Diego, Mission Belle both well over 1.5 ypa) but locked out on weekdays as always. Holding $200 and PTO=10 for next weekend.</note> 
+- S06 d118: d118 eve: Wed d119 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter still on fire (Daiwa Pacific 3.361, San Diego 1.607, Mission Belle 1.736 ypa) but locked out on weekdays as always. Holding $200 and PTO=10 for the weekend.</note> 
+- S06 d119: d119 eve: Thu d120 weekday, no PTO committed, twilight has no boats - nothing bookable. Three_quarter/day_1.5 still the hot classes but weekday-locked as always. Holding $200 and PTO=10 for the weekend.</note> </invoke> 
+- S06 d120: d120 eve: Fri d121 weekday, no PTO, all day-classes locked out; twilight has no boats; overnight/day_1.5 exceed $200 budget anyway. Holding $200 and PTO=10 for the weekend.
+- S06 d121: d121 eve: Sat d122 three_quarter still the hottest class - booked Malihini (2.289 ypa, 36 yt last trip) over San Diego/Mission Belle. $50 left after this, likely last bookable trip of the season under $80 floor. PTO untouched at 10.
+- S06 d122: d122 eve: $50 left, everything costs $80+, structurally locked out for the season. Holding PTO=10 untouched. This is likely it for S06 bookings.
+- S06 d123: d123 eve: Mon d124 weekday, no PTO ever per persona, twilight has no boats anyway and $50 < $80 floor regardless. Nothing to do - holding $50 and PTO=10 for the rest of S06.
+- S06 d124: d124 eve: Tue d125 weekday, no PTO ever, twilight has no boats and $50 < $80 floor anyway. Nothing to do - holding $50 and PTO=10 for the weekend.
+- S06 d125: d125 eve: Wed d126 weekday, no PTO ever, twilight has no boats and $50 < $80 floor anyway. Nothing to do - holding $50 and PTO=10 for the weekend.
+- S06 d126: d126 eve: Thu d127 weekday, no PTO ever per persona, twilight has no boats and $50 < $80 floor anyway. Nothing to do - holding $50 and PTO=10 for the weekend.
+- S06 d127: d127 eve: Fri d128 weekday, no PTO ever per persona, twilight has no boats and $50 < $80 floor anyway. Nothing to do - holding $50 and PTO=10 for the weekend.</note> 
+- S06 d128: d128 eve: Sat d129 - $50 < $80 floor on every class, structurally locked out again. Holding $50 and PTO=10 untouched.
+- S06 d129: d129 eve: Sun d130 - $50 < $80 floor on every class again, three_quarter still hot (SD 1.05, Mission Belle 1.09 ypa) but unaffordable. Holding $50 and PTO=10, locked out for the rest of S06.
+- S06 d130: d130 eve: Mon d131 weekday plus $50 < $80 floor on everything - double lockout. Holding $50 and PTO=10, still stuck for rest of S06.
+- S06 d131: d131 eve: Tue d132 weekday, no PTO ever, and $50 < $80 floor anyway - double lockout. Holding $50 and PTO=10 for the next weekend.
+- S06 d132: d132 eve: Wed d133 weekday, no PTO ever, and $50 < $80 floor anyway - double lockout. Holding $50 and PTO=10 for the weekend.
+- S06 d133: d133 eve: Thu d134 weekday, no PTO ever, and $50 &lt; $80 floor anyway - double lockout. Holding $50 and PTO=10 for the weekend.
+- S06 d134: d134 eve: Fri d135 weekday, no PTO ever per persona, and $50 &lt; $80 floor on everything anyway (no boats scheduled regardless) - double lockout. Holding $50 and PTO=10 for the weekend.
+- S06 d135: d135 eve: Sat d136 - $50 &lt; $80 floor on everything, structural lockout continues. Three_quarter still the strong class but needs $150. Holding $50 and PTO=10.
+- S06 d136: d136 eve: Sun d137 - $50 &lt; $80 floor on everything, three_quarter still strong (SD 1.13, Mission Belle 1.19 ypa) but needs $150. Structural lockout continues, holding $50 and PTO=10 for rest of S06.
+- S06 d137: d137 eve: Mon d138 weekday anyway, but moot - $50 &lt; $80 floor on everything. Three_quarter still the target once cash allows. Holding $50 and PTO=10.
+- S06 d138: d138 eve: Tue d139 weekday anyway (no PTO ever), and $50 < $80 floor on everything regardless - double lockout continues. Three_quarter still strong (Mission Belle 1.48 ypa) once cash allows. Holding $50 and PTO=10 for the weekend.
+- S06 d139: d139 eve: Wed d140 weekday anyway (no PTO ever), and $50 < $80 floor on everything regardless - double lockout continues. Three_quarter still strong once cash allows. Holding $50 and PTO=10 for the weekend.
+- S06 d140: d140 eve: Thu d141 weekday, no PTO ever, and $50 < $80 floor on everything regardless - double lockout continues. Three_quarter still the target once cash allows. Holding $50 and PTO=10.
+- S06 d141: d141 eve: Fri d142 weekday (never fished) plus $50 < $80 floor on everything - double lockout continues. Three_quarter still strong (SD 1.24, Malihini 0.95 ypa) once cash allows. Holding $50 and PTO=10 for the weekend.
+- S06 d142: d142 eve: Sat d143 - $50 < $80 floor on everything, structural cash lockout continues. Three_quarter still strong (San Diego 1.36, Malihini 0.96 ypa) but unreachable. Holding $50 and PTO=10.
+- S06 d143: d143 eve: Sun d144 - $50 < $80 floor on everything, structural cash lockout continues. Three_quarter still strong (San Diego 1.29, Malihini 0.88 ypa) but unreachable at $150. Holding $50 and PTO=10.
+- S06 d144: d144 eve: Mon d145 holiday (no PTO needed anyway) but $50 < $80 floor on everything - structural cash lockout continues. Three_quarter still strong once cash allows. Holding $50 and PTO=10.
+- S06 d145: d145 eve: Tue d146 is a weekday I'd never fish anyway (no PTO), and $50 < $80 floor on everything regardless - double lockout continues. Three_quarter still strong (San Diego 1.19, Mission Belle 1.06 ypa) once cash allows on a weekend. Holding $50 and PTO=10.
+- S06 d146: d146 eve: Wed d147 weekday (no PTO ever) plus $50 < $80 floor on everything - double lockout continues. Three_quarter still strong (SD 1.23, Mission Belle 1.04 ypa) once cash allows on a weekend. Holding $50 and PTO=10.
+- S06 d147: d147 eve: Thu d148 weekday (never fished, no PTO ever) plus $50 < $80 floor on everything - double lockout continues. Three_quarter still strong once cash allows on a weekend. Holding $50 and PTO=10.
+- S06 d148: d148 eve: Fri d149 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues. Three_quarter still the target (SD 1.03, Fisherman III 0.59 ypa) once cash allows on a weekend. Holding $50 and PTO=10.
+- S06 d149: d149 eve: Sat d150 - $50 < $80 floor on everything, structural cash lockout continues. Three_quarter still strong once cash allows. Holding $50 and PTO=10.
+- S06 d150: d150 eve: Sun d151 - $50 < $80 floor on everything, structural cash lockout continues. Three_quarter still strong once cash allows. Holding $50 and PTO=10.
+- S06 d151: d151 eve: Mon d152 weekday (never fish, no PTO) plus $50 < $80 floor on everything - double lockout continues. Holding $50 and PTO=10, waiting for a weekend with enough cash for three_quarter.
+- S06 d152: d152 eve: Tue d153 weekday (never fish) plus $50 < $80 floor on everything - double lockout continues. Holding $50 and PTO=10, waiting for cash to clear the floor on a weekend.
+- S06 d153: d153 eve: Wed d154 weekday (no PTO ever) plus $50<$80 floor - double lockout continues. Holding $50 and PTO=10, waiting for a weekend with cash to clear the floor.
+- S06 d154: d154 eve: Thu d155 weekday (no PTO ever) plus $50 < $80 floor - double lockout continues. Holding $50 and PTO=10, waiting for a weekend with cash to clear the floor.
+- S06 d155: d155 eve: Fri d156 weekday (never fish, no PTO ever) plus $50<$80 floor - double lockout continues. Holding $50 and PTO=10, waiting for a weekend with cash to clear the floor.
+- S06 d156: d156 eve: Sat d157 - $50 < $80 floor on everything, structural cash lockout continues unchanged. Holding $50 and PTO=10.
+- S06 d157: d157 eve: Sun d158 - $50 < $80 floor on everything, structural cash lockout continues unchanged. Holding $50 and PTO=10.
+- S06 d158: d158 eve: Mon d159 weekday (never fish, no PTO ever) plus $50&lt;$80 floor - double lockout continues. Holding $50 and PTO=10, waiting for a weekend with cash to clear the floor.
+- S06 d159: d159 eve: Tue d160 weekday (never fish, no PTO) plus $50&lt;$80 floor on TWILIGHT - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d160: d160 eve: Wed d161 weekday (no PTO) plus $50&lt;$80 floor on TWILIGHT - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d161: d161 eve: Thu d162 weekday (no PTO ever) plus $50&lt;$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d162: d162 eve: Fri d163 weekday (never fish, zero PTO policy) plus $50 less than $80 floor anyway - double lockout continues. Holding $50/PTO=10, waiting for next weekend with cash above $80.
+- S06 d163: d163 eve: Sat d164 - still $50 &lt; $80 floor on everything, structural cash lockout unchanged. Holding $50/PTO=10.
+- S06 d164: d164 eve: Sun d165 - $50 still under $80 floor on everything, structural cash lockout unchanged. Holding $50/PTO=10.
+- S06 d165: d165 eve: Mon d166 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10.
+- S06 d166: d166 eve: Tue d167 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d167: d167 eve: Wed d168 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d168: d168 eve: Thu d169 weekday (no PTO, ever) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d169: d169 eve: Fri d170 weekday (no PTO, ever) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d170: d170 eve: Sat d171 - $50 still under $80 floor on everything (San Diego showing strong 1.343 ypa on THREE_QUARTER but unaffordable at $150), structural cash lockout unchanged. Holding $50/PTO=10.
+- S06 d171: d171 eve: Sun d172 - $50 still under $80 floor on everything, structural cash lockout unchanged. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d172: d172 eve: Mon d173 weekday (never fish, no PTO) plus $50&lt;$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d173: d173 eve: Tue d174 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d174: d174 eve: Wed d175 weekday (never fish) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d175: d175 eve: Thu d176 weekday (never fish, no PTO) plus $50&lt;$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d176: d176 eve: Fri d177 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d177: d177 eve: Sat d178 - still $50 < $80 floor on every class despite San Diego (2.497 ypa) and Malihini (1.557 ypa) looking hot on THREE_QUARTER. Structural cash lockout continues, PTO untouched at 10.
+- S06 d178: d178 eve: Sun d179 - $50 still under $80 floor on every class, structural cash lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d179: d179 eve: Mon d180 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d180: d180 eve: Tue d181 weekday (never fish, no PTO) plus $50&lt;$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d181: d181 eve: Wed d182 weekday (never fish) plus $50&lt;$80 floor - double lockout continues. Holding $50/PTO=10, waiting for a weekend with cash above $80.
+- S06 d182: d182 eve: Thu d183 weekday (never fish) plus $50<$80 floor - double lockout continues. Holding $50/PTO=10.
+- S06 d183: d183 eve: Fri d184 holiday - still $50 < $80 floor on every class, structural cash lockout continues. Holding $50/PTO=10.
+- S06 d184: d184 eve: Sat/holiday d185 - $50 still < $80 floor on every class, structural cash lockout continues unchanged. Holding $50/PTO=10.
+- S06 d185: d185 eve: Sun d186 - $50 still < $80 floor despite San Diego/Mission Belle THREE_QUARTER heat; lockout continues, holding $50/PTO=10.
+- S06 d186: d186 eve: Mon d187 weekday (never fish, no PTO) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d187: d187 eve: Tue d188 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d188: d188 eve: Wed d189 weekday plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d189: d189 eve: Thu d190 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d190: d190 eve: Fri d191 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d191: d191 eve: Sat d192 - $50 still < $80 floor on every class despite decent THREE_QUARTER signal (San Diego 3.589 ypa); lockout continues unchanged. Holding $50/PTO=10.
+- S06 d192: d192 eve: Sun d193 - budget $50 still < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d193: d193 eve: Mon d194 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d194: d194 eve: Tue d195 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d195: d195 eve: Wed d196 weekday plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d196: d196 eve: Thu d197 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d197: d197 eve: Fri d198 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d198: d198 eve: Sat d199 - budget $50 still < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d199: d199 eve: Sun d200 - budget $50 still < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d200: d200 eve: Mon d201 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d201: d201 eve: Tue d202 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d202: d202 eve: Wed d203 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d203: d203 eve: Thu d204 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d204: d204 eve: Fri d205 weekday plus $50&lt;$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d205: d205 eve: Sat d206 - budget $50 still < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d206: d206 eve: Sun d207 - budget $50 still < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d207: d207 eve: Mon d208 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d208: d208 eve: Tue d209 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d209: d209 eve: Wed d210 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d210: d210 eve: Thu d211 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d211: d211 eve: Fri d212 weekday (never fish) plus $50&lt;$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d212: d212 eve: Sat d213 - budget $50 still < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d213: d213 eve: Sun d214 - budget $50 < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d214: d214 eve: Mon d215 weekday + $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d215: d215 eve: Tue d216 weekday + $50<$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d216: d216 eve: Wed d217 weekday + $50<$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d217: d217 eve: Thu d218 weekday + $50<$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d218: d218 eve: Fri d219 weekday (never fish) plus $50<$80 floor - double lockout continues unchanged. Holding $50/PTO=10.
+- S06 d219: d219 eve: Sat d220 - budget $50 < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d220: d220 eve: Sun d221 - budget $50 < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d221: d221 eve: Mon d222 - budget $50 < $80 floor, weekday anyway. Lockout continues unchanged.
+- S06 d222: d222 eve: Tue d223, budget $50 < $80 floor, weekday anyway - lockout continues unchanged.
+- S06 d223: d223 eve: Wed d224 weekday + $50&lt;$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d224: d224 eve: Thu d225 weekday + $50<$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d225: d225 eve: Fri d226 weekday + $50<$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d226: d226 eve: Sat d227 - budget $50 < $80 floor on every class; lockout continues unchanged. Holding $50/PTO=10.
+- S06 d227: d227 eve: Sun d228 - budget $50 < $80 floor, lockout continues unchanged. Holding $50/PTO=10.
+- S06 d228: d228 eve: Mon d229 - budget $50 < $80 floor, nothing bookable. Lockout unchanged.
+- S06 d229: d229 eve: Tue d230 weekday + $50<$80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d230: d230 eve: budget $50 < cheapest fare, Wed d231 weekday anyway - lockout continues unchanged.
+- S06 d231: d231 eve: budget $50 < cheapest fare, nothing bookable.
+- S06 d232: d232 eve: budget $50 < $80 floor, Fri d233 weekday anyway - lockout continues unchanged.
+- S06 d233: d233 eve: budget $50 < $80 floor, Sat d234 anyway - lockout continues unchanged.
+- S06 d234: d234 eve: budget $50 < $80 floor, nothing bookable.
+- S06 d235: d235 eve: Mon d236 weekday + budget $50 < $80 floor - lockout continues unchanged. Holding $50/PTO=10.
+- S06 d236: d236 eve: budget $50 < $80 floor, Tue d237 weekday anyway - lockout continues unchanged.
+- S06 d237: d237 eve: budget $50 < $80 floor, Wed d238 weekday anyway - lockout continues unchanged.
+- S06 d238: d238 eve: budget $50 < cheapest fare, nothing bookable.
+- S06 d239: d239 eve: budget $50 < $80 floor, Fri d240 weekday anyway - lockout continues unchanged.
+- S06 d240: d240 eve: budget $50 < cheapest fare, nothing bookable.
+- S06 d241: d242 eve: budget $50 < $80 floor, nothing bookable.
+- S06 d242: d242 eve: budget $50 < cheapest fare, nothing bookable.
+- S06 d243: d243 eve: budget $50 < cheapest fare, nothing bookable.
+- S06 d244: d244 eve: budget $50 < $80 floor, Wed d245 weekday anyway - lockout continues unchanged.
+- S06 d245: d245 eve: Thu d246 is a weekday (skip on principle) and budget $50 is under the $80 floor anyway - nothing bookable, no PTO to commit.
+- S06 d246: d246 eve: budget $50 still under $80 floor, and Fri d247 is a weekday anyway - nothing bookable, no PTO needed.
+- S06 d247: d247 eve: budget $50 still under $80 floor - nothing bookable, season stays dead.
+- S06 d248: d248 eve: budget $50 still under $80 floor - nothing bookable, season stays dead. New Seaforth HD_PM 0.307 ypa would've been a nice pick if solvent.
+- S06 d249: d249 eve: holiday tomorrow but budget $50 still under $80 floor - nothing bookable, season stays dead.
+- S06 d250: d250 eve: budget $50 still under $80 floor, and Tue d251 is a weekday anyway - nothing bookable, no PTO needed.
+- S06 d251: d251 eve: Wed d252 is a weekday (skip on principle) and budget $50 still under $80 floor anyway - nothing to do, holding for next weekend.
+- S06 d252: d252 eve: Thu d253 is a weekday (skip on principle) and budget $50 still under $80 floor anyway - nothing to do, waiting for the weekend.
+- S06 d253: d253 eve: Fri d254 is a weekday (skip on principle) and budget $50 still under the $80 floor anyway - nothing to do, holding for the weekend.
+- S06 d254: d254 eve: budget $50 still under $80 floor - nothing bookable tomorrow (Sat d255), season stays dead.
+- S06 d255: d255 eve: budget still $50, under the $80 floor - nothing bookable for Sun d256, season stays dead.
+- S06 d256: d256 eve: budget $50 still under $80 floor, and Mon d257 is a weekday anyway - nothing to do, holding for next weekend.
+- S06 d257: d257 eve: budget $50 still under $80 floor, and Tue d258 is a weekday anyway - nothing to do, holding for next weekend.
+- S06 d258: d258 eve: budget $50 still under $80 floor, and Wed d259 is a weekday anyway - nothing to do, holding for next weekend.
+- S06 d259: d259 eve: Thu d260 is a weekday (skip on principle) and budget $50 still under $80 floor anyway - nothing to do, holding for the weekend.
+- S06 d260: d260 eve: Fri d261 is a weekday, no PTO to spend on it, and budget $50 is under every affordable floor anyway - nothing to do, holding for the weekend.
+- S06 d261: d261 eve: budget still $50, under the $80 floor - nothing bookable for Sat d262, season stays dead.
+- S06 d262: d262 eve: budget still $50, under the $80 floor - nothing bookable for Sun d263, season stays dead.
+- S06 d263: d263 eve: budget still $50, under the $80 floor, and tomorrow's a weekday anyway - nothing to do, holding for next weekend.
+- S06 d264: d264 eve: budget still $50, under the $80 floor, and tomorrow's a weekday anyway - nothing to do, holding for next weekend.
+- S06 d265: d265 eve: budget $50 still under $80 floor, and Wed d266 is a weekday anyway - nothing to do, holding for next weekend.
+- S06 d266: d266 eve: Thu d267 is a weekday (no PTO by persona) and budget $50 is under the $80 floor anyway - nothing to do, holding for the weekend.
+- S06 d267: d267 eve: Fri d268 is a weekday and budget $50 is under the $80 floor anyway - nothing to do, holding for the weekend.
+- S06 d268: d268 eve: budget still $50, under the $80 floor - nothing bookable for Sat d269, season stays dead.
+- S06 d269: d269 eve: budget still $50, under the $80 floor - nothing bookable for Sun d270, season stays dead.
+- S06 d270: d270 eve: budget still $50 (under $80 floor) and d271 is a Monday anyway - nothing to do, holding for next weekend.
+- S06 d271: d271 eve: budget still $50, under the $80 floor, and d272 is a Tuesday anyway - nothing to do, holding for next weekend.
+- S06 d272: d272 eve: budget still $50, under the $80 floor, and d273 is a Wednesday anyway (no PTO burn) - nothing to do, holding for next weekend.
+- S06 d273: d273 eve: budget still $50 (under $80 floor) and d274 is a Thursday anyway - nothing to do, holding for the weekend.
+- S06 d274: d274 eve: Fri d275 is a weekday (no PTO by persona) and budget $50 is under the $80 floor anyway - nothing to do, holding for the weekend.
+- S06 d275: d275 eve: budget still $50, under the $80 floor - nothing bookable for Sat d276, season stays dead.
+- S06 d276: d276 eve: budget still $50, under the $80 floor - nothing bookable for Sun d277, season stays dead.
+- S06 d277: d277 eve: budget still $50, under the $80 floor, and d278 is a Monday anyway - nothing to do, holding for next weekend.
+- S06 d278: d278 eve: budget still $50, under the $80 floor, and d279 is a Tuesday anyway - nothing to do, holding for next weekend.
+- S06 d279: d279 eve: budget still $50, under the $80 floor, and d280 is a Wednesday anyway - nothing to do, holding for next weekend.
+- S06 d280: d280 eve: budget still $50, under the $80 floor, and d281 is a Thursday anyway - nothing to do, holding for the weekend.
+- S06 d281: d281 eve: budget still $50, under the $80 floor, and d282 is a Friday anyway - nothing to do, holding for the weekend.
+- S06 d282: d282 eve: budget still $50, under the $80 floor for Sat d283 - nothing bookable, season stays dead at 7.27.
+- S06 d283: d283 eve: budget still $50, under the $80 floor for Sun d284 - nothing bookable, season stays dead at 7.27.
+- S06 d284: d284 eve: budget still $50, under the $80 floor for Mon holiday d285 - nothing bookable, season stays dead at 7.27.
+- S06 d285: d285 eve: Tuesday d286, weekday and budget still $50 anyway - nothing to do, holding for next weekend.
+- S06 d286: d286 eve: Wednesday tomorrow, weekday, and budget still $50 under the $80 floor anyway - nothing to do, holding for the weekend.
+- S06 d287: d287 eve: Thursday tomorrow, weekday - not fishing weekdays regardless of budget. Holding for next weekend.
+- S06 d288: d288 eve: Friday tomorrow, weekday - not fishing weekdays regardless of budget. Holding for next weekend.
+- S06 d289: d289 eve: budget still $50, under the $80 floor for Sat d290 - THREE_QUARTER/El Gato Dos looks great on paper (1.056 ypa) but unreachable. Season stays dead at 7.27.
+- S06 d290: d290 eve: budget still $50, under the $80 floor for Sun d291 - THREE_QUARTER fleet looks hot (El Gato Dos, San Diego) but unreachable. Season stays dead at 7.27.
+- S06 d291: d291 eve: Monday tomorrow, weekday - not fishing weekdays regardless of budget (still $50). Holding for next weekend.
+- S06 d292: d292 eve: Tuesday tomorrow, weekday - not fishing weekdays regardless, and budget still $50 under floor. Holding for next weekend.
+- S06 d293: d293 eve: Wednesday tomorrow, weekday - not fishing weekdays regardless of budget. Holding for next weekend.
+- S06 d294: d294 eve: Thursday tomorrow, weekday - not fishing weekdays regardless of budget (still $50). Holding for next weekend.
+- S06 d295: d295 eve: Friday tomorrow, weekday - not fishing weekdays regardless of budget (still $50). Holding for next weekend.
+- S06 d296: d296 eve: Saturday tomorrow but budget still stuck at $50, under the $80 floor for even HD_AM/HD_PM/TWILIGHT. THREE_QUARTER fleet (San Diego 0.520, Mission Belle 0.748) looks great but unreachable. Season stays dead at 7.27.
+- S06 d297: d297 eve: Sunday tomorrow, budget still $50 < $80 floor. THREE_QUARTER fleet decent (Mission Belle 0.667) but unreachable. Season still dead at 7.27.
+- S06 d298: d298 eve: Monday tomorrow, weekday — no PTO spend regardless, and budget still $50 under the $80 floor anyway. Holding for next weekend.
+- S06 d299: d299 eve: Tuesday tomorrow, weekday - no PTO spend regardless, budget still $50 under $80 floor anyway. Holding for next weekend.
+- S06 d300: d300 eve: Wednesday tomorrow, weekday - no PTO spend per plan, and budget still $50 under $80 floor regardless. Holding for next weekend.
+- S06 d301: d301 eve: Thursday tomorrow, weekday - no PTO spend per plan, budget still $50 under $80 floor anyway. Holding for next weekend.
+- S06 d302: d302 eve: Friday tomorrow, weekday - no PTO spend per plan, budget still $50 under $80 floor anyway. Holding for next weekend.
+- S06 d303: d303 eve: Saturday tomorrow, budget still $50 < $80 floor. Mission Belle THREE_QUARTER looks hot (1.657 ypa, 89yt last trip) but unreachable. Season frozen at 7.27.
+- S06 d304: d304 eve: Sunday tomorrow, budget still $50 < $80 floor. Mission Belle THREE_QUARTER on fire (1.955 ypa, 100yt last trip) but unreachable. Season frozen at 7.27.
+- S06 d305: d305 eve: Monday tomorrow, weekday - no PTO spend per plan, budget still $50 under $80 floor anyway. Holding for next weekend.
+- S06 d306: d306 eve: Tuesday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d307: d307 eve: Wednesday tomorrow, weekday - no PTO spend per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d308: d308 eve: Thursday tomorrow, weekday - no PTO spend per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d309: d309 eve: Friday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d310: d310 eve: Saturday tomorrow, budget frozen at $50 < $80 floor. Mission Belle THREE_QUARTER still hot but unreachable. Season stuck at 7.27, 184th dead night.
+- S06 d311: d311 eve: Sunday tomorrow, budget frozen at $50 < $80 floor. Malihini THREE_QUARTER red hot (1.802 ypa) but unreachable. Season stuck at 7.27, 185th dead night.
+- S06 d312: d312 eve: Monday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d313: d313 eve: Tuesday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d314: d314 eve: holiday tomorrow but budget frozen at $50 < $80 floor, still locked out. Hot THREE_QUARTER action (Mission Belle 3.9 ypa) unreachable. Season stuck at 7.27.
+- S06 d315: d315 eve: Thursday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d316: d316 eve: Friday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d317: d317 eve: Saturday tomorrow, budget frozen at $50 < $80 floor. San Diego THREE_QUARTER blazing (2.305 ypa, 44yt last trip) but unreachable. Season stuck at 7.27, 186th dead night.
+- S06 d318: d318 eve: Sunday tomorrow, budget frozen at $50 < $80 floor. Vendetta THREE_QUARTER hot (2.034 ypa) but unreachable. Season stuck at 7.27, 187th dead night.
+- S06 d319: d319 eve: Monday tomorrow, weekday plan says no PTO, budget $50 still under $80 floor and no boats scheduled anyway. Holding for next weekend, season stuck at 7.27.
+- S06 d320: d320 eve: Tuesday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor. Holding for next weekend.
+- S06 d321: d321 eve: Wednesday tomorrow, weekday - no PTO per plan (weekends only), and budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d322: d322 eve: Thursday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d323: d323 eve: Friday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d324: d324 eve: Saturday tomorrow, budget frozen at $50 < $80 floor again. San Diego THREE_QUARTER (1.666 ypa) unreachable. Season stuck at 7.27, another dead night.
+- S06 d325: d325 eve: Sunday tomorrow, budget frozen at $50 < $80 floor again. San Diego THREE_QUARTER hot (1.524 ypa) but unreachable. Season stuck at 7.27, another dead night.
+- S06 d326: d326 eve: Monday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d327: d327 eve: Tuesday tomorrow, weekday - no PTO per plan (weekends only), budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d328: d328 eve: Wednesday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor. Holding for next weekend.
+- S06 d329: d329 eve: Thursday holiday tomorrow but budget $50 locked under even the $80 HD floor - nothing bookable. Holding for next real weekend once cash clears.
+- S06 d330: d330 eve: Friday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.
+- S06 d331: d331 eve: Saturday tomorrow, budget frozen at $50 < $80 floor again. Nothing bookable regardless of PTO. Season stuck at 7.27.
+- S06 d332: d332 eve: Sunday tomorrow, budget frozen at $50 < $80 floor again. San Diego THREE_QUARTER (0.167 ypa) unreachable. Season stuck at 7.27, another dead night.
+- S06 d333: d333 eve: Monday tomorrow, weekday - no PTO per plan, budget still $50 < $80 floor anyway. Holding for next weekend.
+- S06 d334: d334 eve: Tuesday tomorrow, weekday - no PTO per plan, budget $50 still under $80 floor anyway. Holding for next weekend.

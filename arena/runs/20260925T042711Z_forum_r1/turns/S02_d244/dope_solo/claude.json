@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 108.1,
+ "claude": {
+  "duration_api_ms": 99505,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.36243260000000005,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 48588,
+   "cache_read_input_tokens": 353063,
+   "output_tokens": 9744,
+   "output_tokens_details": {
+    "thinking_tokens": 3511
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 48588,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 313,
+     "cache_read_input_tokens": 67539,
+     "cache_creation_input_tokens": 6490,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 6490
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 9744,
+    "cacheReadInputTokens": 353063,
+    "cacheCreationInputTokens": 48588,
+    "webSearchRequests": 0,
+    "costUSD": 0.36243260000000005,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 3511,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Pulled S2 doy210-244 class-pooled data: day_1_5 sustained 0.34-0.38 ypa on 79 trips while overnight (which spiked doy190-213) collapsed, and every \"watchlist boat\" underperformed that class-wide number \u2014 a real revision to last turn's boat-picking theory. Budget stays confirmed unbookable ($100 < even the $150 3Q floor) for the rest of S2.\n\n**Summary:** Confirmed nothing is actionable through season end (d335), and rewrote notes.md with the day_1_5-takes-over-from-overnight pattern, the finding that class-pooled ypa beat individual boat picks this window, and a revised S3 plan (tighter spring 3Q cap ~$300-450, $1600+ reserve for the overnight\u2192day_1_5 cycle, PTO pre-committed on the ONI/overnight early-tell rather than waiting for boat-level confirmation).",
+  "ttft_ms": 1869,
+  "type": "result",
+  "duration_ms": 101710,
+  "uuid": "c512f678-8ff7-40b0-ada1-73d4c9fff57a",
+  "ttft_stream_ms": 1039,
+  "time_to_request_ms": 482,
+  "first_content_frame_ms": 1040,
+  "time_to_request_from_spawn_ms": 38351192,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790329724619.7996,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

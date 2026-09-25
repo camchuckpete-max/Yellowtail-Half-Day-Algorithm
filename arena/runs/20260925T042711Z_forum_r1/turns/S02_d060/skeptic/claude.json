@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 169.6,
+ "claude": {
+  "duration_api_ms": 166181,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19617869999999998,
+  "usage": {
+   "input_tokens": 142,
+   "cache_creation_input_tokens": 32419,
+   "cache_read_input_tokens": 594887,
+   "output_tokens": 14342,
+   "output_tokens_details": {
+    "thinking_tokens": 6586
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 32419,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 819,
+     "cache_read_input_tokens": 48813,
+     "cache_creation_input_tokens": 2581,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2581
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 142,
+    "outputTokens": 14342,
+    "cacheReadInputTokens": 594887,
+    "cacheCreationInputTokens": 32419,
+    "webSearchRequests": 0,
+    "costUSD": 0.19617869999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 6586,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my analysis and strategy update for Season 2, Day 60. Here's what I found:\n\n## Key Findings\n\n**Water Temperature Crisis Confirmed:**\n- S2 is running ~1\u00b0C colder than S1 at the same DOY (14.72\u00b0C vs 15.64\u00b0C at DOY 60)\n- Current reading: 14.72\u00b0C average, trending up slowly from 14.05\u00b0C at DOY 50\n- Need 16\u00b0C+ for reliable yellowtail activity\n\n**Historical Pattern Validated (S1 data):**\n- April peak (DOY 90-120): **10.14 yt/trip average**\n- October peak (DOY 275-305): **16.74 yt/trip average** \u2b50 65% more productive\n- July (DOY 182-212): **0.47 yt/trip** - completely dead, skip entirely\n\n**Season 2 Status:**\n- Fleet-wide: 0 fish caught in DOY 23-60 (except 3 fish on DOY 22)\n- Everyone ranked equally at 0 catches\u2014everyone is holding correctly\n- My rank: 24th (tied with many others)\n\n## Strategy Update\n\n**Current Actions:**\n- \u2705 Updated `strategy.py`: Auto-books cheap HD_PM half-days once water temp > 15.5\u00b0C, aggressively books Friday 1.5-day trips in October (free PTO)\n- \u2705 Updated `notes.md`: Comprehensive analysis, budget pacing plan, critical signals to watch\n\n**Next Triggers to Watch:**\n1. **Water temperature**: Currently 14.72\u00b0C; target sustained 15.5\u00b0C+ for April testing (expect ~DOY 100+)\n2. **Fleet reports**: Watch forum/fishdope for green-water transitions (greenwater's advice)\n3. **October commitment window**: By DOY 261, need to have strategy locked for October push\n\n**Budget Allocation:**\n- $300-500 for April-June testing (cheap half-days, learn which boats work)\n- $0 for July (skip entirely)\n- $1000-1200 reserved for October (4-6 Friday 1.5-day trips targeting the peak)\n\nTwo-line summary: Validated that October peak is 65% more productive than April through S1 historical data. Strategy is now automated to test once water temp rises, then concentrate aggressively in October when conditions are proven best.",
+  "ttft_ms": 2733,
+  "type": "result",
+  "duration_ms": 168130,
+  "uuid": "f2590a56-47e4-4f82-8881-20c5b4bfc176",
+  "ttft_stream_ms": 507,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 508,
+  "time_to_request_from_spawn_ms": 20306146,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790311684854.5557,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

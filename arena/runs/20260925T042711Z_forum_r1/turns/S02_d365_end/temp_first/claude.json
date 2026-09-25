@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 94.8,
+ "claude": {
+  "duration_api_ms": 86282,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.15389629999999999,
+  "usage": {
+   "input_tokens": 88,
+   "cache_creation_input_tokens": 37073,
+   "cache_read_input_tokens": 432123,
+   "output_tokens": 7290,
+   "output_tokens_details": {
+    "thinking_tokens": 2190
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 37073,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 614,
+     "cache_read_input_tokens": 53967,
+     "cache_creation_input_tokens": 2081,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2081
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 88,
+    "outputTokens": 7290,
+    "cacheReadInputTokens": 432123,
+    "cacheCreationInputTokens": 37073,
+    "webSearchRequests": 0,
+    "costUSD": 0.15389629999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2190,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 15,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the season-end retrospective. Here's what changed:\n\n**Summary:**\nSeason 2 taught me the cost of analysis paralysis: I correctly diagnosed micro-peak noise but then froze for 88 days checking the same data daily, never committing PTO for the October peak that clearly delivered 14-15+ fish to top performers. Strategy 3 fixes this with automated discrete-jump detection (5x+ fold-changes trigger immediate PTO + booking) and treats PTO commitment as an unlock mechanism, not a trap\u2014derisking October by committing d280 regardless of booking, breaking the frozen loop.\n\n**What changed:**\n1. **notes.md** now includes Season 2 postmortem (0.599 fish, rank 20) with three-failure sequence analysis and locked Season 3 strategy.\n2. **strategy.py** implements discrete signal detection, PTO unlock checkpoints (d251, d280), and phase-based booking rules (scout \u2192 hold \u2192 late-Sept \u2192 October) to avoid the d243-d310 paralysis that cost ~1.0 fish vs. the leaderboard winners.",
+  "ttft_ms": 3483,
+  "type": "result",
+  "duration_ms": 88475,
+  "uuid": "3d2cc474-b358-456d-b83d-8e43b736a4a9",
+  "ttft_stream_ms": 1388,
+  "time_to_request_ms": 818,
+  "first_content_frame_ms": 1389,
+  "time_to_request_from_spawn_ms": 44893289,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790336266489.4036,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

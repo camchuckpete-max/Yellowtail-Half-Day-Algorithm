@@ -201,7 +201,19 @@ def build_briefing(br: Briefer, now: datetime, agent: dict, offers: list[Offer],
     return "\n".join(L)
 
 
-def call_model(prompt: str, system: str, model: str, work_dir: Path, budget_usd: float, timeout_s: int) -> dict:
+def call_model(prompt: str, system: str, model: str, work_dir: Path, budget_usd: float, timeout_s: int, retries: int = 1) -> dict:
+    """One structured call; a failed call (timeout, no output, non-JSON) is retried once."""
+    out = _call_once(prompt, system, model, work_dir, budget_usd, timeout_s)
+    for _ in range(retries):
+        if out.get("answer") is not None:
+            break
+        again = _call_once(prompt, system, model, work_dir, budget_usd, timeout_s)
+        again["cost_usd"] += out["cost_usd"]; again["seconds"] = round(again["seconds"] + out["seconds"], 1); again["retried"] = True
+        out = again
+    return out
+
+
+def _call_once(prompt: str, system: str, model: str, work_dir: Path, budget_usd: float, timeout_s: int) -> dict:
     cfg_dir = work_dir / "claude-config"
     shutil.rmtree(cfg_dir, ignore_errors=True); cfg_dir.mkdir(parents=True)
     env = {k: v for k, v in os.environ.items() if not k.startswith("ARENA_")}

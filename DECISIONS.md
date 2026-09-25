@@ -615,3 +615,24 @@ predictive model (no out-of-sample gain). Held-out bands of the pier model on th
 0–5 % → 5.1 % observed (1,659), 5–15 % → 11.0 % (2,350), 15–35 % → 18.1 % (1,590), 35–65 % → 40.0 %
 (1,093), 65–85 % → 46.6 % (322), 85–100 % → 79.3 % (145); the top two bands are over-confident.
 Goal D ledger +3.
+
+## D-051 Condition-range table (sweep D12): low end replicates, high end halves out of sample
+Deliverable format the owner asked for: a depth-4 tree (min 80 trips per leaf) on pier °F, month, trip
+slot, ONI, kelp-minus-pier gap and 3-day pier change, fit on 2012–2019 (4,983 trips, 22.4 % positive) and
+scored on 2020–2023 (2,153 trips, 9.9 % positive; never used for fitting). 2020–2023 AUC: depth 3 0.702,
+4 0.703, 5 0.712. The tree used only pier temperature, month, slot and ONI (gap and 3-day change unused).
+Leaves (2012–2019 rate → 2020–2023 rate, trips):
+- pier ≤ 58.1 °F: 0.5 % → 0.0 % (183 / 141)
+- pier 58.7–61.7 °F, Feb–Dec: 5.2 % → 3.3 % (637 / 389); 58.1–58.7 °F: 2.9 % → 1.0 %
+- twilight, pier 61.7–68.9 °F, Mar–Dec: 2.2 % → 3.9 % (316 / 103)
+- AM/PM, pier 61.7–68.9 °F, Mar–Dec: 18.2 % → 11.4 % (2,314 / 1,041)
+- AM/PM, pier > 68.9 °F, Mar–Jul, ONI ≤ 0.3: 14.8 % → 13.3 % (88 / 105)
+- AM/PM, pier > 68.9 °F, Aug–Dec, ONI ≤ 0.9: 57.9 % → 35.6 % (535 / 149)
+- AM/PM, pier > 68.9 °F, Aug–Dec, ONI > 0.9: 77.6 % → 14.3 % (161 / 14)
+- AM/PM, pier > 68.9 °F, ≤ Jul, ONI > 0.3: 46.9 % → 10.0 % (211 / 10)
+- pier 61.7–68.9 °F, Jan–Feb: 62.9 % (97, almost all winter 2015) → no trips
+Reading: the cold / twilight "0–5 %" conditions are stable across both periods. The warm-water cells
+fall by about half in 2020–2023 at the same temperature, month and ENSO state, so a year-level factor
+not in the environmental data (yellowtail abundance or availability off San Diego in a given year, or
+boats' targeting) sets how high the warm-water odds go. The strong-El-Niño cells (≥ 75 %) had almost no
+2020–2023 trips and rest mainly on 2014–2015. No cell reaches 95 % in either period. Goal D ledger +3.

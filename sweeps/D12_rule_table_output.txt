@@ -1,0 +1,63 @@
+# Goal D configurations: 3 tree depths fit on 2012-2019, scored on 2020-2023; source 0d1547d
+trips: fit 4983 (rate 0.224), check 2153 (rate 0.099)
+depth 3: leaves 8, 2020-2023 AUC 0.702
+depth 4: leaves 13, 2020-2023 AUC 0.703
+depth 5: leaves 20, 2020-2023 AUC 0.712
+
+Tree (depth 4, fit 2012-2019):
+|--- pier_F <= 68.9
+|   |--- pier_F <= 61.7
+|   |   |--- pier_F <= 58.7
+|   |   |   |--- pier_F <= 58.1
+|   |   |   |   |--- class: 0
+|   |   |   |--- pier_F >  58.1
+|   |   |   |   |--- class: 0
+|   |   |--- pier_F >  58.7
+|   |   |   |--- month <= 1.5
+|   |   |   |   |--- class: 0
+|   |   |   |--- month >  1.5
+|   |   |   |   |--- class: 0
+|   |--- pier_F >  61.7
+|   |   |--- month <= 2.5
+|   |   |   |--- class: 1
+|   |   |--- month >  2.5
+|   |   |   |--- slot <= 1.5
+|   |   |   |   |--- class: 0
+|   |   |   |--- slot >  1.5
+|   |   |   |   |--- class: 0
+|--- pier_F >  68.9
+|   |--- slot <= 1.5
+|   |   |--- month <= 7.5
+|   |   |   |--- oni <= 0.3
+|   |   |   |   |--- class: 0
+|   |   |   |--- oni >  0.3
+|   |   |   |   |--- class: 0
+|   |   |--- month >  7.5
+|   |   |   |--- oni <= 0.9
+|   |   |   |   |--- class: 1
+|   |   |   |--- oni >  0.9
+|   |   |   |   |--- class: 1
+|   |--- slot >  1.5
+|   |   |--- oni <= 0.3
+|   |   |   |--- class: 0
+|   |   |--- oni >  0.3
+|   |   |   |--- class: 0
+
+
+Leaves sorted by 2012-2019 rate (slot: 0 AM, 1 PM, 2 twilight; oni = ENSO index; temps F):
+      fit_rate  fit_trips  check_rate  check_trips                                                         conditions
+leaf                                                                                                                 
+4        0.005        183       0.000        141.0  pier_F <= 68.9 & pier_F <= 61.7 & pier_F <= 58.7 & pier_F <= 58.1
+13       0.022        316       0.039        103.0          pier_F <= 68.9 & pier_F > 61.7 & month > 2.5 & slot > 1.5
+5        0.029        104       0.010         98.0   pier_F <= 68.9 & pier_F <= 61.7 & pier_F <= 58.7 & pier_F > 58.1
+23       0.045         89       0.154         26.0                            pier_F > 68.9 & slot > 1.5 & oni <= 0.3
+8        0.052        637       0.033        389.0      pier_F <= 68.9 & pier_F <= 61.7 & pier_F > 58.7 & month > 1.5
+17       0.148         88       0.133        105.0            pier_F > 68.9 & slot <= 1.5 & month <= 7.5 & oni <= 0.3
+7        0.151        126       0.000         61.0     pier_F <= 68.9 & pier_F <= 61.7 & pier_F > 58.7 & month <= 1.5
+12       0.182       2314       0.114       1041.0         pier_F <= 68.9 & pier_F > 61.7 & month > 2.5 & slot <= 1.5
+24       0.189        122       0.188         16.0                             pier_F > 68.9 & slot > 1.5 & oni > 0.3
+18       0.469        211       0.100         10.0             pier_F > 68.9 & slot <= 1.5 & month <= 7.5 & oni > 0.3
+20       0.579        535       0.356        149.0             pier_F > 68.9 & slot <= 1.5 & month > 7.5 & oni <= 0.9
+10       0.629         97         NaN          NaN                      pier_F <= 68.9 & pier_F > 61.7 & month <= 2.5
+21       0.776        161       0.143         14.0              pier_F > 68.9 & slot <= 1.5 & month > 7.5 & oni > 0.9
+exit 0

@@ -8,3 +8,4 @@ arena/runs/*/checkpoint.tmp
 arena/sandboxes/
 
 arena/runs/*/judgment/
+arena/runs/*/snapshots/

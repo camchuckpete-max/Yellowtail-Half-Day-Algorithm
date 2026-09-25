@@ -1,0 +1,40 @@
+{
+ "source_repo": "camchuckpete-max/Daily-Fishing-Prediction",
+ "source_commit": "ba649335983e2ddc96003d0405006182302469e4",
+ "source_commit_time": "2026-09-24T22:37:40+00:00",
+ "db_dump_dirty": false,
+ "files": {
+  "landing_counts.sql.gz": "6a91e62f1b253313c1347a72fb3d100da78641a9f0db0a2b4027f3d5b3b16aba",
+  "conditions_daily.sql.gz": "376fb4ab47d950fb8cef0331d6b001836fa0dc2eb5d86fabef117e7951128d42",
+  "fishdope_reports.sql.gz": "35dda71d410881e738dda338017cfcc5712e5baf77c519c6b6536e039a859a1d",
+  "marine_forecast_products.sql.gz": "6810c7163b52eaf8fda13ce230b17e88c54b1bc22959be5badb78a67755a6b9c",
+  "marine_forecasts.sql.gz": "05e2df6b71dcca85b6c500192a704adc4041ff44ceb416417ac92edb125e4d13",
+  "coops_tide_predictions.sql.gz": "6f34b9835b98deda7abdc6b646718119b996428aecde7e7f156e90f0c2d56ff1",
+  "shore_station_temps.sql.gz": "a0e5a542c152e26137c1710a20a830f2fe311e8161f04f0653651f1e02e23c6d",
+  "buoy_observations.sql.gz": "2c4a6283f11c7e6350e5b5e02edb51fbf2df407630400900a2ac47c2151e2582",
+  "upwelling_daily.sql.gz": "3ec3e728401f4b803d7e80d7884e8b0f2335678588ccb410acdb0568da9aff20",
+  "climate_indices.sql.gz": "b432bf42d47342659c6138357a9cf9acc7f94fac81d682a439af9e83c9a73edf",
+  "subsurface_temp_daily.sql.gz": "a5c589cf4590e461a10eb6438b74611e3c9b7a9b612bece06c66a7d6b4ec0620",
+  "sea_level_anomaly.sql.gz": "2e1b70410c2d40125c6616a047978ba47b9b403fc6d127a70bbd1b48e1b4fcd6",
+  "kelp_canopy_quarterly.sql.gz": "9a0f5cd75d45cedabec72d3005ce87cd2c7fd22d2043a85f2f7eef46d181e7c8",
+  "metar_obs.sql.gz": "5d63a3f4f0999b5591f9e8a8497b05f2c2a3809916469879f7d3507f05ac1e88"
+ },
+ "arena_commit": "7f580e5b4e5dd51714d123aa6840f813bdf70386",
+ "arena_dirty": false,
+ "config_hash": "466d02a419e89e77",
+ "config_source": "arena/configs/trial.yaml",
+ "personas_hash": "8e4cb37eee978784",
+ "started_at": "2026-09-25T04:28:19.543715Z",
+ "dev": false,
+ "arm": "forum",
+ "replicate": 1,
+ "seasons": {
+  "first": 2010,
+  "first_start": "2010-05-01",
+  "years": [
+   2011,
+   2015
+  ]
+ },
+ "python": "3.11.15"
+}

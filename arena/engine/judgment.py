@@ -225,7 +225,7 @@ def _call_once(prompt: str, system: str, model: str, work_dir: Path, budget_usd:
     env = {k: v for k, v in os.environ.items() if not k.startswith("ARENA_")}
     env["CLAUDE_CONFIG_DIR"] = str(cfg_dir); env.pop("CLAUDE_CODE_SESSION_ID", None)
     env["MAX_THINKING_TOKENS"] = str(int(max_thinking))
-    cmd = [CLAUDE, "-p", prompt, "--system-prompt", system, "--model", model, "--output-format", "json", "--max-turns", "1",
+    cmd = [CLAUDE, "-p", prompt, "--system-prompt", system, "--model", model, "--output-format", "json", "--max-turns", "3",   # structured output is an internal tool round trip; 1 turn cuts it off
            "--tools", "", "--no-session-persistence", "--setting-sources", "", "--max-budget-usd", str(budget_usd),
            "--json-schema", json.dumps(SCHEMA)]
     t0 = time.time()

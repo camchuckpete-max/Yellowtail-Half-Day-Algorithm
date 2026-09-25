@@ -1,0 +1,16 @@
+{
+ "agent": "temp_first",
+ "sandbox": "/home/user/arena-sandboxes/dev_20260925T021851Z_forum_r1/S01_d275/temp_first/sandbox",
+ "snapshot": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T021851Z_forum_r1/snapshots/S01_d275",
+ "forum_path": "/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T021851Z_forum_r1/forum.jsonl",
+ "forum": true,
+ "forum_quota_left": 2,
+ "now": {
+  "season": 1,
+  "doy": 275,
+  "hour": 21,
+  "t": 1004.875
+ },
+ "first_year": 2012,
+ "mask_years": true
+}

@@ -1,0 +1,59 @@
+{
+ "season": 1,
+ "budget_left": 1300.0,
+ "pto_left": 10.0,
+ "season_score": 0.1321,
+ "season_rank": 4,
+ "cumulative_score": 0,
+ "cumulative_rank": 4,
+ "pto_committed": [],
+ "bookings": [
+  {
+   "offer_id": "THREE_QUARTER:883",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d154",
+   "fishing_date": "S01 d154",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 7.0,
+   "anglers": 52.0,
+   "competitors_aboard": 0,
+   "share": 0.132075,
+   "your_reason": "pier 66.0F, 3/4-day yt/angler 0.34 last week"
+  },
+  {
+   "offer_id": "THREE_QUARTER:884",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d155",
+   "fishing_date": "S01 d155",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 33.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pier 66.3F, 3/4-day yt/angler 0.35 last week"
+  },
+  {
+   "offer_id": "OVERNIGHT:903",
+   "cls": "OVERNIGHT",
+   "departure": "S01 d174",
+   "fishing_date": "S01 d175",
+   "cost": 400,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 33.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pier 64.8F, long-range yt/angler 1.58 last week"
+  }
+ ],
+ "rejected_actions_and_errors_since_last_turn": [],
+ "seasons": []
+}

@@ -1,0 +1,58 @@
+[
+ {
+  "name": "B_PERSIST",
+  "season_fish": 0.1538,
+  "cumulative_fish": 0,
+  "season_rank": 1,
+  "cumulative_rank": 1,
+  "strategy": "Book tomorrow's PM half day if today's pooled half-day yellowtail count (visible at 21:00) is > 0."
+ },
+ {
+  "name": "thrifty",
+  "season_fish": 0.1538,
+  "cumulative_fish": 0,
+  "season_rank": 2,
+  "cumulative_rank": 2,
+  "strategy": "Early season half-day strategy failed (411 YT total vs 33k on premium trips). Pivoting to overnight and 1.5-day trips for late season. Book overnight/1.5-day whenever available and budget permits. Weekend trips preferred (no PTO cost). Priority: 1.5-day Friday trips (proven effective), then overnight weekend trips."
+ },
+ {
+  "name": "persist",
+  "season_fish": 0.0357,
+  "cumulative_fish": 0,
+  "season_rank": 3,
+  "cumulative_rank": 3,
+  "strategy": "Reactive momentum, no weather. Pools yellowtail kept+released per angler over the last 2 days on half-day/twilight/three-quarter/full-day trips, and separately over the last 3 days on overnight/1.5-day trips. A positive cheap-trip rate books the next bookable offer, in order HD_PM, HD_AM, THREE_QUARTER, FULL_DAY; a hot rate (>=0.3) on a weekend/holiday adds a three-quarter or full-day trip too, at no extra PTO cost. Twilight is booked on the same signal whenever bookable, since it never costs PTO. A positive premium rate books the next bookable 1.5-day or overnight trip. Weekday PTO for the date 14 days out is committed when the pooled 3-day rate at commit time is positive inside day-of-year 160-305 (the presumed local peak), or hot (>=0.12) outside it while keeping a 5-day reserve for that peak window. Every booking checks affordability and uses the default scheduled-boat picker. A run of skunks stops booking naturally since every signal only looks a few days back."
+ },
+ {
+  "name": "B_SAT",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 4,
+  "cumulative_rank": 4,
+  "strategy": "Every Saturday from July to October, book the PM half day."
+ },
+ {
+  "name": "B_TEMP",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 5,
+  "cumulative_rank": 5,
+  "strategy": "July\u2013October, when the latest Scripps Pier water temperature is \u2265 68 \u00b0F and ONI > 0, book the PM half day."
+ },
+ {
+  "name": "B_BIG",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 6,
+  "cumulative_rank": 6,
+  "strategy": "Spend the whole budget on 1.5-day trips departing Friday evenings in August\u2013September."
+ },
+ {
+  "name": "temp_first",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 7,
+  "cumulative_rank": 7,
+  "strategy": "Warm water first. Gate: 7-day mean Scripps Pier temperature must be at least 59 F (colder water has shown almost no yellowtail). Signal: yellowtail per angler on overnight/1.5-day/multi-day boats over the last 7 days. At the 16:00 tick, book an OVERNIGHT or 1.5-DAY trip when the signal is hot enough: 0.5 in the fall window (day of year 255-310), 1.0 otherwise, and outside fall only while keeping $1200 in reserve. Choose 1.5-day only when its recent rate beats overnight by 30%. Prefer weekend trips that cost no PTO. Commit PTO 14 days ahead on alternate weekdays inside the fall peak window (day 270-305), keeping it for weekday overnights. Boat = scheduled boat that ran that class most recently (pick_boat)."
+ }
+]

@@ -1,0 +1,43 @@
+--- strategy_v5.py
++++ strategy_v6.py
+@@ -15,8 +15,9 @@
+                 "keeping $1200 in reserve. Among qualifying offers pick the best rate per dollar. Prefer "
+                 "weekend trips that cost no PTO. Commit PTO 14 days ahead on alternate weekdays "
+                 "inside the fall peak window (day 270-305), keeping it for weekday overnights. "
+-                "Summer add-on: at 21:00, book a bookable no-PTO 3/4-day trip when the 7-day "
+-                "3/4-day rate is at least 0.3 per angler, keeping $1200 for fall. "
++                "3/4-day add-on: at 21:00, book a bookable no-PTO 3/4-day trip when the 7-day "
++                "3/4-day rate is at least 0.5 per angler (best fish per dollar at $150), keeping "
++                "$550 for one fall 1.5-day trip until day 262. "
+                 "Boat = scheduled boat that ran that class most recently (pick_boat).")
+ 
+     def _signal(self, ctx):
+@@ -44,8 +45,7 @@
+         return rate, temp
+ 
+     def _three_quarter(self, ctx):
+-        # Summer: 3/4-day boats carry the yellowtail. Book tomorrow's no-PTO 3/4-day trip
+-        # when the 7-day 3/4-day rate is >= 0.3/angler, keeping $1200 for the fall window.
++        # Book tomorrow's no-PTO 3/4-day trip when the 7-day 3/4-day rate is >= 0.5/angler.
+         rate, temp = self._signal(ctx)
+         if temp is None or temp < 59:
+             return []
+@@ -57,13 +57,16 @@
+                 tq = float(d.yt.sum()) / float(d.anglers.sum())
+         except Exception:
+             return []
+-        if tq < 0.3:
++        if tq < 0.5:
+             return []
++        # at $150 a hot 3/4 boat beats a 1.5-day on fish per dollar; keep one
++        # 1.5-day trip's worth ($550) until fall is under way
++        reserve = 550 if ctx.today.doy < 262 else 0
+         cands = []
+         for o in ctx.offers:
+             if str(o.cls).lower() != "three_quarter" or not o.bookable:
+                 continue
+-            if len(o.pto_dates or []) > 0 or ctx.budget_left - o.cost < 1200:
++            if len(o.pto_dates or []) > 0 or ctx.budget_left - o.cost < reserve:
+                 continue
+             cands.append(o)
+         if not cands:

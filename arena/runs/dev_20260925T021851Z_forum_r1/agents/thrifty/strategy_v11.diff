@@ -1,0 +1,116 @@
+--- strategy_v10.py
++++ strategy_v11.py
+@@ -1,25 +1,23 @@
+ """
+-Season 2: water temperature gate + proven class + reactive momentum.
+-Season 1 root cause: booked during cold dead zone (d35-71: 14.8°C avg, 0 YT from 146 premium trips).
+-Season 2: gate by Scripps Pier temp first (>15.5°C baseline, higher in fall), then by proven classes, then react.
++Season 2: proven seasonal windows + reactive momentum within those windows.
++Season 1 root cause: booked d35-71 (0.001 YT/angler) instead of d240-310 (0.75-1.6 YT/angler).
++Real signal: day-of-year peaks > temp alone. d72+ shows 180x better catch than d35-70 at same temp.
+ """
+ from arena.api.ctx import Strategy, Book, CommitPTO
+ import pandas as pd
+-import math
+ 
+ 
+ class Strategy(Strategy):
+-    name = "Pier-temp gate + proven classes + momentum"
++    name = "Seasonal windows + momentum"
+ 
+     def describe(self) -> str:
+         return (
+-            "Season 1 data: dead zone (d35-71) averaged 14.8°C, yielded 0 YT from 146 premium trips. "
+-            "Peak (d250-275) averaged 17.6°C, yielded 18,441 YT from 1004 trips. "
+-            "Primary gate: Scripps Pier water temperature (7-day rolling mean >= 15.5°C baseline, "
+-            "raised to 17°C in fall window d240-310). Secondary gate: proven classes only (day_1_5, overnight, three_quarter). "
+-            "Within gates, track 2-3 day rolling YT/angler per class. At 21:00, book tomorrow's highest-rate offer if temp gate passes. "
+-            "Commit PTO 14 days ahead when temp + class momentum both positive, spacing weekday PTO for fall weekends. "
+-            "Hold $200 minimum; prefer San Diego/Malihini for 3/4-day, pick_boat otherwise."
++            "Season 1 analysis: d35-71 averaged 0.001 YT/angler; d72-107 jumped to 0.183; d240-275 peaked at 0.748; d275-306 at 1.584. "
++            "Primary gate: day-of-year seasonal windows (avoid dead zone d1-71, target peak d240-310). "
++            "Secondary gate: proven classes (day_1_5, overnight, three_quarter) by recent 3-day momentum. "
++            "Strategy: hold $600 reserve until d240, then deploy aggressively on best-performing class when booking opens. "
++            "Commit PTO 14 days ahead for weekday fall trips (d240-310 window). "
++            "Prefer San Diego/Malihini for 3/4-day; pick_boat otherwise. Book only when doy >= 240 or momentum very strong (d72+)."
+         )
+ 
+     def on_turn(self, ctx) -> None:
+@@ -27,43 +25,34 @@
+         pass
+ 
+     def decide(self, ctx) -> list:
+-        """Gate: temp, class, momentum. Book best qualifying offer for tomorrow."""
++        """Gate: seasonal window + momentum. Book best offer within gate."""
+         actions = []
+ 
+         trips = ctx.observe("trips")
+-        pier = ctx.observe("pier")
+-        if trips.empty or pier.empty:
++        if trips.empty:
+             return actions
+ 
+-        min_reserve = 200
++        # Reserve more in early season; reduce in fall
++        if ctx.tomorrow.doy < 240:
++            min_reserve = 600
++        else:
++            min_reserve = 200
++
+         if ctx.budget_left <= min_reserve:
+             return actions
+ 
+-        # Check 7-day rolling mean Scripps Pier temp
+-        pier_recent = pier[pier["ts_t"] >= ctx.now.t - 7]
+-        if pier_recent.empty:
++        # Seasonal gate: skip dead zone d1-71, focus on d72+ with peak at d240-310
++        doy = ctx.tomorrow.doy
++        if doy < 72:
+             return actions
+ 
+-        pier_mean_c = pier_recent["wtmp_c"].mean()
+-        pier_mean_f = pier_mean_c * 9 / 5 + 32
++        # Proven classes only
++        proven_classes = ["day_1_5", "overnight", "three_quarter"]
+ 
+-        # Seasonal temp threshold
+-        fall_window = ctx.tomorrow.doy >= 240 and ctx.tomorrow.doy <= 310
+-        temp_threshold_f = 62 if fall_window else 59  # ~16.7°C vs 15°C
+-        temp_threshold_c = (temp_threshold_f - 32) * 5 / 9
+-
+-        if pier_mean_c < temp_threshold_c:
+-            return actions
+-
+-        # Gate: proven classes only
++        # Calculate recent 3-day signal for proven classes
+         recent_cutoff = ctx.now.t - 3
+         recent_trips = trips[trips["fish_date_t"] >= recent_cutoff]
+-        if recent_trips.empty:
+-            return actions
+ 
+-        proven_classes = ["day_1_5", "overnight", "three_quarter"]
+-
+-        # Calculate recent 2-3 day signal for proven classes
+         class_performance = {}
+         for cls in proven_classes:
+             cls_trips = recent_trips[recent_trips["cls"] == cls]
+@@ -104,15 +93,16 @@
+                     else:
+                         boat = ctx.pick_boat(offer_cls, ctx.tomorrow)
+ 
+-                    reason = f"Temp {pier_mean_f:.0f}°F (gate {temp_threshold_f:.0f}°F), {best_class} at {best_signal:.3f} YT/angler"
++                    reason = f"d{doy:03d}: {best_class} at {best_signal:.3f} YT/angler (seasonal window d72+)"
+                     actions.append(Book(offer.id, reason, boat=boat))
+ 
+-                    if offer.pto_dates and ctx.pto_left > 0:
++                    # Commit PTO 14 days ahead in fall window
++                    if offer.pto_dates and ctx.pto_left > 0 and doy >= 226:  # 14 days before d240
+                         future_day = ctx.today.plus(14)
+                         if future_day.doy < 366 and ctx.pto_left > 0:
+                             already_committed = [d.split()[-1] for d in ctx.calendar.get("committed_pto", [])]
+                             if f"S{future_day.season:02d} d{future_day.doy:03d}" not in already_committed:
+-                                actions.append(CommitPTO(future_day, reason=f"Temp gate {pier_mean_f:.0f}°F, book for momentum"))
++                                actions.append(CommitPTO(future_day, reason=f"Seasonal window d240+, book d{doy:03d}"))
+ 
+                     return actions
+ 

@@ -1,0 +1,156 @@
+--- strategy_v11.py
++++ strategy_v12.py
+@@ -1,58 +1,68 @@
+ """
+-Season 2: proven seasonal windows + reactive momentum within those windows.
+-Season 1 root cause: booked d35-71 (0.001 YT/angler) instead of d240-310 (0.75-1.6 YT/angler).
+-Real signal: day-of-year peaks > temp alone. d72+ shows 180x better catch than d35-70 at same temp.
++Season 2: fix early-season capital bleed. Deploy only on proven seasonal windows with strict discipline.
++Season 1 root cause: submitted seasonal-window strategy too late, after wasting $1,960 (d35-71, dead zone).
++Fix: start Season 2 with correct gates from day 1. Never touch d1-71. Hold $600 until d240 then deploy.
+ """
+ from arena.api.ctx import Strategy, Book, CommitPTO
+ import pandas as pd
+ 
+ 
+ class Strategy(Strategy):
+-    name = "Seasonal windows + momentum"
++    name = "Seasonal discipline: no dead zone, deploy d240+."
+ 
+     def describe(self) -> str:
+         return (
+-            "Season 1 analysis: d35-71 averaged 0.001 YT/angler; d72-107 jumped to 0.183; d240-275 peaked at 0.748; d275-306 at 1.584. "
+-            "Primary gate: day-of-year seasonal windows (avoid dead zone d1-71, target peak d240-310). "
+-            "Secondary gate: proven classes (day_1_5, overnight, three_quarter) by recent 3-day momentum. "
+-            "Strategy: hold $600 reserve until d240, then deploy aggressively on best-performing class when booking opens. "
+-            "Commit PTO 14 days ahead for weekday fall trips (d240-310 window). "
+-            "Prefer San Diego/Malihini for 3/4-day; pick_boat otherwise. Book only when doy >= 240 or momentum very strong (d72+)."
++            "Season 1 revealed: d35-71 (dead zone) averaged 0.001 YT/angler; d240-310 (fall peak) averaged 1.2 YT/angler. "
++            "Primary gate: never book d1-71. Secondary gate: proven classes only (day_1_5, overnight, three_quarter). "
++            "Early season (d72-239): hold $600 reserve; book only if 3-day momentum > 0.1 YT/angler. "
++            "Fall peak (d240-310): hold $200 reserve; book aggressively on momentum > 0.2 YT/angler. "
++            "Commit PTO 14 days ahead in fall window (d226 onwards). "
++            "Boat selection: three_quarter prefers San Diego/Malihini; others use pick_boat."
+         )
+ 
+     def on_turn(self, ctx) -> None:
+-        """Called at turn boundaries (1st, 15th of month)."""
++        """Called at turn boundaries (1st, 15th). Cache or refit as needed."""
+         pass
+ 
+     def decide(self, ctx) -> list:
+-        """Gate: seasonal window + momentum. Book best offer within gate."""
++        """Strict seasonal discipline: no dead zone, proven classes only, momentum-driven within gates."""
+         actions = []
+ 
+         trips = ctx.observe("trips")
+         if trips.empty:
+             return actions
+ 
+-        # Reserve more in early season; reduce in fall
+-        if ctx.tomorrow.doy < 240:
++        doy = ctx.tomorrow.doy
++
++        # PRIMARY GATE: dead zone d1-71 is forbidden. Never book it.
++        if doy < 72:
++            return actions
++
++        # Reserve strategy: high early, drop in peak season
++        if doy < 240:
+             min_reserve = 600
+         else:
+             min_reserve = 200
+ 
++        # If reserve would go negative, don't book
+         if ctx.budget_left <= min_reserve:
+             return actions
+ 
+-        # Seasonal gate: skip dead zone d1-71, focus on d72+ with peak at d240-310
+-        doy = ctx.tomorrow.doy
+-        if doy < 72:
+-            return actions
+-
+-        # Proven classes only
++        # Secondary gate: proven classes (d72+ is too early for overnight/day_1_5 historically; use all three)
+         proven_classes = ["day_1_5", "overnight", "three_quarter"]
+ 
+-        # Calculate recent 3-day signal for proven classes
+-        recent_cutoff = ctx.now.t - 3
++        # Momentum lookback: 3-day early season, 7-day in peak (to avoid noise)
++        if doy < 240:
++            lookback_days = 3
++            momentum_threshold = 0.1  # Low bar early season (d72-239)
++        else:
++            lookback_days = 7
++            momentum_threshold = 0.2  # Stricter in peak season (d240+)
++
++        recent_cutoff = ctx.now.t - lookback_days
+         recent_trips = trips[trips["fish_date_t"] >= recent_cutoff]
+ 
++        # Calculate YT per angler per class
+         class_performance = {}
+         for cls in proven_classes:
+             cls_trips = recent_trips[recent_trips["cls"] == cls]
+@@ -63,17 +73,18 @@
+             else:
+                 class_performance[cls] = 0
+ 
+-        # Pick best qualifying class with non-negative signal
++        # Pick best class that meets threshold
+         best_class = None
+         best_signal = -999
+         for cls in proven_classes:
+-            if class_performance[cls] >= 0 and class_performance[cls] > best_signal:
++            if class_performance[cls] >= momentum_threshold and class_performance[cls] > best_signal:
+                 best_signal = class_performance[cls]
+                 best_class = cls
+ 
+         if best_class is None:
+             return actions
+ 
++        # Map class to offer code
+         offer_map = {
+             "three_quarter": "THREE_QUARTER",
+             "overnight": "OVERNIGHT",
+@@ -84,26 +95,31 @@
+         offer = ctx.offer(offer_cls)
+ 
+         if offer and offer.bookable:
++            # Double-check budget after booking
+             if ctx.budget_left - offer.cost >= min_reserve:
+                 boats = ctx.scheduled_boats(offer_cls, ctx.tomorrow)
+                 if boats:
++                    # Prefer specific boats for three_quarter
+                     if best_class == "three_quarter":
+-                        winners = [b for b in boats if b in ["San Diego", "Malihini", "Mission Belle"]]
+-                        boat = winners[0] if winners else boats[0]
++                        preferred = [b for b in boats if b in ["San Diego", "Malihini", "Mission Belle"]]
++                        boat = preferred[0] if preferred else boats[0]
+                     else:
+                         boat = ctx.pick_boat(offer_cls, ctx.tomorrow)
+ 
+-                    reason = f"d{doy:03d}: {best_class} at {best_signal:.3f} YT/angler (seasonal window d72+)"
++                    reason = f"d{doy:03d}: {best_class} momentum {best_signal:.3f} YT/angler (seasonal d72+)"
+                     actions.append(Book(offer.id, reason, boat=boat))
+ 
+-                    # Commit PTO 14 days ahead in fall window
+-                    if offer.pto_dates and ctx.pto_left > 0 and doy >= 226:  # 14 days before d240
++                    # Commit PTO 14 days ahead if in fall peak window (d226-310)
++                    # This ensures we have PTO available for fall trips when they become bookable
++                    if offer.pto_dates and ctx.pto_left > 0 and doy >= 226:
+                         future_day = ctx.today.plus(14)
+-                        if future_day.doy < 366 and ctx.pto_left > 0:
+-                            already_committed = [d.split()[-1] for d in ctx.calendar.get("committed_pto", [])]
+-                            if f"S{future_day.season:02d} d{future_day.doy:03d}" not in already_committed:
+-                                actions.append(CommitPTO(future_day, reason=f"Seasonal window d240+, book d{doy:03d}"))
++                        # Only commit if the future day is within the fall window and not yet committed
++                        if 240 <= future_day.doy <= 310 and future_day.doy < 366:
++                            already_committed = [d for d in ctx.calendar.get("committed_pto", [])]
++                            future_str = f"S{future_day.season:02d} d{future_day.doy:03d}"
++                            if future_str not in already_committed:
++                                actions.append(CommitPTO(future_day, reason=f"Fall peak PTO, d{doy:03d} booking"))
+ 
+                     return actions
+ 
+-        return actions
++        return actions

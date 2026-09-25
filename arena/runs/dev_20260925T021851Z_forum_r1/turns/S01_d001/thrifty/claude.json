@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 118.5,
+ "claude": {
+  "duration_api_ms": 112727,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16914110000000004,
+  "usage": {
+   "input_tokens": 160,
+   "cache_creation_input_tokens": 25151,
+   "cache_read_input_tokens": 633441,
+   "output_tokens": 11067,
+   "output_tokens_details": {
+    "thinking_tokens": 1766
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25151,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 258,
+     "cache_read_input_tokens": 43327,
+     "cache_creation_input_tokens": 799,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 799
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 160,
+    "outputTokens": 11067,
+    "cacheReadInputTokens": 633441,
+    "cacheCreationInputTokens": 25151,
+    "webSearchRequests": 0,
+    "costUSD": 0.16914110000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 1766,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 24,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Turn Summary\n\n**What changed**: Submitted \"Volume beats timing\" strategy - books many cheap $80 half-day trips (prioritizing weekends for free PTO), commits PTO 14 days ahead for weekdays, targets 20-25 trips/season to beat competitors relying on single strategies.\n\n**Why**: Historical data shows HD_PM (0.131 avg YT) outperforms HD_AM (0.115). Current conditions unfavorable (58.6\u00b0F water, ONI -0.94), but volume approach will capture peaks when competitors' reactive strategies trigger. Season scoring is sum of shares, so many small trips with consistent catch beats fewer big-cost trips in this market.",
+  "ttft_ms": 2222,
+  "type": "result",
+  "duration_ms": 116481,
+  "uuid": "2e65b1b8-5cbc-4656-b8bc-f3c1adf79171",
+  "ttft_stream_ms": 942,
+  "time_to_request_ms": 104,
+  "first_content_frame_ms": 942,
+  "time_to_request_from_spawn_ms": 11416414,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302794709.2158,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

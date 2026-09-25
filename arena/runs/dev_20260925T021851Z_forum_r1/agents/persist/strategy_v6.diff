@@ -1,0 +1,78 @@
+--- strategy_v5.py
++++ strategy_v6.py
+@@ -6,7 +6,9 @@
+ on signal alone; weekday half/full-day trips need PTO committed 14 days ahead,
+ funded from the same recent-momentum proxy. Every booking is checked against
+ the actual sailing schedule so we never try to book a boat that is not
+-running that class that day.
++running that class that day, and among the boats actually scheduled we pick
++the one with the best historical yellowtail-per-angler rate for that class
++(computed fresh from observed trip data each time, not a hardcoded name).
+ """
+ import pandas as pd
+ from arena.api.ctx import Strategy, Book, CommitPTO
+@@ -25,6 +27,7 @@
+ ALL_CHEAP_TRIPS_CLASSES = set().union(*(CLASS_TRIPS_MAP[c] for c in CHEAP_OFFER_CLASSES))
+ ALL_PREMIUM_TRIPS_CLASSES = set().union(*(CLASS_TRIPS_MAP[c] for c in PREMIUM_OFFER_CLASSES))
+ PTO_RESERVE = 1
++BOAT_MIN_ANGLERS = 30
+ 
+ 
+ class Strategy(Strategy):
+@@ -43,10 +46,12 @@
+             "PTO for the date 14 days out is committed whenever the best trailing "
+             "rate across all classes is positive, keeping a 1-day reserve. Every "
+             "booking is checked against the actual sailing schedule for that class "
+-            "and fishing day and against budget before booking, using the scheduled "
+-            "boat that ran the class most recently, falling back to any scheduled "
+-            "boat if that pick is not actually running. A run of skunks stops "
+-            "booking naturally since every signal only looks a few days back."
++            "and fishing day and against budget. Among the boats actually scheduled, "
++            "picks whichever has the best all-time yellowtail-per-angler rate for "
++            "that class (recomputed from observed trips each tick, minimum sample "
++            "size required), falling back to the most-recently-active scheduled "
++            "boat if no boat has enough data. A run of skunks stops booking "
++            "naturally since every signal only looks a few days back."
+         )
+ 
+     def on_turn(self, ctx):
+@@ -73,6 +78,28 @@
+             return 0.0
+         return float(df["yt"].sum() / anglers)
+ 
++    def _best_boat(self, ctx, offer_cls, fish_day, scheduled):
++        default = ctx.pick_boat(offer_cls, fish_day)
++        if not scheduled:
++            return default
++        fallback = default if default in scheduled else scheduled[0]
++        rows = ctx.observe("trips")
++        if rows is None:
++            return fallback
++        df = rows if isinstance(rows, pd.DataFrame) else pd.DataFrame(rows)
++        if df.empty or "cls" not in df.columns or "boat" not in df.columns:
++            return fallback
++        df = df[df["cls"].isin(CLASS_TRIPS_MAP[offer_cls])]
++        df = df[df["boat"].isin(scheduled)]
++        if df.empty:
++            return fallback
++        grp = df.groupby("boat").agg(anglers=("anglers", "sum"), yt=("yt", "sum"))
++        grp = grp[grp["anglers"] >= BOAT_MIN_ANGLERS]
++        if grp.empty:
++            return fallback
++        grp["rate"] = grp["yt"] / grp["anglers"]
++        return grp["rate"].idxmax()
++
+     def _book_if_bookable(self, ctx, actions, cls, reason, taken_ids):
+         offer = ctx.offer(cls)
+         if offer is None or not offer.bookable or offer.id in taken_ids:
+@@ -87,9 +114,7 @@
+         boats = ctx.scheduled_boats(offer.cls, fish_day)
+         if not boats:
+             return None
+-        boat = ctx.pick_boat(offer.cls, fish_day)
+-        if boat not in boats:
+-            boat = boats[0]
++        boat = self._best_boat(ctx, cls, fish_day, boats)
+         actions.append(Book(offer.id, reason, boat=boat))
+         taken_ids.add(offer.id)
+         return offer

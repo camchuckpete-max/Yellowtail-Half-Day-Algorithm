@@ -1,0 +1,139 @@
+{
+ "season": 1,
+ "budget_left": 1440.0,
+ "pto_left": 0.0,
+ "season_score": 0.1538,
+ "season_rank": 2,
+ "cumulative_score": 0,
+ "cumulative_rank": 2,
+ "pto_committed": [
+  "S01 d017",
+  "S01 d018",
+  "S01 d019",
+  "S01 d020"
+ ],
+ "bookings": [
+  {
+   "offer_id": "HD_PM:764",
+   "cls": "HD_PM",
+   "departure": "S01 d035",
+   "fishing_date": "S01 d035",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 16.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "Volume: PM half-day on weekend (free PTO)"
+  },
+  {
+   "offer_id": "HD_PM:765",
+   "cls": "HD_PM",
+   "departure": "S01 d036",
+   "fishing_date": "S01 d036",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 4.0,
+   "anglers": 24.0,
+   "competitors_aboard": 1,
+   "share": 0.153846,
+   "your_reason": "Volume: PM half-day on weekend (free PTO)"
+  },
+  {
+   "offer_id": "HD_PM:772",
+   "cls": "HD_PM",
+   "departure": "S01 d043",
+   "fishing_date": "S01 d043",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 24.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "Volume: PM half-day on weekend (free PTO)"
+  },
+  {
+   "offer_id": "HD_PM:778",
+   "cls": "HD_PM",
+   "departure": "S01 d049",
+   "fishing_date": "S01 d049",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 35.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "Volume: PM half-day on weekend (free PTO)"
+  },
+  {
+   "offer_id": "HD_PM:779",
+   "cls": "HD_PM",
+   "departure": "S01 d050",
+   "fishing_date": "S01 d050",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 13.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "Volume: PM half-day on weekend (free PTO)"
+  },
+  {
+   "offer_id": "HD_PM:785",
+   "cls": "HD_PM",
+   "departure": "S01 d056",
+   "fishing_date": "S01 d056",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 11.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "Volume: PM half-day on weekend (free PTO)"
+  },
+  {
+   "offer_id": "HD_PM:786",
+   "cls": "HD_PM",
+   "departure": "S01 d057",
+   "fishing_date": "S01 d057",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 23.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "Volume: PM half-day on weekend (free PTO)"
+  }
+ ],
+ "rejected_actions_and_errors_since_last_turn": [
+  {
+   "date": "S01 d041",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:771",
+   "error": "'New Seaforth' is not scheduled for HD_PM on S01 d042; scheduled: none"
+  },
+  {
+   "date": "S01 d050",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:780",
+   "error": "'Dolphin' is not scheduled for HD_PM on S01 d051; scheduled: New Seaforth, Premier"
+  }
+ ],
+ "seasons": []
+}

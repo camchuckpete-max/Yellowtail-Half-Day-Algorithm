@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 219.9,
+ "claude": {
+  "duration_api_ms": 214121,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4600762,
+  "usage": {
+   "input_tokens": 14,
+   "cache_creation_input_tokens": 43327,
+   "cache_read_input_tokens": 332301,
+   "output_tokens": 22028,
+   "output_tokens_details": {
+    "thinking_tokens": 11251
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 43327,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 177,
+     "cache_read_input_tokens": 66985,
+     "cache_creation_input_tokens": 1783,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1783
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 14,
+    "outputTokens": 22028,
+    "cacheReadInputTokens": 332301,
+    "cacheCreationInputTokens": 43327,
+    "webSearchRequests": 0,
+    "costUSD": 0.4600762,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 11251,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Diagnosed the real gap (rank 3 at 0.66 vs leader's 10.84): we'd burned 9 of 10 PTO days by day 139 on low-value cheap-class noise, leaving nothing for the late-season premium window others captured. Submitted a strategy update adding tapering budget/PTO reserves so cheap-class bookings can't crowd out overnight/1.5-day trips, and raised the bar for committing scarce PTO 14 days out; notes.md records the finding and what to check once S2 data comes in.",
+  "ttft_ms": 1682,
+  "type": "result",
+  "duration_ms": 217703,
+  "uuid": "27209833-da47-4206-99e4-9fe6d2ca552c",
+  "ttft_stream_ms": 953,
+  "time_to_request_ms": 82,
+  "first_content_frame_ms": 953,
+  "time_to_request_from_spawn_ms": 13801154,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790305179418.205,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

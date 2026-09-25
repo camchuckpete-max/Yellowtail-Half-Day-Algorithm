@@ -1,0 +1,35 @@
+--- strategy_v4.py
++++ strategy_v5.py
+@@ -43,10 +43,10 @@
+             "PTO for the date 14 days out is committed whenever the best trailing "
+             "rate across all classes is positive, keeping a 1-day reserve. Every "
+             "booking is checked against the actual sailing schedule for that class "
+-            "and day and against budget before booking, using the scheduled boat "
+-            "that ran the class most recently, falling back to any scheduled boat "
+-            "if that pick is not actually running. A run of skunks stops booking "
+-            "naturally since every signal only looks a few days back."
++            "and fishing day and against budget before booking, using the scheduled "
++            "boat that ran the class most recently, falling back to any scheduled "
++            "boat if that pick is not actually running. A run of skunks stops "
++            "booking naturally since every signal only looks a few days back."
+         )
+ 
+     def on_turn(self, ctx):
+@@ -79,10 +79,15 @@
+             return None
+         if offer.cost > ctx.budget_left:
+             return None
+-        boats = ctx.scheduled_boats(offer.cls, offer.departure)
++        fdates = offer.fishing_dates
++        if fdates:
++            fish_day = fdates[0] if isinstance(fdates, (list, tuple)) else fdates
++        else:
++            fish_day = offer.departure
++        boats = ctx.scheduled_boats(offer.cls, fish_day)
+         if not boats:
+             return None
+-        boat = ctx.pick_boat(offer.cls, offer.departure)
++        boat = ctx.pick_boat(offer.cls, fish_day)
+         if boat not in boats:
+             boat = boats[0]
+         actions.append(Book(offer.id, reason, boat=boat))

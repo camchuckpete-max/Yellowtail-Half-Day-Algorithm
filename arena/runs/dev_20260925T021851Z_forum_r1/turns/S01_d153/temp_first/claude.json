@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 61.5,
+ "claude": {
+  "duration_api_ms": 57046,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.34338640000000004,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 20319,
+   "cache_read_input_tokens": 254352,
+   "output_tokens": 6495,
+   "output_tokens_details": {
+    "thinking_tokens": 849
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 20319,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 40947,
+     "cache_creation_input_tokens": 774,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 774
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 6495,
+    "cacheReadInputTokens": 254352,
+    "cacheCreationInputTokens": 20319,
+    "webSearchRequests": 0,
+    "costUSD": 0.34338640000000004,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 849,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I added a summer rule for 3/4-day boats. The strategy still hasn't booked a trip this season: long-range boats never reached the 1.0 yellowtail-per-angler gate, while 3/4-day boats rose to 0.49 per angler, well above their historical rate. At 21:00 it now books a 3/4-day trip for tomorrow when the pier is at least 59\u00b0F and the 7-day 3/4-day rate is at least 0.3, but only on days that need no PTO and while $1,200 stays in reserve for the fall long-range peak. The submission was accepted, and I've updated my notes and skipped the forum.\n\nI haven't confirmed that offers call the 3/4-day class \"three_quarter\". If no 3/4-day bookings show up by the next turn, that name is the first thing to check.",
+  "ttft_ms": 1456,
+  "type": "result",
+  "duration_ms": 59664,
+  "uuid": "b02c0a2f-2f04-4cdf-ac93-8a24cdefa4d0",
+  "ttft_stream_ms": 1183,
+  "time_to_request_ms": 105,
+  "first_content_frame_ms": 1183,
+  "time_to_request_from_spawn_ms": 12909147,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790304287660.6929,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

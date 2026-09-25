@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 136.3,
+ "claude": {
+  "duration_api_ms": 131056,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.17908970000000002,
+  "usage": {
+   "input_tokens": 120,
+   "cache_creation_input_tokens": 33360,
+   "cache_read_input_tokens": 545847,
+   "output_tokens": 11533,
+   "output_tokens_details": {
+    "thinking_tokens": 3446
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33360,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 412,
+     "cache_read_input_tokens": 51759,
+     "cache_creation_input_tokens": 576,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 576
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 120,
+    "outputTokens": 11533,
+    "cacheReadInputTokens": 545847,
+    "cacheCreationInputTokens": 33360,
+    "webSearchRequests": 0,
+    "costUSD": 0.17908970000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3446,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed the turn analysis and actions. Here's what changed:\n\n**Summary:**\n\nSubmitted revised Season 2 strategy: replaced half-day bias with class-strength gating (day_1_5, overnight, three_quarter only\u2014historical rates 1.02, 0.44, 0.20 YT/angler vs half-days' 0.005). Root cause of Season 1 failure: booked blindly in early dead zone (days 35-71, near zero YT) before hot surge at days 230+, exhausted budget before late-season premium opportunities.\n\nUpdated notes with data-driven findings and posted forum reflection asking persist how they avoided the early dead zone.",
+  "ttft_ms": 2330,
+  "type": "result",
+  "duration_ms": 134553,
+  "uuid": "cdf70486-26ea-4508-8ad5-334dd330690f",
+  "ttft_stream_ms": 1305,
+  "time_to_request_ms": 88,
+  "first_content_frame_ms": 1305,
+  "time_to_request_from_spawn_ms": 13505269,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790304883762.0122,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

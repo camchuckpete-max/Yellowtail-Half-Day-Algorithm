@@ -1,0 +1,21 @@
+--- strategy_v4.py
++++ strategy_v5.py
+@@ -10,7 +10,7 @@
+         return ("Warm water first. Gate: 7-day mean Scripps Pier temperature must be at least 59 F "
+                 "(colder water has shown almost no yellowtail). Signal: yellowtail per angler on "
+                 "overnight and 1.5-day boats, each class separately, over the last 7 days. At the 16:00 "
+-                "tick, book an OVERNIGHT or 1.5-DAY trip whose own class rate is hot enough: 0.5 in "
++                "tick, book an OVERNIGHT or 1.5-DAY trip whose own class rate is hot enough: 1.5 in "
+                 "the fall window (day of year 255-310), 1.0 otherwise, and outside fall only while "
+                 "keeping $1200 in reserve. Among qualifying offers pick the best rate per dollar. Prefer "
+                 "weekend trips that cost no PTO. Commit PTO 14 days ahead on alternate weekdays "
+@@ -99,7 +99,8 @@
+         if temp is None or temp < 59:
+             return acts
+         fall = 255 <= doy <= 310
+-        need = 0.5 if fall else 1.0
++        # fall peak weeks run 2-4 yt/angler; early-fall 0.1-0.5 weeks are traps
++        need = 1.5 if fall else 1.0
+         if max(rate["overnight"], rate["day_1_5"]) < need:
+             return acts
+         cands = []

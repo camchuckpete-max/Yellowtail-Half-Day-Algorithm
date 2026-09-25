@@ -1,0 +1,56 @@
+--- strategy_v3.py
++++ strategy_v4.py
+@@ -9,10 +9,10 @@
+     def describe(self):
+         return ("Warm water first. Gate: 7-day mean Scripps Pier temperature must be at least 59 F "
+                 "(colder water has shown almost no yellowtail). Signal: yellowtail per angler on "
+-                "overnight/1.5-day/multi-day boats over the last 7 days. At the 16:00 tick, book an "
+-                "OVERNIGHT or 1.5-DAY trip when the signal is hot enough: 0.5 in the fall window "
+-                "(day of year 255-310), 1.0 otherwise, and outside fall only while keeping $1200 "
+-                "in reserve. Choose 1.5-day only when its recent rate beats overnight by 30%. Prefer "
++                "overnight and 1.5-day boats, each class separately, over the last 7 days. At the 16:00 "
++                "tick, book an OVERNIGHT or 1.5-DAY trip whose own class rate is hot enough: 0.5 in "
++                "the fall window (day of year 255-310), 1.0 otherwise, and outside fall only while "
++                "keeping $1200 in reserve. Among qualifying offers pick the best rate per dollar. Prefer "
+                 "weekend trips that cost no PTO. Commit PTO 14 days ahead on alternate weekdays "
+                 "inside the fall peak window (day 270-305), keeping it for weekday overnights. "
+                 "Summer add-on: at 21:00, book a bookable no-PTO 3/4-day trip when the 7-day "
+@@ -100,7 +100,7 @@
+             return acts
+         fall = 255 <= doy <= 310
+         need = 0.5 if fall else 1.0
+-        if rate["all"] < need:
++        if max(rate["overnight"], rate["day_1_5"]) < need:
+             return acts
+         cands = []
+         for o in ctx.offers:
+@@ -113,13 +113,12 @@
+             npto = len(o.pto_dates or [])
+             if npto > 0 and not fall:
+                 continue
+-            if o.cls == "DAY_1_5":
+-                if rate["day_1_5"] < 1.3 * max(rate["overnight"], 0.01) or ctx.budget_left < 1100:
+-                    continue
+-                score = rate["day_1_5"] * 1.2
+-            else:
+-                score = rate["overnight"] + 0.01
+-            score -= 0.2 * npto
++            # each class must clear the bar on its own rate (a hot 1.5-day week
++            # once triggered a dead overnight); rank by fish per dollar
++            r = rate["day_1_5"] if o.cls == "DAY_1_5" else rate["overnight"]
++            if r < need:
++                continue
++            score = r / max(float(o.cost), 1.0) - 0.0002 * npto
+             cands.append((score, o))
+         if not cands:
+             return acts
+@@ -135,7 +134,8 @@
+                 boat = None
+             if boat:
+                 break
+-        reason = "pier %.1fF, long-range yt/angler %.2f last week" % (temp, rate["all"])
++        r = rate["day_1_5"] if o.cls == "DAY_1_5" else rate["overnight"]
++        reason = "pier %.1fF, %s yt/angler %.2f last week" % (temp, o.cls.lower(), r)
+         if boat:
+             acts.append(Book(o.id, reason, boat=boat))
+         else:

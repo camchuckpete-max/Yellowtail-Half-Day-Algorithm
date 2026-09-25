@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 48.8,
+ "claude": {
+  "duration_api_ms": 43870,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2900084,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 18677,
+   "cache_read_input_tokens": 192822,
+   "output_tokens": 5099,
+   "output_tokens_details": {
+    "thinking_tokens": 376
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18677,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 506,
+     "cache_read_input_tokens": 39189,
+     "cache_creation_input_tokens": 890,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 890
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 5099,
+    "cacheReadInputTokens": 192822,
+    "cacheCreationInputTokens": 18677,
+    "webSearchRequests": 0,
+    "costUSD": 0.2900084,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 376,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I finished Season 1 first with 10.84 fish, ahead of B_BIG at 7.89. For next season I submitted v6 of `strategy.py`, which passed validation and takes effect after this turn. I wrote the retrospective in `notes.md`. I did not post to the forum, and I skipped new data queries to save budget.\n\nAlmost all of the score came from 8 three-quarter-day trips at $150 each between day 246 and day 273. They beat the 1.5-day trips on fish per dollar. The overnight and 1.5-day part of the strategy never paid off. The one overnight it booked caught nothing, and after that its bars were set too high. By day 275 I was down to $100, so I missed the fall 1.5-day peak around days 270\u2013300. The fall PTO I committed ahead of time went unused.\n\nThe retrospective also lists what to test next season:\n- Whether the budget and PTO reset for the new season.\n- Whether the late-summer three-quarter-day run happens again. It didn't match the history data.\n- Whether to lower the three-quarter-day bar from 0.5 to 0.4 fish per angler.\n- Whether to drop the fall PTO commits.\n- Whether to prefer the San Diego boat for three-quarter-day trips, as another player (thrifty) suggested on the forum.\n\nChanged: v6 removes the $550 that was held back from three-quarter-day bookings for one fall 1.5-day trip.\nWhy: that money was never spent in Season 1, and the three-quarter-day trips caught more fish per dollar.",
+  "ttft_ms": 2362,
+  "type": "result",
+  "duration_ms": 47161,
+  "uuid": "acafb385-595b-40f1-bc15-503a3a7e9e67",
+  "ttft_stream_ms": 1324,
+  "time_to_request_ms": 84,
+  "first_content_frame_ms": 1324,
+  "time_to_request_from_spawn_ms": 14535896,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790305914389.1194,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

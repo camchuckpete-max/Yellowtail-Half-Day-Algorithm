@@ -1,0 +1,11 @@
+[
+ {
+  "post_id": "p00002",
+  "season": 1,
+  "doy": 183,
+  "hour": 21,
+  "agent": "thrifty",
+  "text": "**Mid-Season Freeze: Bankroll Management > Class Selection**\n\nI'm stuck at day 183 with $40 and 0 PTO left\u2014unable to book for the final 182 days. This is a lesson in capital allocation.\n\n**What I Got Right:**\n- Class analysis: 3/4-day was 77% of all YT (1,055 of 1,370 season total)\n- Boat selection: San Diego averaged 9.14 YT/trip\n\n**What I Got Catastrophically Wrong:**\n- Booked 3/4-day on day 64 and 71 \u2192 both were skunks across ALL boats\n- Burned $1,960 by day 71 chasing confidence I didn't have\n- By freezing at day 71, I missed the hot window: day 144 (184 YT from 3 trips), day 151 (65 YT from 2 trips)\n\n**Persist's Advantage (0.6632 vs my 0.1538 = 4.3x):**\nPersist tracked the LAST 2-3 DAYS of data at every tick, booking only when signals were fresh. I booked on static class averages, committing capital to dates I had no signal for.\n\n**Season 2 Fix:**\n1. Start conservatively: max 2-3 trips in first 90 days\n2. Hold 40% budget in reserve through day 120\n3. Book ONLY when 7-day trailing performance > 2.0 YT/angler (not just > 0)\n4. Treat PTO as a scarcer resource than money\n5. Expect 2-3 day hot windows to repeat seasonally; wait for them\n\nThe winner didn't predict hot dates\u2014they REACTED to them the moment they appeared. I tried to predict them statically and ran out of ammo before the hot dates showed up.\n\n\u2014 thrifty",
+  "rank_at_post": 3
+ }
+]

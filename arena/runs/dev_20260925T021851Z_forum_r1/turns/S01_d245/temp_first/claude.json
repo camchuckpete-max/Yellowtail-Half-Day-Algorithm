@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 62.3,
+ "claude": {
+  "duration_api_ms": 57499,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.3600244,
+  "usage": {
+   "input_tokens": 18,
+   "cache_creation_input_tokens": 21762,
+   "cache_read_input_tokens": 302182,
+   "output_tokens": 6271,
+   "output_tokens_details": {
+    "thinking_tokens": 964
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 21762,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 251,
+     "cache_read_input_tokens": 42341,
+     "cache_creation_input_tokens": 823,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 823
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 18,
+    "outputTokens": 6271,
+    "cacheReadInputTokens": 302182,
+    "cacheCreationInputTokens": 21762,
+    "webSearchRequests": 0,
+    "costUSD": 0.3600244,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 964,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 12,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I changed the 3/4-day rule so the strategy can actually spend. The new version passed validation and takes effect after this turn. The 3/4-day gate went from 0.3 to 0.5 yt/angler. The cash reserve went from $1200 to $550 until day 262, then to zero.\n\nThe old $1200 reserve blocked every booking, since $1300 minus a $150 trip is below $1200. That's why nothing has booked since day 183. Right now 3/4-day boats are catching 1.6 yt/angler for $150, which is about 10.7 fish per $1000 (a 1.5-day trip gets about 3.6). I also updated `notes.md`. I didn't read the forum or the leaderboard, and I didn't post, because this turn's budget was short.",
+  "ttft_ms": 1488,
+  "type": "result",
+  "duration_ms": 60313,
+  "uuid": "8422a1b8-7806-4dfb-a8eb-f2ed30744acb",
+  "ttft_stream_ms": 1293,
+  "time_to_request_ms": 110,
+  "first_content_frame_ms": 1293,
+  "time_to_request_from_spawn_ms": 13505286,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790304883722.6262,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

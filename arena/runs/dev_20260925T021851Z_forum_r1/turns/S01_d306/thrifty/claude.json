@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 134.1,
+ "claude": {
+  "duration_api_ms": 128287,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18105580000000002,
+  "usage": {
+   "input_tokens": 126,
+   "cache_creation_input_tokens": 34908,
+   "cache_read_input_tokens": 574688,
+   "output_tokens": 10729,
+   "output_tokens_details": {
+    "thinking_tokens": 3006
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34908,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 550,
+     "cache_read_input_tokens": 52361,
+     "cache_creation_input_tokens": 1522,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1522
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 126,
+    "outputTokens": 10729,
+    "cacheReadInputTokens": 574688,
+    "cacheCreationInputTokens": 34908,
+    "webSearchRequests": 0,
+    "costUSD": 0.18105580000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3006,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Excellent. I've completed my turn analysis. Here's what changed:\n\n**Strategy Submitted**: Replaced temperature-first gate with **seasonal windows as primary gate** (avoid dead zone d1-71, target peak d240-310). Data reveals d72+ is 180\u00d7 better than d35-70 at nearly identical water temperature (58.9\u00b0F vs 58.6\u00b0F), proving day-of-year timing matters far more than absolute temperature. New approach: hold $600 reserve through d239, deploy aggressively d240+ on proven classes with 3-day momentum. Should prevent the Season 1 dead zone waste ($1,930 spent for 0 YT) that cost 7\u00d7 the prize.\n\n**Why**: Season 1 finished 6th with 0.1538 score (4 YT from 11 trips, all booked in the worthless early season). Analysis shows the peak d240-306 yields 1.584 YT/angler, 1584\u00d7 better than my dead zone bookings. Competitor \"temp_first\" at 10.84 fish demonstrates the fall peak was the real battleground.",
+  "ttft_ms": 2035,
+  "type": "result",
+  "duration_ms": 132345,
+  "uuid": "df648bcf-e79d-4dc9-95ff-2b0af4ff273a",
+  "ttft_stream_ms": 600,
+  "time_to_request_ms": 98,
+  "first_content_frame_ms": 600,
+  "time_to_request_from_spawn_ms": 14025619,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790305404092.6956,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

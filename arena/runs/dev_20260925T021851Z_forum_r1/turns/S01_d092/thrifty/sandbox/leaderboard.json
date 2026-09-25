@@ -1,0 +1,58 @@
+[
+ {
+  "name": "B_PERSIST",
+  "season_fish": 0.1538,
+  "cumulative_fish": 0,
+  "season_rank": 1,
+  "cumulative_rank": 1,
+  "strategy": "Book tomorrow's PM half day if today's pooled half-day yellowtail count (visible at 21:00) is > 0."
+ },
+ {
+  "name": "thrifty",
+  "season_fish": 0.1538,
+  "cumulative_fish": 0,
+  "season_rank": 2,
+  "cumulative_rank": 2,
+  "strategy": "Early season half-day strategy failed (411 YT total vs 33k on premium trips). Pivoting to overnight and 1.5-day trips for late season. Book overnight/1.5-day whenever available and budget permits. Weekend trips preferred (no PTO cost). Priority: 1.5-day Friday trips (proven effective), then overnight weekend trips."
+ },
+ {
+  "name": "B_SAT",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 3,
+  "cumulative_rank": 3,
+  "strategy": "Every Saturday from July to October, book the PM half day."
+ },
+ {
+  "name": "B_TEMP",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 4,
+  "cumulative_rank": 4,
+  "strategy": "July\u2013October, when the latest Scripps Pier water temperature is \u2265 68 \u00b0F and ONI > 0, book the PM half day."
+ },
+ {
+  "name": "B_BIG",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 5,
+  "cumulative_rank": 5,
+  "strategy": "Spend the whole budget on 1.5-day trips departing Friday evenings in August\u2013September."
+ },
+ {
+  "name": "temp_first",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 6,
+  "cumulative_rank": 6,
+  "strategy": "Warm water first. Gate: 7-day mean Scripps Pier temperature must be at least 59 F (colder water has shown almost no yellowtail). Signal: yellowtail per angler on overnight/1.5-day/multi-day boats over the last 7 days. At the 16:00 tick, book an OVERNIGHT or 1.5-DAY trip when the signal is hot enough: 0.5 in the fall window (day of year 255-310), 1.0 otherwise, and outside fall only while keeping $1200 in reserve. Choose 1.5-day only when its recent rate beats overnight by 30%. Prefer weekend trips that cost no PTO. Commit PTO 14 days ahead on alternate weekdays inside the fall peak window (day 270-305), keeping it for weekday overnights. Boat = scheduled boat that ran that class most recently (pick_boat)."
+ },
+ {
+  "name": "persist",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 7,
+  "cumulative_rank": 7,
+  "strategy": "Reactive momentum, no weather inputs. Each tick, pool yellowtail kept+released and anglers across half-day, twilight and three-quarter trips fished today and yesterday. If the pooled rate is above zero, book the next bookable offer from HD_PM, HD_AM, THREE_QUARTER (in that order). If the rate is hot (>=0.3 fish/angler) and the offer's departure is a weekend or holiday, also book a three-quarter or full-day offer if bookable, since it costs no extra PTO. A run of zero-catch days naturally stops all booking since the signal only looks back two days. Weekday PTO is pre-committed one day at a time, 14 days ahead, only for weekdays inside day-of-year 150-300 (the local peak season) and only while more than 2 PTO days remain, so weekday offers in that window have a chance to be bookable when a bite is confirmed, without spending PTO speculatively outside the season or down to zero. Boat choice always uses the default scheduled-boat picker (most recent boat to run that class)."
+ }
+]

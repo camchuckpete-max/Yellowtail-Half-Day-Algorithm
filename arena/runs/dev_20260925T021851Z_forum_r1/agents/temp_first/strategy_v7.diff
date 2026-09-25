@@ -1,0 +1,26 @@
+--- strategy_v6.py
++++ strategy_v7.py
+@@ -16,8 +16,8 @@
+                 "weekend trips that cost no PTO. Commit PTO 14 days ahead on alternate weekdays "
+                 "inside the fall peak window (day 270-305), keeping it for weekday overnights. "
+                 "3/4-day add-on: at 21:00, book a bookable no-PTO 3/4-day trip when the 7-day "
+-                "3/4-day rate is at least 0.5 per angler (best fish per dollar at $150), keeping "
+-                "$550 for one fall 1.5-day trip until day 262. "
++                "3/4-day rate is at least 0.5 per angler (best fish per dollar at $150), with no "
++                "budget reserve. "
+                 "Boat = scheduled boat that ran that class most recently (pick_boat).")
+ 
+     def _signal(self, ctx):
+@@ -59,9 +59,9 @@
+             return []
+         if tq < 0.5:
+             return []
+-        # at $150 a hot 3/4 boat beats a 1.5-day on fish per dollar; keep one
+-        # 1.5-day trip's worth ($550) until fall is under way
+-        reserve = 550 if ctx.today.doy < 262 else 0
++        # season 1: hot 3/4 boats (doy 240-275) beat 1.5-day trips on fish per
++        # dollar, and the 1.5-day reserve never got spent, so no reserve
++        reserve = 0
+         cands = []
+         for o in ctx.offers:
+             if str(o.cls).lower() != "three_quarter" or not o.bookable:

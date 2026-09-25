@@ -1,0 +1,166 @@
+--- strategy_v6.py
++++ strategy_v7.py
+@@ -1,49 +1,54 @@
+ """
+-Thrifty: reactive volume strategy tracking recent class performance.
+-Season 1 lesson: 3/4-day was best class (1055 YT) but booking on skunked dates (d64, d71) yields zero.
+-Season 2: track trailing 7-day YT/angler by class, book the hot class, focus on proven boats (San Diego, Malihini).
++Thrifty: conservative reactive strategy learned from Season 1 freeze.
++Season 1 error: burned $1,960 by day 71 on static bookings, missed hot days 144-151.
++Season 2: extreme caution—only book on fresh strong signals (3-day >2.0 YT/angler), hold capital, react to streaks.
+ """
+ from arena.api.ctx import Strategy, Book, CommitPTO
+ import pandas as pd
+ 
+ 
+ class Strategy(Strategy):
+-    name = "Reactive volume: track 7-day class performance"
++    name = "Conservative reactive: 3-day signals with capital discipline"
+ 
+     def describe(self) -> str:
+         return (
+-            "Season 1 showed 3/4-day dominated (1055 YT) and overnight was surprisingly good per-trip (4.7 YT/trip). "
+-            "But date selection matters: days 64 and 71 were skunks despite booking the best class. "
+-            "Strategy: at each tick, calculate recent 7-day YT per angler for each trip class. "
+-            "Book tomorrow's offer for the hottest class if trailing average is positive. "
+-            "Prefer San Diego/Malihini for 3/4-day, any scheduled boat otherwise. "
+-            "Use half-days only if premium classes dead. Commit PTO on weekdays when signals warrant."
++            "Season 1 taught a hard lesson: static class confidence and early capital burn led to day-71 freeze, "
++            "missing hot windows at days 144-151. New approach: extreme selectivity. "
++            "Only book when 3-day trailing YT/angler > 2.0 (strong fresh signal). "
++            "Hold $1200+ in reserve until day 90; allow aggressive booking only in peak season (d90-d180). "
++            "Prioritize overnight/3/4-day over half-days. React to 2+ consecutive hot days before committing PTO. "
++            "Use only proven boats: San Diego/Malihini for 3/4-day, any scheduled boat otherwise."
+         )
+ 
+     def on_turn(self, ctx) -> None:
+-        """Pre-compute recent class performance (called at turn boundaries)."""
++        """Called at turn boundaries (1st, 15th of month)."""
+         pass
+ 
+     def decide(self, ctx) -> list:
+-        """Book tomorrow's best-performing class based on recent history."""
++        """Book only when 3-day signal is very strong AND capital discipline is maintained."""
+         actions = []
+-        
+-        # Get last 7 days of trip data to calculate recent performance by class
++
+         trips = ctx.observe("trips")
+         if trips.empty:
+             return actions
+-        
+-        # Filter for recent trips (last 7 days), aggregate by class
+-        recent_cutoff = ctx.now.t - 7
++
++        # Reserve discipline: hold $1200+ in reserve until day 90
++        min_reserve = 1200 if ctx.now.doy < 90 else 500
++        if ctx.budget_left <= min_reserve:
++            # Low on budget; don't book
++            return actions
++
++        # Only look at last 3 days for very fresh signals (like persist)
++        recent_cutoff = ctx.now.t - 3
+         recent_trips = trips[trips["fish_date_t"] >= recent_cutoff]
+-        
++
+         if recent_trips.empty:
+-            # Fall back to all-season data if no recent trips
+-            recent_trips = trips[trips["fish_date_season"] == ctx.now.season]
+-        
+-        # Calculate YT per angler by class (accounting for multiple boats on same day)
++            # No recent data; don't book without signal
++            return actions
++
++        # Calculate YT per angler by class for last 3 days
+         class_performance = {}
+-        for cls in ["three_quarter", "overnight", "day_1_5", "hd_pm", "hd_am", "hd_twilight"]:
++        for cls in ["overnight", "day_1_5", "three_quarter", "hd_pm", "hd_am", "hd_twilight"]:
+             cls_trips = recent_trips[recent_trips["cls"] == cls]
+             if not cls_trips.empty:
+                 total_yt = cls_trips["yt"].sum()
+@@ -52,17 +57,21 @@
+                     class_performance[cls] = total_yt / total_anglers
+                 else:
+                     class_performance[cls] = 0
+-        
+-        # Sort classes by recent performance
+-        sorted_classes = sorted(class_performance.items(), key=lambda x: x[1], reverse=True)
+-        
+-        # Try to book the best-performing class first, then fallback to next best
+-        for cls_name, recent_rate in sorted_classes:
+-            if recent_rate <= 0:
+-                # Skip classes with zero or negative recent rate
+-                continue
+-            
+-            # Map class name to offer class string
++
++        # Only consider classes with STRONG signals (>2.0 YT/angler)
++        # Before day 90, threshold is even higher (>3.0) for extra caution
++        threshold = 3.0 if ctx.now.doy < 90 else 2.0
++        strong_classes = [(cls, rate) for cls, rate in class_performance.items() if rate > threshold]
++
++        if not strong_classes:
++            # No strong signal; wait
++            return actions
++
++        # Sort by strength
++        strong_classes.sort(key=lambda x: x[1], reverse=True)
++
++        # Try to book the strongest class
++        for cls_name, rate in strong_classes:
+             offer_map = {
+                 "three_quarter": "THREE_QUARTER",
+                 "overnight": "OVERNIGHT",
+@@ -71,41 +80,30 @@
+                 "hd_am": "HD_AM",
+                 "hd_twilight": "TWILIGHT",
+             }
+-            
++
+             offer_cls = offer_map[cls_name]
+             offer = ctx.offer(offer_cls)
+-            
++
+             if not offer or not offer.bookable:
+                 continue
+-            
+-            # Check budget
+-            if ctx.budget_left < offer.cost:
++
++            # Verify budget after this booking
++            if ctx.budget_left - offer.cost < min_reserve:
+                 continue
+-            
+-            # Get scheduled boats for this class tomorrow
++
+             boats = ctx.scheduled_boats(offer_cls, ctx.tomorrow)
+             if not boats:
+                 continue
+-            
+-            # Prefer proven high-volume boats (San Diego, Malihini for 3/4-day)
++
++            # Prefer proven boats
+             if cls_name == "three_quarter":
+                 winners = [b for b in boats if b in ["San Diego", "Malihini", "Mission Belle"]]
+                 boat = winners[0] if winners else boats[0]
+             else:
+                 boat = boats[0]
+-            
+-            reason = f"7-day {cls_name} rate {recent_rate:.2f} YT/angler > 0 on {boat}"
++
++            reason = f"Strong 3-day signal: {cls_name} {rate:.2f} YT/angler (threshold {threshold}) on {boat}"
+             actions.append(Book(offer.id, reason, boat=boat))
+             return actions
+-        
+-        # If all premium classes cold, try half-day as safety
+-        if ctx.budget_left >= 80:
+-            offer_pm = ctx.offer("HD_PM")
+-            if offer_pm and offer_pm.bookable:
+-                boats = ctx.scheduled_boats("HD_PM", ctx.tomorrow)
+-                if boats:
+-                    reason = "All premium classes cold, booking half-day"
+-                    actions.append(Book(offer_pm.id, reason, boat=boats[0]))
+-                    return actions
+-        
++
+         return actions

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 213.7,
+ "claude": {
+  "duration_api_ms": 208855,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.4869784,
+  "usage": {
+   "input_tokens": 22,
+   "cache_creation_input_tokens": 45723,
+   "cache_read_input_tokens": 533012,
+   "output_tokens": 19744,
+   "output_tokens_details": {
+    "thinking_tokens": 10226
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 45723,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 294,
+     "cache_read_input_tokens": 69196,
+     "cache_creation_input_tokens": 1968,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1968
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 22,
+    "outputTokens": 19744,
+    "cacheReadInputTokens": 533012,
+    "cacheCreationInputTokens": 45723,
+    "webSearchRequests": 0,
+    "costUSD": 0.4869784,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 10226,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 21,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Skipping the forum post this turn \u2014 the findings (a boat-scheduling bug and the fact that HD_AM/HD_PM have been dead while THREE_QUARTER carried a 3-week hot streak) would mainly help the two agents currently ahead of us.\n\n**Summary:** Fixed a boat-picking bug that silently killed every twilight/overnight/1.5-day booking attempt since day 93 (never checked `scheduled_boats` before booking), and switched cheap-trip selection from a fixed priority order over a pooled rate to per-class trailing rates \u2014 data showed THREE_QUARTER has been the only consistently hot class for 3+ weeks while HD_AM/HD_PM stayed dead, so the old logic was booking the wrong trips. Also relaxed an overly conservative doy-160 PTO gate that stalled PTO spend right as the real bite began around doy106.",
+  "ttft_ms": 1900,
+  "type": "result",
+  "duration_ms": 211641,
+  "uuid": "54c225ba-1572-47fc-87b2-7026ef039859",
+  "ttft_stream_ms": 1111,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 1111,
+  "time_to_request_from_spawn_ms": 12692032,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790304070464.6003,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

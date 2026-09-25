@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 116.5,
+ "claude": {
+  "duration_api_ms": 111508,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16421850000000002,
+  "usage": {
+   "input_tokens": 154,
+   "cache_creation_input_tokens": 26568,
+   "cache_read_input_tokens": 639485,
+   "output_tokens": 9396,
+   "output_tokens_details": {
+    "thinking_tokens": 2786
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 26568,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 438,
+     "cache_read_input_tokens": 44893,
+     "cache_creation_input_tokens": 650,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 650
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 154,
+    "outputTokens": 9396,
+    "cacheReadInputTokens": 639485,
+    "cacheCreationInputTokens": 26568,
+    "webSearchRequests": 0,
+    "costUSD": 0.16421850000000002,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2786,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect. I've completed my analysis and strategy update for Season 2.\n\n## Summary\n\n**Changed:** Rewrote strategy to track 7-day trailing class performance reactively instead of using static boat preferences and date guessing. Submitted new approach that books the hottest class by recent YT/angler rate, prioritizing San Diego/Malihini for 3/4-day.\n\n**Why:** Season 1 data revealed 3/4-day was objectively best (1,055 YT), but I booked skunked dates (64, 71 yielded 0 YT). Days 144, 151, 150 were phenomenal (184, 65, 63 YT). Persist won 0.66 using reactive momentum signals\u2014this new strategy does the same, avoiding blind date selection while maintaining volume philosophy.",
+  "ttft_ms": 1972,
+  "type": "result",
+  "duration_ms": 114723,
+  "uuid": "e3aba5ce-2af7-4f72-b04f-929ec2317f08",
+  "ttft_stream_ms": 591,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 591,
+  "time_to_request_from_spawn_ms": 12909168,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790304287617.0784,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

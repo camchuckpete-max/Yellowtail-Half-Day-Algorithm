@@ -1,0 +1,2 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4014, "ts": "2026-09-25T03:12:23"}
+{"tool": "submit_strategy", "ok": true, "reason": null, "summary": "Added Scripps Pier water-temp gate (59\u00b0F minimum) + seasonal/momentum discipline to fix Season 1 dead-zone bleed.", "adopted_from": [], "ts": "2026-09-25T03:13:50"}

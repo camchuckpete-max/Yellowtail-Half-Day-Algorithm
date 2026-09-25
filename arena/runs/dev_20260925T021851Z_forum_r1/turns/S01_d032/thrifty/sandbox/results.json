@@ -1,0 +1,117 @@
+{
+ "season": 1,
+ "budget_left": 2000.0,
+ "pto_left": 0.0,
+ "season_score": 0,
+ "season_rank": 7,
+ "cumulative_score": 0,
+ "cumulative_rank": 7,
+ "pto_committed": [
+  "S01 d017",
+  "S01 d018",
+  "S01 d019",
+  "S01 d020"
+ ],
+ "bookings": [],
+ "rejected_actions_and_errors_since_last_turn": [
+  {
+   "date": "S01 d001",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:731",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d006",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:736",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d007",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:737",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d013",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:743",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d014",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:744",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d015",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:745",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d016",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:746",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d017",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:747",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d018",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:748",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d019",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:749",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d020",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:750",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d021",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:751",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d027",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:757",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d028",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:758",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  }
+ ],
+ "seasons": []
+}

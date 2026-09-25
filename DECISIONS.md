@@ -749,3 +749,12 @@ scores are valid engine output, but the second half is not a test of adaptive pl
 are resolved to absolute paths, `turn.json` paths are absolute, and `arena/turns.py` health-checks
 the MCP server before every turn (a dead server fails the turn loudly and spends nothing). The
 smoke run is repeated from scratch under the fixed code (next entry).
+
+## D-057 Clean LLM smoke run (2026-09-25)
+Same setup as D-056, run `dev_20260925T021851Z_forum_r1` from scratch under the fixed code (absolute
+paths, MCP health check): 42 turns, every turn had its tools. Season fish: temp_first (Opus 5.5)
+10.84, B_BIG 7.89, persist (Sonnet 5) 0.66, B_PERSIST 0.34, B_SAT 0.20, thrifty (Haiku 4.5) 0.15,
+B_TEMP 0.07. Details (cost, trips, forum, rejections) in the run's `results/`, `turns.jsonl`,
+`forum.jsonl` and `decisions.jsonl`; the dashboard artifact shows this run. Findings for the owner
+are in the session report. One season with three agents is a machinery test, not evidence about
+strategy quality.

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 86.5,
+ "claude": {
+  "duration_api_ms": 82819,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1117589,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 25387,
+   "cache_read_input_tokens": 249769,
+   "output_tokens": 7188,
+   "output_tokens_details": {
+    "thinking_tokens": 3183
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 25387,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 656,
+     "cache_read_input_tokens": 40979,
+     "cache_creation_input_tokens": 3383,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 3383
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 7188,
+    "cacheReadInputTokens": 249769,
+    "cacheCreationInputTokens": 25387,
+    "webSearchRequests": 0,
+    "costUSD": 0.1117589,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 3183,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**No strategy changes needed.** With $40 left and only 3 days remaining (minimum trip cost $80), there's nothing to book. The strategy code will correctly return empty actions since `budget_left < any offer cost`.\n\nSeason 1 is concluded: I caught 4 fish total (0.1538 share), tied for rank 2. The pivot to premium trips was strategically correct but execution was unlucky\u2014my booked boats didn't catch fish while others on the same dates did. Key learnings documented for Season 2: start premium trips immediately, track boat-specific catch rates, and allocate budget to multi-day/1.5-day before half-days.\n\n**Summary:** Season 1 complete with 0.1538 fish (rank 2); pivot strategy was correct but unlucky boat selection yielded zero catches on premium trips; documented full post-mortem for Season 2 strategy improvements focusing on boat-level tracking and early premium trip booking.",
+  "ttft_ms": 2306,
+  "type": "result",
+  "duration_ms": 84450,
+  "uuid": "a6e7a63d-d843-4db4-9e2b-4e734247fa04",
+  "ttft_stream_ms": 556,
+  "time_to_request_ms": 92,
+  "first_content_frame_ms": 556,
+  "time_to_request_from_spawn_ms": 12336889,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790303715286.0942,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

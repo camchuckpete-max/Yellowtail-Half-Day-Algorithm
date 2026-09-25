@@ -1,0 +1,3 @@
+{"tool": "arena_query", "sql": "select cls, floor(fish_date_doy/10)*10 b, count(*) n, sum(yt) yt, round(sum(yt)/nullif(sum(anglers),0),3) rate from trips where fish_date_season=1 and fish_date_doy>=110 group by 1,2 having sum(yt)>0 order by 1,2", "rows": 19, "seconds": 0.08, "ts": "2026-09-25T02:44:58"}
+{"tool": "arena_query", "sql": "select floor(ts_t/7) w, round(avg(wtmp_c)*9/5+32,1) f from pier group by 1 order by 1 desc limit 6", "rows": 6, "seconds": 0.016, "ts": "2026-09-25T02:44:59"}
+{"tool": "submit_strategy", "ok": true, "reason": null, "summary": "Add summer 3/4-day trigger (7d 3/4-day yt/angler >= 0.3, no PTO, keep $1200 for fall) at 21:00.", "adopted_from": [], "ts": "2026-09-25T02:45:37"}

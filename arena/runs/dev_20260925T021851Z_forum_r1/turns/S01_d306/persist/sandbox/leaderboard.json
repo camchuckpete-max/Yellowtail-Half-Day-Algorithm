@@ -1,0 +1,58 @@
+[
+ {
+  "name": "temp_first",
+  "season_fish": 10.8416,
+  "cumulative_fish": 0,
+  "season_rank": 1,
+  "cumulative_rank": 1,
+  "strategy": "Warm water first. Gate: 7-day mean Scripps Pier temperature must be at least 59 F (colder water has shown almost no yellowtail). Signal: yellowtail per angler on overnight and 1.5-day boats, each class separately, over the last 7 days. At the 16:00 tick, book an OVERNIGHT or 1.5-DAY trip whose own class rate is hot enough: 1.5 in the fall window (day of year 255-310), 1.0 otherwise, and outside fall only while keeping $1200 in reserve. Among qualifying offers pick the best rate per dollar. Prefer weekend trips that cost no PTO. Commit PTO 14 days ahead on alternate weekdays inside the fall peak window (day 270-305), keeping it for weekday overnights. 3/4-day add-on: at 21:00, book a bookable no-PTO 3/4-day trip when the 7-day 3/4-day rate is at least 0.5 per angler (best fish per dollar at $150), keeping $550 for one fall 1.5-day trip until day 262. Boat = scheduled boat that ran that class most recently (pick_boat)."
+ },
+ {
+  "name": "B_BIG",
+  "season_fish": 7.8918,
+  "cumulative_fish": 0,
+  "season_rank": 2,
+  "cumulative_rank": 2,
+  "strategy": "Spend the whole budget on 1.5-day trips departing Friday evenings in August\u2013September."
+ },
+ {
+  "name": "persist",
+  "season_fish": 0.6632,
+  "cumulative_fish": 0,
+  "season_rank": 3,
+  "cumulative_rank": 3,
+  "strategy": "Reactive momentum, no weather. A class must clear an all-time pooled yellowtail-per-angler bar (once enough samples exist) before being considered at all, so structurally weak classes (half-day AM/PM, twilight) are excluded regardless of short-term noise; three-quarter, overnight and 1.5-day have been the real earners. Among qualifying classes, tracks yellowtail per angler over the last 2-3 days separately per class. At 21:00, books tomorrow's bookable qualifying cheap-class offer with the best positive trailing rate, but only if enough budget stays reserved for premium (overnight/1.5-day) trips, since those pay far more fish per PTO day and per dollar. At 16:00, books today's twilight on its own recent rate (never costs PTO), and books the better of overnight/1.5-day when its trailing rate is positive. Weekday PTO 14 days out is committed only on a premium signal, or a cheap signal well above its historical average - avoiding burning most PTO on marginal half-day noise early and leaving none for later opportunities. Budget and PTO reserves taper off as the season progresses. Boats are chosen, among those actually scheduled, by best historical rate for that class."
+ },
+ {
+  "name": "B_PERSIST",
+  "season_fish": 0.3366,
+  "cumulative_fish": 0,
+  "season_rank": 4,
+  "cumulative_rank": 4,
+  "strategy": "Book tomorrow's PM half day if today's pooled half-day yellowtail count (visible at 21:00) is > 0."
+ },
+ {
+  "name": "B_SAT",
+  "season_fish": 0.2001,
+  "cumulative_fish": 0,
+  "season_rank": 5,
+  "cumulative_rank": 5,
+  "strategy": "Every Saturday from July to October, book the PM half day."
+ },
+ {
+  "name": "thrifty",
+  "season_fish": 0.1538,
+  "cumulative_fish": 0,
+  "season_rank": 6,
+  "cumulative_rank": 6,
+  "strategy": "Season 1 data: dead zone (d35-71) averaged 14.8\u00b0C, yielded 0 YT from 146 premium trips. Peak (d250-275) averaged 17.6\u00b0C, yielded 18,441 YT from 1004 trips. Primary gate: Scripps Pier water temperature (7-day rolling mean >= 15.5\u00b0C baseline, raised to 17\u00b0C in fall window d240-310). Secondary gate: proven classes only (day_1_5, overnight, three_quarter). Within gates, track 2-3 day rolling YT/angler per class. At 21:00, book tomorrow's highest-rate offer if temp gate passes. Commit PTO 14 days ahead when temp + class momentum both positive, spacing weekday PTO for fall weekends. Hold $200 minimum; prefer San Diego/Malihini for 3/4-day, pick_boat otherwise."
+ },
+ {
+  "name": "B_TEMP",
+  "season_fish": 0.0733,
+  "cumulative_fish": 0,
+  "season_rank": 7,
+  "cumulative_rank": 7,
+  "strategy": "July\u2013October, when the latest Scripps Pier water temperature is \u2265 68 \u00b0F and ONI > 0, book the PM half day."
+ }
+]

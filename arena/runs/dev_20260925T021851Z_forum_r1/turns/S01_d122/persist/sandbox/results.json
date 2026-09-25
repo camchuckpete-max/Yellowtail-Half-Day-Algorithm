@@ -1,0 +1,390 @@
+{
+ "season": 1,
+ "budget_left": 1040.0,
+ "pto_left": 5.0,
+ "season_score": 0.0357,
+ "season_rank": 3,
+ "cumulative_score": 0,
+ "cumulative_rank": 3,
+ "pto_committed": [
+  "S01 d107",
+  "S01 d108",
+  "S01 d109",
+  "S01 d110",
+  "S01 d111"
+ ],
+ "bookings": [
+  {
+   "offer_id": "TWILIGHT:824",
+   "cls": "TWILIGHT",
+   "departure": "S01 d095",
+   "fishing_date": "S01 d095",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 30.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.43, twilight (no PTO)"
+  },
+  {
+   "offer_id": "HD_PM:827",
+   "cls": "HD_PM",
+   "departure": "S01 d098",
+   "fishing_date": "S01 d098",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 22.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.03 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:828",
+   "cls": "HD_PM",
+   "departure": "S01 d099",
+   "fishing_date": "S01 d099",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 30.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.08 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:835",
+   "cls": "HD_PM",
+   "departure": "S01 d106",
+   "fishing_date": "S01 d106",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 47.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.75 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:836",
+   "cls": "HD_PM",
+   "departure": "S01 d107",
+   "fishing_date": "S01 d107",
+   "cost": 80,
+   "pto": 1.0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 14.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.64 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:837",
+   "cls": "HD_PM",
+   "departure": "S01 d108",
+   "fishing_date": "S01 d108",
+   "cost": 80,
+   "pto": 1.0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 20.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.01 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:838",
+   "cls": "HD_PM",
+   "departure": "S01 d109",
+   "fishing_date": "S01 d109",
+   "cost": 80,
+   "pto": 1.0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 19.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.01 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:839",
+   "cls": "HD_PM",
+   "departure": "S01 d110",
+   "fishing_date": "S01 d110",
+   "cost": 80,
+   "pto": 1.0,
+   "settled": true,
+   "ran": true,
+   "yt": 1.0,
+   "anglers": 27.0,
+   "competitors_aboard": 0,
+   "share": 0.035714,
+   "your_reason": "pooled recent yt/angler=0.04 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:840",
+   "cls": "HD_PM",
+   "departure": "S01 d111",
+   "fishing_date": "S01 d111",
+   "cost": 80,
+   "pto": 1.0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 25.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.08 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:841",
+   "cls": "HD_PM",
+   "departure": "S01 d112",
+   "fishing_date": "S01 d112",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 34.0,
+   "competitors_aboard": 1,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.09 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:848",
+   "cls": "HD_PM",
+   "departure": "S01 d119",
+   "fishing_date": "S01 d119",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 52.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.09 on HD_PM"
+  },
+  {
+   "offer_id": "HD_PM:849",
+   "cls": "HD_PM",
+   "departure": "S01 d120",
+   "fishing_date": "S01 d120",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 31.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "pooled recent yt/angler=0.08 on HD_PM"
+  }
+ ],
+ "rejected_actions_and_errors_since_last_turn": [
+  {
+   "date": "S01 d093",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:822",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d094",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:823",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d096",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:825",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d097",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:826",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d097",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:826",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d098",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book OVERNIGHT:827",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d100",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:829",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d101",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:830",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d103",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:832",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d104",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:833",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d104",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:833",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d104",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:834",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d105",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:834",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d105",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:834",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d105",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:835 Malihini",
+   "error": "already booked for that fishing date"
+  },
+  {
+   "date": "S01 d106",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:835",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d107",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:836",
+   "error": "'Aztec' is not scheduled for DAY_1_5 on S01 d108; scheduled: none"
+  },
+  {
+   "date": "S01 d108",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:837",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d113",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:842",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d114",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:843",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d115",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:844",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d116",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:845",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d117",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:846",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d118",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:847",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d118",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:847",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d121",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:850",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d122",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book TWILIGHT:851",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  }
+ ],
+ "seasons": []
+}

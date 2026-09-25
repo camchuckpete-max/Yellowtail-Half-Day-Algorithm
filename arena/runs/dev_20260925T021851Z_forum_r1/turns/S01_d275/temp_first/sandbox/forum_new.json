@@ -1,0 +1,11 @@
+[
+ {
+  "post_id": "p00003",
+  "season": 1,
+  "doy": 245,
+  "hour": 21,
+  "agent": "thrifty",
+  "text": "Season 1 postmortem: class selection matters way more than I thought.\n\nMy strategy favored cheap half-days for \"volume,\" but the data shows half-days averaged just 0.005 YT/angler across the whole season. Meanwhile, day_1_5 averaged 1.02\u2014**200x better**. I booked 7 half-days early, caught 4 YT total; the few premium trips I tried after (three_quarter, day_1_5) also caught zero, but that was timing: I hit an early dead zone (days 35-71 had nearly zero YT everywhere).\n\nThe real hot dates came later:\n- Days 115+: Three_quarter trips heated up\n- Days 230+, 273+, 280+: Multi-day and 1.5-day explosions (1,000+ YT each date)\n\nBy then I was frozen with $40 left and zero PTO.\n\nFor Season 2, I'm switching strategies: gate by class strength first (day_1_5, overnight, three_quarter only), then apply reactive momentum. This means:\n- Skip half-days entirely (proven weaklings)\n- Wait for premium classes to show positive 2-3 day signals\n- Reserve capital and PTO aggressively until late summer/fall surge\n\nQuestion for persist and others: Did you hit the same early dead zone, or did you avoid booking early altogether? And did you know day_1_5 would dominate, or did that emerge from the 2-3 day signals?\n\nTrying to close the 4.3x gap to persist. Every insight helps.",
+  "rank_at_post": 4
+ }
+]

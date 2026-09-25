@@ -1,0 +1,147 @@
+--- strategy_v7.py
++++ strategy_v8.py
+@@ -5,9 +5,13 @@
+ samples exist) to even be considered, so structurally weak classes are not
+ chased on noise; among classes that clear the bar, recent (2-3 day) rate is
+ tracked separately per class so a hot class is not diluted by dead ones.
+-Twilight trips never cost PTO, so they are booked on their own signal alone;
+-weekday trips need PTO committed 14 days ahead, funded from the same recent-
+-momentum proxy. Every booking is checked against the actual sailing schedule
++Twilight trips never cost PTO, so they are booked on their own signal alone.
++Premium classes (overnight/1.5-day) earn far more fish per PTO day and per
++dollar than cheap classes, and PTO is scarce and never refunded once
++committed, so both budget and PTO carry a reserve (tapering off over the
++season) that cheap-class bookings must respect, and PTO 14 days ahead is only
++committed on a premium signal or an unusually strong cheap signal - not any
++positive noise. Every booking is checked against the actual sailing schedule
+ so we never try to book a boat that is not running that class that day, and
+ among the boats actually scheduled we pick the one with the best historical
+ yellowtail-per-angler rate for that class (computed fresh from observed trip
+@@ -27,10 +31,13 @@
+ }
+ CHEAP_OFFER_CLASSES = ("HD_AM", "HD_PM", "THREE_QUARTER", "FULL_DAY")
+ PREMIUM_OFFER_CLASSES = ("OVERNIGHT", "DAY_1_5")
+-PTO_RESERVE = 1
++SEASON_LENGTH_DAYS = 365
+ BOAT_MIN_ANGLERS = 30
+ CLASS_MIN_ANGLERS = 200
+ CLASS_MIN_RATE = 0.05
++PTO_RESERVE_BASE = 4.0
++PTO_CHEAP_BAR = 0.3
++BUDGET_RESERVE_BASE = 600.0
+ 
+ 
+ class Strategy(Strategy):
+@@ -38,29 +45,39 @@
+ 
+     def describe(self):
+         return (
+-            "Reactive momentum, no weather. Before a class is even considered, "
+-            "its all-time pooled yellowtail-per-angler rate (once enough samples "
+-            "exist) must clear a minimum bar, so structurally weak classes are "
+-            "excluded regardless of short-term noise; data so far shows half-day "
+-            "AM/PM and twilight trips near zero all season while three-quarter, "
+-            "overnight and 1.5-day are real earners. Among classes clearing the "
+-            "bar, tracks yellowtail per angler over the last 2-3 days separately "
+-            "per class, so a hot class is not diluted by dead ones. At 21:00, "
+-            "books tomorrow's bookable qualifying cheap-class offer with the best "
+-            "positive trailing rate. At 16:00, books today's twilight trip only "
+-            "on twilight's own recent rate (twilight never costs PTO either way), "
+-            "and books the better of overnight/1.5-day when its trailing rate is "
+-            "positive. Weekday PTO 14 days out is committed whenever the best "
+-            "trailing rate across qualifying classes is positive, keeping a 1-day "
+-            "reserve. Every booking is checked against the real sailing schedule "
+-            "and against budget. Among boats actually scheduled, picks whichever "
+-            "has the best all-time yellowtail-per-angler rate for that class "
+-            "(recomputed from observed trips each tick, minimum sample required), "
+-            "falling back to the most-recently-active scheduled boat otherwise."
++            "Reactive momentum, no weather. A class must clear an all-time "
++            "pooled yellowtail-per-angler bar (once enough samples exist) "
++            "before being considered at all, so structurally weak classes "
++            "(half-day AM/PM, twilight) are excluded regardless of short-"
++            "term noise; three-quarter, overnight and 1.5-day have been the "
++            "real earners. Among qualifying classes, tracks yellowtail per "
++            "angler over the last 2-3 days separately per class. At 21:00, "
++            "books tomorrow's bookable qualifying cheap-class offer with "
++            "the best positive trailing rate, but only if enough budget "
++            "stays reserved for premium (overnight/1.5-day) trips, since "
++            "those pay far more fish per PTO day and per dollar. At 16:00, "
++            "books today's twilight on its own recent rate (never costs "
++            "PTO), and books the better of overnight/1.5-day when its "
++            "trailing rate is positive. Weekday PTO 14 days out is "
++            "committed only on a premium signal, or a cheap signal well "
++            "above its historical average - avoiding burning most PTO on "
++            "marginal half-day noise early and leaving none for later "
++            "opportunities. Budget and PTO reserves taper off as the "
++            "season progresses. Boats are chosen, among those actually "
++            "scheduled, by best historical rate for that class."
+         )
+ 
+     def on_turn(self, ctx):
+         pass
++
++    def _season_frac_left(self, ctx):
++        return max(0.0, 1.0 - ctx.today.doy / SEASON_LENGTH_DAYS)
++
++    def _budget_reserve(self, ctx):
++        return BUDGET_RESERVE_BASE * self._season_frac_left(ctx)
++
++    def _pto_reserve(self, ctx):
++        return PTO_RESERVE_BASE * self._season_frac_left(ctx)
+ 
+     def _rate(self, ctx, classes, days_back):
+         rows = ctx.observe("trips")
+@@ -120,11 +137,13 @@
+         grp["rate"] = grp["yt"] / grp["anglers"]
+         return grp["rate"].idxmax()
+ 
+-    def _book_if_bookable(self, ctx, actions, cls, reason, taken_ids):
++    def _book_if_bookable(self, ctx, actions, cls, reason, taken_ids, min_leftover=0.0):
+         offer = ctx.offer(cls)
+         if offer is None or not offer.bookable or offer.id in taken_ids:
+             return None
+         if offer.cost > ctx.budget_left:
++            return None
++        if ctx.budget_left - offer.cost < min_leftover:
+             return None
+         fdates = offer.fishing_dates
+         if fdates:
+@@ -149,24 +168,30 @@
+         if ctx.now.hour == 21:
+             cheap_rates = {oc: self._rate(ctx, CLASS_TRIPS_MAP[oc], 3) for oc in cheap_classes}
+             premium_rates = {oc: self._rate(ctx, CLASS_TRIPS_MAP[oc], 3) for oc in premium_classes}
+-            best_overall = 0.0
++            budget_reserve = self._budget_reserve(ctx)
+             if cheap_rates:
+                 best_cheap = max(cheap_rates, key=cheap_rates.get)
+                 if cheap_rates[best_cheap] > 0:
+                     self._book_if_bookable(
+                         ctx, actions, best_cheap,
+                         f"recent {best_cheap} yt/angler={cheap_rates[best_cheap]:.2f}, best of {cheap_rates}",
+-                        taken_ids,
+-                    )
+-                best_overall = max(best_overall, max(cheap_rates.values()))
+-            if premium_rates:
+-                best_overall = max(best_overall, max(premium_rates.values()))
++                        taken_ids, min_leftover=budget_reserve,
++                    )
++
++            cheap_best = max(cheap_rates.values()) if cheap_rates else 0.0
++            premium_best = max(premium_rates.values()) if premium_rates else 0.0
++            worth_pto = premium_best > 0 or cheap_best >= PTO_CHEAP_BAR
+ 
+             target = ctx.today.plus(14)
+             if not target.is_weekend and not target.is_holiday:
+-                if best_overall > 0 and ctx.pto_left > PTO_RESERVE:
++                pto_reserve = self._pto_reserve(ctx)
++                if worth_pto and ctx.pto_left - 1 >= pto_reserve:
+                     actions.append(
+-                        CommitPTO(target, f"best recent trailing rate {best_overall:.2f}, funding weekday PTO for {target}")
++                        CommitPTO(
++                            target,
++                            f"premium best={premium_best:.2f}, cheap best={cheap_best:.2f}, "
++                            f"funding weekday PTO for {target} (reserve={pto_reserve:.1f})",
++                        )
+                     )
+ 
+         if ctx.now.hour == 16:

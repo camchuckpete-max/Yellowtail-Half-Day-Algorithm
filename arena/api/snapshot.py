@@ -24,10 +24,12 @@ from yt import events, hourly
 from arena.engine import calendar as cal
 
 DATE_COLS = {"fished_date", "fish_date", "return_date", "target_date", "report_date", "date", "qstart"}
+SCHEDULE_CLASSES = ("hd_am", "hd_pm", "hd_unspecified", "hd_twilight", "three_quarter", "full_day", "overnight", "day_1_5")
 TS_COLS = {"available_at", "ts"}
 DROP_COLS = {"src_id", "obs_date", "condition_date", "ts_utc", "quarter_start", "quarter", "month", "release_lag_days"}
 
 TIDE_PRED_LEAD_DAYS = 365   # hourly tide predictions are published more than a year ahead (D-029 spirit)
+SCHEDULE_LEAD_DAYS = 14     # D-055: which boats sail (boat, landing, class, fishing date) is public 14 days ahead; no counts
 
 
 def _mask_col(df: pd.DataFrame, col: str, first_year: int, ts: bool) -> pd.DataFrame:
@@ -74,6 +76,10 @@ def load_raw_tables(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     t: dict[str, pd.DataFrame] = {}
     trips = events.load_trips(db)
     t["trips"] = trips.drop(columns=["is_hd_fishing"])
+    sched = trips[trips["cls"].isin(SCHEDULE_CLASSES) & trips["anglers"].notna()][["landing", "boat", "cls", "fish_date"]].copy()
+    sched = sched.drop_duplicates()
+    sched["available_at"] = sched["fish_date"] - pd.Timedelta(days=SCHEDULE_LEAD_DAYS)
+    t["schedule"] = sched.sort_values("available_at", kind="stable").reset_index(drop=True)
     t["forecasts"] = events.load_forecasts(db)
     t["marine_forecasts"] = events.load_marine_forecasts(db)
     t["tides"] = events.load_tides(db)
@@ -97,7 +103,7 @@ def load_raw_tables(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     return t
 
 
-TABLES = ("trips", "forecasts", "marine_forecasts", "tides", "ocean", "fishdope", "hourly_tides", "pier",
+TABLES = ("trips", "schedule", "forecasts", "marine_forecasts", "tides", "ocean", "fishdope", "hourly_tides", "pier",
           "buoy", "metar", "upwelling", "climate", "glider", "sla", "kelp", "chl")
 
 

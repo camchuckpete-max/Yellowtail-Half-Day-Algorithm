@@ -95,6 +95,7 @@ def describe_tables() -> str:
               "(multi_day = 2-day and longer, never offered). Your share on a trip = sum(yt) / (sum(anglers) + competitors) "
               "over all rows of that class with fish_date = the fishing date.",
               "Key tables: trips (per-boat counts; fish_date_* = day fished; yt = yellowtail kept+released; anglers), "
+              "schedule (boat, landing, cls, fish_date_*: which boats sail, visible 14 days ahead, no counts), "
               "pier (Scripps Pier water temperature, wtmp_c, hourly), climate (index_id oni/pdo/npgo/mei_v2, monthly value), "
               "forecasts / marine_forecasts (NWS), tides / hourly_tides, ocean (SST/chl/currents tiles), chl, fishdope "
               "(daily report fields and narrative text), buoy, metar, upwelling, glider, sla, kelp."]

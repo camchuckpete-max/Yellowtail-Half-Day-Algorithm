@@ -8,6 +8,7 @@ pto_mode: commit_day
 pto_lead_days: 14
 half_day_pto: 1.0
 max_trips_per_day: 1
+booking_unit: boat        # boat (D-055: book a named boat; its own count scores) | class (pooled across boats)
 agent_angler_weight: 1.0
 count_released: true
 mask_years: true

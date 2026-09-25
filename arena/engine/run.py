@@ -82,18 +82,20 @@ class Agent:
         self.posts_by_month: dict[str, int] = {}     # "YYYY-MM" -> posts
         self.cost_usd = 0.0
         self.forum_cursor = 0                        # forum posts already shown to this agent
+        self.trips_all: list[dict] = []              # every settled trip, all seasons (dashboard inspector)
+        self.turns_log: list[dict] = []              # every LLM turn (dashboard inspector)
 
     def to_json(self) -> dict:
         return {k: getattr(self, k) for k in ("name", "kind", "class_name", "adversary", "persona", "model", "forum", "budget", "pto",
                                               "pto_committed", "bookings", "history", "last_reasons", "failures", "describe",
                                               "strategy_version", "last_strategy_change", "last_turn", "posts_by_month",
-                                              "cost_usd", "forum_cursor")} | {"path": str(self.path)}
+                                              "cost_usd", "forum_cursor", "trips_all", "turns_log")} | {"path": str(self.path)}
 
     @classmethod
     def from_json(cls, d: dict) -> "Agent":
         a = cls(d["name"], d["kind"], Path(d["path"]), d["class_name"], d.get("adversary"), d.get("persona"), d.get("model"), d.get("forum", True))
         for k in ("budget", "pto", "pto_committed", "bookings", "history", "last_reasons", "failures", "describe", "strategy_version",
-                  "last_strategy_change", "last_turn", "posts_by_month", "cost_usd", "forum_cursor"):
+                  "last_strategy_change", "last_turn", "posts_by_month", "cost_usd", "forum_cursor", "trips_all", "turns_log"):
             if k in d:
                 setattr(a, k, d[k])
         return a
@@ -233,7 +235,7 @@ class Engine:
     def _booking_api(self, b: dict) -> api.Booking:
         return api.Booking(offer_id=b["offer_id"], cls=b["cls"], departure=api.day_of(date.fromisoformat(b["departure"])),
                            fishing_dates=tuple(api.day_of(date.fromisoformat(f)) for f in b["fishing_dates"]), cost=b["cost"],
-                           settled=b["settled"], ran=b.get("ran"), yt=b.get("yt"), anglers=b.get("anglers"),
+                           boat=b.get("boat", ""), settled=b["settled"], ran=b.get("ran"), yt=b.get("yt"), anglers=b.get("anglers"),
                            n_agents=b.get("n_agents"), share=b.get("share"))
 
     def _calendar_api(self, a: Agent) -> api.Calendar:
@@ -257,8 +259,9 @@ class Engine:
         out = []
         for b in a.bookings:
             if b["settled"]:
-                out.append({"offer_id": b["offer_id"], "cls": b["cls"], "departure": str(api.day_of(date.fromisoformat(b["departure"]))),
-                            "ran": b["ran"], "yt": b["yt"], "anglers": b["anglers"], "n_agents": b["n_agents"], "share": b["share"]})
+                out.append({"offer_id": b["offer_id"], "cls": b["cls"], "boat": b.get("boat", ""), "departure": str(api.day_of(date.fromisoformat(b["departure"]))),
+                            "ran": b["ran"], "yt": b["yt"], "anglers": b["anglers"], "n_agents": b["n_agents"], "share": b["share"],
+                            "pooled_share": b.get("pooled_share")})
         return out
 
     def _forum_visible(self, t: float, agent: "Agent | None" = None) -> list[dict]:
@@ -273,25 +276,33 @@ class Engine:
             for b in a.bookings:
                 if b["settled"] or datetime.fromisoformat(b["return_at"]) > now:
                     continue
-                key = (b["cls"], b["departure"])
-                n_agents = sum(1 for x in self.agents for y in x.bookings if (y["cls"], y["departure"]) == key)
-                po = self.outcomes.pooled_outcome(b["cls"], date.fromisoformat(b["fishing_dates"][0]))
+                fd = date.fromisoformat(b["fishing_dates"][0])
+                by_boat = self.cfg.get("booking_unit", "boat") == "boat"
+                key = (b["cls"], b["departure"], b.get("boat", "") if by_boat else "")
+                n_agents = sum(1 for x in self.agents for y in x.bookings
+                               if (y["cls"], y["departure"], y.get("boat", "") if by_boat else "") == key)
+                po = self.outcomes.pooled_outcome(b["cls"], fd)
+                out = self.outcomes.boat_outcome(b["cls"], b.get("boat", ""), fd) if by_boat else (po[:2] if po else None)
                 b["settled"] = True
                 b["n_agents"] = n_agents
-                if po is None:
+                b["pooled_share"] = round(po[0] / po[1], 6) if po and po[1] else None
+                if out is None:
                     b["ran"] = False
                     a.budget += b["cost"]   # fare refunded, PTO stays spent (§3.3)
                     b["yt"] = b["anglers"] = b["share"] = None
                 else:
-                    yt, anglers, _ = po
+                    yt, anglers = out
                     b["ran"], b["yt"], b["anglers"] = True, yt, anglers
                     b["share"] = round(scoring.share(yt, anglers, n_agents, w), 6)
-                fd = date.fromisoformat(b["fishing_dates"][0])
                 rec = {"season": self.season_year, "season_idx": api.day_of(fd).season, "doy": api.day_of(fd).doy,
-                       "date": fd.isoformat(), "agent": a.name, "cls": b["cls"], "ran": b["ran"], "yt": b["yt"],
-                       "anglers": b["anglers"], "n_agents": n_agents, "share": b["share"]}
+                       "date": fd.isoformat(), "agent": a.name, "cls": b["cls"], "boat": b.get("boat", ""), "ran": b["ran"],
+                       "yt": b["yt"], "anglers": b["anglers"], "n_agents": n_agents, "share": b["share"], "pooled_share": b["pooled_share"]}
                 _jsonl(self.dir / "outcomes.jsonl", rec)
                 self.outcomes_recent = ([rec] + self.outcomes_recent)[:20]
+                a.trips_all.append({"season": rec["season_idx"], "doy": rec["doy"], "dep_doy": api.day_of(date.fromisoformat(b["departure"])).doy,
+                                    "cls": b["cls"], "boat": b.get("boat", ""), "cost": b["cost"], "pto": b["pto"], "reason": b.get("reason", ""),
+                                    "ran": b["ran"], "yt": b["yt"], "anglers": b["anglers"], "competitors": n_agents - 1, "share": b["share"],
+                                    "pooled_share": b["pooled_share"], "strategy_version": b.get("strategy_version"), "booked_at": b.get("booked_at_masked", "")})
 
     def tick(self, today: date, tick: str) -> None:
         now = datetime.combine(today, cal.parse_tick(tick))
@@ -349,9 +360,17 @@ class Engine:
         elif isinstance(act, api.Book):
             label = f"Book {act.offer_id}"
             o = raw_offers.get(act.offer_id)
+            boat = (getattr(act, "boat", "") or "").strip()
+            by_boat = self.cfg.get("booking_unit", "boat") == "boat"
             if o is None:
                 valid, why = False, "no such offer at this tick"
+            elif by_boat and not boat:
+                valid, why = False, "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+            elif by_boat and boat not in self.outcomes.scheduled_boats(o.cls, o.fishing_dates[0]):
+                sched = self.outcomes.scheduled_boats(o.cls, o.fishing_dates[0])
+                valid, why = False, f"{boat!r} is not scheduled for {o.cls} on {api.day_of(o.fishing_dates[0])}; scheduled: {', '.join(sched) or 'none'}"
             else:
+                label = f"Book {act.offer_id} {boat}".strip()
                 ao = self._api_offer(o, a, {"today": today})
                 if not ao.bookable:
                     valid, why = False, ao.reason
@@ -359,10 +378,11 @@ class Engine:
                     a.budget -= o.cost
                     if self.cfg["pto_mode"] == "commit_trip":
                         a.pto -= sum(o.pto_need.values())
-                    a.bookings.append({"offer_id": o.id, "cls": o.cls, "departure": o.departure.isoformat(),
+                    a.bookings.append({"offer_id": o.id, "cls": o.cls, "boat": boat, "departure": o.departure.isoformat(),
                                        "fishing_dates": [f.isoformat() for f in o.fishing_dates], "return_at": o.return_at.isoformat(),
                                        "cost": o.cost, "pto": sum(o.pto_need.values()), "settled": False, "reason": act.reason,
-                                       "booked_at": f"{today.isoformat()} {tick}"})
+                                       "booked_at": f"{today.isoformat()} {tick}", "booked_at_masked": f"{day} {tick}",
+                                       "strategy_version": a.strategy_version})
         else:
             valid, why, label = False, "unknown action", str(act)
         rec = {"date": today.isoformat(), "masked": str(day), "tick": tick, "agent": a.name, "action": label,
@@ -497,6 +517,10 @@ class Engine:
                        "cost_usd": round(float(r.get("cost_usd") or 0.0), 4), "ok": r.get("ok"), "error": r.get("error")}
         _jsonl(self.dir / "turns.jsonl", {"tag": tag, "agent": a.name, "model": a.model, **a.last_turn,
                                           "num_turns": r.get("num_turns"), "seconds": r.get("seconds"), "summary": r.get("summary")})
+        a.turns_log.append({**{k: a.last_turn[k] for k in ("season", "doy", "tag", "queries", "posts", "submitted", "adopted", "cost_usd", "ok")},
+                            "season_end": tag.endswith("_end"), "version": a.strategy_version if changed else None,
+                            "change_summary": (sub or {}).get("summary") if changed else None, "describe": a.describe if changed else None,
+                            "summary": (r.get("summary") or "")[:600], "error": (r.get("error") or "")[:300] or None})
         a.failures = []
 
     # ---------------------------------------------------------------- season
@@ -583,7 +607,7 @@ class Engine:
                     strip.append({"doy": dd.doy, "pto": True, "cls": None, "outcome": None, "share": None, "n_agents": None})
             for b in a.bookings:
                 dd = api.day_of(date.fromisoformat(b["fishing_dates"][0]))
-                strip.append({"doy": dd.doy, "pto": b["pto"] > 0, "cls": b["cls"],
+                strip.append({"doy": dd.doy, "pto": b["pto"] > 0, "cls": b["cls"], "boat": b.get("boat", ""),
                               "outcome": ("fish" if b.get("yt") else "skunk") if b["settled"] and b["ran"] else ("cancelled" if b["settled"] else "pending"),
                               "share": b.get("share"), "n_agents": b.get("n_agents")})
             by_cls: dict[str, int] = {}
@@ -603,7 +627,7 @@ class Engine:
                                "excess": round(sum(h["excess"] for h in a.history if h["counted"]), 4),
                                "seasons_counted": sum(1 for h in a.history if h["counted"]), "rank": rank[a.name]["cumulative_rank"]},
                 "history": [{"season": h["season_idx"], "fish": h["fish"], "undiluted": h["undiluted"], "excess": h["excess"], "rank": h["rank"], "counted": h["counted"]} for h in a.history],
-                "last_reasons": a.last_reasons, "strip": strip})
+                "last_reasons": a.last_reasons, "strip": strip, "trips": a.trips_all, "turns": a.turns_log})
         state = {
             "schema": st.SCHEMA,
             "run": {"id": self.dir.name, "arm": self.arm, "replicate": self.replicate, "status": status,
@@ -621,7 +645,7 @@ class Engine:
                       "posts": [{k: p[k] for k in ("post_id", "season", "doy", "hour", "agent", "text", "rank_at_post", "adversary", "cited_by")}
                                 for p in reversed(self.forum[-st.FORUM_INLINE_POSTS:])]},
             "field": {**(self.field_by_season[-1] if self.field_by_season else {"diversity_jaccard": None, "herding": None}), "by_season": self.field_by_season},
-            "outcomes_recent": [{"season": o["season_idx"], "doy": o["doy"], "cls": o["cls"], "ran": o["ran"], "yt": o["yt"], "anglers": o["anglers"], "n_agents": o["n_agents"], "share": o["share"], "agent": o["agent"]} for o in self.outcomes_recent],
+            "outcomes_recent": [{"season": o["season_idx"], "doy": o["doy"], "cls": o["cls"], "boat": o.get("boat", ""), "ran": o["ran"], "yt": o["yt"], "anglers": o["anglers"], "n_agents": o["n_agents"], "share": o["share"], "agent": o["agent"]} for o in self.outcomes_recent],
         }
         state["field"].pop("season", None); state["field"].pop("mean_fish", None); state["field"].pop("counted", None)
         st.write_atomic(self.dir / "live" / "state.json", state)

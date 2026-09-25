@@ -22,6 +22,10 @@ by the turn machinery, never by the dashboard.
                cumulative: {fish, undiluted, excess, seasons_counted, rank},
                history: [ {season, fish, undiluted, excess, rank, counted: bool}, ... ],
                last_reasons: [ {season, doy, tick, action, text, valid: bool, reason_rejected: str|null}, ... ],
+               trips: [ {season, doy, dep_doy, cls, boat, cost, pto, reason, ran, yt, anglers, competitors, share,
+                         pooled_share, strategy_version, booked_at}, ... ],          # every settled trip, all seasons
+               turns: [ {season, doy, tag, season_end, queries, posts, submitted, adopted, version, change_summary,
+                         describe, summary, cost_usd, ok, error}, ... ],             # every LLM turn
                strip: [ {doy, pto: bool, cls: str|null, outcome: "fish"|"skunk"|"cancelled"|"pending"|null,
                          share: float|null, n_agents: int|null}, ... ]      # this season, sparse: only days with an action
              }, ... ],

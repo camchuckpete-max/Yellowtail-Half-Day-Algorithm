@@ -1,6 +1,7 @@
 """Scripted baselines (SPEC §5.5), always in the field. Deterministic, ctx-only, no LLM.
 
-They follow the same contract as any strategy and run in the same sandbox. Weekday trips need
+They follow the same contract as any strategy and run in the same sandbox. Each books a specific
+boat: the scheduled boat with the most trips of that class in the last 60 days (D-055). Weekday trips need
 PTO committed 14 days ahead (§3.2); the baselines below are literal and do not commit PTO, so
 B_SAT / B_PERSIST / B_TEMP fish weekends and holidays only, and B_BIG's Friday-evening 1.5-day
 departures (fish Saturday, back Sunday 06:00) cost no PTO.
@@ -14,10 +15,14 @@ HD_CLASSES = ("hd_am", "hd_pm", "hd_unspecified", "hd_twilight")
 
 
 def _book_if(ctx, cls: str, reason: str):
+    """Book `cls` on the scheduled boat that ran that class most often lately (D-055)."""
     o = ctx.offer(cls)
-    if o is not None and o.bookable:
-        return [Book(o.id, reason)]
-    return []
+    if o is None or not o.bookable:
+        return []
+    boat = ctx.pick_boat(cls, o.fishing_dates[0])
+    if boat is None:
+        return []
+    return [Book(o.id, reason, boat=boat)]
 
 
 class B_SAT(Strategy):

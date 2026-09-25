@@ -26,7 +26,9 @@ GOOD = textwrap.dedent('''
             if ctx.now.hour != 21: return []
             d = ctx.tomorrow
             o = ctx.offer("HD_PM")
-            if d.weekday == 5 and 182 <= d.doy <= 304 and o and o.bookable: return [Book(o.id, "saturday")]
+            if d.weekday == 5 and 182 <= d.doy <= 304 and o and o.bookable:
+                boat = ctx.pick_boat("HD_PM", d)
+                return [Book(o.id, "saturday", boat=boat)] if boat else []
             return []
 ''')
 LEAK = GOOD.replace("182 <= d.doy <= 304", "182 <= d.doy <= 304 and ctx.season == 3")

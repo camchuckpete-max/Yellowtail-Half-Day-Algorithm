@@ -40,12 +40,16 @@ yellowtail per angler this season, and win the cumulative board over the tournam
   overlapping trips, budget and PTO never below zero. Invalid actions are ignored and reported to
   you at your next turn.
 
-## Outcomes
-- Your trip **ran** if at least one boat of that class fished that date at the four San Diego
-  landings. If none did, the fare is refunded (PTO stays spent).
-- Your catch is the pooled result of every boat of that class that day:
-  `share = (yellowtail kept + released) / (anglers + number of competitors on the same trip)`.
-  Competitors who book the same class and date dilute the count, like extra anglers on the boat.
+## Boats and outcomes
+- You book a **specific boat**: `Book(offer_id, reason, boat="New Seaforth")`. The **sailing
+  schedule** (`schedule` table; `ctx.scheduled_boats(cls, day)`) shows which boats sail which class
+  on which day, **14 days ahead**, with no counts. A booking on a boat that is not scheduled for
+  that class and day is rejected with the list of scheduled boats. `ctx.pick_boat(cls, day)` is a
+  simple default (the scheduled boat that ran that class most in the last 60 days).
+- Your catch is that boat's count:
+  `share = (yellowtail kept + released on your boat) / (its anglers + number of competitors on the same boat)`.
+  Competitors who book the same boat, class and date dilute your count, like extra anglers.
+- If your boat's count for that day is missing, the trip did not run: fare refunded, PTO stays spent.
 - **Season score = sum of your shares.** The leaderboard shows season-to-date and cumulative
   scores for every agent. The first two seasons are practice (played, not counted).
 
@@ -58,13 +62,14 @@ class Strategy(Strategy):
     name = "my strategy"
     def describe(self) -> str: ...            # plain-language rules, ≤ 200 words (shown publicly)
     def on_turn(self, ctx) -> None: ...       # optional: refit / cache at each turn boundary (≤ 60 s)
-    def decide(self, ctx) -> list: ...        # return [Book(offer_id, reason), CommitPTO(day, reason)] (≤ 2 s)
+    def decide(self, ctx) -> list: ...        # return [Book(offer_id, reason, boat=...), CommitPTO(day, reason)] (≤ 2 s)
 ```
 `ctx` gives you: `now` (day, hour, `t`), `today`, `tomorrow` (masked `Day` objects with `.season`,
 `.doy`, `.weekday`, `.is_weekend`, `.is_holiday`, `.plus(n)`), `offers` (id, cls, departure,
 fishing_dates, cost, pto_dates, bookable, reason; `ctx.offer("HD_PM")`), `budget_left`,
 `pto_left`, `calendar` (committed PTO, bookings, results), `observe(table)` (rows public by now,
-see `describe_tables`), `features_day(tomorrow)` (day-level features at a 21:00 tick),
+see `describe_tables`), `scheduled_boats(cls, day)`, `pick_boat(cls, day)`,
+`features_day(tomorrow)` (day-level features at a 21:00 tick),
 `forum(limit)` (if you have forum access), `leaderboard`, `my_results`, `rng`.
 Allowed imports: numpy, pandas, scikit-learn, scipy, statsmodels, math, statistics, collections,
 itertools, functools, datetime, dataclasses, typing. No file or network access. A crash or timeout

@@ -127,3 +127,23 @@ def main(argv=None):
 
 if __name__ == "__main__":
     main()
+
+
+def test_schedule_is_14_days_ahead_without_counts(tables):
+    sch = tables.table("schedule")
+    assert set(sch.columns) >= {"boat", "landing", "cls", "fish_date_t", "avail_t"} and "yt" not in sch.columns and "anglers" not in sch.columns
+    assert ((sch["fish_date_t"] - sch["avail_t"]).round(6) == 14.0).all()
+    t = cal.t_of(datetime(2015, 8, 1, 21))
+    vis = tables.visible("schedule", t)
+    assert vis["fish_date_t"].max() <= t + 14.0 + 1e-9 and vis["fish_date_t"].max() > t + 13.0
+
+
+def test_baselines_pick_scheduled_boats(tables):
+    from arena.engine.validate import make_ctx
+    api.configure(2010, True)
+    b = load_strategy(ROOT / "arena" / "agents" / "_scripted" / "baselines.py", "B_SAT")
+    now = datetime(2015, 7, 17, 21)   # Friday 21:00 -> Saturday HD_PM offer
+    acts = b.decide(make_ctx(tables, now))
+    assert acts and acts[0].boat, acts
+    c = make_ctx(tables, now)
+    assert acts[0].boat in c.scheduled_boats("HD_PM", c.tomorrow)

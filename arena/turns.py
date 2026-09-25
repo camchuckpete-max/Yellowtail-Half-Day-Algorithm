@@ -20,7 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 ARENA = ROOT / "arena"
-SANDBOXES = ARENA / "sandboxes"      # git-ignored; NOT under arena/runs, which the turn settings deny
+SANDBOXES = ROOT.parent / "arena-sandboxes"   # outside the repo: never under arena/runs (denied) and never a git project
 CLAUDE = shutil.which("claude") or "claude"
 
 
@@ -105,6 +105,13 @@ def run_claude(turn_dir: Path, prompt: str, model: str, max_turns: int, budget_u
            "--no-session-persistence", "--setting-sources", ""]
     env = {k: v for k, v in os.environ.items() if not k.startswith("ARENA_")}
     env["CLAUDE_CODE_MAX_SUBAGENT_SPAWN_DEPTH"] = "0"
+    # Isolation (D-055): a fresh, empty Claude config dir per turn, so no memory, session, project
+    # history or user settings carry between agents, turns or runs. Auth comes from the environment.
+    cfg_dir = turn_dir / "claude-config"
+    shutil.rmtree(cfg_dir, ignore_errors=True)
+    cfg_dir.mkdir(parents=True)
+    env["CLAUDE_CONFIG_DIR"] = str(cfg_dir)
+    env.pop("CLAUDE_CODE_SESSION_ID", None)
     t0 = time.time()
     try:
         r = subprocess.run(cmd, cwd=sb, capture_output=True, text=True, timeout=timeout_s, env=env)
@@ -117,6 +124,7 @@ def run_claude(turn_dir: Path, prompt: str, model: str, max_turns: int, budget_u
     except subprocess.TimeoutExpired:
         out = {"exit": -1, "stderr": f"timeout after {timeout_s}s", "seconds": round(time.time() - t0, 1), "claude": None}
     (turn_dir / "claude.json").write_text(json.dumps(out, indent=1))
+    shutil.rmtree(cfg_dir, ignore_errors=True)
     return out
 
 

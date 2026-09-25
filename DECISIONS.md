@@ -697,3 +697,29 @@ forum posts made in a turn become visible after the batch (same-tick posts are n
 other). Verified: 37 offline tests; a real Haiku turn calling the tools inside the sandbox; the
 canary (forbidden paths denied); the forum-arm smoke run (`arena/configs/smoke.yaml`: three LLM
 agents on Opus / Sonnet / Haiku, season 2012, monthly turns) — results in the Phase 3 quiz.
+
+## D-055 Arena: agents book a named boat; sailing schedule public 14 days ahead; run isolation (owner, 2026-09-25)
+Owner, after the first LLM smoke run: "I want them booking specific boats … we can allow them to see
+what boats ran two weeks in advance (they can't see angler count or fish count though)." Also: "make
+sure nothing from the first run poisons the results of the next run."
+1. `booking_unit: boat` (default; `class` restores the pooled rule of D-049/§3.3). `Book` carries
+   `boat`; the score is that boat's own row (`yt / (anglers + w · agents on the same boat)`); the
+   trip ran if the boat has a row with non-null anglers; `pooled_share` is logged alongside.
+2. New table `schedule` = (landing, boat, class, fishing date) of every per-boat trip that ran,
+   `available_at = fish_date − 14 days`, no counts. A booking on a boat not scheduled for that class
+   and day is rejected at booking time (the agent sees the scheduled list and may name a fallback
+   boat in the same action list). This is a deliberate, owner-approved 14-day lookahead on *who
+   sails*, standing in for a published schedule; it reveals nothing about catch. It is exposed to
+   the PIT poison test like every other table.
+3. Baselines choose the scheduled boat with the most trips of that class in the last 60 days
+   (`ctx.pick_boat`); the same helper is offered to LLM agents.
+4. Isolation: every turn runs with a fresh, empty `CLAUDE_CONFIG_DIR` (no memory, sessions,
+   project history or user settings can cross agents, turns or runs); sandboxes live outside the
+   repository (`../arena-sandboxes/<run>/…`, deleted after each batch); a run works on its own
+   copies of agent files (D-054) and the seeds under `arena/agents/` are never modified by a run
+   (verified unchanged in git after the first smoke run). The first smoke run's dev directory and
+   sandboxes were deleted; nothing of it is referenced by later runs.
+5. The committed isolated-arm run `20260924T234137Z_isolated_r1` used class-level (pooled)
+   booking and is superseded by the boat-level run logged after this entry.
+The dashboard gained an agent inspector (trips with boat, reason, outcome; turns with strategy
+changes; per-season and cumulative tables) at the owner's request.

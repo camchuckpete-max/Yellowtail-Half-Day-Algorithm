@@ -51,3 +51,14 @@ def test_season_metrics_and_bootstrap():
     assert ci["mean"] == 3.5 and ci["lo95"] > 2 and ci["hi95"] < 5
     f = scoring.field_metrics({"a": {("HD_PM", "d1"), ("HD_PM", "d2")}, "b": {("HD_PM", "d1")}, "c": set()}, {("HD_PM", "d1"): 2, ("HD_PM", "d2"): 1})
     assert abs(f["diversity_jaccard"] - (0.5 + 0 + 0) / 3) < 1e-4 and abs(f["herding"] - 2 / 3) < 1e-4
+
+
+def test_boat_outcome_and_schedule():
+    o = scoring.Outcomes(_trips(), ["seaforth", "fishermans", "hm", "point_loma"], "all")
+    d = pd.Timestamp(2013, 7, 19).date()
+    assert o.boat_outcome("HD_PM", "New Seaforth", d) == (6.0, 20.0)
+    assert o.boat_outcome("HD_PM", "Premier", d) == (3.0, 30.0)
+    assert o.boat_outcome("HD_PM", "Ghost", d) is None            # null anglers: did not run
+    assert o.boat_outcome("HD_PM", "Nope", d) is None
+    assert o.scheduled_boats("HD_PM", d) == ["New Seaforth", "Premier"]
+    assert o.scheduled_boats("OVERNIGHT", d) == []

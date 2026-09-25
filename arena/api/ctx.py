@@ -112,18 +112,22 @@ class Booking:
     departure: Day
     fishing_dates: tuple[Day, ...]
     cost: int
+    boat: str = ""
     settled: bool = False
     ran: bool | None = None
-    yt: float | None = None
-    anglers: float | None = None
-    n_agents: int | None = None
-    share: float | None = None
+    yt: float | None = None            # this boat's yellowtail (kept + released)
+    anglers: float | None = None       # this boat's anglers
+    n_agents: int | None = None        # agents (you included) on this boat
+    share: float | None = None         # yt / (anglers + w * n_agents)
 
 
 @dataclass(frozen=True)
 class Book:
+    """Book `offer_id` on a specific boat (D-055). The boat must be on the sailing schedule for that
+    class and fishing date (`ctx.scheduled_boats`), or the booking is rejected."""
     offer_id: str
     reason: str = ""
+    boat: str = ""
 
 
 @dataclass(frozen=True)
@@ -197,6 +201,27 @@ class Ctx:
             if o.cls == cls:
                 return o
         return None
+
+    def scheduled_boats(self, cls: str, day: Day) -> list[str]:
+        """Boats on the sailing schedule for offer class `cls` on fishing day `day` (public 14 days
+        ahead, D-055): sorted boat names. Empty if nothing is scheduled or the day is > 14 days out."""
+        from arena.engine.offers import CLASSES
+        srcs = CLASSES[cls].source_cls
+        sch = self.observe("schedule")
+        m = sch["cls"].isin(srcs) & (sch["fish_date_t"] == float(day.n))
+        return sorted(set(sch.loc[m, "boat"]))
+
+    def pick_boat(self, cls: str, day: Day, lookback_days: int = 60) -> str | None:
+        """Default boat choice: among the scheduled boats, the one with the most trips of this class
+        in the last `lookback_days` (ties alphabetical). None if nothing is scheduled."""
+        boats = self.scheduled_boats(cls, day)
+        if not boats:
+            return None
+        from arena.engine.offers import CLASSES
+        t = self.observe("trips")
+        m = t["cls"].isin(CLASSES[cls].source_cls) & (t["fish_date_t"] >= self.now.t - lookback_days) & t["boat"].isin(boats)
+        counts = t.loc[m, "boat"].value_counts()
+        return sorted(boats, key=lambda b: (-int(counts.get(b, 0)), b))[0]
 
 
 class Strategy:

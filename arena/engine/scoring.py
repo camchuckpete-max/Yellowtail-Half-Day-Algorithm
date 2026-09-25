@@ -25,12 +25,24 @@ class Outcomes:
         g = t.groupby(["arena_cls", "fish_date"]).agg(yt=("yt", "sum"), anglers=("anglers", "sum"), n_boats=("yt", "size"))
         self.pooled = {(c, d.date()): (float(y), float(a), int(n)) for (c, d), y, a, n in
                        zip(g.index, g["yt"], g["anglers"], g["n_boats"])}
+        gb = t.groupby(["arena_cls", "boat", "fish_date"]).agg(yt=("yt", "sum"), anglers=("anglers", "sum"))
+        self.by_boat = {(c, b, d.date()): (float(y), float(a)) for (c, b, d), y, a in zip(gb.index, gb["yt"], gb["anglers"])}
+        self.scheduled: dict = {}
+        for (c, b, d) in self.by_boat:
+            self.scheduled.setdefault((c, d), []).append(b)
         self.by_cls = {c: grp.assign(doy=grp["fish_date"].dt.dayofyear, year=grp["fish_date"].dt.year)
                        for c, grp in t.groupby("arena_cls")}
         self._clim: dict = {}
 
     def pooled_outcome(self, cls: str, fish_date: date) -> tuple[float, float, int] | None:
         return self.pooled.get((cls, fish_date))
+
+    def boat_outcome(self, cls: str, boat: str, fish_date: date) -> tuple[float, float] | None:
+        """(yt, anglers) of one boat's trip(s) of `cls` on `fish_date`; None if it did not run (D-055)."""
+        return self.by_boat.get((cls, boat, fish_date))
+
+    def scheduled_boats(self, cls: str, fish_date: date) -> list[str]:
+        return sorted(self.scheduled.get((cls, fish_date), []))
 
     def climatology(self, cls: str, fish_date: date, window: int = 15) -> float | None:
         """Pooled yt per angler for (cls, doy +- window) over seasons strictly before fish_date.year."""

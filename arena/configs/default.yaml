@@ -11,6 +11,7 @@ pto_mode: commit_day     # commit_day (two-stage, default) | commit_trip (§3.2 
 pto_lead_days: 14
 half_day_pto: 1.0        # PTO charged per weekday of an HD_AM / HD_PM trip (§12 #9)
 max_trips_per_day: 1
+booking_unit: boat        # boat (D-055: book a named boat; its own count scores) | class (pooled across boats)
 agent_angler_weight: 1.0 # w in share = yt / (anglers + w * n_agents) (§3.3, §12 #4)
 count_released: true     # yt = kept + released (D-001, §12 #5)
 mask_years: true         # §4.2

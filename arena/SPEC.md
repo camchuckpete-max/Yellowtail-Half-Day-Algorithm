@@ -83,6 +83,14 @@ agent is told at its next tick.
   that booked the same (class, departure date) and `w = agent_angler_weight` (default 1.0).
   This is the crowding rule: agents ride the real boats and dilute the real count. It is a property
   of the world, so it applies in every arm (§7), including the isolated one.
+- **Owner change (D-055, `booking_unit: boat`, default):** a booking names a **boat**. The sums
+  above are that boat's own row(s) for the class and fishing date, and `n_agents` counts agents on
+  the same boat. The trip ran if that boat has a row with non-null anglers. To make boat choice
+  possible, the **sailing schedule** (boat, landing, class, fishing date; no counts) is public
+  **14 days ahead** (`schedule` table, `available_at = fish_date − 14 d`); a booking on a boat not on
+  the schedule for that class and day is rejected at booking time with the scheduled list. The
+  pooled per-angler rate is still logged per trip (`pooled_share`) and climatology stays pooled.
+  `booking_unit: class` restores the pooled rule above.
 - `yt` = kept + released (`count_released: true`, matching D-001).
 - Rows with null anglers are dropped from both sums.
 
@@ -123,7 +131,7 @@ returns rows with `available_at ≤ now` using the existing loaders (`yt.events`
 `date = tomorrow` at a 21:00 tick). Tables: `trips` (all classes, counts, anglers, species mix),
 `forecasts`, `marine_forecasts`, `tides`, `ocean` (SST / chlorophyll / currents), `hourly` (tides,
 CO-OPS, CDIP, Scripps Pier, KSAN), `fishdope` (extracted fields **and** narrative text),
-`glider`, `sla`, `kelp`, `metar`. Everything in the source is fair game **once it has an
+`glider`, `sla`, `kelp`, `metar`, `schedule` (D-055). Everything in the source is fair game **once it has an
 `available_at` rule and a PIT test**; tables added by the backfill without a rule are not exposed.
 Explanatory `ex_*` features (Goal D track E) are never exposed.
 

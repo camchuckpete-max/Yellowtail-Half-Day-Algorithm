@@ -5,3 +5,4 @@ __pycache__/
 arena/runs/dev_*/
 arena/runs/*/tables/
 arena/runs/*/checkpoint.tmp
+arena/sandboxes/

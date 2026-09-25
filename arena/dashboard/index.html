@@ -181,6 +181,7 @@ footer{margin-top:20px;font-size:11px;color:var(--muted)}
   <span class="kv minor">rep <b class="mono" id="rep">—</b></span>
   <span class="kv minor">source <b class="mono" id="srccommit">—</b></span>
   <span class="kv">turns <b id="turns">—</b></span>
+  <span class="kv">spend <b class="mono" id="cost">—</b></span>
   <span class="grow"></span>
   <span class="kv">updated <b class="mono" id="updated">—</b></span>
   <span class="src"><label for="srcurl">state</label><input type="text" id="srcurl" placeholder="state.json path or URL"><button id="loadbtn">Load</button><button id="refreshbtn" title="Poll now">↻</button></span>
@@ -346,6 +347,7 @@ function renderStatus(){
   $("srccommit").textContent = (r.source_commit || "").slice(0, 7);
   const t = r.turns_in_progress || [];
   $("turns").textContent = t.length ? t.length + " in progress: " + t.join(", ") : "none";
+  $("cost").textContent = r.cost_usd !== undefined && r.cost_usd !== null ? "$" + Number(r.cost_usd).toFixed(2) : "—";
   $("updated").textContent = (r.updated_at || "").replace("T", " ").slice(0, 19) + " " + (srcMode === "db" ? "(db)" : srcMode === "url" ? "(url)" : "");
   if (r.paused_reason) { $("statustxt").textContent += " · " + r.paused_reason; }
 }
@@ -468,10 +470,11 @@ function renderAgent(){
       <div><span>skunk rate</span><b class="mono">${pct(s.skunk_rate)}</b></div>
       <div><span>budget · PTO</span><b class="mono">$${s.budget_left} · ${s.pto_left} d</b></div>
       <div><span>$ per fish</span><b class="mono">${s.usd_per_fish === null || s.usd_per_fish === undefined ? "—" : Math.round(s.usd_per_fish)}</b></div>
+      ${a.cost_usd !== undefined && a.cost_usd !== null && a.kind !== "baseline" ? `<div><span>LLM spend</span><b class="mono">$${Number(a.cost_usd).toFixed(2)}</b></div>` : ""}
     </div>
     <div class="byclass">${byclass}</div>
     ${lc ? `<p style="margin:10px 0 0;font-size:12px"><b>Last strategy change</b> ${masked(lc.season, lc.doy)}: ${esc(lc.summary || "")}${lc.diff_path ? ` <span class="mono" style="color:var(--muted)">${esc(lc.diff_path)}</span>` : ""}</p>` : `<p style="margin:10px 0 0;font-size:12px;color:var(--muted)">No strategy change recorded.</p>`}
-    ${lt ? `<p style="margin:4px 0 0;font-size:12px"><b>Last turn</b> ${masked(lt.season, lt.doy)}: ${lt.queries} quer${lt.queries === 1 ? "y" : "ies"}, ${lt.posts} post${lt.posts === 1 ? "" : "s"}${lt.adopted_from && lt.adopted_from.length ? `, adopted from ${lt.adopted_from.map(esc).join(", ")}` : ""}</p>` : ""}
+    ${lt ? `<p style="margin:4px 0 0;font-size:12px"><b>Last turn</b> ${masked(lt.season, lt.doy)}: ${lt.queries} quer${lt.queries === 1 ? "y" : "ies"}, ${lt.posts} post${lt.posts === 1 ? "" : "s"}${lt.submitted ? (lt.adopted ? ", new strategy adopted" : ", submission not adopted") : ", no submission"}${lt.adopted_from && lt.adopted_from.length ? `, adopted from ${lt.adopted_from.map(esc).join(", ")}` : ""}${lt.cost_usd !== undefined ? `, $${Number(lt.cost_usd).toFixed(2)}` : ""}${lt.ok === false ? ` <span style="color:var(--bad)">turn failed: ${esc(lt.error || "")}</span>` : ""}</p>` : ""}
     <h2 style="margin-top:12px">Last reasons</h2>
     <ul class="reasons">${reasons || `<li><span class="empty">none yet</span></li>`}</ul>`;
 }

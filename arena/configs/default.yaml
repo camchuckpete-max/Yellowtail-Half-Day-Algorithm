@@ -24,6 +24,12 @@ forum:
   max_words: 300
 n_replicates: 3
 timeouts: {decide_s: 2, on_turn_s: 60}
+turns:                   # LLM turn machinery (§5.3)
+  parallel: 4            # headless Claude Code processes at once
+  max_tool_turns: 40     # --max-turns per turn
+  budget_usd: 1.5        # --max-budget-usd per turn (a Sonnet turn exploring the data spent $0.64 in 22 tool calls)
+  timeout_s: 1200
+carry_agents: false      # new tournament starts agents from arena/agents/<name>/ seeds (§3.5)
 climatology_window_days: 15
 arms:
   isolated: {forum: false, adversaries: false}

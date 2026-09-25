@@ -168,6 +168,10 @@ arena/agents/<name>/
   meta.json       # model, persona id, created_at
 ```
 Per-run history (strategy versions, transcripts, queries, posts) lives under `arena/runs/<id>/agents/<name>/`.
+Implementation note (Phase 3): a run works on its own copy of each agent (`runs/<id>/agents/<name>/`,
+seeded from `arena/agents/<name>/` when `carry_agents: false`), so replicates and arms running at the
+same time never share a `strategy.py` or `notes.md`. `arena/tools/seed_agents.py` creates the seeds
+from `field.roster` with a no-op initial strategy.
 
 ### 5.2 Strategy contract
 ```python
@@ -200,7 +204,13 @@ A turn is one headless Claude Code process per agent (`arena/turns.py` batches t
   dates, materialised as parquet by the engine; the DB is never mounted), `forum_read`,
   `forum_post` (quota), `submit_strategy` (allowlist + syntax + `describe()` + poison test on a
   sample of past ticks; rejected submissions return the reason), `write_notes`.
-- Canary test in CI: a turn instructed to read the source dump, `runs/`, or `SPEC.md` must fail.
+- Canary test in CI: a turn instructed to read the source dump, `runs/`, or `SPEC.md` must fail
+  (`arena/tests/test_canary.py`, opt-in with `ARENA_CANARY=1` because it spends API credit).
+- The headless process is `claude -p` with `--restricted --permission-mode dontAsk --strict-mcp-config
+  --setting-sources ""`, a per-turn settings file (allow Read/Write/Edit under the sandbox and
+  `mcp__arena__*`; deny Bash, web, agents, and reads of the repo, the source, `~` and `/tmp`), a
+  per-turn `--max-budget-usd` and `--max-turns` (`turns:` in the config). The snapshot is written
+  per turn tick with `cutoff = now` and deleted after the batch.
 
 Turn input: `persona.md`, `RULES.md`, objective (maximise this season's fish; win the cumulative
 board), current `strategy.py` and `describe()`, `notes.md`, results since last turn (with the

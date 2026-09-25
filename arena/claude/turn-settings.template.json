@@ -1,0 +1,13 @@
+{
+  "_comment": "Permission template for one agent turn (SPEC §5.3). {ROOT} / {SOURCE} are substituted by arena/turns.py. cwd = the agent's sandbox.",
+  "permissions": {
+    "allow": ["Read(./**)", "Write(./**)", "Edit(./**)", "mcp__arena__*"],
+    "deny": [
+      "Bash", "WebFetch", "WebSearch", "Agent", "Task", "NotebookEdit", "KillShell", "BashOutput",
+      "Read(//{ROOT}/yt/**)", "Read(//{ROOT}/cache/**)", "Read(//{ROOT}/arena/SPEC.md)", "Read(//{ROOT}/arena/runs/**)",
+      "Read(//{ROOT}/arena/agents/**)", "Read(//{ROOT}/arena/engine/**)", "Read(//{ROOT}/arena/personas/**)",
+      "Read(//{ROOT}/DECISIONS.md)", "Read(//{ROOT}/runs/**)", "Read(//{SOURCE}/**)", "Read(//tmp/**)", "Read(~/**)"
+    ]
+  },
+  "includeCoAuthoredBy": false
+}

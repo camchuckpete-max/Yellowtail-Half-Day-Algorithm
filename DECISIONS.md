@@ -682,3 +682,18 @@ baselines are forum-off by construction. Roster and personas are reviewed before
 §12 #6, #11). The dashboard also got a phone layout (leaderboard columns collapse, season strips
 scroll sideways with the agent column pinned, status bar unpinned) — SPEC §9 said nothing about
 mobile; the owner asked for it.
+
+## D-054 Arena Phase 3 built: LLM turns, sandbox, arena tools, personas (2026-09-25)
+Built per SPEC §5.3 / §11 step 3: `arena/turns.py` (headless Claude Code per agent, batched),
+`arena/mcp_server.py` on a dependency-free stdio JSON-RPC server (`arena/mcp_stdio.py`; the `mcp`
+package cannot be imported in the run environment), `arena/engine/validate.py`
+(`submit_strategy` checks incl. a poison test on past ticks), `arena/tools/audit_strategy.py`,
+`arena/RULES.md`, 23 persona files for the 30-agent roster (D-053), `arena/tools/seed_agents.py`,
+forum with monthly quotas and provenance (`adopted_from` → `cited_by`), per-turn cost accounting,
+metrics: forum-on vs forum-off within a run. Conventions: agents' `describe()` texts are public
+(in `leaderboard.json` at turns and on the dashboard); the season-end turn runs after the season's
+metrics and before the pause; a submitted strategy takes effect at the tick right after the turn;
+forum posts made in a turn become visible after the batch (same-tick posts are not visible to each
+other). Verified: 37 offline tests; a real Haiku turn calling the tools inside the sandbox; the
+canary (forbidden paths denied); the forum-arm smoke run (`arena/configs/smoke.yaml`: three LLM
+agents on Opus / Sonnet / Haiku, season 2012, monthly turns) — results in the Phase 3 quiz.

@@ -30,6 +30,7 @@ from arena.engine import calendar as cal
 from arena.engine import offers as off
 from arena.engine import scoring, state as st
 from arena.engine.sandbox import Worker
+from arena import turns as turnmod
 
 ROOT = Path(__file__).resolve().parents[2]
 ARENA = ROOT / "arena"
@@ -76,17 +77,25 @@ class Agent:
         self.describe = ""
         self.strategy_version = 1
         self.worker: Worker | None = None
+        self.last_strategy_change: dict | None = None
+        self.last_turn: dict | None = None
+        self.posts_by_month: dict[str, int] = {}     # "YYYY-MM" -> posts
+        self.cost_usd = 0.0
+        self.forum_cursor = 0                        # forum posts already shown to this agent
 
     def to_json(self) -> dict:
         return {k: getattr(self, k) for k in ("name", "kind", "class_name", "adversary", "persona", "model", "forum", "budget", "pto",
                                               "pto_committed", "bookings", "history", "last_reasons", "failures", "describe",
-                                              "strategy_version")} | {"path": str(self.path)}
+                                              "strategy_version", "last_strategy_change", "last_turn", "posts_by_month",
+                                              "cost_usd", "forum_cursor")} | {"path": str(self.path)}
 
     @classmethod
     def from_json(cls, d: dict) -> "Agent":
         a = cls(d["name"], d["kind"], Path(d["path"]), d["class_name"], d.get("adversary"), d.get("persona"), d.get("model"), d.get("forum", True))
-        for k in ("budget", "pto", "pto_committed", "bookings", "history", "last_reasons", "failures", "describe", "strategy_version"):
-            setattr(a, k, d[k])
+        for k in ("budget", "pto", "pto_committed", "bookings", "history", "last_reasons", "failures", "describe", "strategy_version",
+                  "last_strategy_change", "last_turn", "posts_by_month", "cost_usd", "forum_cursor"):
+            if k in d:
+                setattr(a, k, d[k])
         return a
 
 
@@ -115,6 +124,9 @@ class Engine:
         self._raw = None
         self._features_cache: dict = {}
         self.tables_from = tables_from
+        self.cost_usd = 0.0
+        self.turns_in_progress: list[str] = []
+        self.source_repo = Path(source.SOURCE_REPO)
 
     # ---------------------------------------------------------------- setup
     def load_data(self) -> dict:
@@ -154,7 +166,14 @@ class Engine:
             meta = json.loads((d / "meta.json").read_text()) if (d / "meta.json").exists() else {}
             r = roster.get(n, {})
             model = meta.get("model") or models.get(r.get("model"), r.get("model"))
-            self.agents.append(Agent(n, "owner" if n == f.get("owner") else "llm", d / "strategy.py", "Strategy",
+            if not (d / "strategy.py").exists():
+                raise SystemExit(f"agent {n}: no {d / 'strategy.py'} (run python3 -m arena.tools.seed_agents)")
+            run_d = self.dir / "agents" / n
+            run_d.mkdir(parents=True, exist_ok=True)
+            for fn in ("persona.md", "strategy.py", "notes.md", "meta.json"):
+                if (d / fn).exists() and not (run_d / fn).exists():
+                    shutil.copy(d / fn, run_d / fn)       # carry_agents: false -> start from the seed (§3.5)
+            self.agents.append(Agent(n, "owner" if n == f.get("owner") else "llm", run_d / "strategy.py", "Strategy",
                                      persona=meta.get("persona") or r.get("persona"), model=model,
                                      forum=bool(meta.get("forum", r.get("forum", True)))))
         for a in self.agents:
@@ -168,7 +187,9 @@ class Engine:
                               bool(self.cfg.get("mask_years", True)), self.features_day, self.cfg["timeouts"])
             a.describe = a.worker.describe
             (self.dir / "agents" / a.name).mkdir(parents=True, exist_ok=True)
-            shutil.copy(a.path, self.dir / "agents" / a.name / f"strategy_v{a.strategy_version}.py")
+            v = self.dir / "agents" / a.name / f"strategy_v{a.strategy_version}.py"
+            if not v.exists():
+                shutil.copy(a.path, v)
 
     def stop_workers(self) -> None:
         for a in self.agents:
@@ -281,6 +302,9 @@ class Engine:
         lb = self._leaderboard()
         raw_offers = off.offers_at(today, tick, self.prices, float(self.cfg["half_day_pto"]))
         is_turn = tick == "21:00" and (today.day in self.cfg["turn_days"] or today == cal.season_bounds(self.season_year, self.first_year, self.first_start)[0])
+        if is_turn and any(a.kind in ("llm", "owner") for a in self.agents):
+            self.llm_turns(now, season_end=False)
+            lb = self._leaderboard()
         for a in self.agents:
             if a.worker is None:
                 continue
@@ -349,6 +373,132 @@ class Engine:
         if not valid:
             a.failures.append({"date": str(day), "tick": tick, "kind": "rejected", "action": label, "error": why})
 
+    # ---------------------------------------------------------------- LLM turns (Phase 3)
+    def _results_for_turn(self, a: Agent, lb_rows: list[dict]) -> dict:
+        me = next(r for r in lb_rows if r["name"] == a.name)
+        return {"season": api.day_of(date(self.season_year, 12, 31)).season, "budget_left": round(a.budget, 2), "pto_left": a.pto,
+                "season_score": me["season_fish"], "season_rank": me["season_rank"], "cumulative_score": me["cumulative_fish"],
+                "cumulative_rank": me["cumulative_rank"],
+                "pto_committed": sorted(str(api.day_of(date.fromisoformat(d))) for d in a.pto_committed),
+                "bookings": [{"offer_id": b["offer_id"], "cls": b["cls"], "departure": str(api.day_of(date.fromisoformat(b["departure"]))),
+                              "fishing_date": str(api.day_of(date.fromisoformat(b["fishing_dates"][0]))), "cost": b["cost"], "pto": b["pto"],
+                              "settled": b["settled"], "ran": b.get("ran"), "yt": b.get("yt"), "anglers": b.get("anglers"),
+                              "competitors_aboard": (b.get("n_agents") or 1) - 1, "share": b.get("share"), "your_reason": b.get("reason")}
+                             for b in a.bookings],
+                "rejected_actions_and_errors_since_last_turn": a.failures[-40:],
+                "seasons": [{"season": h["season_idx"], "score": h["fish"], "rank": h["rank"], "counted": h["counted"]} for h in a.history]}
+
+    def _leaderboard_for_turn(self, lb_rows: list[dict]) -> list[dict]:
+        desc = {a.name: a.describe for a in self.agents}
+        return [{**r, "strategy": desc.get(r["name"], "")} for r in lb_rows]
+
+    def llm_turns(self, now: datetime, season_end: bool) -> None:
+        tcfg = self.cfg.get("turns", {})
+        day = api.day_of(now.date())
+        t = cal.t_of(now)
+        tag = f"S{day.season:02d}_d{day.doy:03d}" + ("_end" if season_end else "")
+        agents = [a for a in self.agents if a.kind in ("llm", "owner") and a.worker is not None]
+        if not agents:
+            return
+        self.turns_in_progress = [a.name for a in agents]
+        self.write_state(now, now.strftime("%H:%M"))
+        snap = self.dir / "snapshots" / tag
+        if not (snap / "meta.json").exists():
+            snapshot.write_snapshot(self._raw, snap, self.first_year, bool(self.cfg.get("mask_years", True)), cutoff=now)
+        lb_rows = self._leaderboard()
+        lb_pub = self._leaderboard_for_turn(lb_rows)
+        forum_on = bool(self.cfg["arms"][self.arm].get("forum"))
+        month_key = now.strftime("%Y-%m")
+        counted = self.season_year - self.first_year >= int(self.cfg["warmup_seasons"])
+        first_turn = now.date() == cal.season_bounds(self.season_year, self.first_year, self.first_start)[0]
+        jobs = []
+        for a in agents:
+            turn_dir = turnmod.turn_dir_for(self.dir.name, tag, a.name)
+            agent_forum = forum_on and a.forum
+            quota_left = max(0, int(self.cfg["forum"]["max_posts_per_month"]) - a.posts_by_month.get(month_key, 0)) if agent_forum else 0
+            forum_new = [self._public_post(p) for p in self.forum[a.forum_cursor:] if p["t"] <= t] if agent_forum else None
+            turnmod.prepare_turn(turn_dir, {"name": a.name, "model": a.model}, self.dir / "agents" / a.name, snap,
+                                 self.dir / "forum.jsonl", agent_forum, quota_left,
+                                 {"season": day.season, "doy": day.doy, "hour": now.hour, "t": t},
+                                 self.first_year, bool(self.cfg.get("mask_years", True)), self.source_repo,
+                                 self._results_for_turn(a, lb_rows), lb_pub, forum_new)
+            prompt = turnmod.build_prompt({"name": a.name}, {"season": day.season, "doy": day.doy, "hour": now.hour,
+                                                              "season_end": season_end, "first_turn": first_turn and not season_end,
+                                                              "forum_new": forum_new, "quota_left": quota_left if agent_forum else None,
+                                                              "budget_left": a.budget, "pto_left": a.pto, "season_counted": counted})
+            jobs.append({"turn_dir": str(turn_dir), "agent": {"name": a.name, "model": a.model}, "prompt": prompt})
+        if not self.quiet:
+            print(f"  turn {tag}: {len(jobs)} agent(s) ...", flush=True)
+        results = turnmod.run_turns(jobs, int(tcfg.get("parallel", 4)), self.cfg["field"].get("models", {}),
+                                    int(tcfg.get("max_tool_turns", 40)), float(tcfg.get("budget_usd", 1.0)), int(tcfg.get("timeout_s", 1200)))
+        for a in agents:
+            r = results.get(a.name, {})
+            self._apply_turn(a, r, tag, day, now, t, month_key, lb_rows)
+            turnmod.archive_turn(turnmod.turn_dir_for(self.dir.name, tag, a.name), self.dir, tag, a.name)
+        shutil.rmtree(turnmod.SANDBOXES / self.dir.name, ignore_errors=True)
+        self.turns_in_progress = []
+        shutil.rmtree(snap, ignore_errors=True)   # the physical snapshot is rebuilt per turn; ~70 MB each
+        self.checkpoint()
+
+    def _public_post(self, p: dict) -> dict:
+        return {k: p[k] for k in ("post_id", "season", "doy", "hour", "agent", "text", "rank_at_post")}
+
+    def _apply_turn(self, a: Agent, r: dict, tag: str, day: api.Day, now: datetime, t: float, month_key: str, lb_rows: list[dict]) -> None:
+        run_d = self.dir / "agents" / a.name
+        a.cost_usd += float(r.get("cost_usd") or 0.0)
+        self.cost_usd += float(r.get("cost_usd") or 0.0)
+        sub = r.get("submission")
+        changed = False
+        if sub:
+            a.strategy_version += 1
+            new_path = run_d / f"strategy_v{a.strategy_version}.py"
+            new_path.write_text(sub["code"])
+            import difflib
+            old_code = a.path.read_text() if a.path.exists() else ""
+            diff = "".join(difflib.unified_diff(old_code.splitlines(True), sub["code"].splitlines(True),
+                                                f"strategy_v{a.strategy_version - 1}.py", f"strategy_v{a.strategy_version}.py"))
+            (run_d / f"strategy_v{a.strategy_version}.diff").write_text(diff)
+            a.path.write_text(sub["code"])
+            try:
+                a.worker.stop()
+                a.worker = Worker(a.name, a.path, a.class_name, self.dir / "tables", a.worker.seed, self.first_year,
+                                  bool(self.cfg.get("mask_years", True)), self.features_day, self.cfg["timeouts"])
+                a.describe = a.worker.describe
+                changed = True
+            except Exception as e:  # noqa: BLE001  (validated in the turn; should not happen)
+                a.failures.append({"date": str(day), "kind": "strategy_load", "error": str(e)})
+                a.path.write_text(old_code)
+                a.worker = Worker(a.name, a.path, a.class_name, self.dir / "tables", a.worker.seed if a.worker else 0, self.first_year,
+                                  bool(self.cfg.get("mask_years", True)), self.features_day, self.cfg["timeouts"])
+            if changed:
+                a.last_strategy_change = {"season": day.season, "doy": day.doy, "summary": sub.get("summary", ""),
+                                          "diff_path": f"agents/{a.name}/strategy_v{a.strategy_version}.diff", "version": a.strategy_version}
+                _jsonl(self.dir / "strategy_changes.jsonl", {"date": now.date().isoformat(), "masked": str(day), "agent": a.name,
+                                                              "version": a.strategy_version, "summary": sub.get("summary", ""),
+                                                              "adopted_from": sub.get("adopted_from", []), "describe": a.describe})
+                for pid in sub.get("adopted_from", []) or []:
+                    for p in self.forum:
+                        if p["post_id"] == pid and a.name not in p["cited_by"]:
+                            p["cited_by"].append(a.name)
+        me = next(x for x in lb_rows if x["name"] == a.name)
+        for text in r.get("posts", []):
+            pid = f"p{len(self.forum) + 1:05d}"
+            post = {"post_id": pid, "season": day.season, "doy": day.doy, "hour": now.hour, "agent": a.name, "text": text,
+                    "t": t, "rank_at_post": me["season_rank"], "adversary": a.adversary, "cited_by": [], "date": now.date().isoformat()}
+            self.forum.append(post)
+            _jsonl(self.dir / "forum.jsonl", post)
+            a.posts_by_month[month_key] = a.posts_by_month.get(month_key, 0) + 1
+        a.forum_cursor = len(self.forum)
+        if r.get("notes") is not None:
+            (run_d / "notes.md").write_text(r["notes"])
+        a.last_turn = {"season": day.season, "doy": day.doy, "tag": tag, "queries": r.get("queries", 0),
+                       "queries_before_submit": r.get("queries_before_submit"), "posts": len(r.get("posts", [])),
+                       "adopted_from": (sub or {}).get("adopted_from", []), "submitted": bool(sub), "adopted": changed,
+                       "cost_usd": round(float(r.get("cost_usd") or 0.0), 4), "ok": r.get("ok"), "error": r.get("error")}
+        _jsonl(self.dir / "turns.jsonl", {"tag": tag, "agent": a.name, "model": a.model, **a.last_turn,
+                                          "num_turns": r.get("num_turns"), "seconds": r.get("seconds"), "summary": r.get("summary")})
+        a.failures = []
+
     # ---------------------------------------------------------------- season
     def season_end(self) -> None:
         self.settle(datetime(self.season_year + 1, 12, 31))  # every booked trip of this season has returned
@@ -394,10 +544,23 @@ class Engine:
             for b in base:
                 if n != b and by[n] and len(by[n]) == len(by[b]):
                     cis[f"{n}-{b}"] = scoring.bootstrap_diff_ci(by[n], by[b], seed=int(self.cfg.get("seed", 0)))
+        llm = [a for a in self.agents if a.kind in ("llm", "owner")]
+        on = [sum(by[a.name]) for a in llm if a.forum]
+        off = [sum(by[a.name]) for a in llm if not a.forum]
+        pairs = {}
+        for a in llm:
+            for b in llm:
+                if a.persona and a.persona == b.persona and a.forum and not b.forum:
+                    pairs[f"{a.name}-{b.name}"] = round(sum(by[a.name]) - sum(by[b.name]), 4)
+        forum_effect = {"forum_on_mean": round(float(np.mean(on)), 4) if on else None, "forum_off_mean": round(float(np.mean(off)), 4) if off else None,
+                        "diff": round(float(np.mean(on) - np.mean(off)), 4) if on and off else None, "persona_matched_pairs": pairs}
+        provenance = {p["post_id"]: {"agent": p["agent"], "cited_by": p["cited_by"], "adversary": p.get("adversary")} for p in self.forum if p["cited_by"]}
         out = {"run": self.dir.name, "arm": self.arm, "replicate": self.replicate, "seasons_counted": len(next(iter(by.values()), [])),
                "cumulative": {n: round(sum(v), 4) for n, v in by.items()},
                "leaderboard_cumulative": sorted(names, key=lambda n: sum(by[n]), reverse=True),
-               "ci_vs_baselines": cis, "field_by_season": self.field_by_season}
+               "ci_vs_baselines": cis, "field_by_season": self.field_by_season, "forum_effect_within_run": forum_effect,
+               "posts_cited": provenance, "cost_usd": round(self.cost_usd, 2),
+               "per_agent": {a.name: {"kind": a.kind, "model": a.model, "forum": a.forum, "strategy_version": a.strategy_version, "cost_usd": round(a.cost_usd, 2)} for a in self.agents}}
         (self.dir / "results" / "metrics.json").write_text(json.dumps(out, indent=1))
 
     # ---------------------------------------------------------------- state / checkpoint
@@ -428,7 +591,8 @@ class Engine:
                 by_cls[b["cls"]] = by_cls.get(b["cls"], 0) + 1
             agents.append({
                 "name": a.name, "kind": a.kind, "persona": a.persona, "model": a.model, "adversary": a.adversary, "forum": a.forum,
-                "describe": a.describe, "strategy_version": a.strategy_version, "last_strategy_change": None, "last_turn": None,
+                "describe": a.describe, "strategy_version": a.strategy_version, "last_strategy_change": a.last_strategy_change,
+                "last_turn": a.last_turn, "cost_usd": round(a.cost_usd, 2),
                 "season": {"fish": round(fish, 4), "undiluted": round(sum(b["yt"] / b["anglers"] for b in settled if b["anglers"]), 4),
                            "excess": round(sum(b["share"] - (self.outcomes.climatology(b["cls"], date.fromisoformat(b["fishing_dates"][0])) or 0.0) for b in settled), 4),
                            "skunk_rate": round(sum(1 for b in settled if not b["yt"]) / len(settled), 4) if settled else None,
@@ -448,12 +612,14 @@ class Engine:
                     "sim": {"season": day.season, "calendar_year": now.year,
                             "doy": day.doy, "date_masked": str(day), "tick": tick, "season_start_doy": start.timetuple().tm_yday,
                             "season_end_doy": end.timetuple().tm_yday, "days_in_season": cal.days_in_year(self.season_year)},
-                    "turns_in_progress": [], "seasons_done": self.season_year - self.first_year, "seasons_total": self.last_year - self.first_year + 1,
+                    "turns_in_progress": list(self.turns_in_progress), "cost_usd": round(self.cost_usd, 2),
+                    "seasons_done": self.season_year - self.first_year, "seasons_total": self.last_year - self.first_year + 1,
                     "warmup_seasons": int(self.cfg["warmup_seasons"]), "paused_reason": self.paused_reason, "interventions": self.interventions},
             "agents": agents,
             "leaderboard": {"season": [r["name"] for r in lb], "cumulative": [r["name"] for r in sorted(lb, key=lambda r: r["cumulative_rank"])]},
             "forum": {"enabled": bool(self.cfg["arms"][self.arm].get("forum")), "n_total": len(self.forum), "path": "forum.jsonl",
-                      "posts": list(reversed(self.forum[-st.FORUM_INLINE_POSTS:]))},
+                      "posts": [{k: p[k] for k in ("post_id", "season", "doy", "hour", "agent", "text", "rank_at_post", "adversary", "cited_by")}
+                                for p in reversed(self.forum[-st.FORUM_INLINE_POSTS:])]},
             "field": {**(self.field_by_season[-1] if self.field_by_season else {"diversity_jaccard": None, "herding": None}), "by_season": self.field_by_season},
             "outcomes_recent": [{"season": o["season_idx"], "doy": o["doy"], "cls": o["cls"], "ran": o["ran"], "yt": o["yt"], "anglers": o["anglers"], "n_agents": o["n_agents"], "share": o["share"], "agent": o["agent"]} for o in self.outcomes_recent],
         }
@@ -478,7 +644,7 @@ class Engine:
         data = {"season_year": self.season_year, "cursor": self.cursor, "status": self.status, "paused_reason": self.paused_reason,
                 "agents": [a.to_json() for a in self.agents], "forum": self.forum, "interventions": self.interventions,
                 "outcomes_recent": self.outcomes_recent, "field_by_season": self.field_by_season, "arm": self.arm,
-                "replicate": self.replicate, "publish_every": self.publish_every}
+                "replicate": self.replicate, "publish_every": self.publish_every, "cost_usd": self.cost_usd}
         tmp = self.dir / "checkpoint.tmp"
         tmp.write_text(json.dumps(data, default=str))
         tmp.replace(self.dir / "checkpoint.json")
@@ -491,6 +657,7 @@ class Engine:
         self.agents = [Agent.from_json(a) for a in data["agents"]]
         self.forum, self.interventions = data["forum"], data["interventions"]
         self.outcomes_recent, self.field_by_season = data["outcomes_recent"], data["field_by_season"]
+        self.cost_usd = float(data.get("cost_usd", 0.0))
         self.manifest = json.loads((self.dir / "manifest.json").read_text())
 
     # ---------------------------------------------------------------- main loop
@@ -511,6 +678,8 @@ class Engine:
                     if not self.quiet and i % 200 == 0:
                         print(f"  {d} {t.strftime('%H:%M')}  ({time.time() - t0:.0f}s)", flush=True)
                 self.season_end()
+                if any(a.kind in ("llm", "owner") for a in self.agents):
+                    self.llm_turns(datetime(self.season_year, 12, 31, 21), season_end=True)
                 done_year = self.season_year
                 self.season_year += 1
                 self.cursor = None

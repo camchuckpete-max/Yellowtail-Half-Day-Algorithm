@@ -600,3 +600,18 @@ beds that the pier sensor does not yet show marks yellowtail water. The effect i
 gain is small because much of it overlaps with season. Adopted as a candidate input; needs kelp-box
 SST 2019-10 → now (requested) to be tested on 2020–2023 and used live. Goal D ledger +6 (D10) +4 (D10b).
 HF radar (request 0004 item 1): radial history starts 2025-06-05 → too short; dropped.
+
+## D-050 Kelp-box SST on the full series (sweep D11): signal partly replicates, no model gain
+Source 0d1547d (request-branch export; kelp-box SST now 2010 → 2024-01; rows ≥ 2024 unused). PIT suite
+passes. Folds 2012–2023, trips with kelp-box SST (7,558 scored): pier model AUC 0.762 / Brier 0.1320;
++ gap 0.762 / 0.1316; max(pier, sat) 0.762 / 0.1318. The D10 gain (0.745 → 0.752 on 2012–2019) does
+not carry into 2020–2023 folds (2020 0.641 → 0.625, 2023 0.832 → 0.824 for max).
+Out-of-sample descriptive check of D-049, Jul–Oct day trips 2020–2023 (not seen when D-049 was found),
+kelp box > 1.5 °F warmer than pier vs not: pier < 66 °F 10.6 vs 6.9 % (329 / 29 trips); 66–70 °F
+23.3 vs 12.1 % (236 / 107) — same ~2× ratio as 2012–2019 (48.6 vs 24.1 %); ≥ 70 °F 17.6 vs 30.1 %
+(17 / 143) — reversed, too few trips to read. Verdict: at 66–70 °F the "surface warmer than pier" effect
+replicates and is kept as a descriptive modifier in the condition table; it is not added to the
+predictive model (no out-of-sample gain). Held-out bands of the pier model on these trips (2012–2023):
+0–5 % → 5.1 % observed (1,659), 5–15 % → 11.0 % (2,350), 15–35 % → 18.1 % (1,590), 35–65 % → 40.0 %
+(1,093), 65–85 % → 46.6 % (322), 85–100 % → 79.3 % (145); the top two bands are over-confident.
+Goal D ledger +3.

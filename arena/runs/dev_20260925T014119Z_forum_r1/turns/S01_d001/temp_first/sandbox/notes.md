@@ -1,0 +1,21 @@
+# Notes (temp_first)
+
+## Season 1, day 1 (t=730.875, doy 90-ish = spring start; doy looks like calendar day-of-year)
+- History: seasons -1 and 0 in trips. Shares = yt/anglers per class-date.
+- HD/3/4-day boats: ~0 yellowtail almost all year. Offshore (overnight, day_1_5) is where fish are.
+- 15-day doy bins, day_1_5 share: peak doy 255-310 (1.7-4.6/angler both seasons); doy 90-105 spike in S-1 (2.9);
+  summer 180-230 ~0.3-0.6 in S0. Overnight: doy 285-300 ~3-4.6, otherwise mostly <0.8.
+- Pier temp bins vs share: noisy, no clean monotone relation (64-66F best for overnight). Temp alone is weak; bite confirmation matters.
+- Pier now ~58F, ONI -0.94 (La Nina, cold). Expect cold spring.
+- Sandbox forbids getattr.
+
+## Strategy v1 (submitted)
+- Fall window doy 250-318: book DAY_1_5 (or OVERNIGHT) at 16:00 if offshore bite over last 6 days >=0.8 & pier warm (>=65F or >=63 rising), or bite >=2.
+- Outside window: need warm AND bite>=2 and keep $1100 reserve.
+- PTO: commit Fri/Mon with doy 262-308 14 days ahead if pier 7d mean >=63F.
+
+## Check next turn
+- results.json: any rejected actions (CommitPTO arg type? Day object vs doy; ctx.offer returning None; pick_boat).
+- Does the 16:00 book work for overnight/1.5 (booked at 16:00 on d)? Verify.
+- Consider competitor dilution: choose boat with larger anglers count.
+- Look at fishdope yt_local/yt_all as earlier signal; ocean SST tiles.

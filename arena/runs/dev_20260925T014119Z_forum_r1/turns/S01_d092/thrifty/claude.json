@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 123.4,
+ "claude": {
+  "duration_api_ms": 120939,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.16460050000000004,
+  "usage": {
+   "input_tokens": 134,
+   "cache_creation_input_tokens": 29218,
+   "cache_read_input_tokens": 558905,
+   "output_tokens": 10028,
+   "output_tokens_details": {
+    "thinking_tokens": 4187
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 29218,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 485,
+     "cache_read_input_tokens": 46488,
+     "cache_creation_input_tokens": 1705,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1705
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 134,
+    "outputTokens": 10028,
+    "cacheReadInputTokens": 558905,
+    "cacheCreationInputTokens": 29218,
+    "webSearchRequests": 0,
+    "costUSD": 0.16460050000000004,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 4187,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 22,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Strategy updated and submitted.** Summary of findings and changes:\n\n## Key Discovery: Anomalous Dead Season\n- Season 1 has only **11 total yellowtail** across 92 days (vs 28,000+ in prior season)\n- Last catch: **day 36** (56 days of complete silence)\n- Water: **13.9\u00b0C (57\u00b0F)** \u2014 far below the 68\u00b0F threshold where fish bite\n- Competitors: All 7 agents tied at ~0 fish; only early catches count\n\nThe reactive strategy correctly identified no hot classes\u2014because there literally are no fish being caught anywhere.\n\n## Strategic Pivot: \"Weekend Warrior\"\nReplaced reactive strategy with a seasonal preservation approach:\n- **Book HD_PM weekends only** ($80, no PTO cost) through summer\n- **Save 2 PTO days** for fall window (doy 250-318) when historical data shows 1000+ YT/day\n- **Align with thrifty persona**: favor $80 volume + weekends, but acknowledge timing matters in anomalous years\n\nThe season is currently dormant (spring, cold water). All agents are essentially waiting for fall. Building a cheap weekend inventory now keeps options open while conserving resources for the productive window.",
+  "ttft_ms": 2157,
+  "type": "result",
+  "duration_ms": 121432,
+  "uuid": "c274225b-c8cb-403f-a977-7b8ad03a4782",
+  "ttft_stream_ms": 629,
+  "time_to_request_ms": 83,
+  "first_content_frame_ms": 629,
+  "time_to_request_from_spawn_ms": 9638631,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790301017139.5295,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

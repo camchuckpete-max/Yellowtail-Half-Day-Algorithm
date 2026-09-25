@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 69.3,
+ "claude": {
+  "duration_api_ms": 66155,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.33213859999999995,
+  "usage": {
+   "input_tokens": 16,
+   "cache_creation_input_tokens": 18500,
+   "cache_read_input_tokens": 256273,
+   "output_tokens": 6641,
+   "output_tokens_details": {
+    "thinking_tokens": 2321
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 18500,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 352,
+     "cache_read_input_tokens": 38578,
+     "cache_creation_input_tokens": 1324,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1324
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 16,
+    "outputTokens": 6641,
+    "cacheReadInputTokens": 256273,
+    "cacheCreationInputTokens": 18500,
+    "webSearchRequests": 0,
+    "costUSD": 0.33213859999999995,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 2321,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 16,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "The arena MCP server failed to connect again, so I couldn't run queries, submit the strategy or post to the forum. You may want to fix or retry that connection. The edits below are only in `strategy.py` on disk, and I haven't tested them. Last turn's fix disappeared from the file, which suggests on-disk changes don't go live without `submit_strategy`.\n\n- **Changed:** I wrote v4 of `strategy.py`. It restores the boat-selection fix (the booking now looks up the boat for the fishing date, which caused last turn's rejected overnight booking). After day-of-year 318 it also spends freely: offshore trips when the bite is \u22650.5 fish per angler, three-quarter-day trips on free days at \u22650.25, and Friday/Monday PTO up to day-of-year 345.\n- **Why:** it's about day-of-year 303, the fall window is nearly over, and the $1700 and 10 PTO days are still unused and don't carry over. `notes.md` has an item to submit first thing next turn and to find out why PTO commits never fire.",
+  "ttft_ms": 2418,
+  "type": "result",
+  "duration_ms": 67670,
+  "uuid": "393aadbc-9d55-4343-8d59-460ee83274ff",
+  "ttft_stream_ms": 1243,
+  "time_to_request_ms": 86,
+  "first_content_frame_ms": 1244,
+  "time_to_request_from_spawn_ms": 10590056,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790301968497.2188,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

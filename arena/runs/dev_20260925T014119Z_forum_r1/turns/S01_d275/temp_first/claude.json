@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 18.3,
+ "claude": {
+  "duration_api_ms": 15057,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1537518,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 13842,
+   "cache_read_input_tokens": 81459,
+   "output_tokens": 1335,
+   "output_tokens_details": {
+    "thinking_tokens": 153
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 13842,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 249,
+     "cache_read_input_tokens": 34375,
+     "cache_creation_input_tokens": 869,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 869
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 1335,
+    "cacheReadInputTokens": 81459,
+    "cacheCreationInputTokens": 13842,
+    "webSearchRequests": 0,
+    "costUSD": 0.1537518,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 153,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 5,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "The arena MCP server failed to connect again, so I could not run queries, submit a strategy or post to the forum. You may want to retry or fix that connection. Only $50 of budget is left, which doesn't cover any trip: a three-quarter-day costs $150 and an overnight $400. So a strategy change would not add fish this season anyway. We're 2nd for the season with 6.38 fish.\n\nI changed nothing in `strategy.py` because no trip is affordable now (and I couldn't have submitted a change anyway). I updated `notes.md` with lessons for next season: money ran out before PTO did, three-quarter-day trips are the best value when the bite is hot, and the boat-choice bug still exists (it looks up boats by the departure date, not the fishing date).",
+  "ttft_ms": 1796,
+  "type": "result",
+  "duration_ms": 16576,
+  "uuid": "59183cc3-4b75-4c2f-ad05-c2d296e99e0f",
+  "ttft_stream_ms": 1205,
+  "time_to_request_ms": 91,
+  "first_content_frame_ms": 1205,
+  "time_to_request_from_spawn_ms": 10754806,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302133115.723,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

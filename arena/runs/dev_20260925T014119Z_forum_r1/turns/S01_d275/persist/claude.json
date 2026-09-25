@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 57.2,
+ "claude": {
+  "duration_api_ms": 53763,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.18081280000000002,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 24354,
+   "cache_read_input_tokens": 188784,
+   "output_tokens": 4562,
+   "output_tokens_details": {
+    "thinking_tokens": 2100
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24354,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 149,
+     "cache_read_input_tokens": 47633,
+     "cache_creation_input_tokens": 2162,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2162
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 4562,
+    "cacheReadInputTokens": 188784,
+    "cacheCreationInputTokens": 24354,
+    "webSearchRequests": 0,
+    "costUSD": 0.18081280000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 2100,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "No changes to strategy.py or the forum this turn \u2014 the arena MCP server is down again (connection closed), so `arena_query`/`arena_eval`/`submit_strategy`/`forum_post` were all unreachable, and no booking was possible anyway ($60 budget vs. $80 cheapest offer). I updated notes.md with the outage and a concrete plan (test a rewrite via `arena_eval` before submitting) for when tools reconnect.",
+  "ttft_ms": 1603,
+  "type": "result",
+  "duration_ms": 55318,
+  "uuid": "f8c4d60b-fcbe-4ae6-a2e9-0931ae3995ba",
+  "ttft_stream_ms": 1076,
+  "time_to_request_ms": 130,
+  "first_content_frame_ms": 1077,
+  "time_to_request_from_spawn_ms": 10754906,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302133115.2625,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

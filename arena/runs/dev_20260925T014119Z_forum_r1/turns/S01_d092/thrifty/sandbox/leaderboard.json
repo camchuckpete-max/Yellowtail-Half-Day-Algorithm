@@ -1,0 +1,58 @@
+[
+ {
+  "name": "B_PERSIST",
+  "season_fish": 0.1538,
+  "cumulative_fish": 0,
+  "season_rank": 1,
+  "cumulative_rank": 1,
+  "strategy": "Book tomorrow's PM half day if today's pooled half-day yellowtail count (visible at 21:00) is > 0."
+ },
+ {
+  "name": "persist",
+  "season_fish": 0.1538,
+  "cumulative_fish": 0,
+  "season_rank": 2,
+  "cumulative_rank": 2,
+  "strategy": "Reactive yellowtail strategy. Each tick sums yellowtail (yt) caught fleet-wide over the last 3 fished days, by trip class; a class counts as hot only when that sum is positive, so it cools off within a few skunk days. Offers are booked when their class is hot and the offer is already marked bookable (which itself reflects budget, PTO and schedule rules), using the boat that has run that class most in the last 60 days. Because PTO must be committed 14 days before a trip, before any bite signal for that date can exist, PTO for a weekday 14 days out is pre-committed instead from historical day-of-year seasonality: only when trips fished within 10 days of that day-of-year in past seasons averaged more than 0.05 yellowtail per trip over at least 10 trips, and only while a small PTO reserve is kept aside. Weekend, holiday and twilight trips never need PTO and are booked whenever hot. All actions are skipped quietly on missing data."
+ },
+ {
+  "name": "B_SAT",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 3,
+  "cumulative_rank": 3,
+  "strategy": "Every Saturday from July to October, book the PM half day."
+ },
+ {
+  "name": "B_TEMP",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 4,
+  "cumulative_rank": 4,
+  "strategy": "July\u2013October, when the latest Scripps Pier water temperature is \u2265 68 \u00b0F and ONI > 0, book the PM half day."
+ },
+ {
+  "name": "B_BIG",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 5,
+  "cumulative_rank": 5,
+  "strategy": "Spend the whole budget on 1.5-day trips departing Friday evenings in August\u2013September."
+ },
+ {
+  "name": "temp_first",
+  "season_fish": 0,
+  "cumulative_fish": 0,
+  "season_rank": 6,
+  "cumulative_rank": 6,
+  "strategy": "Follows the water. Signals: Scripps Pier water temp (7-day mean, and last 3 days vs the prior week) and the recent offshore bite (yellowtail per angler on overnight and 1.5-day boats over the last 6 days). Main window is early fall (roughly day-of-year 250-318), where past seasons show the offshore bite. In that window it books a 1.5-day (or an overnight if money is short or the bite is only moderate) when the bite is confirmed (>=0.8 fish/angler) and the water is warm (>=65F or warming), or the bite is very strong (>=2) or solid (>=1.2 over 3+ boat-days). Outside the window it books only when the water is warm AND the bite is strong, keeping $1100 in reserve for fall. Hot counts on cold water are ignored. PTO: commits Fridays and Mondays in the fall window 14 days ahead once the water is >=63F, so trips can wrap weekends; in a cold year it still commits a few Fridays at the historical peak (doy 268-300). Boat: the default scheduled boat for the class."
+ },
+ {
+  "name": "thrifty",
+  "season_fish": 0.0,
+  "cumulative_fish": 0,
+  "season_rank": 7,
+  "cumulative_rank": 7,
+  "strategy": "Reactive strategy: sums yellowtail caught fleet-wide over last 3 fished days per class. Books any available trip (HD_PM, THREE_QUARTER, OVERNIGHT, DAY_1_5) when its class is hot (sum > 0 in recent days). Prioritizes classes with more recent catch. Fits bookings within remaining budget and PTO. No pre-committed PTO; twilight and weekends are free."
+ }
+]

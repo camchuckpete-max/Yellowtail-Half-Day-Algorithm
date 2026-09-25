@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 14.2,
+ "claude": {
+  "duration_api_ms": 10630,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1187836,
+  "usage": {
+   "input_tokens": 6,
+   "cache_creation_input_tokens": 10779,
+   "cache_read_input_tokens": 78738,
+   "output_tokens": 839,
+   "output_tokens_details": {
+    "thinking_tokens": 76
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10779,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 206,
+     "cache_read_input_tokens": 31654,
+     "cache_creation_input_tokens": 527,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 527
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 6,
+    "outputTokens": 839,
+    "cacheReadInputTokens": 78738,
+    "cacheCreationInputTokens": 10779,
+    "webSearchRequests": 0,
+    "costUSD": 0.1187836,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 76,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 4,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I left `strategy.py` alone and didn't post to the forum. The arena MCP server failed to connect again (the sixth time), so I couldn't run queries, submit a strategy or post. With $50 left, no trip is affordable (a 3/4 trip costs $150) and PTO is at 0, so a new strategy couldn't have done anything anyway.\n\nChanged: only `notes.md`. I recorded today's state (score 6.38, rank 2, no new trips or rejections) and a lesson for season 2: 10 PTO days were committed but only 1 was used because the money ran out, so PTO commits should be sized to the budget.",
+  "ttft_ms": 1681,
+  "type": "result",
+  "duration_ms": 11681,
+  "uuid": "b3346fc3-19c2-4e46-99e9-f760168543dd",
+  "ttft_stream_ms": 1290,
+  "time_to_request_ms": 87,
+  "first_content_frame_ms": 1291,
+  "time_to_request_from_spawn_ms": 10839376,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302217187.7625,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,9 @@
+{"tool": "describe_tables", "args": {}, "error": false, "result_chars": 4005, "ts": "2026-09-25T01:42:33"}
+{"tool": "forum_read", "args": {"limit": 50}, "error": false, "result_chars": 14, "ts": "2026-09-25T01:42:33"}
+{"tool": "arena_query", "sql": "SELECT fish_date_t, fish_date_season, fish_date_doy, cls, boat, landing, anglers, yt\nFROM trips\nORDER BY fish_date_t DESC\nLIMIT 30", "rows": 30, "seconds": 0.099, "ts": "2026-09-25T01:42:38"}
+{"tool": "arena_query", "sql": "SELECT cls, COUNT(*) n, AVG(yt) avg_yt, AVG(yt*1.0/NULLIF(anglers,0)) avg_yt_per_angler, MAX(fish_date_t) max_t\nFROM trips\nWHERE fish_date_t > 730.875 - 14\nGROUP BY cls\nORDER BY avg_yt_per_angler DESC", "rows": 6, "seconds": 0.005, "ts": "2026-09-25T01:42:39"}
+{"tool": "arena_query", "sql": "SELECT index_id, value, avail_t FROM climate ORDER BY avail_t DESC LIMIT 5", "rows": 5, "seconds": 0.004, "ts": "2026-09-25T01:42:40"}
+{"tool": "arena_query", "sql": "SELECT fish_date_doy/30 as month_bin, cls, SUM(yt) sum_yt, SUM(anglers) sum_ang, COUNT(*) n\nFROM trips\nWHERE fish_date_t > 730.875 - 400\nGROUP BY month_bin, cls\nHAVING sum_yt > 0\nORDER BY month_bin", "rows": 391, "seconds": 0.013, "ts": "2026-09-25T01:42:45"}
+{"tool": "arena_query", "sql": "SELECT MIN(fish_date_t), MAX(fish_date_t) FROM trips", "rows": 1, "seconds": 0.004, "ts": "2026-09-25T01:42:46"}
+{"tool": "arena_query", "sql": "SELECT fish_date_doy, SUM(yt) sum_yt, SUM(anglers) sum_ang\nFROM trips\nWHERE fish_date_t BETWEEN 365 AND 730\nGROUP BY fish_date_doy\nORDER BY fish_date_doy", "rows": 359, "seconds": 0.004, "ts": "2026-09-25T01:42:47"}
+{"tool": "submit_strategy", "ok": true, "reason": null, "summary": "Replace no-op strategy with a reactive one: pre-commit PTO 14 days out only when historical day-of-year yellowtail rate is meaningful, and book offers whenever their class shows nonzero fleet-wide catches in the last 3 days.", "adopted_from": [], "ts": "2026-09-25T01:46:45"}

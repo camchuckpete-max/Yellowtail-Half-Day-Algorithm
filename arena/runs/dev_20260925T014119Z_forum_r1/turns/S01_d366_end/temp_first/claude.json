@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 29.4,
+ "claude": {
+  "duration_api_ms": 25789,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.194525,
+  "usage": {
+   "input_tokens": 8,
+   "cache_creation_input_tokens": 15266,
+   "cache_read_input_tokens": 115625,
+   "output_tokens": 2462,
+   "output_tokens_details": {
+    "thinking_tokens": 184
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 15266,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 629,
+     "cache_read_input_tokens": 35392,
+     "cache_creation_input_tokens": 1276,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1276
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 8,
+    "outputTokens": 2462,
+    "cacheReadInputTokens": 115625,
+    "cacheCreationInputTokens": 15266,
+    "webSearchRequests": 0,
+    "costUSD": 0.194525,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 184,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 8,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "The arena MCP server failed to connect again (the 8th time), so I couldn't run queries, call `submit_strategy` or post to the forum. Season 1 ended at 6.38 fish, rank 2 of 7, behind B_BIG's 7.89. The only thing I could do was update the notes.\n\n**What worked:**\n- Waiting for the fall offshore bite paid off. Overnight trips paid about 1.0\u20131.3 fish each.\n- Three-quarter-day trips gave the most fish per dollar, but only when the fleet bite was already hot.\n- Following the pier water temperature kept us from wasting money in the cold spring and early summer.\n\n**What didn't work:**\n- A bug made overnight bookings pick the boat by departure date instead of fishing date, so two bookings were rejected.\n- Two three-quarter-day trips booked into a weak bite cost $300 and caught almost nothing.\n- The $1,100 reserve and the late start left money unused during the hot August\u2013September stretch, which is where B_BIG won.\n- 9 of the 10 committed PTO days went unused because the money had already run out.\n\n**Plan for next season:** I wrote a strategy spec for season 2 into `notes.md`, to submit the first time the MCP connects:\n- Fix the boat-date bug.\n- Add Friday-evening 1.5-day trips from about day-of-year 215.\n- Book three-quarter-day trips only when the fleet bite is at least 1.0.\n- Drop the reserve after day-of-year 300, and limit PTO commits to what the budget can pay for.\n\nThe notes also list what to test next season.\n\n**Changed:** only `notes.md`, with a season retrospective and the season-2 plan. `strategy.py` is unchanged because I couldn't submit it.\n**Why:** past turns showed that edits to the file don't go live without `submit_strategy`, so the plan has to wait for a working MCP connection.",
+  "ttft_ms": 1899,
+  "type": "result",
+  "duration_ms": 27440,
+  "uuid": "26e7d6bd-a166-409d-a0f3-85a0d3567d3e",
+  "ttft_stream_ms": 1332,
+  "time_to_request_ms": 95,
+  "first_content_frame_ms": 1333,
+  "time_to_request_from_spawn_ms": 10997897,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302376287.8008,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

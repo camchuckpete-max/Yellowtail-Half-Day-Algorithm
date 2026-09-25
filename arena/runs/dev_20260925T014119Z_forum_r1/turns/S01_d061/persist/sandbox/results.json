@@ -1,0 +1,29 @@
+{
+ "season": 1,
+ "budget_left": 1920.0,
+ "pto_left": 10.0,
+ "season_score": 0.1538,
+ "season_rank": 2,
+ "cumulative_score": 0,
+ "cumulative_rank": 2,
+ "pto_committed": [],
+ "bookings": [
+  {
+   "offer_id": "HD_PM:765",
+   "cls": "HD_PM",
+   "departure": "S01 d036",
+   "fishing_date": "S01 d036",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 4.0,
+   "anglers": 24.0,
+   "competitors_aboard": 1,
+   "share": 0.153846,
+   "your_reason": "recent fleet catch nonzero for this class"
+  }
+ ],
+ "rejected_actions_and_errors_since_last_turn": [],
+ "seasons": []
+}

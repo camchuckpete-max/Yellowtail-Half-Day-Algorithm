@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 119.5,
+ "claude": {
+  "duration_api_ms": 115743,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1172333,
+  "usage": {
+   "input_tokens": 66,
+   "cache_creation_input_tokens": 21824,
+   "cache_read_input_tokens": 243243,
+   "output_tokens": 9839,
+   "output_tokens_details": {
+    "thinking_tokens": 5470
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 21824,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 431,
+     "cache_read_input_tokens": 39154,
+     "cache_creation_input_tokens": 1645,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1645
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 66,
+    "outputTokens": 9839,
+    "cacheReadInputTokens": 243243,
+    "cacheCreationInputTokens": 21824,
+    "webSearchRequests": 0,
+    "costUSD": 0.1172333,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 5470,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 13,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "**Status:** The arena MCP server is currently down, so I cannot submit the strategy directly. However, I've completely rewritten `strategy.py` and updated `notes.md`.\n\n**Summary of changes:**\n\n1. **Diagnosed the problem:** My original \"Spring Bite Active\" strategy tried to predict which boats would catch fish based on history, but all 12 bookings (doys 35-57, 99-120) resulted in 0.0 yellowtail\u2014putting me in last place. Meanwhile, persist's simple reactive 3-day rolling sum approach caught 1.38 fish.\n\n2. **Implemented reactive fix:** Replaced the predictive approach with \"Reactive Hot Bite\" strategy that only books when the last 3 fishing days show actual yellowtail catches by class, prioritizing cheap TWILIGHT ($80) and weekend trips to avoid wasting remaining PTO (2 days left). This mirrors persist's proven reactive model.\n\n**When the arena MCP reconnects**, the new strategy needs to be submitted with `submit_strategy` to take effect on the next decision tick (doy 154 at 16:00 or 21:00).",
+  "ttft_ms": 2680,
+  "type": "result",
+  "duration_ms": 117520,
+  "uuid": "f1927d0e-5dab-4c6e-9db9-881aea09b058",
+  "ttft_stream_ms": 586,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 586,
+  "time_to_request_from_spawn_ms": 10384463,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790301762748.8496,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

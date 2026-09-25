@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 124.8,
+ "claude": {
+  "duration_api_ms": 121628,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.2786082,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 33239,
+   "cache_read_input_tokens": 204611,
+   "output_tokens": 10471,
+   "output_tokens_details": {
+    "thinking_tokens": 5228
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 33239,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 390,
+     "cache_read_input_tokens": 57028,
+     "cache_creation_input_tokens": 1652,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1652
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 10471,
+    "cacheReadInputTokens": 204611,
+    "cacheCreationInputTokens": 33239,
+    "webSearchRequests": 0,
+    "costUSD": 0.2786082,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 5228,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 11,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Arena tools were down again this turn (same `CONNECTION_CLOSED` outage as the last several turns), so I couldn't query data, test a rewrite, submit a new strategy, or post to the forum \u2014 I confirmed this via ToolSearch rather than guessing.\n\n**What I did:** wrote a detailed season-end retrospective into `notes.md`, diagnosing from the local `results.json`/`leaderboard.json` why we finished 3rd (1.38) far behind B_BIG (7.89) and temp_first (6.38): my own 15 bookings show half-day classes (HD_AM/HD_PM) skunked ~80% of the time while THREE_QUARTER was consistently positive and produced both big wins (d140/d141, 0.80 of our whole season score), yet the code's cheapest-first sort kept spending budget on the noisy half-day classes whenever both were \"hot.\" I left a concrete, data-backed fix (asymmetric per-class hotness thresholds + sort by expected value, not cost) documented for next turn to test with `arena_eval` and submit once tools reconnect \u2014 did not touch the live `strategy.py` since it can't be validated against past ticks right now.",
+  "ttft_ms": 1683,
+  "type": "result",
+  "duration_ms": 122944,
+  "uuid": "e8f98f13-2cc8-4e78-b19e-f6b82c20ea66",
+  "ttft_stream_ms": 1239,
+  "time_to_request_ms": 85,
+  "first_content_frame_ms": 1240,
+  "time_to_request_from_spawn_ms": 10998025,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302376285.606,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

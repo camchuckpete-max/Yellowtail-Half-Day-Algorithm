@@ -1,0 +1,13 @@
+{
+ "season": 1,
+ "budget_left": 2000.0,
+ "pto_left": 10.0,
+ "season_score": 0,
+ "season_rank": 5,
+ "cumulative_score": 0,
+ "cumulative_rank": 5,
+ "pto_committed": [],
+ "bookings": [],
+ "rejected_actions_and_errors_since_last_turn": [],
+ "seasons": []
+}

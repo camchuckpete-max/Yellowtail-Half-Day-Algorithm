@@ -1,0 +1,65 @@
+--- strategy_v3.py
++++ strategy_v4.py
+@@ -7,6 +7,7 @@
+ PTO_LO, PTO_HI = 262, 308        # window for committing Fri/Mon PTO
+ FALL_PEAK_LO, FALL_PEAK_HI = 268, 300  # historical peak: Friday PTO even if water stays cold
+ RESERVE_FOR_FALL = 1100.0
++TQ_RESERVE = 800.0               # keep this much for offshore trips when booking 3/4-day trips
+ 
+ 
+ def _df(x):
+@@ -22,17 +23,15 @@
+     name = "warm water first"
+ 
+     def describe(self):
+-        return ("Follows the water. Signals: Scripps Pier water temp (7-day mean, and last 3 days vs the "
+-                "prior week) and the recent offshore bite (yellowtail per angler on overnight and 1.5-day "
+-                "boats over the last 6 days). Main window is early fall (roughly day-of-year 250-318), "
+-                "where past seasons show the offshore bite. In that window it books a 1.5-day (or an "
+-                "overnight if money is short or the bite is only moderate) when the bite is confirmed (>=0.8 "
+-                "fish/angler) and the water is warm (>=65F or warming), or the bite is very strong (>=2) or "
+-                "solid (>=1.2 over 3+ boat-days). "
+-                "Outside the window it books only when the water is warm AND the bite is strong, keeping "
+-                "$1100 in reserve for fall. Hot counts on cold water are ignored. PTO: commits Fridays and "
+-                "Mondays in the fall window 14 days ahead once the water is >=63F, so trips can wrap "
+-                "weekends; in a cold year it still commits a few Fridays at the historical peak (doy 268-300). "
++        return ("Follows the water. Signals: Scripps Pier water temp (7-day mean and 3-day trend) and the "
++                "offshore bite (yellowtail per angler on overnight and 1.5-day boats, last 6 days). In the "
++                "fall window (day-of-year 250-318) it books a 1.5-day or overnight when the bite is >=0.8 "
++                "and the water is warm (>=65F or warming), or the bite is >=2, or >=1.2 over 3+ boat-days. "
++                "Outside the window it books only with warm water AND a bite >=2, keeping $1100 for fall. "
++                "PTO: commits fall-window Fridays and Mondays 14 days ahead once the water is >=63F; in a "
++                "cold year it still commits a few Fridays at the historical peak (doy 268-300). "
++                "Also books a three-quarter-day trip for weekend/holiday dates (no PTO) when water >=63F "
++                "and its 5-day bite is >=0.4/angler, keeping $800 for offshore. "
+                 "Boat: the default scheduled boat for the class.")
+ 
+     def _pier(self, ctx, now_t):
+@@ -86,6 +85,27 @@
+             except Exception:
+                 pass
+ 
++        # Three-quarter day trips: booked 21:00 the day before, only for free (weekend/holiday) days
++        if hour == 21:
++            try:
++                tq = _df(ctx.observe("trips"))
++                tq = tq[(tq["fish_date_t"] > now_t - 5) & (tq["cls"] == "three_quarter")]
++                ta = float(tq["anglers"].sum()) if len(tq) else 0.0
++                tbite = float(tq["yt"].sum()) / ta if ta > 0 else 0.0
++                d1 = today.plus(1)
++                free = d1.is_weekend or d1.is_holiday
++                if wk_ok and wk >= 63.0 and free and len(tq) >= 3 and tbite >= 0.4:
++                    o = ctx.offer("THREE_QUARTER")
++                    budget = float(ctx.budget_left)
++                    if o is not None and o.bookable and float(o.cost) <= budget - TQ_RESERVE:
++                        boat = ctx.pick_boat("THREE_QUARTER", d1)
++                        if boat:
++                            acts.append(Book(o.id, "3/4 bite %.2f/angler over %d boat-days, pier %.1fF" % (
++                                tbite, len(tq), wk), boat=boat))
++            except Exception:
++                pass
++            return acts
++
+         # Bookings: offshore trips are booked at the 16:00 tick
+         if hour != 16:
+             return acts

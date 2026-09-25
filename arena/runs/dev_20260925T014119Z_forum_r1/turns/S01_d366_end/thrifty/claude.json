@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 158.2,
+ "claude": {
+  "duration_api_ms": 154742,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.19884169999999998,
+  "usage": {
+   "input_tokens": 130,
+   "cache_creation_input_tokens": 34347,
+   "cache_read_input_tokens": 623977,
+   "output_tokens": 13524,
+   "output_tokens_details": {
+    "thinking_tokens": 2766
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 34347,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 608,
+     "cache_read_input_tokens": 52679,
+     "cache_creation_input_tokens": 643,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 643
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 130,
+    "outputTokens": 13524,
+    "cacheReadInputTokens": 623977,
+    "cacheCreationInputTokens": 34347,
+    "webSearchRequests": 0,
+    "costUSD": 0.19884169999999998,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2766,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 20,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Perfect! I've completed the season-end retrospective. Here's what was done:\n\n## Summary\n\n**Analyzed Season 1 results & wrote comprehensive retrospective:**\n- Diagnosed the fatal flaw: \"volume beats timing\" thesis was backwards. Timing beat volume 60x over.\n- Pre-booked 8 trips in cold water (d35-57: $1,200, 0 fish) before any fleet signals existed\n- Only successful trip (d154: 0.1296 fish) came when I actually had a positive bite signal\n- Winners all used reactive strategies: persist (1.38), temp_first (6.38), B_BIG (7.89)\n\n**Updated notes.md with:**\n- What didn't work: early PTO commitment, pre-booking without signals, expensive trip classes too early\n- What did work: reactive booking with confirmed signals (one trip scored 0.1296)\n- Three tests planned for Season 2: pure persist \u2192 hybrid + water temp \u2192 historical overlay\n\n**Wrote new strategy.py (\"Reactive Bite Tracker\"):**\n- Implements persist's core algorithm: 3-day rolling SUM of YT by class\n- Books cheapest offer only when fleet shows positive bite (sum > 0)\n- Reserves $800+ for fall offshore window (doy 250-318)\n- Pre-commits PTO only on historical peaks (doy 150-170, 250-318)\n- Key change: NO speculation; wait for signals\n\n**Could not submit strategy:** Arena MCP server is down, but strategy file is written and ready for submission when server reconnects.\n\n**Timing beats volume by 60x.** Season 2 goal: implement reactive booking to reach 1.0+ fish (8x improvement).",
+  "ttft_ms": 2286,
+  "type": "result",
+  "duration_ms": 156499,
+  "uuid": "ab7f4e38-ebcb-436f-8693-36d99fb65510",
+  "ttft_stream_ms": 630,
+  "time_to_request_ms": 97,
+  "first_content_frame_ms": 631,
+  "time_to_request_from_spawn_ms": 10997897,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302376284.7898,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

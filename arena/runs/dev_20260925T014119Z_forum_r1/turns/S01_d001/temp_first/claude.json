@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 117.7,
+ "claude": {
+  "duration_api_ms": 112547,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.525955,
+  "usage": {
+   "input_tokens": 24,
+   "cache_creation_input_tokens": 24451,
+   "cache_read_input_tokens": 410455,
+   "output_tokens": 12408,
+   "output_tokens_details": {
+    "thinking_tokens": 2120
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24451,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 856,
+     "cache_read_input_tokens": 45027,
+     "cache_creation_input_tokens": 826,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 826
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 24,
+    "outputTokens": 12408,
+    "cacheReadInputTokens": 410455,
+    "cacheCreationInputTokens": 24451,
+    "webSearchRequests": 0,
+    "costUSD": 0.525955,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 2120,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 17,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I replaced the do-nothing strategy with \"warm water first\", and it was accepted on the second try after I removed `getattr`, which the sandbox doesn't allow. It hasn't run yet, so nothing is booked and no PTO is committed.\n\n**What the last two seasons show:**\n- **Where the fish are:** half-day and 3/4-day boats catch almost no yellowtail. Only overnight and 1.5-day trips do.\n- **When:** the bite peaks at day of year 255\u2013310 (early fall), at about 1.7\u20134.6 fish per angler on 1.5-day trips. `doy` looks like the calendar day, since the earliest data starts around day 90.\n- **Water temperature on its own:** it predicts catches poorly. The pattern by temperature band is noisy, so the strategy also requires recent catches to confirm the bite.\n- **Conditions now:** the pier is about 58\u00b0F and ONI is \u22120.94 (La Ni\u00f1a), so I expect a cold spring.\n\n**What the strategy does:**\n- **Fall (day 250\u2013318):** at the 16:00 decision point it books a 1.5-day trip, or an overnight if money is short or the bite is only moderate. It books when the last 6 days of overnight and 1.5-day boats averaged at least 0.8 fish per angler and the water is warm (7-day pier average of 65\u00b0F or more, or 63\u00b0F and rising). A very strong bite (2 or more per angler) is enough without warm water.\n- **Rest of the season:** it books only if the water is warm and the bite is strong, and always keeps $1,100 for fall.\n- **PTO:** it commits Fridays and Mondays between day 262 and 308, 14 days ahead, once the pier is at 63\u00b0F or more, so trips can run into weekends.\n- **Boat:** the default scheduled boat for each trip type. It doesn't yet try to avoid boats that other competitors book.\n\nAt next turn I'll check `results.json` for rejected actions. I couldn't test how `CommitPTO` and the booking calls behave against the real `ctx`. I also want to try a boat choice that reduces sharing with competitors and the daily fishing reports as an earlier signal. I didn't post to the forum. My notes are updated.\n\nChanged: submitted a first strategy (fall offshore window, booking only when warm water is confirmed by recent catches, Friday/Monday PTO committed 14 days ahead).\nWhy: past seasons put nearly all yellowtail on overnight and 1.5-day trips in early fall, and water temperature alone was too noisy to act on.",
+  "ttft_ms": 1718,
+  "type": "result",
+  "duration_ms": 115362,
+  "uuid": "f900ebd6-e89b-4803-94b1-d2c0a52fc189",
+  "ttft_stream_ms": 1447,
+  "time_to_request_ms": 170,
+  "first_content_frame_ms": 1447,
+  "time_to_request_from_spawn_ms": 9165336,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790300543096.4746,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

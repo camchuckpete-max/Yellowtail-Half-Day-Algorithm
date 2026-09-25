@@ -723,3 +723,21 @@ sure nothing from the first run poisons the results of the next run."
    booking and is superseded by the boat-level run logged after this entry.
 The dashboard gained an agent inspector (trips with boat, reason, outcome; turns with strategy
 changes; per-season and cumulative tables) at the owner's request.
+
+## D-056 First LLM smoke run under D-055 rules (2026-09-25)
+`arena/configs/smoke.yaml`, forum arm, season 2012 (uncounted warm-up disabled), monthly turns,
+three LLM agents (temp_first / Opus 5.5, persist / Sonnet 5, thrifty / Haiku 4.5) plus the four
+baselines; run `dev_20260925T014119Z_forum_r1` archived under `arena/runs/` (its `tables/` is a
+git-ignored snapshot). 42 LLM turns, $9.02 in total (Opus $3.17, Sonnet $3.51, Haiku $1.66; one
+turn replayed after the engine crash fixed in de41e38). Every agent submitted a first strategy
+in its season-start turn (13 submissions adopted over the season, none rejected outright at the
+end of a turn; rejections during a turn were fixed and resubmitted within the same turn).
+Season fish: B_BIG 7.89, temp_first 6.38 (8 trips, 3/4-day and overnight on San Diego / Mustang /
+Producer), persist 1.38 (15 trips, $1,406 per fish), B_PERSIST 0.34, B_SAT 0.20, thrifty 0.13,
+B_TEMP 0.07. Findings: (1) nobody posted to the forum in 42 turns although 2 posts a month were
+allowed — the prompt calls posting optional; the owner may want a nudge or leave it as a measured
+behaviour; (2) 33 of 171 actions were rejected, almost all in the first weeks (missing boat
+argument, a day-of-year integer passed as a Day) and gone after the agents read the rejections at
+their next turn; (3) the schedule check rejected 3 bookings on an unscheduled boat, which is the
+mechanism working; (4) a Sonnet turn that explores the data costs $0.3–0.6, an Opus turn $0.2–0.5,
+a Haiku turn $0.1–0.25.

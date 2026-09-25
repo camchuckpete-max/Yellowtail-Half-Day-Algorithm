@@ -1,0 +1,157 @@
+{
+ "season": 1,
+ "budget_left": 1300.0,
+ "pto_left": 2.0,
+ "season_score": 0.3376,
+ "season_rank": 1,
+ "cumulative_score": 0,
+ "cumulative_rank": 1,
+ "pto_committed": [
+  "S01 d082",
+  "S01 d083",
+  "S01 d086",
+  "S01 d087",
+  "S01 d088",
+  "S01 d089",
+  "S01 d090",
+  "S01 d093"
+ ],
+ "bookings": [
+  {
+   "offer_id": "HD_PM:765",
+   "cls": "HD_PM",
+   "departure": "S01 d036",
+   "fishing_date": "S01 d036",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 4.0,
+   "anglers": 24.0,
+   "competitors_aboard": 1,
+   "share": 0.153846,
+   "your_reason": "recent fleet catch nonzero for this class"
+  },
+  {
+   "offer_id": "HD_AM:834",
+   "cls": "HD_AM",
+   "departure": "S01 d105",
+   "fishing_date": "S01 d105",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 17.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "recent fleet catch nonzero for this class"
+  },
+  {
+   "offer_id": "HD_AM:835",
+   "cls": "HD_AM",
+   "departure": "S01 d106",
+   "fishing_date": "S01 d106",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 3.0,
+   "anglers": 37.0,
+   "competitors_aboard": 0,
+   "share": 0.078947,
+   "your_reason": "recent fleet catch nonzero for this class"
+  },
+  {
+   "offer_id": "HD_AM:841",
+   "cls": "HD_AM",
+   "departure": "S01 d112",
+   "fishing_date": "S01 d112",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 57.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "recent fleet catch nonzero for this class"
+  },
+  {
+   "offer_id": "HD_AM:842",
+   "cls": "HD_AM",
+   "departure": "S01 d113",
+   "fishing_date": "S01 d113",
+   "cost": 80,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 39.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "recent fleet catch nonzero for this class"
+  },
+  {
+   "offer_id": "THREE_QUARTER:848",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d119",
+   "fishing_date": "S01 d119",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 2.0,
+   "anglers": 34.0,
+   "competitors_aboard": 0,
+   "share": 0.057143,
+   "your_reason": "recent fleet catch nonzero for this class"
+  },
+  {
+   "offer_id": "THREE_QUARTER:849",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d120",
+   "fishing_date": "S01 d120",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 1.0,
+   "anglers": 20.0,
+   "competitors_aboard": 0,
+   "share": 0.047619,
+   "your_reason": "recent fleet catch nonzero for this class"
+  }
+ ],
+ "rejected_actions_and_errors_since_last_turn": [
+  {
+   "date": "S01 d111",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:841 New Seaforth",
+   "error": "already booked for that fishing date"
+  },
+  {
+   "date": "S01 d111",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:841 Malihini",
+   "error": "already booked for that fishing date"
+  },
+  {
+   "date": "S01 d112",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book HD_PM:842 New Seaforth",
+   "error": "already booked for that fishing date"
+  },
+  {
+   "date": "S01 d112",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:842 Malihini",
+   "error": "already booked for that fishing date"
+  }
+ ],
+ "seasons": []
+}

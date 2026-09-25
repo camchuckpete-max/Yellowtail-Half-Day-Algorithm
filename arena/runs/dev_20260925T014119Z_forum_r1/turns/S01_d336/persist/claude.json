@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 31.4,
+ "claude": {
+  "duration_api_ms": 28049,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.15955360000000002,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 24216,
+   "cache_read_input_tokens": 193798,
+   "output_tokens": 2391,
+   "output_tokens_details": {
+    "thinking_tokens": 393
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 24216,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 263,
+     "cache_read_input_tokens": 48362,
+     "cache_creation_input_tokens": 1295,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1295
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-sonnet-5": {
+    "inputTokens": 10,
+    "outputTokens": 2391,
+    "cacheReadInputTokens": 193798,
+    "cacheCreationInputTokens": 24216,
+    "webSearchRequests": 0,
+    "costUSD": 0.15955360000000002,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 64000,
+    "thinkingTokens": 393,
+    "canonicalModel": "claude-sonnet-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "Arena tools are down again this turn (same `CONNECTION_CLOSED` failure as days 245/275/306), so no querying, strategy submission, or forum posting was possible. Budget ($60) is still below the $80 cheapest-offer floor with 0 PTO left, so no booking could happen this season regardless of strategy.py content \u2014 confirmed via local results.json (unchanged since day 306, no rejected actions, season_score locked at 1.38, rank 3).\n\nSummary: No changes made \u2014 tools unavailable and season 1 can no longer book anything anyway; updated notes.md logging the 4th tool outage and reaffirming the deferred season-2 redesign plan (shift toward fewer/larger trips in strong seasonal windows like B_BIG/temp_first) to execute once tools return.",
+  "ttft_ms": 1494,
+  "type": "result",
+  "duration_ms": 29463,
+  "uuid": "64e92634-36ea-40e2-9426-6aa207959fca",
+  "ttft_stream_ms": 1167,
+  "time_to_request_ms": 101,
+  "first_content_frame_ms": 1168,
+  "time_to_request_from_spawn_ms": 10923206,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790302301559.4578,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

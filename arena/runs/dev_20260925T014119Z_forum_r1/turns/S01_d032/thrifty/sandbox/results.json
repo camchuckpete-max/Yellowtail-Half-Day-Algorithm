@@ -1,0 +1,189 @@
+{
+ "season": 1,
+ "budget_left": 2000.0,
+ "pto_left": 2.0,
+ "season_score": 0,
+ "season_rank": 7,
+ "cumulative_score": 0,
+ "cumulative_rank": 7,
+ "pto_committed": [
+  "S01 d017",
+  "S01 d018",
+  "S01 d024",
+  "S01 d025",
+  "S01 d031",
+  "S01 d032",
+  "S01 d038",
+  "S01 d039"
+ ],
+ "bookings": [],
+ "rejected_actions_and_errors_since_last_turn": [
+  {
+   "date": "S01 d001",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:731",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d006",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d006",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:736",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d007",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:737",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d013",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d013",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:743",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d014",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d014",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:744",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d015",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d015",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:745",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d016",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d016",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:746",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d017",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:747",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d020",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d020",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:750",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d021",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:751",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d023",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d023",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:753",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d024",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:754",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d027",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d027",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:757",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d028",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:758",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d030",
+   "tick": "16:00",
+   "kind": "decide",
+   "error": "Traceback (most recent call last):\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/engine/sandbox.py\", line 114, in _worker_main\n    acts = strat.decide(c)\n           ^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/runs/dev_20260925T014119Z_forum_r1/agents/thrifty/strategy.py\", line 24, in decide\n    boat = ctx.pick_boat(\"day_1_5\", offer.departure)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/user/Yellowtail-Half-Day-Algorithm/arena/api/ctx.py\", line 217, in pick_boat\n    boats = self.scheduled_boats(cls, day)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nKeyError: 'day_1_5'\n"
+  },
+  {
+   "date": "S01 d030",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:760",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d031",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:761",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  }
+ ],
+ "seasons": []
+}

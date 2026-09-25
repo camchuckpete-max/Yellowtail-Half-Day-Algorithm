@@ -1,0 +1,207 @@
+{
+ "season": 1,
+ "budget_left": 800.0,
+ "pto_left": 2.0,
+ "season_score": 0.0,
+ "season_rank": 7,
+ "cumulative_score": 0,
+ "cumulative_rank": 7,
+ "pto_committed": [
+  "S01 d017",
+  "S01 d018",
+  "S01 d024",
+  "S01 d025",
+  "S01 d031",
+  "S01 d032",
+  "S01 d038",
+  "S01 d039"
+ ],
+ "bookings": [
+  {
+   "offer_id": "THREE_QUARTER:764",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d035",
+   "fishing_date": "S01 d035",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 21.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  },
+  {
+   "offer_id": "THREE_QUARTER:771",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d042",
+   "fishing_date": "S01 d042",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 16.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  },
+  {
+   "offer_id": "THREE_QUARTER:772",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d043",
+   "fishing_date": "S01 d043",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 13.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  },
+  {
+   "offer_id": "THREE_QUARTER:778",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d049",
+   "fishing_date": "S01 d049",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 16.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  },
+  {
+   "offer_id": "THREE_QUARTER:779",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d050",
+   "fishing_date": "S01 d050",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 28.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  },
+  {
+   "offer_id": "THREE_QUARTER:780",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d051",
+   "fishing_date": "S01 d051",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 19.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  },
+  {
+   "offer_id": "THREE_QUARTER:785",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d056",
+   "fishing_date": "S01 d056",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 16.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  },
+  {
+   "offer_id": "THREE_QUARTER:786",
+   "cls": "THREE_QUARTER",
+   "departure": "S01 d057",
+   "fishing_date": "S01 d057",
+   "cost": 150,
+   "pto": 0,
+   "settled": true,
+   "ran": true,
+   "yt": 0.0,
+   "anglers": 10.0,
+   "competitors_aboard": 0,
+   "share": 0.0,
+   "your_reason": "three-quarter value"
+  }
+ ],
+ "rejected_actions_and_errors_since_last_turn": [
+  {
+   "date": "S01 d034",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:763",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d035",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:765",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d037",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:766",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d037",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:767",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d038",
+   "tick": "21:00",
+   "kind": "rejected",
+   "action": "Book THREE_QUARTER:768",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d041",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:770",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d048",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:777",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  },
+  {
+   "date": "S01 d049",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:778",
+   "error": "'Legend' is not scheduled for DAY_1_5 on S01 d050; scheduled: none"
+  },
+  {
+   "date": "S01 d055",
+   "tick": "16:00",
+   "kind": "rejected",
+   "action": "Book DAY_1_5:784",
+   "error": "no boat given: Book(offer_id, reason, boat=...) with a boat from ctx.scheduled_boats()"
+  }
+ ],
+ "seasons": []
+}

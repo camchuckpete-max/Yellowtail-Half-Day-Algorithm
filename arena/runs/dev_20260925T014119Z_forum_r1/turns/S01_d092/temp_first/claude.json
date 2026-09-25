@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 23.2,
+ "claude": {
+  "duration_api_ms": 20108,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1528626,
+  "usage": {
+   "input_tokens": 12,
+   "cache_creation_input_tokens": 10785,
+   "cache_read_input_tokens": 170273,
+   "output_tokens": 1624,
+   "output_tokens_details": {
+    "thinking_tokens": 118
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10785,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 165,
+     "cache_read_input_tokens": 31565,
+     "cache_creation_input_tokens": 622,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 622
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 12,
+    "outputTokens": 1624,
+    "cacheReadInputTokens": 170273,
+    "cacheCreationInputTokens": 10785,
+    "webSearchRequests": 0,
+    "costUSD": 0.1528626,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 118,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 9,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I left `strategy.py` alone. The water is still cold: the pier's 7-day mean is 57.1\u00b0F. No boat of any type has caught a yellowtail in the last 14 days, and it's still early summer (about day 182 of the year), so there's no bite to go after yet. The fallback Friday PTO commits for day 268\u2013300 should start firing around day 254, and budget ($2000) and PTO (10 days) are untouched.\n\nI didn't post to the forum and added today's readings to `notes.md`.",
+  "ttft_ms": 1471,
+  "type": "result",
+  "duration_ms": 21530,
+  "uuid": "764a282d-f904-4467-ba1a-ae24735411f3",
+  "ttft_stream_ms": 1200,
+  "time_to_request_ms": 136,
+  "first_content_frame_ms": 1201,
+  "time_to_request_from_spawn_ms": 9638671,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790301017139.5298,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

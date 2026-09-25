@@ -1,0 +1,57 @@
+--- strategy_v2.py
++++ strategy_v3.py
+@@ -5,6 +5,7 @@
+ 
+ FALL_LO, FALL_HI = 250, 318      # doy window where history shows the big offshore yellowtail bite
+ PTO_LO, PTO_HI = 262, 308        # window for committing Fri/Mon PTO
++FALL_PEAK_LO, FALL_PEAK_HI = 268, 300  # historical peak: Friday PTO even if water stays cold
+ RESERVE_FOR_FALL = 1100.0
+ 
+ 
+@@ -26,11 +27,13 @@
+                 "boats over the last 6 days). Main window is early fall (roughly day-of-year 250-318), "
+                 "where past seasons show the offshore bite. In that window it books a 1.5-day (or an "
+                 "overnight if money is short or the bite is only moderate) when the bite is confirmed (>=0.8 "
+-                "fish/angler) and the water is warm (>=65F or warming), or the bite is very strong (>=2). "
++                "fish/angler) and the water is warm (>=65F or warming), or the bite is very strong (>=2) or "
++                "solid (>=1.2 over 3+ boat-days). "
+                 "Outside the window it books only when the water is warm AND the bite is strong, keeping "
+                 "$1100 in reserve for fall. Hot counts on cold water are ignored. PTO: commits Fridays and "
+                 "Mondays in the fall window 14 days ahead once the water is >=63F, so trips can wrap "
+-                "weekends. Boat: the default scheduled boat for the class.")
++                "weekends; in a cold year it still commits a few Fridays at the historical peak (doy 268-300). "
++                "Boat: the default scheduled boat for the class.")
+ 
+     def _pier(self, ctx, now_t):
+         p = _df(ctx.observe("pier"))
+@@ -68,14 +71,18 @@
+         strong = n >= 2 and bite >= 2.0
+ 
+         # PTO commitments 14 days ahead (Fridays and Mondays in the fall window)
+-        if hour == 16 and ctx.pto_left > 0 and wk is not None and np.isfinite(wk) and wk >= 63.0:
++        wk_ok = wk is not None and np.isfinite(wk)
++        if hour == 16 and ctx.pto_left > 0 and wk_ok:
+             try:
+                 d = today.plus(14)
+                 weekday_ok = (not d.is_weekend) and (not d.is_holiday)
+                 fri = d.plus(1).is_weekend
+                 mon = d.plus(-1).is_weekend
+-                if weekday_ok and (fri or mon) and PTO_LO <= d.doy <= PTO_HI:
+-                    acts.append(CommitPTO(d, "warm water building into the fall offshore window"))
++                # fallback: cold year -> still commit Fridays at the historical fall peak
++                ok = (wk >= 63.0 and (fri or mon) and PTO_LO <= d.doy <= PTO_HI) or \
++                     (fri and FALL_PEAK_LO <= d.doy <= FALL_PEAK_HI and ctx.pto_left > 4)
++                if weekday_ok and ok:
++                    acts.append(CommitPTO(d, "fall offshore window (warm water or historical peak)"))
+             except Exception:
+                 pass
+ 
+@@ -84,7 +91,7 @@
+             return acts
+         in_fall = FALL_LO <= today.doy <= FALL_HI
+         if in_fall:
+-            go = (confirmed and warm) or strong
++            go = (confirmed and warm) or strong or (n >= 3 and bite >= 1.2)
+         else:
+             go = warm and strong
+         if not go:

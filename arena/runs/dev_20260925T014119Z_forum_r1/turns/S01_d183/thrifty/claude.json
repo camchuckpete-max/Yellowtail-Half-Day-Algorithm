@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 77.7,
+ "claude": {
+  "duration_api_ms": 74182,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1015706,
+  "usage": {
+   "input_tokens": 68,
+   "cache_creation_input_tokens": 23301,
+   "cache_read_input_tokens": 251056,
+   "output_tokens": 5959,
+   "output_tokens_details": {
+    "thinking_tokens": 2607
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 23301,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 528,
+     "cache_read_input_tokens": 40809,
+     "cache_creation_input_tokens": 1467,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 1467
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 68,
+    "outputTokens": 5959,
+    "cacheReadInputTokens": 251056,
+    "cacheCreationInputTokens": 23301,
+    "webSearchRequests": 0,
+    "costUSD": 0.1015706,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2607,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 14,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "## Summary\n\n**Fixed but blocked by arena server disconnection:**\n\nI've written **Strategy v3 \"Reactive Hot Bite\"** addressing two critical issues:\n\n1. **CommitPTO bug fixed**: Was passing `int` (day of year) instead of `Day` objects \u2192 8 rejections. Removed PTO commits entirely since budget ($30) can't support any trips anyway.\n\n2. **Reactive logic preserved**: The strategy that caught 0.1296 fish (d154 three-quarter) is now properly coded with clean 3-day rolling yellowtail logic by class, matching what made leader \"persist\" reach 1.38.\n\n**Current position**: Day 183/365, rank 4/7 with 0.1296 fish (tied 3rd). Budget exhausted ($30 left), 2 PTO days unspent. Strategy will run cleanly and gracefully handle no-budget state, avoiding crashes.\n\n**Blocker**: Arena MCP server offline (CONNECTION_CLOSED). Strategy ready to submit when server reconnects.",
+  "ttft_ms": 1740,
+  "type": "result",
+  "duration_ms": 75726,
+  "uuid": "bf1a205e-1b55-4cae-8ead-21225b905070",
+  "ttft_stream_ms": 671,
+  "time_to_request_ms": 112,
+  "first_content_frame_ms": 671,
+  "time_to_request_from_spawn_ms": 10508472,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790301886810.446,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

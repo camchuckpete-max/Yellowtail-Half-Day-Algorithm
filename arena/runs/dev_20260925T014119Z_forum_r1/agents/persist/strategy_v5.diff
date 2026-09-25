@@ -1,0 +1,24 @@
+--- strategy_v4.py
++++ strategy_v5.py
+@@ -39,8 +39,9 @@
+             "positive, so it cools off within a few skunk days. Offers are booked when their class "
+             "is hot and bookable (which already reflects budget, PTO and schedule rules), cheapest "
+             "hot offer first, one booking per departure date, boat is the one that ran that class "
+-            "most in the last 60 days. Because PTO must be committed 14 days before a trip, before "
+-            "any bite signal for that date can exist, PTO for a weekday 14 days out is instead "
++            "most in the last 60 days, skipped if not currently scheduled for the class. "
++            "Because PTO must be committed 14 days before any bite signal can exist, PTO for a "
++            "weekday 14 days out is instead "
+             "pre-committed from historical day-of-year seasonality, using only seasons since "
+             "tracking began (an earlier partial record runs far hotter and is dropped as "
+             "unrepresentative). A day-of-year qualifies only if its historical yellowtail-per-trip "
+@@ -136,6 +137,9 @@
+                 boat = ctx.pick_boat(offer.cls, offer.departure)
+                 if not boat:
+                     continue
++                scheduled = ctx.scheduled_boats(offer.cls, offer.departure)
++                if scheduled and boat not in scheduled:
++                    continue
+                 actions.append(Book(offer.id, "recent fleet catch nonzero for this class", boat=boat))
+                 remaining_budget -= offer.cost
+                 claimed_departures.add(offer.departure)

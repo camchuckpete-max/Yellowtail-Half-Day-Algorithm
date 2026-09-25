@@ -1,0 +1,105 @@
+--- strategy_v3.py
++++ strategy_v4.py
+@@ -1,16 +1,16 @@
+-"""Thrifty: high-value trip mix prioritizing day_1_5 (16 yt avg) and three_quarter (3.7 yt avg)."""
++"""Thrifty: reactive yellowtail strategy, book hot classes only."""
+ from arena.api.ctx import Strategy, Book, CommitPTO
+ 
+ 
+ class Strategy(Strategy):
+-    name = "Volume + value"
++    name = "React to bite"
+ 
+     def describe(self) -> str:
+         return (
+-            "Prioritizes high-value trips: 1.5-day departures average 16 yellowtail at $34/fish "
+-            "with zero PTO cost; three-quarter days average 3.7 yellowtail at $40/fish. "
+-            "Commits PTO for weekday trips 14+ days ahead to enable bookings. "
+-            "Targets 50+ fish per season with available budget and PTO days."
++            "Reactive strategy: sums yellowtail caught fleet-wide over last 3 fished days per class. "
++            "Books any available trip (HD_PM, THREE_QUARTER, OVERNIGHT, DAY_1_5) when its class is hot "
++            "(sum > 0 in recent days). Prioritizes classes with more recent catch. Fits bookings within "
++            "remaining budget and PTO. No pre-committed PTO; twilight and weekends are free."
+         )
+ 
+     def on_turn(self, ctx) -> None:
+@@ -19,35 +19,55 @@
+     def decide(self, ctx) -> list:
+         actions = []
+ 
+-        # Book 1.5-day trips (highest value: 16 yt avg, $34/fish, 0 PTO)
+-        offer = ctx.offer("DAY_1_5")
+-        if offer and offer.bookable and ctx.budget_left >= offer.cost:
+-            try:
+-                boat = ctx.pick_boat(offer.cls, offer.departure)
+-                actions.append(Book(offer.id, "1.5-day high-value", boat=boat))
+-            except Exception:
+-                pass
++        try:
++            trips = ctx.observe("trips")
++            if trips is None or len(trips) == 0:
++                return actions
+ 
+-        # Book three-quarter day trips (secondary: 3.7 yt avg, $40/fish)
+-        offer = ctx.offer("THREE_QUARTER")
+-        if offer and offer.bookable and ctx.budget_left >= offer.cost and ctx.pto_left >= 1:
+-            try:
+-                boat = ctx.pick_boat(offer.cls, offer.departure)
+-                actions.append(Book(offer.id, "three-quarter value", boat=boat))
+-            except Exception:
+-                pass
++            now_t = ctx.now.t
++            three_days_back_t = now_t - 3
+ 
+-        # Commit PTO for upcoming weekday trips (14+ days ahead)
+-        if ctx.pto_left > 2:
+-            today = ctx.today
+-            for offset in [16, 23, 30, 37, 44]:
+-                if ctx.pto_left <= 2:
++            trip_classes = [
++                ("HD_PM", "hd_pm"),
++                ("THREE_QUARTER", "three_quarter"),
++                ("OVERNIGHT", "overnight"),
++                ("DAY_1_5", "day_1_5"),
++                ("HD_AM", "hd_am"),
++                ("TWILIGHT", "hd_twilight"),
++            ]
++
++            hot_classes = {}
++            for offer_cls, db_cls in trip_classes:
++                recent = trips[
++                    (trips["fish_date_t"] >= three_days_back_t)
++                    & (trips["cls"] == db_cls)
++                ]
++                if len(recent) > 0:
++                    yt_sum = recent["yt"].sum()
++                    if yt_sum > 0:
++                        hot_classes[offer_cls] = yt_sum
++
++            if not hot_classes:
++                return actions
++
++            sorted_hot = sorted(hot_classes.items(), key=lambda x: x[1], reverse=True)
++
++            for offer_cls, _ in sorted_hot:
++                if ctx.budget_left < 80 or not ctx.offers:
+                     break
++
++                offer = ctx.offer(offer_cls)
++                if not offer or not offer.bookable or ctx.budget_left < offer.cost:
++                    continue
++
+                 try:
+-                    day = today.plus(offset)
+-                    if not day.is_weekend and not day.is_holiday:
+-                        actions.append(CommitPTO(day, "reserve for three-quarter"))
++                    boat = ctx.pick_boat(offer.cls, offer.departure)
++                    if boat:
++                        actions.append(Book(offer.id, f"{offer_cls} hot", boat=boat))
+                 except Exception:
+                     pass
+ 
++        except Exception:
++            pass
++
+         return actions

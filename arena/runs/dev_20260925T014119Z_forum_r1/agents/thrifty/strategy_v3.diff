@@ -1,0 +1,70 @@
+--- strategy_v2.py
++++ strategy_v3.py
+@@ -1,4 +1,4 @@
+-"""Thrifty: volume + value mix of 1.5-day and three-quarter day trips."""
++"""Thrifty: high-value trip mix prioritizing day_1_5 (16 yt avg) and three_quarter (3.7 yt avg)."""
+ from arena.api.ctx import Strategy, Book, CommitPTO
+ 
+ 
+@@ -7,9 +7,10 @@
+ 
+     def describe(self) -> str:
+         return (
+-            "High-value trip mix: 1.5-day Friday departures (avg 16 yt, $34/fish, no PTO) "
+-            "and three-quarter days (avg 4 yt, $40/fish). Commit PTO for weekday trips 14+ days ahead. "
+-            "Target approximately 50 fish on the season budget with available PTO days."
++            "Prioritizes high-value trips: 1.5-day departures average 16 yellowtail at $34/fish "
++            "with zero PTO cost; three-quarter days average 3.7 yellowtail at $40/fish. "
++            "Commits PTO for weekday trips 14+ days ahead to enable bookings. "
++            "Targets 50+ fish per season with available budget and PTO days."
+         )
+ 
+     def on_turn(self, ctx) -> None:
+@@ -18,25 +19,35 @@
+     def decide(self, ctx) -> list:
+         actions = []
+ 
+-        # Book 1.5-day Friday trips (highest priority: avg 16 yt, $34/fish, 0 PTO)
++        # Book 1.5-day trips (highest value: 16 yt avg, $34/fish, 0 PTO)
+         offer = ctx.offer("DAY_1_5")
+         if offer and offer.bookable and ctx.budget_left >= offer.cost:
+-            boat = ctx.pick_boat("day_1_5", offer.departure)
+-            actions.append(Book(offer.id, "1.5-day Friday weekend", boat=boat))
++            try:
++                boat = ctx.pick_boat(offer.cls, offer.departure)
++                actions.append(Book(offer.id, "1.5-day high-value", boat=boat))
++            except Exception:
++                pass
+ 
+-        # Book three-quarter day trips (avg 4 yt, $40/fish, needs PTO)
++        # Book three-quarter day trips (secondary: 3.7 yt avg, $40/fish)
+         offer = ctx.offer("THREE_QUARTER")
+-        if offer and offer.bookable and ctx.budget_left >= offer.cost and ctx.pto_left > 1:
+-            actions.append(Book(offer.id, "three-quarter day value"))
++        if offer and offer.bookable and ctx.budget_left >= offer.cost and ctx.pto_left >= 1:
++            try:
++                boat = ctx.pick_boat(offer.cls, offer.departure)
++                actions.append(Book(offer.id, "three-quarter value", boat=boat))
++            except Exception:
++                pass
+ 
+         # Commit PTO for upcoming weekday trips (14+ days ahead)
+-        if ctx.pto_left > 3:
++        if ctx.pto_left > 2:
+             today = ctx.today
+-            for offset in [16, 23, 30, 37]:
+-                if ctx.pto_left <= 3:
++            for offset in [16, 23, 30, 37, 44]:
++                if ctx.pto_left <= 2:
+                     break
+-                day = today.plus(offset)
+-                if not day.is_weekend and not day.is_holiday:
+-                    actions.append(CommitPTO(day, "three-quarter trip reserve"))
++                try:
++                    day = today.plus(offset)
++                    if not day.is_weekend and not day.is_holiday:
++                        actions.append(CommitPTO(day, "reserve for three-quarter"))
++                except Exception:
++                    pass
+ 
+         return actions

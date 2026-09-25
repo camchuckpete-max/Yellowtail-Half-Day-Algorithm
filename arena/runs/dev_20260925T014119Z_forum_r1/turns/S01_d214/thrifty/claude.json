@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 70.3,
+ "claude": {
+  "duration_api_ms": 66428,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.07800579999999999,
+  "usage": {
+   "input_tokens": 50,
+   "cache_creation_input_tokens": 17298,
+   "cache_read_input_tokens": 168498,
+   "output_tokens": 5302,
+   "output_tokens_details": {
+    "thinking_tokens": 2192
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 17298,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 8,
+     "output_tokens": 667,
+     "cache_read_input_tokens": 34253,
+     "cache_creation_input_tokens": 2020,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 2020
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-haiku-4-5-20251001": {
+    "inputTokens": 50,
+    "outputTokens": 5302,
+    "cacheReadInputTokens": 168498,
+    "cacheCreationInputTokens": 17298,
+    "webSearchRequests": 0,
+    "costUSD": 0.07800579999999999,
+    "contextWindow": 200000,
+    "maxOutputTokens": 32000,
+    "thinkingTokens": 2192,
+    "canonicalModel": "claude-haiku-4-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 10,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I've analyzed the season and updated the strategy. Here's the summary:\n\n## Analysis\n**Season 1 Results (Day 214/365):**\n- **Score**: 0.1296 fish (tied 3rd with temp_first)\n- **Budget left**: $30 (spent $1,970; can't afford any more trips at $80 minimum)\n- **PTO left**: 2 days (wasted - committed early but never used)\n\n**Trip Record:**\n- 15 trips booked: 14 skunked (0.0 fish), 1 successful (d154 THREE_QUARTER: 7 yellowtail = 0.1296 share)\n- Early season strategy (doys 35-57, 99-120) wasted $950 on zero-fish trips\n- Only caught fish when fleet bite was demonstrably hot (d154 had 11.9 avg fish/trip)\n\n**Leaderboard Gap:**\n- persist leads at 1.38 fish (10x ahead) using reactive 3-day YT tracker + historical seasonality\n- B_PERSIST at 0.2348 (simpler reactive: book PM if yesterday had fish)\n- thrifty at 0.1296 (volume strategy failed to time the peak)\n\n## Changes Made\n1. **Updated strategy.py** to \"Season End Holdout\" \u2014 explicit do-nothing strategy that returns empty action list. This prevents bookings (budget too low) and avoids crashes. Description documents lessons learned.\n\n2. **Updated notes.md** with post-mortem analysis, showing that timing beats volume when budget is limited. Next season should: track water temps, use 3-day rolling YT like persist, delay first trip to proven peak windows (doy ~154), and reserve budget instead of spending early.\n\n**Note:** The arena server is currently offline (CONNECTION_CLOSED), so I cannot submit the strategy yet. When it reconnects, the strategy file is ready and will run cleanly through season end.",
+  "ttft_ms": 2144,
+  "type": "result",
+  "duration_ms": 68124,
+  "uuid": "84fcaec5-c74d-4d53-9b88-caa7ddacc47a",
+  "ttft_stream_ms": 752,
+  "time_to_request_ms": 88,
+  "first_content_frame_ms": 753,
+  "time_to_request_from_spawn_ms": 10590516,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790301968497.2188,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "exit": 0,
+ "stderr": "",
+ "seconds": 19.8,
+ "claude": {
+  "duration_api_ms": 17008,
+  "stop_reason": "end_turn",
+  "session_id": "7a92d0d3-a6c9-584f-9de0-91d8852a590d",
+  "total_cost_usd": 0.1349198,
+  "usage": {
+   "input_tokens": 10,
+   "cache_creation_input_tokens": 10159,
+   "cache_read_input_tokens": 136639,
+   "output_tokens": 1314,
+   "output_tokens_details": {
+    "thinking_tokens": 232
+   },
+   "server_tool_use": {
+    "web_search_requests": 0,
+    "web_fetch_requests": 0
+   },
+   "service_tier": "standard",
+   "cache_creation": {
+    "ephemeral_1h_input_tokens": 10159,
+    "ephemeral_5m_input_tokens": 0
+   },
+   "inference_geo": "not_available",
+   "iterations": [
+    {
+     "input_tokens": 2,
+     "output_tokens": 354,
+     "cache_read_input_tokens": 31126,
+     "cache_creation_input_tokens": 435,
+     "cache_creation": {
+      "ephemeral_5m_input_tokens": 0,
+      "ephemeral_1h_input_tokens": 435
+     },
+     "type": "message"
+    }
+   ],
+   "speed": "standard"
+  },
+  "modelUsage": {
+   "claude-opus-5-5": {
+    "inputTokens": 10,
+    "outputTokens": 1314,
+    "cacheReadInputTokens": 136639,
+    "cacheCreationInputTokens": 10159,
+    "webSearchRequests": 0,
+    "costUSD": 0.1349198,
+    "contextWindow": 1000000,
+    "maxOutputTokens": 128000,
+    "thinkingTokens": 232,
+    "canonicalModel": "claude-opus-5-5",
+    "provider": "firstParty",
+    "costBasis": "list"
+   }
+  },
+  "permission_denials": [],
+  "terminal_reason": "completed",
+  "fast_mode_state": "off",
+  "fast_mode_disabled_reason": "sdk_opt_in_required",
+  "subagent_stats": {
+   "spawned": 0,
+   "requested": {
+    "background": 0,
+    "foreground": 0,
+    "unset": 0
+   },
+   "started_in_background": 0,
+   "max_depth": 0,
+   "spawned_by_subagents": 0,
+   "completed": 0,
+   "failed": 0,
+   "killed": {
+    "parent": 0,
+    "user": 0,
+    "system": 0
+   },
+   "refused": {
+    "depth_limit": 0,
+    "concurrency_limit": 0,
+    "budget": 0
+   },
+   "by_type": {}
+  },
+  "is_error": false,
+  "num_turns": 7,
+  "subtype": "success",
+  "api_error_status": null,
+  "result": "I couldn't submit anything this turn because the arena server failed to connect. That means no `describe_tables`, `arena_query`, `submit_strategy` or `forum_post`; you may want to fix the connection or retry the turn. I only read the local files and updated `notes.md`.\n\n- **What the files show:** `strategy.py` on disk is already v3, which adds three-quarter-day trips on weekends and holidays when the water is warm and the bite is good. `notes.md` says I submitted v3 earlier today, but I can't confirm it went live. `results.json` shows no bookings, no PTO commits and no errors, and `forum_new.json` is empty.\n- **Next turn:** I added a note to check first whether v3 is live, and to resubmit `strategy.py` unchanged if it isn't.\n\nChanged: only `notes.md`; the strategy wasn't resubmitted and nothing was posted to the forum, because the arena server was down.\nWhy: without the server I couldn't confirm v3 is live, so next turn starts by checking that.",
+  "ttft_ms": 1771,
+  "type": "result",
+  "duration_ms": 18024,
+  "uuid": "180436c4-4ae1-4898-869b-911a31121a12",
+  "ttft_stream_ms": 1205,
+  "time_to_request_ms": 83,
+  "first_content_frame_ms": 1205,
+  "time_to_request_from_spawn_ms": 10384385,
+  "warm_spare_claimed": false,
+  "time_origin_ms": 1790301762748.6033,
+  "queued_turn_count": 0,
+  "result_index": 0
+ }
+}

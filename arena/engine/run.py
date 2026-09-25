@@ -433,6 +433,11 @@ class Engine:
         agents = [a for a in self.agents if a.kind in ("llm", "owner") and a.worker is not None]
         if not agents:
             return
+        done = self.dir / "turns" / tag
+        if all((done / a.name / "claude.json").exists() for a in agents):
+            if not self.quiet:
+                print(f"  turn {tag}: already played (resume); skipped", flush=True)
+            return   # idempotent: a resume after a crash later in the same tick must not re-spend the turn
         self.turns_in_progress = [a.name for a in agents]
         self.write_state(now, now.strftime("%H:%M"))
         snap = self.dir / "snapshots" / tag

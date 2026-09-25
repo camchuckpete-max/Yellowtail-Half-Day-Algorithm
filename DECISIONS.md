@@ -778,3 +778,11 @@ Every call is logged with its full briefing in `runs/<id>/judgment/<agent>.jsonl
 6 + 4). (3) Trial first: seasons **2011 and 2015** (drawn with `random.Random(49)`), full field,
 monthly planning turns, `arena/configs/trial.yaml`; the full run waits for the owner's verdict.
 Cost per nightly call measured at ~$0.006 (Haiku, ~1.8k input tokens with a custom system prompt).
+Addendum (same day): an engine check (3 agents, August 2015) showed the agents' own standing code had
+spent all budget and PTO by January, leaving the nightly call nothing to decide. `judgment.code_strategies:
+false` (default, and in the trial) removes standing code for LLM agents: they act only through the nightly
+call; planning turns keep the data tools for analysis, notes and the forum, without `submit_strategy`.
+Agents with less budget than the cheapest trip and no PTO skip the nightly call (logged as skipped).
+Measured nightly-call cost with the full briefing: about $0.02–0.05 (Haiku and Sonnet alike, 3–4k input
+tokens and a few hundred output tokens); the trial (30 agents, 2 seasons, 244 nights each, monthly turns)
+is expected to cost $500–800.

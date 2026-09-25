@@ -58,6 +58,7 @@ def _hash_dir(p: Path, pattern: str = "*.md") -> str:
 
 
 def _jsonl(path: Path, rec: dict) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
     with open(path, "a") as f:
         f.write(json.dumps(rec, default=str) + "\n")
 
@@ -347,6 +348,8 @@ class Engine:
                     _jsonl(self.dir / "decisions.jsonl", {"date": today.isoformat(), "masked": str(day), "tick": tick, "agent": a.name, "kind": "on_turn", "error": err})
                 elif res:
                     a.describe = res
+            if a.kind in ("llm", "owner") and not self.cfg.get("judgment", {}).get("code_strategies", True):
+                continue   # D-058: LLM agents decide only through the nightly call; no standing code
             acts, err = a.worker.call("decide", msg)
             if err:
                 a.failures.append({"date": str(day), "tick": tick, "kind": "decide", "error": err})
@@ -430,7 +433,11 @@ class Engine:
         raw_offers = off.offers_for_judgment(today, self.prices, float(self.cfg["half_day_pto"]))
         jobs, meta = [], {}
         forum_on = bool(self.cfg["arms"][self.arm].get("forum"))
+        cheapest = min(self.prices.values())
         for a in agents:
+            if a.budget < cheapest and a.pto <= 0:
+                _jsonl(self.dir / "judgment" / f"{a.name}.jsonl", {"date": today.isoformat(), "masked": str(day), "skipped": "nothing affordable: budget below the cheapest trip and no PTO left"})
+                continue
             run_d = self.dir / "agents" / a.name
             offers_api = [self._api_offer(o, a, {"today": today}) for o in raw_offers]
             settled = [b for b in a.bookings if b["settled"]][-5:]
@@ -529,11 +536,15 @@ class Engine:
                                  self.dir / "forum.jsonl", agent_forum, quota_left,
                                  {"season": day.season, "doy": day.doy, "hour": now.hour, "t": t},
                                  self.first_year, bool(self.cfg.get("mask_years", True)), self.source_repo,
-                                 self._results_for_turn(a, lb_rows), lb_pub, forum_new)
+                                 self._results_for_turn(a, lb_rows), lb_pub, forum_new,
+                                 code_strategies=bool(self.cfg.get("judgment", {}).get("code_strategies", True)),
+                                 nightly=self.cfg.get("judgment", {}).get("mode", "off") == "daily")
             prompt = turnmod.build_prompt({"name": a.name}, {"season": day.season, "doy": day.doy, "hour": now.hour,
                                                               "season_end": season_end, "first_turn": first_turn and not season_end,
                                                               "forum_new": forum_new, "quota_left": quota_left if agent_forum else None,
-                                                              "budget_left": a.budget, "pto_left": a.pto, "season_counted": counted})
+                                                              "budget_left": a.budget, "pto_left": a.pto, "season_counted": counted,
+                                                              "code_strategies": bool(self.cfg.get("judgment", {}).get("code_strategies", True)),
+                                                              "nightly": self.cfg.get("judgment", {}).get("mode", "off") == "daily"})
             jobs.append({"turn_dir": str(turn_dir), "agent": {"name": a.name, "model": a.model}, "prompt": prompt})
         if not self.quiet:
             print(f"  turn {tag}: {len(jobs)} agent(s) ...", flush=True)
@@ -826,8 +837,9 @@ def new_run(cfg_path: Path, arm: str, replicate: int, dev: bool, seasons: str | 
         raise SystemExit(f"unknown arm {arm}; arms: {list(cfg['arms'])}")
     if seasons:
         a, b = seasons.split("-")
-        cfg["seasons"]["first"], cfg["seasons"]["last"] = int(a), int(b)
-    if int(cfg["seasons"]["last"]) >= HOLDOUT_START.year and not holdout:
+        cfg["seasons"]["years"] = list(range(int(a), int(b) + 1))
+        cfg["seasons"].pop("last", None)
+    if max(cal.season_years(cfg["seasons"])) >= HOLDOUT_START.year and not holdout:
         raise SystemExit(f"seasons.last >= {HOLDOUT_START.year} touches the holdout (D-033); pass --holdout to log the access (SPEC §12 #1)")
     head, dirty = _git("rev-parse", "HEAD"), bool(_git("status", "--porcelain", "arena", "yt"))
     if (not head or dirty) and not dev:

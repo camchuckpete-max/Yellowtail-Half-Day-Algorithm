@@ -20,8 +20,8 @@ turn_days: [1]
 forum: {max_posts_per_month: 2, max_words: 300}
 n_replicates: 1
 timeouts: {decide_s: 2, on_turn_s: 60}
-turns: {parallel: 8, max_tool_turns: 30, budget_usd: 1.5, timeout_s: 900}
-judgment: {mode: daily, tick: "21:00", months: [4, 11], parallel: 10, budget_usd: 0.1, timeout_s: 180}
+turns: {parallel: 10, max_tool_turns: 25, budget_usd: 1.0, timeout_s: 900}
+judgment: {mode: daily, tick: "21:00", months: [4, 11], parallel: 15, budget_usd: 0.1, timeout_s: 180, code_strategies: false}
 carry_agents: false
 climatology_window_days: 15
 arms:

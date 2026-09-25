@@ -214,22 +214,23 @@ if CFG.get("forum"):
 
 
 # ------------------------------------------------------------------ strategy
-@server.tool("submit_strategy",
-             "Submit a new strategy.py. It is checked (allowed imports, describe() ≤ 200 words, no calendar years or season-specific constants, runs without error on past ticks, no lookahead) and adopted after this turn if it passes; otherwise the reason is returned. `adopted_from`: forum post ids you drew on, if any. `summary`: one line on what changed.",
-             {"type": "object", "properties": {"code": {"type": "string"}, "summary": {"type": "string"},
-                                               "adopted_from": {"type": "array", "items": {"type": "string"}}},
-              "required": ["code", "summary"]})
-def submit_strategy(code: str, summary: str, adopted_from: list[str] | None = None) -> str:
-    from arena.engine.validate import validate_strategy
-    report = validate_strategy(code, SNAP, CFG)
-    _log({"tool": "submit_strategy", "ok": report["ok"], "reason": report.get("reason"), "summary": summary, "adopted_from": adopted_from or []})
-    if not report["ok"]:
-        raise ToolError("rejected: " + report["reason"] + ("\n" + "\n".join(report.get("details", [])) if report.get("details") else ""))
-    (TURN_DIR / "strategy_submitted.py").write_text(code)
-    (TURN_DIR / "submission.json").write_text(json.dumps({"summary": summary, "adopted_from": adopted_from or [],
-                                                          "describe": report["describe"], "warnings": report.get("warnings", [])}))
-    return "accepted; it takes effect after this turn. describe(): " + report["describe"] + \
-        ("\nwarnings: " + "; ".join(report["warnings"]) if report.get("warnings") else "")
+if CFG.get("code_strategies", True):
+    @server.tool("submit_strategy",
+        "Submit a new strategy.py. It is checked (allowed imports, describe() ≤ 200 words, no calendar years or season-specific constants, runs without error on past ticks, no lookahead) and adopted after this turn if it passes; otherwise the reason is returned. `adopted_from`: forum post ids you drew on, if any. `summary`: one line on what changed.",
+        {"type": "object", "properties": {"code": {"type": "string"}, "summary": {"type": "string"},
+        "adopted_from": {"type": "array", "items": {"type": "string"}}},
+        "required": ["code", "summary"]})
+    def submit_strategy(code: str, summary: str, adopted_from: list[str] | None = None) -> str:
+        from arena.engine.validate import validate_strategy
+        report = validate_strategy(code, SNAP, CFG)
+        _log({"tool": "submit_strategy", "ok": report["ok"], "reason": report.get("reason"), "summary": summary, "adopted_from": adopted_from or []})
+        if not report["ok"]:
+            raise ToolError("rejected: " + report["reason"] + ("\n" + "\n".join(report.get("details", [])) if report.get("details") else ""))
+        (TURN_DIR / "strategy_submitted.py").write_text(code)
+        (TURN_DIR / "submission.json").write_text(json.dumps({"summary": summary, "adopted_from": adopted_from or [],
+        "describe": report["describe"], "warnings": report.get("warnings", [])}))
+        return "accepted; it takes effect after this turn. describe(): " + report["describe"] + \
+            ("\nwarnings: " + "; ".join(report["warnings"]) if report.get("warnings") else "")
 
 
 @server.tool("write_notes", "Replace your private notes.md with this text (you can also edit the file directly).",

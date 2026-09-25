@@ -63,10 +63,14 @@ def build_prompt(agent: dict, ctx: dict) -> str:
     lines.append("")
     lines.append("What to do in this turn:")
     lines.append("1. Look at the data with `describe_tables`, `arena_query` and `arena_eval` as much as you need (only rows public as of now exist).")
-    lines.append("2. Decide whether to change `strategy.py`. If so, write the full file and call `submit_strategy` with it (it is validated; fix and resubmit if rejected). Keep `describe()` accurate and under 200 words. Remember PTO must be committed 14 days ahead in code (`CommitPTO`).")
+    n = 2
+    if ctx.get("nightly"):
+        lines.append("Your trips are decided by you every evening at 21:00 from April to November, from a briefing (fleet counts, boats, water temperature, forecast, your budget and PTO); this turn is for stepping back: what the data says about when and where yellowtail show, how you will pace budget and PTO, what to watch for.")
+    if ctx.get("code_strategies", True):
+        lines.append(f"{n}. Decide whether to change `strategy.py`. If so, write the full file and call `submit_strategy` with it (it is validated; fix and resubmit if rejected). Keep `describe()` accurate and under 200 words. Remember PTO must be committed 14 days ahead in code (`CommitPTO`)."); n += 1
     if ctx["quota_left"] is not None:
-        lines.append(f"3. Optionally post to the forum with `forum_post` ({ctx['quota_left']} post(s) left this month).")
-    lines.append(f"{4 if ctx['quota_left'] is not None else 3}. Update `notes.md` (private) with what you learned and what to check next time; use `write_notes` or edit the file.")
+        lines.append(f"{n}. Optionally post to the forum with `forum_post` ({ctx['quota_left']} post(s) left this month)."); n += 1
+    lines.append(f"{n}. Update `notes.md` (private) with what you learned and what to check next time; use `write_notes` or edit the file. Your nightly self reads these notes, so write the plan you want followed.")
     lines.append("")
     lines.append("You have a limited number of tool calls in this turn; be deliberate. Finish with a two-line summary: what you changed and why.")
     return "\n".join(lines)
@@ -74,7 +78,7 @@ def build_prompt(agent: dict, ctx: dict) -> str:
 
 def prepare_turn(turn_dir: Path, agent: dict, run_agent_dir: Path, snapshot: Path, forum_path: Path, forum: bool,
                  quota_left: int, now: dict, first_year: int, mask_years: bool, source_repo: Path,
-                 results: dict, leaderboard: list, forum_new: list | None) -> Path:
+                 results: dict, leaderboard: list, forum_new: list | None, code_strategies: bool = True, nightly: bool = False) -> Path:
     sb = turn_dir / "sandbox"
     sb.mkdir(parents=True, exist_ok=True)
     shutil.copy(ARENA / "RULES.md", sb / "RULES.md")
@@ -89,7 +93,7 @@ def prepare_turn(turn_dir: Path, agent: dict, run_agent_dir: Path, snapshot: Pat
     (turn_dir / "turn.json").write_text(json.dumps({
         "agent": agent["name"], "sandbox": str(sb.resolve()), "snapshot": str(Path(snapshot).resolve()), "forum_path": str(Path(forum_path).resolve()),
         "forum": bool(forum), "forum_quota_left": int(quota_left), "now": now, "first_year": first_year,
-        "mask_years": mask_years}, indent=1))
+        "mask_years": mask_years, "code_strategies": bool(code_strategies), "nightly": bool(nightly)}, indent=1))
     (turn_dir / "mcp.json").write_text(json.dumps({"mcpServers": {"arena": {
         "command": sys.executable, "args": [str(ARENA / "mcp_server.py")], "env": {"ARENA_TURN_DIR": str(turn_dir)}}}}))
     (turn_dir / "settings.json").write_text(json.dumps(_settings(source_repo), indent=1))

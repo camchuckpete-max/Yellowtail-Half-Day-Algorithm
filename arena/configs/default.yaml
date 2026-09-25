@@ -38,6 +38,7 @@ judgment:                # D-058: nightly decision call, no tools, briefing buil
   parallel: 8
   budget_usd: 0.1        # per call
   timeout_s: 180
+  code_strategies: false # D-058: LLM agents decide only through the nightly call (no standing code); true re-enables strategy.py
 climatology_window_days: 15
 arms:
   isolated: {forum: false, adversaries: false}

@@ -104,7 +104,7 @@ class Agent:
 class Engine:
     def __init__(self, run_dir: Path, cfg: dict, arm: str, replicate: int, publish_every: float | None = None,
                  no_pause: bool = False, quiet: bool = False, tables_from: Path | None = None):
-        self.dir = Path(run_dir)
+        self.dir = Path(run_dir).resolve()   # absolute: turn.json paths are read by processes with another cwd
         self.cfg, self.arm, self.replicate = cfg, arm, replicate
         self.publish_every, self.no_pause, self.quiet = publish_every, no_pause, quiet
         self.first_year = int(cfg["seasons"]["first"])
@@ -471,6 +471,8 @@ class Engine:
                                     int(tcfg.get("max_tool_turns", 40)), float(tcfg.get("budget_usd", 1.0)), int(tcfg.get("timeout_s", 1200)))
         for a in agents:
             r = results.get(a.name, {})
+            if r.get("error"):
+                print(f"  turn {tag} {a.name}: FAILED: {r['error'][:200]}", file=sys.stderr, flush=True)
             self._apply_turn(a, r, tag, day, now, t, month_key, lb_rows)
             turnmod.archive_turn(turnmod.turn_dir_for(self.dir.name, tag, a.name), self.dir, tag, a.name)
         shutil.rmtree(turnmod.SANDBOXES / self.dir.name, ignore_errors=True)
@@ -781,7 +783,7 @@ def main(argv=None) -> None:
     a = ap.parse_args(argv)
 
     if a.resume:
-        run_dir = Path(a.resume) if Path(a.resume).exists() else ARENA / "runs" / a.resume
+        run_dir = (Path(a.resume) if Path(a.resume).exists() else ARENA / "runs" / a.resume).resolve()
         cfg = load_config(run_dir / "config.yaml")
         ck = json.loads((run_dir / "checkpoint.json").read_text())
         eng = Engine(run_dir, cfg, ck["arm"], ck["replicate"], a.publish_every if a.publish_every is not None else ck.get("publish_every"), a.no_pause, a.quiet)

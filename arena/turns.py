@@ -87,7 +87,7 @@ def prepare_turn(turn_dir: Path, agent: dict, run_agent_dir: Path, snapshot: Pat
     if forum_new is not None:
         (sb / "forum_new.json").write_text(json.dumps(forum_new, indent=1))
     (turn_dir / "turn.json").write_text(json.dumps({
-        "agent": agent["name"], "sandbox": str(sb), "snapshot": str(snapshot), "forum_path": str(forum_path),
+        "agent": agent["name"], "sandbox": str(sb.resolve()), "snapshot": str(Path(snapshot).resolve()), "forum_path": str(Path(forum_path).resolve()),
         "forum": bool(forum), "forum_quota_left": int(quota_left), "now": now, "first_year": first_year,
         "mask_years": mask_years}, indent=1))
     (turn_dir / "mcp.json").write_text(json.dumps({"mcpServers": {"arena": {
@@ -96,9 +96,32 @@ def prepare_turn(turn_dir: Path, agent: dict, run_agent_dir: Path, snapshot: Pat
     return sb
 
 
+def mcp_healthcheck(turn_dir: Path, timeout_s: int = 60) -> str | None:
+    """Start the arena MCP server exactly as Claude Code will and ask it to initialize + list tools.
+    Returns None when healthy, else the error text. A server that cannot start must fail the turn
+    loudly (and spend nothing) instead of leaving the model without tools."""
+    cfg = json.loads((turn_dir / "mcp.json").read_text())["mcpServers"]["arena"]
+    env = {**os.environ, **cfg.get("env", {})}
+    msgs = '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{}}\n{"jsonrpc":"2.0","id":2,"method":"tools/list"}\n'
+    try:
+        r = subprocess.run([cfg["command"], *cfg["args"]], input=msgs, capture_output=True, text=True, timeout=timeout_s,
+                           cwd=turn_dir / "sandbox", env=env)
+    except subprocess.TimeoutExpired:
+        return f"MCP server did not answer within {timeout_s}s"
+    lines = [l for l in r.stdout.splitlines() if l.strip()]
+    if r.returncode != 0 or len(lines) < 2 or '"tools"' not in lines[-1]:
+        return f"MCP server failed to start (exit {r.returncode}): {r.stderr.strip()[-1500:] or r.stdout[-500:]}"
+    return None
+
+
 def run_claude(turn_dir: Path, prompt: str, model: str, max_turns: int, budget_usd: float, timeout_s: int) -> dict:
     sb = turn_dir / "sandbox"
     (turn_dir / "prompt.md").write_text(prompt)
+    err = mcp_healthcheck(turn_dir)
+    if err:
+        out = {"exit": -2, "stderr": err, "seconds": 0.0, "claude": None}
+        (turn_dir / "claude.json").write_text(json.dumps(out, indent=1))
+        return out
     cmd = [CLAUDE, "-p", prompt, "--model", model, "--output-format", "json", "--max-turns", str(max_turns),
            "--max-budget-usd", str(budget_usd), "--mcp-config", str(turn_dir / "mcp.json"), "--strict-mcp-config",
            "--settings", str(turn_dir / "settings.json"), "--permission-mode", "dontAsk", "--restricted",

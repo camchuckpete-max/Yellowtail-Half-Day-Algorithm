@@ -160,3 +160,19 @@ def test_prompt_and_settings():
     s = turns._settings(Path("/src/repo"))
     assert any("SPEC.md" in d for d in s["permissions"]["deny"]) and any("src/repo" in d for d in s["permissions"]["deny"])
     assert "Bash" in s["permissions"]["deny"]
+
+
+def test_mcp_healthcheck(turn, tmp_path):
+    (turn / "mcp.json").write_text(json.dumps({"mcpServers": {"arena": {"command": sys.executable, "args": [str(ROOT / "arena" / "mcp_server.py")],
+                                                                        "env": {"ARENA_TURN_DIR": str(turn)}}}}))
+    assert turns.mcp_healthcheck(turn) is None
+    bad = tmp_path / "bad"; (bad / "sandbox").mkdir(parents=True)
+    (bad / "turn.json").write_text(json.dumps({"agent": "x", "sandbox": str(bad / "sandbox"), "snapshot": "relative/does/not/exist",
+                                              "forum_path": str(bad / "f.jsonl"), "forum": False, "forum_quota_left": 0,
+                                              "now": {"season": 1, "doy": 1, "hour": 21, "t": 0.0}, "first_year": 2010, "mask_years": True}))
+    (bad / "mcp.json").write_text(json.dumps({"mcpServers": {"arena": {"command": sys.executable, "args": [str(ROOT / "arena" / "mcp_server.py")],
+                                                                       "env": {"ARENA_TURN_DIR": str(bad)}}}}))
+    err = turns.mcp_healthcheck(bad)
+    assert err and "failed to start" in err
+    r = turns.run_claude(bad, "x", "claude-haiku-4-5-20251001", 1, 0.01, 10)
+    assert r["exit"] == -2 and turns.collect(bad)["error"]       # spends nothing, turn marked failed

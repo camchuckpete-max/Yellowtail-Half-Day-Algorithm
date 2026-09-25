@@ -741,3 +741,11 @@ argument, a day-of-year integer passed as a Day) and gone after the agents read 
 their next turn; (3) the schedule check rejected 3 bookings on an unscheduled boat, which is the
 mechanism working; (4) a Sonnet turn that explores the data costs $0.3–0.6, an Opus turn $0.2–0.5,
 a Haiku turn $0.1–0.25.
+Post-mortem: the turns from the resume onward (d153 replay to season end) ran **without tools** — the
+resume was started with a relative run path, so `turn.json` carried a relative snapshot path that the
+MCP server (cwd = sandbox) could not open, and it crashed on startup; the model was told only that
+"the arena server failed to connect". The agents' strategies from the first half stayed live, so the
+scores are valid engine output, but the second half is not a test of adaptive play. Fixed: run dirs
+are resolved to absolute paths, `turn.json` paths are absolute, and `arena/turns.py` health-checks
+the MCP server before every turn (a dead server fails the turn loudly and spends nothing). The
+smoke run is repeated from scratch under the fixed code (next entry).

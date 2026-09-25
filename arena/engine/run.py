@@ -434,6 +434,17 @@ class Engine:
         jobs, meta = [], {}
         forum_on = bool(self.cfg["arms"][self.arm].get("forum"))
         cheapest = min(self.prices.values())
+        done_today = set()
+        for a in agents:   # resume safety: a night already logged for this agent is not called again
+            f = self.dir / "judgment" / f"{a.name}.jsonl"
+            if f.exists():
+                for line in f.read_text().splitlines()[-3:]:
+                    try:
+                        if json.loads(line).get("date") == today.isoformat():
+                            done_today.add(a.name)
+                    except json.JSONDecodeError:
+                        pass
+        agents = [a for a in agents if a.name not in done_today]
         for a in agents:
             if a.budget < cheapest and a.pto <= 0:
                 _jsonl(self.dir / "judgment" / f"{a.name}.jsonl", {"date": today.isoformat(), "masked": str(day), "skipped": "nothing affordable: budget below the cheapest trip and no PTO left"})
@@ -482,6 +493,8 @@ class Engine:
             if r.get("error") and not self.quiet:
                 print(f"  judgment {day} {a.name}: {r['error'][:120]}", file=sys.stderr, flush=True)
         shutil.rmtree(turnmod.SANDBOXES / self.dir.name / "judgment", ignore_errors=True)
+        if jobs:
+            self.checkpoint()
 
     # ---------------------------------------------------------------- LLM turns (Phase 3)
     def _results_for_turn(self, a: Agent, lb_rows: list[dict]) -> dict:

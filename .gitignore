@@ -7,3 +7,4 @@ arena/runs/*/tables/
 arena/runs/*/checkpoint.tmp
 arena/sandboxes/
 
+arena/runs/*/judgment/

@@ -28,6 +28,7 @@ CLASS_NAMES = list(CLASSES)
 SCHEMA = {
     "type": "object",
     "properties": {
+        "reasoning": {"type": "string"},
         "book": {"type": "array", "items": {"type": "object", "properties": {
             "cls": {"type": "string", "enum": CLASS_NAMES}, "boat": {"type": "string"}, "reason": {"type": "string"}},
             "required": ["cls", "boat", "reason"]}},
@@ -35,13 +36,13 @@ SCHEMA = {
             "doy": {"type": "integer"}, "reason": {"type": "string"}}, "required": ["doy", "reason"]}},
         "note": {"type": "string"},
     },
-    "required": ["book", "commit_pto", "note"],
+    "required": ["reasoning", "book", "commit_pto", "note"],
 }
 SYSTEM = ("You are {name}, an angler in a season-long yellowtail fishing competition out of San Diego, replayed over a past "
           "season with only the information that was public at each moment. Every evening at 21:00 you decide whether to go "
           "fishing tomorrow (and which boat), and whether to reserve PTO days two or more weeks ahead. You know the rules in the "
           "briefing. Think like a real angler: go when the fishing is good or the conditions say it will be, and keep your money "
-          "and PTO for those days. Your persona:\n\n{persona}\n\nAnswer with JSON only: `book` (empty list = stay home), "
+          "and PTO for those days. Your persona:\n\n{persona}\n\nAnswer with JSON only: `reasoning` (your thinking in a short paragraph: what in tonight's briefing matters, what you weigh, why you decide as you do), `book` (empty list = stay home), "
           "`commit_pto` (day-of-year numbers at least 14 days ahead, empty if none), `note` (one or two lines for your own journal). "
           "This is a quick evening decision, not an analysis: reason briefly (a few sentences), then answer.")
 

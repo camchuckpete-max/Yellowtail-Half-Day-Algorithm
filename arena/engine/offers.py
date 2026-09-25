@@ -80,3 +80,10 @@ def offers_at(today: date, tick: str, prices: dict, half_day_pto: float) -> list
         d = today + timedelta(days=1) if tick == "21:00" else today
         out.append(make_offer(tc, d, prices, half_day_pto))
     return out
+
+
+def offers_for_judgment(today: date, prices: dict, half_day_pto: float) -> list[Offer]:
+    """D-058: the 21:00 judgment call sees every class departing tomorrow, evening departures included
+    (an overnight or 1.5-day for tomorrow evening is booked tonight, a day before its 16:00 cutoff)."""
+    d = today + timedelta(days=1)
+    return [make_offer(tc, d, prices, half_day_pto) for tc in CLASSES.values()]

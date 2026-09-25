@@ -58,7 +58,7 @@ def build_prompt(agent: dict, ctx: dict) -> str:
         lines.append(f"It is season {ctx['season']}, day {ctx['doy']}, {ctx['hour']:02d}:00. Budget left ${ctx['budget_left']:.0f}, PTO left {ctx['pto_left']:g} days.")
     lines.append("Objective: maximise this season's fish (sum of shares) and win the cumulative board." + ("" if ctx["season_counted"] else " (This season is practice: played, not counted.)"))
     lines.append("")
-    lines.append("Since your last turn: see `results.json` (your trips and outcomes, rejected actions and strategy errors) and `leaderboard.json`."
+    lines.append("Since your last turn: see `results.json` (your trips and outcomes, rejected actions and strategy errors), `leaderboard.json`, and `journal.md` (the one-line notes you wrote at your nightly decisions, if any)."
                  + (" New forum posts are in `forum_new.json`; `forum_read` has the whole forum." if ctx["forum_new"] is not None else ""))
     lines.append("")
     lines.append("What to do in this turn:")
@@ -78,7 +78,7 @@ def prepare_turn(turn_dir: Path, agent: dict, run_agent_dir: Path, snapshot: Pat
     sb = turn_dir / "sandbox"
     sb.mkdir(parents=True, exist_ok=True)
     shutil.copy(ARENA / "RULES.md", sb / "RULES.md")
-    for name in ("persona.md", "strategy.py", "notes.md"):
+    for name in ("persona.md", "strategy.py", "notes.md", "journal.md"):
         src = run_agent_dir / name
         if src.exists():
             shutil.copy(src, sb / name)

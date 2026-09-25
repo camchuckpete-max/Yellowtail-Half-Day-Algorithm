@@ -504,6 +504,7 @@ function renderAgent(){
       <button data-tab="trips" aria-pressed="${agentTab === "trips"}">Trips (${trips.length})</button>
       <button data-tab="turns" aria-pressed="${agentTab === "turns"}">Turns & strategy (${turns.length})</button>
       <button data-tab="seasons" aria-pressed="${agentTab === "seasons"}">Seasons</button>
+      <button data-tab="journal" aria-pressed="${agentTab === "journal"}">Journal (${(a.journal || []).length})</button>
       <button data-tab="reasons" aria-pressed="${agentTab === "reasons"}">Latest decisions</button>
       ${agentTab === "trips" ? `<select id="tripseason"><option value="all">all seasons</option>${seasons.map((x) => `<option value="${x}" ${String(x) === String(tripSeason) ? "selected" : ""}>season ${x}${x === curSeason ? " (current)" : ""}</option>`).join("")}</select>` : ""}
     </div>`;
@@ -512,11 +513,11 @@ function renderAgent(){
     const rows = trips.filter((t) => tripSeason === "all" || t.season === Number(tripSeason)).slice().sort((x, y) => (y.season - x.season) || (y.doy - x.doy));
     const ran = rows.filter((t) => t.ran);
     const tot = ran.reduce((z, t) => z + (t.share || 0), 0), spent = ran.reduce((z, t) => z + t.cost, 0);
-    body = rows.length ? `<div class="tablewrap"><table class="trips"><thead><tr><th class="l">Fished</th><th class="l">Class</th><th class="l">Boat</th><th>$</th><th>PTO</th><th class="l">Booked</th><th class="l">Why (agent's reason)</th><th>Boat yt</th><th>Anglers</th><th>Others aboard</th><th>Share</th><th>Fleet rate</th><th>v</th></tr></thead><tbody>
+    body = rows.length ? `<div class="tablewrap"><table class="trips"><thead><tr><th class="l">Fished</th><th class="l">Class</th><th class="l">Boat</th><th>$</th><th>PTO</th><th class="l">Booked</th><th class="l">Why (agent's reason)</th><th>Boat yt</th><th>Anglers</th><th>Others aboard</th><th>Share</th><th>Fleet rate</th><th>Decided by</th></tr></thead><tbody>
       ${rows.map((t) => `<tr class="${t.ran ? (t.yt ? "fish" : "skunk") : "cancelled"}"><td class="l mono">${masked(t.season, t.doy)}</td><td class="l"><span class="chip"><i style="background:var(--c-${t.cls})"></i>${CLASS_LABEL[t.cls] || t.cls}</span></td><td class="boat">${esc(t.boat || "—")}</td><td class="mono">${t.cost}</td><td class="mono">${t.pto || 0}</td><td class="l mono">${esc(t.booked_at || "")}</td><td class="reason">${esc(t.reason || "")}</td>
-        <td class="mono">${t.ran ? t.yt : "—"}</td><td class="mono">${t.ran ? t.anglers : "did not run"}</td><td class="mono">${t.competitors ?? 0}</td><td class="mono share">${t.ran ? fmt(t.share, 3) : "refunded"}</td><td class="mono">${t.pooled_share === null || t.pooled_share === undefined ? "—" : fmt(t.pooled_share, 3)}</td><td class="mono">${t.strategy_version ?? "—"}</td></tr>`).join("")}
+        <td class="mono">${t.ran ? t.yt : "—"}</td><td class="mono">${t.ran ? t.anglers : "did not run"}</td><td class="mono">${t.competitors ?? 0}</td><td class="mono share">${t.ran ? fmt(t.share, 3) : "refunded"}</td><td class="mono">${t.pooled_share === null || t.pooled_share === undefined ? "—" : fmt(t.pooled_share, 3)}</td><td class="mono">${t.via === "judgment" ? "night" : "code v" + (t.strategy_version ?? "?")}</td></tr>`).join("")}
       </tbody><tfoot><tr><td class="l" colspan="3">${ran.length} ran, ${rows.length - ran.length} did not run</td><td class="mono">${spent}</td><td class="mono">${rows.reduce((z, t) => z + (t.pto || 0), 0)}</td><td colspan="5"></td><td class="mono">${fmt(tot)}</td><td colspan="2"></td></tr></tfoot></table></div>
-      <p style="font-size:11px;color:var(--muted);margin:6px 0 0">Share = boat yellowtail ÷ (boat anglers + others aboard). Fleet rate = pooled yellowtail per angler across all boats of that class that day, for comparison. v = strategy version that made the booking.</p>`
+      <p style="font-size:11px;color:var(--muted);margin:6px 0 0">Share = boat yellowtail ÷ (boat anglers + others aboard). Fleet rate = pooled yellowtail per angler across all boats of that class that day, for comparison. Decided by: "night" = the agent's nightly judgment call, "code vN" = its standing strategy code.</p>`
       : `<div class="empty">No settled trips${tripSeason === "all" ? "" : " in that season"}.</div>`;
   } else if (agentTab === "turns") {
     body = turns.length ? `<ul class="turnlist">${turns.slice().reverse().map((t) => `<li>
@@ -534,6 +535,10 @@ function renderAgent(){
     const curTr = trips.filter((t) => t.season === curSeason), curRan = curTr.filter((t) => t.ran);
     rows.push(`<tr class="cur"><td class="l mono">S${String(curSeason).padStart(2, "0")} (current)</td><td class="mono">${fmt(s.fish)}</td><td class="mono">${fmt(s.undiluted)}</td><td class="mono">${s.excess === null || s.excess === undefined ? "—" : (s.excess >= 0 ? "+" : "") + fmt(s.excess)}</td><td class="mono">${s.rank}</td><td class="mono">${curRan.length}/${curTr.length}</td><td class="mono">${pct(s.skunk_rate)}</td><td class="mono">${curRan.reduce((z, t) => z + t.cost, 0) || "—"}</td><td class="mono">${fmt(c.fish)} (counted)</td></tr>`);
     body = `<div class="tablewrap"><table class="seasons"><thead><tr><th class="l">Season</th><th>Fish</th><th>Undiluted</th><th>Excess</th><th>Rank</th><th>Ran/booked</th><th>Skunk</th><th>$ spent</th><th>Cumulative</th></tr></thead><tbody>${rows.join("")}</tbody></table></div>`;
+  } else if (agentTab === "journal") {
+    const j = (a.journal || []).slice().reverse();
+    body = j.length ? `<ul class="turnlist">${j.map((x) => `<li class="mono" style="font-family:inherit">${esc(x)}</li>`).join("")}</ul><p style="font-size:11px;color:var(--muted)">One line per nightly decision, written by the agent for itself${a.judgment ? ` · ${a.judgment.calls} nightly calls, $${Number(a.judgment.cost_usd).toFixed(2)}` : ""}.</p>`
+      : `<div class="empty">No journal entries (no nightly calls yet, or a scripted agent).</div>`;
   } else {
     const reasons = (a.last_reasons || []).slice().reverse().map((r) => `<li class="${r.valid ? "" : "rej"}"><span class="when mono">${masked(r.season, r.doy)} ${r.tick}</span><span class="act">${esc(r.action)}</span><span>${esc(r.text || "")}</span>${r.valid ? "" : `<span class="rejmsg">rejected: ${esc(r.reason_rejected || "")}</span>`}</li>`).join("");
     body = `<ul class="reasons">${reasons || `<li><span class="empty">none yet</span></li>`}</ul><p style="font-size:11px;color:var(--muted)">The last eight actions the strategy code returned, valid or rejected, with the reason string it attached.</p>`;

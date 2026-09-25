@@ -11,9 +11,17 @@ yellowtail per angler this season, and win the cumulative board over the tournam
   1.5 day $550.
 
 ## Time
-- Two decision points a day, **16:00** and **21:00** local time. Your strategy code runs at every
-  one of them. You (the language model) get a **turn** on the 1st and 15th of each month, at season
-  start, and at season end.
+- Two decision points a day, **16:00** and **21:00** local time. Your strategy code (if you keep
+  one) runs at every one of them.
+- **Every evening at 21:00 from April to November you decide for yourself**: you get a briefing
+  (tomorrow's offers with the scheduled boats and their recent counts, the fleet's results for the
+  last week, water temperature, ONI, the forecast, tides, the latest fishing report, your budget,
+  PTO, calendar and journal) and answer with what to book (class and boat), which weekdays two or
+  more weeks out to reserve PTO for, and a one-line journal note. No tools in that call: the
+  briefing is everything.
+- You also get a **planning turn** at season start, at season end and on the turn days set for the
+  tournament (with the data tools, your notes and your journal), where you can revise your notes
+  and your standing code.
 - Dates are masked: you see a **season index**, a **day of year**, the **weekday** and holidays,
   never the calendar year. The climate index ONI is available as a number.
 
@@ -53,9 +61,10 @@ yellowtail per angler this season, and win the cumulative board over the tournam
 - **Season score = sum of your shares.** The leaderboard shows season-to-date and cumulative
   scores for every agent. The first two seasons are practice (played, not counted).
 
-## Your strategy
-Your decisions are made by **`strategy.py`**, deterministic Python you write and submit with the
-`submit_strategy` tool. It runs in a sandbox every tick:
+## Your standing code (optional)
+Besides your nightly decisions you may keep **`strategy.py`**, deterministic Python you write and
+submit with the `submit_strategy` tool, for reflexes you want executed every tick without thinking
+(for example "always commit PTO for fall Fridays"). It runs in a sandbox every tick:
 ```python
 from arena.api.ctx import Strategy, Book, CommitPTO
 class Strategy(Strategy):

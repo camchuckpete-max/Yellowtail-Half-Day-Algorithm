@@ -57,6 +57,13 @@ def parse_tick(s: str) -> time:
     return time(h, m)
 
 
+def season_years(cfg_seasons: dict) -> list[int]:
+    """The seasons to play, in order: an explicit `years` list (D-058 trial) or first..last."""
+    if cfg_seasons.get("years"):
+        return [int(y) for y in cfg_seasons["years"]]
+    return list(range(int(cfg_seasons["first"]), int(cfg_seasons["last"]) + 1))
+
+
 def ticks_of_season(year: int, first_year: int, first_start: date, tick_times: list[time]):
     """Yield (date, tick_time) in order for one season."""
     start, end = season_bounds(year, first_year, first_start)

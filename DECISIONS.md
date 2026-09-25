@@ -758,3 +758,23 @@ B_TEMP 0.07. Details (cost, trips, forum, rejections) in the run's `results/`, `
 `forum.jsonl` and `decisions.jsonl`; the dashboard artifact shows this run. Findings for the owner
 are in the session report. One season with three agents is a machinery test, not evidence about
 strategy quality.
+
+## D-058 Arena: nightly judgment calls; Opus dropped for Haiku; two-season trial (owner, 2026-09-25)
+Owner, after the clean smoke run: "no angler I know decides to do a 1.5 day boat every weekend for a
+month … right now none of these agents are actually thinking, they're all just following explicit
+instructions." Decisions: (1) every LLM agent gets a **nightly judgment call** at 21:00 from April
+to November (`judgment:` in the config): the engine builds a briefing from rows public at that
+moment (tomorrow's seven offers with scheduled boats and their 14-day counts, the fleet's pooled
+rates for the last 7 and 30 days, the typical rate for each class at that time of year from past
+seasons, Scripps Pier temperature and trend, ONI, NWS and coastal forecasts, tides, the latest
+FishDope counts, the agent's budget, PTO, calendar, last trips, rejected actions, journal and notes,
+leaderboard, latest forum posts) and the model answers with structured JSON (book: class + boat +
+reason; commit_pto: day-of-year list; note). No tools: the call is PIT-safe by construction and
+`arena/tests/test_judgment.py` proves the briefing is identical when every future row is poisoned.
+Evening departures for tomorrow are offered in the same call (booked a day before their 16:00
+cutoff). The standing code strategy stays as an optional reflex; planning turns keep the tools.
+Every call is logged with its full briefing in `runs/<id>/judgment/<agent>.jsonl`; trips record
+`via: judgment|code`. (2) The roster's ten Opus agents become Haiku: 20 Haiku, 10 Sonnet (forum-off
+6 + 4). (3) Trial first: seasons **2011 and 2015** (drawn with `random.Random(49)`), full field,
+monthly planning turns, `arena/configs/trial.yaml`; the full run waits for the owner's verdict.
+Cost per nightly call measured at ~$0.006 (Haiku, ~1.8k input tokens with a custom system prompt).

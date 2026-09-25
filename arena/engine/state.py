@@ -26,6 +26,7 @@ by the turn machinery, never by the dashboard.
                          pooled_share, strategy_version, booked_at}, ... ],          # every settled trip, all seasons
                turns: [ {season, doy, tag, season_end, queries, posts, submitted, adopted, version, change_summary,
                          describe, summary, cost_usd, ok, error}, ... ],             # every LLM turn
+               journal: [str, ...], judgment: {calls, cost_usd},                     # nightly decisions (D-058); trips[].via = "judgment"|"code"
                strip: [ {doy, pto: bool, cls: str|null, outcome: "fish"|"skunk"|"cancelled"|"pending"|null,
                          share: float|null, n_agents: int|null}, ... ]      # this season, sparse: only days with an action
              }, ... ],

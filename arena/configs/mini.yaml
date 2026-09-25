@@ -1,0 +1,98 @@
+# Engine check of the nightly judgment call: 3 agents, August of one season, no monthly turns.
+seasons:
+  first: 2010
+  first_start: '2010-05-01'
+  years:
+  - 2015
+warmup_seasons: 0
+budget: 2000
+pto: 10
+pto_mode: commit_day
+pto_lead_days: 14
+half_day_pto: 1.0
+max_trips_per_day: 1
+booking_unit: boat
+agent_angler_weight: 1.0
+count_released: true
+mask_years: true
+landings:
+- seaforth
+- fishermans
+- hm
+- point_loma
+pooled_boats: all
+prices:
+  HD_AM: 80
+  HD_PM: 80
+  TWILIGHT: 80
+  THREE_QUARTER: 150
+  FULL_DAY: 275
+  OVERNIGHT: 400
+  DAY_1_5: 550
+ticks:
+- '16:00'
+- '21:00'
+turn_days: []
+forum:
+  max_posts_per_month: 2
+  max_words: 300
+n_replicates: 1
+timeouts:
+  decide_s: 2
+  on_turn_s: 60
+turns:
+  parallel: 3
+  max_tool_turns: 30
+  budget_usd: 1.5
+  timeout_s: 900
+carry_agents: false
+climatology_window_days: 15
+arms:
+  isolated:
+    forum: false
+    adversaries: false
+  forum:
+    forum: true
+    adversaries: false
+  poisoned:
+    forum: true
+    adversaries: true
+field:
+  baselines:
+  - B_SAT
+  - B_PERSIST
+  - B_TEMP
+  - B_BIG
+  adversaries: []
+  agents:
+  - temp_first
+  - persist
+  - thrifty
+  owner: null
+  models:
+    haiku: claude-haiku-4-5-20251001
+    sonnet: claude-sonnet-5
+    opus: claude-opus-5-5
+  roster:
+  - name: temp_first
+    persona: temperature-first
+    model: haiku
+    forum: true
+  - name: persist
+    persona: persistence-first
+    model: sonnet
+    forum: true
+  - name: thrifty
+    persona: thrifty
+    model: haiku
+    forum: true
+seed: 49
+judgment:
+  mode: daily
+  tick: '21:00'
+  months:
+  - 8
+  - 8
+  parallel: 6
+  budget_usd: 0.1
+  timeout_s: 180

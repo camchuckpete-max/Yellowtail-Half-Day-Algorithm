@@ -675,3 +675,18 @@ D14, folds with ≥ 150 trips (2012–2015, 2019, 2020): base 0.757 / Brier 0.14
 83 % vs stratified (≈ 6 °C) 42 % at pier ≥ 72 °F. Within-year terciles (pier ≥ 68 °F): 48.7 / 49.8 /
 45.6 % mixed / mid / stratified — the pooled effect is between years (2014–2015 deep warm water), no
 day-level information. Not adopted. Goal D ledger +3.
+
+## D-054 Kd490 water clarity (sweep D15): mostly duplicates chlorophyll
+Source 3ec5245 (request 0006 branch). `water_clarity_daily` (noaacwNPPVIIRSSQkd490Daily, 2012 → 2026-09-16;
+t_sd_coast, t_north_county, t_43_butterfly, la_jolla, point_loma_kelp). Availability: observed ~10-day
+publication lag (`hourly.KD_LAG_DAYS = 10`); the owner's 1-day rule (D-048) covers chlorophyll only, so a
+1-day run is reported as sensitivity only. Features `hc_kd_{sd,lj}_{3d,120d}` (log Kd490). PIT suite passes.
+D15, folds 2013–2023 (6,836 trips), lag 10: base AUC 0.795 / Brier 0.1231; + SD 3-day 0.798 / 0.1197;
++ SD 120-day 0.793 / 0.1201; + SD and LJ 3d + 120d 0.791 / 0.1196. Lag 1 (sensitivity): 0.794–0.796 /
+0.1196–0.1213 — the lag does not matter.
+Descriptive: pooled terciles within pier band show clear > murky (≥ 72 °F: 76 / 64 / 33 %); within
+year × band the gap shrinks to the extremes (≥ 72 °F 69 / 53 / 51 %; < 64 °F 10.5 / 6.9 / 5.4 %;
+64–68 and 68–72 °F flat). Year level (Jul–Oct): Spearman(Kd490, warm-water rate) −0.62, (Kd490, all-trip
+rate) −0.75, (Kd490, chl) +0.93 — Kd490 carries the same clear-vs-green-summer signal as chlorophyll
+(D-052), less sharply. Not adopted as a separate input; chlorophyll stays the season-level clarity
+measure. Goal D ledger +8.

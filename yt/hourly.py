@@ -28,6 +28,8 @@ CHL_SOURCES = ("noaacwNPPVIIRSSQchlaDaily", "noaacwN20VIIRSchlaDaily")
 CHL_ZONES = {"t_sd_coast": "sd", "t_north_county": "nc", "t_43_butterfly": "bf", "la_jolla": "lj", "point_loma_kelp": "pl"}  # kelp boxes: D-052
 SAT_SST_LAG_DAYS = 2      # D-049: same rule as Goal C SST (events.OCEAN_LAG_DAYS, D-034)
 SAT_SST_ZONES = {"la_jolla": "lj", "point_loma_kelp": "pl", "t_sd_coast": "sd", "t_north_county": "nc"}
+KD_LAG_DAYS = 10         # D-054: Kd490 (SNPP science quality) observed ~10-day publication lag; not covered by D-048
+KD_ZONES = {"t_sd_coast": "sd", "la_jolla": "lj"}
 SLA_LAG_DAYS = 2          # D-045: blended SSH daily product, same latency convention as SST
 # Trip windows (PT). New Seaforth times per Muse's 0002 notes; Sea Watch AM/PM UNCONFIRMED (same slots assumed).
 WINDOWS = {"hd_am": ("06:00", "11:30"), "hd_pm": ("12:30", "17:30"), "hd_unspecified": ("12:30", "17:30"),
@@ -94,6 +96,10 @@ def load(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     t["date"] = pd.to_datetime(t["condition_date"])
     t["available_at"] = t["date"] + pd.Timedelta(days=SAT_SST_LAG_DAYS - 1, hours=20)
     out["satsst"] = t.drop(columns="condition_date").sort_values("available_at").reset_index(drop=True)
+    k = pd.read_sql("SELECT condition_date, zone_id, kd490_m_inv FROM water_clarity_daily WHERE kd490_m_inv > 0", db)
+    k["date"] = pd.to_datetime(k["condition_date"])
+    k["logkd"] = np.log(k["kd490_m_inv"])
+    out["kd"] = k.drop(columns=["condition_date", "kd490_m_inv"]).sort_values("date").reset_index(drop=True)
     return out
 
 
@@ -213,6 +219,14 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
     mo = mo[(mo["available_at"] <= cutoff) & (mo["date"] > cutoff - pd.Timedelta(days=3 + GLIDER_LAG_DAYS))]
     m1, m15 = _mean(mo[mo["depth_m"] == 1]["temp_c"]), _mean(mo[mo["depth_m"] == 15]["temp_c"])
     f["hc_moor_t1_3d"], f["hc_moor_t15_3d"], f["hc_moor_strat_3d"] = m1, m15, m1 - m15
+    # --- Kd490 water clarity (log m^-1; higher = murkier), D-054: day d usable from d + (KD_LAG_DAYS - 1) days + 21:00
+    kv = data["kd"]
+    kd_ok = (cutoff - pd.Timedelta(hours=21)).normalize() - pd.Timedelta(days=KD_LAG_DAYS - 1)
+    kv = kv[(kv["date"] <= kd_ok) & (kv["date"] > kd_ok - pd.Timedelta(days=120))]
+    for zone, name in KD_ZONES.items():
+        z = kv[kv["zone_id"] == zone]
+        f[f"hc_kd_{name}_3d"] = _mean(z[z["date"] > kd_ok - pd.Timedelta(days=3)]["logkd"])
+        f[f"hc_kd_{name}_120d"] = _mean(z["logkd"])
     # --- EXPLANATORY: observed during the trip window (never a forecast input)
     pw = _slice(data["pier"], w0, w1)
     f["ex_pier_wtmp_trip"] = _mean(pw["wtmp_c"])
@@ -252,6 +266,7 @@ HC_FEATURES = ["hc_tide_start", "hc_tide_change", "hc_tide_range", "hc_tide_maxr
                "hc_chl_lj_3d", "hc_chl_lj_anom30", "hc_chl_pl_3d", "hc_chl_pl_anom30",
                "hc_chl_sd_60d", "hc_chl_sd_120d", "hc_chl_lj_60d", "hc_chl_lj_120d",
                "hc_moor_t1_3d", "hc_moor_t15_3d", "hc_moor_strat_3d",
+               "hc_kd_sd_3d", "hc_kd_sd_120d", "hc_kd_lj_3d", "hc_kd_lj_120d",
                "hc_sat_lj_f", "hc_sat_pl_f", "hc_sat_sd_f", "hc_sat_nc_f"]
 EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip",
                "ex_san_wspd_trip", "ex_san_onshore_trip", "ex_san_wspd_max_trip", "ex_san_vsby_trip"]

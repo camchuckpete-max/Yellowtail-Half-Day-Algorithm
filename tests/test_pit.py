@@ -158,6 +158,9 @@ def test_hourly_trip_features_pit(n: int = 25, seed: int = 11):
             g = data["chl"].copy()  # D-048: rows for days after D-1 are not visible
             m = g["date"] > (c - pd.Timedelta(hours=21)).normalize() - pd.Timedelta(days=hourly.CHL_LAG_DAYS - 1)
             g.loc[m, "logchl"] = rng.uniform(-9, 9, m.sum()); pois["chl"] = g
+            g = data["kd"].copy()  # D-054
+            m = g["date"] > (c - pd.Timedelta(hours=21)).normalize() - pd.Timedelta(days=hourly.KD_LAG_DAYS - 1)
+            g.loc[m, "logkd"] = rng.uniform(-9, 9, m.sum()); pois["kd"] = g
             for k, cols in (("upw", ("cuti", "beuti")), ("climate", ("value",)), ("glider", ("temp_c",)), ("mooring", ("temp_c",)),
                             ("sla", ("sla_m",)), ("kelp", ("kelp_area_ha",)),
                             ("satsst", ("sst_f",))):

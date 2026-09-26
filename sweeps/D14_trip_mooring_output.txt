@@ -1,0 +1,29 @@
+# Goal D configurations scored on dev: 3; source fbb62fe; folds [2012, 2013, 2014, 2015, 2019, 2020]
+trips with mooring 1m+15m by year: {2010: 286, 2011: 337, 2012: 649, 2013: 648, 2014: 639, 2015: 542, 2018: 51, 2019: 528, 2020: 326, 2021: 169}
+corr pier F vs mooring 1 m: 0.881
+D5 base        AUC=0.757 Brier=0.1437 folds={2012: 0.693, 2013: 0.738, 2014: 0.847, 2015: 0.81, 2019: 0.574, 2020: 0.644}
+base+strat     AUC=0.750 Brier=0.1461 folds={2012: 0.672, 2013: 0.752, 2014: 0.843, 2015: 0.805, 2019: 0.571, 2020: 0.643}
+base+t1+t15    AUC=0.759 Brier=0.1428 folds={2012: 0.677, 2013: 0.738, 2014: 0.847, 2015: 0.805, 2019: 0.565, 2020: 0.636}
+
+day trips: hit rate by pier band x stratification tercile (1 m minus 15 m, within band)
+              mean                         size                
+strat_t well mixed    mid stratified well mixed  mid stratified
+Fband                                                          
+<64          0.168  0.067      0.075        465  464        465
+64-68        0.130  0.257      0.280        262  261        261
+68-72        0.505  0.474      0.310        214  213        213
+>=72         0.833  0.733      0.417         60   60         60
+stratification (C) tercile medians: {'well mixed': 0.28, 'mid': 3.76, 'stratified': 6.03}
+
+pier >= 68F day trips: hit rate by within-year stratification tercile
+      mean              size          
+t    mixed   mid strat mixed mid strat
+yr                                    
+2012  0.28  0.25  0.55    29  28    29
+2013  0.04  0.29  0.12    25  24    24
+2014  0.58  0.69  0.47    85  85    85
+2015  0.85  0.75  0.70    73  73    73
+2019  0.12  0.10  0.15    41  40    41
+2020  0.41  0.14  0.41    22  21    22
+pooled within-year terciles: {'mixed': 0.487, 'mid': 0.498, 'strat': 0.456}
+exit 0

@@ -664,3 +664,14 @@ adopted into the condition table as the "clear vs green summer" split; it explai
 the 2020–2023 drop. Caveats: 12 seasons; clear summers coincide with the 2014–2015 warm anomaly; the
 2021 sensor switch could shift levels (2019–2020, same sensor, were already green). Goal D ledger +5
 (D13) +7 +2 trees (D13c) = +14; D13b descriptive.
+
+## D-053 Del Mar mooring temperature at depth (sweep D14): no gain; stratification is a year fingerprint
+Source fbb62fe (PR #1 merged). `subsurface_temp_daily` now also holds `delmar_mooring` (9 depths,
+2010 → 2021-05; usable coverage 1 m and 15 m). Glider features now read Spray glider rows only (the
+mooring's 45 m rows would otherwise mix into `hc_glider_t45_10d`); mooring features `hc_moor_t1_3d`,
+`hc_moor_t15_3d`, `hc_moor_strat_3d` (3-day means, same 3-day lag as the glider). PIT suite passes.
+D14, folds with ≥ 150 trips (2012–2015, 2019, 2020): base 0.757 / Brier 0.1437; + stratification 0.750;
++ 1 m and 15 m 0.759 / 0.1428. Pooled descriptive, warm water: well-mixed column (1 m − 15 m ≈ 0.3 °C)
+83 % vs stratified (≈ 6 °C) 42 % at pier ≥ 72 °F. Within-year terciles (pier ≥ 68 °F): 48.7 / 49.8 /
+45.6 % mixed / mid / stratified — the pooled effect is between years (2014–2015 deep warm water), no
+day-level information. Not adopted. Goal D ledger +3.

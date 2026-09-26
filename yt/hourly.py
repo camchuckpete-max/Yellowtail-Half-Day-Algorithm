@@ -63,10 +63,13 @@ def load(db: sqlite3.Connection) -> dict[str, pd.DataFrame]:
     month_end = pd.to_datetime(ci["month"] + "-01") + pd.offsets.MonthEnd(0)
     ci["available_at"] = month_end + pd.to_timedelta(ci["release_lag_days"].fillna(45), unit="D")
     out["climate"] = ci.sort_values("available_at").reset_index(drop=True)
-    g = pd.read_sql("SELECT obs_date, depth_m, temp_c FROM subsurface_temp_daily WHERE temp_c IS NOT NULL", db)
-    g["date"] = pd.to_datetime(g["obs_date"])
-    g["available_at"] = g["date"] + pd.Timedelta(days=GLIDER_LAG_DAYS)
-    out["glider"] = g.drop(columns="obs_date").sort_values("available_at").reset_index(drop=True)
+    sub = pd.read_sql("SELECT station_id, obs_date, depth_m, temp_c FROM subsurface_temp_daily WHERE temp_c IS NOT NULL", db)
+    sub["date"] = pd.to_datetime(sub["obs_date"])
+    sub["available_at"] = sub["date"] + pd.Timedelta(days=GLIDER_LAG_DAYS)
+    sub = sub.drop(columns="obs_date").sort_values("available_at").reset_index(drop=True)
+    # D-053: the table now also holds the Del Mar mooring; glider features use Spray glider rows only
+    out["glider"] = sub[sub["station_id"] != "delmar_mooring"].drop(columns="station_id").reset_index(drop=True)
+    out["mooring"] = sub[sub["station_id"] == "delmar_mooring"].drop(columns="station_id").reset_index(drop=True)
     s = pd.read_sql("SELECT condition_date, sla_m FROM sea_level_anomaly WHERE zone_id='la_jolla'", db)
     s["date"] = pd.to_datetime(s["condition_date"])
     s["available_at"] = s["date"] + pd.Timedelta(days=SLA_LAG_DAYS)
@@ -205,6 +208,11 @@ def trip_features(date: pd.Timestamp, cls: str, data: dict, cutoff: pd.Timestamp
     for zone, name in SAT_SST_ZONES.items():
         z = tv[tv["zone_id"] == zone].sort_values("date")
         f[f"hc_sat_{name}_f"] = float(z["sst_f"].iloc[-1]) if len(z) else nan
+    # --- Del Mar mooring (2010-2021-05), D-053: 3-day means at 1 m and 15 m, same 3-day lag as the glider
+    mo = data["mooring"]
+    mo = mo[(mo["available_at"] <= cutoff) & (mo["date"] > cutoff - pd.Timedelta(days=3 + GLIDER_LAG_DAYS))]
+    m1, m15 = _mean(mo[mo["depth_m"] == 1]["temp_c"]), _mean(mo[mo["depth_m"] == 15]["temp_c"])
+    f["hc_moor_t1_3d"], f["hc_moor_t15_3d"], f["hc_moor_strat_3d"] = m1, m15, m1 - m15
     # --- EXPLANATORY: observed during the trip window (never a forecast input)
     pw = _slice(data["pier"], w0, w1)
     f["ex_pier_wtmp_trip"] = _mean(pw["wtmp_c"])
@@ -243,6 +251,7 @@ HC_FEATURES = ["hc_tide_start", "hc_tide_change", "hc_tide_range", "hc_tide_maxr
                "hc_chl_sd_3d", "hc_chl_sd_anom30", "hc_chl_nc_3d", "hc_chl_nc_anom30", "hc_chl_bf_3d", "hc_chl_bf_anom30",
                "hc_chl_lj_3d", "hc_chl_lj_anom30", "hc_chl_pl_3d", "hc_chl_pl_anom30",
                "hc_chl_sd_60d", "hc_chl_sd_120d", "hc_chl_lj_60d", "hc_chl_lj_120d",
+               "hc_moor_t1_3d", "hc_moor_t15_3d", "hc_moor_strat_3d",
                "hc_sat_lj_f", "hc_sat_pl_f", "hc_sat_sd_f", "hc_sat_nc_f"]
 EX_FEATURES = ["ex_pier_wtmp_trip", "ex_wind_trip_mean", "ex_wind_trip_max", "ex_wvht_trip", "ex_btp_wtmp_trip",
                "ex_san_wspd_trip", "ex_san_onshore_trip", "ex_san_wspd_max_trip", "ex_san_vsby_trip"]

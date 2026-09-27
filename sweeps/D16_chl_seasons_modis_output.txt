@@ -1,0 +1,49 @@
+# descriptive only; source a77cbd1
+Jul-Oct mean log chl (t_sd_coast) and day counts by sensor:
+                 mean                                                             size                                                  
+source erdMH1chla1day noaacwN20VIIRSchlaDaily noaacwNPPVIIRSSQchlaDaily erdMH1chla1day noaacwN20VIIRSchlaDaily noaacwNPPVIIRSSQchlaDaily
+yr                                                                                                                                      
+2010            0.181                     NaN                       NaN           46.0                     NaN                       NaN
+2011           -0.036                     NaN                       NaN           47.0                     NaN                       NaN
+2012           -0.893                     NaN                    -0.098           60.0                     NaN                      87.0
+2013           -0.526                     NaN                     0.429           56.0                     NaN                      82.0
+2014              NaN                     NaN                    -0.142            NaN                     NaN                      93.0
+2015              NaN                     NaN                    -0.168            NaN                     NaN                      92.0
+2016              NaN                     NaN                     0.509            NaN                     NaN                      89.0
+2017              NaN                     NaN                     0.335            NaN                     NaN                      88.0
+2018              NaN                     NaN                     0.432            NaN                     NaN                      89.0
+2019              NaN                     NaN                     1.175            NaN                     NaN                      96.0
+2020              NaN                     NaN                     0.615            NaN                     NaN                      94.0
+2021              NaN                   0.829                     0.367            NaN                    47.0                      34.0
+2022              NaN                   0.766                       NaN            NaN                    81.0                       NaN
+2023              NaN                   0.796                       NaN            NaN                    82.0                       NaN
+2024              NaN                   0.574                       NaN            NaN                    68.0                       NaN
+2025              NaN                   0.390                       NaN            NaN                    65.0                       NaN
+2026              NaN                   0.073                       NaN            NaN                     8.0                       NaN
+
+overlap years [2012, 2013]: VIIRS - MODIS offset (log) = +0.875 (x2.40)
+
+Jul-Oct season table:
+      chl_mg      sensor  all_rate  warm_rate  pier_F
+yr                                                   
+2010   2.876  MODIS(adj)     0.013      0.000  63.727
+2011   2.314  MODIS(adj)     0.041      0.069  64.828
+2012   0.907       VIIRS     0.378      0.360  67.026
+2013   1.536       VIIRS     0.210      0.196  65.982
+2014   0.868       VIIRS     0.663      0.659  70.319
+2015   0.845       VIIRS     0.782      0.788  71.169
+2016   1.663       VIIRS     0.250      0.370  68.362
+2017   1.398       VIIRS     0.506      0.532  70.234
+2018   1.540       VIIRS     0.407      0.696  69.367
+2019   3.238       VIIRS     0.086      0.123  68.115
+2020   1.850       VIIRS     0.164      0.245  66.776
+2021   1.443       VIIRS     0.153      0.338  65.830
+2022   2.152       VIIRS     0.145      0.193  67.557
+2023   2.216       VIIRS     0.231      0.266  66.582
+2010-2023 (14 seasons): Spearman chl vs all -0.85, vs warm -0.82; pier vs all 0.82
+2012-2023 (VIIRS only, as D-052): Spearman chl vs all -0.78, vs warm -0.74; pier vs all 0.71
+2010-2020 (MODIS adj + SNPP): Spearman chl vs all -0.91, vs warm -0.79; pier vs all 0.92
+
+partial Spearman, 14 seasons: chl vs all_rate | pier -0.80; pier vs all_rate | chl +0.76; chl vs pier -0.57
+partial Spearman, 14 seasons: chl vs warm_rate | pier -0.74
+exit 0

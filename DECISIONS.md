@@ -690,3 +690,17 @@ year × band the gap shrinks to the extremes (≥ 72 °F 69 / 53 / 51 %; < 64 °
 rate) −0.75, (Kd490, chl) +0.93 — Kd490 carries the same clear-vs-green-summer signal as chlorophyll
 (D-052), less sharply. Not adopted as a separate input; chlorophyll stays the season-level clarity
 measure. Goal D ledger +8.
+
+## D-055 Season-level chlorophyll with MODIS 2010–2011 (sweep D16): warm and clear are separate drivers
+Source a77cbd1 (request 0006). MODIS-Aqua `erdMH1chla1day` now 2010-01 → 2014-03 (t_sd_coast, kelp boxes).
+Descriptive, season level (Jul–Oct mean log chl over t_sd_coast straight from `conditions_daily`; day
+trips' hit rates). Sensor offset from the two overlap summers (2012, 2013): VIIRS − MODIS = +0.875 log
+(×2.4; per-year +0.80 / +0.96); MODIS seasons adjusted by it. 2010 and 2011 (MODIS, adjusted 2.9 and
+2.3 mg/m³) were green and cold (pier 63.7 / 64.8 °F) with 1.3 % / 4.1 % hit rates.
+Spearman, 14 seasons 2010–2023: chl vs all-trip rate −0.85, vs warm-water rate −0.82; pier °F vs rate
++0.82. Recomputed on this season summary, 2012–2023 gives −0.78 (D-052's −0.89 used the trip-visible
+120-day means — a different summary; −0.78 is the more conservative figure). Partial (rank) correlations:
+chl vs rate given pier −0.80; pier vs rate given chl +0.76; chl vs pier −0.57. Reading: season clarity
+and season water temperature are two largely separate drivers of how good a yellowtail season is at
+La Jolla (warm + clear = strong season). Caveats: 14 seasons; sensor offsets estimated from 2 years;
+the 2021 NOAA-20 switch is not cross-calibrated. Descriptive only; no new trip-level model scored.
